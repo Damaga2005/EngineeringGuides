@@ -612,6 +612,20 @@ export function buildCatalog() {
     fs.mkdirSync(publicDir, { recursive: true });
   }
   
+  let existingGuidesMap = {};
+  if (fs.existsSync(OUTPUT_FILE)) {
+    try {
+      const existingData = JSON.parse(fs.readFileSync(OUTPUT_FILE, 'utf-8'));
+      if (existingData && Array.isArray(existingData.guides)) {
+        existingData.guides.forEach(g => {
+          existingGuidesMap[g.filename] = g;
+        });
+      }
+    } catch (e) {
+      console.warn('Could not parse existing guides.json, creating fresh catalog.');
+    }
+  }
+
   const files = fs.readdirSync(GUIDES_DIR)
     .filter(f => f.toLowerCase().endsWith('.pdf'))
     .sort();
@@ -626,25 +640,28 @@ export function buildCatalog() {
     
     totalSizeBytes += stat.size;
     
-    // Check if we have curated metadata for this guide
+    const id = `guide-${String(index + 1).padStart(3, '0')}`;
+    const existing = existingGuidesMap[filename];
     const curated = GUIDE_DATABASE[filename] || getFallbackData(filename, title, categoryId);
     
-    const finalTitle = curated.customTitle || title;
-    const summary = curated.summary;
-    const subtitle = curated.subtitle;
-    const keyProjects = curated.keyProjects || [];
-    const bom = curated.bom || [];
-    const image = curated.image;
-    const difficulty = curated.difficulty || "Intermedio / Avanzado";
-    const pageCount = curated.pageCount || 15;
-    const buildTimeTotal = curated.buildTimeTotal || "2-4 semanas";
-    const estimatedBudget = curated.estimatedBudget || "$100 - $200";
+    const finalTitle = existing?.title || curated.customTitle || title;
+    const summary = existing?.summary || curated.summary;
+    const subtitle = existing?.subtitle || curated.subtitle;
+    const keyProjects = (existing?.keyProjects && existing.keyProjects.length > 0) ? existing.keyProjects : (curated.keyProjects || []);
+    const bom = (existing?.bom && existing.bom.length > 0) ? existing.bom : (curated.bom || []);
+    const image = existing?.image || `covers/${id}.png`;
+    const difficulty = existing?.difficulty || curated.difficulty || "Intermedio / Avanzado";
+    const pageCount = existing?.pageCount || curated.pageCount || 15;
+    const buildTimeTotal = existing?.buildTimeTotal || curated.buildTimeTotal || "2-4 semanas";
+    const estimatedBudget = existing?.estimatedBudget || curated.estimatedBudget || "$100 - $200";
     
     // Flatten keyPoints strings for quick card views
-    const keyPoints = keyProjects.map(p => `${p.id}. ${p.title} (${p.cost || ''}) — ${p.description.slice(0, 90)}...`);
+    const keyPoints = existing?.keyPoints && existing.keyPoints.length > 0 
+      ? existing.keyPoints 
+      : keyProjects.map(p => `${p.id}. ${p.title} (${p.cost || ''}) — ${p.description ? p.description.slice(0, 90) : ''}...`);
 
     return {
-      id: `guide-${String(index + 1).padStart(3, '0')}`,
+      id,
       filename,
       title: finalTitle,
       subtitle,
@@ -657,12 +674,12 @@ export function buildCatalog() {
       keyProjects,
       bom,
       keyPoints,
-      technologies: tags,
+      technologies: existing?.technologies || tags,
       relativePath: `Engineering guides/${filename}`,
       sizeBytes: stat.size,
       sizeFormatted: formatSize(stat.size),
-      categoryId,
-      tags,
+      categoryId: existing?.categoryId || categoryId,
+      tags: existing?.tags || tags,
       lastModified: stat.mtime.toISOString()
     };
   });

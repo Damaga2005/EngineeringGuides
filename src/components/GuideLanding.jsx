@@ -63,6 +63,7 @@ export default function GuideLanding({
 
   const baseUrl = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
   const pdfUrl = `${baseUrl}Engineering guides/${encodeURIComponent(guide.filename)}`;
+  const imageUrl = guide.image?.startsWith('http') ? guide.image : `${baseUrl}${guide.image}`;
 
   // Find previous and next guides
   const currentIndex = allGuides.findIndex(g => g.id === guide.id);
@@ -154,94 +155,141 @@ export default function GuideLanding({
       {/* Main Container */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
         
-        {/* Hero Section with Contextual Image */}
-        <div className="relative rounded-3xl overflow-hidden border border-slate-800/90 shadow-2xl bg-slate-950 mb-8 group">
+        {/* Hero Section with Official PDF Dossier Card */}
+        <div className="glass-panel rounded-3xl border border-slate-800/90 shadow-2xl p-6 sm:p-8 md:p-10 mb-8 relative overflow-hidden">
           
-          {/* Background Image with Gradient Overlay */}
-          <div className="relative h-64 sm:h-80 md:h-96 w-full overflow-hidden">
-            <img 
-              src={guide.image} 
-              alt={guide.title}
-              className="w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-700 filter brightness-75 contrast-110"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#0B0F19] via-[#0B0F19]/70 to-transparent" />
-            <div className="absolute inset-0 bg-gradient-to-r from-[#0B0F19]/90 via-[#0B0F19]/40 to-transparent" />
+          {/* Subtle background glow */}
+          <div className="absolute top-0 right-0 w-96 h-96 bg-cyan-500/5 rounded-full blur-3xl pointer-events-none" />
+
+          <div className="flex flex-col md:flex-row items-center md:items-start gap-8 relative z-10">
+            
+            {/* Real PDF Cover Preview Card */}
+            <div className="w-48 sm:w-56 md:w-64 flex-shrink-0">
+              <div className="relative rounded-2xl overflow-hidden border-2 border-slate-700/80 shadow-2xl shadow-black/80 bg-slate-950 group">
+                <img 
+                  src={imageUrl} 
+                  alt={guide.title}
+                  onError={(e) => {
+                    e.currentTarget.onerror = null;
+                    e.currentTarget.src = `${baseUrl}favicon.svg`;
+                  }}
+                  className="w-full h-auto object-contain transition-transform duration-500 group-hover:scale-105" 
+                />
+                <div className="absolute bottom-2 left-2 right-2 flex items-center justify-between bg-slate-950/90 backdrop-blur-md px-2.5 py-1.5 rounded-lg border border-slate-800 text-[10px] font-mono text-cyan-300">
+                  <span className="flex items-center gap-1">
+                    <FileText className="h-3 w-3" /> Portada Oficial
+                  </span>
+                  <span>{guide.pageCount || 16} págs</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Title, Badges & Overview */}
+            <div className="flex-1 min-w-0 flex flex-col justify-between">
+              
+              <div>
+                {/* Badges Bar */}
+                <div className="flex items-center gap-2 sm:gap-2.5 flex-wrap mb-3.5">
+                  <span className="text-xs font-semibold px-3 py-1 rounded-xl bg-slate-900 text-cyan-300 border border-cyan-800/60 flex items-center gap-1.5 shadow-sm">
+                    <CategoryIcon className="h-3.5 w-3.5 text-cyan-400" />
+                    {category.name}
+                  </span>
+
+                  {guide.difficulty && (
+                    <span className={`text-xs font-semibold px-3 py-1 rounded-xl border ${difficultyColor} shadow-sm`}>
+                      {guide.difficulty}
+                    </span>
+                  )}
+
+                  {guide.estimatedBudget && (
+                    <span className="text-xs font-mono px-3 py-1 rounded-xl bg-slate-900 text-emerald-300 border border-emerald-800/50 flex items-center gap-1 shadow-sm">
+                      <DollarSign className="h-3.5 w-3.5 text-emerald-400" />
+                      {guide.estimatedBudget}
+                    </span>
+                  )}
+
+                  {guide.buildTimeTotal && (
+                    <span className="text-xs font-mono px-3 py-1 rounded-xl bg-slate-900 text-slate-300 border border-slate-800 flex items-center gap-1 shadow-sm">
+                      <Clock className="h-3.5 w-3.5 text-slate-400" />
+                      {guide.buildTimeTotal}
+                    </span>
+                  )}
+
+                  <span className="text-xs font-mono px-3 py-1 rounded-xl bg-slate-900 text-slate-300 border border-slate-800 flex items-center gap-1 shadow-sm">
+                    <HardDrive className="h-3.5 w-3.5 text-cyan-400" />
+                    {guide.sizeFormatted}
+                  </span>
+                </div>
+
+                {/* Title */}
+                <h1 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white tracking-tight leading-tight">
+                  {guide.title}
+                </h1>
+
+                {/* Subtitle */}
+                {guide.subtitle && (
+                  <p className="mt-2 text-sm sm:text-base text-cyan-300/90 font-medium leading-relaxed">
+                    {guide.subtitle}
+                  </p>
+                )}
+
+                {/* Short pitch */}
+                {guide.summary && (
+                  <p className="mt-3 text-xs sm:text-sm text-slate-400 leading-relaxed max-w-3xl">
+                    {guide.summary}
+                  </p>
+                )}
+              </div>
+
+              {/* Action Buttons in Hero */}
+              <div className="mt-6 flex items-center gap-3 flex-wrap">
+                <button
+                  onClick={() => setActiveTab('pdf')}
+                  className="px-5 py-2.5 rounded-xl bg-cyan-600 hover:bg-cyan-500 text-white text-xs sm:text-sm font-bold shadow-lg shadow-cyan-600/25 transition-all flex items-center gap-2"
+                >
+                  <Eye className="h-4 w-4" />
+                  <span>Leer Documento Oficial en PDF</span>
+                </button>
+
+                <a
+                  href={pdfUrl}
+                  download={guide.filename}
+                  className="px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs sm:text-sm font-semibold border border-slate-700 transition-all flex items-center gap-2"
+                >
+                  <Download className="h-4 w-4" />
+                  <span>Descargar Archivo</span>
+                </a>
+              </div>
+
+            </div>
+
           </div>
 
-          {/* Hero Content Overlay */}
-          <div className="absolute bottom-0 inset-x-0 p-6 sm:p-8 md:p-10 flex flex-col justify-end">
-            
-            {/* Badges Bar */}
-            <div className="flex items-center gap-2 sm:gap-3 flex-wrap mb-3">
-              <span className="text-xs font-semibold px-3 py-1 rounded-xl bg-slate-900/90 text-cyan-300 border border-cyan-800/60 flex items-center gap-1.5 shadow-md">
-                <CategoryIcon className="h-3.5 w-3.5 text-cyan-400" />
-                {category.name}
-              </span>
+          {/* Mode Switcher Tabs */}
+          <div className="mt-8 flex items-center gap-2 border-b border-slate-800/80 pt-2">
+            <button
+              onClick={() => setActiveTab('overview')}
+              className={`flex items-center gap-2 px-4 py-2.5 rounded-t-xl text-xs sm:text-sm font-semibold transition-all ${
+                activeTab === 'overview'
+                  ? 'bg-slate-900 text-cyan-400 border-t-2 border-cyan-400 border-x border-slate-800'
+                  : 'text-slate-400 hover:text-slate-200 hover:bg-slate-900/50'
+              }`}
+            >
+              <Sparkles className="h-4 w-4" />
+              <span>Ficha Técnica, Proyectos & Lista BOM</span>
+            </button>
 
-              {guide.difficulty && (
-                <span className={`text-xs font-semibold px-3 py-1 rounded-xl border ${difficultyColor} shadow-md`}>
-                  {guide.difficulty}
-                </span>
-              )}
-
-              {guide.estimatedBudget && (
-                <span className="text-xs font-mono px-3 py-1 rounded-xl bg-slate-900/90 text-emerald-300 border border-emerald-800/50 flex items-center gap-1">
-                  <DollarSign className="h-3.5 w-3.5 text-emerald-400" />
-                  Presupuesto: {guide.estimatedBudget}
-                </span>
-              )}
-
-              {guide.buildTimeTotal && (
-                <span className="text-xs font-mono px-3 py-1 rounded-xl bg-slate-900/90 text-slate-300 border border-slate-800 flex items-center gap-1">
-                  <Clock className="h-3.5 w-3.5 text-slate-400" />
-                  {guide.buildTimeTotal}
-                </span>
-              )}
-
-              <span className="text-xs font-mono px-3 py-1 rounded-xl bg-slate-900/90 text-slate-300 border border-slate-800 flex items-center gap-1">
-                <Layers className="h-3.5 w-3.5 text-cyan-400" />
-                {guide.pageCount || 16} páginas
-              </span>
-            </div>
-
-            {/* Title & Subtitle */}
-            <h1 className="text-2xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-tight max-w-4xl drop-shadow-md">
-              {guide.title}
-            </h1>
-
-            {guide.subtitle && (
-              <p className="mt-2 text-sm sm:text-lg text-cyan-300/90 font-medium max-w-3xl drop-shadow">
-                {guide.subtitle}
-              </p>
-            )}
-
-            {/* Mode Switcher Tabs */}
-            <div className="mt-6 flex items-center gap-2 border-b border-slate-800/80 pt-2">
-              <button
-                onClick={() => setActiveTab('overview')}
-                className={`flex items-center gap-2 px-4 py-2.5 rounded-t-xl text-xs sm:text-sm font-semibold transition-all ${
-                  activeTab === 'overview'
-                    ? 'bg-slate-900 text-cyan-400 border-t-2 border-cyan-400 border-x border-slate-800'
-                    : 'text-slate-400 hover:text-slate-200 hover:bg-slate-900/50'
-                }`}
-              >
-                <Sparkles className="h-4 w-4" />
-                <span>Ficha del Proyecto & Datos Extraídos</span>
-              </button>
-
-              <button
-                onClick={() => setActiveTab('pdf')}
-                className={`flex items-center gap-2 px-4 py-2.5 rounded-t-xl text-xs sm:text-sm font-semibold transition-all ${
-                  activeTab === 'pdf'
-                    ? 'bg-slate-900 text-cyan-400 border-t-2 border-cyan-400 border-x border-slate-800'
-                    : 'text-slate-400 hover:text-slate-200 hover:bg-slate-900/50'
-                }`}
-              >
-                <FileText className="h-4 w-4" />
-                <span>Leer PDF Oficial Original</span>
-              </button>
-            </div>
-
+            <button
+              onClick={() => setActiveTab('pdf')}
+              className={`flex items-center gap-2 px-4 py-2.5 rounded-t-xl text-xs sm:text-sm font-semibold transition-all ${
+                activeTab === 'pdf'
+                  ? 'bg-slate-900 text-cyan-400 border-t-2 border-cyan-400 border-x border-slate-800'
+                  : 'text-slate-400 hover:text-slate-200 hover:bg-slate-900/50'
+              }`}
+            >
+              <FileText className="h-4 w-4" />
+              <span>Visor PDF Integrado</span>
+            </button>
           </div>
 
         </div>

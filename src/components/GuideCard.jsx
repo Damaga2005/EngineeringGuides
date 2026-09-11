@@ -45,6 +45,7 @@ export default function GuideCard({
 
   const baseUrl = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
   const pdfUrl = `${baseUrl}Engineering guides/${encodeURIComponent(guide.filename)}`;
+  const imageUrl = guide.image?.startsWith('http') ? guide.image : `${baseUrl}${guide.image}`;
 
   const difficultyColor = 
     guide.difficulty?.includes('Principiante') ? 'text-emerald-400 bg-emerald-950/60 border-emerald-700/50' :
@@ -62,15 +63,19 @@ export default function GuideCard({
             {/* Thumbnail Preview */}
             <div 
               onClick={() => onOpenLanding(guide)}
-              className="w-20 h-20 rounded-xl overflow-hidden flex-shrink-0 relative border border-slate-700/80 cursor-pointer group-hover:border-cyan-500/60 transition-all"
+              className="w-20 h-24 rounded-xl overflow-hidden flex-shrink-0 relative border border-slate-700/80 cursor-pointer group-hover:border-cyan-500/60 transition-all bg-slate-950"
             >
               <img 
-                src={guide.image} 
+                src={imageUrl} 
                 alt={guide.title}
-                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
+                onError={(e) => {
+                  e.currentTarget.onerror = null;
+                  e.currentTarget.src = `${baseUrl}favicon.svg`;
+                }}
+                className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500" 
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-              <div className="absolute bottom-1 right-1 p-1 bg-slate-900/80 rounded text-cyan-400">
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
+              <div className="absolute bottom-1 right-1 p-1 bg-slate-900/90 rounded text-cyan-400 border border-slate-700">
                 <CategoryIcon className="h-3 w-3" />
               </div>
             </div>
@@ -196,14 +201,18 @@ export default function GuideCard({
       {/* Image Preview Header */}
       <div 
         onClick={() => onOpenLanding(guide)}
-        className="relative h-44 w-full overflow-hidden cursor-pointer border-b border-slate-800"
+        className="relative h-48 w-full overflow-hidden cursor-pointer border-b border-slate-800 bg-slate-950"
       >
         <img 
-          src={guide.image} 
+          src={imageUrl} 
           alt={guide.title}
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" 
+          onError={(e) => {
+            e.currentTarget.onerror = null;
+            e.currentTarget.src = `${baseUrl}favicon.svg`;
+          }}
+          className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500" 
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0B0F19] via-transparent to-black/30" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#0B0F19] via-transparent to-black/20 pointer-events-none" />
         
         {/* Floating Category Badge */}
         <div className="absolute top-3 left-3 flex items-center gap-2">
