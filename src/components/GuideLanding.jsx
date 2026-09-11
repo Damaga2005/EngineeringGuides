@@ -63,6 +63,15 @@ export default function GuideLanding({
     title: ''
   });
 
+  const baseUrl = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
+  const pdfUrl = guide?.filename ? `${baseUrl}Engineering guides/${encodeURIComponent(guide.filename)}` : '';
+  const imageUrl = guide?.image?.startsWith('http') ? guide.image : `${baseUrl}${guide?.image || ''}`;
+
+  // Find previous and next guides safely before any hooks reference them
+  const currentIndex = allGuides && guide ? allGuides.findIndex(g => g.id === guide.id) : -1;
+  const prevGuide = currentIndex > 0 ? allGuides[currentIndex - 1] : null;
+  const nextGuide = allGuides && currentIndex >= 0 && currentIndex < allGuides.length - 1 ? allGuides[currentIndex + 1] : null;
+
   // Scroll to top when guide changes
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -86,21 +95,12 @@ export default function GuideLanding({
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [guide?.id, prevGuide?.id, nextGuide?.id, imageViewerState.isOpen]);
+  }, [guide?.id, prevGuide?.id, nextGuide?.id, imageViewerState.isOpen, onSelectGuide]);
 
   if (!guide) return null;
 
   const category = CATEGORY_DEFINITIONS.find(c => c.id === guide.categoryId) || CATEGORY_DEFINITIONS[CATEGORY_DEFINITIONS.length - 1];
   const CategoryIcon = ICON_MAP[category.icon] || FileText;
-
-  const baseUrl = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
-  const pdfUrl = `${baseUrl}Engineering guides/${encodeURIComponent(guide.filename)}`;
-  const imageUrl = guide.image?.startsWith('http') ? guide.image : `${baseUrl}${guide.image}`;
-
-  // Find previous and next guides
-  const currentIndex = allGuides.findIndex(g => g.id === guide.id);
-  const prevGuide = currentIndex > 0 ? allGuides[currentIndex - 1] : null;
-  const nextGuide = currentIndex < allGuides.length - 1 ? allGuides[currentIndex + 1] : null;
 
   const handleShare = () => {
     const url = window.location.href;
