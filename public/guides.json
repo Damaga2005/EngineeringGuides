@@ -1,0 +1,519 @@
+{
+  "generatedAt": "2026-09-11T22:17:35.888Z",
+  "totalGuides": 31,
+  "totalSizeBytes": 27042806,
+  "totalSizeFormatted": "25.8 MB",
+  "categories": [
+    {
+      "id": "aerospace",
+      "name": "Aerospace & Satellites",
+      "icon": "Rocket",
+      "color": "from-cyan-500 to-blue-600",
+      "keywords": [
+        "satellite",
+        "space",
+        "sky",
+        "eavesdrop"
+      ]
+    },
+    {
+      "id": "robotics-drones",
+      "name": "Robotics & Drones",
+      "icon": "Bot",
+      "color": "from-amber-500 to-orange-600",
+      "keywords": [
+        "drone",
+        "drones",
+        "precision",
+        "move with precision",
+        "ohmie"
+      ]
+    },
+    {
+      "id": "cs-ai",
+      "name": "CS, AI & Machine Learning",
+      "icon": "Cpu",
+      "color": "from-purple-500 to-indigo-600",
+      "keywords": [
+        "cs",
+        "ai",
+        "ml",
+        "think for themselves",
+        "embodiment",
+        "machine learning"
+      ]
+    },
+    {
+      "id": "electronics",
+      "name": "Electronics & Hardware",
+      "icon": "Zap",
+      "color": "from-yellow-500 to-amber-600",
+      "keywords": [
+        "electronics",
+        "learn-electronics",
+        "glow-up",
+        "radio",
+        "light",
+        "read the body",
+        "invisible",
+        "survive"
+      ]
+    },
+    {
+      "id": "career",
+      "name": "Career & Portfolio",
+      "icon": "Briefcase",
+      "color": "from-emerald-500 to-teal-600",
+      "keywords": [
+        "portfolio",
+        "recruiter",
+        "overeducated",
+        "guide engineers",
+        "follow"
+      ]
+    },
+    {
+      "id": "ee-general",
+      "name": "Electrical Engineering",
+      "icon": "Compass",
+      "color": "from-blue-500 to-indigo-600",
+      "keywords": [
+        "ee",
+        "engineering"
+      ]
+    }
+  ],
+  "guides": [
+    {
+      "id": "guide-001",
+      "filename": "(PART 20) 6_Engineering_Projects_That_See_Everything_Coming.pdf",
+      "title": "6 Engineering Projects that See Everything Coming (Part 20)",
+      "relativePath": "Engineering guides/(PART 20) 6_Engineering_Projects_That_See_Everything_Coming.pdf",
+      "sizeBytes": 1252014,
+      "sizeFormatted": "1.2 MB",
+      "categoryId": "ee-general",
+      "tags": [
+        "Engineering"
+      ],
+      "lastModified": "2026-09-11T22:12:17.641Z"
+    },
+    {
+      "id": "guide-002",
+      "filename": "(PART 21) 6_Upgrades_Your_Drone_Is_Missing.pdf",
+      "title": "6 Upgrades Your Drone Is Missing (Part 21)",
+      "relativePath": "Engineering guides/(PART 21) 6_Upgrades_Your_Drone_Is_Missing.pdf",
+      "sizeBytes": 1628475,
+      "sizeFormatted": "1.6 MB",
+      "categoryId": "robotics-drones",
+      "tags": [
+        "Drones",
+        "UAV"
+      ],
+      "lastModified": "2026-09-11T22:12:17.652Z"
+    },
+    {
+      "id": "guide-003",
+      "filename": "6 EE Projects That Build a Real Satellite.pdf",
+      "title": "6 EE Projects that Build a Real Satellite",
+      "relativePath": "Engineering guides/6 EE Projects That Build a Real Satellite.pdf",
+      "sizeBytes": 403388,
+      "sizeFormatted": "393.9 KB",
+      "categoryId": "aerospace",
+      "tags": [
+        "Aerospace",
+        "Satellites"
+      ],
+      "lastModified": "2026-09-11T22:12:17.657Z"
+    },
+    {
+      "id": "guide-004",
+      "filename": "6 EE Projects That Eavesdrop On The Sky.pdf",
+      "title": "6 EE Projects that Eavesdrop on the Sky",
+      "relativePath": "Engineering guides/6 EE Projects That Eavesdrop On The Sky.pdf",
+      "sizeBytes": 389843,
+      "sizeFormatted": "380.7 KB",
+      "categoryId": "aerospace",
+      "tags": [
+        "Engineering"
+      ],
+      "lastModified": "2026-09-11T22:12:17.660Z"
+    },
+    {
+      "id": "guide-005",
+      "filename": "6 EE Projects That Move With Precision.pdf",
+      "title": "6 EE Projects that Move with Precision",
+      "relativePath": "Engineering guides/6 EE Projects That Move With Precision.pdf",
+      "sizeBytes": 1151406,
+      "sizeFormatted": "1.1 MB",
+      "categoryId": "robotics-drones",
+      "tags": [
+        "Motion Control",
+        "Motors"
+      ],
+      "lastModified": "2026-09-11T22:12:17.671Z"
+    },
+    {
+      "id": "guide-006",
+      "filename": "6 EE Projects That Put You on a Drone Team.pdf",
+      "title": "6 EE Projects that Put You on a Drone Team",
+      "relativePath": "Engineering guides/6 EE Projects That Put You on a Drone Team.pdf",
+      "sizeBytes": 136773,
+      "sizeFormatted": "133.6 KB",
+      "categoryId": "robotics-drones",
+      "tags": [
+        "Drones",
+        "UAV"
+      ],
+      "lastModified": "2026-09-11T22:12:17.674Z"
+    },
+    {
+      "id": "guide-007",
+      "filename": "6 EE Projects That Reach Space.pdf",
+      "title": "6 EE Projects that Reach Space",
+      "relativePath": "Engineering guides/6 EE Projects That Reach Space.pdf",
+      "sizeBytes": 398889,
+      "sizeFormatted": "389.5 KB",
+      "categoryId": "aerospace",
+      "tags": [
+        "Aerospace",
+        "Satellites"
+      ],
+      "lastModified": "2026-09-11T22:12:17.678Z"
+    },
+    {
+      "id": "guide-008",
+      "filename": "6 EE Projects That Read The Body.pdf",
+      "title": "6 EE Projects that Read the Body",
+      "relativePath": "Engineering guides/6 EE Projects That Read The Body.pdf",
+      "sizeBytes": 1261198,
+      "sizeFormatted": "1.2 MB",
+      "categoryId": "electronics",
+      "tags": [
+        "Bioelectronics",
+        "Sensors"
+      ],
+      "lastModified": "2026-09-11T22:12:17.683Z"
+    },
+    {
+      "id": "guide-009",
+      "filename": "6 EE Projects That See With Light.pdf",
+      "title": "6 EE Projects that See with Light",
+      "relativePath": "Engineering guides/6 EE Projects That See With Light.pdf",
+      "sizeBytes": 1155316,
+      "sizeFormatted": "1.1 MB",
+      "categoryId": "electronics",
+      "tags": [
+        "Optics",
+        "Photonics"
+      ],
+      "lastModified": "2026-09-11T22:12:17.688Z"
+    },
+    {
+      "id": "guide-010",
+      "filename": "6 EE Projects That See With Radio.pdf",
+      "title": "6 EE Projects that See with Radio",
+      "relativePath": "Engineering guides/6 EE Projects That See With Radio.pdf",
+      "sizeBytes": 1138214,
+      "sizeFormatted": "1.1 MB",
+      "categoryId": "electronics",
+      "tags": [
+        "RF & SDR",
+        "Wireless"
+      ],
+      "lastModified": "2026-09-11T22:12:17.695Z"
+    },
+    {
+      "id": "guide-011",
+      "filename": "6_EE_Projects_That_See_The_Invisible_dark_ops.pdf",
+      "title": "6 EE Projects that See the Invisible Dark Ops",
+      "relativePath": "Engineering guides/6_EE_Projects_That_See_The_Invisible_dark_ops.pdf",
+      "sizeBytes": 1280062,
+      "sizeFormatted": "1.2 MB",
+      "categoryId": "electronics",
+      "tags": [
+        "Radar/IR",
+        "Sensors"
+      ],
+      "lastModified": "2026-09-11T22:12:17.704Z"
+    },
+    {
+      "id": "guide-012",
+      "filename": "6_EE_Projects_That_See_The_Invisible_revised.pdf",
+      "title": "6 EE Projects that See the Invisible Revised",
+      "relativePath": "Engineering guides/6_EE_Projects_That_See_The_Invisible_revised.pdf",
+      "sizeBytes": 3334548,
+      "sizeFormatted": "3.2 MB",
+      "categoryId": "electronics",
+      "tags": [
+        "Radar/IR",
+        "Sensors"
+      ],
+      "lastModified": "2026-09-11T22:12:17.726Z"
+    },
+    {
+      "id": "guide-013",
+      "filename": "6_EE_Projects_That_Think_For_Themselves.pdf",
+      "title": "6 EE Projects that Think for Themselves",
+      "relativePath": "Engineering guides/6_EE_Projects_That_Think_For_Themselves.pdf",
+      "sizeBytes": 1441350,
+      "sizeFormatted": "1.4 MB",
+      "categoryId": "cs-ai",
+      "tags": [
+        "Engineering"
+      ],
+      "lastModified": "2026-09-11T22:12:17.737Z"
+    },
+    {
+      "id": "guide-014",
+      "filename": "6_Engineering_Projects_That_Survive_The_Field.pdf",
+      "title": "6 Engineering Projects that Survive the Field",
+      "relativePath": "Engineering guides/6_Engineering_Projects_That_Survive_The_Field.pdf",
+      "sizeBytes": 1338092,
+      "sizeFormatted": "1.3 MB",
+      "categoryId": "electronics",
+      "tags": [
+        "Engineering"
+      ],
+      "lastModified": "2026-09-11T22:12:17.751Z"
+    },
+    {
+      "id": "guide-015",
+      "filename": "6_Upgrades_Your_Drone_Is_Missing.pdf",
+      "title": "6 Upgrades Your Drone Is Missing",
+      "relativePath": "Engineering guides/6_Upgrades_Your_Drone_Is_Missing.pdf",
+      "sizeBytes": 1628475,
+      "sizeFormatted": "1.6 MB",
+      "categoryId": "robotics-drones",
+      "tags": [
+        "Drones",
+        "UAV"
+      ],
+      "lastModified": "2026-09-11T22:12:17.758Z"
+    },
+    {
+      "id": "guide-016",
+      "filename": "LATESTrecruiter_ee_portfolio.pdf",
+      "title": "Latestrecruiter EE Portfolio",
+      "relativePath": "Engineering guides/LATESTrecruiter_ee_portfolio.pdf",
+      "sizeBytes": 1304402,
+      "sizeFormatted": "1.2 MB",
+      "categoryId": "career",
+      "tags": [
+        "Career",
+        "Portfolio"
+      ],
+      "lastModified": "2026-09-11T22:12:17.771Z"
+    },
+    {
+      "id": "guide-017",
+      "filename": "Ohmie-Build-Guide.pdf",
+      "title": "Ohmie Build Guide",
+      "relativePath": "Engineering guides/Ohmie-Build-Guide.pdf",
+      "sizeBytes": 792635,
+      "sizeFormatted": "774.1 KB",
+      "categoryId": "robotics-drones",
+      "tags": [
+        "DIY Build",
+        "Robotics"
+      ],
+      "lastModified": "2026-09-11T22:12:17.779Z"
+    },
+    {
+      "id": "guide-018",
+      "filename": "cs portfolio projects.pdf",
+      "title": "CS Portfolio Projects",
+      "relativePath": "Engineering guides/cs portfolio projects.pdf",
+      "sizeBytes": 1081500,
+      "sizeFormatted": "1.0 MB",
+      "categoryId": "cs-ai",
+      "tags": [
+        "Career",
+        "Portfolio",
+        "Software"
+      ],
+      "lastModified": "2026-09-11T22:12:17.789Z"
+    },
+    {
+      "id": "guide-019",
+      "filename": "dangerously_overeducated_engineer_guide.pdf",
+      "title": "Dangerously Overeducated Engineer Guide",
+      "relativePath": "Engineering guides/dangerously_overeducated_engineer_guide.pdf",
+      "sizeBytes": 18238,
+      "sizeFormatted": "17.8 KB",
+      "categoryId": "career",
+      "tags": [
+        "Engineering"
+      ],
+      "lastModified": "2026-09-11T22:12:17.792Z"
+    },
+    {
+      "id": "guide-020",
+      "filename": "ee ai era projects.pdf",
+      "title": "EE AI Era Projects",
+      "relativePath": "Engineering guides/ee ai era projects.pdf",
+      "sizeBytes": 366848,
+      "sizeFormatted": "358.3 KB",
+      "categoryId": "cs-ai",
+      "tags": [
+        "Embedded AI",
+        "Machine Learning"
+      ],
+      "lastModified": "2026-09-11T22:12:17.795Z"
+    },
+    {
+      "id": "guide-021",
+      "filename": "ee defense tech part2.pdf",
+      "title": "EE Defense Tech PART2",
+      "relativePath": "Engineering guides/ee defense tech part2.pdf",
+      "sizeBytes": 366597,
+      "sizeFormatted": "358.0 KB",
+      "categoryId": "ee-general",
+      "tags": [
+        "Defense Tech"
+      ],
+      "lastModified": "2026-09-11T22:12:17.800Z"
+    },
+    {
+      "id": "guide-022",
+      "filename": "ee physical ai embodiment.pdf",
+      "title": "EE Physical AI Embodiment",
+      "relativePath": "Engineering guides/ee physical ai embodiment.pdf",
+      "sizeBytes": 607376,
+      "sizeFormatted": "593.1 KB",
+      "categoryId": "cs-ai",
+      "tags": [
+        "Embedded AI",
+        "Machine Learning"
+      ],
+      "lastModified": "2026-09-11T22:12:17.805Z"
+    },
+    {
+      "id": "guide-023",
+      "filename": "ee_portfolio_projects.pdf",
+      "title": "EE Portfolio Projects",
+      "relativePath": "Engineering guides/ee_portfolio_projects.pdf",
+      "sizeBytes": 28136,
+      "sizeFormatted": "27.5 KB",
+      "categoryId": "career",
+      "tags": [
+        "Career",
+        "Portfolio"
+      ],
+      "lastModified": "2026-09-11T22:12:17.807Z"
+    },
+    {
+      "id": "guide-024",
+      "filename": "follow @1nska.pdf",
+      "title": "Follow @1nska",
+      "relativePath": "Engineering guides/follow @1nska.pdf",
+      "sizeBytes": 20534,
+      "sizeFormatted": "20.1 KB",
+      "categoryId": "career",
+      "tags": [
+        "Engineering"
+      ],
+      "lastModified": "2026-09-11T22:12:17.808Z"
+    },
+    {
+      "id": "guide-025",
+      "filename": "how-to-learn-electronics-from-zero.pdf",
+      "title": "How to Learn Electronics from Zero",
+      "relativePath": "Engineering guides/how-to-learn-electronics-from-zero.pdf",
+      "sizeBytes": 58969,
+      "sizeFormatted": "57.6 KB",
+      "categoryId": "cs-ai",
+      "tags": [
+        "Circuits",
+        "Fundamentals",
+        "Software"
+      ],
+      "lastModified": "2026-09-11T22:12:17.810Z"
+    },
+    {
+      "id": "guide-026",
+      "filename": "me_portfolio_projects.pdf",
+      "title": "ME Portfolio Projects",
+      "relativePath": "Engineering guides/me_portfolio_projects.pdf",
+      "sizeBytes": 889487,
+      "sizeFormatted": "868.6 KB",
+      "categoryId": "career",
+      "tags": [
+        "Career",
+        "Portfolio"
+      ],
+      "lastModified": "2026-09-11T22:12:17.818Z"
+    },
+    {
+      "id": "guide-027",
+      "filename": "ml guide engineers.pdf",
+      "title": "ML Guide Engineers",
+      "relativePath": "Engineering guides/ml guide engineers.pdf",
+      "sizeBytes": 19668,
+      "sizeFormatted": "19.2 KB",
+      "categoryId": "cs-ai",
+      "tags": [
+        "Embedded AI",
+        "Machine Learning"
+      ],
+      "lastModified": "2026-09-11T22:12:17.819Z"
+    },
+    {
+      "id": "guide-028",
+      "filename": "summer-ee-glow-up-light.pdf",
+      "title": "Summer EE Glow Up Light",
+      "relativePath": "Engineering guides/summer-ee-glow-up-light.pdf",
+      "sizeBytes": 62051,
+      "sizeFormatted": "60.6 KB",
+      "categoryId": "electronics",
+      "tags": [
+        "Circuits",
+        "Fundamentals",
+        "Optics",
+        "Photonics"
+      ],
+      "lastModified": "2026-09-11T22:12:17.821Z"
+    },
+    {
+      "id": "guide-029",
+      "filename": "summer-ee-glow-up-vol2.pdf",
+      "title": "Summer EE Glow Up Vol2",
+      "relativePath": "Engineering guides/summer-ee-glow-up-vol2.pdf",
+      "sizeBytes": 64038,
+      "sizeFormatted": "62.5 KB",
+      "categoryId": "electronics",
+      "tags": [
+        "Circuits",
+        "Fundamentals"
+      ],
+      "lastModified": "2026-09-11T22:12:17.822Z"
+    },
+    {
+      "id": "guide-030",
+      "filename": "summer-ee-glow-up-vol3.pdf",
+      "title": "Summer EE Glow Up Vol3",
+      "relativePath": "Engineering guides/summer-ee-glow-up-vol3.pdf",
+      "sizeBytes": 69322,
+      "sizeFormatted": "67.7 KB",
+      "categoryId": "electronics",
+      "tags": [
+        "Circuits",
+        "Fundamentals"
+      ],
+      "lastModified": "2026-09-11T22:12:17.824Z"
+    },
+    {
+      "id": "guide-031",
+      "filename": "summer-ee-glow-up-vol4.pdf",
+      "title": "Summer EE Glow Up Vol4",
+      "relativePath": "Engineering guides/summer-ee-glow-up-vol4.pdf",
+      "sizeBytes": 3354962,
+      "sizeFormatted": "3.2 MB",
+      "categoryId": "electronics",
+      "tags": [
+        "Circuits",
+        "Fundamentals"
+      ],
+      "lastModified": "2026-09-11T22:12:17.849Z"
+    }
+  ]
+}
