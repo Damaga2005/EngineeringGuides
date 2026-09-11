@@ -1,4 +1,15 @@
-# ⚡ EngineeringGuides Hub
+# -*- coding: utf-8 -*-
+import os
+
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DOCS_DIR = os.path.join(REPO_ROOT, 'docs')
+os.makedirs(DOCS_DIR, exist_ok=True)
+
+README_PATH = os.path.join(REPO_ROOT, 'README.md')
+ARCH_PATH = os.path.join(DOCS_DIR, 'ARCHITECTURE.md')
+PIPELINE_PATH = os.path.join(DOCS_DIR, 'AUTOMATION_PIPELINE.md')
+
+README_CONTENT = """# ⚡ EngineeringGuides Hub
 
 > **Plataforma Integral de Ingeniería de Hardware, Robótica, Aeroespacial, Sistemas Embebidos e Inteligencia Artificial Física.**
 > 
@@ -289,3 +300,259 @@ Este proyecto está bajo la Licencia **MIT**. Las guías y dossiers técnicos es
 
 *Diseñado y construido con precisión de ingeniería de hardware y software.*  
 **Portal Oficial**: [damaga2005.github.io/EngineeringGuides](https://damaga2005.github.io/EngineeringGuides/)
+"""
+
+ARCHITECTURE_CONTENT = """# 🏛️ Arquitectura de Software y Frontend
+
+Este documento detalla la arquitectura de software, patrones de diseño, gestión de estado y tolerancia a fallos implementados en **EngineeringGuides Hub**.
+
+---
+
+## 🧩 Patrón Arquitectónico
+
+La interfaz de usuario está construida sobre **React 18** empleando un flujo de datos unidireccional y componentes puramente modulares con **Vite 6** como motor de empaquetado ultrarrápido y **Tailwind CSS** para un diseño responsivo.
+
+```
+                           +-------------------+
+                           |      App.jsx      |
+                           +---------+---------+
+                                     |
+           +-------------------------+-------------------------+
+           |                         |                         |
++----------v----------+    +---------v---------+    +----------v----------+
+|     Navbar.jsx      |    | SearchFilter.jsx  |    |  ErrorBoundary.jsx  |
++---------------------+    +-------------------+    +----------+----------+
+                                                               |
+                                            +------------------+------------------+
+                                            |                                     |
+                                 +----------v----------+               +----------v----------+
+                                 |   GuideCard.jsx     |               |   GuideLanding.jsx  |
+                                 +---------------------+               +----------+----------+
+                                                                                  |
+                                                                       +----------v----------+
+                                                                       | ProjectBuildGuide   |
+                                                                       +----------+----------+
+                                                                                  |
+                                                                       +----------v----------+
+                                                                       | ImageViewerModal    |
+                                                                       +---------------------+
+```
+
+---
+
+## 🔀 Sistema de Enrutamiento Reactivo por Hash
+
+En entornos de alojamiento estático como **GitHub Pages**, las rutas de servidor convencionales (`/guide/guide-001`) suelen provocar errores `404 Not Found` al recargar la página o al navegar directamente mediante enlaces compartidos, a menos que se configure un servidor con reescritura de URLs.
+
+Para resolver esto de forma limpia y sin dependencias de servidor:
+- Se implementó un enrutamiento por hash (`window.location.hash`).
+- **Ruta Catálogo**: `#/`
+- **Ruta Landing**: `#/guide/:guideId` (ej. `#/guide/guide-003`)
+- `App.jsx` sincroniza el estado local escuchando el evento nativo `hashchange`.
+- Si el usuario accede a una guía que no existe, se renderiza un estado 404 integrado con un botón que permite restablecer la navegación al catálogo.
+
+---
+
+## 🛡️ Capa de Tolerancia a Fallos (`ErrorBoundary.jsx`)
+
+Para garantizar que ningún fallo imprevisto de renderizado (incompatibilidad de extensiones, errores en parsers SVG o datos corruptos) deje la pantalla en blanco:
+- Todo el renderizado de landings y componentes técnicos está envuelto en `ErrorBoundary`.
+- Si se produce un error en el árbol de componentes:
+  1. Se captura la excepción y se registra en la consola.
+  2. Se sustituye la vista por un panel de diagnóstico de alta fidelidad que explica claramente el motivo del fallo.
+  3. Se preserva el estado almacenado en `localStorage` (favoritos y checklists de montaje).
+  4. Se proporciona un botón de recuperación para volver al catálogo sin recargar la aplicación completa.
+
+---
+
+## 🎨 Sistema de Diseño y Tokens CSS
+
+La estética sigue la temática **Cyber-Engineering Dark Mode** con soporte de efectos Glassmorphism:
+
+- **Fondo Primario**: `#0B0F19` (Azul espacial profundo).
+- **Paneles Glassmorphism**: Fondo con transparencia `rgba(15, 23, 42, 0.75)`, filtro `backdrop-blur-md` y bordes sutiles `rgba(51, 65, 85, 0.6)`.
+- **Acentos Semánticos**:
+  - `Cian (#06B6D4)`: Selección primaria, enlaces activos, líneas de datos SDA, componentes MCU.
+  - `Ámbar (#F59E0B)`: Alertas de seguridad, advertencias térmicas, líneas TX, número de proyectos.
+  - `Esmeralda (#10B981)`: Líneas de alimentación VCC, badges de dificultad Principiante, costes económicos BOM.
+  - `Púrpura (#A855F7)`: Reloj SCL, inteligencia artificial y machine learning.
+
+---
+
+## 💾 Persistencia en Cliente (Web Storage API)
+
+Sin necesidad de bases de datos externas o autenticación obligatoria, la plataforma persiste la actividad del ingeniero:
+- **Favoritos**: Array de IDs de guías guardado en `localStorage.getItem('engineering_guides_favorites')`.
+- **Checklist de Montaje de Subproyectos**: Registro booleano de pasos completados guardado en `localStorage.getItem('build_check_{projectId}')`.
+"""
+
+PIPELINE_CONTENT = """# ⚙️ Pipeline de Automatización y Extracción Técnica
+
+Este documento detalla el motor de extracción basado en Python, la generación programática de esquemas de circuito vectoriales SVG y el flujo de integración continua.
+
+---
+
+## 🔬 Motor de Minería de Datos (`scripts/extract_official_and_build_manuals.py`)
+
+El script se apoya en **PyMuPDF (`fitz`)** para realizar minería profunda sobre los 31 PDFs del repositorio:
+
+### 1. Detección Heurística de Subproyectos
+Cada guía técnica contiene entre 4 y 6 proyectos principales. El motor escanea el texto página a página buscando patrones de frontera:
+
+```python
+PROJECT_PATTERN = re.compile(
+    r'(?:PROJECT|PART|NODE)\s*0?([1-9])\s*[:\-\.]?\s*([A-Za-z0-9\s,\'\"\(\)\-\+]+)',
+    re.IGNORECASE
+)
+```
+
+### 2. Extracción de Metadatos Clave
+- **Coste Estimado**: Extrae expresiones como `$15`, `$40`, `~$25`, `under $50`.
+- **Tiempo de Montaje**: Detecta horas o días de dedicación (`2-3 hours`, `weekend build`).
+- **Lista de Materiales (BOM)**: Busca patrones de componentes (`ESP32`, `LiDAR`, `LoRa`, `Resistor 10k`, `Capacitor 100nF`) con cantidades y costes individuales.
+- **Secciones Oficiales**:
+  - `WHAT THIS PROVES TO A RECRUITER`
+  - `THE JOB THIS MAPS TO`
+  - `WHY THIS MATTERS`
+  - `SAFETY & OPERATIONAL LIMITS`
+
+---
+
+## ⚡ Generación de Esquemáticos Vectoriales SVG
+
+Para cada uno de los 183 proyectos, el motor calcula el conexionado eléctrico específico según la categoría y microcontrolador:
+
+1. **Bloque Controlador (Izquierda)**: Define el microcontrolador o procesador (ESP32-S3, STM32, Teensy 4.1, Raspberry Pi RP2040).
+2. **Bloque Sensor/Carga (Derecha)**: Define el periférico exacto del proyecto.
+3. **Líneas de Interconexión Vectoriales**:
+   - Traza paths cúbicos Bézier (`M x1 y1 C cx1 cy1, cx2 cy2, x2 y2`) entre cada pin de origen y pin de destino.
+   - Asigna colores específicos para buses de alimentación, buses diferenciales (CAN/RS485), I2C, SPI y UART.
+   - Dibuja símbolos esquemáticos de resistencias pull-up y condensadores de filtro.
+4. **Almacenamiento**: Los archivos SVG se guardan en `public/schematics/guide-XXX-pY.svg` para su servicio instantáneo como gráficos vectoriales nítidos a cualquier nivel de zoom.
+
+---
+
+## 🔄 Integración Continua (GitHub Actions)
+
+El archivo `.github/workflows/deploy.yml` orquesta la automatización:
+
+```yaml
+name: Deploy EngineeringGuides Portal to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Python Dependencies
+        run: pip install pymupdf
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Auto-Extract Guides, Render Schematics & Build Portal
+        run: npm run build
+
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
+```
+
+Con este flujo, **cualquier PDF subido a la carpeta `Engineering guides/` desencadena de manera autónoma todo el proceso**, publicando la nueva versión en GitHub Pages en menos de 3 minutos sin intervención manual.
+"""
+
+def generate_catalog_doc():
+    guides_json_path = os.path.join(REPO_ROOT, 'public', 'guides.json')
+    if not os.path.exists(guides_json_path):
+        return
+    import json
+    with open(guides_json_path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    
+    catalog_doc_path = os.path.join(DOCS_DIR, 'PROJECTS_CATALOG.md')
+    lines = [
+        "# 📚 Catálogo Completo de Guías y Subproyectos",
+        "",
+        "> Índice oficial exhaustivo de las 31 guías maestras y los 183 proyectos prácticos construibles.",
+        "",
+        f"- **Total de Guías Oficiales**: {data.get('totalGuides', 31)}",
+        f"- **Tamaño Total de Documentación**: {data.get('totalSizeFormatted', '1.1 GB')}",
+        "- **Plataforma en Producción**: [damaga2005.github.io/EngineeringGuides](https://damaga2005.github.io/EngineeringGuides/)",
+        "",
+        "---",
+        ""
+    ]
+
+    for g in data.get('guides', []):
+        lines.append(f"## [{g.get('id', '')}] {g.get('title', '')}")
+        lines.append(f"- **Disciplina**: {g.get('technologies', ['Hardware'])[0]}")
+        lines.append(f"- **Páginas**: {g.get('pageCount', 0)} págs | **Dificultad**: {g.get('difficulty', 'Intermedio')} | **Presupuesto Est.**: {g.get('estimatedBudget', 'N/A')}")
+        lines.append(f"- **Archivo Original**: `{g.get('filename', '')}` ({g.get('sizeFormatted', '')})")
+        lines.append(f"- **Resumen**: {g.get('summary', '')}")
+        lines.append("")
+        lines.append("### Proyectos Prácticos Incluidos:")
+        for p in g.get('keyProjects', []):
+            components_str = ", ".join(p.get('components', [])[:4])
+            lines.append(f"1. **{p.get('title', '')}** ({p.get('cost', '')}, {p.get('time', '')})")
+            lines.append(f"   - *Descripción*: {p.get('description', '')}")
+            if components_str:
+                lines.append(f"   - *Componentes Clave*: `{components_str}`")
+            lines.append(f"   - *Esquemático Vectorial*: `public/schematics/guide-{g.get('id', '').split('-')[-1]}_p{p.get('id', 1)}.svg`")
+        lines.append("")
+        lines.append("---")
+        lines.append("")
+
+    with open(catalog_doc_path, 'w', encoding='utf-8') as f:
+        f.write("\n".join(lines).strip() + "\n")
+    print(f"-> Escrito: {catalog_doc_path}")
+
+def generate_all():
+    with open(README_PATH, 'w', encoding='utf-8') as f:
+        f.write(README_CONTENT.strip() + '\n')
+    print(f"-> Escrito: {README_PATH}")
+
+    with open(ARCH_PATH, 'w', encoding='utf-8') as f:
+        f.write(ARCHITECTURE_CONTENT.strip() + '\n')
+    print(f"-> Escrito: {ARCH_PATH}")
+
+    with open(PIPELINE_PATH, 'w', encoding='utf-8') as f:
+        f.write(PIPELINE_CONTENT.strip() + '\n')
+    print(f"-> Escrito: {PIPELINE_PATH}")
+
+    generate_catalog_doc()
+
+    print("\n=======================================================")
+    print("¡TODA LA DOCUMENTACIÓN SE HA GENERADO Y ACTUALIZADO CON ÉXITO!")
+    print("=======================================================")
+
+if __name__ == '__main__':
+    generate_all()
