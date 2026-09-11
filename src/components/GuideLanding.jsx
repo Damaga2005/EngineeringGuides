@@ -10,8 +10,6 @@ import {
   Clock, 
   DollarSign, 
   CheckCircle2, 
-  ChevronDown, 
-  ChevronUp, 
   ExternalLink, 
   Maximize2, 
   FileText, 
@@ -24,9 +22,14 @@ import {
   Zap,
   Briefcase,
   Compass,
-  ArrowRight
+  ArrowRight,
+  ShieldCheck,
+  HelpCircle,
+  ChevronRight
 } from 'lucide-react';
 import { CATEGORY_DEFINITIONS } from '../data/categories';
+import ProjectBuildGuide from './ProjectBuildGuide';
+import ImageViewerModal from './ImageViewerModal';
 
 const ICON_MAP = {
   Rocket,
@@ -46,14 +49,22 @@ export default function GuideLanding({
   onToggleFavorite
 }) {
   const [activeTab, setActiveTab] = useState('overview'); // 'overview' | 'pdf'
-  const [expandedProjects, setExpandedProjects] = useState({ 0: true }); // first project expanded
+  const [selectedProjectFilter, setSelectedProjectFilter] = useState('all'); // 'all' | projectId
   const [copied, setCopied] = useState(false);
+
+  // Modal image viewer state
+  const [imageViewerState, setImageViewerState] = useState({
+    isOpen: false,
+    images: [],
+    initialIndex: 0,
+    title: ''
+  });
 
   // Scroll to top when guide changes
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
     setActiveTab('overview');
-    setExpandedProjects({ 0: true });
+    setSelectedProjectFilter('all');
   }, [guide?.id]);
 
   if (!guide) return null;
@@ -70,13 +81,6 @@ export default function GuideLanding({
   const prevGuide = currentIndex > 0 ? allGuides[currentIndex - 1] : null;
   const nextGuide = currentIndex < allGuides.length - 1 ? allGuides[currentIndex + 1] : null;
 
-  const toggleProject = (index) => {
-    setExpandedProjects(prev => ({
-      ...prev,
-      [index]: !prev[index]
-    }));
-  };
-
   const handleShare = () => {
     const url = window.location.href;
     navigator.clipboard.writeText(url);
@@ -84,10 +88,27 @@ export default function GuideLanding({
     setTimeout(() => setCopied(false), 2500);
   };
 
+  const handleOpenImageViewer = (images, initialIndex = 0, title = 'Plano Técnico') => {
+    setImageViewerState({
+      isOpen: true,
+      images,
+      initialIndex,
+      title
+    });
+  };
+
+  const handleCloseImageViewer = () => {
+    setImageViewerState(prev => ({ ...prev, isOpen: false }));
+  };
+
   const difficultyColor = 
     guide.difficulty?.includes('Principiante') ? 'text-emerald-400 bg-emerald-950/70 border-emerald-700/60' :
     guide.difficulty?.includes('Intermedio') ? 'text-blue-400 bg-blue-950/70 border-blue-700/60' :
     'text-amber-400 bg-amber-950/70 border-amber-700/60';
+
+  const visibleProjects = selectedProjectFilter === 'all' 
+    ? (guide.keyProjects || [])
+    : (guide.keyProjects || []).filter(p => String(p.id) === String(selectedProjectFilter));
 
   return (
     <div className="min-h-screen bg-[#0B0F19] text-slate-100 pb-16">
@@ -103,35 +124,35 @@ export default function GuideLanding({
               className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-800/80 hover:bg-slate-700 text-xs font-semibold text-slate-200 border border-slate-700 transition-all flex-shrink-0"
             >
               <ArrowLeft className="h-3.5 w-3.5" />
-              <span>Volver</span>
+              <span>Volver a la Biblioteca</span>
             </button>
 
             <div className="hidden sm:flex items-center gap-2 text-xs text-slate-400 truncate">
               <span>Biblioteca</span>
-              <span>/</span>
+              <ChevronRight className="h-3 w-3" />
               <span className="text-cyan-400">{category.name}</span>
-              <span>/</span>
-              <span className="text-slate-200 truncate">{guide.title}</span>
+              <ChevronRight className="h-3 w-3" />
+              <span className="text-slate-200 truncate font-medium">{guide.title}</span>
             </div>
           </div>
 
-          {/* Quick Actions */}
+          {/* Action Buttons */}
           <div className="flex items-center gap-2 flex-shrink-0">
             <button
               onClick={handleShare}
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white text-xs border border-slate-700 transition-colors"
-              title="Copiar enlace directo al proyecto"
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-800/80 hover:bg-slate-700 text-xs text-slate-300 hover:text-white border border-slate-700 transition-all"
+              title="Copiar enlace de esta landing"
             >
               {copied ? <Check className="h-3.5 w-3.5 text-emerald-400" /> : <Share2 className="h-3.5 w-3.5" />}
-              <span className="hidden sm:inline">{copied ? "¡Copiado!" : "Compartir"}</span>
+              <span className="hidden xs:inline">{copied ? "¡Copiado!" : "Compartir"}</span>
             </button>
 
             <button
               onClick={() => onToggleFavorite(guide.id)}
-              className={`p-2 rounded-lg border transition-colors ${
+              className={`p-1.5 rounded-lg border transition-colors ${
                 isFavorite
                   ? 'bg-amber-500/20 text-amber-400 border-amber-500/40'
-                  : 'bg-slate-800/80 text-slate-400 border-slate-700 hover:text-white'
+                  : 'bg-slate-800/80 text-slate-400 hover:text-slate-200 border-slate-700'
               }`}
               title={isFavorite ? "Quitar de favoritos" : "Guardar en favoritos"}
             >
@@ -141,11 +162,11 @@ export default function GuideLanding({
             <a
               href={pdfUrl}
               download={guide.filename}
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-cyan-600 hover:bg-cyan-500 text-white font-medium text-xs shadow-md shadow-cyan-600/20 transition-all"
-              title="Descargar archivo PDF oficial"
+              className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg bg-cyan-600 hover:bg-cyan-500 text-white font-semibold text-xs transition-all shadow-md shadow-cyan-900/30"
             >
               <Download className="h-3.5 w-3.5" />
-              <span className="hidden sm:inline">Descargar PDF</span>
+              <span className="hidden sm:inline">Descargar PDF Oficial</span>
+              <span className="sm:hidden">PDF</span>
             </a>
           </div>
 
@@ -163,9 +184,13 @@ export default function GuideLanding({
 
           <div className="flex flex-col md:flex-row items-center md:items-start gap-8 relative z-10">
             
-            {/* Real PDF Cover Preview Card */}
-            <div className="w-48 sm:w-56 md:w-64 flex-shrink-0">
-              <div className="relative rounded-2xl overflow-hidden border-2 border-slate-700/80 shadow-2xl shadow-black/80 bg-slate-950 group">
+            {/* Real PDF Cover Preview Card with Click-to-Zoom */}
+            <div 
+              onClick={() => handleOpenImageViewer([guide.image], 0, `Portada Oficial: ${guide.title}`)}
+              className="w-48 sm:w-56 md:w-64 flex-shrink-0 cursor-pointer group/cover"
+              title="Haz clic para ver la portada en alta resolución"
+            >
+              <div className="relative rounded-2xl overflow-hidden border-2 border-slate-700/80 group-hover/cover:border-cyan-400/80 shadow-2xl shadow-black/80 bg-slate-950 transition-all">
                 <img 
                   src={imageUrl} 
                   alt={guide.title}
@@ -173,13 +198,15 @@ export default function GuideLanding({
                     e.currentTarget.onerror = null;
                     e.currentTarget.src = `${baseUrl}favicon.svg`;
                   }}
-                  className="w-full h-auto object-contain transition-transform duration-500 group-hover:scale-105" 
+                  className="w-full h-auto object-contain transition-transform duration-500 group-hover/cover:scale-105" 
                 />
                 <div className="absolute bottom-2 left-2 right-2 flex items-center justify-between bg-slate-950/90 backdrop-blur-md px-2.5 py-1.5 rounded-lg border border-slate-800 text-[10px] font-mono text-cyan-300">
                   <span className="flex items-center gap-1">
                     <FileText className="h-3 w-3" /> Portada Oficial
                   </span>
-                  <span>{guide.pageCount || 16} págs</span>
+                  <span className="flex items-center gap-1 text-slate-400">
+                    <Maximize2 className="h-3 w-3" /> {guide.pageCount || 16} págs
+                  </span>
                 </div>
               </div>
             </div>
@@ -228,33 +255,47 @@ export default function GuideLanding({
 
                 {/* Subtitle */}
                 {guide.subtitle && (
-                  <p className="mt-2 text-sm sm:text-base text-cyan-300/90 font-medium leading-relaxed">
+                  <p className="text-sm sm:text-base text-cyan-300/90 font-medium mt-2 leading-relaxed">
                     {guide.subtitle}
                   </p>
                 )}
 
-                {/* Short pitch */}
-                {guide.summary && (
-                  <p className="mt-3 text-xs sm:text-sm text-slate-400 leading-relaxed max-w-3xl">
-                    {guide.summary}
-                  </p>
-                )}
+                {/* Summary */}
+                <p className="text-xs sm:text-sm text-slate-300 mt-4 leading-relaxed max-w-4xl">
+                  {guide.summary}
+                </p>
               </div>
 
               {/* Action Buttons in Hero */}
-              <div className="mt-6 flex items-center gap-3 flex-wrap">
+              <div className="flex items-center gap-3 pt-6 flex-wrap">
+                <button
+                  onClick={() => setActiveTab('overview')}
+                  className={`px-5 py-2.5 rounded-xl font-semibold text-xs sm:text-sm flex items-center gap-2 transition-all ${
+                    activeTab === 'overview'
+                      ? 'bg-cyan-500 text-slate-950 font-bold shadow-lg shadow-cyan-500/25'
+                      : 'bg-slate-800 text-slate-200 hover:bg-slate-700'
+                  }`}
+                >
+                  <Sparkles className="h-4 w-4" />
+                  <span>Explorar Proyectos y Manuales</span>
+                </button>
+
                 <button
                   onClick={() => setActiveTab('pdf')}
-                  className="px-5 py-2.5 rounded-xl bg-cyan-600 hover:bg-cyan-500 text-white text-xs sm:text-sm font-bold shadow-lg shadow-cyan-600/25 transition-all flex items-center gap-2"
+                  className={`px-5 py-2.5 rounded-xl font-semibold text-xs sm:text-sm flex items-center gap-2 transition-all ${
+                    activeTab === 'pdf'
+                      ? 'bg-cyan-500 text-slate-950 font-bold shadow-lg shadow-cyan-500/25'
+                      : 'bg-slate-800 text-slate-200 hover:bg-slate-700'
+                  }`}
                 >
                   <Eye className="h-4 w-4" />
-                  <span>Leer Documento Oficial en PDF</span>
+                  <span>Leer PDF Oficial Integrado</span>
                 </button>
 
                 <a
                   href={pdfUrl}
                   download={guide.filename}
-                  className="px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs sm:text-sm font-semibold border border-slate-700 transition-all flex items-center gap-2"
+                  className="px-4 py-2.5 rounded-xl font-medium text-xs sm:text-sm bg-slate-900/80 hover:bg-slate-800 text-slate-300 border border-slate-700/80 flex items-center gap-2 transition-all"
                 >
                   <Download className="h-4 w-4" />
                   <span>Descargar Archivo</span>
@@ -276,7 +317,7 @@ export default function GuideLanding({
               }`}
             >
               <Sparkles className="h-4 w-4" />
-              <span>Ficha Técnica, Proyectos & Lista BOM</span>
+              <span>Proyectos, Manuales de Construcción & Planos Oficiales</span>
             </button>
 
             <button
@@ -296,272 +337,109 @@ export default function GuideLanding({
 
         {/* Tab 1: Project Overview & Extracted Data */}
         {activeTab === 'overview' && (
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <div className="space-y-8">
             
-            {/* Left 2 Columns: Subprojects & BOM */}
-            <div className="lg:col-span-2 space-y-8">
-              
-              {/* Executive Summary Section */}
-              <div className="glass-panel p-6 sm:p-8 rounded-2xl border border-slate-800">
-                <h2 className="text-base sm:text-lg font-bold text-white mb-3 flex items-center gap-2">
-                  <Cpu className="h-5 w-5 text-cyan-400" />
-                  Visión General & Por Qué Importa Este Proyecto
-                </h2>
-                <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
-                  {guide.summary}
-                </p>
-
-                {guide.technologies && guide.technologies.length > 0 && (
-                  <div className="mt-5 pt-4 border-t border-slate-800/80 flex items-center gap-2 flex-wrap">
-                    <span className="text-xs font-mono text-slate-500 uppercase tracking-wider">Etiquetas:</span>
-                    {guide.technologies.map(tag => (
-                      <span key={tag} className="text-xs font-mono px-2.5 py-1 rounded-lg bg-slate-800/80 text-cyan-300 border border-slate-700">
-                        #{tag}
-                      </span>
-                    ))}
-                  </div>
-                )}
-              </div>
-
-              {/* Subprojects Interactive Accordion */}
-              {guide.keyProjects && guide.keyProjects.length > 0 && (
-                <div className="glass-panel p-6 sm:p-8 rounded-2xl border border-slate-800">
-                  <div className="flex items-center justify-between gap-4 mb-6">
-                    <div>
-                      <h2 className="text-base sm:text-lg font-bold text-white flex items-center gap-2">
-                        <Boxes className="h-5 w-5 text-amber-400" />
-                        Proyectos Incluidos en Esta Guía ({guide.keyProjects.length})
-                      </h2>
-                      <p className="text-xs text-slate-400 mt-0.5">
-                        Haz clic en cada proyecto para desplegar sus detalles, coste y componentes requeridos
-                      </p>
-                    </div>
-
-                    <button
-                      onClick={() => {
-                        const allOpen = Object.keys(expandedProjects).length === guide.keyProjects.length;
-                        if (allOpen) {
-                          setExpandedProjects({});
-                        } else {
-                          const openAll = {};
-                          guide.keyProjects.forEach((_, idx) => { openAll[idx] = true; });
-                          setExpandedProjects(openAll);
-                        }
-                      }}
-                      className="text-xs text-cyan-400 hover:text-cyan-300 font-medium underline flex-shrink-0"
-                    >
-                      {Object.keys(expandedProjects).length === guide.keyProjects.length ? "Colapsar todos" : "Desplegar todos"}
-                    </button>
-                  </div>
-
-                  {/* Accordion list */}
-                  <div className="space-y-3">
-                    {guide.keyProjects.map((proj, idx) => {
-                      const isOpen = !!expandedProjects[idx];
-                      return (
-                        <div 
-                          key={proj.id || idx}
-                          className="rounded-xl border border-slate-800 bg-slate-950/70 overflow-hidden transition-all duration-200 hover:border-slate-700"
-                        >
-                          {/* Accordion Header */}
-                          <button
-                            onClick={() => toggleProject(idx)}
-                            className="w-full px-5 py-4 flex items-center justify-between text-left gap-4 hover:bg-slate-900/60 transition-colors"
-                          >
-                            <div className="flex items-center gap-3 min-w-0">
-                              <span className="h-7 w-7 rounded-lg bg-cyan-500/10 text-cyan-400 font-mono text-xs font-bold flex items-center justify-center border border-cyan-500/30 flex-shrink-0">
-                                {idx + 1}
-                              </span>
-                              <div className="min-w-0">
-                                <h3 className="text-sm sm:text-base font-bold text-slate-100 truncate">
-                                  {proj.title}
-                                </h3>
-                                <div className="flex items-center gap-2.5 text-xs text-slate-400 mt-0.5">
-                                  {proj.cost && (
-                                    <span className="text-emerald-400 font-mono font-medium">
-                                      Coste: {proj.cost}
-                                    </span>
-                                  )}
-                                  {proj.time && (
-                                    <>
-                                      <span>•</span>
-                                      <span className="font-mono">{proj.time}</span>
-                                    </>
-                                  )}
-                                </div>
-                              </div>
-                            </div>
-
-                            <div className="p-1 rounded-lg text-slate-400 hover:text-slate-200">
-                              {isOpen ? <ChevronUp className="h-5 w-5" /> : <ChevronDown className="h-5 w-5" />}
-                            </div>
-                          </button>
-
-                          {/* Accordion Body */}
-                          {isOpen && (
-                            <div className="px-5 pb-5 pt-1 border-t border-slate-800/80 bg-slate-900/40 text-xs sm:text-sm text-slate-300 space-y-3 animate-in fade-in duration-200">
-                              <p className="leading-relaxed text-slate-300">
-                                {proj.description}
-                              </p>
-
-                              {proj.components && proj.components.length > 0 && (
-                                <div className="pt-2">
-                                  <span className="text-xs font-bold uppercase tracking-wider text-cyan-400 block mb-1.5">
-                                    Hardware & Componentes del Módulo:
-                                  </span>
-                                  <div className="flex flex-wrap gap-1.5">
-                                    {proj.components.map((comp, cIdx) => (
-                                      <span 
-                                        key={cIdx} 
-                                        className="text-xs px-2.5 py-1 rounded-md bg-slate-800 text-slate-200 border border-slate-700/80 font-mono"
-                                      >
-                                        {comp}
-                                      </span>
-                                    ))}
-                                  </div>
-                                </div>
-                              )}
-                            </div>
-                          )}
-                        </div>
-                      );
-                    })}
-                  </div>
-
-                </div>
-              )}
-
-              {/* Ordered Bill of Materials (BOM) */}
-              {guide.bom && guide.bom.length > 0 && (
-                <div className="glass-panel p-6 sm:p-8 rounded-2xl border border-slate-800">
-                  <h2 className="text-base sm:text-lg font-bold text-white mb-2 flex items-center gap-2">
-                    <CheckCircle2 className="h-5 w-5 text-emerald-400" />
-                    Lista Ordenada de Componentes (Bill of Materials)
-                  </h2>
-                  <p className="text-xs text-slate-400 mb-5">
-                    Componentes necesarios para llevar a cabo los proyectos de esta guía
-                  </p>
-
-                  <div className="overflow-x-auto">
-                    <table className="w-full text-left text-xs sm:text-sm border-collapse">
-                      <thead>
-                        <tr className="border-b border-slate-800 text-slate-400 font-mono text-xs uppercase">
-                          <th className="py-3 px-4">Componente</th>
-                          <th className="py-3 px-4">Tipo / Rol</th>
-                          <th className="py-3 px-4">Especificaciones</th>
-                          <th className="py-3 px-4 text-right">Coste Estimado</th>
-                        </tr>
-                      </thead>
-                      <tbody className="divide-y divide-slate-800/60 font-mono">
-                        {guide.bom.map((item, idx) => (
-                          <tr key={idx} className="hover:bg-slate-900/50 transition-colors">
-                            <td className="py-3 px-4 font-semibold text-slate-200 font-sans">
-                              {item.name}
-                            </td>
-                            <td className="py-3 px-4 text-cyan-400">
-                              {item.type}
-                            </td>
-                            <td className="py-3 px-4 text-slate-400 text-xs font-sans">
-                              {item.specs}
-                            </td>
-                            <td className="py-3 px-4 text-right text-emerald-400 font-semibold">
-                              {item.cost}
-                            </td>
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              )}
-
-            </div>
-
-            {/* Right Column: Quick Info & Actions Card */}
-            <div className="space-y-6">
-              
-              {/* Document Specs Card */}
-              <div className="glass-panel p-6 rounded-2xl border border-slate-800 space-y-4">
-                <h3 className="text-sm font-bold text-slate-200 uppercase tracking-wider flex items-center gap-2">
-                  <FileText className="h-4 w-4 text-cyan-400" /> Ficha Técnica Oficial
-                </h3>
-
-                <div className="space-y-3 text-xs font-mono divide-y divide-slate-800/80">
-                  <div className="flex justify-between pt-2">
-                    <span className="text-slate-400">Disciplina:</span>
-                    <span className="text-cyan-300 font-semibold">{category.name}</span>
-                  </div>
-                  <div className="flex justify-between pt-2">
-                    <span className="text-slate-400">Dificultad:</span>
-                    <span className="text-slate-200">{guide.difficulty}</span>
-                  </div>
-                  <div className="flex justify-between pt-2">
-                    <span className="text-slate-400">Páginas Totales:</span>
-                    <span className="text-slate-200">{guide.pageCount || 16} páginas</span>
-                  </div>
-                  <div className="flex justify-between pt-2">
-                    <span className="text-slate-400">Tamaño Archivo:</span>
-                    <span className="text-slate-200">{guide.sizeFormatted}</span>
-                  </div>
-                  <div className="flex justify-between pt-2">
-                    <span className="text-slate-400">Presupuesto:</span>
-                    <span className="text-emerald-400 font-bold">{guide.estimatedBudget}</span>
-                  </div>
-                  <div className="flex justify-between pt-2">
-                    <span className="text-slate-400">Tiempo de Construcción:</span>
-                    <span className="text-slate-200">{guide.buildTimeTotal}</span>
-                  </div>
-                  <div className="flex justify-between pt-2">
-                    <span className="text-slate-400">Archivo Original:</span>
-                    <span className="text-slate-400 truncate max-w-[150px]" title={guide.filename}>
-                      {guide.filename}
-                    </span>
-                  </div>
+            {/* Subproject Selector Bar (when multiple projects exist) */}
+            {guide.keyProjects && guide.keyProjects.length > 1 && (
+              <div className="glass-panel p-4 rounded-2xl border border-slate-800 flex items-center justify-between gap-4 flex-wrap">
+                <div className="flex items-center gap-2 text-xs text-slate-300">
+                  <Boxes className="h-4 w-4 text-cyan-400" />
+                  <span className="font-semibold">Seleccionar Proyecto:</span>
                 </div>
 
-                <div className="pt-3 space-y-2">
+                <div className="flex items-center gap-1.5 flex-wrap">
                   <button
-                    onClick={() => setActiveTab('pdf')}
-                    className="w-full py-2.5 px-4 rounded-xl bg-cyan-500/10 text-cyan-300 border border-cyan-500/40 hover:bg-cyan-500/20 text-xs font-bold transition-all flex items-center justify-center gap-2 shadow-sm"
+                    onClick={() => setSelectedProjectFilter('all')}
+                    className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
+                      selectedProjectFilter === 'all'
+                        ? 'bg-cyan-500 text-slate-950 shadow-md shadow-cyan-500/20'
+                        : 'bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800'
+                    }`}
                   >
-                    <Eye className="h-4 w-4" />
-                    <span>Abrir Visor PDF Oficial</span>
+                    Todos ({guide.keyProjects.length})
                   </button>
 
-                  <a
-                    href={pdfUrl}
-                    download={guide.filename}
-                    className="w-full py-2.5 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold transition-all flex items-center justify-center gap-2 border border-slate-700"
-                  >
-                    <Download className="h-4 w-4" />
-                    <span>Descargar Documento PDF</span>
-                  </a>
+                  {guide.keyProjects.map((proj, pIdx) => {
+                    const isSelected = String(selectedProjectFilter) === String(proj.id);
+                    return (
+                      <button
+                        key={proj.id || pIdx}
+                        onClick={() => setSelectedProjectFilter(proj.id)}
+                        className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all flex items-center gap-1.5 ${
+                          isSelected
+                            ? 'bg-cyan-500 text-slate-950 shadow-md shadow-cyan-500/20 font-bold'
+                            : 'bg-slate-900 text-slate-300 hover:text-white border border-slate-800'
+                        }`}
+                      >
+                        <span className="font-mono text-[10px] opacity-75">#{pIdx + 1}</span>
+                        <span className="truncate max-w-[150px] sm:max-w-[200px]">{proj.title}</span>
+                      </button>
+                    );
+                  })}
                 </div>
-
               </div>
+            )}
 
-              {/* Author & Verification Card */}
-              <div className="p-5 rounded-2xl bg-cyan-950/30 border border-cyan-900/50 text-xs space-y-2 text-slate-300">
-                <span className="text-cyan-400 font-bold uppercase tracking-wider block">
-                  🛡️ Documentación Técnica Verificada
-                </span>
-                <p className="leading-relaxed">
-                  Esta guía incluye esquemáticos de conexión, fragmentos de código de bajo nivel y recomendaciones de componentes probados en banco de trabajo.
-                </p>
-              </div>
-
+            {/* List of Projects rendered via ProjectBuildGuide */}
+            <div className="space-y-6">
+              {visibleProjects.map((proj, idx) => (
+                <ProjectBuildGuide
+                  key={proj.id || idx}
+                  project={proj}
+                  projectNumber={proj.id || idx + 1}
+                  onOpenImageViewer={handleOpenImageViewer}
+                />
+              ))}
             </div>
+
+            {/* Overall Bill of Materials (BOM) Table for the whole Guide */}
+            {guide.bom && guide.bom.length > 0 && (
+              <div className="glass-panel p-6 sm:p-8 rounded-3xl border border-slate-800">
+                <h2 className="text-lg font-bold text-white mb-2 flex items-center gap-2">
+                  <CheckCircle2 className="h-5 w-5 text-emerald-400" />
+                  Lista Resumen de Componentes (Bill of Materials Global)
+                </h2>
+                <p className="text-xs text-slate-400 mb-5">
+                  Resumen de los principales módulos, integrados y subsistemas requeridos en esta guía
+                </p>
+
+                <div className="overflow-x-auto rounded-xl border border-slate-800">
+                  <table className="w-full text-left text-xs sm:text-sm border-collapse">
+                    <thead className="bg-slate-950 text-cyan-400 font-mono text-xs uppercase">
+                      <tr>
+                        <th className="py-3 px-4">Componente</th>
+                        <th className="py-3 px-4">Tipo / Categoría</th>
+                        <th className="py-3 px-4">Especificación Técnica</th>
+                        <th className="py-3 px-4 text-right">Coste Estimado</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-slate-800/60 bg-slate-900/40">
+                      {guide.bom.map((item, idx) => (
+                        <tr key={idx} className="hover:bg-slate-800/40 transition-colors">
+                          <td className="py-3 px-4 font-bold text-slate-100">{item.name}</td>
+                          <td className="py-3 px-4 text-cyan-300 font-mono text-xs">{item.type || 'Hardware'}</td>
+                          <td className="py-3 px-4 text-slate-400 font-mono text-xs">{item.specs}</td>
+                          <td className="py-3 px-4 text-right text-emerald-400 font-mono font-semibold">{item.cost}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            )}
 
           </div>
         )}
 
-        {/* Tab 2: Embedded PDF Official Viewer */}
+        {/* Tab 2: Embedded PDF Viewer */}
         {activeTab === 'pdf' && (
-          <div className="glass-panel rounded-2xl border border-slate-800 overflow-hidden shadow-2xl h-[85vh] flex flex-col">
-            <div className="px-6 py-3 bg-slate-950 border-b border-slate-800 flex items-center justify-between">
-              <div className="text-xs text-slate-300 font-mono flex items-center gap-2">
-                <FileText className="h-4 w-4 text-cyan-400" />
-                <span>Documento Oficial: {guide.filename}</span>
+          <div className="glass-panel p-4 sm:p-6 rounded-3xl border border-slate-800">
+            <div className="flex items-center justify-between mb-4 flex-wrap gap-2">
+              <div className="flex items-center gap-2">
+                <FileText className="h-5 w-5 text-cyan-400" />
+                <h3 className="font-bold text-slate-100 text-sm sm:text-base">
+                  Visor Oficial: {guide.filename}
+                </h3>
               </div>
 
               <div className="flex items-center gap-2">
@@ -569,16 +447,16 @@ export default function GuideLanding({
                   href={pdfUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs text-slate-300 flex items-center gap-1.5 transition-colors"
+                  className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-slate-200 border border-slate-700 transition-all"
                 >
                   <ExternalLink className="h-3.5 w-3.5" />
-                  <span>Abrir en nueva pestaña</span>
+                  <span>Abrir en Pestaña Nueva</span>
                 </a>
 
                 <a
                   href={pdfUrl}
                   download={guide.filename}
-                  className="px-3 py-1.5 rounded-lg bg-cyan-600 hover:bg-cyan-500 text-xs text-white flex items-center gap-1.5 transition-all"
+                  className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-cyan-600 hover:bg-cyan-500 text-xs font-semibold text-white transition-all shadow-sm"
                 >
                   <Download className="h-3.5 w-3.5" />
                   <span>Descargar</span>
@@ -586,9 +464,10 @@ export default function GuideLanding({
               </div>
             </div>
 
-            <div className="flex-1 bg-slate-950">
+            {/* Embedded Iframe */}
+            <div className="w-full h-[80vh] rounded-2xl overflow-hidden border border-slate-800 bg-slate-950">
               <iframe
-                src={`${pdfUrl}#toolbar=1&navpanes=0`}
+                src={`${pdfUrl}#toolbar=1&navpanes=1`}
                 title={guide.title}
                 className="w-full h-full border-none"
               />
@@ -596,17 +475,17 @@ export default function GuideLanding({
           </div>
         )}
 
-        {/* Bottom Pagination: Previous / Next Guides */}
+        {/* Next / Previous Navigation Footer */}
         <div className="mt-12 pt-8 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-4">
           {prevGuide ? (
             <button
-              onClick={() => onSelectGuide(prevGuide.id)}
-              className="flex items-center gap-3 p-4 rounded-2xl glass-panel border border-slate-800 hover:border-cyan-500/40 text-left transition-all max-w-sm w-full group"
+              onClick={() => onSelectGuide(prevGuide)}
+              className="w-full sm:w-auto flex items-center gap-3 p-3.5 rounded-2xl glass-panel border border-slate-800 hover:border-cyan-500/50 transition-all text-left group"
             >
-              <ArrowLeft className="h-5 w-5 text-slate-400 group-hover:text-cyan-400 group-hover:-translate-x-1 transition-all flex-shrink-0" />
-              <div className="min-w-0">
-                <span className="text-[10px] text-slate-500 font-mono uppercase block">Guía Anterior</span>
-                <span className="text-xs sm:text-sm font-bold text-slate-200 truncate block group-hover:text-cyan-300">
+              <ArrowLeft className="h-4 w-4 text-cyan-400 group-hover:-translate-x-1 transition-transform" />
+              <div>
+                <span className="text-[11px] text-slate-400 block font-mono">Guía Anterior</span>
+                <span className="text-xs font-bold text-slate-200 group-hover:text-cyan-300 truncate max-w-xs block">
                   {prevGuide.title}
                 </span>
               </div>
@@ -615,21 +494,31 @@ export default function GuideLanding({
 
           {nextGuide && (
             <button
-              onClick={() => onSelectGuide(nextGuide.id)}
-              className="flex items-center justify-end gap-3 p-4 rounded-2xl glass-panel border border-slate-800 hover:border-cyan-500/40 text-right transition-all max-w-sm w-full group ml-auto"
+              onClick={() => onSelectGuide(nextGuide)}
+              className="w-full sm:w-auto flex items-center justify-end gap-3 p-3.5 rounded-2xl glass-panel border border-slate-800 hover:border-cyan-500/50 transition-all text-right group"
             >
-              <div className="min-w-0">
-                <span className="text-[10px] text-slate-500 font-mono uppercase block">Siguiente Guía</span>
-                <span className="text-xs sm:text-sm font-bold text-slate-200 truncate block group-hover:text-cyan-300">
+              <div>
+                <span className="text-[11px] text-slate-400 block font-mono">Siguiente Guía</span>
+                <span className="text-xs font-bold text-slate-200 group-hover:text-cyan-300 truncate max-w-xs block">
                   {nextGuide.title}
                 </span>
               </div>
-              <ArrowRight className="h-5 w-5 text-slate-400 group-hover:text-cyan-400 group-hover:translate-x-1 transition-all flex-shrink-0" />
+              <ArrowRight className="h-4 w-4 text-cyan-400 group-hover:translate-x-1 transition-transform" />
             </button>
           )}
         </div>
 
       </div>
+
+      {/* Lightbox / High-Resolution Image Viewer Modal */}
+      {imageViewerState.isOpen && (
+        <ImageViewerModal
+          images={imageViewerState.images}
+          initialIndex={imageViewerState.initialIndex}
+          title={imageViewerState.title}
+          onClose={handleCloseImageViewer}
+        />
+      )}
 
     </div>
   );

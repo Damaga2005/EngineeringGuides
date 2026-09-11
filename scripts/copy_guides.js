@@ -27,3 +27,10 @@ function copyFolderSync(from, to) {
 console.log('Copying PDF guides to dist folder...');
 copyFolderSync(SRC_DIR, DEST_DIR);
 console.log('PDF guides successfully copied to dist/Engineering guides');
+
+const PROJECTS_SRC = path.join(REPO_ROOT, 'public', 'projects');
+const PROJECTS_DEST = path.join(REPO_ROOT, 'dist', 'projects');
+if (fs.existsSync(PROJECTS_SRC)) {
+  console.log('Ensuring projects blueprint images are in dist...');
+  copyFolderSync(PROJECTS_SRC, PROJECTS_DEST);
+}
