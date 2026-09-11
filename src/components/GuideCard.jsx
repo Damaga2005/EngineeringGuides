@@ -40,12 +40,15 @@ export default function GuideCard({
   onTagClick
 }) {
   const [showKeyPoints, setShowKeyPoints] = useState(false);
+  const [showCoverMode, setShowCoverMode] = useState('photo'); // 'photo' | 'pdf'
   const category = CATEGORY_DEFINITIONS.find(c => c.id === guide.categoryId) || CATEGORY_DEFINITIONS[CATEGORY_DEFINITIONS.length - 1];
   const CategoryIcon = ICON_MAP[category.icon] || FileText;
 
   const baseUrl = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
   const pdfUrl = `${baseUrl}Engineering guides/${encodeURIComponent(guide.filename)}`;
-  const imageUrl = guide.image?.startsWith('http') ? guide.image : `${baseUrl}${guide.image}`;
+  const photoUrl = guide.heroImage?.startsWith('http') ? guide.heroImage : (guide.image?.startsWith('http') ? guide.image : `${baseUrl}${guide.image || ''}`);
+  const pdfCoverUrl = guide.pdfCover ? `${baseUrl}${guide.pdfCover}` : photoUrl;
+  const currentImageUrl = showCoverMode === 'pdf' ? pdfCoverUrl : photoUrl;
 
   const difficultyColor = 
     guide.difficulty?.includes('Principiante') ? 'text-emerald-400 bg-emerald-950/60 border-emerald-700/50' :
@@ -74,7 +77,7 @@ export default function GuideCard({
               className="w-20 h-24 rounded-xl overflow-hidden flex-shrink-0 relative border border-slate-700/80 cursor-pointer group-hover:border-cyan-500/60 transition-all bg-slate-950"
             >
               <img 
-                src={imageUrl} 
+                src={currentImageUrl} 
                 alt={guide.title}
                 onError={(e) => {
                   e.currentTarget.onerror = null;
@@ -120,6 +123,24 @@ export default function GuideCard({
                 <p className="text-xs text-slate-300 font-medium mt-0.5 line-clamp-1">
                   {guide.subtitle}
                 </p>
+              )}
+
+              {/* Component chips in list view */}
+              {guide.topComponents && guide.topComponents.length > 0 && (
+                <div className="flex items-center gap-1.5 flex-wrap mt-2">
+                  {guide.topComponents.map((comp, idx) => (
+                    <span 
+                      key={idx}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        onTagClick && onTagClick(comp);
+                      }}
+                      className="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-900/90 text-cyan-300 border border-slate-800 hover:border-cyan-500/50 hover:bg-slate-800 transition-colors cursor-pointer"
+                    >
+                      {comp}
+                    </span>
+                  ))}
+                </div>
               )}
             </div>
           </div>
@@ -212,7 +233,7 @@ export default function GuideCard({
         className="relative h-48 w-full overflow-hidden cursor-pointer border-b border-slate-800 bg-slate-950"
       >
         <img 
-          src={imageUrl} 
+          src={currentImageUrl} 
           alt={guide.title}
           onError={(e) => {
             e.currentTarget.onerror = null;
@@ -230,21 +251,37 @@ export default function GuideCard({
           </span>
         </div>
 
-        {/* Favorite Button */}
-        <button
-          onClick={(e) => {
-            e.stopPropagation();
-            onToggleFavorite(guide.id);
-          }}
-          className={`absolute top-3 right-3 p-2 rounded-lg backdrop-blur-md transition-colors ${
-            isFavorite
-              ? 'bg-amber-500/30 text-amber-400 border border-amber-500/50'
-              : 'bg-slate-900/70 text-slate-400 hover:text-white border border-slate-700'
-          }`}
-          title={isFavorite ? "Quitar de favoritos" : "Guardar en favoritos"}
-        >
-          <Bookmark className={`h-3.5 w-3.5 ${isFavorite ? 'fill-amber-400' : ''}`} />
-        </button>
+        {/* Top-Right Floating Controls: Mode Toggle & Favorite */}
+        <div className="absolute top-3 right-3 flex items-center gap-1.5">
+          {guide.pdfCover && (
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                setShowCoverMode(prev => prev === 'photo' ? 'pdf' : 'photo');
+              }}
+              className="px-2 py-1 rounded-lg backdrop-blur-md bg-slate-900/80 hover:bg-slate-800 text-slate-300 hover:text-cyan-300 border border-slate-700/80 text-[10px] font-mono transition-all flex items-center gap-1 shadow-md"
+              title={showCoverMode === 'photo' ? "Ver portada original del PDF" : "Ver fotografía real de hardware"}
+            >
+              {showCoverMode === 'photo' ? <FileText className="h-3 w-3 text-cyan-400" /> : <Eye className="h-3 w-3 text-amber-400" />}
+              <span>{showCoverMode === 'photo' ? 'PDF' : 'Foto'}</span>
+            </button>
+          )}
+
+          <button
+            onClick={(e) => {
+              e.stopPropagation();
+              onToggleFavorite(guide.id);
+            }}
+            className={`p-2 rounded-lg backdrop-blur-md transition-colors ${
+              isFavorite
+                ? 'bg-amber-500/30 text-amber-400 border border-amber-500/50'
+                : 'bg-slate-900/70 text-slate-400 hover:text-white border border-slate-700'
+            }`}
+            title={isFavorite ? "Quitar de favoritos" : "Guardar en favoritos"}
+          >
+            <Bookmark className={`h-3.5 w-3.5 ${isFavorite ? 'fill-amber-400' : ''}`} />
+          </button>
+        </div>
 
         {/* Bottom stats inside image */}
         <div className="absolute bottom-2.5 left-3 right-3 flex items-center justify-between text-[11px] font-mono text-slate-300">
@@ -283,6 +320,24 @@ export default function GuideCard({
             <p className="text-xs text-slate-400 line-clamp-2 mb-3 leading-relaxed">
               {guide.summary}
             </p>
+          )}
+
+          {/* Key Component Chips */}
+          {guide.topComponents && guide.topComponents.length > 0 && (
+            <div className="flex items-center gap-1.5 flex-wrap mb-3.5">
+              {guide.topComponents.map((comp, idx) => (
+                <span 
+                  key={idx}
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    onTagClick && onTagClick(comp);
+                  }}
+                  className="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-900/90 text-cyan-300 border border-slate-800 hover:border-cyan-500/50 hover:bg-slate-800 transition-colors cursor-pointer"
+                >
+                  {comp}
+                </span>
+              ))}
+            </div>
           )}
 
           {/* Subprojects Mini Dropdown Info */}

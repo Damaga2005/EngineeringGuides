@@ -63,9 +63,13 @@ export default function GuideLanding({
     title: ''
   });
 
+  const [heroViewMode, setHeroViewMode] = useState('photo'); // 'photo' | 'pdf'
+
   const baseUrl = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
   const pdfUrl = guide?.filename ? `${baseUrl}Engineering guides/${encodeURIComponent(guide.filename)}` : '';
-  const imageUrl = guide?.image?.startsWith('http') ? guide.image : `${baseUrl}${guide?.image || ''}`;
+  const photoUrl = guide?.heroImage?.startsWith('http') ? guide.heroImage : (guide?.image?.startsWith('http') ? guide.image : `${baseUrl}${guide?.image || ''}`);
+  const pdfCoverUrl = guide?.pdfCover ? `${baseUrl}${guide.pdfCover}` : photoUrl;
+  const currentHeroUrl = heroViewMode === 'pdf' ? pdfCoverUrl : photoUrl;
 
   // Find previous and next guides safely before any hooks reference them
   const currentIndex = allGuides && guide ? allGuides.findIndex(g => g.id === guide.id) : -1;
@@ -223,31 +227,63 @@ export default function GuideLanding({
 
           <div className="flex flex-col md:flex-row items-center md:items-start gap-8 relative z-10">
             
-            {/* Real PDF Cover Preview Card with Click-to-Zoom */}
-            <div 
-              onClick={() => handleOpenImageViewer([guide.image], 0, `Portada Oficial: ${guide.title}`)}
-              className="w-48 sm:w-56 md:w-64 flex-shrink-0 cursor-pointer group/cover"
-              title="Haz clic para ver la portada en alta resolución"
-            >
-              <div className="relative rounded-2xl overflow-hidden border-2 border-slate-700/80 group-hover/cover:border-cyan-400/80 shadow-2xl shadow-black/80 bg-slate-950 transition-all">
-                <img 
-                  src={imageUrl} 
-                  alt={guide.title}
-                  onError={(e) => {
-                    e.currentTarget.onerror = null;
-                    e.currentTarget.src = `${baseUrl}favicon.svg`;
-                  }}
-                  className="w-full h-auto object-contain transition-transform duration-500 group-hover/cover:scale-105" 
-                />
-                <div className="absolute bottom-2 left-2 right-2 flex items-center justify-between bg-slate-950/90 backdrop-blur-md px-2.5 py-1.5 rounded-lg border border-slate-800 text-[10px] font-mono text-cyan-300">
-                  <span className="flex items-center gap-1">
-                    <FileText className="h-3 w-3" /> Portada Oficial
-                  </span>
-                  <span className="flex items-center gap-1 text-slate-400">
-                    <Maximize2 className="h-3 w-3" /> {guide.pageCount || 16} págs
-                  </span>
+            {/* Real Hardware Photo & PDF Cover Preview Card with Click-to-Zoom */}
+            <div className="w-56 sm:w-64 md:w-72 flex-shrink-0 flex flex-col gap-2.5">
+              <div 
+                onClick={() => handleOpenImageViewer([photoUrl, pdfCoverUrl], heroViewMode === 'photo' ? 0 : 1, `${guide.title}`)}
+                className="cursor-pointer group/cover"
+                title="Haz clic para inspeccionar en alta resolución"
+              >
+                <div className="relative rounded-2xl overflow-hidden border-2 border-slate-700/80 group-hover/cover:border-cyan-400/80 shadow-2xl shadow-black/80 bg-slate-950 transition-all aspect-[4/3] sm:aspect-[1/1] md:aspect-[3/4]">
+                  <img 
+                    src={currentHeroUrl} 
+                    alt={guide.title}
+                    onError={(e) => {
+                      e.currentTarget.onerror = null;
+                      e.currentTarget.src = `${baseUrl}favicon.svg`;
+                    }}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover/cover:scale-105" 
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent pointer-events-none" />
+                  <div className="absolute bottom-2 left-2 right-2 flex items-center justify-between bg-slate-950/90 backdrop-blur-md px-2.5 py-1.5 rounded-lg border border-slate-800 text-[10px] font-mono text-cyan-300">
+                    <span className="flex items-center gap-1.5">
+                      {heroViewMode === 'photo' ? <Zap className="h-3 w-3 text-amber-400" /> : <FileText className="h-3 w-3 text-cyan-400" />}
+                      {heroViewMode === 'photo' ? 'Hardware Real' : 'Portada Original'}
+                    </span>
+                    <span className="flex items-center gap-1 text-slate-400">
+                      <Maximize2 className="h-3 w-3" /> Zoom
+                    </span>
+                  </div>
                 </div>
               </div>
+
+              {/* Toggle Buttons: Foto Real vs Portada PDF */}
+              {guide.pdfCover && (
+                <div className="flex items-center gap-1 p-1 bg-slate-900/90 rounded-xl border border-slate-800 text-xs font-mono">
+                  <button
+                    onClick={() => setHeroViewMode('photo')}
+                    className={`flex-1 py-1.5 px-2 rounded-lg text-center transition-all flex items-center justify-center gap-1.5 ${
+                      heroViewMode === 'photo'
+                        ? 'bg-cyan-500/20 text-cyan-300 font-bold border border-cyan-500/50 shadow-sm'
+                        : 'text-slate-400 hover:text-slate-200'
+                    }`}
+                  >
+                    <Eye className="h-3.5 w-3.5 text-cyan-400" />
+                    <span>Foto Real</span>
+                  </button>
+                  <button
+                    onClick={() => setHeroViewMode('pdf')}
+                    className={`flex-1 py-1.5 px-2 rounded-lg text-center transition-all flex items-center justify-center gap-1.5 ${
+                      heroViewMode === 'pdf'
+                        ? 'bg-cyan-500/20 text-cyan-300 font-bold border border-cyan-500/50 shadow-sm'
+                        : 'text-slate-400 hover:text-slate-200'
+                    }`}
+                  >
+                    <FileText className="h-3.5 w-3.5 text-amber-400" />
+                    <span>Portada PDF</span>
+                  </button>
+                </div>
+              )}
             </div>
 
             {/* Title, Badges & Overview */}

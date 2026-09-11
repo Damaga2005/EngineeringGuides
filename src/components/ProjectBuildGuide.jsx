@@ -37,10 +37,28 @@ export default function ProjectBuildGuide({
   const [activeTab, setActiveTab] = useState('schematic'); // 'schematic' | 'wiring' | 'firmware' | 'mechanical' | 'calibration' | 'troubleshoot' | 'checklist'
   const [codeCopied, setCodeCopied] = useState(false);
   const [bomCopied, setBomCopied] = useState(false);
+  const [copiedPinIdx, setCopiedPinIdx] = useState(null);
   const [imageMode, setImageMode] = useState('photo'); // 'photo' | 'diagram'
   const [openTroubleshoot, setOpenTroubleshoot] = useState({});
   const [openInterview, setOpenInterview] = useState({});
   const [svgError, setSvgError] = useState(false);
+
+  // Total BOM cost calculation
+  const totalBOMCost = React.useMemo(() => {
+    let total = 0;
+    (project?.officialData?.bom || []).forEach(b => {
+      const match = (b.cost || '').match(/\$?(\d+)/);
+      if (match) total += parseInt(match[1], 10);
+    });
+    return total > 0 ? `$${total}` : null;
+  }, [project?.officialData?.bom]);
+
+  const copyPinInstruction = (row, idx) => {
+    const text = `${row.mcuPin} -> ${row.modulePin} (${row.signalType}, ${row.voltage}) // ${row.note}`;
+    navigator.clipboard.writeText(text);
+    setCopiedPinIdx(idx);
+    setTimeout(() => setCopiedPinIdx(null), 2000);
+  };
 
   // Local storage checklist state for this project
   const [checkedSteps, setCheckedSteps] = useState(() => {
@@ -276,6 +294,12 @@ export default function ProjectBuildGuide({
                   <span className="text-xs font-mono px-2.5 py-1 rounded-lg bg-slate-900 text-slate-300 border border-slate-800 hidden sm:inline-flex items-center gap-1.5">
                     <Boxes className="h-3.5 w-3.5 text-amber-400" />
                     {project.components[2]}
+                  </span>
+                )}
+                {totalBOMCost && (
+                  <span className="text-xs font-mono font-semibold px-2.5 py-1 rounded-lg bg-emerald-950/90 text-emerald-300 border border-emerald-700/60 flex items-center gap-1 shadow-sm">
+                    <DollarSign className="h-3.5 w-3.5 text-emerald-400" />
+                    BOM Estimado: {totalBOMCost}
                   </span>
                 )}
               </div>
@@ -535,6 +559,7 @@ export default function ProjectBuildGuide({
                       <th className="p-2.5">Señal</th>
                       <th className="p-2.5">Tensión</th>
                       <th className="p-2.5">Instrucción Eléctrica</th>
+                      <th className="p-2.5 text-right">Copiar</th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-slate-800/60 bg-slate-900/40 font-mono text-xs">
@@ -545,6 +570,16 @@ export default function ProjectBuildGuide({
                         <td className="p-2.5 text-purple-300">{row.signalType}</td>
                         <td className="p-2.5 text-emerald-300">{row.voltage}</td>
                         <td className="p-2.5 text-slate-400 font-sans">{row.note}</td>
+                        <td className="p-2.5 text-right font-sans">
+                          <button
+                            onClick={() => copyPinInstruction(row, idx)}
+                            className="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-cyan-300 border border-slate-700 text-[10px] transition-all"
+                            title="Copiar conexión exacta al portapapeles"
+                          >
+                            {copiedPinIdx === idx ? <Check className="h-3 w-3 text-emerald-400" /> : <Copy className="h-3 w-3" />}
+                            <span>{copiedPinIdx === idx ? "¡Listo!" : "Copiar"}</span>
+                          </button>
+                        </td>
                       </tr>
                     ))}
                   </tbody>

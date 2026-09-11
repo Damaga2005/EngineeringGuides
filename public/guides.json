@@ -48,7 +48,16 @@
       "title": "6 Engineering Projects That See Everything Coming (Part 20)",
       "subtitle": "Sistema personal de conciencia situacional, vigilancia perimetral y defensa táctica",
       "summary": "Seis construcciones de hardware que se combinan en un sistema de alerta temprana: monocular de visión nocturna, HUD wearable, torre de vigilancia solar, estación RF y mapa de mando táctico unificado.",
-      "image": "covers/guide-001.png",
+      "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?auto=format&fit=crop&w=1200&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?auto=format&fit=crop&w=1200&q=80",
+      "pdfCover": "covers/guide-001.png",
+      "topComponents": [
+        "Sony Starvis IMX307",
+        "VCSEL 940nm",
+        "Micro-OLED 0.39\"",
+        "Lente F/1.2",
+        "Prisma colimador"
+      ],
       "difficulty": "Avanzado",
       "pageCount": 18,
       "buildTimeTotal": "4-6 semanas",
@@ -60,7 +69,7 @@
           "cost": "$65",
           "time": "1 fin de semana",
           "description": "Sensor CMOS de ultra-baja iluminación con filtro IR retirado, iluminador VCSEL de 940nm y micro-display OLED.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-001/page_1.png",
           "schematicSvg": "schematics/guide-001_p1.svg",
           "components": [
@@ -204,7 +213,7 @@
           "cost": "$45",
           "time": "1 fin de semana",
           "description": "Óptica colimada montada en casco que proyecta brújula, telemetría y waypoints sin tapar la visión natural.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-001/page_4.png",
           "schematicSvg": "schematics/guide-001_p2.svg",
           "components": [
@@ -348,7 +357,7 @@
           "cost": "$85",
           "time": "2 fines de semana",
           "description": "Torreta autónoma perimetral con radar Doppler de 24 GHz, tracking PTZ y alimentación solar con supercondensadores.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1509391365360-2e959784a276?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-001/page_7.png",
           "schematicSvg": "schematics/guide-001_p3.svg",
           "components": [
@@ -636,7 +645,7 @@
           "cost": "$30",
           "time": "1 día",
           "description": "Malla cifrada de largo alcance (10-15 km) para comunicación táctica sin depender de internet ni telefonía.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-001/page_13.png",
           "schematicSvg": "schematics/guide-001_p5.svg",
           "components": [
@@ -780,7 +789,7 @@
           "cost": "$20",
           "time": "1 fin de semana",
           "description": "Servidor táctico offline compatible con ATAK/WebTAK que unifica en tiempo real todos los sensores.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1524661135-423995f22d0b?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-001/page_16.png",
           "schematicSvg": "schematics/guide-001_p6.svg",
           "components": [
@@ -1018,7 +1027,16 @@
       "title": "6 Upgrades Your Drone Is Missing (Part 21)",
       "subtitle": "Actualizaciones críticas de hardware para drones ArduPilot y PX4",
       "summary": "Mejoras tácticas modulares: vuelo estacionario interior sin GPS, anillo sensor anticolisión, paracaídas de emergencia, gimbal FOC y aterrizaje guiado por visión.",
-      "image": "covers/guide-002.png",
+      "image": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?auto=format&fit=crop&w=1200&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?auto=format&fit=crop&w=1200&q=80",
+      "pdfCover": "covers/guide-002.png",
+      "topComponents": [
+        "Matek 3901-L0X",
+        "UART/I2C",
+        "4x VL53L1X",
+        "Hub I2C",
+        "Soporte carbono"
+      ],
       "difficulty": "Avanzado",
       "pageCount": 16,
       "buildTimeTotal": "3-4 semanas",
@@ -1167,7 +1185,7 @@
           "cost": "$50",
           "time": "1 fin de semana",
           "description": "Anillo perimétrico de 4 a 8 sensores láser ToF que frena el dron a distancia segura de muros.",
-          "image": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-002/page_3.png",
           "schematicSvg": "schematics/guide-002_p2.svg",
           "components": [
@@ -1441,7 +1459,7 @@
           "cost": "$45",
           "time": "2 fines de semana",
           "description": "Gimbal ultraligero con control vectorial de campo que elimina vibraciones en la cámara.",
-          "image": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-002/page_7.png",
           "schematicSvg": "schematics/guide-002_p4.svg",
           "components": [
@@ -1715,7 +1733,7 @@
           "cost": "$25",
           "time": "1 día",
           "description": "Carga útil para generar mapas tridimensionales de potencia de señales Wi-Fi y LoRa.",
-          "image": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-002/page_11.png",
           "schematicSvg": "schematics/guide-002_p6.svg",
           "components": [
@@ -1960,7 +1978,16 @@
       "title": "6 EE Projects That Build a Real Satellite",
       "subtitle": "Subsistemas reales de una nave espacial y arquitectura CubeSat",
       "summary": "Construcción práctica de subsistemas orbitales: propulsión de gas frío RCS, estación terrestre auto-tracking, magnetorquers, OBC espacial y energía solar MPPT.",
-      "image": "covers/guide-003.png",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80",
+      "pdfCover": "covers/guide-003.png",
+      "topComponents": [
+        "Electroválvulas 12V",
+        "Boquillas Laval",
+        "Regulador CO2",
+        "IMU 9-DOF",
+        "Yagi 437 MHz"
+      ],
       "difficulty": "Avanzado",
       "pageCount": 23,
       "buildTimeTotal": "6-8 semanas",
@@ -2115,7 +2142,7 @@
           "cost": "$70",
           "time": "2 fines de semana",
           "description": "Antena Yagi orientable en azimut y elevación que rastrea satélites LEO automáticamente.",
-          "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-003/page_4.png",
           "schematicSvg": "schematics/guide-003_p2.svg",
           "components": [
@@ -2538,7 +2565,7 @@
           "cost": "$25",
           "time": "1 fin de semana",
           "description": "Sensor de cuadrante de fotodiodos que calcula el vector solar tridimensional.",
-          "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1508614589041-895b88991e3e?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-003/page_13.png",
           "schematicSvg": "schematics/guide-003_p5.svg",
           "components": [
@@ -2904,7 +2931,16 @@
       "title": "6 EE Projects That Eavesdrop On The Sky",
       "subtitle": "Inteligencia de señales aéreas, marítimas y espaciales con radio SDR",
       "summary": "Recepción pasiva y legal de señales del cielo con un dongle SDR de $30: radar de aviones ADS-B, sensores de coches TPMS, meteoros en ionosfera y sondas meteorológicas.",
-      "image": "covers/guide-004.png",
+      "image": "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?auto=format&fit=crop&w=1200&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?auto=format&fit=crop&w=1200&q=80",
+      "pdfCover": "covers/guide-004.png",
+      "topComponents": [
+        "RTL-SDR v4",
+        "Antena colineal",
+        "dump1090",
+        "RTL-SDR",
+        "Antena dipolo"
+      ],
       "difficulty": "Intermedio",
       "pageCount": 23,
       "buildTimeTotal": "2-3 semanas",
@@ -2916,7 +2952,7 @@
           "cost": "$30",
           "time": "1 fin de semana",
           "description": "Mapa en vivo de todos los aviones sobrevolando tu ciudad en 1090 MHz.",
-          "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-004/page_1.png",
           "schematicSvg": "schematics/guide-004_p1.svg",
           "components": [
@@ -3052,7 +3088,7 @@
           "cost": "$30",
           "time": "1 día",
           "description": "Decodificación de sensores de presión de neumáticos de vehículos en 433/315 MHz.",
-          "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-004/page_4.png",
           "schematicSvg": "schematics/guide-004_p2.svg",
           "components": [
@@ -3188,7 +3224,7 @@
           "cost": "$30",
           "time": "1 fin de semana",
           "description": "Detección de meteoritos reflejando ondas en la ionosfera con radar GRAVES.",
-          "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-004/page_7.png",
           "schematicSvg": "schematics/guide-004_p3.svg",
           "components": [
@@ -3324,7 +3360,7 @@
           "cost": "$35",
           "time": "1 día",
           "description": "Rastreador en vivo de buques, cargueros y ferris en 162 MHz.",
-          "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-004/page_10.png",
           "schematicSvg": "schematics/guide-004_p4.svg",
           "components": [
@@ -3460,7 +3496,7 @@
           "cost": "$25",
           "time": "1 día",
           "description": "Lectura de estaciones meteorológicas y dispositivos inalámbricos locales.",
-          "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1508614589041-895b88991e3e?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-004/page_13.png",
           "schematicSvg": "schematics/guide-004_p5.svg",
           "components": [
@@ -3590,7 +3626,7 @@
           "cost": "$35",
           "time": "1 fin de semana",
           "description": "Seguimiento de globos meteorológicos a 30 km de altura en 403 MHz.",
-          "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-004/page_16.png",
           "schematicSvg": "schematics/guide-004_p6.svg",
           "components": [
@@ -3821,7 +3857,16 @@
       "title": "6 EE Projects That Move With Precision",
       "subtitle": "Control de movimiento micrométrico, servomotores y algoritmos FOC",
       "summary": "Construcción de actuadores electromecánicos de alta precisión: control vectorial de motores brushless, etapas lineales de husillo antibacklash y péndulo invertido dinámico.",
-      "image": "covers/guide-005.png",
+      "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80",
+      "pdfCover": "covers/guide-005.png",
+      "topComponents": [
+        "NEMA 17",
+        "AS5600",
+        "Driver TMC2209",
+        "Motor BLDC gimbal",
+        "Driver SimpleFOC"
+      ],
       "difficulty": "Avanzado",
       "pageCount": 19,
       "buildTimeTotal": "4-5 semanas",
@@ -3833,7 +3878,7 @@
           "cost": "$35",
           "time": "1 fin de semana",
           "description": "Motor paso a paso con encoder magnético absoluto que nunca pierde pasos.",
-          "image": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-005/page_1.png",
           "schematicSvg": "schematics/guide-005_p1.svg",
           "components": [
@@ -3968,7 +4013,7 @@
           "cost": "$45",
           "time": "2 fines de semana",
           "description": "Servomotor sin escobillas suave y silencioso con control vectorial de par.",
-          "image": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-005/page_4.png",
           "schematicSvg": "schematics/guide-005_p2.svg",
           "components": [
@@ -4103,7 +4148,7 @@
           "cost": "$40",
           "time": "1 fin de semana",
           "description": "Platina de desplazamiento lineal con resolución de 5 micras y husillo antibacklash.",
-          "image": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-005/page_7.png",
           "schematicSvg": "schematics/guide-005_p3.svg",
           "components": [
@@ -4239,7 +4284,7 @@
           "cost": "$35",
           "time": "1 fin de semana",
           "description": "Péndulo auto-estabilizado dinámicamente mediante control PID en bucle cerrado rápido.",
-          "image": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-005/page_10.png",
           "schematicSvg": "schematics/guide-005_p4.svg",
           "components": [
@@ -4375,7 +4420,7 @@
           "cost": "$45",
           "time": "1 fin de semana",
           "description": "Actuador con sensor de corriente de alta velocidad para protección de pinzas.",
-          "image": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-005/page_13.png",
           "schematicSvg": "schematics/guide-005_p5.svg",
           "components": [
@@ -4511,7 +4556,7 @@
           "cost": "$30",
           "time": "1 fin de semana",
           "description": "Junta robótica de alto par sin holgura basada en reducción cicloidal 20:1.",
-          "image": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-005/page_16.png",
           "schematicSvg": "schematics/guide-005_p6.svg",
           "components": [
@@ -4748,7 +4793,16 @@
       "title": "6 EE Projects That Put You on a Drone Team",
       "subtitle": "Electrónica de vuelo, controladoras desde cero y variadores de velocidad",
       "summary": "Seis desarrollos clave para demostrar nivel profesional en ingeniería de UAVs: controladora de vuelo propia en STM32, variador ESC con conmutación rápida y registrador blackbox.",
-      "image": "covers/guide-006.png",
+      "image": "https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&fit=crop&w=1200&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&fit=crop&w=1200&q=80",
+      "pdfCover": "covers/guide-006.png",
+      "topComponents": [
+        "STM32F405",
+        "ICM-42688-P",
+        "Barómetro DPS310",
+        "6x MOSFETs N-channel",
+        "Gate Drivers"
+      ],
       "difficulty": "Avanzado",
       "pageCount": 20,
       "buildTimeTotal": "4-6 semanas",
@@ -4760,7 +4814,7 @@
           "cost": "$35",
           "time": "2 fines de semana",
           "description": "Controladora de vuelo en PCB de 4 capas con IMU SPI y filtro Kalman en C.",
-          "image": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-006/page_1.png",
           "schematicSvg": "schematics/guide-006_p1.svg",
           "components": [
@@ -4897,7 +4951,7 @@
           "cost": "$25",
           "time": "1 fin de semana",
           "description": "Variador de velocidad electrónico con conmutación por MOSFETs y DShot600.",
-          "image": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-006/page_4.png",
           "schematicSvg": "schematics/guide-006_p2.svg",
           "components": [
@@ -5040,7 +5094,7 @@
           "cost": "$30",
           "time": "1 fin de semana",
           "description": "Módem de telemetría digital bidireccional con protocolo MAVLink y cifrado.",
-          "image": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-006/page_7.png",
           "schematicSvg": "schematics/guide-006_p3.svg",
           "components": [
@@ -5176,7 +5230,7 @@
           "cost": "$20",
           "time": "1 fin de semana",
           "description": "Placa PDB para 6S LiPo con reguladores duales de bajo ruido y sensor de 100A.",
-          "image": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-006/page_10.png",
           "schematicSvg": "schematics/guide-006_p4.svg",
           "components": [
@@ -5313,7 +5367,7 @@
           "cost": "$0",
           "time": "1 fin de semana",
           "description": "Filtro de Kalman extendido (EKF) para estimación precisa de orientación en vuelo.",
-          "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-006/page_13.png",
           "schematicSvg": "schematics/guide-006_p5.svg",
           "components": [
@@ -5443,7 +5497,7 @@
           "cost": "$15",
           "time": "1 día",
           "description": "Grabador de telemetría a 1 kHz en memoria flash SPI para análisis de vibraciones.",
-          "image": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-006/page_16.png",
           "schematicSvg": "schematics/guide-006_p6.svg",
           "components": [
@@ -5680,7 +5734,16 @@
       "title": "6 EE Projects That Reach Space",
       "subtitle": "Sistemas espaciales, telemetría orbital y detectores de rayos cósmicos",
       "summary": "Proyectos espaciales realizables desde tu laboratorio: recepción directa de satélites meteorológicos geoestacionarios, ruedas de reacción y detector de muones cósmicos.",
-      "image": "covers/guide-007.png",
+      "image": "https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?auto=format&fit=crop&w=1200&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?auto=format&fit=crop&w=1200&q=80",
+      "pdfCover": "covers/guide-007.png",
+      "topComponents": [
+        "LNA Sawbird GOES",
+        "RTL-SDR",
+        "Antena V-dipole",
+        "Software satdump",
+        "Volante de inercia latón"
+      ],
       "difficulty": "Avanzado",
       "pageCount": 21,
       "buildTimeTotal": "4-6 semanas",
@@ -5692,7 +5755,7 @@
           "cost": "$65",
           "time": "2 fines de semana",
           "description": "Descarga imágenes completas de la Tierra en tiempo real desde el satélite GOES a 36.000 km.",
-          "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-007/page_1.png",
           "schematicSvg": "schematics/guide-007_p1.svg",
           "components": [
@@ -5979,7 +6042,7 @@
           "cost": "$45",
           "time": "2 fines de semana",
           "description": "Rueda de reacción balanceada que orienta una plataforma espacial mediante conservación de momento.",
-          "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1521673845931-771f6ad0a4c6?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-007/page_7.png",
           "schematicSvg": "schematics/guide-007_p3.svg",
           "components": [
@@ -6116,7 +6179,7 @@
           "cost": "$40",
           "time": "1 fin de semana",
           "description": "Cámara que identifica constelaciones nocturnas y calcula la orientación absoluta de la nave.",
-          "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1517976487507-5b3a4a65b822?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-007/page_10.png",
           "schematicSvg": "schematics/guide-007_p4.svg",
           "components": [
@@ -6260,7 +6323,7 @@
           "cost": "$35",
           "time": "1 fin de semana",
           "description": "Reloj de referencia de 10 MHz con precisión atómica sincronizado con la señal PPS de GPS.",
-          "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-007/page_13.png",
           "schematicSvg": "schematics/guide-007_p5.svg",
           "components": [
@@ -6397,7 +6460,7 @@
           "cost": "$45",
           "time": "2 fines de semana",
           "description": "Detector de partículas subatómicas del espacio profundo mediante fotomultiplicador de silicio.",
-          "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1508614589041-895b88991e3e?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-007/page_16.png",
           "schematicSvg": "schematics/guide-007_p6.svg",
           "components": [
@@ -6634,7 +6697,16 @@
       "title": "6 EE Projects That Read The Body",
       "subtitle": "Interfaces bioeléctricas analógicas, biopotenciales y sensores médicos",
       "summary": "Diseño de circuitos analógicos de ultra-bajo ruido con aislamiento galvánico para captar bioseñales humanas: ECG cardíaco, EMG muscular, EEG cerebral y oximetría.",
-      "image": "covers/guide-008.png",
+      "image": "https://images.unsplash.com/photo-1589254065878-42c9da997008?auto=format&fit=crop&w=1200&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1589254065878-42c9da997008?auto=format&fit=crop&w=1200&q=80",
+      "pdfCover": "covers/guide-008.png",
+      "topComponents": [
+        "INA128",
+        "Filtro Notch 50/60Hz",
+        "Electrodos Ag/AgCl",
+        "Rectificador de precisión",
+        "Integrador analógico"
+      ],
       "difficulty": "Avanzado",
       "pageCount": 20,
       "buildTimeTotal": "3-4 semanas",
@@ -6646,7 +6718,7 @@
           "cost": "$30",
           "time": "1 fin de semana",
           "description": "Electrocardiógrafo analógico con amplificador de instrumentación y pierna derecha activa.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1589254065878-42c9da997008?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-008/page_1.png",
           "schematicSvg": "schematics/guide-008_p1.svg",
           "components": [
@@ -6927,7 +6999,7 @@
           "cost": "$35",
           "time": "1 fin de semana",
           "description": "Detección de ondas cerebrales alfa (8-12 Hz) al cerrar los ojos mediante filtrado activo.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-008/page_7.png",
           "schematicSvg": "schematics/guide-008_p3.svg",
           "components": [
@@ -7056,7 +7128,7 @@
           "cost": "$20",
           "time": "1 día",
           "description": "Medición de oxígeno en sangre y pulso mediante absorción diferencial de luz roja e infrarroja.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1569012871812-f38ee64cd54c?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-008/page_10.png",
           "schematicSvg": "schematics/guide-008_p4.svg",
           "components": [
@@ -7192,7 +7264,7 @@
           "cost": "$15",
           "time": "1 día",
           "description": "Medición de la conductancia eléctrica de la piel para cuantificar niveles de estrés.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-008/page_13.png",
           "schematicSvg": "schematics/guide-008_p5.svg",
           "components": [
@@ -7321,7 +7393,7 @@
           "cost": "$35",
           "time": "1 fin de semana",
           "description": "Inyección de corriente alterna segura de 50 kHz para calcular porcentaje de masa grasa.",
-          "image": "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-008/page_16.png",
           "schematicSvg": "schematics/guide-008_p6.svg",
           "components": [
@@ -7558,7 +7630,16 @@
       "title": "6 EE Projects That See With Light",
       "subtitle": "Fotónica, LiDAR tiempo de vuelo, comunicación láser y escáneres 3D",
       "summary": "Construcciones de ingeniería óptica: telémetros láser LiDAR de nanosegundos, enlaces ópticos de datos por aire libre, vibrómetros láser sin contacto y escáneres 3D.",
-      "image": "covers/guide-009.png",
+      "image": "https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?auto=format&fit=crop&w=1200&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?auto=format&fit=crop&w=1200&q=80",
+      "pdfCover": "covers/guide-009.png",
+      "topComponents": [
+        "Diodos láser 650nm",
+        "Fototransistores rápidos",
+        "Temporizador",
+        "Sensor VL53L1X",
+        "Lente colimadora"
+      ],
       "difficulty": "Avanzado",
       "pageCount": 18,
       "buildTimeTotal": "3-4 semanas",
@@ -7570,7 +7651,7 @@
           "cost": "$20",
           "time": "1 día",
           "description": "Barrera láser de dos haces para medir la velocidad de proyectiles u objetos rápidos.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-009/page_1.png",
           "schematicSvg": "schematics/guide-009_p1.svg",
           "components": [
@@ -7707,7 +7788,7 @@
           "cost": "$40",
           "time": "1 fin de semana",
           "description": "Medición milimétrica de distancia midiendo el tiempo de vuelo de pulsos de luz.",
-          "image": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-009/page_4.png",
           "schematicSvg": "schematics/guide-009_p2.svg",
           "components": [
@@ -7844,7 +7925,7 @@
           "cost": "$55",
           "time": "2 fines de semana",
           "description": "Torreta rotatoria que mapea habitaciones completas en 360 grados en 2D.",
-          "image": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1555680202-c86f0e12f086?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-009/page_7.png",
           "schematicSvg": "schematics/guide-009_p3.svg",
           "components": [
@@ -7987,7 +8068,7 @@
           "cost": "$30",
           "time": "1 fin de semana",
           "description": "Transmisión de audio y datos digitales por haz láser infrarrojo a través de una habitación.",
-          "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-009/page_10.png",
           "schematicSvg": "schematics/guide-009_p4.svg",
           "components": [
@@ -8123,7 +8204,7 @@
           "cost": "$45",
           "time": "1 fin de semana",
           "description": "Lectura de vibraciones mecánicas y sonido apuntando un haz láser a una superficie.",
-          "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-009/page_13.png",
           "schematicSvg": "schematics/guide-009_p5.svg",
           "components": [
@@ -8253,7 +8334,7 @@
           "cost": "$35",
           "time": "1 fin de semana",
           "description": "Proyector de línea láser que barre objetos para reconstruir modelos 3D en malla.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-009/page_16.png",
           "schematicSvg": "schematics/guide-009_p6.svg",
           "components": [
@@ -8491,7 +8572,16 @@
       "title": "6 EE Projects That See With Radio",
       "subtitle": "Radar de microondas, efecto Doppler, detección por Wi-Fi y radar pasivo",
       "summary": "Construcción de sistemas de radar en bandas ISM de microondas (10 GHz y 24 GHz): pistolas cinemométricas, radar FMCW de distancia, signos vitales a distancia y radar pasivo.",
-      "image": "covers/guide-010.png",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&q=80",
+      "pdfCover": "covers/guide-010.png",
+      "topComponents": [
+        "HB100 10.5GHz",
+        "Preamplificador operacional",
+        "Arduino",
+        "Sensor radar 24GHz",
+        "Display OLED"
+      ],
       "difficulty": "Avanzado",
       "pageCount": 19,
       "buildTimeTotal": "3-5 semanas",
@@ -9050,7 +9140,7 @@
           "cost": "$20",
           "time": "1 fin de semana",
           "description": "Detección de personas a través de paredes analizando las perturbaciones CSI de Wi-Fi.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-010/page_13.png",
           "schematicSvg": "schematics/guide-010_p5.svg",
           "components": [
@@ -9410,7 +9500,16 @@
       "title": "6 EE Projects That See The Invisible (Dark Ops)",
       "subtitle": "Señales de defensa: GNSS resiliente, radiogoniometría y enlaces de espectro ensanchado",
       "summary": "Seis construcciones de hardware táctico enfocadas en el espectro invisible: receptor GNSS inmune a jamming, radiogoniómetro RF Doppler, detector de anomalías magnéticas, sensor sísmico desatendido, receptor pasivo anti-UAS y enlace FHSS cifrado.",
-      "image": "covers/guide-011.png",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
+      "pdfCover": "covers/guide-011.png",
+      "topComponents": [
+        "u-blox NEO-6M / M8N",
+        "RTL-SDR v4",
+        "Antena activa L1 1575MHz",
+        "ESP32",
+        "Arreglo 4x dipolos"
+      ],
       "difficulty": "Avanzado",
       "pageCount": 17,
       "buildTimeTotal": "4-6 semanas",
@@ -9422,7 +9521,7 @@
           "cost": "$25",
           "time": "1 fin de semana",
           "description": "Recepción de constelaciones GPS/Galileo y análisis de correlación frente a ataques de jamming y spoofing.",
-          "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-011/page_1.png",
           "schematicSvg": "schematics/guide-011_p1.svg",
           "components": [
@@ -9572,7 +9671,7 @@
           "cost": "$50",
           "time": "2 fines de semana",
           "description": "Radiogoniómetro con conmutación circular de antenas que apunta automáticamente hacia cualquier emisor hostil.",
-          "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-011/page_3.png",
           "schematicSvg": "schematics/guide-011_p2.svg",
           "components": [
@@ -9722,7 +9821,7 @@
           "cost": "$30",
           "time": "1 fin de semana",
           "description": "Gradiómetro magnético de ultra-precisión para detectar el paso de vehículos blindados por la distorsión del campo terrestre.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-011/page_5.png",
           "schematicSvg": "schematics/guide-011_p3.svg",
           "components": [
@@ -9865,7 +9964,7 @@
           "cost": "$35",
           "time": "1 fin de semana",
           "description": "Sensor sísmico geófono VLF con acondicionamiento analógico de señal y clasificación de pisadas humanas vs vehículos.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-011/page_7.png",
           "schematicSvg": "schematics/guide-011_p4.svg",
           "components": [
@@ -10158,7 +10257,7 @@
           "cost": "$30",
           "time": "1 fin de semana",
           "description": "Enlace de radioenlace que salta 50 veces por segundo de frecuencia con autenticación y cifrado AES-256 por paquete.",
-          "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-011/page_11.png",
           "schematicSvg": "schematics/guide-011_p6.svg",
           "components": [
@@ -10409,7 +10508,16 @@
       "title": "6 EE Projects That See The Invisible (Revised Edition)",
       "subtitle": "Detección espectral avanzada, radiogoniometría y contramedidas electrónicas",
       "summary": "Edición revisada y expandida: seis construcciones completas de instrumentación de defensa para detectar señales ocultas, anomalías magnéticas en el subsuelo y emisiones de radio hostiles.",
-      "image": "covers/guide-012.png",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1200&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1200&q=80",
+      "pdfCover": "covers/guide-012.png",
+      "topComponents": [
+        "u-blox NEO-6M",
+        "RTL-SDR",
+        "Antena activa 1575MHz",
+        "Arreglo 4x dipolos",
+        "Switch RF HMC241"
+      ],
       "difficulty": "Avanzado",
       "pageCount": 23,
       "buildTimeTotal": "4-6 semanas",
@@ -10421,7 +10529,7 @@
           "cost": "$25",
           "time": "1 fin de semana",
           "description": "Recepción GNSS L1 y algoritmos de mitigación de interferencias intencionadas (Anti-Jamming).",
-          "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-012/page_1.png",
           "schematicSvg": "schematics/guide-012_p1.svg",
           "components": [
@@ -10564,7 +10672,7 @@
           "cost": "$50",
           "time": "2 fines de semana",
           "description": "Radiogoniómetro Doppler con conmutación circular de antenas para localización de emisores.",
-          "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-012/page_4.png",
           "schematicSvg": "schematics/guide-012_p2.svg",
           "components": [
@@ -10707,7 +10815,7 @@
           "cost": "$30",
           "time": "1 fin de semana",
           "description": "Gradiómetro magnético de alta sensibilidad para detección de masas ferrosas en movimiento.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1517976487507-5b3a4a65b822?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-012/page_7.png",
           "schematicSvg": "schematics/guide-012_p3.svg",
           "components": [
@@ -10843,7 +10951,7 @@
           "cost": "$35",
           "time": "1 fin de semana",
           "description": "Sensor sísmico VLF con clasificación por frecuencia fundamental y cadencia de impacto.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1517976487507-5b3a4a65b822?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-012/page_10.png",
           "schematicSvg": "schematics/guide-012_p4.svg",
           "components": [
@@ -11366,7 +11474,16 @@
       "title": "6 EE Projects That Think For Themselves",
       "subtitle": "Robótica móvil autónoma, brazos cinemáticos, cuadrúpedos y mapeo SLAM",
       "summary": "Seis robots completos construidos desde cero que ejecutan el bucle robótico profesional 'sense, decide, act': rover reactivo, brazo cinemático inverso, cuadrúpedo caminante, rover SLAM, péndulo autoequilibrado y pórtico pick-and-place.",
-      "image": "covers/guide-013.png",
+      "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?auto=format&fit=crop&w=1200&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?auto=format&fit=crop&w=1200&q=80",
+      "pdfCover": "covers/guide-013.png",
+      "topComponents": [
+        "Chasis 2WD",
+        "2x Motores N20 reductora",
+        "3x Sensores VL53L0X",
+        "ESP32",
+        "4x Servos metálicos MG996R"
+      ],
       "difficulty": "Avanzado",
       "pageCount": 15,
       "buildTimeTotal": "6-8 semanas",
@@ -11378,7 +11495,7 @@
           "cost": "$35",
           "time": "1 fin de semana",
           "description": "Rover diferencial con sensores ToF y algoritmos de campos potenciales repulsivos para navegación sin colisiones.",
-          "image": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-013/page_1.png",
           "schematicSvg": "schematics/guide-013_p1.svg",
           "components": [
@@ -11522,7 +11639,7 @@
           "cost": "$45",
           "time": "2 fines de semana",
           "description": "Brazo robótico de 4 grados de libertad con cálculo trigonométrico inverso en tiempo real de ángulos articulares.",
-          "image": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-013/page_3.png",
           "schematicSvg": "schematics/guide-013_p2.svg",
           "components": [
@@ -11664,7 +11781,7 @@
           "cost": "$65",
           "time": "3 semanas",
           "description": "Robot caminante de cuatro patas con 8-12 servos y generador de marcha Trot/Crawl con cinemática de extremidades.",
-          "image": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-013/page_5.png",
           "schematicSvg": "schematics/guide-013_p3.svg",
           "components": [
@@ -11806,7 +11923,7 @@
           "cost": "$55",
           "time": "2 fines de semana",
           "description": "Vehículo terrestre que explora un entorno desconocido y genera un plano 2D en vivo mediante escáner Lidar y odometría.",
-          "image": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-013/page_7.png",
           "schematicSvg": "schematics/guide-013_p4.svg",
           "components": [
@@ -11950,7 +12067,7 @@
           "cost": "$40",
           "time": "1 fin de semana",
           "description": "Robot de dos ruedas autoequilibrado con bucle de control PID y filtro complementario a 250 Hz sobre encoders y giroscopio.",
-          "image": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-013/page_9.png",
           "schematicSvg": "schematics/guide-013_p5.svg",
           "components": [
@@ -12094,7 +12211,7 @@
           "cost": "$50",
           "time": "2 fines de semana",
           "description": "Pórtico cartesiano con cámara cenital y pinza por vacío que clasifica piezas automáticamente según su forma y color.",
-          "image": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-013/page_11.png",
           "schematicSvg": "schematics/guide-013_p6.svg",
           "components": [
@@ -12339,7 +12456,16 @@
       "title": "6 Engineering Projects That Survive The Field",
       "subtitle": "Blindaje electromagnético, aerodinámica, ensayos de impacto balístico, acústica submarina y paracaídas guiado",
       "summary": "Seis proyectos completos desde la perspectiva de supervivencia y ensayos ambientales de defensa: caja de blindaje Faraday y EMC, túnel de viento subsónico con balanza de fuerzas, probeta de impacto para blindajes compuestos, arreglo hidrofonico pasivo TDOA, paracaídas autónomo guiado por GPS y laboratorio de choque térmico y vibración.",
-      "image": "covers/guide-014.png",
+      "image": "https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=1200&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=1200&q=80",
+      "pdfCover": "covers/guide-014.png",
+      "topComponents": [
+        "Caja de aluminio fundido",
+        "Generador RF",
+        "Receptor SDR",
+        "Ventilador de alta presión",
+        "Panal laminar"
+      ],
       "difficulty": "Avanzado",
       "pageCount": 16,
       "buildTimeTotal": "4-6 semanas",
@@ -12351,7 +12477,7 @@
           "cost": "$25",
           "time": "1 fin de semana",
           "description": "Caja blindada de alta atenuación RF para medir profundidad de piel, fugas de junturas y apantallamiento en dB.",
-          "image": "https://images.unsplash.com/photo-1581092335397-9583fe92d232?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-014/page_1.png",
           "schematicSvg": "schematics/guide-014_p1.svg",
           "components": [
@@ -12501,7 +12627,7 @@
           "cost": "$55",
           "time": "2 fines de semana",
           "description": "Túnel de viento para túnel aerodinámico con acondicionamiento en panal de abeja y balanza de sustentación/resistencia.",
-          "image": "https://images.unsplash.com/photo-1517976487507-5b3a4a65b822?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-014/page_3.png",
           "schematicSvg": "schematics/guide-014_p2.svg",
           "components": [
@@ -12787,7 +12913,7 @@
           "cost": "$45",
           "time": "2 fines de semana",
           "description": "Matriz de hidrófonos piezeléctricos encapsulados para triangulación acústica submarina por diferencia temporal de llegada.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-014/page_7.png",
           "schematicSvg": "schematics/guide-014_p4.svg",
           "components": [
@@ -12930,7 +13056,7 @@
           "cost": "$50",
           "time": "2 fines de semana",
           "description": "Sistema de caída autónoma con ala ram-air y servomotores de línea de freno guiados por waypoint GPS y brújula.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1521673845931-771f6ad0a4c6?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-014/page_9.png",
           "schematicSvg": "schematics/guide-014_p5.svg",
           "components": [
@@ -13073,7 +13199,7 @@
           "cost": "$35",
           "time": "1 fin de semana",
           "description": "Cámara de ciclado térmico con placa Peltier y actuador de vibración para certificar hardware antes del despliegue.",
-          "image": "https://images.unsplash.com/photo-1581092335397-9583fe92d232?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-014/page_11.png",
           "schematicSvg": "schematics/guide-014_p6.svg",
           "components": [
@@ -13317,7 +13443,16 @@
       "title": "6 Upgrades Your Drone Is Missing",
       "subtitle": "Flujo óptico, LiDAR, redundancia con votación Kalman y telemetría por bus CAN",
       "summary": "Seis sistemas de hardware crítico para convertir un dron comercial o artesanal en una aeronave autónoma de grado industrial con redundancia, navegación sin GPS y telemetría avanzada.",
-      "image": "covers/guide-015.png",
+      "image": "https://images.unsplash.com/photo-1521673845931-771f6ad0a4c6?auto=format&fit=crop&w=1200&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1521673845931-771f6ad0a4c6?auto=format&fit=crop&w=1200&q=80",
+      "pdfCover": "covers/guide-015.png",
+      "topComponents": [
+        "Sensor PMW3901",
+        "Sensor ToF VL53L1X",
+        "ESP32",
+        "Montaje impreso 3D",
+        "2x IMU BMI088"
+      ],
       "difficulty": "Avanzado",
       "pageCount": 16,
       "buildTimeTotal": "4-5 semanas",
@@ -13480,7 +13615,7 @@
           "cost": "$30",
           "time": "1 fin de semana",
           "description": "Placa de navegación con dos sensores inerciales desacoplados y algoritmo de votación Kalman para tolerancia a fallos por vibración.",
-          "image": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-015/page_3.png",
           "schematicSvg": "schematics/guide-015_p2.svg",
           "components": [
@@ -13624,7 +13759,7 @@
           "cost": "$40",
           "time": "2 fines de semana",
           "description": "Red de comunicaciones CAN bus para monitorizar en tiempo real RPM, temperatura, corriente y voltaje de cada variador.",
-          "image": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-015/page_5.png",
           "schematicSvg": "schematics/guide-015_p3.svg",
           "components": [
@@ -13775,7 +13910,7 @@
           "cost": "$35",
           "time": "1 fin de semana",
           "description": "Enlace de emergencia independiente a 868MHz con despliegue pirotécnico o por muelle de paracaídas ante fallo de batería principal.",
-          "image": "https://images.unsplash.com/photo-1521673845931-771f6ad0a4c6?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-015/page_7.png",
           "schematicSvg": "schematics/guide-015_p4.svg",
           "components": [
@@ -13919,7 +14054,7 @@
           "cost": "$25",
           "time": "1 fin de semana",
           "description": "Monitorización de congelación en borde de ataque por sensor capacitivo y activación de resistencias flexibles de calentamiento.",
-          "image": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-015/page_9.png",
           "schematicSvg": "schematics/guide-015_p5.svg",
           "components": [
@@ -14063,7 +14198,7 @@
           "cost": "$65",
           "time": "2 fines de semana",
           "description": "Computador a bordo Jetson/Coral TPU conectado por UART/MAVLink al controlador de vuelo para detección y evasión de obstáculos en 3D.",
-          "image": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-015/page_11.png",
           "schematicSvg": "schematics/guide-015_p6.svg",
           "components": [
@@ -14308,7 +14443,16 @@
       "title": "6 EE Projects Recruiters Actually Want To See",
       "subtitle": "Proyectos de hardware diseñados específicamente para responder a los requisitos de los puestos de empleo top",
       "summary": "Deja atrás los proyectos de parpadeo de LEDs. Desarrollos profesionales mapeados a descripciones de puesto reales: controlador de motor PID, PCB en KiCad fabricada en JLCPCB, multímetro digital, fuente conmutada buck y lógica FPGA en Verilog.",
-      "image": "covers/guide-016.png",
+      "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?auto=format&fit=crop&w=1200&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?auto=format&fit=crop&w=1200&q=80",
+      "pdfCover": "covers/guide-016.png",
+      "topComponents": [
+        "Motor DC con encoder",
+        "Driver L298N/TB6612",
+        "Arduino",
+        "Osciloscopio",
+        "KiCad"
+      ],
       "difficulty": "Intermedio a Avanzado",
       "pageCount": 21,
       "buildTimeTotal": "4-6 semanas",
@@ -14320,7 +14464,7 @@
           "cost": "$18",
           "time": "1-2 fines de semana",
           "description": "Control de velocidad en bucle cerrado con encoder en cuadratura y respuesta al escalón analizada.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-016/page_1.png",
           "schematicSvg": "schematics/guide-016_p1.svg",
           "components": [
@@ -14463,7 +14607,7 @@
           "cost": "$10",
           "time": "2 fines de semana",
           "description": "Placa sensorial profesional con ESP32 ruteada en KiCad, fabricada en JLCPCB y soldada en SMD.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1555680202-c86f0e12f086?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-016/page_4.png",
           "schematicSvg": "schematics/guide-016_p2.svg",
           "components": [
@@ -14606,7 +14750,7 @@
           "cost": "$12",
           "time": "1-2 fines de semana",
           "description": "Voltímetro, amperímetro y ohmímetro digital con protección de entrada por diodos Zener y display OLED.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-016/page_7.png",
           "schematicSvg": "schematics/guide-016_p3.svg",
           "components": [
@@ -14749,7 +14893,7 @@
           "cost": "$16",
           "time": "2-3 fines de semana",
           "description": "Fuente de alimentación conmutada de alta eficiencia (>85%) con simulación previa en LTspice.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-016/page_10.png",
           "schematicSvg": "schematics/guide-016_p4.svg",
           "components": [
@@ -14898,7 +15042,7 @@
           "cost": "$10",
           "time": "2 fines de semana",
           "description": "Analizador lógico que decodifica tramas de buses serie a nivel de byte en tiempo real en una pantalla.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-016/page_13.png",
           "schematicSvg": "schematics/guide-016_p5.svg",
           "components": [
@@ -15037,7 +15181,7 @@
           "cost": "$25",
           "time": "3-4 fines de semana",
           "description": "Controlador digital sin librerías escrito desde cero en Verilog para paneles RGB 32x32.",
-          "image": "https://images.unsplash.com/photo-1555680202-c86f0e12f086?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1508614589041-895b88991e3e?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-016/page_16.png",
           "schematicSvg": "schematics/guide-016_p6.svg",
           "components": [
@@ -15275,7 +15419,16 @@
       "title": "Ohmie Build Guide: Consola Portátil Arduino & OLED",
       "subtitle": "Fabricación completa de una consola retro de 8 bits con Arduino Uno y display OLED de 2.42\"",
       "summary": "Guía de montaje paso a paso del Club Ohm: conexionado de bus SPI, soldadura, potenciómetro deslizante, buzzer y programación de dos videojuegos clásicos completos en C++.",
-      "image": "covers/guide-017.png",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80",
+      "pdfCover": "covers/guide-017.png",
+      "topComponents": [
+        "Display OLED 2.42\" SPI",
+        "Arduino Uno",
+        "Slider Pot 10k lineal",
+        "Condensador 100nF",
+        "Buzzer pasivo"
+      ],
       "difficulty": "Principiante a Intermedio",
       "pageCount": 15,
       "buildTimeTotal": "1 fin de semana",
@@ -15287,7 +15440,7 @@
           "cost": "$18",
           "time": "2 horas",
           "description": "Cableado de alta velocidad para display monocromo SSD1309 alcanzando más de 45 FPS.",
-          "image": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-017/page_1.png",
           "schematicSvg": "schematics/guide-017_p1.svg",
           "components": [
@@ -15419,7 +15572,7 @@
           "cost": "$5",
           "time": "1 hora",
           "description": "Acondicionamiento y filtrado por software de la lectura para control suave de paletas.",
-          "image": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-017/page_4.png",
           "schematicSvg": "schematics/guide-017_p2.svg",
           "components": [
@@ -15544,7 +15697,7 @@
           "cost": "$3",
           "time": "1 hora",
           "description": "Sonidos chiptune por interrupciones de temporizador PWM sin congelar el renderizado.",
-          "image": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-017/page_7.png",
           "schematicSvg": "schematics/guide-017_p3.svg",
           "components": [
@@ -15673,7 +15826,7 @@
           "cost": "$0",
           "time": "2 horas",
           "description": "Estructura del motor de juego y carga del firmware con PlatformIO en VS Code.",
-          "image": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-017/page_10.png",
           "schematicSvg": "schematics/guide-017_p4.svg",
           "components": [
@@ -15877,7 +16030,16 @@
       "title": "6 Portfolio Projects Every CS Student Needs",
       "subtitle": "Los 6 proyectos de software de sistemas que los recruiters de élite quieren ver",
       "summary": "Olvídate de clones de Netflix o apps To-Do. Seis proyectos de software de alto impacto técnico: mensajería en tiempo real con WebSockets, RAG AI assistant, colas de tareas distribuidas y un intérprete de lenguaje propio.",
-      "image": "covers/guide-018.png",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80",
+      "pdfCover": "covers/guide-018.png",
+      "topComponents": [
+        "React",
+        "Node.js",
+        "Socket.io",
+        "PostgreSQL",
+        "Prisma"
+      ],
       "difficulty": "Intermedio a Avanzado",
       "pageCount": 21,
       "buildTimeTotal": "6-12 semanas",
@@ -15889,7 +16051,7 @@
           "cost": "$0",
           "time": "2-3 fines de semana",
           "description": "Aplicación de mensajería con salas, typing indicators, historial paginado y cifrado.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-018/page_1.png",
           "schematicSvg": "schematics/guide-018_p1.svg",
           "components": [
@@ -16039,7 +16201,7 @@
           "cost": "$0",
           "time": "2-3 fines de semana",
           "description": "Conversación con tus propios documentos mediante chunking, base de datos vectorial y citas.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-018/page_4.png",
           "schematicSvg": "schematics/guide-018_p2.svg",
           "components": [
@@ -16190,7 +16352,7 @@
           "cost": "$0",
           "time": "3-4 fines de semana",
           "description": "Sistema de cola de mensajes asíncrona con reintentos, idempotencia y métricas Prometheus.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-018/page_7.png",
           "schematicSvg": "schematics/guide-018_p3.svg",
           "components": [
@@ -16334,7 +16496,7 @@
           "cost": "$0",
           "time": "1-2 fines de semana",
           "description": "Herramienta de consola empaquetada en npm/pip con tests automáticos en GitHub Actions.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-018/page_10.png",
           "schematicSvg": "schematics/guide-018_p4.svg",
           "components": [
@@ -16476,7 +16638,7 @@
           "cost": "$0",
           "time": "4-6 fines de semana",
           "description": "Aplicación SaaS con roles de usuario, suscripciones recurrentes con Stripe y webhooks.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-018/page_13.png",
           "schematicSvg": "schematics/guide-018_p5.svg",
           "components": [
@@ -16615,7 +16777,7 @@
           "cost": "$0",
           "time": "3-5 fines de semana",
           "description": "Intérprete completo con lexer, parser de descenso recursivo, AST y evaluación de variables.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-018/page_16.png",
           "schematicSvg": "schematics/guide-018_p6.svg",
           "components": [
@@ -16851,7 +17013,16 @@
       "title": "The Dangerously Overeducated Engineer Guide",
       "subtitle": "La hoja de ruta para autoeducarte hasta conseguir ofertas de empleo fuera de tu alcance",
       "summary": "El plan de estudio y carrera para dominar materias avanzadas de ingeniería por tu cuenta, construir proyectos indiscutibles y destacar en los procesos de selección más exigentes.",
-      "image": "covers/guide-019.png",
+      "image": "https://images.unsplash.com/photo-1517976487507-5b3a4a65b822?auto=format&fit=crop&w=1200&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1517976487507-5b3a4a65b822?auto=format&fit=crop&w=1200&q=80",
+      "pdfCover": "covers/guide-019.png",
+      "topComponents": [
+        "YouTube playlists oficiales",
+        "Lectures y exámenes libres",
+        "Stack tecnológico definido",
+        "Proyectos de nicho",
+        "Hardware funcional"
+      ],
       "difficulty": "Estratégico / Autodidacta",
       "pageCount": 10,
       "buildTimeTotal": "Plan continuo de 12 semanas",
@@ -16863,7 +17034,7 @@
           "cost": "$0",
           "time": "Semanas 1-4",
           "description": "Estudia los cursos de referencia: Stanford CS229 (ML), MIT 6.002 (Circuitos) y Berkeley CS61C.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-019/page_1.png",
           "schematicSvg": "schematics/guide-019_p1.svg",
           "components": [
@@ -16992,7 +17163,7 @@
           "cost": "$0",
           "time": "Semanas 2-6",
           "description": "Conviértete en el referente de un nicho de alto valor (FPGA, RF de potencia, sistemas embebidos en Rust).",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-019/page_2.png",
           "schematicSvg": "schematics/guide-019_p2.svg",
           "components": [
@@ -17121,7 +17292,7 @@
           "cost": "$40",
           "time": "Semanas 4-8",
           "description": "Diseña un proyecto ambicioso desde cero que resuelva un problema real o demuestre maestría técnica.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-019/page_3.png",
           "schematicSvg": "schematics/guide-019_p3.svg",
           "components": [
@@ -17251,7 +17422,7 @@
           "cost": "$0",
           "time": "Continuo",
           "description": "Aprende los secretos de ingeniería que no están en libros leyendo las app notes de TI, ADI y Linear Tech.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-019/page_4.png",
           "schematicSvg": "schematics/guide-019_p4.svg",
           "components": [
@@ -17374,7 +17545,7 @@
           "cost": "$25",
           "time": "Semanas 8-10",
           "description": "Desmonta productos comerciales rotos, traza los esquemáticos y analiza por qué tomaron cada decisión.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-019/page_5.png",
           "schematicSvg": "schematics/guide-019_p5.svg",
           "components": [
@@ -17503,7 +17674,7 @@
           "cost": "$0",
           "time": "Semanas 10-12",
           "description": "Publica artículos técnicos, vídeos de demostración y tus diseños para que los recruiters te contacten.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-019/page_6.png",
           "schematicSvg": "schematics/guide-019_p6.svg",
           "components": [
@@ -17730,7 +17901,16 @@
       "title": "6 AI-Era EE Projects",
       "subtitle": "Detección de voz sintética, sniffer EMI side-channel, kill switch de hardware y autenticación RF",
       "summary": "Seis construcciones de hardware electrónico diseñadas específicamente para interactuar, proteger y auditar sistemas de inteligencia artificial: detector analógico de clones de voz, sniffer de fuga electromagnética en procesadores, interruptor físico de emergencia por perfil de consumo, credencial criptográfica anti-deepfake, fusionador neuromórfico y clasificador de huella espectral RF.",
-      "image": "covers/guide-020.png",
+      "image": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?auto=format&fit=crop&w=1200&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?auto=format&fit=crop&w=1200&q=80",
+      "pdfCover": "covers/guide-020.png",
+      "topComponents": [
+        "Detector de picos",
+        "Comparadores ventana",
+        "Indicador LED",
+        "LNA 20dB bajo ruido",
+        "SDR RTL v4"
+      ],
       "difficulty": "Avanzado",
       "pageCount": 20,
       "buildTimeTotal": "4-5 semanas",
@@ -17742,7 +17922,7 @@
           "cost": "$15",
           "time": "1 fin de semana",
           "description": "Circuito analógico que detecta voces sintéticas analizando discontinuidades de fase y artefactos en el espectro audible sin requerir software pesado.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-020/page_1.png",
           "schematicSvg": "schematics/guide-020_p1.svg",
           "components": [
@@ -17885,7 +18065,7 @@
           "cost": "$30",
           "time": "1 fin de semana",
           "description": "Sonda electromagnética de campo cercano que captura las emisiones parásitas de una CPU para identificar qué algoritmo o red neuronal se está ejecutando.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-020/page_4.png",
           "schematicSvg": "schematics/guide-020_p2.svg",
           "components": [
@@ -18028,7 +18208,7 @@
           "cost": "$18",
           "time": "1 fin de semana",
           "description": "Watchdog analógico que desconecta físicamente la alimentación de un acelerador de IA cuando el perfil transitorio de corriente excede límites seguros.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-020/page_7.png",
           "schematicSvg": "schematics/guide-020_p3.svg",
           "components": [
@@ -18171,7 +18351,7 @@
           "cost": "$25",
           "time": "2 fines de semana",
           "description": "Dispositivo portátil con elemento seguro criptográfico ATECC608 que firma digitalmente cada captura de cámara con timestamp GPS inmutable.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-020/page_10.png",
           "schematicSvg": "schematics/guide-020_p4.svg",
           "components": [
@@ -18322,7 +18502,7 @@
           "cost": "$12",
           "time": "1 fin de semana",
           "description": "Red de neuronas de picos implementada con amplificadores operacionales que procesa datos de sensores en tiempo real sin reloj ni conversor ADC.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-020/page_13.png",
           "schematicSvg": "schematics/guide-020_p5.svg",
           "components": [
@@ -18712,7 +18892,16 @@
       "title": "Defense Tech Part 2: Laser + Covert Systems",
       "subtitle": "Micrófono láser, enlace óptico cifrado, telémetro ToF y visor nocturno pasivo",
       "summary": "Seis subsistemas ópticos y encubiertos para aplicaciones de defensa e inteligencia: micrófono láser por reflexión en ventanas a 100m, enlace láser IR cifrado punto a punto, telémetro ToF de alta velocidad, transmisor de ráfagas ágil en frecuencia, visor nocturno de amplificación pasiva y sistema de medición de sección transversal radar (RCS).",
-      "image": "covers/guide-021.png",
+      "image": "https://images.unsplash.com/photo-1569012871812-f38ee64cd54c?auto=format&fit=crop&w=1200&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1569012871812-f38ee64cd54c?auto=format&fit=crop&w=1200&q=80",
+      "pdfCover": "covers/guide-021.png",
+      "topComponents": [
+        "Fotodiodo PIN BPW34",
+        "Preamplificador bajo ruido",
+        "Filtro pasa-banda",
+        "LED/Láser infrarrojo 850nm",
+        "Receptor óptico rápido"
+      ],
       "difficulty": "Avanzado",
       "pageCount": 22,
       "buildTimeTotal": "4-6 semanas",
@@ -18724,7 +18913,7 @@
           "cost": "$15",
           "time": "1 fin de semana",
           "description": "Vibrometría láser que intercepta el audio interior a través de la vibración microscópica del vidrio de una ventana a 100 metros.",
-          "image": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-021/page_1.png",
           "schematicSvg": "schematics/guide-021_p1.svg",
           "components": [
@@ -19154,7 +19343,7 @@
           "cost": "$10",
           "time": "1 fin de semana",
           "description": "Transmisor táctico de ráfaga de 50 ms con salto de frecuencia rápido, inmune a radiogoniometría convencional y cifrado AES.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1517976487507-5b3a4a65b822?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-021/page_10.png",
           "schematicSvg": "schematics/guide-021_p4.svg",
           "components": [
@@ -19693,7 +19882,16 @@
       "title": "6 Physical AI Embodiment Projects",
       "subtitle": "Interfaces neuronales silenciosas, prótesis mioeléctricas, control AR y háptica predictiva",
       "summary": "Seis construcciones de frontera para conectar modelos de inteligencia artificial con la fisiología humana y el mundo físico: interfaz neural de habla silenciosa, prótesis de mano biónica con predicción de intención motora, brazalete de gestos para programación en realidad aumentada, colgante con biomarcadores emocionales, guante de sentido táctil predictivo y parche submandibular de comandos subvocalizados.",
-      "image": "covers/guide-022.png",
+      "image": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&fit=crop&w=1200&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&fit=crop&w=1200&q=80",
+      "pdfCover": "covers/guide-022.png",
+      "topComponents": [
+        "ESP32-S3",
+        "Filtro analógico 50Hz",
+        "5x Servos micro metálicos",
+        "Mano impresa en 3D SLS/PLA",
+        "Sensor MyoWare EMG"
+      ],
       "difficulty": "Avanzado",
       "pageCount": 23,
       "buildTimeTotal": "5-7 semanas",
@@ -20150,7 +20348,7 @@
           "cost": "$30",
           "time": "1-2 fines de semana",
           "description": "Colgante biométrico de bajo consumo que fusiona variabilidad de la frecuencia cardíaca (VFC), conductancia dérmica y temperatura.",
-          "image": "https://images.unsplash.com/photo-1510519138197-06b862a29411?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-022/page_10.png",
           "schematicSvg": "schematics/guide-022_p4.svg",
           "components": [
@@ -20301,7 +20499,7 @@
           "cost": "$45",
           "time": "2 fines de semana",
           "description": "Guante con actuadores resonantes lineales (LRA) que transmiten sensaciones táctiles anticipadas según la proximidad medida por sensores ToF.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-022/page_13.png",
           "schematicSvg": "schematics/guide-022_p5.svg",
           "components": [
@@ -20445,7 +20643,7 @@
           "cost": "$35",
           "time": "1-2 fines de semana",
           "description": "Parche submandibular de 4 electrodos capaz de clasificar 50 comandos de control discretos procesados localmente en Edge AI.",
-          "image": "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-022/page_16.png",
           "schematicSvg": "schematics/guide-022_p6.svg",
           "components": [
@@ -20697,7 +20895,16 @@
       "title": "6 Portfolio Projects Every EE Student Needs",
       "subtitle": "Los 6 proyectos clave de hardware para conseguir ofertas de empleo en ingeniería electrónica",
       "summary": "Proyectos de electrónica pura con impacto directo en entrevistas de trabajo: monitor de energía IoT, brazo robótico mioeléctrico EMG, sintetizador analógico en PCB propia y controlador solar MPPT.",
-      "image": "covers/guide-023.png",
+      "image": "https://images.unsplash.com/photo-1555680202-c86f0e12f086?auto=format&fit=crop&w=1200&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1555680202-c86f0e12f086?auto=format&fit=crop&w=1200&q=80",
+      "pdfCover": "covers/guide-023.png",
+      "topComponents": [
+        "ESP32",
+        "Sensor ACS712 / SCT-013",
+        "ZMPT101B",
+        "Dashboard Web",
+        "MyoWare 2.0 EMG"
+      ],
       "difficulty": "Intermedio a Avanzado",
       "pageCount": 15,
       "buildTimeTotal": "4-6 semanas",
@@ -20709,7 +20916,7 @@
           "cost": "$25",
           "time": "1 fin de semana",
           "description": "Pinza amperimétrica no invasiva y sensor de tensión que envían telemetría de consumo a la nube.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1517976487507-5b3a4a65b822?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-023/page_1.png",
           "schematicSvg": "schematics/guide-023_p1.svg",
           "components": [
@@ -20852,7 +21059,7 @@
           "cost": "$40",
           "time": "2 fines de semana",
           "description": "Brazo robótico controlado en tiempo real con las contracciones musculares del antebrazo.",
-          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-023/page_3.png",
           "schematicSvg": "schematics/guide-023_p2.svg",
           "components": [
@@ -20995,7 +21202,7 @@
           "cost": "$20",
           "time": "2 fines de semana",
           "description": "Instrumento musical analógico diseñado en KiCad con osciladores operacionales TL072 y temporizador 555.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1555680202-c86f0e12f086?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-023/page_5.png",
           "schematicSvg": "schematics/guide-023_p3.svg",
           "components": [
@@ -21138,7 +21345,7 @@
           "cost": "$30",
           "time": "2 fines de semana",
           "description": "Controlador de carga solar dinámico con convertidor DC-DC Buck de alta eficiencia.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-023/page_7.png",
           "schematicSvg": "schematics/guide-023_p4.svg",
           "components": [
@@ -21420,7 +21627,7 @@
           "cost": "$35",
           "time": "2 fines de semana",
           "description": "Robot de dos ruedas que mantiene el equilibrio vertical mediante un bucle PID estricto.",
-          "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-023/page_11.png",
           "schematicSvg": "schematics/guide-023_p6.svg",
           "components": [
@@ -21651,7 +21858,16 @@
       "title": "The Robot Framework: Patrocinio y Préstamo de Robots de $30.000",
       "subtitle": "El método de 5 pasos para conseguir que gigantes de robótica te cedan equipamiento industrial",
       "summary": "El caso real de cómo un estudiante universitario consiguió el préstamo gratuito de un robot industrial KUKA de 80 kg valorado en $30.000 para un proyecto de ingeniería y arte.",
-      "image": "covers/guide-024.png",
+      "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80",
+      "pdfCover": "covers/guide-024.png",
+      "topComponents": [
+        "Dossier de proyecto",
+        "Propuesta de valor de marca",
+        "Plantilla de correo",
+        "Vídeo de 30 segundos",
+        "Gantt técnico"
+      ],
       "difficulty": "Estratégico / Negociación",
       "pageCount": 11,
       "buildTimeTotal": "2-4 semanas de gestión",
@@ -21663,7 +21879,7 @@
           "cost": "$0",
           "time": "3 días",
           "description": "Cómo presentar tu proyecto para que la división de I+D de la empresa lo vea como marketing valioso.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-024/page_1.png",
           "schematicSvg": "schematics/guide-024_p1.svg",
           "components": [
@@ -21792,7 +22008,7 @@
           "cost": "$0",
           "time": "2 días",
           "description": "Plantilla exacta de contacto a directores técnicos: sin pedir dinero, con fechas y demostrando capacidad.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1508614589041-895b88991e3e?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-024/page_3.png",
           "schematicSvg": "schematics/guide-024_p2.svg",
           "components": [
@@ -21921,7 +22137,7 @@
           "cost": "$0",
           "time": "1 semana",
           "description": "Documento técnico de viabilidad: cronograma de hitos, seguridad eléctrica y plan de transporte.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-024/page_5.png",
           "schematicSvg": "schematics/guide-024_p3.svg",
           "components": [
@@ -22051,7 +22267,7 @@
           "cost": "$0",
           "time": "1 semana",
           "description": "Firma del acuerdo legal de cesión temporal, seguro de responsabilidad civil y recepción en muelle.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-024/page_7.png",
           "schematicSvg": "schematics/guide-024_p4.svg",
           "components": [
@@ -22180,7 +22396,7 @@
           "cost": "$0",
           "time": "2 semanas",
           "description": "Programación del brazo robot en su lenguaje nativo, ejecución de la performance y difusión en redes.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1589254065878-42c9da997008?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-024/page_9.png",
           "schematicSvg": "schematics/guide-024_p5.svg",
           "components": [
@@ -22393,7 +22609,16 @@
       "title": "How to Learn Electronics From Zero",
       "subtitle": "La hoja de ruta en 6 pasos para aprender electrónica desde cero construyendo cosas reales",
       "summary": "El orden óptimo para dominar el hardware sin aburrirse con teoría vacía: construir primero, medir con instrumental, aprender a soldar, diseñar en KiCad y fabricar tus placas.",
-      "image": "covers/guide-025.png",
+      "image": "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=1200&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=1200&q=80",
+      "pdfCover": "covers/guide-025.png",
+      "topComponents": [
+        "Multímetro digital",
+        "Cables con pinzas cocodrilo",
+        "Chip 555",
+        "Soldador regulable",
+        "Estaño 60/40 con resina"
+      ],
       "difficulty": "Principiante a Intermedio",
       "pageCount": 5,
       "buildTimeTotal": "4-6 semanas",
@@ -22405,7 +22630,7 @@
           "cost": "$30",
           "time": "Día 1",
           "description": "Consigue una placa, protoboard, LEDs, resistencias y botones para hacer funcionar tu primer circuito.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1555680202-c86f0e12f086?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-025/page_1.png",
           "schematicSvg": "schematics/guide-025_p1.svg",
           "components": [
@@ -22523,7 +22748,7 @@
           "cost": "$15",
           "time": "Día 3",
           "description": "Aprende a medir caídas de tensión, corrientes y continuidad con pitido sonoro.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-025/page_2.png",
           "schematicSvg": "schematics/guide-025_p2.svg",
           "components": [
@@ -22652,7 +22877,7 @@
           "cost": "$5",
           "time": "Fin de semana 1",
           "description": "Monta un oscilador con temporizador 555 para entender cómo interactúan resistencias y condensadores.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-025/page_3.png",
           "schematicSvg": "schematics/guide-025_p3.svg",
           "components": [
@@ -22781,7 +23006,7 @@
           "cost": "$20",
           "time": "Fin de semana 2",
           "description": "Domina la técnica de soldadura con estaño con plomo y flux en placas perforadas.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-025/page_4.png",
           "schematicSvg": "schematics/guide-025_p4.svg",
           "components": [
@@ -22917,7 +23142,7 @@
           "cost": "$5",
           "time": "Fin de semana 3",
           "description": "Dibuja el esquemático, rutea las pistas con plano de masa y manda a fabricar 5 placas a JLCPCB.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1555680202-c86f0e12f086?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-025/page_5.png",
           "schematicSvg": "schematics/guide-025_p5.svg",
           "components": [
@@ -23046,7 +23271,7 @@
           "cost": "$20",
           "time": "Fin de semana 4",
           "description": "Integra todo en un dispositivo funcional con caja para resolver una necesidad personal.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1569012871812-f38ee64cd54c?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-025/page_5.png",
           "schematicSvg": "schematics/guide-025_p6.svg",
           "components": [
@@ -23270,7 +23495,16 @@
       "title": "6 Portfolio Projects Every ME Student Needs",
       "subtitle": "Los 6 proyectos mecánicos de impacto que los recruiters de robótica y aeroespacio quieren ver",
       "summary": "Diseño mecánico riguroso, prototipado CAD y control mecatrónico: pinza robótica con sensor de fuerza, túnel de viento instrumentado, seguidor solar biaxial y grabadora CNC de escritorio.",
-      "image": "covers/guide-026.png",
+      "image": "https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?auto=format&fit=crop&w=1200&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?auto=format&fit=crop&w=1200&q=80",
+      "pdfCover": "covers/guide-026.png",
+      "topComponents": [
+        "Sensores FSR 402",
+        "Arduino Uno",
+        "Servo metálico",
+        "Piezas 3D",
+        "Ventiladores 120mm"
+      ],
       "difficulty": "Intermedio a Avanzado",
       "pageCount": 22,
       "buildTimeTotal": "4-8 semanas",
@@ -23282,7 +23516,7 @@
           "cost": "$30",
           "time": "1-2 fines de semana",
           "description": "Pinza robótica que ajusta su presión mediante sensores de fuerza resistivos para no dañar objetos frágiles.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-026/page_1.png",
           "schematicSvg": "schematics/guide-026_p1.svg",
           "components": [
@@ -23425,7 +23659,7 @@
           "cost": "$55",
           "time": "2-3 fines de semana",
           "description": "Túnel de viento de sobremesa con enderezador de flujo y sensor de presión diferencial para medir sustentación.",
-          "image": "https://images.unsplash.com/photo-1517976487507-5b3a4a65b822?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-026/page_4.png",
           "schematicSvg": "schematics/guide-026_p2.svg",
           "components": [
@@ -23562,7 +23796,7 @@
           "cost": "$40",
           "time": "1-2 fines de semana",
           "description": "Seguidor solar de 2 ejes mediante fotorresistencias LDR y servomotores que maximiza la generación eléctrica.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1589254065878-42c9da997008?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-026/page_7.png",
           "schematicSvg": "schematics/guide-026_p3.svg",
           "components": [
@@ -23706,7 +23940,7 @@
           "cost": "$35",
           "time": "1 fin de semana",
           "description": "Sistema de refrigeración inteligente que mantiene la temperatura de un chip a ±0.5°C mediante control PID.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-026/page_10.png",
           "schematicSvg": "schematics/guide-026_p4.svg",
           "components": [
@@ -23842,7 +24076,7 @@
           "cost": "$80",
           "time": "3-4 fines de semana",
           "description": "Grabadora CNC de 2/3 ejes con guías lineales, motores paso a paso y firmware GRBL con precisión de 0.1mm.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-026/page_13.png",
           "schematicSvg": "schematics/guide-026_p5.svg",
           "components": [
@@ -23985,7 +24219,7 @@
           "cost": "$50",
           "time": "2 fines de semana",
           "description": "Medición de deformación en vigas cargadas usando galgas extensométricas en puente de Wheatstone con ESP32.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-026/page_16.png",
           "schematicSvg": "schematics/guide-026_p6.svg",
           "components": [
@@ -24229,7 +24463,16 @@
       "title": "The ML Guide For Every Engineer",
       "subtitle": "Machine Learning aplicado según tu especialidad de ingeniería",
       "summary": "Qué aprender de inteligencia artificial y dónde aplicarlo según tu rama: mantenimiento predictivo para mecánicos, clasificación de señales y TinyML para electrónicos, y modelos de procesos químicos.",
-      "image": "covers/guide-027.png",
+      "image": "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?auto=format&fit=crop&w=1200&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?auto=format&fit=crop&w=1200&q=80",
+      "pdfCover": "covers/guide-027.png",
+      "topComponents": [
+        "Google Colab",
+        "Scikit-Learn",
+        "Pandas",
+        "Dataset IMS Bearings",
+        "PyTorch"
+      ],
       "difficulty": "Intermedio",
       "pageCount": 10,
       "buildTimeTotal": "Plan de 8 semanas",
@@ -24241,7 +24484,7 @@
           "cost": "$0",
           "time": "Semanas 1-2",
           "description": "Entendimiento aplicado de entrenamiento, validación y métricas de error sin atascarse en la estadística pura.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-027/page_1.png",
           "schematicSvg": "schematics/guide-027_p1.svg",
           "components": [
@@ -24373,7 +24616,7 @@
           "cost": "$0",
           "time": "Semanas 3-4",
           "description": "Modelo que predice el fallo inminente de rodamientos analizando la transformada FFT de acelerómetros.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-027/page_2.png",
           "schematicSvg": "schematics/guide-027_p2.svg",
           "components": [
@@ -24509,7 +24752,7 @@
           "cost": "$0",
           "time": "Semanas 4-5",
           "description": "Red convolucional 1D entrenada con el dataset MIT-BIH para detectar arritmias cardíacas.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-027/page_3.png",
           "schematicSvg": "schematics/guide-027_p3.svg",
           "components": [
@@ -24638,7 +24881,7 @@
           "cost": "$15",
           "time": "Semanas 5-6",
           "description": "Cuantización INT8 y ejecución de inferencia en tiempo real en un ESP32 o Arduino Nano BLE.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-027/page_4.png",
           "schematicSvg": "schematics/guide-027_p4.svg",
           "components": [
@@ -24775,7 +25018,7 @@
           "cost": "$0",
           "time": "Semanas 6-7",
           "description": "Modelado no lineal de rendimientos de reacción mediante procesos gaussianos y optimización bayesiana.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-027/page_5.png",
           "schematicSvg": "schematics/guide-027_p5.svg",
           "components": [
@@ -24905,7 +25148,7 @@
           "cost": "$15",
           "time": "Semanas 7-8",
           "description": "Sistema completo conectado con sensores físicos que realiza predicciones en vivo.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-027/page_6.png",
           "schematicSvg": "schematics/guide-027_p6.svg",
           "components": [
@@ -25142,7 +25385,16 @@
       "title": "The Summer EE Glow-Up (Vol. 1: Foundation)",
       "subtitle": "Guía de aceleración técnica intensiva: 10 recursos troncales de ingeniería electrónica",
       "summary": "Plan de entrenamiento estructurado de 12 semanas para dominar los fundamentos de diseño de circuitos, lógica digital, radiofrecuencia y sistemas embebidos mediante proyectos prácticos de laboratorio.",
-      "image": "covers/guide-028.png",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
+      "pdfCover": "covers/guide-028.png",
+      "topComponents": [
+        "Amplificador LF356",
+        "Fuente simétrica ±15V",
+        "Multímetro",
+        "Entorno KiCad",
+        "Plantillas JLCPCB"
+      ],
       "difficulty": "Principiante / Intermedio",
       "pageCount": 10,
       "buildTimeTotal": "12 semanas",
@@ -25154,7 +25406,7 @@
           "cost": "$35",
           "time": "2 semanas",
           "description": "Banco de ensayos con transistores discretos, amplificadores operacionales y osciladores montados sobre protoboard.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1517976487507-5b3a4a65b822?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-028/page_1.png",
           "schematicSvg": "schematics/guide-028_p1.svg",
           "components": [
@@ -25293,7 +25545,7 @@
           "cost": "$25",
           "time": "2 semanas",
           "description": "Diseño y trazado en KiCad de una placa de circuito impreso de 4 capas para microcontrolador STM32 y filtros analógicos.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-028/page_2.png",
           "schematicSvg": "schematics/guide-028_p2.svg",
           "components": [
@@ -25425,7 +25677,7 @@
           "cost": "$60",
           "time": "3 semanas",
           "description": "Construcción completa de una CPU de 8 bits con registros, ALU, contador de programa y RAM usando compuertas lógicas serie 74LS.",
-          "image": "https://images.unsplash.com/photo-1555680202-c86f0e12f086?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1589254065878-42c9da997008?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-028/page_3.png",
           "schematicSvg": "schematics/guide-028_p3.svg",
           "components": [
@@ -25564,7 +25816,7 @@
           "cost": "$30",
           "time": "1 semana",
           "description": "Protocolo de encendido inicial, verificación de voltajes sin chips, soldadura de paso fino SMD e inspección con microscopio.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1555680202-c86f0e12f086?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-028/page_4.png",
           "schematicSvg": "schematics/guide-028_p4.svg",
           "components": [
@@ -25706,7 +25958,7 @@
           "cost": "$20",
           "time": "2 semanas",
           "description": "Montaje de bucles de control retroalimentado analógico con amplificadores operacionales para estabilizar posición y corriente.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-028/page_5.png",
           "schematicSvg": "schematics/guide-028_p5.svg",
           "components": [
@@ -26100,7 +26352,16 @@
       "title": "The Summer EE Glow-Up (Vol. 2: Deeper Cuts)",
       "subtitle": "Profundización analógica, simulación de peor caso y procesado digital de señales (DSP)",
       "summary": "Segunda entrega del programa de aceleración técnica con diez recursos avanzados: diseño de circuitos integrados analógicos, simulación Monte Carlo en LTspice, emulación en tiempo real y DSP práctico.",
-      "image": "covers/guide-029.png",
+      "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80",
+      "pdfCover": "covers/guide-029.png",
+      "topComponents": [
+        "Medidor LCR",
+        "Diodos Schottky",
+        "Generador de funciones",
+        "Simulador SPICE",
+        "Software LTspice XVII"
+      ],
       "difficulty": "Intermedio / Avanzado",
       "pageCount": 10,
       "buildTimeTotal": "10 semanas",
@@ -26112,7 +26373,7 @@
           "cost": "$30",
           "time": "1 semana",
           "description": "Laboratorio de componentes no ideales: comportamiento de inductores en saturación, ESR de capacitores y fuga de diodos.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-029/page_1.png",
           "schematicSvg": "schematics/guide-029_p1.svg",
           "components": [
@@ -26251,7 +26512,7 @@
           "cost": "$25",
           "time": "2 semanas",
           "description": "Diseño y caracterización de pares diferenciales CMOS, espejos de corriente cascode y etapas de salida clase AB.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-029/page_2.png",
           "schematicSvg": "schematics/guide-029_p2.svg",
           "components": [
@@ -26390,7 +26651,7 @@
           "cost": "$0",
           "time": "1 semana",
           "description": "Simulación estadística de variaciones de producción en circuitos analógicos críticos y análisis de estabilidad de margen de fase.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-029/page_3.png",
           "schematicSvg": "schematics/guide-029_p3.svg",
           "components": [
@@ -26529,7 +26790,7 @@
           "cost": "$0",
           "time": "1 semana",
           "description": "Desarrollo y depuración de controladores de periféricos I2C y SPI en el navegador con lógica lógica conectada virtualmente.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-029/page_4.png",
           "schematicSvg": "schematics/guide-029_p4.svg",
           "components": [
@@ -26661,7 +26922,7 @@
           "cost": "$35",
           "time": "3 semanas",
           "description": "Implementación de algoritmos de transformada rápida de Fourier (FFT), filtrado FIR y correlación cruzada en microcontroladores.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-029/page_5.png",
           "schematicSvg": "schematics/guide-029_p5.svg",
           "components": [
@@ -27055,7 +27316,16 @@
       "title": "The Summer EE Glow-Up (Vol. 3: Specialist Picks)",
       "subtitle": "Especialización en hardware: diseño de alta velocidad, IoT industrial y teoría de control",
       "summary": "Tercera fase de especialización que cubre las disciplinas más cotizadas de la ingeniería electrónica: diseño de pistas diferenciales para buses de alta velocidad, IoT de largo alcance con LoRaWAN, convertidores conmutados y control moderno.",
-      "image": "covers/guide-030.png",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80",
+      "pdfCover": "covers/guide-030.png",
+      "topComponents": [
+        "KiCad / Altium",
+        "Stackup de 4/6 capas",
+        "Simulador Python / MATLAB",
+        "Péndulo con encoder",
+        "Driver de motor puente H"
+      ],
       "difficulty": "Avanzado",
       "pageCount": 12,
       "buildTimeTotal": "12 semanas",
@@ -27067,7 +27337,7 @@
           "cost": "$30",
           "time": "2 semanas",
           "description": "Ruteo de buses de memoria DDR3/DDR4, cálculo de impedancia de líneas microstrip y control estricto de retardo y diafonía.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1555680202-c86f0e12f086?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-030/page_1.png",
           "schematicSvg": "schematics/guide-030_p1.svg",
           "components": [
@@ -27199,7 +27469,7 @@
           "cost": "$25",
           "time": "2 semanas",
           "description": "Diseño en espacio de estados, reguladores lineales cuadráticos (LQR) y filtro de Kalman extendido para fusión inercial.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-030/page_3.png",
           "schematicSvg": "schematics/guide-030_p2.svg",
           "components": [
@@ -27331,7 +27601,7 @@
           "cost": "$35",
           "time": "2 semanas",
           "description": "Nodo de telemetría exterior de consumo ultra-bajo alimentado por panel solar con autonomía superior a 5 años en la red LoRaWAN.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-030/page_5.png",
           "schematicSvg": "schematics/guide-030_p3.svg",
           "components": [
@@ -27481,7 +27751,7 @@
           "cost": "$28",
           "time": "2 semanas",
           "description": "Cálculo, bobinado de inductores y ensamblado de un convertidor reductor síncrono Buck de 12V a 5V con eficiencia superior al 94%.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-030/page_7.png",
           "schematicSvg": "schematics/guide-030_p4.svg",
           "components": [
@@ -27620,7 +27890,7 @@
           "cost": "$40",
           "time": "2 semanas",
           "description": "Implementación de una CPU RISC-V de 3 etapas de segmentación sintetizada sobre una placa de desarrollo FPGA económica.",
-          "image": "https://images.unsplash.com/photo-1555680202-c86f0e12f086?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-030/page_9.png",
           "schematicSvg": "schematics/guide-030_p5.svg",
           "components": [
@@ -27752,7 +28022,7 @@
           "cost": "$32",
           "time": "2 semanas",
           "description": "Entrenamiento y cuantización INT8 de una red neuronal para detección de anomalías acústicas ejecutada en un microcontrolador Cortex-M4.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1521673845931-771f6ad0a4c6?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-030/page_11.png",
           "schematicSvg": "schematics/guide-030_p6.svg",
           "components": [
@@ -27992,7 +28262,16 @@
       "title": "The Summer EE Glow-Up (Vol. 4: Board-Level Track)",
       "subtitle": "De esquemático a silicio: diseño, ensamblado superficial SMT y certificación industrial",
       "summary": "El volumen final que une todos los conocimientos para convertirlos en placas de circuito impreso comerciales: reglas de diseño para manufactura (DFM), librerías de componentes atómicas, RTOS industrial y protección ESD.",
-      "image": "covers/guide-031.png",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&q=80",
+      "pdfCover": "covers/guide-031.png",
+      "topComponents": [
+        "KiCad 8",
+        "Archivos de reglas DFM",
+        "Visor Gerber GerbView",
+        "Transformador toroidal",
+        "Depurador J-Link / ST-Link"
+      ],
       "difficulty": "Avanzado",
       "pageCount": 10,
       "buildTimeTotal": "8-10 semanas",
@@ -28004,7 +28283,7 @@
           "cost": "$20",
           "time": "1 semana",
           "description": "Configuración de reglas de diseño DRC según las capacidades del fabricante, generación de archivos Gerber X2, perforación y centroides Pick-and-Place.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1589254065878-42c9da997008?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-031/page_1.png",
           "schematicSvg": "schematics/guide-031_p1.svg",
           "components": [
@@ -28136,7 +28415,7 @@
           "cost": "$35",
           "time": "2 semanas",
           "description": "Diseño de una fuente de alimentación lineal dual con referencia de voltaje buried-zener y rizado inferior a 1 µV RMS para instrumentación.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-031/page_2.png",
           "schematicSvg": "schematics/guide-031_p2.svg",
           "components": [
@@ -28268,7 +28547,7 @@
           "cost": "$25",
           "time": "2 semanas",
           "description": "Desarrollo de un firmware profesional con particiones multihilo seguras, gestión de energía de bajo consumo y controladores DeviceTree.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1521673845931-771f6ad0a4c6?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-031/page_3.png",
           "schematicSvg": "schematics/guide-031_p3.svg",
           "components": [
@@ -28403,7 +28682,7 @@
           "cost": "$30",
           "time": "2 semanas",
           "description": "Diseño y fabricación en sustrato Rogers/FR4 de un acoplador direccional de microstrip y un filtro pasa-banda interdigital a 2.4 GHz.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-031/page_4.png",
           "schematicSvg": "schematics/guide-031_p4.svg",
           "components": [
@@ -28538,7 +28817,7 @@
           "cost": "$40",
           "time": "1 semana",
           "description": "Panelización de múltiples circuitos con ranuras de fresado (tab-routing), marcas fiduciales ópticas y optimización de lista BOM para componentes básicos.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1555680202-c86f0e12f086?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-031/page_5.png",
           "schematicSvg": "schematics/guide-031_p5.svg",
           "components": [
@@ -28670,7 +28949,7 @@
           "cost": "$25",
           "time": "1 semana",
           "description": "Análisis de fallos y diseño de protección integral frente a descargas electrostáticas (ESD) mediante diodos TVS, fusibles rearmables PPTC y filtrado EMI.",
-          "image": "https://images.unsplash.com/photo-1517055729441-db3aab13588f?w=800&auto=format&fit=crop&q=80",
+          "image": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=800&auto=format&fit=crop&q=80",
           "guideDiagram": "projects/guide-031/page_6.png",
           "schematicSvg": "schematics/guide-031_p6.svg",
           "components": [
