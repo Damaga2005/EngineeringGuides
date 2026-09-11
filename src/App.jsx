@@ -175,8 +175,12 @@ export default function App() {
       result = result.filter(g => {
         const matchTitle = g.title.toLowerCase().includes(q);
         const matchFilename = g.filename.toLowerCase().includes(q);
+        const matchSubtitle = g.subtitle && g.subtitle.toLowerCase().includes(q);
+        const matchSummary = g.summary && g.summary.toLowerCase().includes(q);
         const matchTags = g.tags && g.tags.some(t => t.toLowerCase().includes(q));
-        return matchTitle || matchFilename || matchTags;
+        const matchTech = g.technologies && g.technologies.some(t => t.toLowerCase().includes(q));
+        const matchKeyPoints = g.keyPoints && g.keyPoints.some(p => p.toLowerCase().includes(q));
+        return matchTitle || matchFilename || matchSubtitle || matchSummary || matchTags || matchTech || matchKeyPoints;
       });
     }
 
