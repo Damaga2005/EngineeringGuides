@@ -13,9 +13,12 @@ on:
       - 'vite.config.js'
       - 'index.html'
   workflow_dispatch:
+  schedule:
+    # Sincronización automática periódica (cada 6 horas)
+    - cron: '0 */6 * * *'
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -32,6 +35,18 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python Dependencies (PyMuPDF)
+        run: |
+          python -m pip install --upgrade pip
+          pip install pymupdf
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -42,8 +57,11 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Build Portal & Index Guides
-        run: npm run build
+      - name: Auto-Extract Guides, Render Schematics & Build Portal
+        run: |
+          python scripts/extract_official_and_build_manuals.py
+          npx vite build
+          node scripts/copy_guides.js
 
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v5

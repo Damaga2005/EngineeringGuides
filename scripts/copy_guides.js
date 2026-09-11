@@ -34,3 +34,10 @@ if (fs.existsSync(PROJECTS_SRC)) {
   console.log('Ensuring projects blueprint images are in dist...');
   copyFolderSync(PROJECTS_SRC, PROJECTS_DEST);
 }
+
+const SCHEMATICS_SRC = path.join(REPO_ROOT, 'public', 'schematics');
+const SCHEMATICS_DEST = path.join(REPO_ROOT, 'dist', 'schematics');
+if (fs.existsSync(SCHEMATICS_SRC)) {
+  console.log('Ensuring SVG schematics are in dist...');
+  copyFolderSync(SCHEMATICS_SRC, SCHEMATICS_DEST);
+}

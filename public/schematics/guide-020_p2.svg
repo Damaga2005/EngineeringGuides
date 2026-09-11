@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" height="100%" style="background:#080D1A; font-family:-apple-system,BlinkMacSystemFont,monospace;">
+  <defs>
+    <pattern id="grid_guide-020_2" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1E293B" stroke-width="0.6"/>
+    </pattern>
+    <linearGradient id="glow_guide-020_2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#080D1A"/>
+  <rect width="100%" height="100%" fill="url(#grid_guide-020_2)"/>
+
+  <!-- Header -->
+  <rect x="30" y="20" width="840" height="50" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+  <text x="45" y="44" fill="#38BDF8" font-size="14" font-weight="bold">DIAGRAMA ESQUEMÁTICO: Power</text>
+  <text x="45" y="60" fill="#94A3B8" font-size="10">ESPECIFICACIÓN HARDWARE · 3.3V LVTTL · CABLEADO CABLE A CABLE · PROTECCIÓN CONTRA RUIDO</text>
+
+  <!-- Left Block: MCU -->
+  <rect x="40" y="90" width="230" height="300" rx="12" fill="url(#glow_guide-020_2)" stroke="#0284C7" stroke-width="2"/>
+  <text x="60" y="125" fill="#38BDF8" font-size="14" font-weight="bold">Microcontrolador Principal (MCU)</text>
+  <text x="60" y="142" fill="#64748B" font-size="10">32-Bit ARM Cortex / ESP32</text>
+  
+        <rect x="55" y="160" width="200" height="32" rx="6" fill="#1E293B" stroke="#EF4444" stroke-width="1.5"/>
+        <text x="68" y="180" fill="#E2E8F0" font-size="11" font-weight="bold">3V3 (Pin 1)</text>
+        <circle cx="255" cy="176" r="4" fill="#EF4444"/>
+        
+        <rect x="55" y="202" width="200" height="32" rx="6" fill="#1E293B" stroke="#64748B" stroke-width="1.5"/>
+        <text x="68" y="222" fill="#E2E8F0" font-size="11" font-weight="bold">GND (Pin 6)</text>
+        <circle cx="255" cy="218" r="4" fill="#64748B"/>
+        
+        <rect x="55" y="244" width="200" height="32" rx="6" fill="#1E293B" stroke="#06B6D4" stroke-width="1.5"/>
+        <text x="68" y="264" fill="#E2E8F0" font-size="11" font-weight="bold">GPIO 21</text>
+        <circle cx="255" cy="260" r="4" fill="#06B6D4"/>
+        
+        <rect x="55" y="286" width="200" height="32" rx="6" fill="#1E293B" stroke="#3B82F6" stroke-width="1.5"/>
+        <text x="68" y="306" fill="#E2E8F0" font-size="11" font-weight="bold">GPIO 22</text>
+        <circle cx="255" cy="302" r="4" fill="#3B82F6"/>
+        
+        <rect x="55" y="328" width="200" height="32" rx="6" fill="#1E293B" stroke="#F59E0B" stroke-width="1.5"/>
+        <text x="68" y="348" fill="#E2E8F0" font-size="11" font-weight="bold">GPIO 18</text>
+        <circle cx="255" cy="344" r="4" fill="#F59E0B"/>
+        
+
+  <!-- Right Block: Target Module -->
+  <rect x="630" y="90" width="230" height="300" rx="12" fill="url(#glow_guide-020_2)" stroke="#10B981" stroke-width="2"/>
+  <text x="648" y="125" fill="#34D399" font-size="14" font-weight="bold">Power</text>
+  <text x="648" y="142" fill="#64748B" font-size="10">Módulo / Sensor / Carga Útil</text>
+  
+        <rect x="645" y="160" width="200" height="32" rx="6" fill="#1E293B" stroke="#EF4444" stroke-width="1.5"/>
+        <text x="658" y="180" fill="#E2E8F0" font-size="11" font-weight="bold">VCC</text>
+        <circle cx="645" cy="176" r="4" fill="#EF4444"/>
+        
+        <rect x="645" y="202" width="200" height="32" rx="6" fill="#1E293B" stroke="#64748B" stroke-width="1.5"/>
+        <text x="658" y="222" fill="#E2E8F0" font-size="11" font-weight="bold">GND</text>
+        <circle cx="645" cy="218" r="4" fill="#64748B"/>
+        
+        <rect x="645" y="244" width="200" height="32" rx="6" fill="#1E293B" stroke="#06B6D4" stroke-width="1.5"/>
+        <text x="658" y="264" fill="#E2E8F0" font-size="11" font-weight="bold">SDA</text>
+        <circle cx="645" cy="260" r="4" fill="#06B6D4"/>
+        
+        <rect x="645" y="286" width="200" height="32" rx="6" fill="#1E293B" stroke="#3B82F6" stroke-width="1.5"/>
+        <text x="658" y="306" fill="#E2E8F0" font-size="11" font-weight="bold">SCL</text>
+        <circle cx="645" cy="302" r="4" fill="#3B82F6"/>
+        
+        <rect x="645" y="328" width="200" height="32" rx="6" fill="#1E293B" stroke="#F59E0B" stroke-width="1.5"/>
+        <text x="658" y="348" fill="#E2E8F0" font-size="11" font-weight="bold">PWM / GATE</text>
+        <circle cx="645" cy="344" r="4" fill="#F59E0B"/>
+        
+
+  <!-- Wires & Components -->
+  
+        <path d="M 259 176 L 641 176" fill="none" stroke="#EF4444" stroke-width="2.5" />
+        
+        <path d="M 259 218 L 641 218" fill="none" stroke="#64748B" stroke-width="2.5" stroke-dasharray="4,3"/>
+        
+        <path d="M 259 260 L 641 260" fill="none" stroke="#06B6D4" stroke-width="2.5" />
+        
+        <path d="M 259 302 L 641 302" fill="none" stroke="#3B82F6" stroke-width="2.5" />
+        
+        <path d="M 259 344 L 641 344" fill="none" stroke="#F59E0B" stroke-width="2.5" />
+        
+  
+            <rect x="420" y="248" width="60" height="24" rx="4" fill="#0F172A" stroke="#06B6D4" stroke-width="1.5"/>
+            <text x="428" y="264" fill="#06B6D4" font-size="10" font-weight="bold">4.7 kΩ</text>
+            
+            <rect x="420" y="290" width="60" height="24" rx="4" fill="#0F172A" stroke="#3B82F6" stroke-width="1.5"/>
+            <text x="428" y="306" fill="#3B82F6" font-size="10" font-weight="bold">4.7 kΩ</text>
+            
+
+  <!-- Bottom Legend -->
+  <rect x="30" y="410" width="840" height="45" rx="8" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+  <text x="45" y="437" fill="#64748B" font-size="10" font-weight="bold">CÓDIGO DE COLORES:</text>
+  <circle cx="180" cy="433" r="5" fill="#EF4444"/>
+  <text x="192" y="437" fill="#CBD5E1" font-size="10">VCC (+3.3V / +5V)</text>
+  <circle cx="310" cy="433" r="5" fill="#64748B"/>
+  <text x="322" y="437" fill="#CBD5E1" font-size="10">GND (Tierra Masa)</text>
+  <circle cx="430" cy="433" r="5" fill="#06B6D4"/>
+  <text x="442" y="437" fill="#CBD5E1" font-size="10">I2C SDA / Datos</text>
+  <circle cx="540" cy="433" r="5" fill="#3B82F6"/>
+  <text x="552" y="437" fill="#CBD5E1" font-size="10">I2C SCL / Reloj</text>
+  <circle cx="650" cy="433" r="5" fill="#F59E0B"/>
+  <text x="662" y="437" fill="#CBD5E1" font-size="10">PWM / Interrupción</text>
+</svg>

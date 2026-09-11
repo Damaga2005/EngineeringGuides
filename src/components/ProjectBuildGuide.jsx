@@ -21,7 +21,10 @@ import {
   Sliders, 
   ShieldCheck, 
   Boxes,
-  Eye
+  Eye,
+  Terminal,
+  Activity,
+  Compass
 } from 'lucide-react';
 
 export default function ProjectBuildGuide({
@@ -29,7 +32,7 @@ export default function ProjectBuildGuide({
   projectNumber,
   onOpenImageViewer
 }) {
-  const [activeTab, setActiveTab] = useState('build'); // 'build' | 'blueprints' | 'physics' | 'recruiter' | 'bom'
+  const [activeTab, setActiveTab] = useState('schematic'); // 'schematic' | 'wiring' | 'firmware' | 'mechanical' | 'calibration' | 'troubleshoot'
   const [codeCopied, setCodeCopied] = useState(false);
   const [openTroubleshoot, setOpenTroubleshoot] = useState({});
   const [openInterview, setOpenInterview] = useState({});
@@ -51,21 +54,24 @@ export default function ProjectBuildGuide({
   };
 
   const official = project.officialData || {};
-  const guide = project.constructionGuide || {};
-  const blueprints = project.blueprintImages || [];
+  const manual = project.detailedBuildManual || {};
+  const wiringTable = project.wiringTable || [];
+  const schematicUrl = project.schematicSvg 
+    ? (project.schematicSvg.startsWith('http') ? project.schematicSvg : `${baseUrl}${project.schematicSvg}`)
+    : null;
 
   return (
-    <div className="glass-panel rounded-2xl border border-slate-800/90 overflow-hidden shadow-xl mb-8 group">
+    <div className="glass-panel rounded-2xl border border-slate-800/90 overflow-hidden shadow-2xl mb-8 group">
       
       {/* Project Card Header Banner */}
       <div className="p-5 sm:p-6 bg-slate-900/90 border-b border-slate-800 flex flex-col md:flex-row md:items-center justify-between gap-4">
         
-        <div className="flex items-start gap-3.5">
-          <span className="flex-shrink-0 w-9 h-9 rounded-xl bg-cyan-500/20 text-cyan-400 border border-cyan-500/40 font-mono font-bold flex items-center justify-center text-sm">
+        <div className="flex items-start gap-3.5 min-w-0">
+          <span className="flex-shrink-0 w-10 h-10 rounded-xl bg-cyan-500/20 text-cyan-400 border border-cyan-500/40 font-mono font-bold flex items-center justify-center text-sm shadow-md shadow-cyan-500/10">
             {projectNumber < 10 ? `0${projectNumber}` : projectNumber}
           </span>
 
-          <div>
+          <div className="min-w-0">
             <div className="flex items-center gap-2 flex-wrap mb-1">
               <h3 className="text-lg sm:text-xl font-bold text-white leading-snug">
                 {project.title}
@@ -88,63 +94,99 @@ export default function ProjectBuildGuide({
           </div>
         </div>
 
-        {/* Blueprint count badge & quick button */}
-        {blueprints.length > 0 && (
+        {/* Quick button to view full schematic SVG */}
+        {schematicUrl && (
           <button
-            onClick={() => onOpenImageViewer(blueprints, 0, `Planos: ${project.title}`)}
-            className="self-start md:self-center flex items-center gap-2 px-3 py-1.5 rounded-lg bg-cyan-600/20 hover:bg-cyan-600/30 text-cyan-300 border border-cyan-500/40 text-xs font-semibold transition-all flex-shrink-0"
-            title="Ver planos oficiales extraídos"
+            onClick={() => onOpenImageViewer([project.schematicSvg], 0, `Esquemático: ${project.title}`)}
+            className="self-start md:self-center flex items-center gap-2 px-3.5 py-2 rounded-xl bg-cyan-500/10 hover:bg-cyan-500/20 text-cyan-300 border border-cyan-500/40 text-xs font-semibold transition-all flex-shrink-0 shadow-sm"
+            title="Abrir diagrama esquemático a pantalla completa"
           >
-            <Eye className="h-3.5 w-3.5" />
-            <span>{blueprints.length} Planos Oficiales</span>
+            <Maximize2 className="h-3.5 w-3.5" />
+            <span>Ver Esquemático Completo</span>
           </button>
         )}
 
       </div>
 
       {/* Sub-Navigation Tabs */}
-      <div className="flex items-center gap-1 sm:gap-2 px-4 sm:px-6 pt-3 border-b border-slate-800/80 bg-slate-950/50 overflow-x-auto text-xs font-semibold">
+      <div className="flex items-center gap-1 sm:gap-2 px-4 sm:px-6 pt-3 border-b border-slate-800/80 bg-slate-950/60 overflow-x-auto text-xs font-semibold">
         
         <button
-          onClick={() => setActiveTab('build')}
+          onClick={() => setActiveTab('schematic')}
           className={`flex items-center gap-1.5 px-3.5 py-2 rounded-t-lg transition-all border-b-2 flex-shrink-0 ${
-            activeTab === 'build'
+            activeTab === 'schematic'
               ? 'border-cyan-400 text-cyan-300 bg-slate-900'
               : 'border-transparent text-slate-400 hover:text-slate-200'
           }`}
         >
-          <Wrench className="h-3.5 w-3.5" />
-          <span>Guía de Construcción Paso a Paso</span>
+          <Cpu className="h-3.5 w-3.5" />
+          <span>Esquema de Circuito SVG</span>
         </button>
 
         <button
-          onClick={() => setActiveTab('blueprints')}
+          onClick={() => setActiveTab('wiring')}
           className={`flex items-center gap-1.5 px-3.5 py-2 rounded-t-lg transition-all border-b-2 flex-shrink-0 ${
-            activeTab === 'blueprints'
-              ? 'border-cyan-400 text-cyan-300 bg-slate-900'
-              : 'border-transparent text-slate-400 hover:text-slate-200'
-          }`}
-        >
-          <Layers className="h-3.5 w-3.5" />
-          <span>Planos e Imágenes ({blueprints.length})</span>
-        </button>
-
-        <button
-          onClick={() => setActiveTab('physics')}
-          className={`flex items-center gap-1.5 px-3.5 py-2 rounded-t-lg transition-all border-b-2 flex-shrink-0 ${
-            activeTab === 'physics'
+            activeTab === 'wiring'
               ? 'border-cyan-400 text-cyan-300 bg-slate-900'
               : 'border-transparent text-slate-400 hover:text-slate-200'
           }`}
         >
           <Zap className="h-3.5 w-3.5" />
-          <span>Principios de Ingeniería</span>
+          <span>Cableado Cable a Cable</span>
         </button>
 
         <button
-          onClick={() => setActiveTab('recruiter')}
+          onClick={() => setActiveTab('firmware')}
           className={`flex items-center gap-1.5 px-3.5 py-2 rounded-t-lg transition-all border-b-2 flex-shrink-0 ${
-            activeTab === 'recruiter'
+            activeTab === 'firmware'
+              ? 'border-cyan-400 text-cyan-300 bg-slate-900'
+              : 'border-transparent text-slate-400 hover:text-slate-200'
+          }`}
+        >
+          <Code2 className="h-3.5 w-3.5" />
+          <span>Firmware & Comandos</span>
+        </button>
+
+        <button
+          onClick={() => setActiveTab('mechanical')}
+          className={`flex items-center gap-1.5 px-3.5 py-2 rounded-t-lg transition-all border-b-2 flex-shrink-0 ${
+            activeTab === 'mechanical'
+              ? 'border-cyan-400 text-cyan-300 bg-slate-900'
+              : 'border-transparent text-slate-400 hover:text-slate-200'
+          }`}
+        >
+          <Layers className="h-3.5 w-3.5" />
+          <span>Montaje Mecánico</span>
+        </button>
+
+        <button
+          onClick={() => setActiveTab('calibration')}
+          className={`flex items-center gap-1.5 px-3.5 py-2 rounded-t-lg transition-all border-b-2 flex-shrink-0 ${
+            activeTab === 'calibration'
+              ? 'border-cyan-400 text-cyan-300 bg-slate-900'
+              : 'border-transparent text-slate-400 hover:text-slate-200'
+          }`}
+        >
+          <Sliders className="h-3.5 w-3.5" />
+          <span>Calibración en Banco</span>
+        </button>
+
+        <button
+          onClick={() => setActiveTab('troubleshoot')}
+          className={`flex items-center gap-1.5 px-3.5 py-2 rounded-t-lg transition-all border-b-2 flex-shrink-0 ${
+            activeTab === 'troubleshoot'
+              ? 'border-cyan-400 text-cyan-300 bg-slate-900'
+              : 'border-transparent text-slate-400 hover:text-slate-200'
+          }`}
+        >
+          <AlertTriangle className="h-3.5 w-3.5" />
+          <span>Resolución de Fallos</span>
+        </button>
+
+        <button
+          onClick={() => setActiveTab('interview')}
+          className={`flex items-center gap-1.5 px-3.5 py-2 rounded-t-lg transition-all border-b-2 flex-shrink-0 ${
+            activeTab === 'interview'
               ? 'border-cyan-400 text-cyan-300 bg-slate-900'
               : 'border-transparent text-slate-400 hover:text-slate-200'
           }`}
@@ -153,92 +195,72 @@ export default function ProjectBuildGuide({
           <span>Preguntas de Entrevista</span>
         </button>
 
-        <button
-          onClick={() => setActiveTab('bom')}
-          className={`flex items-center gap-1.5 px-3.5 py-2 rounded-t-lg transition-all border-b-2 flex-shrink-0 ${
-            activeTab === 'bom'
-              ? 'border-cyan-400 text-cyan-300 bg-slate-900'
-              : 'border-transparent text-slate-400 hover:text-slate-200'
-          }`}
-        >
-          <Boxes className="h-3.5 w-3.5" />
-          <span>Componentes BOM</span>
-        </button>
-
       </div>
 
-      {/* Tab Contents */}
+      {/* Main Tab Body */}
       <div className="p-5 sm:p-6 md:p-8">
         
-        {/* TAB 1: Step-by-Step Construction Guide */}
-        {activeTab === 'build' && (
-          <div className="space-y-8">
-            
-            {/* Safety Banner */}
-            {official.safety && (
-              <div className="p-4 rounded-xl bg-amber-950/30 border border-amber-500/40 text-amber-200 text-xs sm:text-sm flex items-start gap-3">
-                <AlertTriangle className="h-5 w-5 text-amber-400 flex-shrink-0 mt-0.5" />
-                <div>
-                  <strong className="text-amber-300 block mb-0.5">Seguridad y Precaución Crítica:</strong>
-                  {official.safety}
-                </div>
+        {/* TAB 1: SVG Circuit Schematic Diagram */}
+        {activeTab === 'schematic' && (
+          <div className="space-y-6">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+              <div>
+                <h4 className="text-sm font-bold text-cyan-300 uppercase tracking-wider flex items-center gap-2">
+                  <Cpu className="h-4 w-4" />
+                  Diagrama Esquemático de Circuito Vectorial
+                </h4>
+                <p className="text-xs text-slate-400 mt-0.5">
+                  Conexiones lógicas directas, componentes pasivos de protección (pull-up y desacoplo) y código de colores oficial.
+                </p>
               </div>
-            )}
 
-            {/* Fase 1: Workbench & Tools */}
-            <div className="bg-slate-900/60 p-5 rounded-2xl border border-slate-800">
-              <h4 className="text-sm font-bold text-cyan-300 uppercase tracking-wider flex items-center gap-2 mb-3">
-                <Wrench className="h-4 w-4" />
-                Fase 1: Preparación del Banco de Trabajo e Instrumentación
-              </h4>
-
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div>
-                  <h5 className="text-xs font-semibold text-slate-300 mb-2">Herramientas Recomendadas:</h5>
-                  <ul className="space-y-1.5 text-xs text-slate-400">
-                    {guide.fase1_workbench?.tools?.map((tool, idx) => (
-                      <li key={idx} className="flex items-start gap-2">
-                        <CheckCircle2 className="h-3.5 w-3.5 text-emerald-400 flex-shrink-0 mt-0.5" />
-                        <span>{tool}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-
-                <div>
-                  <h5 className="text-xs font-semibold text-slate-300 mb-2">Lista de Verificación Previa:</h5>
-                  <ul className="space-y-1.5 text-xs text-slate-400">
-                    {guide.fase1_workbench?.prepChecklist?.map((item, idx) => (
-                      <li key={idx} className="flex items-start gap-2">
-                        <Check className="h-3.5 w-3.5 text-cyan-400 flex-shrink-0 mt-0.5" />
-                        <span>{item}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
+              {schematicUrl && (
+                <button
+                  onClick={() => onOpenImageViewer([project.schematicSvg], 0, `Esquemático: ${project.title}`)}
+                  className="self-start sm:self-auto flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs border border-slate-700 transition-colors"
+                >
+                  <Maximize2 className="h-3.5 w-3.5 text-cyan-400" />
+                  <span>Ampliar a Pantalla Completa</span>
+                </button>
+              )}
             </div>
 
-            {/* Fase 2: Wiring Diagram & Pinouts */}
-            <div className="bg-slate-900/60 p-5 rounded-2xl border border-slate-800">
-              <h4 className="text-sm font-bold text-cyan-300 uppercase tracking-wider flex items-center gap-2 mb-3">
-                <Cpu className="h-4 w-4" />
-                Fase 2: Diagrama de Conexiones Eléctricas & Pinout
-              </h4>
+            {/* Embedded SVG Viewer Box */}
+            {schematicUrl ? (
+              <div 
+                onClick={() => onOpenImageViewer([project.schematicSvg], 0, `Esquemático: ${project.title}`)}
+                className="relative rounded-2xl overflow-hidden border-2 border-slate-800 hover:border-cyan-500/50 bg-[#080D1A] shadow-2xl cursor-pointer group/svg transition-all"
+                title="Haz clic para inspeccionar el diagrama con zoom"
+              >
+                <img
+                  src={schematicUrl}
+                  alt={`Diagrama esquemático de ${project.title}`}
+                  className="w-full h-auto max-h-[460px] object-contain transition-transform duration-300 group-hover/svg:scale-[1.01]"
+                />
+                <div className="absolute bottom-3 right-3 bg-slate-900/90 backdrop-blur-md px-3 py-1.5 rounded-lg border border-slate-700 text-xs font-mono text-cyan-300 flex items-center gap-1.5">
+                  <Maximize2 className="h-3.5 w-3.5" />
+                  <span>Clic para zoom</span>
+                </div>
+              </div>
+            ) : (
+              <p className="text-xs text-slate-400 italic">Esquemático en proceso de generación.</p>
+            )}
 
-              <div className="overflow-x-auto rounded-xl border border-slate-800 mb-3">
+            {/* Pinout Table below Schematic */}
+            {wiringTable && wiringTable.length > 0 && (
+              <div className="overflow-x-auto rounded-xl border border-slate-800">
                 <table className="w-full text-left text-xs text-slate-300">
                   <thead className="bg-slate-950 text-cyan-400 font-mono text-[11px] border-b border-slate-800">
                     <tr>
                       <th className="p-2.5">Pin Microcontrolador</th>
-                      <th className="p-2.5">Pin Módulo / Sensor</th>
-                      <th className="p-2.5">Tipo de Señal</th>
-                      <th className="p-2.5">Nivel de Voltaje</th>
-                      <th className="p-2.5">Notas Eléctricas</th>
+                      <th className="p-2.5">Pin Módulo / Carga</th>
+                      <th className="p-2.5">Señal</th>
+                      <th className="p-2.5">Tensión</th>
+                      <th className="p-2.5">Instrucción Eléctrica</th>
                     </tr>
                   </thead>
-                  <tbody className="divide-y divide-slate-800/60 bg-slate-900/40 font-mono">
-                    {guide.fase2_wiring?.wiringTable?.map((row, idx) => (
+                  <tbody className="divide-y divide-slate-800/60 bg-slate-900/40 font-mono text-xs">
+                    {wiringTable.map((row, idx) => (
                       <tr key={idx} className="hover:bg-slate-800/40 transition-colors">
                         <td className="p-2.5 text-cyan-300 font-semibold">{row.mcuPin}</td>
                         <td className="p-2.5 text-amber-300">{row.modulePin}</td>
@@ -250,212 +272,182 @@ export default function ProjectBuildGuide({
                   </tbody>
                 </table>
               </div>
-
-              {guide.fase2_wiring?.busNotes && (
-                <p className="text-xs text-slate-400 italic bg-slate-950/60 p-3 rounded-lg border border-slate-800/80">
-                  <span className="text-cyan-400 font-bold not-italic">Nota de Bus: </span>
-                  {guide.fase2_wiring.busNotes}
-                </p>
-              )}
-            </div>
-
-            {/* Fase 3: Mechanical Assembly */}
-            <div className="bg-slate-900/60 p-5 rounded-2xl border border-slate-800">
-              <h4 className="text-sm font-bold text-cyan-300 uppercase tracking-wider flex items-center gap-2 mb-3">
-                <Layers className="h-4 w-4" />
-                Fase 3: Montaje Físico y Carcasa
-              </h4>
-              <ul className="space-y-2 text-xs sm:text-sm text-slate-300">
-                {guide.fase3_mechanical?.mountingNotes?.map((note, idx) => (
-                  <li key={idx} className="flex items-start gap-2.5">
-                    <span className="text-cyan-400 font-mono font-bold">{idx + 1}.</span>
-                    <span>{note}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {/* Fase 4: Firmware Architecture & Code */}
-            <div className="bg-slate-900/60 p-5 rounded-2xl border border-slate-800">
-              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
-                <h4 className="text-sm font-bold text-cyan-300 uppercase tracking-wider flex items-center gap-2">
-                  <Code2 className="h-4 w-4" />
-                  Fase 4: Firmware & Lógica de Control
-                </h4>
-
-                {guide.fase4_firmware?.loopRate && (
-                  <span className="text-xs font-mono px-2.5 py-1 rounded bg-slate-800 text-purple-300 border border-purple-800/50 self-start sm:self-auto">
-                    Loop Rate: {guide.fase4_firmware.loopRate}
-                  </span>
-                )}
-              </div>
-
-              <p className="text-xs sm:text-sm text-slate-300 mb-3">
-                {guide.fase4_firmware?.algorithm}
-              </p>
-
-              {/* Code Snippet Box */}
-              {guide.fase4_firmware?.codeSnippet && (
-                <div className="relative rounded-xl overflow-hidden border border-slate-800 bg-[#070A10]">
-                  <div className="flex items-center justify-between px-4 py-2 bg-slate-950/80 border-b border-slate-800 text-xs text-slate-400">
-                    <span className="font-mono">firmware_control_loop.cpp</span>
-                    <button
-                      onClick={() => copyCode(guide.fase4_firmware.codeSnippet)}
-                      className="flex items-center gap-1 text-xs text-cyan-400 hover:text-cyan-300 transition-colors"
-                    >
-                      {codeCopied ? <Check className="h-3.5 w-3.5" /> : <Copy className="h-3.5 w-3.5" />}
-                      <span>{codeCopied ? "¡Copiado!" : "Copiar código"}</span>
-                    </button>
-                  </div>
-
-                  <pre className="p-4 text-xs font-mono text-emerald-300 overflow-x-auto max-h-80 leading-relaxed">
-                    <code>{guide.fase4_firmware.codeSnippet}</code>
-                  </pre>
-                </div>
-              )}
-            </div>
-
-            {/* Fase 5: Calibration & Bench Tests */}
-            <div className="bg-slate-900/60 p-5 rounded-2xl border border-slate-800">
-              <h4 className="text-sm font-bold text-cyan-300 uppercase tracking-wider flex items-center gap-2 mb-3">
-                <Sliders className="h-4 w-4" />
-                Fase 5: Calibración y Pruebas en Banco
-              </h4>
-              <ul className="space-y-2 text-xs sm:text-sm text-slate-300">
-                {guide.fase5_calibration?.steps?.map((step, idx) => (
-                  <li key={idx} className="flex items-start gap-2.5">
-                    <ShieldCheck className="h-4 w-4 text-emerald-400 flex-shrink-0 mt-0.5" />
-                    <span>{step}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {/* Fase 6: Troubleshooting */}
-            {guide.fase6_troubleshooting && guide.fase6_troubleshooting.length > 0 && (
-              <div className="bg-slate-900/60 p-5 rounded-2xl border border-slate-800">
-                <h4 className="text-sm font-bold text-cyan-300 uppercase tracking-wider flex items-center gap-2 mb-3">
-                  <AlertTriangle className="h-4 w-4 text-amber-400" />
-                  Fase 6: Detección y Resolución de Fallos (Troubleshooting)
-                </h4>
-
-                <div className="space-y-2.5">
-                  {guide.fase6_troubleshooting.map((item, idx) => {
-                    const isOpen = openTroubleshoot[idx];
-                    return (
-                      <div key={idx} className="rounded-xl border border-slate-800 bg-slate-950/60 overflow-hidden">
-                        <button
-                          onClick={() => toggleTroubleshoot(idx)}
-                          className="w-full p-3.5 text-left text-xs sm:text-sm font-semibold text-slate-200 hover:text-cyan-300 flex items-center justify-between gap-3 transition-colors"
-                        >
-                          <span className="flex items-center gap-2">
-                            <span className="text-amber-400">⚠️</span>
-                            {item.symptom}
-                          </span>
-                          {isOpen ? <ChevronUp className="h-4 w-4 flex-shrink-0" /> : <ChevronDown className="h-4 w-4 flex-shrink-0" />}
-                        </button>
-
-                        {isOpen && (
-                          <div className="p-3.5 pt-0 text-xs border-t border-slate-800/80 space-y-2">
-                            <p className="text-slate-400">
-                              <strong className="text-rose-400">Causa Probable: </strong>
-                              {item.cause}
-                            </p>
-                            <p className="text-emerald-300 bg-emerald-950/40 p-2.5 rounded-lg border border-emerald-800/40">
-                              <strong className="text-emerald-400">Solución: </strong>
-                              {item.fix}
-                            </p>
-                          </div>
-                        )}
-                      </div>
-                    );
-                  })}
-                </div>
-              </div>
-            )}
-
-          </div>
-        )}
-
-        {/* TAB 2: Official Blueprints & Rendered Pages */}
-        {activeTab === 'blueprints' && (
-          <div>
-            <div className="flex items-center justify-between mb-4">
-              <h4 className="text-sm font-bold text-cyan-300 uppercase tracking-wider flex items-center gap-2">
-                <Layers className="h-4 w-4" />
-                Láminas y Planos Oficiales Extraídos ({blueprints.length})
-              </h4>
-              <span className="text-xs text-slate-400">Haz clic en cualquier lámina para ver a pantalla completa</span>
-            </div>
-
-            {blueprints.length === 0 ? (
-              <p className="text-xs text-slate-400 italic">No se han encontrado láminas separadas para este proyecto.</p>
-            ) : (
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                {blueprints.map((img, idx) => {
-                  const imgUrl = img.startsWith('http') ? img : `${baseUrl}${img}`;
-                  return (
-                    <div
-                      key={idx}
-                      onClick={() => onOpenImageViewer(blueprints, idx, `Plano ${idx + 1}: ${project.title}`)}
-                      className="group/img relative rounded-xl overflow-hidden border border-slate-800 hover:border-cyan-500/60 bg-slate-950 cursor-pointer shadow-lg transition-all"
-                    >
-                      <img
-                        src={imgUrl}
-                        alt={`Plano oficial ${idx + 1}`}
-                        className="w-full h-64 object-cover object-top group-hover/img:scale-105 transition-transform duration-300"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent pointer-events-none" />
-                      
-                      <div className="absolute bottom-2.5 left-3 right-3 flex items-center justify-between text-xs font-mono text-cyan-300">
-                        <span>Lámina Oficial #{idx + 1}</span>
-                        <Maximize2 className="h-3.5 w-3.5" />
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
             )}
           </div>
         )}
 
-        {/* TAB 3: Physics & Engineering Principles */}
-        {activeTab === 'physics' && (
+        {/* TAB 2: Detailed Wire-by-Wire Instructions */}
+        {activeTab === 'wiring' && (
           <div className="space-y-6">
             <div className="bg-slate-900/60 p-5 rounded-2xl border border-slate-800">
-              <h4 className="text-sm font-bold text-cyan-300 uppercase tracking-wider mb-3 flex items-center gap-2">
-                <Zap className="h-4 w-4 text-cyan-400" />
-                ¿Por qué importa en la ingeniería real?
+              <h4 className="text-sm font-bold text-cyan-300 uppercase tracking-wider flex items-center gap-2 mb-3">
+                <Zap className="h-4 w-4" />
+                Instrucciones de Cableado Cable a Cable (Físico y Soldadura)
               </h4>
-              <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
-                {official.whyThisMatters}
+              <p className="text-xs text-slate-400 mb-4">
+                Sigue esta secuencia exacta para garantizar que el circuito sea eléctricamente seguro y libre de oscilaciones parásitas.
               </p>
+
+              <ol className="space-y-3">
+                {manual.wiringSteps?.map((step, idx) => (
+                  <li key={idx} className="flex items-start gap-3 text-xs sm:text-sm text-slate-200 bg-slate-950/60 p-3.5 rounded-xl border border-slate-800/80">
+                    <span className="flex-shrink-0 w-6 h-6 rounded-full bg-cyan-500/20 text-cyan-400 font-mono font-bold text-xs flex items-center justify-center border border-cyan-500/40">
+                      {idx + 1}
+                    </span>
+                    <span className="leading-relaxed pt-0.5">{step}</span>
+                  </li>
+                ))}
+              </ol>
             </div>
 
-            <div className="bg-slate-900/60 p-5 rounded-2xl border border-slate-800">
-              <h4 className="text-sm font-bold text-cyan-300 uppercase tracking-wider mb-4 flex items-center gap-2">
-                <Cpu className="h-4 w-4 text-cyan-400" />
-                Principios Físicos y de Señal (How It Works)
-              </h4>
-
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {official.howItWorks?.map((pt, idx) => (
-                  <div key={idx} className="p-3.5 rounded-xl bg-slate-950/60 border border-slate-800">
-                    <strong className="text-xs font-bold text-cyan-400 block mb-1">
-                      {pt.title}
-                    </strong>
-                    <p className="text-xs text-slate-300 leading-relaxed">
-                      {pt.description}
-                    </p>
-                  </div>
-                ))}
+            {official.safety && (
+              <div className="p-4 rounded-xl bg-amber-950/30 border border-amber-500/40 text-amber-200 text-xs sm:text-sm flex items-start gap-3">
+                <AlertTriangle className="h-5 w-5 text-amber-400 flex-shrink-0 mt-0.5" />
+                <div>
+                  <strong className="text-amber-300 block mb-0.5">Seguridad y Normas de Protección:</strong>
+                  {official.safety}
+                </div>
               </div>
+            )}
+          </div>
+        )}
+
+        {/* TAB 3: Firmware & Console Commands */}
+        {activeTab === 'firmware' && (
+          <div className="space-y-6">
+            {/* Terminal Commands */}
+            {manual.consoleCommands && manual.consoleCommands.length > 0 && (
+              <div className="bg-slate-900/60 p-5 rounded-2xl border border-slate-800">
+                <div className="flex items-center justify-between mb-3">
+                  <h4 className="text-sm font-bold text-cyan-300 uppercase tracking-wider flex items-center gap-2">
+                    <Terminal className="h-4 w-4" />
+                    Comandos de Consola y Dependencias de Software
+                  </h4>
+                </div>
+
+                <div className="bg-black/90 p-4 rounded-xl border border-slate-800 font-mono text-xs text-emerald-400 space-y-1 overflow-x-auto">
+                  {manual.consoleCommands.map((cmd, idx) => (
+                    <div key={idx} className={cmd.startsWith('#') ? 'text-slate-500 italic' : 'text-emerald-400 font-bold'}>
+                      {cmd}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Firmware Code Snippet */}
+            {manual.firmwareCode && (
+              <div className="bg-slate-900/60 p-5 rounded-2xl border border-slate-800">
+                <div className="flex items-center justify-between mb-3">
+                  <h4 className="text-sm font-bold text-cyan-300 uppercase tracking-wider flex items-center gap-2">
+                    <Code2 className="h-4 w-4" />
+                    Firmware de Control en Tiempo Real
+                  </h4>
+
+                  <button
+                    onClick={() => copyCode(manual.firmwareCode)}
+                    className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-cyan-600/20 hover:bg-cyan-600/30 text-cyan-300 border border-cyan-500/40 text-xs font-semibold transition-all"
+                  >
+                    {codeCopied ? <Check className="h-3.5 w-3.5 text-emerald-400" /> : <Copy className="h-3.5 w-3.5" />}
+                    <span>{codeCopied ? "¡Copiado!" : "Copiar Código"}</span>
+                  </button>
+                </div>
+
+                <div className="relative rounded-xl overflow-hidden border border-slate-800 bg-[#070A10]">
+                  <pre className="p-4 text-xs font-mono text-cyan-300 overflow-x-auto max-h-96 leading-relaxed">
+                    <code>{manual.firmwareCode}</code>
+                  </pre>
+                </div>
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* TAB 4: Mechanical Assembly */}
+        {activeTab === 'mechanical' && (
+          <div className="bg-slate-900/60 p-5 sm:p-6 rounded-2xl border border-slate-800 space-y-4">
+            <h4 className="text-sm font-bold text-cyan-300 uppercase tracking-wider flex items-center gap-2">
+              <Layers className="h-4 w-4" />
+              Directrices de Montaje Mecánico, Carcasa y Térmica
+            </h4>
+            
+            <ul className="space-y-3">
+              {manual.mechanicalSteps?.map((step, idx) => (
+                <li key={idx} className="flex items-start gap-3 text-xs sm:text-sm text-slate-200 bg-slate-950/60 p-3.5 rounded-xl border border-slate-800/80">
+                  <span className="flex-shrink-0 w-6 h-6 rounded-full bg-cyan-500/20 text-cyan-400 font-mono font-bold text-xs flex items-center justify-center border border-cyan-500/40">
+                    {idx + 1}
+                  </span>
+                  <span className="leading-relaxed pt-0.5">{step}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {/* TAB 5: Bench Calibration Protocol */}
+        {activeTab === 'calibration' && (
+          <div className="bg-slate-900/60 p-5 sm:p-6 rounded-2xl border border-slate-800 space-y-4">
+            <h4 className="text-sm font-bold text-cyan-300 uppercase tracking-wider flex items-center gap-2">
+              <Sliders className="h-4 w-4" />
+              Protocolo de Calibración Segura en Banco de Trabajo
+            </h4>
+
+            <ul className="space-y-3">
+              {manual.benchCalibration?.map((calib, idx) => (
+                <li key={idx} className="flex items-start gap-3 text-xs sm:text-sm text-slate-200 bg-slate-950/60 p-3.5 rounded-xl border border-slate-800/80">
+                  <ShieldCheck className="h-5 w-5 text-emerald-400 flex-shrink-0 mt-0.5" />
+                  <span className="leading-relaxed">{calib}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {/* TAB 6: Troubleshooting Matrix */}
+        {activeTab === 'troubleshoot' && (
+          <div className="bg-slate-900/60 p-5 sm:p-6 rounded-2xl border border-slate-800 space-y-4">
+            <h4 className="text-sm font-bold text-cyan-300 uppercase tracking-wider flex items-center gap-2">
+              <AlertTriangle className="h-4 w-4 text-amber-400" />
+              Matriz de Detección y Resolución de Fallos Típicos
+            </h4>
+
+            <div className="space-y-3">
+              {manual.troubleshooting?.map((item, idx) => {
+                const isOpen = openTroubleshoot[idx];
+                return (
+                  <div key={idx} className="rounded-xl border border-slate-800 bg-slate-950/60 overflow-hidden">
+                    <button
+                      onClick={() => toggleTroubleshoot(idx)}
+                      className="w-full p-4 text-left text-xs sm:text-sm font-semibold text-slate-200 hover:text-cyan-300 flex items-center justify-between gap-3 transition-colors"
+                    >
+                      <span className="flex items-center gap-2.5">
+                        <span className="text-amber-400 text-sm">⚠️</span>
+                        <span>{item.symptom}</span>
+                      </span>
+                      {isOpen ? <ChevronUp className="h-4 w-4 flex-shrink-0" /> : <ChevronDown className="h-4 w-4 flex-shrink-0" />}
+                    </button>
+
+                    {isOpen && (
+                      <div className="p-4 pt-0 text-xs border-t border-slate-800/80 space-y-2.5">
+                        <p className="text-slate-400 leading-relaxed">
+                          <strong className="text-rose-400 block mb-0.5">Causa Raíz Eléctrica / Lógica:</strong>
+                          {item.cause}
+                        </p>
+                        <div className="p-3 rounded-lg bg-emerald-950/30 border border-emerald-800/40 text-emerald-300 leading-relaxed">
+                          <strong className="text-emerald-400 block mb-0.5">Solución Técnica Directa:</strong>
+                          {item.fix}
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
             </div>
           </div>
         )}
 
-        {/* TAB 4: Recruiter Proof & Interview Questions */}
-        {activeTab === 'recruiter' && (
+        {/* TAB 7: Interview Questions & Recruiter Proof */}
+        {activeTab === 'interview' && (
           <div className="space-y-6">
             <div className="bg-cyan-950/30 p-5 rounded-2xl border border-cyan-500/40">
               <h4 className="text-sm font-bold text-cyan-300 uppercase tracking-wider mb-2 flex items-center gap-2">
@@ -502,39 +494,6 @@ export default function ProjectBuildGuide({
                   );
                 })}
               </div>
-            </div>
-          </div>
-        )}
-
-        {/* TAB 5: BOM Table */}
-        {activeTab === 'bom' && (
-          <div className="bg-slate-900/60 p-5 rounded-2xl border border-slate-800">
-            <h4 className="text-sm font-bold text-cyan-300 uppercase tracking-wider mb-3 flex items-center gap-2">
-              <Boxes className="h-4 w-4" />
-              Lista de Componentes y Costes (BOM)
-            </h4>
-
-            <div className="overflow-x-auto rounded-xl border border-slate-800">
-              <table className="w-full text-left text-xs text-slate-300">
-                <thead className="bg-slate-950 text-cyan-400 font-mono text-[11px] border-b border-slate-800">
-                  <tr>
-                    <th className="p-2.5">Componente</th>
-                    <th className="p-2.5">Especificación / Referencia</th>
-                    <th className="p-2.5">Cantidad</th>
-                    <th className="p-2.5">Coste Aprox.</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-slate-800/60 bg-slate-900/40">
-                  {official.bom?.map((item, idx) => (
-                    <tr key={idx} className="hover:bg-slate-800/40 transition-colors">
-                      <td className="p-2.5 font-bold text-slate-100">{item.name}</td>
-                      <td className="p-2.5 font-mono text-slate-400">{item.specs}</td>
-                      <td className="p-2.5 font-mono text-center text-cyan-300">{item.qty}</td>
-                      <td className="p-2.5 font-mono text-emerald-400">{item.cost}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
             </div>
           </div>
         )}

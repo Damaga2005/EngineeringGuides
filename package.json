@@ -4,9 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "catalog": "node scripts/generate_catalog.js",
+    "catalog": "python scripts/extract_official_and_build_manuals.py",
     "dev": "node scripts/generate_catalog.js && vite",
-    "build": "node scripts/generate_catalog.js && vite build && node scripts/copy_guides.js",
+    "build": "python scripts/extract_official_and_build_manuals.py && vite build && node scripts/copy_guides.js",
     "preview": "vite preview"
   },
   "dependencies": {
