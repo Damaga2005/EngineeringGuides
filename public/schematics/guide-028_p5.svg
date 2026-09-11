@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="900" height="480" style="background:#0A1128; font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;">
+  <defs>
+    <pattern id="grid_guide-028_5" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1E2E4A" stroke-width="0.75"/>
+    </pattern>
+    <linearGradient id="glow_mcu_guide-028_5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F2848"/>
+      <stop offset="100%" stop-color="#143A62"/>
+    </linearGradient>
+    <linearGradient id="glow_mod_guide-028_5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D332B"/>
+      <stop offset="100%" stop-color="#13473C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Blueprint Background & Grid -->
+  <rect width="100%" height="100%" fill="#0A1128"/>
+  <rect width="100%" height="100%" fill="url(#grid_guide-028_5)"/>
+
+  <!-- Technical CAD Frame -->
+  <rect x="15" y="15" width="870" height="450" rx="8" fill="none" stroke="#233C66" stroke-width="1.5" stroke-dasharray="10,4"/>
+
+  <!-- Header Panel -->
+  <rect x="30" y="25" width="840" height="52" rx="8" fill="#101C38" stroke="#2A4575" stroke-width="1.5"/>
+  <text x="48" y="48" fill="#00E5FF" font-size="13" font-weight="bold" letter-spacing="0.5">ESQUEMA TÉCNICO CAD · MIT OCW Feedback Control Implementer</text>
+  <text x="48" y="66" fill="#94A3B8" font-size="10">NIVEL LÓGICO 3.3V LVTTL · FILTRADO LOW-ESR · CONEXIONADO DIRECTO PUNTO A PUNTO</text>
+
+  <!-- Left Block: MCU Controller -->
+  <rect x="40" y="92" width="235" height="295" rx="10" fill="url(#glow_mcu_guide-028_5)" stroke="#00E5FF" stroke-width="2"/>
+  <text x="58" y="122" fill="#38BDF8" font-size="14" font-weight="bold">Microcontrolador Principal (MCU)</text>
+  <text x="58" y="138" fill="#94A3B8" font-size="10">32-Bit ARM Cortex / ESP32</text>
+  
+        <rect x="50" y="160" width="215" height="34" rx="6" fill="#122544" stroke="#FF3366" stroke-width="1.5"/>
+        <text x="62" y="181" fill="#FFFFFF" font-size="11" font-weight="bold">VMOT (12V)</text>
+        <circle cx="260" cy="177" r="4.5" fill="#FF3366"/>
+        
+        <rect x="50" y="202" width="215" height="34" rx="6" fill="#122544" stroke="#94A3B8" stroke-width="1.5"/>
+        <text x="62" y="223" fill="#FFFFFF" font-size="11" font-weight="bold">GND (Pin 6)</text>
+        <circle cx="260" cy="219" r="4.5" fill="#94A3B8"/>
+        
+        <rect x="50" y="244" width="215" height="34" rx="6" fill="#122544" stroke="#00E5FF" stroke-width="1.5"/>
+        <text x="62" y="265" fill="#FFFFFF" font-size="11" font-weight="bold">GPIO 18</text>
+        <circle cx="260" cy="261" r="4.5" fill="#00E5FF"/>
+        
+        <rect x="50" y="286" width="215" height="34" rx="6" fill="#122544" stroke="#00E5FF" stroke-width="1.5"/>
+        <text x="62" y="307" fill="#FFFFFF" font-size="11" font-weight="bold">GPIO 19</text>
+        <circle cx="260" cy="303" r="4.5" fill="#00E5FF"/>
+        
+        <rect x="50" y="328" width="215" height="34" rx="6" fill="#122544" stroke="#00E5FF" stroke-width="1.5"/>
+        <text x="62" y="349" fill="#FFFFFF" font-size="11" font-weight="bold">GPIO 21</text>
+        <circle cx="260" cy="345" r="4.5" fill="#00E5FF"/>
+        
+
+  <!-- Right Block: Target Module / Payload -->
+  <rect x="625" y="92" width="235" height="295" rx="10" fill="url(#glow_mod_guide-028_5)" stroke="#10B981" stroke-width="2"/>
+  <text x="642" y="122" fill="#34D399" font-size="14" font-weight="bold">MIT OCW Feedback Control Implemente</text>
+  <text x="642" y="138" fill="#94A3B8" font-size="10">Módulo / Sensor / Actuador de Precisión</text>
+  
+        <rect x="635" y="160" width="215" height="34" rx="6" fill="#11332C" stroke="#FF3366" stroke-width="1.5"/>
+        <text x="650" y="181" fill="#FFFFFF" font-size="11" font-weight="bold">V+ Motor</text>
+        <circle cx="639" cy="177" r="4.5" fill="#FF3366"/>
+        
+        <rect x="635" y="202" width="215" height="34" rx="6" fill="#11332C" stroke="#94A3B8" stroke-width="1.5"/>
+        <text x="650" y="223" fill="#FFFFFF" font-size="11" font-weight="bold">GND</text>
+        <circle cx="639" cy="219" r="4.5" fill="#94A3B8"/>
+        
+        <rect x="635" y="244" width="215" height="34" rx="6" fill="#11332C" stroke="#00E5FF" stroke-width="1.5"/>
+        <text x="650" y="265" fill="#FFFFFF" font-size="11" font-weight="bold">STEP / PWM1</text>
+        <circle cx="639" cy="261" r="4.5" fill="#00E5FF"/>
+        
+        <rect x="635" y="286" width="215" height="34" rx="6" fill="#11332C" stroke="#00E5FF" stroke-width="1.5"/>
+        <text x="650" y="307" fill="#FFFFFF" font-size="11" font-weight="bold">DIR / PWM2</text>
+        <circle cx="639" cy="303" r="4.5" fill="#00E5FF"/>
+        
+        <rect x="635" y="328" width="215" height="34" rx="6" fill="#11332C" stroke="#00E5FF" stroke-width="1.5"/>
+        <text x="650" y="349" fill="#FFFFFF" font-size="11" font-weight="bold">ENABLE</text>
+        <circle cx="639" cy="345" r="4.5" fill="#00E5FF"/>
+        
+
+  <!-- Wires & Protection Components -->
+  
+        <path d="M 264 177 L 635 177" fill="none" stroke="#FF3366" stroke-width="2.5" />
+        
+        <path d="M 264 219 L 635 219" fill="none" stroke="#94A3B8" stroke-width="2.5" stroke-dasharray="5,4"/>
+        
+        <path d="M 264 261 L 635 261" fill="none" stroke="#00E5FF" stroke-width="2.5" />
+        
+        <path d="M 264 303 L 635 303" fill="none" stroke="#00E5FF" stroke-width="2.5" />
+        
+        <path d="M 264 345 L 635 345" fill="none" stroke="#00E5FF" stroke-width="2.5" />
+        
+  
+
+  <!-- Bottom Legend Bar -->
+  <rect x="30" y="405" width="840" height="45" rx="8" fill="#101C38" stroke="#233C66" stroke-width="1.5"/>
+  <text x="45" y="432" fill="#94A3B8" font-size="10" font-weight="bold">CÓDIGO DE COLORES:</text>
+  <circle cx="185" cy="428" r="5" fill="#FF3366"/>
+  <text x="196" y="432" fill="#E2E8F0" font-size="10">VCC (+3.3V / +5V)</text>
+  <circle cx="330" cy="428" r="5" fill="#94A3B8"/>
+  <text x="341" y="432" fill="#E2E8F0" font-size="10">GND (Masa Común)</text>
+  <circle cx="480" cy="428" r="5" fill="#00E5FF"/>
+  <text x="491" y="432" fill="#E2E8F0" font-size="10">Datos / Bus (SDA / MOSI)</text>
+  <circle cx="670" cy="428" r="5" fill="#38BDF8"/>
+  <text x="681" y="432" fill="#E2E8F0" font-size="10">Reloj (SCL / SCK)</text>
+</svg>

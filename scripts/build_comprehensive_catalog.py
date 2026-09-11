@@ -502,6 +502,305 @@ ALL_GUIDES_DATA = {
       { "name": "Módulo ESP32-CAM / ESP32-S3", "type": "Hardware Edge", "specs": "Aceleración de instrucciones vectoriales para TinyML", "cost": "$8" },
       { "name": "Sensor Acelerómetro de 3 Ejes ADXL345", "type": "Sensor", "specs": "Muestreo hasta 3.2 kHz para análisis de vibración", "cost": "$5" }
     ]
+  },
+
+  "6_EE_Projects_That_See_The_Invisible_dark_ops.pdf": {
+    "title": "6 EE Projects That See The Invisible (Dark Ops)",
+    "subtitle": "Señales de defensa: GNSS resiliente, radiogoniometría y enlaces de espectro ensanchado",
+    "summary": "Seis construcciones de hardware táctico enfocadas en el espectro invisible: receptor GNSS inmune a jamming, radiogoniómetro RF Doppler, detector de anomalías magnéticas, sensor sísmico desatendido, receptor pasivo anti-UAS y enlace FHSS cifrado.",
+    "category": "ee-general",
+    "difficulty": "Avanzado",
+    "estimatedBudget": "$210 - $280",
+    "buildTime": "4-6 semanas",
+    "tags": ["Defense Signals", "GNSS", "Direction Finding", "Magnetometry", "FHSS", "Anti-UAS"],
+    "keyProjects": [
+      { "id": 1, "title": "GNSS Receiver & Resilience Analysis", "cost": "$25", "time": "1 fin de semana", "description": "Recepción de constelaciones GPS/Galileo y análisis de correlación frente a ataques de jamming y spoofing.", "components": ["u-blox NEO-6M / M8N", "RTL-SDR v4", "Antena activa L1 1575MHz", "ESP32"] },
+      { "id": 2, "title": "RF Direction Finder (Pseudo-Doppler)", "cost": "$50", "time": "2 fines de semana", "description": "Radiogoniómetro con conmutación circular de antenas que apunta automáticamente hacia cualquier emisor hostil.", "components": ["Arreglo 4x dipolos", "Interruptor RF SP4T HMC241", "RTL-SDR", "ESP32"] },
+      { "id": 3, "title": "Magnetic Anomaly Detector (Fluxgate)", "cost": "$30", "time": "1 fin de semana", "description": "Gradiómetro magnético de ultra-precisión para detectar el paso de vehículos blindados por la distorsión del campo terrestre.", "components": ["Sensor fluxgate FGM-3", "Amplificador de instrumentación", "ADC 24-bit ADS1220", "Filtro analógico"] },
+      { "id": 4, "title": "Seismic Unattended Ground Sensor (UGS)", "cost": "$35", "time": "1 fin de semana", "description": "Sensor sísmico geófono VLF con acondicionamiento analógico de señal y clasificación de pisadas humanas vs vehículos.", "components": ["Geófono SM-24 4.5Hz", "Op-amp bajo ruido OPA227", "ESP32 ADC", "Filtro pasa-banda"] },
+      { "id": 5, "title": "Passive Drone Detection Receiver", "cost": "$40", "time": "1 fin de semana", "description": "Escáner espectral de banda ancha que detecta la presencia de drones interceptando sus paquetes de control y vídeo.", "components": ["Receptor SDR", "Antena directiva 2.4/5.8GHz", "Raspberry Pi Zero 2W", "Filtro SAW"] },
+      { "id": 6, "title": "Frequency-Hopping Encrypted Link (FHSS)", "cost": "$30", "time": "1 fin de semana", "description": "Enlace de radioenlace que salta 50 veces por segundo de frecuencia con autenticación y cifrado AES-256 por paquete.", "components": ["2x Transceptores SX1262 LoRa", "ESP32-S3", "Antena helicoidal", "TCXO"] }
+    ],
+    "bom": [
+      { "name": "Módulo GNSS u-blox M8N", "type": "Posicionamiento", "specs": "GPS/GLONASS/Galileo concurrente, 10Hz", "cost": "$18" },
+      { "name": "Conmutador RF SP4T HMC241", "type": "RF", "specs": "DC - 3.5 GHz, aislamiento 40dB", "cost": "$12" },
+      { "name": "Sensor Geófono Sísmico SM-24", "type": "Sensor", "specs": "Frecuencia natural 4.5 Hz, 28.8 V/m/s", "cost": "$22" },
+      { "name": "Transceptores LoRa SX1262 (Par)", "type": "Comms", "specs": "868/915 MHz, +22dBm, TCXO", "cost": "$26" }
+    ]
+  },
+
+  "6_EE_Projects_That_See_The_Invisible_revised.pdf": {
+    "title": "6 EE Projects That See The Invisible (Revised Edition)",
+    "subtitle": "Detección espectral avanzada, radiogoniometría y contramedidas electrónicas",
+    "summary": "Edición revisada y expandida: seis construcciones completas de instrumentación de defensa para detectar señales ocultas, anomalías magnéticas en el subsuelo y emisiones de radio hostiles.",
+    "category": "ee-general",
+    "difficulty": "Avanzado",
+    "estimatedBudget": "$210 - $280",
+    "buildTime": "4-6 semanas",
+    "tags": ["Defense Signals", "GNSS", "Direction Finding", "Magnetometry", "FHSS", "Anti-UAS"],
+    "keyProjects": [
+      { "id": 1, "title": "GNSS Receiver & Resilience Analysis", "cost": "$25", "time": "1 fin de semana", "description": "Recepción GNSS L1 y algoritmos de mitigación de interferencias intencionadas (Anti-Jamming).", "components": ["u-blox NEO-6M", "RTL-SDR", "Antena activa 1575MHz"] },
+      { "id": 2, "title": "RF Direction Finder (Pseudo-Doppler)", "cost": "$50", "time": "2 fines de semana", "description": "Radiogoniómetro Doppler con conmutación circular de antenas para localización de emisores.", "components": ["Arreglo 4x dipolos", "Switch RF HMC241", "RTL-SDR"] },
+      { "id": 3, "title": "Magnetic Anomaly Detector (Fluxgate)", "cost": "$30", "time": "1 fin de semana", "description": "Gradiómetro magnético de alta sensibilidad para detección de masas ferrosas en movimiento.", "components": ["Sensor fluxgate", "Op-amp instrumentación", "ADC 24-bit"] },
+      { "id": 4, "title": "Seismic Unattended Ground Sensor (UGS)", "cost": "$35", "time": "1 fin de semana", "description": "Sensor sísmico VLF con clasificación por frecuencia fundamental y cadencia de impacto.", "components": ["Geófono SM-24", "Filtro analógico pasa-bajos", "ESP32"] },
+      { "id": 5, "title": "Passive Drone Detection Receiver", "cost": "$40", "time": "1 fin de semana", "description": "Receptor pasivo que detecta firmas de radiofrecuencia de drones en bandas ISM.", "components": ["SDR Blog v4", "Antena log-periódica", "Raspberry Pi Zero"] },
+      { "id": 6, "title": "Frequency-Hopping Encrypted Link (FHSS)", "cost": "$30", "time": "1 fin de semana", "description": "Transceptor ágil en frecuencia con salto pseudoaleatorio sincronizado y cifrado AES.", "components": ["Semtech SX1262", "ESP32-S3", "Antena 868MHz"] }
+    ],
+    "bom": [
+      { "name": "Módulo u-blox NEO-M8N", "type": "GNSS", "specs": "Multi-constelación L1", "cost": "$18" },
+      { "name": "Interruptor RF GaAs SP4T", "type": "RF", "specs": "DC-3GHz conmutación rápida", "cost": "$12" },
+      { "name": "Geófono de Exploración", "type": "Sísmico", "specs": "Sensibilidad 28 V/m/s", "cost": "$20" }
+    ]
+  },
+
+  "6_EE_Projects_That_Think_For_Themselves.pdf": {
+    "title": "6 EE Projects That Think For Themselves",
+    "subtitle": "Robótica móvil autónoma, brazos cinemáticos, cuadrúpedos y mapeo SLAM",
+    "summary": "Seis robots completos construidos desde cero que ejecutan el bucle robótico profesional 'sense, decide, act': rover reactivo, brazo cinemático inverso, cuadrúpedo caminante, rover SLAM, péndulo autoequilibrado y pórtico pick-and-place.",
+    "category": "robotics-drones",
+    "difficulty": "Avanzado",
+    "estimatedBudget": "$240 - $310",
+    "buildTime": "6-8 semanas",
+    "tags": ["Robotics", "Inverse Kinematics", "SLAM", "Quadruped", "Control Theory"],
+    "keyProjects": [
+      { "id": 1, "title": "Reactive Rover (Sense-Plan-Act)", "cost": "$35", "time": "1 fin de semana", "description": "Rover diferencial con sensores ToF y algoritmos de campos potenciales repulsivos para navegación sin colisiones.", "components": ["Chasis 2WD", "2x Motores N20 reductora", "3x Sensores VL53L0X", "ESP32"] },
+      { "id": 2, "title": "Robot Arm with Inverse Kinematics", "cost": "$45", "time": "2 fines de semana", "description": "Brazo robótico de 4 grados de libertad con cálculo trigonométrico inverso en tiempo real de ángulos articulares.", "components": ["4x Servos metálicos MG996R", "Chasis acrílico/impreso", "ESP32", "Driver PCA9685"] },
+      { "id": 3, "title": "Quadruped Walking Robot", "cost": "$65", "time": "3 semanas", "description": "Robot caminante de cuatro patas con 8-12 servos y generador de marcha Trot/Crawl con cinemática de extremidades.", "components": ["8x Servos SG90/MG90S", "Estructura ligera 3D", "Batería 2S LiPo", "IMU MPU6050"] },
+      { "id": 4, "title": "SLAM Mapping Autonomous Rover", "cost": "$55", "time": "2 fines de semana", "description": "Vehículo terrestre que explora un entorno desconocido y genera un plano 2D en vivo mediante escáner Lidar y odometría.", "components": ["Lidar 360° RPLIDAR A1", "Encoders ópticos de rueda", "Raspberry Pi", "ESP32 Motor"] },
+      { "id": 5, "title": "Self-Balancing Inverted Pendulum", "cost": "$40", "time": "1 fin de semana", "description": "Robot de dos ruedas autoequilibrado con bucle de control PID y filtro complementario a 250 Hz sobre encoders y giroscopio.", "components": ["2x Motores paso a paso / DC", "IMU BNO055 / MPU6050", "Driver DRV8825", "Batería 3S"] },
+      { "id": 6, "title": "Vision-Guided Pick-and-Place Gantry", "cost": "$50", "time": "2 fines de semana", "description": "Pórtico cartesiano con cámara cenital y pinza por vacío que clasifica piezas automáticamente según su forma y color.", "components": ["Pórtico aluminio V-Slot", "Cámara OpenCV", "Bomba de vacío miniatura", "Arduino Mega RAMPS"] }
+    ],
+    "bom": [
+      { "name": "Sensor Lidar 360° RPLIDAR A1", "type": "Sensor Lidar", "specs": "Rango 12 metros, tasa muestreo 8000 pts/s", "cost": "$45" },
+      { "name": "Servos Metálicos MG996R (Pack 4)", "type": "Actuadores", "specs": "Par 11 kg-cm, piñonería de latón", "cost": "$24" },
+      { "name": "Driver I2C 16-PWM PCA9685", "type": "Control", "specs": "Resolución 12-bit, I2C 400kHz", "cost": "$6" },
+      { "name": "Motores DC N20 con Encoder (Par)", "type": "Tracción", "specs": "Reductora 1:50, 300 RPM con encoder magnético", "cost": "$14" }
+    ]
+  },
+
+  "6_Engineering_Projects_That_Survive_The_Field.pdf": {
+    "title": "6 Engineering Projects That Survive The Field",
+    "subtitle": "Blindaje electromagnético, aerodinámica, ensayos de impacto balístico, acústica submarina y paracaídas guiado",
+    "summary": "Seis proyectos completos desde la perspectiva de supervivencia y ensayos ambientales de defensa: caja de blindaje Faraday y EMC, túnel de viento subsónico con balanza de fuerzas, probeta de impacto para blindajes compuestos, arreglo hidrofonico pasivo TDOA, paracaídas autónomo guiado por GPS y laboratorio de choque térmico y vibración.",
+    "category": "ee-general",
+    "difficulty": "Avanzado",
+    "estimatedBudget": "$220 - $310",
+    "buildTime": "4-6 semanas",
+    "tags": ["Defense Engineering", "Survivability", "EMC Shielding", "Aerodynamics", "Hydrophone", "GNC Airdrop"],
+    "keyProjects": [
+      { "id": 1, "title": "Shielding & EMC Hardening (Faraday Box)", "cost": "$25", "time": "1 fin de semana", "description": "Caja blindada de alta atenuación RF para medir profundidad de piel, fugas de junturas y apantallamiento en dB.", "components": ["Caja de aluminio fundido", "Junta elastomérica conductora", "Generador RF", "Receptor SDR"] },
+      { "id": 2, "title": "Subsonic Wind Tunnel & Flow Conditioning", "cost": "$55", "time": "2 fines de semana", "description": "Túnel de viento para túnel aerodinámico con acondicionamiento en panal de abeja y balanza de sustentación/resistencia.", "components": ["Ventilador de alta presión", "Panal laminar", "Sección acrílica", "Célula de carga 100g"] },
+      { "id": 3, "title": "Composite Armor Instrumented Impact Tester", "cost": "$40", "time": "2 fines de semana", "description": "Torre de impacto instrumentada con acelerómetro de choque para caracterizar la absorción de energía en paneles de fibra.", "components": ["Acelerómetro 500g", "Guía lineal vertical", "Masa de impacto", "Paneles fibra de vidrio/carbono"] },
+      { "id": 4, "title": "Underwater Hydrophone Array & Acoustic TDOA", "cost": "$45", "time": "2 fines de semana", "description": "Matriz de hidrófonos piezeléctricos encapsulados para triangulación acústica submarina por diferencia temporal de llegada.", "components": ["2x Discos piezoeléctricos", "Preamplificador bajo ruido", "Resina marina PU", "ADC 24-bit"] },
+      { "id": 5, "title": "Autonomous Guided Airdrop Parafoil (GNC)", "cost": "$50", "time": "2 fines de semana", "description": "Sistema de caída autónoma con ala ram-air y servomotores de línea de freno guiados por waypoint GPS y brújula.", "components": ["Ala de parapente RC", "2x Servos de alto torque", "GPS u-blox", "Controlador de vuelo"] },
+      { "id": 6, "title": "Environmental Torture-Test Lab (Thermal/Vibe)", "cost": "$35", "time": "1 fin de semana", "description": "Cámara de ciclado térmico con placa Peltier y actuador de vibración para certificar hardware antes del despliegue.", "components": ["Célula Peltier TEC1-12706", "Transductor de vibración", "Termopares Tipo K", "Controlador PID"] }
+    ],
+    "bom": [
+      { "name": "Célula de Carga de Precisión 100g", "type": "Sensor Fuerza", "specs": "Sensibilidad 1.0mV/V, puente Wheatstone", "cost": "$12" },
+      { "name": "Acelerómetro de Alto Rango 500g", "type": "Sensor Choque", "specs": "Rango dinámico ±500g, salida analógica rápida", "cost": "$28" },
+      { "name": "Transductor Piezocerámico Sumergible", "type": "Acústica", "specs": "Resonancia 40kHz, encapsulamiento IP68", "cost": "$16" },
+      { "name": "Célula Termoeléctrica Peltier TEC1-12706", "type": "Térmico", "specs": "12V 6A, Qmax 60W, ΔT 65°C", "cost": "$8" }
+    ]
+  },
+
+  "6_Upgrades_Your_Drone_Is_Missing.pdf": {
+    "title": "6 Upgrades Your Drone Is Missing",
+    "subtitle": "Flujo óptico, LiDAR, redundancia con votación Kalman y telemetría por bus CAN",
+    "summary": "Seis sistemas de hardware crítico para convertir un dron comercial o artesanal en una aeronave autónoma de grado industrial con redundancia, navegación sin GPS y telemetría avanzada.",
+    "category": "robotics-drones",
+    "difficulty": "Avanzado",
+    "estimatedBudget": "$180 - $260",
+    "buildTime": "4-5 semanas",
+    "tags": ["Drones", "Optical Flow", "CAN Bus", "LiDAR", "Fault Tolerance", "Telemetry"],
+    "keyProjects": [
+      { "id": 1, "title": "Optical Flow & LiDAR Surface Tracker", "cost": "$35", "time": "1 fin de semana", "description": "Posicionamiento ultra-estable en interiores sin señal GPS mediante sensor de flujo óptico PMW3901 y telémetro láser ToF.", "components": ["Sensor PMW3901", "Sensor ToF VL53L1X", "ESP32", "Montaje impreso 3D"] },
+      { "id": 2, "title": "Redundant Dual-IMU with Kalman Voting", "cost": "$30", "time": "1 fin de semana", "description": "Placa de navegación con dos sensores inerciales desacoplados y algoritmo de votación Kalman para tolerancia a fallos por vibración.", "components": ["2x IMU BMI088", "Aisladores de silicona", "MCU STM32F4", "Filtro paso bajo"] },
+      { "id": 3, "title": "CAN Bus ESC Telemetry & Power Distribution", "cost": "$40", "time": "2 fines de semana", "description": "Red de comunicaciones CAN bus para monitorizar en tiempo real RPM, temperatura, corriente y voltaje de cada variador.", "components": ["Transceptores MCP2562", "Shunt de corriente INA226", "Regulador Buck 5V 5A", "Termistores NTC"] },
+      { "id": 4, "title": "LoRa Backup Heartbeat & Emergency Parachute", "cost": "$35", "time": "1 fin de semana", "description": "Enlace de emergencia independiente a 868MHz con despliegue pirotécnico o por muelle de paracaídas ante fallo de batería principal.", "components": ["Módulo LoRa SX1262", "Batería 1S LiPo dedicada", "Servo liberador / ignitor", "Microcontrolador ATtiny"] },
+      { "id": 5, "title": "Active Rotor Ice Detection & Thermal De-Icing", "cost": "$25", "time": "1 fin de semana", "description": "Monitorización de congelación en borde de ataque por sensor capacitivo y activación de resistencias flexibles de calentamiento.", "components": ["Calefactor flexible de poliimida", "Sensor capacitivo", "MOSFET N de potencia", "Termómetro digital"] },
+      { "id": 6, "title": "AI Edge Companion Computer & Collision Avoidance", "cost": "$65", "time": "2 fines de semana", "description": "Computador a bordo Jetson/Coral TPU conectado por UART/MAVLink al controlador de vuelo para detección y evasión de obstáculos en 3D.", "components": ["Raspberry Pi 4 / Coral TPU", "Cámara estéreo", "Convertidor DC-DC 5V 4A", "Arnés MAVLink"] }
+    ],
+    "bom": [
+      { "name": "Sensor de Flujo Óptico PMW3901", "type": "Navegación", "specs": "Rastreo óptico SPI a 100fps", "cost": "$16" },
+      { "name": "Sensor ToF Lidar VL53L1X", "type": "Altímetro", "specs": "Rango hasta 4 metros, resolución milimétrica", "cost": "$10" },
+      { "name": "IMU de Precisión de Doble Eje BMI088", "type": "Inercial", "specs": "Bajo ruido, desacoplo de vibraciones", "cost": "$18" },
+      { "name": "Transceptor CAN Bus MCP2562", "type": "Comunicaciones", "specs": "Soporta CAN FD y voltajes 3.3V/5V", "cost": "$4" }
+    ]
+  },
+
+  "ee defense tech part2.pdf": {
+    "title": "Defense Tech Part 2: Laser + Covert Systems",
+    "subtitle": "Micrófono láser, enlace óptico cifrado, telémetro ToF y visor nocturno pasivo",
+    "summary": "Seis subsistemas ópticos y encubiertos para aplicaciones de defensa e inteligencia: micrófono láser por reflexión en ventanas a 100m, enlace láser IR cifrado punto a punto, telémetro ToF de alta velocidad, transmisor de ráfagas ágil en frecuencia, visor nocturno de amplificación pasiva y sistema de medición de sección transversal radar (RCS).",
+    "category": "ee-general",
+    "difficulty": "Avanzado",
+    "estimatedBudget": "$190 - $270",
+    "buildTime": "4-6 semanas",
+    "tags": ["Defense Tech", "Laser Audio", "Covert Optical", "Night Vision", "Radar Cross-Section", "Burst TX"],
+    "keyProjects": [
+      { "id": 1, "title": "Laser Surveillance Microphone", "cost": "$15", "time": "1 fin de semana", "description": "Vibrometría láser que intercepta el audio interior a través de la vibración microscópica del vidrio de una ventana a 100 metros.", "components": ["Diodo láser rojo colimado 5mW", "Fotodiodo PIN BPW34", "Preamplificador bajo ruido", "Filtro pasa-banda"] },
+      { "id": 2, "title": "Tap-Proof Laser Communication Link", "cost": "$12", "time": "1 fin de semana", "description": "Enlace óptico invisible a 850nm que transmite datos cifrados punto a punto sin emitir radiación RF que pueda ser interceptada.", "components": ["LED/Láser infrarrojo 850nm", "Receptor óptico rápido", "ESP32", "Lente colimadora"] },
+      { "id": 3, "title": "High-Precision Laser Rangefinder", "cost": "$25", "time": "2 fines de semana", "description": "Telémetro ToF con pulsos láser de 5ns y cronometría a nivel de picosegundos para cálculo milimétrico de distancias de tiro.", "components": ["Diodo láser pulsado 905nm", "Fotodiodo de avalancha (APD)", "Comparador ultrarrápido", "TDC-7200"] },
+      { "id": 4, "title": "Encrypted Burst Transmitter", "cost": "$10", "time": "1 fin de semana", "description": "Transmisor táctico de ráfaga de 50 ms con salto de frecuencia rápido, inmune a radiogoniometría convencional y cifrado AES.", "components": ["Transceptor RF CC1101", "ESP32-S3", "Antena helicoidal 433MHz", "Batería LiPo"] },
+      { "id": 5, "title": "Passive Night Vision Scope", "cost": "$30", "time": "2 fines de semana", "description": "Visor nocturno pasivo con sensor CMOS de ultra-alta sensibilidad a luz estelar y amplificación analógica de ganancia extrema.", "components": ["Sensor CMOS Sony Starvis", "Lente F/1.2 gran apertura", "Pantalla micro OLED", "Alimentación blindada"] },
+      { "id": 6, "title": "Radar Cross-Section Measurement System", "cost": "$12", "time": "1 fin de semana", "description": "Banco de ensayo de escritorio para medir el eco radar de maquetas furtivas y materiales absorbentes mediante señales de 10 GHz.", "components": ["Transceptor Doppler HB100 10.525GHz", "Bocina de ganancia", "Amplificador de eco", "Osciloscopio USB"] }
+    ],
+    "bom": [
+      { "name": "Fotodiodo PIN de Silicio BPW34", "type": "Detector Óptico", "specs": "Tiempo de subida 20ns, alta sensibilidad 400-1100nm", "cost": "$4" },
+      { "name": "Sensor de Imagen Ultra Bajo Ruido Starvis", "type": "Visión", "specs": "0.0001 Lux, rango dinámico ampliado", "cost": "$22" },
+      { "name": "Sensor de Microondas 10.525 GHz HB100", "type": "Radar", "specs": "Banda X, potencia emitida EIRP 14dBm", "cost": "$8" },
+      { "name": "Conversor Tiempo-a-Digital TDC-GP22", "type": "Temporización", "specs": "Resolución de 45 picosegundos, 2 canales", "cost": "$14" }
+    ]
+  },
+
+  "ee ai era projects.pdf": {
+    "title": "6 AI-Era EE Projects",
+    "subtitle": "Detección de voz sintética, sniffer EMI side-channel, kill switch de hardware y autenticación RF",
+    "summary": "Seis construcciones de hardware electrónico diseñadas específicamente para interactuar, proteger y auditar sistemas de inteligencia artificial: detector analógico de clones de voz, sniffer de fuga electromagnética en procesadores, interruptor físico de emergencia por perfil de consumo, credencial criptográfica anti-deepfake, fusionador neuromórfico y clasificador de huella espectral RF.",
+    "category": "cs-ai",
+    "difficulty": "Avanzado",
+    "estimatedBudget": "$170 - $250",
+    "buildTime": "4-5 semanas",
+    "tags": ["AI Hardware", "Side-Channel", "Neuromorphic", "Voice Cloning", "Hardware Security", "RF Fingerprint"],
+    "keyProjects": [
+      { "id": 1, "title": "AI Voice Cloning Detector", "cost": "$15", "time": "1 fin de semana", "description": "Circuito analógico que detecta voces sintéticas analizando discontinuidades de fase y artefactos en el espectro audible sin requerir software pesado.", "components": ["Banco de filtros analógicos activos", "Detector de picos", "Comparadores ventana", "Indicador LED"] },
+      { "id": 2, "title": "EMI Side-Channel Sniffer", "cost": "$30", "time": "1 fin de semana", "description": "Sonda electromagnética de campo cercano que captura las emisiones parásitas de una CPU para identificar qué algoritmo o red neuronal se está ejecutando.", "components": ["Sonda de bucle magnético H-Field", "LNA 20dB bajo ruido", "SDR RTL v4", "Software de espectrograma"] },
+      { "id": 3, "title": "Hardware AI Kill Switch", "cost": "$18", "time": "1 fin de semana", "description": "Watchdog analógico que desconecta físicamente la alimentación de un acelerador de IA cuando el perfil transitorio de corriente excede límites seguros.", "components": ["Resistencia shunt 0.01Ω", "Amplificador de corriente INA180", "MOSFET canal P potencia", "Relé enclavado"] },
+      { "id": 4, "title": "Deepfake-Proof Identity Badge", "cost": "$25", "time": "2 fines de semana", "description": "Dispositivo portátil con elemento seguro criptográfico ATECC608 que firma digitalmente cada captura de cámara con timestamp GPS inmutable.", "components": ["Criptochip ATECC608A", "Módulo cámara OV2640", "Módulo GNSS", "ESP32-S3"] },
+      { "id": 5, "title": "Neuromorphic Sensor Fuser", "cost": "$12", "time": "1 fin de semana", "description": "Red de neuronas de picos implementada con amplificadores operacionales que procesa datos de sensores en tiempo real sin reloj ni conversor ADC.", "components": ["Op-Amps LM358", "Integradores RC", "Diodos de disparo", "Matriz resistiva sináptica"] },
+      { "id": 6, "title": "RF Fingerprinting Authenticator", "cost": "$35", "time": "2 fines de semana", "description": "Identificador de transmisores inalámbricos mediante el análisis de las no-linealidades e imperfecciones microscópicas únicas de su amplificador de potencia.", "components": ["Receptor SDR HackRF / RTL-SDR", "Procesador DSP ARM", "Antena monopolo", "Firmware de correlación"] }
+    ],
+    "bom": [
+      { "name": "Elemento Criptográfico Seguro ATECC608A", "type": "Seguridad", "specs": "Almacenamiento de claves ECDSA FIPS, I2C", "cost": "$3" },
+      { "name": "Sonda de Campo Cercano H-Field", "type": "Instrumentación", "specs": "Rango 30MHz - 3GHz, blindaje semirrígido", "cost": "$15" },
+      { "name": "Amplificador de Sensado de Corriente INA180", "type": "Analógico", "specs": "Ancho de banda 350kHz, precisión 1%", "cost": "$2" },
+      { "name": "Amplificador de Bajo Ruido LNA 20dB", "type": "RF", "specs": "Figura de ruido 0.8dB, 50MHz - 4GHz", "cost": "$12" }
+    ]
+  },
+
+  "ee physical ai embodiment.pdf": {
+    "title": "6 Physical AI Embodiment Projects",
+    "subtitle": "Interfaces neuronales silenciosas, prótesis mioeléctricas, control AR y háptica predictiva",
+    "summary": "Seis construcciones de frontera para conectar modelos de inteligencia artificial con la fisiología humana y el mundo físico: interfaz neural de habla silenciosa, prótesis de mano biónica con predicción de intención motora, brazalete de gestos para programación en realidad aumentada, colgante con biomarcadores emocionales, guante de sentido táctil predictivo y parche submandibular de comandos subvocalizados.",
+    "category": "cs-ai",
+    "difficulty": "Avanzado",
+    "estimatedBudget": "$230 - $320",
+    "buildTime": "5-7 semanas",
+    "tags": ["Physical AI", "Silent Speech", "EMG Prosthetics", "Brain-Computer", "Haptics", "Biosensors"],
+    "keyProjects": [
+      { "id": 1, "title": "Silent Speech Neural Interface", "cost": "$60", "time": "2-4 fines de semana", "description": "Lectura electromiográfica sutil de la musculatura laríngea y submentoniana para transcribir texto sin emitir sonido audible.", "components": ["Frontend biopotencial ADS1299", "8x Electrodos Ag/AgCl dorados", "ESP32-S3", "Filtro analógico 50Hz"] },
+      { "id": 2, "title": "EMG Prosthetic Hand with Intent Detection", "cost": "$80", "time": "3-4 semanas", "description": "Mano robótica de 5 dedos accionada por servomotores con clasificación de intención neuromuscular previa al movimiento voluntario.", "components": ["5x Servos micro metálicos", "Mano impresa en 3D SLS/PLA", "Sensor MyoWare EMG", "Batería 2S LiPo"] },
+      { "id": 3, "title": "Gesture-Controlled AR Coding Interface", "cost": "$50", "time": "2 fines de semana", "description": "Brazalete con matriz de 16 canales EMG de muñeca para mecanografía virtual y ejecución de atajos de teclado sin tocar una superficie.", "components": ["Anillo de electrodos flexibles", "Multiplexor analógico 16:1", "MCU Cortex-M4", "Transmisor Bluetooth LE"] },
+      { "id": 4, "title": "Emotion-Aware AI Companion Pendant", "cost": "$30", "time": "1-2 fines de semana", "description": "Colgante biométrico de bajo consumo que fusiona variabilidad de la frecuencia cardíaca (VFC), conductancia dérmica y temperatura.", "components": ["Sensor fotopletismógrafo MAX30102", "Sensor galvánico EDA", "Termistor de contacto", "Nordic nRF52840"] },
+      { "id": 5, "title": "Tactile Sense Augmentation Glove", "cost": "$45", "time": "2 fines de semana", "description": "Guante con actuadores resonantes lineales (LRA) que transmiten sensaciones táctiles anticipadas según la proximidad medida por sensores ToF.", "components": ["5x Actuadores LRA hápticos", "Driver DRV2605L", "Mini sensores láser ToF", "Driver I2C PCA9685"] },
+      { "id": 6, "title": "Subvocal AI Command Interface", "cost": "$35", "time": "1-2 fines de semana", "description": "Parche submandibular de 4 electrodos capaz de clasificar 50 comandos de control discretos procesados localmente en Edge AI.", "components": ["Parche cutáneo flexible", "Amplificador biopotencial INA128", "MCU RP2040", "Batería recargable botón"] }
+    ],
+    "bom": [
+      { "name": "Conversor Analógico Biopotencial ADS1299", "type": "Adquisición Bio", "specs": "8 canales simultáneos, resolución 24-bit, PGA 1-24x", "cost": "$42" },
+      { "name": "Driver Háptico Háptico LRA/ERM DRV2605L", "type": "Actuador", "specs": "Librería de efectos hápticos integrada, control I2C", "cost": "$6" },
+      { "name": "Sensor Fotopletismográfico MAX30102", "type": "Biosensor", "specs": "LEDs rojo e infrarrojo con fotodetector bajo ruido", "cost": "$5" },
+      { "name": "Módulo SoC Bluetooth 5.2 nRF52840", "type": "Control/Comms", "specs": "ARM Cortex-M4F 64MHz, BLE + Zigbee + Thread", "cost": "$9" }
+    ]
+  },
+
+  "summer-ee-glow-up-light.pdf": {
+    "title": "The Summer EE Glow-Up (Vol. 1: Foundation)",
+    "subtitle": "Guía de aceleración técnica intensiva: 10 recursos troncales de ingeniería electrónica",
+    "summary": "Plan de entrenamiento estructurado de 12 semanas para dominar los fundamentos de diseño de circuitos, lógica digital, radiofrecuencia y sistemas embebidos mediante proyectos prácticos de laboratorio.",
+    "category": "electronics",
+    "difficulty": "Principiante / Intermedio",
+    "estimatedBudget": "$120 - $190",
+    "buildTime": "12 semanas",
+    "tags": ["EE Learning", "Circuit Design", "Breadboard CPU", "HDLBits", "SDR", "Embedded"],
+    "keyProjects": [
+      { "id": 1, "title": "Learning the Art of Electronics Lab", "cost": "$35", "time": "2 semanas", "description": "Banco de ensayos con transistores discretos, amplificadores operacionales y osciladores montados sobre protoboard.", "components": ["Kit de componentes discretos", "Amplificador LF356", "Fuente simétrica ±15V", "Multímetro"] },
+      { "id": 2, "title": "Phil's Lab High-Speed Hardware Design", "cost": "$25", "time": "2 semanas", "description": "Diseño y trazado en KiCad de una placa de circuito impreso de 4 capas para microcontrolador STM32 y filtros analógicos.", "components": ["Entorno KiCad", "Plantillas JLCPCB", "Librerías de footprint 0603"] },
+      { "id": 3, "title": "Ben Eater 8-bit Discrete TTL Computer", "cost": "$60", "time": "3 semanas", "description": "Construcción completa de una CPU de 8 bits con registros, ALU, contador de programa y RAM usando compuertas lógicas serie 74LS.", "components": ["Puertas lógicas 74LS", "EEPROMs 28C16", "Display 7 segmentos", "Generador de reloj 555"] },
+      { "id": 4, "title": "Contextual Electronics Board Bring-up", "cost": "$30", "time": "1 semana", "description": "Protocolo de encendido inicial, verificación de voltajes sin chips, soldadura de paso fino SMD e inspección con microscopio.", "components": ["Estación de aire caliente", "Flux no-clean", "Soldadura estaño-plomo", "Malla desoldadora"] },
+      { "id": 5, "title": "MIT OCW Feedback Control Implementer", "cost": "$20", "time": "2 semanas", "description": "Montaje de bucles de control retroalimentado analógico con amplificadores operacionales para estabilizar posición y corriente.", "components": ["Op-amps TL082", "Potenciómetro multivuelta", "Motor DC con tacómetro", "Osciloscopio"] },
+      { "id": 6, "title": "GNU Radio & RTL-SDR Spectrum Interceptor", "cost": "$28", "time": "2 semanas", "description": "Recepción y decodificación de emisiones ADS-B de aviones, satélites meteorológicos NOAA y señales FM comerciales.", "components": ["Receptor RTL-SDR Blog v4", "Antena dipolo telescópica", "Filtro SAW 1090MHz", "GNU Radio"] }
+    ],
+    "bom": [
+      { "name": "Receptor RTL-SDR v4 con TCXO 1PPM", "type": "RF SDR", "specs": "Rango 500kHz a 1.7GHz, conversión directa", "cost": "$32" },
+      { "name": "Kit Lógica TTL Serie 74LS (50 piezas)", "type": "Lógica Digital", "specs": "Compuertas AND, OR, XOR, Registros, Flip-Flops", "cost": "$22" },
+      { "name": "Kit de Resistencias y Capacitores de Precisión", "type": "Pasivos", "specs": "Tolerancia 1%, 1/4W, película metálica", "cost": "$14" },
+      { "name": "Protoboards Modulares de 830 Puntos (Par)", "type": "Prototipado", "specs": "Líneas de alimentación dobles, contactos niquelados", "cost": "$9" }
+    ]
+  },
+
+  "summer-ee-glow-up-vol2.pdf": {
+    "title": "The Summer EE Glow-Up (Vol. 2: Deeper Cuts)",
+    "subtitle": "Profundización analógica, simulación de peor caso y procesado digital de señales (DSP)",
+    "summary": "Segunda entrega del programa de aceleración técnica con diez recursos avanzados: diseño de circuitos integrados analógicos, simulación Monte Carlo en LTspice, emulación en tiempo real y DSP práctico.",
+    "category": "electronics",
+    "difficulty": "Intermedio / Avanzado",
+    "estimatedBudget": "$140 - $210",
+    "buildTime": "10 semanas",
+    "tags": ["Analog IC", "LTspice", "Wokwi", "DSP", "W2AEW", "Signal Processing"],
+    "keyProjects": [
+      { "id": 1, "title": "Practical Electronics for Inventors Bench", "cost": "$30", "time": "1 semana", "description": "Laboratorio de componentes no ideales: comportamiento de inductores en saturación, ESR de capacitores y fuga de diodos.", "components": ["Medidor LCR", "Variedad de inductores toroidales", "Diodos Schottky", "Generador de funciones"] },
+      { "id": 2, "title": "Razavi CMOS Microelectronics Lab", "cost": "$25", "time": "2 semanas", "description": "Diseño y caracterización de pares diferenciales CMOS, espejos de corriente cascode y etapas de salida clase AB.", "components": ["Pares emparejados de transistores", "Simulador SPICE", "Potenciómetros de polarización"] },
+      { "id": 3, "title": "LTspice Worst-Case & Monte Carlo Simulator", "cost": "$0", "time": "1 semana", "description": "Simulación estadística de variaciones de producción en circuitos analógicos críticos y análisis de estabilidad de margen de fase.", "components": ["Software LTspice XVII", "Modelos SPICE de fabricantes", "Directivas .step param"] },
+      { "id": 4, "title": "Wokwi Virtual Hardware Simulator", "cost": "$0", "time": "1 semana", "description": "Desarrollo y depuración de controladores de periféricos I2C y SPI en el navegador con lógica lógica conectada virtualmente.", "components": ["Simulador Wokwi", "Compilador C++ para ESP32/Pico", "Analizador lógico virtual"] },
+      { "id": 5, "title": "Scientist & Engineer's Guide to DSP", "cost": "$35", "time": "3 semanas", "description": "Implementación de algoritmos de transformada rápida de Fourier (FFT), filtrado FIR y correlación cruzada en microcontroladores.", "components": ["Placa Teensy 4.0 / STM32", "Codec de audio I2S", "Micrófono de condensador", "Auriculares"] },
+      { "id": 6, "title": "W2AEW RF Lab Techniques & Measurements", "cost": "$45", "time": "2 semanas", "description": "Medición práctica de pérdidas de retorno, adaptación de impedancias con carta de Smith y atenuación de filtros con NanoVNA.", "components": ["Analizador de redes NanoVNA-H", "Kit de calibración SOLT", "Filtros coaxiales LC", "Cargas de 50Ω"] }
+    ],
+    "bom": [
+      { "name": "Analizador Vectorial de Redes NanoVNA 50kHz-900MHz", "type": "Instrumentación RF", "specs": "Medición S11/S21, pantalla táctil, calibración SOLT", "cost": "$48" },
+      { "name": "Placa de Desarrollo Teensy 4.0", "type": "DSP Edge", "specs": "ARM Cortex-M7 a 600MHz, FPU doble precisión", "cost": "$26" },
+      { "name": "Codec de Audio I2S SGTL5000", "type": "Audio/DSP", "specs": "DAC/ADC 24-bit estéreo con amplificador de auriculares", "cost": "$14" },
+      { "name": "Kit de Calibración RF SMA 50 Ohm", "type": "RF", "specs": "Open, Short, Load de precisión para calibración VNA", "cost": "$10" }
+    ]
+  },
+
+  "summer-ee-glow-up-vol3.pdf": {
+    "title": "The Summer EE Glow-Up (Vol. 3: Specialist Picks)",
+    "subtitle": "Especialización en hardware: diseño de alta velocidad, IoT industrial y teoría de control",
+    "summary": "Tercera fase de especialización que cubre las disciplinas más cotizadas de la ingeniería electrónica: diseño de pistas diferenciales para buses de alta velocidad, IoT de largo alcance con LoRaWAN, convertidores conmutados y control moderno.",
+    "category": "ee-general",
+    "difficulty": "Avanzado",
+    "estimatedBudget": "$160 - $240",
+    "buildTime": "12 semanas",
+    "tags": ["High-Speed PCB", "LoRaWAN", "Control Theory", "Power Electronics", "RISC-V", "TinyML"],
+    "keyProjects": [
+      { "id": 1, "title": "FEDEVEL High-Speed PCB Layout Masterclass", "cost": "$30", "time": "2 semanas", "description": "Ruteo de buses de memoria DDR3/DDR4, cálculo de impedancia de líneas microstrip y control estricto de retardo y diafonía.", "components": ["KiCad / Altium", "Calculadora de impedancias Polar", "Stackup de 4/6 capas"] },
+      { "id": 2, "title": "Steve Brunton Modern Control & Kalman Filters", "cost": "$25", "time": "2 semanas", "description": "Diseño en espacio de estados, reguladores lineales cuadráticos (LQR) y filtro de Kalman extendido para fusión inercial.", "components": ["Simulador Python / MATLAB", "Péndulo con encoder", "Driver de motor puente H"] },
+      { "id": 3, "title": "Andreas Spiess Deep IoT & LoRaWAN Node", "cost": "$35", "time": "2 semanas", "description": "Nodo de telemetría exterior de consumo ultra-bajo alimentado por panel solar con autonomía superior a 5 años en la red LoRaWAN.", "components": ["Módulo LoRa Heltec ESP32", "Panel solar 5V 1W", "Supercondensador / LiFePO4", "Sensor BME280"] },
+      { "id": 4, "title": "GreatScott! Switching Converter Design", "cost": "$28", "time": "2 semanas", "description": "Cálculo, bobinado de inductores y ensamblado de un convertidor reductor síncrono Buck de 12V a 5V con eficiencia superior al 94%.", "components": ["Controlador PWM síncrono", "MOSFETs de baja RDS(on)", "Núcleo toroidal de ferrita", "Osciloscopio"] },
+      { "id": 5, "title": "Digital Design & RISC-V Architecture", "cost": "$40", "time": "2 semanas", "description": "Implementación de una CPU RISC-V de 3 etapas de segmentación sintetizada sobre una placa de desarrollo FPGA económica.", "components": ["Placa FPGA Gowin Tang Nano 9K", "Cable USB-JTAG", "Entorno Verilog/Yosys"] },
+      { "id": 6, "title": "Shawn Hymel TinyML Embedded Classifier", "cost": "$32", "time": "2 semanas", "description": "Entrenamiento y cuantización INT8 de una red neuronal para detección de anomalías acústicas ejecutada en un microcontrolador Cortex-M4.", "components": ["Microcontrolador Seeed Xiao nRF52840", "Micrófono PDM", "Entorno Edge Impulse", "Batería LiPo"] }
+    ],
+    "bom": [
+      { "name": "Placa de Desarrollo FPGA Tang Nano 9K", "type": "Lógica Programable", "specs": "8640 LUTs Gowin, 64Mbit PSRAM, interfaz HDMI", "cost": "$21" },
+      { "name": "Nodo LoRaWAN ESP32 con Pantalla OLED", "type": "IoT", "specs": "Transceptor SX1262 868MHz con circuito de carga LiPo", "cost": "$19" },
+      { "name": "Sensor Ambiental de Precisión BME280", "type": "Sensores", "specs": "Presión barométrica, humedad y temperatura, I2C", "cost": "$7" },
+      { "name": "Microcontrolador Xiao BLE Sense (nRF52840)", "type": "Edge AI", "specs": "Bluetooth 5.0, IMU 6 ejes y micrófono PDM a bordo", "cost": "$14" }
+    ]
+  },
+
+  "summer-ee-glow-up-vol4.pdf": {
+    "title": "The Summer EE Glow-Up (Vol. 4: Board-Level Track)",
+    "subtitle": "De esquemático a silicio: diseño, ensamblado superficial SMT y certificación industrial",
+    "summary": "El volumen final que une todos los conocimientos para convertirlos en placas de circuito impreso comerciales: reglas de diseño para manufactura (DFM), librerías de componentes atómicas, RTOS industrial y protección ESD.",
+    "category": "electronics",
+    "difficulty": "Avanzado",
+    "estimatedBudget": "$150 - $230",
+    "buildTime": "8-10 semanas",
+    "tags": ["Board-Level", "KiCad DFM", "SMT Assembly", "Zephyr RTOS", "ESD Protection", "Microwaves"],
+    "keyProjects": [
+      { "id": 1, "title": "KiCad Production-Ready DFM Workflow", "cost": "$20", "time": "1 semana", "description": "Configuración de reglas de diseño DRC según las capacidades del fabricante, generación de archivos Gerber X2, perforación y centroides Pick-and-Place.", "components": ["KiCad 8", "Archivos de reglas DFM", "Visor Gerber GerbView"] },
+      { "id": 2, "title": "The Art of Electronics Ultra-Low Noise Supply", "cost": "$35", "time": "2 semanas", "description": "Diseño de una fuente de alimentación lineal dual con referencia de voltaje buried-zener y rizado inferior a 1 µV RMS para instrumentación.", "components": ["Regulador de ultra-bajo ruido LT3042", "Transformador toroidal", "Capacitores de tantalio polímero"] },
+      { "id": 3, "title": "Zephyr RTOS Industrial Node Deployment", "cost": "$25", "time": "2 semanas", "description": "Desarrollo de un firmware profesional con particiones multihilo seguras, gestión de energía de bajo consumo y controladores DeviceTree.", "components": ["Placa STM32 Nucleo / ESP32-S3", "Depurador J-Link / ST-Link", "Terminal serial"] },
+      { "id": 4, "title": "Microwaves101 Planar Filter & Coupler", "cost": "$30", "time": "2 semanas", "description": "Diseño y fabricación en sustrato Rogers/FR4 de un acoplador direccional de microstrip y un filtro pasa-banda interdigital a 2.4 GHz.", "components": ["Sustrato PCB de alta frecuencia", "Conectores SMA de borde de placa", "Software Qucs-S"] },
+      { "id": 5, "title": "JLCPCB SMT Panelization & Automated Assembly", "cost": "$40", "time": "1 semana", "description": "Panelización de múltiples circuitos con ranuras de fresado (tab-routing), marcas fiduciales ópticas y optimización de lista BOM para componentes básicos.", "components": ["Herramienta de panelizado KiKit", "Fiduciales 1mm", "Pasta de estaño SAC305"] },
+      { "id": 6, "title": "EEVblog Teardown Forensic & ESD Hardening", "cost": "$25", "time": "1 semana", "description": "Análisis de fallos y diseño de protección integral frente a descargas electrostáticas (ESD) mediante diodos TVS, fusibles rearmables PPTC y filtrado EMI.", "components": ["Arreglo diodos TVS USBLC6-2", "Fusibles PolySwitch", "Pistola piezoeléctrica ESD de test"] }
+    ],
+    "bom": [
+      { "name": "Regulador Lineal de Ultra-Bajo Ruido LT3042", "type": "Alimentación", "specs": "Ruido 0.8µVRMS, PSRR 79dB a 1MHz, 200mA", "cost": "$9" },
+      { "name": "Depurador y Programador ST-LINK V2 / V3", "type": "Depuración", "specs": "Soporte SWD y JTAG para microcontroladores ARM", "cost": "$12" },
+      { "name": "Conectores Coaxiales SMA Edge-Mount (Pack 5)", "type": "RF", "specs": "DC a 18 GHz, impedancia 50Ω, acabado en oro", "cost": "$11" },
+      { "name": "Diodos de Protección ESD de Ultra-Baja Capacitancia", "type": "Protección", "specs": "Capacitancia 0.25pF para líneas USB 3.0 / HDMI", "cost": "$5" }
+    ]
   }
 };
 

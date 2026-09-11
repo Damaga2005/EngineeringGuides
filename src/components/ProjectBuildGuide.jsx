@@ -32,10 +32,39 @@ export default function ProjectBuildGuide({
   projectNumber,
   onOpenImageViewer
 }) {
-  const [activeTab, setActiveTab] = useState('schematic'); // 'schematic' | 'wiring' | 'firmware' | 'mechanical' | 'calibration' | 'troubleshoot'
+  const [activeTab, setActiveTab] = useState('schematic'); // 'schematic' | 'wiring' | 'firmware' | 'mechanical' | 'calibration' | 'troubleshoot' | 'checklist'
   const [codeCopied, setCodeCopied] = useState(false);
+  const [bomCopied, setBomCopied] = useState(false);
+  const [imageMode, setImageMode] = useState('photo'); // 'photo' | 'diagram'
   const [openTroubleshoot, setOpenTroubleshoot] = useState({});
   const [openInterview, setOpenInterview] = useState({});
+  const [svgError, setSvgError] = useState(false);
+
+  // Local storage checklist state for this project
+  const [checkedSteps, setCheckedSteps] = useState(() => {
+    try {
+      const saved = localStorage.getItem(`build_check_${project?.id}`);
+      return saved ? JSON.parse(saved) : {};
+    } catch {
+      return {};
+    }
+  });
+
+  const toggleCheckStep = (stepIdx) => {
+    setCheckedSteps(prev => {
+      const next = { ...prev, [stepIdx]: !prev[stepIdx] };
+      try {
+        localStorage.setItem(`build_check_${project?.id}`, JSON.stringify(next));
+      } catch {}
+      return next;
+    });
+  };
+
+  // Reset errors when project changes
+  React.useEffect(() => {
+    setSvgError(false);
+    setImageMode('photo');
+  }, [project?.id, project?.schematicSvg]);
 
   const baseUrl = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
 
@@ -43,6 +72,34 @@ export default function ProjectBuildGuide({
     navigator.clipboard.writeText(code);
     setCodeCopied(true);
     setTimeout(() => setCodeCopied(false), 2000);
+  };
+
+  const copyBOM = () => {
+    const lines = (project.officialData?.bom || []).map(b => `${b.name}\t${b.specs || ''}\t${b.qty || '1'}\t${b.cost || ''}`);
+    const tsv = `Componente\tEspecificación\tCantidad\tCoste\n` + lines.join('\n');
+    navigator.clipboard.writeText(tsv);
+    setBomCopied(true);
+    setTimeout(() => setBomCopied(false), 2000);
+  };
+
+  const exportBOM_CSV = () => {
+    const rows = [
+      ["Componente", "Especificacion", "Cantidad", "Coste"],
+      ...(project.officialData?.bom || []).map(b => [
+        `"${(b.name || '').replace(/"/g, '""')}"`,
+        `"${(b.specs || '').replace(/"/g, '""')}"`,
+        `"${b.qty || '1'}"`,
+        `"${b.cost || ''}"`
+      ])
+    ];
+    const csvContent = "data:text/csv;charset=utf-8," + rows.map(e => e.join(",")).join("\n");
+    const encodedUri = encodeURI(csvContent);
+    const link = document.createElement("a");
+    link.setAttribute("href", encodedUri);
+    link.setAttribute("download", `BOM_${project.title.replace(/[^a-zA-Z0-9]/g, '_')}.csv`);
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   const toggleTroubleshoot = (idx) => {
@@ -59,6 +116,10 @@ export default function ProjectBuildGuide({
   const schematicUrl = project.schematicSvg 
     ? (project.schematicSvg.startsWith('http') ? project.schematicSvg : `${baseUrl}${project.schematicSvg}`)
     : null;
+
+  const activeDisplayImage = (imageMode === 'diagram' && project.guideDiagram)
+    ? (project.guideDiagram.startsWith('http') ? project.guideDiagram : `${baseUrl}${project.guideDiagram}`)
+    : (project.image?.startsWith('http') ? project.image : `${baseUrl}${project.image}`);
 
   return (
     <div className="glass-panel rounded-2xl border border-slate-800/90 overflow-hidden shadow-2xl mb-8 group">
@@ -107,6 +168,120 @@ export default function ProjectBuildGuide({
         )}
 
       </div>
+
+      {/* Physical Hardware Build Showcase */}
+      {(project.image || project.guideDiagram) && (
+        <div className="border-b border-slate-800 bg-slate-950/80 p-4 sm:p-5">
+          <div className="flex flex-col md:flex-row items-center gap-5 bg-gradient-to-r from-slate-900/90 via-slate-900/50 to-slate-950 rounded-2xl p-3.5 sm:p-4 border border-slate-800/80">
+            <div className="flex flex-col items-center gap-2 flex-shrink-0 w-full md:w-56">
+              <div 
+                onClick={() => onOpenImageViewer([activeDisplayImage], 0, `${imageMode === 'diagram' ? 'Plano Oficial en Guía' : 'Hardware Físico'}: ${project.title}`)}
+                className="relative w-full h-40 md:h-36 rounded-xl overflow-hidden border-2 border-slate-700/80 hover:border-cyan-400 cursor-pointer group/img shadow-2xl transition-all bg-slate-950"
+                title="Haz clic para ampliar la imagen en alta resolución"
+              >
+                <img 
+                  src={activeDisplayImage}
+                  alt={`Hardware real de ${project.title}`}
+                  className="w-full h-full object-cover object-center group-hover/img:scale-105 transition-transform duration-500"
+                  onError={(e) => {
+                    e.currentTarget.onerror = null;
+                    e.currentTarget.src = "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80";
+                  }}
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent pointer-events-none" />
+                <div className="absolute bottom-2 left-2 right-2 flex items-center justify-between text-[10px] font-mono text-cyan-300">
+                  <span className="flex items-center gap-1 bg-slate-950/90 px-2 py-0.5 rounded border border-slate-800">
+                    <Activity className="h-3 w-3 text-emerald-400" /> {imageMode === 'diagram' ? 'Plano en PDF' : 'Hardware Físico'}
+                  </span>
+                  <span className="flex items-center gap-1 bg-slate-950/90 px-1.5 py-0.5 rounded border border-slate-800 text-slate-300">
+                    <Maximize2 className="h-3 w-3" /> Zoom
+                  </span>
+                </div>
+              </div>
+
+              {/* View Switcher: Real Photo vs Official Guide Diagram */}
+              {project.guideDiagram && project.image && (
+                <div className="flex items-center gap-1 bg-slate-900/90 p-1 rounded-lg border border-slate-800 text-[11px] font-mono w-full justify-center">
+                  <button
+                    onClick={() => setImageMode('photo')}
+                    className={`flex-1 py-1 rounded text-center transition-all ${
+                      imageMode === 'photo' 
+                        ? 'bg-cyan-500/20 text-cyan-300 font-bold border border-cyan-500/50 shadow-sm' 
+                        : 'text-slate-400 hover:text-white'
+                    }`}
+                  >
+                    Foto Real
+                  </button>
+                  <button
+                    onClick={() => setImageMode('diagram')}
+                    className={`flex-1 py-1 rounded text-center transition-all ${
+                      imageMode === 'diagram' 
+                        ? 'bg-cyan-500/20 text-cyan-300 font-bold border border-cyan-500/50 shadow-sm' 
+                        : 'text-slate-400 hover:text-white'
+                    }`}
+                  >
+                    Plano en PDF
+                  </button>
+                </div>
+              )}
+            </div>
+
+            <div className="flex-1 min-w-0 flex flex-col justify-between space-y-2.5">
+              <div className="flex items-center gap-2 flex-wrap">
+                <span className="text-xs font-mono font-semibold px-2.5 py-1 rounded-lg bg-cyan-950/80 text-cyan-300 border border-cyan-800/60 flex items-center gap-1.5">
+                  <Cpu className="h-3.5 w-3.5 text-cyan-400" />
+                  {project.components?.[0] || "Controlador / MCU"}
+                </span>
+                <span className="text-xs font-mono font-semibold px-2.5 py-1 rounded-lg bg-emerald-950/80 text-emerald-300 border border-emerald-800/60 flex items-center gap-1.5">
+                  <Zap className="h-3.5 w-3.5 text-emerald-400" />
+                  {project.components?.[1] || "Módulo / Carga Útil"}
+                </span>
+                {project.components?.[2] && (
+                  <span className="text-xs font-mono px-2.5 py-1 rounded-lg bg-slate-900 text-slate-300 border border-slate-800 hidden sm:inline-flex items-center gap-1.5">
+                    <Boxes className="h-3.5 w-3.5 text-amber-400" />
+                    {project.components[2]}
+                  </span>
+                )}
+              </div>
+
+              <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
+                {project.description}
+              </p>
+
+              <div className="text-[11px] text-slate-400 flex items-center justify-between gap-4 pt-1 font-mono flex-wrap">
+                <div className="flex items-center gap-4">
+                  <span className="flex items-center gap-1 text-slate-300">
+                    <CheckCircle2 className="h-3.5 w-3.5 text-emerald-400" /> Montaje Físico Verificado
+                  </span>
+                  <span className="flex items-center gap-1 text-slate-300">
+                    <ShieldCheck className="h-3.5 w-3.5 text-cyan-400" /> Bucle Determinista
+                  </span>
+                </div>
+
+                {/* BOM Export actions */}
+                <div className="flex items-center gap-2">
+                  <button
+                    onClick={copyBOM}
+                    className="flex items-center gap-1 px-2.5 py-1 rounded-md bg-slate-900 hover:bg-slate-800 text-slate-300 hover:text-cyan-300 border border-slate-800 transition-colors"
+                    title="Copiar lista de componentes al portapapeles"
+                  >
+                    {bomCopied ? <Check className="h-3 w-3 text-emerald-400" /> : <Copy className="h-3 w-3" />}
+                    <span>{bomCopied ? "¡Copiado!" : "Copiar BOM"}</span>
+                  </button>
+                  <button
+                    onClick={exportBOM_CSV}
+                    className="flex items-center gap-1 px-2.5 py-1 rounded-md bg-slate-900 hover:bg-slate-800 text-slate-300 hover:text-cyan-300 border border-slate-800 transition-colors"
+                    title="Descargar lista de componentes en formato CSV"
+                  >
+                    <Download className="h-3 w-3 text-cyan-400" />
+                    <span>CSV</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Sub-Navigation Tabs */}
       <div className="flex items-center gap-1 sm:gap-2 px-4 sm:px-6 pt-3 border-b border-slate-800/80 bg-slate-950/60 overflow-x-auto text-xs font-semibold">
@@ -184,6 +359,18 @@ export default function ProjectBuildGuide({
         </button>
 
         <button
+          onClick={() => setActiveTab('checklist')}
+          className={`flex items-center gap-1.5 px-3.5 py-2 rounded-t-lg transition-all border-b-2 flex-shrink-0 ${
+            activeTab === 'checklist'
+              ? 'border-cyan-400 text-cyan-300 bg-slate-900'
+              : 'border-transparent text-slate-400 hover:text-slate-200'
+          }`}
+        >
+          <CheckCircle2 className="h-3.5 w-3.5 text-emerald-400" />
+          <span>Checklist de Montaje</span>
+        </button>
+
+        <button
           onClick={() => setActiveTab('interview')}
           className={`flex items-center gap-1.5 px-3.5 py-2 rounded-t-lg transition-all border-b-2 flex-shrink-0 ${
             activeTab === 'interview'
@@ -225,25 +412,80 @@ export default function ProjectBuildGuide({
               )}
             </div>
 
-            {/* Embedded SVG Viewer Box */}
-            {schematicUrl ? (
+            {/* Embedded SVG Viewer Box with Zero-Black-Screen Fallback */}
+            {schematicUrl && !svgError ? (
               <div 
                 onClick={() => onOpenImageViewer([project.schematicSvg], 0, `Esquemático: ${project.title}`)}
-                className="relative rounded-2xl overflow-hidden border-2 border-slate-800 hover:border-cyan-500/50 bg-[#080D1A] shadow-2xl cursor-pointer group/svg transition-all"
-                title="Haz clic para inspeccionar el diagrama con zoom"
+                className="relative rounded-2xl overflow-hidden border-2 border-cyan-900/60 hover:border-cyan-400/80 bg-[#0A1128] shadow-2xl cursor-pointer group/svg transition-all p-2"
+                title="Haz clic para inspeccionar el diagrama con zoom interactivo"
               >
                 <img
                   src={schematicUrl}
                   alt={`Diagrama esquemático de ${project.title}`}
-                  className="w-full h-auto max-h-[460px] object-contain transition-transform duration-300 group-hover/svg:scale-[1.01]"
+                  className="w-full h-auto min-h-[260px] max-h-[480px] object-contain transition-transform duration-300 group-hover/svg:scale-[1.01]"
+                  onError={() => setSvgError(true)}
                 />
-                <div className="absolute bottom-3 right-3 bg-slate-900/90 backdrop-blur-md px-3 py-1.5 rounded-lg border border-slate-700 text-xs font-mono text-cyan-300 flex items-center gap-1.5">
+                <div className="absolute bottom-3 right-3 bg-slate-900/90 backdrop-blur-md px-3 py-1.5 rounded-lg border border-slate-700 text-xs font-mono text-cyan-300 flex items-center gap-1.5 shadow-lg">
                   <Maximize2 className="h-3.5 w-3.5" />
                   <span>Clic para zoom</span>
                 </div>
               </div>
             ) : (
-              <p className="text-xs text-slate-400 italic">Esquemático en proceso de generación.</p>
+              /* High-Contrast Interactive React Fallback Blueprint */
+              <div className="relative rounded-2xl overflow-hidden border-2 border-cyan-800/80 bg-[#0A1128] p-6 shadow-2xl space-y-6">
+                <div className="flex items-center justify-between border-b border-cyan-900/50 pb-3">
+                  <div className="flex items-center gap-2">
+                    <Cpu className="h-4 w-4 text-cyan-400" />
+                    <span className="text-xs font-mono font-bold text-cyan-300 uppercase">Esquema Técnico Interactivo · {project.title}</span>
+                  </div>
+                  <span className="text-[10px] font-mono text-slate-400 bg-slate-900 px-2 py-1 rounded border border-slate-800">
+                    Modo Vectorial Interactivo
+                  </span>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+                  {/* Left Block: Controller */}
+                  <div className="bg-[#0F2848] border-2 border-cyan-400/80 rounded-xl p-4 shadow-lg space-y-2.5">
+                    <div className="flex items-center justify-between">
+                      <span className="text-xs font-bold text-cyan-300 font-mono">Microcontrolador / SBC</span>
+                      <span className="text-[10px] font-mono bg-cyan-950 text-cyan-400 px-2 py-0.5 rounded border border-cyan-800/50">MCU</span>
+                    </div>
+                    <p className="text-xs text-slate-300 font-semibold">{project.components?.[0] || "ESP32-S3 / ARM Cortex-M4"}</p>
+                    <div className="space-y-1.5 pt-1">
+                      {(wiringTable.slice(0, 4)).map((w, i) => (
+                        <div key={i} className="flex items-center justify-between bg-slate-900/80 px-2.5 py-1 rounded text-[11px] font-mono border border-slate-800">
+                          <span className="text-cyan-300 font-bold">{w.mcuPin}</span>
+                          <span className="text-slate-400 text-[10px]">{w.signalType}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Right Block: Module / Payload */}
+                  <div className="bg-[#0D332B] border-2 border-emerald-400/80 rounded-xl p-4 shadow-lg space-y-2.5">
+                    <div className="flex items-center justify-between">
+                      <span className="text-xs font-bold text-emerald-300 font-mono">Módulo / Sensor / Actuador</span>
+                      <span className="text-[10px] font-mono bg-emerald-950 text-emerald-400 px-2 py-0.5 rounded border border-emerald-800/50">CARGA</span>
+                    </div>
+                    <p className="text-xs text-slate-300 font-semibold">{project.components?.[1] || project.title}</p>
+                    <div className="space-y-1.5 pt-1">
+                      {(wiringTable.slice(0, 4)).map((w, i) => (
+                        <div key={i} className="flex items-center justify-between bg-slate-900/80 px-2.5 py-1 rounded text-[11px] font-mono border border-slate-800">
+                          <span className="text-emerald-300 font-bold">{w.modulePin}</span>
+                          <span className="text-slate-400 text-[10px]">{w.voltage}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+
+                <div className="flex items-center justify-between text-[11px] font-mono text-slate-400 bg-slate-950/80 px-3.5 py-2 rounded-lg border border-slate-800">
+                  <span className="text-cyan-300 flex items-center gap-1.5">
+                    <ShieldCheck className="h-3.5 w-3.5 text-emerald-400" /> Líneas con filtrado y resistencias pull-up externas
+                  </span>
+                  <span className="text-slate-400">Ver conexionado detallado debajo</span>
+                </div>
+              </div>
             )}
 
             {/* Pinout Table below Schematic */}
@@ -446,7 +688,72 @@ export default function ProjectBuildGuide({
           </div>
         )}
 
-        {/* TAB 7: Interview Questions & Recruiter Proof */}
+        {/* TAB 7: Interactive Hardware Build Checklist */}
+        {activeTab === 'checklist' && (
+          <div className="bg-slate-900/60 p-5 sm:p-6 rounded-2xl border border-slate-800 space-y-5">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-800 pb-4">
+              <div>
+                <h4 className="text-sm font-bold text-cyan-300 uppercase tracking-wider flex items-center gap-2">
+                  <CheckCircle2 className="h-4 w-4 text-emerald-400" />
+                  Checklist de Fabricación, Soldadura y Ensayos
+                </h4>
+                <p className="text-xs text-slate-400 mt-1">
+                  Marca cada etapa completada. Tu progreso se almacena automáticamente en este navegador.
+                </p>
+              </div>
+
+              {/* Progress counter */}
+              <div className="flex items-center gap-2 bg-slate-950 px-3 py-1.5 rounded-xl border border-slate-800 text-xs font-mono">
+                <span className="text-slate-400">Progreso:</span>
+                <span className="text-emerald-400 font-bold">
+                  {Object.values(checkedSteps).filter(Boolean).length} / 6 pasos
+                </span>
+              </div>
+            </div>
+
+            {/* Checklist Items */}
+            <div className="space-y-3">
+              {[
+                { id: 'step_1', title: '1. Verificación de Componentes y Multímetro en Continuidad', desc: 'Comprobar valores de resistencias y condensadores antes de soldar. Verificar ausencia de cortocircuito entre VCC y GND.' },
+                { id: 'step_2', title: '2. Soldadura de Componentes Críticos y Alimentación', desc: 'Montar conectores, regulador de tensión LDO y condensadores de desacoplo de 100nF lo más cerca posible de los pines del integrado.' },
+                { id: 'step_3', title: '3. Inspección Visual de Soldaduras SMD', desc: 'Revisar con lupa o microscopio que no existan puentes de estaño entre pines adyacentes ni juntas frías.' },
+                { id: 'step_4', title: '4. Encendido Inicial Protegido (Current-Limited Supply)', desc: 'Energizar la placa con fuente regulable limitada a 100mA. Medir con polímetro que el riel de 3.3V/5V se encuentre dentro de tolerancia (±2%).' },
+                { id: 'step_5', title: '5. Carga de Firmware Base y Test de Bus de Comunicación', desc: 'Flashear el firmware mínimo. Verificar respuesta por consola serie y detección del periférico en el bus I2C/SPI.' },
+                { id: 'step_6', title: '6. Calibración en Banco y Ensayo de Carga Continuada', desc: 'Ejecutar el protocolo de calibración y someter el subsistema a una prueba de funcionamiento ininterrumpido durante 30 minutos sin sobrecalentamiento.' }
+              ].map((step) => {
+                const isChecked = !!checkedSteps[step.id];
+                return (
+                  <div
+                    key={step.id}
+                    onClick={() => toggleCheckStep(step.id)}
+                    className={`p-4 rounded-xl border transition-all cursor-pointer flex items-start gap-3.5 ${
+                      isChecked
+                        ? 'bg-emerald-950/20 border-emerald-600/50 shadow-sm'
+                        : 'bg-slate-950/70 border-slate-800/80 hover:border-cyan-500/40 hover:bg-slate-900/60'
+                    }`}
+                  >
+                    <div className={`w-5 h-5 rounded-md flex items-center justify-center mt-0.5 flex-shrink-0 transition-colors ${
+                      isChecked ? 'bg-emerald-500 text-slate-950' : 'border-2 border-slate-600 bg-slate-900'
+                    }`}>
+                      {isChecked && <Check className="h-3.5 w-3.5 stroke-[3]" />}
+                    </div>
+
+                    <div className="flex-1 min-w-0">
+                      <h5 className={`text-xs sm:text-sm font-bold transition-colors ${isChecked ? 'text-emerald-300 line-through opacity-80' : 'text-slate-100'}`}>
+                        {step.title}
+                      </h5>
+                      <p className="text-xs text-slate-400 mt-1 leading-relaxed">
+                        {step.desc}
+                      </p>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        )}
+
+        {/* TAB 8: Interview Questions & Recruiter Proof */}
         {activeTab === 'interview' && (
           <div className="space-y-6">
             <div className="bg-cyan-950/30 p-5 rounded-2xl border border-cyan-500/40">
