@@ -5,6 +5,7 @@ import GuideCard from './components/GuideCard';
 import GuideModal from './components/GuideModal';
 import StatsModal from './components/StatsModal';
 import GuideLanding from './components/GuideLanding';
+import ErrorBoundary from './components/ErrorBoundary';
 import { CATEGORY_DEFINITIONS } from './data/categories';
 import { 
   Sparkles, 
@@ -100,17 +101,26 @@ export default function App() {
   };
 
   // Determine active guide if on a landing route (#/guide/:id)
-  const activeLandingGuide = useMemo(() => {
-    const match = currentRoute.match(/^#\/guide\/(guide-\d+|[a-zA-Z0-9_-]+)$/);
-    if (match) {
-      const guideId = match[1];
-      return guides.find(g => g.id === guideId) || null;
+  const isLandingRoute = currentRoute.startsWith('#/guide/');
+  const currentGuideId = useMemo(() => {
+    if (!isLandingRoute) return null;
+    const cleanHash = currentRoute.replace(/^#\/guide\/?/, '').replace(/\/$/, '').trim();
+    try {
+      return decodeURIComponent(cleanHash);
+    } catch {
+      return cleanHash;
     }
-    return null;
-  }, [currentRoute, guides]);
+  }, [currentRoute, isLandingRoute]);
 
-  const navigateToLanding = (guide) => {
-    window.location.hash = `#/guide/${guide.id}`;
+  const activeLandingGuide = useMemo(() => {
+    if (!currentGuideId || !guides.length) return null;
+    return guides.find(g => g.id === currentGuideId || g.filename === currentGuideId) || null;
+  }, [currentGuideId, guides]);
+
+  const navigateToLanding = (guideOrId) => {
+    if (!guideOrId) return;
+    const id = typeof guideOrId === 'object' ? guideOrId.id : guideOrId;
+    window.location.hash = `#/guide/${id}`;
   };
 
   const navigateToCatalog = () => {
@@ -246,23 +256,66 @@ export default function App() {
     return counts;
   }, [guides]);
 
-  // If viewing an individual Guide Landing Page
-  if (activeLandingGuide) {
+  // If on a landing route
+  if (isLandingRoute) {
+    if (loading) {
+      return (
+        <div className="min-h-screen bg-[#0B0F19] text-slate-100 flex flex-col items-center justify-center p-4">
+          <div className="glass-panel p-8 rounded-3xl border border-slate-800 text-center max-w-md w-full space-y-4 shadow-2xl">
+            <div className="w-14 h-14 rounded-2xl bg-cyan-950/60 border border-cyan-700/50 flex items-center justify-center mx-auto text-cyan-400">
+              <RefreshCw className="h-7 w-7 animate-spin" />
+            </div>
+            <h2 className="text-xl font-bold text-white">Cargando Guía de Ingeniería...</h2>
+            <p className="text-xs text-slate-400 leading-relaxed">
+              Cargando esquemáticos vectoriales, proyectos prácticos y manuales de construcción paso a paso.
+            </p>
+          </div>
+        </div>
+      );
+    }
+
+    if (!activeLandingGuide) {
+      return (
+        <div className="min-h-screen bg-[#0B0F19] text-slate-100 flex flex-col items-center justify-center p-4">
+          <div className="glass-panel p-8 rounded-3xl border border-amber-900/50 bg-amber-950/10 text-center max-w-md w-full space-y-5 shadow-2xl">
+            <div className="w-14 h-14 rounded-2xl bg-amber-950/60 border border-amber-700/60 flex items-center justify-center mx-auto text-amber-400">
+              <AlertCircle className="h-7 w-7" />
+            </div>
+            <div>
+              <h2 className="text-xl font-bold text-white mb-1.5">Guía no encontrada</h2>
+              <p className="text-xs text-slate-300 leading-relaxed">
+                El identificador <code className="text-cyan-400 bg-slate-900 px-1.5 py-0.5 rounded font-mono">{currentGuideId}</code> no corresponde a ningún documento de la biblioteca.
+              </p>
+            </div>
+            <button
+              onClick={navigateToCatalog}
+              className="px-5 py-2.5 rounded-xl bg-cyan-600 hover:bg-cyan-500 text-white font-semibold text-xs transition-all shadow-lg shadow-cyan-950/30 inline-flex items-center gap-2"
+            >
+              <span>Volver a la Biblioteca</span>
+            </button>
+          </div>
+        </div>
+      );
+    }
+
     return (
-      <GuideLanding
-        guide={activeLandingGuide}
-        allGuides={guides}
-        onBack={navigateToCatalog}
-        onSelectGuide={(id) => { window.location.hash = `#/guide/${id}`; }}
-        isFavorite={favorites.includes(activeLandingGuide.id)}
-        onToggleFavorite={toggleFavorite}
-      />
+      <ErrorBoundary>
+        <GuideLanding
+          guide={activeLandingGuide}
+          allGuides={guides}
+          onBack={navigateToCatalog}
+          onSelectGuide={navigateToLanding}
+          isFavorite={favorites.includes(activeLandingGuide.id)}
+          onToggleFavorite={toggleFavorite}
+        />
+      </ErrorBoundary>
     );
   }
 
   // Catalog View
   return (
-    <div className="min-h-screen flex flex-col bg-[#0B0F19] engineering-grid">
+    <ErrorBoundary>
+      <div className="min-h-screen flex flex-col bg-[#0B0F19] engineering-grid">
       
       {/* Navigation Bar */}
       <Navbar
@@ -454,6 +507,7 @@ export default function App() {
         />
       )}
 
-    </div>
+      </div>
+    </ErrorBoundary>
   );
 }

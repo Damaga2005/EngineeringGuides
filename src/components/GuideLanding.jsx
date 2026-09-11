@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { 
   ArrowLeft, 
   Download, 
@@ -25,7 +25,9 @@ import {
   ArrowRight,
   ShieldCheck,
   HelpCircle,
-  ChevronRight
+  ChevronRight,
+  Search,
+  X
 } from 'lucide-react';
 import { CATEGORY_DEFINITIONS } from '../data/categories';
 import ProjectBuildGuide from './ProjectBuildGuide';
@@ -50,6 +52,7 @@ export default function GuideLanding({
 }) {
   const [activeTab, setActiveTab] = useState('overview'); // 'overview' | 'pdf'
   const [selectedProjectFilter, setSelectedProjectFilter] = useState('all'); // 'all' | projectId
+  const [projectSearchQuery, setProjectSearchQuery] = useState('');
   const [copied, setCopied] = useState(false);
 
   // Modal image viewer state
@@ -65,7 +68,25 @@ export default function GuideLanding({
     window.scrollTo({ top: 0, behavior: 'smooth' });
     setActiveTab('overview');
     setSelectedProjectFilter('all');
+    setProjectSearchQuery('');
   }, [guide?.id]);
+
+  // Keyboard navigation for subprojects and guides
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      // Do not trigger if typing in an input or textarea
+      if (['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement?.tagName)) return;
+      if (imageViewerState.isOpen) return;
+
+      if (e.key === 'ArrowRight' && nextGuide) {
+        onSelectGuide(nextGuide.id);
+      } else if (e.key === 'ArrowLeft' && prevGuide) {
+        onSelectGuide(prevGuide.id);
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [guide?.id, prevGuide?.id, nextGuide?.id, imageViewerState.isOpen]);
 
   if (!guide) return null;
 
@@ -89,9 +110,13 @@ export default function GuideLanding({
   };
 
   const handleOpenImageViewer = (images, initialIndex = 0, title = 'Plano Técnico') => {
+    const resolved = (images || []).map(img => {
+      if (!img) return `${baseUrl}favicon.svg`;
+      return img.startsWith('http') ? img : `${baseUrl}${img}`;
+    });
     setImageViewerState({
       isOpen: true,
-      images,
+      images: resolved,
       initialIndex,
       title
     });
@@ -106,9 +131,23 @@ export default function GuideLanding({
     guide.difficulty?.includes('Intermedio') ? 'text-blue-400 bg-blue-950/70 border-blue-700/60' :
     'text-amber-400 bg-amber-950/70 border-amber-700/60';
 
-  const visibleProjects = selectedProjectFilter === 'all' 
-    ? (guide.keyProjects || [])
-    : (guide.keyProjects || []).filter(p => String(p.id) === String(selectedProjectFilter));
+  const visibleProjects = useMemo(() => {
+    let projs = guide.keyProjects || [];
+    if (selectedProjectFilter !== 'all') {
+      projs = projs.filter(p => String(p.id) === String(selectedProjectFilter));
+    }
+    if (projectSearchQuery.trim()) {
+      const q = projectSearchQuery.toLowerCase().trim();
+      projs = projs.filter(p => {
+        const titleMatch = p.title?.toLowerCase().includes(q);
+        const descMatch = p.description?.toLowerCase().includes(q);
+        const compMatch = p.components?.some(c => c.toLowerCase().includes(q));
+        const costMatch = p.cost?.toLowerCase().includes(q);
+        return titleMatch || descMatch || compMatch || costMatch;
+      });
+    }
+    return projs;
+  }, [guide.keyProjects, selectedProjectFilter, projectSearchQuery]);
 
   return (
     <div className="min-h-screen bg-[#0B0F19] text-slate-100 pb-16">
@@ -339,20 +378,22 @@ export default function GuideLanding({
         {activeTab === 'overview' && (
           <div className="space-y-8">
             
-            {/* Subproject Selector Bar (when multiple projects exist) */}
-            {guide.keyProjects && guide.keyProjects.length > 1 && (
-              <div className="glass-panel p-4 rounded-2xl border border-slate-800 flex items-center justify-between gap-4 flex-wrap">
-                <div className="flex items-center gap-2 text-xs text-slate-300">
-                  <Boxes className="h-4 w-4 text-cyan-400" />
-                  <span className="font-semibold">Seleccionar Proyecto:</span>
-                </div>
-
+            {/* Subproject Selector Bar & Live Search */}
+            <div className="glass-panel p-4 rounded-2xl border border-slate-800 flex flex-col md:flex-row items-stretch md:items-center justify-between gap-4">
+              
+              {/* Project Pills */}
+              {guide.keyProjects && guide.keyProjects.length > 1 && (
                 <div className="flex items-center gap-1.5 flex-wrap">
+                  <div className="flex items-center gap-1.5 text-xs text-slate-300 mr-1">
+                    <Boxes className="h-4 w-4 text-cyan-400" />
+                    <span className="font-semibold hidden sm:inline">Proyectos:</span>
+                  </div>
+
                   <button
                     onClick={() => setSelectedProjectFilter('all')}
                     className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
                       selectedProjectFilter === 'all'
-                        ? 'bg-cyan-500 text-slate-950 shadow-md shadow-cyan-500/20'
+                        ? 'bg-cyan-500 text-slate-950 shadow-md shadow-cyan-500/20 font-bold'
                         : 'bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800'
                     }`}
                   >
@@ -365,32 +406,71 @@ export default function GuideLanding({
                       <button
                         key={proj.id || pIdx}
                         onClick={() => setSelectedProjectFilter(proj.id)}
-                        className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all flex items-center gap-1.5 ${
+                        className={`px-2.5 py-1.5 rounded-lg text-xs font-semibold transition-all flex items-center gap-1.5 ${
                           isSelected
                             ? 'bg-cyan-500 text-slate-950 shadow-md shadow-cyan-500/20 font-bold'
                             : 'bg-slate-900 text-slate-300 hover:text-white border border-slate-800'
                         }`}
+                        title={proj.title}
                       >
                         <span className="font-mono text-[10px] opacity-75">#{pIdx + 1}</span>
-                        <span className="truncate max-w-[150px] sm:max-w-[200px]">{proj.title}</span>
+                        <span className="truncate max-w-[120px] sm:max-w-[170px]">{proj.title}</span>
                       </button>
                     );
                   })}
                 </div>
+              )}
+
+              {/* Subprojects Live Search Input */}
+              <div className="relative min-w-[220px]">
+                <Search className="h-3.5 w-3.5 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
+                <input
+                  type="text"
+                  value={projectSearchQuery}
+                  onChange={(e) => setProjectSearchQuery(e.target.value)}
+                  placeholder="Filtrar proyectos (ej. SDR, GPS...)"
+                  className="w-full pl-8 pr-8 py-1.5 bg-slate-950/80 border border-slate-800 rounded-xl text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-cyan-500 transition-colors"
+                />
+                {projectSearchQuery && (
+                  <button
+                    onClick={() => setProjectSearchQuery('')}
+                    className="absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white"
+                  >
+                    <X className="h-3.5 w-3.5" />
+                  </button>
+                )}
               </div>
-            )}
+
+            </div>
 
             {/* List of Projects rendered via ProjectBuildGuide */}
-            <div className="space-y-6">
-              {visibleProjects.map((proj, idx) => (
-                <ProjectBuildGuide
-                  key={proj.id || idx}
-                  project={proj}
-                  projectNumber={proj.id || idx + 1}
-                  onOpenImageViewer={handleOpenImageViewer}
-                />
-              ))}
-            </div>
+            {visibleProjects.length === 0 ? (
+              <div className="py-12 text-center glass-panel p-6 rounded-2xl border border-slate-800 max-w-md mx-auto">
+                <Boxes className="h-8 w-8 text-slate-600 mx-auto mb-2" />
+                <p className="text-sm text-slate-300 font-semibold">No hay proyectos coincidentes</p>
+                <p className="text-xs text-slate-400 mt-1 mb-4">No se encontró ningún subproyecto con "{projectSearchQuery}"</p>
+                <button
+                  onClick={() => {
+                    setProjectSearchQuery('');
+                    setSelectedProjectFilter('all');
+                  }}
+                  className="px-3 py-1.5 rounded-lg bg-cyan-600/20 text-cyan-300 border border-cyan-500/40 text-xs font-semibold hover:bg-cyan-600/30 transition-all"
+                >
+                  Restablecer filtros
+                </button>
+              </div>
+            ) : (
+              <div className="space-y-6">
+                {visibleProjects.map((proj, idx) => (
+                  <ProjectBuildGuide
+                    key={proj.id || idx}
+                    project={proj}
+                    projectNumber={proj.id || idx + 1}
+                    onOpenImageViewer={handleOpenImageViewer}
+                  />
+                ))}
+              </div>
+            )}
 
             {/* Overall Bill of Materials (BOM) Table for the whole Guide */}
             {guide.bom && guide.bom.length > 0 && (
@@ -479,7 +559,7 @@ export default function GuideLanding({
         <div className="mt-12 pt-8 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-4">
           {prevGuide ? (
             <button
-              onClick={() => onSelectGuide(prevGuide)}
+              onClick={() => onSelectGuide(prevGuide.id)}
               className="w-full sm:w-auto flex items-center gap-3 p-3.5 rounded-2xl glass-panel border border-slate-800 hover:border-cyan-500/50 transition-all text-left group"
             >
               <ArrowLeft className="h-4 w-4 text-cyan-400 group-hover:-translate-x-1 transition-transform" />
@@ -494,7 +574,7 @@ export default function GuideLanding({
 
           {nextGuide && (
             <button
-              onClick={() => onSelectGuide(nextGuide)}
+              onClick={() => onSelectGuide(nextGuide.id)}
               className="w-full sm:w-auto flex items-center justify-end gap-3 p-3.5 rounded-2xl glass-panel border border-slate-800 hover:border-cyan-500/50 transition-all text-right group"
             >
               <div>

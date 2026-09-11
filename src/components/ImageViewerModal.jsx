@@ -46,7 +46,10 @@ export default function ImageViewerModal({
   if (!images || images.length === 0) return null;
 
   const currentImgRaw = images[currentIndex];
-  const currentImgUrl = currentImgRaw.startsWith('http') ? currentImgRaw : `${baseUrl}${currentImgRaw}`;
+  if (!currentImgRaw) return null;
+  const currentImgUrl = typeof currentImgRaw === 'string' && currentImgRaw.startsWith('http') 
+    ? currentImgRaw 
+    : `${baseUrl}${currentImgRaw}`;
 
   const handleNext = () => {
     setCurrentIndex((prev) => (prev + 1) % images.length);

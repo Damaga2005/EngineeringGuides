@@ -52,6 +52,14 @@ export default function GuideCard({
     guide.difficulty?.includes('Intermedio') ? 'text-blue-400 bg-blue-950/60 border-blue-700/50' :
     'text-amber-400 bg-amber-950/60 border-amber-700/50';
 
+  const handleOpenLanding = () => {
+    if (typeof onOpenLanding === 'function') {
+      onOpenLanding(guide);
+    } else {
+      window.location.hash = `#/guide/${guide.id}`;
+    }
+  };
+
   if (viewMode === 'list') {
     return (
       <div className="glass-panel p-4 rounded-xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-200 flex flex-col gap-3 group">
@@ -62,7 +70,7 @@ export default function GuideCard({
             
             {/* Thumbnail Preview */}
             <div 
-              onClick={() => onOpenLanding(guide)}
+              onClick={handleOpenLanding}
               className="w-20 h-24 rounded-xl overflow-hidden flex-shrink-0 relative border border-slate-700/80 cursor-pointer group-hover:border-cyan-500/60 transition-all bg-slate-950"
             >
               <img 
@@ -102,7 +110,7 @@ export default function GuideCard({
 
               <h3 
                 className="font-bold text-slate-100 text-base group-hover:text-cyan-300 transition-colors cursor-pointer" 
-                onClick={() => onOpenLanding(guide)}
+                onClick={handleOpenLanding}
                 title={guide.title}
               >
                 {guide.title}
@@ -119,7 +127,7 @@ export default function GuideCard({
           {/* Right Actions */}
           <div className="flex items-center gap-2 flex-shrink-0 self-end md:self-center">
             <button
-              onClick={() => onOpenLanding(guide)}
+              onClick={handleOpenLanding}
               className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-cyan-600/20 text-cyan-300 border border-cyan-500/40 hover:bg-cyan-600/30 text-xs font-semibold transition-all"
             >
               <span>Ver Landing</span>
@@ -200,7 +208,7 @@ export default function GuideCard({
       
       {/* Image Preview Header */}
       <div 
-        onClick={() => onOpenLanding(guide)}
+        onClick={handleOpenLanding}
         className="relative h-48 w-full overflow-hidden cursor-pointer border-b border-slate-800 bg-slate-950"
       >
         <img 
@@ -257,7 +265,7 @@ export default function GuideCard({
           {/* Title */}
           <h3 
             className="font-bold text-slate-100 text-base leading-snug group-hover:text-cyan-300 transition-colors line-clamp-2 mb-1.5 cursor-pointer"
-            onClick={() => onOpenLanding(guide)}
+            onClick={handleOpenLanding}
             title={guide.title}
           >
             {guide.title}
@@ -310,7 +318,7 @@ export default function GuideCard({
         {/* Bottom Actions */}
         <div className="pt-3 border-t border-slate-800/80 flex items-center gap-2">
           <button
-            onClick={() => onOpenLanding(guide)}
+            onClick={handleOpenLanding}
             className="flex-1 flex items-center justify-center gap-1.5 py-2 px-3 rounded-xl bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-bold transition-all shadow-md shadow-cyan-600/20"
           >
             <span>Ver Landing</span>

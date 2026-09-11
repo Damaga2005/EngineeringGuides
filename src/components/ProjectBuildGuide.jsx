@@ -24,7 +24,9 @@ import {
   Eye,
   Terminal,
   Activity,
-  Compass
+  Compass,
+  Download,
+  RotateCcw
 } from 'lucide-react';
 
 export default function ProjectBuildGuide({
@@ -110,6 +112,40 @@ export default function ProjectBuildGuide({
     setOpenInterview(prev => ({ ...prev, [idx]: !prev[idx] }));
   };
 
+  const handleOpenViewer = (images, initialIndex = 0, title = 'Plano Técnico') => {
+    if (typeof onOpenImageViewer === 'function') {
+      onOpenImageViewer(images, initialIndex, title);
+    }
+  };
+
+  const downloadFirmware = () => {
+    if (!project.detailedBuildManual?.firmwareCode) return;
+    const code = project.detailedBuildManual.firmwareCode;
+    const isPython = code.includes('import ') || code.includes('def ');
+    const ext = isPython ? 'py' : 'ino';
+    const cleanName = (project.title || 'firmware').toLowerCase().replace(/[^a-z0-9]/g, '_');
+    const filename = `${cleanName}_firmware.${ext}`;
+    const blob = new Blob([code], { type: 'text/plain;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = filename;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+  };
+
+  const markAllSteps = (completed) => {
+    const allKeys = ['step_1', 'step_2', 'step_3', 'step_4', 'step_5', 'step_6'];
+    const next = {};
+    allKeys.forEach(k => { next[k] = completed; });
+    setCheckedSteps(next);
+    try {
+      localStorage.setItem(`build_check_${project?.id}`, JSON.stringify(next));
+    } catch {}
+  };
+
   const official = project.officialData || {};
   const manual = project.detailedBuildManual || {};
   const wiringTable = project.wiringTable || [];
@@ -158,7 +194,7 @@ export default function ProjectBuildGuide({
         {/* Quick button to view full schematic SVG */}
         {schematicUrl && (
           <button
-            onClick={() => onOpenImageViewer([project.schematicSvg], 0, `Esquemático: ${project.title}`)}
+            onClick={() => handleOpenViewer([schematicUrl], 0, `Esquemático: ${project.title}`)}
             className="self-start md:self-center flex items-center gap-2 px-3.5 py-2 rounded-xl bg-cyan-500/10 hover:bg-cyan-500/20 text-cyan-300 border border-cyan-500/40 text-xs font-semibold transition-all flex-shrink-0 shadow-sm"
             title="Abrir diagrama esquemático a pantalla completa"
           >
@@ -175,7 +211,7 @@ export default function ProjectBuildGuide({
           <div className="flex flex-col md:flex-row items-center gap-5 bg-gradient-to-r from-slate-900/90 via-slate-900/50 to-slate-950 rounded-2xl p-3.5 sm:p-4 border border-slate-800/80">
             <div className="flex flex-col items-center gap-2 flex-shrink-0 w-full md:w-56">
               <div 
-                onClick={() => onOpenImageViewer([activeDisplayImage], 0, `${imageMode === 'diagram' ? 'Plano Oficial en Guía' : 'Hardware Físico'}: ${project.title}`)}
+                onClick={() => handleOpenViewer([activeDisplayImage], 0, `${imageMode === 'diagram' ? 'Plano Oficial en Guía' : 'Hardware Físico'}: ${project.title}`)}
                 className="relative w-full h-40 md:h-36 rounded-xl overflow-hidden border-2 border-slate-700/80 hover:border-cyan-400 cursor-pointer group/img shadow-2xl transition-all bg-slate-950"
                 title="Haz clic para ampliar la imagen en alta resolución"
               >
@@ -403,7 +439,7 @@ export default function ProjectBuildGuide({
 
               {schematicUrl && (
                 <button
-                  onClick={() => onOpenImageViewer([project.schematicSvg], 0, `Esquemático: ${project.title}`)}
+                  onClick={() => handleOpenViewer([schematicUrl], 0, `Esquemático: ${project.title}`)}
                   className="self-start sm:self-auto flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs border border-slate-700 transition-colors"
                 >
                   <Maximize2 className="h-3.5 w-3.5 text-cyan-400" />
@@ -415,7 +451,7 @@ export default function ProjectBuildGuide({
             {/* Embedded SVG Viewer Box with Zero-Black-Screen Fallback */}
             {schematicUrl && !svgError ? (
               <div 
-                onClick={() => onOpenImageViewer([project.schematicSvg], 0, `Esquemático: ${project.title}`)}
+                onClick={() => handleOpenViewer([schematicUrl], 0, `Esquemático: ${project.title}`)}
                 className="relative rounded-2xl overflow-hidden border-2 border-cyan-900/60 hover:border-cyan-400/80 bg-[#0A1128] shadow-2xl cursor-pointer group/svg transition-all p-2"
                 title="Haz clic para inspeccionar el diagrama con zoom interactivo"
               >
@@ -586,13 +622,24 @@ export default function ProjectBuildGuide({
                     Firmware de Control en Tiempo Real
                   </h4>
 
-                  <button
-                    onClick={() => copyCode(manual.firmwareCode)}
-                    className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-cyan-600/20 hover:bg-cyan-600/30 text-cyan-300 border border-cyan-500/40 text-xs font-semibold transition-all"
-                  >
-                    {codeCopied ? <Check className="h-3.5 w-3.5 text-emerald-400" /> : <Copy className="h-3.5 w-3.5" />}
-                    <span>{codeCopied ? "¡Copiado!" : "Copiar Código"}</span>
-                  </button>
+                  <div className="flex items-center gap-2">
+                    <button
+                      onClick={downloadFirmware}
+                      className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-300 border border-emerald-500/40 text-xs font-semibold transition-all shadow-sm"
+                      title="Descargar archivo de código fuente (.ino o .py)"
+                    >
+                      <Download className="h-3.5 w-3.5 text-emerald-400" />
+                      <span>Descargar Script</span>
+                    </button>
+
+                    <button
+                      onClick={() => copyCode(manual.firmwareCode)}
+                      className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-cyan-600/20 hover:bg-cyan-600/30 text-cyan-300 border border-cyan-500/40 text-xs font-semibold transition-all"
+                    >
+                      {codeCopied ? <Check className="h-3.5 w-3.5 text-emerald-400" /> : <Copy className="h-3.5 w-3.5" />}
+                      <span>{codeCopied ? "¡Copiado!" : "Copiar Código"}</span>
+                    </button>
+                  </div>
                 </div>
 
                 <div className="relative rounded-xl overflow-hidden border border-slate-800 bg-[#070A10]">
@@ -702,13 +749,40 @@ export default function ProjectBuildGuide({
                 </p>
               </div>
 
-              {/* Progress counter */}
-              <div className="flex items-center gap-2 bg-slate-950 px-3 py-1.5 rounded-xl border border-slate-800 text-xs font-mono">
-                <span className="text-slate-400">Progreso:</span>
-                <span className="text-emerald-400 font-bold">
-                  {Object.values(checkedSteps).filter(Boolean).length} / 6 pasos
-                </span>
+              {/* Progress counter & Actions */}
+              <div className="flex items-center gap-3 flex-wrap">
+                <div className="flex items-center gap-2 bg-slate-950 px-3 py-1.5 rounded-xl border border-slate-800 text-xs font-mono">
+                  <span className="text-slate-400">Progreso:</span>
+                  <span className="text-emerald-400 font-bold">
+                    {Object.values(checkedSteps).filter(Boolean).length} / 6 pasos
+                  </span>
+                  <span className="text-cyan-400">({Math.round((Object.values(checkedSteps).filter(Boolean).length / 6) * 100)}%)</span>
+                </div>
+
+                <div className="flex items-center gap-1.5">
+                  <button
+                    onClick={() => markAllSteps(true)}
+                    className="px-2.5 py-1 rounded-lg bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-300 border border-emerald-500/40 text-[11px] font-semibold transition-all"
+                  >
+                    Completar todo
+                  </button>
+                  <button
+                    onClick={() => markAllSteps(false)}
+                    className="p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-slate-200 border border-slate-700 text-[11px] transition-all"
+                    title="Reiniciar checklist"
+                  >
+                    <RotateCcw className="h-3.5 w-3.5" />
+                  </button>
+                </div>
               </div>
+            </div>
+
+            {/* Visual Progress Bar */}
+            <div className="w-full bg-slate-950 rounded-full h-2 overflow-hidden border border-slate-800">
+              <div 
+                className="bg-gradient-to-r from-cyan-500 to-emerald-400 h-full transition-all duration-300 rounded-full"
+                style={{ width: `${Math.round((Object.values(checkedSteps).filter(Boolean).length / 6) * 100)}%` }}
+              />
             </div>
 
             {/* Checklist Items */}
