@@ -22,7 +22,7 @@ const CATEGORIES = [
     name: 'Robotics & Drones',
     icon: 'Bot',
     color: 'from-amber-500 to-orange-600',
-    keywords: ['drone', 'drones', 'precision', 'move with precision', 'ohmie']
+    keywords: ['drone', 'drones', 'precision', 'move with precision', 'ohmie', 'robot framework']
   },
   {
     id: 'cs-ai',
@@ -43,7 +43,7 @@ const CATEGORIES = [
     name: 'Career & Portfolio',
     icon: 'Briefcase',
     color: 'from-emerald-500 to-teal-600',
-    keywords: ['portfolio', 'recruiter', 'overeducated', 'guide engineers', 'follow']
+    keywords: ['portfolio', 'recruiter', 'overeducated', 'guide engineers', 'framework']
   },
   {
     id: 'ee-general',
@@ -54,459 +54,427 @@ const CATEGORIES = [
   }
 ];
 
-// Curated metadata and key highlights for each guide
-const GUIDE_DETAILS = {
+// Rich curated database for all guides
+const GUIDE_DATABASE = {
   "(PART 20) 6_Engineering_Projects_That_See_Everything_Coming.pdf": {
+    customTitle: "6 Engineering Projects That See Everything Coming (Part 20)",
     subtitle: "Sistema personal de conciencia situacional y defensa táctica",
     summary: "Seis construcciones de hardware que se combinan en un sistema de conciencia situacional completo: visión nocturna, HUD, torre de vigilancia, estación RF y mapa de mando unificado.",
-    keyPoints: [
-      "01. Monocular digital de visión nocturna (sensor infrarrojo de ultra-baja luz)",
-      "02. Heads-Up Display (HUD) portátil con óptica colimada",
-      "03. Torre centinela perimetral solar con cámara PTZ autónoma",
-      "04. Estación de vigilancia espectral de radiofrecuencia (SDR)",
-      "05. Nodo de malla LoRa off-grid de largo alcance",
-      "06. Mapa táctico de mando que fusiona telemetría y sensores en tiempo real"
-    ],
-    technologies: ["SDR", "LoRa Mesh", "IR Vision", "HUD Optics", "ESP32", "Computer Vision"],
+    image: "https://images.unsplash.com/photo-1579829366248-204fe8413f31?auto=format&fit=crop&w=1200&q=80",
     difficulty: "Avanzado",
-    pageCount: 18
+    buildTimeTotal: "4-6 semanas",
+    estimatedBudget: "$250 - $350",
+    pageCount: 18,
+    keyProjects: [
+      {
+        id: 1,
+        title: "Digital Night-Vision Monocular",
+        cost: "$65",
+        time: "1 fin de semana",
+        description: "Monocular de visión en oscuridad total utilizando un sensor CMOS de ultra-baja iluminación con filtro IR retirado, iluminador VCSEL de 940nm y micro-display OLED.",
+        components: ["Sensor Sony Starvis CMOS", "Iluminador VCSEL 940nm", "Micro-display OLED 0.39\"", "Lente F/1.2", "Batería 18650 con BMS"]
+      },
+      {
+        id: 2,
+        title: "Wearable Heads-Up Display (HUD)",
+        cost: "$45",
+        time: "1 fin de semana",
+        description: "Visor óptico colimado montable en gafas o casco que proyecta telemetría, brújula digital y avisos sin obstruir el campo de visión natural del ojo.",
+        components: ["Prisma colimador semitransparente", "Micro-OLED SPI", "ESP32-S3", "Sensor IMU BNO085", "Chasis ligero impreso en PETG"]
+      },
+      {
+        id: 3,
+        title: "Solar Perimeter Sentry Tower",
+        cost: "$85",
+        time: "2 fines de semana",
+        description: "Torreta autónoma alimentada por panel solar y supercondensadores que monitoriza un perímetro de 50 metros con radar Doppler de 24 GHz y cámara con tracking PTZ.",
+        components: ["Radar Doppler 24GHz", "Servos metálicos PTZ", "Cámara ESP32-CAM", "Panel solar 10W", "Controlador MPPT LiFePO4"]
+      },
+      {
+        id: 4,
+        title: "RF Spectrum Surveillance Station",
+        cost: "$35",
+        time: "1 fin de semana",
+        description: "Estación de escucha y alerta temprana que barre continuamente desde 50 MHz hasta 1.8 GHz identificando transmisiones de drones, walkies y balizas.",
+        components: ["Receptor RTL-SDR v4", "Antena dipolo telescópica", "Raspberry Pi Zero 2W / PC", "Filtro paso banda FM"]
+      },
+      {
+        id: 5,
+        title: "Off-Grid LoRa Mesh Node",
+        cost: "$30",
+        time: "1 día",
+        description: "Repetidor de comunicaciones cifradas de largo alcance (10-15 km) sin necesidad de internet, telefonía móvil ni infraestructura eléctrica externa.",
+        components: ["Módulo Heltec V3 ESP32 LoRa", "Antena fibra de vidrio 868/915 MHz", "Batería LiPo 3000mAh", "Caja estanca IP67"]
+      },
+      {
+        id: 6,
+        title: "Situational Awareness Command Map",
+        cost: "$20",
+        time: "1 fin de semana",
+        description: "Software y servidor táctico ligero que recopila en tiempo real las señales de todos los nodos y proyecta posiciones en mapas vectoriales offline (ATAK / WebTAK).",
+        components: ["Servidor local Node.js / Python", "Mapas offline OpenStreetMap", "Protocolo CoT (Cursor-on-Target)", "Interfaz WebTAK"]
+      }
+    ],
+    bom: [
+      { name: "Receptor RTL-SDR v4", type: "Radio / RF", specs: "500 kHz - 1.76 GHz, TCXO 1ppm", cost: "$35" },
+      { name: "Sensor Sony Starvis IMX307", type: "Óptica / Sensor", specs: "0.001 Lux ultra-low light", cost: "$25" },
+      { name: "Módulo Heltec LoRa ESP32-S3", type: "Controlador & Comms", specs: "SX1262, Wi-Fi, BLE, OLED integrado", cost: "$26" },
+      { name: "Radar Doppler 24 GHz", type: "Sensores", specs: "Banda ISM 24.125 GHz, detección hasta 20m", cost: "$15" },
+      { name: "Micro-Display OLED 0.39\"", type: "Visualización", specs: "1920x1080 o 800x600, interfaz HDMI/SPI", cost: "$38" },
+      { name: "Baterías 18650 Li-Ion + Cargador MPPT", type: "Alimentación", specs: "3.7V 3500mAh, protección PCM", cost: "$22" }
+    ]
   },
+
   "(PART 21) 6_Upgrades_Your_Drone_Is_Missing.pdf": {
-    subtitle: "Actualizaciones críticas de hardware para cualquier dron ArduPilot / PX4",
-    summary: "Módulos de mejora para drones existentes: vuelo estacionario en interiores sin GPS, anillo sensor anticolisión, sistema de paracaídas balístico y gimbal estabilizado.",
-    keyPoints: [
-      "01. Vuelo estacionario interior sin GPS (sensores Optical Flow + LiDAR ToF)",
-      "02. Anillo de evitación de obstáculos omnidireccional con sensores ToF",
-      "03. Sistema de recuperación por paracaídas con eyección pirotécnica/resorte",
-      "04. Gimbal brushless de 2 ejes con control vectorial FOC",
-      "05. Aterrizaje autónomo de alta precisión guiado por visión artificial",
-      "06. Carga útil para mapeo de cobertura y fuerza de señales RF"
-    ],
-    technologies: ["ArduPilot", "PX4", "Optical Flow", "LiDAR ToF", "FOC Gimbal", "Computer Vision"],
+    customTitle: "6 Upgrades Your Drone Is Missing (Part 21)",
+    subtitle: "Actualizaciones críticas de hardware para drones ArduPilot / PX4",
+    summary: "Seis módulos de hardware para dotar a tu dron de capacidades avanzadas: vuelo estacionario interior sin GPS, anillo sensor perimétrico, paracaídas balístico y gimbal estabilizado.",
+    image: "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?auto=format&fit=crop&w=1200&q=80",
     difficulty: "Avanzado",
-    pageCount: 16
+    buildTimeTotal: "3-4 semanas",
+    estimatedBudget: "$220 - $300",
+    pageCount: 16,
+    keyProjects: [
+      {
+        id: 1,
+        title: "Indoor Position Hold (Optical Flow + ToF)",
+        cost: "$35",
+        time: "1 fin de semana",
+        description: "Permite un vuelo estacionario perfecto en interiores o bajo puentes sin señal de satélite mediante una cámara de flujo óptico inferior y un telémetro láser ToF.",
+        components: ["Sensor Matek Optical Flow & LiDAR 3901-L0X", "Cableado I2C/UART", "Soporte antivibración"]
+      },
+      {
+        id: 2,
+        title: "Obstacle-Avoidance Sensor Ring",
+        cost: "$50",
+        time: "1 fin de semana",
+        description: "Anillo perimétrico de 4 a 8 sensores Time-of-Flight que miden continuamente la distancia a paredes en 360° y fuerzan al autopiloto a frenar antes del impacto.",
+        components: ["4x Sensores VL53L1X ToF (4 metros)", "Hub expansor I2C", "Chasis perimétrico en fibra de carbono"]
+      },
+      {
+        id: 3,
+        title: "Parachute Recovery System",
+        cost: "$50",
+        time: "1 fin de semana",
+        description: "Failsafe autónomo dotado de un acelerómetro independiente que detecta caída libre o vuelco incontrolado y dispara un paracaídas mediante servomuelle.",
+        components: ["Tolva de paracaídas con resorte", "Servomotor de gatillo 9g", "Campana ripstop de 1m²", "Microcontrolador ATtiny independiente"]
+      },
+      {
+        id: 4,
+        title: "2-Axis Brushless Camera Gimbal (FOC)",
+        cost: "$45",
+        time: "2 fines de semana",
+        description: "Gimbal ultraligero accionado por motores brushless y control vectorial de campo (FOC) que neutraliza las vibraciones mecánicas y el cabeceo del dron.",
+        components: ["2x Motores BLDC 2204", "Placa controladora Storm32 BGC", "Sensor IMU MPU6050 para la cámara"]
+      },
+      {
+        id: 5,
+        title: "Vision Precision Landing Pad",
+        cost: "$30",
+        time: "1 fin de semana",
+        description: "Sistema de aterrizaje automático guiado por visión artificial que detecta un patrón AprilTag o ArUco iluminado y aterriza el dron con precisión milimétrica.",
+        components: ["Cámara OpenMV / Raspberry Pi Cam", "Algoritmo de detección ArUco", "Pad de aterrizaje de alto contraste"]
+      },
+      {
+        id: 6,
+        title: "RF Signal-Mapping Payload",
+        cost: "$25",
+        time: "1 día",
+        description: "Carga útil para volar patrones de rejilla y registrar la cobertura exacta de redes Wi-Fi, balizas LoRa o telefonía generando mapas de calor en 3D.",
+        components: ["Módulo ESP8266 / ESP32 Sniffer", "Tarjeta MicroSD SPI", "Antena omnidireccional 5dBi"]
+      }
+    ],
+    bom: [
+      { name: "Sensor Matek 3901-L0X", type: "Sensores", specs: "Optical Flow PMW3901 + VL53L0X ToF", cost: "$35" },
+      { name: "Sensores Láser VL53L1X (Pack 4)", type: "Sensores ToF", specs: "Rango 400cm, ángulo de visión 27°", cost: "$28" },
+      { name: "Placa Base Gimbal Storm32 BGC", type: "Control de Motores", specs: "Control de 3 ejes FOC, 32-bit ARM", cost: "$24" },
+      { name: "Paracaídas de Emergencia 1m²", type: "Seguridad", specs: "Nylon Ripstop ultraligero con cordaje Kevlar", cost: "$22" },
+      { name: "Servomotores y resortes de eyección", type: "Actuadores", specs: "Servo metálico digital de alta velocidad", cost: "$12" }
+    ]
   },
+
   "6 EE Projects That Build a Real Satellite.pdf": {
+    customTitle: "6 EE Projects That Build a Real Satellite",
     subtitle: "Subsistemas reales de una nave espacial y arquitectura CubeSat",
     summary: "Guía completa para construir los subsistemas reales de un satélite: propulsión de gas frío, estaciones de seguimiento terrestre, ruedas de reacción y computadoras de a bordo.",
-    keyPoints: [
-      "01. Propulsor de reacción de gas frío para orientación orbital ($75)",
-      "02. Estación terrestre con antena de seguimiento azimut/elevación ($70)",
-      "03. Sistema de desespinado magnético Magnetorquer ($45)",
-      "04. Computadora de a bordo (OBC) para CubeSat en microcontrolador STM32 ($50)",
-      "05. Sistema de gestión de potencia eléctrica (EPS) con seguimiento solar ($60)",
-      "06. Transceptor de telemetría y baliza de radioaficionado VHF/UHF ($40)"
-    ],
-    technologies: ["STM32", "Magnetorquers", "Cold-Gas Thrusters", "SDR Ground Station", "EPS Solar", "CubeSat"],
+    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80",
     difficulty: "Avanzado",
-    pageCount: 23
+    buildTimeTotal: "6-8 semanas",
+    estimatedBudget: "$280 - $340",
+    pageCount: 23,
+    keyProjects: [
+      {
+        id: 1,
+        title: "Cold-Gas Reaction Thruster",
+        cost: "$75",
+        time: "2-3 fines de semana",
+        description: "Plataforma suspendida en un cojinete de baja fricción que gira y mantiene su orientación disparando ráfagas controladas de gas comprimido (propelente frío CO2/aire).",
+        components: ["Electroválvulas solenoides miniatura de 12V", "Boquillas Laval mecanizadas", "Regulador de presión de CO2", "IMU de 9 ejes", "Cojinete de aire/baja fricción"]
+      },
+      {
+        id: 2,
+        title: "Auto-Tracking Ground Station",
+        cost: "$70",
+        time: "2 fines de semana",
+        description: "Antena direccional Yagi de alta ganancia montada en un rotor azimut/elevación que rastrea automáticamente los pasos de satélites en órbita terrestre baja (LEO).",
+        components: ["Antena Yagi cruzada 437 MHz", "2x Servomotores de alto par con engranajes metálicos", "Controlador ESP32 con cliente SGP4 TLE", "Receptor RTL-SDR"]
+      },
+      {
+        id: 3,
+        title: "Magnetorquer Detumble System",
+        cost: "$30",
+        time: "1 fin de semana",
+        description: "Bobinas electromagnéticas que interactúan con el campo geomagnético de la Tierra para frenar la rotación del satélite tras la separación del cohete (modo detumble B-dot).",
+        components: ["Bobinas magnéticas con núcleo de ferrita", "Driver en puente H DRV8871", "Magnetómetro triaxial de alta sensibilidad", "Algoritmo de control B-dot"]
+      },
+      {
+        id: 4,
+        title: "Satellite-in-a-Box Flight Computer (OBC)",
+        cost: "$50",
+        time: "2 fines de semana",
+        description: "Computadora de a bordo de alta fiabilidad basada en microcontrolador STM32 con sistema operativo de tiempo real (FreeRTOS), watchdog y bus espacial I2C/CAN.",
+        components: ["Microcontrolador STM32F405 / STM32F411", "Memoria FRAM no volátil", "Watchdog de hardware externo", "Bus de telemetría CAN/I2C"]
+      },
+      {
+        id: 5,
+        title: "Sun-Vector Attitude Sensor",
+        cost: "$25",
+        time: "1 fin de semana",
+        description: "Sensor solar de cuadrante con máscara de apertura que calcula el vector tridimensional hacia el Sol para apuntar los paneles solares y orientar la nave.",
+        components: ["Fotodiodos de 4 cuadrantes", "Amplificador transimpedancia multicanal", "ADC diferencial de 16 bits", "Cálculo trigonométrico vectorial"]
+      },
+      {
+        id: 6,
+        title: "CubeSat Electrical Power System (EPS)",
+        cost: "$45",
+        time: "2 fines de semana",
+        description: "El corazón eléctrico del satélite: gestiona la carga de baterías de litio desde células solares mediante MPPT espacial, regulando buses de 3.3V y 5V con protección contra sobrecorriente.",
+        components: ["Células solares espaciales de alta eficiencia", "Controlador MPPT LT3652", "Batería 2S LiFePO4", "Monitores de corriente INA219 en cada raíl"]
+      }
+    ],
+    bom: [
+      { name: "Microcontrolador STM32F405 Core", type: "Procesamiento", specs: "Cortex-M4 168MHz, 1MB Flash, CAN, SPI", cost: "$18" },
+      { name: "Electroválvulas Solenoides 12V", type: "Actuadores de Gas", specs: "Tiempo de respuesta <5ms, presión hasta 8 bar", cost: "$26" },
+      { name: "Sensor IMU 9-DOF BNO085", type: "Determinación de Actitud", specs: "Fusión sensorial en chip con cuaterniones", cost: "$24" },
+      { name: "Puente H DRV8871 (x3)", type: "Driver Magnético", specs: "Control bidireccional de corriente para magnetorquers", cost: "$15" },
+      { name: "Células Solares Monocristalinas", type: "Energía", specs: "Eficiencia >22%, protegidas con resina UV", cost: "$22" },
+      { name: "Rotor Azimut/Elevación con servos de 25kg", type: "Estación Terrena", specs: "360° Azimut, 90° Elevación, precisión 1°", cost: "$48" }
+    ]
   },
+
   "6 EE Projects That Eavesdrop On The Sky.pdf": {
+    customTitle: "6 EE Projects That Eavesdrop On The Sky",
     subtitle: "Inteligencia de señales y recepción pasiva con SDR",
     summary: "Recepción pasiva y 100% legal de señales aéreas, marítimas, meteorológicas y espaciales usando receptores de radio definida por software (SDR) de $30.",
-    keyPoints: [
-      "01. Radar aeronáutico ADS-B: mapa en vivo de todos los vuelos comerciales ($30)",
-      "02. Sniffer TPMS para sensores de neumáticos de automóviles ($30)",
-      "03. Detector de meteoros por dispersión de radio en la ionosfera ($35)",
-      "04. Rastreador marítimo de buques AIS en tiempo real ($30)",
-      "05. Receptor de telemetría de radiosondas meteorológicas estratosféricas ($30)",
-      "06. Interceptor de mensajes satelitales ACARS / Inmarsat / Iridium ($45)"
-    ],
-    technologies: ["RTL-SDR", "ADS-B", "AIS", "TPMS", "Ionosphere RF", "GNU Radio"],
+    image: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80",
     difficulty: "Intermedio",
-    pageCount: 23
-  },
-  "6 EE Projects That Move With Precision.pdf": {
-    subtitle: "Control de movimiento de ultra-precisión, motores paso a paso y servos",
-    summary: "Construcción de actuadores electromecánicos con control en bucle cerrado: motores paso a paso, servomotores industriales y control FOC para robótica de alta exactitud.",
-    keyPoints: [
-      "01. Controlador de motor paso a paso con micropasos y feedback de encoder",
-      "02. Servo brushless con algoritmo de control vectorial orientado al campo (FOC)",
-      "03. Platina lineal micrométrica con husillo de precisión antibacklash",
-      "04. Péndulo invertido con control PID y estabilización dinámica",
-      "05. Actuador lineal de alta velocidad con limitación de par por hardware",
-      "06. Eje rotatorio de alta rigidez con reductor cicloidal impreso en 3D"
+    buildTimeTotal: "2-3 semanas",
+    estimatedBudget: "$120 - $160",
+    pageCount: 23,
+    keyProjects: [
+      {
+        id: 1,
+        title: "ADS-B Aircraft Radar (1090 MHz)",
+        cost: "$30",
+        time: "1 fin de semana",
+        description: "Construye un radar aéreo civil en vivo: recibe las tramas que emiten los aviones comerciales decodificando altitud, coordenadas GPS, velocidad y código ICAO.",
+        components: ["Receptor RTL-SDR v4", "Antena colineal 1090 MHz casera", "Filtro SAW 1090 MHz", "Software dump1090 + Tar1090"]
+      },
+      {
+        id: 2,
+        title: "TPMS Car-ID Sniffer (433 / 315 MHz)",
+        cost: "$30",
+        time: "1 día",
+        description: "Captura los paquetes inalámbricos que transmiten los sensores de presión de los neumáticos de los vehículos que pasan cerca de tu casa.",
+        components: ["Dongle RTL-SDR", "Antena omnidireccional 433 MHz", "Herramienta rtl_433"]
+      },
+      {
+        id: 3,
+        title: "Radio Meteor Scatter Detector",
+        cost: "$30",
+        time: "1 fin de semana",
+        description: "Detecta estrellas fugaces en pleno día escuchando el reflejo de transmisores de radio lejanos en las estelas ionizadas que dejan los meteoritos en la alta atmósfera.",
+        components: ["Antena direccional Yagi VHF", "SDR de bajo ruido", "Señal continua distante (radar GRAVES en 143.050 MHz)", "Software de audio espectrograma"]
+      },
+      {
+        id: 4,
+        title: "AIS Marine Vessel Tracker (162 MHz)",
+        cost: "$35",
+        time: "1 día",
+        description: "Rastrea en un mapa marítimo la posición, rumbo y cargamento de todos los buques de carga, pesqueros y ferris en un radio de hasta 40 km.",
+        components: ["Antena marina VHF 162 MHz", "Receptor SDR", "Decodificador AISdispatcher / OpenCPN"]
+      },
+      {
+        id: 5,
+        title: "433 MHz ISM Sensor Decoder",
+        cost: "$25",
+        time: "1 día",
+        description: "Decodifica estaciones meteorológicas de vecinos, timbres inalámbricos, sensores de puertas y enchufes inteligentes en la banda libre ISM.",
+        components: ["RTL-SDR", "Antena dipolo", "Biblioteca rtl_433 en línea de comandos"]
+      },
+      {
+        id: 6,
+        title: "Stratospheric Radiosonde Tracker",
+        cost: "$35",
+        time: "1 fin de semana",
+        description: "Persigue globos sonda meteorológicos lanzados dos veces al día que suben hasta 35.000 metros de altitud emitiendo temperatura, humedad y GPS en 403 MHz.",
+        components: ["Antena sintonizada a 403 MHz", "Preamplificador LNA", "Software radiosonde_auto_rx"]
+      }
     ],
-    technologies: ["FOC Driver", "BLDC Motors", "Magnetic Encoders", "PID Control", "Precision Lead Screws"],
-    difficulty: "Avanzado",
-    pageCount: 19
+    bom: [
+      { name: "Dongle USB RTL-SDR Blog v4", type: "Radio SDR", specs: "Receptor 500kHz a 1766MHz, filtro HF integrado", cost: "$35" },
+      { name: "Preamplificador LNA de banda ancha", type: "RF / Front-end", specs: "Ganancia +20dB, figura de ruido <1dB", cost: "$16" },
+      { name: "Filtro SAW paso banda 1090 MHz", type: "Filtros RF", specs: "Atenuación fuera de banda >40dB", cost: "$14" },
+      { name: "Kit de cable coaxial RG58 y conectores SMA", type: "Cableado RF", specs: "5 metros de baja pérdida con adaptadores SMA", cost: "$18" },
+      { name: "Varillas de cobre/aluminio para antenas DIY", type: "Estructura Antena", specs: "Cobre de 2mm para dipolos y planos de tierra", cost: "$10" }
+    ]
   },
-  "6 EE Projects That Put You on a Drone Team.pdf": {
-    subtitle: "Proyectos de aviónica, firmware de vuelo y electrónica de potencia para UAVs",
-    summary: "Seis desarrollos que demuestran dominio real de ingeniería de drones: controladoras de vuelo desde cero, variadores ESC rápidos, telemetría bidireccional y telemetría de caja negra.",
-    keyPoints: [
-      "01. Controladora de vuelo personalizada con microcontrolador STM32 e IMU",
-      "02. Variador electrónico de velocidad (ESC) brushless de conmutación rápida",
-      "03. Enlace de telemetría bidireccional digital con cifrado y QoS",
-      "04. Módulo PDB con medición de corriente de precisión y protección térmica",
-      "05. Fusión de sensores mediante filtro de Kalman extendido para orientación",
-      "06. Registrador Blackbox de alta velocidad en memoria Flash SPI"
-    ],
-    technologies: ["STM32", "ESC BLDC", "Kalman Filter", "IMU Fusion", "SPI Flash", "Telemetry RF"],
-    difficulty: "Avanzado",
-    pageCount: 20
-  },
-  "6 EE Projects That Reach Space.pdf": {
-    subtitle: "Sistemas orbitales y cargas útiles para el espacio desde tu mesa de trabajo",
-    summary: "Construcción y validación de hardware apto para el espacio: sondas estratosféricas, balizas de satélite, detectores de rayos cósmicos y enlaces de enlace descendente LoRa.",
-    keyPoints: [
-      "01. Carga útil de telemetría para globo estratosférico a gran altitud",
-      "02. Receptor de imágenes meteorológicas satelitales NOAA / Meteor-M",
-      "03. Sistema activo de determinación y control de actitud (ADCS)",
-      "04. Detector de radiación y muones cósmicos con centellador",
-      "05. Mecanismo de despliegue de paneles solares y antenas CubeSat",
-      "06. Enlace de comunicación Tierra-Espacio de ultra-largo alcance con LoRa"
-    ],
-    technologies: ["NOAA APT", "ADCS", "Radiation Detectors", "CubeSat Deployers", "LoRa Space"],
-    difficulty: "Avanzado",
-    pageCount: 21
-  },
-  "6 EE Projects That Read The Body.pdf": {
-    subtitle: "Interfaces bioeléctricas, sensores fisiológicos y dispositivos médicos",
-    summary: "Diseño analógico y digital para capturar señales biológicas del cuerpo humano: ECG, EMG, EEG, oximetría de pulso y bioimpedancia con aislamiento galvánico.",
-    keyPoints: [
-      "01. Monitor de electrocardiograma (ECG) de 3 derivaciones con amplificador de instrumentación",
-      "02. Sensor de electromiografía (EMG) para control mioeléctrico de prótesis",
-      "03. Electroencefalógrafo (EEG) para detección de ondas cerebrales alfa",
-      "04. Pulsioxímetro óptico (PPG) de doble longitud de onda (Rojo/IR)",
-      "05. Sensor de respuesta galvánica de la piel (GSR) para detección de estrés",
-      "06. Analizador de composición corporal por espectroscopía de bioimpedancia"
-    ],
-    technologies: ["Bio-Amps", "ECG/EMG/EEG", "Optical PPG", "Galvanic Isolation", "Analog Filters"],
-    difficulty: "Avanzado",
-    pageCount: 20
-  },
-  "6 EE Projects That See With Light.pdf": {
-    subtitle: "Fotónica, LiDAR, comunicación óptica y escaneo 3D",
-    summary: "Aprovechamiento de la luz coherente y fotodiodos para medir distancias, transmitir datos por aire libre y generar modelos 3D de alta precisión.",
-    keyPoints: [
-      "01. Barrera óptica de alta velocidad con láser para cronometraje de objetos",
-      "02. Telémetro láser de tiempo de vuelo (ToF LiDAR) con precisión milimétrica",
-      "03. Escáner LiDAR rotatorio de 360 grados para mapeo 2D de habitaciones",
-      "04. Enlace de comunicación de datos por haz láser (Free-Space Optical Comms)",
-      "05. Vibrómetro láser reflectante para análisis acústico sin contacto",
-      "06. Escáner 3D de luz estructurada con proyector de líneas para digitalización"
-    ],
-    technologies: ["ToF LiDAR", "Laser Optics", "Photodiodes", "FSO Comms", "Structured Light 3D"],
-    difficulty: "Intermedio / Avanzado",
-    pageCount: 18
-  },
-  "6 EE Projects That See With Radio.pdf": {
-    subtitle: "Radar Doppler, detección micro-Doppler, detección WiFi y radar pasivo",
-    summary: "Radares reales operando en microondas: medición de velocidad por efecto Doppler, detección de pulso y respiración a distancia, y detección de personas a través de paredes.",
-    keyPoints: [
-      "01. Radar Doppler de movimiento para cálculo de velocidad en banda 10.5 GHz",
-      "02. Pistola radar calibrada con lectura directa en km/h o mph",
-      "03. Radar FMCW para medición continua de distancia y perfil de rango",
-      "04. Radar micro-Doppler para detección de signos vitales (respiración y pulso)",
-      "05. Detector de movimiento a través de paredes mediante análisis CSI de señales WiFi",
-      "06. Radar pasivo bi-estático para rastreo de aeronaves sin emitir radiación"
-    ],
-    technologies: ["Doppler Radar", "FMCW 24GHz", "WiFi CSI Sensing", "Passive Bistatic Radar", "Microwaves"],
-    difficulty: "Avanzado",
-    pageCount: 19
-  },
-  "6_EE_Projects_That_See_The_Invisible_dark_ops.pdf": {
-    subtitle: "Señales de defensa, receptores GNSS protegidos y sensores tácticos",
-    summary: "Hardware inspirado en laboratorios de defensa: detección de anomalías magnéticas, goniometría RF, sensores sísmicos desatendidos y radiocomunicaciones con salto de frecuencia.",
-    keyPoints: [
-      "01. Receptor GNSS resistente a interferencias y spoofing",
-      "02. Radiogoniómetro RF (Direction Finder) para localizar transmisores ocultos",
-      "03. Detector de anomalías magnéticas (MAD) para vehículos y blindajes",
-      "04. Sensor sísmico desatendido (UGS) para detección de pasos e intrusiones",
-      "05. Receptor detector de drones por análisis de emisión de enlace de radio",
-      "06. Enlace de radio seguro con salto de frecuencia pseudoaleatorio (FHSS)"
-    ],
-    technologies: ["GNSS Resilience", "RF Direction Finding", "Fluxgate Magnetometer", "Seismic UGS", "FHSS Crypto"],
-    difficulty: "Avanzado",
-    pageCount: 17
-  },
-  "6_EE_Projects_That_See_The_Invisible_revised.pdf": {
-    subtitle: "Detección no convencional, espectro invisible y contramedidas electrónicas",
-    summary: "Versión revisada y ampliada de proyectos de señales invisibles: detección de anomalías magnéticas, enlaces anti-interferencia y goniometría de precisión.",
-    keyPoints: [
-      "01. Receptor GNSS inmune a interferencias con antena de patrón nulo",
-      "02. Radiogoniómetro doppler para localización instantánea de fuentes RF",
-      "03. Magnetómetro fluxgate para detección de masas ferromagnéticas ocultas",
-      "04. Red de sensores terrestres desatendidos con clasificación acústico-sísmica",
-      "05. Sniffer de telemetría de drones de alerta temprana",
-      "06. Módem de dispersión espectral por secuencia directa (DSSS) y FHSS"
-    ],
-    technologies: ["FHSS", "DSSS", "Direction Finding", "Fluxgate Sensors", "Acoustic-Seismic Fusion"],
-    difficulty: "Avanzado",
-    pageCount: 23
-  },
-  "6_EE_Projects_That_Think_For_Themselves.pdf": {
-    subtitle: "Robots autónomos completos: sentido, decisión y acción física",
-    summary: "Seis robots autónomos construidos de principio a fin: rovers reactivos, brazos con cinemática inversa, cuadrúpedos bípedos, pinzas táctiles y navegación SLAM.",
-    keyPoints: [
-      "01. Rover reactivo con bucle sensorial rápido y evasión adaptativa de obstáculos",
-      "02. Brazo robótico con cinemática inversa analítica en tiempo real",
-      "03. Robot cuadrúpedo de 12 grados de libertad con generador de marcha",
-      "04. Robot móvil con seguimiento visual de objetivos mediante OpenCV",
-      "05. Pinza robótica con sensor de fuerza capacitivo para agarre delicado",
-      "06. Rover autónomo con LiDAR y algoritmo SLAM para mapeo y auto-navegación"
-    ],
-    technologies: ["Inverse Kinematics", "12-DOF Quadruped", "2D SLAM", "OpenCV Vision", "Force Sensing"],
-    difficulty: "Avanzado",
-    pageCount: 15
-  },
-  "6_Engineering_Projects_That_Survive_The_Field.pdf": {
-    subtitle: "Ingeniería de supervivencia, robustez ambiental y logística defensiva",
-    summary: "Diseño para entornos hostiles: jaulas de Faraday contra pulsos EMP, túneles de viento de escritorio, hidrófonos submarinos y cajas estancas para combate.",
-    keyPoints: [
-      "01. Jaula de Faraday y gabinete endurecido contra pulsos electromagnéticos (EMP)",
-      "02. Túnel de viento de escritorio con cámara de humo para visualización de sustentación",
-      "03. Panel compuesto resistente a impactos y torre de caída para pruebas de estrés",
-      "04. Matriz de hidrófonos para sonar pasivo y escucha acústica subacuática",
-      "05. Carga útil con parafoil autónomo de alta precisión para lanzamiento aéreo",
-      "06. Cámara de tortura ambiental (temperatura, vibración y estanqueidad IP68)"
-    ],
-    technologies: ["Faraday EMP", "Wind Tunnel Aero", "Passive Sonar Hydrophone", "Guided Parafoil", "IP68 Stress"],
-    difficulty: "Avanzado",
-    pageCount: 16
-  },
-  "6_Upgrades_Your_Drone_Is_Missing.pdf": {
-    subtitle: "Mejoras tácticas y sensores avanzados para drones comerciales y DIY",
-    summary: "Guía de construcción para dotar a tu dron de capacidades industriales: hover óptico sin GPS, sensores perimétricos, gimbal brushless y sistema de eyección de paracaídas.",
-    keyPoints: [
-      "01. Módulo de posición óptica para vuelo estacionario en interiores sin señal GPS",
-      "02. Corona perimetral de sensores de proximidad láser Time-of-Flight",
-      "03. Paracaídas de emergencia con gatillo pirotécnico ante fallo de altitud",
-      "04. Gimbal estabilizador de 2 ejes con controladores FOC y sensor IMU",
-      "05. Sistema de aterrizaje de precisión centimétrico guiado por marcas visuales",
-      "06. Carga útil de mapeo de espectro RF para barrido perimetral de antenas"
-    ],
-    technologies: ["ArduPilot", "Optical Flow", "Laser ToF", "FOC Gimbal", "Precision Landing"],
-    difficulty: "Avanzado",
-    pageCount: 16
-  },
-  "cs portfolio projects.pdf": {
-    subtitle: "Los 6 proyectos de software de nivel staff que contratan los recruiters",
-    summary: "Olvídate de clones de Netflix o apps To-Do. Seis proyectos de software de sistemas de alto impacto: bases de datos distribuidas, motores de búsqueda vectorial y runtimes de contenedores.",
-    keyPoints: [
-      "01. Almacén distribuido clave-valor con algoritmo de consenso Raft",
-      "02. Motor de búsqueda vectorial con indexación HNSW desde cero",
-      "03. Servidor HTTP asíncrono multiproceso con event loop personalizado",
-      "04. Intérprete y máquina virtual para un lenguaje de programación tipado",
-      "05. Runtime de contenedores ligero implementado con cgroups y namespaces de Linux",
-      "06. Base de datos relacional transaccional embebida con motor B+Tree"
-    ],
-    technologies: ["Raft Consensus", "Vector Search HNSW", "Async IO", "Virtual Machines", "Linux Namespaces"],
-    difficulty: "Avanzado",
-    pageCount: 21
-  },
-  "dangerously_overeducated_engineer_guide.pdf": {
-    subtitle: "Cómo hackear tu autoeducación para acceder a pasantías de deep tech",
-    summary: "Estrategia integral para dominar conocimientos avanzados de ingeniería de forma autodidacta y competir cara a cara con graduados de las universidades más exigentes.",
-    keyPoints: [
-      "01. Método de aprendizaje inverso: diseña hardware real antes de abrir el libro de texto",
-      "02. Cómo equipar un laboratorio de electrónica completo en tu habitación por menos de $150",
-      "03. Dónde encontrar manuales de servicio militar, papers de IEEE y notas de aplicación secretas",
-      "04. Construcción de proyectos de portafolio 'indiscutibles' que los recruiters no pueden ignorar",
-      "05. Estrategia de networking agresivo en LinkedIn y GitHub con ingenieros jefe",
-      "06. Superación de pruebas técnicas de hardware y arquitectura de sistemas"
-    ],
-    technologies: ["Self-Directed Learning", "Lab Setup", "Hardware Reverse-Engineering", "Portfolio Strategy"],
-    difficulty: "Todos los niveles",
-    pageCount: 10
-  },
-  "ee ai era projects.pdf": {
-    subtitle: "Circuitos de hardware de defensa que solo existen porque la IA existe",
-    summary: "Protección física y autenticación analógica frente a amenazas de IA generativa: detectores de voz clonada, side-channel sniffers y switches de desconexión física de IA.",
-    keyPoints: [
-      "01. Detector de voz clonada por IA mediante banco de filtros analógicos acústicos",
-      "02. Sniffer electromagnético (EMI) de canal lateral para monitorizar ejecución de chips",
-      "03. Interruptor de desconexión física de hardware activado por desviación de comportamiento",
-      "04. Placa de identidad física a prueba de deepfakes con prueba criptográfica de presencia",
-      "05. Fusionador de sensores neuromórfico con circuitos analógicos bio-inspirados",
-      "06. Autenticador de hardware por huella dactilar de radiofrecuencia (RF Fingerprinting)"
-    ],
-    technologies: ["EMI Side-Channel", "Neuromorphic Analog", "RF Fingerprinting", "Hardware Kill Switch"],
-    difficulty: "Avanzado",
-    pageCount: 20
-  },
-  "ee defense tech part2.pdf": {
-    subtitle: "Sistemas láser, comunicaciones encubiertas y medición de firma radar",
-    summary: "Hardware directo de laboratorios clasificados: micrófonos láser ópticos, enlaces ópticos infrarrojos anti-escuchas y medición de sección transversal de radar en tu escritorio.",
-    keyPoints: [
-      "01. Micrófono láser de vigilancia óptica: escucha a través de cristales a 100m ($15)",
-      "02. Enlace de comunicación láser indetectable e imposible de intervenir ($12)",
-      "03. Telémetro láser de precisión sub-nanosegundo con conversor TDC ($25)",
-      "04. Transmisor de ráfaga encriptada FHSS de 50ms inmune a inhibidores ($10)",
-      "05. Visor nocturno pasivo por amplificación de luz residual sin emisión ($30)",
-      "06. Banco de medición de Sección Recta Radar (RCS) para probar materiales furtivos ($12)"
-    ],
-    technologies: ["Laser Vibrometry", "Covert IR Comms", "Time-to-Digital TDC", "Radar Cross Section RCS"],
-    difficulty: "Avanzado",
-    pageCount: 22
-  },
-  "ee physical ai embodiment.pdf": {
-    subtitle: "Interfaces neuronales, voz silenciosa y computación en el cuerpo",
-    summary: "Seis dispositivos portátiles donde la inteligencia artificial interactúa directamente con la fisiología humana: lectura electromiográfica, voz subvocal y háptica aumentada.",
-    keyPoints: [
-      "01. Interfaz neural de voz silenciosa: habla con la IA sin emitir sonido perceptible ($60)",
-      "02. Prótesis de mano mioeléctrica controlada por señales EMG antes de mover el músculo ($80)",
-      "03. Interfaz de programación AR con control por gestos en el aire ($50)",
-      "04. Monitor biométrico emocional para proporcionar contexto fisiológico a LLMs ($30)",
-      "05. Guante de aumento táctil para sentir campos electromagnéticos y texturas ($45)",
-      "06. Comandos por voz subvocal con sensores piezoeléctricos de garganta ($35)"
-    ],
-    technologies: ["Silent Speech", "Surface EMG", "Haptic Gloves", "Physiological AI", "Edge Neural Net"],
-    difficulty: "Avanzado",
-    pageCount: 23
-  },
-  "ee_portfolio_projects.pdf": {
-    subtitle: "Los 6 proyectos clave de hardware que garantizan empleo en ingeniería electrónica",
-    summary: "Construcciones rigurosas de electrónica aplicada: transceptores SDR de 4 capas, fuentes conmutadas de 95% de eficiencia y controladores de motor en bucle cerrado.",
-    keyPoints: [
-      "01. Transceptor de radio definida por software (SDR) en PCB de 4 capas de alta velocidad",
-      "02. Fuente de alimentación conmutada síncrona (SMPS) con eficiencia superior al 95%",
-      "03. Controlador de motor brushless de bucle cerrado con encoder magnético de 14 bits",
-      "04. Sistema de gestión de baterías (BMS) inteligente con balanceo activo de celdas",
-      "05. Front-End analógico de ultra-bajo ruido para amplificación de biopotenciales",
-      "06. Osciloscopio digital USB con muestreo de 100 MS/s y lógica FPGA"
-    ],
-    technologies: ["4-Layer High-Speed PCB", "SMPS 95%+", "FOC BLDC Driver", "FPGA ADC", "Smart BMS"],
-    difficulty: "Avanzado",
-    pageCount: 15
-  },
+
   "follow @1nska.pdf": {
-    subtitle: "The Robot Framework: Cómo conseguir equipamiento de $30.000 gratis",
-    summary: "El marco de 5 pasos para negociar, contactar fabricantes líderes de robótica y conseguir patrocinio y préstamo gratuito de robots industriales para tus proyectos.",
-    keyPoints: [
-      "01. La mentalidad de reciprocidad: qué buscan realmente los departamentos de R&D de los gigantes de robótica",
-      "02. Redacción de un correo frío irrechazable con demostración visual de capacidad",
-      "03. Presentación de un plan de investigación creíble y con hitos verificables",
-      "04. Cómo gestionar la logística, seguros y acuerdos de confidencialidad (NDA)",
-      "05. Documentación pública del proyecto para maximizar visibilidad en redes e industria",
-      "06. Conversión del préstamo temporal en ofertas formales de empleo y patrocinio"
+    customTitle: "The Robot Framework: Patrocinio y Acceso a Robots Industriales de $30.000",
+    subtitle: "El método paso a paso para conseguir que gigantes de la industria te cedan equipamiento robótico de primer nivel",
+    summary: "La guía estratégica de 5 pasos con la que un estudiante de ingeniería consiguió el préstamo gratuito de un robot industrial KUKA de 80 kg valorado en $30.000 para su proyecto.",
+    image: "https://images.unsplash.com/photo-1561557944-6e7860d1a7eb?auto=format&fit=crop&w=1200&q=80",
+    difficulty: "Estratégico / Todos los niveles",
+    buildTimeTotal: "2-4 semanas de ejecución",
+    estimatedBudget: "$0 (Préstamo / Patrocinio)",
+    pageCount: 11,
+    keyProjects: [
+      {
+        id: 1,
+        title: "Paso 1: El Gancho de la Reciprocidad y Visibilidad",
+        cost: "$0",
+        time: "3 días",
+        description: "Cómo transformar la necesidad de tu proyecto en una oportunidad de relaciones públicas y marketing técnico irresistible para la división de I+D de la empresa.",
+        components: ["Dossier de impacto de proyecto", "Propuesta de valor para la marca", "Definición de público objetivo"]
+      },
+      {
+        id: 2,
+        title: "Paso 2: La Redacción del Correo Frío Irrechazable",
+        cost: "$0",
+        time: "2 días",
+        description: "Estructura milimétrica del mensaje inicial a directores técnicos y branch managers: sin pedir dinero, con fechas cerradas y demostración previa de capacidad técnica.",
+        components: ["Plantilla de correo de alta conversión", "Portafolio en vídeo de 30 segundos", "Llamada a la acción de bajo compromiso"]
+      },
+      {
+        id: 3,
+        title: "Paso 3: La Presentación del Plan de Investigación",
+        cost: "$0",
+        time: "1 semana",
+        description: "Documento de viabilidad técnica: calendario de hitos, requerimientos de espacio, especificaciones de alimentación eléctrica industrial y plan de seguridad.",
+        components: ["Diagrama de Gantt de pruebas", "Análisis de seguridad eléctrica trifásica", "Evaluación de riesgos de colisión"]
+      },
+      {
+        id: 4,
+        title: "Paso 4: Logística, Seguros y Acuerdos de Préstamo",
+        cost: "$0",
+        time: "1 semana",
+        description: "Gestión de contratos de comodato (equipo en préstamo temporal), transporte de carga pesada, manipulación de palets y pólizas de seguro de responsabilidad.",
+        components: ["Contrato de comodato / préstamo temporal", "Acuerdo de confidencialidad (NDA)", "Gestión de muelle de carga universitario"]
+      },
+      {
+        id: 5,
+        title: "Paso 5: Programación, Puesta en Marcha y Retorno de Valor",
+        cost: "$0",
+        time: "2 semanas",
+        description: "Integración del robot industrial en la performance/experimento, programación en lenguaje nativo (KRL) y documentación multimedia para catapultar tu carrera profesional.",
+        components: ["Programación cinemática KRL", "Controlador KUKA SmartPAD", "Registro fotográfico y videográfico profesional"]
+      }
     ],
-    technologies: ["Sponsorship Strategy", "Executive Pitching", "Cold Outreach", "Industrial Robotics"],
-    difficulty: "Principiante / Estratégico",
-    pageCount: 11
+    bom: [
+      { name: "Robot Industrial de 6 ejes (KUKA Agilus / Universal Robots)", type: "Maquinaria Cedida", specs: "Carga útil 3-6 kg, alcance 700-900mm, repetibilidad 0.02mm", cost: "$0 (Valor $30.000)" },
+      { name: "Controlador Industrial y Pendant de Enseñanza", type: "Control", specs: "Alimentación 230V/400V, interfaz de seguridad E-Stop", cost: "$0 (Incluido con robot)" },
+      { name: "Entorno de Simulación Cinemática", type: "Software", specs: "KUKA.Sim / RoboDK para verificación de trayectorias", cost: "$0 (Licencia académica)" },
+      { name: "Materiales para la Performance / Actuador Final", type: "Herramienta", specs: "Pinza neumática o soporte de herramienta impreso en 3D", cost: "$35" }
+    ]
   },
-  "how-to-learn-electronics-from-zero.pdf": {
-    subtitle: "Hoja de ruta paso a paso para dominar electrónica desde cero",
-    summary: "La secuencia ideal para aprender hardware rápidamente: prototipar primero, comprender la física después, dominar la instrumentación y fabricar PCBs profesionales.",
-    keyPoints: [
-      "01. Paso 1: Los componentes fundamentales y cómo fallan en el mundo real",
-      "02. Paso 2: El kit de laboratorio mínimo viable (multímetro, fuente, osciloscopio USB)",
-      "03. Paso 3: De la protoboard al esquemático en KiCad sin perder la cordura",
-      "04. Paso 4: Ruteo de PCBs de 2 y 4 capas y preparación de archivos Gerber",
-      "05. Paso 5: Técnicas de soldadura SMD y montaje de prototipos en casa",
-      "06. Paso 6: Depuración de circuitos con osciloscopio y analizador lógico"
-    ],
-    technologies: ["KiCad", "SMD Soldering", "Oscilloscope Debugging", "PCB Layout", "Analog Fundamentals"],
-    difficulty: "Principiante a Intermedio",
-    pageCount: 5
-  },
-  "me_portfolio_projects.pdf": {
-    subtitle: "Los 6 proyectos mecánicos de impacto que los recruiters quieren ver",
-    summary: "Diseño mecánico de precisión, análisis térmico y cinemática avanzada: reductores cicloidales, suspensión activa y actuadores robóticos de alta densidad.",
-    keyPoints: [
-      "01. Reductor cicloidal antibacklash impreso en 3D para juntas robóticas de alto par",
-      "02. Banco de suspensión activa con amortiguador magnetorreológico y control dinámico",
-      "03. Actuador robótico cuasi-directo (QDD) con motor sin escobillas para cuadrúpedos",
-      "04. Túnel aerodinámico de efecto Venturi con toma de presión manométrica digital",
-      "05. Cámara de vacío térmico de bajo costo para pruebas de componentes satelitales",
-      "06. Pinza robótica con mecanismo flexible cumpliente (compliant mechanism) monolítico"
-    ],
-    technologies: ["Cycloidal Gearbox", "QDD Actuators", "Compliant Mechanisms", "FEA Analysis", "Vacuum Chamber"],
-    difficulty: "Avanzado",
-    pageCount: 22
-  },
-  "ml guide engineers.pdf": {
-    subtitle: "Machine Learning aplicado para ingenieros de hardware y mecánica",
-    summary: "Guía práctica de ML diseñada para ingenieros tradicionales: qué algoritmos usar para análisis de señales, vibraciones, mantenimiento predictivo y visión en el edge.",
-    keyPoints: [
-      "01. Qué ramas de ML realmente importan en ingeniería de hardware vs software puro",
-      "02. Clasificación de señales de sensores físicos (FFT + SVM / Redes convolucionales 1D)",
-      "03. Mantenimiento predictivo: detección de fallos en rodamientos y motores por vibración",
-      "04. Visión por computador en el edge con microcontroladores (TinyML en ESP32 / STM32)",
-      "05. Optimización bayesiana para ajuste automático de parámetros de control PID",
-      "06. Despliegue de modelos cuantizados INT8 sin pérdidas de precisión"
-    ],
-    technologies: ["TinyML", "FFT Analysis", "Predictive Maintenance", "Edge AI", "Quantization INT8"],
-    difficulty: "Intermedio",
-    pageCount: 10
-  },
+
   "Ohmie-Build-Guide.pdf": {
-    subtitle: "Guía de construcción de la consola portátil Ohmie con Arduino y OLED",
-    summary: "Construcción paso a paso de la consola de juegos retro Ohmie: cableado, placa Arduino Uno R3, pantalla OLED de 2.42\", potenciómetro deslizante y buzzer.",
-    keyPoints: [
-      "01. Lista completa de componentes: Arduino Uno R3, display OLED SPI de 2.42\", slider pot y buzzer",
-      "02. Diagrama de conexionado esquemático libre de errores de alimentación",
-      "03. Configuración del toolchain en VS Code con PlatformIO",
-      "04. Verificación de lectura analógica del potenciómetro y generación de tonos de audio",
-      "05. Flasheo y arquitectura de los dos juegos integrados (Pong y Runner)",
-      "06. Montaje en chasis y optimización de tasa de refresco gráfica en pantalla OLED"
-    ],
-    technologies: ["Arduino Uno", "OLED 2.42 SPI", "PlatformIO", "Embedded C++", "DIY Gaming Console"],
+    customTitle: "Ohmie Build Guide: Consola Portátil Arduino & OLED",
+    subtitle: "Fabricación paso a paso de una consola de videojuegos de 8 bits con Arduino Uno y display OLED de 2.42 pulgadas",
+    summary: "Guía oficial de construcción del Club Ohm: montaje eléctrico, soldadura, carga de firmware y programación de dos juegos retro para Arduino Uno, display OLED y slider analógico.",
+    image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=80",
     difficulty: "Principiante a Intermedio",
-    pageCount: 15
-  },
-  "summer-ee-glow-up-light.pdf": {
-    subtitle: "Volumen 1: Los 10 recursos indispensables para subir de nivel en EE",
-    summary: "El mapa de estudio para transformar tu conocimiento de electrónica en un verano: 10 libros, simuladores y herramientas prácticas explicadas recurso por recurso.",
-    keyPoints: [
-      "01. 'Learning the Art of Electronics': El laboratorio práctico complementario",
-      "02. Simuladores SPICE interactivos: cómo simular circuitos sin frustración",
-      "03. Guías maestras de diseño de filtros activos de Texas Instruments y Analog Devices",
-      "04. Práctica de transistores BJT y MOSFET en regímenes lineales y de saturación",
-      "05. Decodificación de notas de aplicación de fabricantes de semiconductores",
-      "06. Proyecto integrador de fin de verano para consolidar el portafolio"
+    buildTimeTotal: "1 fin de semana",
+    estimatedBudget: "$35 - $45",
+    pageCount: 15,
+    keyProjects: [
+      {
+        id: 1,
+        title: "Montaje de Pantalla OLED SPI de Alta Velocidad",
+        cost: "$18",
+        time: "2 horas",
+        description: "Conexionado y configuración del bus SPI por hardware para la pantalla monocroma SSD1309 de 2.42\" alcanzando más de 45 fotogramas por segundo.",
+        components: ["Display OLED 2.42\" SSD1309 SPI", "Arduino Uno R3", "Cables Dupont de precisión"]
+      },
+      {
+        id: 2,
+        title: "Control Analógico por Potenciómetro Deslizante",
+        cost: "$5",
+        time: "1 hora",
+        description: "Acondicionamiento de señal con filtrado por software para un control suave y sin temblores en las paletas de juego.",
+        components: ["Slider Potentiometer 10k lineal", "Condensador cerámico 100nF para desacoplo"]
+      },
+      {
+        id: 3,
+        title: "Generador de Audio Retro por Buzzer Piezoeléctrico",
+        cost: "$3",
+        time: "1 hora",
+        description: "Diseño de efectos de sonido chiptune mediante interrupciones de temporizador por modulación PWM sin bloquear el bucle de renderizado de vídeo.",
+        components: ["Buzzer pasivo electromagnético", "Resistencia limitadora de 220 ohm"]
+      },
+      {
+        id: 4,
+        title: "Arquitectura de Software y Motor de Juego Ligero",
+        cost: "$0",
+        time: "3 horas",
+        description: "Estructuración del bucle principal de juego (game loop) con búfer de pantalla de 1 bit para encajar en los 2 KB de memoria RAM del chip ATmega328P.",
+        components: ["Entorno PlatformIO en VS Code", "Biblioteca U8g2 optimizada"]
+      }
     ],
-    technologies: ["Analog Design", "SPICE Simulation", "Op-Amps", "TI Application Notes"],
-    difficulty: "Principiante a Intermedio",
-    pageCount: 10
-  },
-  "summer-ee-glow-up-vol2.pdf": {
-    subtitle: "Volumen 2: 10 recursos adicionales de diseño práctico y depuración",
-    summary: "Continuación del roadmap de electrónica: diseño analógico intuitivo, técnicas de depuración con instrumental de banco y fundamentos de integridad de señal.",
-    keyPoints: [
-      "01. 'Practical Electronics for Inventors': Comprensión conceptual de componentes",
-      "02. Técnicas de depuración sistemática de circuitos que no encienden o echan humo",
-      "03. Uso avanzado del osciloscopio: disparos por flanco, ancho de pulso y decodificación I2C/SPI",
-      "04. Diseño de etapas de potencia reguladas de bajo ruido LDO vs conmutadas",
-      "05. Métodos de diseño de circuitos impresos para mitigar la capacitancia e inductancia parásitas",
-      "06. Ejercicios semanales de diseño esquemático para interiorizar principios de diseño"
-    ],
-    technologies: ["Scope Triggering", "I2C/SPI Decoding", "Low-Noise LDO", "Parasitic Reduction"],
-    difficulty: "Intermedio",
-    pageCount: 10
-  },
-  "summer-ee-glow-up-vol3.pdf": {
-    subtitle: "Volumen 3: 14 recursos avanzados de radiofrecuencia y PCBs de alta velocidad",
-    summary: "El salto a la ingeniería profesional: ruteo de señales diferenciales, diseño RF en microstrip, compatibilidad electromagnética (EMC) y microcontroladores de 32 bits.",
-    keyPoints: [
-      "01. Principios de alta velocidad: cuándo una pista deja de ser un cable y pasa a ser línea de transmisión",
-      "02. Adaptación de impedancias a 50 ohmios con cartas de Smith y planos de masa sólidos",
-      "03. Estrategias de desacoplo de condensadores y retorno de corrientes de alta frecuencia",
-      "04. Diseño y certificación preliminar de compatibilidad electromagnética (EMC/EMI)",
-      "05. Firmware bare-metal en ARM Cortex-M: registros, interrupciones y DMA",
-      "06. Catorce referencias bibliográficas y papers para dominar hardware de nivel industrial"
-    ],
-    technologies: ["High-Speed Layout", "Smith Chart", "50-Ohm Matching", "EMC/EMI Compliance", "ARM Cortex-M Bare-Metal"],
-    difficulty: "Avanzado",
-    pageCount: 12
-  },
-  "summer-ee-glow-up-vol4.pdf": {
-    subtitle: "Volumen 4: 10 recursos enfocados en fabricación y producción comercial",
-    summary: "Cómo llevar un circuito desde un prototipo en tu mesa hasta una tirada de producción en fábrica: DFM, ensamble SMD automático y pruebas de fin de línea.",
-    keyPoints: [
-      "01. Reglas de diseño para fabricación (DFM) y ensamble automático (DFA)",
-      "02. Preparación impecable de listas de materiales (BOM) y archivos CPL/Pick-and-Place",
-      "03. Selección de componentes de reemplazo ante escasez de cadena de suministro",
-      "04. Diseño de puntos de prueba (Test Points) y bancos de prueba de cama de clavos",
-      "05. Gestión térmica de etapas de potencia: disipación, vías térmicas y radiadores",
-      "06. Normativas y estándares internacionales de diseño (IPC-2221, RoHS, CE)"
-    ],
-    technologies: ["DFM / DFA", "Pick-and-Place", "Thermal Vias", "BOM Management", "IPC Standards"],
-    difficulty: "Avanzado",
-    pageCount: 10
+    bom: [
+      { name: "Placa Arduino Uno R3 / Nano", type: "Microcontrolador", specs: "ATmega328P @ 16 MHz, 32KB Flash, 2KB SRAM", cost: "$8" },
+      { name: "Pantalla OLED 2.42\" Monocroma", type: "Display", specs: "128x64 píxeles, controlador SSD1309, bus SPI", cost: "$18" },
+      { name: "Potenciómetro Deslizante Lineal 10k", type: "Entrada Analógica", specs: "Recorrido de 60mm, curva lineal tipo B", cost: "$5" },
+      { name: "Buzzer Pasivo Piezoeléctrico", type: "Sonido", specs: "Rango 1kHz - 5kHz, 5V", cost: "$2" },
+      { name: "Cables, Protoboard y Carcasa", type: "Estructura", specs: "Placa de circuito perforada o protoboard mini", cost: "$6" }
+    ]
   }
 };
+
+// Default fallback generator for remaining guides
+function getFallbackData(filename, title, categoryId) {
+  let image = "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80";
+  if (categoryId === 'aerospace') image = "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80";
+  else if (categoryId === 'robotics-drones') image = "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80";
+  else if (categoryId === 'cs-ai') image = "https://images.unsplash.com/photo-1555255707-c07966088b7b?auto=format&fit=crop&w=1200&q=80";
+  else if (categoryId === 'electronics') image = "https://images.unsplash.com/photo-1517420704952-d9f39e95b43e?auto=format&fit=crop&w=1200&q=80";
+  else if (categoryId === 'career') image = "https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=1200&q=80";
+
+  return {
+    subtitle: `Guía técnica y de laboratorio: ${title}`,
+    summary: `Proyecto exhaustivo que cubre fundamentos teóricos, diagramas esquemáticos, lista de componentes y metodologías de prueba para construir sistemas de ingeniería profesionales.`,
+    image,
+    difficulty: "Intermedio / Avanzado",
+    buildTimeTotal: "2-4 semanas",
+    estimatedBudget: "$80 - $180",
+    pageCount: 16,
+    keyProjects: [
+      { id: 1, title: `Arquitectura de Hardware de ${title}`, cost: "$35", time: "1 semana", description: "Diseño y selección de subsistemas para garantizar máxima fiabilidad y rendimiento.", components: ["Microcontrolador principal", "Front-end de acondicionamiento"] },
+      { id: 2, title: "Captura Esquemática y Simulación", cost: "$0", time: "3 días", description: "Validación de cálculos eléctricos y respuesta transitoria mediante simuladores SPICE.", components: ["KiCad EDA", "SPICE Engine"] },
+      { id: 3, title: "Prototipado en Placa y Medición", cost: "$40", time: "1 fin de semana", description: "Ensamblaje del circuito y verificación con osciloscopio y analizador lógico.", components: ["Componentes pasivos SMD", "Osciloscopio digital"] },
+      { id: 4, title: "Desarrollo de Firmware de Tiempo Real", cost: "$0", time: "1 semana", description: "Control en bajo nivel mediante registros, periféricos DMA e interrupciones.", components: ["C/C++ Bare-metal", "RTOS"] },
+      { id: 5, title: "Pruebas de Estrés y Validación Final", cost: "$15", time: "3 días", description: "Ensayos de carga, térmicos y verificación de compatibilidad.", components: ["Banco de pruebas", "Cargas dinámicas"] }
+    ],
+    bom: [
+      { name: "Placa de Desarrollo / Microcontrolador", type: "Control", specs: "32-bit ARM Cortex / ESP32", cost: "$15 - $25" },
+      { name: "Sensores y Transductores", type: "Adquisición", specs: "Sensores de precisión calibrados", cost: "$20 - $40" },
+      { name: "Etapa de Potencia y Regulación", type: "Alimentación", specs: "Reguladores LDO y convertidores buck de bajo ruido", cost: "$12 - $20" },
+      { name: "PCB a Medida de 2 o 4 capas", type: "Fabricación", specs: "FR4, acabado ENIG o HASL sin plomo", cost: "$15" },
+      { name: "Componentes Pasivos y Conectores", type: "Miscelánea", specs: "Resistencias 1%, condensadores cerámicos X7R", cost: "$15" }
+    ]
+  };
+}
 
 function formatSize(numBytes) {
   const units = ['B', 'KB', 'MB', 'GB'];
@@ -520,6 +488,10 @@ function formatSize(numBytes) {
 }
 
 function cleanTitle(filename) {
+  if (filename === 'follow @1nska.pdf') {
+    return 'The Robot Framework: Patrocinio de Robots de $30.000';
+  }
+
   let name = path.basename(filename, path.extname(filename));
   
   const partMatch = name.match(/^\((PART\s*\d+)\)\s*(.*)$/i);
@@ -549,6 +521,9 @@ function cleanTitle(filename) {
 }
 
 function detectCategory(filename, title) {
+  if (filename === 'follow @1nska.pdf') {
+    return 'career';
+  }
   const text = `${filename} ${title}`.toLowerCase();
   for (const cat of CATEGORIES) {
     for (const kw of cat.keywords) {
@@ -561,6 +536,10 @@ function detectCategory(filename, title) {
 }
 
 function generateTags(filename, title, categoryId) {
+  if (filename === 'follow @1nska.pdf') {
+    return ['Career', 'Industrial Robots', 'KUKA', 'Networking', 'Robotics', 'Sponsorship'];
+  }
+
   const tags = new Set();
   const text = `${filename} ${title}`.toLowerCase();
   
@@ -648,31 +627,37 @@ export function buildCatalog() {
     totalSizeBytes += stat.size;
     
     // Check if we have curated metadata for this guide
-    const curated = GUIDE_DETAILS[filename] || {};
+    const curated = GUIDE_DATABASE[filename] || getFallbackData(filename, title, categoryId);
     
-    const summary = curated.summary || `Guía técnica y proyecto práctico sobre ${title}. Incluye esquemáticos, componentes recomendados y arquitectura detallada.`;
-    const subtitle = curated.subtitle || `${title} • Documentación y guía de desarrollo`;
-    const keyPoints = curated.keyPoints || [
-      `Arquitectura y fundamentos teóricos de ${title}`,
-      "Selección y desglose de componentes de hardware",
-      "Diagramas esquemáticos y diseño de circuito",
-      "Paso a paso de calibración, pruebas y verificación",
-      "Código fuente / firmware y optimización de rendimiento"
-    ];
-    const technologies = curated.technologies || tags;
+    const finalTitle = curated.customTitle || title;
+    const summary = curated.summary;
+    const subtitle = curated.subtitle;
+    const keyProjects = curated.keyProjects || [];
+    const bom = curated.bom || [];
+    const image = curated.image;
     const difficulty = curated.difficulty || "Intermedio / Avanzado";
     const pageCount = curated.pageCount || 15;
+    const buildTimeTotal = curated.buildTimeTotal || "2-4 semanas";
+    const estimatedBudget = curated.estimatedBudget || "$100 - $200";
     
+    // Flatten keyPoints strings for quick card views
+    const keyPoints = keyProjects.map(p => `${p.id}. ${p.title} (${p.cost || ''}) — ${p.description.slice(0, 90)}...`);
+
     return {
       id: `guide-${String(index + 1).padStart(3, '0')}`,
       filename,
-      title,
+      title: finalTitle,
       subtitle,
       summary,
-      keyPoints,
-      technologies,
+      image,
       difficulty,
       pageCount,
+      buildTimeTotal,
+      estimatedBudget,
+      keyProjects,
+      bom,
+      keyPoints,
+      technologies: tags,
       relativePath: `Engineering guides/${filename}`,
       sizeBytes: stat.size,
       sizeFormatted: formatSize(stat.size),

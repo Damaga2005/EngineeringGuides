@@ -4,9 +4,9 @@ import SearchAndFilter from './components/SearchAndFilter';
 import GuideCard from './components/GuideCard';
 import GuideModal from './components/GuideModal';
 import StatsModal from './components/StatsModal';
+import GuideLanding from './components/GuideLanding';
 import { CATEGORY_DEFINITIONS } from './data/categories';
 import { 
-  Cpu, 
   Sparkles, 
   AlertCircle, 
   CheckCircle2, 
@@ -19,6 +19,11 @@ export default function App() {
   const [catalogMetadata, setCatalogMetadata] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+
+  // Routing via Hash
+  const [currentRoute, setCurrentRoute] = useState(() => {
+    return window.location.hash || '';
+  });
 
   // Filter and Sort states
   const [searchQuery, setSearchQuery] = useState('');
@@ -46,6 +51,15 @@ export default function App() {
   // Live Sync status
   const [isSyncing, setIsSyncing] = useState(false);
   const [syncMessage, setSyncMessage] = useState(null);
+
+  // Listen to hash change for browser navigation
+  useEffect(() => {
+    const handleHashChange = () => {
+      setCurrentRoute(window.location.hash || '');
+    };
+    window.addEventListener('hashchange', handleHashChange);
+    return () => window.removeEventListener('hashchange', handleHashChange);
+  }, []);
 
   // Load catalog on mount
   useEffect(() => {
@@ -85,6 +99,24 @@ export default function App() {
     );
   };
 
+  // Determine active guide if on a landing route (#/guide/:id)
+  const activeLandingGuide = useMemo(() => {
+    const match = currentRoute.match(/^#\/guide\/(guide-\d+|[a-zA-Z0-9_-]+)$/);
+    if (match) {
+      const guideId = match[1];
+      return guides.find(g => g.id === guideId) || null;
+    }
+    return null;
+  }, [currentRoute, guides]);
+
+  const navigateToLanding = (guide) => {
+    window.location.hash = `#/guide/${guide.id}`;
+  };
+
+  const navigateToCatalog = () => {
+    window.location.hash = '';
+  };
+
   // Live Sync with GitHub API
   const handleLiveSync = async () => {
     setIsSyncing(true);
@@ -97,18 +129,30 @@ export default function App() {
       const remoteFiles = await response.json();
       const pdfFiles = remoteFiles.filter(item => item.type === 'file' && item.name.toLowerCase().endsWith('.pdf'));
 
-      // Check for any newly added files not yet in guides
       const currentFilenames = new Set(guides.map(g => g.filename));
       const newlyDiscovered = [];
 
       pdfFiles.forEach((rf, idx) => {
         if (!currentFilenames.has(rf.name)) {
-          // Format title and tags
-          const cleanName = rf.name.replace(/\.pdf$/i, '').replace(/[_]/g, ' ').trim();
+          const cleanName = rf.name === 'follow @1nska.pdf' 
+            ? 'The Robot Framework: Patrocinio de Robots de $30.000'
+            : rf.name.replace(/\.pdf$/i, '').replace(/[_]/g, ' ').trim();
+
           newlyDiscovered.push({
             id: `guide-remote-${Date.now()}-${idx}`,
             filename: rf.name,
             title: cleanName,
+            subtitle: "Guía técnica recién sincronizada desde GitHub",
+            summary: "Documento técnico y proyectos añadidos recientemente al repositorio oficial de EngineeringGuides.",
+            image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80",
+            difficulty: "Intermedio",
+            pageCount: 16,
+            keyProjects: [
+              { id: 1, title: "Proyectos y esquemáticos incluidos", cost: "Variable", time: "1-2 semanas", description: "Ver documentación completa en el archivo PDF oficial.", components: ["Ver PDF"] }
+            ],
+            bom: [
+              { name: "Ver especificaciones en PDF", type: "Documentación", specs: "PDF Original", cost: "N/A" }
+            ],
             relativePath: `Engineering guides/${rf.name}`,
             sizeBytes: rf.size,
             sizeFormatted: `${(rf.size / (1024 * 1024)).toFixed(1)} MB`,
@@ -136,7 +180,7 @@ export default function App() {
       console.warn('GitHub Live Sync fallback:', err);
       setSyncMessage({
         type: 'warning',
-        text: 'No se pudo conectar directamente a la API de GitHub (límite de peticiones anónimas alcanzado). El catálogo local sigue disponible.'
+        text: 'No se pudo conectar directamente a la API de GitHub (límite anónimo alcanzado). El catálogo local sigue disponible.'
       });
     } finally {
       setIsSyncing(false);
@@ -144,14 +188,13 @@ export default function App() {
     }
   };
 
-  // Helper for live sync detection
   const detectCategoryFromText = (text) => {
     const lower = text.toLowerCase();
     if (lower.includes('satellite') || lower.includes('space') || lower.includes('sky')) return 'aerospace';
     if (lower.includes('drone') || lower.includes('precision') || lower.includes('ohmie')) return 'robotics-drones';
     if (lower.includes('cs') || lower.includes('ai') || lower.includes('ml')) return 'cs-ai';
     if (lower.includes('electronics') || lower.includes('radio') || lower.includes('body')) return 'electronics';
-    if (lower.includes('portfolio') || lower.includes('recruiter')) return 'career';
+    if (lower.includes('portfolio') || lower.includes('recruiter') || lower.includes('follow') || lower.includes('robot framework')) return 'career';
     return 'ee-general';
   };
 
@@ -159,17 +202,14 @@ export default function App() {
   const filteredAndSortedGuides = useMemo(() => {
     let result = [...guides];
 
-    // Favorites only
     if (showOnlyFavorites) {
       result = result.filter(g => favorites.includes(g.id));
     }
 
-    // Category filter
     if (selectedCategory !== 'all') {
       result = result.filter(g => g.categoryId === selectedCategory);
     }
 
-    // Search query filter
     if (searchQuery.trim()) {
       const q = searchQuery.toLowerCase().trim();
       result = result.filter(g => {
@@ -184,7 +224,6 @@ export default function App() {
       });
     }
 
-    // Sorting
     result.sort((a, b) => {
       if (sortBy === 'name-asc') return a.title.localeCompare(b.title);
       if (sortBy === 'name-desc') return b.title.localeCompare(a.title);
@@ -197,7 +236,6 @@ export default function App() {
     return result;
   }, [guides, showOnlyFavorites, favorites, selectedCategory, searchQuery, sortBy]);
 
-  // Category counts
   const categoryCounts = useMemo(() => {
     const counts = { all: guides.length };
     CATEGORY_DEFINITIONS.forEach(cat => {
@@ -208,6 +246,21 @@ export default function App() {
     return counts;
   }, [guides]);
 
+  // If viewing an individual Guide Landing Page
+  if (activeLandingGuide) {
+    return (
+      <GuideLanding
+        guide={activeLandingGuide}
+        allGuides={guides}
+        onBack={navigateToCatalog}
+        onSelectGuide={(id) => { window.location.hash = `#/guide/${id}`; }}
+        isFavorite={favorites.includes(activeLandingGuide.id)}
+        onToggleFavorite={toggleFavorite}
+      />
+    );
+  }
+
+  // Catalog View
   return (
     <div className="min-h-screen flex flex-col bg-[#0B0F19] engineering-grid">
       
@@ -261,13 +314,13 @@ export default function App() {
               Biblioteca de <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-indigo-400 bg-clip-text text-transparent">Guías & Proyectos</span>
             </h1>
             <p className="mt-2 text-sm sm:text-base text-slate-400 max-w-2xl">
-              Explora, lee online o descarga guías prácticas de nivel avanzado: Electrónica de potencia, radiofrecuencia, robótica de drones, satélites y portafolio técnico.
+              Cada guía cuenta con su propia landing completa con lista de componentes ordenada, proyectos detallados y visor PDF oficial.
             </p>
           </div>
 
           <div className="flex items-center gap-3 self-center sm:self-end flex-shrink-0 font-mono text-xs text-slate-400 bg-slate-900/80 px-4 py-2.5 rounded-xl border border-slate-800">
             <div>
-              <span className="text-cyan-400 font-bold">{guides.length}</span> Guías Activas
+              <span className="text-cyan-400 font-bold">{guides.length}</span> Proyectos
             </div>
             <span>•</span>
             <div>
@@ -325,7 +378,7 @@ export default function App() {
             </button>
           </div>
         ) : viewMode === 'grid' ? (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {filteredAndSortedGuides.map(guide => (
               <GuideCard
                 key={guide.id}
@@ -334,12 +387,13 @@ export default function App() {
                 isFavorite={favorites.includes(guide.id)}
                 onToggleFavorite={toggleFavorite}
                 onOpenModal={setActiveGuideModal}
+                onOpenLanding={navigateToLanding}
                 onTagClick={(tag) => setSearchQuery(tag)}
               />
             ))}
           </div>
         ) : (
-          <div className="space-y-3">
+          <div className="space-y-4">
             {filteredAndSortedGuides.map(guide => (
               <GuideCard
                 key={guide.id}
@@ -348,6 +402,7 @@ export default function App() {
                 isFavorite={favorites.includes(guide.id)}
                 onToggleFavorite={toggleFavorite}
                 onOpenModal={setActiveGuideModal}
+                onOpenLanding={navigateToLanding}
                 onTagClick={(tag) => setSearchQuery(tag)}
               />
             ))}
@@ -360,7 +415,7 @@ export default function App() {
       <footer className="border-t border-slate-800/80 py-6 px-4 text-center text-xs text-slate-500 bg-slate-950/60 mt-12">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
           <div>
-            Engineering Guides Hub • Actualización automática mediante GitHub Actions y Google Drive
+            Engineering Guides Hub • Cada guía cuenta con landing técnica dedicada y visor PDF
           </div>
           <div className="flex items-center gap-4 text-slate-400">
             <a 
@@ -382,7 +437,7 @@ export default function App() {
         </div>
       </footer>
 
-      {/* PDF Viewer Modal */}
+      {/* Quick PDF Viewer Modal */}
       {activeGuideModal && (
         <GuideModal
           guide={activeGuideModal}
