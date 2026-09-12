@@ -239,7 +239,7 @@
             "whyThisMatters": "Night vision is the original force multiplier: the side that can see in the dark owns the night. Real image-intensifier tubes cost thousands, but a digital version is astonishingly cheap — a camera with its infrared filter removed sees near-IR light your eyes cannot, and an IR illuminator floods the scene with light that is invisible to everyone but your sensor. Build it into a monocular with a small display and you can walk through a pitch-black room, read a sign at 30 metres, and watch wildlife that has no idea it is lit. It is a beginner build with a jaw- dropping demo, and it teaches the sensor and optics fundamentals behind every EO/IR system. see everything coming — a Build List field guide 2 / 18 --- PAGE 3 ---"
           },
           "projectId": "proj-9cc1a42f66e7c4d5",
-          "projectSlug": "digital-night-vision-monocular-guide-001",
+          "projectSlug": "guide-001-p01-digital-night-vision-monocular",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -247,7 +247,7 @@
             "source": "guide-001"
           },
           "schematicSvg": "schematics/guide-001_p1.svg",
-          "sourcePageRange": "2-4",
+          "sourcePageRange": "2-5",
           "time": "1 fin de semana",
           "title": "Digital Night-Vision Monocular",
           "wiringTable": [
@@ -393,7 +393,7 @@
             "whyThisMatters": "The most talked-about piece of modern soldier equipment is the augmented-reality headset: a see- through display that overlays a compass, waypoints, teammate locations, and sensor alerts onto the real world, so the wearer never looks down at a map. You can build the core of one. A small bright display reflected off a half-mirror in front of your eye gives you a see-through HUD; an IMU compass and a GPS feed it heading and position; a radio brings in teammate positions and alerts. Turn your head and the bearing to the waypoint slides across your view. It is optics, embedded systems, and UI design in one build, and the first-person footage is unlike anything else in this series. see everything coming — a Build List field guide 5 / 18 --- PAGE 6 ---"
           },
           "projectId": "proj-a6a7911d0a82e714",
-          "projectSlug": "wearable-heads-up-display-hud-guide-001",
+          "projectSlug": "guide-001-p02-wearable-heads-up-display-hud",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -401,7 +401,7 @@
             "source": "guide-001"
           },
           "schematicSvg": "schematics/guide-001_p2.svg",
-          "sourcePageRange": "4-4",
+          "sourcePageRange": "5-8",
           "time": "1 fin de semana",
           "title": "Wearable Heads-Up Display (HUD)",
           "wiringTable": [
@@ -547,7 +547,7 @@
             "whyThisMatters": "The modern border and base perimeter is watched by autonomous sensor towers: they detect motion, classify what it is, slew a camera to track it, and alert an operator — no human staring at a screen. Build a small one: a pan-tilt camera head on a mast, a wide-field motion trigger, a person / vehicle classifier, a tracking loop that keeps the target centred, and an alert with a snapshot to your phone (or your command map in project 6). Watch it wake up, turn, and follow you across the yard. It is perception, control, and systems integration — and, because it only watches, entirely a sensor. see everything coming — a Build List field guide 8 / 18 --- PAGE 9 ---"
           },
           "projectId": "proj-7b3d0a559298c92a",
-          "projectSlug": "solar-perimeter-sentry-tower-guide-001",
+          "projectSlug": "guide-001-p03-solar-perimeter-sentry-tower",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -555,7 +555,7 @@
             "source": "guide-001"
           },
           "schematicSvg": "schematics/guide-001_p3.svg",
-          "sourcePageRange": "4-4",
+          "sourcePageRange": "8-11",
           "time": "2 fines de semana",
           "title": "Solar Perimeter Sentry Tower",
           "wiringTable": [
@@ -694,7 +694,7 @@
             "whyThisMatters": "A signals station doesn’t hunt one signal; it watches the whole spectrum, all the time. Build a permanent RF ground station: an SDR on a mast antenna, continuously sweeping the bands, logging what is on the air, decoding the public signals — aircraft (ADS-B), ships (AIS), weather satellites, broadcast — and raising an alert when a new emitter appears where there was none. Its waterfall dashboard becomes your radio picture of the area. It is the receive-only heart of a signals post, and it feeds the command map with everything that transmits nearby. see everything coming — a Build List field guide 11 / 18 --- PAGE 12 ---"
           },
           "projectId": "proj-cff102681e8f1361",
-          "projectSlug": "rf-spectrum-surveillance-station-guide-001",
+          "projectSlug": "guide-001-p04-rf-spectrum-surveillance-station",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -702,7 +702,7 @@
             "source": "guide-001"
           },
           "schematicSvg": "schematics/guide-001_p4.svg",
-          "sourcePageRange": "4-4",
+          "sourcePageRange": "11-13",
           "time": "1 fin de semana",
           "title": "RF Spectrum Surveillance Station",
           "wiringTable": [
@@ -848,7 +848,7 @@
             "whyThisMatters": "When the network is down, jammed, or simply absent, teams still need to talk and know where each other are. A LoRa mesh does exactly that: small radios that relay for each other, carrying short encrypted messages and GPS positions across kilometres with no infrastructure. Build a set of nodes, pair them, test range across your town, and watch teammate dots appear on a map — and on your HUD from project 2. It is networking, RF, and embedded in one, and it is the connective tissue of the whole situational-awareness stack. see everything coming — a Build List field guide 13 / 18 --- PAGE 14 ---"
           },
           "projectId": "proj-8df10854ea1082a6",
-          "projectSlug": "off-grid-lora-mesh-node-guide-001",
+          "projectSlug": "guide-001-p05-off-grid-lora-mesh-node",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -856,7 +856,7 @@
             "source": "guide-001"
           },
           "schematicSvg": "schematics/guide-001_p5.svg",
-          "sourcePageRange": "4-15",
+          "sourcePageRange": "13-15",
           "time": "1 día",
           "title": "Off-Grid LoRa Mesh Node",
           "wiringTable": [
@@ -1002,7 +1002,7 @@
             "whyThisMatters": "Tactical Situational Awareness Map es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-a74b6ca7835233c4",
-          "projectSlug": "tactical-situational-awareness-map-guide-001",
+          "projectSlug": "guide-001-p06-tactical-situational-awareness-map",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -1268,7 +1268,7 @@
             "whyThisMatters": "Outdoors, GPS tells the flight controller where the drone is. Indoors there is no GPS, and a drone drifts like a balloon in a draft. The fix is the same trick an optical mouse uses: a tiny downward camera (a PMW3901 optical-flow sensor) watches the floor texture slide by and reports velocity, while a rangefinder gives height. Feed both to the flight controller and it holds position — a hover you can let go of, indoors, that stays put. It is the cheapest, most dramatic upgrade there is, and it is the foundation for every kind of indoor autonomy. drone upgrades — a Build List field guide 2 / 16 --- PAGE 3 ---"
           },
           "projectId": "proj-3c8e3f6f2e8b24be",
-          "projectSlug": "indoor-position-hold-optical-flow-tof-guide-002",
+          "projectSlug": "guide-002-p01-indoor-position-hold-optical-flow-tof",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -1276,7 +1276,7 @@
             "source": "guide-002"
           },
           "schematicSvg": "schematics/guide-002_p1.svg",
-          "sourcePageRange": "2-3",
+          "sourcePageRange": "2-4",
           "time": "1 fin de semana",
           "title": "Indoor Position Hold (Optical Flow + ToF)",
           "wiringTable": [
@@ -1422,7 +1422,7 @@
             "whyThisMatters": "A drone that can feel the walls is a fundamentally safer drone. Mount a ring of time-of-flight distance sensors around the frame, have a small microcontroller stream the nearest obstacle in each direction to the flight controller as proximity data, and the controller’s own avoidance logic takes over: fly toward a wall and the drone stops short, or slides along it, no matter what the sticks say. Push it toward a doorway and it refuses to hit the frame. It is the flagship of this guide — sensing, integration, and control behaviour in one upgrade — and it is the same layered safety architecture real autonomous drones use. drone upgrades — a Build List field guide 4 / 16 --- PAGE 5 ---"
           },
           "projectId": "proj-7251513973158948",
-          "projectSlug": "obstacle-avoidance-sensor-ring-guide-002",
+          "projectSlug": "guide-002-p02-obstacle-avoidance-sensor-ring",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -1430,7 +1430,7 @@
             "source": "guide-002"
           },
           "schematicSvg": "schematics/guide-002_p2.svg",
-          "sourcePageRange": "3-3",
+          "sourcePageRange": "4-7",
           "time": "1 fin de semana",
           "title": "Obstacle-Avoidance Sensor Ring",
           "wiringTable": [
@@ -1569,7 +1569,7 @@
             "whyThisMatters": "Motors fail, batteries fail, and a drone that loses power becomes a falling brick. A parachute recovery system detects the fall — or takes a command — kills the motors, and deploys a canopy so the aircraft comes down at a walking pace instead of terminal velocity. Commercial systems cost hundreds; you can build one with a spring-loaded tube, a servo pin, an accelerometer, and a properly sized canopy. It is the one upgrade that protects people on the ground as much as the drone, it is increasingly what regulators want for flights near people, and the deployment shot is spectacular. drone upgrades — a Build List field guide 7 / 16"
           },
           "projectId": "proj-171507a32b08d9c8",
-          "projectSlug": "parachute-recovery-system-guide-002",
+          "projectSlug": "guide-002-p03-parachute-recovery-system",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -1577,7 +1577,7 @@
             "source": "guide-002"
           },
           "schematicSvg": "schematics/guide-002_p3.svg",
-          "sourcePageRange": "3-3",
+          "sourcePageRange": "7-9",
           "time": "1 fin de semana",
           "title": "Parachute Recovery System",
           "wiringTable": [
@@ -1716,7 +1716,7 @@
             "whyThisMatters": "Motors fail, batteries fail, and a drone that loses power becomes a falling brick. A parachute recovery system detects the fall — or takes a command — kills the motors, and deploys a canopy so the aircraft comes down at a walking pace instead of terminal velocity. Commercial systems cost hundreds; you can build one with a spring-loaded tube, a servo pin, an accelerometer, and a properly sized canopy. It is the one upgrade that protects people on the ground as much as the drone, it is increasingly what regulators want for flights near people, and the deployment shot is spectacular. drone upgrades — a Build List field guide 7 / 16 --- PAGE 8 ---"
           },
           "projectId": "proj-b4e3670bf00a9de2",
-          "projectSlug": "2-axis-brushless-gimbal-foc-guide-002",
+          "projectSlug": "guide-002-p04-2-axis-brushless-gimbal-foc",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -1724,7 +1724,7 @@
             "source": "guide-002"
           },
           "schematicSvg": "schematics/guide-002_p4.svg",
-          "sourcePageRange": "3-3",
+          "sourcePageRange": "9-11",
           "time": "2 fines de semana",
           "title": "2-Axis Brushless Gimbal (FOC)",
           "wiringTable": [
@@ -1863,7 +1863,7 @@
             "whyThisMatters": "Raw drone footage is a jittery mess because the camera rides every twitch of the airframe. A brushless gimbal fixes that: an IMU on the camera measures its attitude hundreds of times a second and two brushless motors, driven smoothly with field- oriented control, hold it level no matter what the drone does. Build one and your footage goes from home video to broadcast- smooth. It is mechatronics, control, and the same FOC drive technology behind robot joints — and it is the upgrade that most changes what your drone produces. drone upgrades — a Build List field guide 9 / 16 --- PAGE 10 ---"
           },
           "projectId": "proj-217f596a43c24e22",
-          "projectSlug": "vision-precision-landing-guide-002",
+          "projectSlug": "guide-002-p05-vision-precision-landing",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -1871,7 +1871,7 @@
             "source": "guide-002"
           },
           "schematicSvg": "schematics/guide-002_p5.svg",
-          "sourcePageRange": "3-13",
+          "sourcePageRange": "11-13",
           "time": "1 fin de semana",
           "title": "Vision Precision Landing",
           "wiringTable": [
@@ -2010,7 +2010,7 @@
             "whyThisMatters": "GPS puts a drone down within a couple of metres, which is useless for docking, charging, or landing on a vehicle. Precision landing uses a downward camera to see a fiducial marker on the pad, computes exactly where the pad is relative to the drone, and steers the descent so it touches down centred — the technology behind every autonomous docking and charging drone. Add a small companion computer, a camera, and a printed tag, and your drone lands itself on a pad the size of a coaster. It is computer vision, coordinate transforms, and controller integration, and the demo is undeniable. drone upgrades — a Build List field guide 11 / 16 --- PAGE 12 ---"
           },
           "projectId": "proj-a906f1e86a9caa9f",
-          "projectSlug": "signal-mapping-payload-guide-002",
+          "projectSlug": "guide-002-p06-signal-mapping-payload",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -2296,7 +2296,7 @@
             "whyThisMatters": "Cold-Gas Reaction Thruster es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-2af812b638d86e49",
-          "projectSlug": "cold-gas-reaction-thruster-guide-003",
+          "projectSlug": "guide-003-p01-cold-gas-reaction-thruster",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -2450,7 +2450,7 @@
             "whyThisMatters": "Auto-Tracking Ground Station es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-8c76d2f0e14a7e6d",
-          "projectSlug": "auto-tracking-ground-station-guide-003",
+          "projectSlug": "guide-003-p02-auto-tracking-ground-station",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -2596,7 +2596,7 @@
             "whyThisMatters": "Magnetorquer Detumble System es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-ca734fe29c1ae5d0",
-          "projectSlug": "magnetorquer-detumble-system-guide-003",
+          "projectSlug": "guide-003-p03-magnetorquer-detumble-system",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -2742,7 +2742,7 @@
             "whyThisMatters": "CubeSat Flight Computer (OBC) es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-c552597bc8d468cc",
-          "projectSlug": "cubesat-flight-computer-obc-guide-003",
+          "projectSlug": "guide-003-p04-cubesat-flight-computer-obc",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -2888,7 +2888,7 @@
             "whyThisMatters": "Sun-Vector Attitude Sensor es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-4e59318e9573e811",
-          "projectSlug": "sun-vector-attitude-sensor-guide-003",
+          "projectSlug": "guide-003-p05-sun-vector-attitude-sensor",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -3034,7 +3034,7 @@
             "whyThisMatters": "CubeSat Power System (EPS) es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-1c9a39c563794ef5",
-          "projectSlug": "cubesat-power-system-eps-guide-003",
+          "projectSlug": "guide-003-p06-cubesat-power-system-eps",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -3300,7 +3300,7 @@
             "whyThisMatters": "ADS-B Aircraft Radar es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-fe7e3a913842843d",
-          "projectSlug": "ads-b-aircraft-radar-guide-004",
+          "projectSlug": "guide-004-p01-ads-b-aircraft-radar",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -3446,7 +3446,7 @@
             "whyThisMatters": "TPMS Car-ID Sniffer es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-c7b41f4c9e7635d2",
-          "projectSlug": "tpms-car-id-sniffer-guide-004",
+          "projectSlug": "guide-004-p02-tpms-car-id-sniffer",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -3592,7 +3592,7 @@
             "whyThisMatters": "Radio Meteor Scatter Detector es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-d9a1ad8519965884",
-          "projectSlug": "radio-meteor-scatter-detector-guide-004",
+          "projectSlug": "guide-004-p03-radio-meteor-scatter-detector",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -3738,7 +3738,7 @@
             "whyThisMatters": "AIS Marine Vessel Tracker es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-53dcbf9d339e022d",
-          "projectSlug": "ais-marine-vessel-tracker-guide-004",
+          "projectSlug": "guide-004-p04-ais-marine-vessel-tracker",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -3878,7 +3878,7 @@
             "whyThisMatters": "433 MHz ISM Sensor Decoder es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-ea0a6ca4f058bde4",
-          "projectSlug": "433-mhz-ism-sensor-decoder-guide-004",
+          "projectSlug": "guide-004-p05-433-mhz-ism-sensor-decoder",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -4024,7 +4024,7 @@
             "whyThisMatters": "Stratospheric Radiosonde Tracker es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-529f0d836c079877",
-          "projectSlug": "stratospheric-radiosonde-tracker-guide-004",
+          "projectSlug": "guide-004-p06-stratospheric-radiosonde-tracker",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -4295,7 +4295,7 @@
             "whyThisMatters": "Before a robot can balance, drive, or steer, something has to turn a control signal into torque. An H-bridge does exactly that: four switches that push current through a DC motor in either direction, plus PWM that sets how hard. Build one, drive a motor forward and reverse, ramp its speed smoothly, and sense the current it draws, and you have the power stage that sits under every motor-control project in this guide. It is the cheapest, most fundamental motor build, and the payoff is immediate — a motor that does exactly what your code says."
           },
           "projectId": "proj-097a8eaf224741a8",
-          "projectSlug": "closed-loop-stepper-controller-guide-005",
+          "projectSlug": "guide-005-p01-closed-loop-stepper-controller",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -4440,7 +4440,7 @@
             "whyThisMatters": "Open-loop, a motor just spins and you have no idea where it actually is. Add an encoder to measure its position and a PID controller to drive the error to zero, and the motor becomes a servo: command 90 degrees and it snaps there and holds, resisting if you push it. This is the single most important skill in motor control and robotics — closing the loop with feedback — and it is the foundation under every robot joint, CNC axis, and drone. Building your own PID position controller (rather than buying a servo) is the project that turns “I can spin a motor” into “I can control motion.”"
           },
           "projectId": "proj-f353d8bac54c1f1e",
-          "projectSlug": "field-oriented-control-foc-bldc-servo-guide-005",
+          "projectSlug": "guide-005-p02-field-oriented-control-foc-bldc-servo",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -4448,7 +4448,7 @@
             "source": "guide-005"
           },
           "schematicSvg": "schematics/guide-005_p2.svg",
-          "sourcePageRange": "3-3",
+          "sourcePageRange": "4-6",
           "time": "2 fines de semana",
           "title": "Field-Oriented Control (FOC) BLDC Servo",
           "wiringTable": [
@@ -4586,7 +4586,7 @@
             "whyThisMatters": "A two-wheel balancing robot is an inverted pendulum: left alone it falls, so it only stays upright because a controller is constantly catching it. An IMU measures the tilt, a control loop computes how to drive the wheels to stay under the centre of mass, and the robot balances — leaning into a push and recovering. It is the most visually striking build in this guide and a genuine lesson in controlling an unstable system, sensor fusion, and cascaded control. If the closed-loop servo taught you to hold a position, this teaches you to stabilise something that actively wants to fall."
           },
           "projectId": "proj-49c8ccba97aec32a",
-          "projectSlug": "micrometric-linear-lead-screw-stage-guide-005",
+          "projectSlug": "guide-005-p03-micrometric-linear-lead-screw-stage",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -4594,7 +4594,7 @@
             "source": "guide-005"
           },
           "schematicSvg": "schematics/guide-005_p3.svg",
-          "sourcePageRange": "3-3",
+          "sourcePageRange": "7-9",
           "time": "1 fin de semana",
           "title": "Micrometric Linear Lead-Screw Stage",
           "wiringTable": [
@@ -4732,7 +4732,7 @@
             "whyThisMatters": "Brushless (BLDC / PMSM) motors are everywhere high performance matters — drones, EVs, robot joints, gimbals — because they are efficient, powerful, and long-lived. But they need electronic commutation: you must energise the right coils at the right instant based on rotor position. Field-Oriented Control (FOC) does this optimally, producing smooth, silent, full- torque-at-any-speed motion, even holding still. Building a FOC drive — with a position sensor, a three-phase driver, and a library like SimpleFOC — is the leap into modern motor control and one of the most in-demand EE skills in robotics and electrified everything."
           },
           "projectId": "proj-c1422fd48562f524",
-          "projectSlug": "pid-inverted-pendulum-balancer-guide-005",
+          "projectSlug": "guide-005-p04-pid-inverted-pendulum-balancer",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -4740,7 +4740,7 @@
             "source": "guide-005"
           },
           "schematicSvg": "schematics/guide-005_p4.svg",
-          "sourcePageRange": "3-3",
+          "sourcePageRange": "10-12",
           "time": "1 fin de semana",
           "title": "PID Inverted Pendulum Balancer",
           "wiringTable": [
@@ -4878,7 +4878,7 @@
             "whyThisMatters": "A single controlled motor is one thing; making several move together to trace a precise path is another. A 2-axis pen plotter coordinates two stepper motors so a pen follows straight lines, curves, and shapes — the same coordinated-motion and interpolation problem at the heart of 3D printers, CNC machines, and laser cutters. You build the motion controller: parse a path, break it into synchronised X / Y steps with proper acceleration, and watch the machine draw. It is a deeply satisfying, visual build that teaches trajectory planning and multi-axis coordination, a different and essential facet of motor control."
           },
           "projectId": "proj-f279f4481f7b38bd",
-          "projectSlug": "torque-limiting-linear-actuator-guide-005",
+          "projectSlug": "guide-005-p05-torque-limiting-linear-actuator",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -4886,7 +4886,7 @@
             "source": "guide-005"
           },
           "schematicSvg": "schematics/guide-005_p5.svg",
-          "sourcePageRange": "3-15",
+          "sourcePageRange": "13-15",
           "time": "1 fin de semana",
           "title": "Torque-Limiting Linear Actuator",
           "wiringTable": [
@@ -5024,7 +5024,7 @@
             "whyThisMatters": "Most knobs are passive; this one fights back. By driving a brushless motor with FOC and reading its exact angle, you can render torque as a function of position — so the same physical knob can feel like clicky detents, a smooth spring that returns to centre, or a hard end-stop, all changed in software. It is the technology behind high-end car controls and the viral “smart knob,” and it is a brilliant lesson in torque control and haptics: you are programming a force field you can feel with your fingers. It builds directly on FOC and turns motor control into a user interface."
           },
           "projectId": "proj-d69245bb938183fc",
-          "projectSlug": "3d-printed-cycloidal-drive-joint-guide-005",
+          "projectSlug": "guide-005-p06-3d-printed-cycloidal-drive-joint",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -5297,7 +5297,7 @@
             "whyThisMatters": "Every drone company assumes a graduate has only ever flashed Betaflight, and that assumption is usually correct. This project forces you through the part the firmware hides: raw gyro rates and accelerometer vectors coming in at 1 kHz, a complementary (or Kalman) filter turning them into a roll and pitch angle, and a PID loop turning that angle error into motor commands. You will discover that the textbook loop oscillates on a real rig, that the gyro drifts, that the accelerometer lies under vibration, and that the difference between a stable hover and a flip is a derivative term and a 100 Hz low-pass filter. Debugging that on a hinged one-axis test stand, with a logged plot of setpoint versus measured angle, is the actual skill a flight-controls engineer is hired for."
           },
           "projectId": "proj-14bca4088da46825",
-          "projectSlug": "custom-stm32-flight-controller-guide-006",
+          "projectSlug": "guide-006-p01-custom-stm32-flight-controller",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -5305,7 +5305,7 @@
             "source": "guide-006"
           },
           "schematicSvg": "schematics/guide-006_p1.svg",
-          "sourcePageRange": "2-3",
+          "sourcePageRange": "2-4",
           "time": "2 fines de semana",
           "title": "Custom STM32 Flight Controller",
           "wiringTable": [
@@ -5443,7 +5443,7 @@
             "whyThisMatters": "An ESC is a black box to most EE students: a $12 brick that turns a PWM signal into a spinning motor. Inside it is a three-phase half-bridge, gate drivers, a microcontroller and a way of finding the rotor without sensors — by watching the back-EMF zero crossing on the floating phase. Building it yourself means you will blow a MOSFET by shooting through a half-bridge, you will see the back-EMF on a scope and learn why it only appears once the motor is already turning, and you will write an open-loop start-up ramp that hands off to sensorless commutation. That is the exact circuit inside every motor controller in the industry, and the debugging — dead time, gate charge, current spikes — is the actual job."
           },
           "projectId": "proj-b3c136d8aa28f6f1",
-          "projectSlug": "high-speed-brushless-esc-guide-006",
+          "projectSlug": "guide-006-p02-high-speed-brushless-esc",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -5451,7 +5451,7 @@
             "source": "guide-006"
           },
           "schematicSvg": "schematics/guide-006_p2.svg",
-          "sourcePageRange": "3-3",
+          "sourcePageRange": "5-7",
           "time": "1 fin de semana",
           "title": "High-Speed Brushless ESC",
           "wiringTable": [
@@ -5589,7 +5589,7 @@
             "whyThisMatters": "Every drone beyond toy range needs a telemetry downlink, and every drone company has an RF person who owns it. This project gives you the whole chain: a GPS module and a LoRa radio on the airframe, a matching radio on a ground station, a packet format you designed, and a range test you actually ran. You will learn why LoRa trades bit rate for sensitivity, what a link budget is when you compute it from transmit power, antenna gain and receiver sensitivity, and why the first range test fails at 300 m because the antenna is lying flat against a carbon arm. The logged RSSI-versus-distance plot from a walk test is the kind of evidence an RF hiring manager reads in five seconds."
           },
           "projectId": "proj-7fc5453be6dbc568",
-          "projectSlug": "bidirectional-telemetry-link-guide-006",
+          "projectSlug": "guide-006-p03-bidirectional-telemetry-link",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -5597,7 +5597,7 @@
             "source": "guide-006"
           },
           "schematicSvg": "schematics/guide-006_p3.svg",
-          "sourcePageRange": "3-3",
+          "sourcePageRange": "8-10",
           "time": "1 fin de semana",
           "title": "Bidirectional Telemetry Link",
           "wiringTable": [
@@ -5743,7 +5743,7 @@
             "whyThisMatters": "A gimbal is a control loop you can see working: the camera stays level while you tilt the handle. Under that are two things a drone company cares about — sinusoidal open-loop drive of a brushless motor (three PWM sine waves 120° apart, no commutation sensors) and a fast PID loop closing on an IMU mounted on the camera plate itself. You will learn why the IMU must be on the payload and not the frame, why a 400 Hz loop with a 20 Hz plant still jitters if your PWM frequency is audible, and why the motor gets hot at standstill. The result is a two-axis rig holding a horizon in a video you can post, plus the logged angle error that proves it."
           },
           "projectId": "proj-95688bfbd098e78d",
-          "projectSlug": "power-distribution-board-shunt-monitor-guide-006",
+          "projectSlug": "guide-006-p04-power-distribution-board-shunt-monitor",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -5751,7 +5751,7 @@
             "source": "guide-006"
           },
           "schematicSvg": "schematics/guide-006_p4.svg",
-          "sourcePageRange": "3-3",
+          "sourcePageRange": "11-13",
           "time": "1 fin de semana",
           "title": "Power Distribution Board & Shunt Monitor",
           "wiringTable": [
@@ -5883,7 +5883,7 @@
             "whyThisMatters": "Batteries decide flight time and batteries cause crashes, so every drone company has someone who owns the power module. This project is that module: a shunt resistor and current-sense amplifier for pack current, a resistor-divider per cell into a multiplexed ADC for cell voltages, and firmware that integrates current into mAh consumed and flags a weak cell. You will learn why a 0.5 m\u0000 shunt needs a 50 V/V amplifier, why the divider ratio matters for ADC resolution, why cell voltage under load and at rest are different numbers, and why mAh consumed is a better land-now signal than voltage. The logged discharge curve you produce is the first thing a battery engineer asks for."
           },
           "projectId": "proj-4a566f25189a6e42",
-          "projectSlug": "attitude-sensor-fusion-engine-guide-006",
+          "projectSlug": "guide-006-p05-attitude-sensor-fusion-engine",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -5891,7 +5891,7 @@
             "source": "guide-006"
           },
           "schematicSvg": "schematics/guide-006_p5.svg",
-          "sourcePageRange": "4-16",
+          "sourcePageRange": "14-16",
           "time": "1 fin de semana",
           "title": "Attitude Sensor Fusion Engine",
           "wiringTable": [
@@ -6022,7 +6022,7 @@
             "whyThisMatters": "Indoor drones are the fastest-growing part of the industry — warehouse inventory, tunnel and tank inspection — and none of them have GPS. This project is the answer those teams actually use: ultra-wideband ranging. Three ESP32 + DW1000 anchors on tripods, one tag on the airframe, two-way ranging that times a radio pulse round trip to nanoseconds, and trilateration that turns three distances into an x/y position on a laptop map. You will learn why UWB can range to centimetres when WiFi cannot, why antenna delay calibration is the whole game, and why three anchors give you a position but four give you a sanity check. The logged position trace as you walk a square is proof you can build a localization system, not just call a library."
           },
           "projectId": "proj-996be849dd024582",
-          "projectSlug": "high-rate-spi-blackbox-logger-guide-006",
+          "projectSlug": "guide-006-p06-high-rate-spi-blackbox-logger",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -6302,7 +6302,7 @@
             "whyThisMatters": "GOES Full-Disk Earth Receiver (1.7 GHz) es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-63a47ba3fd3f219d",
-          "projectSlug": "goes-full-disk-earth-receiver-17-ghz-guide-007",
+          "projectSlug": "guide-007-p01-goes-full-disk-earth-receiver-17-ghz",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -6455,7 +6455,7 @@
             "whyThisMatters": "Meteor-M2 Weather Satellite Receiver (137 MHz) es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-b1dfc8d06e85f822",
-          "projectSlug": "meteor-m2-weather-satellite-receiver-137-mhz-guide-007",
+          "projectSlug": "guide-007-p02-meteor-m2-weather-satellite-receiver-137-mhz",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -6609,7 +6609,7 @@
             "whyThisMatters": "Reaction-Wheel Attitude Controller es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-922a000850e8b5a5",
-          "projectSlug": "reaction-wheel-attitude-controller-guide-007",
+          "projectSlug": "guide-007-p03-reaction-wheel-attitude-controller",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -6756,7 +6756,7 @@
             "whyThisMatters": "Camera-Based Star Tracker es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-ab2410b28d3cebe9",
-          "projectSlug": "camera-based-star-tracker-guide-007",
+          "projectSlug": "guide-007-p04-camera-based-star-tracker",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -6910,7 +6910,7 @@
             "whyThisMatters": "GPS-Disciplined Oscillator (GPSDO) es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-4f6fea2cf64f5efa",
-          "projectSlug": "gps-disciplined-oscillator-gpsdo-guide-007",
+          "projectSlug": "guide-007-p05-gps-disciplined-oscillator-gpsdo",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -7056,7 +7056,7 @@
             "whyThisMatters": "Cosmic-Ray Muon Detector es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-34a96d7e92205063",
-          "projectSlug": "cosmic-ray-muon-detector-guide-007",
+          "projectSlug": "guide-007-p06-cosmic-ray-muon-detector",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -7329,7 +7329,7 @@
             "whyThisMatters": "The gentlest way into biosignals uses no electrodes at all. Shine light into tissue and a photodiode sees it dim slightly with every heartbeat, because each pulse of blood absorbs a little more. That is photoplethysmography (PPG) — the exact sensor on the back of every smartwatch and fitness ring. A $5 module gives you a raw optical waveform; your job is to pull the tiny pulsatile component out of a big steady one, filter it, and count peaks into a heart rate. It teaches the AC-on-DC structure that runs through every biosignal in this guide, without ever touching a skin electrode."
           },
           "projectId": "proj-ce306b5cb95f8c2a",
-          "projectSlug": "3-lead-ecg-heart-rate-monitor-guide-008",
+          "projectSlug": "guide-008-p01-3-lead-ecg-heart-rate-monitor",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -7476,7 +7476,7 @@
             "whyThisMatters": "Your body produces electrical signals measured in millivolts — and it also acts as an antenna that picks up the mains hum flooding every room, often a thousand times larger than the signal you want. The instrumentation amplifier is the circuit that solves this: it amplifies only the difference between two electrodes while rejecting everything they see in common. Add a driven-reference electrode and careful filtering and suddenly a heartbeat or a muscle twitch emerges from the noise. This is the single circuit that makes ECG, EMG, and EEG possible, and building it yourself — rather than buying a module — is what separates people who understand biosignals from people who plug in a breakout board."
           },
           "projectId": "proj-2f202e89ff045441",
-          "projectSlug": "emg-muscle-controlled-prosthetic-trigger-guide-008",
+          "projectSlug": "guide-008-p02-emg-muscle-controlled-prosthetic-trigger",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -7484,7 +7484,7 @@
             "source": "guide-008"
           },
           "schematicSvg": "schematics/guide-008_p2.svg",
-          "sourcePageRange": "4-4",
+          "sourcePageRange": "5-7",
           "time": "1 fin de semana",
           "title": "EMG Muscle-Controlled Prosthetic Trigger",
           "wiringTable": [
@@ -7622,7 +7622,7 @@
             "whyThisMatters": "Every beat of your heart is a coordinated electrical wave, and it is large enough to read from your skin. Put two electrodes across your chest or arms, run them into a biopotential front end, and the classic PQRST complex appears on screen: the small P wave as the atria fire, the sharp QRS spike as the ventricles contract, the broad T wave as they reset. Then detect those R peaks and you have a live heart rate and beat-to-beat variability. It is the most iconic biosignal there is, the payoff is unmistakable, and it is the project that proves you can build precision analog that works on a living system."
           },
           "projectId": "proj-f04cc7365f79eb84",
-          "projectSlug": "single-channel-alpha-wave-eeg-monitor-guide-008",
+          "projectSlug": "guide-008-p03-single-channel-alpha-wave-eeg-monitor",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -7630,7 +7630,7 @@
             "source": "guide-008"
           },
           "schematicSvg": "schematics/guide-008_p3.svg",
-          "sourcePageRange": "4-4",
+          "sourcePageRange": "8-11",
           "time": "1 fin de semana",
           "title": "Single-Channel Alpha-Wave EEG Monitor",
           "wiringTable": [
@@ -7768,7 +7768,7 @@
             "whyThisMatters": "When you contract a muscle, hundreds of motor units fire and their summed action potentials reach the skin as surface EMG — a burst of noisy, high-frequency activity whose amplitude tracks how hard you are pushing. Reuse your biopotential front end, shift the filter band upward, rectify and smooth the result, and you get a clean “muscle effort” signal you can plot, threshold, or use as a control input. It is the biosignal most useful as an interface, and it is the direct prerequisite for the myoelectric hand in project 5."
           },
           "projectId": "proj-02bea515e35b1b01",
-          "projectSlug": "dual-wavelength-pulse-oximeter-ppg-guide-008",
+          "projectSlug": "guide-008-p04-dual-wavelength-pulse-oximeter-ppg",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -7776,7 +7776,7 @@
             "source": "guide-008"
           },
           "schematicSvg": "schematics/guide-008_p4.svg",
-          "sourcePageRange": "4-4",
+          "sourcePageRange": "12-13",
           "time": "1 día",
           "title": "Dual-Wavelength Pulse Oximeter (PPG)",
           "wiringTable": [
@@ -7907,7 +7907,7 @@
             "whyThisMatters": "This is the build that makes people stop scrolling. Take the EMG envelope from project 4, map it to servo positions, and a tendon-driven robotic hand opens and closes in time with your own muscle — the same myoelectric principle behind real prosthetic limbs. Add a second EMG channel (flexor and extensor) and you can command open and close independently; map the envelope proportionally and the grip strength follows your effort. It ties every skill in this guide together into a single, visceral demo: biology in, mechanics out."
           },
           "projectId": "proj-b02bcca777dfb105",
-          "projectSlug": "galvanic-skin-response-gsr-stress-sensor-guide-008",
+          "projectSlug": "guide-008-p05-galvanic-skin-response-gsr-stress-sensor",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -7915,7 +7915,7 @@
             "source": "guide-008"
           },
           "schematicSvg": "schematics/guide-008_p5.svg",
-          "sourcePageRange": "4-16",
+          "sourcePageRange": "14-16",
           "time": "1 día",
           "title": "Galvanic Skin Response (GSR) Stress Sensor",
           "wiringTable": [
@@ -8053,7 +8053,7 @@
             "whyThisMatters": "EEG is the hardest biosignal there is: tens of microvolts, a hundred times smaller than an ECG, buried under mains hum, muscle tension, and eye movement. But there is one effect a careful DIY rig can genuinely capture — the alpha rhythm. Relax with your eyes closed and an 8 to 12 Hz oscillation appears over the back of your head; open your eyes and it vanishes within a second. Watching that band power rise and fall on an FFT, on command, is the most demanding and most rewarding build in this guide — and it is a real, reproducible neuroscience result, not a gimmick."
           },
           "projectId": "proj-a8e6f7c0ed91345a",
-          "projectSlug": "bio-impedance-body-composition-analyzer-guide-008",
+          "projectSlug": "guide-008-p06-bio-impedance-body-composition-analyzer",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -8326,7 +8326,7 @@
             "whyThisMatters": "The simplest thing you can do with light is notice when it stops arriving. Point a laser at a photodiode and you have a beam; break it and a voltage collapses in microseconds. Put two beams a known distance apart, time how long an object takes to cross from one to the other, and you have a speed trap — clock a Nerf dart, a dropped ball, a swinging door. It is the cheapest possible photonics build, the response is instant and visual, and it teaches the photodetection front end that every later project in this guide depends on."
           },
           "projectId": "proj-3e3f9a100e72ef01",
-          "projectSlug": "optical-break-beam-speed-trap-guide-009",
+          "projectSlug": "guide-009-p01-optical-break-beam-speed-trap",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 1,
@@ -8473,7 +8473,7 @@
             "whyThisMatters": "Radar measures distance with radio; LiDAR does it with light. A time-of-flight sensor fires a pulse of infrared light, measures how long it takes to bounce back, and multiplies by the speed of light to get range — millimetre-accurate, dozens of times a second. Building one around a module like the VL53L1X gets you a working laser rangefinder in an afternoon, and understanding what it does underneath — pulse timing versus phase, the speed of light, photon statistics — is the foundation of every autonomous-vehicle and robotics perception stack. This is the headline build, and it feeds straight into the scanner in project 3."
           },
           "projectId": "proj-683b8320c77d62a2",
-          "projectSlug": "laser-rangefinder-tof-lidar-guide-009",
+          "projectSlug": "guide-009-p02-laser-rangefinder-tof-lidar",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 1,
@@ -8481,7 +8481,7 @@
             "source": "guide-009"
           },
           "schematicSvg": "schematics/guide-009_p2.svg",
-          "sourcePageRange": "4-4",
+          "sourcePageRange": "5-7",
           "time": "1 fin de semana",
           "title": "Laser Rangefinder (ToF LiDAR)",
           "wiringTable": [
@@ -8619,7 +8619,7 @@
             "whyThisMatters": "One distance reading is a number; thousands of them swept through a circle is a map. Mount your time-of-flight sensor on a rotating platform, log distance against angle as it spins, and plot the result — the outline of your room appears as a 2D point cloud, exactly like the LiDAR on a robot vacuum or the spinning sensor on an early self-driving car. This is the most visual build in the guide and the bridge from “I measured a distance” to “I perceived a space,” which is the heart of robot navigation and SLAM."
           },
           "projectId": "proj-4298d36c898dd8e5",
-          "projectSlug": "spinning-lidar-room-scanner-guide-009",
+          "projectSlug": "guide-009-p03-spinning-lidar-room-scanner",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 1,
@@ -8627,7 +8627,7 @@
             "source": "guide-009"
           },
           "schematicSvg": "schematics/guide-009_p3.svg",
-          "sourcePageRange": "4-4",
+          "sourcePageRange": "8-9",
           "time": "2 fines de semana",
           "title": "Spinning LiDAR Room Scanner",
           "wiringTable": [
@@ -8772,7 +8772,7 @@
             "whyThisMatters": "Fibre-optic internet is just light carrying data down a glass thread — and you can do the same thing through open air with a laser and a photodiode. Modulate a laser’s brightness with an audio or digital signal, point it at a photodiode across the room, and recover the signal on the far side: a free-space optical link, the same idea as Li-Fi and satellite laser comms. It is a hands-on lesson in modulation, analog front ends, and why light is such a high- bandwidth carrier — and unlike radio it needs no licence and barely leaks past the beam."
           },
           "projectId": "proj-1cef58ba65d1d5e5",
-          "projectSlug": "free-space-optical-fso-laser-data-link-guide-009",
+          "projectSlug": "guide-009-p04-free-space-optical-fso-laser-data-link",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 1,
@@ -8780,7 +8780,7 @@
             "source": "guide-009"
           },
           "schematicSvg": "schematics/guide-009_p4.svg",
-          "sourcePageRange": "4-4",
+          "sourcePageRange": "10-11",
           "time": "1 fin de semana",
           "title": "Free-Space Optical (FSO) Laser Data Link",
           "wiringTable": [
@@ -8912,7 +8912,7 @@
             "whyThisMatters": "A camera sees a flat image; add a laser and geometry and you can recover depth. Project a thin laser line onto an object, watch from a camera offset to one side, and the line bends along the object’s contours — measure that bend and triangulation gives you the surface’s 3D shape. Sweep the line across the object and you reconstruct a full 3D model, the same structured-light principle behind many 3D scanners and depth cameras. It is the most ambitious optical build here and a direct lesson in the camera-plus-light geometry at the core of 3D vision."
           },
           "projectId": "proj-052a5c03c6733f19",
-          "projectSlug": "laser-doppler-vibrometer-guide-009",
+          "projectSlug": "guide-009-p05-laser-doppler-vibrometer",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 1,
@@ -8920,7 +8920,7 @@
             "source": "guide-009"
           },
           "schematicSvg": "schematics/guide-009_p5.svg",
-          "sourcePageRange": "4-14",
+          "sourcePageRange": "12-14",
           "time": "1 fin de semana",
           "title": "Laser Doppler Vibrometer",
           "wiringTable": [
@@ -9059,7 +9059,7 @@
             "whyThisMatters": "Structured-Light 3D Scanner es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-a01b6b6a4845f998",
-          "projectSlug": "structured-light-3d-scanner-guide-009",
+          "projectSlug": "guide-009-p06-structured-light-3d-scanner",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 1,
@@ -9332,7 +9332,7 @@
             "whyThisMatters": "Every radar on Earth starts with one idea: a moving object shifts the frequency of the radio it reflects. A pocket microwave module like the HB100 transmits a steady ~10.5 GHz tone and mixes it with the echo, and what comes out is an audio-frequency “beat” whose pitch is directly proportional to the target’s speed. Amplify that beat, sample it on an Arduino, run an FFT, and you can read how fast your hand — or a passing person — is moving, in real time. It is the cheapest possible way to build genuine radar, the payoff is immediate and visual, and it is the foundation every later project in this guide builds on."
           },
           "projectId": "proj-b31ec7524b983ae9",
-          "projectSlug": "105-ghz-doppler-motion-radar-guide-010",
+          "projectSlug": "guide-010-p01-105-ghz-doppler-motion-radar",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 1,
@@ -9479,7 +9479,7 @@
             "whyThisMatters": "A police speed gun and a baseball radar are, at heart, the project-1 Doppler front end with a calibrated readout and a display. This build locks down the speed calibration, adds peak-hold and a clean numeric display, and aims it at real targets: a car going past, a thrown ball, a bike. The result looks and behaves like a commercial speed gun — but you built the signal chain yourself and can explain every number on the screen. It is the most immediately impressive, demo-friendly upgrade in the guide, and a perfect “before / after” with project 1 for content."
           },
           "projectId": "proj-f4ffdb28464cbacb",
-          "projectSlug": "calibrated-radar-speed-gun-guide-010",
+          "projectSlug": "guide-010-p02-calibrated-radar-speed-gun",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 1,
@@ -9487,7 +9487,7 @@
             "source": "guide-010"
           },
           "schematicSvg": "schematics/guide-010_p2.svg",
-          "sourcePageRange": "4-4",
+          "sourcePageRange": "5-6",
           "time": "1 fin de semana",
           "title": "Calibrated Radar Speed Gun",
           "wiringTable": [
@@ -9625,7 +9625,7 @@
             "whyThisMatters": "Doppler tells you how fast something moves; FMCW (frequency-modulated continuous-wave) radar tells you how far away it is. By sweeping the transmit frequency up in a linear “chirp,” the returning echo is delayed — and because the transmitter has moved on in frequency during that delay, mixing the two produces a beat whose frequency encodes range. This is the exact technique inside automotive adaptive-cruise and weather radar, and building even a short- range version is the leap from “I detected motion” to “I measured the scene.” It is the most ambitious build here, so the trick is to build it module-based or as the classic coffee-can radar rather than laying out microwave boards from scratch."
           },
           "projectId": "proj-0e0c3069f5a83ea4",
-          "projectSlug": "fmcw-ranging-radar-24-ghz-guide-010",
+          "projectSlug": "guide-010-p03-fmcw-ranging-radar-24-ghz",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 1,
@@ -9633,7 +9633,7 @@
             "source": "guide-010"
           },
           "schematicSvg": "schematics/guide-010_p3.svg",
-          "sourcePageRange": "4-4",
+          "sourcePageRange": "7-9",
           "time": "2 fines de semana",
           "title": "FMCW Ranging Radar (24 GHz)",
           "wiringTable": [
@@ -9772,7 +9772,7 @@
             "whyThisMatters": "The same Doppler module that clocks a car can, pointed at a still person’s chest, pick up the sub-millimetre motion of breathing and the even tinier motion of a heartbeat. These show up as a slow “micro-Doppler” wobble riding on the radar’s phase; band-pass the signal into a respiration band (~0.1–0.5 Hz) and a cardiac band (~0.8–2 Hz) and you can pull out breaths- per-minute and a pulse without touching the subject. It is a genuinely striking demo — contactless vitals from a $4 module — and it introduces the phase-based micro-Doppler processing used in gesture sensing, fall detection, and contactless health."
           },
           "projectId": "proj-a88e25aca204d340",
-          "projectSlug": "micro-doppler-vital-signs-radar-guide-010",
+          "projectSlug": "guide-010-p04-micro-doppler-vital-signs-radar",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 1,
@@ -9780,7 +9780,7 @@
             "source": "guide-010"
           },
           "schematicSvg": "schematics/guide-010_p4.svg",
-          "sourcePageRange": "4-4",
+          "sourcePageRange": "10-12",
           "time": "1 fin de semana",
           "title": "Micro-Doppler Vital-Signs Radar",
           "wiringTable": [
@@ -9912,7 +9912,7 @@
             "whyThisMatters": "You do not even need a radar transmitter to sense motion — the WiFi already in the room will do it. A standard ESP32 can expose its WiFi channel-state information (CSI): a fine-grained measurement of how the radio channel between two devices changes. When a person moves, they perturb the multipath, and the CSI fluctuates in a way you can detect — presence and motion sensing, through walls, with a $10 microcontroller and no camera. It is the most accessible entry point into the very active research area of WiFi sensing (the basis of the new IEEE 802.11bf sensing standard), and it costs almost nothing."
           },
           "projectId": "proj-4902d58497d90422",
-          "projectSlug": "through-wall-wifi-motion-detector-guide-010",
+          "projectSlug": "guide-010-p05-through-wall-wifi-motion-detector",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 1,
@@ -9920,7 +9920,7 @@
             "source": "guide-010"
           },
           "schematicSvg": "schematics/guide-010_p5.svg",
-          "sourcePageRange": "4-15",
+          "sourcePageRange": "13-15",
           "time": "1 fin de semana",
           "title": "Through-Wall WiFi Motion Detector",
           "wiringTable": [
@@ -10051,7 +10051,7 @@
             "whyThisMatters": "The most elegant build here transmits nothing at all. A powerful FM or digital-TV station already floods the sky with radio; passive (bistatic) radar listens to that signal directly on one receiver and to its echoes off passing aircraft on a second, then cross-correlates the two to reveal the planes’ range and Doppler. You build a radar that is completely silent — undetectable, license-free, and powered entirely by transmitters that already exist. It is the hardest project in the set because it demands two coherent, clock-locked receivers and real cross-ambiguity processing, which is exactly why it is the standout portfolio piece."
           },
           "projectId": "proj-82f234929af2fa43",
-          "projectSlug": "passive-bistatic-radar-guide-010",
+          "projectSlug": "guide-010-p06-passive-bistatic-radar",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 1,
@@ -10330,7 +10330,7 @@
             "whyThisMatters": "Every ship, aircraft, drone, and vehicle depends on GNSS for position and precise time, which makes it one of the most important — and most contested — signals in defense. Building a receiver is the way in: a $12 module locks onto satellites 20,000 km overhead and hands you latitude, longitude, altitude, and nanosecond-grade time, and with an SDR you can even glimpse the raw signal buried below the noise floor. Understanding how GNSS works, and why it is so fragile, is foundational to positioning, navigation, and timing (PNT) engineering — one of the largest and most strategically vital areas of defense EE. defense signals — a Build List field guide 2 / 17 --- PAGE 3 ---"
           },
           "projectId": "proj-1a64e60857cbc87d",
-          "projectSlug": "gnss-receiver-resilience-analysis-guide-011",
+          "projectSlug": "guide-011-p01-gnss-receiver-resilience-analysis",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -10338,7 +10338,7 @@
             "source": "guide-011"
           },
           "schematicSvg": "schematics/guide-011_p1.svg",
-          "sourcePageRange": "2-4",
+          "sourcePageRange": "2-5",
           "time": "1 fin de semana",
           "title": "GNSS Receiver & Resilience Analysis",
           "wiringTable": [
@@ -10490,7 +10490,7 @@
             "whyThisMatters": "Finding where a radio signal comes from is one of the oldest and most important jobs in defense electronics — search and rescue, spectrum enforcement, electronic warfare, and signals intelligence all rest on it. Build a direction finder and you can watch a bearing swing to point straight at a hidden transmitter across a field. The accessible version uses a single SDR with a directional antenna and signal strength, or a pseudo-Doppler array; the serious version uses a coherent multi- channel SDR to compute true angle-of-arrival from phase. It is the marquee build of this guide — visual, deeply technical, and a direct window into how SIGINT and EW systems locate emitters. defense signals — a Build List field guide 5 / 17"
           },
           "projectId": "proj-1c2472bca80aab75",
-          "projectSlug": "rf-direction-finder-pseudo-doppler-guide-011",
+          "projectSlug": "guide-011-p02-rf-direction-finder-pseudo-doppler",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -10498,7 +10498,7 @@
             "source": "guide-011"
           },
           "schematicSvg": "schematics/guide-011_p2.svg",
-          "sourcePageRange": "4-4",
+          "sourcePageRange": "5-8",
           "time": "2 fines de semana",
           "title": "RF Direction Finder (Pseudo-Doppler)",
           "wiringTable": [
@@ -10650,7 +10650,7 @@
             "whyThisMatters": "Finding where a radio signal comes from is one of the oldest and most important jobs in defense electronics — search and rescue, spectrum enforcement, electronic warfare, and signals intelligence all rest on it. Build a direction finder and you can watch a bearing swing to point straight at a hidden transmitter across a field. The accessible version uses a single SDR with a directional antenna and signal strength, or a pseudo-Doppler array; the serious version uses a coherent multi- channel SDR to compute true angle-of-arrival from phase. It is the marquee build of this guide — visual, deeply technical, and a direct window into how SIGINT and EW systems locate emitters. defense signals — a Build List field guide 5 / 17 --- PAGE 6 ---"
           },
           "projectId": "proj-a42110a4f7ea7e4a",
-          "projectSlug": "magnetic-anomaly-detector-fluxgate-guide-011",
+          "projectSlug": "guide-011-p03-magnetic-anomaly-detector-fluxgate",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -10658,7 +10658,7 @@
             "source": "guide-011"
           },
           "schematicSvg": "schematics/guide-011_p3.svg",
-          "sourcePageRange": "4-4",
+          "sourcePageRange": "8-10",
           "time": "1 fin de semana",
           "title": "Magnetic Anomaly Detector (Fluxgate)",
           "wiringTable": [
@@ -10700,7 +10700,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-aa44c6aaa4962e17",
+          "canonicalProjectId": "cproj-ad5fbfda2e7f1aab",
           "components": [
             "Geófono SM-24 4.5Hz",
             "Op-amp bajo ruido OPA227",
@@ -10803,7 +10803,7 @@
             "whyThisMatters": "A large steel object — a vehicle, a pipe, a ship — distorts the Earth’s magnetic field around it, and a sensitive magnetometer can detect that distortion from a distance, with no contact and no emission. This is magnetic anomaly detection (MAD), used in defense for submarine hunting and mine detection, and in the civilian world for archaeology, geophysics, and utility locating. Building one teaches you to pull a tiny anomaly out of a large, noisy background field — a purely passive sensing skill with the same signal-in-noise flavour as the RF work, but in the magnetic domain. defense signals — a Build List field guide 8 / 17 --- PAGE 9 ---"
           },
           "projectId": "proj-a09c9eaab189e94a",
-          "projectSlug": "seismic-unattended-ground-sensor-ugs-guide-011",
+          "projectSlug": "guide-011-p04-seismic-unattended-ground-sensor-ugs",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -10811,7 +10811,7 @@
             "source": "guide-011"
           },
           "schematicSvg": "schematics/guide-011_p4.svg",
-          "sourcePageRange": "4-4",
+          "sourcePageRange": "10-12",
           "time": "1 fin de semana",
           "title": "Seismic Unattended Ground Sensor (UGS)",
           "wiringTable": [
@@ -10956,7 +10956,7 @@
             "whyThisMatters": "Long before you can see or hear an approaching person or vehicle, the ground carries their vibration. A geophone — the same sensor used in oil exploration and earthquake monitoring — turns that ground motion into a voltage, and with the right processing you can detect footsteps, tell a person from a vehicle, and estimate direction. This is the principle behind unattended ground sensors used for perimeter monitoring. It is a passive, emission-free build that teaches low- frequency signal detection, simple classification, and the reality of picking a faint signal out of environmental noise. defense signals — a Build List field guide 10 / 17 --- PAGE 11 ---"
           },
           "projectId": "proj-81cc6d566a2c3b2d",
-          "projectSlug": "passive-drone-detection-receiver-guide-011",
+          "projectSlug": "guide-011-p05-passive-drone-detection-receiver",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -10964,7 +10964,7 @@
             "source": "guide-011"
           },
           "schematicSvg": "schematics/guide-011_p5.svg",
-          "sourcePageRange": "4-14",
+          "sourcePageRange": "12-14",
           "time": "1 fin de semana",
           "title": "Passive Drone Detection Receiver",
           "wiringTable": [
@@ -11013,7 +11013,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-8e7cdda21240087c",
+          "canonicalProjectId": "cproj-eccd1944aae7e404",
           "components": [
             "2x Transceptores SX1262 LoRa",
             "ESP32-S3",
@@ -11116,7 +11116,7 @@
             "whyThisMatters": "Small drones have gone from novelty to a serious security concern, and detecting them is now a major defense and infrastructure problem. Most drones constantly transmit — a control link on 2.4 or 5.8 GHz and usually a video downlink — and those emissions are a fingerprint you can detect passively with an SDR. Building a drone-detection receiver teaches you to scan the ISM bands, recognise the signatures of drone control and video protocols, and flag a drone’s presence without transmitting anything yourself. It is a receive-only, topical build that sits right at the centre of the fast-growing counter-UAS field. defense signals — a Build List field guide 12 / 17 --- PAGE 13 ---"
           },
           "projectId": "proj-4db6eb596b425847",
-          "projectSlug": "frequency-hopping-encrypted-link-fhss-guide-011",
+          "projectSlug": "guide-011-p06-frequency-hopping-encrypted-link-fhss",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -11395,7 +11395,7 @@
             "whyThisMatters": "Every ship, aircraft, drone, and vehicle depends on GNSS for position and precise time, which makes it one of the most important — and most contested — signals in defense. Building a receiver is the way in: a $12 module locks onto satellites 20,000 km overhead and hands you latitude, longitude, altitude, and nanosecond-grade time, and with an SDR you can even glimpse the raw signal buried below the noise floor. Understanding how GNSS works, and why it is so fragile, is foundational to positioning, navigation, and timing (PNT) engineering — one of the largest and most strategically vital areas of defense EE."
           },
           "projectId": "proj-f3b88e7e3976ed3b",
-          "projectSlug": "gnss-receiver-resilience-analysis-guide-012",
+          "projectSlug": "guide-012-p01-gnss-receiver-resilience-analysis",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -11403,7 +11403,7 @@
             "source": "guide-012"
           },
           "schematicSvg": "schematics/guide-012_p1.svg",
-          "sourcePageRange": "2-3",
+          "sourcePageRange": "2-4",
           "time": "1 fin de semana",
           "title": "GNSS Receiver & Resilience Analysis",
           "wiringTable": [
@@ -11548,7 +11548,7 @@
             "whyThisMatters": "Finding where a radio signal comes from is one of the oldest and most important jobs in defense electronics — search and rescue, spectrum enforcement, electronic warfare, and signals intelligence all rest on it. Build a direction finder and you can watch a bearing swing to point straight at a hidden transmitter across a field. The accessible version uses a single SDR with a directional antenna and signal strength, or a pseudo-Doppler array; the serious version uses a coherent multi-channel SDR to compute true angle-of-arrival from phase. It is the marquee build of this guide — visual, deeply technical, and a direct window into how SIGINT and EW systems locate emitters."
           },
           "projectId": "proj-6169d784d62573ed",
-          "projectSlug": "rf-direction-finder-pseudo-doppler-guide-012",
+          "projectSlug": "guide-012-p02-rf-direction-finder-pseudo-doppler",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -11556,7 +11556,7 @@
             "source": "guide-012"
           },
           "schematicSvg": "schematics/guide-012_p2.svg",
-          "sourcePageRange": "4-4",
+          "sourcePageRange": "5-8",
           "time": "2 fines de semana",
           "title": "RF Direction Finder (Pseudo-Doppler)",
           "wiringTable": [
@@ -11701,7 +11701,7 @@
             "whyThisMatters": "A large steel object — a vehicle, a pipe, a ship — distorts the Earth's magnetic field around it, and a sensitive magnetometer can detect that distortion from a distance, with no contact and no emission. This is magnetic anomaly detection (MAD), used in defense for submarine hunting and mine detection, and in the civilian world for archaeology, geophysics, and utility locating. Building one teaches you to pull a tiny anomaly out of a large, noisy background field — a purely passive sensing skill with the same signal-in-noise flavour as the RF work, but in the magnetic domain."
           },
           "projectId": "proj-1f516aca4358920d",
-          "projectSlug": "magnetic-anomaly-detector-fluxgate-guide-012",
+          "projectSlug": "guide-012-p03-magnetic-anomaly-detector-fluxgate",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -11709,7 +11709,7 @@
             "source": "guide-012"
           },
           "schematicSvg": "schematics/guide-012_p3.svg",
-          "sourcePageRange": "4-4",
+          "sourcePageRange": "9-11",
           "time": "1 fin de semana",
           "title": "Magnetic Anomaly Detector (Fluxgate)",
           "wiringTable": [
@@ -11751,7 +11751,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-c63849ea8e31ddf4",
+          "canonicalProjectId": "cproj-ad5fbfda2e7f1aab",
           "components": [
             "Geófono SM-24",
             "Filtro analógico pasa-bajos",
@@ -11847,7 +11847,7 @@
             "whyThisMatters": "Long before you can see or hear an approaching person or vehicle, the ground carries their vibration. A geophone — the same sensor used in oil exploration and earthquake monitoring — turns that ground motion into a voltage, and with the right processing you can detect footsteps, tell a person from a vehicle, and estimate direction. This is the principle behind unattended ground sensors used for perimeter monitoring. It is a passive, emission-free build that teaches low-frequency signal detection, simple classification, and the reality of picking a faint signal out of environmental noise."
           },
           "projectId": "proj-4e461b38f5d05afd",
-          "projectSlug": "seismic-unattended-ground-sensor-ugs-guide-012",
+          "projectSlug": "guide-012-p04-seismic-unattended-ground-sensor-ugs",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -11855,7 +11855,7 @@
             "source": "guide-012"
           },
           "schematicSvg": "schematics/guide-012_p4.svg",
-          "sourcePageRange": "4-4",
+          "sourcePageRange": "12-14",
           "time": "1 fin de semana",
           "title": "Seismic Unattended Ground Sensor (UGS)",
           "wiringTable": [
@@ -11993,7 +11993,7 @@
             "whyThisMatters": "Small drones have gone from novelty to a serious security concern, and detecting them is now a major defense and infrastructure problem. Most drones constantly transmit — a control link on 2.4 or 5.8 GHz and usually a video downlink — and those emissions are a fingerprint you can detect passively with an SDR. Building a drone-detection receiver teaches you to scan the ISM bands, recognise the signatures of drone control and video protocols, and flag a drone's presence without transmitting anything yourself. It is a receive-only, topical build that sits right at the centre of the fast- growing counter-UAS field."
           },
           "projectId": "proj-4917a0b27097e30c",
-          "projectSlug": "passive-drone-detection-receiver-guide-012",
+          "projectSlug": "guide-012-p05-passive-drone-detection-receiver",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -12001,7 +12001,7 @@
             "source": "guide-012"
           },
           "schematicSvg": "schematics/guide-012_p5.svg",
-          "sourcePageRange": "4-18",
+          "sourcePageRange": "15-18",
           "time": "1 fin de semana",
           "title": "Passive Drone Detection Receiver",
           "wiringTable": [
@@ -12050,7 +12050,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-2221753580340de0",
+          "canonicalProjectId": "cproj-eccd1944aae7e404",
           "components": [
             "Semtech SX1262",
             "ESP32-S3",
@@ -12146,7 +12146,7 @@
             "whyThisMatters": "In contested environments, communications have to survive both interception and interference, and the classic answers are spread spectrum and encryption. Build a data link that hops across many frequencies in a pattern only the two endpoints know, and encrypts every packet with AES, and you have a channel that is hard to jam, hard to intercept, and hard to even detect — the same principles behind military tactical radios (and, historically, a patent from Hedy Lamarr). It is a superb lesson in resilient communications: synchronisation, spread spectrum, and applied cryptography, all on cheap radio modules."
           },
           "projectId": "proj-8b212f8f0d5012cc",
-          "projectSlug": "frequency-hopping-encrypted-link-fhss-guide-012",
+          "projectSlug": "guide-012-p06-frequency-hopping-encrypted-link-fhss",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -12433,7 +12433,7 @@
             "whyThisMatters": "Every robot, from a vacuum to a Mars rover, runs the same loop: sense the world, decide what to do, act, repeat. A reactive rover is the purest version — an ultrasonic and a pair of IR sensors feed a few simple rules that steer two motors, and the machine roams a room avoiding walls and furniture with no map and no plan. It is the cheapest way to build something that behaves on its own, the payoff is immediate (it just drives off), and it is the chassis and control skeleton every later project in this guide builds on. build robots — a Build List field guide 2 / 15 --- PAGE 3 ---"
           },
           "projectId": "proj-0455fb2c072df1ec",
-          "projectSlug": "reactive-rover-sense-plan-act-guide-013",
+          "projectSlug": "guide-013-p01-reactive-rover-sense-plan-act",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -12441,7 +12441,7 @@
             "source": "guide-013"
           },
           "schematicSvg": "schematics/guide-013_p1.svg",
-          "sourcePageRange": "2-3",
+          "sourcePageRange": "2-4",
           "time": "1 fin de semana",
           "title": "Reactive Rover (Sense-Plan-Act)",
           "wiringTable": [
@@ -12585,7 +12585,7 @@
             "whyThisMatters": "A robot arm looks simple until you try to move its hand to a specific point in space: you have to solve, in reverse, what every joint angle must be to put the gripper there. That is inverse kinematics, and it is the difference between a servo puppet and a robot you command in coordinates. Build a 4-axis arm, derive its geometry, implement IK, and you can type a position and watch it reach there, then pick up an object and place it somewhere else. It is the classic centrepiece of robotics, the flagship of this guide, and a direct lesson in the math every industrial arm runs. build robots — a Build List field guide 4 / 15 --- PAGE 5 ---"
           },
           "projectId": "proj-ae877be606e5b288",
-          "projectSlug": "robot-arm-with-inverse-kinematics-guide-013",
+          "projectSlug": "guide-013-p02-robot-arm-with-inverse-kinematics",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -12593,7 +12593,7 @@
             "source": "guide-013"
           },
           "schematicSvg": "schematics/guide-013_p2.svg",
-          "sourcePageRange": "3-3",
+          "sourcePageRange": "4-7",
           "time": "2 fines de semana",
           "title": "Robot Arm with Inverse Kinematics",
           "wiringTable": [
@@ -12737,7 +12737,7 @@
             "whyThisMatters": "Nothing stops a scroll like a small four-legged robot walking across a table. Each leg is a little robot arm with its own inverse kinematics, and walking is the art of moving them in a coordinated rhythm — a gait — while keeping the body balanced over the feet still on the ground. Build a 12-servo quadruped, solve leg IK, and implement a creep or trot gait, and you have a machine that walks, turns, and stands up on its own. It is the most ambitious build in this guide, a genuine mechatronics and control challenge, and the same fundamentals behind every legged robot from research labs to robot dogs. build robots — a Build List field guide 7 / 15"
           },
           "projectId": "proj-8e955745d51cb80d",
-          "projectSlug": "quadruped-walking-robot-guide-013",
+          "projectSlug": "guide-013-p03-quadruped-walking-robot",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -12745,7 +12745,7 @@
             "source": "guide-013"
           },
           "schematicSvg": "schematics/guide-013_p3.svg",
-          "sourcePageRange": "3-3",
+          "sourcePageRange": "7-9",
           "time": "3 semanas",
           "title": "Quadruped Walking Robot",
           "wiringTable": [
@@ -12891,7 +12891,7 @@
             "whyThisMatters": "Nothing stops a scroll like a small four-legged robot walking across a table. Each leg is a little robot arm with its own inverse kinematics, and walking is the art of moving them in a coordinated rhythm — a gait — while keeping the body balanced over the feet still on the ground. Build a 12-servo quadruped, solve leg IK, and implement a creep or trot gait, and you have a machine that walks, turns, and stands up on its own. It is the most ambitious build in this guide, a genuine mechatronics and control challenge, and the same fundamentals behind every legged robot from research labs to robot dogs. build robots — a Build List field guide 7 / 15 --- PAGE 8 ---"
           },
           "projectId": "proj-a245d2a49550770f",
-          "projectSlug": "slam-mapping-autonomous-rover-guide-013",
+          "projectSlug": "guide-013-p04-slam-mapping-autonomous-rover",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -12899,7 +12899,7 @@
             "source": "guide-013"
           },
           "schematicSvg": "schematics/guide-013_p4.svg",
-          "sourcePageRange": "3-3",
+          "sourcePageRange": "9-11",
           "time": "2 fines de semana",
           "title": "SLAM Mapping Autonomous Rover",
           "wiringTable": [
@@ -13045,7 +13045,7 @@
             "whyThisMatters": "A robot that can see is a robot that can do almost anything, and the simplest vision task — find a thing and follow it — teaches the whole perception-to-action pipeline. Put a camera on your rover or a pan-tilt head, detect a coloured object (or a face) with OpenCV, and steer the robot to keep it centred and at a set distance. The result follows you around a room, and the pipeline (capture, detect, compute error, control) is exactly what robot vacuums, delivery robots, and industrial vision systems run. It is the bridge from blind reactive behavior to robots that understand what is in front of them. build robots — a Build List field guide 9 / 15 --- PAGE 10 ---"
           },
           "projectId": "proj-761ec11a3abe8911",
-          "projectSlug": "self-balancing-inverted-pendulum-guide-013",
+          "projectSlug": "guide-013-p05-self-balancing-inverted-pendulum",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -13053,7 +13053,7 @@
             "source": "guide-013"
           },
           "schematicSvg": "schematics/guide-013_p5.svg",
-          "sourcePageRange": "3-13",
+          "sourcePageRange": "11-13",
           "time": "1 fin de semana",
           "title": "Self-Balancing Inverted Pendulum",
           "wiringTable": [
@@ -13199,7 +13199,7 @@
             "whyThisMatters": "A gripper that only knows its finger position will crush a strawberry and drop a coffee cup. Give it a sense of touch — a force sensor in the fingertip and a control loop on grip force — and it can pick up an egg, a paper cup, or a tool with just the right squeeze. Building one teaches force sensing, compliant mechanisms, and force control as opposed to position control, which is the difference between industrial pick-and-place and robots that can handle the messy, fragile real world. It is a compact, satisfying build with an unforgettable demo. build robots — a Build List field guide 11 / 15 --- PAGE 12 ---"
           },
           "projectId": "proj-2684f7e12c69809f",
-          "projectSlug": "vision-guided-pick-and-place-gantry-guide-013",
+          "projectSlug": "guide-013-p06-vision-guided-pick-and-place-gantry",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -13478,7 +13478,7 @@
             "whyThisMatters": "Every piece of defense electronics has to survive an environment full of interference — radar, lightning, hostile transmitters, and the electromagnetic pulse that hardened systems are built to shrug off. The defense against all of it is the same physics: a conductive enclosure that stops fields at the boundary. Build a Faraday cage, put a phone inside and watch it lose signal, then measure exactly how many decibels of attenuation your seams, mesh, and gaskets buy you with an SDR. It is a beginner build with an unforgettable demo, and it teaches EMC and hardening — the survivability discipline that sits under every ruggedised system. survive the field — a Build List field guide 2 / 16 --- PAGE 3 ---"
           },
           "projectId": "proj-0b965c322325da27",
-          "projectSlug": "shielding-emc-hardening-faraday-box-guide-014",
+          "projectSlug": "guide-014-p01-shielding-emc-hardening-faraday-box",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -13486,7 +13486,7 @@
             "source": "guide-014"
           },
           "schematicSvg": "schematics/guide-014_p1.svg",
-          "sourcePageRange": "2-3",
+          "sourcePageRange": "2-4",
           "time": "1 fin de semana",
           "title": "Shielding & EMC Hardening (Faraday Box)",
           "wiringTable": [
@@ -13638,7 +13638,7 @@
             "whyThisMatters": "Every aircraft, drone, and glider in the defense world was shaped in a wind tunnel long before it flew, and you can build a real one on a desk. A fan, a settling chamber, a honeycomb flow straightener, a smooth contraction, and a clear test section give you steady laminar air; add a smoke wand and the streamlines over a 3D-printed wing become visible, and a load cell turns the invisible force of lift into a number you can plot against angle of attack. It is the flagship of this guide — a genuine aerospace instrument, visually spectacular, and a hands-on route into aerodynamics and aircraft design. survive the field — a Build List field guide 4 / 16 --- PAGE 5 ---"
           },
           "projectId": "proj-6a481bcdd735d488",
-          "projectSlug": "subsonic-wind-tunnel-flow-conditioning-guide-014",
+          "projectSlug": "guide-014-p02-subsonic-wind-tunnel-flow-conditioning",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -13646,7 +13646,7 @@
             "source": "guide-014"
           },
           "schematicSvg": "schematics/guide-014_p2.svg",
-          "sourcePageRange": "3-3",
+          "sourcePageRange": "4-7",
           "time": "2 fines de semana",
           "title": "Subsonic Wind Tunnel & Flow Conditioning",
           "wiringTable": [
@@ -13791,7 +13791,7 @@
             "whyThisMatters": "Helmets, vehicle panels, and protective gear are built from composites engineered to absorb impact — and the way engineers develop them is by making test panels and hitting them, repeatably, with an instrumented impactor. Lay up your own panels from carbon, fiberglass, and aramid with different stacks and resins, then build a drop tower that drops a known mass from a known height onto them while an accelerometer records the impact. Compare the panels: which cracked, which delaminated, which shrugged it off. It is hands-on materials engineering with a dramatic slow-motion payoff, and it is exactly how protective structures get designed. survive the field — a Build List field guide 7 / 16"
           },
           "projectId": "proj-628a686b3596462b",
-          "projectSlug": "composite-armor-instrumented-impact-tester-guide-014",
+          "projectSlug": "guide-014-p03-composite-armor-instrumented-impact-tester",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -13799,7 +13799,7 @@
             "source": "guide-014"
           },
           "schematicSvg": "schematics/guide-014_p3.svg",
-          "sourcePageRange": "3-3",
+          "sourcePageRange": "7-10",
           "time": "2 fines de semana",
           "title": "Composite Armor Instrumented Impact Tester",
           "wiringTable": [
@@ -13944,7 +13944,7 @@
             "whyThisMatters": "Helmets, vehicle panels, and protective gear are built from composites engineered to absorb impact — and the way engineers develop them is by making test panels and hitting them, repeatably, with an instrumented impactor. Lay up your own panels from carbon, fiberglass, and aramid with different stacks and resins, then build a drop tower that drops a known mass from a known height onto them while an accelerometer records the impact. Compare the panels: which cracked, which delaminated, which shrugged it off. It is hands-on materials engineering with a dramatic slow-motion payoff, and it is exactly how protective structures get designed. survive the field — a Build List field guide 7 / 16 --- PAGE 8 ---"
           },
           "projectId": "proj-5d89db99dc84eddf",
-          "projectSlug": "underwater-hydrophone-array-acoustic-tdoa-guide-014",
+          "projectSlug": "guide-014-p04-underwater-hydrophone-array-acoustic-tdoa",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -13952,7 +13952,7 @@
             "source": "guide-014"
           },
           "schematicSvg": "schematics/guide-014_p4.svg",
-          "sourcePageRange": "3-3",
+          "sourcePageRange": "10-12",
           "time": "2 fines de semana",
           "title": "Underwater Hydrophone Array & Acoustic TDOA",
           "wiringTable": [
@@ -14097,7 +14097,7 @@
             "whyThisMatters": "Sound travels farther and faster in water than radio ever could, which is why navies listen. Build a hydrophone from a piezo element potted in epoxy, drop it in a lake, and you hear propellers, outboards, and the whole underwater soundscape; add a second hydrophone a known distance away, measure the time difference of arrival, and you get the bearing to the source — passive sonar, the technique behind anti-submarine warfare and marine monitoring. It is receive-only, cross-disciplinary (acoustics, transducers, signal processing), and a strikingly different sensing domain from the RF work in the rest of the series. survive the field — a Build List field guide 10 / 16 --- PAGE 11 ---"
           },
           "projectId": "proj-2cbe8a39a8284482",
-          "projectSlug": "autonomous-guided-airdrop-parafoil-gnc-guide-014",
+          "projectSlug": "guide-014-p05-autonomous-guided-airdrop-parafoil-gnc",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -14105,7 +14105,7 @@
             "source": "guide-014"
           },
           "schematicSvg": "schematics/guide-014_p5.svg",
-          "sourcePageRange": "3-14",
+          "sourcePageRange": "12-14",
           "time": "2 fines de semana",
           "title": "Autonomous Guided Airdrop Parafoil (GNC)",
           "wiringTable": [
@@ -14250,7 +14250,7 @@
             "whyThisMatters": "Getting supplies to a precise spot from the air is a logistics problem the defense world solved with self-steering parafoils: a ram-air canopy with servo-pulled control lines and a GPS-guided controller that flies the payload to a coordinate. Build a small one — a ram-air kite canopy, two servos on the brake lines, a GPS and IMU on the payload box — drop it from a legal height, and watch it turn toward the landing point and flare. It is aerospace, control, and embedded engineering in one build, it is pure cargo delivery, and it is one of the most satisfying autonomous systems you can make. survive the field — a Build List field guide 12 / 16 --- PAGE 13 ---"
           },
           "projectId": "proj-5bd7220eac89d8ea",
-          "projectSlug": "environmental-torture-test-lab-thermalvibe-guide-014",
+          "projectSlug": "guide-014-p06-environmental-torture-test-lab-thermalvibe",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -14530,7 +14530,7 @@
             "whyThisMatters": "Outdoors, GPS tells the flight controller where the drone is. Indoors there is no GPS, and a drone drifts like a balloon in a draft. The fix is the same trick an optical mouse uses: a tiny downward camera (a PMW3901 optical-flow sensor) watches the floor texture slide by and reports velocity, while a rangefinder gives height. Feed both to the flight controller and it holds position — a hover you can let go of, indoors, that stays put. It is the cheapest, most dramatic upgrade there is, and it is the foundation for every kind of indoor autonomy. drone upgrades — a Build List field guide 2 / 16 --- PAGE 3 ---"
           },
           "projectId": "proj-a2ebed30b19669a5",
-          "projectSlug": "optical-flow-lidar-surface-tracker-guide-015",
+          "projectSlug": "guide-015-p01-optical-flow-lidar-surface-tracker",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -14538,7 +14538,7 @@
             "source": "guide-015"
           },
           "schematicSvg": "schematics/guide-015_p1.svg",
-          "sourcePageRange": "2-3",
+          "sourcePageRange": "2-4",
           "time": "1 fin de semana",
           "title": "Optical Flow & LiDAR Surface Tracker",
           "wiringTable": [
@@ -14691,7 +14691,7 @@
             "whyThisMatters": "A drone that can feel the walls is a fundamentally safer drone. Mount a ring of time-of-flight distance sensors around the frame, have a small microcontroller stream the nearest obstacle in each direction to the flight controller as proximity data, and the controller’s own avoidance logic takes over: fly toward a wall and the drone stops short, or slides along it, no matter what the sticks say. Push it toward a doorway and it refuses to hit the frame. It is the flagship of this guide — sensing, integration, and control behaviour in one upgrade — and it is the same layered safety architecture real autonomous drones use. drone upgrades — a Build List field guide 4 / 16 --- PAGE 5 ---"
           },
           "projectId": "proj-a3d73d08684a062d",
-          "projectSlug": "redundant-dual-imu-with-kalman-voting-guide-015",
+          "projectSlug": "guide-015-p02-redundant-dual-imu-with-kalman-voting",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -14699,7 +14699,7 @@
             "source": "guide-015"
           },
           "schematicSvg": "schematics/guide-015_p2.svg",
-          "sourcePageRange": "3-3",
+          "sourcePageRange": "4-7",
           "time": "1 fin de semana",
           "title": "Redundant Dual-IMU with Kalman Voting",
           "wiringTable": [
@@ -14845,7 +14845,7 @@
             "whyThisMatters": "Motors fail, batteries fail, and a drone that loses power becomes a falling brick. A parachute recovery system detects the fall — or takes a command — kills the motors, and deploys a canopy so the aircraft comes down at a walking pace instead of terminal velocity. Commercial systems cost hundreds; you can build one with a spring-loaded tube, a servo pin, an accelerometer, and a properly sized canopy. It is the one upgrade that protects people on the ground as much as the drone, it is increasingly what regulators want for flights near people, and the deployment shot is spectacular. drone upgrades — a Build List field guide 7 / 16"
           },
           "projectId": "proj-a6e02b253844ee9d",
-          "projectSlug": "can-bus-esc-telemetry-power-distribution-guide-015",
+          "projectSlug": "guide-015-p03-can-bus-esc-telemetry-power-distribution",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -14853,7 +14853,7 @@
             "source": "guide-015"
           },
           "schematicSvg": "schematics/guide-015_p3.svg",
-          "sourcePageRange": "3-3",
+          "sourcePageRange": "7-9",
           "time": "2 fines de semana",
           "title": "CAN Bus ESC Telemetry & Power Distribution",
           "wiringTable": [
@@ -15006,7 +15006,7 @@
             "whyThisMatters": "Motors fail, batteries fail, and a drone that loses power becomes a falling brick. A parachute recovery system detects the fall — or takes a command — kills the motors, and deploys a canopy so the aircraft comes down at a walking pace instead of terminal velocity. Commercial systems cost hundreds; you can build one with a spring-loaded tube, a servo pin, an accelerometer, and a properly sized canopy. It is the one upgrade that protects people on the ground as much as the drone, it is increasingly what regulators want for flights near people, and the deployment shot is spectacular. drone upgrades — a Build List field guide 7 / 16 --- PAGE 8 ---"
           },
           "projectId": "proj-7d03c84d360dff73",
-          "projectSlug": "lora-backup-heartbeat-emergency-parachute-guide-015",
+          "projectSlug": "guide-015-p04-lora-backup-heartbeat-emergency-parachute",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -15014,7 +15014,7 @@
             "source": "guide-015"
           },
           "schematicSvg": "schematics/guide-015_p4.svg",
-          "sourcePageRange": "3-3",
+          "sourcePageRange": "9-11",
           "time": "1 fin de semana",
           "title": "LoRa Backup Heartbeat & Emergency Parachute",
           "wiringTable": [
@@ -15160,7 +15160,7 @@
             "whyThisMatters": "Raw drone footage is a jittery mess because the camera rides every twitch of the airframe. A brushless gimbal fixes that: an IMU on the camera measures its attitude hundreds of times a second and two brushless motors, driven smoothly with field- oriented control, hold it level no matter what the drone does. Build one and your footage goes from home video to broadcast- smooth. It is mechatronics, control, and the same FOC drive technology behind robot joints — and it is the upgrade that most changes what your drone produces. drone upgrades — a Build List field guide 9 / 16 --- PAGE 10 ---"
           },
           "projectId": "proj-d6b9b16f65f5d9fd",
-          "projectSlug": "active-rotor-ice-detection-thermal-de-icing-guide-015",
+          "projectSlug": "guide-015-p05-active-rotor-ice-detection-thermal-de-icing",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -15168,7 +15168,7 @@
             "source": "guide-015"
           },
           "schematicSvg": "schematics/guide-015_p5.svg",
-          "sourcePageRange": "3-13",
+          "sourcePageRange": "11-13",
           "time": "1 fin de semana",
           "title": "Active Rotor Ice Detection & Thermal De-Icing",
           "wiringTable": [
@@ -15314,7 +15314,7 @@
             "whyThisMatters": "GPS puts a drone down within a couple of metres, which is useless for docking, charging, or landing on a vehicle. Precision landing uses a downward camera to see a fiducial marker on the pad, computes exactly where the pad is relative to the drone, and steers the descent so it touches down centred — the technology behind every autonomous docking and charging drone. Add a small companion computer, a camera, and a printed tag, and your drone lands itself on a pad the size of a coaster. It is computer vision, coordinate transforms, and controller integration, and the demo is undeniable. drone upgrades — a Build List field guide 11 / 16 --- PAGE 12 ---"
           },
           "projectId": "proj-4ba4e6958a29f2ab",
-          "projectSlug": "ai-edge-companion-computer-collision-avoidance-guide-015",
+          "projectSlug": "guide-015-p06-ai-edge-companion-computer-collision-avoidance",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -15600,7 +15600,7 @@
             "whyThisMatters": "Real-Time Chat App with WebSockets es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-dcf0f60724aa9512",
-          "projectSlug": "real-time-chat-app-with-websockets-guide-016",
+          "projectSlug": "guide-016-p01-real-time-chat-app-with-websockets",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -15761,7 +15761,7 @@
             "whyThisMatters": "Personal AI Assistant with RAG es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-6143fceeac63172d",
-          "projectSlug": "personal-ai-assistant-with-rag-guide-016",
+          "projectSlug": "guide-016-p02-personal-ai-assistant-with-rag",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -15915,7 +15915,7 @@
             "whyThisMatters": "Distributed Task Queue & Worker System es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-e1da0bf6aa68b40e",
-          "projectSlug": "distributed-task-queue-worker-system-guide-016",
+          "projectSlug": "guide-016-p03-distributed-task-queue-worker-system",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -16060,7 +16060,7 @@
             "whyThisMatters": "Open Source Developer CLI Tool es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-ef179b57eade25f9",
-          "projectSlug": "open-source-developer-cli-tool-guide-016",
+          "projectSlug": "guide-016-p04-open-source-developer-cli-tool",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -16216,7 +16216,7 @@
             "whyThisMatters": "Full-Stack Multi-Tenant SaaS with Payments es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-9e864a53d7204fea",
-          "projectSlug": "full-stack-multi-tenant-saas-with-payments-guide-016",
+          "projectSlug": "guide-016-p05-full-stack-multi-tenant-saas-with-payments",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -16361,7 +16361,7 @@
             "whyThisMatters": "Custom Programming Language Interpreter es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-015e8ef354937a04",
-          "projectSlug": "custom-programming-language-interpreter-guide-016",
+          "projectSlug": "guide-016-p06-custom-programming-language-interpreter",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -16620,7 +16620,7 @@
             "whyThisMatters": "Audita los Mejores Cursos del Mundo (Stanford, MIT, CMU) es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-fe4a998067b3d8aa",
-          "projectSlug": "audita-los-mejores-cursos-del-mundo-stanford-mit-cmu-guide-017",
+          "projectSlug": "guide-017-p01-audita-los-mejores-cursos-del-mundo-stanford-mit-cmu",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -16759,7 +16759,7 @@
             "whyThisMatters": "Elige una Especialidad y Profundiza al Máximo es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-d625020e720f2574",
-          "projectSlug": "elige-una-especialidad-y-profundiza-al-maximo-guide-017",
+          "projectSlug": "guide-017-p02-elige-una-especialidad-y-profundiza-al-maximo",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -16899,7 +16899,7 @@
             "whyThisMatters": "Construye Algo que Nadie te Pidió que Construyas es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-f4c34c72a59d5e68",
-          "projectSlug": "construye-algo-que-nadie-te-pidio-que-construyas-guide-017",
+          "projectSlug": "guide-017-p03-construye-algo-que-nadie-te-pidio-que-construyas",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -17032,7 +17032,7 @@
             "whyThisMatters": "Lee Datasheets y Notas de Aplicación como Ficción es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-40abc903cf68b70c",
-          "projectSlug": "lee-datasheets-y-notas-de-aplicacion-como-ficcion-guide-017",
+          "projectSlug": "guide-017-p04-lee-datasheets-y-notas-de-aplicacion-como-ficcion",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -17171,7 +17171,7 @@
             "whyThisMatters": "Ingeniería Inversa de Productos Comerciales Reales es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-0d37911802b012cb",
-          "projectSlug": "ingenieria-inversa-de-productos-comerciales-reales-guide-017",
+          "projectSlug": "guide-017-p05-ingenieria-inversa-de-productos-comerciales-reales",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -17313,7 +17313,7 @@
             "whyThisMatters": "Haz de tu Presencia en Internet un Portafolio Indiscutible es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-814228cd5c64175a",
-          "projectSlug": "haz-de-tu-presencia-en-internet-un-portafolio-indiscutible-guide-017",
+          "projectSlug": "guide-017-p06-haz-de-tu-presencia-en-internet-un-portafolio-indiscutible",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -17592,7 +17592,7 @@
             "whyThisMatters": "AI Voice Cloning Detector es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-3b7db985fe3fa00d",
-          "projectSlug": "ai-voice-cloning-detector-guide-018",
+          "projectSlug": "guide-018-p01-ai-voice-cloning-detector",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -17745,7 +17745,7 @@
             "whyThisMatters": "EMI Side-Channel Sniffer es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-d424b050336e4eb7",
-          "projectSlug": "emi-side-channel-sniffer-guide-018",
+          "projectSlug": "guide-018-p02-emi-side-channel-sniffer",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -17898,7 +17898,7 @@
             "whyThisMatters": "Hardware AI Kill Switch es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-e8a2f53f27075678",
-          "projectSlug": "hardware-ai-kill-switch-guide-018",
+          "projectSlug": "guide-018-p03-hardware-ai-kill-switch",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -18052,7 +18052,7 @@
             "whyThisMatters": "Deepfake-Proof Identity Badge es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-cce9ad7e1f6cb7f8",
-          "projectSlug": "deepfake-proof-identity-badge-guide-018",
+          "projectSlug": "guide-018-p04-deepfake-proof-identity-badge",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -18208,7 +18208,7 @@
             "whyThisMatters": "Neuromorphic Sensor Fuser es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-351b58c0f3fe4a4e",
-          "projectSlug": "neuromorphic-sensor-fuser-guide-018",
+          "projectSlug": "guide-018-p05-neuromorphic-sensor-fuser",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -18361,7 +18361,7 @@
             "whyThisMatters": "RF Fingerprinting Authenticator es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-b650b045b1c39f6a",
-          "projectSlug": "rf-fingerprinting-authenticator-guide-018",
+          "projectSlug": "guide-018-p06-rf-fingerprinting-authenticator",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -18648,7 +18648,7 @@
             "whyThisMatters": "Laser Surveillance Microphone es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-4c368a1aca2dc083",
-          "projectSlug": "laser-surveillance-microphone-guide-019",
+          "projectSlug": "guide-019-p01-laser-surveillance-microphone",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -18801,7 +18801,7 @@
             "whyThisMatters": "Tap-Proof Laser Communication Link es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-9fb705613f7fa35c",
-          "projectSlug": "tap-proof-laser-communication-link-guide-019",
+          "projectSlug": "guide-019-p02-tap-proof-laser-communication-link",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -18954,7 +18954,7 @@
             "whyThisMatters": "High-Precision Laser Rangefinder es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-77ca4cd48ca1d8b6",
-          "projectSlug": "high-precision-laser-rangefinder-guide-019",
+          "projectSlug": "guide-019-p03-high-precision-laser-rangefinder",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -19107,7 +19107,7 @@
             "whyThisMatters": "Encrypted Burst Transmitter es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-2d6bb1ea265633fd",
-          "projectSlug": "encrypted-burst-transmitter-guide-019",
+          "projectSlug": "guide-019-p04-encrypted-burst-transmitter",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -19268,7 +19268,7 @@
             "whyThisMatters": "Passive Night Vision Scope es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-c7a08cce79d39f48",
-          "projectSlug": "passive-night-vision-scope-guide-019",
+          "projectSlug": "guide-019-p05-passive-night-vision-scope",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -19422,7 +19422,7 @@
             "whyThisMatters": "Radar Cross-Section Measurement System es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-01f8a1136941dbf5",
-          "projectSlug": "radar-cross-section-measurement-system-guide-019",
+          "projectSlug": "guide-019-p06-radar-cross-section-measurement-system",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -19702,7 +19702,7 @@
             "whyThisMatters": "Silent Speech Neural Interface es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-22933371bb73088f",
-          "projectSlug": "silent-speech-neural-interface-guide-020",
+          "projectSlug": "guide-020-p01-silent-speech-neural-interface",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -19863,7 +19863,7 @@
             "whyThisMatters": "EMG Prosthetic Hand with Intent Detection es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-3d8bd99fa53bdaa3",
-          "projectSlug": "emg-prosthetic-hand-with-intent-detection-guide-020",
+          "projectSlug": "guide-020-p02-emg-prosthetic-hand-with-intent-detection",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -20016,7 +20016,7 @@
             "whyThisMatters": "Gesture-Controlled AR Coding Interface es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-959a8c73c41a2509",
-          "projectSlug": "gesture-controlled-ar-coding-interface-guide-020",
+          "projectSlug": "guide-020-p03-gesture-controlled-ar-coding-interface",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -20177,7 +20177,7 @@
             "whyThisMatters": "Emotion-Aware AI Companion Pendant es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-6e7a0c4112404196",
-          "projectSlug": "emotion-aware-ai-companion-pendant-guide-020",
+          "projectSlug": "guide-020-p04-emotion-aware-ai-companion-pendant",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -20338,7 +20338,7 @@
             "whyThisMatters": "Tactile Sense Augmentation Glove es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-3de57f84fc847a76",
-          "projectSlug": "tactile-sense-augmentation-glove-guide-020",
+          "projectSlug": "guide-020-p05-tactile-sense-augmentation-glove",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -20492,7 +20492,7 @@
             "whyThisMatters": "Subvocal AI Command Interface es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-47a88b602dd5cfaf",
-          "projectSlug": "subvocal-ai-command-interface-guide-020",
+          "projectSlug": "guide-020-p06-subvocal-ai-command-interface",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -20772,7 +20772,7 @@
             "whyThisMatters": "Smart Energy Monitor IoT es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-413f063f71e7017e",
-          "projectSlug": "smart-energy-monitor-iot-guide-021",
+          "projectSlug": "guide-021-p01-smart-energy-monitor-iot",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -20918,7 +20918,7 @@
             "whyThisMatters": "Gesture-Controlled EMG Robot Arm es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-8bf5eb8c424af41d",
-          "projectSlug": "gesture-controlled-emg-robot-arm-guide-021",
+          "projectSlug": "guide-021-p02-gesture-controlled-emg-robot-arm",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -21078,7 +21078,7 @@
             "whyThisMatters": "Custom PCB Synthesizer es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-d907a172b792666e",
-          "projectSlug": "custom-pcb-synthesizer-guide-021",
+          "projectSlug": "guide-021-p03-custom-pcb-synthesizer",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -21227,7 +21227,7 @@
             "whyThisMatters": "MPPT Solar Charge Controller es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-f43ec7657436aaca",
-          "projectSlug": "mppt-solar-charge-controller-guide-021",
+          "projectSlug": "guide-021-p04-mppt-solar-charge-controller",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -21373,7 +21373,7 @@
             "whyThisMatters": "Software-Defined Radio Receiver es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-1c96697431543b30",
-          "projectSlug": "software-defined-radio-receiver-guide-021",
+          "projectSlug": "guide-021-p05-software-defined-radio-receiver",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -21526,7 +21526,7 @@
             "whyThisMatters": "PID Self-Balancing Robot es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-d8c93538c64e97f6",
-          "projectSlug": "pid-self-balancing-robot-guide-021",
+          "projectSlug": "guide-021-p06-pid-self-balancing-robot",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -21778,7 +21778,7 @@
             "whyThisMatters": "El Gancho de la Reciprocidad y Visibilidad es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-08d95f39921234f1",
-          "projectSlug": "el-gancho-de-la-reciprocidad-y-visibilidad-guide-022",
+          "projectSlug": "guide-022-p01-el-gancho-de-la-reciprocidad-y-visibilidad",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -21917,7 +21917,7 @@
             "whyThisMatters": "La Redacción del Correo Frío Irrechazable es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-273ead6161abcad3",
-          "projectSlug": "la-redaccion-del-correo-frio-irrechazable-guide-022",
+          "projectSlug": "guide-022-p02-la-redaccion-del-correo-frio-irrechazable",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -22057,7 +22057,7 @@
             "whyThisMatters": "La Presentación del Plan de Investigación es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-33e829cad7110af3",
-          "projectSlug": "la-presentacion-del-plan-de-investigacion-guide-022",
+          "projectSlug": "guide-022-p03-la-presentacion-del-plan-de-investigacion",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -22196,7 +22196,7 @@
             "whyThisMatters": "Logística, Seguros y Contratos de Comodato es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-f7ffbdd7d6579c7b",
-          "projectSlug": "logistica-seguros-y-contratos-de-comodato-guide-022",
+          "projectSlug": "guide-022-p04-logistica-seguros-y-contratos-de-comodato",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -22331,7 +22331,7 @@
             "whyThisMatters": "Programación KRL, Puesta en Marcha y Retorno es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-a1795bd7588ca33b",
-          "projectSlug": "programacion-krl-puesta-en-marcha-y-retorno-guide-022",
+          "projectSlug": "guide-022-p05-programacion-krl-puesta-en-marcha-y-retorno",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -22579,7 +22579,7 @@
             "whyThisMatters": "Paso 1: Salta la teoría y compra un kit de Arduino es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-985a367fdabbc644",
-          "projectSlug": "paso-1-salta-la-teoria-y-compra-un-kit-de-arduino-guide-023",
+          "projectSlug": "guide-023-p01-paso-1-salta-la-teoria-y-compra-un-kit-de-arduino",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -22718,7 +22718,7 @@
             "whyThisMatters": "Paso 2: Hazte con un multímetro y mide voltajes reales es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-94fe7239accddca6",
-          "projectSlug": "paso-2-hazte-con-un-multimetro-y-mide-voltajes-reales-guide-023",
+          "projectSlug": "guide-023-p02-paso-2-hazte-con-un-multimetro-y-mide-voltajes-reales",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -22857,7 +22857,7 @@
             "whyThisMatters": "Paso 3: Construye tu primer circuito analógico sin código es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-e8453ca3d13f58fb",
-          "projectSlug": "paso-3-construye-tu-primer-circuito-analogico-sin-codigo-guide-023",
+          "projectSlug": "guide-023-p03-paso-3-construye-tu-primer-circuito-analogico-sin-codigo",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -23003,7 +23003,7 @@
             "whyThisMatters": "Paso 4: Aprende a soldar temprano con un kit de práctica es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-7b2012360f90ea4a",
-          "projectSlug": "paso-4-aprende-a-soldar-temprano-con-un-kit-de-practica-guide-023",
+          "projectSlug": "guide-023-p04-paso-4-aprende-a-soldar-temprano-con-un-kit-de-practica",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -23142,7 +23142,7 @@
             "whyThisMatters": "Paso 5: Pasa de la protoboard a KiCad y diseña tu primera PCB es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-e17fbdd168fa8192",
-          "projectSlug": "paso-5-pasa-de-la-protoboard-a-kicad-y-disena-tu-primera-pcb-guide-023",
+          "projectSlug": "guide-023-p05-paso-5-pasa-de-la-protoboard-a-kicad-y-disena-tu-primera-pcb",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -23281,7 +23281,7 @@
             "whyThisMatters": "Paso 6: Construye un proyecto físico que realmente quieras usar es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-ecc4d19a4cc58c9d",
-          "projectSlug": "paso-6-construye-un-proyecto-fisico-que-realmente-quieras-usar-guide-023",
+          "projectSlug": "guide-023-p06-paso-6-construye-un-proyecto-fisico-que-realmente-quieras-usar",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -23560,7 +23560,7 @@
             "whyThisMatters": "PID Motor Speed Controller es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-9bbb01d5723f9f98",
-          "projectSlug": "pid-motor-speed-controller-guide-024",
+          "projectSlug": "guide-024-p01-pid-motor-speed-controller",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -23713,7 +23713,7 @@
             "whyThisMatters": "Custom PCB — Design to Manufactured Board es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-299d699e04703cfd",
-          "projectSlug": "custom-pcb-design-to-manufactured-board-guide-024",
+          "projectSlug": "guide-024-p02-custom-pcb-design-to-manufactured-board",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -23866,7 +23866,7 @@
             "whyThisMatters": "DIY Digital Multimeter with Input Protection es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-98b4fd48453025f8",
-          "projectSlug": "diy-digital-multimeter-with-input-protection-guide-024",
+          "projectSlug": "guide-024-p03-diy-digital-multimeter-with-input-protection",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -24018,7 +24018,7 @@
             "whyThisMatters": "Synchronous Buck Converter (12V to 5V 3A) es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-4a6d4e3bb6de27cb",
-          "projectSlug": "synchronous-buck-converter-12v-to-5v-3a-guide-024",
+          "projectSlug": "guide-024-p04-synchronous-buck-converter-12v-to-5v-3a",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -24167,7 +24167,7 @@
             "whyThisMatters": "UART / SPI / I2C Protocol Analyzer es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-fb8e65ad8631b29f",
-          "projectSlug": "uart-spi-i2c-protocol-analyzer-guide-024",
+          "projectSlug": "guide-024-p05-uart-spi-i2c-protocol-analyzer",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -24321,7 +24321,7 @@
             "whyThisMatters": "FPGA LED Matrix Controller in Pure Verilog es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-c54bad94d374ce6e",
-          "projectSlug": "fpga-led-matrix-controller-in-pure-verilog-guide-024",
+          "projectSlug": "guide-024-p06-fpga-led-matrix-controller-in-pure-verilog",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -24600,7 +24600,7 @@
             "whyThisMatters": "3D-Printed Gripper with Force Feedback es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-ebd06c8fe102558d",
-          "projectSlug": "3d-printed-gripper-with-force-feedback-guide-025",
+          "projectSlug": "guide-025-p01-3d-printed-gripper-with-force-feedback",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -24747,7 +24747,7 @@
             "whyThisMatters": "Portable Wind Tunnel with Data Acquisition es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-a50b337c8a6324a7",
-          "projectSlug": "portable-wind-tunnel-with-data-acquisition-guide-025",
+          "projectSlug": "guide-025-p02-portable-wind-tunnel-with-data-acquisition",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -24901,7 +24901,7 @@
             "whyThisMatters": "Dual-Axis Solar Tracker es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-076f8003b366c797",
-          "projectSlug": "dual-axis-solar-tracker-guide-025",
+          "projectSlug": "guide-025-p03-dual-axis-solar-tracker",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -25047,7 +25047,7 @@
             "whyThisMatters": "PID Thermal Management System es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-b4b49073df0bfb7a",
-          "projectSlug": "pid-thermal-management-system-guide-025",
+          "projectSlug": "guide-025-p04-pid-thermal-management-system",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -25200,7 +25200,7 @@
             "whyThisMatters": "Desktop CNC Engraver Built From Scratch es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-f2010ad0e3ac171f",
-          "projectSlug": "desktop-cnc-engraver-built-from-scratch-guide-025",
+          "projectSlug": "guide-025-p05-desktop-cnc-engraver-built-from-scratch",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -25353,7 +25353,7 @@
             "whyThisMatters": "Wireless Strain Gauge Bridge Monitor es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-23e2ffb84ec9c3a1",
-          "projectSlug": "wireless-strain-gauge-bridge-monitor-guide-025",
+          "projectSlug": "guide-025-p06-wireless-strain-gauge-bridge-monitor",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -25621,7 +25621,7 @@
             "whyThisMatters": "Fundamentos de ML: Clasificación y Regresión Práctica es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-d0cb11848d574a4c",
-          "projectSlug": "fundamentos-de-ml-clasificacion-y-regresion-practica-guide-026",
+          "projectSlug": "guide-026-p01-fundamentos-de-ml-clasificacion-y-regresion-practica",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -25767,7 +25767,7 @@
             "whyThisMatters": "Ingeniería Mecánica: Mantenimiento Predictivo por Vibraciones es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-b8a0c0bf81327cd5",
-          "projectSlug": "ingenieria-mecanica-mantenimiento-predictivo-por-vibraciones-guide-026",
+          "projectSlug": "guide-026-p02-ingenieria-mecanica-mantenimiento-predictivo-por-vibraciones",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -25906,7 +25906,7 @@
             "whyThisMatters": "Ingeniería Electrónica: Clasificación de Señales de ECG en Tiempo Real es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-142a8ad6bfd16388",
-          "projectSlug": "ingenieria-electronica-clasificacion-de-senales-de-ecg-en-tiempo-real-guide-026",
+          "projectSlug": "guide-026-p03-ingenieria-electronica-clasificacion-de-senales-de-ecg-en-tiempo-real",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -26053,7 +26053,7 @@
             "whyThisMatters": "Despliegue de Edge AI y TinyML en Microcontroladores es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-df20c0bdfa75937d",
-          "projectSlug": "despliegue-de-edge-ai-y-tinyml-en-microcontroladores-guide-026",
+          "projectSlug": "guide-026-p04-despliegue-de-edge-ai-y-tinyml-en-microcontroladores",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -26193,7 +26193,7 @@
             "whyThisMatters": "Ingeniería Química: Modelado y Optimización de Reactores es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-a7146a92cd710d09",
-          "projectSlug": "ingenieria-quimica-modelado-y-optimizacion-de-reactores-guide-026",
+          "projectSlug": "guide-026-p05-ingenieria-quimica-modelado-y-optimizacion-de-reactores",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -26201,7 +26201,7 @@
             "source": "guide-026"
           },
           "schematicSvg": "schematics/guide-027_p5.svg",
-          "sourcePageRange": "6-7",
+          "sourcePageRange": "6-8",
           "time": "Semanas 6-7",
           "title": "Ingeniería Química: Modelado y Optimización de Reactores",
           "wiringTable": [
@@ -26339,7 +26339,7 @@
             "whyThisMatters": "Proyecto Integrador para Portafolio de Ingeniería es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-fc976212c964f79c",
-          "projectSlug": "proyecto-integrador-para-portafolio-de-ingenieria-guide-026",
+          "projectSlug": "guide-026-p06-proyecto-integrador-para-portafolio-de-ingenieria",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -26347,7 +26347,7 @@
             "source": "guide-026"
           },
           "schematicSvg": "schematics/guide-027_p6.svg",
-          "sourcePageRange": "7-10",
+          "sourcePageRange": "9-10",
           "time": "Semanas 7-8",
           "title": "Proyecto Integrador para Portafolio de Ingeniería",
           "wiringTable": [
@@ -26574,7 +26574,7 @@
             "whyThisMatters": "Conexionado de Pantalla OLED SPI 2.42\" es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-e1043df73e599c7e",
-          "projectSlug": "conexionado-de-pantalla-oled-spi-242-guide-027",
+          "projectSlug": "guide-027-p01-conexionado-de-pantalla-oled-spi-242",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -26582,7 +26582,7 @@
             "source": "guide-027"
           },
           "schematicSvg": "schematics/guide-017_p1.svg",
-          "sourcePageRange": "2-2",
+          "sourcePageRange": "4-4",
           "time": "2 horas",
           "title": "Conexionado de Pantalla OLED SPI 2.42\"",
           "wiringTable": [
@@ -26716,7 +26716,7 @@
             "whyThisMatters": "Control Analógico por Potenciómetro Slider es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-826e6c7a2db1364c",
-          "projectSlug": "control-analogico-por-potenciometro-slider-guide-027",
+          "projectSlug": "guide-027-p02-control-analogico-por-potenciometro-slider",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -26724,7 +26724,7 @@
             "source": "guide-027"
           },
           "schematicSvg": "schematics/guide-017_p2.svg",
-          "sourcePageRange": "2-2",
+          "sourcePageRange": "4-4",
           "time": "1 hora",
           "title": "Control Analógico por Potenciómetro Slider",
           "wiringTable": [
@@ -26855,7 +26855,7 @@
             "whyThisMatters": "Generador de Audio Retro por Buzzer es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-3ba9067a3ab5ef6b",
-          "projectSlug": "generador-de-audio-retro-por-buzzer-guide-027",
+          "projectSlug": "guide-027-p03-generador-de-audio-retro-por-buzzer",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -26863,7 +26863,7 @@
             "source": "guide-027"
           },
           "schematicSvg": "schematics/guide-017_p3.svg",
-          "sourcePageRange": "2-2",
+          "sourcePageRange": "4-4",
           "time": "1 hora",
           "title": "Generador de Audio Retro por Buzzer",
           "wiringTable": [
@@ -26994,7 +26994,7 @@
             "whyThisMatters": "Compilación y Flasheo de los 2 Juegos es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-c535080789ede7a1",
-          "projectSlug": "compilacion-y-flasheo-de-los-2-juegos-guide-027",
+          "projectSlug": "guide-027-p04-compilacion-y-flasheo-de-los-2-juegos",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -27002,7 +27002,7 @@
             "source": "guide-027"
           },
           "schematicSvg": "schematics/guide-017_p4.svg",
-          "sourcePageRange": "2-2",
+          "sourcePageRange": "4-15",
           "time": "2 horas",
           "title": "Compilación y Flasheo de los 2 Juegos",
           "wiringTable": [
@@ -27269,7 +27269,7 @@
             "whyThisMatters": "Learning the Art of Electronics Lab es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-616fcf7e67d1028d",
-          "projectSlug": "learning-the-art-of-electronics-lab-guide-028",
+          "projectSlug": "guide-028-p01-learning-the-art-of-electronics-lab",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -27411,7 +27411,7 @@
             "whyThisMatters": "Phil's Lab High-Speed Hardware Design es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-fb1ddf823a1438db",
-          "projectSlug": "phils-lab-high-speed-hardware-design-guide-028",
+          "projectSlug": "guide-028-p02-phils-lab-high-speed-hardware-design",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -27419,7 +27419,7 @@
             "source": "guide-028"
           },
           "schematicSvg": "schematics/guide-028_p2.svg",
-          "sourcePageRange": "2-2",
+          "sourcePageRange": "3-3",
           "time": "2 semanas",
           "title": "Phil's Lab High-Speed Hardware Design",
           "wiringTable": [
@@ -27560,7 +27560,7 @@
             "whyThisMatters": "Ben Eater 8-bit Discrete TTL Computer es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-e7d66ac8589af8c8",
-          "projectSlug": "ben-eater-8-bit-discrete-ttl-computer-guide-028",
+          "projectSlug": "guide-028-p03-ben-eater-8-bit-discrete-ttl-computer",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -27568,7 +27568,7 @@
             "source": "guide-028"
           },
           "schematicSvg": "schematics/guide-028_p3.svg",
-          "sourcePageRange": "3-3",
+          "sourcePageRange": "4-4",
           "time": "3 semanas",
           "title": "Ben Eater 8-bit Discrete TTL Computer",
           "wiringTable": [
@@ -27712,7 +27712,7 @@
             "whyThisMatters": "Contextual Electronics Board Bring-up es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-884f5fc2f17850fb",
-          "projectSlug": "contextual-electronics-board-bring-up-guide-028",
+          "projectSlug": "guide-028-p04-contextual-electronics-board-bring-up",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -27865,7 +27865,7 @@
             "whyThisMatters": "MIT OCW Feedback Control Implementer es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-5cc3a466247a0635",
-          "projectSlug": "mit-ocw-feedback-control-implementer-guide-028",
+          "projectSlug": "guide-028-p05-mit-ocw-feedback-control-implementer",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -28018,7 +28018,7 @@
             "whyThisMatters": "GNU Radio & RTL-SDR Spectrum Interceptor es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-de62002d65b8d3c3",
-          "projectSlug": "gnu-radio-rtl-sdr-spectrum-interceptor-guide-028",
+          "projectSlug": "guide-028-p06-gnu-radio-rtl-sdr-spectrum-interceptor",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -28026,7 +28026,7 @@
             "source": "guide-028"
           },
           "schematicSvg": "schematics/guide-028_p6.svg",
-          "sourcePageRange": "5-5",
+          "sourcePageRange": "5-10",
           "time": "2 semanas",
           "title": "GNU Radio & RTL-SDR Spectrum Interceptor",
           "wiringTable": [
@@ -28300,7 +28300,7 @@
             "whyThisMatters": "Practical Electronics for Inventors Bench es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-944ac1c3f3e0e084",
-          "projectSlug": "practical-electronics-for-inventors-bench-guide-029",
+          "projectSlug": "guide-029-p01-practical-electronics-for-inventors-bench",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -28442,7 +28442,7 @@
             "whyThisMatters": "Razavi CMOS Microelectronics Lab es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-a5f2598bfd80d3a5",
-          "projectSlug": "razavi-cmos-microelectronics-lab-guide-029",
+          "projectSlug": "guide-029-p02-razavi-cmos-microelectronics-lab",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -28450,7 +28450,7 @@
             "source": "guide-029"
           },
           "schematicSvg": "schematics/guide-029_p2.svg",
-          "sourcePageRange": "2-2",
+          "sourcePageRange": "3-3",
           "time": "2 semanas",
           "title": "Razavi CMOS Microelectronics Lab",
           "wiringTable": [
@@ -28591,7 +28591,7 @@
             "whyThisMatters": "LTspice Worst-Case & Monte Carlo Simulator es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-785afde450d85e7c",
-          "projectSlug": "ltspice-worst-case-monte-carlo-simulator-guide-029",
+          "projectSlug": "guide-029-p03-ltspice-worst-case-monte-carlo-simulator",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -28599,7 +28599,7 @@
             "source": "guide-029"
           },
           "schematicSvg": "schematics/guide-029_p3.svg",
-          "sourcePageRange": "3-3",
+          "sourcePageRange": "4-4",
           "time": "1 semana",
           "title": "LTspice Worst-Case & Monte Carlo Simulator",
           "wiringTable": [
@@ -28740,7 +28740,7 @@
             "whyThisMatters": "Wokwi Virtual Hardware Simulator es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-6efd04ef2f2f5cab",
-          "projectSlug": "wokwi-virtual-hardware-simulator-guide-029",
+          "projectSlug": "guide-029-p04-wokwi-virtual-hardware-simulator",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -28893,7 +28893,7 @@
             "whyThisMatters": "Scientist & Engineer's Guide to DSP es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-5391aae16108b4f9",
-          "projectSlug": "scientist-engineers-guide-to-dsp-guide-029",
+          "projectSlug": "guide-029-p05-scientist-engineers-guide-to-dsp",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -29046,7 +29046,7 @@
             "whyThisMatters": "W2AEW RF Lab Techniques & Measurements es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-ef3e4fa40d859cb2",
-          "projectSlug": "w2aew-rf-lab-techniques-measurements-guide-029",
+          "projectSlug": "guide-029-p06-w2aew-rf-lab-techniques-measurements",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -29054,7 +29054,7 @@
             "source": "guide-029"
           },
           "schematicSvg": "schematics/guide-029_p6.svg",
-          "sourcePageRange": "5-5",
+          "sourcePageRange": "5-10",
           "time": "2 semanas",
           "title": "W2AEW RF Lab Techniques & Measurements",
           "wiringTable": [
@@ -29321,7 +29321,7 @@
             "whyThisMatters": "FEDEVEL High-Speed PCB Layout Masterclass es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-48f4b5dd661d18ae",
-          "projectSlug": "fedevel-high-speed-pcb-layout-masterclass-guide-030",
+          "projectSlug": "guide-030-p01-fedevel-high-speed-pcb-layout-masterclass",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -29463,7 +29463,7 @@
             "whyThisMatters": "Steve Brunton Modern Control & Kalman Filters es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-3ce4d68150ddd6c9",
-          "projectSlug": "steve-brunton-modern-control-kalman-filters-guide-030",
+          "projectSlug": "guide-030-p02-steve-brunton-modern-control-kalman-filters",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -29471,7 +29471,7 @@
             "source": "guide-030"
           },
           "schematicSvg": "schematics/guide-030_p2.svg",
-          "sourcePageRange": "2-2",
+          "sourcePageRange": "3-3",
           "time": "2 semanas",
           "title": "Steve Brunton Modern Control & Kalman Filters",
           "wiringTable": [
@@ -29616,7 +29616,7 @@
             "whyThisMatters": "Andreas Spiess Deep IoT & LoRaWAN Node es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-3a337d02243e5561",
-          "projectSlug": "andreas-spiess-deep-iot-lorawan-node-guide-030",
+          "projectSlug": "guide-030-p03-andreas-spiess-deep-iot-lorawan-node",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -29624,7 +29624,7 @@
             "source": "guide-030"
           },
           "schematicSvg": "schematics/guide-030_p3.svg",
-          "sourcePageRange": "3-3",
+          "sourcePageRange": "4-4",
           "time": "2 semanas",
           "title": "Andreas Spiess Deep IoT & LoRaWAN Node",
           "wiringTable": [
@@ -29772,7 +29772,7 @@
             "whyThisMatters": "GreatScott! Switching Converter Design es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-719c6499b6635915",
-          "projectSlug": "greatscott-switching-converter-design-guide-030",
+          "projectSlug": "guide-030-p04-greatscott-switching-converter-design",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -29914,7 +29914,7 @@
             "whyThisMatters": "Digital Design & RISC-V Architecture es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-c91c58d3f6fc6616",
-          "projectSlug": "digital-design-risc-v-architecture-guide-030",
+          "projectSlug": "guide-030-p05-digital-design-risc-v-architecture",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -30063,7 +30063,7 @@
             "whyThisMatters": "Shawn Hymel TinyML Embedded Classifier es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-cf3ed0f0abbc5e82",
-          "projectSlug": "shawn-hymel-tinyml-embedded-classifier-guide-030",
+          "projectSlug": "guide-030-p06-shawn-hymel-tinyml-embedded-classifier",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -30071,7 +30071,7 @@
             "source": "guide-030"
           },
           "schematicSvg": "schematics/guide-030_p6.svg",
-          "sourcePageRange": "5-5",
+          "sourcePageRange": "5-12",
           "time": "2 semanas",
           "title": "Shawn Hymel TinyML Embedded Classifier",
           "wiringTable": [
@@ -30331,7 +30331,7 @@
             "whyThisMatters": "KiCad Production-Ready DFM Workflow es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-403de5b9360a89ee",
-          "projectSlug": "kicad-production-ready-dfm-workflow-guide-031",
+          "projectSlug": "guide-031-p01-kicad-production-ready-dfm-workflow",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -30473,7 +30473,7 @@
             "whyThisMatters": "The Art of Electronics Ultra-Low Noise Supply es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-25015e1de0868338",
-          "projectSlug": "the-art-of-electronics-ultra-low-noise-supply-guide-031",
+          "projectSlug": "guide-031-p02-the-art-of-electronics-ultra-low-noise-supply",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -30618,7 +30618,7 @@
             "whyThisMatters": "Zephyr RTOS Industrial Node Deployment es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-89dce9c8134220ee",
-          "projectSlug": "zephyr-rtos-industrial-node-deployment-guide-031",
+          "projectSlug": "guide-031-p03-zephyr-rtos-industrial-node-deployment",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -30763,7 +30763,7 @@
             "whyThisMatters": "Microwaves101 Planar Filter & Coupler es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-d31ca580450cf995",
-          "projectSlug": "microwaves101-planar-filter-coupler-guide-031",
+          "projectSlug": "guide-031-p04-microwaves101-planar-filter-coupler",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -30905,7 +30905,7 @@
             "whyThisMatters": "JLCPCB SMT Panelization & Automated Assembly es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-66ff5c3263b46c00",
-          "projectSlug": "jlcpcb-smt-panelization-automated-assembly-guide-031",
+          "projectSlug": "guide-031-p05-jlcpcb-smt-panelization-automated-assembly",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -31051,7 +31051,7 @@
             "whyThisMatters": "EEVblog Teardown Forensic & ESD Hardening es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
           "projectId": "proj-4c78d5781b650b28",
-          "projectSlug": "eevblog-teardown-forensic-esd-hardening-guide-031",
+          "projectSlug": "guide-031-p06-eevblog-teardown-forensic-esd-hardening",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -31059,7 +31059,7 @@
             "source": "guide-031"
           },
           "schematicSvg": "schematics/guide-031_p6.svg",
-          "sourcePageRange": "5-5",
+          "sourcePageRange": "6-10",
           "time": "1 semana",
           "title": "EEVblog Teardown Forensic & ESD Hardening",
           "wiringTable": [

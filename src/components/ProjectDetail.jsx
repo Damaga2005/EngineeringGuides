@@ -23,10 +23,6 @@ import {
   Download,
   Share2,
   Info,
-  FlaskConical,
-  GitCompare,
-  ShoppingCart,
-  FileDown,
   BookOpen,
   Wrench
 } from 'lucide-react';
@@ -39,18 +35,13 @@ export default function ProjectDetail({
   expandedGuide,
   onBack,
   onSelectProject,
-  onSelectGuide,
-  onOpenInLab,
-  onToggleCompare,
-  isCompared = false,
-  onAddBOMToCart
+  onSelectGuide
 }) {
   const [activeTab, setActiveTab] = useState('explanation'); // 'explanation' | 'build' | 'expanded' | 'relations'
   const [expandedSections, setExpandedSections] = useState({});
   const [copiedLink, setCopiedLink] = useState(false);
   const [copiedCode, setCopiedCode] = useState(false);
   const [copiedBom, setCopiedBom] = useState(false);
-  const [addedToCartToast, setAddedToCartToast] = useState(false);
 
   // Reset to the default tab whenever the viewed project changes, so a
   // 'expanded' tab left active doesn't render blank on a project with no
@@ -127,59 +118,6 @@ export default function ProjectDetail({
     document.body.removeChild(link);
   };
 
-  const handleAddToCart = () => {
-    if (onAddBOMToCart) {
-      onAddBOMToCart(project);
-      setAddedToCartToast(true);
-      setTimeout(() => setAddedToCartToast(false), 2500);
-    }
-  };
-
-  const exportMarkdown = () => {
-    if (!project) return;
-    let md = `# ${project.title}\n\n`;
-    md += `> **ID de Proyecto**: \`${project.projectId}\` | **Guía Oficial Origen**: ${project.guideTitle} (\`${project.guideId}\`)\n`;
-    md += `> **Microcontrolador**: ${techId.controller || 'Microcontrolador Dedicado'} | **Dificultad**: ${project.difficulty || 'Intermedio'} | **Tiempo Estimado**: ${project.timeEstimate || '2-4 horas'}\n\n`;
-    
-    md += `## 1. Resumen Ejecutivo\n\n`;
-    md += `* **¿Qué es?**: ${desc.whatIsIt || ''}\n`;
-    md += `* **¿Qué hace?**: ${desc.whatDoesItDo || ''}\n`;
-    md += `* **¿Para qué sirve?**: ${desc.whatIsItFor || ''}\n\n`;
-
-    md += `## 2. Lista de Materiales (BOM)\n\n`;
-    md += `| Componente | Especificación | Cantidad | Coste Estimado |\n`;
-    md += `| :--- | :--- | :---: | :---: |\n`;
-    (project.bom || []).forEach(b => {
-      const name = typeof b === 'string' ? b : b.name || 'Componente';
-      const specs = b.specs || '-';
-      const qty = b.qty || 1;
-      const cost = b.cost || '-';
-      md += `| ${name} | ${specs} | ${qty} | ${cost} |\n`;
-    });
-    md += `\n`;
-
-    md += `## 3. Especificación Técnica Detallada\n\n`;
-    sections.forEach(s => {
-      md += `### ${s.title}\n\n${s.content}\n\n`;
-    });
-
-    if (project.firmwareCode) {
-      md += `## 4. Código Firmware de Producción\n\n\`\`\`${project.firmwareLanguage || 'cpp'}\n${project.firmwareCode}\n\`\`\`\n\n`;
-    }
-
-    md += `---\n*Exportado automáticamente desde EngineeringGuides Hub - Plataforma de Ingeniería Aplicada*\n`;
-
-    const blob = new Blob([md], { type: 'text/markdown;charset=utf-8' });
-    const url = URL.createObjectURL(blob);
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = `${project.slug || project.projectId || 'proyecto'}.md`;
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-    URL.revokeObjectURL(url);
-  };
-
   // Find related canonical projects if present
   const relatedProjects = useMemo(() => {
     if (!project || !allProjects.length) return [];
@@ -246,60 +184,14 @@ export default function ProjectDetail({
             </div>
           </div>
 
-          <div className="flex items-center gap-2 flex-wrap">
-            {onOpenInLab && (
-              <button
-                onClick={() => onOpenInLab(project)}
-                className="px-3 py-1.5 rounded-lg bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-semibold inline-flex items-center gap-1.5 transition-all shadow-md shadow-cyan-950/40"
-                title="Abrir este proyecto en el Laboratorio Virtual"
-              >
-                <FlaskConical className="h-3.5 w-3.5" />
-                <span className="hidden sm:inline">Probar en</span> Lab
-              </button>
-            )}
-
-            {onToggleCompare && (
-              <button
-                onClick={() => onToggleCompare(project)}
-                className={`px-3 py-1.5 rounded-lg text-xs font-medium inline-flex items-center gap-1.5 border transition-all ${
-                  isCompared 
-                    ? 'bg-cyan-950 border-cyan-700 text-cyan-300' 
-                    : 'bg-slate-900 border-slate-800 hover:bg-slate-800 text-slate-300'
-                }`}
-                title={isCompared ? 'En el comparador' : 'Añadir al comparador'}
-              >
-                <GitCompare className="h-3.5 w-3.5 text-cyan-400" />
-                <span className="hidden md:inline">{isCompared ? 'En Comparador' : 'Comparar'}</span>
-              </button>
-            )}
-
-            {onAddBOMToCart && (
-              <button
-                onClick={handleAddToCart}
-                className="px-3 py-1.5 rounded-lg bg-emerald-950/80 border border-emerald-700/60 hover:bg-emerald-900/80 text-emerald-300 text-xs font-semibold inline-flex items-center gap-1.5 transition-colors"
-                title="Añadir componentes a la cesta BOM"
-              >
-                <ShoppingCart className="h-3.5 w-3.5 text-emerald-400" />
-                <span className="hidden md:inline">{addedToCartToast ? '¡Añadido!' : 'Cesta BOM'}</span>
-              </button>
-            )}
-
-            <button
-              onClick={exportMarkdown}
-              className="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 hover:bg-slate-800 text-slate-300 text-xs font-medium inline-flex items-center gap-1.5 transition-colors"
-              title="Descargar especificación completa en Markdown (.md)"
-            >
-              <FileDown className="h-3.5 w-3.5 text-indigo-400" />
-              <span className="hidden lg:inline">Descargar MD</span>
-            </button>
-
+          <div className="flex items-center gap-2">
             <button
               onClick={copyProjectLink}
               className="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 hover:bg-slate-800 text-slate-300 text-xs font-medium inline-flex items-center gap-1.5 transition-colors"
               title="Copiar enlace permanente"
             >
               {copiedLink ? <Check className="h-3.5 w-3.5 text-emerald-400" /> : <Share2 className="h-3.5 w-3.5 text-slate-400" />}
-              <span className="hidden sm:inline">{copiedLink ? 'Copiado' : 'Compartir'}</span>
+              <span>{copiedLink ? '¡Enlace Copiado!' : 'Compartir'}</span>
             </button>
 
             <button
@@ -307,7 +199,7 @@ export default function ProjectDetail({
               className="px-3 py-1.5 rounded-lg bg-cyan-950/80 border border-cyan-700/50 hover:bg-cyan-900/80 text-cyan-300 text-xs font-semibold inline-flex items-center gap-1.5 transition-colors"
             >
               <FileText className="h-3.5 w-3.5" />
-              <span className="hidden lg:inline">Guía Origen</span>
+              <span className="hidden md:inline">Ver Guía Origen</span>
               <span className="font-mono text-[11px]">({project.guideId})</span>
               <ExternalLink className="h-3 w-3" />
             </button>
