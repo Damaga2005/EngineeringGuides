@@ -4,42 +4,60 @@
 **Pipeline Standard:** EngineeringGuides Project-First v2.3.0 (P02.3 Forensic Closure Final)
 **Baseline commit (before this closure):** `b3f201194ee05b0ef378715ee6dfce33f95547de`
 
-This report distinguishes five separate commit/state identities. They are
+This report distinguishes several separate commit/state identities. They are
 **not interchangeable** and must never be collapsed into a single "HEAD":
 
 | Identity | SHA | What it identifies |
 |---|---|---|
-| **P02.3 certified code commit** | `3de1fc23261d0fdca3d7690eb6a1acbae881516a` | The commit whose code was actually extracted, tested, validated, built, and deployed. This is what "P02.3 is certified" refers to. |
-| **CI headSha** | `3de1fc23261d0fdca3d7690eb6a1acbae881516a` | The commit the CI workflow ([run 34691695150](https://github.com/Damaga2005/EngineeringGuides/actions/runs/34691695150), `success`) actually ran against. |
-| **Deploy headSha** | `3de1fc23261d0fdca3d7690eb6a1acbae881516a` | The commit the GitHub Pages deploy workflow ([run 34691695148](https://github.com/Damaga2005/EngineeringGuides/actions/runs/34691695148), `success`) actually deployed. |
-| **Certification documentation commit** | `96a6c4bf418406d8333b64c6ccb79e5acb320823` | The commit that recorded the CI/Deploy verification into this report. It is a **child** of the certified code commit, not the certified code itself. |
-| **Current `main` HEAD** | `96a6c4bf418406d8333b64c6ccb79e5acb320823` | Where `origin/main` points right now. |
+| **P02.3 certified code commit** | `3de1fc23261d0fdca3d7690eb6a1acbae881516a` | The commit whose code was actually extracted, tested, validated, built, and deployed. This is what "P02.3 is certified" refers to. This value is a permanent fact and does not change. |
+| **CI headSha** | `3de1fc23261d0fdca3d7690eb6a1acbae881516a` | The commit the CI workflow ([run 34691695150](https://github.com/Damaga2005/EngineeringGuides/actions/runs/34691695150), `success`) actually ran against. Permanent fact. |
+| **Deploy headSha** | `3de1fc23261d0fdca3d7690eb6a1acbae881516a` | The commit the GitHub Pages deploy workflow ([run 34691695148](https://github.com/Damaga2005/EngineeringGuides/actions/runs/34691695148), `success`) actually deployed. Permanent fact. |
 
-**Relationship:** `3de1fc2` is an ancestor of `96a6c4b`
-(`git merge-base --is-ancestor 3de1fc2 96a6c4b` → true). The certified code
-commit and the current HEAD are **different commits by design** — the HEAD
-moved forward by one purely-documental commit after certification, which is
-expected and does not invalidate the P02.3 certification.
+**Documentation commit history** (each is a child of the certified code
+commit above, not the certified code itself; this list only grows forward
+and each entry's own SHA is a permanent fact about *that specific edit*):
+
+| Documentation commit | Purpose | CI (check-runs) | Deploy (check-runs) |
+|---|---|---|---|
+| `96a6c4bf418406d8333b64c6ccb79e5acb320823` | First attempt to record CI/Deploy verification. **Superseded**: used ambiguous "Closure commit (HEAD)" wording that stopped being true as soon as it landed on `main`. | success | success |
+| `bcd7fb7e8a697d08272cf932d217b883840f4854` | Corrected the ambiguous wording (P02.3.1). Introduced the identity table above. | success (verified via `gh api repos/.../commits/bcd7fb7.../check-runs`, not the legacy `/status` endpoint, which GitHub Actions does not populate and always returns `statuses: []` for Actions-only repos) | success (same verification) |
+| *(this edit, P02.3.2)* | Removed the self-referential "current HEAD" field described below. | — | — |
+
+**Relationship:** `3de1fc2` is an ancestor of every documentation commit
+above (`git merge-base --is-ancestor 3de1fc2 <sha>` → true for each). The
+certified code commit and the documentation commits are **different commits
+by design** — `main` moves forward by one purely-documental commit each time
+this report is corrected, which is expected and does not invalidate the
+P02.3 code certification.
 
 ## Certification SHA semantics
 
 A versioned document committed as part of commit `X` cannot self-referentially
 contain the final SHA of `X` as a stable property of its own content, because
-the document's content is itself an input to `X`'s hash. Any report that
-claims `"Report SHA == HEAD"` inside the very commit it describes is either
-lying or was checked against a *later* HEAD than the one it certifies — which
-is exactly the ambiguity the P02.2 report's "Closure commit (HEAD)" wording
-introduced and this report corrects. Concretely, this report uses five
-non-interchangeable identities instead:
+the document's content is itself an input to `X`'s hash. **This applies
+recursively**: the P02.3.1 correction (`bcd7fb7`) still described itself as
+"current main HEAD", which was true only until this very edit (P02.3.2)
+landed and moved HEAD again. Any report that hardcodes a "current HEAD" field
+will go stale the next time that same report is edited — there is no fixed
+point.
 
-- `certifiedCodeCommit` — the code that was actually extracted, tested, and validated (`3de1fc2`).
-- `ciHeadSha` — the commit CI actually ran against.
-- `deployHeadSha` — the commit actually deployed to GitHub Pages.
-- `documentationCommit` — the commit that recorded this certification (`96a6c4b`).
-- `currentHead` — wherever `main` points at read time.
+The fix is not to chase a moving value but to stop treating it as a
+certification criterion at all:
+
+- `certifiedCodeCommit`, `ciHeadSha`, `deployHeadSha` — permanent facts about
+  one specific, already-tested commit. These never change and are safe to
+  hardcode.
+- The **documentation commit history** table above is append-only: each row
+  is a permanent fact about the edit that produced it, verified independently
+  against GitHub's API at the time it was added.
+- **"Current main HEAD" is deliberately not hardcoded anywhere in this
+  document.** To find it, run `git rev-parse origin/main`. Whatever that
+  command returns is - by definition - one commit at or after the last row in
+  the table above, and this report does not need to be re-edited every time
+  someone pushes to `main` for an unrelated reason.
 
 `reportSha == HEAD` is never used as a certification criterion in this
-document.
+document, and no field in this document claims to equal "the current HEAD".
 
 This report supersedes the P02.2 report. That report's `PASS` verdict was **not
 reliable**: `docs/project-first/fabrication_audit.json` reported
@@ -76,18 +94,20 @@ working tree, not from the prior report.
 | **Audit Artifacts Generated** | 4 forensic audit JSONs, regenerated with strict byte-equality | `evidence_audit.json`, `fabrication_audit.json`, `golden_execution.json`, `determinism_audit.json` | **PASS** |
 | **Certified code commit == CI headSha** | `gh run view 34691695150 --json headSha` | `3de1fc2` == `3de1fc2` | **PASS** |
 | **Certified code commit == Deploy headSha** | `gh run view 34691695148 --json headSha` | `3de1fc2` == `3de1fc2` | **PASS** |
-| **Current main HEAD == documentation commit** | `git rev-parse origin/main` | `96a6c4b` == `96a6c4b` | **PASS** |
-| **Certified code commit is ancestor of current HEAD** | `git merge-base --is-ancestor 3de1fc2 96a6c4b` | true | **PASS** |
+| **Every documentation commit is a descendant of the certified code commit** | `git merge-base --is-ancestor 3de1fc2 <doc-sha>` for each row in the documentation history table | true for `96a6c4b`, true for `bcd7fb7` | **PASS** |
+| **Each documentation commit's own CI/Deploy checks (not the code's)** | `gh api repos/.../commits/<sha>/check-runs` | `96a6c4b`: 3/3 success; `bcd7fb7`: 3/3 success (verified via the Checks API - the legacy `/commits/<sha>/status` endpoint returns `statuses: []` for Actions-only repos and must not be read as "no checks ran") | **PASS** |
 | **Prompt 03 Boundary** | Zero P03 code touched | Preserved | **PASS** |
 
 **FINAL RELEASE GATE: PASS** — all local gates are green, the certified code
 commit `3de1fc23261d0fdca3d7690eb6a1acbae881516a` was pushed to `origin/main`
 and both the CI workflow (run 34691695150) and the GitHub Pages deploy
 workflow (run 34691695148) completed successfully against that exact commit
-SHA. The documentation commit `96a6c4bf418406d8333b64c6ccb79e5acb320823` that
-recorded this verification is a later, purely-documental descendant — it is
-not itself part of what was tested by CI/Deploy, and this report no longer
-implies otherwise.
+SHA. Every documentation commit made since then is a purely-documental
+descendant, independently verified via the GitHub Checks API - none of them
+is itself part of what CI/Deploy originally tested, and this report does not
+claim otherwise. This report intentionally does not assert a "current main
+HEAD" value (see *Certification SHA semantics* above); read
+`git rev-parse origin/main` for that.
 
 ---
 
@@ -262,10 +282,18 @@ b3f201194ee05b0ef378715ee6dfce33f95547de   (P02.2 baseline)
         │ CI PASS (run 34691695150)
         │ Deploy PASS (run 34691695148)
         ▼
-96a6c4bf418406d8333b64c6ccb79e5acb320823   (certification documentation commit)
+96a6c4bf418406d8333b64c6ccb79e5acb320823   (doc commit: recorded CI/Deploy SHAs; used ambiguous "HEAD" wording)
+        │
+        │ own CI/Deploy checks: 3/3 success (Checks API)
+        ▼
+bcd7fb7e8a697d08272cf932d217b883840f4854   (doc commit: corrected the ambiguous wording, P02.3.1)
+        │
+        │ own CI/Deploy checks: 3/3 success (Checks API)
+        ▼
+... (this edit, P02.3.2) ...
         │
         ▼
-current main HEAD
+current main HEAD  (read live via `git rev-parse origin/main` - not hardcoded here)
 ```
 
 `3de1fc2` remains the P02.3 certified code commit regardless of how many
@@ -273,15 +301,18 @@ purely-documental commits are later added on top of it. A later HEAD does not
 retroactively decertify an earlier commit's CI/Deploy results, and a
 documentation commit does not need its own CI/Deploy run to "inherit" the
 certification of the code it describes — it only needs to itself introduce no
-functional change (verified in Section 7 of the P02.3.1 correction: `git diff
---name-status 3de1fc2 96a6c4b` touches only this report).
+functional change (verified for `96a6c4b` and `bcd7fb7` via `git diff
+--name-status 3de1fc2 <sha>`, both touching only this report). Each
+documentation commit's own CI/Deploy result is recorded because it is useful
+evidence that the edit didn't break anything - not because it is required to
+"transfer" the P02.3 code certification, which lives permanently on `3de1fc2`.
 
 ---
 
 ## 6. P03 Boundary
 
-No file under any P03-designated path was created or modified, in either the
-P02.3 certified code commit or the subsequent documentation commit. This
+No file under any P03-designated path was created or modified, in the P02.3
+certified code commit or in any subsequent documentation-only commit. This
 closure is strictly scoped to `scripts/project_first/`, `tests/project_first/`,
 `docs/project-first/`, and the two generated catalogs
 (`public/projects.json`, `public/guides.json`).
