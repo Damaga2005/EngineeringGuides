@@ -2,10 +2,10 @@
   {
     "catalogPageRange": [
       2,
-      5
+      4
     ],
     "catalogTitle": "Digital Night-Vision Monocular",
-    "discrepancyNote": "Exact title and boundary match.",
+    "discrepancyNote": "Boundary offset of <= 1 page: Catalog [2, 4] vs IR [2, 5].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -31,15 +31,15 @@
     "irTitle": "Digital Night-Vision Monocular",
     "projectId": "proj-9cc1a42f66e7c4d5",
     "projectNumber": 1,
-    "status": "MATCH"
+    "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      5,
-      8
+      4,
+      4
     ],
     "catalogTitle": "Wearable Heads-Up Display (HUD)",
-    "discrepancyNote": "Page range matched [5, 8], title discrepancy: 'Wearable Heads-Up Display (HUD)' vs 'AR Heads-Up Display Goggles'.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 4] vs IR [5, 8].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -65,15 +65,15 @@
     "irTitle": "AR Heads-Up Display Goggles",
     "projectId": "proj-a6a7911d0a82e714",
     "projectNumber": 2,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      8,
-      11
+      4,
+      4
     ],
     "catalogTitle": "Solar Perimeter Sentry Tower",
-    "discrepancyNote": "Page range matched [8, 11], title discrepancy: 'Solar Perimeter Sentry Tower' vs 'Autonomous Sentry Tower'.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 4] vs IR [8, 11].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -99,15 +99,15 @@
     "irTitle": "Autonomous Sentry Tower",
     "projectId": "proj-7b3d0a559298c92a",
     "projectNumber": 3,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      11,
-      13
+      4,
+      4
     ],
     "catalogTitle": "RF Spectrum Surveillance Station",
-    "discrepancyNote": "Page range matched [11, 13], title discrepancy: 'RF Spectrum Surveillance Station' vs 'RF Ground Station'.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 4] vs IR [11, 13].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -133,15 +133,15 @@
     "irTitle": "RF Ground Station",
     "projectId": "proj-cff102681e8f1361",
     "projectNumber": 4,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      13,
+      4,
       15
     ],
     "catalogTitle": "Off-Grid LoRa Mesh Node",
-    "discrepancyNote": "Page range matched [13, 15], title discrepancy: 'Off-Grid LoRa Mesh Node' vs 'Mesh Field Radio'.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 15] vs IR [13, 15].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -167,7 +167,7 @@
     "irTitle": "Mesh Field Radio",
     "projectId": "proj-8df10854ea1082a6",
     "projectNumber": 5,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
@@ -609,10 +609,10 @@
   {
     "catalogPageRange": [
       2,
-      4
+      3
     ],
     "catalogTitle": "Indoor Position Hold (Optical Flow + ToF)",
-    "discrepancyNote": "Page range matched [2, 4], title discrepancy: 'Indoor Position Hold (Optical Flow + ToF)' vs 'UPGRADE 01 · REV A'.",
+    "discrepancyNote": "Boundary offset of <= 1 page: Catalog [2, 3] vs IR [2, 4].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -642,11 +642,11 @@
   },
   {
     "catalogPageRange": [
-      4,
-      7
+      3,
+      3
     ],
     "catalogTitle": "Obstacle-Avoidance Sensor Ring",
-    "discrepancyNote": "Page range matched [4, 7], title discrepancy: 'Obstacle-Avoidance Sensor Ring' vs '[ U P G R A D E 0 2 ]'.",
+    "discrepancyNote": "Boundary divergence: Catalog [3, 3] vs IR [4, 7].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -672,15 +672,15 @@
     "irTitle": "[ U P G R A D E 0 2 ]",
     "projectId": "proj-7251513973158948",
     "projectNumber": 2,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      7,
-      9
+      3,
+      3
     ],
     "catalogTitle": "Parachute Recovery System",
-    "discrepancyNote": "Page range matched [7, 9], title discrepancy: 'Parachute Recovery System' vs 'UPGRADE 03 · REV A'.",
+    "discrepancyNote": "Boundary divergence: Catalog [3, 3] vs IR [7, 9].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -706,15 +706,15 @@
     "irTitle": "UPGRADE 03 · REV A",
     "projectId": "proj-171507a32b08d9c8",
     "projectNumber": 3,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      9,
-      11
+      3,
+      3
     ],
     "catalogTitle": "2-Axis Brushless Gimbal (FOC)",
-    "discrepancyNote": "Page range matched [9, 11], title discrepancy: '2-Axis Brushless Gimbal (FOC)' vs 'UPGRADE 04 · REV A'.",
+    "discrepancyNote": "Boundary divergence: Catalog [3, 3] vs IR [9, 11].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -740,15 +740,15 @@
     "irTitle": "UPGRADE 04 · REV A",
     "projectId": "proj-b4e3670bf00a9de2",
     "projectNumber": 4,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      11,
+      3,
       13
     ],
     "catalogTitle": "Vision Precision Landing",
-    "discrepancyNote": "Page range matched [11, 13], title discrepancy: 'Vision Precision Landing' vs 'UPGRADE 05 · REV A'.",
+    "discrepancyNote": "Boundary divergence: Catalog [3, 13] vs IR [11, 13].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -774,7 +774,7 @@
     "irTitle": "UPGRADE 05 · REV A",
     "projectId": "proj-217f596a43c24e22",
     "projectNumber": 5,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
@@ -1564,11 +1564,11 @@
   },
   {
     "catalogPageRange": [
-      4,
-      6
+      3,
+      3
     ],
     "catalogTitle": "Field-Oriented Control (FOC) BLDC Servo",
-    "discrepancyNote": "Page range matched [4, 6], title discrepancy: 'Field-Oriented Control (FOC) BLDC Servo' vs 'Closed-Loop Position Servo'.",
+    "discrepancyNote": "Boundary divergence: Catalog [3, 3] vs IR [4, 6].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -1594,15 +1594,15 @@
     "irTitle": "Closed-Loop Position Servo",
     "projectId": "proj-f353d8bac54c1f1e",
     "projectNumber": 2,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      7,
-      9
+      3,
+      3
     ],
     "catalogTitle": "Micrometric Linear Lead-Screw Stage",
-    "discrepancyNote": "Page range matched [7, 9], title discrepancy: 'Micrometric Linear Lead-Screw Stage' vs 'Self-Balancing Robot'.",
+    "discrepancyNote": "Boundary divergence: Catalog [3, 3] vs IR [7, 9].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -1628,15 +1628,15 @@
     "irTitle": "Self-Balancing Robot",
     "projectId": "proj-49c8ccba97aec32a",
     "projectNumber": 3,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      10,
-      12
+      3,
+      3
     ],
     "catalogTitle": "PID Inverted Pendulum Balancer",
-    "discrepancyNote": "Page range matched [10, 12], title discrepancy: 'PID Inverted Pendulum Balancer' vs 'FOC Brushless Motor Drive'.",
+    "discrepancyNote": "Boundary divergence: Catalog [3, 3] vs IR [10, 12].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -1662,15 +1662,15 @@
     "irTitle": "FOC Brushless Motor Drive",
     "projectId": "proj-c1422fd48562f524",
     "projectNumber": 4,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      13,
+      3,
       15
     ],
     "catalogTitle": "Torque-Limiting Linear Actuator",
-    "discrepancyNote": "Page range matched [13, 15], title discrepancy: 'Torque-Limiting Linear Actuator' vs '2-Axis Pen Plotter'.",
+    "discrepancyNote": "Boundary divergence: Catalog [3, 15] vs IR [13, 15].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -1696,7 +1696,7 @@
     "irTitle": "2-Axis Pen Plotter",
     "projectId": "proj-f279f4481f7b38bd",
     "projectNumber": 5,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
@@ -2138,10 +2138,10 @@
   {
     "catalogPageRange": [
       2,
-      4
+      3
     ],
     "catalogTitle": "Custom STM32 Flight Controller",
-    "discrepancyNote": "Page range matched [2, 4], title discrepancy: 'Custom STM32 Flight Controller' vs '❯project 01'.",
+    "discrepancyNote": "Boundary offset of <= 1 page: Catalog [2, 3] vs IR [2, 4].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -2171,11 +2171,11 @@
   },
   {
     "catalogPageRange": [
-      5,
-      7
+      3,
+      3
     ],
     "catalogTitle": "High-Speed Brushless ESC",
-    "discrepancyNote": "Page range matched [5, 7], title discrepancy: 'High-Speed Brushless ESC' vs '❯project 02'.",
+    "discrepancyNote": "Boundary divergence: Catalog [3, 3] vs IR [5, 7].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -2201,15 +2201,15 @@
     "irTitle": "❯project 02",
     "projectId": "proj-b3c136d8aa28f6f1",
     "projectNumber": 2,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      8,
-      10
+      3,
+      3
     ],
     "catalogTitle": "Bidirectional Telemetry Link",
-    "discrepancyNote": "Page range matched [8, 10], title discrepancy: 'Bidirectional Telemetry Link' vs '❯project 03'.",
+    "discrepancyNote": "Boundary divergence: Catalog [3, 3] vs IR [8, 10].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -2235,15 +2235,15 @@
     "irTitle": "❯project 03",
     "projectId": "proj-7fc5453be6dbc568",
     "projectNumber": 3,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      11,
-      13
+      3,
+      3
     ],
     "catalogTitle": "Power Distribution Board & Shunt Monitor",
-    "discrepancyNote": "Page range matched [11, 13], title discrepancy: 'Power Distribution Board & Shunt Monitor' vs '❯project 04'.",
+    "discrepancyNote": "Boundary divergence: Catalog [3, 3] vs IR [11, 13].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -2269,15 +2269,15 @@
     "irTitle": "❯project 04",
     "projectId": "proj-95688bfbd098e78d",
     "projectNumber": 4,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      14,
+      4,
       16
     ],
     "catalogTitle": "Attitude Sensor Fusion Engine",
-    "discrepancyNote": "Page range matched [14, 16], title discrepancy: 'Attitude Sensor Fusion Engine' vs '❯project 05'.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 16] vs IR [14, 16].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -2303,7 +2303,7 @@
     "irTitle": "❯project 05",
     "projectId": "proj-4a566f25189a6e42",
     "projectNumber": 5,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
@@ -3013,11 +3013,11 @@
   },
   {
     "catalogPageRange": [
-      5,
-      7
+      4,
+      4
     ],
     "catalogTitle": "EMG Muscle-Controlled Prosthetic Trigger",
-    "discrepancyNote": "Page range matched [5, 7], title discrepancy: 'EMG Muscle-Controlled Prosthetic Trigger' vs 'Biopotential Front End'.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 4] vs IR [5, 7].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -3043,15 +3043,15 @@
     "irTitle": "Biopotential Front End",
     "projectId": "proj-2f202e89ff045441",
     "projectNumber": 2,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      8,
-      11
+      4,
+      4
     ],
     "catalogTitle": "Single-Channel Alpha-Wave EEG Monitor",
-    "discrepancyNote": "Page range matched [8, 11], title discrepancy: 'Single-Channel Alpha-Wave EEG Monitor' vs 'ECG Heart Monitor'.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 4] vs IR [8, 11].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -3077,15 +3077,15 @@
     "irTitle": "ECG Heart Monitor",
     "projectId": "proj-f04cc7365f79eb84",
     "projectNumber": 3,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      12,
-      13
+      4,
+      4
     ],
     "catalogTitle": "Dual-Wavelength Pulse Oximeter (PPG)",
-    "discrepancyNote": "Page range matched [12, 13], title discrepancy: 'Dual-Wavelength Pulse Oximeter (PPG)' vs 'EMG Muscle Sensor'.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 4] vs IR [12, 13].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -3111,15 +3111,15 @@
     "irTitle": "EMG Muscle Sensor",
     "projectId": "proj-02bea515e35b1b01",
     "projectNumber": 4,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      14,
+      4,
       16
     ],
     "catalogTitle": "Galvanic Skin Response (GSR) Stress Sensor",
-    "discrepancyNote": "Page range matched [14, 16], title discrepancy: 'Galvanic Skin Response (GSR) Stress Sensor' vs 'EMG-Controlled Robotic Hand'.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 16] vs IR [14, 16].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -3145,7 +3145,7 @@
     "irTitle": "EMG-Controlled Robotic Hand",
     "projectId": "proj-b02bcca777dfb105",
     "projectNumber": 5,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
@@ -3713,11 +3713,11 @@
   },
   {
     "catalogPageRange": [
-      5,
-      7
+      4,
+      4
     ],
     "catalogTitle": "Laser Rangefinder (ToF LiDAR)",
-    "discrepancyNote": "Exact title and boundary match.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 4] vs IR [5, 7].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -3743,15 +3743,15 @@
     "irTitle": "Laser Rangefinder (Time-of-Flight LiDAR)",
     "projectId": "proj-683b8320c77d62a2",
     "projectNumber": 2,
-    "status": "MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      8,
-      9
+      4,
+      4
     ],
     "catalogTitle": "Spinning LiDAR Room Scanner",
-    "discrepancyNote": "Exact title and boundary match.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 4] vs IR [8, 9].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -3777,15 +3777,15 @@
     "irTitle": "Spinning LiDAR Room Scanner",
     "projectId": "proj-4298d36c898dd8e5",
     "projectNumber": 3,
-    "status": "MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      10,
-      11
+      4,
+      4
     ],
     "catalogTitle": "Free-Space Optical (FSO) Laser Data Link",
-    "discrepancyNote": "Page range matched [10, 11], title discrepancy: 'Free-Space Optical (FSO) Laser Data Link' vs 'Laser Data Link (Free-Space Optical Comms)'.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 4] vs IR [10, 11].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -3811,15 +3811,15 @@
     "irTitle": "Laser Data Link (Free-Space Optical Comms)",
     "projectId": "proj-1cef58ba65d1d5e5",
     "projectNumber": 4,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      12,
+      4,
       14
     ],
     "catalogTitle": "Laser Doppler Vibrometer",
-    "discrepancyNote": "Page range matched [12, 14], title discrepancy: 'Laser Doppler Vibrometer' vs 'Laser Vibrometer'.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 14] vs IR [12, 14].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -3845,7 +3845,7 @@
     "irTitle": "Laser Vibrometer",
     "projectId": "proj-052a5c03c6733f19",
     "projectNumber": 5,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
@@ -4289,11 +4289,11 @@
   },
   {
     "catalogPageRange": [
-      5,
-      6
+      4,
+      4
     ],
     "catalogTitle": "Calibrated Radar Speed Gun",
-    "discrepancyNote": "Exact title and boundary match.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 4] vs IR [5, 6].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -4319,15 +4319,15 @@
     "irTitle": "Radar Speed Gun",
     "projectId": "proj-f4ffdb28464cbacb",
     "projectNumber": 2,
-    "status": "MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      7,
-      9
+      4,
+      4
     ],
     "catalogTitle": "FMCW Ranging Radar (24 GHz)",
-    "discrepancyNote": "Exact title and boundary match.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 4] vs IR [7, 9].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -4353,15 +4353,15 @@
     "irTitle": "FMCW Ranging Radar",
     "projectId": "proj-0e0c3069f5a83ea4",
     "projectNumber": 3,
-    "status": "MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      10,
-      12
+      4,
+      4
     ],
     "catalogTitle": "Micro-Doppler Vital-Signs Radar",
-    "discrepancyNote": "Exact title and boundary match.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 4] vs IR [10, 12].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -4387,15 +4387,15 @@
     "irTitle": "Micro-Doppler Vital-Signs Radar",
     "projectId": "proj-a88e25aca204d340",
     "projectNumber": 4,
-    "status": "MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      13,
+      4,
       15
     ],
     "catalogTitle": "Through-Wall WiFi Motion Detector",
-    "discrepancyNote": "Page range matched [13, 15], title discrepancy: 'Through-Wall WiFi Motion Detector' vs 'WiFi-Sensing Motion Detector'.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 15] vs IR [13, 15].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -4421,7 +4421,7 @@
     "irTitle": "WiFi-Sensing Motion Detector",
     "projectId": "proj-4902d58497d90422",
     "projectNumber": 5,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
@@ -4894,10 +4894,10 @@
   {
     "catalogPageRange": [
       2,
-      5
+      4
     ],
     "catalogTitle": "GNSS Receiver & Resilience Analysis",
-    "discrepancyNote": "Exact title and boundary match.",
+    "discrepancyNote": "Boundary offset of <= 1 page: Catalog [2, 4] vs IR [2, 5].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -4923,15 +4923,15 @@
     "irTitle": "GNSS Receiver & Resilience",
     "projectId": "proj-1a64e60857cbc87d",
     "projectNumber": 1,
-    "status": "MATCH"
+    "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      5,
-      8
+      4,
+      4
     ],
     "catalogTitle": "RF Direction Finder (Pseudo-Doppler)",
-    "discrepancyNote": "Exact title and boundary match.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 4] vs IR [5, 8].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -4957,15 +4957,15 @@
     "irTitle": "RF Direction Finder",
     "projectId": "proj-1c2472bca80aab75",
     "projectNumber": 2,
-    "status": "MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      8,
-      10
+      4,
+      4
     ],
     "catalogTitle": "Magnetic Anomaly Detector (Fluxgate)",
-    "discrepancyNote": "Exact title and boundary match.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 4] vs IR [8, 10].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -4991,15 +4991,15 @@
     "irTitle": "Magnetic Anomaly Detector",
     "projectId": "proj-a42110a4f7ea7e4a",
     "projectNumber": 3,
-    "status": "MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      10,
-      12
+      4,
+      4
     ],
     "catalogTitle": "Seismic Unattended Ground Sensor (UGS)",
-    "discrepancyNote": "Exact title and boundary match.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 4] vs IR [10, 12].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -5025,15 +5025,15 @@
     "irTitle": "Seismic Unattended Ground Sensor",
     "projectId": "proj-a09c9eaab189e94a",
     "projectNumber": 4,
-    "status": "MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      12,
+      4,
       14
     ],
     "catalogTitle": "Passive Drone Detection Receiver",
-    "discrepancyNote": "Exact title and boundary match.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 14] vs IR [12, 14].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -5059,7 +5059,7 @@
     "irTitle": "Drone Detection Receiver",
     "projectId": "proj-81cc6d566a2c3b2d",
     "projectNumber": 5,
-    "status": "MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
@@ -5439,10 +5439,10 @@
   {
     "catalogPageRange": [
       2,
-      4
+      3
     ],
     "catalogTitle": "GNSS Receiver & Resilience Analysis",
-    "discrepancyNote": "Exact title and boundary match.",
+    "discrepancyNote": "Boundary offset of <= 1 page: Catalog [2, 3] vs IR [2, 4].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -5468,15 +5468,15 @@
     "irTitle": "GNSS Receiver & Resilience",
     "projectId": "proj-f3b88e7e3976ed3b",
     "projectNumber": 1,
-    "status": "MATCH"
+    "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      5,
-      8
+      4,
+      4
     ],
     "catalogTitle": "RF Direction Finder (Pseudo-Doppler)",
-    "discrepancyNote": "Exact title and boundary match.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 4] vs IR [5, 8].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -5502,15 +5502,15 @@
     "irTitle": "RF Direction Finder",
     "projectId": "proj-6169d784d62573ed",
     "projectNumber": 2,
-    "status": "MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      9,
-      11
+      4,
+      4
     ],
     "catalogTitle": "Magnetic Anomaly Detector (Fluxgate)",
-    "discrepancyNote": "Exact title and boundary match.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 4] vs IR [9, 11].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -5536,15 +5536,15 @@
     "irTitle": "Magnetic Anomaly Detector",
     "projectId": "proj-1f516aca4358920d",
     "projectNumber": 3,
-    "status": "MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      12,
-      14
+      4,
+      4
     ],
     "catalogTitle": "Seismic Unattended Ground Sensor (UGS)",
-    "discrepancyNote": "Exact title and boundary match.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 4] vs IR [12, 14].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -5570,15 +5570,15 @@
     "irTitle": "Seismic Unattended Ground Sensor",
     "projectId": "proj-4e461b38f5d05afd",
     "projectNumber": 4,
-    "status": "MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      15,
+      4,
       18
     ],
     "catalogTitle": "Passive Drone Detection Receiver",
-    "discrepancyNote": "Exact title and boundary match.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 18] vs IR [15, 18].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -5604,7 +5604,7 @@
     "irTitle": "Drone Detection Receiver",
     "projectId": "proj-4917a0b27097e30c",
     "projectNumber": 5,
-    "status": "MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
@@ -6170,10 +6170,10 @@
   {
     "catalogPageRange": [
       2,
-      4
+      3
     ],
     "catalogTitle": "Reactive Rover (Sense-Plan-Act)",
-    "discrepancyNote": "Exact title and boundary match.",
+    "discrepancyNote": "Boundary offset of <= 1 page: Catalog [2, 3] vs IR [2, 4].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -6199,15 +6199,15 @@
     "irTitle": "Reactive Rover",
     "projectId": "proj-0455fb2c072df1ec",
     "projectNumber": 1,
-    "status": "MATCH"
+    "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      4,
-      7
+      3,
+      3
     ],
     "catalogTitle": "Robot Arm with Inverse Kinematics",
-    "discrepancyNote": "Exact title and boundary match.",
+    "discrepancyNote": "Boundary divergence: Catalog [3, 3] vs IR [4, 7].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -6233,15 +6233,15 @@
     "irTitle": "Robot Arm with Inverse Kinematics",
     "projectId": "proj-ae877be606e5b288",
     "projectNumber": 2,
-    "status": "MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      7,
-      9
+      3,
+      3
     ],
     "catalogTitle": "Quadruped Walking Robot",
-    "discrepancyNote": "Page range matched [7, 9], title discrepancy: 'Quadruped Walking Robot' vs 'Quadruped Walker'.",
+    "discrepancyNote": "Boundary divergence: Catalog [3, 3] vs IR [7, 9].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -6267,15 +6267,15 @@
     "irTitle": "Quadruped Walker",
     "projectId": "proj-8e955745d51cb80d",
     "projectNumber": 3,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      9,
-      11
+      3,
+      3
     ],
     "catalogTitle": "SLAM Mapping Autonomous Rover",
-    "discrepancyNote": "Page range matched [9, 11], title discrepancy: 'SLAM Mapping Autonomous Rover' vs 'Vision-Guided Tracking Robot'.",
+    "discrepancyNote": "Boundary divergence: Catalog [3, 3] vs IR [9, 11].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -6301,15 +6301,15 @@
     "irTitle": "Vision-Guided Tracking Robot",
     "projectId": "proj-a245d2a49550770f",
     "projectNumber": 4,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      11,
+      3,
       13
     ],
     "catalogTitle": "Self-Balancing Inverted Pendulum",
-    "discrepancyNote": "Page range matched [11, 13], title discrepancy: 'Self-Balancing Inverted Pendulum' vs 'Force-Sensing Gripper'.",
+    "discrepancyNote": "Boundary divergence: Catalog [3, 13] vs IR [11, 13].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -6335,7 +6335,7 @@
     "irTitle": "Force-Sensing Gripper",
     "projectId": "proj-761ec11a3abe8911",
     "projectNumber": 5,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
@@ -6653,10 +6653,10 @@
   {
     "catalogPageRange": [
       2,
-      4
+      3
     ],
     "catalogTitle": "Shielding & EMC Hardening (Faraday Box)",
-    "discrepancyNote": "Page range matched [2, 4], title discrepancy: 'Shielding & EMC Hardening (Faraday Box)' vs 'Faraday Cage & EMP-Hardened'.",
+    "discrepancyNote": "Boundary offset of <= 1 page: Catalog [2, 3] vs IR [2, 4].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -6686,11 +6686,11 @@
   },
   {
     "catalogPageRange": [
-      4,
-      7
+      3,
+      3
     ],
     "catalogTitle": "Subsonic Wind Tunnel & Flow Conditioning",
-    "discrepancyNote": "Page range matched [4, 7], title discrepancy: 'Subsonic Wind Tunnel & Flow Conditioning' vs 'Desktop Wind Tunnel'.",
+    "discrepancyNote": "Boundary divergence: Catalog [3, 3] vs IR [4, 7].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -6716,15 +6716,15 @@
     "irTitle": "Desktop Wind Tunnel",
     "projectId": "proj-6a481bcdd735d488",
     "projectNumber": 2,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      7,
-      10
+      3,
+      3
     ],
     "catalogTitle": "Composite Armor Instrumented Impact Tester",
-    "discrepancyNote": "Page range matched [7, 10], title discrepancy: 'Composite Armor Instrumented Impact Tester' vs '[ P R O J E C T 0 3 ]'.",
+    "discrepancyNote": "Boundary divergence: Catalog [3, 3] vs IR [7, 10].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -6750,15 +6750,15 @@
     "irTitle": "[ P R O J E C T 0 3 ]",
     "projectId": "proj-628a686b3596462b",
     "projectNumber": 3,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      10,
-      12
+      3,
+      3
     ],
     "catalogTitle": "Underwater Hydrophone Array & Acoustic TDOA",
-    "discrepancyNote": "Page range matched [10, 12], title discrepancy: 'Underwater Hydrophone Array & Acoustic TDOA' vs 'Passive Sonar Hydrophone Array'.",
+    "discrepancyNote": "Boundary divergence: Catalog [3, 3] vs IR [10, 12].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -6784,15 +6784,15 @@
     "irTitle": "Passive Sonar Hydrophone Array",
     "projectId": "proj-5d89db99dc84eddf",
     "projectNumber": 4,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      12,
+      3,
       14
     ],
     "catalogTitle": "Autonomous Guided Airdrop Parafoil (GNC)",
-    "discrepancyNote": "Page range matched [12, 14], title discrepancy: 'Autonomous Guided Airdrop Parafoil (GNC)' vs 'Precision Airdrop Parafoil Payload'.",
+    "discrepancyNote": "Boundary divergence: Catalog [3, 14] vs IR [12, 14].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -6818,7 +6818,7 @@
     "irTitle": "Precision Airdrop Parafoil Payload",
     "projectId": "proj-2cbe8a39a8284482",
     "projectNumber": 5,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
@@ -7167,10 +7167,10 @@
   {
     "catalogPageRange": [
       2,
-      4
+      3
     ],
     "catalogTitle": "Optical Flow & LiDAR Surface Tracker",
-    "discrepancyNote": "Page range matched [2, 4], title discrepancy: 'Optical Flow & LiDAR Surface Tracker' vs 'UPGRADE 01 · REV A'.",
+    "discrepancyNote": "Boundary offset of <= 1 page: Catalog [2, 3] vs IR [2, 4].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -7200,11 +7200,11 @@
   },
   {
     "catalogPageRange": [
-      4,
-      7
+      3,
+      3
     ],
     "catalogTitle": "Redundant Dual-IMU with Kalman Voting",
-    "discrepancyNote": "Page range matched [4, 7], title discrepancy: 'Redundant Dual-IMU with Kalman Voting' vs '[ U P G R A D E 0 2 ]'.",
+    "discrepancyNote": "Boundary divergence: Catalog [3, 3] vs IR [4, 7].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -7230,15 +7230,15 @@
     "irTitle": "[ U P G R A D E 0 2 ]",
     "projectId": "proj-a3d73d08684a062d",
     "projectNumber": 2,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      7,
-      9
+      3,
+      3
     ],
     "catalogTitle": "CAN Bus ESC Telemetry & Power Distribution",
-    "discrepancyNote": "Page range matched [7, 9], title discrepancy: 'CAN Bus ESC Telemetry & Power Distribution' vs 'UPGRADE 03 · REV A'.",
+    "discrepancyNote": "Boundary divergence: Catalog [3, 3] vs IR [7, 9].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -7264,15 +7264,15 @@
     "irTitle": "UPGRADE 03 · REV A",
     "projectId": "proj-a6e02b253844ee9d",
     "projectNumber": 3,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      9,
-      11
+      3,
+      3
     ],
     "catalogTitle": "LoRa Backup Heartbeat & Emergency Parachute",
-    "discrepancyNote": "Page range matched [9, 11], title discrepancy: 'LoRa Backup Heartbeat & Emergency Parachute' vs 'UPGRADE 04 · REV A'.",
+    "discrepancyNote": "Boundary divergence: Catalog [3, 3] vs IR [9, 11].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -7298,15 +7298,15 @@
     "irTitle": "UPGRADE 04 · REV A",
     "projectId": "proj-7d03c84d360dff73",
     "projectNumber": 4,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      11,
+      3,
       13
     ],
     "catalogTitle": "Active Rotor Ice Detection & Thermal De-Icing",
-    "discrepancyNote": "Page range matched [11, 13], title discrepancy: 'Active Rotor Ice Detection & Thermal De-Icing' vs 'UPGRADE 05 · REV A'.",
+    "discrepancyNote": "Boundary divergence: Catalog [3, 13] vs IR [11, 13].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -7332,7 +7332,7 @@
     "irTitle": "UPGRADE 05 · REV A",
     "projectId": "proj-d6b9b16f65f5d9fd",
     "projectNumber": 5,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
@@ -9809,7 +9809,7 @@
   {
     "catalogPageRange": [
       6,
-      8
+      7
     ],
     "catalogTitle": "Ingeniería Química: Modelado y Optimización de Reactores",
     "discrepancyNote": "Project defined in catalog has no matching boundary marker in Document IR.",
@@ -9823,7 +9823,7 @@
   },
   {
     "catalogPageRange": [
-      9,
+      7,
       10
     ],
     "catalogTitle": "Proyecto Integrador para Portafolio de Ingeniería",
@@ -9838,11 +9838,11 @@
   },
   {
     "catalogPageRange": [
-      4,
-      4
+      2,
+      2
     ],
     "catalogTitle": "Conexionado de Pantalla OLED SPI 2.42\"",
-    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'Conexionado de Pantalla OLED SPI 2.42\"' vs '1'.",
+    "discrepancyNote": "Boundary divergence: Catalog [2, 2] vs IR [4, 4].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -9868,15 +9868,15 @@
     "irTitle": "1",
     "projectId": "proj-e1043df73e599c7e",
     "projectNumber": 1,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      4,
-      4
+      2,
+      2
     ],
     "catalogTitle": "Control Analógico por Potenciómetro Slider",
-    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'Control Analógico por Potenciómetro Slider' vs '2'.",
+    "discrepancyNote": "Boundary divergence: Catalog [2, 2] vs IR [4, 4].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -9902,15 +9902,15 @@
     "irTitle": "2",
     "projectId": "proj-826e6c7a2db1364c",
     "projectNumber": 2,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      4,
-      4
+      2,
+      2
     ],
     "catalogTitle": "Generador de Audio Retro por Buzzer",
-    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'Generador de Audio Retro por Buzzer' vs '3'.",
+    "discrepancyNote": "Boundary divergence: Catalog [2, 2] vs IR [4, 4].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -9936,15 +9936,15 @@
     "irTitle": "3",
     "projectId": "proj-3ba9067a3ab5ef6b",
     "projectNumber": 3,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
-      4,
-      15
+      2,
+      2
     ],
     "catalogTitle": "Compilación y Flasheo de los 2 Juegos",
-    "discrepancyNote": "Boundary divergence: Catalog [4, 15] vs IR [4, 4].",
+    "discrepancyNote": "Boundary divergence: Catalog [2, 2] vs IR [4, 4].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -10287,11 +10287,11 @@
   },
   {
     "catalogPageRange": [
-      3,
-      3
+      2,
+      2
     ],
     "catalogTitle": "Phil's Lab High-Speed Hardware Design",
-    "discrepancyNote": "Page range matched [3, 3], title discrepancy: 'Phil's Lab High-Speed Hardware Design' vs '02  Phil's Lab'.",
+    "discrepancyNote": "Boundary offset of <= 1 page: Catalog [2, 2] vs IR [3, 3].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -10321,11 +10321,11 @@
   },
   {
     "catalogPageRange": [
-      4,
-      4
+      3,
+      3
     ],
     "catalogTitle": "Ben Eater 8-bit Discrete TTL Computer",
-    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'Ben Eater 8-bit Discrete TTL Computer' vs '03  Ben Eater'.",
+    "discrepancyNote": "Boundary offset of <= 1 page: Catalog [3, 3] vs IR [4, 4].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -10424,10 +10424,10 @@
   {
     "catalogPageRange": [
       5,
-      10
+      5
     ],
     "catalogTitle": "GNU Radio & RTL-SDR Spectrum Interceptor",
-    "discrepancyNote": "Boundary divergence: Catalog [5, 10] vs IR [5, 5].",
+    "discrepancyNote": "Page range matched [5, 5], title discrepancy: 'GNU Radio & RTL-SDR Spectrum Interceptor' vs '06  nandland and HDLBits'.",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -10453,7 +10453,7 @@
     "irTitle": "06  nandland and HDLBits",
     "projectId": "proj-de62002d65b8d3c3",
     "projectNumber": 6,
-    "status": "BOUNDARY_MISMATCH"
+    "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [],
@@ -10615,11 +10615,11 @@
   },
   {
     "catalogPageRange": [
-      3,
-      3
+      2,
+      2
     ],
     "catalogTitle": "Razavi CMOS Microelectronics Lab",
-    "discrepancyNote": "Page range matched [3, 3], title discrepancy: 'Razavi CMOS Microelectronics Lab' vs '02  Neso Academy'.",
+    "discrepancyNote": "Boundary offset of <= 1 page: Catalog [2, 2] vs IR [3, 3].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -10649,11 +10649,11 @@
   },
   {
     "catalogPageRange": [
-      4,
-      4
+      3,
+      3
     ],
     "catalogTitle": "LTspice Worst-Case & Monte Carlo Simulator",
-    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'LTspice Worst-Case & Monte Carlo Simulator' vs '03  Razavi Electronics'.",
+    "discrepancyNote": "Boundary offset of <= 1 page: Catalog [3, 3] vs IR [4, 4].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -10752,10 +10752,10 @@
   {
     "catalogPageRange": [
       5,
-      10
+      5
     ],
     "catalogTitle": "W2AEW RF Lab Techniques & Measurements",
-    "discrepancyNote": "Boundary divergence: Catalog [5, 10] vs IR [5, 5].",
+    "discrepancyNote": "Page range matched [5, 5], title discrepancy: 'W2AEW RF Lab Techniques & Measurements' vs '06  Adafruit Learn'.",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -10781,7 +10781,7 @@
     "irTitle": "06  Adafruit Learn",
     "projectId": "proj-ef3e4fa40d859cb2",
     "projectNumber": 6,
-    "status": "BOUNDARY_MISMATCH"
+    "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [],
@@ -10943,11 +10943,11 @@
   },
   {
     "catalogPageRange": [
-      3,
-      3
+      2,
+      2
     ],
     "catalogTitle": "Steve Brunton Modern Control & Kalman Filters",
-    "discrepancyNote": "Page range matched [3, 3], title discrepancy: 'Steve Brunton Modern Control & Kalman Filters' vs '02  NPTEL'.",
+    "discrepancyNote": "Boundary offset of <= 1 page: Catalog [2, 2] vs IR [3, 3].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -10977,11 +10977,11 @@
   },
   {
     "catalogPageRange": [
-      4,
-      4
+      3,
+      3
     ],
     "catalogTitle": "Andreas Spiess Deep IoT & LoRaWAN Node",
-    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'Andreas Spiess Deep IoT & LoRaWAN Node' vs '03  GreatScott!'.",
+    "discrepancyNote": "Boundary offset of <= 1 page: Catalog [3, 3] vs IR [4, 4].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -11080,10 +11080,10 @@
   {
     "catalogPageRange": [
       5,
-      12
+      5
     ],
     "catalogTitle": "Shawn Hymel TinyML Embedded Classifier",
-    "discrepancyNote": "Boundary divergence: Catalog [5, 12] vs IR [5, 5].",
+    "discrepancyNote": "Page range matched [5, 5], title discrepancy: 'Shawn Hymel TinyML Embedded Classifier' vs '06  FEDEVEL (Robert Feranec)'.",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -11109,7 +11109,7 @@
     "irTitle": "06  FEDEVEL (Robert Feranec)",
     "projectId": "proj-cf3ed0f0abbc5e82",
     "projectNumber": 6,
-    "status": "BOUNDARY_MISMATCH"
+    "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [],
@@ -11531,11 +11531,11 @@
   },
   {
     "catalogPageRange": [
-      6,
-      10
+      5,
+      5
     ],
     "catalogTitle": "EEVblog Teardown Forensic & ESD Hardening",
-    "discrepancyNote": "Boundary divergence: Catalog [6, 10] vs IR [6, 6].",
+    "discrepancyNote": "Boundary offset of <= 1 page: Catalog [5, 5] vs IR [6, 6].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -11561,7 +11561,7 @@
     "irTitle": "6",
     "projectId": "proj-4c78d5781b650b28",
     "projectNumber": 6,
-    "status": "BOUNDARY_MISMATCH"
+    "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [],
