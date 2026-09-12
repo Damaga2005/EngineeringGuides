@@ -23,6 +23,51 @@ from scripts.foundation.models import (
 REPO_ROOT = Path(__file__).resolve().parents[2]
 IR_DIR = REPO_ROOT / "docs" / "foundation" / "ir"
 
+# A handful of source PDFs draw small rating/checklist icons (a difficulty
+# meter, a checklist) using an embedded ZapfDingbats-named font with a
+# custom /Differences encoding. PyMuPDF has no ToUnicode map for it and
+# falls back to the raw byte codes, so "get_text" returns them as if they
+# were literal ASCII - e.g. a difficulty meter meant to show four filled
+# stars and a filled square comes back as the string "####I". This is not
+# real text ever printed in the document; rendering the exact PDF region
+# to an image confirmed each glyph below (scripts/foundation - see the
+# guide-024 Difficulty line, guide-022 checklist bullets). Mapping the
+# confirmed codepoints back to the glyph actually drawn is a literal-text
+# correction, not fabrication: the ASCII PyMuPDF returns was never in the
+# source at all.
+_ZAPFDINGBATS_GLYPH_MAP = {
+    0x14: "✔",  # ✔ HEAVY CHECK MARK
+    0x23: "★",  # ★ BLACK STAR
+    0x49: "■",  # ■ BLACK SQUARE
+}
+_ZAPFDINGBATS_TRANSLATE = str.maketrans(_ZAPFDINGBATS_GLYPH_MAP)
+
+
+def _fix_dingbat_spans(block_text: str, block_bbox, dingbat_spans) -> str:
+    """
+    Replace any ZapfDingbats-font glyph run inside this block with its
+    true glyph (see _ZAPFDINGBATS_GLYPH_MAP), using each span's own bbox
+    to scope the fix to spans physically inside this block and processing
+    them in left-to-right reading order so an ordinary word ("I") in a
+    different, non-dingbat span elsewhere in the same block is never
+    touched.
+    """
+    if not dingbat_spans:
+        return block_text
+    text = block_text
+    cursor = 0
+    bx0, by0, bx1, by1 = block_bbox
+    for span_text, (sx0, sy0, sx1, sy1) in dingbat_spans:
+        if not (sx0 >= bx0 - 1 and sx1 <= bx1 + 1 and sy0 >= by0 - 1 and sy1 <= by1 + 1):
+            continue
+        idx = text.find(span_text, cursor)
+        if idx == -1:
+            continue
+        mapped = span_text.translate(_ZAPFDINGBATS_TRANSLATE)
+        text = text[:idx] + mapped + text[idx + len(span_text):]
+        cursor = idx + len(mapped)
+    return text
+
 def classify_block_type(text: str) -> str:
     """Classify text block by structure and content."""
     t = text.strip()
@@ -54,12 +99,25 @@ def extract_document_ir(source_id: str, pdf_path: Path, sha256: str) -> Document
         height = float(page.rect.height)
         
         raw_blocks = page.get_text("blocks")
+
+        dingbat_spans = [
+            (span["text"], span["bbox"])
+            for dblock in page.get_text("dict")["blocks"]
+            for dline in dblock.get("lines", [])
+            for span in dline["spans"]
+            if "dingbat" in span.get("font", "").lower() and span.get("text")
+        ]
+
         blocks: List[TextBlock] = []
         char_count = 0
 
         for b_idx, b in enumerate(raw_blocks):
             if len(b) >= 5:
-                bx0, by0, bx1, by1, btext = float(b[0]), float(b[1]), float(b[2]), float(b[3]), str(b[4]).strip()
+                bx0, by0, bx1, by1 = float(b[0]), float(b[1]), float(b[2]), float(b[3])
+                btext = str(b[4])
+                if dingbat_spans:
+                    btext = _fix_dingbat_spans(btext, (bx0, by0, bx1, by1), dingbat_spans)
+                btext = btext.strip()
                 if btext:
                     char_count += len(btext)
                     btype = classify_block_type(btext)

@@ -2848,7 +2848,7 @@
           "blockType": "list",
           "confidence": "EXACT",
           "pageNumber": 10,
-          "text": "• Distance calculation: Distance = (time × c) / 2, where c = 3×10I m/s. At 100ps resolution:"
+          "text": "• Distance calculation: Distance = (time × c) / 2, where c = 3×10■ m/s. At 100ps resolution:"
         },
         {
           "bbox": [
@@ -2861,7 +2861,7 @@
           "blockType": "paragraph",
           "confidence": "EXACT",
           "pageNumber": 10,
-          "text": "distance resolution = (100ps × 3×10I) / 2 = 1.5 cm. Average multiple measurements to reduce"
+          "text": "distance resolution = (100ps × 3×10■) / 2 = 1.5 cm. Average multiple measurements to reduce"
         },
         {
           "bbox": [
@@ -6080,7 +6080,7 @@
           "blockType": "paragraph",
           "confidence": "EXACT",
           "pageNumber": 21,
-          "text": "theoretical RCS of a 25mm sphere at 10.5GHz: σ = π × (0.0125)² = 4.9 × 10II m² = -33 dBsm. All"
+          "text": "theoretical RCS of a 25mm sphere at 10.5GHz: σ = π × (0.0125)² = 4.9 × 10■■ m² = -33 dBsm. All"
         },
         {
           "bbox": [

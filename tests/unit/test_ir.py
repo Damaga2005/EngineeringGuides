@@ -25,3 +25,24 @@ def test_ir_page_dimensions_valid():
         assert page.width > 0
         assert page.height > 0
         assert len(page.blocks) >= 0
+
+
+def test_ir_zapfdingbats_icons_decoded_not_raw_ascii():
+    """
+    Regression guard: guide-024's per-project difficulty meter is drawn with
+    an embedded ZapfDingbats-named font PyMuPDF has no ToUnicode map for, so
+    plain extraction returns raw byte codes as if they were ASCII (e.g. a
+    meter of four filled stars and one filled square came back as the
+    literal string "####I"). Rendering the exact PDF region to an image
+    confirmed the true glyphs (see scripts/foundation/ir_extractor.py's
+    _ZAPFDINGBATS_GLYPH_MAP). The extracted IR text must show the real
+    glyphs, never the raw "#"/"I" artifact.
+    """
+    ir = DocumentIR.model_validate_json((IR_DIR / "guide-024.json").read_text(encoding="utf-8"))
+    difficulty_lines = [
+        b.text for page in ir.pages for b in page.blocks if b.text.startswith("Difficulty:")
+    ]
+    assert len(difficulty_lines) >= 6, "Expected a Difficulty line per project in guide-024"
+    for line in difficulty_lines:
+        assert "★" in line or "■" in line, f"Expected decoded star/square glyphs in: {line!r}"
+        assert "#" not in line, f"Raw ZapfDingbats artifact '#' leaked into: {line!r}"

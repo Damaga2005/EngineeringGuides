@@ -948,7 +948,7 @@
           "blockType": "paragraph",
           "confidence": "EXACT",
           "pageNumber": 4,
-          "text": "Filter Bank: Build 8 Sallen-Key bandpass filters. For each: calculate R and C values using fI ="
+          "text": "Filter Bank: Build 8 Sallen-Key bandpass filters. For each: calculate R and C values using f■ ="
         },
         {
           "bbox": [

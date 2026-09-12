@@ -115,7 +115,7 @@
           "blockType": "paragraph",
           "confidence": "EXACT",
           "pageNumber": 1,
-          "text": "II → Shanghai | Business → Engineering | Builder"
+          "text": "■■ → Shanghai | Business → Engineering | Builder"
         }
       ],
       "charCount": 242,
@@ -445,7 +445,7 @@
           "blockType": "paragraph",
           "confidence": "EXACT",
           "pageNumber": 3,
-          "text": "I April 2025: University visit to a robotics company. Quick intro. Added on WeChat."
+          "text": "■ April 2025: University visit to a robotics company. Quick intro. Added on WeChat."
         },
         {
           "bbox": [
@@ -458,7 +458,7 @@
           "blockType": "paragraph",
           "confidence": "EXACT",
           "pageNumber": 3,
-          "text": "I November 2025: He had moved to KUKA. I had a crazy idea and a contact who could make it happen."
+          "text": "■ November 2025: He had moved to KUKA. I had a crazy idea and a contact who could make it happen."
         },
         {
           "bbox": [
@@ -601,7 +601,7 @@
           "blockType": "paragraph",
           "confidence": "EXACT",
           "pageNumber": 3,
-          "text": "I Go to every campus event, company visit, and networking mixer. Exchange contacts with everyone. You\nhave no idea which one will change your life."
+          "text": "■ Go to every campus event, company visit, and networking mixer. Exchange contacts with everyone. You\nhave no idea which one will change your life."
         }
       ],
       "charCount": 1422,
@@ -688,7 +688,7 @@
           "blockType": "paragraph",
           "confidence": "EXACT",
           "pageNumber": 4,
-          "text": "I You: \"I'm currently preparing an art performance for our upcoming art show from NYU Shanghai, and the\npiece involves interactive robotics.\""
+          "text": "■ You: \"I'm currently preparing an art performance for our upcoming art show from NYU Shanghai, and the\npiece involves interactive robotics.\""
         },
         {
           "bbox": [
@@ -701,7 +701,7 @@
           "blockType": "paragraph",
           "confidence": "EXACT",
           "pageNumber": 4,
-          "text": "I You: \"The performance will take place at Fotografiska Shanghai, which is a very well-known and highly\nvisited art space in the city. We would be happy to acknowledge your support in the exhibition materials and\nduring the show, so it could also serve as good visibility for your service robotics work.\""
+          "text": "■ You: \"The performance will take place at Fotografiska Shanghai, which is a very well-known and highly\nvisited art space in the city. We would be happy to acknowledge your support in the exhibition materials and\nduring the show, so it could also serve as good visibility for your service robotics work.\""
         },
         {
           "bbox": [
@@ -905,7 +905,7 @@
           "blockType": "paragraph",
           "confidence": "EXACT",
           "pageNumber": 5,
-          "text": "I Them: \"Is there any budget for renting?\""
+          "text": "■ Them: \"Is there any budget for renting?\""
         },
         {
           "bbox": [
@@ -957,7 +957,7 @@
           "blockType": "paragraph",
           "confidence": "EXACT",
           "pageNumber": 5,
-          "text": "I You: \"At the moment we don't have a budget allocated for renting. Since this is a non-profit student art\nperformance, we were hoping you might support it as an educational collaboration.\""
+          "text": "■ You: \"At the moment we don't have a budget allocated for renting. Since this is a non-profit student art\nperformance, we were hoping you might support it as an educational collaboration.\""
         },
         {
           "bbox": [
@@ -1174,7 +1174,7 @@
           "blockType": "paragraph",
           "confidence": "EXACT",
           "pageNumber": 6,
-          "text": "I Them: \"How big is the robot you want\""
+          "text": "■ Them: \"How big is the robot you want\""
         },
         {
           "bbox": [
@@ -1187,7 +1187,7 @@
           "blockType": "paragraph",
           "confidence": "EXACT",
           "pageNumber": 6,
-          "text": "I You: \"Any size is completely fine — the 40cm was just an example. We can adapt the performance concept\nto whatever robot you have available.\""
+          "text": "■ You: \"Any size is completely fine — the 40cm was just an example. We can adapt the performance concept\nto whatever robot you have available.\""
         },
         {
           "bbox": [
@@ -1304,7 +1304,7 @@
           "blockType": "list",
           "confidence": "EXACT",
           "pageNumber": 6,
-          "text": "• I had answers ready: Venue \u0014 Date \u0014 Theme \u0014 Timeline \u0014 — they weren't investing in an idea,"
+          "text": "• I had answers ready: Venue ✔ Date ✔ Theme ✔ Timeline ✔ — they weren't investing in an idea,"
         },
         {
           "bbox": [
@@ -1508,7 +1508,7 @@
           "blockType": "paragraph",
           "confidence": "EXACT",
           "pageNumber": 7,
-          "text": "I Them: \"Yes, we have it\""
+          "text": "■ Them: \"Yes, we have it\""
         },
         {
           "bbox": [
@@ -1521,7 +1521,7 @@
           "blockType": "paragraph",
           "confidence": "EXACT",
           "pageNumber": 7,
-          "text": "I Them: \"How long you need\""
+          "text": "■ Them: \"How long you need\""
         },
         {
           "bbox": [
@@ -1664,7 +1664,7 @@
           "blockType": "paragraph",
           "confidence": "EXACT",
           "pageNumber": 7,
-          "text": "I The fortune is in the follow-up. The people who get what they want are simply the ones who don't stop\nasking."
+          "text": "■ The fortune is in the follow-up. The people who get what they want are simply the ones who don't stop\nasking."
         }
       ],
       "charCount": 1206,
@@ -2536,7 +2536,7 @@
           "blockType": "paragraph",
           "confidence": "EXACT",
           "pageNumber": 10,
-          "text": "I Notice: every template is specific, provides value, and respects their time. Never send \"just following up\"\nwith no context. Always give them a reason to reply."
+          "text": "■ Notice: every template is specific, provides value, and respects their time. Never send \"just following up\"\nwith no context. Always give them a reason to reply."
         }
       ],
       "charCount": 1147,

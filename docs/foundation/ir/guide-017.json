@@ -102,7 +102,7 @@
           "blockType": "paragraph",
           "confidence": "EXACT",
           "pageNumber": 1,
-          "text": "II → Shanghai | Business → Engineering | Builder"
+          "text": "■■ → Shanghai | Business → Engineering | Builder"
         }
       ],
       "charCount": 228,
@@ -731,7 +731,7 @@
           "blockType": "paragraph",
           "confidence": "EXACT",
           "pageNumber": 3,
-          "text": "I Pro tip: Read the source code of libraries you use. Understanding how React or PyTorch works under the\nhood separates junior developers from engineers."
+          "text": "■ Pro tip: Read the source code of libraries you use. Understanding how React or PyTorch works under the\nhood separates junior developers from engineers."
         }
       ],
       "charCount": 1227,
@@ -1026,7 +1026,7 @@
           "blockType": "paragraph",
           "confidence": "EXACT",
           "pageNumber": 4,
-          "text": "I Ship > perfect. A finished ugly app beats an unfinished beautiful one every time."
+          "text": "■ Ship > perfect. A finished ugly app beats an unfinished beautiful one every time."
         }
       ],
       "charCount": 1490,
@@ -2063,7 +2063,7 @@
           "blockType": "paragraph",
           "confidence": "EXACT",
           "pageNumber": 8,
-          "text": "I Internships don't go to the smartest students. They go to the ones who look like they don't need the\ninternship to prove they can build. Be that person."
+          "text": "■ Internships don't go to the smartest students. They go to the ones who look like they don't need the\ninternship to prove they can build. Be that person."
         }
       ],
       "charCount": 1360,

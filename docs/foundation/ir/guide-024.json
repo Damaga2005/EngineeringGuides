@@ -354,7 +354,7 @@
           "blockType": "paragraph",
           "confidence": "EXACT",
           "pageNumber": 3,
-          "text": "Difficulty: ###II Beginner-Intermediate | Cost: $15-18 | Time: 1-2 weekends"
+          "text": "Difficulty: ★★★■■ Beginner-Intermediate | Cost: $15-18 | Time: 1-2 weekends"
         },
         {
           "bbox": [
@@ -1317,7 +1317,7 @@
           "blockType": "paragraph",
           "confidence": "EXACT",
           "pageNumber": 6,
-          "text": "Difficulty: ###II Beginner-Intermediate | Cost: $8-12 | Time: 2-3 weekends"
+          "text": "Difficulty: ★★★■■ Beginner-Intermediate | Cost: $8-12 | Time: 2-3 weekends"
         },
         {
           "bbox": [
@@ -2280,7 +2280,7 @@
           "blockType": "paragraph",
           "confidence": "EXACT",
           "pageNumber": 9,
-          "text": "Difficulty: ##III Beginner | Cost: $10-12 | Time: 1-2 weekends"
+          "text": "Difficulty: ★★■■■ Beginner | Cost: $10-12 | Time: 1-2 weekends"
         },
         {
           "bbox": [
@@ -3191,7 +3191,7 @@
           "blockType": "paragraph",
           "confidence": "EXACT",
           "pageNumber": 12,
-          "text": "Difficulty: ####I Intermediate | Cost: $12-18 | Time: 2-3 weekends"
+          "text": "Difficulty: ★★★★■ Intermediate | Cost: $12-18 | Time: 2-3 weekends"
         },
         {
           "bbox": [
@@ -4180,7 +4180,7 @@
           "blockType": "paragraph",
           "confidence": "EXACT",
           "pageNumber": 15,
-          "text": "Difficulty: ####I Intermediate | Cost: $8-12 | Time: 2-3 weekends"
+          "text": "Difficulty: ★★★★■ Intermediate | Cost: $8-12 | Time: 2-3 weekends"
         },
         {
           "bbox": [
@@ -5104,7 +5104,7 @@
           "blockType": "paragraph",
           "confidence": "EXACT",
           "pageNumber": 18,
-          "text": "Difficulty: ##### Intermediate-Advanced | Cost: $20-30 | Time: 3-4 weekends"
+          "text": "Difficulty: ★★★★★ Intermediate-Advanced | Cost: $20-30 | Time: 3-4 weekends"
         },
         {
           "bbox": [
