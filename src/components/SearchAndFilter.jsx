@@ -123,19 +123,19 @@ export default function SearchAndFilter({
             <button
               key={cat.id}
               onClick={() => setSelectedCategory(cat.id)}
-              className={`flex items-center gap-2 px-3 py-2 rounded-xl text-xs font-medium whitespace-nowrap transition-all duration-200 border ${
+              className={`flex items-center gap-2 px-3.5 py-2 rounded-full text-[13px] font-medium whitespace-nowrap transition-colors ${
                 isSelected
-                  ? 'bg-gradient-to-r from-cyan-900/60 to-blue-900/60 text-cyan-200 border-cyan-500/60 shadow-md shadow-cyan-950/30'
-                  : 'bg-slate-900/60 text-slate-400 border-slate-800 hover:bg-slate-800/80 hover:text-slate-200 hover:border-slate-700'
+                  ? 'bg-slate-700 text-white'
+                  : 'bg-slate-900 text-slate-400 hover:text-slate-200'
               }`}
             >
-              <Icon className={`h-3.5 w-3.5 ${isSelected ? 'text-cyan-400' : 'text-slate-400'}`} />
+              <Icon className={`h-3.5 w-3.5 ${isSelected ? 'text-cyan-400' : 'text-slate-500'}`} />
               <span>{cat.name}</span>
               <span
-                className={`text-[10px] font-mono px-1.5 py-0.2 rounded-full ${
+                className={`text-[11px] px-1.5 rounded-full ${
                   isSelected
-                    ? 'bg-cyan-500/30 text-cyan-200'
-                    : 'bg-slate-800 text-slate-400'
+                    ? 'text-cyan-300'
+                    : 'text-slate-500'
                 }`}
               >
                 {count}

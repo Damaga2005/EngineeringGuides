@@ -189,7 +189,7 @@ export default function ImageViewerModal({
                 }}
                 className={`w-16 h-20 rounded-lg overflow-hidden border-2 transition-all flex-shrink-0 bg-slate-900 ${
                   isActive
-                    ? 'border-cyan-400 scale-105 shadow-lg shadow-cyan-500/20'
+                    ? 'border-cyan-400 scale-105 shadow-lg'
                     : 'border-slate-800 opacity-60 hover:opacity-100 hover:border-slate-600'
                 }`}
               >

@@ -28,7 +28,7 @@ export default class ErrorBoundary extends React.Component {
   render() {
     if (this.state.hasError) {
       return (
-        <div className="min-h-screen bg-[#0B0F19] flex items-center justify-center p-4 sm:p-6 text-slate-100 font-sans">
+        <div className="min-h-screen bg-black flex items-center justify-center p-4 sm:p-6 text-slate-100 font-sans">
           <div className="max-w-lg w-full glass-panel border border-red-900/60 bg-red-950/20 rounded-2xl p-6 sm:p-8 text-center shadow-2xl space-y-5">
             <div className="w-16 h-16 rounded-2xl bg-red-900/30 border border-red-700/50 flex items-center justify-center mx-auto text-red-400 shadow-lg shadow-red-950/50">
               <ShieldAlert className="h-8 w-8" />
@@ -53,7 +53,7 @@ export default class ErrorBoundary extends React.Component {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3 pt-2">
               <button
                 onClick={this.handleReload}
-                className="w-full sm:w-auto px-4 py-2.5 rounded-xl bg-cyan-600 hover:bg-cyan-500 text-white font-semibold text-xs transition-all flex items-center justify-center gap-2 shadow-lg shadow-cyan-950/30"
+                className="w-full sm:w-auto px-4 py-2.5 rounded-xl bg-cyan-600 hover:bg-cyan-500 text-white font-semibold text-xs transition-all flex items-center justify-center gap-2 shadow-lg"
               >
                 <RefreshCw className="h-4 w-4" />
                 <span>Recargar Aplicación</span>

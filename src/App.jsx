@@ -10,17 +10,13 @@ import ProjectDetail from './components/ProjectDetail';
 import ErrorBoundary from './components/ErrorBoundary';
 import { CATEGORY_DEFINITIONS } from './data/categories';
 import { getStoredItem, setStoredItem } from './utils/storage';
-import { 
-  Sparkles, 
-  AlertCircle, 
-  CheckCircle2, 
-  BookOpen, 
+import {
+  AlertCircle,
+  CheckCircle2,
+  BookOpen,
   RefreshCw,
   Boxes,
-  Cpu,
-  Layers,
   Search,
-  SlidersHorizontal,
   X
 } from 'lucide-react';
 
@@ -326,7 +322,7 @@ export default function App() {
   if (isProjectRoute) {
     if (loading) {
       return (
-        <div className="min-h-screen bg-[#0B0F19] text-slate-100 flex flex-col items-center justify-center p-4">
+        <div className="min-h-screen bg-black text-slate-100 flex flex-col items-center justify-center p-4">
           <div className="glass-panel p-8 rounded-3xl border border-slate-800 text-center max-w-md w-full space-y-4 shadow-2xl">
             <div className="w-14 h-14 rounded-2xl bg-cyan-950/60 border border-cyan-700/50 flex items-center justify-center mx-auto text-cyan-400">
               <RefreshCw className="h-7 w-7 animate-spin" />
@@ -342,7 +338,7 @@ export default function App() {
 
     if (!activeLandingProject) {
       return (
-        <div className="min-h-screen bg-[#0B0F19] text-slate-100 flex flex-col items-center justify-center p-4">
+        <div className="min-h-screen bg-black text-slate-100 flex flex-col items-center justify-center p-4">
           <div className="glass-panel p-8 rounded-3xl border border-amber-900/50 bg-amber-950/10 text-center max-w-md w-full space-y-5 shadow-2xl">
             <div className="w-14 h-14 rounded-2xl bg-amber-950/60 border border-amber-700/60 flex items-center justify-center mx-auto text-amber-400">
               <AlertCircle className="h-7 w-7" />
@@ -355,7 +351,7 @@ export default function App() {
             </div>
             <button
               onClick={navigateToCatalog}
-              className="px-5 py-2.5 rounded-xl bg-cyan-600 hover:bg-cyan-500 text-white font-semibold text-xs transition-all shadow-lg shadow-cyan-950/30 inline-flex items-center gap-2"
+              className="px-5 py-2.5 rounded-xl bg-cyan-600 hover:bg-cyan-500 text-white font-semibold text-xs transition-all shadow-lg inline-flex items-center gap-2"
             >
               <span>Volver al Catálogo</span>
             </button>
@@ -383,7 +379,7 @@ export default function App() {
   if (isLandingRoute) {
     if (loading) {
       return (
-        <div className="min-h-screen bg-[#0B0F19] text-slate-100 flex flex-col items-center justify-center p-4">
+        <div className="min-h-screen bg-black text-slate-100 flex flex-col items-center justify-center p-4">
           <div className="glass-panel p-8 rounded-3xl border border-slate-800 text-center max-w-md w-full space-y-4 shadow-2xl">
             <div className="w-14 h-14 rounded-2xl bg-cyan-950/60 border border-cyan-700/50 flex items-center justify-center mx-auto text-cyan-400">
               <RefreshCw className="h-7 w-7 animate-spin" />
@@ -399,7 +395,7 @@ export default function App() {
 
     if (!activeLandingGuide) {
       return (
-        <div className="min-h-screen bg-[#0B0F19] text-slate-100 flex flex-col items-center justify-center p-4">
+        <div className="min-h-screen bg-black text-slate-100 flex flex-col items-center justify-center p-4">
           <div className="glass-panel p-8 rounded-3xl border border-amber-900/50 bg-amber-950/10 text-center max-w-md w-full space-y-5 shadow-2xl">
             <div className="w-14 h-14 rounded-2xl bg-amber-950/60 border border-amber-700/60 flex items-center justify-center mx-auto text-amber-400">
               <AlertCircle className="h-7 w-7" />
@@ -412,7 +408,7 @@ export default function App() {
             </div>
             <button
               onClick={navigateToCatalog}
-              className="px-5 py-2.5 rounded-xl bg-cyan-600 hover:bg-cyan-500 text-white font-semibold text-xs transition-all shadow-lg shadow-cyan-950/30 inline-flex items-center gap-2"
+              className="px-5 py-2.5 rounded-xl bg-cyan-600 hover:bg-cyan-500 text-white font-semibold text-xs transition-all shadow-lg inline-flex items-center gap-2"
             >
               <span>Volver a la Biblioteca</span>
             </button>
@@ -438,7 +434,7 @@ export default function App() {
   // Catalog View (Home)
   return (
     <ErrorBoundary>
-      <div className="min-h-screen flex flex-col bg-[#0B0F19] engineering-grid">
+      <div className="min-h-screen flex flex-col bg-black">
       
       {/* Navigation Bar */}
       <Navbar
@@ -480,60 +476,56 @@ export default function App() {
         )}
 
         {/* Hero Header with View Mode Switcher */}
-        <div className="mb-8 border-b border-slate-800 pb-6 space-y-6">
-          <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+        <div className="mb-10 pb-8 border-b border-slate-800 space-y-7">
+          <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6">
             <div>
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-950/80 border border-cyan-700/40 text-cyan-300 text-xs font-semibold uppercase tracking-wider mb-3">
-                <Sparkles className="h-3.5 w-3.5 text-cyan-400" />
-                Arquitectura Project-First & Trazabilidad
-              </div>
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight">
-                Engineering <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-indigo-400 bg-clip-text text-transparent">Hub</span>
+              <h1 className="text-[34px] sm:text-[44px] font-semibold text-white tracking-tight leading-[1.05]">
+                Engineering Guides
               </h1>
-              <p className="mt-2 text-sm sm:text-base text-slate-400 max-w-2xl">
-                Plataforma técnica de ingeniería aplicada. Explora proyectos independientes con fichas de secciones técnicas o accede a las guías documentales completas.
+              <p className="mt-2.5 text-[15px] sm:text-base text-slate-400 max-w-xl leading-relaxed">
+                Explora proyectos de ingeniería con trazabilidad completa a la fuente. Cada ficha técnica muestra qué es literal del documento y qué es interpretación.
               </p>
             </div>
 
-            <div className="flex items-center gap-3 self-start sm:self-end flex-shrink-0 font-mono text-xs text-slate-400 bg-slate-900/80 px-4 py-2.5 rounded-xl border border-slate-800">
+            <div className="flex items-center gap-5 flex-shrink-0 text-[13px] text-slate-400">
               <div>
-                <span className="text-cyan-400 font-bold">{projects.length || 183}</span> Proyectos
+                <span className="text-white font-semibold">{projects.length || 183}</span> proyectos
               </div>
-              <span>•</span>
+              <div className="w-px h-4 bg-slate-800" />
               <div>
-                <span className="text-indigo-400 font-bold">{guides.length}</span> Guías
+                <span className="text-white font-semibold">{guides.length}</span> guías
               </div>
-              <span>•</span>
+              <div className="w-px h-4 bg-slate-800" />
               <div>
-                <span className="text-emerald-400 font-bold">{catalogMetadata?.totalSizeFormatted || '25.8 MB'}</span> PDF
+                <span className="text-white font-semibold">{catalogMetadata?.totalSizeFormatted || '25.8 MB'}</span> PDF
               </div>
             </div>
           </div>
 
           {/* Primary View Switcher Tabs: Proyectos vs Guías */}
-          <div className="flex items-center gap-2 p-1 bg-slate-900/90 rounded-2xl border border-slate-800 max-w-md">
+          <div className="inline-flex items-center gap-1 p-1 bg-slate-900 rounded-full">
             <button
               onClick={() => setMainView('projects')}
-              className={`flex-1 py-2.5 px-4 rounded-xl text-xs font-bold transition-all flex items-center justify-center gap-2 ${
+              className={`py-2 px-5 rounded-full text-[13px] font-medium transition-colors flex items-center justify-center gap-2 ${
                 mainView === 'projects'
-                  ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-950/50'
+                  ? 'bg-slate-700 text-white'
                   : 'text-slate-400 hover:text-slate-200'
               }`}
             >
-              <Cpu className="h-4 w-4" />
-              <span>Vista Proyectos ({projects.length || 183})</span>
+              <span>Proyectos</span>
+              <span className="opacity-60">{projects.length || 183}</span>
             </button>
 
             <button
               onClick={() => setMainView('guides')}
-              className={`flex-1 py-2.5 px-4 rounded-xl text-xs font-bold transition-all flex items-center justify-center gap-2 ${
+              className={`py-2 px-5 rounded-full text-[13px] font-medium transition-colors flex items-center justify-center gap-2 ${
                 mainView === 'guides'
-                  ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-950/50'
+                  ? 'bg-slate-700 text-white'
                   : 'text-slate-400 hover:text-slate-200'
               }`}
             >
-              <BookOpen className="h-4 w-4" />
-              <span>Vista Guías ({guides.length})</span>
+              <span>Guías</span>
+              <span className="opacity-60">{guides.length}</span>
             </button>
           </div>
         </div>
@@ -542,54 +534,49 @@ export default function App() {
         {mainView === 'projects' && (
           <div className="space-y-6">
             {/* Project Filters Bar */}
-            <div className="glass-panel p-4 rounded-2xl border border-slate-800 flex flex-col md:flex-row items-stretch md:items-center justify-between gap-4">
-              <div className="relative flex-1">
-                <Search className="h-4 w-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
+            <div className="flex flex-col md:flex-row items-stretch md:items-center justify-between gap-3">
+              <div className="relative flex-1 max-w-md">
+                <Search className="h-4 w-4 text-slate-500 absolute left-3.5 top-1/2 -translate-y-1/2" />
                 <input
                   type="text"
                   value={projectSearchQuery}
                   onChange={(e) => setProjectSearchQuery(e.target.value)}
-                  placeholder="Buscar proyectos por nombre, MCU (ESP32, STM32...), sensor o función..."
-                  className="w-full pl-10 pr-9 py-2 bg-slate-950/80 border border-slate-800 rounded-xl text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-cyan-500 transition-colors"
+                  placeholder="Buscar por nombre, MCU, sensor o función…"
+                  className="w-full pl-10 pr-9 py-2 bg-slate-900 rounded-full text-[13px] text-slate-200 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-cyan-500/50 transition-shadow"
                 />
                 {projectSearchQuery && (
                   <button
                     onClick={() => setProjectSearchQuery('')}
-                    className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white"
+                    className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-500 hover:text-white"
                   >
                     <X className="h-4 w-4" />
                   </button>
                 )}
               </div>
 
-              <div className="flex items-center gap-3 flex-wrap">
-                {/* Controller Dropdown */}
-                <div className="flex items-center gap-1.5 text-xs text-slate-400 font-mono">
-                  <SlidersHorizontal className="h-3.5 w-3.5 text-cyan-400" />
-                  <span>MCU:</span>
-                  <select
-                    value={selectedController}
-                    onChange={(e) => setSelectedController(e.target.value)}
-                    className="bg-slate-950 border border-slate-800 rounded-lg px-2.5 py-1.5 text-xs text-slate-200 focus:outline-none focus:border-cyan-500"
-                  >
-                    <option value="all">Todos ({projects.length})</option>
-                    {availableControllers.map(c => (
-                      <option key={c} value={c}>{c}</option>
-                    ))}
-                  </select>
-                </div>
+              <div className="flex items-center gap-2 flex-wrap">
+                <select
+                  value={selectedController}
+                  onChange={(e) => setSelectedController(e.target.value)}
+                  className="bg-slate-900 rounded-full px-3.5 py-2 text-[13px] text-slate-300 focus:outline-none focus:ring-2 focus:ring-cyan-500/50"
+                >
+                  <option value="all">Todos los MCU ({projects.length})</option>
+                  {availableControllers.map(c => (
+                    <option key={c} value={c}>{c}</option>
+                  ))}
+                </select>
 
                 {/* View Mode Toggle */}
-                <div className="flex items-center gap-1 bg-slate-950 p-1 rounded-lg border border-slate-800">
+                <div className="flex items-center gap-0.5 bg-slate-900 p-0.5 rounded-full">
                   <button
                     onClick={() => setViewMode('grid')}
-                    className={`px-2.5 py-1 rounded text-xs font-semibold ${viewMode === 'grid' ? 'bg-cyan-600/30 text-cyan-300' : 'text-slate-400'}`}
+                    className={`px-3 py-1.5 rounded-full text-[13px] font-medium transition-colors ${viewMode === 'grid' ? 'bg-slate-700 text-white' : 'text-slate-400'}`}
                   >
                     Cuadrícula
                   </button>
                   <button
                     onClick={() => setViewMode('list')}
-                    className={`px-2.5 py-1 rounded text-xs font-semibold ${viewMode === 'list' ? 'bg-cyan-600/30 text-cyan-300' : 'text-slate-400'}`}
+                    className={`px-3 py-1.5 rounded-full text-[13px] font-medium transition-colors ${viewMode === 'list' ? 'bg-slate-700 text-white' : 'text-slate-400'}`}
                   >
                     Lista
                   </button>
@@ -598,7 +585,7 @@ export default function App() {
             </div>
 
             {/* Results count */}
-            <div className="flex items-center justify-between text-xs text-slate-400 font-mono px-1">
+            <div className="flex items-center justify-between text-[13px] text-slate-500 px-1">
               <span>Mostrando {filteredProjects.length} de {projects.length} proyectos técnicos</span>
               {(projectSearchQuery || selectedController !== 'all' || showOnlyFavorites) && (
                 <button
@@ -616,9 +603,9 @@ export default function App() {
 
             {/* Projects Grid / List */}
             {filteredProjects.length === 0 ? (
-              <div className="py-20 text-center max-w-md mx-auto glass-panel p-8 rounded-2xl border border-slate-800">
-                <Boxes className="h-12 w-12 text-slate-600 mx-auto mb-3" />
-                <h3 className="text-base font-bold text-slate-200 mb-1">
+              <div className="py-20 text-center max-w-md mx-auto">
+                <Boxes className="h-10 w-10 text-slate-700 mx-auto mb-3" strokeWidth={1.5} />
+                <h3 className="text-base font-medium text-slate-200 mb-1">
                   {showOnlyFavorites ? 'Aún no tienes favoritos' : 'No se encontraron proyectos'}
                 </h3>
                 <p className="text-xs text-slate-400 mb-5">
@@ -632,7 +619,7 @@ export default function App() {
                     setSelectedController('all');
                     setShowOnlyFavorites(false);
                   }}
-                  className="px-4 py-2 rounded-xl bg-cyan-600/20 text-cyan-300 border border-cyan-500/40 hover:bg-cyan-600/30 text-xs font-semibold transition-all"
+                  className="px-4 py-2 rounded-full bg-slate-800 text-slate-200 hover:bg-slate-700 text-[13px] font-medium transition-colors"
                 >
                   Restablecer filtros
                 </button>
@@ -701,14 +688,14 @@ export default function App() {
                 <p className="text-xs text-red-300">{error}</p>
               </div>
             ) : filteredAndSortedGuides.length === 0 ? (
-              <div className="py-20 text-center max-w-md mx-auto glass-panel p-8 rounded-2xl border border-slate-800">
-                <BookOpen className="h-12 w-12 text-slate-600 mx-auto mb-3" />
-                <h3 className="text-base font-bold text-slate-200 mb-1">
+              <div className="py-20 text-center max-w-md mx-auto">
+                <BookOpen className="h-10 w-10 text-slate-700 mx-auto mb-3" strokeWidth={1.5} />
+                <h3 className="text-base font-medium text-slate-200 mb-1">
                   No se encontraron guías
                 </h3>
                 <p className="text-xs text-slate-400 mb-5">
-                  {showOnlyFavorites 
-                    ? 'No tienes guías marcadas como favoritas todavía.' 
+                  {showOnlyFavorites
+                    ? 'No tienes guías marcadas como favoritas todavía.'
                     : 'No hay documentos que coincidan con los criterios de búsqueda o categoría seleccionados.'}
                 </p>
                 <button
@@ -717,7 +704,7 @@ export default function App() {
                     setSelectedCategory('all');
                     setShowOnlyFavorites(false);
                   }}
-                  className="px-4 py-2 rounded-xl bg-cyan-600/20 text-cyan-300 border border-cyan-500/40 hover:bg-cyan-600/30 text-xs font-semibold transition-all"
+                  className="px-4 py-2 rounded-full bg-slate-800 text-slate-200 hover:bg-slate-700 text-[13px] font-medium transition-colors"
                 >
                   Restablecer filtros
                 </button>
@@ -759,26 +746,25 @@ export default function App() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-slate-800/80 py-6 px-4 text-center text-xs text-slate-500 bg-slate-950/60 mt-12">
+      <footer className="border-t border-slate-800 py-6 px-4 text-center text-[13px] text-slate-500 mt-12">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
           <div>
-            Engineering Guides Hub • 183 Proyectos Técnicos Independientes & 31 Guías Oficiales
+            Engineering Guides · 183 proyectos técnicos independientes, 31 guías oficiales
           </div>
-          <div className="flex items-center gap-4 text-slate-400">
-            <a 
+          <div className="flex items-center gap-4">
+            <a
               href="https://github.com/Damaga2005/EngineeringGuides"
-              target="_blank" 
+              target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-cyan-400 transition-colors"
+              className="hover:text-slate-300 transition-colors"
             >
-              Repositorio GitHub
+              GitHub
             </a>
-            <span>•</span>
-            <button 
+            <button
               onClick={() => setShowStatsModal(true)}
-              className="hover:text-cyan-400 transition-colors"
+              className="hover:text-slate-300 transition-colors"
             >
-              Métricas & Info
+              Métricas
             </button>
           </div>
         </div>

@@ -174,7 +174,7 @@ export default function ProjectBuildGuide({
       <div className="p-5 sm:p-6 bg-slate-900/90 border-b border-slate-800 flex flex-col md:flex-row md:items-center justify-between gap-4">
         
         <div className="flex items-start gap-3.5 min-w-0">
-          <span className="flex-shrink-0 w-10 h-10 rounded-xl bg-cyan-500/20 text-cyan-400 border border-cyan-500/40 font-mono font-bold flex items-center justify-center text-sm shadow-md shadow-cyan-500/10">
+          <span className="flex-shrink-0 w-10 h-10 rounded-xl bg-cyan-500/20 text-cyan-400 border border-cyan-500/40 font-mono font-bold flex items-center justify-center text-sm shadow-md">
             {projectNumber < 10 ? `0${projectNumber}` : projectNumber}
           </span>
 
@@ -482,7 +482,7 @@ export default function ProjectBuildGuide({
             {schematicUrl && !svgError ? (
               <div 
                 onClick={() => handleOpenViewer([schematicUrl], 0, `Esquemático: ${project.title}`)}
-                className="relative rounded-2xl overflow-hidden border-2 border-cyan-900/60 hover:border-cyan-400/80 bg-[#0A1128] shadow-2xl cursor-pointer group/svg transition-all p-2"
+                className="relative rounded-2xl overflow-hidden border-2 border-cyan-900/60 hover:border-cyan-400/80 bg-slate-900 shadow-2xl cursor-pointer group/svg transition-all p-2"
                 title="Haz clic para inspeccionar el diagrama con zoom interactivo"
               >
                 <img
@@ -498,7 +498,7 @@ export default function ProjectBuildGuide({
               </div>
             ) : (
               /* High-Contrast Interactive React Fallback Blueprint */
-              <div className="relative rounded-2xl overflow-hidden border-2 border-cyan-800/80 bg-[#0A1128] p-6 shadow-2xl space-y-6">
+              <div className="relative rounded-2xl overflow-hidden border-2 border-cyan-800/80 bg-slate-900 p-6 shadow-2xl space-y-6">
                 <div className="flex items-center justify-between border-b border-cyan-900/50 pb-3">
                   <div className="flex items-center gap-2">
                     <Cpu className="h-4 w-4 text-cyan-400" />
@@ -511,7 +511,7 @@ export default function ProjectBuildGuide({
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
                   {/* Left Block: Controller */}
-                  <div className="bg-[#0F2848] border-2 border-cyan-400/80 rounded-xl p-4 shadow-lg space-y-2.5">
+                  <div className="bg-cyan-950/40 border-2 border-cyan-400/80 rounded-xl p-4 shadow-lg space-y-2.5">
                     <div className="flex items-center justify-between">
                       <span className="text-xs font-bold text-cyan-300 font-mono">Microcontrolador / SBC</span>
                       <span className="text-[10px] font-mono bg-cyan-950 text-cyan-400 px-2 py-0.5 rounded border border-cyan-800/50">MCU</span>
@@ -528,7 +528,7 @@ export default function ProjectBuildGuide({
                   </div>
 
                   {/* Right Block: Module / Payload */}
-                  <div className="bg-[#0D332B] border-2 border-emerald-400/80 rounded-xl p-4 shadow-lg space-y-2.5">
+                  <div className="bg-emerald-950/40 border-2 border-emerald-400/80 rounded-xl p-4 shadow-lg space-y-2.5">
                     <div className="flex items-center justify-between">
                       <span className="text-xs font-bold text-emerald-300 font-mono">Módulo / Sensor / Actuador</span>
                       <span className="text-[10px] font-mono bg-emerald-950 text-emerald-400 px-2 py-0.5 rounded border border-emerald-800/50">CARGA</span>
@@ -683,7 +683,7 @@ export default function ProjectBuildGuide({
                   </div>
                 </div>
 
-                <div className="relative rounded-xl overflow-hidden border border-slate-800 bg-[#070A10]">
+                <div className="relative rounded-xl overflow-hidden border border-slate-800 bg-black">
                   <pre className="p-4 text-xs font-mono text-cyan-300 overflow-x-auto max-h-96 leading-relaxed">
                     <code>{manual.firmwareCode}</code>
                   </pre>
@@ -821,7 +821,7 @@ export default function ProjectBuildGuide({
             {/* Visual Progress Bar */}
             <div className="w-full bg-slate-950 rounded-full h-2 overflow-hidden border border-slate-800">
               <div 
-                className="bg-gradient-to-r from-cyan-500 to-emerald-400 h-full transition-all duration-300 rounded-full"
+                className="bg-cyan-500 h-full transition-all duration-300 rounded-full"
                 style={{ width: `${Math.round((Object.values(checkedSteps).filter(Boolean).length / 6) * 100)}%` }}
               />
             </div>

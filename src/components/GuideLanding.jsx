@@ -154,7 +154,7 @@ export default function GuideLanding({
   }, [guide.keyProjects, selectedProjectFilter, projectSearchQuery]);
 
   return (
-    <div className="min-h-screen bg-[#0B0F19] text-slate-100 pb-16">
+    <div className="min-h-screen bg-black text-slate-100 pb-16">
       
       {/* Top Breadcrumb Bar */}
       <div className="glass-panel border-b border-slate-800/80 sticky top-0 z-30 px-4 sm:px-8 py-3 backdrop-blur-md">
@@ -205,7 +205,7 @@ export default function GuideLanding({
             <a
               href={pdfUrl}
               download={guide.filename}
-              className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg bg-cyan-600 hover:bg-cyan-500 text-white font-semibold text-xs transition-all shadow-md shadow-cyan-900/30"
+              className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg bg-cyan-600 hover:bg-cyan-500 text-white font-semibold text-xs transition-all shadow-md"
             >
               <Download className="h-3.5 w-3.5" />
               <span className="hidden sm:inline">Descargar PDF Oficial</span>
@@ -347,7 +347,7 @@ export default function GuideLanding({
                   onClick={() => setActiveTab('overview')}
                   className={`px-5 py-2.5 rounded-xl font-semibold text-xs sm:text-sm flex items-center gap-2 transition-all ${
                     activeTab === 'overview'
-                      ? 'bg-cyan-500 text-slate-950 font-bold shadow-lg shadow-cyan-500/25'
+                      ? 'bg-cyan-500 text-slate-950 font-bold shadow-lg'
                       : 'bg-slate-800 text-slate-200 hover:bg-slate-700'
                   }`}
                 >
@@ -359,7 +359,7 @@ export default function GuideLanding({
                   onClick={() => setActiveTab('pdf')}
                   className={`px-5 py-2.5 rounded-xl font-semibold text-xs sm:text-sm flex items-center gap-2 transition-all ${
                     activeTab === 'pdf'
-                      ? 'bg-cyan-500 text-slate-950 font-bold shadow-lg shadow-cyan-500/25'
+                      ? 'bg-cyan-500 text-slate-950 font-bold shadow-lg'
                       : 'bg-slate-800 text-slate-200 hover:bg-slate-700'
                   }`}
                 >
@@ -429,7 +429,7 @@ export default function GuideLanding({
                     onClick={() => setSelectedProjectFilter('all')}
                     className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
                       selectedProjectFilter === 'all'
-                        ? 'bg-cyan-500 text-slate-950 shadow-md shadow-cyan-500/20 font-bold'
+                        ? 'bg-cyan-500 text-slate-950 shadow-md font-bold'
                         : 'bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800'
                     }`}
                   >
@@ -444,7 +444,7 @@ export default function GuideLanding({
                         onClick={() => setSelectedProjectFilter(proj.id)}
                         className={`px-2.5 py-1.5 rounded-lg text-xs font-semibold transition-all flex items-center gap-1.5 ${
                           isSelected
-                            ? 'bg-cyan-500 text-slate-950 shadow-md shadow-cyan-500/20 font-bold'
+                            ? 'bg-cyan-500 text-slate-950 shadow-md font-bold'
                             : 'bg-slate-900 text-slate-300 hover:text-white border border-slate-800'
                         }`}
                         title={proj.title}

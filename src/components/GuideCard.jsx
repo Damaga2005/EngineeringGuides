@@ -225,7 +225,7 @@ export default function GuideCard({
 
   // Grid View Card
   return (
-    <div className="glass-panel rounded-2xl border border-slate-800/90 hover:border-cyan-500/40 hover:shadow-xl hover:shadow-cyan-950/20 transition-all duration-300 flex flex-col justify-between overflow-hidden group">
+    <div className="glass-panel rounded-2xl border border-slate-800/90 hover:border-cyan-500/40 hover:shadow-xl hover: transition-all duration-300 flex flex-col justify-between overflow-hidden group">
       
       {/* Image Preview Header */}
       <div 
@@ -241,7 +241,7 @@ export default function GuideCard({
           }}
           className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500" 
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0B0F19] via-transparent to-black/20 pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/20 pointer-events-none" />
         
         {/* Floating Category Badge */}
         <div className="absolute top-3 left-3 flex items-center gap-2">
@@ -374,7 +374,7 @@ export default function GuideCard({
         <div className="pt-3 border-t border-slate-800/80 flex items-center gap-2">
           <button
             onClick={handleOpenLanding}
-            className="flex-1 flex items-center justify-center gap-1.5 py-2 px-3 rounded-xl bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-bold transition-all shadow-md shadow-cyan-600/20"
+            className="flex-1 flex items-center justify-center gap-1.5 py-2 px-3 rounded-xl bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-bold transition-all shadow-md"
           >
             <span>Ver Landing</span>
             <ArrowRight className="h-3.5 w-3.5" />

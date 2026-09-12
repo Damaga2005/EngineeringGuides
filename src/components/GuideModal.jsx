@@ -129,7 +129,7 @@ export default function GuideModal({ guide, onClose }) {
             <a
               href={pdfUrl}
               download={guide.filename}
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-cyan-600 hover:bg-cyan-500 text-white font-medium text-xs shadow-md shadow-cyan-600/20 transition-all"
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-cyan-600 hover:bg-cyan-500 text-white font-medium text-xs shadow-md transition-all"
               title="Descargar archivo PDF"
             >
               <Download className="h-3.5 w-3.5" />

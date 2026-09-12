@@ -160,47 +160,40 @@ export default function ProjectDetail({
   const prov = project.provenance || {};
 
   return (
-    <div className="min-h-screen bg-[#0B0F19] text-slate-100 flex flex-col engineering-grid">
+    <div className="min-h-screen bg-black text-slate-100 flex flex-col">
       {/* Top Header Navigation */}
-      <header className="sticky top-0 z-40 bg-[#0B0F19]/90 backdrop-blur-md border-b border-slate-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-4">
-          <div className="flex items-center gap-3">
+      <header className="sticky top-0 z-40 glass-panel">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between gap-4">
+          <div className="flex items-center gap-3 min-w-0">
             <button
               onClick={onBack}
-              className="p-2 rounded-xl bg-slate-900 border border-slate-800 hover:bg-slate-800 hover:border-slate-700 text-slate-300 transition-colors inline-flex items-center gap-1.5 text-xs font-semibold"
+              className="p-1.5 rounded-full hover:bg-white/[0.06] text-slate-300 transition-colors inline-flex items-center gap-1 text-[13px] font-medium"
             >
               <ArrowLeft className="h-4 w-4" />
               <span>Volver</span>
             </button>
 
-            <div className="h-5 w-px bg-slate-800 hidden sm:block" />
-
-            <div className="hidden sm:flex items-center gap-2 text-xs text-slate-400">
-              <span>Proyecto</span>
-              <span className="text-slate-600">/</span>
-              <span className="text-cyan-400 font-mono font-bold">#{project.projectNumber}</span>
-              <span className="text-slate-600">/</span>
-              <span className="text-slate-200 font-medium truncate max-w-[250px]">{project.title}</span>
+            <div className="hidden sm:flex items-center gap-2 text-[13px] text-slate-500 min-w-0">
+              <span className="text-slate-700">/</span>
+              <span className="text-slate-200 font-medium truncate max-w-[300px]">{project.title}</span>
             </div>
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1.5 flex-shrink-0">
             <button
               onClick={copyProjectLink}
-              className="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 hover:bg-slate-800 text-slate-300 text-xs font-medium inline-flex items-center gap-1.5 transition-colors"
+              className="px-3 py-1.5 rounded-full hover:bg-white/[0.06] text-slate-300 text-[13px] font-medium inline-flex items-center gap-1.5 transition-colors"
               title="Copiar enlace permanente"
             >
               {copiedLink ? <Check className="h-3.5 w-3.5 text-emerald-400" /> : <Share2 className="h-3.5 w-3.5 text-slate-400" />}
-              <span>{copiedLink ? '¡Enlace Copiado!' : 'Compartir'}</span>
+              <span className="hidden sm:inline">{copiedLink ? '¡Enlace copiado!' : 'Compartir'}</span>
             </button>
 
             <button
               onClick={() => onSelectGuide && onSelectGuide(project.guideId)}
-              className="px-3 py-1.5 rounded-lg bg-cyan-950/80 border border-cyan-700/50 hover:bg-cyan-900/80 text-cyan-300 text-xs font-semibold inline-flex items-center gap-1.5 transition-colors"
+              className="px-3.5 py-1.5 rounded-full bg-cyan-500 hover:bg-cyan-400 text-white text-[13px] font-medium inline-flex items-center gap-1.5 transition-colors"
             >
-              <FileText className="h-3.5 w-3.5" />
-              <span className="hidden md:inline">Ver Guía Origen</span>
-              <span className="font-mono text-[11px]">({project.guideId})</span>
+              <span>Ver guía origen</span>
               <ExternalLink className="h-3 w-3" />
             </button>
           </div>
@@ -208,82 +201,82 @@ export default function ProjectDetail({
       </header>
 
       {/* Hero Section */}
-      <div className="border-b border-slate-800 bg-slate-950/40">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6">
+      <div className="border-b border-slate-800">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-9 space-y-7">
           {/* Badges & Provenance Notice */}
-          <div className="flex flex-wrap items-center justify-between gap-3">
-            <div className="flex flex-wrap items-center gap-2">
-              <span className="px-3 py-1 rounded-lg text-xs font-mono font-bold bg-cyan-950/90 border border-cyan-700/60 text-cyan-300">
-                PROYECTO TÉCNICO INDEPENDIENTE
-              </span>
-              <span className="px-2.5 py-1 rounded-lg text-xs font-mono bg-slate-800/80 text-slate-300 border border-slate-700/50">
-                ID: {project.projectId}
-              </span>
+          <div className="flex flex-wrap items-center justify-between gap-3 text-[12px]">
+            <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-slate-500">
+              <span className="text-slate-300 font-medium">Proyecto independiente</span>
+              <span>·</span>
+              <span>{project.projectId}</span>
               {project.difficulty && (
-                <span className="px-2.5 py-1 rounded-lg text-xs font-medium bg-indigo-950/60 text-indigo-300 border border-indigo-800/40">
-                  {project.difficulty}
-                </span>
+                <>
+                  <span>·</span>
+                  <span>{project.difficulty}</span>
+                </>
               )}
               {project.timeEstimate && (
-                <span className="px-2.5 py-1 rounded-lg text-xs font-medium bg-slate-800/80 text-slate-300 inline-flex items-center gap-1">
-                  <Clock className="h-3 w-3 text-slate-400" />
-                  {project.timeEstimate}
-                </span>
+                <>
+                  <span>·</span>
+                  <span className="inline-flex items-center gap-1">
+                    <Clock className="h-3 w-3" />
+                    {project.timeEstimate}
+                  </span>
+                </>
               )}
             </div>
 
-            <div className="inline-flex items-center gap-1.5 text-xs text-emerald-400 bg-emerald-950/50 border border-emerald-800/50 px-3 py-1 rounded-lg">
+            <div className="inline-flex items-center gap-1.5 text-emerald-400">
               <ShieldCheck className="h-3.5 w-3.5" />
-              <span>100% Trazable a PDF Fuente (Pág. {project.sourcePageRange || '1'})</span>
+              <span>Trazable a PDF fuente · pág. {project.sourcePageRange || '1'}</span>
             </div>
           </div>
 
           {/* Title & Subtitle */}
           <div>
-            <h1 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white tracking-tight">
+            <h1 className="text-[32px] sm:text-[38px] font-semibold text-white tracking-tight leading-tight">
               {project.title}
             </h1>
-            <p className="mt-2 text-sm text-slate-400 max-w-3xl">
-              Documentado originalmente en <span className="text-cyan-400 font-medium">{project.guideTitle}</span>. 
-              Extraído y estructurado bajo arquitectura Project-First sin pérdida de fidelidad.
+            <p className="mt-2 text-[14px] text-slate-400 max-w-3xl leading-relaxed">
+              Documentado originalmente en <span className="text-slate-200">{project.guideTitle}</span>. Extraído y estructurado bajo arquitectura Project-First sin pérdida de fidelidad.
             </p>
           </div>
 
           {/* Structured Answers Core: Qué es, Qué hace, Para qué sirve */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
-            <div className="glass-panel p-4 rounded-xl border border-cyan-900/40 bg-cyan-950/10 space-y-2">
-              <div className="flex items-center gap-2 text-cyan-400 text-xs font-bold uppercase tracking-wider">
-                <Sparkles className="h-4 w-4" />
-                <span>1. ¿Qué es?</span>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-3 pt-1">
+            <div className="bg-slate-900 p-4 rounded-2xl space-y-2">
+              <div className="flex items-center gap-2 text-slate-400 text-[12px] font-medium">
+                <Sparkles className="h-3.5 w-3.5" />
+                <span>¿Qué es?</span>
               </div>
-              <p className="text-xs text-slate-300 leading-relaxed">
+              <p className="text-[13px] text-slate-300 leading-relaxed">
                 {desc.whatIsIt || desc.summary || project.title}
               </p>
             </div>
 
-            <div className="glass-panel p-4 rounded-xl border border-blue-900/40 bg-blue-950/10 space-y-2">
-              <div className="flex items-center gap-2 text-blue-400 text-xs font-bold uppercase tracking-wider">
-                <Activity className="h-4 w-4" />
-                <span>2. ¿Qué hace?</span>
+            <div className="bg-slate-900 p-4 rounded-2xl space-y-2">
+              <div className="flex items-center gap-2 text-slate-400 text-[12px] font-medium">
+                <Activity className="h-3.5 w-3.5" />
+                <span>¿Qué hace?</span>
               </div>
               {desc.whatDoesItDo ? (
-                <p className="text-xs text-slate-300 leading-relaxed">{desc.whatDoesItDo}</p>
+                <p className="text-[13px] text-slate-300 leading-relaxed">{desc.whatDoesItDo}</p>
               ) : (
-                <p className="text-xs text-slate-500 italic leading-relaxed">
+                <p className="text-[13px] text-slate-500 italic leading-relaxed">
                   No documentado en la fuente original.
                 </p>
               )}
             </div>
 
-            <div className="glass-panel p-4 rounded-xl border border-indigo-900/40 bg-indigo-950/10 space-y-2">
-              <div className="flex items-center gap-2 text-indigo-400 text-xs font-bold uppercase tracking-wider">
-                <Zap className="h-4 w-4" />
-                <span>3. ¿Para qué sirve?</span>
+            <div className="bg-slate-900 p-4 rounded-2xl space-y-2">
+              <div className="flex items-center gap-2 text-slate-400 text-[12px] font-medium">
+                <Zap className="h-3.5 w-3.5" />
+                <span>¿Para qué sirve?</span>
               </div>
               {(desc.whatIsItFor || desc.purpose) ? (
-                <p className="text-xs text-slate-300 leading-relaxed">{desc.whatIsItFor || desc.purpose}</p>
+                <p className="text-[13px] text-slate-300 leading-relaxed">{desc.whatIsItFor || desc.purpose}</p>
               ) : (
-                <p className="text-xs text-slate-500 italic leading-relaxed">
+                <p className="text-[13px] text-slate-500 italic leading-relaxed">
                   No documentado en la fuente original.
                 </p>
               )}
@@ -291,45 +284,45 @@ export default function ProjectDetail({
           </div>
 
           {/* Technical Identity Chips */}
-          <div className="p-4 rounded-xl bg-slate-900/80 border border-slate-800 space-y-3">
-            <div className="text-xs font-semibold text-slate-400 uppercase tracking-wider flex items-center gap-2">
-              <Cpu className="h-4 w-4 text-cyan-400" />
-              <span>Identidad Técnica Canónica</span>
+          <div className="p-4 rounded-2xl bg-slate-900 space-y-3">
+            <div className="text-[12px] font-medium text-slate-400 flex items-center gap-2">
+              <Cpu className="h-3.5 w-3.5" />
+              <span>Identidad técnica</span>
             </div>
-            <div className="flex flex-wrap gap-2 text-xs">
+            <div className="flex flex-wrap gap-1.5 text-[12px]">
               {techId.controller && (
-                <div className="px-3 py-1 rounded-lg bg-cyan-950/60 border border-cyan-700/50 text-cyan-300">
-                  <span className="text-slate-400 mr-1">Microcontrolador:</span>
-                  <span className="font-mono font-bold">{techId.controller}</span>
+                <div className="px-2.5 py-1 rounded-full bg-cyan-500/15 text-cyan-300">
+                  <span className="opacity-60 mr-1">MCU</span>
+                  <span className="font-medium">{techId.controller}</span>
                 </div>
               )}
               {techId.function && (
-                <div className="px-3 py-1 rounded-lg bg-indigo-950/60 border border-indigo-700/50 text-indigo-300">
-                  <span className="text-slate-400 mr-1">Función:</span>
-                  <span className="font-semibold">{techId.function}</span>
+                <div className="px-2.5 py-1 rounded-full bg-white/[0.06] text-slate-300">
+                  <span className="opacity-60 mr-1">Función</span>
+                  <span className="font-medium">{techId.function}</span>
                 </div>
               )}
               {techId.architecture && (
-                <div className="px-3 py-1 rounded-lg bg-slate-800/80 border border-slate-700/50 text-slate-300">
-                  <span className="text-slate-400 mr-1">Arquitectura:</span>
+                <div className="px-2.5 py-1 rounded-full bg-white/[0.06] text-slate-300">
+                  <span className="opacity-60 mr-1">Arquitectura</span>
                   <span>{techId.architecture}</span>
                 </div>
               )}
               {techId.sensors?.map((s, idx) => (
-                <div key={idx} className="px-3 py-1 rounded-lg bg-slate-800/60 border border-slate-700/40 text-slate-300">
-                  <span className="text-slate-400 mr-1">Sensor:</span>
+                <div key={idx} className="px-2.5 py-1 rounded-full bg-white/[0.06] text-slate-300">
+                  <span className="opacity-60 mr-1">Sensor</span>
                   <span>{s}</span>
                 </div>
               ))}
               {techId.actuators?.map((a, idx) => (
-                <div key={idx} className="px-3 py-1 rounded-lg bg-amber-950/40 border border-amber-800/40 text-amber-300">
-                  <span className="text-slate-400 mr-1">Actuador:</span>
+                <div key={idx} className="px-2.5 py-1 rounded-full bg-white/[0.06] text-slate-300">
+                  <span className="opacity-60 mr-1">Actuador</span>
                   <span>{a}</span>
                 </div>
               ))}
               {techId.communications?.map((c, idx) => (
-                <div key={idx} className="px-3 py-1 rounded-lg bg-emerald-950/40 border border-emerald-800/40 text-emerald-300 font-mono">
-                  <span className="text-slate-400 mr-1">Comms:</span>
+                <div key={idx} className="px-2.5 py-1 rounded-full bg-white/[0.06] text-slate-300">
+                  <span className="opacity-60 mr-1">Comms</span>
                   <span>{c}</span>
                 </div>
               ))}
@@ -339,75 +332,71 @@ export default function ProjectDetail({
       </div>
 
       {/* Tabs Navigation */}
-      <div className="border-b border-slate-800 bg-[#0B0F19]">
+      <div className="border-b border-slate-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
-          <nav className="flex space-x-2 py-3 overflow-x-auto">
+          <nav className="flex space-x-1 py-3 overflow-x-auto">
             <button
               onClick={() => setActiveTab('explanation')}
-              className={`px-4 py-2 rounded-xl text-xs font-semibold transition-all inline-flex items-center gap-2 ${
+              className={`px-4 py-2 rounded-full text-[13px] font-medium transition-colors inline-flex items-center gap-2 ${
                 activeTab === 'explanation'
-                  ? 'bg-cyan-600 text-white shadow-md shadow-cyan-950/50'
-                  : 'text-slate-400 hover:text-slate-200 hover:bg-slate-900'
+                  ? 'bg-slate-700 text-white'
+                  : 'text-slate-400 hover:text-slate-200'
               }`}
             >
-              <FileText className="h-4 w-4" />
-              <span>Secciones Técnicas ({sections.length})</span>
+              <span>Secciones técnicas ({sections.length})</span>
             </button>
 
             <button
               onClick={() => setActiveTab('build')}
-              className={`px-4 py-2 rounded-xl text-xs font-semibold transition-all inline-flex items-center gap-2 ${
+              className={`px-4 py-2 rounded-full text-[13px] font-medium transition-colors inline-flex items-center gap-2 ${
                 activeTab === 'build'
-                  ? 'bg-cyan-600 text-white shadow-md shadow-cyan-950/50'
-                  : 'text-slate-400 hover:text-slate-200 hover:bg-slate-900'
+                  ? 'bg-slate-700 text-white'
+                  : 'text-slate-400 hover:text-slate-200'
               }`}
             >
-              <Sliders className="h-4 w-4" />
               <span>Esquemático, BOM & Firmware</span>
             </button>
 
             {expandedGuide && (
               <button
                 onClick={() => setActiveTab('expanded')}
-                className={`px-4 py-2 rounded-xl text-xs font-semibold transition-all inline-flex items-center gap-2 ${
+                className={`px-4 py-2 rounded-full text-[13px] font-medium transition-colors inline-flex items-center gap-2 ${
                   activeTab === 'expanded'
-                    ? 'bg-amber-600 text-white shadow-md shadow-amber-950/50'
-                    : 'text-amber-400/90 hover:text-amber-200 hover:bg-slate-900'
+                    ? 'bg-amber-500 text-black'
+                    : 'text-amber-300/90 hover:text-amber-200'
                 }`}
               >
-                <BookOpen className="h-4 w-4" />
-                <span>Guía Ampliada</span>
+                <span>Guía ampliada</span>
               </button>
             )}
 
             {relatedProjects.length > 0 && (
               <button
                 onClick={() => setActiveTab('relations')}
-                className={`px-4 py-2 rounded-xl text-xs font-semibold transition-all inline-flex items-center gap-2 ${
+                className={`px-4 py-2 rounded-full text-[13px] font-medium transition-colors inline-flex items-center gap-2 ${
                   activeTab === 'relations'
-                    ? 'bg-cyan-600 text-white shadow-md shadow-cyan-950/50'
-                    : 'text-slate-400 hover:text-slate-200 hover:bg-slate-900'
+                    ? 'bg-slate-700 text-white'
+                    : 'text-slate-400 hover:text-slate-200'
                 }`}
               >
-                <Layers className="h-4 w-4" />
-                <span>Proyectos Relacionados ({relatedProjects.length})</span>
+                <span>Proyectos relacionados ({relatedProjects.length})</span>
               </button>
             )}
           </nav>
 
           {activeTab === 'explanation' && (
-            <div className="hidden sm:flex items-center gap-2">
+            <div className="hidden sm:flex items-center gap-1">
               <button
                 onClick={expandAllSections}
-                className="px-3 py-1 rounded-lg text-xs text-cyan-400 hover:bg-cyan-950/40 border border-cyan-800/40 transition-colors"
+                className="px-3 py-1.5 rounded-full text-[12px] text-slate-400 hover:text-slate-200 hover:bg-white/[0.06] transition-colors"
               >
-                Expandir Todo
+                Expandir todo
               </button>
               <button
                 onClick={collapseAllSections}
-                className="px-3 py-1 rounded-lg text-xs text-slate-400 hover:bg-slate-900 border border-slate-800 transition-colors"
+                className="px-3 py-1.5 rounded-full text-[12px] text-slate-400 hover:text-slate-200 hover:bg-white/[0.06] transition-colors"
               >
-                Colapsar Todo
+                Colapsar todo
               </button>
             </div>
           )}
@@ -417,11 +406,11 @@ export default function ProjectDetail({
       {/* Main Tab Content */}
       <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {activeTab === 'explanation' && (
-          <div className="space-y-4">
-            <div className="p-4 rounded-xl bg-slate-900/60 border border-slate-800 flex items-start gap-3">
-              <Info className="h-5 w-5 text-cyan-400 flex-shrink-0 mt-0.5" />
-              <div className="text-xs text-slate-300 leading-relaxed">
-                <span className="font-semibold text-white">Separación Estricta: Fuente vs Derivado. </span>
+          <div className="space-y-3">
+            <div className="p-4 rounded-2xl bg-slate-900 flex items-start gap-3">
+              <Info className="h-4 w-4 text-slate-500 flex-shrink-0 mt-0.5" />
+              <div className="text-[13px] text-slate-400 leading-relaxed">
+                <span className="font-medium text-slate-200">Separación estricta: fuente vs. derivado. </span>
                 Cada sección muestra únicamente el texto oficial extraído literalmente de la fuente documental original,
                 con trazabilidad criptográfica SHA-256. Si no existe evidencia literal para una sección, se indica
                 explícitamente en lugar de generar contenido de relleno.
@@ -433,65 +422,65 @@ export default function ProjectDetail({
               const sProv = section.provenance || {};
 
               return (
-                <div 
+                <div
                   key={idx}
-                  className="glass-panel rounded-2xl border border-slate-800/80 overflow-hidden transition-all"
+                  className="bg-slate-900 rounded-2xl overflow-hidden transition-all"
                 >
                   <button
                     onClick={() => toggleSection(idx)}
                     className="w-full p-4 text-left flex items-center justify-between gap-4 bg-slate-900/40 hover:bg-slate-900/80 transition-colors"
                   >
                     <div className="flex items-center gap-3">
-                      <span className="w-7 h-7 rounded-lg bg-cyan-950 border border-cyan-800/50 flex items-center justify-center font-mono font-bold text-xs text-cyan-400">
+                      <span className="w-6 h-6 rounded-full bg-white/[0.06] flex items-center justify-center font-medium text-[12px] text-slate-400">
                         {section.sectionIndex || idx + 1}
                       </span>
-                      <h3 className="text-sm font-bold text-white">
+                      <h3 className="text-[14px] font-medium text-white">
                         {section.title}
                       </h3>
                     </div>
 
                     <div className="flex items-center gap-3">
                       {section.status === 'SOURCE' ? (
-                        <span className="hidden sm:inline-block text-[11px] font-mono px-2 py-0.5 rounded bg-emerald-950/60 text-emerald-300 border border-emerald-800/40">
+                        <span className="hidden sm:inline-block text-[11px] text-emerald-400">
                           Fuente PDF
                         </span>
                       ) : (
-                        <span className="hidden sm:inline-block text-[11px] font-mono px-2 py-0.5 rounded bg-slate-800/80 text-slate-400 border border-slate-700">
+                        <span className="hidden sm:inline-block text-[11px] text-slate-500">
                           No documentado
                         </span>
                       )}
                       {isExpanded ? (
-                        <ChevronUp className="h-4 w-4 text-slate-400" />
+                        <ChevronUp className="h-4 w-4 text-slate-500" />
                       ) : (
-                        <ChevronDown className="h-4 w-4 text-slate-400" />
+                        <ChevronDown className="h-4 w-4 text-slate-500" />
                       )}
                     </div>
                   </button>
 
                   {isExpanded && (
-                    <div className="p-5 space-y-4 border-t border-slate-800/80">
+                    <div className="p-5 space-y-3 border-t border-white/[0.06]">
                       {section.sourceText ? (
-                        <div className="p-4 rounded-xl bg-emerald-950/20 border border-emerald-900/40 space-y-2">
+                        <div className="p-4 rounded-xl bg-emerald-500/[0.06] space-y-2">
                           <div className="flex items-center justify-between gap-2">
-                            <div className="flex items-center gap-2 text-xs font-semibold text-emerald-400">
-                              <ShieldCheck className="h-4 w-4" />
-                              <span>Texto Oficial de la Fuente (Inmutable)</span>
+                            <div className="flex items-center gap-2 text-[12px] font-medium text-emerald-400">
+                              <ShieldCheck className="h-3.5 w-3.5" />
+                              <span>Texto oficial de la fuente (inmutable)</span>
                             </div>
-                            <span className="text-[10px] font-mono text-emerald-500/80">
-                              {sProv.source} • Pág. {sProv.sourcePage || 1}
+                            <span className="text-[11px] text-slate-500">
+                              {sProv.source} · pág. {sProv.sourcePage || 1}
                             </span>
                           </div>
-                          <p className="text-xs text-slate-200 leading-relaxed font-sans whitespace-pre-wrap">
+                          <p className="text-[13px] text-slate-200 leading-relaxed whitespace-pre-wrap">
                             {section.sourceText}
                           </p>
                         </div>
                       ) : (
-                        <div className="p-4 rounded-xl bg-slate-900/40 border border-slate-800 space-y-1">
-                          <div className="flex items-center gap-2 text-xs font-semibold text-slate-400">
-                            <Info className="h-4 w-4" />
+                        <div className="p-4 rounded-xl bg-white/[0.03] space-y-1">
+                          <div className="flex items-center gap-2 text-[12px] font-medium text-slate-400">
+                            <Info className="h-3.5 w-3.5" />
                             <span>Sin evidencia literal</span>
                           </div>
-                          <p className="text-xs text-slate-500 italic leading-relaxed">
+                          <p className="text-[13px] text-slate-500 italic leading-relaxed">
                             No se encontró texto literal en la fuente documental para esta sección. No se muestra contenido generado en su lugar.
                           </p>
                         </div>
@@ -499,19 +488,19 @@ export default function ProjectDetail({
 
                       {/* Derived Explanation Box: only rendered when a real derivation exists */}
                       {section.derivedExplanation && (
-                        <div className="p-4 rounded-xl bg-blue-950/15 border border-blue-900/30 space-y-2">
+                        <div className="p-4 rounded-xl bg-cyan-500/[0.06] space-y-2">
                           <div className="flex items-center justify-between gap-2">
-                            <div className="flex items-center gap-2 text-xs font-semibold text-blue-400">
-                              <Sparkles className="h-4 w-4" />
-                              <span>Análisis Técnico Derivado</span>
+                            <div className="flex items-center gap-2 text-[12px] font-medium text-cyan-400">
+                              <Sparkles className="h-3.5 w-3.5" />
+                              <span>Análisis técnico derivado</span>
                             </div>
                             {sProv.confidence && (
-                              <span className="text-[10px] font-mono text-slate-500">
+                              <span className="text-[11px] text-slate-500">
                                 Confianza: {sProv.confidence}
                               </span>
                             )}
                           </div>
-                          <p className="text-xs text-slate-300 leading-relaxed font-sans whitespace-pre-wrap">
+                          <p className="text-[13px] text-slate-300 leading-relaxed whitespace-pre-wrap">
                             {section.derivedExplanation}
                           </p>
                         </div>
@@ -527,14 +516,14 @@ export default function ProjectDetail({
         {activeTab === 'build' && (
           <div className="space-y-8">
             {/* BOM Section */}
-            <div className="glass-panel p-6 rounded-2xl border border-slate-800 space-y-4">
-              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-800 pb-4">
+            <div className="bg-slate-900 p-6 rounded-2xl space-y-4">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-white/[0.06] pb-4">
                 <div>
-                  <h3 className="text-lg font-bold text-white flex items-center gap-2">
-                    <Boxes className="h-5 w-5 text-cyan-400" />
-                    <span>Lista de Materiales (BOM)</span>
+                  <h3 className="text-[17px] font-medium text-white flex items-center gap-2">
+                    <Boxes className="h-4 w-4 text-slate-400" />
+                    <span>Lista de materiales (BOM)</span>
                   </h3>
-                  <p className="text-xs text-slate-400 mt-0.5">
+                  <p className="text-[13px] text-slate-400 mt-0.5">
                     Componentes oficiales requeridos para el ensamblaje de este proyecto.
                   </p>
                 </div>
