@@ -46,15 +46,19 @@ jobs:
         run: npm ci
 
       - name: Run Source & Asset Validators
-        run: python -m scripts.foundation.validators
+        run: |
+          python -m scripts.foundation.validators
+          python -m scripts.project_first.validators
 
       - name: Run Automated Test Suite
         run: pytest tests/ -v
 
-      - name: Verify Deterministic Catalog Generation
+      - name: Verify Deterministic Catalog & Project Generation
         run: |
           python -m scripts.foundation.pipeline
+          python -m scripts.project_first.pipeline
           git diff --exit-code public/guides.json
+          git diff --exit-code public/projects.json
 
       - name: Build Web Application
-        run: npx vite build
+        run: npm run build

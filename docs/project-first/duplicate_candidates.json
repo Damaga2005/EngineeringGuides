@@ -1,0 +1,392 @@
+[
+  {
+    "candidateId": "cand-4027b4276df370e6",
+    "classification": "NEEDS_REVIEW",
+    "confidence": "NEEDS_REVIEW",
+    "projectAId": "proj-3c8e3f6f2e8b24be",
+    "projectATitle": "Indoor Position Hold (Optical Flow + ToF)",
+    "projectBId": "proj-a2ebed30b19669a5",
+    "projectBTitle": "Optical Flow & LiDAR Surface Tracker",
+    "provenance": {
+      "confidence": "NEEDS_REVIEW",
+      "extractionMethod": "multi-signal-classifier-v1",
+      "extractorVersion": "1.0.0",
+      "generatorVersion": null,
+      "origin": "generated",
+      "source": "guide-002+guide-015",
+      "sourceHash": "87f5986d:87f5986d",
+      "sourcePage": 1,
+      "sourcePath": "Engineering guides/(PART 21) 6_Upgrades_Your_Drone_Is_Missing.pdf,Engineering guides/6_Upgrades_Your_Drone_Is_Missing.pdf",
+      "sourceSection": "DEDUPLICATION_EVALUATION"
+    },
+    "reasoning": "Similitud moderada sin suficiente evidencia para afirmar identidad técnica ni relación.",
+    "score": 0.5839,
+    "signals": {
+      "bom_overlap": 1.0,
+      "controller_match": 0.3,
+      "duplicate_source_guide": 1.0,
+      "schematic_match": 0.0,
+      "title_similarity": 0.2222
+    }
+  },
+  {
+    "candidateId": "cand-4eeacb8e0d5fcabd",
+    "classification": "NEEDS_REVIEW",
+    "confidence": "NEEDS_REVIEW",
+    "projectAId": "proj-7251513973158948",
+    "projectATitle": "Obstacle-Avoidance Sensor Ring",
+    "projectBId": "proj-a3d73d08684a062d",
+    "projectBTitle": "Redundant Dual-IMU with Kalman Voting",
+    "provenance": {
+      "confidence": "NEEDS_REVIEW",
+      "extractionMethod": "multi-signal-classifier-v1",
+      "extractorVersion": "1.0.0",
+      "generatorVersion": null,
+      "origin": "generated",
+      "source": "guide-002+guide-015",
+      "sourceHash": "87f5986d:87f5986d",
+      "sourcePage": 3,
+      "sourcePath": "Engineering guides/(PART 21) 6_Upgrades_Your_Drone_Is_Missing.pdf,Engineering guides/6_Upgrades_Your_Drone_Is_Missing.pdf",
+      "sourceSection": "DEDUPLICATION_EVALUATION"
+    },
+    "reasoning": "Similitud moderada sin suficiente evidencia para afirmar identidad técnica ni relación.",
+    "score": 0.495,
+    "signals": {
+      "bom_overlap": 1.0,
+      "controller_match": 0.3,
+      "duplicate_source_guide": 1.0,
+      "schematic_match": 0.0,
+      "title_similarity": 0.0
+    }
+  },
+  {
+    "candidateId": "cand-d215fb8a84a3bb2b",
+    "classification": "NEEDS_REVIEW",
+    "confidence": "NEEDS_REVIEW",
+    "projectAId": "proj-171507a32b08d9c8",
+    "projectATitle": "Parachute Recovery System",
+    "projectBId": "proj-a6e02b253844ee9d",
+    "projectBTitle": "CAN Bus ESC Telemetry & Power Distribution",
+    "provenance": {
+      "confidence": "NEEDS_REVIEW",
+      "extractionMethod": "multi-signal-classifier-v1",
+      "extractorVersion": "1.0.0",
+      "generatorVersion": null,
+      "origin": "generated",
+      "source": "guide-002+guide-015",
+      "sourceHash": "87f5986d:87f5986d",
+      "sourcePage": 5,
+      "sourcePath": "Engineering guides/(PART 21) 6_Upgrades_Your_Drone_Is_Missing.pdf,Engineering guides/6_Upgrades_Your_Drone_Is_Missing.pdf",
+      "sourceSection": "DEDUPLICATION_EVALUATION"
+    },
+    "reasoning": "Similitud moderada sin suficiente evidencia para afirmar identidad técnica ni relación.",
+    "score": 0.525,
+    "signals": {
+      "bom_overlap": 1.0,
+      "controller_match": 0.5,
+      "duplicate_source_guide": 1.0,
+      "schematic_match": 0.0,
+      "title_similarity": 0.0
+    }
+  },
+  {
+    "candidateId": "cand-700f6d63d83966e1",
+    "classification": "NEEDS_REVIEW",
+    "confidence": "NEEDS_REVIEW",
+    "projectAId": "proj-b4e3670bf00a9de2",
+    "projectATitle": "2-Axis Brushless Gimbal (FOC)",
+    "projectBId": "proj-7d03c84d360dff73",
+    "projectBTitle": "LoRa Backup Heartbeat & Emergency Parachute",
+    "provenance": {
+      "confidence": "NEEDS_REVIEW",
+      "extractionMethod": "multi-signal-classifier-v1",
+      "extractorVersion": "1.0.0",
+      "generatorVersion": null,
+      "origin": "generated",
+      "source": "guide-002+guide-015",
+      "sourceHash": "87f5986d:87f5986d",
+      "sourcePage": 7,
+      "sourcePath": "Engineering guides/(PART 21) 6_Upgrades_Your_Drone_Is_Missing.pdf,Engineering guides/6_Upgrades_Your_Drone_Is_Missing.pdf",
+      "sourceSection": "DEDUPLICATION_EVALUATION"
+    },
+    "reasoning": "Similitud moderada sin suficiente evidencia para afirmar identidad técnica ni relación.",
+    "score": 0.525,
+    "signals": {
+      "bom_overlap": 1.0,
+      "controller_match": 0.5,
+      "duplicate_source_guide": 1.0,
+      "schematic_match": 0.0,
+      "title_similarity": 0.0
+    }
+  },
+  {
+    "candidateId": "cand-57bc1fb8521470a0",
+    "classification": "RELATED",
+    "confidence": "EXACT",
+    "projectAId": "proj-217f596a43c24e22",
+    "projectATitle": "Vision Precision Landing",
+    "projectBId": "proj-d6b9b16f65f5d9fd",
+    "projectBTitle": "Active Rotor Ice Detection & Thermal De-Icing",
+    "provenance": {
+      "confidence": "EXACT",
+      "extractionMethod": "multi-signal-classifier-v1",
+      "extractorVersion": "1.0.0",
+      "generatorVersion": null,
+      "origin": "generated",
+      "source": "guide-002+guide-015",
+      "sourceHash": "87f5986d:87f5986d",
+      "sourcePage": 9,
+      "sourcePath": "Engineering guides/(PART 21) 6_Upgrades_Your_Drone_Is_Missing.pdf,Engineering guides/6_Upgrades_Your_Drone_Is_Missing.pdf",
+      "sourceSection": "DEDUPLICATION_EVALUATION"
+    },
+    "reasoning": "Proyectos con relación funcional o temática compartida dentro del mismo dominio técnico.",
+    "score": 0.525,
+    "signals": {
+      "bom_overlap": 1.0,
+      "controller_match": 0.5,
+      "duplicate_source_guide": 1.0,
+      "schematic_match": 0.0,
+      "title_similarity": 0.0
+    }
+  },
+  {
+    "candidateId": "cand-07328ecfd9f1bcfd",
+    "classification": "NEEDS_REVIEW",
+    "confidence": "NEEDS_REVIEW",
+    "projectAId": "proj-a906f1e86a9caa9f",
+    "projectATitle": "Signal-Mapping Payload",
+    "projectBId": "proj-4ba4e6958a29f2ab",
+    "projectBTitle": "AI Edge Companion Computer & Collision Avoidance",
+    "provenance": {
+      "confidence": "NEEDS_REVIEW",
+      "extractionMethod": "multi-signal-classifier-v1",
+      "extractorVersion": "1.0.0",
+      "generatorVersion": null,
+      "origin": "generated",
+      "source": "guide-002+guide-015",
+      "sourceHash": "87f5986d:87f5986d",
+      "sourcePage": 11,
+      "sourcePath": "Engineering guides/(PART 21) 6_Upgrades_Your_Drone_Is_Missing.pdf,Engineering guides/6_Upgrades_Your_Drone_Is_Missing.pdf",
+      "sourceSection": "DEDUPLICATION_EVALUATION"
+    },
+    "reasoning": "Similitud moderada sin suficiente evidencia para afirmar identidad técnica ni relación.",
+    "score": 0.495,
+    "signals": {
+      "bom_overlap": 1.0,
+      "controller_match": 0.3,
+      "duplicate_source_guide": 1.0,
+      "schematic_match": 0.0,
+      "title_similarity": 0.0
+    }
+  },
+  {
+    "candidateId": "cand-7a10144c6e5bec06",
+    "classification": "RELATED",
+    "confidence": "EXACT",
+    "projectAId": "proj-1a64e60857cbc87d",
+    "projectATitle": "GNSS Receiver & Resilience Analysis",
+    "projectBId": "proj-f3b88e7e3976ed3b",
+    "projectBTitle": "GNSS Receiver & Resilience Analysis",
+    "provenance": {
+      "confidence": "EXACT",
+      "extractionMethod": "multi-signal-classifier-v1",
+      "extractorVersion": "1.0.0",
+      "generatorVersion": null,
+      "origin": "generated",
+      "source": "guide-011+guide-012",
+      "sourceHash": "377095a4:8feb310f",
+      "sourcePage": 1,
+      "sourcePath": "Engineering guides/6_EE_Projects_That_See_The_Invisible_dark_ops.pdf,Engineering guides/6_EE_Projects_That_See_The_Invisible_revised.pdf",
+      "sourceSection": "DEDUPLICATION_EVALUATION"
+    },
+    "reasoning": "Proyectos con relación funcional o temática compartida dentro del mismo dominio técnico.",
+    "score": 0.545,
+    "signals": {
+      "bom_overlap": 1.0,
+      "controller_match": 0.3,
+      "duplicate_source_guide": 0.0,
+      "schematic_match": 0.0,
+      "title_similarity": 1.0
+    }
+  },
+  {
+    "candidateId": "cand-c56bfcc24b7584a8",
+    "classification": "RELATED",
+    "confidence": "EXACT",
+    "projectAId": "proj-1c2472bca80aab75",
+    "projectATitle": "RF Direction Finder (Pseudo-Doppler)",
+    "projectBId": "proj-6169d784d62573ed",
+    "projectBTitle": "RF Direction Finder (Pseudo-Doppler)",
+    "provenance": {
+      "confidence": "EXACT",
+      "extractionMethod": "multi-signal-classifier-v1",
+      "extractorVersion": "1.0.0",
+      "generatorVersion": null,
+      "origin": "generated",
+      "source": "guide-011+guide-012",
+      "sourceHash": "377095a4:8feb310f",
+      "sourcePage": 3,
+      "sourcePath": "Engineering guides/6_EE_Projects_That_See_The_Invisible_dark_ops.pdf,Engineering guides/6_EE_Projects_That_See_The_Invisible_revised.pdf",
+      "sourceSection": "DEDUPLICATION_EVALUATION"
+    },
+    "reasoning": "Proyectos con relación funcional o temática compartida dentro del mismo dominio técnico.",
+    "score": 0.545,
+    "signals": {
+      "bom_overlap": 1.0,
+      "controller_match": 0.3,
+      "duplicate_source_guide": 0.0,
+      "schematic_match": 0.0,
+      "title_similarity": 1.0
+    }
+  },
+  {
+    "candidateId": "cand-fadda3ec3b0f53b7",
+    "classification": "RELATED",
+    "confidence": "EXACT",
+    "projectAId": "proj-a42110a4f7ea7e4a",
+    "projectATitle": "Magnetic Anomaly Detector (Fluxgate)",
+    "projectBId": "proj-1f516aca4358920d",
+    "projectBTitle": "Magnetic Anomaly Detector (Fluxgate)",
+    "provenance": {
+      "confidence": "EXACT",
+      "extractionMethod": "multi-signal-classifier-v1",
+      "extractorVersion": "1.0.0",
+      "generatorVersion": null,
+      "origin": "generated",
+      "source": "guide-011+guide-012",
+      "sourceHash": "377095a4:8feb310f",
+      "sourcePage": 5,
+      "sourcePath": "Engineering guides/6_EE_Projects_That_See_The_Invisible_dark_ops.pdf,Engineering guides/6_EE_Projects_That_See_The_Invisible_revised.pdf",
+      "sourceSection": "DEDUPLICATION_EVALUATION"
+    },
+    "reasoning": "Proyectos con relación funcional o temática compartida dentro del mismo dominio técnico.",
+    "score": 0.575,
+    "signals": {
+      "bom_overlap": 1.0,
+      "controller_match": 0.5,
+      "duplicate_source_guide": 0.0,
+      "schematic_match": 0.0,
+      "title_similarity": 1.0
+    }
+  },
+  {
+    "candidateId": "cand-ad5fbfda2e7f1aab",
+    "classification": "EXACT_DUPLICATE",
+    "confidence": "EXACT",
+    "projectAId": "proj-a09c9eaab189e94a",
+    "projectATitle": "Seismic Unattended Ground Sensor (UGS)",
+    "projectBId": "proj-4e461b38f5d05afd",
+    "projectBTitle": "Seismic Unattended Ground Sensor (UGS)",
+    "provenance": {
+      "confidence": "EXACT",
+      "extractionMethod": "multi-signal-classifier-v1",
+      "extractorVersion": "1.0.0",
+      "generatorVersion": null,
+      "origin": "generated",
+      "source": "guide-011+guide-012",
+      "sourceHash": "377095a4:8feb310f",
+      "sourcePage": 7,
+      "sourcePath": "Engineering guides/6_EE_Projects_That_See_The_Invisible_dark_ops.pdf,Engineering guides/6_EE_Projects_That_See_The_Invisible_revised.pdf",
+      "sourceSection": "DEDUPLICATION_EVALUATION"
+    },
+    "reasoning": "Coincidencia estricta de título, microcontrolador y lista de materiales BOM.",
+    "score": 0.65,
+    "signals": {
+      "bom_overlap": 1.0,
+      "controller_match": 1.0,
+      "duplicate_source_guide": 0.0,
+      "schematic_match": 0.0,
+      "title_similarity": 1.0
+    }
+  },
+  {
+    "candidateId": "cand-328c61afe67596e9",
+    "classification": "RELATED",
+    "confidence": "EXACT",
+    "projectAId": "proj-81cc6d566a2c3b2d",
+    "projectATitle": "Passive Drone Detection Receiver",
+    "projectBId": "proj-4917a0b27097e30c",
+    "projectBTitle": "Passive Drone Detection Receiver",
+    "provenance": {
+      "confidence": "EXACT",
+      "extractionMethod": "multi-signal-classifier-v1",
+      "extractorVersion": "1.0.0",
+      "generatorVersion": null,
+      "origin": "generated",
+      "source": "guide-011+guide-012",
+      "sourceHash": "377095a4:8feb310f",
+      "sourcePage": 9,
+      "sourcePath": "Engineering guides/6_EE_Projects_That_See_The_Invisible_dark_ops.pdf,Engineering guides/6_EE_Projects_That_See_The_Invisible_revised.pdf",
+      "sourceSection": "DEDUPLICATION_EVALUATION"
+    },
+    "reasoning": "Proyectos con relación funcional o temática compartida dentro del mismo dominio técnico.",
+    "score": 0.575,
+    "signals": {
+      "bom_overlap": 1.0,
+      "controller_match": 0.5,
+      "duplicate_source_guide": 0.0,
+      "schematic_match": 0.0,
+      "title_similarity": 1.0
+    }
+  },
+  {
+    "candidateId": "cand-eccd1944aae7e404",
+    "classification": "EXACT_DUPLICATE",
+    "confidence": "EXACT",
+    "projectAId": "proj-4db6eb596b425847",
+    "projectATitle": "Frequency-Hopping Encrypted Link (FHSS)",
+    "projectBId": "proj-8b212f8f0d5012cc",
+    "projectBTitle": "Frequency-Hopping Encrypted Link (FHSS)",
+    "provenance": {
+      "confidence": "EXACT",
+      "extractionMethod": "multi-signal-classifier-v1",
+      "extractorVersion": "1.0.0",
+      "generatorVersion": null,
+      "origin": "generated",
+      "source": "guide-011+guide-012",
+      "sourceHash": "377095a4:8feb310f",
+      "sourcePage": 11,
+      "sourcePath": "Engineering guides/6_EE_Projects_That_See_The_Invisible_dark_ops.pdf,Engineering guides/6_EE_Projects_That_See_The_Invisible_revised.pdf",
+      "sourceSection": "DEDUPLICATION_EVALUATION"
+    },
+    "reasoning": "Coincidencia estricta de título, microcontrolador y lista de materiales BOM.",
+    "score": 0.65,
+    "signals": {
+      "bom_overlap": 1.0,
+      "controller_match": 1.0,
+      "duplicate_source_guide": 0.0,
+      "schematic_match": 0.0,
+      "title_similarity": 1.0
+    }
+  },
+  {
+    "candidateId": "cand-4b13d3c3fef2630e",
+    "classification": "RELATED",
+    "confidence": "EXACT",
+    "projectAId": "proj-616fcf7e67d1028d",
+    "projectATitle": "Learning the Art of Electronics Lab",
+    "projectBId": "proj-25015e1de0868338",
+    "projectBTitle": "The Art of Electronics Ultra-Low Noise Supply",
+    "provenance": {
+      "confidence": "EXACT",
+      "extractionMethod": "multi-signal-classifier-v1",
+      "extractorVersion": "1.0.0",
+      "generatorVersion": null,
+      "origin": "generated",
+      "source": "guide-028+guide-031",
+      "sourceHash": "a1d4397f:dcf0169b",
+      "sourcePage": 1,
+      "sourcePath": "Engineering guides/summer-ee-glow-up-light.pdf,Engineering guides/summer-ee-glow-up-vol4.pdf",
+      "sourceSection": "DEDUPLICATION_EVALUATION"
+    },
+    "reasoning": "Proyectos con relación funcional o temática compartida dentro del mismo dominio técnico.",
+    "score": 0.335,
+    "signals": {
+      "bom_overlap": 1.0,
+      "controller_match": 0.5,
+      "duplicate_source_guide": 0.0,
+      "schematic_match": 0.0,
+      "title_similarity": 0.4
+    }
+  }
+]

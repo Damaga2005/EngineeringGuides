@@ -1,0 +1,122 @@
+[
+  {
+    "confidence": "EXACT",
+    "description": "Proyectos con relación funcional o temática compartida dentro del mismo dominio técnico.",
+    "provenance": {
+      "confidence": "EXACT",
+      "extractionMethod": "multi-signal-classifier-v1",
+      "extractorVersion": "1.0.0",
+      "generatorVersion": null,
+      "origin": "generated",
+      "source": "guide-002+guide-015",
+      "sourceHash": "87f5986d:87f5986d",
+      "sourcePage": 9,
+      "sourcePath": "Engineering guides/(PART 21) 6_Upgrades_Your_Drone_Is_Missing.pdf,Engineering guides/6_Upgrades_Your_Drone_Is_Missing.pdf",
+      "sourceSection": "DEDUPLICATION_EVALUATION"
+    },
+    "relationId": "rel-2474fbdac0f6f9b3",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-217f596a43c24e22",
+    "targetProjectId": "proj-d6b9b16f65f5d9fd"
+  },
+  {
+    "confidence": "EXACT",
+    "description": "Proyectos con relación funcional o temática compartida dentro del mismo dominio técnico.",
+    "provenance": {
+      "confidence": "EXACT",
+      "extractionMethod": "multi-signal-classifier-v1",
+      "extractorVersion": "1.0.0",
+      "generatorVersion": null,
+      "origin": "generated",
+      "source": "guide-011+guide-012",
+      "sourceHash": "377095a4:8feb310f",
+      "sourcePage": 1,
+      "sourcePath": "Engineering guides/6_EE_Projects_That_See_The_Invisible_dark_ops.pdf,Engineering guides/6_EE_Projects_That_See_The_Invisible_revised.pdf",
+      "sourceSection": "DEDUPLICATION_EVALUATION"
+    },
+    "relationId": "rel-e402dc7f629d7be9",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-1a64e60857cbc87d",
+    "targetProjectId": "proj-f3b88e7e3976ed3b"
+  },
+  {
+    "confidence": "EXACT",
+    "description": "Proyectos con relación funcional o temática compartida dentro del mismo dominio técnico.",
+    "provenance": {
+      "confidence": "EXACT",
+      "extractionMethod": "multi-signal-classifier-v1",
+      "extractorVersion": "1.0.0",
+      "generatorVersion": null,
+      "origin": "generated",
+      "source": "guide-011+guide-012",
+      "sourceHash": "377095a4:8feb310f",
+      "sourcePage": 3,
+      "sourcePath": "Engineering guides/6_EE_Projects_That_See_The_Invisible_dark_ops.pdf,Engineering guides/6_EE_Projects_That_See_The_Invisible_revised.pdf",
+      "sourceSection": "DEDUPLICATION_EVALUATION"
+    },
+    "relationId": "rel-4731e9646c4ce0dd",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-1c2472bca80aab75",
+    "targetProjectId": "proj-6169d784d62573ed"
+  },
+  {
+    "confidence": "EXACT",
+    "description": "Proyectos con relación funcional o temática compartida dentro del mismo dominio técnico.",
+    "provenance": {
+      "confidence": "EXACT",
+      "extractionMethod": "multi-signal-classifier-v1",
+      "extractorVersion": "1.0.0",
+      "generatorVersion": null,
+      "origin": "generated",
+      "source": "guide-011+guide-012",
+      "sourceHash": "377095a4:8feb310f",
+      "sourcePage": 5,
+      "sourcePath": "Engineering guides/6_EE_Projects_That_See_The_Invisible_dark_ops.pdf,Engineering guides/6_EE_Projects_That_See_The_Invisible_revised.pdf",
+      "sourceSection": "DEDUPLICATION_EVALUATION"
+    },
+    "relationId": "rel-c800f5e935017a31",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a42110a4f7ea7e4a",
+    "targetProjectId": "proj-1f516aca4358920d"
+  },
+  {
+    "confidence": "EXACT",
+    "description": "Proyectos con relación funcional o temática compartida dentro del mismo dominio técnico.",
+    "provenance": {
+      "confidence": "EXACT",
+      "extractionMethod": "multi-signal-classifier-v1",
+      "extractorVersion": "1.0.0",
+      "generatorVersion": null,
+      "origin": "generated",
+      "source": "guide-011+guide-012",
+      "sourceHash": "377095a4:8feb310f",
+      "sourcePage": 9,
+      "sourcePath": "Engineering guides/6_EE_Projects_That_See_The_Invisible_dark_ops.pdf,Engineering guides/6_EE_Projects_That_See_The_Invisible_revised.pdf",
+      "sourceSection": "DEDUPLICATION_EVALUATION"
+    },
+    "relationId": "rel-ad87ff49f436a698",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-81cc6d566a2c3b2d",
+    "targetProjectId": "proj-4917a0b27097e30c"
+  },
+  {
+    "confidence": "EXACT",
+    "description": "Proyectos con relación funcional o temática compartida dentro del mismo dominio técnico.",
+    "provenance": {
+      "confidence": "EXACT",
+      "extractionMethod": "multi-signal-classifier-v1",
+      "extractorVersion": "1.0.0",
+      "generatorVersion": null,
+      "origin": "generated",
+      "source": "guide-028+guide-031",
+      "sourceHash": "a1d4397f:dcf0169b",
+      "sourcePage": 1,
+      "sourcePath": "Engineering guides/summer-ee-glow-up-light.pdf,Engineering guides/summer-ee-glow-up-vol4.pdf",
+      "sourceSection": "DEDUPLICATION_EVALUATION"
+    },
+    "relationId": "rel-a200868b67721c93",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-616fcf7e67d1028d",
+    "targetProjectId": "proj-25015e1de0868338"
+  }
+]

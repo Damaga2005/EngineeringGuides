@@ -201,17 +201,31 @@ export default function ProjectBuildGuide({
           </div>
         </div>
 
-        {/* Quick button to view full schematic SVG */}
-        {schematicUrl && (
-          <button
-            onClick={() => handleOpenViewer([schematicUrl], 0, `Esquemático: ${project.title}`)}
-            className="self-start md:self-center flex items-center gap-2 px-3.5 py-2 rounded-xl bg-cyan-500/10 hover:bg-cyan-500/20 text-cyan-300 border border-cyan-500/40 text-xs font-semibold transition-all flex-shrink-0 shadow-sm"
-            title="Abrir diagrama esquemático a pantalla completa"
-          >
-            <Maximize2 className="h-3.5 w-3.5" />
-            <span>Ver Esquemático Completo</span>
-          </button>
-        )}
+        {/* Action Buttons */}
+        <div className="flex items-center gap-2 flex-wrap self-start md:self-center flex-shrink-0">
+          {project.projectSlug && (
+            <a
+              href={`#/project/${project.projectSlug}`}
+              className="flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-cyan-950/90 hover:bg-cyan-900 text-cyan-300 border border-cyan-700/60 text-xs font-semibold transition-all shadow-sm"
+              title="Abrir ficha técnica detallada del proyecto independiente"
+            >
+              <FileText className="h-3.5 w-3.5 text-cyan-400" />
+              <span>Ficha Project-First</span>
+              <ExternalLink className="h-3 w-3 text-cyan-400" />
+            </a>
+          )}
+
+          {schematicUrl && (
+            <button
+              onClick={() => handleOpenViewer([schematicUrl], 0, `Esquemático: ${project.title}`)}
+              className="flex items-center gap-2 px-3.5 py-2 rounded-xl bg-cyan-500/10 hover:bg-cyan-500/20 text-cyan-300 border border-cyan-500/40 text-xs font-semibold transition-all shadow-sm"
+              title="Abrir diagrama esquemático a pantalla completa"
+            >
+              <Maximize2 className="h-3.5 w-3.5" />
+              <span>Ver Esquemático</span>
+            </button>
+          )}
+        </div>
 
       </div>
 

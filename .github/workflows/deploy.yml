@@ -12,7 +12,9 @@ on:
       - 'package.json'
       - 'package-lock.json'
       - 'vite.config.js'
-      - 'index.html'
+      - 'tests/**'
+      - 'docs/**'
+      - 'requirements.txt'
   workflow_dispatch:
 
 permissions: {}
@@ -53,8 +55,10 @@ jobs:
       - name: Install Node Dependencies
         run: npm ci
 
-      - name: Run Foundation Validator Gate
-        run: python -m scripts.foundation.validators
+      - name: Run Foundation & Project-First Validator Gates
+        run: |
+          python -m scripts.foundation.validators
+          python -m scripts.project_first.validators
 
       - name: Run Automated Test Suite
         run: pytest tests/ -v

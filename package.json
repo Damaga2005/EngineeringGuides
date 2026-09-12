@@ -4,12 +4,12 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "catalog": "python -m scripts.foundation.pipeline",
+    "catalog": "python -m scripts.foundation.pipeline && python -m scripts.project_first.pipeline",
     "dev": "node scripts/generate_catalog.js && vite",
-    "build": "python -m scripts.foundation.pipeline && vite build && node scripts/copy_guides.js",
+    "build": "python -m scripts.foundation.pipeline && python -m scripts.project_first.pipeline && vite build && node scripts/copy_guides.js",
     "preview": "vite preview",
-    "pipeline": "python -m scripts.foundation.pipeline",
-    "validate": "python -m scripts.foundation.validators",
+    "pipeline": "python -m scripts.foundation.pipeline && python -m scripts.project_first.pipeline",
+    "validate": "python -m scripts.foundation.validators && python -m scripts.project_first.validators",
     "test": "pytest tests -v"
   },
   "dependencies": {
