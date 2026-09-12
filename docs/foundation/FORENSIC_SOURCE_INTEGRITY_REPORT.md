@@ -157,3 +157,14 @@ Recalculated from the canonical Git blobs:
   - **Result:** `IDEMPOTENCY VERIFICATION: PASSED (31 source files strictly unmutated, outputs identical)`
 - **Web Application Build (`npm run build`):**
   - **Result:** `built in 1m 9s (PASS)`
+
+## 10. Remote CI Verification
+- **GitHub Actions Workflows:**
+  - `Continuous Integration & Verification Gate`:
+    - **Run ID:** `34683862799`
+    - **Commit SHA:** `0299e6580e55bce2725e2db812239d565ba1ea7b`
+    - **Status:** **SUCCESS / PASS** (all steps passed: Validators, Pytest, Deterministic Pipeline, Web Build)
+  - `Deploy EngineeringGuides Portal to GitHub Pages`:
+    - **Run ID:** `34683862806`
+    - **Commit SHA:** `0299e6580e55bce2725e2db812239d565ba1ea7b`
+    - **Status:** **SUCCESS / PASS** (built and deployed to GitHub Pages)
