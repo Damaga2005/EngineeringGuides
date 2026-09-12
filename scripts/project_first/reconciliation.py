@@ -5,7 +5,7 @@ Performs Information Union while preserving field-level provenance and recording
 conflicts as NEEDS_REVIEW without picking arbitrary winners.
 """
 
-from typing import List, Dict, Set, Any
+from typing import List, Dict, Set, Any, Tuple, Optional
 from scripts.project_first.models import (
     Project,
     CanonicalProject,
