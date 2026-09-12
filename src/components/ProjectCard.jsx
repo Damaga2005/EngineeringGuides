@@ -15,7 +15,8 @@ export default function ProjectCard({
   onSelectGuide,
   viewMode = 'grid',
   isFavorite = false,
-  onToggleFavorite
+  onToggleFavorite,
+  hasExpandedGuide = false
 }) {
   const {
     title,
@@ -61,9 +62,14 @@ export default function ProjectCard({
             <span className="text-xs text-slate-500 font-mono">
               {guideId}
             </span>
+            {hasExpandedGuide && (
+              <span className="text-[10px] font-semibold px-2 py-0.5 rounded-md bg-amber-950/60 text-amber-300 border border-amber-800/50">
+                ✨ Guía Ampliada
+              </span>
+            )}
           </div>
 
-          <h3 
+          <h3
             onClick={() => onSelectProject(slug || project)}
             className="text-lg font-bold text-white hover:text-cyan-400 cursor-pointer transition-colors truncate"
           >
@@ -166,6 +172,12 @@ export default function ProjectCard({
         <h3 className="text-base font-bold text-white group-hover:text-cyan-400 transition-colors line-clamp-2 leading-snug">
           {title}
         </h3>
+
+        {hasExpandedGuide && (
+          <span className="inline-block text-[10px] font-semibold px-2 py-0.5 rounded-md bg-amber-950/60 text-amber-300 border border-amber-800/50 w-fit">
+            ✨ Guía Ampliada disponible
+          </span>
+        )}
 
         {/* What does it do */}
         <p className="text-xs text-slate-400 line-clamp-3 leading-relaxed">

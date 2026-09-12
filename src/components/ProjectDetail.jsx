@@ -22,7 +22,9 @@ import {
   Sliders,
   Download,
   Share2,
-  Info
+  Info,
+  BookOpen,
+  Wrench
 } from 'lucide-react';
 import ProjectBuildGuide from './ProjectBuildGuide';
 
@@ -30,15 +32,23 @@ export default function ProjectDetail({
   project,
   allProjects = [],
   guides = [],
+  expandedGuide,
   onBack,
   onSelectProject,
   onSelectGuide
 }) {
-  const [activeTab, setActiveTab] = useState('explanation'); // 'explanation' | 'build' | 'relations'
+  const [activeTab, setActiveTab] = useState('explanation'); // 'explanation' | 'build' | 'expanded' | 'relations'
   const [expandedSections, setExpandedSections] = useState({});
   const [copiedLink, setCopiedLink] = useState(false);
   const [copiedCode, setCopiedCode] = useState(false);
   const [copiedBom, setCopiedBom] = useState(false);
+
+  // Reset to the default tab whenever the viewed project changes, so a
+  // 'expanded' tab left active doesn't render blank on a project with no
+  // expandedGuide (or 'relations' on one with no related projects).
+  React.useEffect(() => {
+    setActiveTab('explanation');
+  }, [project?.projectId]);
 
   // Parse sections from detailedExplanation
   const sections = useMemo(() => {
@@ -356,6 +366,20 @@ export default function ProjectDetail({
               <span>Esquemático, BOM & Firmware</span>
             </button>
 
+            {expandedGuide && (
+              <button
+                onClick={() => setActiveTab('expanded')}
+                className={`px-4 py-2 rounded-xl text-xs font-semibold transition-all inline-flex items-center gap-2 ${
+                  activeTab === 'expanded'
+                    ? 'bg-amber-600 text-white shadow-md shadow-amber-950/50'
+                    : 'text-amber-400/90 hover:text-amber-200 hover:bg-slate-900'
+                }`}
+              >
+                <BookOpen className="h-4 w-4" />
+                <span>Guía Ampliada</span>
+              </button>
+            )}
+
             {relatedProjects.length > 0 && (
               <button
                 onClick={() => setActiveTab('relations')}
@@ -611,6 +635,158 @@ export default function ProjectDetail({
                     onError={(e) => { e.target.style.display = 'none'; }}
                   />
                 </div>
+              </div>
+            )}
+          </div>
+        )}
+
+        {activeTab === 'expanded' && expandedGuide && (
+          <div className="space-y-6">
+            <div className="p-4 rounded-xl bg-amber-950/20 border border-amber-800/40 flex items-start gap-3">
+              <AlertTriangle className="h-5 w-5 text-amber-400 flex-shrink-0 mt-0.5" />
+              <div className="text-xs text-slate-300 leading-relaxed">
+                <span className="font-semibold text-amber-300">Guía Ampliada — IA + investigación, NO literal del PDF. </span>
+                Este contenido fue redactado a partir de conocimiento técnico general y verificación puntual de componentes reales,
+                para dar una guía de construcción completa y accionable. No proviene de la fuente documental original ni ha sido
+                verificado byte a byte como el resto de la ficha. Trátalo como una guía de referencia razonada, no como una
+                transcripción oficial. Disponible actualmente solo para un piloto de 5 proyectos.
+              </div>
+            </div>
+
+            {expandedGuide.summary && (
+              <div className="glass-panel p-5 rounded-2xl border border-slate-800 space-y-2">
+                <h3 className="text-base font-bold text-white">Resumen</h3>
+                <p className="text-sm text-slate-300 leading-relaxed">{expandedGuide.summary}</p>
+                {expandedGuide.difficultyNotes && (
+                  <p className="text-xs text-slate-400 italic pt-1">{expandedGuide.difficultyNotes}</p>
+                )}
+              </div>
+            )}
+
+            {expandedGuide.bom?.length > 0 && (
+              <div className="glass-panel p-5 rounded-2xl border border-slate-800 space-y-3">
+                <h3 className="text-base font-bold text-white flex items-center gap-2">
+                  <Boxes className="h-4 w-4 text-amber-400" /> Lista de Materiales Detallada
+                </h3>
+                <div className="overflow-x-auto">
+                  <table className="w-full text-xs">
+                    <thead>
+                      <tr className="text-left text-slate-500 border-b border-slate-800">
+                        <th className="py-2 pr-3">Componente</th>
+                        <th className="py-2 pr-3">Especificación</th>
+                        <th className="py-2 pr-3">Cant.</th>
+                        <th className="py-2 pr-3">Coste est.</th>
+                        <th className="py-2">Notas</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {expandedGuide.bom.map((item, idx) => (
+                        <tr key={idx} className="border-b border-slate-900">
+                          <td className="py-2.5 pr-3 text-slate-200 font-semibold">{item.name}</td>
+                          <td className="py-2.5 pr-3 text-slate-400">{item.spec}</td>
+                          <td className="py-2.5 pr-3 text-slate-300 font-mono">{item.qty}</td>
+                          <td className="py-2.5 pr-3 text-emerald-400 font-mono">{item.estCost || '-'}</td>
+                          <td className="py-2.5 text-slate-500">{item.notes || ''}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            )}
+
+            {expandedGuide.wiring?.length > 0 && (
+              <div className="glass-panel p-5 rounded-2xl border border-slate-800 space-y-3">
+                <h3 className="text-base font-bold text-white flex items-center gap-2">
+                  <Zap className="h-4 w-4 text-amber-400" /> Cableado y Conexiones
+                </h3>
+                <div className="space-y-2">
+                  {expandedGuide.wiring.map((w, idx) => (
+                    <div key={idx} className="p-3 rounded-lg bg-slate-900/60 border border-slate-800 text-xs">
+                      <div className="text-slate-200"><span className="text-cyan-400 font-mono">{w.from}</span> → <span className="text-cyan-400 font-mono">{w.to}</span></div>
+                      {w.notes && <div className="text-slate-500 mt-1">{w.notes}</div>}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {expandedGuide.steps?.length > 0 && (
+              <div className="glass-panel p-5 rounded-2xl border border-slate-800 space-y-3">
+                <h3 className="text-base font-bold text-white flex items-center gap-2">
+                  <Wrench className="h-4 w-4 text-amber-400" /> Pasos de Construcción
+                </h3>
+                <div className="space-y-3">
+                  {expandedGuide.steps.map((step, idx) => (
+                    <div key={idx} className="p-3.5 rounded-xl bg-slate-900/60 border border-slate-800">
+                      <h4 className="text-sm font-bold text-amber-300 mb-1">{step.title}</h4>
+                      <p className="text-xs text-slate-300 leading-relaxed">{step.instruction}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {expandedGuide.firmware && (
+              <div className="glass-panel p-5 rounded-2xl border border-slate-800 space-y-3">
+                <h3 className="text-base font-bold text-white flex items-center gap-2">
+                  <Code2 className="h-4 w-4 text-amber-400" /> Firmware Ilustrativo
+                </h3>
+                {expandedGuide.firmware.note && (
+                  <p className="text-xs text-slate-500 italic">{expandedGuide.firmware.note}</p>
+                )}
+                <div className="rounded-xl bg-slate-950 border border-slate-800 p-4 overflow-x-auto max-h-[400px]">
+                  <pre className="font-mono text-xs text-slate-200 leading-relaxed">
+                    <code>{expandedGuide.firmware.code}</code>
+                  </pre>
+                </div>
+              </div>
+            )}
+
+            {expandedGuide.calibration?.length > 0 && (
+              <div className="glass-panel p-5 rounded-2xl border border-slate-800 space-y-3">
+                <h3 className="text-base font-bold text-white flex items-center gap-2">
+                  <CheckCircle2 className="h-4 w-4 text-amber-400" /> Calibración y Verificación
+                </h3>
+                <ul className="space-y-2">
+                  {expandedGuide.calibration.map((c, idx) => (
+                    <li key={idx} className="text-xs text-slate-300 flex items-start gap-2">
+                      <span className="text-amber-400 mt-0.5">•</span><span>{c}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {expandedGuide.troubleshooting?.length > 0 && (
+              <div className="glass-panel p-5 rounded-2xl border border-slate-800 space-y-3">
+                <h3 className="text-base font-bold text-white flex items-center gap-2">
+                  <AlertTriangle className="h-4 w-4 text-amber-400" /> Resolución de Problemas
+                </h3>
+                <div className="space-y-2">
+                  {expandedGuide.troubleshooting.map((t, idx) => (
+                    <div key={idx} className="p-3 rounded-lg bg-slate-900/60 border border-slate-800 text-xs space-y-1">
+                      <div className="text-red-300 font-semibold">Síntoma: {t.symptom}</div>
+                      <div className="text-slate-400">Causa probable: {t.cause}</div>
+                      <div className="text-emerald-300">Solución: {t.fix}</div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {expandedGuide.safety?.length > 0 && (
+              <div className="p-4 rounded-xl bg-red-950/20 border border-red-900/40 space-y-2">
+                <h3 className="text-sm font-bold text-red-300 flex items-center gap-2">
+                  <ShieldCheck className="h-4 w-4" /> Seguridad
+                </h3>
+                <ul className="space-y-1.5">
+                  {expandedGuide.safety.map((s, idx) => (
+                    <li key={idx} className="text-xs text-slate-300 flex items-start gap-2">
+                      <span className="text-red-400 mt-0.5">•</span><span>{s}</span>
+                    </li>
+                  ))}
+                </ul>
               </div>
             )}
           </div>

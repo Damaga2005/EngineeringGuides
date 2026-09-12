@@ -27,6 +27,7 @@ import {
 export default function App() {
   const [guides, setGuides] = useState([]);
   const [projects, setProjects] = useState([]);
+  const [expandedGuides, setExpandedGuides] = useState({});
   const [catalogMetadata, setCatalogMetadata] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -100,6 +101,17 @@ export default function App() {
           }
         } catch (projErr) {
           console.warn('Could not load projects.json:', projErr);
+        }
+
+        // Fetch expanded_guides.json (optional, pilot-only AI-authored extended guides)
+        try {
+          const expandedRes = await fetch(`${baseUrl}expanded_guides.json?t=${Date.now()}`);
+          if (expandedRes.ok) {
+            const expandedData = await expandedRes.json();
+            setExpandedGuides(expandedData.guides || {});
+          }
+        } catch (expErr) {
+          console.warn('Could not load expanded_guides.json:', expErr);
         }
 
       } catch (err) {
@@ -358,6 +370,7 @@ export default function App() {
           project={activeLandingProject}
           allProjects={projects}
           guides={guides}
+          expandedGuide={expandedGuides[activeLandingProject.projectId]}
           onBack={navigateToCatalog}
           onSelectProject={navigateToProject}
           onSelectGuide={navigateToLanding}
@@ -635,6 +648,7 @@ export default function App() {
                     onSelectGuide={navigateToLanding}
                     isFavorite={favorites.includes(proj.projectId)}
                     onToggleFavorite={toggleFavorite}
+                    hasExpandedGuide={Boolean(expandedGuides[proj.projectId])}
                   />
                 ))}
               </div>
@@ -649,6 +663,7 @@ export default function App() {
                     onSelectGuide={navigateToLanding}
                     isFavorite={favorites.includes(proj.projectId)}
                     onToggleFavorite={toggleFavorite}
+                    hasExpandedGuide={Boolean(expandedGuides[proj.projectId])}
                   />
                 ))}
               </div>
