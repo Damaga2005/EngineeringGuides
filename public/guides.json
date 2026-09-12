@@ -247,6 +247,7 @@
             "source": "guide-001"
           },
           "schematicSvg": "schematics/guide-001_p1.svg",
+          "sourcePageRange": "2-5",
           "time": "1 fin de semana",
           "title": "Digital Night-Vision Monocular",
           "wiringTable": [
@@ -400,6 +401,7 @@
             "source": "guide-001"
           },
           "schematicSvg": "schematics/guide-001_p2.svg",
+          "sourcePageRange": "5-8",
           "time": "1 fin de semana",
           "title": "Wearable Heads-Up Display (HUD)",
           "wiringTable": [
@@ -553,6 +555,7 @@
             "source": "guide-001"
           },
           "schematicSvg": "schematics/guide-001_p3.svg",
+          "sourcePageRange": "8-11",
           "time": "2 fines de semana",
           "title": "Solar Perimeter Sentry Tower",
           "wiringTable": [
@@ -699,6 +702,7 @@
             "source": "guide-001"
           },
           "schematicSvg": "schematics/guide-001_p4.svg",
+          "sourcePageRange": "11-13",
           "time": "1 fin de semana",
           "title": "RF Spectrum Surveillance Station",
           "wiringTable": [
@@ -852,6 +856,7 @@
             "source": "guide-001"
           },
           "schematicSvg": "schematics/guide-001_p5.svg",
+          "sourcePageRange": "13-15",
           "time": "1 día",
           "title": "Off-Grid LoRa Mesh Node",
           "wiringTable": [
@@ -1005,6 +1010,7 @@
             "source": "guide-001"
           },
           "schematicSvg": "schematics/guide-001_p6.svg",
+          "sourcePageRange": "15-18",
           "time": "1 fin de semana",
           "title": "Tactical Situational Awareness Map",
           "wiringTable": [
@@ -1270,6 +1276,7 @@
             "source": "guide-002"
           },
           "schematicSvg": "schematics/guide-002_p1.svg",
+          "sourcePageRange": "2-4",
           "time": "1 fin de semana",
           "title": "Indoor Position Hold (Optical Flow + ToF)",
           "wiringTable": [
@@ -1423,6 +1430,7 @@
             "source": "guide-002"
           },
           "schematicSvg": "schematics/guide-002_p2.svg",
+          "sourcePageRange": "4-7",
           "time": "1 fin de semana",
           "title": "Obstacle-Avoidance Sensor Ring",
           "wiringTable": [
@@ -1569,6 +1577,7 @@
             "source": "guide-002"
           },
           "schematicSvg": "schematics/guide-002_p3.svg",
+          "sourcePageRange": "7-9",
           "time": "1 fin de semana",
           "title": "Parachute Recovery System",
           "wiringTable": [
@@ -1715,6 +1724,7 @@
             "source": "guide-002"
           },
           "schematicSvg": "schematics/guide-002_p4.svg",
+          "sourcePageRange": "9-11",
           "time": "2 fines de semana",
           "title": "2-Axis Brushless Gimbal (FOC)",
           "wiringTable": [
@@ -1861,6 +1871,7 @@
             "source": "guide-002"
           },
           "schematicSvg": "schematics/guide-002_p5.svg",
+          "sourcePageRange": "11-13",
           "time": "1 fin de semana",
           "title": "Vision Precision Landing",
           "wiringTable": [
@@ -2007,6 +2018,7 @@
             "source": "guide-002"
           },
           "schematicSvg": "schematics/guide-002_p6.svg",
+          "sourcePageRange": "13-16",
           "time": "1 día",
           "title": "Signal-Mapping Payload",
           "wiringTable": [
@@ -2292,6 +2304,7 @@
             "source": "guide-003"
           },
           "schematicSvg": "schematics/guide-003_p1.svg",
+          "sourcePageRange": "2-5",
           "time": "2-3 fines de semana",
           "title": "Cold-Gas Reaction Thruster",
           "wiringTable": [
@@ -2445,6 +2458,7 @@
             "source": "guide-003"
           },
           "schematicSvg": "schematics/guide-003_p2.svg",
+          "sourcePageRange": "6-8",
           "time": "2 fines de semana",
           "title": "Auto-Tracking Ground Station",
           "wiringTable": [
@@ -2590,6 +2604,7 @@
             "source": "guide-003"
           },
           "schematicSvg": "schematics/guide-003_p3.svg",
+          "sourcePageRange": "9-11",
           "time": "1 fin de semana",
           "title": "Magnetorquer Detumble System",
           "wiringTable": [
@@ -2735,6 +2750,7 @@
             "source": "guide-003"
           },
           "schematicSvg": "schematics/guide-003_p4.svg",
+          "sourcePageRange": "12-15",
           "time": "2 fines de semana",
           "title": "CubeSat Flight Computer (OBC)",
           "wiringTable": [
@@ -2880,6 +2896,7 @@
             "source": "guide-003"
           },
           "schematicSvg": "schematics/guide-003_p5.svg",
+          "sourcePageRange": "16-18",
           "time": "1 fin de semana",
           "title": "Sun-Vector Attitude Sensor",
           "wiringTable": [
@@ -3025,6 +3042,7 @@
             "source": "guide-003"
           },
           "schematicSvg": "schematics/guide-003_p6.svg",
+          "sourcePageRange": "19-23",
           "time": "2 fines de semana",
           "title": "CubeSat Power System (EPS)",
           "wiringTable": [
@@ -3290,6 +3308,7 @@
             "source": "guide-004"
           },
           "schematicSvg": "schematics/guide-004_p1.svg",
+          "sourcePageRange": "2-5",
           "time": "1 fin de semana",
           "title": "ADS-B Aircraft Radar",
           "wiringTable": [
@@ -3435,6 +3454,7 @@
             "source": "guide-004"
           },
           "schematicSvg": "schematics/guide-004_p2.svg",
+          "sourcePageRange": "6-9",
           "time": "1 día",
           "title": "TPMS Car-ID Sniffer",
           "wiringTable": [
@@ -3580,6 +3600,7 @@
             "source": "guide-004"
           },
           "schematicSvg": "schematics/guide-004_p3.svg",
+          "sourcePageRange": "10-12",
           "time": "1 fin de semana",
           "title": "Radio Meteor Scatter Detector",
           "wiringTable": [
@@ -3725,6 +3746,7 @@
             "source": "guide-004"
           },
           "schematicSvg": "schematics/guide-004_p4.svg",
+          "sourcePageRange": "13-15",
           "time": "1 día",
           "title": "AIS Marine Vessel Tracker",
           "wiringTable": [
@@ -3864,6 +3886,7 @@
             "source": "guide-004"
           },
           "schematicSvg": "schematics/guide-004_p5.svg",
+          "sourcePageRange": "16-18",
           "time": "1 día",
           "title": "433 MHz ISM Sensor Decoder",
           "wiringTable": [
@@ -4009,6 +4032,7 @@
             "source": "guide-004"
           },
           "schematicSvg": "schematics/guide-004_p6.svg",
+          "sourcePageRange": "19-23",
           "time": "1 fin de semana",
           "title": "Stratospheric Radiosonde Tracker",
           "wiringTable": [
@@ -4279,6 +4303,7 @@
             "source": "guide-005"
           },
           "schematicSvg": "schematics/guide-005_p1.svg",
+          "sourcePageRange": "2-3",
           "time": "1 fin de semana",
           "title": "Closed-Loop Stepper Controller",
           "wiringTable": [
@@ -4423,6 +4448,7 @@
             "source": "guide-005"
           },
           "schematicSvg": "schematics/guide-005_p2.svg",
+          "sourcePageRange": "4-6",
           "time": "2 fines de semana",
           "title": "Field-Oriented Control (FOC) BLDC Servo",
           "wiringTable": [
@@ -4568,6 +4594,7 @@
             "source": "guide-005"
           },
           "schematicSvg": "schematics/guide-005_p3.svg",
+          "sourcePageRange": "7-9",
           "time": "1 fin de semana",
           "title": "Micrometric Linear Lead-Screw Stage",
           "wiringTable": [
@@ -4713,6 +4740,7 @@
             "source": "guide-005"
           },
           "schematicSvg": "schematics/guide-005_p4.svg",
+          "sourcePageRange": "10-12",
           "time": "1 fin de semana",
           "title": "PID Inverted Pendulum Balancer",
           "wiringTable": [
@@ -4858,6 +4886,7 @@
             "source": "guide-005"
           },
           "schematicSvg": "schematics/guide-005_p5.svg",
+          "sourcePageRange": "13-15",
           "time": "1 fin de semana",
           "title": "Torque-Limiting Linear Actuator",
           "wiringTable": [
@@ -5003,6 +5032,7 @@
             "source": "guide-005"
           },
           "schematicSvg": "schematics/guide-005_p6.svg",
+          "sourcePageRange": "16-19",
           "time": "1 fin de semana",
           "title": "3D-Printed Cycloidal Drive Joint",
           "wiringTable": [
@@ -5275,6 +5305,7 @@
             "source": "guide-006"
           },
           "schematicSvg": "schematics/guide-006_p1.svg",
+          "sourcePageRange": "2-3",
           "time": "2 fines de semana",
           "title": "Custom STM32 Flight Controller",
           "wiringTable": [
@@ -5420,6 +5451,7 @@
             "source": "guide-006"
           },
           "schematicSvg": "schematics/guide-006_p2.svg",
+          "sourcePageRange": "3-3",
           "time": "1 fin de semana",
           "title": "High-Speed Brushless ESC",
           "wiringTable": [
@@ -5565,6 +5597,7 @@
             "source": "guide-006"
           },
           "schematicSvg": "schematics/guide-006_p3.svg",
+          "sourcePageRange": "3-3",
           "time": "1 fin de semana",
           "title": "Bidirectional Telemetry Link",
           "wiringTable": [
@@ -5718,6 +5751,7 @@
             "source": "guide-006"
           },
           "schematicSvg": "schematics/guide-006_p4.svg",
+          "sourcePageRange": "3-3",
           "time": "1 fin de semana",
           "title": "Power Distribution Board & Shunt Monitor",
           "wiringTable": [
@@ -5857,6 +5891,7 @@
             "source": "guide-006"
           },
           "schematicSvg": "schematics/guide-006_p5.svg",
+          "sourcePageRange": "4-16",
           "time": "1 fin de semana",
           "title": "Attitude Sensor Fusion Engine",
           "wiringTable": [
@@ -5995,6 +6030,7 @@
             "source": "guide-006"
           },
           "schematicSvg": "schematics/guide-006_p6.svg",
+          "sourcePageRange": "17-20",
           "time": "1 día",
           "title": "High-Rate SPI Blackbox Logger",
           "wiringTable": [
@@ -6274,6 +6310,7 @@
             "source": "guide-007"
           },
           "schematicSvg": "schematics/guide-007_p1.svg",
+          "sourcePageRange": "2-5",
           "time": "2 fines de semana",
           "title": "GOES Full-Disk Earth Receiver (1.7 GHz)",
           "wiringTable": [
@@ -6426,6 +6463,7 @@
             "source": "guide-007"
           },
           "schematicSvg": "schematics/guide-007_p2.svg",
+          "sourcePageRange": "6-8",
           "time": "1 fin de semana",
           "title": "Meteor-M2 Weather Satellite Receiver (137 MHz)",
           "wiringTable": [
@@ -6474,7 +6512,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-9e9839dc8818f43d",
+          "canonicalProjectId": "cproj-7378444b70b9e598",
           "components": [
             "Volante de inercia latón",
             "Motor brushless",
@@ -6579,6 +6617,7 @@
             "source": "guide-007"
           },
           "schematicSvg": "schematics/guide-007_p3.svg",
+          "sourcePageRange": "9-11",
           "time": "2 fines de semana",
           "title": "Reaction-Wheel Attitude Controller",
           "wiringTable": [
@@ -6725,6 +6764,7 @@
             "source": "guide-007"
           },
           "schematicSvg": "schematics/guide-007_p4.svg",
+          "sourcePageRange": "12-14",
           "time": "1 fin de semana",
           "title": "Camera-Based Star Tracker",
           "wiringTable": [
@@ -6878,6 +6918,7 @@
             "source": "guide-007"
           },
           "schematicSvg": "schematics/guide-007_p5.svg",
+          "sourcePageRange": "15-17",
           "time": "1 fin de semana",
           "title": "GPS-Disciplined Oscillator (GPSDO)",
           "wiringTable": [
@@ -6919,7 +6960,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-a9b17e3a36415af1",
+          "canonicalProjectId": "cproj-11828408f5a2d615",
           "components": [
             "Centellador plástico",
             "SiPM",
@@ -7023,6 +7064,7 @@
             "source": "guide-007"
           },
           "schematicSvg": "schematics/guide-007_p6.svg",
+          "sourcePageRange": "18-21",
           "time": "2 fines de semana",
           "title": "Cosmic-Ray Muon Detector",
           "wiringTable": [
@@ -7295,6 +7337,7 @@
             "source": "guide-008"
           },
           "schematicSvg": "schematics/guide-008_p1.svg",
+          "sourcePageRange": "2-4",
           "time": "1 fin de semana",
           "title": "3-Lead ECG Heart Rate Monitor",
           "wiringTable": [
@@ -7441,6 +7484,7 @@
             "source": "guide-008"
           },
           "schematicSvg": "schematics/guide-008_p2.svg",
+          "sourcePageRange": "5-7",
           "time": "1 fin de semana",
           "title": "EMG Muscle-Controlled Prosthetic Trigger",
           "wiringTable": [
@@ -7586,6 +7630,7 @@
             "source": "guide-008"
           },
           "schematicSvg": "schematics/guide-008_p3.svg",
+          "sourcePageRange": "8-11",
           "time": "1 fin de semana",
           "title": "Single-Channel Alpha-Wave EEG Monitor",
           "wiringTable": [
@@ -7731,6 +7776,7 @@
             "source": "guide-008"
           },
           "schematicSvg": "schematics/guide-008_p4.svg",
+          "sourcePageRange": "12-13",
           "time": "1 día",
           "title": "Dual-Wavelength Pulse Oximeter (PPG)",
           "wiringTable": [
@@ -7869,6 +7915,7 @@
             "source": "guide-008"
           },
           "schematicSvg": "schematics/guide-008_p5.svg",
+          "sourcePageRange": "14-16",
           "time": "1 día",
           "title": "Galvanic Skin Response (GSR) Stress Sensor",
           "wiringTable": [
@@ -8014,6 +8061,7 @@
             "source": "guide-008"
           },
           "schematicSvg": "schematics/guide-008_p6.svg",
+          "sourcePageRange": "17-20",
           "time": "1 fin de semana",
           "title": "Bio-Impedance Body Composition Analyzer",
           "wiringTable": [
@@ -8286,6 +8334,7 @@
             "source": "guide-009"
           },
           "schematicSvg": "schematics/guide-009_p1.svg",
+          "sourcePageRange": "2-4",
           "time": "1 día",
           "title": "Optical Break-Beam Speed Trap",
           "wiringTable": [
@@ -8432,6 +8481,7 @@
             "source": "guide-009"
           },
           "schematicSvg": "schematics/guide-009_p2.svg",
+          "sourcePageRange": "5-7",
           "time": "1 fin de semana",
           "title": "Laser Rangefinder (ToF LiDAR)",
           "wiringTable": [
@@ -8577,6 +8627,7 @@
             "source": "guide-009"
           },
           "schematicSvg": "schematics/guide-009_p3.svg",
+          "sourcePageRange": "8-9",
           "time": "2 fines de semana",
           "title": "Spinning LiDAR Room Scanner",
           "wiringTable": [
@@ -8729,6 +8780,7 @@
             "source": "guide-009"
           },
           "schematicSvg": "schematics/guide-009_p4.svg",
+          "sourcePageRange": "10-11",
           "time": "1 fin de semana",
           "title": "Free-Space Optical (FSO) Laser Data Link",
           "wiringTable": [
@@ -8868,6 +8920,7 @@
             "source": "guide-009"
           },
           "schematicSvg": "schematics/guide-009_p5.svg",
+          "sourcePageRange": "12-14",
           "time": "1 fin de semana",
           "title": "Laser Doppler Vibrometer",
           "wiringTable": [
@@ -9014,6 +9067,7 @@
             "source": "guide-009"
           },
           "schematicSvg": "schematics/guide-009_p6.svg",
+          "sourcePageRange": "15-18",
           "time": "1 fin de semana",
           "title": "Structured-Light 3D Scanner",
           "wiringTable": [
@@ -9286,6 +9340,7 @@
             "source": "guide-010"
           },
           "schematicSvg": "schematics/guide-010_p1.svg",
+          "sourcePageRange": "2-4",
           "time": "1 día",
           "title": "10.5 GHz Doppler Motion Radar",
           "wiringTable": [
@@ -9432,6 +9487,7 @@
             "source": "guide-010"
           },
           "schematicSvg": "schematics/guide-010_p2.svg",
+          "sourcePageRange": "5-6",
           "time": "1 fin de semana",
           "title": "Calibrated Radar Speed Gun",
           "wiringTable": [
@@ -9577,6 +9633,7 @@
             "source": "guide-010"
           },
           "schematicSvg": "schematics/guide-010_p3.svg",
+          "sourcePageRange": "7-9",
           "time": "2 fines de semana",
           "title": "FMCW Ranging Radar (24 GHz)",
           "wiringTable": [
@@ -9723,6 +9780,7 @@
             "source": "guide-010"
           },
           "schematicSvg": "schematics/guide-010_p4.svg",
+          "sourcePageRange": "10-12",
           "time": "1 fin de semana",
           "title": "Micro-Doppler Vital-Signs Radar",
           "wiringTable": [
@@ -9862,6 +9920,7 @@
             "source": "guide-010"
           },
           "schematicSvg": "schematics/guide-010_p5.svg",
+          "sourcePageRange": "13-15",
           "time": "1 fin de semana",
           "title": "Through-Wall WiFi Motion Detector",
           "wiringTable": [
@@ -10000,6 +10059,7 @@
             "source": "guide-010"
           },
           "schematicSvg": "schematics/guide-010_p6.svg",
+          "sourcePageRange": "16-19",
           "time": "2 fines de semana",
           "title": "Passive Bistatic Radar",
           "wiringTable": [
@@ -10278,6 +10338,7 @@
             "source": "guide-011"
           },
           "schematicSvg": "schematics/guide-011_p1.svg",
+          "sourcePageRange": "2-5",
           "time": "1 fin de semana",
           "title": "GNSS Receiver & Resilience Analysis",
           "wiringTable": [
@@ -10437,6 +10498,7 @@
             "source": "guide-011"
           },
           "schematicSvg": "schematics/guide-011_p2.svg",
+          "sourcePageRange": "5-8",
           "time": "2 fines de semana",
           "title": "RF Direction Finder (Pseudo-Doppler)",
           "wiringTable": [
@@ -10596,6 +10658,7 @@
             "source": "guide-011"
           },
           "schematicSvg": "schematics/guide-011_p3.svg",
+          "sourcePageRange": "8-10",
           "time": "1 fin de semana",
           "title": "Magnetic Anomaly Detector (Fluxgate)",
           "wiringTable": [
@@ -10748,6 +10811,7 @@
             "source": "guide-011"
           },
           "schematicSvg": "schematics/guide-011_p4.svg",
+          "sourcePageRange": "10-12",
           "time": "1 fin de semana",
           "title": "Seismic Unattended Ground Sensor (UGS)",
           "wiringTable": [
@@ -10900,6 +10964,7 @@
             "source": "guide-011"
           },
           "schematicSvg": "schematics/guide-011_p5.svg",
+          "sourcePageRange": "12-14",
           "time": "1 fin de semana",
           "title": "Passive Drone Detection Receiver",
           "wiringTable": [
@@ -11059,6 +11124,7 @@
             "source": "guide-011"
           },
           "schematicSvg": "schematics/guide-011_p6.svg",
+          "sourcePageRange": "14-17",
           "time": "1 fin de semana",
           "title": "Frequency-Hopping Encrypted Link (FHSS)",
           "wiringTable": [
@@ -11337,6 +11403,7 @@
             "source": "guide-012"
           },
           "schematicSvg": "schematics/guide-012_p1.svg",
+          "sourcePageRange": "2-3",
           "time": "1 fin de semana",
           "title": "GNSS Receiver & Resilience Analysis",
           "wiringTable": [
@@ -11489,6 +11556,7 @@
             "source": "guide-012"
           },
           "schematicSvg": "schematics/guide-012_p2.svg",
+          "sourcePageRange": "4-4",
           "time": "2 fines de semana",
           "title": "RF Direction Finder (Pseudo-Doppler)",
           "wiringTable": [
@@ -11641,6 +11709,7 @@
             "source": "guide-012"
           },
           "schematicSvg": "schematics/guide-012_p3.svg",
+          "sourcePageRange": "4-4",
           "time": "1 fin de semana",
           "title": "Magnetic Anomaly Detector (Fluxgate)",
           "wiringTable": [
@@ -11786,6 +11855,7 @@
             "source": "guide-012"
           },
           "schematicSvg": "schematics/guide-012_p4.svg",
+          "sourcePageRange": "4-4",
           "time": "1 fin de semana",
           "title": "Seismic Unattended Ground Sensor (UGS)",
           "wiringTable": [
@@ -11931,6 +12001,7 @@
             "source": "guide-012"
           },
           "schematicSvg": "schematics/guide-012_p5.svg",
+          "sourcePageRange": "4-18",
           "time": "1 fin de semana",
           "title": "Passive Drone Detection Receiver",
           "wiringTable": [
@@ -12083,6 +12154,7 @@
             "source": "guide-012"
           },
           "schematicSvg": "schematics/guide-012_p6.svg",
+          "sourcePageRange": "19-23",
           "time": "1 fin de semana",
           "title": "Frequency-Hopping Encrypted Link (FHSS)",
           "wiringTable": [
@@ -12369,6 +12441,7 @@
             "source": "guide-013"
           },
           "schematicSvg": "schematics/guide-013_p1.svg",
+          "sourcePageRange": "2-4",
           "time": "1 fin de semana",
           "title": "Reactive Rover (Sense-Plan-Act)",
           "wiringTable": [
@@ -12520,6 +12593,7 @@
             "source": "guide-013"
           },
           "schematicSvg": "schematics/guide-013_p2.svg",
+          "sourcePageRange": "4-4",
           "time": "2 fines de semana",
           "title": "Robot Arm with Inverse Kinematics",
           "wiringTable": [
@@ -12671,6 +12745,7 @@
             "source": "guide-013"
           },
           "schematicSvg": "schematics/guide-013_p3.svg",
+          "sourcePageRange": "4-4",
           "time": "3 semanas",
           "title": "Quadruped Walking Robot",
           "wiringTable": [
@@ -12824,6 +12899,7 @@
             "source": "guide-013"
           },
           "schematicSvg": "schematics/guide-013_p4.svg",
+          "sourcePageRange": "4-4",
           "time": "2 fines de semana",
           "title": "SLAM Mapping Autonomous Rover",
           "wiringTable": [
@@ -12977,6 +13053,7 @@
             "source": "guide-013"
           },
           "schematicSvg": "schematics/guide-013_p5.svg",
+          "sourcePageRange": "4-4",
           "time": "1 fin de semana",
           "title": "Self-Balancing Inverted Pendulum",
           "wiringTable": [
@@ -13130,6 +13207,7 @@
             "source": "guide-013"
           },
           "schematicSvg": "schematics/guide-013_p6.svg",
+          "sourcePageRange": "4-15",
           "time": "2 fines de semana",
           "title": "Vision-Guided Pick-and-Place Gantry",
           "wiringTable": [
@@ -13408,6 +13486,7 @@
             "source": "guide-014"
           },
           "schematicSvg": "schematics/guide-014_p1.svg",
+          "sourcePageRange": "2-4",
           "time": "1 fin de semana",
           "title": "Shielding & EMC Hardening (Faraday Box)",
           "wiringTable": [
@@ -13567,6 +13646,7 @@
             "source": "guide-014"
           },
           "schematicSvg": "schematics/guide-014_p2.svg",
+          "sourcePageRange": "4-7",
           "time": "2 fines de semana",
           "title": "Subsonic Wind Tunnel & Flow Conditioning",
           "wiringTable": [
@@ -13719,6 +13799,7 @@
             "source": "guide-014"
           },
           "schematicSvg": "schematics/guide-014_p3.svg",
+          "sourcePageRange": "7-10",
           "time": "2 fines de semana",
           "title": "Composite Armor Instrumented Impact Tester",
           "wiringTable": [
@@ -13871,6 +13952,7 @@
             "source": "guide-014"
           },
           "schematicSvg": "schematics/guide-014_p4.svg",
+          "sourcePageRange": "10-12",
           "time": "2 fines de semana",
           "title": "Underwater Hydrophone Array & Acoustic TDOA",
           "wiringTable": [
@@ -14023,6 +14105,7 @@
             "source": "guide-014"
           },
           "schematicSvg": "schematics/guide-014_p5.svg",
+          "sourcePageRange": "12-14",
           "time": "2 fines de semana",
           "title": "Autonomous Guided Airdrop Parafoil (GNC)",
           "wiringTable": [
@@ -14175,6 +14258,7 @@
             "source": "guide-014"
           },
           "schematicSvg": "schematics/guide-014_p6.svg",
+          "sourcePageRange": "14-16",
           "time": "1 fin de semana",
           "title": "Environmental Torture-Test Lab (Thermal/Vibe)",
           "wiringTable": [
@@ -14454,6 +14538,7 @@
             "source": "guide-015"
           },
           "schematicSvg": "schematics/guide-015_p1.svg",
+          "sourcePageRange": "2-4",
           "time": "1 fin de semana",
           "title": "Optical Flow & LiDAR Surface Tracker",
           "wiringTable": [
@@ -14614,6 +14699,7 @@
             "source": "guide-015"
           },
           "schematicSvg": "schematics/guide-015_p2.svg",
+          "sourcePageRange": "4-7",
           "time": "1 fin de semana",
           "title": "Redundant Dual-IMU with Kalman Voting",
           "wiringTable": [
@@ -14767,6 +14853,7 @@
             "source": "guide-015"
           },
           "schematicSvg": "schematics/guide-015_p3.svg",
+          "sourcePageRange": "7-9",
           "time": "2 fines de semana",
           "title": "CAN Bus ESC Telemetry & Power Distribution",
           "wiringTable": [
@@ -14927,6 +15014,7 @@
             "source": "guide-015"
           },
           "schematicSvg": "schematics/guide-015_p4.svg",
+          "sourcePageRange": "9-11",
           "time": "1 fin de semana",
           "title": "LoRa Backup Heartbeat & Emergency Parachute",
           "wiringTable": [
@@ -15080,6 +15168,7 @@
             "source": "guide-015"
           },
           "schematicSvg": "schematics/guide-015_p5.svg",
+          "sourcePageRange": "11-13",
           "time": "1 fin de semana",
           "title": "Active Rotor Ice Detection & Thermal De-Icing",
           "wiringTable": [
@@ -15233,6 +15322,7 @@
             "source": "guide-015"
           },
           "schematicSvg": "schematics/guide-015_p6.svg",
+          "sourcePageRange": "13-16",
           "time": "2 fines de semana",
           "title": "AI Edge Companion Computer & Collision Avoidance",
           "wiringTable": [
@@ -15518,6 +15608,7 @@
             "source": "guide-016"
           },
           "schematicSvg": "schematics/guide-018_p1.svg",
+          "sourcePageRange": "3-4",
           "time": "2-3 fines de semana",
           "title": "Real-Time Chat App with WebSockets",
           "wiringTable": [
@@ -15678,6 +15769,7 @@
             "source": "guide-016"
           },
           "schematicSvg": "schematics/guide-018_p2.svg",
+          "sourcePageRange": "5-7",
           "time": "2-3 fines de semana",
           "title": "Personal AI Assistant with RAG",
           "wiringTable": [
@@ -15831,6 +15923,7 @@
             "source": "guide-016"
           },
           "schematicSvg": "schematics/guide-018_p3.svg",
+          "sourcePageRange": "8-10",
           "time": "3-4 fines de semana",
           "title": "Distributed Task Queue & Worker System",
           "wiringTable": [
@@ -15975,6 +16068,7 @@
             "source": "guide-016"
           },
           "schematicSvg": "schematics/guide-018_p4.svg",
+          "sourcePageRange": "11-13",
           "time": "1-2 fines de semana",
           "title": "Open Source Developer CLI Tool",
           "wiringTable": [
@@ -16130,6 +16224,7 @@
             "source": "guide-016"
           },
           "schematicSvg": "schematics/guide-018_p5.svg",
+          "sourcePageRange": "14-16",
           "time": "4-6 fines de semana",
           "title": "Full-Stack Multi-Tenant SaaS with Payments",
           "wiringTable": [
@@ -16274,6 +16369,7 @@
             "source": "guide-016"
           },
           "schematicSvg": "schematics/guide-018_p6.svg",
+          "sourcePageRange": "17-21",
           "time": "3-5 fines de semana",
           "title": "Custom Programming Language Interpreter",
           "wiringTable": [
@@ -16532,6 +16628,7 @@
             "source": "guide-017"
           },
           "schematicSvg": "schematics/guide-019_p1.svg",
+          "sourcePageRange": "2-2",
           "time": "Semanas 1-4",
           "title": "Audita los Mejores Cursos del Mundo (Stanford, MIT, CMU)",
           "wiringTable": [
@@ -16670,6 +16767,7 @@
             "source": "guide-017"
           },
           "schematicSvg": "schematics/guide-019_p2.svg",
+          "sourcePageRange": "2-8",
           "time": "Semanas 2-6",
           "title": "Elige una Especialidad y Profundiza al Máximo",
           "wiringTable": [
@@ -16809,6 +16907,7 @@
             "source": "guide-017"
           },
           "schematicSvg": "schematics/guide-019_p3.svg",
+          "sourcePageRange": "8-8",
           "time": "Semanas 4-8",
           "title": "Construye Algo que Nadie te Pidió que Construyas",
           "wiringTable": [
@@ -16941,6 +17040,7 @@
             "source": "guide-017"
           },
           "schematicSvg": "schematics/guide-019_p4.svg",
+          "sourcePageRange": "8-8",
           "time": "Continuo",
           "title": "Lee Datasheets y Notas de Aplicación como Ficción",
           "wiringTable": [
@@ -17079,6 +17179,7 @@
             "source": "guide-017"
           },
           "schematicSvg": "schematics/guide-019_p5.svg",
+          "sourcePageRange": "8-8",
           "time": "Semanas 8-10",
           "title": "Ingeniería Inversa de Productos Comerciales Reales",
           "wiringTable": [
@@ -17220,6 +17321,7 @@
             "source": "guide-017"
           },
           "schematicSvg": "schematics/guide-019_p6.svg",
+          "sourcePageRange": "8-10",
           "time": "Semanas 10-12",
           "title": "Haz de tu Presencia en Internet un Portafolio Indiscutible",
           "wiringTable": [
@@ -17498,6 +17600,7 @@
             "source": "guide-018"
           },
           "schematicSvg": "schematics/guide-020_p1.svg",
+          "sourcePageRange": "2-4",
           "time": "1 fin de semana",
           "title": "AI Voice Cloning Detector",
           "wiringTable": [
@@ -17650,6 +17753,7 @@
             "source": "guide-018"
           },
           "schematicSvg": "schematics/guide-020_p2.svg",
+          "sourcePageRange": "5-7",
           "time": "1 fin de semana",
           "title": "EMI Side-Channel Sniffer",
           "wiringTable": [
@@ -17802,6 +17906,7 @@
             "source": "guide-018"
           },
           "schematicSvg": "schematics/guide-020_p3.svg",
+          "sourcePageRange": "8-10",
           "time": "1 fin de semana",
           "title": "Hardware AI Kill Switch",
           "wiringTable": [
@@ -17955,6 +18060,7 @@
             "source": "guide-018"
           },
           "schematicSvg": "schematics/guide-020_p4.svg",
+          "sourcePageRange": "11-13",
           "time": "2 fines de semana",
           "title": "Deepfake-Proof Identity Badge",
           "wiringTable": [
@@ -18110,6 +18216,7 @@
             "source": "guide-018"
           },
           "schematicSvg": "schematics/guide-020_p5.svg",
+          "sourcePageRange": "14-16",
           "time": "1 fin de semana",
           "title": "Neuromorphic Sensor Fuser",
           "wiringTable": [
@@ -18262,6 +18369,7 @@
             "source": "guide-018"
           },
           "schematicSvg": "schematics/guide-020_p6.svg",
+          "sourcePageRange": "17-20",
           "time": "2 fines de semana",
           "title": "RF Fingerprinting Authenticator",
           "wiringTable": [
@@ -18548,6 +18656,7 @@
             "source": "guide-019"
           },
           "schematicSvg": "schematics/guide-021_p1.svg",
+          "sourcePageRange": "2-5",
           "time": "1 fin de semana",
           "title": "Laser Surveillance Microphone",
           "wiringTable": [
@@ -18700,6 +18809,7 @@
             "source": "guide-019"
           },
           "schematicSvg": "schematics/guide-021_p2.svg",
+          "sourcePageRange": "6-8",
           "time": "1 fin de semana",
           "title": "Tap-Proof Laser Communication Link",
           "wiringTable": [
@@ -18852,6 +18962,7 @@
             "source": "guide-019"
           },
           "schematicSvg": "schematics/guide-021_p3.svg",
+          "sourcePageRange": "9-12",
           "time": "2 fines de semana",
           "title": "High-Precision Laser Rangefinder",
           "wiringTable": [
@@ -19004,6 +19115,7 @@
             "source": "guide-019"
           },
           "schematicSvg": "schematics/guide-021_p4.svg",
+          "sourcePageRange": "13-15",
           "time": "1 fin de semana",
           "title": "Encrypted Burst Transmitter",
           "wiringTable": [
@@ -19164,6 +19276,7 @@
             "source": "guide-019"
           },
           "schematicSvg": "schematics/guide-021_p5.svg",
+          "sourcePageRange": "16-18",
           "time": "2 fines de semana",
           "title": "Passive Night Vision Scope",
           "wiringTable": [
@@ -19317,6 +19430,7 @@
             "source": "guide-019"
           },
           "schematicSvg": "schematics/guide-021_p6.svg",
+          "sourcePageRange": "19-22",
           "time": "1 fin de semana",
           "title": "Radar Cross-Section Measurement System",
           "wiringTable": [
@@ -19596,6 +19710,7 @@
             "source": "guide-020"
           },
           "schematicSvg": "schematics/guide-022_p1.svg",
+          "sourcePageRange": "4-7",
           "time": "2-4 fines de semana",
           "title": "Silent Speech Neural Interface",
           "wiringTable": [
@@ -19756,6 +19871,7 @@
             "source": "guide-020"
           },
           "schematicSvg": "schematics/guide-022_p2.svg",
+          "sourcePageRange": "8-10",
           "time": "3-4 semanas",
           "title": "EMG Prosthetic Hand with Intent Detection",
           "wiringTable": [
@@ -19908,6 +20024,7 @@
             "source": "guide-020"
           },
           "schematicSvg": "schematics/guide-022_p3.svg",
+          "sourcePageRange": "11-13",
           "time": "2 fines de semana",
           "title": "Gesture-Controlled AR Coding Interface",
           "wiringTable": [
@@ -20068,6 +20185,7 @@
             "source": "guide-020"
           },
           "schematicSvg": "schematics/guide-022_p4.svg",
+          "sourcePageRange": "14-16",
           "time": "1-2 fines de semana",
           "title": "Emotion-Aware AI Companion Pendant",
           "wiringTable": [
@@ -20228,6 +20346,7 @@
             "source": "guide-020"
           },
           "schematicSvg": "schematics/guide-022_p5.svg",
+          "sourcePageRange": "17-19",
           "time": "2 fines de semana",
           "title": "Tactile Sense Augmentation Glove",
           "wiringTable": [
@@ -20381,6 +20500,7 @@
             "source": "guide-020"
           },
           "schematicSvg": "schematics/guide-022_p6.svg",
+          "sourcePageRange": "20-23",
           "time": "1-2 fines de semana",
           "title": "Subvocal AI Command Interface",
           "wiringTable": [
@@ -20660,6 +20780,7 @@
             "source": "guide-021"
           },
           "schematicSvg": "schematics/guide-023_p1.svg",
+          "sourcePageRange": "3-4",
           "time": "1 fin de semana",
           "title": "Smart Energy Monitor IoT",
           "wiringTable": [
@@ -20805,6 +20926,7 @@
             "source": "guide-021"
           },
           "schematicSvg": "schematics/guide-023_p2.svg",
+          "sourcePageRange": "5-6",
           "time": "2 fines de semana",
           "title": "Gesture-Controlled EMG Robot Arm",
           "wiringTable": [
@@ -20964,6 +21086,7 @@
             "source": "guide-021"
           },
           "schematicSvg": "schematics/guide-023_p3.svg",
+          "sourcePageRange": "7-8",
           "time": "2 fines de semana",
           "title": "Custom PCB Synthesizer",
           "wiringTable": [
@@ -21112,6 +21235,7 @@
             "source": "guide-021"
           },
           "schematicSvg": "schematics/guide-023_p4.svg",
+          "sourcePageRange": "9-10",
           "time": "2 fines de semana",
           "title": "MPPT Solar Charge Controller",
           "wiringTable": [
@@ -21257,6 +21381,7 @@
             "source": "guide-021"
           },
           "schematicSvg": "schematics/guide-023_p5.svg",
+          "sourcePageRange": "11-12",
           "time": "1 fin de semana",
           "title": "Software-Defined Radio Receiver",
           "wiringTable": [
@@ -21409,6 +21534,7 @@
             "source": "guide-021"
           },
           "schematicSvg": "schematics/guide-023_p6.svg",
+          "sourcePageRange": "13-15",
           "time": "2 fines de semana",
           "title": "PID Self-Balancing Robot",
           "wiringTable": [
@@ -21660,6 +21786,7 @@
             "source": "guide-022"
           },
           "schematicSvg": "schematics/guide-024_p1.svg",
+          "sourcePageRange": "2-2",
           "time": "3 días",
           "title": "El Gancho de la Reciprocidad y Visibilidad",
           "wiringTable": [
@@ -21798,6 +21925,7 @@
             "source": "guide-022"
           },
           "schematicSvg": "schematics/guide-024_p2.svg",
+          "sourcePageRange": "2-8",
           "time": "2 días",
           "title": "La Redacción del Correo Frío Irrechazable",
           "wiringTable": [
@@ -21937,6 +22065,7 @@
             "source": "guide-022"
           },
           "schematicSvg": "schematics/guide-024_p3.svg",
+          "sourcePageRange": "8-8",
           "time": "1 semana",
           "title": "La Presentación del Plan de Investigación",
           "wiringTable": [
@@ -22075,6 +22204,7 @@
             "source": "guide-022"
           },
           "schematicSvg": "schematics/guide-024_p4.svg",
+          "sourcePageRange": "8-8",
           "time": "1 semana",
           "title": "Logística, Seguros y Contratos de Comodato",
           "wiringTable": [
@@ -22209,6 +22339,7 @@
             "source": "guide-022"
           },
           "schematicSvg": "schematics/guide-024_p5.svg",
+          "sourcePageRange": "8-11",
           "time": "2 semanas",
           "title": "Programación KRL, Puesta en Marcha y Retorno",
           "wiringTable": [
@@ -22456,6 +22587,7 @@
             "source": "guide-023"
           },
           "schematicSvg": "schematics/guide-025_p1.svg",
+          "sourcePageRange": "2-2",
           "time": "Día 1",
           "title": "Paso 1: Salta la teoría y compra un kit de Arduino",
           "wiringTable": [
@@ -22594,6 +22726,7 @@
             "source": "guide-023"
           },
           "schematicSvg": "schematics/guide-025_p2.svg",
+          "sourcePageRange": "2-2",
           "time": "Día 3",
           "title": "Paso 2: Hazte con un multímetro y mide voltajes reales",
           "wiringTable": [
@@ -22732,6 +22865,7 @@
             "source": "guide-023"
           },
           "schematicSvg": "schematics/guide-025_p3.svg",
+          "sourcePageRange": "2-2",
           "time": "Fin de semana 1",
           "title": "Paso 3: Construye tu primer circuito analógico sin código",
           "wiringTable": [
@@ -22877,6 +23011,7 @@
             "source": "guide-023"
           },
           "schematicSvg": "schematics/guide-025_p4.svg",
+          "sourcePageRange": "2-2",
           "time": "Fin de semana 2",
           "title": "Paso 4: Aprende a soldar temprano con un kit de práctica",
           "wiringTable": [
@@ -23015,6 +23150,7 @@
             "source": "guide-023"
           },
           "schematicSvg": "schematics/guide-025_p5.svg",
+          "sourcePageRange": "2-2",
           "time": "Fin de semana 3",
           "title": "Paso 5: Pasa de la protoboard a KiCad y diseña tu primera PCB",
           "wiringTable": [
@@ -23153,6 +23289,7 @@
             "source": "guide-023"
           },
           "schematicSvg": "schematics/guide-025_p6.svg",
+          "sourcePageRange": "2-5",
           "time": "Fin de semana 4",
           "title": "Paso 6: Construye un proyecto físico que realmente quieras usar",
           "wiringTable": [
@@ -23431,6 +23568,7 @@
             "source": "guide-024"
           },
           "schematicSvg": "schematics/guide-016_p1.svg",
+          "sourcePageRange": "3-5",
           "time": "1-2 fines de semana",
           "title": "PID Motor Speed Controller",
           "wiringTable": [
@@ -23583,6 +23721,7 @@
             "source": "guide-024"
           },
           "schematicSvg": "schematics/guide-016_p2.svg",
+          "sourcePageRange": "6-8",
           "time": "2 fines de semana",
           "title": "Custom PCB — Design to Manufactured Board",
           "wiringTable": [
@@ -23735,6 +23874,7 @@
             "source": "guide-024"
           },
           "schematicSvg": "schematics/guide-016_p3.svg",
+          "sourcePageRange": "9-11",
           "time": "1-2 fines de semana",
           "title": "DIY Digital Multimeter with Input Protection",
           "wiringTable": [
@@ -23886,6 +24026,7 @@
             "source": "guide-024"
           },
           "schematicSvg": "schematics/guide-016_p4.svg",
+          "sourcePageRange": "12-14",
           "time": "2-3 fines de semana",
           "title": "Synchronous Buck Converter (12V to 5V 3A)",
           "wiringTable": [
@@ -24034,6 +24175,7 @@
             "source": "guide-024"
           },
           "schematicSvg": "schematics/guide-016_p5.svg",
+          "sourcePageRange": "15-17",
           "time": "2 fines de semana",
           "title": "UART / SPI / I2C Protocol Analyzer",
           "wiringTable": [
@@ -24187,6 +24329,7 @@
             "source": "guide-024"
           },
           "schematicSvg": "schematics/guide-016_p6.svg",
+          "sourcePageRange": "18-21",
           "time": "3-4 fines de semana",
           "title": "FPGA LED Matrix Controller in Pure Verilog",
           "wiringTable": [
@@ -24465,6 +24608,7 @@
             "source": "guide-025"
           },
           "schematicSvg": "schematics/guide-026_p1.svg",
+          "sourcePageRange": "3-5",
           "time": "1-2 fines de semana",
           "title": "3D-Printed Gripper with Force Feedback",
           "wiringTable": [
@@ -24611,6 +24755,7 @@
             "source": "guide-025"
           },
           "schematicSvg": "schematics/guide-026_p2.svg",
+          "sourcePageRange": "6-8",
           "time": "2-3 fines de semana",
           "title": "Portable Wind Tunnel with Data Acquisition",
           "wiringTable": [
@@ -24764,6 +24909,7 @@
             "source": "guide-025"
           },
           "schematicSvg": "schematics/guide-026_p3.svg",
+          "sourcePageRange": "9-11",
           "time": "1-2 fines de semana",
           "title": "Dual-Axis Solar Tracker",
           "wiringTable": [
@@ -24909,6 +25055,7 @@
             "source": "guide-025"
           },
           "schematicSvg": "schematics/guide-026_p4.svg",
+          "sourcePageRange": "12-14",
           "time": "1 fin de semana",
           "title": "PID Thermal Management System",
           "wiringTable": [
@@ -25061,6 +25208,7 @@
             "source": "guide-025"
           },
           "schematicSvg": "schematics/guide-026_p5.svg",
+          "sourcePageRange": "15-17",
           "time": "3-4 fines de semana",
           "title": "Desktop CNC Engraver Built From Scratch",
           "wiringTable": [
@@ -25213,6 +25361,7 @@
             "source": "guide-025"
           },
           "schematicSvg": "schematics/guide-026_p6.svg",
+          "sourcePageRange": "18-22",
           "time": "2 fines de semana",
           "title": "Wireless Strain Gauge Bridge Monitor",
           "wiringTable": [
@@ -25480,6 +25629,7 @@
             "source": "guide-026"
           },
           "schematicSvg": "schematics/guide-027_p1.svg",
+          "sourcePageRange": "2-2",
           "time": "Semanas 1-2",
           "title": "Fundamentos de ML: Clasificación y Regresión Práctica",
           "wiringTable": [
@@ -25625,6 +25775,7 @@
             "source": "guide-026"
           },
           "schematicSvg": "schematics/guide-027_p2.svg",
+          "sourcePageRange": "2-2",
           "time": "Semanas 3-4",
           "title": "Ingeniería Mecánica: Mantenimiento Predictivo por Vibraciones",
           "wiringTable": [
@@ -25763,6 +25914,7 @@
             "source": "guide-026"
           },
           "schematicSvg": "schematics/guide-027_p3.svg",
+          "sourcePageRange": "2-2",
           "time": "Semanas 4-5",
           "title": "Ingeniería Electrónica: Clasificación de Señales de ECG en Tiempo Real",
           "wiringTable": [
@@ -25909,6 +26061,7 @@
             "source": "guide-026"
           },
           "schematicSvg": "schematics/guide-027_p4.svg",
+          "sourcePageRange": "2-2",
           "time": "Semanas 5-6",
           "title": "Despliegue de Edge AI y TinyML en Microcontroladores",
           "wiringTable": [
@@ -26048,6 +26201,7 @@
             "source": "guide-026"
           },
           "schematicSvg": "schematics/guide-027_p5.svg",
+          "sourcePageRange": "2-2",
           "time": "Semanas 6-7",
           "title": "Ingeniería Química: Modelado y Optimización de Reactores",
           "wiringTable": [
@@ -26193,6 +26347,7 @@
             "source": "guide-026"
           },
           "schematicSvg": "schematics/guide-027_p6.svg",
+          "sourcePageRange": "2-10",
           "time": "Semanas 7-8",
           "title": "Proyecto Integrador para Portafolio de Ingeniería",
           "wiringTable": [
@@ -26427,6 +26582,7 @@
             "source": "guide-027"
           },
           "schematicSvg": "schematics/guide-017_p1.svg",
+          "sourcePageRange": "2-2",
           "time": "2 horas",
           "title": "Conexionado de Pantalla OLED SPI 2.42\"",
           "wiringTable": [
@@ -26568,6 +26724,7 @@
             "source": "guide-027"
           },
           "schematicSvg": "schematics/guide-017_p2.svg",
+          "sourcePageRange": "2-2",
           "time": "1 hora",
           "title": "Control Analógico por Potenciómetro Slider",
           "wiringTable": [
@@ -26706,6 +26863,7 @@
             "source": "guide-027"
           },
           "schematicSvg": "schematics/guide-017_p3.svg",
+          "sourcePageRange": "2-2",
           "time": "1 hora",
           "title": "Generador de Audio Retro por Buzzer",
           "wiringTable": [
@@ -26844,6 +27002,7 @@
             "source": "guide-027"
           },
           "schematicSvg": "schematics/guide-017_p4.svg",
+          "sourcePageRange": "2-15",
           "time": "2 horas",
           "title": "Compilación y Flasheo de los 2 Juegos",
           "wiringTable": [
@@ -27118,6 +27277,7 @@
             "source": "guide-028"
           },
           "schematicSvg": "schematics/guide-028_p1.svg",
+          "sourcePageRange": "3-3",
           "time": "2 semanas",
           "title": "Learning the Art of Electronics Lab",
           "wiringTable": [
@@ -27259,6 +27419,7 @@
             "source": "guide-028"
           },
           "schematicSvg": "schematics/guide-028_p2.svg",
+          "sourcePageRange": "3-3",
           "time": "2 semanas",
           "title": "Phil's Lab High-Speed Hardware Design",
           "wiringTable": [
@@ -27407,6 +27568,7 @@
             "source": "guide-028"
           },
           "schematicSvg": "schematics/guide-028_p3.svg",
+          "sourcePageRange": "4-4",
           "time": "3 semanas",
           "title": "Ben Eater 8-bit Discrete TTL Computer",
           "wiringTable": [
@@ -27558,6 +27720,7 @@
             "source": "guide-028"
           },
           "schematicSvg": "schematics/guide-028_p4.svg",
+          "sourcePageRange": "4-4",
           "time": "1 semana",
           "title": "Contextual Electronics Board Bring-up",
           "wiringTable": [
@@ -27710,6 +27873,7 @@
             "source": "guide-028"
           },
           "schematicSvg": "schematics/guide-028_p5.svg",
+          "sourcePageRange": "5-5",
           "time": "2 semanas",
           "title": "MIT OCW Feedback Control Implementer",
           "wiringTable": [
@@ -27862,6 +28026,7 @@
             "source": "guide-028"
           },
           "schematicSvg": "schematics/guide-028_p6.svg",
+          "sourcePageRange": "5-10",
           "time": "2 semanas",
           "title": "GNU Radio & RTL-SDR Spectrum Interceptor",
           "wiringTable": [
@@ -28143,6 +28308,7 @@
             "source": "guide-029"
           },
           "schematicSvg": "schematics/guide-029_p1.svg",
+          "sourcePageRange": "3-3",
           "time": "1 semana",
           "title": "Practical Electronics for Inventors Bench",
           "wiringTable": [
@@ -28284,6 +28450,7 @@
             "source": "guide-029"
           },
           "schematicSvg": "schematics/guide-029_p2.svg",
+          "sourcePageRange": "3-3",
           "time": "2 semanas",
           "title": "Razavi CMOS Microelectronics Lab",
           "wiringTable": [
@@ -28432,6 +28599,7 @@
             "source": "guide-029"
           },
           "schematicSvg": "schematics/guide-029_p3.svg",
+          "sourcePageRange": "4-4",
           "time": "1 semana",
           "title": "LTspice Worst-Case & Monte Carlo Simulator",
           "wiringTable": [
@@ -28580,6 +28748,7 @@
             "source": "guide-029"
           },
           "schematicSvg": "schematics/guide-029_p4.svg",
+          "sourcePageRange": "4-4",
           "time": "1 semana",
           "title": "Wokwi Virtual Hardware Simulator",
           "wiringTable": [
@@ -28732,6 +28901,7 @@
             "source": "guide-029"
           },
           "schematicSvg": "schematics/guide-029_p5.svg",
+          "sourcePageRange": "5-5",
           "time": "3 semanas",
           "title": "Scientist & Engineer's Guide to DSP",
           "wiringTable": [
@@ -28884,6 +29054,7 @@
             "source": "guide-029"
           },
           "schematicSvg": "schematics/guide-029_p6.svg",
+          "sourcePageRange": "5-10",
           "time": "2 semanas",
           "title": "W2AEW RF Lab Techniques & Measurements",
           "wiringTable": [
@@ -29158,6 +29329,7 @@
             "source": "guide-030"
           },
           "schematicSvg": "schematics/guide-030_p1.svg",
+          "sourcePageRange": "3-3",
           "time": "2 semanas",
           "title": "FEDEVEL High-Speed PCB Layout Masterclass",
           "wiringTable": [
@@ -29299,6 +29471,7 @@
             "source": "guide-030"
           },
           "schematicSvg": "schematics/guide-030_p2.svg",
+          "sourcePageRange": "3-3",
           "time": "2 semanas",
           "title": "Steve Brunton Modern Control & Kalman Filters",
           "wiringTable": [
@@ -29451,6 +29624,7 @@
             "source": "guide-030"
           },
           "schematicSvg": "schematics/guide-030_p3.svg",
+          "sourcePageRange": "4-4",
           "time": "2 semanas",
           "title": "Andreas Spiess Deep IoT & LoRaWAN Node",
           "wiringTable": [
@@ -29606,6 +29780,7 @@
             "source": "guide-030"
           },
           "schematicSvg": "schematics/guide-030_p4.svg",
+          "sourcePageRange": "4-4",
           "time": "2 semanas",
           "title": "GreatScott! Switching Converter Design",
           "wiringTable": [
@@ -29747,6 +29922,7 @@
             "source": "guide-030"
           },
           "schematicSvg": "schematics/guide-030_p5.svg",
+          "sourcePageRange": "5-5",
           "time": "2 semanas",
           "title": "Digital Design & RISC-V Architecture",
           "wiringTable": [
@@ -29895,6 +30071,7 @@
             "source": "guide-030"
           },
           "schematicSvg": "schematics/guide-030_p6.svg",
+          "sourcePageRange": "5-12",
           "time": "2 semanas",
           "title": "Shawn Hymel TinyML Embedded Classifier",
           "wiringTable": [
@@ -30162,6 +30339,7 @@
             "source": "guide-031"
           },
           "schematicSvg": "schematics/guide-031_p1.svg",
+          "sourcePageRange": "3-3",
           "time": "1 semana",
           "title": "KiCad Production-Ready DFM Workflow",
           "wiringTable": [
@@ -30303,6 +30481,7 @@
             "source": "guide-031"
           },
           "schematicSvg": "schematics/guide-031_p2.svg",
+          "sourcePageRange": "3-3",
           "time": "2 semanas",
           "title": "The Art of Electronics Ultra-Low Noise Supply",
           "wiringTable": [
@@ -30447,6 +30626,7 @@
             "source": "guide-031"
           },
           "schematicSvg": "schematics/guide-031_p3.svg",
+          "sourcePageRange": "4-4",
           "time": "2 semanas",
           "title": "Zephyr RTOS Industrial Node Deployment",
           "wiringTable": [
@@ -30591,6 +30771,7 @@
             "source": "guide-031"
           },
           "schematicSvg": "schematics/guide-031_p4.svg",
+          "sourcePageRange": "4-4",
           "time": "2 semanas",
           "title": "Microwaves101 Planar Filter & Coupler",
           "wiringTable": [
@@ -30732,6 +30913,7 @@
             "source": "guide-031"
           },
           "schematicSvg": "schematics/guide-031_p5.svg",
+          "sourcePageRange": "5-5",
           "time": "1 semana",
           "title": "JLCPCB SMT Panelization & Automated Assembly",
           "wiringTable": [
@@ -30877,6 +31059,7 @@
             "source": "guide-031"
           },
           "schematicSvg": "schematics/guide-031_p6.svg",
+          "sourcePageRange": "5-10",
           "time": "1 semana",
           "title": "EEVblog Teardown Forensic & ESD Hardening",
           "wiringTable": [

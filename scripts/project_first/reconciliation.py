@@ -1,5 +1,5 @@
 """
-Cross-Source Reconciliation & Project Graph Consolidation Engine (Prompt 02).
+Cross-Source Reconciliation & Project Graph Consolidation Engine (Prompt 02 & Prompt 02.1).
 Consolidates CanonicalProjects from EXACT_DUPLICATE sets.
 Performs Information Union while preserving field-level provenance and recording
 conflicts as NEEDS_REVIEW without picking arbitrary winners.
@@ -14,16 +14,13 @@ from scripts.project_first.models import (
     DuplicateCandidate,
     DuplicateClassification,
     RelationType,
-    Provenance,
-    ProvenanceOrigin,
-    ProvenanceConfidence,
     ConflictRecord,
+    ProjectBOMItem,
 )
 from scripts.project_first.ids import (
     generate_canonical_project_id,
     generate_relation_id,
     generate_conflict_id,
-    generate_variant_id,
     slugify,
 )
 
@@ -51,129 +48,119 @@ def build_canonical_projects(
         root_i = find(i)
         root_j = find(j)
         if root_i != root_j:
-            parent[root_j] = root_i
+            parent[root_i] = root_j
 
-    # Only union EXACT_DUPLICATE pairs! Never PROBABLE_DUPLICATE or VARIANT!
-    for cand in candidates:
-        if cand.classification == DuplicateClassification.EXACT_DUPLICATE:
-            union(cand.projectAId, cand.projectBId)
-            
+    exact_dups = [c for c in candidates if c.classification == DuplicateClassification.EXACT_DUPLICATE]
+    for cand in exact_dups:
+        union(cand.projectAId, cand.projectBId)
+        
     # Group into clusters
-    clusters: Dict[str, List[Project]] = {}
+    clusters: Dict[str, List[str]] = {}
     for p in projects:
         root = find(p.projectId)
-        clusters.setdefault(root, []).append(p)
+        clusters.setdefault(root, []).append(p.projectId)
         
     canonical_projects: List[CanonicalProject] = []
-    relations: List[ProjectRelation] = []
     
-    for root_id, member_projs in clusters.items():
+    for root_id, member_ids in clusters.items():
+        member_projs = [proj_map[mid] for mid in sorted(member_ids)]
         primary = member_projs[0]
+        
+        cproj_id = generate_canonical_project_id(primary.title, primary.technicalIdentity.controller or "")
+        cslug = slugify(f"canon-{primary.title}")
+        
         all_sources = []
         for p in member_projs:
             all_sources.extend(p.sources)
             
-        cproj_id = generate_canonical_project_id(primary.title, primary.technicalIdentity.controller or "")
-        cslug = slugify(primary.title)
-        
-        # Information union & conflict detection across members
         conflicts: List[ConflictRecord] = []
+        
+        # Check for field conflicts if multiple members
         if len(member_projs) > 1:
-            # Compare primary vs subsequent members for discrepancies
-            for other in member_projs[1:]:
-                # Check controller conflict
-                mcu_a = primary.technicalIdentity.controller
-                mcu_b = other.technicalIdentity.controller
-                if mcu_a and mcu_b and mcu_a != mcu_b:
-                    conflicts.append(ConflictRecord(
-                        conflictId=generate_conflict_id(primary.sourceDocumentId, other.sourceDocumentId, "controller"),
-                        field="technicalIdentity.controller",
-                        sourceAId=primary.sourceDocumentId,
-                        sourceBId=other.sourceDocumentId,
-                        sourceAValue=mcu_a,
-                        sourceBValue=mcu_b,
-                        status="NEEDS_REVIEW",
-                        notes=f"Discrepancia en controlador entre fuentes duplicadas: {mcu_a} vs {mcu_b}",
-                        provenance=primary.provenance
-                    ))
-                    
+            for i in range(len(member_projs)):
+                for j in range(i + 1, len(member_projs)):
+                    p_i = member_projs[i]
+                    p_j = member_projs[j]
+                    mcu_i = p_i.technicalIdentity.controller
+                    mcu_j = p_j.technicalIdentity.controller
+                    if mcu_i and mcu_j and mcu_i != mcu_j:
+                        conf_id = generate_conflict_id("technicalIdentity.controller", p_i.projectId, p_j.projectId)
+                        conflicts.append(ConflictRecord(
+                            conflictId=conf_id,
+                            fieldPath="technicalIdentity.controller",
+                            valueA=mcu_i,
+                            valueB=mcu_j,
+                            sourceAId=p_i.projectId,
+                            sourceBId=p_j.projectId,
+                            resolution="NEEDS_REVIEW"
+                        ))
+                        
         # Reconcile BOMs: union components preserving unique names
         seen_bom_names = set()
-        reconciled_bom = []
+        reconciled_bom: List[ProjectBOMItem] = []
         for p in member_projs:
             for b in p.bom:
-                norm_name = b.componentName.strip().lower()
+                norm_name = b.name.strip().lower()
                 if norm_name not in seen_bom_names:
                     seen_bom_names.add(norm_name)
                     reconciled_bom.append(b)
                     
-        prov = Provenance(
-            source=",".join([p.guideId for p in member_projs]),
-            sourcePath=",".join([p.relativePath for p in member_projs]),
-            sourceHash=",".join([p.provenance.sourceHash[:8] for p in member_projs]),
-            sourcePage=primary.sourcePageRange[0],
-            sourceSection=primary.title,
-            extractionMethod="canonical-reconciliation-engine-v1",
-            extractorVersion="1.0.0",
-            origin=ProvenanceOrigin.CURATED if len(member_projs) > 1 else ProvenanceOrigin.EXTRACTED,
-            confidence=ProvenanceConfidence.EXACT
-        )
-        
+        # Firmware snippets
+        firmware_snippets = []
+        for p in member_projs:
+            if p.firmwareCode:
+                firmware_snippets.append({
+                    "projectId": p.projectId,
+                    "language": p.firmwareLanguage or "cpp",
+                    "code": p.firmwareCode
+                })
+                
         cproj = CanonicalProject(
             canonicalProjectId=cproj_id,
-            slug=cslug,
-            canonicalTitle=primary.title,
-            memberProjectIds=[p.projectId for p in member_projs],
-            projectSources=all_sources,
+            canonicalSlug=cslug,
+            preferredTitle=primary.title,
+            projectIds=[p.projectId for p in member_projs],
+            variantIds=[],
             technicalIdentity=primary.technicalIdentity,
-            reconciledDescription=primary.description,
-            reconciledExplanation=primary.detailedExplanation,
-            reconciledBom=reconciled_bom,
+            canonicalDescription=primary.description,
+            consolidatedBOM=reconciled_bom,
+            firmwareSnippets=firmware_snippets,
             schematicSvg=primary.schematicSvg,
             blueprintImage=primary.blueprintImage,
-            conflicts=conflicts,
-            variants=[],
-            relations=[],
-            provenance=prov
+            sources=all_sources,
+            conflictRecords=conflicts
         )
         canonical_projects.append(cproj)
         
     # 2. Build graph relations for VARIANT and RELATED candidates
+    relations: List[ProjectRelation] = []
+    
     for cand in candidates:
         if cand.classification == DuplicateClassification.VARIANT:
-            rel_id = generate_relation_id(cand.projectAId, cand.projectBId, "VARIANT_OF")
+            rel_id = generate_relation_id("VARIANT_OF", cand.projectAId, cand.projectBId)
             rel = ProjectRelation(
                 relationId=rel_id,
                 sourceProjectId=cand.projectAId,
                 targetProjectId=cand.projectBId,
                 relationType=RelationType.VARIANT_OF,
-                description=cand.reasoning,
-                confidence=cand.confidence,
-                provenance=cand.provenance
+                description="Variante técnica con circuitos derivados.",
+                confidence=cand.similarityScore
             )
             relations.append(rel)
         elif cand.classification == DuplicateClassification.RELATED:
-            rel_id = generate_relation_id(cand.projectAId, cand.projectBId, "RELATED_TO")
+            rel_id = generate_relation_id("RELATED_TO", cand.projectAId, cand.projectBId)
             rel = ProjectRelation(
                 relationId=rel_id,
                 sourceProjectId=cand.projectAId,
                 targetProjectId=cand.projectBId,
                 relationType=RelationType.RELATED_TO,
-                description=cand.reasoning,
-                confidence=cand.confidence,
-                provenance=cand.provenance
+                description="Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+                confidence=cand.similarityScore
             )
             relations.append(rel)
             
-    # Attach relations to canonical projects
-    cproj_by_member = {}
-    for cp in canonical_projects:
-        for mid in cp.memberProjectIds:
-            cproj_by_member[mid] = cp
-            
-    for rel in relations:
-        cp_src = cproj_by_member.get(rel.sourceProjectId)
-        if cp_src and rel not in cp_src.relations:
-            cp_src.relations.append(rel)
-            
+    # Sort for determinism
+    canonical_projects.sort(key=lambda cp: cp.canonicalProjectId)
+    relations.sort(key=lambda r: r.relationId)
+    
     return canonical_projects, relations

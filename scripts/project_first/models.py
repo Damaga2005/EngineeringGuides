@@ -1,10 +1,11 @@
 """
-Formal Pydantic Data Models for Project-First Architecture (Prompt 02).
-Ensures strict validation, deterministic serialization, and end-to-end provenance.
+Formal Pydantic Data Models for Project-First Architecture (Prompt 02 & Prompt 02.1).
+Ensures strict validation, evidence-level provenance, zero-fabrication guarantees,
+and deterministic serialization.
 """
 
 from enum import Enum
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Any, Optional, Tuple
 from pydantic import BaseModel, Field, ConfigDict
 
 from scripts.foundation.models import (
@@ -15,6 +16,14 @@ from scripts.foundation.models import (
     BOMItem,
     PriceStatus,
 )
+
+
+class ContentStatus(str, Enum):
+    SOURCE = "SOURCE"
+    DERIVED = "DERIVED"
+    GENERATED = "GENERATED"
+    NOT_DOCUMENTED = "NOT_DOCUMENTED"
+    UNVERIFIED = "UNVERIFIED"
 
 
 class DuplicateClassification(str, Enum):
@@ -36,6 +45,53 @@ class RelationType(str, Enum):
     SHARES_FIRMWARE_WITH = "SHARES_FIRMWARE_WITH"
 
 
+class BoundaryReconciliationStatus(str, Enum):
+    MATCH = "MATCH"
+    PARTIAL_MATCH = "PARTIAL_MATCH"
+    BOUNDARY_MISMATCH = "BOUNDARY_MISMATCH"
+    MISSING_IN_IR = "MISSING_IN_IR"
+    MISSING_IN_CATALOG = "MISSING_IN_CATALOG"
+    NEEDS_REVIEW = "NEEDS_REVIEW"
+
+
+class EvidenceBlock(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+    sourceDocumentId: str = Field(description="e.g. guide-001")
+    pageNumber: int = Field(description="1-based page number in source PDF")
+    blockIndex: int = Field(description="0-based block index within Document IR page")
+    textSnippet: str = Field(description="Literal text extracted from the block")
+    bbox: Optional[List[float]] = Field(default=None, description="[x0, y0, x1, y1] bounding box in PDF points")
+    sourceHash: str = Field(description="SHA-256 of the source PDF")
+    claim: Optional[str] = Field(default=None, description="What this evidence supports")
+
+
+class ProjectBoundary(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+    sourceDocumentId: str = Field(description="e.g. guide-001")
+    projectNumber: int = Field(description="1-based project sequence number in the document")
+    titleHint: Optional[str] = Field(default=None, description="Title detected in heading/block")
+    startPage: int = Field(description="Starting page number (1-based)")
+    startBlock: int = Field(description="Starting block index on startPage")
+    endPage: int = Field(description="Ending page number (1-based)")
+    endBlock: int = Field(description="Ending block index on endPage")
+    detectionMethod: str = Field(description="e.g. ir_heading_marker, ir_title_pattern, layout_continuity")
+    confidence: float = Field(default=1.0, ge=0.0, le=1.0)
+    evidenceBlocks: List[EvidenceBlock] = Field(default_factory=list)
+
+
+class BoundaryReconciliationRecord(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+    projectId: str
+    guideId: str
+    projectNumber: int
+    catalogTitle: str
+    irTitle: Optional[str] = None
+    catalogPageRange: List[int]
+    irPageRange: List[int]
+    status: BoundaryReconciliationStatus
+    discrepancyNote: Optional[str] = None
+
+
 class TechnicalIdentity(BaseModel):
     model_config = ConfigDict(extra="forbid")
     controller: Optional[str] = Field(default=None, description="Normalized main MCU/SoC, e.g., ESP32, STM32F4")
@@ -53,9 +109,9 @@ class TechnicalIdentity(BaseModel):
 
 class ProjectDescription(BaseModel):
     model_config = ConfigDict(extra="forbid")
-    whatIsIt: str = Field(description="¿Qué es?: Definición concisa y fiel del sistema")
-    whatDoesItDo: str = Field(description="¿Qué hace?: Descripción técnica operativa")
-    purpose: str = Field(description="¿Para qué sirve?: Propósito y casos de uso en el mundo real")
+    whatIsIt: str = Field(description="¿Qué es?: Definición concisa y fiel del sistema respaldada por evidencia")
+    whatDoesItDo: str = Field(description="¿Qué hace?: Descripción técnica operativa respaldada por evidencia")
+    purpose: str = Field(description="¿Para qué sirve?: Propósito y casos de uso respaldados por evidencia")
     objective: Optional[str] = Field(default=None, description="¿Cuál es su objetivo?")
     technologies: List[str] = Field(default_factory=list, description="¿Qué tecnología utiliza?")
     summary: str = Field(description="Resumen técnico integrado")
@@ -65,9 +121,11 @@ class TechnicalSection(BaseModel):
     model_config = ConfigDict(extra="forbid")
     sectionIndex: int
     title: str
-    sourceText: str = Field(description="Texto fuente original o cita directa textual")
-    derivedExplanation: str = Field(description="Explicación técnica derivada y estructurada")
-    provenance: Provenance
+    sourceText: Optional[str] = Field(default=None, description="Texto literal exacto extraído de Document IR o None")
+    derivedExplanation: Optional[str] = Field(default=None, description="Explicación técnica fundamentada en evidencia o None")
+    status: ContentStatus = Field(default=ContentStatus.SOURCE)
+    evidenceBlocks: List[EvidenceBlock] = Field(default_factory=list)
+    provenance: Optional[Provenance] = None
 
 
 class DetailedExplanation(BaseModel):
@@ -98,22 +156,21 @@ class ProjectSource(BaseModel):
     projectId: str = Field(description="ID of the extracted Project")
     sourceDocumentId: str = Field(description="e.g. guide-001")
     sourcePath: str = Field(description="Repository path to the source PDF")
-    sourceHash: str = Field(description="SHA-256 of the source document")
-    pageStart: int
-    pageEnd: int
-    sections: List[str] = Field(default_factory=list)
-    evidenceBlocks: List[int] = Field(default_factory=list, description="IR block indices containing source evidence")
-    extractionMethod: str = "project-boundary-detector-v1"
-    extractorVersion: str = "1.0.0"
+    sourceHash: str = Field(description="SHA-256 hash of the source PDF")
+    pageRange: List[int] = Field(description="[startPage, endPage] bounds in source PDF")
+    sectionTitle: Optional[str] = None
+    isPrimary: bool = True
     confidence: ProvenanceConfidence = ProvenanceConfidence.EXACT
-
+    evidenceBlocks: List[EvidenceBlock] = Field(default_factory=list)
 
 
 class ProjectBOMItem(BaseModel):
     model_config = ConfigDict(extra="forbid")
-    itemNumber: int = Field(default=1)
-    componentName: str = Field(description="Nombre del componente")
-    quantity: int = Field(default=1)
+    name: str
+    specs: Optional[str] = None
+    qty: int = 1
+    cost: Optional[str] = None
+    category: Optional[str] = None
     designator: Optional[str] = None
     value: Optional[str] = None
     manufacturer: Optional[str] = None
@@ -123,112 +180,99 @@ class ProjectBOMItem(BaseModel):
     priceStatus: PriceStatus = PriceStatus.UNVERIFIED
     notes: Optional[str] = None
     provenance: Optional[Provenance] = None
+    evidenceBlocks: List[EvidenceBlock] = Field(default_factory=list)
+
+
+class Project(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+    projectId: str = Field(description="Deterministic ID: proj-{sha256[:16]}")
+    slug: str = Field(description="Deterministic human-friendly URL slug")
+    title: str = Field(description="Canonical title of the project")
+    projectNumber: int = Field(description="Sequence number within the guide")
+    guideId: str = Field(description="Primary source guide ID e.g. guide-001")
+    guideTitle: str = Field(description="Title of the source guide")
+    sourceDocumentId: str = Field(description="e.g. guide-001")
+    sourcePageRange: str = Field(description="e.g. 2-4")
+    relativePath: str = Field(description="Path to PDF")
+    technicalIdentity: TechnicalIdentity
+    description: ProjectDescription
+    detailedExplanation: DetailedExplanation
+    bom: List[ProjectBOMItem] = Field(default_factory=list)
+    firmwareCode: Optional[str] = Field(default=None, description="Firmware snippet or reference")
+    firmwareLanguage: Optional[str] = Field(default=None)
+    schematicSvg: Optional[str] = Field(default=None, description="Path to project schematic SVG")
+    blueprintImage: Optional[str] = Field(default=None, description="Path to blueprint or photo")
+    difficulty: Optional[str] = None
+    timeEstimate: Optional[str] = None
+    provenance: Provenance
+    sources: List[ProjectSource] = Field(default_factory=list)
+    boundary: Optional[ProjectBoundary] = None
+
+
+class DuplicateCandidate(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+    candidateId: str = Field(description="cand-{sha256[:16]}")
+    projectAId: str
+    projectBId: str
+    similarityScore: float = Field(ge=0.0, le=1.0)
+    classification: DuplicateClassification
+    matchEvidence: List[str] = Field(default_factory=list)
+    conflictEvidence: List[str] = Field(default_factory=list)
+    evaluatedSignals: Dict[str, Any] = Field(default_factory=dict)
+    identityEvidence: List[str] = Field(default_factory=list)
+    similarityEvidence: List[str] = Field(default_factory=list)
 
 
 class ConflictRecord(BaseModel):
     model_config = ConfigDict(extra="forbid")
     conflictId: str
-    field: str
+    fieldPath: str
+    valueA: Any
+    valueB: Any
     sourceAId: str
     sourceBId: str
-    sourceAValue: Any
-    sourceBValue: Any
-    status: str = "NEEDS_REVIEW"
-    notes: str
-    provenance: Provenance
-
-
-class Project(BaseModel):
-    model_config = ConfigDict(extra="forbid")
-    projectId: str = Field(description="Deterministic Project ID, e.g. proj-...")
-    slug: str = Field(description="URL-safe unique slug")
-    title: str = Field(description="Technical project title")
-    projectNumber: int = Field(description="1-based index within the source guide")
-    guideId: str = Field(description="Source guide ID, e.g. guide-001")
-    guideTitle: str = Field(description="Title of containing guide")
-    sourceDocumentId: str = Field(description="Source document ID")
-    relativePath: str = Field(description="Relative path to source document")
-    sourcePageRange: List[int] = Field(description="[start_page, end_page]")
-    description: ProjectDescription
-    detailedExplanation: DetailedExplanation
-    technicalIdentity: TechnicalIdentity
-    bom: List[ProjectBOMItem] = Field(default_factory=list)
-    schematicSvg: Optional[str] = Field(default=None, description="Path to project schematic SVG")
-    blueprintImage: Optional[str] = Field(default=None, description="Path to blueprint or photo")
-    firmwareCode: Optional[str] = Field(default=None, description="Firmware snippet or reference")
-    firmwareLanguage: Optional[str] = Field(default=None)
-    timeEstimate: str = Field(default="1-2 semanas")
-    difficulty: str = Field(default="Intermedio")
-    sources: List[ProjectSource] = Field(default_factory=list)
-    provenance: Provenance
+    resolution: str = "NEEDS_REVIEW"
 
 
 class ProjectVariant(BaseModel):
     model_config = ConfigDict(extra="forbid")
     variantId: str
-    canonicalProjectId: str
-    variantTitle: str
-    differences: Dict[str, Any] = Field(description="Documented technical deltas: MCU, sensor, etc.")
-    sourceProjectId: str
-    provenance: Provenance
-
-
-class DuplicateCandidate(BaseModel):
-    model_config = ConfigDict(extra="forbid")
-    candidateId: str
-    projectAId: str
-    projectBId: str
-    projectATitle: str
-    projectBTitle: str
-    score: float = Field(ge=0.0, le=1.0)
-    signals: Dict[str, float] = Field(description="Individual signal scores: title, controller, bom, text")
-    classification: DuplicateClassification
-    confidence: ProvenanceConfidence
-    reasoning: str
-    provenance: Provenance
-
-
-class ProjectRelation(BaseModel):
-    model_config = ConfigDict(extra="forbid")
-    relationId: str
-    sourceProjectId: str
-    targetProjectId: str
-    relationType: RelationType
-    description: str
-    confidence: ProvenanceConfidence = ProvenanceConfidence.EXACT
-    provenance: Provenance
+    projectId: str
+    variantType: str
+    differences: Dict[str, Any]
 
 
 class CanonicalProject(BaseModel):
     model_config = ConfigDict(extra="forbid")
-    canonicalProjectId: str
-    slug: str
-    canonicalTitle: str
-    memberProjectIds: List[str] = Field(description="List of Project IDs grouped under this canonical identity")
-    projectSources: List[ProjectSource] = Field(description="All documentary occurrences preserving provenance")
+    canonicalProjectId: str = Field(description="cproj-{sha256[:16]}")
+    canonicalSlug: str
+    preferredTitle: str
+    projectIds: List[str] = Field(description="All merged Project IDs belonging to this entity")
+    variantIds: List[str] = Field(default_factory=list)
     technicalIdentity: TechnicalIdentity
-    reconciledDescription: ProjectDescription
-    reconciledExplanation: DetailedExplanation
-    reconciledBom: List[ProjectBOMItem] = Field(default_factory=list)
+    canonicalDescription: ProjectDescription
+    consolidatedBOM: List[ProjectBOMItem] = Field(default_factory=list)
+    firmwareSnippets: List[Dict[str, str]] = Field(default_factory=list)
     schematicSvg: Optional[str] = None
     blueprintImage: Optional[str] = None
-    conflicts: List[ConflictRecord] = Field(default_factory=list)
-    variants: List[ProjectVariant] = Field(default_factory=list)
-    relations: List[ProjectRelation] = Field(default_factory=list)
-    provenance: Provenance
+    sources: List[ProjectSource] = Field(default_factory=list)
+    conflictRecords: List[ConflictRecord] = Field(default_factory=list)
+
+
+class ProjectRelation(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+    relationId: str = Field(description="rel-{sha256[:16]}")
+    sourceProjectId: str
+    targetProjectId: str
+    relationType: RelationType
+    description: str
+    confidence: float = 1.0
 
 
 class ProjectCatalog(BaseModel):
     model_config = ConfigDict(extra="forbid")
-    schemaVersion: str = "2.0.0"
-    generator: str = "engineering-guides-project-first"
-    generatorVersion: str = "1.0.0"
+    schemaVersion: str = "2.1.0"
+    generatedAt: str
     totalProjects: int
-    totalCanonicalProjects: int
-    totalVariants: int
-    totalDuplicateCandidates: int
-    totalRelations: int
     projects: List[Project]
-    canonicalProjects: List[CanonicalProject]
-    duplicateCandidates: List[DuplicateCandidate]
-    relations: List[ProjectRelation]
+    metadata: Dict[str, Any] = Field(default_factory=dict)

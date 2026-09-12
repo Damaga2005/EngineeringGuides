@@ -1,0 +1,3113 @@
+[
+  {
+    "catalogPageRange": [
+      2,
+      5
+    ],
+    "catalogTitle": "Digital Night-Vision Monocular",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-001",
+    "irPageRange": [
+      2,
+      5
+    ],
+    "irTitle": "Digital Night-Vision Monocular",
+    "projectId": "proj-9cc1a42f66e7c4d5",
+    "projectNumber": 1,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      5,
+      8
+    ],
+    "catalogTitle": "Wearable Heads-Up Display (HUD)",
+    "discrepancyNote": "Catalog title 'Wearable Heads-Up Display (HUD)' reconciled with IR heading 'AR Heads-Up Display Goggles'.",
+    "guideId": "guide-001",
+    "irPageRange": [
+      5,
+      8
+    ],
+    "irTitle": "AR Heads-Up Display Goggles",
+    "projectId": "proj-a6a7911d0a82e714",
+    "projectNumber": 2,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      8,
+      11
+    ],
+    "catalogTitle": "Solar Perimeter Sentry Tower",
+    "discrepancyNote": "Catalog title 'Solar Perimeter Sentry Tower' reconciled with IR heading 'Autonomous Sentry Tower'.",
+    "guideId": "guide-001",
+    "irPageRange": [
+      8,
+      11
+    ],
+    "irTitle": "Autonomous Sentry Tower",
+    "projectId": "proj-7b3d0a559298c92a",
+    "projectNumber": 3,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      11,
+      13
+    ],
+    "catalogTitle": "RF Spectrum Surveillance Station",
+    "discrepancyNote": "Catalog title 'RF Spectrum Surveillance Station' reconciled with IR heading 'RF Ground Station'.",
+    "guideId": "guide-001",
+    "irPageRange": [
+      11,
+      13
+    ],
+    "irTitle": "RF Ground Station",
+    "projectId": "proj-cff102681e8f1361",
+    "projectNumber": 4,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      13,
+      15
+    ],
+    "catalogTitle": "Off-Grid LoRa Mesh Node",
+    "discrepancyNote": "Catalog title 'Off-Grid LoRa Mesh Node' reconciled with IR heading 'Mesh Field Radio'.",
+    "guideId": "guide-001",
+    "irPageRange": [
+      13,
+      15
+    ],
+    "irTitle": "Mesh Field Radio",
+    "projectId": "proj-8df10854ea1082a6",
+    "projectNumber": 5,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      15,
+      18
+    ],
+    "catalogTitle": "Tactical Situational Awareness Map",
+    "discrepancyNote": "Catalog title 'Tactical Situational Awareness Map' reconciled with IR heading 'Command Map (Common Operating'.",
+    "guideId": "guide-001",
+    "irPageRange": [
+      15,
+      18
+    ],
+    "irTitle": "Command Map (Common Operating",
+    "projectId": "proj-a74b6ca7835233c4",
+    "projectNumber": 6,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      2,
+      4
+    ],
+    "catalogTitle": "Indoor Position Hold (Optical Flow + ToF)",
+    "discrepancyNote": "Catalog title 'Indoor Position Hold (Optical Flow + ToF)' reconciled with IR heading 'UPGRADE 01 · REV A'.",
+    "guideId": "guide-002",
+    "irPageRange": [
+      2,
+      4
+    ],
+    "irTitle": "UPGRADE 01 · REV A",
+    "projectId": "proj-3c8e3f6f2e8b24be",
+    "projectNumber": 1,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      4,
+      7
+    ],
+    "catalogTitle": "Obstacle-Avoidance Sensor Ring",
+    "discrepancyNote": "Catalog title 'Obstacle-Avoidance Sensor Ring' reconciled with IR heading '[ U P G R A D E 0 2 ]'.",
+    "guideId": "guide-002",
+    "irPageRange": [
+      4,
+      7
+    ],
+    "irTitle": "[ U P G R A D E 0 2 ]",
+    "projectId": "proj-7251513973158948",
+    "projectNumber": 2,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      7,
+      9
+    ],
+    "catalogTitle": "Parachute Recovery System",
+    "discrepancyNote": "Catalog title 'Parachute Recovery System' reconciled with IR heading 'UPGRADE 03 · REV A'.",
+    "guideId": "guide-002",
+    "irPageRange": [
+      7,
+      9
+    ],
+    "irTitle": "UPGRADE 03 · REV A",
+    "projectId": "proj-171507a32b08d9c8",
+    "projectNumber": 3,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      9,
+      11
+    ],
+    "catalogTitle": "2-Axis Brushless Gimbal (FOC)",
+    "discrepancyNote": "Catalog title '2-Axis Brushless Gimbal (FOC)' reconciled with IR heading 'UPGRADE 04 · REV A'.",
+    "guideId": "guide-002",
+    "irPageRange": [
+      9,
+      11
+    ],
+    "irTitle": "UPGRADE 04 · REV A",
+    "projectId": "proj-b4e3670bf00a9de2",
+    "projectNumber": 4,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      11,
+      13
+    ],
+    "catalogTitle": "Vision Precision Landing",
+    "discrepancyNote": "Catalog title 'Vision Precision Landing' reconciled with IR heading 'UPGRADE 05 · REV A'.",
+    "guideId": "guide-002",
+    "irPageRange": [
+      11,
+      13
+    ],
+    "irTitle": "UPGRADE 05 · REV A",
+    "projectId": "proj-217f596a43c24e22",
+    "projectNumber": 5,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      13,
+      16
+    ],
+    "catalogTitle": "Signal-Mapping Payload",
+    "discrepancyNote": "Catalog title 'Signal-Mapping Payload' reconciled with IR heading '[ U P G R A D E 0 6 ]'.",
+    "guideId": "guide-002",
+    "irPageRange": [
+      13,
+      16
+    ],
+    "irTitle": "[ U P G R A D E 0 6 ]",
+    "projectId": "proj-a906f1e86a9caa9f",
+    "projectNumber": 6,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      2,
+      5
+    ],
+    "catalogTitle": "Cold-Gas Reaction Thruster",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-003",
+    "irPageRange": [
+      2,
+      5
+    ],
+    "irTitle": "Cold-Gas Reaction Thruster",
+    "projectId": "proj-2af812b638d86e49",
+    "projectNumber": 1,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      6,
+      8
+    ],
+    "catalogTitle": "Auto-Tracking Ground Station",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-003",
+    "irPageRange": [
+      6,
+      8
+    ],
+    "irTitle": "Auto-Tracking Ground Station",
+    "projectId": "proj-8c76d2f0e14a7e6d",
+    "projectNumber": 2,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      9,
+      11
+    ],
+    "catalogTitle": "Magnetorquer Detumble System",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-003",
+    "irPageRange": [
+      9,
+      11
+    ],
+    "irTitle": "Magnetorquer Detumble System",
+    "projectId": "proj-ca734fe29c1ae5d0",
+    "projectNumber": 3,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      12,
+      15
+    ],
+    "catalogTitle": "CubeSat Flight Computer (OBC)",
+    "discrepancyNote": "Catalog title 'CubeSat Flight Computer (OBC)' reconciled with IR heading 'Satellite-in-a-Box Flight Computer'.",
+    "guideId": "guide-003",
+    "irPageRange": [
+      12,
+      15
+    ],
+    "irTitle": "Satellite-in-a-Box Flight Computer",
+    "projectId": "proj-c552597bc8d468cc",
+    "projectNumber": 4,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      16,
+      18
+    ],
+    "catalogTitle": "Sun-Vector Attitude Sensor",
+    "discrepancyNote": "Catalog title 'Sun-Vector Attitude Sensor' reconciled with IR heading 'Sun-Vector Sensor'.",
+    "guideId": "guide-003",
+    "irPageRange": [
+      16,
+      18
+    ],
+    "irTitle": "Sun-Vector Sensor",
+    "projectId": "proj-4e59318e9573e811",
+    "projectNumber": 5,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      19,
+      23
+    ],
+    "catalogTitle": "CubeSat Power System (EPS)",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-003",
+    "irPageRange": [
+      19,
+      23
+    ],
+    "irTitle": "CubeSat Power System (EPS)",
+    "projectId": "proj-1c9a39c563794ef5",
+    "projectNumber": 6,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      2,
+      5
+    ],
+    "catalogTitle": "ADS-B Aircraft Radar",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-004",
+    "irPageRange": [
+      2,
+      5
+    ],
+    "irTitle": "ADS-B Aircraft Radar",
+    "projectId": "proj-fe7e3a913842843d",
+    "projectNumber": 1,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      6,
+      9
+    ],
+    "catalogTitle": "TPMS Car-ID Sniffer",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-004",
+    "irPageRange": [
+      6,
+      9
+    ],
+    "irTitle": "TPMS Car-ID Sniffer",
+    "projectId": "proj-c7b41f4c9e7635d2",
+    "projectNumber": 2,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      10,
+      12
+    ],
+    "catalogTitle": "Radio Meteor Scatter Detector",
+    "discrepancyNote": "Catalog title 'Radio Meteor Scatter Detector' reconciled with IR heading 'Radio Meteor Detector'.",
+    "guideId": "guide-004",
+    "irPageRange": [
+      10,
+      12
+    ],
+    "irTitle": "Radio Meteor Detector",
+    "projectId": "proj-d9a1ad8519965884",
+    "projectNumber": 3,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      13,
+      15
+    ],
+    "catalogTitle": "AIS Marine Vessel Tracker",
+    "discrepancyNote": "Catalog title 'AIS Marine Vessel Tracker' reconciled with IR heading 'AIS Ship Tracker'.",
+    "guideId": "guide-004",
+    "irPageRange": [
+      13,
+      15
+    ],
+    "irTitle": "AIS Ship Tracker",
+    "projectId": "proj-53dcbf9d339e022d",
+    "projectNumber": 4,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      16,
+      18
+    ],
+    "catalogTitle": "433 MHz ISM Sensor Decoder",
+    "discrepancyNote": "Catalog title '433 MHz ISM Sensor Decoder' reconciled with IR heading '433 MHz Sensor Decoder'.",
+    "guideId": "guide-004",
+    "irPageRange": [
+      16,
+      18
+    ],
+    "irTitle": "433 MHz Sensor Decoder",
+    "projectId": "proj-ea0a6ca4f058bde4",
+    "projectNumber": 5,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      19,
+      23
+    ],
+    "catalogTitle": "Stratospheric Radiosonde Tracker",
+    "discrepancyNote": "Catalog title 'Stratospheric Radiosonde Tracker' reconciled with IR heading 'Radiosonde Tracker & Recovery'.",
+    "guideId": "guide-004",
+    "irPageRange": [
+      19,
+      23
+    ],
+    "irTitle": "Radiosonde Tracker & Recovery",
+    "projectId": "proj-529f0d836c079877",
+    "projectNumber": 6,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      2,
+      3
+    ],
+    "catalogTitle": "Closed-Loop Stepper Controller",
+    "discrepancyNote": "Catalog title 'Closed-Loop Stepper Controller' reconciled with IR heading 'H-Bridge DC Motor Driver'.",
+    "guideId": "guide-005",
+    "irPageRange": [
+      2,
+      3
+    ],
+    "irTitle": "H-Bridge DC Motor Driver",
+    "projectId": "proj-097a8eaf224741a8",
+    "projectNumber": 1,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      4,
+      6
+    ],
+    "catalogTitle": "Field-Oriented Control (FOC) BLDC Servo",
+    "discrepancyNote": "Catalog title 'Field-Oriented Control (FOC) BLDC Servo' reconciled with IR heading 'Closed-Loop Position Servo'.",
+    "guideId": "guide-005",
+    "irPageRange": [
+      4,
+      6
+    ],
+    "irTitle": "Closed-Loop Position Servo",
+    "projectId": "proj-f353d8bac54c1f1e",
+    "projectNumber": 2,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      7,
+      9
+    ],
+    "catalogTitle": "Micrometric Linear Lead-Screw Stage",
+    "discrepancyNote": "Catalog title 'Micrometric Linear Lead-Screw Stage' reconciled with IR heading 'Self-Balancing Robot'.",
+    "guideId": "guide-005",
+    "irPageRange": [
+      7,
+      9
+    ],
+    "irTitle": "Self-Balancing Robot",
+    "projectId": "proj-49c8ccba97aec32a",
+    "projectNumber": 3,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      10,
+      12
+    ],
+    "catalogTitle": "PID Inverted Pendulum Balancer",
+    "discrepancyNote": "Catalog title 'PID Inverted Pendulum Balancer' reconciled with IR heading 'FOC Brushless Motor Drive'.",
+    "guideId": "guide-005",
+    "irPageRange": [
+      10,
+      12
+    ],
+    "irTitle": "FOC Brushless Motor Drive",
+    "projectId": "proj-c1422fd48562f524",
+    "projectNumber": 4,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      13,
+      15
+    ],
+    "catalogTitle": "Torque-Limiting Linear Actuator",
+    "discrepancyNote": "Catalog title 'Torque-Limiting Linear Actuator' reconciled with IR heading '2-Axis Pen Plotter'.",
+    "guideId": "guide-005",
+    "irPageRange": [
+      13,
+      15
+    ],
+    "irTitle": "2-Axis Pen Plotter",
+    "projectId": "proj-f279f4481f7b38bd",
+    "projectNumber": 5,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      16,
+      19
+    ],
+    "catalogTitle": "3D-Printed Cycloidal Drive Joint",
+    "discrepancyNote": "Catalog title '3D-Printed Cycloidal Drive Joint' reconciled with IR heading 'Haptic Smart Knob'.",
+    "guideId": "guide-005",
+    "irPageRange": [
+      16,
+      19
+    ],
+    "irTitle": "Haptic Smart Knob",
+    "projectId": "proj-d69245bb938183fc",
+    "projectNumber": 6,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      2,
+      3
+    ],
+    "catalogTitle": "Custom STM32 Flight Controller",
+    "discrepancyNote": "Catalog title 'Custom STM32 Flight Controller' reconciled with IR heading '❯project 01'.",
+    "guideId": "guide-006",
+    "irPageRange": [
+      2,
+      3
+    ],
+    "irTitle": "❯project 01",
+    "projectId": "proj-14bca4088da46825",
+    "projectNumber": 1,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      3,
+      3
+    ],
+    "catalogTitle": "High-Speed Brushless ESC",
+    "discrepancyNote": "Catalog title 'High-Speed Brushless ESC' reconciled with IR heading 'Build the one-axis test stand'.",
+    "guideId": "guide-006",
+    "irPageRange": [
+      3,
+      3
+    ],
+    "irTitle": "Build the one-axis test stand",
+    "projectId": "proj-b3c136d8aa28f6f1",
+    "projectNumber": 2,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      3,
+      3
+    ],
+    "catalogTitle": "Bidirectional Telemetry Link",
+    "discrepancyNote": "Catalog title 'Bidirectional Telemetry Link' reconciled with IR heading 'Step 3'.",
+    "guideId": "guide-006",
+    "irPageRange": [
+      3,
+      3
+    ],
+    "irTitle": "Step 3",
+    "projectId": "proj-7fc5453be6dbc568",
+    "projectNumber": 3,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      3,
+      3
+    ],
+    "catalogTitle": "Power Distribution Board & Shunt Monitor",
+    "discrepancyNote": "Catalog title 'Power Distribution Board & Shunt Monitor' reconciled with IR heading 'Step 4'.",
+    "guideId": "guide-006",
+    "irPageRange": [
+      3,
+      3
+    ],
+    "irTitle": "Step 4",
+    "projectId": "proj-95688bfbd098e78d",
+    "projectNumber": 4,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      4,
+      16
+    ],
+    "catalogTitle": "Attitude Sensor Fusion Engine",
+    "discrepancyNote": "Catalog title 'Attitude Sensor Fusion Engine' reconciled with IR heading 'Step 5'.",
+    "guideId": "guide-006",
+    "irPageRange": [
+      4,
+      16
+    ],
+    "irTitle": "Step 5",
+    "projectId": "proj-4a566f25189a6e42",
+    "projectNumber": 5,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      17,
+      20
+    ],
+    "catalogTitle": "High-Rate SPI Blackbox Logger",
+    "discrepancyNote": "Catalog title 'High-Rate SPI Blackbox Logger' reconciled with IR heading '❯project 06'.",
+    "guideId": "guide-006",
+    "irPageRange": [
+      17,
+      20
+    ],
+    "irTitle": "❯project 06",
+    "projectId": "proj-996be849dd024582",
+    "projectNumber": 6,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      2,
+      5
+    ],
+    "catalogTitle": "GOES Full-Disk Earth Receiver (1.7 GHz)",
+    "discrepancyNote": "Catalog title 'GOES Full-Disk Earth Receiver (1.7 GHz)' reconciled with IR heading 'GOES Earth Receiver'.",
+    "guideId": "guide-007",
+    "irPageRange": [
+      2,
+      5
+    ],
+    "irTitle": "GOES Earth Receiver",
+    "projectId": "proj-63a47ba3fd3f219d",
+    "projectNumber": 1,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      6,
+      8
+    ],
+    "catalogTitle": "Meteor-M2 Weather Satellite Receiver (137 MHz)",
+    "discrepancyNote": "Catalog title 'Meteor-M2 Weather Satellite Receiver (137 MHz)' reconciled with IR heading 'Meteor-M2 Weather Receiver'.",
+    "guideId": "guide-007",
+    "irPageRange": [
+      6,
+      8
+    ],
+    "irTitle": "Meteor-M2 Weather Receiver",
+    "projectId": "proj-b1dfc8d06e85f822",
+    "projectNumber": 2,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      9,
+      11
+    ],
+    "catalogTitle": "Reaction-Wheel Attitude Controller",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-007",
+    "irPageRange": [
+      9,
+      11
+    ],
+    "irTitle": "Reaction-Wheel Attitude Controller",
+    "projectId": "proj-922a000850e8b5a5",
+    "projectNumber": 3,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      12,
+      14
+    ],
+    "catalogTitle": "Camera-Based Star Tracker",
+    "discrepancyNote": "Catalog title 'Camera-Based Star Tracker' reconciled with IR heading 'Camera Star Tracker'.",
+    "guideId": "guide-007",
+    "irPageRange": [
+      12,
+      14
+    ],
+    "irTitle": "Camera Star Tracker",
+    "projectId": "proj-ab2410b28d3cebe9",
+    "projectNumber": 4,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      15,
+      17
+    ],
+    "catalogTitle": "GPS-Disciplined Oscillator (GPSDO)",
+    "discrepancyNote": "Substantial title match: 'GPS-Disciplined Oscillator (GPSDO)' vs 'GPS-Disciplined Oscillator'.",
+    "guideId": "guide-007",
+    "irPageRange": [
+      15,
+      17
+    ],
+    "irTitle": "GPS-Disciplined Oscillator",
+    "projectId": "proj-4f6fea2cf64f5efa",
+    "projectNumber": 5,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      18,
+      21
+    ],
+    "catalogTitle": "Cosmic-Ray Muon Detector",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-007",
+    "irPageRange": [
+      18,
+      21
+    ],
+    "irTitle": "Cosmic-Ray Muon Detector",
+    "projectId": "proj-34a96d7e92205063",
+    "projectNumber": 6,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      2,
+      4
+    ],
+    "catalogTitle": "3-Lead ECG Heart Rate Monitor",
+    "discrepancyNote": "Catalog title '3-Lead ECG Heart Rate Monitor' reconciled with IR heading 'Optical Pulse Sensor (PPG)'.",
+    "guideId": "guide-008",
+    "irPageRange": [
+      2,
+      4
+    ],
+    "irTitle": "Optical Pulse Sensor (PPG)",
+    "projectId": "proj-ce306b5cb95f8c2a",
+    "projectNumber": 1,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      5,
+      7
+    ],
+    "catalogTitle": "EMG Muscle-Controlled Prosthetic Trigger",
+    "discrepancyNote": "Catalog title 'EMG Muscle-Controlled Prosthetic Trigger' reconciled with IR heading 'Biopotential Front End'.",
+    "guideId": "guide-008",
+    "irPageRange": [
+      5,
+      7
+    ],
+    "irTitle": "Biopotential Front End",
+    "projectId": "proj-2f202e89ff045441",
+    "projectNumber": 2,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      8,
+      11
+    ],
+    "catalogTitle": "Single-Channel Alpha-Wave EEG Monitor",
+    "discrepancyNote": "Catalog title 'Single-Channel Alpha-Wave EEG Monitor' reconciled with IR heading 'ECG Heart Monitor'.",
+    "guideId": "guide-008",
+    "irPageRange": [
+      8,
+      11
+    ],
+    "irTitle": "ECG Heart Monitor",
+    "projectId": "proj-f04cc7365f79eb84",
+    "projectNumber": 3,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      12,
+      13
+    ],
+    "catalogTitle": "Dual-Wavelength Pulse Oximeter (PPG)",
+    "discrepancyNote": "Catalog title 'Dual-Wavelength Pulse Oximeter (PPG)' reconciled with IR heading 'EMG Muscle Sensor'.",
+    "guideId": "guide-008",
+    "irPageRange": [
+      12,
+      13
+    ],
+    "irTitle": "EMG Muscle Sensor",
+    "projectId": "proj-02bea515e35b1b01",
+    "projectNumber": 4,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      14,
+      16
+    ],
+    "catalogTitle": "Galvanic Skin Response (GSR) Stress Sensor",
+    "discrepancyNote": "Catalog title 'Galvanic Skin Response (GSR) Stress Sensor' reconciled with IR heading 'EMG-Controlled Robotic Hand'.",
+    "guideId": "guide-008",
+    "irPageRange": [
+      14,
+      16
+    ],
+    "irTitle": "EMG-Controlled Robotic Hand",
+    "projectId": "proj-b02bcca777dfb105",
+    "projectNumber": 5,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      17,
+      20
+    ],
+    "catalogTitle": "Bio-Impedance Body Composition Analyzer",
+    "discrepancyNote": "Catalog title 'Bio-Impedance Body Composition Analyzer' reconciled with IR heading 'EEG Alpha-Wave Detector'.",
+    "guideId": "guide-008",
+    "irPageRange": [
+      17,
+      20
+    ],
+    "irTitle": "EEG Alpha-Wave Detector",
+    "projectId": "proj-a8e6f7c0ed91345a",
+    "projectNumber": 6,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      2,
+      4
+    ],
+    "catalogTitle": "Optical Break-Beam Speed Trap",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-009",
+    "irPageRange": [
+      2,
+      4
+    ],
+    "irTitle": "Optical Break-Beam Speed Trap",
+    "projectId": "proj-3e3f9a100e72ef01",
+    "projectNumber": 1,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      5,
+      7
+    ],
+    "catalogTitle": "Laser Rangefinder (ToF LiDAR)",
+    "discrepancyNote": "Catalog title 'Laser Rangefinder (ToF LiDAR)' reconciled with IR heading 'Laser Rangefinder (Time-of-Flight LiDAR)'.",
+    "guideId": "guide-009",
+    "irPageRange": [
+      5,
+      7
+    ],
+    "irTitle": "Laser Rangefinder (Time-of-Flight LiDAR)",
+    "projectId": "proj-683b8320c77d62a2",
+    "projectNumber": 2,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      8,
+      9
+    ],
+    "catalogTitle": "Spinning LiDAR Room Scanner",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-009",
+    "irPageRange": [
+      8,
+      9
+    ],
+    "irTitle": "Spinning LiDAR Room Scanner",
+    "projectId": "proj-4298d36c898dd8e5",
+    "projectNumber": 3,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      10,
+      11
+    ],
+    "catalogTitle": "Free-Space Optical (FSO) Laser Data Link",
+    "discrepancyNote": "Catalog title 'Free-Space Optical (FSO) Laser Data Link' reconciled with IR heading 'Laser Data Link (Free-Space Optical Comms)'.",
+    "guideId": "guide-009",
+    "irPageRange": [
+      10,
+      11
+    ],
+    "irTitle": "Laser Data Link (Free-Space Optical Comms)",
+    "projectId": "proj-1cef58ba65d1d5e5",
+    "projectNumber": 4,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      12,
+      14
+    ],
+    "catalogTitle": "Laser Doppler Vibrometer",
+    "discrepancyNote": "Catalog title 'Laser Doppler Vibrometer' reconciled with IR heading 'Laser Vibrometer'.",
+    "guideId": "guide-009",
+    "irPageRange": [
+      12,
+      14
+    ],
+    "irTitle": "Laser Vibrometer",
+    "projectId": "proj-052a5c03c6733f19",
+    "projectNumber": 5,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      15,
+      18
+    ],
+    "catalogTitle": "Structured-Light 3D Scanner",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-009",
+    "irPageRange": [
+      15,
+      18
+    ],
+    "irTitle": "Structured-Light 3D Scanner",
+    "projectId": "proj-a01b6b6a4845f998",
+    "projectNumber": 6,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      2,
+      4
+    ],
+    "catalogTitle": "10.5 GHz Doppler Motion Radar",
+    "discrepancyNote": "Substantial title match: '10.5 GHz Doppler Motion Radar' vs 'Doppler Motion Radar'.",
+    "guideId": "guide-010",
+    "irPageRange": [
+      2,
+      4
+    ],
+    "irTitle": "Doppler Motion Radar",
+    "projectId": "proj-b31ec7524b983ae9",
+    "projectNumber": 1,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      5,
+      6
+    ],
+    "catalogTitle": "Calibrated Radar Speed Gun",
+    "discrepancyNote": "Substantial title match: 'Calibrated Radar Speed Gun' vs 'Radar Speed Gun'.",
+    "guideId": "guide-010",
+    "irPageRange": [
+      5,
+      6
+    ],
+    "irTitle": "Radar Speed Gun",
+    "projectId": "proj-f4ffdb28464cbacb",
+    "projectNumber": 2,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      7,
+      9
+    ],
+    "catalogTitle": "FMCW Ranging Radar (24 GHz)",
+    "discrepancyNote": "Substantial title match: 'FMCW Ranging Radar (24 GHz)' vs 'FMCW Ranging Radar'.",
+    "guideId": "guide-010",
+    "irPageRange": [
+      7,
+      9
+    ],
+    "irTitle": "FMCW Ranging Radar",
+    "projectId": "proj-0e0c3069f5a83ea4",
+    "projectNumber": 3,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      10,
+      12
+    ],
+    "catalogTitle": "Micro-Doppler Vital-Signs Radar",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-010",
+    "irPageRange": [
+      10,
+      12
+    ],
+    "irTitle": "Micro-Doppler Vital-Signs Radar",
+    "projectId": "proj-a88e25aca204d340",
+    "projectNumber": 4,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      13,
+      15
+    ],
+    "catalogTitle": "Through-Wall WiFi Motion Detector",
+    "discrepancyNote": "Catalog title 'Through-Wall WiFi Motion Detector' reconciled with IR heading 'WiFi-Sensing Motion Detector'.",
+    "guideId": "guide-010",
+    "irPageRange": [
+      13,
+      15
+    ],
+    "irTitle": "WiFi-Sensing Motion Detector",
+    "projectId": "proj-4902d58497d90422",
+    "projectNumber": 5,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      16,
+      19
+    ],
+    "catalogTitle": "Passive Bistatic Radar",
+    "discrepancyNote": "Catalog title 'Passive Bistatic Radar' reconciled with IR heading 'Passive Radar'.",
+    "guideId": "guide-010",
+    "irPageRange": [
+      16,
+      19
+    ],
+    "irTitle": "Passive Radar",
+    "projectId": "proj-82f234929af2fa43",
+    "projectNumber": 6,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      2,
+      5
+    ],
+    "catalogTitle": "GNSS Receiver & Resilience Analysis",
+    "discrepancyNote": "Substantial title match: 'GNSS Receiver & Resilience Analysis' vs 'GNSS Receiver & Resilience'.",
+    "guideId": "guide-011",
+    "irPageRange": [
+      2,
+      5
+    ],
+    "irTitle": "GNSS Receiver & Resilience",
+    "projectId": "proj-1a64e60857cbc87d",
+    "projectNumber": 1,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      5,
+      8
+    ],
+    "catalogTitle": "RF Direction Finder (Pseudo-Doppler)",
+    "discrepancyNote": "Substantial title match: 'RF Direction Finder (Pseudo-Doppler)' vs 'RF Direction Finder'.",
+    "guideId": "guide-011",
+    "irPageRange": [
+      5,
+      8
+    ],
+    "irTitle": "RF Direction Finder",
+    "projectId": "proj-1c2472bca80aab75",
+    "projectNumber": 2,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      8,
+      10
+    ],
+    "catalogTitle": "Magnetic Anomaly Detector (Fluxgate)",
+    "discrepancyNote": "Substantial title match: 'Magnetic Anomaly Detector (Fluxgate)' vs 'Magnetic Anomaly Detector'.",
+    "guideId": "guide-011",
+    "irPageRange": [
+      8,
+      10
+    ],
+    "irTitle": "Magnetic Anomaly Detector",
+    "projectId": "proj-a42110a4f7ea7e4a",
+    "projectNumber": 3,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      10,
+      12
+    ],
+    "catalogTitle": "Seismic Unattended Ground Sensor (UGS)",
+    "discrepancyNote": "Substantial title match: 'Seismic Unattended Ground Sensor (UGS)' vs 'Seismic Unattended Ground Sensor'.",
+    "guideId": "guide-011",
+    "irPageRange": [
+      10,
+      12
+    ],
+    "irTitle": "Seismic Unattended Ground Sensor",
+    "projectId": "proj-a09c9eaab189e94a",
+    "projectNumber": 4,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      12,
+      14
+    ],
+    "catalogTitle": "Passive Drone Detection Receiver",
+    "discrepancyNote": "Substantial title match: 'Passive Drone Detection Receiver' vs 'Drone Detection Receiver'.",
+    "guideId": "guide-011",
+    "irPageRange": [
+      12,
+      14
+    ],
+    "irTitle": "Drone Detection Receiver",
+    "projectId": "proj-81cc6d566a2c3b2d",
+    "projectNumber": 5,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      14,
+      17
+    ],
+    "catalogTitle": "Frequency-Hopping Encrypted Link (FHSS)",
+    "discrepancyNote": "Substantial title match: 'Frequency-Hopping Encrypted Link (FHSS)' vs 'Frequency-Hopping Encrypted Link'.",
+    "guideId": "guide-011",
+    "irPageRange": [
+      14,
+      17
+    ],
+    "irTitle": "Frequency-Hopping Encrypted Link",
+    "projectId": "proj-4db6eb596b425847",
+    "projectNumber": 6,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      2,
+      3
+    ],
+    "catalogTitle": "GNSS Receiver & Resilience Analysis",
+    "discrepancyNote": "Substantial title match: 'GNSS Receiver & Resilience Analysis' vs 'GNSS Receiver & Resilience'.",
+    "guideId": "guide-012",
+    "irPageRange": [
+      2,
+      3
+    ],
+    "irTitle": "GNSS Receiver & Resilience",
+    "projectId": "proj-f3b88e7e3976ed3b",
+    "projectNumber": 1,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      4,
+      4
+    ],
+    "catalogTitle": "RF Direction Finder (Pseudo-Doppler)",
+    "discrepancyNote": "Catalog title 'RF Direction Finder (Pseudo-Doppler)' reconciled with IR heading 'Parse NMEA'.",
+    "guideId": "guide-012",
+    "irPageRange": [
+      4,
+      4
+    ],
+    "irTitle": "Parse NMEA",
+    "projectId": "proj-6169d784d62573ed",
+    "projectNumber": 2,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      4,
+      4
+    ],
+    "catalogTitle": "Magnetic Anomaly Detector (Fluxgate)",
+    "discrepancyNote": "Catalog title 'Magnetic Anomaly Detector (Fluxgate)' reconciled with IR heading 'Log a track'.",
+    "guideId": "guide-012",
+    "irPageRange": [
+      4,
+      4
+    ],
+    "irTitle": "Log a track",
+    "projectId": "proj-1f516aca4358920d",
+    "projectNumber": 3,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      4,
+      4
+    ],
+    "catalogTitle": "Seismic Unattended Ground Sensor (UGS)",
+    "discrepancyNote": "Catalog title 'Seismic Unattended Ground Sensor (UGS)' reconciled with IR heading 'Recover precise time'.",
+    "guideId": "guide-012",
+    "irPageRange": [
+      4,
+      4
+    ],
+    "irTitle": "Recover precise time",
+    "projectId": "proj-4e461b38f5d05afd",
+    "projectNumber": 4,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      4,
+      18
+    ],
+    "catalogTitle": "Passive Drone Detection Receiver",
+    "discrepancyNote": "Catalog title 'Passive Drone Detection Receiver' reconciled with IR heading 'See the raw signal (optional)'.",
+    "guideId": "guide-012",
+    "irPageRange": [
+      4,
+      18
+    ],
+    "irTitle": "See the raw signal (optional)",
+    "projectId": "proj-4917a0b27097e30c",
+    "projectNumber": 5,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      19,
+      23
+    ],
+    "catalogTitle": "Frequency-Hopping Encrypted Link (FHSS)",
+    "discrepancyNote": "Substantial title match: 'Frequency-Hopping Encrypted Link (FHSS)' vs 'Frequency-Hopping Encrypted Link'.",
+    "guideId": "guide-012",
+    "irPageRange": [
+      19,
+      23
+    ],
+    "irTitle": "Frequency-Hopping Encrypted Link",
+    "projectId": "proj-8b212f8f0d5012cc",
+    "projectNumber": 6,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      2,
+      4
+    ],
+    "catalogTitle": "Reactive Rover (Sense-Plan-Act)",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-013",
+    "irPageRange": [
+      2,
+      4
+    ],
+    "irTitle": "Reactive Rover (Sense-Plan-Act)",
+    "projectId": "proj-0455fb2c072df1ec",
+    "projectNumber": 1,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      4,
+      4
+    ],
+    "catalogTitle": "Robot Arm with Inverse Kinematics",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-013",
+    "irPageRange": [
+      4,
+      4
+    ],
+    "irTitle": "Robot Arm with Inverse Kinematics",
+    "projectId": "proj-ae877be606e5b288",
+    "projectNumber": 2,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      4,
+      4
+    ],
+    "catalogTitle": "Quadruped Walking Robot",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-013",
+    "irPageRange": [
+      4,
+      4
+    ],
+    "irTitle": "Quadruped Walking Robot",
+    "projectId": "proj-8e955745d51cb80d",
+    "projectNumber": 3,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      4,
+      4
+    ],
+    "catalogTitle": "SLAM Mapping Autonomous Rover",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-013",
+    "irPageRange": [
+      4,
+      4
+    ],
+    "irTitle": "SLAM Mapping Autonomous Rover",
+    "projectId": "proj-a245d2a49550770f",
+    "projectNumber": 4,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      4,
+      4
+    ],
+    "catalogTitle": "Self-Balancing Inverted Pendulum",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-013",
+    "irPageRange": [
+      4,
+      4
+    ],
+    "irTitle": "Self-Balancing Inverted Pendulum",
+    "projectId": "proj-761ec11a3abe8911",
+    "projectNumber": 5,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      4,
+      15
+    ],
+    "catalogTitle": "Vision-Guided Pick-and-Place Gantry",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-013",
+    "irPageRange": [
+      4,
+      15
+    ],
+    "irTitle": "Vision-Guided Pick-and-Place Gantry",
+    "projectId": "proj-2684f7e12c69809f",
+    "projectNumber": 6,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      2,
+      4
+    ],
+    "catalogTitle": "Shielding & EMC Hardening (Faraday Box)",
+    "discrepancyNote": "Catalog title 'Shielding & EMC Hardening (Faraday Box)' reconciled with IR heading 'Faraday Cage & EMP-Hardened'.",
+    "guideId": "guide-014",
+    "irPageRange": [
+      2,
+      4
+    ],
+    "irTitle": "Faraday Cage & EMP-Hardened",
+    "projectId": "proj-0b965c322325da27",
+    "projectNumber": 1,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      4,
+      7
+    ],
+    "catalogTitle": "Subsonic Wind Tunnel & Flow Conditioning",
+    "discrepancyNote": "Catalog title 'Subsonic Wind Tunnel & Flow Conditioning' reconciled with IR heading 'Desktop Wind Tunnel'.",
+    "guideId": "guide-014",
+    "irPageRange": [
+      4,
+      7
+    ],
+    "irTitle": "Desktop Wind Tunnel",
+    "projectId": "proj-6a481bcdd735d488",
+    "projectNumber": 2,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      7,
+      10
+    ],
+    "catalogTitle": "Composite Armor Instrumented Impact Tester",
+    "discrepancyNote": "Catalog title 'Composite Armor Instrumented Impact Tester' reconciled with IR heading '[ P R O J E C T 0 3 ]'.",
+    "guideId": "guide-014",
+    "irPageRange": [
+      7,
+      10
+    ],
+    "irTitle": "[ P R O J E C T 0 3 ]",
+    "projectId": "proj-628a686b3596462b",
+    "projectNumber": 3,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      10,
+      12
+    ],
+    "catalogTitle": "Underwater Hydrophone Array & Acoustic TDOA",
+    "discrepancyNote": "Catalog title 'Underwater Hydrophone Array & Acoustic TDOA' reconciled with IR heading 'Passive Sonar Hydrophone Array'.",
+    "guideId": "guide-014",
+    "irPageRange": [
+      10,
+      12
+    ],
+    "irTitle": "Passive Sonar Hydrophone Array",
+    "projectId": "proj-5d89db99dc84eddf",
+    "projectNumber": 4,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      12,
+      14
+    ],
+    "catalogTitle": "Autonomous Guided Airdrop Parafoil (GNC)",
+    "discrepancyNote": "Catalog title 'Autonomous Guided Airdrop Parafoil (GNC)' reconciled with IR heading 'Precision Airdrop Parafoil Payload'.",
+    "guideId": "guide-014",
+    "irPageRange": [
+      12,
+      14
+    ],
+    "irTitle": "Precision Airdrop Parafoil Payload",
+    "projectId": "proj-2cbe8a39a8284482",
+    "projectNumber": 5,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      14,
+      16
+    ],
+    "catalogTitle": "Environmental Torture-Test Lab (Thermal/Vibe)",
+    "discrepancyNote": "Catalog title 'Environmental Torture-Test Lab (Thermal/Vibe)' reconciled with IR heading 'Survivability Test Rig'.",
+    "guideId": "guide-014",
+    "irPageRange": [
+      14,
+      16
+    ],
+    "irTitle": "Survivability Test Rig",
+    "projectId": "proj-5bd7220eac89d8ea",
+    "projectNumber": 6,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      2,
+      4
+    ],
+    "catalogTitle": "Optical Flow & LiDAR Surface Tracker",
+    "discrepancyNote": "Catalog title 'Optical Flow & LiDAR Surface Tracker' reconciled with IR heading 'UPGRADE 01 · REV A'.",
+    "guideId": "guide-015",
+    "irPageRange": [
+      2,
+      4
+    ],
+    "irTitle": "UPGRADE 01 · REV A",
+    "projectId": "proj-a2ebed30b19669a5",
+    "projectNumber": 1,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      4,
+      7
+    ],
+    "catalogTitle": "Redundant Dual-IMU with Kalman Voting",
+    "discrepancyNote": "Catalog title 'Redundant Dual-IMU with Kalman Voting' reconciled with IR heading '[ U P G R A D E 0 2 ]'.",
+    "guideId": "guide-015",
+    "irPageRange": [
+      4,
+      7
+    ],
+    "irTitle": "[ U P G R A D E 0 2 ]",
+    "projectId": "proj-a3d73d08684a062d",
+    "projectNumber": 2,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      7,
+      9
+    ],
+    "catalogTitle": "CAN Bus ESC Telemetry & Power Distribution",
+    "discrepancyNote": "Catalog title 'CAN Bus ESC Telemetry & Power Distribution' reconciled with IR heading 'UPGRADE 03 · REV A'.",
+    "guideId": "guide-015",
+    "irPageRange": [
+      7,
+      9
+    ],
+    "irTitle": "UPGRADE 03 · REV A",
+    "projectId": "proj-a6e02b253844ee9d",
+    "projectNumber": 3,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      9,
+      11
+    ],
+    "catalogTitle": "LoRa Backup Heartbeat & Emergency Parachute",
+    "discrepancyNote": "Catalog title 'LoRa Backup Heartbeat & Emergency Parachute' reconciled with IR heading 'UPGRADE 04 · REV A'.",
+    "guideId": "guide-015",
+    "irPageRange": [
+      9,
+      11
+    ],
+    "irTitle": "UPGRADE 04 · REV A",
+    "projectId": "proj-7d03c84d360dff73",
+    "projectNumber": 4,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      11,
+      13
+    ],
+    "catalogTitle": "Active Rotor Ice Detection & Thermal De-Icing",
+    "discrepancyNote": "Catalog title 'Active Rotor Ice Detection & Thermal De-Icing' reconciled with IR heading 'UPGRADE 05 · REV A'.",
+    "guideId": "guide-015",
+    "irPageRange": [
+      11,
+      13
+    ],
+    "irTitle": "UPGRADE 05 · REV A",
+    "projectId": "proj-d6b9b16f65f5d9fd",
+    "projectNumber": 5,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      13,
+      16
+    ],
+    "catalogTitle": "AI Edge Companion Computer & Collision Avoidance",
+    "discrepancyNote": "Catalog title 'AI Edge Companion Computer & Collision Avoidance' reconciled with IR heading '[ U P G R A D E 0 6 ]'.",
+    "guideId": "guide-015",
+    "irPageRange": [
+      13,
+      16
+    ],
+    "irTitle": "[ U P G R A D E 0 6 ]",
+    "projectId": "proj-4ba4e6958a29f2ab",
+    "projectNumber": 6,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      3,
+      4
+    ],
+    "catalogTitle": "Real-Time Chat App with WebSockets",
+    "discrepancyNote": "Catalog title 'Real-Time Chat App with WebSockets' reconciled with IR heading '#1'.",
+    "guideId": "guide-016",
+    "irPageRange": [
+      3,
+      4
+    ],
+    "irTitle": "#1",
+    "projectId": "proj-dcf0f60724aa9512",
+    "projectNumber": 1,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      5,
+      7
+    ],
+    "catalogTitle": "Personal AI Assistant with RAG",
+    "discrepancyNote": "Catalog title 'Personal AI Assistant with RAG' reconciled with IR heading '#2'.",
+    "guideId": "guide-016",
+    "irPageRange": [
+      5,
+      7
+    ],
+    "irTitle": "#2",
+    "projectId": "proj-6143fceeac63172d",
+    "projectNumber": 2,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      8,
+      10
+    ],
+    "catalogTitle": "Distributed Task Queue & Worker System",
+    "discrepancyNote": "Catalog title 'Distributed Task Queue & Worker System' reconciled with IR heading '#3'.",
+    "guideId": "guide-016",
+    "irPageRange": [
+      8,
+      10
+    ],
+    "irTitle": "#3",
+    "projectId": "proj-e1da0bf6aa68b40e",
+    "projectNumber": 3,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      11,
+      13
+    ],
+    "catalogTitle": "Open Source Developer CLI Tool",
+    "discrepancyNote": "Catalog title 'Open Source Developer CLI Tool' reconciled with IR heading '#4'.",
+    "guideId": "guide-016",
+    "irPageRange": [
+      11,
+      13
+    ],
+    "irTitle": "#4",
+    "projectId": "proj-ef179b57eade25f9",
+    "projectNumber": 4,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      14,
+      16
+    ],
+    "catalogTitle": "Full-Stack Multi-Tenant SaaS with Payments",
+    "discrepancyNote": "Catalog title 'Full-Stack Multi-Tenant SaaS with Payments' reconciled with IR heading '#5'.",
+    "guideId": "guide-016",
+    "irPageRange": [
+      14,
+      16
+    ],
+    "irTitle": "#5",
+    "projectId": "proj-9e864a53d7204fea",
+    "projectNumber": 5,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      17,
+      21
+    ],
+    "catalogTitle": "Custom Programming Language Interpreter",
+    "discrepancyNote": "Catalog title 'Custom Programming Language Interpreter' reconciled with IR heading '#6'.",
+    "guideId": "guide-016",
+    "irPageRange": [
+      17,
+      21
+    ],
+    "irTitle": "#6",
+    "projectId": "proj-015e8ef354937a04",
+    "projectNumber": 6,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      2,
+      2
+    ],
+    "catalogTitle": "Audita los Mejores Cursos del Mundo (Stanford, MIT, CMU)",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-017",
+    "irPageRange": [
+      2,
+      2
+    ],
+    "irTitle": "Audita los Mejores Cursos del Mundo (Stanford, MIT, CMU)",
+    "projectId": "proj-fe4a998067b3d8aa",
+    "projectNumber": 1,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      2,
+      8
+    ],
+    "catalogTitle": "Elige una Especialidad y Profundiza al Máximo",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-017",
+    "irPageRange": [
+      2,
+      8
+    ],
+    "irTitle": "Elige una Especialidad y Profundiza al Máximo",
+    "projectId": "proj-d625020e720f2574",
+    "projectNumber": 2,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      8,
+      8
+    ],
+    "catalogTitle": "Construye Algo que Nadie te Pidió que Construyas",
+    "discrepancyNote": "Catalog title 'Construye Algo que Nadie te Pidió que Construyas' reconciled with IR heading '3 months before applications:'.",
+    "guideId": "guide-017",
+    "irPageRange": [
+      8,
+      8
+    ],
+    "irTitle": "3 months before applications:",
+    "projectId": "proj-f4c34c72a59d5e68",
+    "projectNumber": 3,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      8,
+      8
+    ],
+    "catalogTitle": "Lee Datasheets y Notas de Aplicación como Ficción",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-017",
+    "irPageRange": [
+      8,
+      8
+    ],
+    "irTitle": "Lee Datasheets y Notas de Aplicación como Ficción",
+    "projectId": "proj-40abc903cf68b70c",
+    "projectNumber": 4,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      8,
+      8
+    ],
+    "catalogTitle": "Ingeniería Inversa de Productos Comerciales Reales",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-017",
+    "irPageRange": [
+      8,
+      8
+    ],
+    "irTitle": "Ingeniería Inversa de Productos Comerciales Reales",
+    "projectId": "proj-0d37911802b012cb",
+    "projectNumber": 5,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      8,
+      10
+    ],
+    "catalogTitle": "Haz de tu Presencia en Internet un Portafolio Indiscutible",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-017",
+    "irPageRange": [
+      8,
+      10
+    ],
+    "irTitle": "Haz de tu Presencia en Internet un Portafolio Indiscutible",
+    "projectId": "proj-814228cd5c64175a",
+    "projectNumber": 6,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      2,
+      4
+    ],
+    "catalogTitle": "AI Voice Cloning Detector",
+    "discrepancyNote": "Catalog title 'AI Voice Cloning Detector' reconciled with IR heading 'PROJECT 1'.",
+    "guideId": "guide-018",
+    "irPageRange": [
+      2,
+      4
+    ],
+    "irTitle": "PROJECT 1",
+    "projectId": "proj-3b7db985fe3fa00d",
+    "projectNumber": 1,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      5,
+      7
+    ],
+    "catalogTitle": "EMI Side-Channel Sniffer",
+    "discrepancyNote": "Catalog title 'EMI Side-Channel Sniffer' reconciled with IR heading 'PROJECT 2'.",
+    "guideId": "guide-018",
+    "irPageRange": [
+      5,
+      7
+    ],
+    "irTitle": "PROJECT 2",
+    "projectId": "proj-d424b050336e4eb7",
+    "projectNumber": 2,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      8,
+      10
+    ],
+    "catalogTitle": "Hardware AI Kill Switch",
+    "discrepancyNote": "Catalog title 'Hardware AI Kill Switch' reconciled with IR heading 'PROJECT 3'.",
+    "guideId": "guide-018",
+    "irPageRange": [
+      8,
+      10
+    ],
+    "irTitle": "PROJECT 3",
+    "projectId": "proj-e8a2f53f27075678",
+    "projectNumber": 3,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      11,
+      13
+    ],
+    "catalogTitle": "Deepfake-Proof Identity Badge",
+    "discrepancyNote": "Catalog title 'Deepfake-Proof Identity Badge' reconciled with IR heading 'PROJECT 4'.",
+    "guideId": "guide-018",
+    "irPageRange": [
+      11,
+      13
+    ],
+    "irTitle": "PROJECT 4",
+    "projectId": "proj-cce9ad7e1f6cb7f8",
+    "projectNumber": 4,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      14,
+      16
+    ],
+    "catalogTitle": "Neuromorphic Sensor Fuser",
+    "discrepancyNote": "Catalog title 'Neuromorphic Sensor Fuser' reconciled with IR heading 'PROJECT 5'.",
+    "guideId": "guide-018",
+    "irPageRange": [
+      14,
+      16
+    ],
+    "irTitle": "PROJECT 5",
+    "projectId": "proj-351b58c0f3fe4a4e",
+    "projectNumber": 5,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      17,
+      20
+    ],
+    "catalogTitle": "RF Fingerprinting Authenticator",
+    "discrepancyNote": "Catalog title 'RF Fingerprinting Authenticator' reconciled with IR heading 'PROJECT 6'.",
+    "guideId": "guide-018",
+    "irPageRange": [
+      17,
+      20
+    ],
+    "irTitle": "PROJECT 6",
+    "projectId": "proj-b650b045b1c39f6a",
+    "projectNumber": 6,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      2,
+      5
+    ],
+    "catalogTitle": "Laser Surveillance Microphone",
+    "discrepancyNote": "Catalog title 'Laser Surveillance Microphone' reconciled with IR heading 'PROJECT 1'.",
+    "guideId": "guide-019",
+    "irPageRange": [
+      2,
+      5
+    ],
+    "irTitle": "PROJECT 1",
+    "projectId": "proj-4c368a1aca2dc083",
+    "projectNumber": 1,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      6,
+      8
+    ],
+    "catalogTitle": "Tap-Proof Laser Communication Link",
+    "discrepancyNote": "Catalog title 'Tap-Proof Laser Communication Link' reconciled with IR heading 'PROJECT 2'.",
+    "guideId": "guide-019",
+    "irPageRange": [
+      6,
+      8
+    ],
+    "irTitle": "PROJECT 2",
+    "projectId": "proj-9fb705613f7fa35c",
+    "projectNumber": 2,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      9,
+      12
+    ],
+    "catalogTitle": "High-Precision Laser Rangefinder",
+    "discrepancyNote": "Catalog title 'High-Precision Laser Rangefinder' reconciled with IR heading 'PROJECT 3'.",
+    "guideId": "guide-019",
+    "irPageRange": [
+      9,
+      12
+    ],
+    "irTitle": "PROJECT 3",
+    "projectId": "proj-77ca4cd48ca1d8b6",
+    "projectNumber": 3,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      13,
+      15
+    ],
+    "catalogTitle": "Encrypted Burst Transmitter",
+    "discrepancyNote": "Catalog title 'Encrypted Burst Transmitter' reconciled with IR heading 'PROJECT 4'.",
+    "guideId": "guide-019",
+    "irPageRange": [
+      13,
+      15
+    ],
+    "irTitle": "PROJECT 4",
+    "projectId": "proj-2d6bb1ea265633fd",
+    "projectNumber": 4,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      16,
+      18
+    ],
+    "catalogTitle": "Passive Night Vision Scope",
+    "discrepancyNote": "Catalog title 'Passive Night Vision Scope' reconciled with IR heading 'PROJECT 5'.",
+    "guideId": "guide-019",
+    "irPageRange": [
+      16,
+      18
+    ],
+    "irTitle": "PROJECT 5",
+    "projectId": "proj-c7a08cce79d39f48",
+    "projectNumber": 5,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      19,
+      22
+    ],
+    "catalogTitle": "Radar Cross-Section Measurement System",
+    "discrepancyNote": "Catalog title 'Radar Cross-Section Measurement System' reconciled with IR heading 'PROJECT 6'.",
+    "guideId": "guide-019",
+    "irPageRange": [
+      19,
+      22
+    ],
+    "irTitle": "PROJECT 6",
+    "projectId": "proj-01f8a1136941dbf5",
+    "projectNumber": 6,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      4,
+      7
+    ],
+    "catalogTitle": "Silent Speech Neural Interface",
+    "discrepancyNote": "Catalog title 'Silent Speech Neural Interface' reconciled with IR heading 'PROJECT 1'.",
+    "guideId": "guide-020",
+    "irPageRange": [
+      4,
+      7
+    ],
+    "irTitle": "PROJECT 1",
+    "projectId": "proj-22933371bb73088f",
+    "projectNumber": 1,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      8,
+      10
+    ],
+    "catalogTitle": "EMG Prosthetic Hand with Intent Detection",
+    "discrepancyNote": "Catalog title 'EMG Prosthetic Hand with Intent Detection' reconciled with IR heading 'PROJECT 2'.",
+    "guideId": "guide-020",
+    "irPageRange": [
+      8,
+      10
+    ],
+    "irTitle": "PROJECT 2",
+    "projectId": "proj-3d8bd99fa53bdaa3",
+    "projectNumber": 2,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      11,
+      13
+    ],
+    "catalogTitle": "Gesture-Controlled AR Coding Interface",
+    "discrepancyNote": "Catalog title 'Gesture-Controlled AR Coding Interface' reconciled with IR heading 'PROJECT 3'.",
+    "guideId": "guide-020",
+    "irPageRange": [
+      11,
+      13
+    ],
+    "irTitle": "PROJECT 3",
+    "projectId": "proj-959a8c73c41a2509",
+    "projectNumber": 3,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      14,
+      16
+    ],
+    "catalogTitle": "Emotion-Aware AI Companion Pendant",
+    "discrepancyNote": "Catalog title 'Emotion-Aware AI Companion Pendant' reconciled with IR heading 'PROJECT 4'.",
+    "guideId": "guide-020",
+    "irPageRange": [
+      14,
+      16
+    ],
+    "irTitle": "PROJECT 4",
+    "projectId": "proj-6e7a0c4112404196",
+    "projectNumber": 4,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      17,
+      19
+    ],
+    "catalogTitle": "Tactile Sense Augmentation Glove",
+    "discrepancyNote": "Catalog title 'Tactile Sense Augmentation Glove' reconciled with IR heading 'PROJECT 5'.",
+    "guideId": "guide-020",
+    "irPageRange": [
+      17,
+      19
+    ],
+    "irTitle": "PROJECT 5",
+    "projectId": "proj-3de57f84fc847a76",
+    "projectNumber": 5,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      20,
+      23
+    ],
+    "catalogTitle": "Subvocal AI Command Interface",
+    "discrepancyNote": "Catalog title 'Subvocal AI Command Interface' reconciled with IR heading 'PROJECT 6'.",
+    "guideId": "guide-020",
+    "irPageRange": [
+      20,
+      23
+    ],
+    "irTitle": "PROJECT 6",
+    "projectId": "proj-47a88b602dd5cfaf",
+    "projectNumber": 6,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      3,
+      4
+    ],
+    "catalogTitle": "Smart Energy Monitor IoT",
+    "discrepancyNote": "Catalog title 'Smart Energy Monitor IoT' reconciled with IR heading '#1'.",
+    "guideId": "guide-021",
+    "irPageRange": [
+      3,
+      4
+    ],
+    "irTitle": "#1",
+    "projectId": "proj-413f063f71e7017e",
+    "projectNumber": 1,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      5,
+      6
+    ],
+    "catalogTitle": "Gesture-Controlled EMG Robot Arm",
+    "discrepancyNote": "Catalog title 'Gesture-Controlled EMG Robot Arm' reconciled with IR heading '#2'.",
+    "guideId": "guide-021",
+    "irPageRange": [
+      5,
+      6
+    ],
+    "irTitle": "#2",
+    "projectId": "proj-8bf5eb8c424af41d",
+    "projectNumber": 2,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      7,
+      8
+    ],
+    "catalogTitle": "Custom PCB Synthesizer",
+    "discrepancyNote": "Catalog title 'Custom PCB Synthesizer' reconciled with IR heading '#3'.",
+    "guideId": "guide-021",
+    "irPageRange": [
+      7,
+      8
+    ],
+    "irTitle": "#3",
+    "projectId": "proj-d907a172b792666e",
+    "projectNumber": 3,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      9,
+      10
+    ],
+    "catalogTitle": "MPPT Solar Charge Controller",
+    "discrepancyNote": "Catalog title 'MPPT Solar Charge Controller' reconciled with IR heading '#4'.",
+    "guideId": "guide-021",
+    "irPageRange": [
+      9,
+      10
+    ],
+    "irTitle": "#4",
+    "projectId": "proj-f43ec7657436aaca",
+    "projectNumber": 4,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      11,
+      12
+    ],
+    "catalogTitle": "Software-Defined Radio Receiver",
+    "discrepancyNote": "Catalog title 'Software-Defined Radio Receiver' reconciled with IR heading '#5'.",
+    "guideId": "guide-021",
+    "irPageRange": [
+      11,
+      12
+    ],
+    "irTitle": "#5",
+    "projectId": "proj-1c96697431543b30",
+    "projectNumber": 5,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      13,
+      15
+    ],
+    "catalogTitle": "PID Self-Balancing Robot",
+    "discrepancyNote": "Catalog title 'PID Self-Balancing Robot' reconciled with IR heading '#6'.",
+    "guideId": "guide-021",
+    "irPageRange": [
+      13,
+      15
+    ],
+    "irTitle": "#6",
+    "projectId": "proj-d8c93538c64e97f6",
+    "projectNumber": 6,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      2,
+      2
+    ],
+    "catalogTitle": "El Gancho de la Reciprocidad y Visibilidad",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-022",
+    "irPageRange": [
+      2,
+      2
+    ],
+    "irTitle": "El Gancho de la Reciprocidad y Visibilidad",
+    "projectId": "proj-08d95f39921234f1",
+    "projectNumber": 1,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      2,
+      8
+    ],
+    "catalogTitle": "La Redacción del Correo Frío Irrechazable",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-022",
+    "irPageRange": [
+      2,
+      8
+    ],
+    "irTitle": "La Redacción del Correo Frío Irrechazable",
+    "projectId": "proj-273ead6161abcad3",
+    "projectNumber": 2,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      8,
+      8
+    ],
+    "catalogTitle": "La Presentación del Plan de Investigación",
+    "discrepancyNote": "Catalog title 'La Presentación del Plan de Investigación' reconciled with IR heading '3 follow-ups minimum. Polite. Persistent. Specific. Don't stop after silence.'.",
+    "guideId": "guide-022",
+    "irPageRange": [
+      8,
+      8
+    ],
+    "irTitle": "3 follow-ups minimum. Polite. Persistent. Specific. Don't stop after silence.",
+    "projectId": "proj-33e829cad7110af3",
+    "projectNumber": 3,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      8,
+      8
+    ],
+    "catalogTitle": "Logística, Seguros y Contratos de Comodato",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-022",
+    "irPageRange": [
+      8,
+      8
+    ],
+    "irTitle": "Logística, Seguros y Contratos de Comodato",
+    "projectId": "proj-f7ffbdd7d6579c7b",
+    "projectNumber": 4,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      8,
+      11
+    ],
+    "catalogTitle": "Programación KRL, Puesta en Marcha y Retorno",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-022",
+    "irPageRange": [
+      8,
+      11
+    ],
+    "irTitle": "Programación KRL, Puesta en Marcha y Retorno",
+    "projectId": "proj-a1795bd7588ca33b",
+    "projectNumber": 5,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      2,
+      2
+    ],
+    "catalogTitle": "Paso 1: Salta la teoría y compra un kit de Arduino",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-023",
+    "irPageRange": [
+      2,
+      2
+    ],
+    "irTitle": "Paso 1: Salta la teoría y compra un kit de Arduino",
+    "projectId": "proj-985a367fdabbc644",
+    "projectNumber": 1,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      2,
+      2
+    ],
+    "catalogTitle": "Paso 2: Hazte con un multímetro y mide voltajes reales",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-023",
+    "irPageRange": [
+      2,
+      2
+    ],
+    "irTitle": "Paso 2: Hazte con un multímetro y mide voltajes reales",
+    "projectId": "proj-94fe7239accddca6",
+    "projectNumber": 2,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      2,
+      2
+    ],
+    "catalogTitle": "Paso 3: Construye tu primer circuito analógico sin código",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-023",
+    "irPageRange": [
+      2,
+      2
+    ],
+    "irTitle": "Paso 3: Construye tu primer circuito analógico sin código",
+    "projectId": "proj-e8453ca3d13f58fb",
+    "projectNumber": 3,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      2,
+      2
+    ],
+    "catalogTitle": "Paso 4: Aprende a soldar temprano con un kit de práctica",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-023",
+    "irPageRange": [
+      2,
+      2
+    ],
+    "irTitle": "Paso 4: Aprende a soldar temprano con un kit de práctica",
+    "projectId": "proj-7b2012360f90ea4a",
+    "projectNumber": 4,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      2,
+      2
+    ],
+    "catalogTitle": "Paso 5: Pasa de la protoboard a KiCad y diseña tu primera PCB",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-023",
+    "irPageRange": [
+      2,
+      2
+    ],
+    "irTitle": "Paso 5: Pasa de la protoboard a KiCad y diseña tu primera PCB",
+    "projectId": "proj-e17fbdd168fa8192",
+    "projectNumber": 5,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      2,
+      5
+    ],
+    "catalogTitle": "Paso 6: Construye un proyecto físico que realmente quieras usar",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-023",
+    "irPageRange": [
+      2,
+      5
+    ],
+    "irTitle": "Paso 6: Construye un proyecto físico que realmente quieras usar",
+    "projectId": "proj-ecc4d19a4cc58c9d",
+    "projectNumber": 6,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      3,
+      5
+    ],
+    "catalogTitle": "PID Motor Speed Controller",
+    "discrepancyNote": "Catalog title 'PID Motor Speed Controller' reconciled with IR heading '#1'.",
+    "guideId": "guide-024",
+    "irPageRange": [
+      3,
+      5
+    ],
+    "irTitle": "#1",
+    "projectId": "proj-9bbb01d5723f9f98",
+    "projectNumber": 1,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      6,
+      8
+    ],
+    "catalogTitle": "Custom PCB — Design to Manufactured Board",
+    "discrepancyNote": "Catalog title 'Custom PCB — Design to Manufactured Board' reconciled with IR heading '#2'.",
+    "guideId": "guide-024",
+    "irPageRange": [
+      6,
+      8
+    ],
+    "irTitle": "#2",
+    "projectId": "proj-299d699e04703cfd",
+    "projectNumber": 2,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      9,
+      11
+    ],
+    "catalogTitle": "DIY Digital Multimeter with Input Protection",
+    "discrepancyNote": "Catalog title 'DIY Digital Multimeter with Input Protection' reconciled with IR heading '#3'.",
+    "guideId": "guide-024",
+    "irPageRange": [
+      9,
+      11
+    ],
+    "irTitle": "#3",
+    "projectId": "proj-98b4fd48453025f8",
+    "projectNumber": 3,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      12,
+      14
+    ],
+    "catalogTitle": "Synchronous Buck Converter (12V to 5V 3A)",
+    "discrepancyNote": "Catalog title 'Synchronous Buck Converter (12V to 5V 3A)' reconciled with IR heading '#4'.",
+    "guideId": "guide-024",
+    "irPageRange": [
+      12,
+      14
+    ],
+    "irTitle": "#4",
+    "projectId": "proj-4a6d4e3bb6de27cb",
+    "projectNumber": 4,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      15,
+      17
+    ],
+    "catalogTitle": "UART / SPI / I2C Protocol Analyzer",
+    "discrepancyNote": "Catalog title 'UART / SPI / I2C Protocol Analyzer' reconciled with IR heading '#5'.",
+    "guideId": "guide-024",
+    "irPageRange": [
+      15,
+      17
+    ],
+    "irTitle": "#5",
+    "projectId": "proj-fb8e65ad8631b29f",
+    "projectNumber": 5,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      18,
+      21
+    ],
+    "catalogTitle": "FPGA LED Matrix Controller in Pure Verilog",
+    "discrepancyNote": "Catalog title 'FPGA LED Matrix Controller in Pure Verilog' reconciled with IR heading '#6'.",
+    "guideId": "guide-024",
+    "irPageRange": [
+      18,
+      21
+    ],
+    "irTitle": "#6",
+    "projectId": "proj-c54bad94d374ce6e",
+    "projectNumber": 6,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      3,
+      5
+    ],
+    "catalogTitle": "3D-Printed Gripper with Force Feedback",
+    "discrepancyNote": "Catalog title '3D-Printed Gripper with Force Feedback' reconciled with IR heading '#1'.",
+    "guideId": "guide-025",
+    "irPageRange": [
+      3,
+      5
+    ],
+    "irTitle": "#1",
+    "projectId": "proj-ebd06c8fe102558d",
+    "projectNumber": 1,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      6,
+      8
+    ],
+    "catalogTitle": "Portable Wind Tunnel with Data Acquisition",
+    "discrepancyNote": "Catalog title 'Portable Wind Tunnel with Data Acquisition' reconciled with IR heading '#2'.",
+    "guideId": "guide-025",
+    "irPageRange": [
+      6,
+      8
+    ],
+    "irTitle": "#2",
+    "projectId": "proj-a50b337c8a6324a7",
+    "projectNumber": 2,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      9,
+      11
+    ],
+    "catalogTitle": "Dual-Axis Solar Tracker",
+    "discrepancyNote": "Catalog title 'Dual-Axis Solar Tracker' reconciled with IR heading '#3'.",
+    "guideId": "guide-025",
+    "irPageRange": [
+      9,
+      11
+    ],
+    "irTitle": "#3",
+    "projectId": "proj-076f8003b366c797",
+    "projectNumber": 3,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      12,
+      14
+    ],
+    "catalogTitle": "PID Thermal Management System",
+    "discrepancyNote": "Catalog title 'PID Thermal Management System' reconciled with IR heading '#4'.",
+    "guideId": "guide-025",
+    "irPageRange": [
+      12,
+      14
+    ],
+    "irTitle": "#4",
+    "projectId": "proj-b4b49073df0bfb7a",
+    "projectNumber": 4,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      15,
+      17
+    ],
+    "catalogTitle": "Desktop CNC Engraver Built From Scratch",
+    "discrepancyNote": "Catalog title 'Desktop CNC Engraver Built From Scratch' reconciled with IR heading '#5'.",
+    "guideId": "guide-025",
+    "irPageRange": [
+      15,
+      17
+    ],
+    "irTitle": "#5",
+    "projectId": "proj-f2010ad0e3ac171f",
+    "projectNumber": 5,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      18,
+      22
+    ],
+    "catalogTitle": "Wireless Strain Gauge Bridge Monitor",
+    "discrepancyNote": "Catalog title 'Wireless Strain Gauge Bridge Monitor' reconciled with IR heading '#6'.",
+    "guideId": "guide-025",
+    "irPageRange": [
+      18,
+      22
+    ],
+    "irTitle": "#6",
+    "projectId": "proj-23e2ffb84ec9c3a1",
+    "projectNumber": 6,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      2,
+      2
+    ],
+    "catalogTitle": "Fundamentos de ML: Clasificación y Regresión Práctica",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-026",
+    "irPageRange": [
+      2,
+      2
+    ],
+    "irTitle": "Fundamentos de ML: Clasificación y Regresión Práctica",
+    "projectId": "proj-d0cb11848d574a4c",
+    "projectNumber": 1,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      2,
+      2
+    ],
+    "catalogTitle": "Ingeniería Mecánica: Mantenimiento Predictivo por Vibraciones",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-026",
+    "irPageRange": [
+      2,
+      2
+    ],
+    "irTitle": "Ingeniería Mecánica: Mantenimiento Predictivo por Vibraciones",
+    "projectId": "proj-b8a0c0bf81327cd5",
+    "projectNumber": 2,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      2,
+      2
+    ],
+    "catalogTitle": "Ingeniería Electrónica: Clasificación de Señales de ECG en Tiempo Real",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-026",
+    "irPageRange": [
+      2,
+      2
+    ],
+    "irTitle": "Ingeniería Electrónica: Clasificación de Señales de ECG en Tiempo Real",
+    "projectId": "proj-142a8ad6bfd16388",
+    "projectNumber": 3,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      2,
+      2
+    ],
+    "catalogTitle": "Despliegue de Edge AI y TinyML en Microcontroladores",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-026",
+    "irPageRange": [
+      2,
+      2
+    ],
+    "irTitle": "Despliegue de Edge AI y TinyML en Microcontroladores",
+    "projectId": "proj-df20c0bdfa75937d",
+    "projectNumber": 4,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      2,
+      2
+    ],
+    "catalogTitle": "Ingeniería Química: Modelado y Optimización de Reactores",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-026",
+    "irPageRange": [
+      2,
+      2
+    ],
+    "irTitle": "Ingeniería Química: Modelado y Optimización de Reactores",
+    "projectId": "proj-a7146a92cd710d09",
+    "projectNumber": 5,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      2,
+      10
+    ],
+    "catalogTitle": "Proyecto Integrador para Portafolio de Ingeniería",
+    "discrepancyNote": "Exact title and boundary match.",
+    "guideId": "guide-026",
+    "irPageRange": [
+      2,
+      10
+    ],
+    "irTitle": "Proyecto Integrador para Portafolio de Ingeniería",
+    "projectId": "proj-fc976212c964f79c",
+    "projectNumber": 6,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      2,
+      2
+    ],
+    "catalogTitle": "Conexionado de Pantalla OLED SPI 2.42\"",
+    "discrepancyNote": "Catalog title 'Conexionado de Pantalla OLED SPI 2.42\"' reconciled with IR heading '1 Parts you need'.",
+    "guideId": "guide-027",
+    "irPageRange": [
+      2,
+      2
+    ],
+    "irTitle": "1 Parts you need",
+    "projectId": "proj-e1043df73e599c7e",
+    "projectNumber": 1,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      2,
+      2
+    ],
+    "catalogTitle": "Control Analógico por Potenciómetro Slider",
+    "discrepancyNote": "Catalog title 'Control Analógico por Potenciómetro Slider' reconciled with IR heading '2 Wiring'.",
+    "guideId": "guide-027",
+    "irPageRange": [
+      2,
+      2
+    ],
+    "irTitle": "2 Wiring",
+    "projectId": "proj-826e6c7a2db1364c",
+    "projectNumber": 2,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      2,
+      2
+    ],
+    "catalogTitle": "Generador de Audio Retro por Buzzer",
+    "discrepancyNote": "Catalog title 'Generador de Audio Retro por Buzzer' reconciled with IR heading '3 Before you power up'.",
+    "guideId": "guide-027",
+    "irPageRange": [
+      2,
+      2
+    ],
+    "irTitle": "3 Before you power up",
+    "projectId": "proj-3ba9067a3ab5ef6b",
+    "projectNumber": 3,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      2,
+      15
+    ],
+    "catalogTitle": "Compilación y Flasheo de los 2 Juegos",
+    "discrepancyNote": "Catalog title 'Compilación y Flasheo de los 2 Juegos' reconciled with IR heading '4 Install the toolchain'.",
+    "guideId": "guide-027",
+    "irPageRange": [
+      2,
+      15
+    ],
+    "irTitle": "4 Install the toolchain",
+    "projectId": "proj-c535080789ede7a1",
+    "projectNumber": 4,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      3,
+      3
+    ],
+    "catalogTitle": "Learning the Art of Electronics Lab",
+    "discrepancyNote": "Catalog title 'Learning the Art of Electronics Lab' reconciled with IR heading '01  Learning the Art of Electronics'.",
+    "guideId": "guide-028",
+    "irPageRange": [
+      3,
+      3
+    ],
+    "irTitle": "01  Learning the Art of Electronics",
+    "projectId": "proj-616fcf7e67d1028d",
+    "projectNumber": 1,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      3,
+      3
+    ],
+    "catalogTitle": "Phil's Lab High-Speed Hardware Design",
+    "discrepancyNote": "Catalog title 'Phil's Lab High-Speed Hardware Design' reconciled with IR heading '02  Phil's Lab'.",
+    "guideId": "guide-028",
+    "irPageRange": [
+      3,
+      3
+    ],
+    "irTitle": "02  Phil's Lab",
+    "projectId": "proj-fb1ddf823a1438db",
+    "projectNumber": 2,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      4,
+      4
+    ],
+    "catalogTitle": "Ben Eater 8-bit Discrete TTL Computer",
+    "discrepancyNote": "Catalog title 'Ben Eater 8-bit Discrete TTL Computer' reconciled with IR heading '03  Ben Eater'.",
+    "guideId": "guide-028",
+    "irPageRange": [
+      4,
+      4
+    ],
+    "irTitle": "03  Ben Eater",
+    "projectId": "proj-e7d66ac8589af8c8",
+    "projectNumber": 3,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      4,
+      4
+    ],
+    "catalogTitle": "Contextual Electronics Board Bring-up",
+    "discrepancyNote": "Catalog title 'Contextual Electronics Board Bring-up' reconciled with IR heading '04  Contextual Electronics'.",
+    "guideId": "guide-028",
+    "irPageRange": [
+      4,
+      4
+    ],
+    "irTitle": "04  Contextual Electronics",
+    "projectId": "proj-884f5fc2f17850fb",
+    "projectNumber": 4,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      5,
+      5
+    ],
+    "catalogTitle": "MIT OCW Feedback Control Implementer",
+    "discrepancyNote": "Catalog title 'MIT OCW Feedback Control Implementer' reconciled with IR heading '05  MIT OpenCourseWare'.",
+    "guideId": "guide-028",
+    "irPageRange": [
+      5,
+      5
+    ],
+    "irTitle": "05  MIT OpenCourseWare",
+    "projectId": "proj-5cc3a466247a0635",
+    "projectNumber": 5,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      5,
+      10
+    ],
+    "catalogTitle": "GNU Radio & RTL-SDR Spectrum Interceptor",
+    "discrepancyNote": "Catalog title 'GNU Radio & RTL-SDR Spectrum Interceptor' reconciled with IR heading '06  nandland and HDLBits'.",
+    "guideId": "guide-028",
+    "irPageRange": [
+      5,
+      10
+    ],
+    "irTitle": "06  nandland and HDLBits",
+    "projectId": "proj-de62002d65b8d3c3",
+    "projectNumber": 6,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      3,
+      3
+    ],
+    "catalogTitle": "Practical Electronics for Inventors Bench",
+    "discrepancyNote": "Catalog title 'Practical Electronics for Inventors Bench' reconciled with IR heading '01  Practical Electronics for Inventors'.",
+    "guideId": "guide-029",
+    "irPageRange": [
+      3,
+      3
+    ],
+    "irTitle": "01  Practical Electronics for Inventors",
+    "projectId": "proj-944ac1c3f3e0e084",
+    "projectNumber": 1,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      3,
+      3
+    ],
+    "catalogTitle": "Razavi CMOS Microelectronics Lab",
+    "discrepancyNote": "Catalog title 'Razavi CMOS Microelectronics Lab' reconciled with IR heading '02  Neso Academy'.",
+    "guideId": "guide-029",
+    "irPageRange": [
+      3,
+      3
+    ],
+    "irTitle": "02  Neso Academy",
+    "projectId": "proj-a5f2598bfd80d3a5",
+    "projectNumber": 2,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      4,
+      4
+    ],
+    "catalogTitle": "LTspice Worst-Case & Monte Carlo Simulator",
+    "discrepancyNote": "Catalog title 'LTspice Worst-Case & Monte Carlo Simulator' reconciled with IR heading '03  Razavi Electronics'.",
+    "guideId": "guide-029",
+    "irPageRange": [
+      4,
+      4
+    ],
+    "irTitle": "03  Razavi Electronics",
+    "projectId": "proj-785afde450d85e7c",
+    "projectNumber": 3,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      4,
+      4
+    ],
+    "catalogTitle": "Wokwi Virtual Hardware Simulator",
+    "discrepancyNote": "Catalog title 'Wokwi Virtual Hardware Simulator' reconciled with IR heading '04  LTspice'.",
+    "guideId": "guide-029",
+    "irPageRange": [
+      4,
+      4
+    ],
+    "irTitle": "04  LTspice",
+    "projectId": "proj-6efd04ef2f2f5cab",
+    "projectNumber": 4,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      5,
+      5
+    ],
+    "catalogTitle": "Scientist & Engineer's Guide to DSP",
+    "discrepancyNote": "Catalog title 'Scientist & Engineer's Guide to DSP' reconciled with IR heading '05  Wokwi'.",
+    "guideId": "guide-029",
+    "irPageRange": [
+      5,
+      5
+    ],
+    "irTitle": "05  Wokwi",
+    "projectId": "proj-5391aae16108b4f9",
+    "projectNumber": 5,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      5,
+      10
+    ],
+    "catalogTitle": "W2AEW RF Lab Techniques & Measurements",
+    "discrepancyNote": "Catalog title 'W2AEW RF Lab Techniques & Measurements' reconciled with IR heading '06  Adafruit Learn'.",
+    "guideId": "guide-029",
+    "irPageRange": [
+      5,
+      10
+    ],
+    "irTitle": "06  Adafruit Learn",
+    "projectId": "proj-ef3e4fa40d859cb2",
+    "projectNumber": 6,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      3,
+      3
+    ],
+    "catalogTitle": "FEDEVEL High-Speed PCB Layout Masterclass",
+    "discrepancyNote": "Catalog title 'FEDEVEL High-Speed PCB Layout Masterclass' reconciled with IR heading '01  All About Circuits'.",
+    "guideId": "guide-030",
+    "irPageRange": [
+      3,
+      3
+    ],
+    "irTitle": "01  All About Circuits",
+    "projectId": "proj-48f4b5dd661d18ae",
+    "projectNumber": 1,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      3,
+      3
+    ],
+    "catalogTitle": "Steve Brunton Modern Control & Kalman Filters",
+    "discrepancyNote": "Catalog title 'Steve Brunton Modern Control & Kalman Filters' reconciled with IR heading '02  NPTEL'.",
+    "guideId": "guide-030",
+    "irPageRange": [
+      3,
+      3
+    ],
+    "irTitle": "02  NPTEL",
+    "projectId": "proj-3ce4d68150ddd6c9",
+    "projectNumber": 2,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      4,
+      4
+    ],
+    "catalogTitle": "Andreas Spiess Deep IoT & LoRaWAN Node",
+    "discrepancyNote": "Catalog title 'Andreas Spiess Deep IoT & LoRaWAN Node' reconciled with IR heading '03  GreatScott!'.",
+    "guideId": "guide-030",
+    "irPageRange": [
+      4,
+      4
+    ],
+    "irTitle": "03  GreatScott!",
+    "projectId": "proj-3a337d02243e5561",
+    "projectNumber": 3,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      4,
+      4
+    ],
+    "catalogTitle": "GreatScott! Switching Converter Design",
+    "discrepancyNote": "Catalog title 'GreatScott! Switching Converter Design' reconciled with IR heading '04  ElectroBOOM'.",
+    "guideId": "guide-030",
+    "irPageRange": [
+      4,
+      4
+    ],
+    "irTitle": "04  ElectroBOOM",
+    "projectId": "proj-719c6499b6635915",
+    "projectNumber": 4,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      5,
+      5
+    ],
+    "catalogTitle": "Digital Design & RISC-V Architecture",
+    "discrepancyNote": "Catalog title 'Digital Design & RISC-V Architecture' reconciled with IR heading '05  Andreas Spiess'.",
+    "guideId": "guide-030",
+    "irPageRange": [
+      5,
+      5
+    ],
+    "irTitle": "05  Andreas Spiess",
+    "projectId": "proj-c91c58d3f6fc6616",
+    "projectNumber": 5,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      5,
+      12
+    ],
+    "catalogTitle": "Shawn Hymel TinyML Embedded Classifier",
+    "discrepancyNote": "Catalog title 'Shawn Hymel TinyML Embedded Classifier' reconciled with IR heading '06  FEDEVEL (Robert Feranec)'.",
+    "guideId": "guide-030",
+    "irPageRange": [
+      5,
+      12
+    ],
+    "irTitle": "06  FEDEVEL (Robert Feranec)",
+    "projectId": "proj-cf3ed0f0abbc5e82",
+    "projectNumber": 6,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      3,
+      3
+    ],
+    "catalogTitle": "KiCad Production-Ready DFM Workflow",
+    "discrepancyNote": "Substantial title match: 'KiCad Production-Ready DFM Workflow' vs 'KiCad'.",
+    "guideId": "guide-031",
+    "irPageRange": [
+      3,
+      3
+    ],
+    "irTitle": "KiCad",
+    "projectId": "proj-403de5b9360a89ee",
+    "projectNumber": 1,
+    "status": "MATCH"
+  },
+  {
+    "catalogPageRange": [
+      3,
+      3
+    ],
+    "catalogTitle": "The Art of Electronics Ultra-Low Noise Supply",
+    "discrepancyNote": "Catalog title 'The Art of Electronics Ultra-Low Noise Supply' reconciled with IR heading 'Ben Eater'.",
+    "guideId": "guide-031",
+    "irPageRange": [
+      3,
+      3
+    ],
+    "irTitle": "Ben Eater",
+    "projectId": "proj-25015e1de0868338",
+    "projectNumber": 2,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      4,
+      4
+    ],
+    "catalogTitle": "Zephyr RTOS Industrial Node Deployment",
+    "discrepancyNote": "Catalog title 'Zephyr RTOS Industrial Node Deployment' reconciled with IR heading 'The Art of Electronics'.",
+    "guideId": "guide-031",
+    "irPageRange": [
+      4,
+      4
+    ],
+    "irTitle": "The Art of Electronics",
+    "projectId": "proj-89dce9c8134220ee",
+    "projectNumber": 3,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      4,
+      4
+    ],
+    "catalogTitle": "Microwaves101 Planar Filter & Coupler",
+    "discrepancyNote": "Catalog title 'Microwaves101 Planar Filter & Coupler' reconciled with IR heading 'Phil's Lab'.",
+    "guideId": "guide-031",
+    "irPageRange": [
+      4,
+      4
+    ],
+    "irTitle": "Phil's Lab",
+    "projectId": "proj-d31ca580450cf995",
+    "projectNumber": 4,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      5,
+      5
+    ],
+    "catalogTitle": "JLCPCB SMT Panelization & Automated Assembly",
+    "discrepancyNote": "Catalog title 'JLCPCB SMT Panelization & Automated Assembly' reconciled with IR heading 'EEVblog'.",
+    "guideId": "guide-031",
+    "irPageRange": [
+      5,
+      5
+    ],
+    "irTitle": "EEVblog",
+    "projectId": "proj-66ff5c3263b46c00",
+    "projectNumber": 5,
+    "status": "PARTIAL_MATCH"
+  },
+  {
+    "catalogPageRange": [
+      5,
+      10
+    ],
+    "catalogTitle": "EEVblog Teardown Forensic & ESD Hardening",
+    "discrepancyNote": "Catalog title 'EEVblog Teardown Forensic & ESD Hardening' reconciled with IR heading 'Nandland'.",
+    "guideId": "guide-031",
+    "irPageRange": [
+      5,
+      10
+    ],
+    "irTitle": "Nandland",
+    "projectId": "proj-4c78d5781b650b28",
+    "projectNumber": 6,
+    "status": "PARTIAL_MATCH"
+  }
+]

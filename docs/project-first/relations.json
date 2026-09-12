@@ -1,122 +1,1298 @@
 [
   {
-    "confidence": "EXACT",
-    "description": "Proyectos con relación funcional o temática compartida dentro del mismo dominio técnico.",
-    "provenance": {
-      "confidence": "EXACT",
-      "extractionMethod": "multi-signal-classifier-v1",
-      "extractorVersion": "1.0.0",
-      "generatorVersion": null,
-      "origin": "generated",
-      "source": "guide-002+guide-015",
-      "sourceHash": "87f5986d:87f5986d",
-      "sourcePage": 9,
-      "sourcePath": "Engineering guides/(PART 21) 6_Upgrades_Your_Drone_Is_Missing.pdf,Engineering guides/6_Upgrades_Your_Drone_Is_Missing.pdf",
-      "sourceSection": "DEDUPLICATION_EVALUATION"
-    },
-    "relationId": "rel-2474fbdac0f6f9b3",
+    "confidence": 0.4154,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-00f1b3df049d7c11",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-217f596a43c24e22",
-    "targetProjectId": "proj-d6b9b16f65f5d9fd"
+    "sourceProjectId": "proj-4902d58497d90422",
+    "targetProjectId": "proj-df20c0bdfa75937d"
   },
   {
-    "confidence": "EXACT",
-    "description": "Proyectos con relación funcional o temática compartida dentro del mismo dominio técnico.",
-    "provenance": {
-      "confidence": "EXACT",
-      "extractionMethod": "multi-signal-classifier-v1",
-      "extractorVersion": "1.0.0",
-      "generatorVersion": null,
-      "origin": "generated",
-      "source": "guide-011+guide-012",
-      "sourceHash": "377095a4:8feb310f",
-      "sourcePage": 1,
-      "sourcePath": "Engineering guides/6_EE_Projects_That_See_The_Invisible_dark_ops.pdf,Engineering guides/6_EE_Projects_That_See_The_Invisible_revised.pdf",
-      "sourceSection": "DEDUPLICATION_EVALUATION"
-    },
-    "relationId": "rel-e402dc7f629d7be9",
+    "confidence": 0.4167,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-012fed0cb47e44a4",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-1a64e60857cbc87d",
-    "targetProjectId": "proj-f3b88e7e3976ed3b"
+    "sourceProjectId": "proj-299d699e04703cfd",
+    "targetProjectId": "proj-df20c0bdfa75937d"
   },
   {
-    "confidence": "EXACT",
-    "description": "Proyectos con relación funcional o temática compartida dentro del mismo dominio técnico.",
-    "provenance": {
-      "confidence": "EXACT",
-      "extractionMethod": "multi-signal-classifier-v1",
-      "extractorVersion": "1.0.0",
-      "generatorVersion": null,
-      "origin": "generated",
-      "source": "guide-011+guide-012",
-      "sourceHash": "377095a4:8feb310f",
-      "sourcePage": 3,
-      "sourcePath": "Engineering guides/6_EE_Projects_That_See_The_Invisible_dark_ops.pdf,Engineering guides/6_EE_Projects_That_See_The_Invisible_revised.pdf",
-      "sourceSection": "DEDUPLICATION_EVALUATION"
-    },
-    "relationId": "rel-4731e9646c4ce0dd",
+    "confidence": 0.46,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-0208da6ae13d1184",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8c76d2f0e14a7e6d",
+    "targetProjectId": "proj-a09c9eaab189e94a"
+  },
+  {
+    "confidence": 0.4308,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-0304a73f2f359e2d",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-2684f7e12c69809f",
+    "targetProjectId": "proj-b4b49073df0bfb7a"
+  },
+  {
+    "confidence": 0.44,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-04ca1a9571afb340",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-0e0c3069f5a83ea4",
+    "targetProjectId": "proj-23e2ffb84ec9c3a1"
+  },
+  {
+    "confidence": 0.4154,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-04eeaf2455551014",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-299d699e04703cfd",
+    "targetProjectId": "proj-fb8e65ad8631b29f"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-05706350e5588709",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-df20c0bdfa75937d",
+    "targetProjectId": "proj-6efd04ef2f2f5cab"
+  },
+  {
+    "confidence": 0.4654,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-069eeecaec6e4575",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8c76d2f0e14a7e6d",
+    "targetProjectId": "proj-4e461b38f5d05afd"
+  },
+  {
+    "confidence": 0.4118,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-06c878cb526618e2",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8df10854ea1082a6",
+    "targetProjectId": "proj-ae877be606e5b288"
+  },
+  {
+    "confidence": 0.4154,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-073b9570da026d84",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a906f1e86a9caa9f",
+    "targetProjectId": "proj-6efd04ef2f2f5cab"
+  },
+  {
+    "confidence": 0.4125,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-0900b88d393308be",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8df10854ea1082a6",
+    "targetProjectId": "proj-4902d58497d90422"
+  },
+  {
+    "confidence": 0.4133,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-0b694b261a9274a9",
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-1c2472bca80aab75",
-    "targetProjectId": "proj-6169d784d62573ed"
+    "targetProjectId": "proj-4e461b38f5d05afd"
   },
   {
-    "confidence": "EXACT",
-    "description": "Proyectos con relación funcional o temática compartida dentro del mismo dominio técnico.",
-    "provenance": {
-      "confidence": "EXACT",
-      "extractionMethod": "multi-signal-classifier-v1",
-      "extractorVersion": "1.0.0",
-      "generatorVersion": null,
-      "origin": "generated",
-      "source": "guide-011+guide-012",
-      "sourceHash": "377095a4:8feb310f",
-      "sourcePage": 5,
-      "sourcePath": "Engineering guides/6_EE_Projects_That_See_The_Invisible_dark_ops.pdf,Engineering guides/6_EE_Projects_That_See_The_Invisible_revised.pdf",
-      "sourceSection": "DEDUPLICATION_EVALUATION"
-    },
-    "relationId": "rel-c800f5e935017a31",
+    "confidence": 0.4167,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-0e0108df72db1eea",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a42110a4f7ea7e4a",
-    "targetProjectId": "proj-1f516aca4358920d"
+    "sourceProjectId": "proj-a906f1e86a9caa9f",
+    "targetProjectId": "proj-4902d58497d90422"
   },
   {
-    "confidence": "EXACT",
-    "description": "Proyectos con relación funcional o temática compartida dentro del mismo dominio técnico.",
-    "provenance": {
-      "confidence": "EXACT",
-      "extractionMethod": "multi-signal-classifier-v1",
-      "extractorVersion": "1.0.0",
-      "generatorVersion": null,
-      "origin": "generated",
-      "source": "guide-011+guide-012",
-      "sourceHash": "377095a4:8feb310f",
-      "sourcePage": 9,
-      "sourcePath": "Engineering guides/6_EE_Projects_That_See_The_Invisible_dark_ops.pdf,Engineering guides/6_EE_Projects_That_See_The_Invisible_revised.pdf",
-      "sourceSection": "DEDUPLICATION_EVALUATION"
-    },
-    "relationId": "rel-ad87ff49f436a698",
+    "confidence": 0.4,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-12c74e4a268ad1a5",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-81cc6d566a2c3b2d",
-    "targetProjectId": "proj-4917a0b27097e30c"
+    "sourceProjectId": "proj-c552597bc8d468cc",
+    "targetProjectId": "proj-a3d73d08684a062d"
   },
   {
-    "confidence": "EXACT",
-    "description": "Proyectos con relación funcional o temática compartida dentro del mismo dominio técnico.",
-    "provenance": {
-      "confidence": "EXACT",
-      "extractionMethod": "multi-signal-classifier-v1",
-      "extractorVersion": "1.0.0",
-      "generatorVersion": null,
-      "origin": "generated",
-      "source": "guide-028+guide-031",
-      "sourceHash": "a1d4397f:dcf0169b",
-      "sourcePage": 1,
-      "sourcePath": "Engineering guides/summer-ee-glow-up-light.pdf,Engineering guides/summer-ee-glow-up-vol4.pdf",
-      "sourceSection": "DEDUPLICATION_EVALUATION"
-    },
-    "relationId": "rel-a200868b67721c93",
+    "confidence": 0.4,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-1353d2c975249220",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-14bca4088da46825",
+    "targetProjectId": "proj-a3d73d08684a062d"
+  },
+  {
+    "confidence": 0.4708,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-13b27d816ab51baa",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-985a367fdabbc644",
+    "targetProjectId": "proj-e1043df73e599c7e"
+  },
+  {
+    "confidence": 0.4286,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-1550a8d715e5b4d1",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8df10854ea1082a6",
+    "targetProjectId": "proj-a906f1e86a9caa9f"
+  },
+  {
+    "confidence": 0.4167,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-16c536e0dd75c789",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4902d58497d90422",
+    "targetProjectId": "proj-299d699e04703cfd"
+  },
+  {
+    "confidence": 0.4308,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-17cbff23e540cf5e",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4902d58497d90422",
+    "targetProjectId": "proj-fb8e65ad8631b29f"
+  },
+  {
+    "confidence": 0.4333,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-181cdba17a42dcb8",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a906f1e86a9caa9f",
+    "targetProjectId": "proj-fb8e65ad8631b29f"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-1826e28775cc4265",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4902d58497d90422",
+    "targetProjectId": "proj-6efd04ef2f2f5cab"
+  },
+  {
+    "confidence": 0.4167,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-18a8d37f70a5f94c",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a906f1e86a9caa9f",
+    "targetProjectId": "proj-df20c0bdfa75937d"
+  },
+  {
+    "confidence": 0.4118,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-1ac74fbd0d4ccde4",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8df10854ea1082a6",
+    "targetProjectId": "proj-fb8e65ad8631b29f"
+  },
+  {
+    "confidence": 0.4133,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-1c60b065e7cad22e",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-413f063f71e7017e",
+    "targetProjectId": "proj-6efd04ef2f2f5cab"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-1fffc02c0a3b802a",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-0e0c3069f5a83ea4",
+    "targetProjectId": "proj-fb8e65ad8631b29f"
+  },
+  {
+    "confidence": 0.4333,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-22aa850d14b32869",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-273ead6161abcad3",
+    "targetProjectId": "proj-33e829cad7110af3"
+  },
+  {
+    "confidence": 0.4118,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-24d3f27b34ae28b3",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-1c2472bca80aab75",
+    "targetProjectId": "proj-6efd04ef2f2f5cab"
+  },
+  {
+    "confidence": 0.44,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-2638b7eeebf80aa5",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8bf5eb8c424af41d",
+    "targetProjectId": "proj-b4b49073df0bfb7a"
+  },
+  {
+    "confidence": 0.4118,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-29f14ff97e8fba8c",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-0e0c3069f5a83ea4",
+    "targetProjectId": "proj-a245d2a49550770f"
+  },
+  {
+    "confidence": 0.4133,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-2b4588632ed1863d",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-ae877be606e5b288",
+    "targetProjectId": "proj-6efd04ef2f2f5cab"
+  },
+  {
+    "confidence": 0.4468,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-2b6af10c4ee6bd8f",
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-616fcf7e67d1028d",
     "targetProjectId": "proj-25015e1de0868338"
+  },
+  {
+    "confidence": 0.4333,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-2b7bb4d9c5f58adf",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-ebd06c8fe102558d",
+    "targetProjectId": "proj-e1043df73e599c7e"
+  },
+  {
+    "confidence": 0.4154,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-2bb0e31bab98040a",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-0e0c3069f5a83ea4",
+    "targetProjectId": "proj-9fb705613f7fa35c"
+  },
+  {
+    "confidence": 0.4167,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-2bb5cf893441eae3",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-ae877be606e5b288",
+    "targetProjectId": "proj-23e2ffb84ec9c3a1"
+  },
+  {
+    "confidence": 0.4154,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-2bc31010651bdb42",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-9fb705613f7fa35c",
+    "targetProjectId": "proj-df20c0bdfa75937d"
+  },
+  {
+    "confidence": 0.4105,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-2c8723452bf2dc6f",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a09c9eaab189e94a",
+    "targetProjectId": "proj-9fb705613f7fa35c"
+  },
+  {
+    "confidence": 0.4154,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-2ccc7d6c96dc0ac4",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-0e0c3069f5a83ea4",
+    "targetProjectId": "proj-4902d58497d90422"
+  },
+  {
+    "confidence": 0.4211,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-31c9cb7df4a20e4b",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-2d6bb1ea265633fd",
+    "targetProjectId": "proj-22933371bb73088f"
+  },
+  {
+    "confidence": 0.4167,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-3351ce22ef2f1a4a",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a906f1e86a9caa9f",
+    "targetProjectId": "proj-9fb705613f7fa35c"
+  },
+  {
+    "confidence": 0.4111,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-344a689551004a8d",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a245d2a49550770f",
+    "targetProjectId": "proj-6efd04ef2f2f5cab"
+  },
+  {
+    "confidence": 0.4133,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-34d3666dd6aec0a9",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8df10854ea1082a6",
+    "targetProjectId": "proj-299d699e04703cfd"
+  },
+  {
+    "confidence": 0.4182,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-35843a07eefdc890",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-9fb705613f7fa35c",
+    "targetProjectId": "proj-23e2ffb84ec9c3a1"
+  },
+  {
+    "confidence": 0.4821,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-36bbcd1a2366181c",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-c552597bc8d468cc",
+    "targetProjectId": "proj-14bca4088da46825"
+  },
+  {
+    "confidence": 0.4111,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-3913f00dc3124492",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-ae877be606e5b288",
+    "targetProjectId": "proj-a245d2a49550770f"
+  },
+  {
+    "confidence": 0.4154,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-39b46f6a3c0e349c",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4e461b38f5d05afd",
+    "targetProjectId": "proj-ae877be606e5b288"
+  },
+  {
+    "confidence": 0.4133,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-3d6b052368aea58a",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-ae877be606e5b288",
+    "targetProjectId": "proj-413f063f71e7017e"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-40fd423b38641cf4",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-9fb705613f7fa35c",
+    "targetProjectId": "proj-413f063f71e7017e"
+  },
+  {
+    "confidence": 0.3368,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-416b8793a47f7df3",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-0455fb2c072df1ec",
+    "targetProjectId": "proj-a2ebed30b19669a5"
+  },
+  {
+    "confidence": 0.4125,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-424d6595d0b7bfba",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a245d2a49550770f",
+    "targetProjectId": "proj-299d699e04703cfd"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-433dedf0977413f1",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-413f063f71e7017e",
+    "targetProjectId": "proj-df20c0bdfa75937d"
+  },
+  {
+    "confidence": 0.425,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-4b3f12f4051be171",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a09c9eaab189e94a",
+    "targetProjectId": "proj-23e2ffb84ec9c3a1"
+  },
+  {
+    "confidence": 0.4105,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-4be42ed7171ada52",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8df10854ea1082a6",
+    "targetProjectId": "proj-1c2472bca80aab75"
+  },
+  {
+    "confidence": 0.42,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-4d6e562d81876032",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4e461b38f5d05afd",
+    "targetProjectId": "proj-23e2ffb84ec9c3a1"
+  },
+  {
+    "confidence": 0.4105,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-4f21478acaf73f17",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a09c9eaab189e94a",
+    "targetProjectId": "proj-df20c0bdfa75937d"
+  },
+  {
+    "confidence": 0.4154,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-514c15005c86b4f3",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-ae877be606e5b288",
+    "targetProjectId": "proj-299d699e04703cfd"
+  },
+  {
+    "confidence": 0.4133,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-53351bc517d97b0a",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-413f063f71e7017e",
+    "targetProjectId": "proj-fb8e65ad8631b29f"
+  },
+  {
+    "confidence": 0.4125,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-5535739faaea200a",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-1c2472bca80aab75",
+    "targetProjectId": "proj-9fb705613f7fa35c"
+  },
+  {
+    "confidence": 0.4286,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-5654e0b1bf22c2d4",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-fb8e65ad8631b29f",
+    "targetProjectId": "proj-6efd04ef2f2f5cab"
+  },
+  {
+    "confidence": 0.4154,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-5a30e3fb75df2083",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-413f063f71e7017e",
+    "targetProjectId": "proj-299d699e04703cfd"
+  },
+  {
+    "confidence": 0.4118,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-5a691dc68cc65a92",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4902d58497d90422",
+    "targetProjectId": "proj-a245d2a49550770f"
+  },
+  {
+    "confidence": 0.4167,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-5c3c55728cad6355",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-0e0c3069f5a83ea4",
+    "targetProjectId": "proj-299d699e04703cfd"
+  },
+  {
+    "confidence": 0.4154,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-5c8c90b60434ed61",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a906f1e86a9caa9f",
+    "targetProjectId": "proj-8c76d2f0e14a7e6d"
+  },
+  {
+    "confidence": 0.4133,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-5ce2142286f271b9",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8c76d2f0e14a7e6d",
+    "targetProjectId": "proj-fb8e65ad8631b29f"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-5e3a6e98371b542d",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-1c2472bca80aab75",
+    "targetProjectId": "proj-23e2ffb84ec9c3a1"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-5e3a72d7ce283c95",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8c76d2f0e14a7e6d",
+    "targetProjectId": "proj-0e0c3069f5a83ea4"
+  },
+  {
+    "confidence": 0.5143,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-5eadf9dc4fa2fc45",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4db6eb596b425847",
+    "targetProjectId": "proj-2d6bb1ea265633fd"
+  },
+  {
+    "confidence": 0.4182,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-5f2be5c84f8c078c",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a906f1e86a9caa9f",
+    "targetProjectId": "proj-4e461b38f5d05afd"
+  },
+  {
+    "confidence": 0.425,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-5f99f5c383e601c1",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-1c2472bca80aab75",
+    "targetProjectId": "proj-ae877be606e5b288"
+  },
+  {
+    "confidence": 0.42,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-611355416d78e618",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-22933371bb73088f",
+    "targetProjectId": "proj-89dce9c8134220ee"
+  },
+  {
+    "confidence": 0.4211,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-616696126b3e5e0e",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4db6eb596b425847",
+    "targetProjectId": "proj-22933371bb73088f"
+  },
+  {
+    "confidence": 0.4118,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-638fa26e61ce9bc5",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a245d2a49550770f",
+    "targetProjectId": "proj-9fb705613f7fa35c"
+  },
+  {
+    "confidence": 0.4133,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-678081e16b1151b2",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8c76d2f0e14a7e6d",
+    "targetProjectId": "proj-6efd04ef2f2f5cab"
+  },
+  {
+    "confidence": 0.41,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-6c317f51e6de4445",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a09c9eaab189e94a",
+    "targetProjectId": "proj-fb8e65ad8631b29f"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-71704c75fcfbf2b4",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4902d58497d90422",
+    "targetProjectId": "proj-ae877be606e5b288"
+  },
+  {
+    "confidence": 0.4375,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-7848aed097f1b112",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a245d2a49550770f",
+    "targetProjectId": "proj-fb8e65ad8631b29f"
+  },
+  {
+    "confidence": 0.4133,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-78f5a79cb75c1869",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-1c2472bca80aab75",
+    "targetProjectId": "proj-299d699e04703cfd"
+  },
+  {
+    "confidence": 0.3355,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-79aab3bff909ad26",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-1a64e60857cbc87d",
+    "targetProjectId": "proj-a2ebed30b19669a5"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-7f9f0c497a951982",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-0e0c3069f5a83ea4",
+    "targetProjectId": "proj-413f063f71e7017e"
+  },
+  {
+    "confidence": 0.4167,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-7fedb3abf86eb5fc",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4e461b38f5d05afd",
+    "targetProjectId": "proj-9fb705613f7fa35c"
+  },
+  {
+    "confidence": 0.475,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-8383380ecbd46350",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-9cc1a42f66e7c4d5",
+    "targetProjectId": "proj-c7a08cce79d39f48"
+  },
+  {
+    "confidence": 0.4118,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-86fbc33d76a2e424",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-1c96697431543b30",
+    "targetProjectId": "proj-de62002d65b8d3c3"
+  },
+  {
+    "confidence": 0.4211,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-882c60d45ac99195",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8df10854ea1082a6",
+    "targetProjectId": "proj-a245d2a49550770f"
+  },
+  {
+    "confidence": 0.4167,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-8871abbb31cb5675",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4e461b38f5d05afd",
+    "targetProjectId": "proj-df20c0bdfa75937d"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-8977432134d00611",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-ae877be606e5b288",
+    "targetProjectId": "proj-df20c0bdfa75937d"
+  },
+  {
+    "confidence": 0.4154,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-89be4c3aa5d89c6e",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4e461b38f5d05afd",
+    "targetProjectId": "proj-6efd04ef2f2f5cab"
+  },
+  {
+    "confidence": 0.425,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-8a86b9027c2fe7d2",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8b212f8f0d5012cc",
+    "targetProjectId": "proj-22933371bb73088f"
+  },
+  {
+    "confidence": 0.42,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-8a9ad9d0e12aba5e",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-299d699e04703cfd",
+    "targetProjectId": "proj-23e2ffb84ec9c3a1"
+  },
+  {
+    "confidence": 0.4133,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-8bd0d02a5508f5b5",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8c76d2f0e14a7e6d",
+    "targetProjectId": "proj-413f063f71e7017e"
+  },
+  {
+    "confidence": 0.4167,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-8d1dc592f7c7df9d",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-fb8e65ad8631b29f",
+    "targetProjectId": "proj-23e2ffb84ec9c3a1"
+  },
+  {
+    "confidence": 0.4125,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-92d0ee6ba2b6b1bb",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8df10854ea1082a6",
+    "targetProjectId": "proj-9fb705613f7fa35c"
+  },
+  {
+    "confidence": 0.4125,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-93e05e1b627b8d12",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4902d58497d90422",
+    "targetProjectId": "proj-1c2472bca80aab75"
+  },
+  {
+    "confidence": 0.4087,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-983b614a906399ea",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a09c9eaab189e94a",
+    "targetProjectId": "proj-a245d2a49550770f"
+  },
+  {
+    "confidence": 0.4154,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-98d95f339bfc898b",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-299d699e04703cfd",
+    "targetProjectId": "proj-6efd04ef2f2f5cab"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-99b153c8d5eaa789",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-0e0c3069f5a83ea4",
+    "targetProjectId": "proj-6efd04ef2f2f5cab"
+  },
+  {
+    "confidence": 0.4154,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-9ab120e997ce5320",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a906f1e86a9caa9f",
+    "targetProjectId": "proj-413f063f71e7017e"
+  },
+  {
+    "confidence": 0.4333,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-9ad5d24c346381bb",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-985a367fdabbc644",
+    "targetProjectId": "proj-ebd06c8fe102558d"
+  },
+  {
+    "confidence": 0.41,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-9d1a6433bdf53a93",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a09c9eaab189e94a",
+    "targetProjectId": "proj-ae877be606e5b288"
+  },
+  {
+    "confidence": 0.4105,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-9d351f8056cd88c4",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4902d58497d90422",
+    "targetProjectId": "proj-a09c9eaab189e94a"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-a0dc297e0d1bc827",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-fb8e65ad8631b29f",
+    "targetProjectId": "proj-df20c0bdfa75937d"
+  },
+  {
+    "confidence": 0.41,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-a0e90a5cc4c6fb36",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a09c9eaab189e94a",
+    "targetProjectId": "proj-6efd04ef2f2f5cab"
+  },
+  {
+    "confidence": 0.4154,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-a3bc8f2186c42053",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a906f1e86a9caa9f",
+    "targetProjectId": "proj-ae877be606e5b288"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-a5287e374b954a56",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-0e0c3069f5a83ea4",
+    "targetProjectId": "proj-ae877be606e5b288"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-a637e940ac8d1fa7",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8c76d2f0e14a7e6d",
+    "targetProjectId": "proj-df20c0bdfa75937d"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-a64292cf5411adfe",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-683b8320c77d62a2",
+    "targetProjectId": "proj-0455fb2c072df1ec"
+  },
+  {
+    "confidence": 0.42,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-ad32b6ede34bd285",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a906f1e86a9caa9f",
+    "targetProjectId": "proj-23e2ffb84ec9c3a1"
+  },
+  {
+    "confidence": 0.41,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-ae497ee888db2d38",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-1c2472bca80aab75",
+    "targetProjectId": "proj-a245d2a49550770f"
+  },
+  {
+    "confidence": 0.4167,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-af934c9e801698a0",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4902d58497d90422",
+    "targetProjectId": "proj-4e461b38f5d05afd"
+  },
+  {
+    "confidence": 0.4167,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-b5b7ee5eef4f1640",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-0e0c3069f5a83ea4",
+    "targetProjectId": "proj-4e461b38f5d05afd"
+  },
+  {
+    "confidence": 0.4125,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-b62a29cd5e4fd9f4",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-1c2472bca80aab75",
+    "targetProjectId": "proj-df20c0bdfa75937d"
+  },
+  {
+    "confidence": 0.4125,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-b63f3574963b8360",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-0e0c3069f5a83ea4",
+    "targetProjectId": "proj-1c2472bca80aab75"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-b76b095062d46998",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-9fb705613f7fa35c",
+    "targetProjectId": "proj-fb8e65ad8631b29f"
+  },
+  {
+    "confidence": 0.4111,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-b9cefe457f335602",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a906f1e86a9caa9f",
+    "targetProjectId": "proj-a09c9eaab189e94a"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-ba06eb2a0a32c70e",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8c76d2f0e14a7e6d",
+    "targetProjectId": "proj-9fb705613f7fa35c"
+  },
+  {
+    "confidence": 0.4667,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-ba4b4ae4cd3cea6a",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-413f063f71e7017e",
+    "targetProjectId": "proj-23e2ffb84ec9c3a1"
+  },
+  {
+    "confidence": 0.4118,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-ba8e78969b4e5835",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8df10854ea1082a6",
+    "targetProjectId": "proj-413f063f71e7017e"
+  },
+  {
+    "confidence": 0.4125,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-baf672516e77ed5e",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4e461b38f5d05afd",
+    "targetProjectId": "proj-a245d2a49550770f"
+  },
+  {
+    "confidence": 0.4154,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-bb2b727b81fd7afc",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4902d58497d90422",
+    "targetProjectId": "proj-9fb705613f7fa35c"
+  },
+  {
+    "confidence": 0.4154,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-bc1d234a186e1bc5",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-0e0c3069f5a83ea4",
+    "targetProjectId": "proj-df20c0bdfa75937d"
+  },
+  {
+    "confidence": 0.4167,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-bc316d51bfc8ba35",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8c76d2f0e14a7e6d",
+    "targetProjectId": "proj-23e2ffb84ec9c3a1"
+  },
+  {
+    "confidence": 0.4118,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-bc687832e2c1c106",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8df10854ea1082a6",
+    "targetProjectId": "proj-6efd04ef2f2f5cab"
+  },
+  {
+    "confidence": 0.4182,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-bcbd03ad117098b1",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a906f1e86a9caa9f",
+    "targetProjectId": "proj-299d699e04703cfd"
+  },
+  {
+    "confidence": 0.4154,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-bfb9a587a6c510ca",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4e461b38f5d05afd",
+    "targetProjectId": "proj-413f063f71e7017e"
+  },
+  {
+    "confidence": 0.4133,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-bfcc433cb9f59315",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a906f1e86a9caa9f",
+    "targetProjectId": "proj-1c2472bca80aab75"
+  },
+  {
+    "confidence": 0.4111,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-c1a663db45d9a6da",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a09c9eaab189e94a",
+    "targetProjectId": "proj-299d699e04703cfd"
+  },
+  {
+    "confidence": 0.4235,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-c26bd7a345e341f5",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-2d6bb1ea265633fd",
+    "targetProjectId": "proj-89dce9c8134220ee"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-c3ca1aa82437a7a0",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8c76d2f0e14a7e6d",
+    "targetProjectId": "proj-4902d58497d90422"
+  },
+  {
+    "confidence": 0.4222,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-c701110ca235f3cd",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-0e0c3069f5a83ea4",
+    "targetProjectId": "proj-a09c9eaab189e94a"
+  },
+  {
+    "confidence": 0.4133,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-c7ce9ed2c6bf14a1",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-ae877be606e5b288",
+    "targetProjectId": "proj-fb8e65ad8631b29f"
+  },
+  {
+    "confidence": 0.4118,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-c99c1f346af4f0a5",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-1c2472bca80aab75",
+    "targetProjectId": "proj-413f063f71e7017e"
+  },
+  {
+    "confidence": 0.4133,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-ccbe4497eb6cdb0c",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8df10854ea1082a6",
+    "targetProjectId": "proj-4e461b38f5d05afd"
+  },
+  {
+    "confidence": 0.4125,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-cdb19fa837b985e9",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8df10854ea1082a6",
+    "targetProjectId": "proj-0e0c3069f5a83ea4"
+  },
+  {
+    "confidence": 0.4133,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-cdb9699d2c49c34a",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a245d2a49550770f",
+    "targetProjectId": "proj-23e2ffb84ec9c3a1"
+  },
+  {
+    "confidence": 0.4083,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-d16ccd6ee361dd25",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4e59318e9573e811",
+    "targetProjectId": "proj-4a566f25189a6e42"
+  },
+  {
+    "confidence": 0.4235,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-d4727f87d12495db",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4db6eb596b425847",
+    "targetProjectId": "proj-89dce9c8134220ee"
+  },
+  {
+    "confidence": 0.4111,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-d612e967263e7085",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8c76d2f0e14a7e6d",
+    "targetProjectId": "proj-a245d2a49550770f"
+  },
+  {
+    "confidence": 0.4286,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-d9cd19377917d0af",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8c76d2f0e14a7e6d",
+    "targetProjectId": "proj-ae877be606e5b288"
+  },
+  {
+    "confidence": 0.4286,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-dd9ef8470aa86a35",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8b212f8f0d5012cc",
+    "targetProjectId": "proj-89dce9c8134220ee"
+  },
+  {
+    "confidence": 0.4167,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-de8b538d45ac2434",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-9fb705613f7fa35c",
+    "targetProjectId": "proj-299d699e04703cfd"
+  },
+  {
+    "confidence": 0.4182,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-e0cfa6b5d8e1d457",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-23e2ffb84ec9c3a1",
+    "targetProjectId": "proj-df20c0bdfa75937d"
+  },
+  {
+    "confidence": 0.41,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-e2360219ac2c1fe3",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a09c9eaab189e94a",
+    "targetProjectId": "proj-413f063f71e7017e"
+  },
+  {
+    "confidence": 0.4118,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-e241764dbcdeadeb",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-1c2472bca80aab75",
+    "targetProjectId": "proj-fb8e65ad8631b29f"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-e387d2ecb1663ab3",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-ae877be606e5b288",
+    "targetProjectId": "proj-9fb705613f7fa35c"
+  },
+  {
+    "confidence": 0.4118,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-e40ffbaa2e1b9787",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8c76d2f0e14a7e6d",
+    "targetProjectId": "proj-1c2472bca80aab75"
+  },
+  {
+    "confidence": 0.4111,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-e75180c8c822e37c",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a245d2a49550770f",
+    "targetProjectId": "proj-413f063f71e7017e"
+  },
+  {
+    "confidence": 0.4118,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-e8264b2278ae8037",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8df10854ea1082a6",
+    "targetProjectId": "proj-8c76d2f0e14a7e6d"
+  },
+  {
+    "confidence": 0.4792,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-e9379d1466a12593",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a906f1e86a9caa9f",
+    "targetProjectId": "proj-a245d2a49550770f"
+  },
+  {
+    "confidence": 0.435,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-ea1e1ecf36f1b00d",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-683b8320c77d62a2",
+    "targetProjectId": "proj-a2ebed30b19669a5"
+  },
+  {
+    "confidence": 0.4167,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-eb8a67998948ebd3",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-23e2ffb84ec9c3a1",
+    "targetProjectId": "proj-6efd04ef2f2f5cab"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-ec3c4af07bfc089d",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-9fb705613f7fa35c",
+    "targetProjectId": "proj-6efd04ef2f2f5cab"
+  },
+  {
+    "confidence": 0.4125,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-eda3c80b028bf9df",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8df10854ea1082a6",
+    "targetProjectId": "proj-df20c0bdfa75937d"
+  },
+  {
+    "confidence": 0.5071,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-edc4fd6790f1e0cb",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8b212f8f0d5012cc",
+    "targetProjectId": "proj-2d6bb1ea265633fd"
+  },
+  {
+    "confidence": 0.4154,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-f000031af45b0aaa",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8c76d2f0e14a7e6d",
+    "targetProjectId": "proj-299d699e04703cfd"
+  },
+  {
+    "confidence": 0.4091,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-f2a893dc5cf51a56",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-1c2472bca80aab75",
+    "targetProjectId": "proj-a09c9eaab189e94a"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-f2d373369b877dff",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4902d58497d90422",
+    "targetProjectId": "proj-413f063f71e7017e"
+  },
+  {
+    "confidence": 0.4091,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-f3d7d2f72bf34726",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8df10854ea1082a6",
+    "targetProjectId": "proj-a09c9eaab189e94a"
+  },
+  {
+    "confidence": 0.4167,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-f6f522e9bbebaa53",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a906f1e86a9caa9f",
+    "targetProjectId": "proj-0e0c3069f5a83ea4"
+  },
+  {
+    "confidence": 0.4308,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-f712b2724d597bd4",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-2684f7e12c69809f",
+    "targetProjectId": "proj-8bf5eb8c424af41d"
+  },
+  {
+    "confidence": 0.4182,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-faa269002d47b386",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4e461b38f5d05afd",
+    "targetProjectId": "proj-299d699e04703cfd"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-fc928ccb3448f202",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8df10854ea1082a6",
+    "targetProjectId": "proj-23e2ffb84ec9c3a1"
+  },
+  {
+    "confidence": 0.4154,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-fcb460e2ad70d67a",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4e461b38f5d05afd",
+    "targetProjectId": "proj-fb8e65ad8631b29f"
+  },
+  {
+    "confidence": 0.4118,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-ff0b82a355399b4f",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a245d2a49550770f",
+    "targetProjectId": "proj-df20c0bdfa75937d"
+  },
+  {
+    "confidence": 0.4182,
+    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
+    "relationId": "rel-ff1ece100c40587b",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4902d58497d90422",
+    "targetProjectId": "proj-23e2ffb84ec9c3a1"
   }
 ]

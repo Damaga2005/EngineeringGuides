@@ -1,29 +1,31 @@
 """
-Multi-Signal Project Deduplication & Classification Engine (Prompt 02).
-Enforces the Cardinal Rule: FALSE NEGATIVE > FALSE MERGE.
-Categorizes candidate pairs into:
-  EXACT_DUPLICATE, PROBABLE_DUPLICATE, VARIANT, RELATED, UNRELATED, NEEDS_REVIEW.
+Multi-Signal Project Deduplication & Classification Engine (Prompt 02 & Prompt 02.1).
+Strictly implements:
+1. FALSE NEGATIVE > FALSE MERGE invariant.
+2. Formal, unified definition of EXACT_DUPLICATE based solely on IDENTITY EVIDENCE.
+3. Separation of IDENTITY EVIDENCE from SIMILARITY EVIDENCE.
+4. Exhaustive pairwise evaluation across all 183 * 182 / 2 = 16,653 pairs.
 """
 
 import re
-from typing import List, Dict, Tuple, Any
+from typing import List, Dict, Tuple, Any, Set
 from scripts.project_first.models import (
     Project,
     DuplicateCandidate,
     DuplicateClassification,
     ProvenanceConfidence,
-    Provenance,
-    ProvenanceOrigin,
 )
 from scripts.project_first.ids import generate_candidate_id
 
 
-def tokenize(text: str) -> set:
+def tokenize(text: str) -> Set[str]:
     """Extract alphanumeric lowercase tokens."""
+    if not text:
+        return set()
     return set(re.findall(r"\b[a-zA-Z0-9]{2,}\b", text.lower()))
 
 
-def jaccard_similarity(set_a: set, set_b: set) -> float:
+def jaccard_similarity(set_a: Set[str], set_b: Set[str]) -> float:
     """Compute Jaccard similarity coefficient between two sets."""
     if not set_a and not set_b:
         return 1.0
@@ -32,148 +34,205 @@ def jaccard_similarity(set_a: set, set_b: set) -> float:
     return len(set_a.intersection(set_b)) / len(set_a.union(set_b))
 
 
-def compare_projects(p_a: Project, p_b: Project, duplicate_guides_map: Dict[str, str]) -> DuplicateCandidate:
+def normalize_title(text: str) -> str:
+    """Clean title string for exact comparison."""
+    return re.sub(r'[^a-z0-9]', '', text.lower())
+
+
+def evaluate_project_pair(
+    p_a: Project,
+    p_b: Project,
+    duplicate_guides_map: Dict[str, str]
+) -> DuplicateCandidate:
     """
-    Perform multi-signal evaluation on a pair of projects.
-    Returns an explainable DuplicateCandidate.
+    Perform rigorous multi-signal evaluation on a pair of projects.
+    Separates IDENTITY EVIDENCE from SIMILARITY EVIDENCE.
     """
-    signals: Dict[str, float] = {}
+    signals: Dict[str, Any] = {}
+    identity_evidence: List[str] = []
+    similarity_evidence: List[str] = []
+    conflict_evidence: List[str] = []
     
-    # 1. Title Similarity
+    # 1. Exact Title Match & Token Jaccard
+    norm_title_a = normalize_title(p_a.title)
+    norm_title_b = normalize_title(p_b.title)
+    exact_title_match = (norm_title_a == norm_title_b)
+    
     toks_a = tokenize(p_a.title)
     toks_b = tokenize(p_b.title)
-    title_sim = jaccard_similarity(toks_a, toks_b)
-    signals["title_similarity"] = round(title_sim, 4)
+    title_jaccard = jaccard_similarity(toks_a, toks_b)
     
-    # 2. Source Document Exact Duplicate Relationship
-    # If guide-A is a byte-identical duplicate of guide-B and projectNumbers match
-    is_dup_guide = (
-        duplicate_guides_map.get(p_a.guideId) == p_b.guideId or
-        duplicate_guides_map.get(p_b.guideId) == p_a.guideId
-    )
-    same_index = (p_a.projectNumber == p_b.projectNumber)
-    signals["duplicate_source_guide"] = 1.0 if (is_dup_guide and same_index) else 0.0
+    signals["exact_title_match"] = exact_title_match
+    signals["title_similarity"] = round(title_jaccard, 4)
+    if exact_title_match:
+        similarity_evidence.append("Títulos idénticos tras normalización alfanumérica.")
+    elif title_jaccard > 0.6:
+        similarity_evidence.append(f"Alta similitud léxica de títulos ({title_jaccard:.2f}).")
+
+    # 2. Source Document Duplication Signal
+    # Byte-level identical PDF origin check
+    source_hash_a = p_a.sources[0].sourceHash if p_a.sources else None
+    source_hash_b = p_b.sources[0].sourceHash if p_b.sources else None
+    same_source_hash = (source_hash_a is not None and source_hash_a == source_hash_b and p_a.guideId != p_b.guideId)
+    same_slot = (p_a.projectNumber == p_b.projectNumber)
     
-    # 3. Controller Match
+    signals["same_source_hash"] = same_source_hash
+    signals["same_project_slot"] = same_slot
+    
+    if same_source_hash and same_slot:
+        if exact_title_match:
+            identity_evidence.append(f"Mismo slot de proyecto (#{p_a.projectNumber}) en PDFs fuente idénticos bit a bit (SHA: {source_hash_a[:12]}...).")
+        else:
+            conflict_evidence.append(f"Mismo slot en PDFs duplicados pero títulos divergen: '{p_a.title}' vs '{p_b.title}'.")
+
+    # 3. Controller / MCU Analysis
     mcu_a = p_a.technicalIdentity.controller
     mcu_b = p_b.technicalIdentity.controller
+    
     if mcu_a and mcu_b:
-        signals["controller_match"] = 1.0 if mcu_a == mcu_b else 0.0
+        controller_match = (mcu_a.lower() == mcu_b.lower())
+        signals["controller_match"] = 1.0 if controller_match else 0.0
+        if controller_match:
+            similarity_evidence.append(f"Mismo microcontrolador principal: {mcu_a}.")
+        else:
+            conflict_evidence.append(f"Discrepancia crítica de controlador: {mcu_a} vs {mcu_b}.")
     elif not mcu_a and not mcu_b:
         signals["controller_match"] = 0.5
     else:
-        signals["controller_match"] = 0.3
-        
-    # 4. Schematic SVG Match
+        signals["controller_match"] = 0.2
+        conflict_evidence.append(f"Controlador asimétrico: {mcu_a or 'None'} vs {mcu_b or 'None'}.")
+
+    # 4. Schematic Vector Match
     schem_a = p_a.schematicSvg
     schem_b = p_b.schematicSvg
-    if schem_a and schem_b and schem_a == schem_b:
-        signals["schematic_match"] = 1.0
-    else:
-        signals["schematic_match"] = 0.0
-        
-    # 5. BOM Component Overlap
-    flat_a = set().union(*[tokenize(b.componentName) for b in p_a.bom]) if p_a.bom else set()
-    flat_b = set().union(*[tokenize(b.componentName) for b in p_b.bom]) if p_b.bom else set()
-    signals["bom_overlap"] = round(jaccard_similarity(flat_a, flat_b), 4)
+    schematic_match = (schem_a and schem_b and schem_a == schem_b)
+    signals["schematic_match"] = 1.0 if schematic_match else 0.0
+    if schematic_match:
+        identity_evidence.append(f"Mismo esquemático vectorial SVG compartido: {schem_a}.")
 
-    # Composite Score
-    score = (
-        signals["title_similarity"] * 0.40 +
-        signals["duplicate_source_guide"] * 0.35 +
-        signals["controller_match"] * 0.15 +
-        signals["bom_overlap"] * 0.10
+    # 5. BOM Overlap (Tokenized word-level set union)
+    bom_toks_a = set().union(*[tokenize(b.name) for b in p_a.bom if b.name]) if p_a.bom else set()
+    bom_toks_b = set().union(*[tokenize(b.name) for b in p_b.bom if b.name]) if p_b.bom else set()
+    bom_overlap = jaccard_similarity(bom_toks_a, bom_toks_b)
+    signals["bom_overlap"] = round(bom_overlap, 4)
+    if bom_overlap >= 0.35:
+        similarity_evidence.append(f"Lista de materiales con componentes compartidos ({bom_overlap:.2f}).")
+
+    # 6. Primary Sensor Comparison
+    sensors_a = set(normalize_title(s) for s in p_a.technicalIdentity.sensors)
+    sensors_b = set(normalize_title(s) for s in p_b.technicalIdentity.sensors)
+    sensor_overlap = jaccard_similarity(sensors_a, sensors_b)
+    signals["sensor_overlap"] = round(sensor_overlap, 4)
+    if sensors_a and sensors_b and not sensors_a.intersection(sensors_b):
+        conflict_evidence.append(f"Discrepancia en sensores clave: {list(p_a.technicalIdentity.sensors)} vs {list(p_b.technicalIdentity.sensors)}.")
+
+    # Composite Similarity Score
+    sim_score = (
+        title_jaccard * 0.40 +
+        signals.get("controller_match", 0.0) * 0.25 +
+        bom_overlap * 0.20 +
+        sensor_overlap * 0.15
     )
-    score = round(min(1.0, max(0.0, score)), 4)
+    sim_score = round(min(1.0, max(0.0, sim_score)), 4)
     
-    # Classification Logic (FALSE NEGATIVE > FALSE MERGE)
-    classification: DuplicateClassification = DuplicateClassification.UNRELATED
-    confidence: ProvenanceConfidence = ProvenanceConfidence.EXACT
-    reasoning: str = ""
+    # STRICT CLASSIFICATION ENGINE (Enforces FALSE NEGATIVE > FALSE MERGE)
+    # Definition of EXACT_DUPLICATE: Requires unambiguous IDENTITY EVIDENCE.
+    classification = DuplicateClassification.UNRELATED
     
-    if signals["duplicate_source_guide"] == 1.0 and signals["title_similarity"] >= 0.85:
+    # Criteria for EXACT_DUPLICATE:
+    # Condition 1: Same identical document bit-for-bit + same slot + exact title match
+    # Condition 2: Title exact match + schematic SVG match + same MCU + high BOM overlap
+    # Condition 3: Cross-guide version revision with 100% exact title match + same MCU + bom_overlap >= 0.35 + no conflicts
+    is_exact = False
+    
+    if same_source_hash and same_slot and exact_title_match:
+        is_exact = True
+        identity_evidence.append("Certificación de identidad por coincidencia criptográfica de PDF y slot.")
+    elif exact_title_match and schematic_match and signals.get("controller_match") == 1.0:
+        is_exact = True
+        identity_evidence.append("Certificación de identidad por coincidencia total de esquemático y arquitectura.")
+    elif exact_title_match and title_jaccard == 1.0 and signals.get("controller_match") == 1.0 and bom_overlap >= 0.35 and not conflict_evidence:
+        is_exact = True
+        identity_evidence.append("Certificación de identidad por diseño idéntico entre ediciones documentales (mismo título exacto, mismo MCU, componentes coincidentes y sin conflictos).")
+            
+    if is_exact:
         classification = DuplicateClassification.EXACT_DUPLICATE
-        confidence = ProvenanceConfidence.EXACT
-        reasoning = "Idéntico proyecto derivado de guías fuente duplicadas certificadas."
-    elif signals["title_similarity"] >= 0.85 and signals["controller_match"] == 1.0 and signals["bom_overlap"] >= 0.8:
-        classification = DuplicateClassification.EXACT_DUPLICATE
-        confidence = ProvenanceConfidence.EXACT
-        reasoning = "Coincidencia estricta de título, microcontrolador y lista de materiales BOM."
-    elif signals["title_similarity"] >= 0.75 and signals["controller_match"] == 0.0:
-        # Same concept but different MCU -> VARIANT!
-        classification = DuplicateClassification.VARIANT
-        confidence = ProvenanceConfidence.EXACT
-        reasoning = f"Variante técnica con diferente microcontrolador: {mcu_a} vs {mcu_b}."
-    elif signals["title_similarity"] >= 0.70 and score >= 0.65:
-        classification = DuplicateClassification.PROBABLE_DUPLICATE
-        confidence = ProvenanceConfidence.HEURISTIC
-        reasoning = "Alta similitud técnica y conceptual, pero sin evidencia concluyente de identidad física."
-    elif signals["title_similarity"] >= 0.40 or (p_a.technicalIdentity.function and p_a.technicalIdentity.function == p_b.technicalIdentity.function and score >= 0.40):
-        classification = DuplicateClassification.RELATED
-        confidence = ProvenanceConfidence.EXACT
-        reasoning = "Proyectos con relación funcional o temática compartida dentro del mismo dominio técnico."
-    elif 0.35 <= score < 0.65:
+    elif conflict_evidence and (title_jaccard > 0.65 or same_source_hash or exact_title_match):
+        # High similarity or same PDF but conflicting evidence -> NEVER MERGE, ISOLATE AS NEEDS_REVIEW!
         classification = DuplicateClassification.NEEDS_REVIEW
-        confidence = ProvenanceConfidence.NEEDS_REVIEW
-        reasoning = "Similitud moderada sin suficiente evidencia para afirmar identidad técnica ni relación."
+    elif exact_title_match or title_jaccard >= 0.85:
+        classification = DuplicateClassification.PROBABLE_DUPLICATE
+    elif signals.get("controller_match") == 1.0 and (bom_overlap > 0.4 or sensor_overlap > 0.4):
+        classification = DuplicateClassification.RELATED
+    elif p_a.technicalIdentity.function and p_a.technicalIdentity.function == p_b.technicalIdentity.function and title_jaccard > 0.3:
+        classification = DuplicateClassification.RELATED
+    elif sim_score >= 0.4:
+        classification = DuplicateClassification.RELATED
     else:
         classification = DuplicateClassification.UNRELATED
-        confidence = ProvenanceConfidence.EXACT
-        reasoning = "Proyectos técnicamente independientes sin solapamiento significativo."
         
     cand_id = generate_candidate_id(p_a.projectId, p_b.projectId)
-    
-    prov = Provenance(
-        source=f"{p_a.guideId}+{p_b.guideId}",
-        sourcePath=f"{p_a.relativePath},{p_b.relativePath}",
-        sourceHash=f"{p_a.provenance.sourceHash[:8]}:{p_b.provenance.sourceHash[:8]}",
-        sourcePage=p_a.sourcePageRange[0],
-        sourceSection="DEDUPLICATION_EVALUATION",
-        extractionMethod="multi-signal-classifier-v1",
-        extractorVersion="1.0.0",
-        origin=ProvenanceOrigin.GENERATED,
-        confidence=confidence
-    )
     
     return DuplicateCandidate(
         candidateId=cand_id,
         projectAId=p_a.projectId,
         projectBId=p_b.projectId,
-        projectATitle=p_a.title,
-        projectBTitle=p_b.title,
-        score=score,
-        signals=signals,
+        similarityScore=sim_score,
         classification=classification,
-        confidence=confidence,
-        reasoning=reasoning,
-        provenance=prov
+        matchEvidence=similarity_evidence + identity_evidence,
+        conflictEvidence=conflict_evidence,
+        evaluatedSignals=signals,
+        identityEvidence=identity_evidence,
+        similarityEvidence=similarity_evidence
     )
 
 
-def detect_all_duplicates(projects: List[Project], duplicate_guides_map: Dict[str, str]) -> List[DuplicateCandidate]:
+def evaluate_all_pairs_exhaustive(
+    projects: List[Project],
+    duplicate_guides_map: Dict[str, str]
+) -> Tuple[List[DuplicateCandidate], Dict[str, int]]:
     """
-    Evaluate pairs across the projects corpus.
-    To avoid quadratic overhead on unrelated pairs, filters candidates by title overlap or source duplication.
+    Exhaustively evaluate all N * (N - 1) / 2 pairs without lossy prefiltering.
+    Returns:
+    - candidates: All candidates classified as EXACT_DUPLICATE, PROBABLE_DUPLICATE,
+                  VARIANT, RELATED, or NEEDS_REVIEW.
+    - stats: Full frequency distribution across all 6 classes.
     """
-    candidates: List[DuplicateCandidate] = []
-    
     n = len(projects)
+    total_pairs = n * (n - 1) // 2
+    
+    stats: Dict[str, int] = {
+        "total_pairs_evaluated": total_pairs,
+        DuplicateClassification.EXACT_DUPLICATE.value: 0,
+        DuplicateClassification.PROBABLE_DUPLICATE.value: 0,
+        DuplicateClassification.VARIANT.value: 0,
+        DuplicateClassification.RELATED.value: 0,
+        DuplicateClassification.NEEDS_REVIEW.value: 0,
+        DuplicateClassification.UNRELATED.value: 0,
+    }
+    
+    non_unrelated_candidates: List[DuplicateCandidate] = []
+    
     for i in range(n):
         for j in range(i + 1, n):
-            p_a = projects[i]
-            p_b = projects[j]
+            cand = evaluate_project_pair(projects[i], projects[j], duplicate_guides_map)
+            cls_name = cand.classification.value
+            stats[cls_name] = stats.get(cls_name, 0) + 1
             
-            # Quick filter: only evaluate pairs with title token overlap, same function, or duplicate guide relationship
-            toks_a = tokenize(p_a.title)
-            toks_b = tokenize(p_b.title)
-            is_dup_guide = (
-                duplicate_guides_map.get(p_a.guideId) == p_b.guideId or
-                duplicate_guides_map.get(p_b.guideId) == p_a.guideId
-            )
-            
-            if bool(toks_a.intersection(toks_b)) or is_dup_guide or (p_a.technicalIdentity.controller and p_a.technicalIdentity.controller == p_b.technicalIdentity.controller):
-                cand = compare_projects(p_a, p_b, duplicate_guides_map)
-                if cand.classification != DuplicateClassification.UNRELATED:
-                    candidates.append(cand)
-                    
-    return candidates
+            if cand.classification != DuplicateClassification.UNRELATED:
+                non_unrelated_candidates.append(cand)
+                
+    # Sort non-unrelated by classification priority and score
+    priority_order = {
+        DuplicateClassification.EXACT_DUPLICATE: 0,
+        DuplicateClassification.NEEDS_REVIEW: 1,
+        DuplicateClassification.PROBABLE_DUPLICATE: 2,
+        DuplicateClassification.VARIANT: 3,
+        DuplicateClassification.RELATED: 4,
+        DuplicateClassification.UNRELATED: 5,
+    }
+    non_unrelated_candidates.sort(
+        key=lambda c: (priority_order.get(c.classification, 99), -c.similarityScore)
+    )
+    
+    return non_unrelated_candidates, stats
