@@ -351,7 +351,7 @@ export default function ProjectDetail({
               }`}
             >
               <FileText className="h-4 w-4" />
-              <span>18 Secciones Técnicas ({sections.length})</span>
+              <span>Secciones Técnicas ({sections.length})</span>
             </button>
 
             <button

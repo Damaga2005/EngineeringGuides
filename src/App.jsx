@@ -333,7 +333,7 @@ export default function App() {
             </div>
             <h2 className="text-xl font-bold text-white">Cargando Ficha Técnica...</h2>
             <p className="text-xs text-slate-400 leading-relaxed">
-              Cargando las 18 secciones técnicas, trazabilidad documental y BOM.
+              Cargando las secciones técnicas, trazabilidad documental y BOM.
             </p>
           </div>
         </div>
@@ -491,7 +491,7 @@ export default function App() {
                 Engineering <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-indigo-400 bg-clip-text text-transparent">Hub</span>
               </h1>
               <p className="mt-2 text-sm sm:text-base text-slate-400 max-w-2xl">
-                Plataforma técnica de ingeniería aplicada. Explora proyectos independientes con fichas de 18 secciones técnicas o accede a las guías documentales completas.
+                Plataforma técnica de ingeniería aplicada. Explora proyectos independientes con fichas de secciones técnicas o accede a las guías documentales completas.
               </p>
             </div>
 

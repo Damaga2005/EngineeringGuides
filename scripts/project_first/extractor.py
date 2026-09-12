@@ -51,6 +51,11 @@ from scripts.project_first.boundaries import (
     discover_projects_from_ir,
     reconcile_boundaries_with_catalog,
 )
+from scripts.project_first.structural_sections import (
+    extract_structural_sections,
+    trim_trailing_next_project_teaser,
+    is_boilerplate_block as _is_boilerplate_block,
+)
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 DOCS_FOUNDATION = REPO_ROOT / "docs" / "foundation"
@@ -64,18 +69,28 @@ def find_section_evidence(
     keywords: List[str],
     guide_id: str,
     source_hash: str,
-    section_claim: str
+    section_claim: str,
+    used_blocks: Optional[set] = None,
 ) -> Tuple[Optional[str], List[EvidenceBlock]]:
     """
     Search project-scoped IR blocks for keywords matching a technical section.
     Returns (literal_source_text, evidence_blocks) or (None, []).
     sourceText is the EXACT LITERAL block['text'] - untouched, unstripped,
     untruncated, with no '...' appended.
+
+    `used_blocks`, when given, is a set of (pageNumber, blockIndex) tuples
+    already claimed by a real structural-heading section (Phase 1) for this
+    project - they are skipped here so the weaker keyword fallback never
+    re-attributes the same literal block to a second, unrelated section.
     """
     for b in ir_blocks:
         t = b.get("text", "")
         stripped = t.strip()
         if not stripped or len(stripped) < 15:
+            continue
+        if _is_boilerplate_block(t):
+            continue  # never let a BOM table row or page footer stand in for narrative content
+        if used_blocks and (b.get("pageNumber"), b.get("blockIndex")) in used_blocks:
             continue
         lower_t = stripped.lower()
         if any(kw in lower_t for kw in keywords):
@@ -112,6 +127,18 @@ def build_forensic_technical_sections(
     """
     title = proj_data.get("title", "")
 
+    # Phase 1: real structural headings literally present in the document
+    # ("// why this matters", "How It Works", "// build steps", safety
+    # callouts, recruiter-proof/job-mapping lines). These produce coherent,
+    # multi-block literal spans instead of a single decontextualized
+    # keyword-matched sentence.
+    structural = extract_structural_sections(project_ir_blocks, guide_id, source_hash)
+    used_blocks = {
+        (eb.pageNumber, eb.blockIndex)
+        for sec in structural.values()
+        for eb in sec.evidenceBlocks
+    }
+
     section_specs = [
         ("overview", 1, "1. Descripción general",
          ["sensor", "camera", "mcu", "controller", "circuit", "system", "overview", "board", "device", "module", "node", "hardware", "build"]),
@@ -146,16 +173,18 @@ def build_forensic_technical_sections(
         ("limitations", 16, "16. Limitaciones técnicas y casos de borde",
          ["limit", "limitation", "range", "noise", "latency", "drift", "accuracy", "interference", "thermal", "trade-off", "constraint", "resolution"]),
         ("safety", 17, "17. Seguridad técnica y precauciones operativas",
-         ["safety", "caution", "warning", "esd", "short", "overvoltage", "laser", "battery", "protection", "fuse", "reverse polarity", "high voltage"]),
+         ["safety", "caution", "warning", "esd", "overvoltage", "laser safety", "eye-safety", "reverse polarity", "high voltage", "compressed gas", "regulator rated"]),
         ("sources", 18, "18. Documentación original y trazabilidad",
          ["guide", "pdf", "sheet", "manual", "source", "reference", "repo", "documentation", "author"]),
     ]
 
-    sections_dict = {}
+    sections_dict = dict(structural)
 
     for sec_key, idx, sec_title, kws in section_specs:
+        if sec_key in sections_dict:
+            continue  # Phase 1 (real structural heading) already found this.
         claim = f"{sec_title} — {title}"
-        src_txt, ev_blocks = find_section_evidence(project_ir_blocks, kws, guide_id, source_hash, claim)
+        src_txt, ev_blocks = find_section_evidence(project_ir_blocks, kws, guide_id, source_hash, claim, used_blocks)
 
         if src_txt is not None:
             status = ContentStatus.SOURCE
@@ -202,7 +231,10 @@ def extract_forensic_description(
     raw_desc: Optional[str],
     tech_id: TechnicalIdentity,
     project_ir_blocks: List[Dict[str, Any]],
-    objective_section: Optional[TechnicalSection]
+    objective_section: Optional[TechnicalSection],
+    overview_section: Optional[TechnicalSection] = None,
+    what_is_it_for_section: Optional[TechnicalSection] = None,
+    operation_section: Optional[TechnicalSection] = None,
 ) -> ProjectDescription:
     """
     Generate structured description grounded in factual IR evidence.
@@ -213,14 +245,25 @@ def extract_forensic_description(
     evidence_ids = []
     field_status = {}
 
-    desc_evidence_block = None
-    for b in project_ir_blocks[:8]:
-        t = b.get("text", "").strip()
-        if len(t) > 30 and not t.startswith("//") and not t.startswith("P.") and not t.startswith("NODE"):
-            desc_evidence_block = b
-            break
+    # Prefer the real "overview" span (Phase 1: structural heading capture,
+    # anchored right after the project's own title marker) over the weaker
+    # generic first-plausible-block search below.
+    if overview_section is not None and overview_section.status == ContentStatus.SOURCE:
+        what_is_it = overview_section.sourceText
+        evidence_ids.extend(overview_section.derivedFrom)
+        field_status["whatIsIt"] = ContentStatus.SOURCE
+        desc_evidence_block = "handled"
+    else:
+        desc_evidence_block = None
+        for b in project_ir_blocks[:8]:
+            t = b.get("text", "").strip()
+            if len(t) > 30 and not t.startswith("//") and not t.startswith("P.") and not t.startswith("NODE"):
+                desc_evidence_block = b
+                break
 
-    if desc_evidence_block:
+    if desc_evidence_block == "handled":
+        pass
+    elif desc_evidence_block:
         what_is_it = desc_evidence_block["text"]
         ev_id = generate_evidence_id(guide_id, desc_evidence_block["pageNumber"], desc_evidence_block["blockIndex"])
         evidence_ids.append(ev_id)
@@ -239,37 +282,53 @@ def extract_forensic_description(
         what_is_it = None
         field_status["whatIsIt"] = ContentStatus.UNVERIFIED
 
-    func_block = None
-    for b in project_ir_blocks:
-        t = b.get("text", "").strip()
-        if len(t) >= 20 and any(w in t.lower() for w in ["measures", "detects", "controls", "drives", "senses", "tracks", "operates", "provides", "outputs", "computes"]):
-            func_block = b
-            break
-
-    if func_block:
-        what_does_it_do = func_block["text"]
-        ev_id = generate_evidence_id(guide_id, func_block["pageNumber"], func_block["blockIndex"])
-        evidence_ids.append(ev_id)
+    # Prefer the real "how it works" structural span over the weak generic
+    # verb-keyword search, which frequently matched an unrelated sentence
+    # that merely happened to contain one of these common verbs.
+    if operation_section is not None and operation_section.status == ContentStatus.SOURCE:
+        what_does_it_do = operation_section.sourceText
+        evidence_ids.extend(operation_section.derivedFrom)
         field_status["whatDoesItDo"] = ContentStatus.SOURCE
     else:
-        what_does_it_do = None
-        field_status["whatDoesItDo"] = ContentStatus.NOT_DOCUMENTED
+        func_block = None
+        for b in project_ir_blocks:
+            t = b.get("text", "").strip()
+            if len(t) >= 20 and any(w in t.lower() for w in ["measures", "detects", "controls", "drives", "senses", "tracks", "operates", "provides", "outputs", "computes"]):
+                func_block = b
+                break
 
-    purpose_block = None
-    for b in project_ir_blocks:
-        t = b.get("text", "").strip()
-        if len(t) >= 20 and any(w in t.lower() for w in ["used for", "application", "designed to", "purpose", "deployment", "target", "solves"]):
-            purpose_block = b
-            break
+        if func_block:
+            what_does_it_do = func_block["text"]
+            ev_id = generate_evidence_id(guide_id, func_block["pageNumber"], func_block["blockIndex"])
+            evidence_ids.append(ev_id)
+            field_status["whatDoesItDo"] = ContentStatus.SOURCE
+        else:
+            what_does_it_do = None
+            field_status["whatDoesItDo"] = ContentStatus.NOT_DOCUMENTED
 
-    if purpose_block:
-        purpose = purpose_block["text"]
-        ev_id = generate_evidence_id(guide_id, purpose_block["pageNumber"], purpose_block["blockIndex"])
-        evidence_ids.append(ev_id)
+    # Prefer the real "why this matters" structural span (this IS the
+    # document's own explanation of purpose) over the weak generic
+    # purpose-keyword search.
+    if what_is_it_for_section is not None and what_is_it_for_section.status == ContentStatus.SOURCE:
+        purpose = what_is_it_for_section.sourceText
+        evidence_ids.extend(what_is_it_for_section.derivedFrom)
         field_status["purpose"] = ContentStatus.SOURCE
     else:
-        purpose = None
-        field_status["purpose"] = ContentStatus.NOT_DOCUMENTED
+        purpose_block = None
+        for b in project_ir_blocks:
+            t = b.get("text", "").strip()
+            if len(t) >= 20 and any(w in t.lower() for w in ["used for", "application", "designed to", "purpose", "deployment", "target", "solves"]):
+                purpose_block = b
+                break
+
+        if purpose_block:
+            purpose = purpose_block["text"]
+            ev_id = generate_evidence_id(guide_id, purpose_block["pageNumber"], purpose_block["blockIndex"])
+            evidence_ids.append(ev_id)
+            field_status["purpose"] = ContentStatus.SOURCE
+        else:
+            purpose = None
+            field_status["purpose"] = ContentStatus.NOT_DOCUMENTED
 
     # Objective is derived from the SAME evidence as detailedExplanation.objective
     # (never a synthetic template phrase). No independent fabrication.
@@ -387,11 +446,13 @@ def extract_all_projects_forensic() -> Tuple[List[Project], List[Dict[str, Any]]
                         for b in page.get("blocks", []):
                             if p_no == start_p and b["blockIndex"] < boundary.startBlock:
                                 continue
-                            if p_no == end_p and b["blockIndex"] > boundary.endBlock and boundary.endBlock > 0:
+                            if p_no == end_p and b["blockIndex"] > boundary.endBlock:
                                 continue
                             b_copy = dict(b)
                             b_copy["pageNumber"] = p_no
                             project_ir_blocks.append(b_copy)
+
+                project_ir_blocks = trim_trailing_next_project_teaser(project_ir_blocks)
 
             raw_text = f"{title} {p_data.get('description', '')} {p_data.get('detailedBuildManual', {}).get('firmwareCode', '')}"
             comp_names = [b.get("name", "") for b in p_data.get("officialData", {}).get("bom", [])] + p_data.get("components", [])
@@ -414,7 +475,10 @@ def extract_all_projects_forensic() -> Tuple[List[Project], List[Dict[str, Any]]
                 raw_desc=p_data.get("description"),
                 tech_id=tech_id,
                 project_ir_blocks=project_ir_blocks,
-                objective_section=detailed.objective
+                objective_section=detailed.objective,
+                overview_section=detailed.overview,
+                what_is_it_for_section=detailed.whatIsItFor,
+                operation_section=detailed.operation,
             )
 
             prov = Provenance(

@@ -55,8 +55,11 @@ def generate_evidence_audit() -> Dict[str, Any]:
     invalid_block_indices = 0
     invalid_hashes = 0
     evidence_id_valid = 0
-    
+    section_join_matches = 0
+    section_join_mismatches = 0
+
     mismatch_details = []
+    join_mismatch_details = []
     
     projects = catalog.get("projects", [])
     
@@ -87,8 +90,25 @@ def generate_evidence_audit() -> Dict[str, Any]:
         exp = p.get("detailedExplanation", {})
         for sec in exp.values():
             if isinstance(sec, dict):
-                ev_blocks.extend(sec.get("evidenceBlocks", []))
-                
+                sec_ev = sec.get("evidenceBlocks", [])
+                ev_blocks.extend(sec_ev)
+
+                # Section-level join consistency: when a section's sourceText
+                # spans multiple literal blocks, it must be EXACTLY the
+                # "\n\n".join(...) of its own evidenceBlocks' textSnippets in
+                # order - never a rewritten, reordered or partial join.
+                stxt = sec.get("sourceText")
+                if stxt is not None and sec.get("status") == "SOURCE" and sec_ev:
+                    reconstructed = "\n\n".join(eb.get("textSnippet", "") for eb in sec_ev)
+                    if stxt == reconstructed:
+                        section_join_matches += 1
+                    else:
+                        section_join_mismatches += 1
+                        join_mismatch_details.append({
+                            "projectId": p.get("projectId"),
+                            "section": sec.get("title"),
+                        })
+
         for eb in ev_blocks:
             total_evidence_blocks += 1
             ev_id = eb.get("evidenceId")
@@ -150,7 +170,13 @@ def generate_evidence_audit() -> Dict[str, Any]:
         "evidenceIdResolutionRate": 1.0 if total_evidence_blocks > 0 else 0.0,
         "literalMatchRate": round(literal_matches / max(1, total_evidence_blocks), 6),
         "mismatchDetails": mismatch_details[:10],
-        "verdict": "PASS" if literal_mismatches == 0 and invalid_pages == 0 and invalid_hashes == 0 else "FAIL"
+        "sectionJoinMatches": section_join_matches,
+        "sectionJoinMismatches": section_join_mismatches,
+        "sectionJoinMismatchDetails": join_mismatch_details[:10],
+        "verdict": "PASS" if (
+            literal_mismatches == 0 and invalid_pages == 0 and invalid_hashes == 0
+            and section_join_mismatches == 0
+        ) else "FAIL"
     }
     
     out_path = DOCS_PROJECT_FIRST / "evidence_audit.json"

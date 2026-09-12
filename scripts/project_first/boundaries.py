@@ -150,15 +150,31 @@ def discover_projects_from_ir(
 
         if idx + 1 < len(sorted_markers):
             nxt = sorted_markers[idx + 1]
-            if nxt["page"] > start_p:
-                if nxt["blockIndex"] <= 2:
-                    end_p = max(start_p, nxt["page"] - 1)
-                else:
-                    end_p = nxt["page"]
+            if nxt["page"] > start_p and nxt["blockIndex"] <= 2:
+                # Next project starts at (or near) the top of its own page:
+                # this project occupies the prior page in full.
+                end_p = max(start_p, nxt["page"] - 1)
+                end_page_obj = next((p for p in pages if p["pageNumber"] == end_p), None)
+                end_b = len(end_page_obj.get("blocks", [])) - 1 if end_page_obj and end_page_obj.get("blocks") else 0
+            elif nxt["page"] > start_p:
+                # Next project's marker sits mid-page on a LATER page: this
+                # project's content must stop immediately BEFORE that
+                # marker's block. Using the full page's last block here
+                # (the pre-P02.3.3 behavior) silently absorbed the next
+                # project's own heading/body into this one's boundary.
+                end_p = nxt["page"]
+                end_b = max(0, nxt["blockIndex"] - 1)
             else:
+                # `nxt` is on the same page as `start_p` or - because
+                # sorted_markers is ordered by projectNumber, not by page -
+                # even on an EARLIER page (a false-positive numbered marker
+                # from independent, catalog-unconstrained discovery). Either
+                # way `nxt` cannot be trusted to bound this project's end:
+                # confine it to its own start page in full instead of
+                # producing an inverted (endPage < startPage) span.
                 end_p = start_p
-            end_page_obj = next((p for p in pages if p["pageNumber"] == end_p), None)
-            end_b = len(end_page_obj.get("blocks", [])) - 1 if end_page_obj and end_page_obj.get("blocks") else 0
+                end_page_obj = next((p for p in pages if p["pageNumber"] == end_p), None)
+                end_b = len(end_page_obj.get("blocks", [])) - 1 if end_page_obj and end_page_obj.get("blocks") else 0
         else:
             end_p = page_count
             last_page_obj = next((p for p in pages if p["pageNumber"] == end_p), None)

@@ -46,19 +46,32 @@ def verify_evidence_against_raw_ir(p: Dict[str, Any]) -> List[str]:
         if not isinstance(sec, dict) or sec.get("status") != "SOURCE":
             continue
         stxt = sec.get("sourceText")
-        for eb in sec.get("evidenceBlocks", []):
+        ev_list = sec.get("evidenceBlocks", [])
+        raw_segments = []
+        segment_error = False
+        for eb in ev_list:
             page = pages_by_no.get(eb.get("pageNumber"))
             if not page:
                 errors.append(f"[{pid}] {sec_name}: evidence page {eb.get('pageNumber')} not found in raw IR {gid}")
+                segment_error = True
                 continue
             blocks = page.get("blocks", [])
             b_idx = eb.get("blockIndex")
             if not (0 <= b_idx < len(blocks)):
                 errors.append(f"[{pid}] {sec_name}: evidence blockIndex {b_idx} out of range in raw IR {gid} p{eb.get('pageNumber')}")
+                segment_error = True
                 continue
-            raw_text = blocks[b_idx].get("text", "")
-            if stxt != raw_text:
-                errors.append(f"[{pid}] {sec_name}: sourceText does NOT byte-match raw IR block text (independent re-check)")
+            raw_segments.append(blocks[b_idx].get("text", ""))
+        if segment_error:
+            continue
+        # A section's sourceText may span multiple literal IR blocks
+        # (Forensic Closure follow-up: real structural headings capture
+        # coherent multi-block spans). It must be EXACTLY the "\n\n".join()
+        # of its own evidenceBlocks' raw IR text, in order - a single-block
+        # section is just the degenerate case of this same check.
+        reconstructed = "\n\n".join(raw_segments)
+        if stxt != reconstructed:
+            errors.append(f"[{pid}] {sec_name}: sourceText does NOT byte-match raw IR block text (independent re-check)")
     return errors
 
 # Tier 1: Controlled 1-project benchmark (Digital Night-Vision Monocular)

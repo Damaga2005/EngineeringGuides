@@ -153,6 +153,8 @@ class DetailedExplanation(BaseModel):
     limitations: Optional[TechnicalSection] = None
     safety: Optional[TechnicalSection] = None
     sources: Optional[TechnicalSection] = None
+    careerRelevance: Optional[TechnicalSection] = None
+    interviewPrep: Optional[TechnicalSection] = None
 
 
 class ProjectSource(BaseModel):
