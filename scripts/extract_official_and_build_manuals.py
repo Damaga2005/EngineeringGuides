@@ -191,7 +191,10 @@ def resolve_hardware_image(guide_id, p_num, title, category_id):
         "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&auto=format&fit=crop&q=80",
         "https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?w=800&auto=format&fit=crop&q=80"
     ]
-    pool_idx = (abs(hash(title + guide_id)) + p_num) % len(HARDWARE_PHOTO_POOL)
+    # Use deterministic CRC32 hash (Python's built-in hash() is randomized per process)
+    import zlib
+    seed_val = zlib.crc32((title + guide_id).encode('utf-8'))
+    pool_idx = (seed_val + p_num) % len(HARDWARE_PHOTO_POOL)
     return HARDWARE_PHOTO_POOL[pool_idx]
 
 def generate_project_wiring_table(title, category_id, components):
@@ -841,7 +844,9 @@ def process_all_guides():
         print(f"-> Generados {len(processed_projects)} proyectos con esquemáticos SVG y manuales hiperdetallados.")
 
     final_result = {
-        "generatedAt": "2026-09-12T01:10:00Z",
+        "schemaVersion": "1.0.0",
+        "generator": "engineering-guides-foundation",
+        "generatorVersion": "1.0.0",
         "totalGuides": len(all_guides_output),
         "totalSizeBytes": total_size,
         "totalSizeFormatted": format_size(total_size),
@@ -850,7 +855,8 @@ def process_all_guides():
     }
 
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-        json.dump(final_result, f, indent=2, ensure_ascii=False)
+        json.dump(final_result, f, indent=2, sort_keys=True, ensure_ascii=False)
+        f.write("\n")
 
     print(f"\n=======================================================")
     print(f"¡ÉXITO TOTAL! Catálogo, esquemáticos SVG y manuales generados.")
