@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "description": "PILOT (5 projects). AI-authored extended build guides — NOT extracted from the source PDFs and NOT verified against them. Written from general engineering knowledge and, where noted, spot-checked against public component datasheets/retailer pages via web search. This is a distinct content layer from the forensic project_first pipeline (public/projects.json) and must always be rendered with an explicit disclaimer, never mixed into or labeled as SOURCE.",
+    "description": "PILOT (4 projects). AI-authored extended build guides — NOT extracted from the source PDFs and NOT verified against them. Written from general engineering knowledge and, where noted, spot-checked against public component datasheets/retailer pages via web search. This is a distinct content layer from the forensic project_first pipeline (public/projects.json) and must always be rendered with an explicit disclaimer, never mixed into or labeled as SOURCE.",
     "status": "AI_EXPANDED_UNVERIFIED",
     "scope": "pilot",
     "generatedAt": "2026-09-12"
@@ -111,52 +111,6 @@
       ]
     },
 
-    "proj-097a8eaf224741a8": {
-      "title": "Closed-Loop Stepper Controller",
-      "summary": "Convierte un motor paso a paso de lazo abierto en un sistema de lazo cerrado añadiendo un encoder magnético al eje, de forma que el controlador detecta y corrige pérdidas de pasos en tiempo real en vez de asumir ciegamente que el motor llegó a su posición.",
-      "difficultyNotes": "Nivel intermedio. El firmware (PID + lectura de encoder por I2C a alta frecuencia) es la parte más exigente, no el cableado.",
-      "bom": [
-        {"name": "Motor paso a paso NEMA17", "spec": "1.8°/paso (200 pasos/vuelta), 1.5-2A por fase", "qty": 1, "estCost": "$12"},
-        {"name": "Driver de motor TMC2209", "spec": "Control STEP/DIR, StealthChop2 para funcionamiento silencioso, soporta hasta 256 micropasos", "qty": 1, "estCost": "$8", "notes": "Verificado por búsqueda: el TMC2209 es la opción moderna preferida sobre el A4988 clásico cuando el ruido importa; mantiene compatibilidad de pines STEP/DIR."},
-        {"name": "Encoder magnético AS5600", "spec": "12-bit (4096 posiciones/vuelta), salida I2C, requiere imán diametral en el eje del motor", "qty": 1, "estCost": "$3"},
-        {"name": "Imán diametral 6x2.5mm", "spec": "Necesario para el AS5600 — sin él el encoder no funciona", "qty": 1, "estCost": "$1"},
-        {"name": "Microcontrolador (ESP32 recomendado por su segundo core y velocidad I2C)", "spec": "El lazo de control necesita leer el AS5600 a >=1kHz para no perder resolución a velocidad", "qty": 1, "estCost": "$6"},
-        {"name": "Fuente 12-24V para el driver", "spec": "Cuanto mayor el voltaje, mayor par disponible a alta velocidad (dentro del límite del driver)", "qty": 1, "estCost": "$10"}
-      ],
-      "wiring": [
-        {"from": "TMC2209 (STEP, DIR, EN)", "to": "3 GPIO del MCU", "notes": "EN activo en bajo en la mayoría de módulos — confirma en el módulo concreto."},
-        {"from": "TMC2209 (VMOT, GND)", "to": "Fuente 12-24V con condensador de al menos 100µF cerca del driver", "notes": "El condensador amortigua los picos de tensión al cambiar de dirección bruscamente — su ausencia es una causa común de drivers quemados."},
-        {"from": "AS5600 (VCC 3.3V, GND, SDA, SCL)", "to": "Bus I2C del MCU (dirección fija 0x36)", "notes": "Monta el imán a 0.5-3mm de la cara del chip, centrado en el eje — la hoja de datos especifica el rango exacto."},
-        {"from": "Motor NEMA17 (4 hilos: A+, A-, B+, B-)", "to": "Salidas de bobina del TMC2209", "notes": "Identifica los pares de bobina con un multímetro en continuidad si el motor no viene etiquetado — cruzar un par entre bobinas distintas hace que el motor vibre sin girar."}
-      ],
-      "steps": [
-        {"title": "1. Verificar el motor en lazo abierto primero", "instruction": "Cablea el TMC2209 al motor y hazlo girar con un sketch simple de STEP/DIR sin encoder. Confirma dirección y suavidad antes de añadir el lazo cerrado — aísla problemas mecánicos de problemas de control."},
-        {"title": "2. Montar el imán y el encoder", "instruction": "Pega el imán diametral centrado en la punta libre del eje del motor. Monta el AS5600 en un soporte fijo justo enfrente, a la distancia que indica el datasheet (normalmente 0.5-3mm)."},
-        {"title": "3. Verificar lectura cruda del encoder", "instruction": "Con el motor parado, gira el eje a mano y lee el registro de ángulo del AS5600 por I2C — confirma que el valor cambia suavemente de 0 a 4095 en una vuelta completa, sin saltos."},
-        {"title": "4. Establecer la relación pasos↔encoder", "instruction": "Calcula la posición esperada del encoder para cada micropaso: `angulo_esperado = (paso_actual / pasos_totales_por_vuelta) * 4096`. Esta es la referencia que el lazo cerrado intentará seguir."},
-        {"title": "5. Implementar la detección de error", "instruction": "En cada ciclo de control, compara el ángulo leído del encoder con el ángulo esperado según los pasos enviados. Si la diferencia supera un umbral (ej. 1/4 de paso), el motor ha perdido pasos."},
-        {"title": "6. Añadir corrección", "instruction": "Cuando se detecta pérdida de pasos, envía pasos STEP adicionales (o reduce la velocidad temporalmente) hasta que el error vuelva a estar dentro del umbral. Empieza corrigiendo solo, sin optimizar velocidad, hasta validar que el sistema recupera posición tras forzar manualmente un atasco del eje."},
-        {"title": "7. Prueba de estrés", "instruction": "Con el motor moviendo una carga real, frena el eje suavemente con la mano a media carrera y verifica que el sistema detecta la pérdida de pasos y corrige al soltar — este es el comportamiento que un stepper en lazo abierto NUNCA tiene."}
-      ],
-      "firmware": {
-        "language": "cpp",
-        "note": "Ilustrativo — muestra el patrón real de comparación paso-esperado vs encoder-leído, simplificado.",
-        "code": "#include <Wire.h>\n#define AS5600_ADDR 0x36\n#define STEPS_PER_REV 3200L  // 200 pasos * 16 micropasos\n\nlong currentStep = 0;\n\nuint16_t readEncoderRaw() {\n  Wire.beginTransmission(AS5600_ADDR);\n  Wire.write(0x0C); // registro ANGLE\n  Wire.endTransmission(false);\n  Wire.requestFrom(AS5600_ADDR, 2);\n  uint16_t hi = Wire.read();\n  uint16_t lo = Wire.read();\n  return ((hi << 8) | lo) & 0x0FFF;\n}\n\nvoid controlLoop() {\n  uint16_t expected = (currentStep % STEPS_PER_REV) * 4096L / STEPS_PER_REV;\n  uint16_t actual = readEncoderRaw();\n  int error = (int)expected - (int)actual;\n  if (error > 2048) error -= 4096;\n  if (error < -2048) error += 4096;\n\n  if (abs(error) > 20) { // ~1.75 grados de tolerancia\n    // Pasos perdidos detectados: reenviar pasos de correccion\n    stepMotor(error > 0 ? 1 : -1);\n  }\n}"
-      },
-      "calibration": [
-        "Con el motor sin carga, mueve exactamente una vuelta completa (200 pasos x micropasos) y verifica que el encoder vuelve a leer el mismo valor inicial ±10 cuentas.",
-        "Ajusta la corriente del driver (potenciómetro Vref o registro I2C según el módulo) al mínimo que mantenga el par necesario — exceso de corriente solo genera calor."
-      ],
-      "troubleshooting": [
-        {"symptom": "El encoder lee valores erráticos o saltos bruscos", "cause": "Imán mal centrado o demasiado lejos del chip", "fix": "Recentra el imán respecto al eje del sensor; acerca a 1mm y prueba de nuevo."},
-        {"symptom": "El motor vibra pero no gira", "cause": "Bobinas cruzadas (un hilo de cada bobina distinta conectado al mismo par de salida)", "fix": "Verifica los pares de bobina con multímetro en modo continuidad antes de conectar al driver."},
-        {"symptom": "El sistema corrige constantemente incluso sin carga", "cause": "Umbral de error demasiado bajo o ruido en la lectura I2C", "fix": "Sube el umbral de tolerancia; añade un pequeño filtro de media móvil a la lectura del encoder."}
-      ],
-      "safety": [
-        "El driver y el motor pueden calentarse considerablemente a corriente alta — añade un disipador al TMC2209 si supera 1A por fase de forma sostenida.",
-        "Desconecta la alimentación del motor antes de conectar/desconectar el conector del motor: hacerlo en caliente puede dañar el driver."
-      ]
-    },
 
     "proj-fe7e3a913842843d": {
       "title": "ADS-B Aircraft Radar",
