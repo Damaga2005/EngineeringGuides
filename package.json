@@ -4,9 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "catalog": "python scripts/extract_official_and_build_manuals.py",
+    "catalog": "python -m scripts.foundation.pipeline",
     "dev": "node scripts/generate_catalog.js && vite",
-    "build": "python scripts/extract_official_and_build_manuals.py && vite build && node scripts/copy_guides.js",
+    "build": "python -m scripts.foundation.pipeline && vite build && node scripts/copy_guides.js",
     "preview": "vite preview",
     "pipeline": "python -m scripts.foundation.pipeline",
     "validate": "python -m scripts.foundation.validators",
