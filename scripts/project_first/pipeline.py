@@ -152,6 +152,15 @@ def run_project_first_pipeline() -> Dict[str, Any]:
             for pid in cp.projectIds:
                 cproj_by_proj_id[pid] = cp.canonicalProjectId
                 
+        # IMPORTANT (Forensic Closure P02.3, Section 7): public/guides.json is
+        # ALSO the legacy catalog (keyProjects) that reconcile_boundaries_with_
+        # catalog() treats as ground truth on every run. Overwriting its
+        # sourcePageRange with the IR-derived boundary would make the catalog
+        # silently agree with itself on the very next run, permanently erasing
+        # any real BOUNDARY_MISMATCH/PARTIAL_MATCH discrepancy instead of
+        # keeping it visible. Only stable, non-forensic identifiers (projectId,
+        # slug, canonicalProjectId) are synchronized here - sourcePageRange is
+        # left untouched so reconciliation stays honest across runs.
         for guide in guides_data.get("guides", []):
             gid = guide.get("id")
             for p_idx, kp in enumerate(guide.get("keyProjects", []), start=1):
@@ -160,8 +169,6 @@ def run_project_first_pipeline() -> Dict[str, Any]:
                     kp["projectId"] = p_match.projectId
                     kp["projectSlug"] = p_match.slug
                     kp["canonicalProjectId"] = cproj_by_proj_id.get(p_match.projectId, p_match.projectId)
-                    if p_match.boundary:
-                        kp["sourcePageRange"] = f"{p_match.boundary.startPage}-{p_match.boundary.endPage}"
                     
         PUBLIC_GUIDES_PATH.write_text(
             json.dumps(guides_data, indent=2, sort_keys=True, ensure_ascii=False) + "\n",

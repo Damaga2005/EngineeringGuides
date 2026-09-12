@@ -253,17 +253,6 @@
     "targetProjectId": "proj-6efd04ef2f2f5cab"
   },
   {
-    "confidence": 0.475,
-    "description": "Relación arquitectónica documentada: Arquitectura o subsistemas afines.",
-    "evidence": [
-      "Arquitectura o subsistemas afines."
-    ],
-    "relationId": "rel-31da07b61322bf72",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-9cc1a42f66e7c4d5",
-    "targetProjectId": "proj-c7a08cce79d39f48"
-  },
-  {
     "confidence": 0.4133,
     "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
     "evidence": [
@@ -416,17 +405,6 @@
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-a906f1e86a9caa9f",
     "targetProjectId": "proj-ae877be606e5b288"
-  },
-  {
-    "confidence": 0.4083,
-    "description": "Relación arquitectónica documentada: Arquitectura o subsistemas afines.",
-    "evidence": [
-      "Arquitectura o subsistemas afines."
-    ],
-    "relationId": "rel-4dd646d714fcce1e",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-4e59318e9573e811",
-    "targetProjectId": "proj-4a566f25189a6e42"
   },
   {
     "confidence": 0.4091,
@@ -979,17 +957,6 @@
     "targetProjectId": "proj-89dce9c8134220ee"
   },
   {
-    "confidence": 0.4468,
-    "description": "Relación arquitectónica documentada: Arquitectura o subsistemas afines.",
-    "evidence": [
-      "Arquitectura o subsistemas afines."
-    ],
-    "relationId": "rel-a200868b67721c93",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-616fcf7e67d1028d",
-    "targetProjectId": "proj-25015e1de0868338"
-  },
-  {
     "confidence": 0.4143,
     "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
     "evidence": [
@@ -1153,17 +1120,6 @@
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-8bf5eb8c424af41d",
     "targetProjectId": "proj-b4b49073df0bfb7a"
-  },
-  {
-    "confidence": 0.4333,
-    "description": "Relación arquitectónica documentada: Arquitectura o subsistemas afines.",
-    "evidence": [
-      "Arquitectura o subsistemas afines."
-    ],
-    "relationId": "rel-b74be32929a2dd0e",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-273ead6161abcad3",
-    "targetProjectId": "proj-33e829cad7110af3"
   },
   {
     "confidence": 0.4118,

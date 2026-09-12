@@ -137,24 +137,36 @@ def evaluate_project_pair(
     
     # STRICT CLASSIFICATION ENGINE (Enforces FALSE NEGATIVE > FALSE MERGE)
     # Definition of EXACT_DUPLICATE: Requires unambiguous IDENTITY EVIDENCE.
+    # Forensic Closure P02.3, Section 8: similarity of title, controller, BOM,
+    # sensors or architecture CANNOT by itself produce EXACT_DUPLICATE. Only
+    # concrete identity evidence (same source document, same schematic
+    # identity, same firmware identity, or an equivalent unambiguous
+    # technical artifact match) may certify identity.
     classification = DuplicateClassification.UNRELATED
-    
-    # Criteria for EXACT_DUPLICATE:
-    # Condition 1: Same identical document bit-for-bit + same slot + exact title match
-    # Condition 2: Title exact match + schematic SVG match + same MCU + high BOM overlap
-    # Condition 3: Cross-guide version revision with 100% exact title match + same MCU + bom_overlap >= 0.35 + no conflicts
+
+    # Criteria for EXACT_DUPLICATE (IDENTITY EVIDENCE ONLY):
+    # Condition 1: Same identical document bit-for-bit + same slot + exact title match.
+    # Condition 2: Exact title match + shared schematic SVG identity + same controller.
+    # Condition 3: Exact title match + shared firmware code identity + same controller.
     is_exact = False
-    
+
+    same_firmware = bool(
+        getattr(p_a, "firmwareCode", None)
+        and getattr(p_b, "firmwareCode", None)
+        and p_a.firmwareCode == p_b.firmwareCode
+    )
+    signals["same_firmware_identity"] = same_firmware
+
     if same_source_hash and same_slot and exact_title_match:
         is_exact = True
         identity_evidence.append("Certificación de identidad por coincidencia criptográfica de PDF y slot.")
     elif exact_title_match and schematic_match and signals.get("controller_match") == 1.0:
         is_exact = True
         identity_evidence.append("Certificación de identidad por coincidencia total de esquemático y arquitectura.")
-    elif exact_title_match and title_jaccard == 1.0 and signals.get("controller_match") == 1.0 and bom_overlap >= 0.35 and not conflict_evidence:
+    elif exact_title_match and same_firmware and signals.get("controller_match") == 1.0:
         is_exact = True
-        identity_evidence.append("Certificación de identidad por diseño idéntico entre ediciones documentales (mismo título exacto, mismo MCU, componentes coincidentes y sin conflictos).")
-            
+        identity_evidence.append("Certificación de identidad por firmware idéntico y mismo controlador.")
+
     if is_exact:
         classification = DuplicateClassification.EXACT_DUPLICATE
     elif conflict_evidence and (title_jaccard > 0.65 or same_source_hash or exact_title_match):

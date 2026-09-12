@@ -136,10 +136,17 @@ def build_canonical_projects(
     # 2. Build graph relations for VARIANT and RELATED candidates
     relations: List[ProjectRelation] = []
     
+    # Forensic Closure P02.3, Section 10: a relation MUST contain concrete
+    # evidence answering "why does this relation exist?". A relation with no
+    # underlying evidence is NO RELATION - never created with a generic
+    # placeholder description ("Proyectos relacionados por ecosistema...",
+    # "Variante de arquitectura de circuito.", etc).
     for cand in candidates:
         if cand.classification == DuplicateClassification.VARIANT:
+            ev_list = cand.matchEvidence
+            if not ev_list:
+                continue  # NO RELATION: no concrete evidence to justify it.
             rel_id = generate_relation_id(cand.projectAId, cand.projectBId, "VARIANT_OF")
-            ev_list = cand.matchEvidence or ["Variante de arquitectura de circuito."]
             desc = f"Variante técnica documentada: {'; '.join(ev_list[:2])}"
             rel = ProjectRelation(
                 relationId=rel_id,
@@ -152,8 +159,10 @@ def build_canonical_projects(
             )
             relations.append(rel)
         elif cand.classification == DuplicateClassification.RELATED:
+            ev_list = cand.similarityEvidence or cand.matchEvidence
+            if not ev_list:
+                continue  # NO RELATION: no concrete evidence to justify it.
             rel_id = generate_relation_id(cand.projectAId, cand.projectBId, "RELATED_TO")
-            ev_list = cand.similarityEvidence or cand.matchEvidence or ["Arquitectura o subsistemas afines."]
             desc = f"Relación arquitectónica documentada: {'; '.join(ev_list[:2])}"
             rel = ProjectRelation(
                 relationId=rel_id,

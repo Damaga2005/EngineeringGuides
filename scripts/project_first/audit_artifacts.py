@@ -19,6 +19,11 @@ from tests.project_first.golden_dataset import (
     run_golden_tier_20,
     run_golden_tier_full,
 )
+from scripts.project_first.fabrication_patterns import (
+    BANNED_FABRICATION_PHRASES,
+    TRUNCATION_MARKERS,
+    find_banned_phrase,
+)
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 DOCS_FOUNDATION = REPO_ROOT / "docs" / "foundation"
@@ -117,9 +122,10 @@ def generate_evidence_audit() -> Dict[str, Any]:
                 invalid_block_indices += 1
                 continue
                 
-            # Literal exact match check
+            # Literal exact match check - Forensic Closure P02.3, Section 4:
+            # BYTE/STRING EXACT equality only. No substring, no normalization.
             ir_block_text = blocks[b_idx].get("text", "")
-            if snippet == ir_block_text or snippet in ir_block_text or ir_block_text in snippet:
+            if snippet == ir_block_text:
                 literal_matches += 1
             else:
                 literal_mismatches += 1
@@ -161,18 +167,9 @@ def generate_fabrication_audit() -> Dict[str, Any]:
         catalog = json.load(f)
         
     projects = catalog.get("projects", [])
-    
-    banned_phrases = [
-        "Información técnica estructurada",
-        "Pendiente de verificación",
-        "Placeholder",
-        "Lorem ipsum",
-        "Continuidad de layout en pág",
-        "Adquiere variables y ejecuta control",
-        "Procesa señales y ejecuta la función",
-        "Aplicación práctica y despliegue en"
-    ]
-    
+
+    banned_phrases = BANNED_FABRICATION_PHRASES
+
     total_fields_audited = 0
     source_fields = 0
     derived_fields = 0
@@ -212,6 +209,9 @@ def generate_fabrication_audit() -> Dict[str, Any]:
             status = sec.get("status")
             ev_list = sec.get("evidenceBlocks", [])
             
+            der_txt = sec.get("derivedExplanation")
+            der_from = sec.get("derivedFrom", [])
+
             if status == "SOURCE":
                 source_fields += 1
                 if not stxt or not ev_list:
@@ -220,13 +220,22 @@ def generate_fabrication_audit() -> Dict[str, Any]:
                 not_documented_fields += 1
                 if stxt is not None:
                     status_inconsistencies.append({"projectId": pid, "section": sec_name, "issue": "NOT_DOCUMENTED with non-null sourceText"})
+                if der_txt is not None:
+                    status_inconsistencies.append({"projectId": pid, "section": sec_name, "issue": "NOT_DOCUMENTED with non-null derivedExplanation"})
             elif status == "DERIVED":
                 derived_fields += 1
-                
+                if not der_from:
+                    status_inconsistencies.append({"projectId": pid, "section": sec_name, "issue": "DERIVED without derivedFrom evidenceIds"})
+                if der_txt and not der_from:
+                    status_inconsistencies.append({"projectId": pid, "section": sec_name, "issue": "DERIVED text present without supporting evidence"})
+
             if stxt:
                 for bp in banned_phrases:
                     if bp.lower() in str(stxt).lower():
                         banned_occurrences.append({"projectId": pid, "field": f"detailedExplanation.{sec_name}.sourceText", "phrase": bp})
+                for marker in TRUNCATION_MARKERS:
+                    if str(stxt).rstrip().endswith(marker):
+                        banned_occurrences.append({"projectId": pid, "field": f"detailedExplanation.{sec_name}.sourceText", "phrase": f"synthetic truncation marker '{marker}'"})
 
     verdict = "PASS_ZERO_FABRICATION" if len(banned_occurrences) == 0 and len(status_inconsistencies) == 0 else "FAIL"
     
@@ -365,5 +374,8 @@ def compute_current_artifact_hashes() -> Dict[str, str]:
     hashes = {}
     for p in target_files:
         if p.exists():
-            hashes[p.name] = hashlib.sha256(p.read_bytes()).hexdigest()
+            # Use the path relative to REPO_ROOT as the key: public/projects.json
+            # and docs/project-first/projects.json share the same basename and
+            # would otherwise silently collide, hiding a real determinism gap.
+            hashes[str(p.relative_to(REPO_ROOT))] = hashlib.sha256(p.read_bytes()).hexdigest()
     return hashes

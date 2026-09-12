@@ -8,7 +8,58 @@ Contains controlled calibration cases for:
   - Anti-false-merge benchmarks
 """
 
+import json
+from pathlib import Path
 from typing import Dict, List, Tuple, Any
+
+from scripts.project_first.fabrication_patterns import BANNED_FABRICATION_PHRASES
+
+REPO_ROOT = Path(__file__).resolve().parents[2]
+IR_DIR = REPO_ROOT / "docs" / "foundation" / "ir"
+_ir_cache: Dict[str, Any] = {}
+
+
+def _load_ir(source_document_id: str) -> Dict[str, Any]:
+    if source_document_id not in _ir_cache:
+        ir_file = IR_DIR / f"{source_document_id}.json"
+        _ir_cache[source_document_id] = json.load(open(ir_file, encoding="utf-8")) if ir_file.exists() else {}
+    return _ir_cache[source_document_id]
+
+
+def verify_evidence_against_raw_ir(p: Dict[str, Any]) -> List[str]:
+    """
+    Forensic Closure P02.3, Section 12: Golden assertions must not merely
+    re-check the pipeline's own output for internal consistency - they must
+    independently re-open the raw Document IR file on disk and confirm that
+    every SOURCE section's sourceText is BYTE-IDENTICAL to the actual IR
+    block text at its declared pageNumber/blockIndex. This re-derives ground
+    truth from Document IR directly, rather than trusting projects.json.
+    """
+    errors = []
+    pid = p.get("projectId", "UNKNOWN")
+    gid = p.get("sourceDocumentId")
+    ir_data = _load_ir(gid) if gid else {}
+    pages_by_no = {pg["pageNumber"]: pg for pg in ir_data.get("pages", [])}
+
+    exp = p.get("detailedExplanation", {})
+    for sec_name, sec in exp.items():
+        if not isinstance(sec, dict) or sec.get("status") != "SOURCE":
+            continue
+        stxt = sec.get("sourceText")
+        for eb in sec.get("evidenceBlocks", []):
+            page = pages_by_no.get(eb.get("pageNumber"))
+            if not page:
+                errors.append(f"[{pid}] {sec_name}: evidence page {eb.get('pageNumber')} not found in raw IR {gid}")
+                continue
+            blocks = page.get("blocks", [])
+            b_idx = eb.get("blockIndex")
+            if not (0 <= b_idx < len(blocks)):
+                errors.append(f"[{pid}] {sec_name}: evidence blockIndex {b_idx} out of range in raw IR {gid} p{eb.get('pageNumber')}")
+                continue
+            raw_text = blocks[b_idx].get("text", "")
+            if stxt != raw_text:
+                errors.append(f"[{pid}] {sec_name}: sourceText does NOT byte-match raw IR block text (independent re-check)")
+    return errors
 
 # Tier 1: Controlled 1-project benchmark (Digital Night-Vision Monocular)
 GOLDEN_1_PROJECT = {
@@ -129,6 +180,14 @@ def validate_project_forensic_integrity(p: Dict[str, Any]) -> List[str]:
     errors = []
     pid = p.get("projectId", "UNKNOWN")
     
+    # A project whose boundary is honestly declared NEEDS_REVIEW (i.e. the
+    # independent IR-only discovery found zero evidence for this catalog
+    # slot - Section 1/6/7 MISSING_IN_IR) is a disclosed gap, not fabrication.
+    # It must NOT be required to carry evidence it does not have; it MUST be
+    # visibly marked as such rather than silently padded with placeholders.
+    boundary = p.get("boundary") or {}
+    is_declared_needs_review = boundary.get("detectionMethod") == "NEEDS_REVIEW"
+
     # 1. Sources exist with page bounds and evidence
     sources = p.get("sources", [])
     if not sources:
@@ -137,28 +196,20 @@ def validate_project_forensic_integrity(p: Dict[str, Any]) -> List[str]:
         for s in sources:
             pr = s.get("pageRange", [])
             if len(pr) != 2 or pr[0] <= 0 or pr[1] < pr[0]:
-                errors.append(f"[{pid}] Invalid pageRange: {pr}")
+                if not is_declared_needs_review:
+                    errors.append(f"[{pid}] Invalid pageRange: {pr}")
             ev = s.get("evidenceBlocks", [])
-            if not ev:
+            if not ev and not is_declared_needs_review:
                 errors.append(f"[{pid}] Source occurrence has zero evidenceBlocks")
             for eb in ev:
                 if not eb.get("textSnippet"):
                     errors.append(f"[{pid}] EvidenceBlock missing textSnippet")
                 if not eb.get("sourceHash") or len(eb.get("sourceHash")) != 64:
                     errors.append(f"[{pid}] EvidenceBlock invalid sourceHash")
-                    
+
     # 2. Detailed explanation zero fabrication check
     exp = p.get("detailedExplanation", {})
-    banned_phrases = [
-        "Información técnica estructurada",
-        "Pendiente de verificación",
-        "Placeholder",
-        "Lorem ipsum",
-        "Continuidad de layout en pág",
-        "Adquiere variables y ejecuta control",
-        "Procesa señales y ejecuta la función",
-        "Aplicación práctica y despliegue en"
-    ]
+    banned_phrases = BANNED_FABRICATION_PHRASES
     for sec_name, sec in exp.items():
         if not sec:
             continue
@@ -228,6 +279,7 @@ def run_golden_tier_1(catalog: Dict[str, Any]) -> Tuple[bool, List[str]]:
         errors.append(f"Golden-1 pageRange mismatch: expected [{g1['expectedStartPage']}, {g1['expectedEndPage']}], got {pr}")
         
     errors.extend(validate_project_forensic_integrity(p))
+    errors.extend(verify_evidence_against_raw_ir(p))
     return len(errors) == 0, errors
 
 
@@ -245,6 +297,7 @@ def run_golden_tier_5(catalog: Dict[str, Any]) -> Tuple[bool, List[str]]:
         if p["title"] != g["title"]:
             errors.append(f"Golden-5 title mismatch for {pid}: '{p['title']}' != '{g['title']}'")
         errors.extend(validate_project_forensic_integrity(p))
+        errors.extend(verify_evidence_against_raw_ir(p))
         
     return len(errors) == 0, errors
 
@@ -263,6 +316,7 @@ def run_golden_tier_20(catalog: Dict[str, Any]) -> Tuple[bool, List[str]]:
         if p["title"] != g["title"]:
             errors.append(f"Golden-20 title mismatch for {pid}: '{p['title']}' != '{g['title']}'")
         errors.extend(validate_project_forensic_integrity(p))
+        errors.extend(verify_evidence_against_raw_ir(p))
         
     return len(errors) == 0, errors
 
@@ -276,5 +330,6 @@ def run_golden_tier_full(catalog: Dict[str, Any]) -> Tuple[bool, List[str]]:
         
     for p in projects:
         errors.extend(validate_project_forensic_integrity(p))
+        errors.extend(verify_evidence_against_raw_ir(p))
         
     return len(errors) == 0, errors
