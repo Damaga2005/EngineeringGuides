@@ -168,61 +168,61 @@ export default function ProjectBuildGuide({
     : (project.image?.startsWith('http') ? project.image : `${baseUrl}${project.image}`);
 
   return (
-    <div className="glass-panel rounded-2xl border border-slate-800/90 overflow-hidden shadow-2xl mb-8 group">
-      
+    <div className="bg-slate-900 rounded-2xl overflow-hidden mb-6 group">
+
       {/* Project Card Header Banner */}
-      <div className="p-5 sm:p-6 bg-slate-900/90 border-b border-slate-800 flex flex-col md:flex-row md:items-center justify-between gap-4">
-        
+      <div className="p-5 sm:p-6 flex flex-col md:flex-row md:items-center justify-between gap-4">
+
         <div className="flex items-start gap-3.5 min-w-0">
-          <span className="flex-shrink-0 w-10 h-10 rounded-xl bg-cyan-500/20 text-cyan-400 border border-cyan-500/40 font-mono font-bold flex items-center justify-center text-sm shadow-md">
+          <span className="flex-shrink-0 w-9 h-9 rounded-full bg-white/[0.06] text-slate-300 font-medium flex items-center justify-center text-[13px]">
             {projectNumber < 10 ? `0${projectNumber}` : projectNumber}
           </span>
 
           <div className="min-w-0">
             <div className="flex items-center gap-2 flex-wrap mb-1">
-              <h3 className="text-lg sm:text-xl font-bold text-white leading-snug">
+              <h3 className="text-[17px] font-medium text-white leading-snug">
                 {project.title}
               </h3>
               {project.cost && (
-                <span className="text-xs font-mono font-semibold px-2.5 py-0.5 rounded-md bg-emerald-950/80 text-emerald-400 border border-emerald-800/60 flex items-center gap-1">
+                <span className="text-[12px] px-2 py-0.5 rounded-full bg-emerald-500/15 text-emerald-400 flex items-center gap-1">
                   <DollarSign className="h-3 w-3" /> {project.cost}
                 </span>
               )}
               {project.time && (
-                <span className="text-xs font-mono px-2.5 py-0.5 rounded-md bg-slate-800 text-slate-300 border border-slate-700 flex items-center gap-1">
-                  <Clock className="h-3 w-3 text-cyan-400" /> {project.time}
+                <span className="text-[12px] px-2 py-0.5 rounded-full bg-white/[0.06] text-slate-300 flex items-center gap-1">
+                  <Clock className="h-3 w-3" /> {project.time}
                 </span>
               )}
             </div>
 
-            <p className="text-xs sm:text-sm text-slate-300 line-clamp-2">
+            <p className="text-[13px] text-slate-400 line-clamp-2">
               {project.description}
             </p>
           </div>
         </div>
 
         {/* Action Buttons */}
-        <div className="flex items-center gap-2 flex-wrap self-start md:self-center flex-shrink-0">
+        <div className="flex items-center gap-1.5 flex-wrap self-start md:self-center flex-shrink-0">
           {project.projectSlug && (
             <a
               href={`#/project/${project.projectSlug}`}
-              className="flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-cyan-950/90 hover:bg-cyan-900 text-cyan-300 border border-cyan-700/60 text-xs font-semibold transition-all shadow-sm"
+              className="flex items-center gap-1.5 px-3.5 py-2 rounded-full text-cyan-400 hover:bg-white/[0.06] text-[13px] font-medium transition-colors"
               title="Abrir ficha técnica detallada del proyecto independiente"
             >
-              <FileText className="h-3.5 w-3.5 text-cyan-400" />
+              <FileText className="h-3.5 w-3.5" />
               <span>Ficha Project-First</span>
-              <ExternalLink className="h-3 w-3 text-cyan-400" />
+              <ExternalLink className="h-3 w-3" />
             </a>
           )}
 
           {schematicUrl && (
             <button
               onClick={() => handleOpenViewer([schematicUrl], 0, `Esquemático: ${project.title}`)}
-              className="flex items-center gap-2 px-3.5 py-2 rounded-xl bg-cyan-500/10 hover:bg-cyan-500/20 text-cyan-300 border border-cyan-500/40 text-xs font-semibold transition-all shadow-sm"
+              className="flex items-center gap-2 px-3.5 py-2 rounded-full bg-white/[0.06] hover:bg-white/[0.1] text-slate-200 text-[13px] font-medium transition-colors"
               title="Abrir diagrama esquemático a pantalla completa"
             >
               <Maximize2 className="h-3.5 w-3.5" />
-              <span>Ver Esquemático</span>
+              <span>Ver esquemático</span>
             </button>
           )}
         </div>
@@ -231,15 +231,15 @@ export default function ProjectBuildGuide({
 
       {/* Physical Hardware Build Showcase */}
       {(project.image || project.guideDiagram) && (
-        <div className="border-b border-slate-800 bg-slate-950/80 p-4 sm:p-5">
-          <div className="flex flex-col md:flex-row items-center gap-5 bg-gradient-to-r from-slate-900/90 via-slate-900/50 to-slate-950 rounded-2xl p-3.5 sm:p-4 border border-slate-800/80">
+        <div className="border-t border-white/[0.06] p-4 sm:p-5">
+          <div className="flex flex-col md:flex-row items-center gap-5 bg-white/[0.03] rounded-2xl p-3.5 sm:p-4">
             <div className="flex flex-col items-center gap-2 flex-shrink-0 w-full md:w-56">
-              <div 
+              <div
                 onClick={() => handleOpenViewer([activeDisplayImage], 0, `${imageMode === 'diagram' ? 'Plano Oficial en Guía' : 'Hardware Físico'}: ${project.title}`)}
-                className="relative w-full h-40 md:h-36 rounded-xl overflow-hidden border-2 border-slate-700/80 hover:border-cyan-400 cursor-pointer group/img shadow-2xl transition-all bg-slate-950"
+                className="relative w-full h-40 md:h-36 rounded-xl overflow-hidden cursor-pointer group/img transition-all bg-black"
                 title="Haz clic para ampliar la imagen en alta resolución"
               >
-                <img 
+                <img
                   src={activeDisplayImage}
                   alt={`Hardware real de ${project.title}`}
                   className="w-full h-full object-cover object-center group-hover/img:scale-105 transition-transform duration-500"
@@ -249,11 +249,11 @@ export default function ProjectBuildGuide({
                   }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent pointer-events-none" />
-                <div className="absolute bottom-2 left-2 right-2 flex items-center justify-between text-[10px] font-mono text-cyan-300">
-                  <span className="flex items-center gap-1 bg-slate-950/90 px-2 py-0.5 rounded border border-slate-800">
+                <div className="absolute bottom-2 left-2 right-2 flex items-center justify-between text-[11px] text-slate-200">
+                  <span className="flex items-center gap-1 bg-black/60 px-2 py-0.5 rounded-full">
                     <Activity className="h-3 w-3 text-emerald-400" /> {imageMode === 'diagram' ? 'Plano en PDF' : 'Hardware Físico'}
                   </span>
-                  <span className="flex items-center gap-1 bg-slate-950/90 px-1.5 py-0.5 rounded border border-slate-800 text-slate-300">
+                  <span className="flex items-center gap-1 bg-black/60 px-1.5 py-0.5 rounded-full">
                     <Maximize2 className="h-3 w-3" /> Zoom
                   </span>
                 </div>
@@ -261,22 +261,22 @@ export default function ProjectBuildGuide({
 
               {/* View Switcher: Real Photo vs Official Guide Diagram */}
               {project.guideDiagram && project.image && (
-                <div className="flex items-center gap-1 bg-slate-900/90 p-1 rounded-lg border border-slate-800 text-[11px] font-mono w-full justify-center">
+                <div className="flex items-center gap-0.5 bg-white/[0.06] p-0.5 rounded-full text-[12px] w-full justify-center">
                   <button
                     onClick={() => setImageMode('photo')}
-                    className={`flex-1 py-1 rounded text-center transition-all ${
-                      imageMode === 'photo' 
-                        ? 'bg-cyan-500/20 text-cyan-300 font-bold border border-cyan-500/50 shadow-sm' 
+                    className={`flex-1 py-1 rounded-full text-center transition-colors ${
+                      imageMode === 'photo'
+                        ? 'bg-slate-700 text-white font-medium'
                         : 'text-slate-400 hover:text-white'
                     }`}
                   >
-                    Foto Real
+                    Foto real
                   </button>
                   <button
                     onClick={() => setImageMode('diagram')}
-                    className={`flex-1 py-1 rounded text-center transition-all ${
-                      imageMode === 'diagram' 
-                        ? 'bg-cyan-500/20 text-cyan-300 font-bold border border-cyan-500/50 shadow-sm' 
+                    className={`flex-1 py-1 rounded-full text-center transition-colors ${
+                      imageMode === 'diagram'
+                        ? 'bg-slate-700 text-white font-medium'
                         : 'text-slate-400 hover:text-white'
                     }`}
                   >
@@ -287,40 +287,40 @@ export default function ProjectBuildGuide({
             </div>
 
             <div className="flex-1 min-w-0 flex flex-col justify-between space-y-2.5">
-              <div className="flex items-center gap-2 flex-wrap">
-                <span className="text-xs font-mono font-semibold px-2.5 py-1 rounded-lg bg-cyan-950/80 text-cyan-300 border border-cyan-800/60 flex items-center gap-1.5">
-                  <Cpu className="h-3.5 w-3.5 text-cyan-400" />
+              <div className="flex items-center gap-1.5 flex-wrap">
+                <span className="text-[12px] font-medium px-2.5 py-1 rounded-full bg-cyan-500/15 text-cyan-300 flex items-center gap-1.5">
+                  <Cpu className="h-3.5 w-3.5" />
                   {project.components?.[0] || "Controlador / MCU"}
                 </span>
-                <span className="text-xs font-mono font-semibold px-2.5 py-1 rounded-lg bg-emerald-950/80 text-emerald-300 border border-emerald-800/60 flex items-center gap-1.5">
-                  <Zap className="h-3.5 w-3.5 text-emerald-400" />
+                <span className="text-[12px] font-medium px-2.5 py-1 rounded-full bg-emerald-500/15 text-emerald-300 flex items-center gap-1.5">
+                  <Zap className="h-3.5 w-3.5" />
                   {project.components?.[1] || "Módulo / Carga Útil"}
                 </span>
                 {project.components?.[2] && (
-                  <span className="text-xs font-mono px-2.5 py-1 rounded-lg bg-slate-900 text-slate-300 border border-slate-800 hidden sm:inline-flex items-center gap-1.5">
-                    <Boxes className="h-3.5 w-3.5 text-amber-400" />
+                  <span className="text-[12px] px-2.5 py-1 rounded-full bg-white/[0.06] text-slate-300 hidden sm:inline-flex items-center gap-1.5">
+                    <Boxes className="h-3.5 w-3.5" />
                     {project.components[2]}
                   </span>
                 )}
                 {totalBOMCost && (
-                  <span className="text-xs font-mono font-semibold px-2.5 py-1 rounded-lg bg-emerald-950/90 text-emerald-300 border border-emerald-700/60 flex items-center gap-1 shadow-sm">
-                    <DollarSign className="h-3.5 w-3.5 text-emerald-400" />
-                    BOM Estimado: {totalBOMCost}
+                  <span className="text-[12px] font-medium px-2.5 py-1 rounded-full bg-emerald-500/15 text-emerald-300 flex items-center gap-1">
+                    <DollarSign className="h-3.5 w-3.5" />
+                    BOM estimado: {totalBOMCost}
                   </span>
                 )}
               </div>
 
-              <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
+              <p className="text-[13px] text-slate-300 leading-relaxed">
                 {project.description}
               </p>
 
-              <div className="text-[11px] text-slate-400 flex items-center justify-between gap-4 pt-1 font-mono flex-wrap">
+              <div className="text-[12px] text-slate-500 flex items-center justify-between gap-4 pt-1 flex-wrap">
                 <div className="flex items-center gap-4">
-                  <span className="flex items-center gap-1 text-slate-300">
-                    <CheckCircle2 className="h-3.5 w-3.5 text-emerald-400" /> Montaje Físico Verificado
+                  <span className="flex items-center gap-1 text-slate-400">
+                    <CheckCircle2 className="h-3.5 w-3.5 text-emerald-400" /> Montaje físico verificado
                   </span>
-                  <span className="flex items-center gap-1 text-slate-300">
-                    <ShieldCheck className="h-3.5 w-3.5 text-cyan-400" /> Bucle Determinista
+                  <span className="flex items-center gap-1 text-slate-400">
+                    <ShieldCheck className="h-3.5 w-3.5 text-cyan-400" /> Bucle determinista
                   </span>
                 </div>
 
@@ -328,7 +328,7 @@ export default function ProjectBuildGuide({
                 <div className="flex items-center gap-2">
                   <button
                     onClick={copyBOM}
-                    className="flex items-center gap-1 px-2.5 py-1 rounded-md bg-slate-900 hover:bg-slate-800 text-slate-300 hover:text-cyan-300 border border-slate-800 transition-colors"
+                    className="flex items-center gap-1 px-2.5 py-1 rounded-full bg-white/[0.06] hover:bg-white/[0.1] text-slate-300 transition-colors"
                     title="Copiar lista de componentes al portapapeles"
                   >
                     {bomCopied ? <Check className="h-3 w-3 text-emerald-400" /> : <Copy className="h-3 w-3" />}
@@ -336,7 +336,7 @@ export default function ProjectBuildGuide({
                   </button>
                   <button
                     onClick={exportBOM_CSV}
-                    className="flex items-center gap-1 px-2.5 py-1 rounded-md bg-slate-900 hover:bg-slate-800 text-slate-300 hover:text-cyan-300 border border-slate-800 transition-colors"
+                    className="flex items-center gap-1 px-2.5 py-1 rounded-full bg-white/[0.06] hover:bg-white/[0.1] text-slate-300 transition-colors"
                     title="Descargar lista de componentes en formato CSV"
                   >
                     <Download className="h-3 w-3 text-cyan-400" />
@@ -350,14 +350,14 @@ export default function ProjectBuildGuide({
       )}
 
       {/* Sub-Navigation Tabs */}
-      <div className="flex items-center gap-1 sm:gap-2 px-4 sm:px-6 pt-3 border-b border-slate-800/80 bg-slate-950/60 overflow-x-auto text-xs font-semibold">
+      <div className="flex items-center gap-1 px-4 sm:px-6 pt-2 pb-2 border-b border-white/[0.06] overflow-x-auto text-[13px] font-medium">
         
         <button
           onClick={() => setActiveTab('schematic')}
-          className={`flex items-center gap-1.5 px-3.5 py-2 rounded-t-lg transition-all border-b-2 flex-shrink-0 ${
+          className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full transition-colors flex-shrink-0 ${
             activeTab === 'schematic'
-              ? 'border-cyan-400 text-cyan-300 bg-slate-900'
-              : 'border-transparent text-slate-400 hover:text-slate-200'
+              ? 'bg-slate-700 text-white'
+              : 'text-slate-400 hover:text-slate-200'
           }`}
         >
           <Cpu className="h-3.5 w-3.5" />
@@ -366,10 +366,10 @@ export default function ProjectBuildGuide({
 
         <button
           onClick={() => setActiveTab('wiring')}
-          className={`flex items-center gap-1.5 px-3.5 py-2 rounded-t-lg transition-all border-b-2 flex-shrink-0 ${
+          className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full transition-colors flex-shrink-0 ${
             activeTab === 'wiring'
-              ? 'border-cyan-400 text-cyan-300 bg-slate-900'
-              : 'border-transparent text-slate-400 hover:text-slate-200'
+              ? 'bg-slate-700 text-white'
+              : 'text-slate-400 hover:text-slate-200'
           }`}
         >
           <Zap className="h-3.5 w-3.5" />
@@ -378,10 +378,10 @@ export default function ProjectBuildGuide({
 
         <button
           onClick={() => setActiveTab('firmware')}
-          className={`flex items-center gap-1.5 px-3.5 py-2 rounded-t-lg transition-all border-b-2 flex-shrink-0 ${
+          className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full transition-colors flex-shrink-0 ${
             activeTab === 'firmware'
-              ? 'border-cyan-400 text-cyan-300 bg-slate-900'
-              : 'border-transparent text-slate-400 hover:text-slate-200'
+              ? 'bg-slate-700 text-white'
+              : 'text-slate-400 hover:text-slate-200'
           }`}
         >
           <Code2 className="h-3.5 w-3.5" />
@@ -390,10 +390,10 @@ export default function ProjectBuildGuide({
 
         <button
           onClick={() => setActiveTab('mechanical')}
-          className={`flex items-center gap-1.5 px-3.5 py-2 rounded-t-lg transition-all border-b-2 flex-shrink-0 ${
+          className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full transition-colors flex-shrink-0 ${
             activeTab === 'mechanical'
-              ? 'border-cyan-400 text-cyan-300 bg-slate-900'
-              : 'border-transparent text-slate-400 hover:text-slate-200'
+              ? 'bg-slate-700 text-white'
+              : 'text-slate-400 hover:text-slate-200'
           }`}
         >
           <Layers className="h-3.5 w-3.5" />
@@ -402,10 +402,10 @@ export default function ProjectBuildGuide({
 
         <button
           onClick={() => setActiveTab('calibration')}
-          className={`flex items-center gap-1.5 px-3.5 py-2 rounded-t-lg transition-all border-b-2 flex-shrink-0 ${
+          className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full transition-colors flex-shrink-0 ${
             activeTab === 'calibration'
-              ? 'border-cyan-400 text-cyan-300 bg-slate-900'
-              : 'border-transparent text-slate-400 hover:text-slate-200'
+              ? 'bg-slate-700 text-white'
+              : 'text-slate-400 hover:text-slate-200'
           }`}
         >
           <Sliders className="h-3.5 w-3.5" />
@@ -414,10 +414,10 @@ export default function ProjectBuildGuide({
 
         <button
           onClick={() => setActiveTab('troubleshoot')}
-          className={`flex items-center gap-1.5 px-3.5 py-2 rounded-t-lg transition-all border-b-2 flex-shrink-0 ${
+          className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full transition-colors flex-shrink-0 ${
             activeTab === 'troubleshoot'
-              ? 'border-cyan-400 text-cyan-300 bg-slate-900'
-              : 'border-transparent text-slate-400 hover:text-slate-200'
+              ? 'bg-slate-700 text-white'
+              : 'text-slate-400 hover:text-slate-200'
           }`}
         >
           <AlertTriangle className="h-3.5 w-3.5" />
@@ -426,10 +426,10 @@ export default function ProjectBuildGuide({
 
         <button
           onClick={() => setActiveTab('checklist')}
-          className={`flex items-center gap-1.5 px-3.5 py-2 rounded-t-lg transition-all border-b-2 flex-shrink-0 ${
+          className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full transition-colors flex-shrink-0 ${
             activeTab === 'checklist'
-              ? 'border-cyan-400 text-cyan-300 bg-slate-900'
-              : 'border-transparent text-slate-400 hover:text-slate-200'
+              ? 'bg-slate-700 text-white'
+              : 'text-slate-400 hover:text-slate-200'
           }`}
         >
           <CheckCircle2 className="h-3.5 w-3.5 text-emerald-400" />
@@ -438,10 +438,10 @@ export default function ProjectBuildGuide({
 
         <button
           onClick={() => setActiveTab('interview')}
-          className={`flex items-center gap-1.5 px-3.5 py-2 rounded-t-lg transition-all border-b-2 flex-shrink-0 ${
+          className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full transition-colors flex-shrink-0 ${
             activeTab === 'interview'
-              ? 'border-cyan-400 text-cyan-300 bg-slate-900'
-              : 'border-transparent text-slate-400 hover:text-slate-200'
+              ? 'bg-slate-700 text-white'
+              : 'text-slate-400 hover:text-slate-200'
           }`}
         >
           <HelpCircle className="h-3.5 w-3.5" />
@@ -633,20 +633,18 @@ export default function ProjectBuildGuide({
 
         {/* TAB 3: Firmware & Console Commands */}
         {activeTab === 'firmware' && (
-          <div className="space-y-6">
+          <div className="space-y-4">
             {/* Terminal Commands */}
             {manual.consoleCommands && manual.consoleCommands.length > 0 && (
-              <div className="bg-slate-900/60 p-5 rounded-2xl border border-slate-800">
-                <div className="flex items-center justify-between mb-3">
-                  <h4 className="text-sm font-bold text-cyan-300 uppercase tracking-wider flex items-center gap-2">
-                    <Terminal className="h-4 w-4" />
-                    Comandos de Consola y Dependencias de Software
-                  </h4>
-                </div>
+              <div className="bg-white/[0.03] p-5 rounded-2xl">
+                <h4 className="text-[13px] font-medium text-slate-300 flex items-center gap-2 mb-3">
+                  <Terminal className="h-4 w-4 text-slate-500" />
+                  Comandos de consola y dependencias de software
+                </h4>
 
-                <div className="bg-black/90 p-4 rounded-xl border border-slate-800 font-mono text-xs text-emerald-400 space-y-1 overflow-x-auto">
+                <div className="bg-black p-4 rounded-xl font-mono text-[12px] text-emerald-400 space-y-1 overflow-x-auto">
                   {manual.consoleCommands.map((cmd, idx) => (
-                    <div key={idx} className={cmd.startsWith('#') ? 'text-slate-500 italic' : 'text-emerald-400 font-bold'}>
+                    <div key={idx} className={cmd.startsWith('#') ? 'text-slate-500 italic' : 'text-emerald-400'}>
                       {cmd}
                     </div>
                   ))}
@@ -656,35 +654,35 @@ export default function ProjectBuildGuide({
 
             {/* Firmware Code Snippet */}
             {manual.firmwareCode && (
-              <div className="bg-slate-900/60 p-5 rounded-2xl border border-slate-800">
+              <div className="bg-white/[0.03] p-5 rounded-2xl">
                 <div className="flex items-center justify-between mb-3">
-                  <h4 className="text-sm font-bold text-cyan-300 uppercase tracking-wider flex items-center gap-2">
-                    <Code2 className="h-4 w-4" />
-                    Firmware de Control en Tiempo Real
+                  <h4 className="text-[13px] font-medium text-slate-300 flex items-center gap-2">
+                    <Code2 className="h-4 w-4 text-slate-500" />
+                    Firmware de control en tiempo real
                   </h4>
 
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-1">
                     <button
                       onClick={downloadFirmware}
-                      className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-300 border border-emerald-500/40 text-xs font-semibold transition-all shadow-sm"
+                      className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-emerald-400 hover:bg-white/[0.06] text-[12px] font-medium transition-colors"
                       title="Descargar archivo de código fuente (.ino o .py)"
                     >
-                      <Download className="h-3.5 w-3.5 text-emerald-400" />
-                      <span>Descargar Script</span>
+                      <Download className="h-3.5 w-3.5" />
+                      <span>Descargar</span>
                     </button>
 
                     <button
                       onClick={() => copyCode(manual.firmwareCode)}
-                      className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-cyan-600/20 hover:bg-cyan-600/30 text-cyan-300 border border-cyan-500/40 text-xs font-semibold transition-all"
+                      className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-slate-300 hover:bg-white/[0.06] text-[12px] font-medium transition-colors"
                     >
                       {codeCopied ? <Check className="h-3.5 w-3.5 text-emerald-400" /> : <Copy className="h-3.5 w-3.5" />}
-                      <span>{codeCopied ? "¡Copiado!" : "Copiar Código"}</span>
+                      <span>{codeCopied ? "¡Copiado!" : "Copiar"}</span>
                     </button>
                   </div>
                 </div>
 
-                <div className="relative rounded-xl overflow-hidden border border-slate-800 bg-black">
-                  <pre className="p-4 text-xs font-mono text-cyan-300 overflow-x-auto max-h-96 leading-relaxed">
+                <div className="relative rounded-xl overflow-hidden bg-black">
+                  <pre className="p-4 text-[12px] font-mono text-slate-200 overflow-x-auto max-h-96 leading-relaxed">
                     <code>{manual.firmwareCode}</code>
                   </pre>
                 </div>
@@ -695,16 +693,16 @@ export default function ProjectBuildGuide({
 
         {/* TAB 4: Mechanical Assembly */}
         {activeTab === 'mechanical' && (
-          <div className="bg-slate-900/60 p-5 sm:p-6 rounded-2xl border border-slate-800 space-y-4">
-            <h4 className="text-sm font-bold text-cyan-300 uppercase tracking-wider flex items-center gap-2">
-              <Layers className="h-4 w-4" />
-              Directrices de Montaje Mecánico, Carcasa y Térmica
+          <div className="bg-white/[0.03] p-5 sm:p-6 rounded-2xl space-y-3">
+            <h4 className="text-[13px] font-medium text-slate-300 flex items-center gap-2">
+              <Layers className="h-4 w-4 text-slate-500" />
+              Directrices de montaje mecánico, carcasa y térmica
             </h4>
-            
-            <ul className="space-y-3">
+
+            <ul className="space-y-2">
               {manual.mechanicalSteps?.map((step, idx) => (
-                <li key={idx} className="flex items-start gap-3 text-xs sm:text-sm text-slate-200 bg-slate-950/60 p-3.5 rounded-xl border border-slate-800/80">
-                  <span className="flex-shrink-0 w-6 h-6 rounded-full bg-cyan-500/20 text-cyan-400 font-mono font-bold text-xs flex items-center justify-center border border-cyan-500/40">
+                <li key={idx} className="flex items-start gap-3 text-[13px] text-slate-200 bg-black/30 p-3.5 rounded-xl">
+                  <span className="flex-shrink-0 w-6 h-6 rounded-full bg-white/[0.06] text-slate-300 font-medium text-[12px] flex items-center justify-center">
                     {idx + 1}
                   </span>
                   <span className="leading-relaxed pt-0.5">{step}</span>
@@ -716,16 +714,16 @@ export default function ProjectBuildGuide({
 
         {/* TAB 5: Bench Calibration Protocol */}
         {activeTab === 'calibration' && (
-          <div className="bg-slate-900/60 p-5 sm:p-6 rounded-2xl border border-slate-800 space-y-4">
-            <h4 className="text-sm font-bold text-cyan-300 uppercase tracking-wider flex items-center gap-2">
-              <Sliders className="h-4 w-4" />
-              Protocolo de Calibración Segura en Banco de Trabajo
+          <div className="bg-white/[0.03] p-5 sm:p-6 rounded-2xl space-y-3">
+            <h4 className="text-[13px] font-medium text-slate-300 flex items-center gap-2">
+              <Sliders className="h-4 w-4 text-slate-500" />
+              Protocolo de calibración segura en banco de trabajo
             </h4>
 
-            <ul className="space-y-3">
+            <ul className="space-y-2">
               {manual.benchCalibration?.map((calib, idx) => (
-                <li key={idx} className="flex items-start gap-3 text-xs sm:text-sm text-slate-200 bg-slate-950/60 p-3.5 rounded-xl border border-slate-800/80">
-                  <ShieldCheck className="h-5 w-5 text-emerald-400 flex-shrink-0 mt-0.5" />
+                <li key={idx} className="flex items-start gap-3 text-[13px] text-slate-200 bg-black/30 p-3.5 rounded-xl">
+                  <ShieldCheck className="h-4 w-4 text-emerald-400 flex-shrink-0 mt-0.5" />
                   <span className="leading-relaxed">{calib}</span>
                 </li>
               ))}
@@ -735,36 +733,36 @@ export default function ProjectBuildGuide({
 
         {/* TAB 6: Troubleshooting Matrix */}
         {activeTab === 'troubleshoot' && (
-          <div className="bg-slate-900/60 p-5 sm:p-6 rounded-2xl border border-slate-800 space-y-4">
-            <h4 className="text-sm font-bold text-cyan-300 uppercase tracking-wider flex items-center gap-2">
+          <div className="bg-white/[0.03] p-5 sm:p-6 rounded-2xl space-y-3">
+            <h4 className="text-[13px] font-medium text-slate-300 flex items-center gap-2">
               <AlertTriangle className="h-4 w-4 text-amber-400" />
-              Matriz de Detección y Resolución de Fallos Típicos
+              Matriz de detección y resolución de fallos típicos
             </h4>
 
-            <div className="space-y-3">
+            <div className="space-y-2">
               {manual.troubleshooting?.map((item, idx) => {
                 const isOpen = openTroubleshoot[idx];
                 return (
-                  <div key={idx} className="rounded-xl border border-slate-800 bg-slate-950/60 overflow-hidden">
+                  <div key={idx} className="rounded-xl bg-black/30 overflow-hidden">
                     <button
                       onClick={() => toggleTroubleshoot(idx)}
-                      className="w-full p-4 text-left text-xs sm:text-sm font-semibold text-slate-200 hover:text-cyan-300 flex items-center justify-between gap-3 transition-colors"
+                      className="w-full p-4 text-left text-[13px] font-medium text-slate-200 hover:text-white flex items-center justify-between gap-3 transition-colors"
                     >
                       <span className="flex items-center gap-2.5">
-                        <span className="text-amber-400 text-sm">⚠️</span>
+                        <AlertTriangle className="h-3.5 w-3.5 text-amber-400" />
                         <span>{item.symptom}</span>
                       </span>
-                      {isOpen ? <ChevronUp className="h-4 w-4 flex-shrink-0" /> : <ChevronDown className="h-4 w-4 flex-shrink-0" />}
+                      {isOpen ? <ChevronUp className="h-4 w-4 flex-shrink-0 text-slate-500" /> : <ChevronDown className="h-4 w-4 flex-shrink-0 text-slate-500" />}
                     </button>
 
                     {isOpen && (
-                      <div className="p-4 pt-0 text-xs border-t border-slate-800/80 space-y-2.5">
+                      <div className="p-4 pt-0 text-[13px] space-y-2.5">
                         <p className="text-slate-400 leading-relaxed">
-                          <strong className="text-rose-400 block mb-0.5">Causa Raíz Eléctrica / Lógica:</strong>
+                          <strong className="text-rose-400 block mb-0.5">Causa raíz eléctrica / lógica:</strong>
                           {item.cause}
                         </p>
-                        <div className="p-3 rounded-lg bg-emerald-950/30 border border-emerald-800/40 text-emerald-300 leading-relaxed">
-                          <strong className="text-emerald-400 block mb-0.5">Solución Técnica Directa:</strong>
+                        <div className="p-3 rounded-lg bg-emerald-500/10 text-emerald-300 leading-relaxed">
+                          <strong className="text-emerald-400 block mb-0.5">Solución técnica directa:</strong>
                           {item.fix}
                         </div>
                       </div>

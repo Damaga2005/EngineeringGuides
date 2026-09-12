@@ -514,7 +514,7 @@ export default function ProjectDetail({
         )}
 
         {activeTab === 'build' && (
-          <div className="space-y-8">
+          <div className="space-y-6">
             {/* BOM Section */}
             <div className="bg-slate-900 p-6 rounded-2xl space-y-4">
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-white/[0.06] pb-4">
@@ -528,17 +528,17 @@ export default function ProjectDetail({
                   </p>
                 </div>
 
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-1.5">
                   <button
                     onClick={copyBOM}
-                    className="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-medium inline-flex items-center gap-1.5 transition-colors"
+                    className="px-3 py-1.5 rounded-full text-[13px] font-medium text-slate-300 hover:bg-white/[0.06] transition-colors inline-flex items-center gap-1.5"
                   >
                     {copiedBom ? <Check className="h-3.5 w-3.5 text-emerald-400" /> : <Copy className="h-3.5 w-3.5" />}
-                    <span>Copiar TSV</span>
+                    <span>Copiar</span>
                   </button>
                   <button
                     onClick={exportBOM_CSV}
-                    className="px-3 py-1.5 rounded-lg bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-semibold inline-flex items-center gap-1.5 transition-all"
+                    className="px-3.5 py-1.5 rounded-full bg-cyan-500 hover:bg-cyan-400 text-white text-[13px] font-medium inline-flex items-center gap-1.5 transition-colors"
                   >
                     <Download className="h-3.5 w-3.5" />
                     <span>Exportar CSV</span>
@@ -548,23 +548,23 @@ export default function ProjectDetail({
 
               {project.bom && project.bom.length > 0 ? (
                 <div className="overflow-x-auto">
-                  <table className="w-full text-left text-xs">
+                  <table className="w-full text-left text-[13px]">
                     <thead>
-                      <tr className="border-b border-slate-800 text-slate-400 font-mono">
-                        <th className="py-2.5 px-3">#</th>
-                        <th className="py-2.5 px-3">Componente</th>
-                        <th className="py-2.5 px-3">Especificación</th>
-                        <th className="py-2.5 px-3">Cantidad</th>
-                        <th className="py-2.5 px-3">Coste Estimado</th>
+                      <tr className="text-slate-500">
+                        <th className="py-2 px-3 font-medium">#</th>
+                        <th className="py-2 px-3 font-medium">Componente</th>
+                        <th className="py-2 px-3 font-medium">Especificación</th>
+                        <th className="py-2 px-3 font-medium">Cant.</th>
+                        <th className="py-2 px-3 font-medium">Coste est.</th>
                       </tr>
                     </thead>
-                    <tbody className="divide-y divide-slate-800/60">
+                    <tbody className="divide-y divide-white/[0.06]">
                       {project.bom.map((item, idx) => (
-                        <tr key={idx} className="hover:bg-slate-900/40">
-                          <td className="py-2.5 px-3 font-mono text-slate-500">{idx + 1}</td>
-                          <td className="py-2.5 px-3 font-semibold text-white">{item.name}</td>
-                          <td className="py-2.5 px-3 text-slate-300 font-mono">{item.specs || 'Estándar'}</td>
-                          <td className="py-2.5 px-3 font-mono text-cyan-400">{item.qty || 1}</td>
+                        <tr key={idx} className="hover:bg-white/[0.03]">
+                          <td className="py-2.5 px-3 text-slate-600">{idx + 1}</td>
+                          <td className="py-2.5 px-3 font-medium text-white">{item.name}</td>
+                          <td className="py-2.5 px-3 text-slate-400">{item.specs || 'Estándar'}</td>
+                          <td className="py-2.5 px-3 text-slate-300">{item.qty || 1}</td>
                           <td className="py-2.5 px-3 text-slate-400">{item.cost || '-'}</td>
                         </tr>
                       ))}
@@ -572,7 +572,7 @@ export default function ProjectDetail({
                   </table>
                 </div>
               ) : (
-                <div className="p-8 text-center text-xs text-slate-500">
+                <div className="p-8 text-center text-[13px] text-slate-500">
                   No hay componentes BOM detallados para este proyecto en la fuente original.
                 </div>
               )}
@@ -580,29 +580,29 @@ export default function ProjectDetail({
 
             {/* Firmware Section */}
             {project.firmwareCode && (
-              <div className="glass-panel p-6 rounded-2xl border border-slate-800 space-y-4">
-                <div className="flex items-center justify-between gap-3 border-b border-slate-800 pb-4">
+              <div className="bg-slate-900 p-6 rounded-2xl space-y-4">
+                <div className="flex items-center justify-between gap-3 border-b border-white/[0.06] pb-4">
                   <div>
-                    <h3 className="text-lg font-bold text-white flex items-center gap-2">
-                      <Code2 className="h-5 w-5 text-cyan-400" />
-                      <span>Firmware & Lógica de Control</span>
+                    <h3 className="text-[17px] font-medium text-white flex items-center gap-2">
+                      <Code2 className="h-4 w-4 text-slate-400" />
+                      <span>Firmware & lógica de control</span>
                     </h3>
-                    <p className="text-xs text-slate-400 mt-0.5">
-                      Lenguaje: <span className="font-mono text-cyan-400">{project.firmwareLanguage || 'cpp'}</span>
+                    <p className="text-[13px] text-slate-400 mt-0.5">
+                      Lenguaje: <span className="text-slate-300">{project.firmwareLanguage || 'cpp'}</span>
                     </p>
                   </div>
 
                   <button
                     onClick={() => copyCode(project.firmwareCode)}
-                    className="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-medium inline-flex items-center gap-1.5 transition-colors"
+                    className="px-3 py-1.5 rounded-full text-[13px] font-medium text-slate-300 hover:bg-white/[0.06] transition-colors inline-flex items-center gap-1.5"
                   >
                     {copiedCode ? <Check className="h-3.5 w-3.5 text-emerald-400" /> : <Copy className="h-3.5 w-3.5" />}
-                    <span>Copiar Código</span>
+                    <span>Copiar código</span>
                   </button>
                 </div>
 
-                <div className="rounded-xl bg-slate-950 border border-slate-800 p-4 overflow-x-auto max-h-[500px]">
-                  <pre className="font-mono text-xs text-slate-200 leading-relaxed">
+                <div className="rounded-xl bg-black p-4 overflow-x-auto max-h-[500px]">
+                  <pre className="font-mono text-[12px] text-slate-200 leading-relaxed">
                     <code>{project.firmwareCode}</code>
                   </pre>
                 </div>
@@ -611,14 +611,14 @@ export default function ProjectDetail({
 
             {/* Schematic SVG Section if present */}
             {project.schematicSvg && (
-              <div className="glass-panel p-6 rounded-2xl border border-slate-800 space-y-4">
-                <h3 className="text-lg font-bold text-white flex items-center gap-2">
-                  <Activity className="h-5 w-5 text-cyan-400" />
-                  <span>Diagrama Esquemático Vectorial</span>
+              <div className="bg-slate-900 p-6 rounded-2xl space-y-4">
+                <h3 className="text-[17px] font-medium text-white flex items-center gap-2">
+                  <Activity className="h-4 w-4 text-slate-400" />
+                  <span>Diagrama esquemático vectorial</span>
                 </h3>
-                <div className="p-4 rounded-xl bg-slate-950/80 border border-slate-800 flex justify-center">
-                  <img 
-                    src={project.schematicSvg.startsWith('/') ? project.schematicSvg : `/${project.schematicSvg}`} 
+                <div className="p-4 rounded-xl bg-black flex justify-center">
+                  <img
+                    src={project.schematicSvg.startsWith('/') ? project.schematicSvg : `/${project.schematicSvg}`}
                     alt={`Esquemático de ${project.title}`}
                     className="max-h-[500px] w-auto object-contain rounded-lg"
                     onError={(e) => { e.target.style.display = 'none'; }}
@@ -630,51 +630,48 @@ export default function ProjectDetail({
         )}
 
         {activeTab === 'expanded' && expandedGuide && (
-          <div className="space-y-6">
-            <div className="p-4 rounded-xl bg-amber-950/20 border border-amber-800/40 flex items-start gap-3">
-              <AlertTriangle className="h-5 w-5 text-amber-400 flex-shrink-0 mt-0.5" />
-              <div className="text-xs text-slate-300 leading-relaxed">
-                <span className="font-semibold text-amber-300">Guía Ampliada — IA + investigación, NO literal del PDF. </span>
-                Este contenido fue redactado a partir de conocimiento técnico general y verificación puntual de componentes reales,
-                para dar una guía de construcción completa y accionable. No proviene de la fuente documental original ni ha sido
-                verificado byte a byte como el resto de la ficha. Trátalo como una guía de referencia razonada, no como una
-                transcripción oficial. Disponible actualmente solo para un piloto de 5 proyectos.
+          <div className="space-y-4">
+            <div className="p-4 rounded-2xl bg-amber-500/10 flex items-start gap-3">
+              <AlertTriangle className="h-4 w-4 text-amber-400 flex-shrink-0 mt-0.5" />
+              <div className="text-[13px] text-slate-300 leading-relaxed">
+                <span className="font-medium text-amber-300">Guía ampliada — IA + investigación, no literal del PDF. </span>
+                Redactada a partir de conocimiento técnico general y verificación puntual de componentes reales, para dar una guía de construcción completa y accionable. No proviene de la fuente documental original ni ha sido verificada byte a byte como el resto de la ficha. Trátala como una guía de referencia razonada, no como una transcripción oficial.
               </div>
             </div>
 
             {expandedGuide.summary && (
-              <div className="glass-panel p-5 rounded-2xl border border-slate-800 space-y-2">
-                <h3 className="text-base font-bold text-white">Resumen</h3>
-                <p className="text-sm text-slate-300 leading-relaxed">{expandedGuide.summary}</p>
+              <div className="bg-slate-900 p-5 rounded-2xl space-y-2">
+                <h3 className="text-[15px] font-medium text-white">Resumen</h3>
+                <p className="text-[13px] text-slate-300 leading-relaxed">{expandedGuide.summary}</p>
                 {expandedGuide.difficultyNotes && (
-                  <p className="text-xs text-slate-400 italic pt-1">{expandedGuide.difficultyNotes}</p>
+                  <p className="text-[12px] text-slate-500 italic pt-1">{expandedGuide.difficultyNotes}</p>
                 )}
               </div>
             )}
 
             {expandedGuide.bom?.length > 0 && (
-              <div className="glass-panel p-5 rounded-2xl border border-slate-800 space-y-3">
-                <h3 className="text-base font-bold text-white flex items-center gap-2">
-                  <Boxes className="h-4 w-4 text-amber-400" /> Lista de Materiales Detallada
+              <div className="bg-slate-900 p-5 rounded-2xl space-y-3">
+                <h3 className="text-[15px] font-medium text-white flex items-center gap-2">
+                  <Boxes className="h-4 w-4 text-slate-400" /> Lista de materiales detallada
                 </h3>
                 <div className="overflow-x-auto">
-                  <table className="w-full text-xs">
+                  <table className="w-full text-[13px]">
                     <thead>
-                      <tr className="text-left text-slate-500 border-b border-slate-800">
-                        <th className="py-2 pr-3">Componente</th>
-                        <th className="py-2 pr-3">Especificación</th>
-                        <th className="py-2 pr-3">Cant.</th>
-                        <th className="py-2 pr-3">Coste est.</th>
-                        <th className="py-2">Notas</th>
+                      <tr className="text-left text-slate-500">
+                        <th className="py-2 pr-3 font-medium">Componente</th>
+                        <th className="py-2 pr-3 font-medium">Especificación</th>
+                        <th className="py-2 pr-3 font-medium">Cant.</th>
+                        <th className="py-2 pr-3 font-medium">Coste est.</th>
+                        <th className="py-2 font-medium">Notas</th>
                       </tr>
                     </thead>
-                    <tbody>
+                    <tbody className="divide-y divide-white/[0.06]">
                       {expandedGuide.bom.map((item, idx) => (
-                        <tr key={idx} className="border-b border-slate-900">
-                          <td className="py-2.5 pr-3 text-slate-200 font-semibold">{item.name}</td>
+                        <tr key={idx}>
+                          <td className="py-2.5 pr-3 text-white font-medium">{item.name}</td>
                           <td className="py-2.5 pr-3 text-slate-400">{item.spec}</td>
-                          <td className="py-2.5 pr-3 text-slate-300 font-mono">{item.qty}</td>
-                          <td className="py-2.5 pr-3 text-emerald-400 font-mono">{item.estCost || '-'}</td>
+                          <td className="py-2.5 pr-3 text-slate-300">{item.qty}</td>
+                          <td className="py-2.5 pr-3 text-emerald-400">{item.estCost || '-'}</td>
                           <td className="py-2.5 text-slate-500">{item.notes || ''}</td>
                         </tr>
                       ))}
@@ -685,14 +682,14 @@ export default function ProjectDetail({
             )}
 
             {expandedGuide.wiring?.length > 0 && (
-              <div className="glass-panel p-5 rounded-2xl border border-slate-800 space-y-3">
-                <h3 className="text-base font-bold text-white flex items-center gap-2">
-                  <Zap className="h-4 w-4 text-amber-400" /> Cableado y Conexiones
+              <div className="bg-slate-900 p-5 rounded-2xl space-y-3">
+                <h3 className="text-[15px] font-medium text-white flex items-center gap-2">
+                  <Zap className="h-4 w-4 text-slate-400" /> Cableado y conexiones
                 </h3>
                 <div className="space-y-2">
                   {expandedGuide.wiring.map((w, idx) => (
-                    <div key={idx} className="p-3 rounded-lg bg-slate-900/60 border border-slate-800 text-xs">
-                      <div className="text-slate-200"><span className="text-cyan-400 font-mono">{w.from}</span> → <span className="text-cyan-400 font-mono">{w.to}</span></div>
+                    <div key={idx} className="p-3 rounded-xl bg-white/[0.03] text-[13px]">
+                      <div className="text-slate-200"><span className="text-cyan-400">{w.from}</span> → <span className="text-cyan-400">{w.to}</span></div>
                       {w.notes && <div className="text-slate-500 mt-1">{w.notes}</div>}
                     </div>
                   ))}
@@ -701,15 +698,15 @@ export default function ProjectDetail({
             )}
 
             {expandedGuide.steps?.length > 0 && (
-              <div className="glass-panel p-5 rounded-2xl border border-slate-800 space-y-3">
-                <h3 className="text-base font-bold text-white flex items-center gap-2">
-                  <Wrench className="h-4 w-4 text-amber-400" /> Pasos de Construcción
+              <div className="bg-slate-900 p-5 rounded-2xl space-y-3">
+                <h3 className="text-[15px] font-medium text-white flex items-center gap-2">
+                  <Wrench className="h-4 w-4 text-slate-400" /> Pasos de construcción
                 </h3>
-                <div className="space-y-3">
+                <div className="space-y-2">
                   {expandedGuide.steps.map((step, idx) => (
-                    <div key={idx} className="p-3.5 rounded-xl bg-slate-900/60 border border-slate-800">
-                      <h4 className="text-sm font-bold text-amber-300 mb-1">{step.title}</h4>
-                      <p className="text-xs text-slate-300 leading-relaxed">{step.instruction}</p>
+                    <div key={idx} className="p-4 rounded-xl bg-white/[0.03]">
+                      <h4 className="text-[13px] font-medium text-amber-300 mb-1">{step.title}</h4>
+                      <p className="text-[13px] text-slate-300 leading-relaxed">{step.instruction}</p>
                     </div>
                   ))}
                 </div>
@@ -717,15 +714,15 @@ export default function ProjectDetail({
             )}
 
             {expandedGuide.firmware && (
-              <div className="glass-panel p-5 rounded-2xl border border-slate-800 space-y-3">
-                <h3 className="text-base font-bold text-white flex items-center gap-2">
-                  <Code2 className="h-4 w-4 text-amber-400" /> Firmware Ilustrativo
+              <div className="bg-slate-900 p-5 rounded-2xl space-y-3">
+                <h3 className="text-[15px] font-medium text-white flex items-center gap-2">
+                  <Code2 className="h-4 w-4 text-slate-400" /> Firmware ilustrativo
                 </h3>
                 {expandedGuide.firmware.note && (
-                  <p className="text-xs text-slate-500 italic">{expandedGuide.firmware.note}</p>
+                  <p className="text-[12px] text-slate-500 italic">{expandedGuide.firmware.note}</p>
                 )}
-                <div className="rounded-xl bg-slate-950 border border-slate-800 p-4 overflow-x-auto max-h-[400px]">
-                  <pre className="font-mono text-xs text-slate-200 leading-relaxed">
+                <div className="rounded-xl bg-black p-4 overflow-x-auto max-h-[400px]">
+                  <pre className="font-mono text-[12px] text-slate-200 leading-relaxed">
                     <code>{expandedGuide.firmware.code}</code>
                   </pre>
                 </div>
@@ -733,14 +730,14 @@ export default function ProjectDetail({
             )}
 
             {expandedGuide.calibration?.length > 0 && (
-              <div className="glass-panel p-5 rounded-2xl border border-slate-800 space-y-3">
-                <h3 className="text-base font-bold text-white flex items-center gap-2">
-                  <CheckCircle2 className="h-4 w-4 text-amber-400" /> Calibración y Verificación
+              <div className="bg-slate-900 p-5 rounded-2xl space-y-3">
+                <h3 className="text-[15px] font-medium text-white flex items-center gap-2">
+                  <CheckCircle2 className="h-4 w-4 text-slate-400" /> Calibración y verificación
                 </h3>
                 <ul className="space-y-2">
                   {expandedGuide.calibration.map((c, idx) => (
-                    <li key={idx} className="text-xs text-slate-300 flex items-start gap-2">
-                      <span className="text-amber-400 mt-0.5">•</span><span>{c}</span>
+                    <li key={idx} className="text-[13px] text-slate-300 flex items-start gap-2">
+                      <span className="text-slate-600 mt-0.5">•</span><span>{c}</span>
                     </li>
                   ))}
                 </ul>
@@ -748,14 +745,14 @@ export default function ProjectDetail({
             )}
 
             {expandedGuide.troubleshooting?.length > 0 && (
-              <div className="glass-panel p-5 rounded-2xl border border-slate-800 space-y-3">
-                <h3 className="text-base font-bold text-white flex items-center gap-2">
-                  <AlertTriangle className="h-4 w-4 text-amber-400" /> Resolución de Problemas
+              <div className="bg-slate-900 p-5 rounded-2xl space-y-3">
+                <h3 className="text-[15px] font-medium text-white flex items-center gap-2">
+                  <AlertTriangle className="h-4 w-4 text-slate-400" /> Resolución de problemas
                 </h3>
                 <div className="space-y-2">
                   {expandedGuide.troubleshooting.map((t, idx) => (
-                    <div key={idx} className="p-3 rounded-lg bg-slate-900/60 border border-slate-800 text-xs space-y-1">
-                      <div className="text-red-300 font-semibold">Síntoma: {t.symptom}</div>
+                    <div key={idx} className="p-3.5 rounded-xl bg-white/[0.03] text-[13px] space-y-1">
+                      <div className="text-red-300 font-medium">Síntoma: {t.symptom}</div>
                       <div className="text-slate-400">Causa probable: {t.cause}</div>
                       <div className="text-emerald-300">Solución: {t.fix}</div>
                     </div>
@@ -765,13 +762,13 @@ export default function ProjectDetail({
             )}
 
             {expandedGuide.safety?.length > 0 && (
-              <div className="p-4 rounded-xl bg-red-950/20 border border-red-900/40 space-y-2">
-                <h3 className="text-sm font-bold text-red-300 flex items-center gap-2">
+              <div className="p-4 rounded-2xl bg-red-500/10 space-y-2">
+                <h3 className="text-[13px] font-medium text-red-300 flex items-center gap-2">
                   <ShieldCheck className="h-4 w-4" /> Seguridad
                 </h3>
                 <ul className="space-y-1.5">
                   {expandedGuide.safety.map((s, idx) => (
-                    <li key={idx} className="text-xs text-slate-300 flex items-start gap-2">
+                    <li key={idx} className="text-[13px] text-slate-300 flex items-start gap-2">
                       <span className="text-red-400 mt-0.5">•</span><span>{s}</span>
                     </li>
                   ))}
@@ -783,47 +780,31 @@ export default function ProjectDetail({
 
         {activeTab === 'relations' && (
           <div className="space-y-6">
-            <div className="glass-panel p-6 rounded-2xl border border-slate-800">
-              <h3 className="text-lg font-bold text-white mb-2">
-                Proyectos Relacionados o del Mismo Ecosistema
+            <div className="bg-slate-900 p-6 rounded-2xl">
+              <h3 className="text-[17px] font-medium text-white mb-2">
+                Proyectos relacionados o del mismo ecosistema
               </h3>
-              <p className="text-xs text-slate-400 mb-6">
+              <p className="text-[13px] text-slate-400 mb-6">
                 Proyectos que comparten la misma guía de origen o arquitectura de microcontrolador.
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {relatedProjects.map((relProj) => (
-                  <div 
+                  <div
                     key={relProj.projectId}
-                    className="p-4 rounded-xl bg-slate-900/60 border border-slate-800 hover:border-cyan-700/50 transition-all flex flex-col justify-between"
+                    onClick={() => onSelectProject(relProj.slug || relProj)}
+                    className="p-4 rounded-2xl bg-slate-900 hover:bg-slate-900/70 transition-colors flex flex-col justify-between cursor-pointer"
                   >
                     <div>
-                      <div className="flex items-center justify-between text-xs text-slate-500 font-mono mb-1">
-                        <span>#{relProj.projectNumber}</span>
-                        <span>{relProj.guideId}</span>
+                      <div className="text-[12px] text-cyan-400 mb-1">
+                        {relProj.technicalIdentity?.controller || 'Hardware'}
                       </div>
-                      <h4 
-                        onClick={() => onSelectProject(relProj.slug || relProj)}
-                        className="text-sm font-bold text-white hover:text-cyan-400 cursor-pointer transition-colors"
-                      >
+                      <h4 className="text-[15px] font-medium text-white">
                         {relProj.title}
                       </h4>
-                      <p className="text-xs text-slate-400 mt-1 line-clamp-2">
+                      <p className="text-[13px] text-slate-400 mt-1 line-clamp-2">
                         {relProj.description?.whatDoesItDo || relProj.description?.summary}
                       </p>
-                    </div>
-
-                    <div className="mt-4 pt-3 border-t border-slate-800/60 flex items-center justify-between">
-                      <span className="text-[11px] font-mono text-cyan-400">
-                        {relProj.technicalIdentity?.controller || 'Hardware'}
-                      </span>
-                      <button
-                        onClick={() => onSelectProject(relProj.slug || relProj)}
-                        className="text-xs text-cyan-400 hover:underline inline-flex items-center gap-1"
-                      >
-                        <span>Ver Ficha</span>
-                        <ExternalLink className="h-3 w-3" />
-                      </button>
                     </div>
                   </div>
                 ))}
