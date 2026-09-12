@@ -6,6 +6,23 @@
     ],
     "catalogTitle": "Digital Night-Vision Monocular",
     "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          51.86,
+          26.11,
+          351.19,
+          63.96
+        ],
+        "blockIndex": 10,
+        "claim": "Delimitador de inicio para Project #1: Digital Night-Vision Monocular",
+        "evidenceId": "ev-guide-001-p2-b10",
+        "pageNumber": 2,
+        "sourceDocumentId": "guide-001",
+        "sourceHash": "fdfb0020434976e8803d478a469c38516d9b0dec4152ee2e7d8b2dac2ceb0e09",
+        "textSnippet": "[ P R O J E C T 0 1 ]\nDigital Night-Vision Monocular"
+      }
+    ],
     "guideId": "guide-001",
     "irPageRange": [
       2,
@@ -22,7 +39,24 @@
       8
     ],
     "catalogTitle": "Wearable Heads-Up Display (HUD)",
-    "discrepancyNote": "Catalog title 'Wearable Heads-Up Display (HUD)' reconciled with IR heading 'AR Heads-Up Display Goggles'.",
+    "discrepancyNote": "Page range matched [5, 8], title discrepancy: 'Wearable Heads-Up Display (HUD)' vs 'AR Heads-Up Display Goggles'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          51.86,
+          26.11,
+          321.29,
+          63.96
+        ],
+        "blockIndex": 10,
+        "claim": "Delimitador de inicio para Project #2: AR Heads-Up Display Goggles",
+        "evidenceId": "ev-guide-001-p5-b10",
+        "pageNumber": 5,
+        "sourceDocumentId": "guide-001",
+        "sourceHash": "fdfb0020434976e8803d478a469c38516d9b0dec4152ee2e7d8b2dac2ceb0e09",
+        "textSnippet": "[ P R O J E C T 0 2 ]\nAR Heads-Up Display Goggles"
+      }
+    ],
     "guideId": "guide-001",
     "irPageRange": [
       5,
@@ -39,7 +73,24 @@
       11
     ],
     "catalogTitle": "Solar Perimeter Sentry Tower",
-    "discrepancyNote": "Catalog title 'Solar Perimeter Sentry Tower' reconciled with IR heading 'Autonomous Sentry Tower'.",
+    "discrepancyNote": "Page range matched [8, 11], title discrepancy: 'Solar Perimeter Sentry Tower' vs 'Autonomous Sentry Tower'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          51.86,
+          26.11,
+          281.41,
+          63.96
+        ],
+        "blockIndex": 11,
+        "claim": "Delimitador de inicio para Project #3: Autonomous Sentry Tower",
+        "evidenceId": "ev-guide-001-p8-b11",
+        "pageNumber": 8,
+        "sourceDocumentId": "guide-001",
+        "sourceHash": "fdfb0020434976e8803d478a469c38516d9b0dec4152ee2e7d8b2dac2ceb0e09",
+        "textSnippet": "[ P R O J E C T 0 3 ]\nAutonomous Sentry Tower"
+      }
+    ],
     "guideId": "guide-001",
     "irPageRange": [
       8,
@@ -56,7 +107,24 @@
       13
     ],
     "catalogTitle": "RF Spectrum Surveillance Station",
-    "discrepancyNote": "Catalog title 'RF Spectrum Surveillance Station' reconciled with IR heading 'RF Ground Station'.",
+    "discrepancyNote": "Page range matched [11, 13], title discrepancy: 'RF Spectrum Surveillance Station' vs 'RF Ground Station'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          51.86,
+          26.11,
+          221.59,
+          63.96
+        ],
+        "blockIndex": 30,
+        "claim": "Delimitador de inicio para Project #4: RF Ground Station",
+        "evidenceId": "ev-guide-001-p11-b30",
+        "pageNumber": 11,
+        "sourceDocumentId": "guide-001",
+        "sourceHash": "fdfb0020434976e8803d478a469c38516d9b0dec4152ee2e7d8b2dac2ceb0e09",
+        "textSnippet": "[ P R O J E C T 0 4 ]\nRF Ground Station"
+      }
+    ],
     "guideId": "guide-001",
     "irPageRange": [
       11,
@@ -73,7 +141,24 @@
       15
     ],
     "catalogTitle": "Off-Grid LoRa Mesh Node",
-    "discrepancyNote": "Catalog title 'Off-Grid LoRa Mesh Node' reconciled with IR heading 'Mesh Field Radio'.",
+    "discrepancyNote": "Page range matched [13, 15], title discrepancy: 'Off-Grid LoRa Mesh Node' vs 'Mesh Field Radio'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          51.86,
+          26.11,
+          211.63,
+          63.96
+        ],
+        "blockIndex": 27,
+        "claim": "Delimitador de inicio para Project #5: Mesh Field Radio",
+        "evidenceId": "ev-guide-001-p13-b27",
+        "pageNumber": 13,
+        "sourceDocumentId": "guide-001",
+        "sourceHash": "fdfb0020434976e8803d478a469c38516d9b0dec4152ee2e7d8b2dac2ceb0e09",
+        "textSnippet": "[ P R O J E C T 0 5 ]\nMesh Field Radio"
+      }
+    ],
     "guideId": "guide-001",
     "irPageRange": [
       13,
@@ -90,7 +175,24 @@
       18
     ],
     "catalogTitle": "Tactical Situational Awareness Map",
-    "discrepancyNote": "Catalog title 'Tactical Situational Awareness Map' reconciled with IR heading 'Command Map (Common Operating'.",
+    "discrepancyNote": "Page range matched [15, 18], title discrepancy: 'Tactical Situational Awareness Map' vs 'Command Map (Common Operating'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          51.86,
+          26.11,
+          341.22,
+          83.96
+        ],
+        "blockIndex": 12,
+        "claim": "Delimitador de inicio para Project #6: Command Map (Common Operating",
+        "evidenceId": "ev-guide-001-p15-b12",
+        "pageNumber": 15,
+        "sourceDocumentId": "guide-001",
+        "sourceHash": "fdfb0020434976e8803d478a469c38516d9b0dec4152ee2e7d8b2dac2ceb0e09",
+        "textSnippet": "[ P R O J E C T 0 6 ]\nCommand Map (Common Operating\nPicture)"
+      }
+    ],
     "guideId": "guide-001",
     "irPageRange": [
       15,
@@ -107,7 +209,24 @@
       4
     ],
     "catalogTitle": "Indoor Position Hold (Optical Flow + ToF)",
-    "discrepancyNote": "Catalog title 'Indoor Position Hold (Optical Flow + ToF)' reconciled with IR heading 'UPGRADE 01 · REV A'.",
+    "discrepancyNote": "Page range matched [2, 4], title discrepancy: 'Indoor Position Hold (Optical Flow + ToF)' vs 'UPGRADE 01 · REV A'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          469.58,
+          17.08,
+          558.55,
+          25.86
+        ],
+        "blockIndex": 7,
+        "claim": "Delimitador de inicio para Project #1: UPGRADE 01 · REV A",
+        "evidenceId": "ev-guide-002-p2-b7",
+        "pageNumber": 2,
+        "sourceDocumentId": "guide-002",
+        "sourceHash": "87f5986df3355a1a67dc65349f4d93287b1e1a73431ff5f38eb06b59a238e92c",
+        "textSnippet": "UPGRADE 01 · REV A"
+      }
+    ],
     "guideId": "guide-002",
     "irPageRange": [
       2,
@@ -124,7 +243,24 @@
       7
     ],
     "catalogTitle": "Obstacle-Avoidance Sensor Ring",
-    "discrepancyNote": "Catalog title 'Obstacle-Avoidance Sensor Ring' reconciled with IR heading '[ U P G R A D E 0 2 ]'.",
+    "discrepancyNote": "Page range matched [4, 7], title discrepancy: 'Obstacle-Avoidance Sensor Ring' vs '[ U P G R A D E 0 2 ]'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          17.08,
+          558.55,
+          64.74
+        ],
+        "blockIndex": 6,
+        "claim": "Delimitador de inicio para Project #2: [ U P G R A D E 0 2 ]",
+        "evidenceId": "ev-guide-002-p4-b6",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-002",
+        "sourceHash": "87f5986df3355a1a67dc65349f4d93287b1e1a73431ff5f38eb06b59a238e92c",
+        "textSnippet": "UPGRADE 02 · REV A\n[ U P G R A D E 0 2 ]\nObstacle-Avoidance Sensor Ring"
+      }
+    ],
     "guideId": "guide-002",
     "irPageRange": [
       4,
@@ -141,7 +277,24 @@
       9
     ],
     "catalogTitle": "Parachute Recovery System",
-    "discrepancyNote": "Catalog title 'Parachute Recovery System' reconciled with IR heading 'UPGRADE 03 · REV A'.",
+    "discrepancyNote": "Page range matched [7, 9], title discrepancy: 'Parachute Recovery System' vs 'UPGRADE 03 · REV A'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          469.58,
+          17.08,
+          558.55,
+          25.86
+        ],
+        "blockIndex": 8,
+        "claim": "Delimitador de inicio para Project #3: UPGRADE 03 · REV A",
+        "evidenceId": "ev-guide-002-p7-b8",
+        "pageNumber": 7,
+        "sourceDocumentId": "guide-002",
+        "sourceHash": "87f5986df3355a1a67dc65349f4d93287b1e1a73431ff5f38eb06b59a238e92c",
+        "textSnippet": "UPGRADE 03 · REV A"
+      }
+    ],
     "guideId": "guide-002",
     "irPageRange": [
       7,
@@ -158,7 +311,24 @@
       11
     ],
     "catalogTitle": "2-Axis Brushless Gimbal (FOC)",
-    "discrepancyNote": "Catalog title '2-Axis Brushless Gimbal (FOC)' reconciled with IR heading 'UPGRADE 04 · REV A'.",
+    "discrepancyNote": "Page range matched [9, 11], title discrepancy: '2-Axis Brushless Gimbal (FOC)' vs 'UPGRADE 04 · REV A'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          469.58,
+          17.08,
+          558.55,
+          25.86
+        ],
+        "blockIndex": 7,
+        "claim": "Delimitador de inicio para Project #4: UPGRADE 04 · REV A",
+        "evidenceId": "ev-guide-002-p9-b7",
+        "pageNumber": 9,
+        "sourceDocumentId": "guide-002",
+        "sourceHash": "87f5986df3355a1a67dc65349f4d93287b1e1a73431ff5f38eb06b59a238e92c",
+        "textSnippet": "UPGRADE 04 · REV A"
+      }
+    ],
     "guideId": "guide-002",
     "irPageRange": [
       9,
@@ -175,7 +345,24 @@
       13
     ],
     "catalogTitle": "Vision Precision Landing",
-    "discrepancyNote": "Catalog title 'Vision Precision Landing' reconciled with IR heading 'UPGRADE 05 · REV A'.",
+    "discrepancyNote": "Page range matched [11, 13], title discrepancy: 'Vision Precision Landing' vs 'UPGRADE 05 · REV A'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          469.58,
+          17.08,
+          558.55,
+          25.86
+        ],
+        "blockIndex": 7,
+        "claim": "Delimitador de inicio para Project #5: UPGRADE 05 · REV A",
+        "evidenceId": "ev-guide-002-p11-b7",
+        "pageNumber": 11,
+        "sourceDocumentId": "guide-002",
+        "sourceHash": "87f5986df3355a1a67dc65349f4d93287b1e1a73431ff5f38eb06b59a238e92c",
+        "textSnippet": "UPGRADE 05 · REV A"
+      }
+    ],
     "guideId": "guide-002",
     "irPageRange": [
       11,
@@ -192,7 +379,24 @@
       16
     ],
     "catalogTitle": "Signal-Mapping Payload",
-    "discrepancyNote": "Catalog title 'Signal-Mapping Payload' reconciled with IR heading '[ U P G R A D E 0 6 ]'.",
+    "discrepancyNote": "Page range matched [13, 16], title discrepancy: 'Signal-Mapping Payload' vs '[ U P G R A D E 0 6 ]'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          17.08,
+          558.55,
+          64.74
+        ],
+        "blockIndex": 6,
+        "claim": "Delimitador de inicio para Project #6: [ U P G R A D E 0 6 ]",
+        "evidenceId": "ev-guide-002-p13-b6",
+        "pageNumber": 13,
+        "sourceDocumentId": "guide-002",
+        "sourceHash": "87f5986df3355a1a67dc65349f4d93287b1e1a73431ff5f38eb06b59a238e92c",
+        "textSnippet": "UPGRADE 06 · REV A\n[ U P G R A D E 0 6 ]\nSignal-Mapping Payload"
+      }
+    ],
     "guideId": "guide-002",
     "irPageRange": [
       13,
@@ -210,6 +414,23 @@
     ],
     "catalogTitle": "Cold-Gas Reaction Thruster",
     "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          73.03,
+          346.08,
+          124.91
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #1: Cold-Gas Reaction Thruster",
+        "evidenceId": "ev-guide-003-p2-b1",
+        "pageNumber": 2,
+        "sourceDocumentId": "guide-003",
+        "sourceHash": "dbb989b7af06df4d29bbe55f77da3eb56f4c8d929cdeec7786acd4289510d025",
+        "textSnippet": "PROJECT 1\nCold-Gas Reaction Thruster"
+      }
+    ],
     "guideId": "guide-003",
     "irPageRange": [
       2,
@@ -227,6 +448,23 @@
     ],
     "catalogTitle": "Auto-Tracking Ground Station",
     "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          73.03,
+          368.21,
+          124.91
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #2: Auto-Tracking Ground Station",
+        "evidenceId": "ev-guide-003-p6-b1",
+        "pageNumber": 6,
+        "sourceDocumentId": "guide-003",
+        "sourceHash": "dbb989b7af06df4d29bbe55f77da3eb56f4c8d929cdeec7786acd4289510d025",
+        "textSnippet": "PROJECT 2\nAuto-Tracking Ground Station"
+      }
+    ],
     "guideId": "guide-003",
     "irPageRange": [
       6,
@@ -244,6 +482,23 @@
     ],
     "catalogTitle": "Magnetorquer Detumble System",
     "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          73.03,
+          389.26,
+          124.91
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #3: Magnetorquer Detumble System",
+        "evidenceId": "ev-guide-003-p9-b1",
+        "pageNumber": 9,
+        "sourceDocumentId": "guide-003",
+        "sourceHash": "dbb989b7af06df4d29bbe55f77da3eb56f4c8d929cdeec7786acd4289510d025",
+        "textSnippet": "PROJECT 3\nMagnetorquer Detumble System"
+      }
+    ],
     "guideId": "guide-003",
     "irPageRange": [
       9,
@@ -260,7 +515,24 @@
       15
     ],
     "catalogTitle": "CubeSat Flight Computer (OBC)",
-    "discrepancyNote": "Catalog title 'CubeSat Flight Computer (OBC)' reconciled with IR heading 'Satellite-in-a-Box Flight Computer'.",
+    "discrepancyNote": "Page range matched [12, 15], title discrepancy: 'CubeSat Flight Computer (OBC)' vs 'Satellite-in-a-Box Flight Computer'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          73.03,
+          406.73,
+          124.91
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #4: Satellite-in-a-Box Flight Computer",
+        "evidenceId": "ev-guide-003-p12-b1",
+        "pageNumber": 12,
+        "sourceDocumentId": "guide-003",
+        "sourceHash": "dbb989b7af06df4d29bbe55f77da3eb56f4c8d929cdeec7786acd4289510d025",
+        "textSnippet": "PROJECT 4\nSatellite-in-a-Box Flight Computer"
+      }
+    ],
     "guideId": "guide-003",
     "irPageRange": [
       12,
@@ -277,7 +549,24 @@
       18
     ],
     "catalogTitle": "Sun-Vector Attitude Sensor",
-    "discrepancyNote": "Catalog title 'Sun-Vector Attitude Sensor' reconciled with IR heading 'Sun-Vector Sensor'.",
+    "discrepancyNote": "Page range matched [16, 18], title discrepancy: 'Sun-Vector Attitude Sensor' vs 'Sun-Vector Sensor'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          73.03,
+          256.24,
+          124.91
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #5: Sun-Vector Sensor",
+        "evidenceId": "ev-guide-003-p16-b1",
+        "pageNumber": 16,
+        "sourceDocumentId": "guide-003",
+        "sourceHash": "dbb989b7af06df4d29bbe55f77da3eb56f4c8d929cdeec7786acd4289510d025",
+        "textSnippet": "PROJECT 5\nSun-Vector Sensor"
+      }
+    ],
     "guideId": "guide-003",
     "irPageRange": [
       16,
@@ -295,6 +584,23 @@
     ],
     "catalogTitle": "CubeSat Power System (EPS)",
     "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          73.03,
+          363.61,
+          124.91
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #6: CubeSat Power System (EPS)",
+        "evidenceId": "ev-guide-003-p19-b1",
+        "pageNumber": 19,
+        "sourceDocumentId": "guide-003",
+        "sourceHash": "dbb989b7af06df4d29bbe55f77da3eb56f4c8d929cdeec7786acd4289510d025",
+        "textSnippet": "PROJECT 6\nCubeSat Power System (EPS)"
+      }
+    ],
     "guideId": "guide-003",
     "irPageRange": [
       19,
@@ -312,6 +618,23 @@
     ],
     "catalogTitle": "ADS-B Aircraft Radar",
     "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          73.03,
+          279.55,
+          124.91
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #1: ADS-B Aircraft Radar",
+        "evidenceId": "ev-guide-004-p2-b1",
+        "pageNumber": 2,
+        "sourceDocumentId": "guide-004",
+        "sourceHash": "90f2b15ae38369b1ed67c34c437fa43726d07051cbaf3f19455bcd917c53dff4",
+        "textSnippet": "PROJECT 1\nADS-B Aircraft Radar"
+      }
+    ],
     "guideId": "guide-004",
     "irPageRange": [
       2,
@@ -329,6 +652,23 @@
     ],
     "catalogTitle": "TPMS Car-ID Sniffer",
     "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          73.03,
+          266.72,
+          124.91
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #2: TPMS Car-ID Sniffer",
+        "evidenceId": "ev-guide-004-p6-b1",
+        "pageNumber": 6,
+        "sourceDocumentId": "guide-004",
+        "sourceHash": "90f2b15ae38369b1ed67c34c437fa43726d07051cbaf3f19455bcd917c53dff4",
+        "textSnippet": "PROJECT 2\nTPMS Car-ID Sniffer"
+      }
+    ],
     "guideId": "guide-004",
     "irPageRange": [
       6,
@@ -345,7 +685,24 @@
       12
     ],
     "catalogTitle": "Radio Meteor Scatter Detector",
-    "discrepancyNote": "Catalog title 'Radio Meteor Scatter Detector' reconciled with IR heading 'Radio Meteor Detector'.",
+    "discrepancyNote": "Page range matched [10, 12], title discrepancy: 'Radio Meteor Scatter Detector' vs 'Radio Meteor Detector'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          73.03,
+          291.23,
+          124.91
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #3: Radio Meteor Detector",
+        "evidenceId": "ev-guide-004-p10-b1",
+        "pageNumber": 10,
+        "sourceDocumentId": "guide-004",
+        "sourceHash": "90f2b15ae38369b1ed67c34c437fa43726d07051cbaf3f19455bcd917c53dff4",
+        "textSnippet": "PROJECT 3\nRadio Meteor Detector"
+      }
+    ],
     "guideId": "guide-004",
     "irPageRange": [
       10,
@@ -362,7 +719,24 @@
       15
     ],
     "catalogTitle": "AIS Marine Vessel Tracker",
-    "discrepancyNote": "Catalog title 'AIS Marine Vessel Tracker' reconciled with IR heading 'AIS Ship Tracker'.",
+    "discrepancyNote": "Page range matched [13, 15], title discrepancy: 'AIS Marine Vessel Tracker' vs 'AIS Ship Tracker'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          73.03,
+          235.26,
+          124.91
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #4: AIS Ship Tracker",
+        "evidenceId": "ev-guide-004-p13-b1",
+        "pageNumber": 13,
+        "sourceDocumentId": "guide-004",
+        "sourceHash": "90f2b15ae38369b1ed67c34c437fa43726d07051cbaf3f19455bcd917c53dff4",
+        "textSnippet": "PROJECT 4\nAIS Ship Tracker"
+      }
+    ],
     "guideId": "guide-004",
     "irPageRange": [
       13,
@@ -379,7 +753,24 @@
       18
     ],
     "catalogTitle": "433 MHz ISM Sensor Decoder",
-    "discrepancyNote": "Catalog title '433 MHz ISM Sensor Decoder' reconciled with IR heading '433 MHz Sensor Decoder'.",
+    "discrepancyNote": "Page range matched [16, 18], title discrepancy: '433 MHz ISM Sensor Decoder' vs '433 MHz Sensor Decoder'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          73.03,
+          318.11,
+          124.91
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #5: 433 MHz Sensor Decoder",
+        "evidenceId": "ev-guide-004-p16-b1",
+        "pageNumber": 16,
+        "sourceDocumentId": "guide-004",
+        "sourceHash": "90f2b15ae38369b1ed67c34c437fa43726d07051cbaf3f19455bcd917c53dff4",
+        "textSnippet": "PROJECT 5\n433 MHz Sensor Decoder"
+      }
+    ],
     "guideId": "guide-004",
     "irPageRange": [
       16,
@@ -396,7 +787,24 @@
       23
     ],
     "catalogTitle": "Stratospheric Radiosonde Tracker",
-    "discrepancyNote": "Catalog title 'Stratospheric Radiosonde Tracker' reconciled with IR heading 'Radiosonde Tracker & Recovery'.",
+    "discrepancyNote": "Page range matched [19, 23], title discrepancy: 'Stratospheric Radiosonde Tracker' vs 'Radiosonde Tracker & Recovery'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          73.03,
+          390.47,
+          124.91
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #6: Radiosonde Tracker & Recovery",
+        "evidenceId": "ev-guide-004-p19-b1",
+        "pageNumber": 19,
+        "sourceDocumentId": "guide-004",
+        "sourceHash": "90f2b15ae38369b1ed67c34c437fa43726d07051cbaf3f19455bcd917c53dff4",
+        "textSnippet": "PROJECT 6\nRadiosonde Tracker & Recovery"
+      }
+    ],
     "guideId": "guide-004",
     "irPageRange": [
       19,
@@ -413,7 +821,24 @@
       3
     ],
     "catalogTitle": "Closed-Loop Stepper Controller",
-    "discrepancyNote": "Catalog title 'Closed-Loop Stepper Controller' reconciled with IR heading 'H-Bridge DC Motor Driver'.",
+    "discrepancyNote": "Page range matched [2, 3], title discrepancy: 'Closed-Loop Stepper Controller' vs 'H-Bridge DC Motor Driver'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.03,
+          318.19,
+          65.91
+        ],
+        "blockIndex": 0,
+        "claim": "Delimitador de inicio para Project #1: H-Bridge DC Motor Driver",
+        "evidenceId": "ev-guide-005-p2-b0",
+        "pageNumber": 2,
+        "sourceDocumentId": "guide-005",
+        "sourceHash": "904707e1b5fcf83e8805800e7328e962ad8844e7f7dc9a74fc527d7cca0b508e",
+        "textSnippet": "❯ project 01\nH-Bridge DC Motor Driver"
+      }
+    ],
     "guideId": "guide-005",
     "irPageRange": [
       2,
@@ -430,7 +855,24 @@
       6
     ],
     "catalogTitle": "Field-Oriented Control (FOC) BLDC Servo",
-    "discrepancyNote": "Catalog title 'Field-Oriented Control (FOC) BLDC Servo' reconciled with IR heading 'Closed-Loop Position Servo'.",
+    "discrepancyNote": "Page range matched [4, 6], title discrepancy: 'Field-Oriented Control (FOC) BLDC Servo' vs 'Closed-Loop Position Servo'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.03,
+          340.31,
+          65.91
+        ],
+        "blockIndex": 0,
+        "claim": "Delimitador de inicio para Project #2: Closed-Loop Position Servo",
+        "evidenceId": "ev-guide-005-p4-b0",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-005",
+        "sourceHash": "904707e1b5fcf83e8805800e7328e962ad8844e7f7dc9a74fc527d7cca0b508e",
+        "textSnippet": "❯ project 02\nClosed-Loop Position Servo"
+      }
+    ],
     "guideId": "guide-005",
     "irPageRange": [
       4,
@@ -447,7 +889,24 @@
       9
     ],
     "catalogTitle": "Micrometric Linear Lead-Screw Stage",
-    "discrepancyNote": "Catalog title 'Micrometric Linear Lead-Screw Stage' reconciled with IR heading 'Self-Balancing Robot'.",
+    "discrepancyNote": "Page range matched [7, 9], title discrepancy: 'Micrometric Linear Lead-Screw Stage' vs 'Self-Balancing Robot'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.03,
+          273.94,
+          65.91
+        ],
+        "blockIndex": 0,
+        "claim": "Delimitador de inicio para Project #3: Self-Balancing Robot",
+        "evidenceId": "ev-guide-005-p7-b0",
+        "pageNumber": 7,
+        "sourceDocumentId": "guide-005",
+        "sourceHash": "904707e1b5fcf83e8805800e7328e962ad8844e7f7dc9a74fc527d7cca0b508e",
+        "textSnippet": "❯ project 03\nSelf-Balancing Robot"
+      }
+    ],
     "guideId": "guide-005",
     "irPageRange": [
       7,
@@ -464,7 +923,24 @@
       12
     ],
     "catalogTitle": "PID Inverted Pendulum Balancer",
-    "discrepancyNote": "Catalog title 'PID Inverted Pendulum Balancer' reconciled with IR heading 'FOC Brushless Motor Drive'.",
+    "discrepancyNote": "Page range matched [10, 12], title discrepancy: 'PID Inverted Pendulum Balancer' vs 'FOC Brushless Motor Drive'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.03,
+          329.25,
+          65.91
+        ],
+        "blockIndex": 0,
+        "claim": "Delimitador de inicio para Project #4: FOC Brushless Motor Drive",
+        "evidenceId": "ev-guide-005-p10-b0",
+        "pageNumber": 10,
+        "sourceDocumentId": "guide-005",
+        "sourceHash": "904707e1b5fcf83e8805800e7328e962ad8844e7f7dc9a74fc527d7cca0b508e",
+        "textSnippet": "❯ project 04\nFOC Brushless Motor Drive"
+      }
+    ],
     "guideId": "guide-005",
     "irPageRange": [
       10,
@@ -481,7 +957,24 @@
       15
     ],
     "catalogTitle": "Torque-Limiting Linear Actuator",
-    "discrepancyNote": "Catalog title 'Torque-Limiting Linear Actuator' reconciled with IR heading '2-Axis Pen Plotter'.",
+    "discrepancyNote": "Page range matched [13, 15], title discrepancy: 'Torque-Limiting Linear Actuator' vs '2-Axis Pen Plotter'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.03,
+          251.81,
+          65.91
+        ],
+        "blockIndex": 0,
+        "claim": "Delimitador de inicio para Project #5: 2-Axis Pen Plotter",
+        "evidenceId": "ev-guide-005-p13-b0",
+        "pageNumber": 13,
+        "sourceDocumentId": "guide-005",
+        "sourceHash": "904707e1b5fcf83e8805800e7328e962ad8844e7f7dc9a74fc527d7cca0b508e",
+        "textSnippet": "❯ project 05\n2-Axis Pen Plotter"
+      }
+    ],
     "guideId": "guide-005",
     "irPageRange": [
       13,
@@ -498,7 +991,24 @@
       19
     ],
     "catalogTitle": "3D-Printed Cycloidal Drive Joint",
-    "discrepancyNote": "Catalog title '3D-Printed Cycloidal Drive Joint' reconciled with IR heading 'Haptic Smart Knob'.",
+    "discrepancyNote": "Page range matched [16, 19], title discrepancy: '3D-Printed Cycloidal Drive Joint' vs 'Haptic Smart Knob'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.03,
+          240.75,
+          65.91
+        ],
+        "blockIndex": 0,
+        "claim": "Delimitador de inicio para Project #6: Haptic Smart Knob",
+        "evidenceId": "ev-guide-005-p16-b0",
+        "pageNumber": 16,
+        "sourceDocumentId": "guide-005",
+        "sourceHash": "904707e1b5fcf83e8805800e7328e962ad8844e7f7dc9a74fc527d7cca0b508e",
+        "textSnippet": "❯ project 06\nHaptic Smart Knob"
+      }
+    ],
     "guideId": "guide-005",
     "irPageRange": [
       16,
@@ -512,14 +1022,31 @@
   {
     "catalogPageRange": [
       2,
-      3
+      4
     ],
     "catalogTitle": "Custom STM32 Flight Controller",
-    "discrepancyNote": "Catalog title 'Custom STM32 Flight Controller' reconciled with IR heading '❯project 01'.",
+    "discrepancyNote": "Page range matched [2, 4], title discrepancy: 'Custom STM32 Flight Controller' vs '❯project 01'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.68,
+          118.5,
+          38.38
+        ],
+        "blockIndex": 0,
+        "claim": "Delimitador de inicio para Project #1: ❯project 01",
+        "evidenceId": "ev-guide-006-p2-b0",
+        "pageNumber": 2,
+        "sourceDocumentId": "guide-006",
+        "sourceHash": "04be594f565efd5a9e7da4bc0a3e33317a218cd6edcaf2a897e52e5b08cac294",
+        "textSnippet": "❯project 01"
+      }
+    ],
     "guideId": "guide-006",
     "irPageRange": [
       2,
-      3
+      4
     ],
     "irTitle": "❯project 01",
     "projectId": "proj-14bca4088da46825",
@@ -528,68 +1055,136 @@
   },
   {
     "catalogPageRange": [
-      3,
-      3
+      5,
+      7
     ],
     "catalogTitle": "High-Speed Brushless ESC",
-    "discrepancyNote": "Catalog title 'High-Speed Brushless ESC' reconciled with IR heading 'Build the one-axis test stand'.",
+    "discrepancyNote": "Page range matched [5, 7], title discrepancy: 'High-Speed Brushless ESC' vs '❯project 02'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.68,
+          118.5,
+          38.38
+        ],
+        "blockIndex": 0,
+        "claim": "Delimitador de inicio para Project #2: ❯project 02",
+        "evidenceId": "ev-guide-006-p5-b0",
+        "pageNumber": 5,
+        "sourceDocumentId": "guide-006",
+        "sourceHash": "04be594f565efd5a9e7da4bc0a3e33317a218cd6edcaf2a897e52e5b08cac294",
+        "textSnippet": "❯project 02"
+      }
+    ],
     "guideId": "guide-006",
     "irPageRange": [
-      3,
-      3
+      5,
+      7
     ],
-    "irTitle": "Build the one-axis test stand",
+    "irTitle": "❯project 02",
     "projectId": "proj-b3c136d8aa28f6f1",
     "projectNumber": 2,
     "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      3,
-      3
+      8,
+      10
     ],
     "catalogTitle": "Bidirectional Telemetry Link",
-    "discrepancyNote": "Catalog title 'Bidirectional Telemetry Link' reconciled with IR heading 'Step 3'.",
+    "discrepancyNote": "Page range matched [8, 10], title discrepancy: 'Bidirectional Telemetry Link' vs '❯project 03'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.68,
+          118.5,
+          38.38
+        ],
+        "blockIndex": 0,
+        "claim": "Delimitador de inicio para Project #3: ❯project 03",
+        "evidenceId": "ev-guide-006-p8-b0",
+        "pageNumber": 8,
+        "sourceDocumentId": "guide-006",
+        "sourceHash": "04be594f565efd5a9e7da4bc0a3e33317a218cd6edcaf2a897e52e5b08cac294",
+        "textSnippet": "❯project 03"
+      }
+    ],
     "guideId": "guide-006",
     "irPageRange": [
-      3,
-      3
+      8,
+      10
     ],
-    "irTitle": "Step 3",
+    "irTitle": "❯project 03",
     "projectId": "proj-7fc5453be6dbc568",
     "projectNumber": 3,
     "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      3,
-      3
+      11,
+      13
     ],
     "catalogTitle": "Power Distribution Board & Shunt Monitor",
-    "discrepancyNote": "Catalog title 'Power Distribution Board & Shunt Monitor' reconciled with IR heading 'Step 4'.",
+    "discrepancyNote": "Page range matched [11, 13], title discrepancy: 'Power Distribution Board & Shunt Monitor' vs '❯project 04'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.68,
+          118.5,
+          38.38
+        ],
+        "blockIndex": 0,
+        "claim": "Delimitador de inicio para Project #4: ❯project 04",
+        "evidenceId": "ev-guide-006-p11-b0",
+        "pageNumber": 11,
+        "sourceDocumentId": "guide-006",
+        "sourceHash": "04be594f565efd5a9e7da4bc0a3e33317a218cd6edcaf2a897e52e5b08cac294",
+        "textSnippet": "❯project 04"
+      }
+    ],
     "guideId": "guide-006",
     "irPageRange": [
-      3,
-      3
+      11,
+      13
     ],
-    "irTitle": "Step 4",
+    "irTitle": "❯project 04",
     "projectId": "proj-95688bfbd098e78d",
     "projectNumber": 4,
     "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      4,
+      14,
       16
     ],
     "catalogTitle": "Attitude Sensor Fusion Engine",
-    "discrepancyNote": "Catalog title 'Attitude Sensor Fusion Engine' reconciled with IR heading 'Step 5'.",
+    "discrepancyNote": "Page range matched [14, 16], title discrepancy: 'Attitude Sensor Fusion Engine' vs '❯project 05'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.68,
+          118.5,
+          38.38
+        ],
+        "blockIndex": 0,
+        "claim": "Delimitador de inicio para Project #5: ❯project 05",
+        "evidenceId": "ev-guide-006-p14-b0",
+        "pageNumber": 14,
+        "sourceDocumentId": "guide-006",
+        "sourceHash": "04be594f565efd5a9e7da4bc0a3e33317a218cd6edcaf2a897e52e5b08cac294",
+        "textSnippet": "❯project 05"
+      }
+    ],
     "guideId": "guide-006",
     "irPageRange": [
-      4,
+      14,
       16
     ],
-    "irTitle": "Step 5",
+    "irTitle": "❯project 05",
     "projectId": "proj-4a566f25189a6e42",
     "projectNumber": 5,
     "status": "PARTIAL_MATCH"
@@ -600,7 +1195,24 @@
       20
     ],
     "catalogTitle": "High-Rate SPI Blackbox Logger",
-    "discrepancyNote": "Catalog title 'High-Rate SPI Blackbox Logger' reconciled with IR heading '❯project 06'.",
+    "discrepancyNote": "Page range matched [17, 20], title discrepancy: 'High-Rate SPI Blackbox Logger' vs '❯project 06'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.68,
+          118.5,
+          38.38
+        ],
+        "blockIndex": 0,
+        "claim": "Delimitador de inicio para Project #6: ❯project 06",
+        "evidenceId": "ev-guide-006-p17-b0",
+        "pageNumber": 17,
+        "sourceDocumentId": "guide-006",
+        "sourceHash": "04be594f565efd5a9e7da4bc0a3e33317a218cd6edcaf2a897e52e5b08cac294",
+        "textSnippet": "❯project 06"
+      }
+    ],
     "guideId": "guide-006",
     "irPageRange": [
       17,
@@ -617,7 +1229,24 @@
       5
     ],
     "catalogTitle": "GOES Full-Disk Earth Receiver (1.7 GHz)",
-    "discrepancyNote": "Catalog title 'GOES Full-Disk Earth Receiver (1.7 GHz)' reconciled with IR heading 'GOES Earth Receiver'.",
+    "discrepancyNote": "Page range matched [2, 5], title discrepancy: 'GOES Full-Disk Earth Receiver (1.7 GHz)' vs 'GOES Earth Receiver'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          73.03,
+          280.79,
+          124.91
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #1: GOES Earth Receiver",
+        "evidenceId": "ev-guide-007-p2-b1",
+        "pageNumber": 2,
+        "sourceDocumentId": "guide-007",
+        "sourceHash": "6277c186e74a947df30f65d0c6ba37a1ebf8ead231f67b32103ad6b321b38ea4",
+        "textSnippet": "PROJECT 1\nGOES Earth Receiver"
+      }
+    ],
     "guideId": "guide-007",
     "irPageRange": [
       2,
@@ -634,7 +1263,24 @@
       8
     ],
     "catalogTitle": "Meteor-M2 Weather Satellite Receiver (137 MHz)",
-    "discrepancyNote": "Catalog title 'Meteor-M2 Weather Satellite Receiver (137 MHz)' reconciled with IR heading 'Meteor-M2 Weather Receiver'.",
+    "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          73.03,
+          354.27,
+          124.91
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #2: Meteor-M2 Weather Receiver",
+        "evidenceId": "ev-guide-007-p6-b1",
+        "pageNumber": 6,
+        "sourceDocumentId": "guide-007",
+        "sourceHash": "6277c186e74a947df30f65d0c6ba37a1ebf8ead231f67b32103ad6b321b38ea4",
+        "textSnippet": "PROJECT 2\nMeteor-M2 Weather Receiver"
+      }
+    ],
     "guideId": "guide-007",
     "irPageRange": [
       6,
@@ -643,7 +1289,7 @@
     "irTitle": "Meteor-M2 Weather Receiver",
     "projectId": "proj-b1dfc8d06e85f822",
     "projectNumber": 2,
-    "status": "PARTIAL_MATCH"
+    "status": "MATCH"
   },
   {
     "catalogPageRange": [
@@ -652,6 +1298,23 @@
     ],
     "catalogTitle": "Reaction-Wheel Attitude Controller",
     "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          73.03,
+          416.05,
+          124.91
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #3: Reaction-Wheel Attitude Controller",
+        "evidenceId": "ev-guide-007-p9-b1",
+        "pageNumber": 9,
+        "sourceDocumentId": "guide-007",
+        "sourceHash": "6277c186e74a947df30f65d0c6ba37a1ebf8ead231f67b32103ad6b321b38ea4",
+        "textSnippet": "PROJECT 3\nReaction-Wheel Attitude Controller"
+      }
+    ],
     "guideId": "guide-007",
     "irPageRange": [
       9,
@@ -668,7 +1331,24 @@
       14
     ],
     "catalogTitle": "Camera-Based Star Tracker",
-    "discrepancyNote": "Catalog title 'Camera-Based Star Tracker' reconciled with IR heading 'Camera Star Tracker'.",
+    "discrepancyNote": "Page range matched [12, 14], title discrepancy: 'Camera-Based Star Tracker' vs 'Camera Star Tracker'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          73.03,
+          272.62,
+          124.91
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #4: Camera Star Tracker",
+        "evidenceId": "ev-guide-007-p12-b1",
+        "pageNumber": 12,
+        "sourceDocumentId": "guide-007",
+        "sourceHash": "6277c186e74a947df30f65d0c6ba37a1ebf8ead231f67b32103ad6b321b38ea4",
+        "textSnippet": "PROJECT 4\nCamera Star Tracker"
+      }
+    ],
     "guideId": "guide-007",
     "irPageRange": [
       12,
@@ -685,7 +1365,24 @@
       17
     ],
     "catalogTitle": "GPS-Disciplined Oscillator (GPSDO)",
-    "discrepancyNote": "Substantial title match: 'GPS-Disciplined Oscillator (GPSDO)' vs 'GPS-Disciplined Oscillator'.",
+    "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          73.03,
+          333.29,
+          124.91
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #5: GPS-Disciplined Oscillator",
+        "evidenceId": "ev-guide-007-p15-b1",
+        "pageNumber": 15,
+        "sourceDocumentId": "guide-007",
+        "sourceHash": "6277c186e74a947df30f65d0c6ba37a1ebf8ead231f67b32103ad6b321b38ea4",
+        "textSnippet": "PROJECT 5\nGPS-Disciplined Oscillator"
+      }
+    ],
     "guideId": "guide-007",
     "irPageRange": [
       15,
@@ -703,6 +1400,23 @@
     ],
     "catalogTitle": "Cosmic-Ray Muon Detector",
     "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          73.03,
+          341.4,
+          124.91
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #6: Cosmic-Ray Muon Detector",
+        "evidenceId": "ev-guide-007-p18-b1",
+        "pageNumber": 18,
+        "sourceDocumentId": "guide-007",
+        "sourceHash": "6277c186e74a947df30f65d0c6ba37a1ebf8ead231f67b32103ad6b321b38ea4",
+        "textSnippet": "PROJECT 6\nCosmic-Ray Muon Detector"
+      }
+    ],
     "guideId": "guide-007",
     "irPageRange": [
       18,
@@ -719,7 +1433,24 @@
       4
     ],
     "catalogTitle": "3-Lead ECG Heart Rate Monitor",
-    "discrepancyNote": "Catalog title '3-Lead ECG Heart Rate Monitor' reconciled with IR heading 'Optical Pulse Sensor (PPG)'.",
+    "discrepancyNote": "Page range matched [2, 4], title discrepancy: '3-Lead ECG Heart Rate Monitor' vs 'Optical Pulse Sensor (PPG)'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.03,
+          340.31,
+          65.91
+        ],
+        "blockIndex": 0,
+        "claim": "Delimitador de inicio para Project #1: Optical Pulse Sensor (PPG)",
+        "evidenceId": "ev-guide-008-p2-b0",
+        "pageNumber": 2,
+        "sourceDocumentId": "guide-008",
+        "sourceHash": "86768ecf607a9976460cd5eb814372f60b8013ad843b16736d76b298925f0d6b",
+        "textSnippet": "❯ project 01\nOptical Pulse Sensor (PPG)"
+      }
+    ],
     "guideId": "guide-008",
     "irPageRange": [
       2,
@@ -736,7 +1467,24 @@
       7
     ],
     "catalogTitle": "EMG Muscle-Controlled Prosthetic Trigger",
-    "discrepancyNote": "Catalog title 'EMG Muscle-Controlled Prosthetic Trigger' reconciled with IR heading 'Biopotential Front End'.",
+    "discrepancyNote": "Page range matched [5, 7], title discrepancy: 'EMG Muscle-Controlled Prosthetic Trigger' vs 'Biopotential Front End'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.03,
+          296.06,
+          65.91
+        ],
+        "blockIndex": 0,
+        "claim": "Delimitador de inicio para Project #2: Biopotential Front End",
+        "evidenceId": "ev-guide-008-p5-b0",
+        "pageNumber": 5,
+        "sourceDocumentId": "guide-008",
+        "sourceHash": "86768ecf607a9976460cd5eb814372f60b8013ad843b16736d76b298925f0d6b",
+        "textSnippet": "❯ project 02\nBiopotential Front End"
+      }
+    ],
     "guideId": "guide-008",
     "irPageRange": [
       5,
@@ -753,7 +1501,24 @@
       11
     ],
     "catalogTitle": "Single-Channel Alpha-Wave EEG Monitor",
-    "discrepancyNote": "Catalog title 'Single-Channel Alpha-Wave EEG Monitor' reconciled with IR heading 'ECG Heart Monitor'.",
+    "discrepancyNote": "Page range matched [8, 11], title discrepancy: 'Single-Channel Alpha-Wave EEG Monitor' vs 'ECG Heart Monitor'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.03,
+          240.75,
+          65.91
+        ],
+        "blockIndex": 0,
+        "claim": "Delimitador de inicio para Project #3: ECG Heart Monitor",
+        "evidenceId": "ev-guide-008-p8-b0",
+        "pageNumber": 8,
+        "sourceDocumentId": "guide-008",
+        "sourceHash": "86768ecf607a9976460cd5eb814372f60b8013ad843b16736d76b298925f0d6b",
+        "textSnippet": "❯ project 03\nECG Heart Monitor"
+      }
+    ],
     "guideId": "guide-008",
     "irPageRange": [
       8,
@@ -770,7 +1535,24 @@
       13
     ],
     "catalogTitle": "Dual-Wavelength Pulse Oximeter (PPG)",
-    "discrepancyNote": "Catalog title 'Dual-Wavelength Pulse Oximeter (PPG)' reconciled with IR heading 'EMG Muscle Sensor'.",
+    "discrepancyNote": "Page range matched [12, 13], title discrepancy: 'Dual-Wavelength Pulse Oximeter (PPG)' vs 'EMG Muscle Sensor'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.03,
+          240.75,
+          65.91
+        ],
+        "blockIndex": 0,
+        "claim": "Delimitador de inicio para Project #4: EMG Muscle Sensor",
+        "evidenceId": "ev-guide-008-p12-b0",
+        "pageNumber": 12,
+        "sourceDocumentId": "guide-008",
+        "sourceHash": "86768ecf607a9976460cd5eb814372f60b8013ad843b16736d76b298925f0d6b",
+        "textSnippet": "❯ project 04\nEMG Muscle Sensor"
+      }
+    ],
     "guideId": "guide-008",
     "irPageRange": [
       12,
@@ -787,7 +1569,24 @@
       16
     ],
     "catalogTitle": "Galvanic Skin Response (GSR) Stress Sensor",
-    "discrepancyNote": "Catalog title 'Galvanic Skin Response (GSR) Stress Sensor' reconciled with IR heading 'EMG-Controlled Robotic Hand'.",
+    "discrepancyNote": "Page range matched [14, 16], title discrepancy: 'Galvanic Skin Response (GSR) Stress Sensor' vs 'EMG-Controlled Robotic Hand'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.03,
+          351.38,
+          65.91
+        ],
+        "blockIndex": 0,
+        "claim": "Delimitador de inicio para Project #5: EMG-Controlled Robotic Hand",
+        "evidenceId": "ev-guide-008-p14-b0",
+        "pageNumber": 14,
+        "sourceDocumentId": "guide-008",
+        "sourceHash": "86768ecf607a9976460cd5eb814372f60b8013ad843b16736d76b298925f0d6b",
+        "textSnippet": "❯ project 05\nEMG-Controlled Robotic Hand"
+      }
+    ],
     "guideId": "guide-008",
     "irPageRange": [
       14,
@@ -804,7 +1603,24 @@
       20
     ],
     "catalogTitle": "Bio-Impedance Body Composition Analyzer",
-    "discrepancyNote": "Catalog title 'Bio-Impedance Body Composition Analyzer' reconciled with IR heading 'EEG Alpha-Wave Detector'.",
+    "discrepancyNote": "Page range matched [17, 20], title discrepancy: 'Bio-Impedance Body Composition Analyzer' vs 'EEG Alpha-Wave Detector'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.03,
+          307.13,
+          65.91
+        ],
+        "blockIndex": 0,
+        "claim": "Delimitador de inicio para Project #6: EEG Alpha-Wave Detector",
+        "evidenceId": "ev-guide-008-p17-b0",
+        "pageNumber": 17,
+        "sourceDocumentId": "guide-008",
+        "sourceHash": "86768ecf607a9976460cd5eb814372f60b8013ad843b16736d76b298925f0d6b",
+        "textSnippet": "❯ project 06\nEEG Alpha-Wave Detector"
+      }
+    ],
     "guideId": "guide-008",
     "irPageRange": [
       17,
@@ -822,6 +1638,23 @@
     ],
     "catalogTitle": "Optical Break-Beam Speed Trap",
     "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.03,
+          373.5,
+          65.91
+        ],
+        "blockIndex": 0,
+        "claim": "Delimitador de inicio para Project #1: Optical Break-Beam Speed Trap",
+        "evidenceId": "ev-guide-009-p2-b0",
+        "pageNumber": 2,
+        "sourceDocumentId": "guide-009",
+        "sourceHash": "19f74dc1e81b8605aa5e525a8e4c53ca22644413b77714afac760ec343efc185",
+        "textSnippet": "❯ project 01\nOptical Break-Beam Speed Trap"
+      }
+    ],
     "guideId": "guide-009",
     "irPageRange": [
       2,
@@ -838,7 +1671,24 @@
       7
     ],
     "catalogTitle": "Laser Rangefinder (ToF LiDAR)",
-    "discrepancyNote": "Catalog title 'Laser Rangefinder (ToF LiDAR)' reconciled with IR heading 'Laser Rangefinder (Time-of-Flight LiDAR)'.",
+    "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.03,
+          495.19,
+          65.91
+        ],
+        "blockIndex": 0,
+        "claim": "Delimitador de inicio para Project #2: Laser Rangefinder (Time-of-Flight LiDAR)",
+        "evidenceId": "ev-guide-009-p5-b0",
+        "pageNumber": 5,
+        "sourceDocumentId": "guide-009",
+        "sourceHash": "19f74dc1e81b8605aa5e525a8e4c53ca22644413b77714afac760ec343efc185",
+        "textSnippet": "❯ project 02\nLaser Rangefinder (Time-of-Flight LiDAR)"
+      }
+    ],
     "guideId": "guide-009",
     "irPageRange": [
       5,
@@ -847,7 +1697,7 @@
     "irTitle": "Laser Rangefinder (Time-of-Flight LiDAR)",
     "projectId": "proj-683b8320c77d62a2",
     "projectNumber": 2,
-    "status": "PARTIAL_MATCH"
+    "status": "MATCH"
   },
   {
     "catalogPageRange": [
@@ -856,6 +1706,23 @@
     ],
     "catalogTitle": "Spinning LiDAR Room Scanner",
     "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.03,
+          351.38,
+          65.91
+        ],
+        "blockIndex": 0,
+        "claim": "Delimitador de inicio para Project #3: Spinning LiDAR Room Scanner",
+        "evidenceId": "ev-guide-009-p8-b0",
+        "pageNumber": 8,
+        "sourceDocumentId": "guide-009",
+        "sourceHash": "19f74dc1e81b8605aa5e525a8e4c53ca22644413b77714afac760ec343efc185",
+        "textSnippet": "❯ project 03\nSpinning LiDAR Room Scanner"
+      }
+    ],
     "guideId": "guide-009",
     "irPageRange": [
       8,
@@ -872,7 +1739,24 @@
       11
     ],
     "catalogTitle": "Free-Space Optical (FSO) Laser Data Link",
-    "discrepancyNote": "Catalog title 'Free-Space Optical (FSO) Laser Data Link' reconciled with IR heading 'Laser Data Link (Free-Space Optical Comms)'.",
+    "discrepancyNote": "Page range matched [10, 11], title discrepancy: 'Free-Space Optical (FSO) Laser Data Link' vs 'Laser Data Link (Free-Space Optical Comms)'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.03,
+          517.31,
+          65.91
+        ],
+        "blockIndex": 0,
+        "claim": "Delimitador de inicio para Project #4: Laser Data Link (Free-Space Optical Comms)",
+        "evidenceId": "ev-guide-009-p10-b0",
+        "pageNumber": 10,
+        "sourceDocumentId": "guide-009",
+        "sourceHash": "19f74dc1e81b8605aa5e525a8e4c53ca22644413b77714afac760ec343efc185",
+        "textSnippet": "❯ project 04\nLaser Data Link (Free-Space Optical Comms)"
+      }
+    ],
     "guideId": "guide-009",
     "irPageRange": [
       10,
@@ -889,7 +1773,24 @@
       14
     ],
     "catalogTitle": "Laser Doppler Vibrometer",
-    "discrepancyNote": "Catalog title 'Laser Doppler Vibrometer' reconciled with IR heading 'Laser Vibrometer'.",
+    "discrepancyNote": "Page range matched [12, 14], title discrepancy: 'Laser Doppler Vibrometer' vs 'Laser Vibrometer'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.03,
+          229.69,
+          65.91
+        ],
+        "blockIndex": 0,
+        "claim": "Delimitador de inicio para Project #5: Laser Vibrometer",
+        "evidenceId": "ev-guide-009-p12-b0",
+        "pageNumber": 12,
+        "sourceDocumentId": "guide-009",
+        "sourceHash": "19f74dc1e81b8605aa5e525a8e4c53ca22644413b77714afac760ec343efc185",
+        "textSnippet": "❯ project 05\nLaser Vibrometer"
+      }
+    ],
     "guideId": "guide-009",
     "irPageRange": [
       12,
@@ -907,6 +1808,23 @@
     ],
     "catalogTitle": "Structured-Light 3D Scanner",
     "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.03,
+          351.38,
+          65.91
+        ],
+        "blockIndex": 0,
+        "claim": "Delimitador de inicio para Project #6: Structured-Light 3D Scanner",
+        "evidenceId": "ev-guide-009-p15-b0",
+        "pageNumber": 15,
+        "sourceDocumentId": "guide-009",
+        "sourceHash": "19f74dc1e81b8605aa5e525a8e4c53ca22644413b77714afac760ec343efc185",
+        "textSnippet": "❯ project 06\nStructured-Light 3D Scanner"
+      }
+    ],
     "guideId": "guide-009",
     "irPageRange": [
       15,
@@ -923,7 +1841,24 @@
       4
     ],
     "catalogTitle": "10.5 GHz Doppler Motion Radar",
-    "discrepancyNote": "Substantial title match: '10.5 GHz Doppler Motion Radar' vs 'Doppler Motion Radar'.",
+    "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.03,
+          273.94,
+          65.91
+        ],
+        "blockIndex": 0,
+        "claim": "Delimitador de inicio para Project #1: Doppler Motion Radar",
+        "evidenceId": "ev-guide-010-p2-b0",
+        "pageNumber": 2,
+        "sourceDocumentId": "guide-010",
+        "sourceHash": "dffb0b0215ae018b2a42a552e88b1b601e4d8897e1d1a9aa24ac7d0a24e089e4",
+        "textSnippet": "❯ project 01\nDoppler Motion Radar"
+      }
+    ],
     "guideId": "guide-010",
     "irPageRange": [
       2,
@@ -940,7 +1875,24 @@
       6
     ],
     "catalogTitle": "Calibrated Radar Speed Gun",
-    "discrepancyNote": "Substantial title match: 'Calibrated Radar Speed Gun' vs 'Radar Speed Gun'.",
+    "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.03,
+          218.63,
+          65.91
+        ],
+        "blockIndex": 0,
+        "claim": "Delimitador de inicio para Project #2: Radar Speed Gun",
+        "evidenceId": "ev-guide-010-p5-b0",
+        "pageNumber": 5,
+        "sourceDocumentId": "guide-010",
+        "sourceHash": "dffb0b0215ae018b2a42a552e88b1b601e4d8897e1d1a9aa24ac7d0a24e089e4",
+        "textSnippet": "❯ project 02\nRadar Speed Gun"
+      }
+    ],
     "guideId": "guide-010",
     "irPageRange": [
       5,
@@ -957,7 +1909,24 @@
       9
     ],
     "catalogTitle": "FMCW Ranging Radar (24 GHz)",
-    "discrepancyNote": "Substantial title match: 'FMCW Ranging Radar (24 GHz)' vs 'FMCW Ranging Radar'.",
+    "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.03,
+          251.81,
+          65.91
+        ],
+        "blockIndex": 0,
+        "claim": "Delimitador de inicio para Project #3: FMCW Ranging Radar",
+        "evidenceId": "ev-guide-010-p7-b0",
+        "pageNumber": 7,
+        "sourceDocumentId": "guide-010",
+        "sourceHash": "dffb0b0215ae018b2a42a552e88b1b601e4d8897e1d1a9aa24ac7d0a24e089e4",
+        "textSnippet": "❯ project 03\nFMCW Ranging Radar"
+      }
+    ],
     "guideId": "guide-010",
     "irPageRange": [
       7,
@@ -975,6 +1944,23 @@
     ],
     "catalogTitle": "Micro-Doppler Vital-Signs Radar",
     "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.03,
+          395.63,
+          65.91
+        ],
+        "blockIndex": 0,
+        "claim": "Delimitador de inicio para Project #4: Micro-Doppler Vital-Signs Radar",
+        "evidenceId": "ev-guide-010-p10-b0",
+        "pageNumber": 10,
+        "sourceDocumentId": "guide-010",
+        "sourceHash": "dffb0b0215ae018b2a42a552e88b1b601e4d8897e1d1a9aa24ac7d0a24e089e4",
+        "textSnippet": "❯ project 04\nMicro-Doppler Vital-Signs Radar"
+      }
+    ],
     "guideId": "guide-010",
     "irPageRange": [
       10,
@@ -991,7 +1977,24 @@
       15
     ],
     "catalogTitle": "Through-Wall WiFi Motion Detector",
-    "discrepancyNote": "Catalog title 'Through-Wall WiFi Motion Detector' reconciled with IR heading 'WiFi-Sensing Motion Detector'.",
+    "discrepancyNote": "Page range matched [13, 15], title discrepancy: 'Through-Wall WiFi Motion Detector' vs 'WiFi-Sensing Motion Detector'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.03,
+          362.44,
+          65.91
+        ],
+        "blockIndex": 0,
+        "claim": "Delimitador de inicio para Project #5: WiFi-Sensing Motion Detector",
+        "evidenceId": "ev-guide-010-p13-b0",
+        "pageNumber": 13,
+        "sourceDocumentId": "guide-010",
+        "sourceHash": "dffb0b0215ae018b2a42a552e88b1b601e4d8897e1d1a9aa24ac7d0a24e089e4",
+        "textSnippet": "❯ project 05\nWiFi-Sensing Motion Detector"
+      }
+    ],
     "guideId": "guide-010",
     "irPageRange": [
       13,
@@ -1008,7 +2011,24 @@
       19
     ],
     "catalogTitle": "Passive Bistatic Radar",
-    "discrepancyNote": "Catalog title 'Passive Bistatic Radar' reconciled with IR heading 'Passive Radar'.",
+    "discrepancyNote": "Page range matched [16, 19], title discrepancy: 'Passive Bistatic Radar' vs 'Passive Radar'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.03,
+          196.5,
+          65.91
+        ],
+        "blockIndex": 0,
+        "claim": "Delimitador de inicio para Project #6: Passive Radar",
+        "evidenceId": "ev-guide-010-p16-b0",
+        "pageNumber": 16,
+        "sourceDocumentId": "guide-010",
+        "sourceHash": "dffb0b0215ae018b2a42a552e88b1b601e4d8897e1d1a9aa24ac7d0a24e089e4",
+        "textSnippet": "❯ project 06\nPassive Radar"
+      }
+    ],
     "guideId": "guide-010",
     "irPageRange": [
       16,
@@ -1025,7 +2045,24 @@
       5
     ],
     "catalogTitle": "GNSS Receiver & Resilience Analysis",
-    "discrepancyNote": "Substantial title match: 'GNSS Receiver & Resilience Analysis' vs 'GNSS Receiver & Resilience'.",
+    "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          51.12,
+          25.73,
+          317.98,
+          63.24
+        ],
+        "blockIndex": 9,
+        "claim": "Delimitador de inicio para Project #1: GNSS Receiver & Resilience",
+        "evidenceId": "ev-guide-011-p2-b9",
+        "pageNumber": 2,
+        "sourceDocumentId": "guide-011",
+        "sourceHash": "377095a4c2cb6d131690aaf69e691be4f2b609a28a91af4931ce058b196572a8",
+        "textSnippet": "[ P R O J E C T 0 1 ]\nGNSS Receiver & Resilience"
+      }
+    ],
     "guideId": "guide-011",
     "irPageRange": [
       2,
@@ -1042,7 +2079,24 @@
       8
     ],
     "catalogTitle": "RF Direction Finder (Pseudo-Doppler)",
-    "discrepancyNote": "Substantial title match: 'RF Direction Finder (Pseudo-Doppler)' vs 'RF Direction Finder'.",
+    "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          51.12,
+          25.73,
+          246.2,
+          63.24
+        ],
+        "blockIndex": 9,
+        "claim": "Delimitador de inicio para Project #2: RF Direction Finder",
+        "evidenceId": "ev-guide-011-p5-b9",
+        "pageNumber": 5,
+        "sourceDocumentId": "guide-011",
+        "sourceHash": "377095a4c2cb6d131690aaf69e691be4f2b609a28a91af4931ce058b196572a8",
+        "textSnippet": "[ P R O J E C T 0 2 ]\nRF Direction Finder"
+      }
+    ],
     "guideId": "guide-011",
     "irPageRange": [
       5,
@@ -1059,7 +2113,24 @@
       10
     ],
     "catalogTitle": "Magnetic Anomaly Detector (Fluxgate)",
-    "discrepancyNote": "Substantial title match: 'Magnetic Anomaly Detector (Fluxgate)' vs 'Magnetic Anomaly Detector'.",
+    "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          51.12,
+          25.73,
+          307.72,
+          63.25
+        ],
+        "blockIndex": 32,
+        "claim": "Delimitador de inicio para Project #3: Magnetic Anomaly Detector",
+        "evidenceId": "ev-guide-011-p8-b32",
+        "pageNumber": 8,
+        "sourceDocumentId": "guide-011",
+        "sourceHash": "377095a4c2cb6d131690aaf69e691be4f2b609a28a91af4931ce058b196572a8",
+        "textSnippet": "[ P R O J E C T 0 3 ]\nMagnetic Anomaly Detector"
+      }
+    ],
     "guideId": "guide-011",
     "irPageRange": [
       8,
@@ -1076,7 +2147,24 @@
       12
     ],
     "catalogTitle": "Seismic Unattended Ground Sensor (UGS)",
-    "discrepancyNote": "Substantial title match: 'Seismic Unattended Ground Sensor (UGS)' vs 'Seismic Unattended Ground Sensor'.",
+    "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          51.12,
+          25.74,
+          379.5,
+          63.25
+        ],
+        "blockIndex": 32,
+        "claim": "Delimitador de inicio para Project #4: Seismic Unattended Ground Sensor",
+        "evidenceId": "ev-guide-011-p10-b32",
+        "pageNumber": 10,
+        "sourceDocumentId": "guide-011",
+        "sourceHash": "377095a4c2cb6d131690aaf69e691be4f2b609a28a91af4931ce058b196572a8",
+        "textSnippet": "[ P R O J E C T 0 4 ]\nSeismic Unattended Ground Sensor"
+      }
+    ],
     "guideId": "guide-011",
     "irPageRange": [
       10,
@@ -1093,7 +2181,24 @@
       14
     ],
     "catalogTitle": "Passive Drone Detection Receiver",
-    "discrepancyNote": "Substantial title match: 'Passive Drone Detection Receiver' vs 'Drone Detection Receiver'.",
+    "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          51.12,
+          25.73,
+          297.47,
+          63.24
+        ],
+        "blockIndex": 32,
+        "claim": "Delimitador de inicio para Project #5: Drone Detection Receiver",
+        "evidenceId": "ev-guide-011-p12-b32",
+        "pageNumber": 12,
+        "sourceDocumentId": "guide-011",
+        "sourceHash": "377095a4c2cb6d131690aaf69e691be4f2b609a28a91af4931ce058b196572a8",
+        "textSnippet": "[ P R O J E C T 0 5 ]\nDrone Detection Receiver"
+      }
+    ],
     "guideId": "guide-011",
     "irPageRange": [
       12,
@@ -1110,7 +2215,24 @@
       17
     ],
     "catalogTitle": "Frequency-Hopping Encrypted Link (FHSS)",
-    "discrepancyNote": "Substantial title match: 'Frequency-Hopping Encrypted Link (FHSS)' vs 'Frequency-Hopping Encrypted Link'.",
+    "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          51.12,
+          25.73,
+          379.5,
+          63.24
+        ],
+        "blockIndex": 10,
+        "claim": "Delimitador de inicio para Project #6: Frequency-Hopping Encrypted Link",
+        "evidenceId": "ev-guide-011-p14-b10",
+        "pageNumber": 14,
+        "sourceDocumentId": "guide-011",
+        "sourceHash": "377095a4c2cb6d131690aaf69e691be4f2b609a28a91af4931ce058b196572a8",
+        "textSnippet": "[ P R O J E C T 0 6 ]\nFrequency-Hopping Encrypted Link"
+      }
+    ],
     "guideId": "guide-011",
     "irPageRange": [
       14,
@@ -1124,14 +2246,31 @@
   {
     "catalogPageRange": [
       2,
-      3
+      4
     ],
     "catalogTitle": "GNSS Receiver & Resilience Analysis",
-    "discrepancyNote": "Substantial title match: 'GNSS Receiver & Resilience Analysis' vs 'GNSS Receiver & Resilience'.",
+    "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          45.35,
+          44.47,
+          336.25,
+          81.29
+        ],
+        "blockIndex": 0,
+        "claim": "Delimitador de inicio para Project #1: GNSS Receiver & Resilience",
+        "evidenceId": "ev-guide-012-p2-b0",
+        "pageNumber": 2,
+        "sourceDocumentId": "guide-012",
+        "sourceHash": "8feb310f0806783dc3848aee9e540fcb9eea56cffa814eace72a1e70e9b30f68",
+        "textSnippet": "❯ project 01\nGNSS Receiver & Resilience"
+      }
+    ],
     "guideId": "guide-012",
     "irPageRange": [
       2,
-      3
+      4
     ],
     "irTitle": "GNSS Receiver & Resilience",
     "projectId": "proj-f3b88e7e3976ed3b",
@@ -1140,71 +2279,139 @@
   },
   {
     "catalogPageRange": [
-      4,
-      4
+      5,
+      8
     ],
     "catalogTitle": "RF Direction Finder (Pseudo-Doppler)",
-    "discrepancyNote": "Catalog title 'RF Direction Finder (Pseudo-Doppler)' reconciled with IR heading 'Parse NMEA'.",
+    "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          45.35,
+          44.47,
+          250.28,
+          81.29
+        ],
+        "blockIndex": 0,
+        "claim": "Delimitador de inicio para Project #2: RF Direction Finder",
+        "evidenceId": "ev-guide-012-p5-b0",
+        "pageNumber": 5,
+        "sourceDocumentId": "guide-012",
+        "sourceHash": "8feb310f0806783dc3848aee9e540fcb9eea56cffa814eace72a1e70e9b30f68",
+        "textSnippet": "❯ project 02\nRF Direction Finder"
+      }
+    ],
     "guideId": "guide-012",
     "irPageRange": [
-      4,
-      4
+      5,
+      8
     ],
-    "irTitle": "Parse NMEA",
+    "irTitle": "RF Direction Finder",
     "projectId": "proj-6169d784d62573ed",
     "projectNumber": 2,
-    "status": "PARTIAL_MATCH"
+    "status": "MATCH"
   },
   {
     "catalogPageRange": [
-      4,
-      4
+      9,
+      11
     ],
     "catalogTitle": "Magnetic Anomaly Detector (Fluxgate)",
-    "discrepancyNote": "Catalog title 'Magnetic Anomaly Detector (Fluxgate)' reconciled with IR heading 'Log a track'.",
+    "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          45.35,
+          44.47,
+          349.17,
+          81.29
+        ],
+        "blockIndex": 0,
+        "claim": "Delimitador de inicio para Project #3: Magnetic Anomaly Detector",
+        "evidenceId": "ev-guide-012-p9-b0",
+        "pageNumber": 9,
+        "sourceDocumentId": "guide-012",
+        "sourceHash": "8feb310f0806783dc3848aee9e540fcb9eea56cffa814eace72a1e70e9b30f68",
+        "textSnippet": "❯ project 03\nMagnetic Anomaly Detector"
+      }
+    ],
     "guideId": "guide-012",
     "irPageRange": [
-      4,
-      4
+      9,
+      11
     ],
-    "irTitle": "Log a track",
+    "irTitle": "Magnetic Anomaly Detector",
     "projectId": "proj-1f516aca4358920d",
     "projectNumber": 3,
-    "status": "PARTIAL_MATCH"
+    "status": "MATCH"
   },
   {
     "catalogPageRange": [
-      4,
-      4
+      12,
+      14
     ],
     "catalogTitle": "Seismic Unattended Ground Sensor (UGS)",
-    "discrepancyNote": "Catalog title 'Seismic Unattended Ground Sensor (UGS)' reconciled with IR heading 'Recover precise time'.",
+    "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          45.35,
+          44.47,
+          427.58,
+          81.29
+        ],
+        "blockIndex": 0,
+        "claim": "Delimitador de inicio para Project #4: Seismic Unattended Ground Sensor",
+        "evidenceId": "ev-guide-012-p12-b0",
+        "pageNumber": 12,
+        "sourceDocumentId": "guide-012",
+        "sourceHash": "8feb310f0806783dc3848aee9e540fcb9eea56cffa814eace72a1e70e9b30f68",
+        "textSnippet": "❯ project 04\nSeismic Unattended Ground Sensor"
+      }
+    ],
     "guideId": "guide-012",
     "irPageRange": [
-      4,
-      4
+      12,
+      14
     ],
-    "irTitle": "Recover precise time",
+    "irTitle": "Seismic Unattended Ground Sensor",
     "projectId": "proj-4e461b38f5d05afd",
     "projectNumber": 4,
-    "status": "PARTIAL_MATCH"
+    "status": "MATCH"
   },
   {
     "catalogPageRange": [
-      4,
+      15,
       18
     ],
     "catalogTitle": "Passive Drone Detection Receiver",
-    "discrepancyNote": "Catalog title 'Passive Drone Detection Receiver' reconciled with IR heading 'See the raw signal (optional)'.",
+    "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          45.35,
+          44.47,
+          321.29,
+          81.29
+        ],
+        "blockIndex": 0,
+        "claim": "Delimitador de inicio para Project #5: Drone Detection Receiver",
+        "evidenceId": "ev-guide-012-p15-b0",
+        "pageNumber": 15,
+        "sourceDocumentId": "guide-012",
+        "sourceHash": "8feb310f0806783dc3848aee9e540fcb9eea56cffa814eace72a1e70e9b30f68",
+        "textSnippet": "❯ project 05\nDrone Detection Receiver"
+      }
+    ],
     "guideId": "guide-012",
     "irPageRange": [
-      4,
+      15,
       18
     ],
-    "irTitle": "See the raw signal (optional)",
+    "irTitle": "Drone Detection Receiver",
     "projectId": "proj-4917a0b27097e30c",
     "projectNumber": 5,
-    "status": "PARTIAL_MATCH"
+    "status": "MATCH"
   },
   {
     "catalogPageRange": [
@@ -1212,7 +2419,24 @@
       23
     ],
     "catalogTitle": "Frequency-Hopping Encrypted Link (FHSS)",
-    "discrepancyNote": "Substantial title match: 'Frequency-Hopping Encrypted Link (FHSS)' vs 'Frequency-Hopping Encrypted Link'.",
+    "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          45.35,
+          44.47,
+          431.74,
+          81.29
+        ],
+        "blockIndex": 0,
+        "claim": "Delimitador de inicio para Project #6: Frequency-Hopping Encrypted Link",
+        "evidenceId": "ev-guide-012-p19-b0",
+        "pageNumber": 19,
+        "sourceDocumentId": "guide-012",
+        "sourceHash": "8feb310f0806783dc3848aee9e540fcb9eea56cffa814eace72a1e70e9b30f68",
+        "textSnippet": "❯ project 06\nFrequency-Hopping Encrypted Link"
+      }
+    ],
     "guideId": "guide-012",
     "irPageRange": [
       19,
@@ -1230,12 +2454,29 @@
     ],
     "catalogTitle": "Reactive Rover (Sense-Plan-Act)",
     "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.43,
+          200.19,
+          64.95
+        ],
+        "blockIndex": 21,
+        "claim": "Delimitador de inicio para Project #1: Reactive Rover",
+        "evidenceId": "ev-guide-013-p2-b21",
+        "pageNumber": 2,
+        "sourceDocumentId": "guide-013",
+        "sourceHash": "ae934d8db41674c5876e6bc9abc56b9be05af70587db6eb4cc3249c69b4239f5",
+        "textSnippet": "■ P R O J E C T 0 1\nReactive Rover"
+      }
+    ],
     "guideId": "guide-013",
     "irPageRange": [
       2,
       4
     ],
-    "irTitle": "Reactive Rover (Sense-Plan-Act)",
+    "irTitle": "Reactive Rover",
     "projectId": "proj-0455fb2c072df1ec",
     "projectNumber": 1,
     "status": "MATCH"
@@ -1243,14 +2484,31 @@
   {
     "catalogPageRange": [
       4,
-      4
+      7
     ],
     "catalogTitle": "Robot Arm with Inverse Kinematics",
     "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.43,
+          400.26,
+          64.95
+        ],
+        "blockIndex": 23,
+        "claim": "Delimitador de inicio para Project #2: Robot Arm with Inverse Kinematics",
+        "evidenceId": "ev-guide-013-p4-b23",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-013",
+        "sourceHash": "ae934d8db41674c5876e6bc9abc56b9be05af70587db6eb4cc3249c69b4239f5",
+        "textSnippet": "■ P R O J E C T 0 2\nRobot Arm with Inverse Kinematics"
+      }
+    ],
     "guideId": "guide-013",
     "irPageRange": [
       4,
-      4
+      7
     ],
     "irTitle": "Robot Arm with Inverse Kinematics",
     "projectId": "proj-ae877be606e5b288",
@@ -1259,71 +2517,139 @@
   },
   {
     "catalogPageRange": [
-      4,
-      4
+      7,
+      9
     ],
     "catalogTitle": "Quadruped Walking Robot",
-    "discrepancyNote": "Exact title and boundary match.",
+    "discrepancyNote": "Page range matched [7, 9], title discrepancy: 'Quadruped Walking Robot' vs 'Quadruped Walker'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.43,
+          221.25,
+          64.95
+        ],
+        "blockIndex": 24,
+        "claim": "Delimitador de inicio para Project #3: Quadruped Walker",
+        "evidenceId": "ev-guide-013-p7-b24",
+        "pageNumber": 7,
+        "sourceDocumentId": "guide-013",
+        "sourceHash": "ae934d8db41674c5876e6bc9abc56b9be05af70587db6eb4cc3249c69b4239f5",
+        "textSnippet": "■ P R O J E C T 0 3\nQuadruped Walker"
+      }
+    ],
     "guideId": "guide-013",
     "irPageRange": [
-      4,
-      4
+      7,
+      9
     ],
-    "irTitle": "Quadruped Walking Robot",
+    "irTitle": "Quadruped Walker",
     "projectId": "proj-8e955745d51cb80d",
     "projectNumber": 3,
-    "status": "MATCH"
+    "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      4,
-      4
+      9,
+      11
     ],
     "catalogTitle": "SLAM Mapping Autonomous Rover",
-    "discrepancyNote": "Exact title and boundary match.",
+    "discrepancyNote": "Page range matched [9, 11], title discrepancy: 'SLAM Mapping Autonomous Rover' vs 'Vision-Guided Tracking Robot'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.43,
+          347.61,
+          64.95
+        ],
+        "blockIndex": 19,
+        "claim": "Delimitador de inicio para Project #4: Vision-Guided Tracking Robot",
+        "evidenceId": "ev-guide-013-p9-b19",
+        "pageNumber": 9,
+        "sourceDocumentId": "guide-013",
+        "sourceHash": "ae934d8db41674c5876e6bc9abc56b9be05af70587db6eb4cc3249c69b4239f5",
+        "textSnippet": "■ P R O J E C T 0 4\nVision-Guided Tracking Robot"
+      }
+    ],
     "guideId": "guide-013",
     "irPageRange": [
-      4,
-      4
+      9,
+      11
     ],
-    "irTitle": "SLAM Mapping Autonomous Rover",
+    "irTitle": "Vision-Guided Tracking Robot",
     "projectId": "proj-a245d2a49550770f",
     "projectNumber": 4,
-    "status": "MATCH"
+    "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      4,
-      4
+      11,
+      13
     ],
     "catalogTitle": "Self-Balancing Inverted Pendulum",
-    "discrepancyNote": "Exact title and boundary match.",
+    "discrepancyNote": "Page range matched [11, 13], title discrepancy: 'Self-Balancing Inverted Pendulum' vs 'Force-Sensing Gripper'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.43,
+          273.9,
+          64.95
+        ],
+        "blockIndex": 26,
+        "claim": "Delimitador de inicio para Project #5: Force-Sensing Gripper",
+        "evidenceId": "ev-guide-013-p11-b26",
+        "pageNumber": 11,
+        "sourceDocumentId": "guide-013",
+        "sourceHash": "ae934d8db41674c5876e6bc9abc56b9be05af70587db6eb4cc3249c69b4239f5",
+        "textSnippet": "■ P R O J E C T 0 5\nForce-Sensing Gripper"
+      }
+    ],
     "guideId": "guide-013",
     "irPageRange": [
-      4,
-      4
+      11,
+      13
     ],
-    "irTitle": "Self-Balancing Inverted Pendulum",
+    "irTitle": "Force-Sensing Gripper",
     "projectId": "proj-761ec11a3abe8911",
     "projectNumber": 5,
-    "status": "MATCH"
+    "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      4,
+      13,
       15
     ],
     "catalogTitle": "Vision-Guided Pick-and-Place Gantry",
-    "discrepancyNote": "Exact title and boundary match.",
+    "discrepancyNote": "Page range matched [13, 15], title discrepancy: 'Vision-Guided Pick-and-Place Gantry' vs 'SLAM Mapping Rover'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.43,
+          242.31,
+          64.95
+        ],
+        "blockIndex": 27,
+        "claim": "Delimitador de inicio para Project #6: SLAM Mapping Rover",
+        "evidenceId": "ev-guide-013-p13-b27",
+        "pageNumber": 13,
+        "sourceDocumentId": "guide-013",
+        "sourceHash": "ae934d8db41674c5876e6bc9abc56b9be05af70587db6eb4cc3249c69b4239f5",
+        "textSnippet": "■ P R O J E C T 0 6\nSLAM Mapping Rover"
+      }
+    ],
     "guideId": "guide-013",
     "irPageRange": [
-      4,
+      13,
       15
     ],
-    "irTitle": "Vision-Guided Pick-and-Place Gantry",
+    "irTitle": "SLAM Mapping Rover",
     "projectId": "proj-2684f7e12c69809f",
     "projectNumber": 6,
-    "status": "MATCH"
+    "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
@@ -1331,7 +2657,24 @@
       4
     ],
     "catalogTitle": "Shielding & EMC Hardening (Faraday Box)",
-    "discrepancyNote": "Catalog title 'Shielding & EMC Hardening (Faraday Box)' reconciled with IR heading 'Faraday Cage & EMP-Hardened'.",
+    "discrepancyNote": "Page range matched [2, 4], title discrepancy: 'Shielding & EMC Hardening (Faraday Box)' vs 'Faraday Cage & EMP-Hardened'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.43,
+          325.22,
+          84.99
+        ],
+        "blockIndex": 19,
+        "claim": "Delimitador de inicio para Project #1: Faraday Cage & EMP-Hardened",
+        "evidenceId": "ev-guide-014-p2-b19",
+        "pageNumber": 2,
+        "sourceDocumentId": "guide-014",
+        "sourceHash": "3940e4f89bcc2c2bff57a1c3f530e170db34bfd546c0e7a9642bcc532d9ccc9f",
+        "textSnippet": "[ P R O J E C T 0 1 ]\nFaraday Cage & EMP-Hardened\nEnclosure"
+      }
+    ],
     "guideId": "guide-014",
     "irPageRange": [
       2,
@@ -1348,7 +2691,24 @@
       7
     ],
     "catalogTitle": "Subsonic Wind Tunnel & Flow Conditioning",
-    "discrepancyNote": "Catalog title 'Subsonic Wind Tunnel & Flow Conditioning' reconciled with IR heading 'Desktop Wind Tunnel'.",
+    "discrepancyNote": "Page range matched [4, 7], title discrepancy: 'Subsonic Wind Tunnel & Flow Conditioning' vs 'Desktop Wind Tunnel'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.43,
+          244.49,
+          64.74
+        ],
+        "blockIndex": 20,
+        "claim": "Delimitador de inicio para Project #2: Desktop Wind Tunnel",
+        "evidenceId": "ev-guide-014-p4-b20",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-014",
+        "sourceHash": "3940e4f89bcc2c2bff57a1c3f530e170db34bfd546c0e7a9642bcc532d9ccc9f",
+        "textSnippet": "[ P R O J E C T 0 2 ]\nDesktop Wind Tunnel"
+      }
+    ],
     "guideId": "guide-014",
     "irPageRange": [
       4,
@@ -1365,7 +2725,24 @@
       10
     ],
     "catalogTitle": "Composite Armor Instrumented Impact Tester",
-    "discrepancyNote": "Catalog title 'Composite Armor Instrumented Impact Tester' reconciled with IR heading '[ P R O J E C T 0 3 ]'.",
+    "discrepancyNote": "Page range matched [7, 10], title discrepancy: 'Composite Armor Instrumented Impact Tester' vs '[ P R O J E C T 0 3 ]'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          17.08,
+          558.55,
+          84.99
+        ],
+        "blockIndex": 6,
+        "claim": "Delimitador de inicio para Project #3: [ P R O J E C T 0 3 ]",
+        "evidenceId": "ev-guide-014-p7-b6",
+        "pageNumber": 7,
+        "sourceDocumentId": "guide-014",
+        "sourceHash": "3940e4f89bcc2c2bff57a1c3f530e170db34bfd546c0e7a9642bcc532d9ccc9f",
+        "textSnippet": "SP03 · 31.6 °C · ε 0.95\n[ P R O J E C T 0 3 ]\nImpact-Resistant Composite Panel &\nDrop Tower"
+      }
+    ],
     "guideId": "guide-014",
     "irPageRange": [
       7,
@@ -1382,7 +2759,24 @@
       12
     ],
     "catalogTitle": "Underwater Hydrophone Array & Acoustic TDOA",
-    "discrepancyNote": "Catalog title 'Underwater Hydrophone Array & Acoustic TDOA' reconciled with IR heading 'Passive Sonar Hydrophone Array'.",
+    "discrepancyNote": "Page range matched [10, 12], title discrepancy: 'Underwater Hydrophone Array & Acoustic TDOA' vs 'Passive Sonar Hydrophone Array'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.43,
+          355.5,
+          64.74
+        ],
+        "blockIndex": 22,
+        "claim": "Delimitador de inicio para Project #4: Passive Sonar Hydrophone Array",
+        "evidenceId": "ev-guide-014-p10-b22",
+        "pageNumber": 10,
+        "sourceDocumentId": "guide-014",
+        "sourceHash": "3940e4f89bcc2c2bff57a1c3f530e170db34bfd546c0e7a9642bcc532d9ccc9f",
+        "textSnippet": "[ P R O J E C T 0 4 ]\nPassive Sonar Hydrophone Array"
+      }
+    ],
     "guideId": "guide-014",
     "irPageRange": [
       10,
@@ -1399,7 +2793,24 @@
       14
     ],
     "catalogTitle": "Autonomous Guided Airdrop Parafoil (GNC)",
-    "discrepancyNote": "Catalog title 'Autonomous Guided Airdrop Parafoil (GNC)' reconciled with IR heading 'Precision Airdrop Parafoil Payload'.",
+    "discrepancyNote": "Page range matched [12, 14], title discrepancy: 'Autonomous Guided Airdrop Parafoil (GNC)' vs 'Precision Airdrop Parafoil Payload'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.43,
+          395.86,
+          64.74
+        ],
+        "blockIndex": 19,
+        "claim": "Delimitador de inicio para Project #5: Precision Airdrop Parafoil Payload",
+        "evidenceId": "ev-guide-014-p12-b19",
+        "pageNumber": 12,
+        "sourceDocumentId": "guide-014",
+        "sourceHash": "3940e4f89bcc2c2bff57a1c3f530e170db34bfd546c0e7a9642bcc532d9ccc9f",
+        "textSnippet": "[ P R O J E C T 0 5 ]\nPrecision Airdrop Parafoil Payload"
+      }
+    ],
     "guideId": "guide-014",
     "irPageRange": [
       12,
@@ -1416,7 +2827,24 @@
       16
     ],
     "catalogTitle": "Environmental Torture-Test Lab (Thermal/Vibe)",
-    "discrepancyNote": "Catalog title 'Environmental Torture-Test Lab (Thermal/Vibe)' reconciled with IR heading 'Survivability Test Rig'.",
+    "discrepancyNote": "Page range matched [14, 16], title discrepancy: 'Environmental Torture-Test Lab (Thermal/Vibe)' vs 'Survivability Test Rig'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          26.43,
+          274.77,
+          64.74
+        ],
+        "blockIndex": 19,
+        "claim": "Delimitador de inicio para Project #6: Survivability Test Rig",
+        "evidenceId": "ev-guide-014-p14-b19",
+        "pageNumber": 14,
+        "sourceDocumentId": "guide-014",
+        "sourceHash": "3940e4f89bcc2c2bff57a1c3f530e170db34bfd546c0e7a9642bcc532d9ccc9f",
+        "textSnippet": "[ P R O J E C T 0 6 ]\nSurvivability Test Rig"
+      }
+    ],
     "guideId": "guide-014",
     "irPageRange": [
       14,
@@ -1433,7 +2861,24 @@
       4
     ],
     "catalogTitle": "Optical Flow & LiDAR Surface Tracker",
-    "discrepancyNote": "Catalog title 'Optical Flow & LiDAR Surface Tracker' reconciled with IR heading 'UPGRADE 01 · REV A'.",
+    "discrepancyNote": "Page range matched [2, 4], title discrepancy: 'Optical Flow & LiDAR Surface Tracker' vs 'UPGRADE 01 · REV A'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          469.58,
+          17.08,
+          558.55,
+          25.86
+        ],
+        "blockIndex": 7,
+        "claim": "Delimitador de inicio para Project #1: UPGRADE 01 · REV A",
+        "evidenceId": "ev-guide-015-p2-b7",
+        "pageNumber": 2,
+        "sourceDocumentId": "guide-015",
+        "sourceHash": "87f5986df3355a1a67dc65349f4d93287b1e1a73431ff5f38eb06b59a238e92c",
+        "textSnippet": "UPGRADE 01 · REV A"
+      }
+    ],
     "guideId": "guide-015",
     "irPageRange": [
       2,
@@ -1450,7 +2895,24 @@
       7
     ],
     "catalogTitle": "Redundant Dual-IMU with Kalman Voting",
-    "discrepancyNote": "Catalog title 'Redundant Dual-IMU with Kalman Voting' reconciled with IR heading '[ U P G R A D E 0 2 ]'.",
+    "discrepancyNote": "Page range matched [4, 7], title discrepancy: 'Redundant Dual-IMU with Kalman Voting' vs '[ U P G R A D E 0 2 ]'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          17.08,
+          558.55,
+          64.74
+        ],
+        "blockIndex": 6,
+        "claim": "Delimitador de inicio para Project #2: [ U P G R A D E 0 2 ]",
+        "evidenceId": "ev-guide-015-p4-b6",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-015",
+        "sourceHash": "87f5986df3355a1a67dc65349f4d93287b1e1a73431ff5f38eb06b59a238e92c",
+        "textSnippet": "UPGRADE 02 · REV A\n[ U P G R A D E 0 2 ]\nObstacle-Avoidance Sensor Ring"
+      }
+    ],
     "guideId": "guide-015",
     "irPageRange": [
       4,
@@ -1467,7 +2929,24 @@
       9
     ],
     "catalogTitle": "CAN Bus ESC Telemetry & Power Distribution",
-    "discrepancyNote": "Catalog title 'CAN Bus ESC Telemetry & Power Distribution' reconciled with IR heading 'UPGRADE 03 · REV A'.",
+    "discrepancyNote": "Page range matched [7, 9], title discrepancy: 'CAN Bus ESC Telemetry & Power Distribution' vs 'UPGRADE 03 · REV A'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          469.58,
+          17.08,
+          558.55,
+          25.86
+        ],
+        "blockIndex": 8,
+        "claim": "Delimitador de inicio para Project #3: UPGRADE 03 · REV A",
+        "evidenceId": "ev-guide-015-p7-b8",
+        "pageNumber": 7,
+        "sourceDocumentId": "guide-015",
+        "sourceHash": "87f5986df3355a1a67dc65349f4d93287b1e1a73431ff5f38eb06b59a238e92c",
+        "textSnippet": "UPGRADE 03 · REV A"
+      }
+    ],
     "guideId": "guide-015",
     "irPageRange": [
       7,
@@ -1484,7 +2963,24 @@
       11
     ],
     "catalogTitle": "LoRa Backup Heartbeat & Emergency Parachute",
-    "discrepancyNote": "Catalog title 'LoRa Backup Heartbeat & Emergency Parachute' reconciled with IR heading 'UPGRADE 04 · REV A'.",
+    "discrepancyNote": "Page range matched [9, 11], title discrepancy: 'LoRa Backup Heartbeat & Emergency Parachute' vs 'UPGRADE 04 · REV A'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          469.58,
+          17.08,
+          558.55,
+          25.86
+        ],
+        "blockIndex": 7,
+        "claim": "Delimitador de inicio para Project #4: UPGRADE 04 · REV A",
+        "evidenceId": "ev-guide-015-p9-b7",
+        "pageNumber": 9,
+        "sourceDocumentId": "guide-015",
+        "sourceHash": "87f5986df3355a1a67dc65349f4d93287b1e1a73431ff5f38eb06b59a238e92c",
+        "textSnippet": "UPGRADE 04 · REV A"
+      }
+    ],
     "guideId": "guide-015",
     "irPageRange": [
       9,
@@ -1501,7 +2997,24 @@
       13
     ],
     "catalogTitle": "Active Rotor Ice Detection & Thermal De-Icing",
-    "discrepancyNote": "Catalog title 'Active Rotor Ice Detection & Thermal De-Icing' reconciled with IR heading 'UPGRADE 05 · REV A'.",
+    "discrepancyNote": "Page range matched [11, 13], title discrepancy: 'Active Rotor Ice Detection & Thermal De-Icing' vs 'UPGRADE 05 · REV A'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          469.58,
+          17.08,
+          558.55,
+          25.86
+        ],
+        "blockIndex": 7,
+        "claim": "Delimitador de inicio para Project #5: UPGRADE 05 · REV A",
+        "evidenceId": "ev-guide-015-p11-b7",
+        "pageNumber": 11,
+        "sourceDocumentId": "guide-015",
+        "sourceHash": "87f5986df3355a1a67dc65349f4d93287b1e1a73431ff5f38eb06b59a238e92c",
+        "textSnippet": "UPGRADE 05 · REV A"
+      }
+    ],
     "guideId": "guide-015",
     "irPageRange": [
       11,
@@ -1518,7 +3031,24 @@
       16
     ],
     "catalogTitle": "AI Edge Companion Computer & Collision Avoidance",
-    "discrepancyNote": "Catalog title 'AI Edge Companion Computer & Collision Avoidance' reconciled with IR heading '[ U P G R A D E 0 6 ]'.",
+    "discrepancyNote": "Page range matched [13, 16], title discrepancy: 'AI Edge Companion Computer & Collision Avoidance' vs '[ U P G R A D E 0 6 ]'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          52.5,
+          17.08,
+          558.55,
+          64.74
+        ],
+        "blockIndex": 6,
+        "claim": "Delimitador de inicio para Project #6: [ U P G R A D E 0 6 ]",
+        "evidenceId": "ev-guide-015-p13-b6",
+        "pageNumber": 13,
+        "sourceDocumentId": "guide-015",
+        "sourceHash": "87f5986df3355a1a67dc65349f4d93287b1e1a73431ff5f38eb06b59a238e92c",
+        "textSnippet": "UPGRADE 06 · REV A\n[ U P G R A D E 0 6 ]\nSignal-Mapping Payload"
+      }
+    ],
     "guideId": "guide-015",
     "irPageRange": [
       13,
@@ -1535,7 +3065,24 @@
       4
     ],
     "catalogTitle": "Real-Time Chat App with WebSockets",
-    "discrepancyNote": "Catalog title 'Real-Time Chat App with WebSockets' reconciled with IR heading '#1'.",
+    "discrepancyNote": "Page range matched [3, 4], title discrepancy: 'Real-Time Chat App with WebSockets' vs '#1'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          70.8,
+          61.64,
+          101.94,
+          100.2
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #1: #1",
+        "evidenceId": "ev-guide-016-p3-b1",
+        "pageNumber": 3,
+        "sourceDocumentId": "guide-016",
+        "sourceHash": "bfbdb595e58f998607ed3f85070f02d268dbc38120cc4c4bd3e8e1716effdc8a",
+        "textSnippet": "#1"
+      }
+    ],
     "guideId": "guide-016",
     "irPageRange": [
       3,
@@ -1548,85 +3095,170 @@
   },
   {
     "catalogPageRange": [
-      5,
-      7
+      4,
+      4
     ],
     "catalogTitle": "Personal AI Assistant with RAG",
-    "discrepancyNote": "Catalog title 'Personal AI Assistant with RAG' reconciled with IR heading '#2'.",
+    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'Personal AI Assistant with RAG' vs 'Step 2: Build authentication. Implement signup/login with bcrypt password hashing and JWT'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          90.8,
+          278.81,
+          519.73,
+          293.32
+        ],
+        "blockIndex": 11,
+        "claim": "Delimitador de inicio para Project #2: Step 2: Build authentication. Implement signup/login with bcrypt password hashing and JWT",
+        "evidenceId": "ev-guide-016-p4-b11",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-016",
+        "sourceHash": "bfbdb595e58f998607ed3f85070f02d268dbc38120cc4c4bd3e8e1716effdc8a",
+        "textSnippet": "Step 2: Build authentication. Implement signup/login with bcrypt password hashing and JWT"
+      }
+    ],
     "guideId": "guide-016",
     "irPageRange": [
-      5,
-      7
+      4,
+      4
     ],
-    "irTitle": "#2",
+    "irTitle": "Step 2: Build authentication. Implement signup/login with bcrypt password hashing and JWT",
     "projectId": "proj-6143fceeac63172d",
     "projectNumber": 2,
     "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      8,
-      10
+      4,
+      4
     ],
     "catalogTitle": "Distributed Task Queue & Worker System",
-    "discrepancyNote": "Catalog title 'Distributed Task Queue & Worker System' reconciled with IR heading '#3'.",
+    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'Distributed Task Queue & Worker System' vs 'Step 3: Implement WebSocket layer. Set up Socket.io on the server. Create events: 'join-room','.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          90.8,
+          314.81,
+          534.24,
+          329.32
+        ],
+        "blockIndex": 13,
+        "claim": "Delimitador de inicio para Project #3: Step 3: Implement WebSocket layer. Set up Socket.io on the server. Create events: 'join-room',",
+        "evidenceId": "ev-guide-016-p4-b13",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-016",
+        "sourceHash": "bfbdb595e58f998607ed3f85070f02d268dbc38120cc4c4bd3e8e1716effdc8a",
+        "textSnippet": "Step 3: Implement WebSocket layer. Set up Socket.io on the server. Create events: 'join-room',"
+      }
+    ],
     "guideId": "guide-016",
     "irPageRange": [
-      8,
-      10
+      4,
+      4
     ],
-    "irTitle": "#3",
+    "irTitle": "Step 3: Implement WebSocket layer. Set up Socket.io on the server. Create events: 'join-room',",
     "projectId": "proj-e1da0bf6aa68b40e",
     "projectNumber": 3,
     "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      11,
-      13
+      4,
+      4
     ],
     "catalogTitle": "Open Source Developer CLI Tool",
-    "discrepancyNote": "Catalog title 'Open Source Developer CLI Tool' reconciled with IR heading '#4'.",
+    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'Open Source Developer CLI Tool' vs 'Step 4: Build the chat UI. Create the room list, message feed, and input components. Messages'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          90.8,
+          350.81,
+          537.84,
+          365.32
+        ],
+        "blockIndex": 15,
+        "claim": "Delimitador de inicio para Project #4: Step 4: Build the chat UI. Create the room list, message feed, and input components. Messages",
+        "evidenceId": "ev-guide-016-p4-b15",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-016",
+        "sourceHash": "bfbdb595e58f998607ed3f85070f02d268dbc38120cc4c4bd3e8e1716effdc8a",
+        "textSnippet": "Step 4: Build the chat UI. Create the room list, message feed, and input components. Messages"
+      }
+    ],
     "guideId": "guide-016",
     "irPageRange": [
-      11,
-      13
+      4,
+      4
     ],
-    "irTitle": "#4",
+    "irTitle": "Step 4: Build the chat UI. Create the room list, message feed, and input components. Messages",
     "projectId": "proj-ef179b57eade25f9",
     "projectNumber": 4,
     "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      14,
-      16
+      4,
+      4
     ],
     "catalogTitle": "Full-Stack Multi-Tenant SaaS with Payments",
-    "discrepancyNote": "Catalog title 'Full-Stack Multi-Tenant SaaS with Payments' reconciled with IR heading '#5'.",
+    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'Full-Stack Multi-Tenant SaaS with Payments' vs 'Step 5: Add message persistence. Save every message to PostgreSQL. Implement pagination'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          90.8,
+          386.81,
+          531.41,
+          401.32
+        ],
+        "blockIndex": 17,
+        "claim": "Delimitador de inicio para Project #5: Step 5: Add message persistence. Save every message to PostgreSQL. Implement pagination",
+        "evidenceId": "ev-guide-016-p4-b17",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-016",
+        "sourceHash": "bfbdb595e58f998607ed3f85070f02d268dbc38120cc4c4bd3e8e1716effdc8a",
+        "textSnippet": "Step 5: Add message persistence. Save every message to PostgreSQL. Implement pagination"
+      }
+    ],
     "guideId": "guide-016",
     "irPageRange": [
-      14,
-      16
+      4,
+      4
     ],
-    "irTitle": "#5",
+    "irTitle": "Step 5: Add message persistence. Save every message to PostgreSQL. Implement pagination",
     "projectId": "proj-9e864a53d7204fea",
     "projectNumber": 5,
     "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      17,
+      4,
       21
     ],
     "catalogTitle": "Custom Programming Language Interpreter",
-    "discrepancyNote": "Catalog title 'Custom Programming Language Interpreter' reconciled with IR heading '#6'.",
+    "discrepancyNote": "Page range matched [4, 21], title discrepancy: 'Custom Programming Language Interpreter' vs 'Step 6: Deploy and polish. Deploy frontend to Vercel, backend to Railway, database to'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          90.8,
+          422.81,
+          494.07,
+          437.32
+        ],
+        "blockIndex": 19,
+        "claim": "Delimitador de inicio para Project #6: Step 6: Deploy and polish. Deploy frontend to Vercel, backend to Railway, database to",
+        "evidenceId": "ev-guide-016-p4-b19",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-016",
+        "sourceHash": "bfbdb595e58f998607ed3f85070f02d268dbc38120cc4c4bd3e8e1716effdc8a",
+        "textSnippet": "Step 6: Deploy and polish. Deploy frontend to Vercel, backend to Railway, database to"
+      }
+    ],
     "guideId": "guide-016",
     "irPageRange": [
-      17,
+      4,
       21
     ],
-    "irTitle": "#6",
+    "irTitle": "Step 6: Deploy and polish. Deploy frontend to Vercel, backend to Railway, database to",
     "projectId": "proj-015e8ef354937a04",
     "projectNumber": 6,
     "status": "PARTIAL_MATCH"
@@ -1637,101 +3269,203 @@
       2
     ],
     "catalogTitle": "Audita los Mejores Cursos del Mundo (Stanford, MIT, CMU)",
-    "discrepancyNote": "Exact title and boundary match.",
+    "discrepancyNote": "Page range matched [2, 2], title discrepancy: 'Audita los Mejores Cursos del Mundo (Stanford, MIT, CMU)' vs 'Stop Relying on Your Classes'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          60.0,
+          337.73,
+          358.75,
+          381.95
+        ],
+        "blockIndex": 12,
+        "claim": "Delimitador de inicio para Project #1: Stop Relying on Your Classes",
+        "evidenceId": "ev-guide-017-p2-b12",
+        "pageNumber": 2,
+        "sourceDocumentId": "guide-017",
+        "sourceHash": "1987495df6a7b8824b53c7c6b985695217140f3c0c64560393f3dbb085aa4906",
+        "textSnippet": "STEP 01\nStop Relying on Your Classes"
+      }
+    ],
     "guideId": "guide-017",
     "irPageRange": [
       2,
       2
     ],
-    "irTitle": "Audita los Mejores Cursos del Mundo (Stanford, MIT, CMU)",
+    "irTitle": "Stop Relying on Your Classes",
     "projectId": "proj-fe4a998067b3d8aa",
     "projectNumber": 1,
-    "status": "MATCH"
+    "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      2,
-      8
+      3,
+      3
     ],
     "catalogTitle": "Elige una Especialidad y Profundiza al Máximo",
-    "discrepancyNote": "Exact title and boundary match.",
+    "discrepancyNote": "Page range matched [3, 3], title discrepancy: 'Elige una Especialidad y Profundiza al Máximo' vs 'Pick a Stack and Go Stupid Deep'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          60.0,
+          59.23,
+          389.11,
+          103.45
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #2: Pick a Stack and Go Stupid Deep",
+        "evidenceId": "ev-guide-017-p3-b1",
+        "pageNumber": 3,
+        "sourceDocumentId": "guide-017",
+        "sourceHash": "1987495df6a7b8824b53c7c6b985695217140f3c0c64560393f3dbb085aa4906",
+        "textSnippet": "STEP 02\nPick a Stack and Go Stupid Deep"
+      }
+    ],
     "guideId": "guide-017",
     "irPageRange": [
-      2,
-      8
+      3,
+      3
     ],
-    "irTitle": "Elige una Especialidad y Profundiza al Máximo",
+    "irTitle": "Pick a Stack and Go Stupid Deep",
     "projectId": "proj-d625020e720f2574",
     "projectNumber": 2,
-    "status": "MATCH"
+    "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      8,
-      8
+      4,
+      4
     ],
     "catalogTitle": "Construye Algo que Nadie te Pidió que Construyas",
-    "discrepancyNote": "Catalog title 'Construye Algo que Nadie te Pidió que Construyas' reconciled with IR heading '3 months before applications:'.",
+    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'Construye Algo que Nadie te Pidió que Construyas' vs 'Build Something Nobody Asked You to Build'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          60.0,
+          59.23,
+          509.21,
+          103.45
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #3: Build Something Nobody Asked You to Build",
+        "evidenceId": "ev-guide-017-p4-b1",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-017",
+        "sourceHash": "1987495df6a7b8824b53c7c6b985695217140f3c0c64560393f3dbb085aa4906",
+        "textSnippet": "STEP 03\nBuild Something Nobody Asked You to Build"
+      }
+    ],
     "guideId": "guide-017",
     "irPageRange": [
-      8,
-      8
+      4,
+      4
     ],
-    "irTitle": "3 months before applications:",
+    "irTitle": "Build Something Nobody Asked You to Build",
     "projectId": "proj-f4c34c72a59d5e68",
     "projectNumber": 3,
     "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      8,
-      8
+      5,
+      5
     ],
     "catalogTitle": "Lee Datasheets y Notas de Aplicación como Ficción",
-    "discrepancyNote": "Exact title and boundary match.",
+    "discrepancyNote": "Page range matched [5, 5], title discrepancy: 'Lee Datasheets y Notas de Aplicación como Ficción' vs 'Read Documentation Like Other People Read'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          60.0,
+          59.23,
+          511.6,
+          128.45
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #4: Read Documentation Like Other People Read",
+        "evidenceId": "ev-guide-017-p5-b1",
+        "pageNumber": 5,
+        "sourceDocumentId": "guide-017",
+        "sourceHash": "1987495df6a7b8824b53c7c6b985695217140f3c0c64560393f3dbb085aa4906",
+        "textSnippet": "STEP 04\nRead Documentation Like Other People Read\nInstagram"
+      }
+    ],
     "guideId": "guide-017",
     "irPageRange": [
-      8,
-      8
+      5,
+      5
     ],
-    "irTitle": "Lee Datasheets y Notas de Aplicación como Ficción",
+    "irTitle": "Read Documentation Like Other People Read",
     "projectId": "proj-40abc903cf68b70c",
     "projectNumber": 4,
-    "status": "MATCH"
+    "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      8,
-      8
+      6,
+      6
     ],
     "catalogTitle": "Ingeniería Inversa de Productos Comerciales Reales",
-    "discrepancyNote": "Exact title and boundary match.",
+    "discrepancyNote": "Page range matched [6, 6], title discrepancy: 'Ingeniería Inversa de Productos Comerciales Reales' vs 'Reverse Engineer Real Products'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          60.0,
+          59.23,
+          384.45,
+          103.45
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #5: Reverse Engineer Real Products",
+        "evidenceId": "ev-guide-017-p6-b1",
+        "pageNumber": 6,
+        "sourceDocumentId": "guide-017",
+        "sourceHash": "1987495df6a7b8824b53c7c6b985695217140f3c0c64560393f3dbb085aa4906",
+        "textSnippet": "STEP 05\nReverse Engineer Real Products"
+      }
+    ],
     "guideId": "guide-017",
     "irPageRange": [
-      8,
-      8
+      6,
+      6
     ],
-    "irTitle": "Ingeniería Inversa de Productos Comerciales Reales",
+    "irTitle": "Reverse Engineer Real Products",
     "projectId": "proj-0d37911802b012cb",
     "projectNumber": 5,
-    "status": "MATCH"
+    "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      8,
+      7,
       10
     ],
     "catalogTitle": "Haz de tu Presencia en Internet un Portafolio Indiscutible",
-    "discrepancyNote": "Exact title and boundary match.",
+    "discrepancyNote": "Page range matched [7, 10], title discrepancy: 'Haz de tu Presencia en Internet un Portafolio Indiscutible' vs 'Make Your Internet Presence a Portfolio'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          60.0,
+          59.23,
+          457.95,
+          103.45
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #6: Make Your Internet Presence a Portfolio",
+        "evidenceId": "ev-guide-017-p7-b1",
+        "pageNumber": 7,
+        "sourceDocumentId": "guide-017",
+        "sourceHash": "1987495df6a7b8824b53c7c6b985695217140f3c0c64560393f3dbb085aa4906",
+        "textSnippet": "STEP 06\nMake Your Internet Presence a Portfolio"
+      }
+    ],
     "guideId": "guide-017",
     "irPageRange": [
-      8,
+      7,
       10
     ],
-    "irTitle": "Haz de tu Presencia en Internet un Portafolio Indiscutible",
+    "irTitle": "Make Your Internet Presence a Portfolio",
     "projectId": "proj-814228cd5c64175a",
     "projectNumber": 6,
-    "status": "MATCH"
+    "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
@@ -1739,7 +3473,24 @@
       4
     ],
     "catalogTitle": "AI Voice Cloning Detector",
-    "discrepancyNote": "Catalog title 'AI Voice Cloning Detector' reconciled with IR heading 'PROJECT 1'.",
+    "discrepancyNote": "Page range matched [2, 4], title discrepancy: 'AI Voice Cloning Detector' vs 'PROJECT 1'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          54.72,
+          200.57,
+          87.77
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #1: PROJECT 1",
+        "evidenceId": "ev-guide-018-p2-b1",
+        "pageNumber": 2,
+        "sourceDocumentId": "guide-018",
+        "sourceHash": "aff92715aebd9ce6a8dd0b2b8e8fe56c021157b3867115d49f9c698b96d1c46b",
+        "textSnippet": "PROJECT 1"
+      }
+    ],
     "guideId": "guide-018",
     "irPageRange": [
       2,
@@ -1756,7 +3507,24 @@
       7
     ],
     "catalogTitle": "EMI Side-Channel Sniffer",
-    "discrepancyNote": "Catalog title 'EMI Side-Channel Sniffer' reconciled with IR heading 'PROJECT 2'.",
+    "discrepancyNote": "Page range matched [5, 7], title discrepancy: 'EMI Side-Channel Sniffer' vs 'PROJECT 2'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          54.72,
+          200.57,
+          87.77
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #2: PROJECT 2",
+        "evidenceId": "ev-guide-018-p5-b1",
+        "pageNumber": 5,
+        "sourceDocumentId": "guide-018",
+        "sourceHash": "aff92715aebd9ce6a8dd0b2b8e8fe56c021157b3867115d49f9c698b96d1c46b",
+        "textSnippet": "PROJECT 2"
+      }
+    ],
     "guideId": "guide-018",
     "irPageRange": [
       5,
@@ -1773,7 +3541,24 @@
       10
     ],
     "catalogTitle": "Hardware AI Kill Switch",
-    "discrepancyNote": "Catalog title 'Hardware AI Kill Switch' reconciled with IR heading 'PROJECT 3'.",
+    "discrepancyNote": "Page range matched [8, 10], title discrepancy: 'Hardware AI Kill Switch' vs 'PROJECT 3'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          54.72,
+          200.57,
+          87.77
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #3: PROJECT 3",
+        "evidenceId": "ev-guide-018-p8-b1",
+        "pageNumber": 8,
+        "sourceDocumentId": "guide-018",
+        "sourceHash": "aff92715aebd9ce6a8dd0b2b8e8fe56c021157b3867115d49f9c698b96d1c46b",
+        "textSnippet": "PROJECT 3"
+      }
+    ],
     "guideId": "guide-018",
     "irPageRange": [
       8,
@@ -1790,7 +3575,24 @@
       13
     ],
     "catalogTitle": "Deepfake-Proof Identity Badge",
-    "discrepancyNote": "Catalog title 'Deepfake-Proof Identity Badge' reconciled with IR heading 'PROJECT 4'.",
+    "discrepancyNote": "Page range matched [11, 13], title discrepancy: 'Deepfake-Proof Identity Badge' vs 'PROJECT 4'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          54.72,
+          200.57,
+          87.77
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #4: PROJECT 4",
+        "evidenceId": "ev-guide-018-p11-b1",
+        "pageNumber": 11,
+        "sourceDocumentId": "guide-018",
+        "sourceHash": "aff92715aebd9ce6a8dd0b2b8e8fe56c021157b3867115d49f9c698b96d1c46b",
+        "textSnippet": "PROJECT 4"
+      }
+    ],
     "guideId": "guide-018",
     "irPageRange": [
       11,
@@ -1807,7 +3609,24 @@
       16
     ],
     "catalogTitle": "Neuromorphic Sensor Fuser",
-    "discrepancyNote": "Catalog title 'Neuromorphic Sensor Fuser' reconciled with IR heading 'PROJECT 5'.",
+    "discrepancyNote": "Page range matched [14, 16], title discrepancy: 'Neuromorphic Sensor Fuser' vs 'PROJECT 5'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          54.72,
+          200.57,
+          87.77
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #5: PROJECT 5",
+        "evidenceId": "ev-guide-018-p14-b1",
+        "pageNumber": 14,
+        "sourceDocumentId": "guide-018",
+        "sourceHash": "aff92715aebd9ce6a8dd0b2b8e8fe56c021157b3867115d49f9c698b96d1c46b",
+        "textSnippet": "PROJECT 5"
+      }
+    ],
     "guideId": "guide-018",
     "irPageRange": [
       14,
@@ -1824,7 +3643,24 @@
       20
     ],
     "catalogTitle": "RF Fingerprinting Authenticator",
-    "discrepancyNote": "Catalog title 'RF Fingerprinting Authenticator' reconciled with IR heading 'PROJECT 6'.",
+    "discrepancyNote": "Page range matched [17, 20], title discrepancy: 'RF Fingerprinting Authenticator' vs 'PROJECT 6'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          54.72,
+          200.57,
+          87.77
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #6: PROJECT 6",
+        "evidenceId": "ev-guide-018-p17-b1",
+        "pageNumber": 17,
+        "sourceDocumentId": "guide-018",
+        "sourceHash": "aff92715aebd9ce6a8dd0b2b8e8fe56c021157b3867115d49f9c698b96d1c46b",
+        "textSnippet": "PROJECT 6"
+      }
+    ],
     "guideId": "guide-018",
     "irPageRange": [
       17,
@@ -1841,7 +3677,24 @@
       5
     ],
     "catalogTitle": "Laser Surveillance Microphone",
-    "discrepancyNote": "Catalog title 'Laser Surveillance Microphone' reconciled with IR heading 'PROJECT 1'.",
+    "discrepancyNote": "Page range matched [2, 5], title discrepancy: 'Laser Surveillance Microphone' vs 'PROJECT 1'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          54.72,
+          200.57,
+          87.77
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #1: PROJECT 1",
+        "evidenceId": "ev-guide-019-p2-b1",
+        "pageNumber": 2,
+        "sourceDocumentId": "guide-019",
+        "sourceHash": "90c7eed1d3908d390e5ac722938ca87525850ad240239e13dc8577dccac2e540",
+        "textSnippet": "PROJECT 1"
+      }
+    ],
     "guideId": "guide-019",
     "irPageRange": [
       2,
@@ -1858,7 +3711,24 @@
       8
     ],
     "catalogTitle": "Tap-Proof Laser Communication Link",
-    "discrepancyNote": "Catalog title 'Tap-Proof Laser Communication Link' reconciled with IR heading 'PROJECT 2'.",
+    "discrepancyNote": "Page range matched [6, 8], title discrepancy: 'Tap-Proof Laser Communication Link' vs 'PROJECT 2'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          54.72,
+          200.57,
+          87.77
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #2: PROJECT 2",
+        "evidenceId": "ev-guide-019-p6-b1",
+        "pageNumber": 6,
+        "sourceDocumentId": "guide-019",
+        "sourceHash": "90c7eed1d3908d390e5ac722938ca87525850ad240239e13dc8577dccac2e540",
+        "textSnippet": "PROJECT 2"
+      }
+    ],
     "guideId": "guide-019",
     "irPageRange": [
       6,
@@ -1875,7 +3745,24 @@
       12
     ],
     "catalogTitle": "High-Precision Laser Rangefinder",
-    "discrepancyNote": "Catalog title 'High-Precision Laser Rangefinder' reconciled with IR heading 'PROJECT 3'.",
+    "discrepancyNote": "Page range matched [9, 12], title discrepancy: 'High-Precision Laser Rangefinder' vs 'PROJECT 3'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          54.72,
+          200.57,
+          87.77
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #3: PROJECT 3",
+        "evidenceId": "ev-guide-019-p9-b1",
+        "pageNumber": 9,
+        "sourceDocumentId": "guide-019",
+        "sourceHash": "90c7eed1d3908d390e5ac722938ca87525850ad240239e13dc8577dccac2e540",
+        "textSnippet": "PROJECT 3"
+      }
+    ],
     "guideId": "guide-019",
     "irPageRange": [
       9,
@@ -1892,7 +3779,24 @@
       15
     ],
     "catalogTitle": "Encrypted Burst Transmitter",
-    "discrepancyNote": "Catalog title 'Encrypted Burst Transmitter' reconciled with IR heading 'PROJECT 4'.",
+    "discrepancyNote": "Page range matched [13, 15], title discrepancy: 'Encrypted Burst Transmitter' vs 'PROJECT 4'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          54.72,
+          200.57,
+          87.77
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #4: PROJECT 4",
+        "evidenceId": "ev-guide-019-p13-b1",
+        "pageNumber": 13,
+        "sourceDocumentId": "guide-019",
+        "sourceHash": "90c7eed1d3908d390e5ac722938ca87525850ad240239e13dc8577dccac2e540",
+        "textSnippet": "PROJECT 4"
+      }
+    ],
     "guideId": "guide-019",
     "irPageRange": [
       13,
@@ -1909,7 +3813,24 @@
       18
     ],
     "catalogTitle": "Passive Night Vision Scope",
-    "discrepancyNote": "Catalog title 'Passive Night Vision Scope' reconciled with IR heading 'PROJECT 5'.",
+    "discrepancyNote": "Page range matched [16, 18], title discrepancy: 'Passive Night Vision Scope' vs 'PROJECT 5'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          54.72,
+          200.57,
+          87.77
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #5: PROJECT 5",
+        "evidenceId": "ev-guide-019-p16-b1",
+        "pageNumber": 16,
+        "sourceDocumentId": "guide-019",
+        "sourceHash": "90c7eed1d3908d390e5ac722938ca87525850ad240239e13dc8577dccac2e540",
+        "textSnippet": "PROJECT 5"
+      }
+    ],
     "guideId": "guide-019",
     "irPageRange": [
       16,
@@ -1926,7 +3847,24 @@
       22
     ],
     "catalogTitle": "Radar Cross-Section Measurement System",
-    "discrepancyNote": "Catalog title 'Radar Cross-Section Measurement System' reconciled with IR heading 'PROJECT 6'.",
+    "discrepancyNote": "Page range matched [19, 22], title discrepancy: 'Radar Cross-Section Measurement System' vs 'PROJECT 6'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          54.72,
+          200.57,
+          87.77
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #6: PROJECT 6",
+        "evidenceId": "ev-guide-019-p19-b1",
+        "pageNumber": 19,
+        "sourceDocumentId": "guide-019",
+        "sourceHash": "90c7eed1d3908d390e5ac722938ca87525850ad240239e13dc8577dccac2e540",
+        "textSnippet": "PROJECT 6"
+      }
+    ],
     "guideId": "guide-019",
     "irPageRange": [
       19,
@@ -1943,7 +3881,24 @@
       7
     ],
     "catalogTitle": "Silent Speech Neural Interface",
-    "discrepancyNote": "Catalog title 'Silent Speech Neural Interface' reconciled with IR heading 'PROJECT 1'.",
+    "discrepancyNote": "Page range matched [4, 7], title discrepancy: 'Silent Speech Neural Interface' vs 'PROJECT 1'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          54.72,
+          200.57,
+          87.77
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #1: PROJECT 1",
+        "evidenceId": "ev-guide-020-p4-b1",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-020",
+        "sourceHash": "4ede95cec207c88b3b4cde02e0f2966bf3585c2cb551d379701ae25df73bfc85",
+        "textSnippet": "PROJECT 1"
+      }
+    ],
     "guideId": "guide-020",
     "irPageRange": [
       4,
@@ -1960,7 +3915,24 @@
       10
     ],
     "catalogTitle": "EMG Prosthetic Hand with Intent Detection",
-    "discrepancyNote": "Catalog title 'EMG Prosthetic Hand with Intent Detection' reconciled with IR heading 'PROJECT 2'.",
+    "discrepancyNote": "Page range matched [8, 10], title discrepancy: 'EMG Prosthetic Hand with Intent Detection' vs 'PROJECT 2'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          54.72,
+          200.57,
+          87.77
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #2: PROJECT 2",
+        "evidenceId": "ev-guide-020-p8-b1",
+        "pageNumber": 8,
+        "sourceDocumentId": "guide-020",
+        "sourceHash": "4ede95cec207c88b3b4cde02e0f2966bf3585c2cb551d379701ae25df73bfc85",
+        "textSnippet": "PROJECT 2"
+      }
+    ],
     "guideId": "guide-020",
     "irPageRange": [
       8,
@@ -1977,7 +3949,24 @@
       13
     ],
     "catalogTitle": "Gesture-Controlled AR Coding Interface",
-    "discrepancyNote": "Catalog title 'Gesture-Controlled AR Coding Interface' reconciled with IR heading 'PROJECT 3'.",
+    "discrepancyNote": "Page range matched [11, 13], title discrepancy: 'Gesture-Controlled AR Coding Interface' vs 'PROJECT 3'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          54.72,
+          200.57,
+          87.77
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #3: PROJECT 3",
+        "evidenceId": "ev-guide-020-p11-b1",
+        "pageNumber": 11,
+        "sourceDocumentId": "guide-020",
+        "sourceHash": "4ede95cec207c88b3b4cde02e0f2966bf3585c2cb551d379701ae25df73bfc85",
+        "textSnippet": "PROJECT 3"
+      }
+    ],
     "guideId": "guide-020",
     "irPageRange": [
       11,
@@ -1994,7 +3983,24 @@
       16
     ],
     "catalogTitle": "Emotion-Aware AI Companion Pendant",
-    "discrepancyNote": "Catalog title 'Emotion-Aware AI Companion Pendant' reconciled with IR heading 'PROJECT 4'.",
+    "discrepancyNote": "Page range matched [14, 16], title discrepancy: 'Emotion-Aware AI Companion Pendant' vs 'PROJECT 4'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          54.72,
+          200.57,
+          87.77
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #4: PROJECT 4",
+        "evidenceId": "ev-guide-020-p14-b1",
+        "pageNumber": 14,
+        "sourceDocumentId": "guide-020",
+        "sourceHash": "4ede95cec207c88b3b4cde02e0f2966bf3585c2cb551d379701ae25df73bfc85",
+        "textSnippet": "PROJECT 4"
+      }
+    ],
     "guideId": "guide-020",
     "irPageRange": [
       14,
@@ -2011,7 +4017,24 @@
       19
     ],
     "catalogTitle": "Tactile Sense Augmentation Glove",
-    "discrepancyNote": "Catalog title 'Tactile Sense Augmentation Glove' reconciled with IR heading 'PROJECT 5'.",
+    "discrepancyNote": "Page range matched [17, 19], title discrepancy: 'Tactile Sense Augmentation Glove' vs 'PROJECT 5'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          54.72,
+          200.57,
+          87.77
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #5: PROJECT 5",
+        "evidenceId": "ev-guide-020-p17-b1",
+        "pageNumber": 17,
+        "sourceDocumentId": "guide-020",
+        "sourceHash": "4ede95cec207c88b3b4cde02e0f2966bf3585c2cb551d379701ae25df73bfc85",
+        "textSnippet": "PROJECT 5"
+      }
+    ],
     "guideId": "guide-020",
     "irPageRange": [
       17,
@@ -2028,7 +4051,24 @@
       23
     ],
     "catalogTitle": "Subvocal AI Command Interface",
-    "discrepancyNote": "Catalog title 'Subvocal AI Command Interface' reconciled with IR heading 'PROJECT 6'.",
+    "discrepancyNote": "Page range matched [20, 23], title discrepancy: 'Subvocal AI Command Interface' vs 'PROJECT 6'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          54.72,
+          200.57,
+          87.77
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #6: PROJECT 6",
+        "evidenceId": "ev-guide-020-p20-b1",
+        "pageNumber": 20,
+        "sourceDocumentId": "guide-020",
+        "sourceHash": "4ede95cec207c88b3b4cde02e0f2966bf3585c2cb551d379701ae25df73bfc85",
+        "textSnippet": "PROJECT 6"
+      }
+    ],
     "guideId": "guide-020",
     "irPageRange": [
       20,
@@ -2042,14 +4082,31 @@
   {
     "catalogPageRange": [
       3,
-      4
+      3
     ],
     "catalogTitle": "Smart Energy Monitor IoT",
-    "discrepancyNote": "Catalog title 'Smart Energy Monitor IoT' reconciled with IR heading '#1'.",
+    "discrepancyNote": "Page range matched [3, 3], title discrepancy: 'Smart Energy Monitor IoT' vs '#1'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          70.8,
+          61.64,
+          101.94,
+          100.2
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #1: #1",
+        "evidenceId": "ev-guide-021-p3-b1",
+        "pageNumber": 3,
+        "sourceDocumentId": "guide-021",
+        "sourceHash": "fd932845b67b6c5917fe5891af5daece6a38b575429aae3f3d5e86309d49ba88",
+        "textSnippet": "#1"
+      }
+    ],
     "guideId": "guide-021",
     "irPageRange": [
       3,
-      4
+      3
     ],
     "irTitle": "#1",
     "projectId": "proj-413f063f71e7017e",
@@ -2058,173 +4115,343 @@
   },
   {
     "catalogPageRange": [
-      5,
-      6
+      3,
+      3
     ],
     "catalogTitle": "Gesture-Controlled EMG Robot Arm",
-    "discrepancyNote": "Catalog title 'Gesture-Controlled EMG Robot Arm' reconciled with IR heading '#2'.",
+    "discrepancyNote": "Page range matched [3, 3], title discrepancy: 'Gesture-Controlled EMG Robot Arm' vs 'Step 2: Add voltage sensing. Wire the ZMPT101B and combine with current data to calculate'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          90.8,
+          634.81,
+          523.82,
+          649.32
+        ],
+        "blockIndex": 25,
+        "claim": "Delimitador de inicio para Project #2: Step 2: Add voltage sensing. Wire the ZMPT101B and combine with current data to calculate",
+        "evidenceId": "ev-guide-021-p3-b25",
+        "pageNumber": 3,
+        "sourceDocumentId": "guide-021",
+        "sourceHash": "fd932845b67b6c5917fe5891af5daece6a38b575429aae3f3d5e86309d49ba88",
+        "textSnippet": "Step 2: Add voltage sensing. Wire the ZMPT101B and combine with current data to calculate"
+      }
+    ],
     "guideId": "guide-021",
     "irPageRange": [
-      5,
-      6
+      3,
+      3
     ],
-    "irTitle": "#2",
+    "irTitle": "Step 2: Add voltage sensing. Wire the ZMPT101B and combine with current data to calculate",
     "projectId": "proj-8bf5eb8c424af41d",
     "projectNumber": 2,
     "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      7,
-      8
+      3,
+      3
     ],
     "catalogTitle": "Custom PCB Synthesizer",
-    "discrepancyNote": "Catalog title 'Custom PCB Synthesizer' reconciled with IR heading '#3'.",
+    "discrepancyNote": "Page range matched [3, 3], title discrepancy: 'Custom PCB Synthesizer' vs 'Step 3: Set up wireless transmission. Connect your ESP32 to WiFi and send data to ThingSpeak'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          90.8,
+          670.81,
+          541.2,
+          685.32
+        ],
+        "blockIndex": 27,
+        "claim": "Delimitador de inicio para Project #3: Step 3: Set up wireless transmission. Connect your ESP32 to WiFi and send data to ThingSpeak",
+        "evidenceId": "ev-guide-021-p3-b27",
+        "pageNumber": 3,
+        "sourceDocumentId": "guide-021",
+        "sourceHash": "fd932845b67b6c5917fe5891af5daece6a38b575429aae3f3d5e86309d49ba88",
+        "textSnippet": "Step 3: Set up wireless transmission. Connect your ESP32 to WiFi and send data to ThingSpeak"
+      }
+    ],
     "guideId": "guide-021",
     "irPageRange": [
-      7,
-      8
+      3,
+      3
     ],
-    "irTitle": "#3",
+    "irTitle": "Step 3: Set up wireless transmission. Connect your ESP32 to WiFi and send data to ThingSpeak",
     "projectId": "proj-d907a172b792666e",
     "projectNumber": 3,
     "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      9,
-      10
+      4,
+      4
     ],
     "catalogTitle": "MPPT Solar Charge Controller",
-    "discrepancyNote": "Catalog title 'MPPT Solar Charge Controller' reconciled with IR heading '#4'.",
+    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'MPPT Solar Charge Controller' vs 'Step 4: Build the dashboard. Use ThingSpeak's built-in charts or build a simple web dashboard'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          90.8,
+          62.81,
+          532.24,
+          77.32
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #4: Step 4: Build the dashboard. Use ThingSpeak's built-in charts or build a simple web dashboard",
+        "evidenceId": "ev-guide-021-p4-b1",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-021",
+        "sourceHash": "fd932845b67b6c5917fe5891af5daece6a38b575429aae3f3d5e86309d49ba88",
+        "textSnippet": "Step 4: Build the dashboard. Use ThingSpeak's built-in charts or build a simple web dashboard"
+      }
+    ],
     "guideId": "guide-021",
     "irPageRange": [
-      9,
-      10
+      4,
+      4
     ],
-    "irTitle": "#4",
+    "irTitle": "Step 4: Build the dashboard. Use ThingSpeak's built-in charts or build a simple web dashboard",
     "projectId": "proj-f43ec7657436aaca",
     "projectNumber": 4,
     "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      11,
-      12
+      4,
+      4
     ],
     "catalogTitle": "Software-Defined Radio Receiver",
-    "discrepancyNote": "Catalog title 'Software-Defined Radio Receiver' reconciled with IR heading '#5'.",
+    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'Software-Defined Radio Receiver' vs 'Step 5: Add alerting. Set up notifications (email or push) when power consumption exceeds a'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          90.8,
+          114.81,
+          524.99,
+          129.32
+        ],
+        "blockIndex": 4,
+        "claim": "Delimitador de inicio para Project #5: Step 5: Add alerting. Set up notifications (email or push) when power consumption exceeds a",
+        "evidenceId": "ev-guide-021-p4-b4",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-021",
+        "sourceHash": "fd932845b67b6c5917fe5891af5daece6a38b575429aae3f3d5e86309d49ba88",
+        "textSnippet": "Step 5: Add alerting. Set up notifications (email or push) when power consumption exceeds a"
+      }
+    ],
     "guideId": "guide-021",
     "irPageRange": [
-      11,
-      12
+      4,
+      4
     ],
-    "irTitle": "#5",
+    "irTitle": "Step 5: Add alerting. Set up notifications (email or push) when power consumption exceeds a",
     "projectId": "proj-1c96697431543b30",
     "projectNumber": 5,
     "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      13,
+      4,
       15
     ],
     "catalogTitle": "PID Self-Balancing Robot",
-    "discrepancyNote": "Catalog title 'PID Self-Balancing Robot' reconciled with IR heading '#6'.",
+    "discrepancyNote": "Page range matched [4, 15], title discrepancy: 'PID Self-Balancing Robot' vs 'Step 6: Package it. Put the electronics in a small enclosure. Document the full build with photos,'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          90.8,
+          150.81,
+          537.24,
+          165.32
+        ],
+        "blockIndex": 6,
+        "claim": "Delimitador de inicio para Project #6: Step 6: Package it. Put the electronics in a small enclosure. Document the full build with photos,",
+        "evidenceId": "ev-guide-021-p4-b6",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-021",
+        "sourceHash": "fd932845b67b6c5917fe5891af5daece6a38b575429aae3f3d5e86309d49ba88",
+        "textSnippet": "Step 6: Package it. Put the electronics in a small enclosure. Document the full build with photos,"
+      }
+    ],
     "guideId": "guide-021",
     "irPageRange": [
-      13,
+      4,
       15
     ],
-    "irTitle": "#6",
+    "irTitle": "Step 6: Package it. Put the electronics in a small enclosure. Document the full build with photos,",
     "projectId": "proj-d8c93538c64e97f6",
     "projectNumber": 6,
     "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      2,
-      2
+      3,
+      3
     ],
     "catalogTitle": "El Gancho de la Reciprocidad y Visibilidad",
-    "discrepancyNote": "Exact title and boundary match.",
+    "discrepancyNote": "Page range matched [3, 3], title discrepancy: 'El Gancho de la Reciprocidad y Visibilidad' vs 'Collect Contacts Before You Need Them'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          60.0,
+          59.23,
+          462.57,
+          103.45
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #1: Collect Contacts Before You Need Them",
+        "evidenceId": "ev-guide-022-p3-b1",
+        "pageNumber": 3,
+        "sourceDocumentId": "guide-022",
+        "sourceHash": "67abfeb6fcf5253d18ca9ba499f7f3aee18091190f05f28242749f2e569e3444",
+        "textSnippet": "STEP 01\nCollect Contacts Before You Need Them"
+      }
+    ],
     "guideId": "guide-022",
     "irPageRange": [
-      2,
-      2
+      3,
+      3
     ],
-    "irTitle": "El Gancho de la Reciprocidad y Visibilidad",
+    "irTitle": "Collect Contacts Before You Need Them",
     "projectId": "proj-08d95f39921234f1",
     "projectNumber": 1,
-    "status": "MATCH"
+    "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      2,
-      8
+      4,
+      4
     ],
     "catalogTitle": "La Redacción del Correo Frío Irrechazable",
-    "discrepancyNote": "Exact title and boundary match.",
+    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'La Redacción del Correo Frío Irrechazable' vs 'Pitch Their Win, Not Your Need'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          60.0,
+          59.23,
+          370.38,
+          103.45
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #2: Pitch Their Win, Not Your Need",
+        "evidenceId": "ev-guide-022-p4-b1",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-022",
+        "sourceHash": "67abfeb6fcf5253d18ca9ba499f7f3aee18091190f05f28242749f2e569e3444",
+        "textSnippet": "STEP 02\nPitch Their Win, Not Your Need"
+      }
+    ],
     "guideId": "guide-022",
     "irPageRange": [
-      2,
-      8
+      4,
+      4
     ],
-    "irTitle": "La Redacción del Correo Frío Irrechazable",
+    "irTitle": "Pitch Their Win, Not Your Need",
     "projectId": "proj-273ead6161abcad3",
     "projectNumber": 2,
-    "status": "MATCH"
+    "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      8,
-      8
+      5,
+      5
     ],
     "catalogTitle": "La Presentación del Plan de Investigación",
-    "discrepancyNote": "Catalog title 'La Presentación del Plan de Investigación' reconciled with IR heading '3 follow-ups minimum. Polite. Persistent. Specific. Don't stop after silence.'.",
+    "discrepancyNote": "Page range matched [5, 5], title discrepancy: 'La Presentación del Plan de Investigación' vs 'Reframe, Don't Retreat'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          60.0,
+          59.23,
+          286.69,
+          103.45
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #3: Reframe, Don't Retreat",
+        "evidenceId": "ev-guide-022-p5-b1",
+        "pageNumber": 5,
+        "sourceDocumentId": "guide-022",
+        "sourceHash": "67abfeb6fcf5253d18ca9ba499f7f3aee18091190f05f28242749f2e569e3444",
+        "textSnippet": "STEP 03\nReframe, Don't Retreat"
+      }
+    ],
     "guideId": "guide-022",
     "irPageRange": [
-      8,
-      8
+      5,
+      5
     ],
-    "irTitle": "3 follow-ups minimum. Polite. Persistent. Specific. Don't stop after silence.",
+    "irTitle": "Reframe, Don't Retreat",
     "projectId": "proj-33e829cad7110af3",
     "projectNumber": 3,
     "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      8,
-      8
+      6,
+      6
     ],
     "catalogTitle": "Logística, Seguros y Contratos de Comodato",
-    "discrepancyNote": "Exact title and boundary match.",
+    "discrepancyNote": "Page range matched [6, 6], title discrepancy: 'Logística, Seguros y Contratos de Comodato' vs 'Make It Embarrassingly Easy to Say Yes'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          60.0,
+          59.23,
+          461.52,
+          103.45
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #4: Make It Embarrassingly Easy to Say Yes",
+        "evidenceId": "ev-guide-022-p6-b1",
+        "pageNumber": 6,
+        "sourceDocumentId": "guide-022",
+        "sourceHash": "67abfeb6fcf5253d18ca9ba499f7f3aee18091190f05f28242749f2e569e3444",
+        "textSnippet": "STEP 04\nMake It Embarrassingly Easy to Say Yes"
+      }
+    ],
     "guideId": "guide-022",
     "irPageRange": [
-      8,
-      8
+      6,
+      6
     ],
-    "irTitle": "Logística, Seguros y Contratos de Comodato",
+    "irTitle": "Make It Embarrassingly Easy to Say Yes",
     "projectId": "proj-f7ffbdd7d6579c7b",
     "projectNumber": 4,
-    "status": "MATCH"
+    "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      8,
+      7,
       11
     ],
     "catalogTitle": "Programación KRL, Puesta en Marcha y Retorno",
-    "discrepancyNote": "Exact title and boundary match.",
+    "discrepancyNote": "Page range matched [7, 11], title discrepancy: 'Programación KRL, Puesta en Marcha y Retorno' vs 'Follow Up Like Your Life Depends on It'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          60.0,
+          59.23,
+          449.74,
+          103.45
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #5: Follow Up Like Your Life Depends on It",
+        "evidenceId": "ev-guide-022-p7-b1",
+        "pageNumber": 7,
+        "sourceDocumentId": "guide-022",
+        "sourceHash": "67abfeb6fcf5253d18ca9ba499f7f3aee18091190f05f28242749f2e569e3444",
+        "textSnippet": "STEP 05\nFollow Up Like Your Life Depends on It"
+      }
+    ],
     "guideId": "guide-022",
     "irPageRange": [
-      8,
+      7,
       11
     ],
-    "irTitle": "Programación KRL, Puesta en Marcha y Retorno",
+    "irTitle": "Follow Up Like Your Life Depends on It",
     "projectId": "proj-a1795bd7588ca33b",
     "projectNumber": 5,
-    "status": "MATCH"
+    "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
@@ -2232,16 +4459,33 @@
       2
     ],
     "catalogTitle": "Paso 1: Salta la teoría y compra un kit de Arduino",
-    "discrepancyNote": "Exact title and boundary match.",
+    "discrepancyNote": "Page range matched [2, 2], title discrepancy: 'Paso 1: Salta la teoría y compra un kit de Arduino' vs 'Skip the theory at first. Get a breadboard and an Arduino kit.'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          71.2,
+          97.39,
+          499.0,
+          123.26
+        ],
+        "blockIndex": 2,
+        "claim": "Delimitador de inicio para Project #1: Skip the theory at first. Get a breadboard and an Arduino kit.",
+        "evidenceId": "ev-guide-023-p2-b2",
+        "pageNumber": 2,
+        "sourceDocumentId": "guide-023",
+        "sourceHash": "5f3ba1c228eb16e42d8ebc1b2f8540856f0c9056057b3f82837b88c3b3c14b91",
+        "textSnippet": "STEP 01\nSkip the theory at first. Get a breadboard and an Arduino kit."
+      }
+    ],
     "guideId": "guide-023",
     "irPageRange": [
       2,
       2
     ],
-    "irTitle": "Paso 1: Salta la teoría y compra un kit de Arduino",
+    "irTitle": "Skip the theory at first. Get a breadboard and an Arduino kit.",
     "projectId": "proj-985a367fdabbc644",
     "projectNumber": 1,
-    "status": "MATCH"
+    "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
@@ -2249,16 +4493,33 @@
       2
     ],
     "catalogTitle": "Paso 2: Hazte con un multímetro y mide voltajes reales",
-    "discrepancyNote": "Exact title and boundary match.",
+    "discrepancyNote": "Page range matched [2, 2], title discrepancy: 'Paso 2: Hazte con un multímetro y mide voltajes reales' vs 'Blink an LED. Then a buzzer. Then a button.'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          71.2,
+          292.49,
+          367.9,
+          318.36
+        ],
+        "blockIndex": 7,
+        "claim": "Delimitador de inicio para Project #2: Blink an LED. Then a buzzer. Then a button.",
+        "evidenceId": "ev-guide-023-p2-b7",
+        "pageNumber": 2,
+        "sourceDocumentId": "guide-023",
+        "sourceHash": "5f3ba1c228eb16e42d8ebc1b2f8540856f0c9056057b3f82837b88c3b3c14b91",
+        "textSnippet": "STEP 02\nBlink an LED. Then a buzzer. Then a button."
+      }
+    ],
     "guideId": "guide-023",
     "irPageRange": [
       2,
       2
     ],
-    "irTitle": "Paso 2: Hazte con un multímetro y mide voltajes reales",
+    "irTitle": "Blink an LED. Then a buzzer. Then a button.",
     "projectId": "proj-94fe7239accddca6",
     "projectNumber": 2,
-    "status": "MATCH"
+    "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
@@ -2266,79 +4527,164 @@
       2
     ],
     "catalogTitle": "Paso 3: Construye tu primer circuito analógico sin código",
-    "discrepancyNote": "Exact title and boundary match.",
+    "discrepancyNote": "Page range matched [2, 2], title discrepancy: 'Paso 3: Construye tu primer circuito analógico sin código' vs 'Now learn the theory you just used.'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          71.2,
+          487.59,
+          312.7,
+          513.46
+        ],
+        "blockIndex": 12,
+        "claim": "Delimitador de inicio para Project #3: Now learn the theory you just used.",
+        "evidenceId": "ev-guide-023-p2-b12",
+        "pageNumber": 2,
+        "sourceDocumentId": "guide-023",
+        "sourceHash": "5f3ba1c228eb16e42d8ebc1b2f8540856f0c9056057b3f82837b88c3b3c14b91",
+        "textSnippet": "STEP 03\nNow learn the theory you just used."
+      }
+    ],
     "guideId": "guide-023",
     "irPageRange": [
       2,
       2
     ],
-    "irTitle": "Paso 3: Construye tu primer circuito analógico sin código",
+    "irTitle": "Now learn the theory you just used.",
     "projectId": "proj-e8453ca3d13f58fb",
     "projectNumber": 3,
-    "status": "MATCH"
+    "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      2,
-      2
+      3,
+      3
     ],
     "catalogTitle": "Paso 4: Aprende a soldar temprano con un kit de práctica",
-    "discrepancyNote": "Exact title and boundary match.",
+    "discrepancyNote": "Page range matched [3, 3], title discrepancy: 'Paso 4: Aprende a soldar temprano con un kit de práctica' vs 'Learn to solder early. It's easier than it looks.'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          71.2,
+          67.39,
+          409.3,
+          93.26
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #4: Learn to solder early. It's easier than it looks.",
+        "evidenceId": "ev-guide-023-p3-b1",
+        "pageNumber": 3,
+        "sourceDocumentId": "guide-023",
+        "sourceHash": "5f3ba1c228eb16e42d8ebc1b2f8540856f0c9056057b3f82837b88c3b3c14b91",
+        "textSnippet": "STEP 04\nLearn to solder early. It's easier than it looks."
+      }
+    ],
     "guideId": "guide-023",
     "irPageRange": [
-      2,
-      2
+      3,
+      3
     ],
-    "irTitle": "Paso 4: Aprende a soldar temprano con un kit de práctica",
+    "irTitle": "Learn to solder early. It's easier than it looks.",
     "projectId": "proj-7b2012360f90ea4a",
     "projectNumber": 4,
-    "status": "MATCH"
+    "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      2,
-      2
+      3,
+      3
     ],
     "catalogTitle": "Paso 5: Pasa de la protoboard a KiCad y diseña tu primera PCB",
-    "discrepancyNote": "Exact title and boundary match.",
+    "discrepancyNote": "Page range matched [3, 3], title discrepancy: 'Paso 5: Pasa de la protoboard a KiCad y diseña tu primera PCB' vs 'Measure everything. Multimeter first, oscilloscope later.'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          71.2,
+          276.29,
+          464.5,
+          302.16
+        ],
+        "blockIndex": 7,
+        "claim": "Delimitador de inicio para Project #5: Measure everything. Multimeter first, oscilloscope later.",
+        "evidenceId": "ev-guide-023-p3-b7",
+        "pageNumber": 3,
+        "sourceDocumentId": "guide-023",
+        "sourceHash": "5f3ba1c228eb16e42d8ebc1b2f8540856f0c9056057b3f82837b88c3b3c14b91",
+        "textSnippet": "STEP 05\nMeasure everything. Multimeter first, oscilloscope later."
+      }
+    ],
     "guideId": "guide-023",
     "irPageRange": [
-      2,
-      2
+      3,
+      3
     ],
-    "irTitle": "Paso 5: Pasa de la protoboard a KiCad y diseña tu primera PCB",
+    "irTitle": "Measure everything. Multimeter first, oscilloscope later.",
     "projectId": "proj-e17fbdd168fa8192",
     "projectNumber": 5,
-    "status": "MATCH"
+    "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      2,
+      3,
       5
     ],
     "catalogTitle": "Paso 6: Construye un proyecto físico que realmente quieras usar",
-    "discrepancyNote": "Exact title and boundary match.",
+    "discrepancyNote": "Page range matched [3, 5], title discrepancy: 'Paso 6: Construye un proyecto físico que realmente quieras usar' vs 'Build one real project you actually want to use.'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          71.2,
+          471.39,
+          402.4,
+          497.26
+        ],
+        "blockIndex": 12,
+        "claim": "Delimitador de inicio para Project #6: Build one real project you actually want to use.",
+        "evidenceId": "ev-guide-023-p3-b12",
+        "pageNumber": 3,
+        "sourceDocumentId": "guide-023",
+        "sourceHash": "5f3ba1c228eb16e42d8ebc1b2f8540856f0c9056057b3f82837b88c3b3c14b91",
+        "textSnippet": "STEP 06\nBuild one real project you actually want to use."
+      }
+    ],
     "guideId": "guide-023",
     "irPageRange": [
-      2,
+      3,
       5
     ],
-    "irTitle": "Paso 6: Construye un proyecto físico que realmente quieras usar",
+    "irTitle": "Build one real project you actually want to use.",
     "projectId": "proj-ecc4d19a4cc58c9d",
     "projectNumber": 6,
-    "status": "MATCH"
+    "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
       3,
-      5
+      4
     ],
     "catalogTitle": "PID Motor Speed Controller",
-    "discrepancyNote": "Catalog title 'PID Motor Speed Controller' reconciled with IR heading '#1'.",
+    "discrepancyNote": "Page range matched [3, 4], title discrepancy: 'PID Motor Speed Controller' vs '#1'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          58.04,
+          98.34,
+          96.6
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #1: #1",
+        "evidenceId": "ev-guide-024-p3-b1",
+        "pageNumber": 3,
+        "sourceDocumentId": "guide-024",
+        "sourceHash": "6e8bfcfa951eed1627e07a813ae93189b76e795d008c5d05842f69643ee96803",
+        "textSnippet": "#1"
+      }
+    ],
     "guideId": "guide-024",
     "irPageRange": [
       3,
-      5
+      4
     ],
     "irTitle": "#1",
     "projectId": "proj-9bbb01d5723f9f98",
@@ -2347,85 +4693,170 @@
   },
   {
     "catalogPageRange": [
-      6,
-      8
+      4,
+      4
     ],
     "catalogTitle": "Custom PCB — Design to Manufactured Board",
-    "discrepancyNote": "Catalog title 'Custom PCB — Design to Manufactured Board' reconciled with IR heading '#2'.",
+    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'Custom PCB — Design to Manufactured Board' vs 'Step 2: Implement basic open-loop control. Map a potentiometer on A0 to analogWrite() on the'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          87.2,
+          371.21,
+          527.81,
+          385.72
+        ],
+        "blockIndex": 16,
+        "claim": "Delimitador de inicio para Project #2: Step 2: Implement basic open-loop control. Map a potentiometer on A0 to analogWrite() on the",
+        "evidenceId": "ev-guide-024-p4-b16",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-024",
+        "sourceHash": "6e8bfcfa951eed1627e07a813ae93189b76e795d008c5d05842f69643ee96803",
+        "textSnippet": "Step 2: Implement basic open-loop control. Map a potentiometer on A0 to analogWrite() on the"
+      }
+    ],
     "guideId": "guide-024",
     "irPageRange": [
-      6,
-      8
+      4,
+      4
     ],
-    "irTitle": "#2",
+    "irTitle": "Step 2: Implement basic open-loop control. Map a potentiometer on A0 to analogWrite() on the",
     "projectId": "proj-299d699e04703cfd",
     "projectNumber": 2,
     "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      9,
-      11
+      4,
+      4
     ],
     "catalogTitle": "DIY Digital Multimeter with Input Protection",
-    "discrepancyNote": "Catalog title 'DIY Digital Multimeter with Input Protection' reconciled with IR heading '#3'.",
+    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'DIY Digital Multimeter with Input Protection' vs 'Step 3: Write the PID algorithm from scratch. Error = setpoint - actualRPM. P_term = Kp × error.'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          87.2,
+          423.21,
+          534.47,
+          437.72
+        ],
+        "blockIndex": 19,
+        "claim": "Delimitador de inicio para Project #3: Step 3: Write the PID algorithm from scratch. Error = setpoint - actualRPM. P_term = Kp × error.",
+        "evidenceId": "ev-guide-024-p4-b19",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-024",
+        "sourceHash": "6e8bfcfa951eed1627e07a813ae93189b76e795d008c5d05842f69643ee96803",
+        "textSnippet": "Step 3: Write the PID algorithm from scratch. Error = setpoint - actualRPM. P_term = Kp × error."
+      }
+    ],
     "guideId": "guide-024",
     "irPageRange": [
-      9,
-      11
+      4,
+      4
     ],
-    "irTitle": "#3",
+    "irTitle": "Step 3: Write the PID algorithm from scratch. Error = setpoint - actualRPM. P_term = Kp × error.",
     "projectId": "proj-98b4fd48453025f8",
     "projectNumber": 3,
     "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      12,
-      14
+      4,
+      4
     ],
     "catalogTitle": "Synchronous Buck Converter (12V to 5V 3A)",
-    "discrepancyNote": "Catalog title 'Synchronous Buck Converter (12V to 5V 3A)' reconciled with IR heading '#4'.",
+    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'Synchronous Buck Converter (12V to 5V 3A)' vs 'Step 4: Tune using Ziegler-Nichols. Set Ki=0, Kd=0. Increase Kp until the system oscillates'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          87.2,
+          475.21,
+          510.29,
+          489.72
+        ],
+        "blockIndex": 22,
+        "claim": "Delimitador de inicio para Project #4: Step 4: Tune using Ziegler-Nichols. Set Ki=0, Kd=0. Increase Kp until the system oscillates",
+        "evidenceId": "ev-guide-024-p4-b22",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-024",
+        "sourceHash": "6e8bfcfa951eed1627e07a813ae93189b76e795d008c5d05842f69643ee96803",
+        "textSnippet": "Step 4: Tune using Ziegler-Nichols. Set Ki=0, Kd=0. Increase Kp until the system oscillates"
+      }
+    ],
     "guideId": "guide-024",
     "irPageRange": [
-      12,
-      14
+      4,
+      4
     ],
-    "irTitle": "#4",
+    "irTitle": "Step 4: Tune using Ziegler-Nichols. Set Ki=0, Kd=0. Increase Kp until the system oscillates",
     "projectId": "proj-4a6d4e3bb6de27cb",
     "projectNumber": 4,
     "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      15,
-      17
+      4,
+      4
     ],
     "catalogTitle": "UART / SPI / I2C Protocol Analyzer",
-    "discrepancyNote": "Catalog title 'UART / SPI / I2C Protocol Analyzer' reconciled with IR heading '#5'.",
+    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'UART / SPI / I2C Protocol Analyzer' vs 'Step 5: Add Serial Plotter output. Print setpoint and actual RPM at 50Hz. Open Arduino Serial'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          87.2,
+          527.21,
+          523.15,
+          541.72
+        ],
+        "blockIndex": 25,
+        "claim": "Delimitador de inicio para Project #5: Step 5: Add Serial Plotter output. Print setpoint and actual RPM at 50Hz. Open Arduino Serial",
+        "evidenceId": "ev-guide-024-p4-b25",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-024",
+        "sourceHash": "6e8bfcfa951eed1627e07a813ae93189b76e795d008c5d05842f69643ee96803",
+        "textSnippet": "Step 5: Add Serial Plotter output. Print setpoint and actual RPM at 50Hz. Open Arduino Serial"
+      }
+    ],
     "guideId": "guide-024",
     "irPageRange": [
-      15,
-      17
+      4,
+      4
     ],
-    "irTitle": "#5",
+    "irTitle": "Step 5: Add Serial Plotter output. Print setpoint and actual RPM at 50Hz. Open Arduino Serial",
     "projectId": "proj-fb8e65ad8631b29f",
     "projectNumber": 5,
     "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      18,
+      4,
       21
     ],
     "catalogTitle": "FPGA LED Matrix Controller in Pure Verilog",
-    "discrepancyNote": "Catalog title 'FPGA LED Matrix Controller in Pure Verilog' reconciled with IR heading '#6'.",
+    "discrepancyNote": "Page range matched [4, 21], title discrepancy: 'FPGA LED Matrix Controller in Pure Verilog' vs 'Step 6: Document everything. Your GitHub README should include: the PID block diagram, your'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          87.2,
+          579.21,
+          541.2,
+          593.72
+        ],
+        "blockIndex": 28,
+        "claim": "Delimitador de inicio para Project #6: Step 6: Document everything. Your GitHub README should include: the PID block diagram, your",
+        "evidenceId": "ev-guide-024-p4-b28",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-024",
+        "sourceHash": "6e8bfcfa951eed1627e07a813ae93189b76e795d008c5d05842f69643ee96803",
+        "textSnippet": "Step 6: Document everything. Your GitHub README should include: the PID block diagram, your"
+      }
+    ],
     "guideId": "guide-024",
     "irPageRange": [
-      18,
+      4,
       21
     ],
-    "irTitle": "#6",
+    "irTitle": "Step 6: Document everything. Your GitHub README should include: the PID block diagram, your",
     "projectId": "proj-c54bad94d374ce6e",
     "projectNumber": 6,
     "status": "PARTIAL_MATCH"
@@ -2433,14 +4864,31 @@
   {
     "catalogPageRange": [
       3,
-      5
+      4
     ],
     "catalogTitle": "3D-Printed Gripper with Force Feedback",
-    "discrepancyNote": "Catalog title '3D-Printed Gripper with Force Feedback' reconciled with IR heading '#1'.",
+    "discrepancyNote": "Page range matched [3, 4], title discrepancy: '3D-Printed Gripper with Force Feedback' vs '#1'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          70.8,
+          61.64,
+          101.94,
+          100.2
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #1: #1",
+        "evidenceId": "ev-guide-025-p3-b1",
+        "pageNumber": 3,
+        "sourceDocumentId": "guide-025",
+        "sourceHash": "66bae01af4411981ae580568f9e82ebe82edd204be279bbc70bcf82aa894b629",
+        "textSnippet": "#1"
+      }
+    ],
     "guideId": "guide-025",
     "irPageRange": [
       3,
-      5
+      4
     ],
     "irTitle": "#1",
     "projectId": "proj-ebd06c8fe102558d",
@@ -2449,100 +4897,202 @@
   },
   {
     "catalogPageRange": [
-      6,
-      8
+      4,
+      4
     ],
     "catalogTitle": "Portable Wind Tunnel with Data Acquisition",
-    "discrepancyNote": "Catalog title 'Portable Wind Tunnel with Data Acquisition' reconciled with IR heading '#2'.",
+    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'Portable Wind Tunnel with Data Acquisition' vs 'Step 2: Print and assemble. Print the frame in PLA and the finger pads in TPU (flexible filament)'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          90.8,
+          314.81,
+          537.23,
+          329.32
+        ],
+        "blockIndex": 12,
+        "claim": "Delimitador de inicio para Project #2: Step 2: Print and assemble. Print the frame in PLA and the finger pads in TPU (flexible filament)",
+        "evidenceId": "ev-guide-025-p4-b12",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-025",
+        "sourceHash": "66bae01af4411981ae580568f9e82ebe82edd204be279bbc70bcf82aa894b629",
+        "textSnippet": "Step 2: Print and assemble. Print the frame in PLA and the finger pads in TPU (flexible filament)"
+      }
+    ],
     "guideId": "guide-025",
     "irPageRange": [
-      6,
-      8
+      4,
+      4
     ],
-    "irTitle": "#2",
+    "irTitle": "Step 2: Print and assemble. Print the frame in PLA and the finger pads in TPU (flexible filament)",
     "projectId": "proj-a50b337c8a6324a7",
     "projectNumber": 2,
     "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      9,
-      11
+      4,
+      4
     ],
     "catalogTitle": "Dual-Axis Solar Tracker",
-    "discrepancyNote": "Catalog title 'Dual-Axis Solar Tracker' reconciled with IR heading '#3'.",
+    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'Dual-Axis Solar Tracker' vs 'Step 3: Wire the FSR sensors. Mount force-sensitive resistors on the inner surface of each finger'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          90.8,
+          350.81,
+          541.2,
+          365.32
+        ],
+        "blockIndex": 14,
+        "claim": "Delimitador de inicio para Project #3: Step 3: Wire the FSR sensors. Mount force-sensitive resistors on the inner surface of each finger",
+        "evidenceId": "ev-guide-025-p4-b14",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-025",
+        "sourceHash": "66bae01af4411981ae580568f9e82ebe82edd204be279bbc70bcf82aa894b629",
+        "textSnippet": "Step 3: Wire the FSR sensors. Mount force-sensitive resistors on the inner surface of each finger"
+      }
+    ],
     "guideId": "guide-025",
     "irPageRange": [
-      9,
-      11
+      4,
+      4
     ],
-    "irTitle": "#3",
+    "irTitle": "Step 3: Wire the FSR sensors. Mount force-sensitive resistors on the inner surface of each finger",
     "projectId": "proj-076f8003b366c797",
     "projectNumber": 3,
     "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      12,
-      14
+      4,
+      4
     ],
     "catalogTitle": "PID Thermal Management System",
-    "discrepancyNote": "Catalog title 'PID Thermal Management System' reconciled with IR heading '#4'.",
+    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'PID Thermal Management System' vs 'Step 4: Write the control loop. Read FSR values → compare to target force → adjust servo'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          90.8,
+          386.81,
+          513.6,
+          401.32
+        ],
+        "blockIndex": 16,
+        "claim": "Delimitador de inicio para Project #4: Step 4: Write the control loop. Read FSR values → compare to target force → adjust servo",
+        "evidenceId": "ev-guide-025-p4-b16",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-025",
+        "sourceHash": "66bae01af4411981ae580568f9e82ebe82edd204be279bbc70bcf82aa894b629",
+        "textSnippet": "Step 4: Write the control loop. Read FSR values → compare to target force → adjust servo"
+      }
+    ],
     "guideId": "guide-025",
     "irPageRange": [
-      12,
-      14
+      4,
+      4
     ],
-    "irTitle": "#4",
+    "irTitle": "Step 4: Write the control loop. Read FSR values → compare to target force → adjust servo",
     "projectId": "proj-b4b49073df0bfb7a",
     "projectNumber": 4,
     "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      15,
-      17
+      4,
+      4
     ],
     "catalogTitle": "Desktop CNC Engraver Built From Scratch",
-    "discrepancyNote": "Catalog title 'Desktop CNC Engraver Built From Scratch' reconciled with IR heading '#5'.",
+    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'Desktop CNC Engraver Built From Scratch' vs 'Step 5: Test with different objects. Calibrate your force thresholds for soft objects (tomato, egg)'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          90.8,
+          438.81,
+          533.14,
+          453.32
+        ],
+        "blockIndex": 19,
+        "claim": "Delimitador de inicio para Project #5: Step 5: Test with different objects. Calibrate your force thresholds for soft objects (tomato, egg)",
+        "evidenceId": "ev-guide-025-p4-b19",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-025",
+        "sourceHash": "66bae01af4411981ae580568f9e82ebe82edd204be279bbc70bcf82aa894b629",
+        "textSnippet": "Step 5: Test with different objects. Calibrate your force thresholds for soft objects (tomato, egg)"
+      }
+    ],
     "guideId": "guide-025",
     "irPageRange": [
-      15,
-      17
+      4,
+      4
     ],
-    "irTitle": "#5",
+    "irTitle": "Step 5: Test with different objects. Calibrate your force thresholds for soft objects (tomato, egg)",
     "projectId": "proj-f2010ad0e3ac171f",
     "projectNumber": 5,
     "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      18,
+      4,
       22
     ],
     "catalogTitle": "Wireless Strain Gauge Bridge Monitor",
-    "discrepancyNote": "Catalog title 'Wireless Strain Gauge Bridge Monitor' reconciled with IR heading '#6'.",
+    "discrepancyNote": "Page range matched [4, 22], title discrepancy: 'Wireless Strain Gauge Bridge Monitor' vs 'Step 6: Document everything. Take photos at every stage. Create a GitHub repo with your CAD'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          90.8,
+          474.81,
+          536.06,
+          489.32
+        ],
+        "blockIndex": 21,
+        "claim": "Delimitador de inicio para Project #6: Step 6: Document everything. Take photos at every stage. Create a GitHub repo with your CAD",
+        "evidenceId": "ev-guide-025-p4-b21",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-025",
+        "sourceHash": "66bae01af4411981ae580568f9e82ebe82edd204be279bbc70bcf82aa894b629",
+        "textSnippet": "Step 6: Document everything. Take photos at every stage. Create a GitHub repo with your CAD"
+      }
+    ],
     "guideId": "guide-025",
     "irPageRange": [
-      18,
+      4,
       22
     ],
-    "irTitle": "#6",
+    "irTitle": "Step 6: Document everything. Take photos at every stage. Create a GitHub repo with your CAD",
     "projectId": "proj-23e2ffb84ec9c3a1",
     "projectNumber": 6,
     "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      2,
-      2
+      3,
+      4
     ],
     "catalogTitle": "Fundamentos de ML: Clasificación y Regresión Práctica",
     "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          70.8,
+          62.06,
+          435.05,
+          92.35
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #1: Fundamentos de ML: Clasificación y Regresión Práctica",
+        "evidenceId": "ev-guide-026-p3-b1",
+        "pageNumber": 3,
+        "sourceDocumentId": "guide-026",
+        "sourceHash": "c0cda1ecdc0ce02017f9b3d3075a5f50ff2128c2167ac87c4546a0675050a295",
+        "textSnippet": "The ML Foundation (For Everyone)"
+      }
+    ],
     "guideId": "guide-026",
     "irPageRange": [
-      2,
-      2
+      3,
+      4
     ],
     "irTitle": "Fundamentos de ML: Clasificación y Regresión Práctica",
     "projectId": "proj-d0cb11848d574a4c",
@@ -2551,15 +5101,32 @@
   },
   {
     "catalogPageRange": [
-      2,
-      2
+      4,
+      4
     ],
     "catalogTitle": "Ingeniería Mecánica: Mantenimiento Predictivo por Vibraciones",
     "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          70.8,
+          152.48,
+          253.97,
+          174.51
+        ],
+        "blockIndex": 4,
+        "claim": "Delimitador de inicio para Project #2: Ingeniería Mecánica: Mantenimiento Predictivo por Vibraciones",
+        "evidenceId": "ev-guide-026-p4-b4",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-026",
+        "sourceHash": "c0cda1ecdc0ce02017f9b3d3075a5f50ff2128c2167ac87c4546a0675050a295",
+        "textSnippet": "Mechanical Engineering"
+      }
+    ],
     "guideId": "guide-026",
     "irPageRange": [
-      2,
-      2
+      4,
+      4
     ],
     "irTitle": "Ingeniería Mecánica: Mantenimiento Predictivo por Vibraciones",
     "projectId": "proj-b8a0c0bf81327cd5",
@@ -2568,15 +5135,32 @@
   },
   {
     "catalogPageRange": [
-      2,
-      2
+      4,
+      5
     ],
     "catalogTitle": "Ingeniería Electrónica: Clasificación de Señales de ECG en Tiempo Real",
     "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          70.8,
+          558.48,
+          238.86,
+          580.51
+        ],
+        "blockIndex": 22,
+        "claim": "Delimitador de inicio para Project #3: Ingeniería Electrónica: Clasificación de Señales de ECG en Tiempo Real",
+        "evidenceId": "ev-guide-026-p4-b22",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-026",
+        "sourceHash": "c0cda1ecdc0ce02017f9b3d3075a5f50ff2128c2167ac87c4546a0675050a295",
+        "textSnippet": "Electrical Engineering"
+      }
+    ],
     "guideId": "guide-026",
     "irPageRange": [
-      2,
-      2
+      4,
+      5
     ],
     "irTitle": "Ingeniería Electrónica: Clasificación de Señales de ECG en Tiempo Real",
     "projectId": "proj-142a8ad6bfd16388",
@@ -2585,15 +5169,32 @@
   },
   {
     "catalogPageRange": [
-      2,
-      2
+      5,
+      5
     ],
     "catalogTitle": "Despliegue de Edge AI y TinyML en Microcontroladores",
     "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          90.8,
+          202.81,
+          300.44,
+          217.32
+        ],
+        "blockIndex": 8,
+        "claim": "Delimitador de inicio para Project #4: Despliegue de Edge AI y TinyML en Microcontroladores",
+        "evidenceId": "ev-guide-026-p5-b8",
+        "pageNumber": 5,
+        "sourceDocumentId": "guide-026",
+        "sourceHash": "c0cda1ecdc0ce02017f9b3d3075a5f50ff2128c2167ac87c4546a0675050a295",
+        "textSnippet": "• TinyML — ML that runs on microcontrollers"
+      }
+    ],
     "guideId": "guide-026",
     "irPageRange": [
-      2,
-      2
+      5,
+      5
     ],
     "irTitle": "Despliegue de Edge AI y TinyML en Microcontroladores",
     "projectId": "proj-df20c0bdfa75937d",
@@ -2602,15 +5203,32 @@
   },
   {
     "catalogPageRange": [
-      2,
-      2
+      6,
+      8
     ],
     "catalogTitle": "Ingeniería Química: Modelado y Optimización de Reactores",
     "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          70.8,
+          62.48,
+          314.45,
+          84.51
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #5: Ingeniería Química: Modelado y Optimización de Reactores",
+        "evidenceId": "ev-guide-026-p6-b1",
+        "pageNumber": 6,
+        "sourceDocumentId": "guide-026",
+        "sourceHash": "c0cda1ecdc0ce02017f9b3d3075a5f50ff2128c2167ac87c4546a0675050a295",
+        "textSnippet": "Chemical / Process Engineering"
+      }
+    ],
     "guideId": "guide-026",
     "irPageRange": [
-      2,
-      2
+      6,
+      8
     ],
     "irTitle": "Ingeniería Química: Modelado y Optimización de Reactores",
     "projectId": "proj-a7146a92cd710d09",
@@ -2619,14 +5237,31 @@
   },
   {
     "catalogPageRange": [
-      2,
+      9,
       10
     ],
     "catalogTitle": "Proyecto Integrador para Portafolio de Ingeniería",
     "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          70.8,
+          62.06,
+          345.89,
+          92.35
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #6: Proyecto Integrador para Portafolio de Ingeniería",
+        "evidenceId": "ev-guide-026-p9-b1",
+        "pageNumber": 9,
+        "sourceDocumentId": "guide-026",
+        "sourceHash": "c0cda1ecdc0ce02017f9b3d3075a5f50ff2128c2167ac87c4546a0675050a295",
+        "textSnippet": "The 8-Week Kickstart Plan"
+      }
+    ],
     "guideId": "guide-026",
     "irPageRange": [
-      2,
+      9,
       10
     ],
     "irTitle": "Proyecto Integrador para Portafolio de Ingeniería",
@@ -2636,68 +5271,136 @@
   },
   {
     "catalogPageRange": [
-      2,
-      2
+      4,
+      4
     ],
     "catalogTitle": "Conexionado de Pantalla OLED SPI 2.42\"",
-    "discrepancyNote": "Catalog title 'Conexionado de Pantalla OLED SPI 2.42\"' reconciled with IR heading '1 Parts you need'.",
+    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'Conexionado de Pantalla OLED SPI 2.42\"' vs '1'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          232.21,
+          123.94,
+          236.92,
+          126.38
+        ],
+        "blockIndex": 26,
+        "claim": "Delimitador de inicio para Project #1: 1",
+        "evidenceId": "ev-guide-027-p4-b26",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-027",
+        "sourceHash": "b62ddd05208ffd48b1d19499765a9c2159def1f85c4af879b9d4e3f7ac09e9b2",
+        "textSnippet": "1"
+      }
+    ],
     "guideId": "guide-027",
     "irPageRange": [
-      2,
-      2
+      4,
+      4
     ],
-    "irTitle": "1 Parts you need",
+    "irTitle": "1",
     "projectId": "proj-e1043df73e599c7e",
     "projectNumber": 1,
     "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      2,
-      2
+      4,
+      4
     ],
     "catalogTitle": "Control Analógico por Potenciómetro Slider",
-    "discrepancyNote": "Catalog title 'Control Analógico por Potenciómetro Slider' reconciled with IR heading '2 Wiring'.",
+    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'Control Analógico por Potenciómetro Slider' vs '2'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          224.41,
+          123.95,
+          229.12,
+          126.39
+        ],
+        "blockIndex": 25,
+        "claim": "Delimitador de inicio para Project #2: 2",
+        "evidenceId": "ev-guide-027-p4-b25",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-027",
+        "sourceHash": "b62ddd05208ffd48b1d19499765a9c2159def1f85c4af879b9d4e3f7ac09e9b2",
+        "textSnippet": "2"
+      }
+    ],
     "guideId": "guide-027",
     "irPageRange": [
-      2,
-      2
+      4,
+      4
     ],
-    "irTitle": "2 Wiring",
+    "irTitle": "2",
     "projectId": "proj-826e6c7a2db1364c",
     "projectNumber": 2,
     "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      2,
-      2
+      4,
+      4
     ],
     "catalogTitle": "Generador de Audio Retro por Buzzer",
-    "discrepancyNote": "Catalog title 'Generador de Audio Retro por Buzzer' reconciled with IR heading '3 Before you power up'.",
+    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'Generador de Audio Retro por Buzzer' vs '3'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          216.61,
+          123.94,
+          221.32,
+          126.38
+        ],
+        "blockIndex": 24,
+        "claim": "Delimitador de inicio para Project #3: 3",
+        "evidenceId": "ev-guide-027-p4-b24",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-027",
+        "sourceHash": "b62ddd05208ffd48b1d19499765a9c2159def1f85c4af879b9d4e3f7ac09e9b2",
+        "textSnippet": "3"
+      }
+    ],
     "guideId": "guide-027",
     "irPageRange": [
-      2,
-      2
+      4,
+      4
     ],
-    "irTitle": "3 Before you power up",
+    "irTitle": "3",
     "projectId": "proj-3ba9067a3ab5ef6b",
     "projectNumber": 3,
     "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      2,
+      4,
       15
     ],
     "catalogTitle": "Compilación y Flasheo de los 2 Juegos",
-    "discrepancyNote": "Catalog title 'Compilación y Flasheo de los 2 Juegos' reconciled with IR heading '4 Install the toolchain'.",
+    "discrepancyNote": "Page range matched [4, 15], title discrepancy: 'Compilación y Flasheo de los 2 Juegos' vs '4'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          208.81,
+          123.95,
+          213.52,
+          126.39
+        ],
+        "blockIndex": 23,
+        "claim": "Delimitador de inicio para Project #4: 4",
+        "evidenceId": "ev-guide-027-p4-b23",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-027",
+        "sourceHash": "b62ddd05208ffd48b1d19499765a9c2159def1f85c4af879b9d4e3f7ac09e9b2",
+        "textSnippet": "4"
+      }
+    ],
     "guideId": "guide-027",
     "irPageRange": [
-      2,
+      4,
       15
     ],
-    "irTitle": "4 Install the toolchain",
+    "irTitle": "4",
     "projectId": "proj-c535080789ede7a1",
     "projectNumber": 4,
     "status": "PARTIAL_MATCH"
@@ -2708,7 +5411,24 @@
       3
     ],
     "catalogTitle": "Learning the Art of Electronics Lab",
-    "discrepancyNote": "Catalog title 'Learning the Art of Electronics Lab' reconciled with IR heading '01  Learning the Art of Electronics'.",
+    "discrepancyNote": "Page range matched [3, 3], title discrepancy: 'Learning the Art of Electronics Lab' vs '01  Learning the Art of Electronics'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          140.05,
+          361.2,
+          158.25
+        ],
+        "blockIndex": 4,
+        "claim": "Delimitador de inicio para Project #1: 01  Learning the Art of Electronics",
+        "evidenceId": "ev-guide-028-p3-b4",
+        "pageNumber": 3,
+        "sourceDocumentId": "guide-028",
+        "sourceHash": "a1d4397fa62aead0cc5cb90443490e8cacdddcbe7c26429d6d9e94c7b4aee31d",
+        "textSnippet": "01  Learning the Art of Electronics"
+      }
+    ],
     "guideId": "guide-028",
     "irPageRange": [
       3,
@@ -2725,7 +5445,24 @@
       3
     ],
     "catalogTitle": "Phil's Lab High-Speed Hardware Design",
-    "discrepancyNote": "Catalog title 'Phil's Lab High-Speed Hardware Design' reconciled with IR heading '02  Phil's Lab'.",
+    "discrepancyNote": "Page range matched [3, 3], title discrepancy: 'Phil's Lab High-Speed Hardware Design' vs '02  Phil's Lab'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          394.55,
+          184.8,
+          412.75
+        ],
+        "blockIndex": 17,
+        "claim": "Delimitador de inicio para Project #2: 02  Phil's Lab",
+        "evidenceId": "ev-guide-028-p3-b17",
+        "pageNumber": 3,
+        "sourceDocumentId": "guide-028",
+        "sourceHash": "a1d4397fa62aead0cc5cb90443490e8cacdddcbe7c26429d6d9e94c7b4aee31d",
+        "textSnippet": "02  Phil's Lab"
+      }
+    ],
     "guideId": "guide-028",
     "irPageRange": [
       3,
@@ -2742,7 +5479,24 @@
       4
     ],
     "catalogTitle": "Ben Eater 8-bit Discrete TTL Computer",
-    "discrepancyNote": "Catalog title 'Ben Eater 8-bit Discrete TTL Computer' reconciled with IR heading '03  Ben Eater'.",
+    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'Ben Eater 8-bit Discrete TTL Computer' vs '03  Ben Eater'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          74.05,
+          176.4,
+          92.25
+        ],
+        "blockIndex": 2,
+        "claim": "Delimitador de inicio para Project #3: 03  Ben Eater",
+        "evidenceId": "ev-guide-028-p4-b2",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-028",
+        "sourceHash": "a1d4397fa62aead0cc5cb90443490e8cacdddcbe7c26429d6d9e94c7b4aee31d",
+        "textSnippet": "03  Ben Eater"
+      }
+    ],
     "guideId": "guide-028",
     "irPageRange": [
       4,
@@ -2759,7 +5513,24 @@
       4
     ],
     "catalogTitle": "Contextual Electronics Board Bring-up",
-    "discrepancyNote": "Catalog title 'Contextual Electronics Board Bring-up' reconciled with IR heading '04  Contextual Electronics'.",
+    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'Contextual Electronics Board Bring-up' vs '04  Contextual Electronics'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          297.55,
+          285.6,
+          315.75
+        ],
+        "blockIndex": 13,
+        "claim": "Delimitador de inicio para Project #4: 04  Contextual Electronics",
+        "evidenceId": "ev-guide-028-p4-b13",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-028",
+        "sourceHash": "a1d4397fa62aead0cc5cb90443490e8cacdddcbe7c26429d6d9e94c7b4aee31d",
+        "textSnippet": "04  Contextual Electronics"
+      }
+    ],
     "guideId": "guide-028",
     "irPageRange": [
       4,
@@ -2776,7 +5547,24 @@
       5
     ],
     "catalogTitle": "MIT OCW Feedback Control Implementer",
-    "discrepancyNote": "Catalog title 'MIT OCW Feedback Control Implementer' reconciled with IR heading '05  MIT OpenCourseWare'.",
+    "discrepancyNote": "Page range matched [5, 5], title discrepancy: 'MIT OCW Feedback Control Implementer' vs '05  MIT OpenCourseWare'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          74.05,
+          252.0,
+          92.25
+        ],
+        "blockIndex": 2,
+        "claim": "Delimitador de inicio para Project #5: 05  MIT OpenCourseWare",
+        "evidenceId": "ev-guide-028-p5-b2",
+        "pageNumber": 5,
+        "sourceDocumentId": "guide-028",
+        "sourceHash": "a1d4397fa62aead0cc5cb90443490e8cacdddcbe7c26429d6d9e94c7b4aee31d",
+        "textSnippet": "05  MIT OpenCourseWare"
+      }
+    ],
     "guideId": "guide-028",
     "irPageRange": [
       5,
@@ -2793,7 +5581,24 @@
       10
     ],
     "catalogTitle": "GNU Radio & RTL-SDR Spectrum Interceptor",
-    "discrepancyNote": "Catalog title 'GNU Radio & RTL-SDR Spectrum Interceptor' reconciled with IR heading '06  nandland and HDLBits'.",
+    "discrepancyNote": "Page range matched [5, 10], title discrepancy: 'GNU Radio & RTL-SDR Spectrum Interceptor' vs '06  nandland and HDLBits'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          67.2,
+          314.05,
+          268.8,
+          332.25
+        ],
+        "blockIndex": 14,
+        "claim": "Delimitador de inicio para Project #6: 06  nandland and HDLBits",
+        "evidenceId": "ev-guide-028-p5-b14",
+        "pageNumber": 5,
+        "sourceDocumentId": "guide-028",
+        "sourceHash": "a1d4397fa62aead0cc5cb90443490e8cacdddcbe7c26429d6d9e94c7b4aee31d",
+        "textSnippet": "06  nandland and HDLBits"
+      }
+    ],
     "guideId": "guide-028",
     "irPageRange": [
       5,
@@ -2810,7 +5615,24 @@
       3
     ],
     "catalogTitle": "Practical Electronics for Inventors Bench",
-    "discrepancyNote": "Catalog title 'Practical Electronics for Inventors Bench' reconciled with IR heading '01  Practical Electronics for Inventors'.",
+    "discrepancyNote": "Page range matched [3, 3], title discrepancy: 'Practical Electronics for Inventors Bench' vs '01  Practical Electronics for Inventors'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          91.2,
+          142.55,
+          418.8,
+          160.75
+        ],
+        "blockIndex": 4,
+        "claim": "Delimitador de inicio para Project #1: 01  Practical Electronics for Inventors",
+        "evidenceId": "ev-guide-029-p3-b4",
+        "pageNumber": 3,
+        "sourceDocumentId": "guide-029",
+        "sourceHash": "9d4a6e72cfeb514c875edac4137442053e0dcd83f06ffc037c0fbda3936dd813",
+        "textSnippet": "01  Practical Electronics for Inventors"
+      }
+    ],
     "guideId": "guide-029",
     "irPageRange": [
       3,
@@ -2827,7 +5649,24 @@
       3
     ],
     "catalogTitle": "Razavi CMOS Microelectronics Lab",
-    "discrepancyNote": "Catalog title 'Razavi CMOS Microelectronics Lab' reconciled with IR heading '02  Neso Academy'.",
+    "discrepancyNote": "Page range matched [3, 3], title discrepancy: 'Razavi CMOS Microelectronics Lab' vs '02  Neso Academy'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          91.2,
+          402.05,
+          225.6,
+          420.25
+        ],
+        "blockIndex": 17,
+        "claim": "Delimitador de inicio para Project #2: 02  Neso Academy",
+        "evidenceId": "ev-guide-029-p3-b17",
+        "pageNumber": 3,
+        "sourceDocumentId": "guide-029",
+        "sourceHash": "9d4a6e72cfeb514c875edac4137442053e0dcd83f06ffc037c0fbda3936dd813",
+        "textSnippet": "02  Neso Academy"
+      }
+    ],
     "guideId": "guide-029",
     "irPageRange": [
       3,
@@ -2844,7 +5683,24 @@
       4
     ],
     "catalogTitle": "LTspice Worst-Case & Monte Carlo Simulator",
-    "discrepancyNote": "Catalog title 'LTspice Worst-Case & Monte Carlo Simulator' reconciled with IR heading '03  Razavi Electronics'.",
+    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'LTspice Worst-Case & Monte Carlo Simulator' vs '03  Razavi Electronics'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          91.2,
+          76.55,
+          276.0,
+          94.75
+        ],
+        "blockIndex": 2,
+        "claim": "Delimitador de inicio para Project #3: 03  Razavi Electronics",
+        "evidenceId": "ev-guide-029-p4-b2",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-029",
+        "sourceHash": "9d4a6e72cfeb514c875edac4137442053e0dcd83f06ffc037c0fbda3936dd813",
+        "textSnippet": "03  Razavi Electronics"
+      }
+    ],
     "guideId": "guide-029",
     "irPageRange": [
       4,
@@ -2861,7 +5717,24 @@
       4
     ],
     "catalogTitle": "Wokwi Virtual Hardware Simulator",
-    "discrepancyNote": "Catalog title 'Wokwi Virtual Hardware Simulator' reconciled with IR heading '04  LTspice'.",
+    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'Wokwi Virtual Hardware Simulator' vs '04  LTspice'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          91.2,
+          305.05,
+          183.6,
+          323.25
+        ],
+        "blockIndex": 13,
+        "claim": "Delimitador de inicio para Project #4: 04  LTspice",
+        "evidenceId": "ev-guide-029-p4-b13",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-029",
+        "sourceHash": "9d4a6e72cfeb514c875edac4137442053e0dcd83f06ffc037c0fbda3936dd813",
+        "textSnippet": "04  LTspice"
+      }
+    ],
     "guideId": "guide-029",
     "irPageRange": [
       4,
@@ -2878,7 +5751,24 @@
       5
     ],
     "catalogTitle": "Scientist & Engineer's Guide to DSP",
-    "discrepancyNote": "Catalog title 'Scientist & Engineer's Guide to DSP' reconciled with IR heading '05  Wokwi'.",
+    "discrepancyNote": "Page range matched [5, 5], title discrepancy: 'Scientist & Engineer's Guide to DSP' vs '05  Wokwi'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          91.2,
+          76.55,
+          166.8,
+          94.75
+        ],
+        "blockIndex": 2,
+        "claim": "Delimitador de inicio para Project #5: 05  Wokwi",
+        "evidenceId": "ev-guide-029-p5-b2",
+        "pageNumber": 5,
+        "sourceDocumentId": "guide-029",
+        "sourceHash": "9d4a6e72cfeb514c875edac4137442053e0dcd83f06ffc037c0fbda3936dd813",
+        "textSnippet": "05  Wokwi"
+      }
+    ],
     "guideId": "guide-029",
     "irPageRange": [
       5,
@@ -2895,7 +5785,24 @@
       10
     ],
     "catalogTitle": "W2AEW RF Lab Techniques & Measurements",
-    "discrepancyNote": "Catalog title 'W2AEW RF Lab Techniques & Measurements' reconciled with IR heading '06  Adafruit Learn'.",
+    "discrepancyNote": "Page range matched [5, 10], title discrepancy: 'W2AEW RF Lab Techniques & Measurements' vs '06  Adafruit Learn'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          91.2,
+          320.55,
+          242.4,
+          338.75
+        ],
+        "blockIndex": 14,
+        "claim": "Delimitador de inicio para Project #6: 06  Adafruit Learn",
+        "evidenceId": "ev-guide-029-p5-b14",
+        "pageNumber": 5,
+        "sourceDocumentId": "guide-029",
+        "sourceHash": "9d4a6e72cfeb514c875edac4137442053e0dcd83f06ffc037c0fbda3936dd813",
+        "textSnippet": "06  Adafruit Learn"
+      }
+    ],
     "guideId": "guide-029",
     "irPageRange": [
       5,
@@ -2912,7 +5819,24 @@
       3
     ],
     "catalogTitle": "FEDEVEL High-Speed PCB Layout Masterclass",
-    "discrepancyNote": "Catalog title 'FEDEVEL High-Speed PCB Layout Masterclass' reconciled with IR heading '01  All About Circuits'.",
+    "discrepancyNote": "Page range matched [3, 3], title discrepancy: 'FEDEVEL High-Speed PCB Layout Masterclass' vs '01  All About Circuits'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          91.2,
+          142.81,
+          269.4,
+          160.36
+        ],
+        "blockIndex": 4,
+        "claim": "Delimitador de inicio para Project #1: 01  All About Circuits",
+        "evidenceId": "ev-guide-030-p3-b4",
+        "pageNumber": 3,
+        "sourceDocumentId": "guide-030",
+        "sourceHash": "b3ea413994392805f3419ec1babde9b792fed6f587244590687170afd86dbd25",
+        "textSnippet": "01  All About Circuits"
+      }
+    ],
     "guideId": "guide-030",
     "irPageRange": [
       3,
@@ -2929,7 +5853,24 @@
       3
     ],
     "catalogTitle": "Steve Brunton Modern Control & Kalman Filters",
-    "discrepancyNote": "Catalog title 'Steve Brunton Modern Control & Kalman Filters' reconciled with IR heading '02  NPTEL'.",
+    "discrepancyNote": "Page range matched [3, 3], title discrepancy: 'Steve Brunton Modern Control & Kalman Filters' vs '02  NPTEL'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          91.2,
+          401.31,
+          164.1,
+          418.86
+        ],
+        "blockIndex": 17,
+        "claim": "Delimitador de inicio para Project #2: 02  NPTEL",
+        "evidenceId": "ev-guide-030-p3-b17",
+        "pageNumber": 3,
+        "sourceDocumentId": "guide-030",
+        "sourceHash": "b3ea413994392805f3419ec1babde9b792fed6f587244590687170afd86dbd25",
+        "textSnippet": "02  NPTEL"
+      }
+    ],
     "guideId": "guide-030",
     "irPageRange": [
       3,
@@ -2946,7 +5887,24 @@
       4
     ],
     "catalogTitle": "Andreas Spiess Deep IoT & LoRaWAN Node",
-    "discrepancyNote": "Catalog title 'Andreas Spiess Deep IoT & LoRaWAN Node' reconciled with IR heading '03  GreatScott!'.",
+    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'Andreas Spiess Deep IoT & LoRaWAN Node' vs '03  GreatScott!'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          91.2,
+          76.81,
+          212.7,
+          94.36
+        ],
+        "blockIndex": 2,
+        "claim": "Delimitador de inicio para Project #3: 03  GreatScott!",
+        "evidenceId": "ev-guide-030-p4-b2",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-030",
+        "sourceHash": "b3ea413994392805f3419ec1babde9b792fed6f587244590687170afd86dbd25",
+        "textSnippet": "03  GreatScott!"
+      }
+    ],
     "guideId": "guide-030",
     "irPageRange": [
       4,
@@ -2963,7 +5921,24 @@
       4
     ],
     "catalogTitle": "GreatScott! Switching Converter Design",
-    "discrepancyNote": "Catalog title 'GreatScott! Switching Converter Design' reconciled with IR heading '04  ElectroBOOM'.",
+    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'GreatScott! Switching Converter Design' vs '04  ElectroBOOM'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          91.2,
+          305.31,
+          212.7,
+          322.86
+        ],
+        "blockIndex": 13,
+        "claim": "Delimitador de inicio para Project #4: 04  ElectroBOOM",
+        "evidenceId": "ev-guide-030-p4-b13",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-030",
+        "sourceHash": "b3ea413994392805f3419ec1babde9b792fed6f587244590687170afd86dbd25",
+        "textSnippet": "04  ElectroBOOM"
+      }
+    ],
     "guideId": "guide-030",
     "irPageRange": [
       4,
@@ -2980,7 +5955,24 @@
       5
     ],
     "catalogTitle": "Digital Design & RISC-V Architecture",
-    "discrepancyNote": "Catalog title 'Digital Design & RISC-V Architecture' reconciled with IR heading '05  Andreas Spiess'.",
+    "discrepancyNote": "Page range matched [5, 5], title discrepancy: 'Digital Design & RISC-V Architecture' vs '05  Andreas Spiess'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          91.2,
+          76.81,
+          237.0,
+          94.36
+        ],
+        "blockIndex": 2,
+        "claim": "Delimitador de inicio para Project #5: 05  Andreas Spiess",
+        "evidenceId": "ev-guide-030-p5-b2",
+        "pageNumber": 5,
+        "sourceDocumentId": "guide-030",
+        "sourceHash": "b3ea413994392805f3419ec1babde9b792fed6f587244590687170afd86dbd25",
+        "textSnippet": "05  Andreas Spiess"
+      }
+    ],
     "guideId": "guide-030",
     "irPageRange": [
       5,
@@ -2997,7 +5989,24 @@
       12
     ],
     "catalogTitle": "Shawn Hymel TinyML Embedded Classifier",
-    "discrepancyNote": "Catalog title 'Shawn Hymel TinyML Embedded Classifier' reconciled with IR heading '06  FEDEVEL (Robert Feranec)'.",
+    "discrepancyNote": "Page range matched [5, 12], title discrepancy: 'Shawn Hymel TinyML Embedded Classifier' vs '06  FEDEVEL (Robert Feranec)'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          91.2,
+          304.31,
+          318.0,
+          321.86
+        ],
+        "blockIndex": 13,
+        "claim": "Delimitador de inicio para Project #6: 06  FEDEVEL (Robert Feranec)",
+        "evidenceId": "ev-guide-030-p5-b13",
+        "pageNumber": 5,
+        "sourceDocumentId": "guide-030",
+        "sourceHash": "b3ea413994392805f3419ec1babde9b792fed6f587244590687170afd86dbd25",
+        "textSnippet": "06  FEDEVEL (Robert Feranec)"
+      }
+    ],
     "guideId": "guide-030",
     "irPageRange": [
       5,
@@ -3014,7 +6023,24 @@
       3
     ],
     "catalogTitle": "KiCad Production-Ready DFM Workflow",
-    "discrepancyNote": "Substantial title match: 'KiCad Production-Ready DFM Workflow' vs 'KiCad'.",
+    "discrepancyNote": "Exact title and boundary match.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          61.0,
+          119.1,
+          123.0,
+          134.7
+        ],
+        "blockIndex": 4,
+        "claim": "Delimitador de inicio para Project #1: KiCad",
+        "evidenceId": "ev-guide-031-p3-b4",
+        "pageNumber": 3,
+        "sourceDocumentId": "guide-031",
+        "sourceHash": "dcf0169bdcecff3cd916c07f444a4671ca0ff4c22d71d39a34bacd6d19111026",
+        "textSnippet": "01\nKiCad"
+      }
+    ],
     "guideId": "guide-031",
     "irPageRange": [
       3,
@@ -3027,34 +6053,68 @@
   },
   {
     "catalogPageRange": [
-      3,
-      3
+      2,
+      2
     ],
     "catalogTitle": "The Art of Electronics Ultra-Low Noise Supply",
-    "discrepancyNote": "Catalog title 'The Art of Electronics Ultra-Low Noise Supply' reconciled with IR heading 'Ben Eater'.",
+    "discrepancyNote": "Page range matched [2, 2], title discrepancy: 'The Art of Electronics Ultra-Low Noise Supply' vs '2'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          61.0,
+          744.83,
+          551.0,
+          753.92
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #2: 2",
+        "evidenceId": "ev-guide-031-p2-b1",
+        "pageNumber": 2,
+        "sourceDocumentId": "guide-031",
+        "sourceHash": "dcf0169bdcecff3cd916c07f444a4671ca0ff4c22d71d39a34bacd6d19111026",
+        "textSnippet": "@1nska   >   the build list\n2"
+      }
+    ],
     "guideId": "guide-031",
     "irPageRange": [
-      3,
-      3
+      2,
+      2
     ],
-    "irTitle": "Ben Eater",
+    "irTitle": "2",
     "projectId": "proj-25015e1de0868338",
     "projectNumber": 2,
     "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      4,
-      4
+      3,
+      3
     ],
     "catalogTitle": "Zephyr RTOS Industrial Node Deployment",
-    "discrepancyNote": "Catalog title 'Zephyr RTOS Industrial Node Deployment' reconciled with IR heading 'The Art of Electronics'.",
+    "discrepancyNote": "Page range matched [3, 3], title discrepancy: 'Zephyr RTOS Industrial Node Deployment' vs '3'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          61.0,
+          744.83,
+          551.0,
+          753.92
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #3: 3",
+        "evidenceId": "ev-guide-031-p3-b1",
+        "pageNumber": 3,
+        "sourceDocumentId": "guide-031",
+        "sourceHash": "dcf0169bdcecff3cd916c07f444a4671ca0ff4c22d71d39a34bacd6d19111026",
+        "textSnippet": "@1nska   >   the build list\n3"
+      }
+    ],
     "guideId": "guide-031",
     "irPageRange": [
-      4,
-      4
+      3,
+      3
     ],
-    "irTitle": "The Art of Electronics",
+    "irTitle": "3",
     "projectId": "proj-89dce9c8134220ee",
     "projectNumber": 3,
     "status": "PARTIAL_MATCH"
@@ -3065,13 +6125,30 @@
       4
     ],
     "catalogTitle": "Microwaves101 Planar Filter & Coupler",
-    "discrepancyNote": "Catalog title 'Microwaves101 Planar Filter & Coupler' reconciled with IR heading 'Phil's Lab'.",
+    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'Microwaves101 Planar Filter & Coupler' vs '4'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          61.0,
+          744.83,
+          551.0,
+          753.92
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #4: 4",
+        "evidenceId": "ev-guide-031-p4-b1",
+        "pageNumber": 4,
+        "sourceDocumentId": "guide-031",
+        "sourceHash": "dcf0169bdcecff3cd916c07f444a4671ca0ff4c22d71d39a34bacd6d19111026",
+        "textSnippet": "@1nska   >   the build list\n4"
+      }
+    ],
     "guideId": "guide-031",
     "irPageRange": [
       4,
       4
     ],
-    "irTitle": "Phil's Lab",
+    "irTitle": "4",
     "projectId": "proj-d31ca580450cf995",
     "projectNumber": 4,
     "status": "PARTIAL_MATCH"
@@ -3082,30 +6159,64 @@
       5
     ],
     "catalogTitle": "JLCPCB SMT Panelization & Automated Assembly",
-    "discrepancyNote": "Catalog title 'JLCPCB SMT Panelization & Automated Assembly' reconciled with IR heading 'EEVblog'.",
+    "discrepancyNote": "Page range matched [5, 5], title discrepancy: 'JLCPCB SMT Panelization & Automated Assembly' vs '5'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          61.0,
+          744.83,
+          551.0,
+          753.92
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #5: 5",
+        "evidenceId": "ev-guide-031-p5-b1",
+        "pageNumber": 5,
+        "sourceDocumentId": "guide-031",
+        "sourceHash": "dcf0169bdcecff3cd916c07f444a4671ca0ff4c22d71d39a34bacd6d19111026",
+        "textSnippet": "@1nska   >   the build list\n5"
+      }
+    ],
     "guideId": "guide-031",
     "irPageRange": [
       5,
       5
     ],
-    "irTitle": "EEVblog",
+    "irTitle": "5",
     "projectId": "proj-66ff5c3263b46c00",
     "projectNumber": 5,
     "status": "PARTIAL_MATCH"
   },
   {
     "catalogPageRange": [
-      5,
+      6,
       10
     ],
     "catalogTitle": "EEVblog Teardown Forensic & ESD Hardening",
-    "discrepancyNote": "Catalog title 'EEVblog Teardown Forensic & ESD Hardening' reconciled with IR heading 'Nandland'.",
+    "discrepancyNote": "Page range matched [6, 10], title discrepancy: 'EEVblog Teardown Forensic & ESD Hardening' vs '6'.",
+    "evidenceBlocks": [
+      {
+        "bbox": [
+          61.0,
+          744.83,
+          551.0,
+          753.92
+        ],
+        "blockIndex": 1,
+        "claim": "Delimitador de inicio para Project #6: 6",
+        "evidenceId": "ev-guide-031-p6-b1",
+        "pageNumber": 6,
+        "sourceDocumentId": "guide-031",
+        "sourceHash": "dcf0169bdcecff3cd916c07f444a4671ca0ff4c22d71d39a34bacd6d19111026",
+        "textSnippet": "@1nska   >   the build list\n6"
+      }
+    ],
     "guideId": "guide-031",
     "irPageRange": [
-      5,
+      6,
       10
     ],
-    "irTitle": "Nandland",
+    "irTitle": "6",
     "projectId": "proj-4c78d5781b650b28",
     "projectNumber": 6,
     "status": "PARTIAL_MATCH"

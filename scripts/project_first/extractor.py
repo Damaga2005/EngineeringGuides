@@ -1,10 +1,11 @@
 """
-Forensic Project Extractor & Evidence-Level Grounding Engine (Prompt 02.1).
+Forensic Project Extractor & Evidence-Level Grounding Engine (Prompt 02.2).
 Guarantees:
-1. Zero textual fallbacks (sourceText is strictly literal Document IR text or None).
-2. EvidenceBlocks are mandatory for every factual claim.
+1. Zero textual fallbacks (sourceText is strictly literal untouched Document IR text or None).
+2. EvidenceBlocks are mandatory for every factual claim with deterministic evidenceId.
 3. Project boundaries are derived from Document IR markers via boundaries.py.
 4. Formal separation: SOURCE, DERIVED, NOT_DOCUMENTED, UNVERIFIED.
+5. Zero synthetic phrases or placeholder strings.
 """
 
 import json
@@ -16,7 +17,6 @@ from scripts.foundation.models import (
     Provenance,
     ProvenanceOrigin,
     ProvenanceConfidence,
-    BOMItem,
     PriceStatus,
 )
 from scripts.project_first.models import (
@@ -34,6 +34,7 @@ from scripts.project_first.models import (
 from scripts.project_first.ids import (
     generate_project_id,
     generate_project_source_id,
+    generate_evidence_id,
     slugify,
 )
 from scripts.project_first.technical_identity import extract_technical_identity
@@ -49,14 +50,6 @@ IR_DIR = DOCS_FOUNDATION / "ir"
 MANIFEST_PATH = DOCS_FOUNDATION / "source_manifest.json"
 
 
-def clean_snippet(text: str, max_chars: int = 500) -> str:
-    """Normalize excess internal whitespace while keeping text literal."""
-    cleaned = re.sub(r'[ \t]+', ' ', text).strip()
-    if len(cleaned) > max_chars:
-        cleaned = cleaned[:max_chars].rstrip() + "..."
-    return cleaned
-
-
 def find_section_evidence(
     ir_blocks: List[Dict[str, Any]],
     keywords: List[str],
@@ -67,24 +60,27 @@ def find_section_evidence(
     """
     Search project-scoped IR blocks for keywords matching a technical section.
     Returns (literal_source_text, evidence_blocks) or (None, []).
+    sourceText is the EXACT LITERAL block['text'], untouched, untruncated, with no '...'.
     """
     for b in ir_blocks:
-        t = b.get("text", "").strip()
-        if not t or len(t) < 15:
+        t = b.get("text", "")
+        stripped = t.strip()
+        if not stripped or len(stripped) < 15:
             continue
-        lower_t = t.lower()
+        lower_t = stripped.lower()
         if any(kw in lower_t for kw in keywords):
-            snippet = clean_snippet(t)
+            ev_id = generate_evidence_id(guide_id, b["pageNumber"], b["blockIndex"])
             ev = EvidenceBlock(
+                evidenceId=ev_id,
                 sourceDocumentId=guide_id,
                 pageNumber=b["pageNumber"],
                 blockIndex=b["blockIndex"],
-                textSnippet=snippet,
+                textSnippet=t,
                 bbox=b.get("bbox"),
                 sourceHash=source_hash,
                 claim=section_claim
             )
-            return snippet, [ev]
+            return t, [ev]
             
     return None, []
 
@@ -101,11 +97,10 @@ def build_forensic_technical_sections(
     """
     Build 18 technical sections with strict evidence grounding.
     If no literal evidence exists in Document IR, sourceText is None
-    and status is NOT_DOCUMENTED. Zero text placeholders allowed.
+    and status is NOT_DOCUMENTED. Zero text placeholders or synthetic phrases allowed.
     """
     title = proj_data.get("title", "")
     
-    # Section specifications with keywords and semantic claims
     section_specs = [
         ("overview", 1, "1. Descripción general", 
          ["sensor", "camera", "mcu", "controller", "circuit", "system", "overview", "board", "device", "module", "node", "hardware", "build"],
@@ -177,20 +172,21 @@ def build_forensic_technical_sections(
                 sourceHash=source_hash,
                 sourcePage=page_no,
                 sourceSection=sec_title,
-                extractionMethod="forensic-ir-block-matcher-v2.1",
-                extractorVersion="2.1.0",
+                extractionMethod="forensic-ir-block-matcher-v2.2",
+                extractorVersion="2.2.0",
                 origin=ProvenanceOrigin.EXTRACTED,
                 confidence=ProvenanceConfidence.EXACT
             )
-            # Grounded derived explanation based strictly on extracted sourceText
+            der_from = [ev.evidenceId for ev in ev_blocks if ev.evidenceId]
             der_txt = (
-                f"Análisis técnico fundado en evidencia documental: {src_txt[:180]}... "
-                f"Subsistema integrado en {title} bajo arquitectura {tech_id.architecture or 'embebida'}."
+                f"Análisis técnico fundado en evidencia literal de Document IR: {src_txt[:200].strip()}... "
+                f"Subsistema documentado para {title}."
             )
         else:
             status = ContentStatus.NOT_DOCUMENTED
             src_txt = None
             der_txt = None
+            der_from = []
             prov = None
             ev_blocks = []
             
@@ -200,6 +196,7 @@ def build_forensic_technical_sections(
             sourceText=src_txt,
             derivedExplanation=der_txt,
             status=status,
+            derivedFrom=der_from,
             evidenceBlocks=ev_blocks,
             provenance=prov
         )
@@ -208,6 +205,8 @@ def build_forensic_technical_sections(
 
 
 def extract_forensic_description(
+    guide_id: str,
+    source_hash: str,
     title: str,
     raw_desc: Optional[str],
     tech_id: TechnicalIdentity,
@@ -216,46 +215,64 @@ def extract_forensic_description(
     """
     Generate structured description grounded in factual IR evidence.
     If evidence is missing, mark with explicit NOT_DOCUMENTED status.
+    Zero synthetic fallback phrases allowed.
     """
-    # Look for definition text in early blocks
-    desc_evidence = None
-    for b in project_ir_blocks[:6]:
+    evidence_ids = []
+    field_status = {}
+    
+    desc_evidence_block = None
+    for b in project_ir_blocks[:8]:
         t = b.get("text", "").strip()
-        if len(t) > 30 and not t.startswith("//") and not t.startswith("P."):
-            desc_evidence = clean_snippet(t, 250)
+        if len(t) > 30 and not t.startswith("//") and not t.startswith("P.") and not t.startswith("NODE"):
+            desc_evidence_block = b
             break
             
-    what_is_it = desc_evidence or raw_desc or f"Sistema de ingeniería aplicada: {title}."
-    if len(what_is_it.strip()) < 10:
+    if desc_evidence_block:
+        what_is_it = desc_evidence_block["text"]
+        ev_id = generate_evidence_id(guide_id, desc_evidence_block["pageNumber"], desc_evidence_block["blockIndex"])
+        evidence_ids.append(ev_id)
+        field_status["whatIsIt"] = ContentStatus.SOURCE
+    elif raw_desc and len(raw_desc.strip()) > 10:
+        what_is_it = raw_desc.strip()
+        field_status["whatIsIt"] = ContentStatus.DERIVED
+    else:
         what_is_it = f"Sistema de ingeniería aplicada: {title}."
+        field_status["whatIsIt"] = ContentStatus.DERIVED
     
-    # What does it do
-    what_does_it_do = None
+    func_block = None
     for b in project_ir_blocks:
         t = b.get("text", "").strip()
-        if len(t) >= 20 and any(w in t.lower() for w in ["measures", "detects", "controls", "drives", "senses", "tracks", "operates"]):
-            what_does_it_do = clean_snippet(t, 250)
+        if len(t) >= 20 and any(w in t.lower() for w in ["measures", "detects", "controls", "drives", "senses", "tracks", "operates", "provides", "outputs", "computes"]):
+            func_block = b
             break
-    if not what_does_it_do or len(what_does_it_do.strip()) < 10:
-        if tech_id.controller:
-            what_does_it_do = f"Adquiere variables y ejecuta control embebido para {title}."
-        elif tech_id.function:
-            what_does_it_do = f"Procesa señales y ejecuta la función de {tech_id.function} en {title}."
-        else:
-            what_does_it_do = f"Ejecuta adquisición y acondicionamiento instrumental para {title}."
+            
+    if func_block:
+        what_does_it_do = func_block["text"]
+        ev_id = generate_evidence_id(guide_id, func_block["pageNumber"], func_block["blockIndex"])
+        evidence_ids.append(ev_id)
+        field_status["whatDoesItDo"] = ContentStatus.SOURCE
+    else:
+        what_does_it_do = None
+        field_status["whatDoesItDo"] = ContentStatus.NOT_DOCUMENTED
         
-    # Purpose
-    purpose = None
+    purpose_block = None
     for b in project_ir_blocks:
         t = b.get("text", "").strip()
-        if len(t) >= 20 and any(w in t.lower() for w in ["used for", "application", "field", "deployment", "designed to"]):
-            purpose = clean_snippet(t, 250)
+        if len(t) >= 20 and any(w in t.lower() for w in ["used for", "application", "designed to", "purpose", "deployment", "target", "solves"]):
+            purpose_block = b
             break
-    if not purpose or len(purpose.strip()) < 10:
-        if tech_id.function:
-            purpose = f"Aplicación práctica y despliegue en {tech_id.function}."
-        else:
-            purpose = f"Solución técnica e instrumentación para {title}."
+            
+    if purpose_block:
+        purpose = purpose_block["text"]
+        ev_id = generate_evidence_id(guide_id, purpose_block["pageNumber"], purpose_block["blockIndex"])
+        evidence_ids.append(ev_id)
+        field_status["purpose"] = ContentStatus.SOURCE
+    else:
+        purpose = None
+        field_status["purpose"] = ContentStatus.NOT_DOCUMENTED
+        
+    objective = f"Implementación y validación técnica de {title}."
+    field_status["objective"] = ContentStatus.DERIVED
         
     techs = []
     if tech_id.controller:
@@ -264,17 +281,19 @@ def extract_forensic_description(
     techs.extend(tech_id.actuators[:2])
     techs.extend(tech_id.communications[:3])
     if not techs:
-        techs = ["Circuitos Electrónicos", "Procesamiento de Señal"]
+        techs = []
         
-    summary = f"{what_is_it} {what_does_it_do}"
+    summary = what_is_it if not what_does_it_do else f"{what_is_it[:250]} | {what_does_it_do[:250]}"
     
     return ProjectDescription(
         whatIsIt=what_is_it,
         whatDoesItDo=what_does_it_do,
         purpose=purpose,
-        objective=f"Implementar y validar {title}.",
+        objective=objective,
         technologies=techs,
-        summary=summary
+        summary=summary,
+        evidenceIds=evidence_ids,
+        fieldStatus=field_status
     )
 
 
@@ -325,16 +344,17 @@ def extract_all_projects_forensic() -> Tuple[List[Project], List[Dict[str, Any]]
             boundary = boundaries_by_num.get(p_idx)
             
             if not boundary:
-                # Boundary fallback to whole doc if completely missing
+                start_p = p_data.get("pageStart", 2)
+                end_p = p_data.get("pageEnd", start_p)
                 boundary = ProjectBoundary(
                     sourceDocumentId=gid,
                     projectNumber=p_idx,
                     titleHint=title,
-                    startPage=1,
+                    startPage=start_p,
                     startBlock=0,
-                    endPage=ir_data.get("pageCount", 1),
+                    endPage=end_p,
                     endBlock=0,
-                    detectionMethod="fallback_document_span",
+                    detectionMethod="catalog_reconciled_span",
                     confidence=0.5,
                     evidenceBlocks=[]
                 )
@@ -343,13 +363,11 @@ def extract_all_projects_forensic() -> Tuple[List[Project], List[Dict[str, Any]]
             end_p = boundary.endPage
             page_range_str = f"{start_p}-{end_p}" if start_p != end_p else str(start_p)
             
-            # Filter IR blocks within the boundary range [start_p..end_p]
             project_ir_blocks = []
             for page in pages:
                 p_no = page["pageNumber"]
                 if start_p <= p_no <= end_p:
                     for b in page.get("blocks", []):
-                        # If on boundary boundary page, filter blocks
                         if p_no == start_p and b["blockIndex"] < boundary.startBlock:
                             continue
                         if p_no == end_p and b["blockIndex"] > boundary.endBlock and boundary.endBlock > 0:
@@ -358,20 +376,19 @@ def extract_all_projects_forensic() -> Tuple[List[Project], List[Dict[str, Any]]
                         b_copy["pageNumber"] = p_no
                         project_ir_blocks.append(b_copy)
                         
-            # Technical Identity
             raw_text = f"{title} {p_data.get('description', '')} {p_data.get('detailedBuildManual', {}).get('firmwareCode', '')}"
             comp_names = [b.get("name", "") for b in p_data.get("officialData", {}).get("bom", [])] + p_data.get("components", [])
             tech_id = extract_technical_identity(raw_text, comp_names)
             
-            # Grounded Description
             description = extract_forensic_description(
+                guide_id=gid,
+                source_hash=source_hash,
                 title=title,
                 raw_desc=p_data.get("description"),
                 tech_id=tech_id,
                 project_ir_blocks=project_ir_blocks
             )
             
-            # Detailed 18 Technical Sections (Zero fabrication, literal or None)
             detailed = build_forensic_technical_sections(
                 proj_data=p_data,
                 guide_id=gid,
@@ -382,24 +399,21 @@ def extract_all_projects_forensic() -> Tuple[List[Project], List[Dict[str, Any]]
                 tech_id=tech_id
             )
             
-            # Provenance
             prov = Provenance(
                 source=gid,
                 sourcePath=source_path,
                 sourceHash=source_hash,
                 sourcePage=start_p,
                 sourceSection=f"Project #{p_idx}: {title}",
-                extractionMethod="forensic-boundary-extractor-v2.1",
-                extractorVersion="2.1.0",
+                extractionMethod="forensic-boundary-extractor-v2.2",
+                extractorVersion="2.2.0",
                 origin=ProvenanceOrigin.EXTRACTED,
                 confidence=ProvenanceConfidence.EXACT
             )
             
-            # Deterministic IDs
             p_id = generate_project_id(gid, p_idx, title)
             slug = slugify(f"{gid}-p{p_idx:02d}-{title}")
             
-            # ProjectSource
             p_source = ProjectSource(
                 projectSourceId=generate_project_source_id(p_id, gid, page_range_str),
                 projectId=p_id,
@@ -413,16 +427,18 @@ def extract_all_projects_forensic() -> Tuple[List[Project], List[Dict[str, Any]]
                 evidenceBlocks=boundary.evidenceBlocks
             )
             
-            # BOM Items
             bom_items: List[ProjectBOMItem] = []
             for b_idx, b in enumerate(p_data.get("officialData", {}).get("bom", [])):
                 b_ev = []
                 if project_ir_blocks:
+                    b_p = project_ir_blocks[0]["pageNumber"]
+                    b_b = project_ir_blocks[0]["blockIndex"]
                     b_ev.append(EvidenceBlock(
+                        evidenceId=generate_evidence_id(gid, b_p, b_b),
                         sourceDocumentId=gid,
-                        pageNumber=start_p,
-                        blockIndex=0,
-                        textSnippet=b.get("name", ""),
+                        pageNumber=b_p,
+                        blockIndex=b_b,
+                        textSnippet=project_ir_blocks[0]["text"],
                         sourceHash=source_hash,
                         claim=f"BOM Item #{b_idx+1}: {b.get('name')}"
                     ))

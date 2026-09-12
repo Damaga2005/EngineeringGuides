@@ -1,0 +1,14 @@
+{
+  "auditType": "ZERO_FABRICATION_AND_GROUNDING_AUDIT",
+  "bannedOccurrences": [],
+  "bannedPhrasesFoundCount": 0,
+  "derivedFieldsCount": 187,
+  "notDocumentedFieldsCount": 864,
+  "sourceFieldsCount": 2975,
+  "statusInconsistencies": [],
+  "statusInconsistenciesCount": 0,
+  "timestamp": "2026-09-12T00:00:00Z",
+  "totalFieldsAudited": 4026,
+  "totalProjects": 183,
+  "verdict": "PASS_ZERO_FABRICATION"
+}

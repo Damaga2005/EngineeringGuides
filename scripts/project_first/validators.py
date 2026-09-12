@@ -166,7 +166,11 @@ class ProjectFirstValidator:
             "Información técnica estructurada",
             "Pendiente de verificación",
             "Placeholder",
-            "Lorem ipsum"
+            "Lorem ipsum",
+            "Continuidad de layout en pág",
+            "Adquiere variables y ejecuta control",
+            "Procesa señales y ejecuta la función",
+            "Aplicación práctica y despliegue en"
         ]
         
         for p in catalog.projects:
@@ -246,10 +250,20 @@ class ProjectFirstValidator:
             d = p.description
             if not d.whatIsIt or len(d.whatIsIt.strip()) < 10:
                 self.log_error(f"Project {p.projectId} missing valid 'whatIsIt'")
-            if not d.whatDoesItDo or len(d.whatDoesItDo.strip()) < 10:
-                self.log_error(f"Project {p.projectId} missing valid 'whatDoesItDo'")
-            if not d.purpose or len(d.purpose.strip()) < 10:
-                self.log_error(f"Project {p.projectId} missing valid 'purpose'")
+                
+            if d.whatDoesItDo is None:
+                status_val = d.fieldStatus.get("whatDoesItDo")
+                if status_val not in ["NOT_DOCUMENTED", None]:
+                    self.log_error(f"Project {p.projectId} whatDoesItDo is None but fieldStatus is {status_val}")
+            elif len(d.whatDoesItDo.strip()) < 5:
+                self.log_error(f"Project {p.projectId} invalid 'whatDoesItDo'")
+                
+            if d.purpose is None:
+                status_val = d.fieldStatus.get("purpose")
+                if status_val not in ["NOT_DOCUMENTED", None]:
+                    self.log_error(f"Project {p.projectId} purpose is None but fieldStatus is {status_val}")
+            elif len(d.purpose.strip()) < 5:
+                self.log_error(f"Project {p.projectId} invalid 'purpose'")
 
     def check_9_golden_dataset(self, catalog: ProjectCatalog):
         print("[CHECK 9/10] Golden Dataset Execution (Golden-1, Golden-5, Golden-20, Full-183)...")

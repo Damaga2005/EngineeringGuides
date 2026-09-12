@@ -1,1298 +1,1784 @@
 [
   {
     "confidence": 0.4154,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-00f1b3df049d7c11",
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-025ed4d196e00a30",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-0e0c3069f5a83ea4",
+    "targetProjectId": "proj-4902d58497d90422"
+  },
+  {
+    "confidence": 0.4125,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-02bec20383b9dcf7",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4e461b38f5d05afd",
+    "targetProjectId": "proj-a245d2a49550770f"
+  },
+  {
+    "confidence": 0.4182,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-0771df74cfe035db",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4902d58497d90422",
+    "targetProjectId": "proj-23e2ffb84ec9c3a1"
+  },
+  {
+    "confidence": 0.425,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-08536d2665c5624b",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-1c2472bca80aab75",
+    "targetProjectId": "proj-ae877be606e5b288"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-0eb26cac295d0ce2",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-413f063f71e7017e",
+    "targetProjectId": "proj-df20c0bdfa75937d"
+  },
+  {
+    "confidence": 0.4154,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-0edfee57e0980f28",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-299d699e04703cfd",
+    "targetProjectId": "proj-6efd04ef2f2f5cab"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-10ab542807cd6785",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8c76d2f0e14a7e6d",
+    "targetProjectId": "proj-0e0c3069f5a83ea4"
+  },
+  {
+    "confidence": 0.4154,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-1136f3f2f5f20a27",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4e461b38f5d05afd",
+    "targetProjectId": "proj-6efd04ef2f2f5cab"
+  },
+  {
+    "confidence": 0.4118,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-131cffaa3fb836bc",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-1c2472bca80aab75",
+    "targetProjectId": "proj-413f063f71e7017e"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-1ba84fdbb3aaad2d",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-9fb705613f7fa35c",
+    "targetProjectId": "proj-fb8e65ad8631b29f"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-1d6df006a01e5168",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-9fb705613f7fa35c",
+    "targetProjectId": "proj-6efd04ef2f2f5cab"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-1fdaad4cc7469c87",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-ae877be606e5b288",
+    "targetProjectId": "proj-df20c0bdfa75937d"
+  },
+  {
+    "confidence": 0.4167,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-20b5831f5c7aa091",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4902d58497d90422",
+    "targetProjectId": "proj-299d699e04703cfd"
+  },
+  {
+    "confidence": 0.42,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-2288cffeb8720882",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-299d699e04703cfd",
+    "targetProjectId": "proj-23e2ffb84ec9c3a1"
+  },
+  {
+    "confidence": 0.4154,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-251721e25927369e",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4e461b38f5d05afd",
+    "targetProjectId": "proj-fb8e65ad8631b29f"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-256769bef2035d8e",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8c76d2f0e14a7e6d",
+    "targetProjectId": "proj-9fb705613f7fa35c"
+  },
+  {
+    "confidence": 0.4111,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-27ba2caa40e850b3",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a245d2a49550770f",
+    "targetProjectId": "proj-413f063f71e7017e"
+  },
+  {
+    "confidence": 0.4133,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-282d3580a5257ad2",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-ae877be606e5b288",
+    "targetProjectId": "proj-6efd04ef2f2f5cab"
+  },
+  {
+    "confidence": 0.435,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-2a9ab0951d388763",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-683b8320c77d62a2",
+    "targetProjectId": "proj-a2ebed30b19669a5"
+  },
+  {
+    "confidence": 0.4118,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-2bc4c183ca974447",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-1c2472bca80aab75",
+    "targetProjectId": "proj-6efd04ef2f2f5cab"
+  },
+  {
+    "confidence": 0.4182,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-2d28cb70b7cfc651",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4e461b38f5d05afd",
+    "targetProjectId": "proj-299d699e04703cfd"
+  },
+  {
+    "confidence": 0.4792,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-2e0ccc1d9a093c38",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a906f1e86a9caa9f",
+    "targetProjectId": "proj-a245d2a49550770f"
+  },
+  {
+    "confidence": 0.41,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-318710be34934a0b",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a09c9eaab189e94a",
+    "targetProjectId": "proj-6efd04ef2f2f5cab"
+  },
+  {
+    "confidence": 0.475,
+    "description": "Relación arquitectónica documentada: Arquitectura o subsistemas afines.",
+    "evidence": [
+      "Arquitectura o subsistemas afines."
+    ],
+    "relationId": "rel-31da07b61322bf72",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-9cc1a42f66e7c4d5",
+    "targetProjectId": "proj-c7a08cce79d39f48"
+  },
+  {
+    "confidence": 0.4133,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-321eb006a81a3693",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8df10854ea1082a6",
+    "targetProjectId": "proj-4e461b38f5d05afd"
+  },
+  {
+    "confidence": 0.4133,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-3399fb3cde8efd88",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8df10854ea1082a6",
+    "targetProjectId": "proj-299d699e04703cfd"
+  },
+  {
+    "confidence": 0.4125,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-35bdeb32c947e2d7",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4902d58497d90422",
+    "targetProjectId": "proj-1c2472bca80aab75"
+  },
+  {
+    "confidence": 0.4105,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-3812a4bde3e53579",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a09c9eaab189e94a",
+    "targetProjectId": "proj-df20c0bdfa75937d"
+  },
+  {
+    "confidence": 0.42,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32-S3.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32-S3."
+    ],
+    "relationId": "rel-3a038c399b00e24c",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-22933371bb73088f",
+    "targetProjectId": "proj-89dce9c8134220ee"
+  },
+  {
+    "confidence": 0.4125,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-3c30ed845b87f28a",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-1c2472bca80aab75",
+    "targetProjectId": "proj-9fb705613f7fa35c"
+  },
+  {
+    "confidence": 0.4167,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-3f2576a9bbd4e0e9",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-ae877be606e5b288",
+    "targetProjectId": "proj-23e2ffb84ec9c3a1"
+  },
+  {
+    "confidence": 0.4308,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-40524a7919e2283e",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4902d58497d90422",
+    "targetProjectId": "proj-fb8e65ad8631b29f"
+  },
+  {
+    "confidence": 0.4154,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-4301f857217502d7",
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-4902d58497d90422",
     "targetProjectId": "proj-df20c0bdfa75937d"
   },
   {
     "confidence": 0.4167,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-012fed0cb47e44a4",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-299d699e04703cfd",
-    "targetProjectId": "proj-df20c0bdfa75937d"
-  },
-  {
-    "confidence": 0.46,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-0208da6ae13d1184",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8c76d2f0e14a7e6d",
-    "targetProjectId": "proj-a09c9eaab189e94a"
-  },
-  {
-    "confidence": 0.4308,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-0304a73f2f359e2d",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-2684f7e12c69809f",
-    "targetProjectId": "proj-b4b49073df0bfb7a"
-  },
-  {
-    "confidence": 0.44,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-04ca1a9571afb340",
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-4849bfa911a63216",
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-0e0c3069f5a83ea4",
-    "targetProjectId": "proj-23e2ffb84ec9c3a1"
+    "targetProjectId": "proj-299d699e04703cfd"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-4a24a0f27f50c9af",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-0e0c3069f5a83ea4",
+    "targetProjectId": "proj-413f063f71e7017e"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-4aea5d3cc762bcce",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8c76d2f0e14a7e6d",
+    "targetProjectId": "proj-4902d58497d90422"
+  },
+  {
+    "confidence": 0.3355,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-4bda7c7994b8577d",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-1a64e60857cbc87d",
+    "targetProjectId": "proj-a2ebed30b19669a5"
   },
   {
     "confidence": 0.4154,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-04eeaf2455551014",
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-4da0f2510fde02a3",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a906f1e86a9caa9f",
+    "targetProjectId": "proj-ae877be606e5b288"
+  },
+  {
+    "confidence": 0.4083,
+    "description": "Relación arquitectónica documentada: Arquitectura o subsistemas afines.",
+    "evidence": [
+      "Arquitectura o subsistemas afines."
+    ],
+    "relationId": "rel-4dd646d714fcce1e",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4e59318e9573e811",
+    "targetProjectId": "proj-4a566f25189a6e42"
+  },
+  {
+    "confidence": 0.4091,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-4e41ffdffacc8ae8",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-1c2472bca80aab75",
+    "targetProjectId": "proj-a09c9eaab189e94a"
+  },
+  {
+    "confidence": 0.4118,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-4e83e15d4d7887e3",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8df10854ea1082a6",
+    "targetProjectId": "proj-fb8e65ad8631b29f"
+  },
+  {
+    "confidence": 0.4167,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-505ec2bd323e50ff",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8c76d2f0e14a7e6d",
+    "targetProjectId": "proj-23e2ffb84ec9c3a1"
+  },
+  {
+    "confidence": 0.4167,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-50870e2d0d93a4d2",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a906f1e86a9caa9f",
+    "targetProjectId": "proj-df20c0bdfa75937d"
+  },
+  {
+    "confidence": 0.4286,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-536738dec5d5fa10",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8df10854ea1082a6",
+    "targetProjectId": "proj-a906f1e86a9caa9f"
+  },
+  {
+    "confidence": 0.4154,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-5493d5e6699959fc",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4902d58497d90422",
+    "targetProjectId": "proj-9fb705613f7fa35c"
+  },
+  {
+    "confidence": 0.4286,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-56589157cd15a4e4",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-fb8e65ad8631b29f",
+    "targetProjectId": "proj-6efd04ef2f2f5cab"
+  },
+  {
+    "confidence": 0.4125,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-5811419127b2135b",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8df10854ea1082a6",
+    "targetProjectId": "proj-df20c0bdfa75937d"
+  },
+  {
+    "confidence": 0.4111,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-58677f3b2509537c",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8c76d2f0e14a7e6d",
+    "targetProjectId": "proj-a245d2a49550770f"
+  },
+  {
+    "confidence": 0.4154,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-58c616008a6be6d3",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a906f1e86a9caa9f",
+    "targetProjectId": "proj-6efd04ef2f2f5cab"
+  },
+  {
+    "confidence": 0.4118,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-594e4bddfc651f65",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a245d2a49550770f",
+    "targetProjectId": "proj-df20c0bdfa75937d"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-5b8aeaa85e92e34f",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-0e0c3069f5a83ea4",
+    "targetProjectId": "proj-fb8e65ad8631b29f"
+  },
+  {
+    "confidence": 0.4154,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-60e10b61cd6aaea1",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4e461b38f5d05afd",
+    "targetProjectId": "proj-ae877be606e5b288"
+  },
+  {
+    "confidence": 0.4167,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-6a329eeb950e8e92",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-fb8e65ad8631b29f",
+    "targetProjectId": "proj-23e2ffb84ec9c3a1"
+  },
+  {
+    "confidence": 0.4105,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-6b8b0857419d7a17",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4902d58497d90422",
+    "targetProjectId": "proj-a09c9eaab189e94a"
+  },
+  {
+    "confidence": 0.5071,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32-S3.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32-S3."
+    ],
+    "relationId": "rel-6f008e8a8205cac4",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8b212f8f0d5012cc",
+    "targetProjectId": "proj-2d6bb1ea265633fd"
+  },
+  {
+    "confidence": 0.4167,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-715e0f45dc4268bc",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a906f1e86a9caa9f",
+    "targetProjectId": "proj-9fb705613f7fa35c"
+  },
+  {
+    "confidence": 0.4133,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-73c9cd8c09d929a0",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-1c2472bca80aab75",
+    "targetProjectId": "proj-4e461b38f5d05afd"
+  },
+  {
+    "confidence": 0.4167,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-75c83781cd5bc16f",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4902d58497d90422",
+    "targetProjectId": "proj-4e461b38f5d05afd"
+  },
+  {
+    "confidence": 0.4133,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-75d5856a597421ea",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-1c2472bca80aab75",
+    "targetProjectId": "proj-299d699e04703cfd"
+  },
+  {
+    "confidence": 0.4308,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ATmega2560.",
+    "evidence": [
+      "Mismo microcontrolador principal: ATmega2560."
+    ],
+    "relationId": "rel-77804483af4a3e2b",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-2684f7e12c69809f",
+    "targetProjectId": "proj-8bf5eb8c424af41d"
+  },
+  {
+    "confidence": 0.4167,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-78f487777ccf5e3d",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-0e0c3069f5a83ea4",
+    "targetProjectId": "proj-4e461b38f5d05afd"
+  },
+  {
+    "confidence": 0.4154,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-797a768e4a5585e9",
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-299d699e04703cfd",
     "targetProjectId": "proj-fb8e65ad8631b29f"
   },
   {
-    "confidence": 0.4143,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-05706350e5588709",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-df20c0bdfa75937d",
-    "targetProjectId": "proj-6efd04ef2f2f5cab"
-  },
-  {
-    "confidence": 0.4654,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-069eeecaec6e4575",
+    "confidence": 0.4286,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-7a9d7f29aab3a20b",
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-8c76d2f0e14a7e6d",
-    "targetProjectId": "proj-4e461b38f5d05afd"
+    "targetProjectId": "proj-ae877be606e5b288"
   },
   {
     "confidence": 0.4118,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-06c878cb526618e2",
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-7b486bcb0f1f8c58",
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-8df10854ea1082a6",
     "targetProjectId": "proj-ae877be606e5b288"
   },
   {
     "confidence": 0.4154,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-073b9570da026d84",
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-7b732dac7d5af368",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a906f1e86a9caa9f",
-    "targetProjectId": "proj-6efd04ef2f2f5cab"
+    "sourceProjectId": "proj-ae877be606e5b288",
+    "targetProjectId": "proj-299d699e04703cfd"
   },
   {
     "confidence": 0.4125,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-0900b88d393308be",
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-7edcf88c7724b44b",
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-8df10854ea1082a6",
-    "targetProjectId": "proj-4902d58497d90422"
+    "targetProjectId": "proj-0e0c3069f5a83ea4"
   },
   {
-    "confidence": 0.4133,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-0b694b261a9274a9",
+    "confidence": 0.4821,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: STM32F4.",
+    "evidence": [
+      "Mismo microcontrolador principal: STM32F4."
+    ],
+    "relationId": "rel-80373ab92b86ffbf",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-1c2472bca80aab75",
-    "targetProjectId": "proj-4e461b38f5d05afd"
+    "sourceProjectId": "proj-c552597bc8d468cc",
+    "targetProjectId": "proj-14bca4088da46825"
+  },
+  {
+    "confidence": 0.4118,
+    "description": "Relación arquitectónica documentada: Lista de materiales con componentes compartidos (0.46).",
+    "evidence": [
+      "Lista de materiales con componentes compartidos (0.46)."
+    ],
+    "relationId": "rel-80f1861f775e636f",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-1c96697431543b30",
+    "targetProjectId": "proj-de62002d65b8d3c3"
   },
   {
     "confidence": 0.4167,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-0e0108df72db1eea",
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-8163150cdd58c1d4",
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-a906f1e86a9caa9f",
-    "targetProjectId": "proj-4902d58497d90422"
+    "targetProjectId": "proj-0e0c3069f5a83ea4"
+  },
+  {
+    "confidence": 0.4125,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-819db8c1917695bf",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-1c2472bca80aab75",
+    "targetProjectId": "proj-df20c0bdfa75937d"
+  },
+  {
+    "confidence": 0.3368,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-81d318739a61bdbf",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-0455fb2c072df1ec",
+    "targetProjectId": "proj-a2ebed30b19669a5"
   },
   {
     "confidence": 0.4,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-12c74e4a268ad1a5",
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: STM32F4.",
+    "evidence": [
+      "Mismo microcontrolador principal: STM32F4."
+    ],
+    "relationId": "rel-8342c7b1a18925d5",
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-c552597bc8d468cc",
     "targetProjectId": "proj-a3d73d08684a062d"
   },
   {
+    "confidence": 0.4235,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32-S3.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32-S3."
+    ],
+    "relationId": "rel-836ea5d7885aac99",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-2d6bb1ea265633fd",
+    "targetProjectId": "proj-89dce9c8134220ee"
+  },
+  {
+    "confidence": 0.4211,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32-S3.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32-S3."
+    ],
+    "relationId": "rel-875aa07cd928248f",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-2d6bb1ea265633fd",
+    "targetProjectId": "proj-22933371bb73088f"
+  },
+  {
+    "confidence": 0.41,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-87af2634602383cf",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a09c9eaab189e94a",
+    "targetProjectId": "proj-ae877be606e5b288"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-881aa076c6f7574b",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-1c2472bca80aab75",
+    "targetProjectId": "proj-23e2ffb84ec9c3a1"
+  },
+  {
+    "confidence": 0.4154,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-89463bf3d868e2f2",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-413f063f71e7017e",
+    "targetProjectId": "proj-299d699e04703cfd"
+  },
+  {
+    "confidence": 0.4222,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-8a8f56a9923de1b4",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-0e0c3069f5a83ea4",
+    "targetProjectId": "proj-a09c9eaab189e94a"
+  },
+  {
+    "confidence": 0.4211,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32-S3.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32-S3."
+    ],
+    "relationId": "rel-8ed8a4e632aa340c",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4db6eb596b425847",
+    "targetProjectId": "proj-22933371bb73088f"
+  },
+  {
     "confidence": 0.4,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-1353d2c975249220",
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: STM32F4.",
+    "evidence": [
+      "Mismo microcontrolador principal: STM32F4."
+    ],
+    "relationId": "rel-90eaf5b5da044361",
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-14bca4088da46825",
     "targetProjectId": "proj-a3d73d08684a062d"
   },
   {
-    "confidence": 0.4708,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-13b27d816ab51baa",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-985a367fdabbc644",
-    "targetProjectId": "proj-e1043df73e599c7e"
-  },
-  {
-    "confidence": 0.4286,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-1550a8d715e5b4d1",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8df10854ea1082a6",
-    "targetProjectId": "proj-a906f1e86a9caa9f"
-  },
-  {
-    "confidence": 0.4167,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-16c536e0dd75c789",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-4902d58497d90422",
-    "targetProjectId": "proj-299d699e04703cfd"
-  },
-  {
     "confidence": 0.4308,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-17cbff23e540cf5e",
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ATmega2560.",
+    "evidence": [
+      "Mismo microcontrolador principal: ATmega2560."
+    ],
+    "relationId": "rel-95578edd2dbd5f20",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-4902d58497d90422",
-    "targetProjectId": "proj-fb8e65ad8631b29f"
+    "sourceProjectId": "proj-2684f7e12c69809f",
+    "targetProjectId": "proj-b4b49073df0bfb7a"
   },
   {
-    "confidence": 0.4333,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-181cdba17a42dcb8",
+    "confidence": 0.4182,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-956bc25fdf90a4c0",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a906f1e86a9caa9f",
-    "targetProjectId": "proj-fb8e65ad8631b29f"
-  },
-  {
-    "confidence": 0.4143,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-1826e28775cc4265",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-4902d58497d90422",
-    "targetProjectId": "proj-6efd04ef2f2f5cab"
-  },
-  {
-    "confidence": 0.4167,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-18a8d37f70a5f94c",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a906f1e86a9caa9f",
+    "sourceProjectId": "proj-23e2ffb84ec9c3a1",
     "targetProjectId": "proj-df20c0bdfa75937d"
   },
   {
     "confidence": 0.4118,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-1ac74fbd0d4ccde4",
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-983c3f93b430d989",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8df10854ea1082a6",
+    "sourceProjectId": "proj-4902d58497d90422",
+    "targetProjectId": "proj-a245d2a49550770f"
+  },
+  {
+    "confidence": 0.41,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-984efb6cb354cde4",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-1c2472bca80aab75",
+    "targetProjectId": "proj-a245d2a49550770f"
+  },
+  {
+    "confidence": 0.4375,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-9b2af481a5614386",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a245d2a49550770f",
     "targetProjectId": "proj-fb8e65ad8631b29f"
   },
   {
-    "confidence": 0.4133,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-1c60b065e7cad22e",
+    "confidence": 0.41,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-9b3e7869028e9cd4",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-413f063f71e7017e",
+    "sourceProjectId": "proj-a09c9eaab189e94a",
+    "targetProjectId": "proj-fb8e65ad8631b29f"
+  },
+  {
+    "confidence": 0.4111,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-9da55b286f9692a9",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a245d2a49550770f",
     "targetProjectId": "proj-6efd04ef2f2f5cab"
   },
   {
     "confidence": 0.4143,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-1fffc02c0a3b802a",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-0e0c3069f5a83ea4",
-    "targetProjectId": "proj-fb8e65ad8631b29f"
-  },
-  {
-    "confidence": 0.4333,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-22aa850d14b32869",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-273ead6161abcad3",
-    "targetProjectId": "proj-33e829cad7110af3"
-  },
-  {
-    "confidence": 0.4118,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-24d3f27b34ae28b3",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-1c2472bca80aab75",
-    "targetProjectId": "proj-6efd04ef2f2f5cab"
-  },
-  {
-    "confidence": 0.44,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-2638b7eeebf80aa5",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8bf5eb8c424af41d",
-    "targetProjectId": "proj-b4b49073df0bfb7a"
-  },
-  {
-    "confidence": 0.4118,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-29f14ff97e8fba8c",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-0e0c3069f5a83ea4",
-    "targetProjectId": "proj-a245d2a49550770f"
-  },
-  {
-    "confidence": 0.4133,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-2b4588632ed1863d",
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-a092929a2c61dbc7",
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-ae877be606e5b288",
-    "targetProjectId": "proj-6efd04ef2f2f5cab"
+    "targetProjectId": "proj-9fb705613f7fa35c"
+  },
+  {
+    "confidence": 0.4235,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32-S3.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32-S3."
+    ],
+    "relationId": "rel-a0a0347d2bd1ebf5",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4db6eb596b425847",
+    "targetProjectId": "proj-89dce9c8134220ee"
   },
   {
     "confidence": 0.4468,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-2b6af10c4ee6bd8f",
+    "description": "Relación arquitectónica documentada: Arquitectura o subsistemas afines.",
+    "evidence": [
+      "Arquitectura o subsistemas afines."
+    ],
+    "relationId": "rel-a200868b67721c93",
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-616fcf7e67d1028d",
     "targetProjectId": "proj-25015e1de0868338"
   },
   {
+    "confidence": 0.4143,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-a2447d5ff5027345",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-0e0c3069f5a83ea4",
+    "targetProjectId": "proj-ae877be606e5b288"
+  },
+  {
+    "confidence": 0.42,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-a3a99797df883b38",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4e461b38f5d05afd",
+    "targetProjectId": "proj-23e2ffb84ec9c3a1"
+  },
+  {
+    "confidence": 0.4133,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-a59573d9fccbe398",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-413f063f71e7017e",
+    "targetProjectId": "proj-6efd04ef2f2f5cab"
+  },
+  {
+    "confidence": 0.44,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-a6a46b9d52360d1d",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-0e0c3069f5a83ea4",
+    "targetProjectId": "proj-23e2ffb84ec9c3a1"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-a99be1854dbe1e98",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-0e0c3069f5a83ea4",
+    "targetProjectId": "proj-6efd04ef2f2f5cab"
+  },
+  {
+    "confidence": 0.4133,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-afe84e85e5edf15c",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8c76d2f0e14a7e6d",
+    "targetProjectId": "proj-6efd04ef2f2f5cab"
+  },
+  {
+    "confidence": 0.4125,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-b039a5954bce213e",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8df10854ea1082a6",
+    "targetProjectId": "proj-9fb705613f7fa35c"
+  },
+  {
+    "confidence": 0.4154,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-b14a0e8a14ef4e1e",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a906f1e86a9caa9f",
+    "targetProjectId": "proj-413f063f71e7017e"
+  },
+  {
+    "confidence": 0.5143,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32-S3.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32-S3."
+    ],
+    "relationId": "rel-b16aa0e2a2f2b9df",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4db6eb596b425847",
+    "targetProjectId": "proj-2d6bb1ea265633fd"
+  },
+  {
     "confidence": 0.4333,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-2b7bb4d9c5f58adf",
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ATmega328P.",
+    "evidence": [
+      "Mismo microcontrolador principal: ATmega328P."
+    ],
+    "relationId": "rel-b2b1de6736b4a294",
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-ebd06c8fe102558d",
     "targetProjectId": "proj-e1043df73e599c7e"
   },
   {
     "confidence": 0.4154,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-2bb0e31bab98040a",
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-b3b26b21f7feec77",
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-0e0c3069f5a83ea4",
     "targetProjectId": "proj-9fb705613f7fa35c"
-  },
-  {
-    "confidence": 0.4167,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-2bb5cf893441eae3",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-ae877be606e5b288",
-    "targetProjectId": "proj-23e2ffb84ec9c3a1"
-  },
-  {
-    "confidence": 0.4154,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-2bc31010651bdb42",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-9fb705613f7fa35c",
-    "targetProjectId": "proj-df20c0bdfa75937d"
-  },
-  {
-    "confidence": 0.4105,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-2c8723452bf2dc6f",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a09c9eaab189e94a",
-    "targetProjectId": "proj-9fb705613f7fa35c"
-  },
-  {
-    "confidence": 0.4154,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-2ccc7d6c96dc0ac4",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-0e0c3069f5a83ea4",
-    "targetProjectId": "proj-4902d58497d90422"
   },
   {
     "confidence": 0.4211,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-31c9cb7df4a20e4b",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-2d6bb1ea265633fd",
-    "targetProjectId": "proj-22933371bb73088f"
-  },
-  {
-    "confidence": 0.4167,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-3351ce22ef2f1a4a",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a906f1e86a9caa9f",
-    "targetProjectId": "proj-9fb705613f7fa35c"
-  },
-  {
-    "confidence": 0.4111,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-344a689551004a8d",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a245d2a49550770f",
-    "targetProjectId": "proj-6efd04ef2f2f5cab"
-  },
-  {
-    "confidence": 0.4133,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-34d3666dd6aec0a9",
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-b3ba9a06c81f072c",
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-8df10854ea1082a6",
-    "targetProjectId": "proj-299d699e04703cfd"
-  },
-  {
-    "confidence": 0.4182,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-35843a07eefdc890",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-9fb705613f7fa35c",
-    "targetProjectId": "proj-23e2ffb84ec9c3a1"
-  },
-  {
-    "confidence": 0.4821,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-36bbcd1a2366181c",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-c552597bc8d468cc",
-    "targetProjectId": "proj-14bca4088da46825"
-  },
-  {
-    "confidence": 0.4111,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-3913f00dc3124492",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-ae877be606e5b288",
     "targetProjectId": "proj-a245d2a49550770f"
   },
   {
-    "confidence": 0.4154,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-39b46f6a3c0e349c",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-4e461b38f5d05afd",
-    "targetProjectId": "proj-ae877be606e5b288"
-  },
-  {
-    "confidence": 0.4133,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-3d6b052368aea58a",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-ae877be606e5b288",
-    "targetProjectId": "proj-413f063f71e7017e"
-  },
-  {
-    "confidence": 0.4143,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-40fd423b38641cf4",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-9fb705613f7fa35c",
-    "targetProjectId": "proj-413f063f71e7017e"
-  },
-  {
-    "confidence": 0.3368,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-416b8793a47f7df3",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-0455fb2c072df1ec",
-    "targetProjectId": "proj-a2ebed30b19669a5"
-  },
-  {
-    "confidence": 0.4125,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-424d6595d0b7bfba",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a245d2a49550770f",
-    "targetProjectId": "proj-299d699e04703cfd"
-  },
-  {
-    "confidence": 0.4143,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-433dedf0977413f1",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-413f063f71e7017e",
-    "targetProjectId": "proj-df20c0bdfa75937d"
-  },
-  {
-    "confidence": 0.425,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-4b3f12f4051be171",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a09c9eaab189e94a",
-    "targetProjectId": "proj-23e2ffb84ec9c3a1"
-  },
-  {
-    "confidence": 0.4105,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-4be42ed7171ada52",
+    "confidence": 0.4091,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-b55816b2d2b259e5",
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-8df10854ea1082a6",
-    "targetProjectId": "proj-1c2472bca80aab75"
+    "targetProjectId": "proj-a09c9eaab189e94a"
   },
   {
     "confidence": 0.42,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-4d6e562d81876032",
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-b58c797195488722",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-4e461b38f5d05afd",
+    "sourceProjectId": "proj-a906f1e86a9caa9f",
     "targetProjectId": "proj-23e2ffb84ec9c3a1"
   },
   {
-    "confidence": 0.4105,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-4f21478acaf73f17",
+    "confidence": 0.44,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ATmega2560.",
+    "evidence": [
+      "Mismo microcontrolador principal: ATmega2560."
+    ],
+    "relationId": "rel-b59e896a5ae15ae7",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a09c9eaab189e94a",
-    "targetProjectId": "proj-df20c0bdfa75937d"
+    "sourceProjectId": "proj-8bf5eb8c424af41d",
+    "targetProjectId": "proj-b4b49073df0bfb7a"
   },
   {
-    "confidence": 0.4154,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-514c15005c86b4f3",
+    "confidence": 0.4333,
+    "description": "Relación arquitectónica documentada: Arquitectura o subsistemas afines.",
+    "evidence": [
+      "Arquitectura o subsistemas afines."
+    ],
+    "relationId": "rel-b74be32929a2dd0e",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-ae877be606e5b288",
-    "targetProjectId": "proj-299d699e04703cfd"
-  },
-  {
-    "confidence": 0.4133,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-53351bc517d97b0a",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-413f063f71e7017e",
-    "targetProjectId": "proj-fb8e65ad8631b29f"
-  },
-  {
-    "confidence": 0.4125,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-5535739faaea200a",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-1c2472bca80aab75",
-    "targetProjectId": "proj-9fb705613f7fa35c"
-  },
-  {
-    "confidence": 0.4286,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-5654e0b1bf22c2d4",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-fb8e65ad8631b29f",
-    "targetProjectId": "proj-6efd04ef2f2f5cab"
-  },
-  {
-    "confidence": 0.4154,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-5a30e3fb75df2083",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-413f063f71e7017e",
-    "targetProjectId": "proj-299d699e04703cfd"
+    "sourceProjectId": "proj-273ead6161abcad3",
+    "targetProjectId": "proj-33e829cad7110af3"
   },
   {
     "confidence": 0.4118,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-5a691dc68cc65a92",
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-ba2b222da06d6ff4",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-4902d58497d90422",
-    "targetProjectId": "proj-a245d2a49550770f"
+    "sourceProjectId": "proj-a245d2a49550770f",
+    "targetProjectId": "proj-9fb705613f7fa35c"
   },
   {
-    "confidence": 0.4167,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-5c3c55728cad6355",
+    "confidence": 0.4182,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-bbd95ad4d07f42cd",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-0e0c3069f5a83ea4",
-    "targetProjectId": "proj-299d699e04703cfd"
-  },
-  {
-    "confidence": 0.4154,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-5c8c90b60434ed61",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a906f1e86a9caa9f",
-    "targetProjectId": "proj-8c76d2f0e14a7e6d"
+    "sourceProjectId": "proj-9fb705613f7fa35c",
+    "targetProjectId": "proj-23e2ffb84ec9c3a1"
   },
   {
     "confidence": 0.4133,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-5ce2142286f271b9",
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-bbf80a9773b4511c",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a906f1e86a9caa9f",
+    "targetProjectId": "proj-1c2472bca80aab75"
+  },
+  {
+    "confidence": 0.4286,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32-S3.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32-S3."
+    ],
+    "relationId": "rel-bd616a99a25f85f1",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8b212f8f0d5012cc",
+    "targetProjectId": "proj-89dce9c8134220ee"
+  },
+  {
+    "confidence": 0.4111,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-c0e4a383cd53d170",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a906f1e86a9caa9f",
+    "targetProjectId": "proj-a09c9eaab189e94a"
+  },
+  {
+    "confidence": 0.4133,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-c0fd53e96ab318a9",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-ae877be606e5b288",
+    "targetProjectId": "proj-413f063f71e7017e"
+  },
+  {
+    "confidence": 0.425,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-c1186839e6dc6d1b",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a09c9eaab189e94a",
+    "targetProjectId": "proj-23e2ffb84ec9c3a1"
+  },
+  {
+    "confidence": 0.4133,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-c15484236c6829b5",
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-8c76d2f0e14a7e6d",
     "targetProjectId": "proj-fb8e65ad8631b29f"
   },
   {
-    "confidence": 0.4143,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-5e3a6e98371b542d",
+    "confidence": 0.4154,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-c2712a98a7504e4d",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-1c2472bca80aab75",
+    "sourceProjectId": "proj-9fb705613f7fa35c",
+    "targetProjectId": "proj-df20c0bdfa75937d"
+  },
+  {
+    "confidence": 0.4105,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-c3a156f054682c53",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a09c9eaab189e94a",
+    "targetProjectId": "proj-9fb705613f7fa35c"
+  },
+  {
+    "confidence": 0.4133,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-c4d25d951d1772bd",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-ae877be606e5b288",
+    "targetProjectId": "proj-fb8e65ad8631b29f"
+  },
+  {
+    "confidence": 0.4118,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-c5fa2599cead6905",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8c76d2f0e14a7e6d",
+    "targetProjectId": "proj-1c2472bca80aab75"
+  },
+  {
+    "confidence": 0.41,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-c74d291e28089919",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a09c9eaab189e94a",
+    "targetProjectId": "proj-413f063f71e7017e"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-cbd86e82b3d85308",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8c76d2f0e14a7e6d",
+    "targetProjectId": "proj-df20c0bdfa75937d"
+  },
+  {
+    "confidence": 0.4133,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-ccf5d426d4b47e9b",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8c76d2f0e14a7e6d",
+    "targetProjectId": "proj-413f063f71e7017e"
+  },
+  {
+    "confidence": 0.4087,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-cd37b3586c93819f",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a09c9eaab189e94a",
+    "targetProjectId": "proj-a245d2a49550770f"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-cf44311d4eca0727",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8df10854ea1082a6",
     "targetProjectId": "proj-23e2ffb84ec9c3a1"
   },
   {
     "confidence": 0.4143,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-5e3a72d7ce283c95",
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-cff826582b56866c",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8c76d2f0e14a7e6d",
-    "targetProjectId": "proj-0e0c3069f5a83ea4"
+    "sourceProjectId": "proj-9fb705613f7fa35c",
+    "targetProjectId": "proj-413f063f71e7017e"
   },
   {
-    "confidence": 0.5143,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-5eadf9dc4fa2fc45",
+    "confidence": 0.4111,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-d014b44c80dbf2c9",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-4db6eb596b425847",
-    "targetProjectId": "proj-2d6bb1ea265633fd"
+    "sourceProjectId": "proj-ae877be606e5b288",
+    "targetProjectId": "proj-a245d2a49550770f"
+  },
+  {
+    "confidence": 0.4133,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-d1e57fd7a8d7cda3",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a245d2a49550770f",
+    "targetProjectId": "proj-23e2ffb84ec9c3a1"
+  },
+  {
+    "confidence": 0.4118,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-d3c44cc7f1b9d2dd",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8df10854ea1082a6",
+    "targetProjectId": "proj-8c76d2f0e14a7e6d"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-d6b1efafe11a81ba",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-df20c0bdfa75937d",
+    "targetProjectId": "proj-6efd04ef2f2f5cab"
+  },
+  {
+    "confidence": 0.4654,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-d810f8057b27cf9e",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8c76d2f0e14a7e6d",
+    "targetProjectId": "proj-4e461b38f5d05afd"
+  },
+  {
+    "confidence": 0.4167,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-d91a204f7ad9c60a",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-9fb705613f7fa35c",
+    "targetProjectId": "proj-299d699e04703cfd"
+  },
+  {
+    "confidence": 0.4167,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-da6845bce55d7b54",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4e461b38f5d05afd",
+    "targetProjectId": "proj-df20c0bdfa75937d"
+  },
+  {
+    "confidence": 0.4118,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-da6de9e3d8438902",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-0e0c3069f5a83ea4",
+    "targetProjectId": "proj-a245d2a49550770f"
   },
   {
     "confidence": 0.4182,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-5f2be5c84f8c078c",
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-db5cc860f1979694",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a906f1e86a9caa9f",
+    "targetProjectId": "proj-299d699e04703cfd"
+  },
+  {
+    "confidence": 0.4182,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-dd588f0c98e2f145",
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-a906f1e86a9caa9f",
     "targetProjectId": "proj-4e461b38f5d05afd"
   },
   {
-    "confidence": 0.425,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-5f99f5c383e601c1",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-1c2472bca80aab75",
-    "targetProjectId": "proj-ae877be606e5b288"
-  },
-  {
-    "confidence": 0.42,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-611355416d78e618",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-22933371bb73088f",
-    "targetProjectId": "proj-89dce9c8134220ee"
-  },
-  {
-    "confidence": 0.4211,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-616696126b3e5e0e",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-4db6eb596b425847",
-    "targetProjectId": "proj-22933371bb73088f"
-  },
-  {
-    "confidence": 0.4118,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-638fa26e61ce9bc5",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a245d2a49550770f",
-    "targetProjectId": "proj-9fb705613f7fa35c"
-  },
-  {
-    "confidence": 0.4133,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-678081e16b1151b2",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8c76d2f0e14a7e6d",
-    "targetProjectId": "proj-6efd04ef2f2f5cab"
-  },
-  {
-    "confidence": 0.41,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-6c317f51e6de4445",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a09c9eaab189e94a",
-    "targetProjectId": "proj-fb8e65ad8631b29f"
-  },
-  {
     "confidence": 0.4143,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-71704c75fcfbf2b4",
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-dd81cfecd429ca3e",
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-4902d58497d90422",
-    "targetProjectId": "proj-ae877be606e5b288"
-  },
-  {
-    "confidence": 0.4375,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-7848aed097f1b112",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a245d2a49550770f",
-    "targetProjectId": "proj-fb8e65ad8631b29f"
-  },
-  {
-    "confidence": 0.4133,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-78f5a79cb75c1869",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-1c2472bca80aab75",
-    "targetProjectId": "proj-299d699e04703cfd"
-  },
-  {
-    "confidence": 0.3355,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-79aab3bff909ad26",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-1a64e60857cbc87d",
-    "targetProjectId": "proj-a2ebed30b19669a5"
-  },
-  {
-    "confidence": 0.4143,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-7f9f0c497a951982",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-0e0c3069f5a83ea4",
-    "targetProjectId": "proj-413f063f71e7017e"
-  },
-  {
-    "confidence": 0.4167,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-7fedb3abf86eb5fc",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-4e461b38f5d05afd",
-    "targetProjectId": "proj-9fb705613f7fa35c"
-  },
-  {
-    "confidence": 0.475,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-8383380ecbd46350",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-9cc1a42f66e7c4d5",
-    "targetProjectId": "proj-c7a08cce79d39f48"
-  },
-  {
-    "confidence": 0.4118,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-86fbc33d76a2e424",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-1c96697431543b30",
-    "targetProjectId": "proj-de62002d65b8d3c3"
-  },
-  {
-    "confidence": 0.4211,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-882c60d45ac99195",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8df10854ea1082a6",
-    "targetProjectId": "proj-a245d2a49550770f"
-  },
-  {
-    "confidence": 0.4167,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-8871abbb31cb5675",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-4e461b38f5d05afd",
-    "targetProjectId": "proj-df20c0bdfa75937d"
-  },
-  {
-    "confidence": 0.4143,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-8977432134d00611",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-ae877be606e5b288",
-    "targetProjectId": "proj-df20c0bdfa75937d"
-  },
-  {
-    "confidence": 0.4154,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-89be4c3aa5d89c6e",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-4e461b38f5d05afd",
-    "targetProjectId": "proj-6efd04ef2f2f5cab"
-  },
-  {
-    "confidence": 0.425,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-8a86b9027c2fe7d2",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8b212f8f0d5012cc",
-    "targetProjectId": "proj-22933371bb73088f"
-  },
-  {
-    "confidence": 0.42,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-8a9ad9d0e12aba5e",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-299d699e04703cfd",
-    "targetProjectId": "proj-23e2ffb84ec9c3a1"
-  },
-  {
-    "confidence": 0.4133,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-8bd0d02a5508f5b5",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8c76d2f0e14a7e6d",
-    "targetProjectId": "proj-413f063f71e7017e"
-  },
-  {
-    "confidence": 0.4167,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-8d1dc592f7c7df9d",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-fb8e65ad8631b29f",
-    "targetProjectId": "proj-23e2ffb84ec9c3a1"
-  },
-  {
-    "confidence": 0.4125,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-92d0ee6ba2b6b1bb",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8df10854ea1082a6",
-    "targetProjectId": "proj-9fb705613f7fa35c"
-  },
-  {
-    "confidence": 0.4125,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-93e05e1b627b8d12",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-4902d58497d90422",
-    "targetProjectId": "proj-1c2472bca80aab75"
-  },
-  {
-    "confidence": 0.4087,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-983b614a906399ea",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a09c9eaab189e94a",
-    "targetProjectId": "proj-a245d2a49550770f"
-  },
-  {
-    "confidence": 0.4154,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-98d95f339bfc898b",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-299d699e04703cfd",
-    "targetProjectId": "proj-6efd04ef2f2f5cab"
-  },
-  {
-    "confidence": 0.4143,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-99b153c8d5eaa789",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-0e0c3069f5a83ea4",
-    "targetProjectId": "proj-6efd04ef2f2f5cab"
-  },
-  {
-    "confidence": 0.4154,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-9ab120e997ce5320",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a906f1e86a9caa9f",
     "targetProjectId": "proj-413f063f71e7017e"
   },
   {
     "confidence": 0.4333,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-9ad5d24c346381bb",
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ATmega328P.",
+    "evidence": [
+      "Mismo microcontrolador principal: ATmega328P."
+    ],
+    "relationId": "rel-dd8d84f1dca47f5e",
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-985a367fdabbc644",
     "targetProjectId": "proj-ebd06c8fe102558d"
   },
   {
-    "confidence": 0.41,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-9d1a6433bdf53a93",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a09c9eaab189e94a",
-    "targetProjectId": "proj-ae877be606e5b288"
-  },
-  {
-    "confidence": 0.4105,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-9d351f8056cd88c4",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-4902d58497d90422",
-    "targetProjectId": "proj-a09c9eaab189e94a"
-  },
-  {
-    "confidence": 0.4143,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-a0dc297e0d1bc827",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-fb8e65ad8631b29f",
-    "targetProjectId": "proj-df20c0bdfa75937d"
-  },
-  {
-    "confidence": 0.41,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-a0e90a5cc4c6fb36",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a09c9eaab189e94a",
-    "targetProjectId": "proj-6efd04ef2f2f5cab"
-  },
-  {
-    "confidence": 0.4154,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-a3bc8f2186c42053",
+    "confidence": 0.4333,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-dda9fef9fece2c9b",
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-a906f1e86a9caa9f",
-    "targetProjectId": "proj-ae877be606e5b288"
+    "targetProjectId": "proj-fb8e65ad8631b29f"
   },
   {
-    "confidence": 0.4143,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-a5287e374b954a56",
+    "confidence": 0.4125,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-df8fb49d851767fe",
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-0e0c3069f5a83ea4",
-    "targetProjectId": "proj-ae877be606e5b288"
+    "targetProjectId": "proj-1c2472bca80aab75"
   },
   {
-    "confidence": 0.4143,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-a637e940ac8d1fa7",
+    "confidence": 0.4125,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-e27edaa3fa7ac636",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8c76d2f0e14a7e6d",
-    "targetProjectId": "proj-df20c0bdfa75937d"
+    "sourceProjectId": "proj-a245d2a49550770f",
+    "targetProjectId": "proj-299d699e04703cfd"
+  },
+  {
+    "confidence": 0.4133,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-e400a1114a71a7ea",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-413f063f71e7017e",
+    "targetProjectId": "proj-fb8e65ad8631b29f"
   },
   {
     "confidence": 0.4143,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-a64292cf5411adfe",
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-e4e0b4b6892dcafa",
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-683b8320c77d62a2",
     "targetProjectId": "proj-0455fb2c072df1ec"
   },
   {
-    "confidence": 0.42,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-ad32b6ede34bd285",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a906f1e86a9caa9f",
-    "targetProjectId": "proj-23e2ffb84ec9c3a1"
-  },
-  {
-    "confidence": 0.41,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-ae497ee888db2d38",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-1c2472bca80aab75",
-    "targetProjectId": "proj-a245d2a49550770f"
-  },
-  {
-    "confidence": 0.4167,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-af934c9e801698a0",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-4902d58497d90422",
-    "targetProjectId": "proj-4e461b38f5d05afd"
-  },
-  {
-    "confidence": 0.4167,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-b5b7ee5eef4f1640",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-0e0c3069f5a83ea4",
-    "targetProjectId": "proj-4e461b38f5d05afd"
-  },
-  {
     "confidence": 0.4125,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-b62a29cd5e4fd9f4",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-1c2472bca80aab75",
-    "targetProjectId": "proj-df20c0bdfa75937d"
-  },
-  {
-    "confidence": 0.4125,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-b63f3574963b8360",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-0e0c3069f5a83ea4",
-    "targetProjectId": "proj-1c2472bca80aab75"
-  },
-  {
-    "confidence": 0.4143,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-b76b095062d46998",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-9fb705613f7fa35c",
-    "targetProjectId": "proj-fb8e65ad8631b29f"
-  },
-  {
-    "confidence": 0.4111,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-b9cefe457f335602",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a906f1e86a9caa9f",
-    "targetProjectId": "proj-a09c9eaab189e94a"
-  },
-  {
-    "confidence": 0.4143,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-ba06eb2a0a32c70e",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8c76d2f0e14a7e6d",
-    "targetProjectId": "proj-9fb705613f7fa35c"
-  },
-  {
-    "confidence": 0.4667,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-ba4b4ae4cd3cea6a",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-413f063f71e7017e",
-    "targetProjectId": "proj-23e2ffb84ec9c3a1"
-  },
-  {
-    "confidence": 0.4118,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-ba8e78969b4e5835",
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-e62a0ad1c12e6127",
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-8df10854ea1082a6",
-    "targetProjectId": "proj-413f063f71e7017e"
-  },
-  {
-    "confidence": 0.4125,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-baf672516e77ed5e",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-4e461b38f5d05afd",
-    "targetProjectId": "proj-a245d2a49550770f"
-  },
-  {
-    "confidence": 0.4154,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-bb2b727b81fd7afc",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-4902d58497d90422",
-    "targetProjectId": "proj-9fb705613f7fa35c"
-  },
-  {
-    "confidence": 0.4154,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-bc1d234a186e1bc5",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-0e0c3069f5a83ea4",
-    "targetProjectId": "proj-df20c0bdfa75937d"
-  },
-  {
-    "confidence": 0.4167,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-bc316d51bfc8ba35",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8c76d2f0e14a7e6d",
-    "targetProjectId": "proj-23e2ffb84ec9c3a1"
-  },
-  {
-    "confidence": 0.4118,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-bc687832e2c1c106",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8df10854ea1082a6",
-    "targetProjectId": "proj-6efd04ef2f2f5cab"
-  },
-  {
-    "confidence": 0.4182,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-bcbd03ad117098b1",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a906f1e86a9caa9f",
-    "targetProjectId": "proj-299d699e04703cfd"
-  },
-  {
-    "confidence": 0.4154,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-bfb9a587a6c510ca",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-4e461b38f5d05afd",
-    "targetProjectId": "proj-413f063f71e7017e"
-  },
-  {
-    "confidence": 0.4133,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-bfcc433cb9f59315",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a906f1e86a9caa9f",
-    "targetProjectId": "proj-1c2472bca80aab75"
-  },
-  {
-    "confidence": 0.4111,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-c1a663db45d9a6da",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a09c9eaab189e94a",
-    "targetProjectId": "proj-299d699e04703cfd"
-  },
-  {
-    "confidence": 0.4235,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-c26bd7a345e341f5",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-2d6bb1ea265633fd",
-    "targetProjectId": "proj-89dce9c8134220ee"
-  },
-  {
-    "confidence": 0.4143,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-c3ca1aa82437a7a0",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8c76d2f0e14a7e6d",
     "targetProjectId": "proj-4902d58497d90422"
   },
   {
-    "confidence": 0.4222,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-c701110ca235f3cd",
+    "confidence": 0.4154,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-eaa6f49a4e73f5bc",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-0e0c3069f5a83ea4",
-    "targetProjectId": "proj-a09c9eaab189e94a"
-  },
-  {
-    "confidence": 0.4133,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-c7ce9ed2c6bf14a1",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-ae877be606e5b288",
-    "targetProjectId": "proj-fb8e65ad8631b29f"
-  },
-  {
-    "confidence": 0.4118,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-c99c1f346af4f0a5",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-1c2472bca80aab75",
-    "targetProjectId": "proj-413f063f71e7017e"
-  },
-  {
-    "confidence": 0.4133,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-ccbe4497eb6cdb0c",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8df10854ea1082a6",
-    "targetProjectId": "proj-4e461b38f5d05afd"
-  },
-  {
-    "confidence": 0.4125,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-cdb19fa837b985e9",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8df10854ea1082a6",
-    "targetProjectId": "proj-0e0c3069f5a83ea4"
-  },
-  {
-    "confidence": 0.4133,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-cdb9699d2c49c34a",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a245d2a49550770f",
-    "targetProjectId": "proj-23e2ffb84ec9c3a1"
-  },
-  {
-    "confidence": 0.4083,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-d16ccd6ee361dd25",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-4e59318e9573e811",
-    "targetProjectId": "proj-4a566f25189a6e42"
-  },
-  {
-    "confidence": 0.4235,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-d4727f87d12495db",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-4db6eb596b425847",
-    "targetProjectId": "proj-89dce9c8134220ee"
-  },
-  {
-    "confidence": 0.4111,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-d612e967263e7085",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8c76d2f0e14a7e6d",
-    "targetProjectId": "proj-a245d2a49550770f"
-  },
-  {
-    "confidence": 0.4286,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-d9cd19377917d0af",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8c76d2f0e14a7e6d",
-    "targetProjectId": "proj-ae877be606e5b288"
-  },
-  {
-    "confidence": 0.4286,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-dd9ef8470aa86a35",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8b212f8f0d5012cc",
-    "targetProjectId": "proj-89dce9c8134220ee"
-  },
-  {
-    "confidence": 0.4167,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-de8b538d45ac2434",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-9fb705613f7fa35c",
-    "targetProjectId": "proj-299d699e04703cfd"
-  },
-  {
-    "confidence": 0.4182,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-e0cfa6b5d8e1d457",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-23e2ffb84ec9c3a1",
-    "targetProjectId": "proj-df20c0bdfa75937d"
-  },
-  {
-    "confidence": 0.41,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-e2360219ac2c1fe3",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a09c9eaab189e94a",
+    "sourceProjectId": "proj-4e461b38f5d05afd",
     "targetProjectId": "proj-413f063f71e7017e"
   },
   {
     "confidence": 0.4118,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-e241764dbcdeadeb",
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-ebd4d0d73e39cbab",
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-1c2472bca80aab75",
     "targetProjectId": "proj-fb8e65ad8631b29f"
+  },
+  {
+    "confidence": 0.4118,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-ed91657e11e4b98a",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8df10854ea1082a6",
+    "targetProjectId": "proj-6efd04ef2f2f5cab"
   },
   {
     "confidence": 0.4143,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-e387d2ecb1663ab3",
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-ee220fe655410a94",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-ae877be606e5b288",
+    "sourceProjectId": "proj-4902d58497d90422",
+    "targetProjectId": "proj-ae877be606e5b288"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-f0c726be823c1dd9",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4902d58497d90422",
+    "targetProjectId": "proj-6efd04ef2f2f5cab"
+  },
+  {
+    "confidence": 0.4167,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-f16429cf568c3b32",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4e461b38f5d05afd",
     "targetProjectId": "proj-9fb705613f7fa35c"
   },
   {
-    "confidence": 0.4118,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-e40ffbaa2e1b9787",
+    "confidence": 0.4167,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-f300fa82ba0bff99",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-299d699e04703cfd",
+    "targetProjectId": "proj-df20c0bdfa75937d"
+  },
+  {
+    "confidence": 0.46,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-f4118d2d51002f0f",
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-8c76d2f0e14a7e6d",
+    "targetProjectId": "proj-a09c9eaab189e94a"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-f5035866927ad71f",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-fb8e65ad8631b29f",
+    "targetProjectId": "proj-df20c0bdfa75937d"
+  },
+  {
+    "confidence": 0.4118,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-f537dc05c34a0b5d",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8df10854ea1082a6",
+    "targetProjectId": "proj-413f063f71e7017e"
+  },
+  {
+    "confidence": 0.4154,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-f63be2c7716cb090",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a906f1e86a9caa9f",
+    "targetProjectId": "proj-8c76d2f0e14a7e6d"
+  },
+  {
+    "confidence": 0.425,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32-S3.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32-S3."
+    ],
+    "relationId": "rel-f68ff346d2049f3d",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8b212f8f0d5012cc",
+    "targetProjectId": "proj-22933371bb73088f"
+  },
+  {
+    "confidence": 0.4105,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-f71a339002bcce43",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8df10854ea1082a6",
     "targetProjectId": "proj-1c2472bca80aab75"
   },
   {
     "confidence": 0.4111,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-e75180c8c822e37c",
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-f7f4f779b0a12602",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a245d2a49550770f",
-    "targetProjectId": "proj-413f063f71e7017e"
+    "sourceProjectId": "proj-a09c9eaab189e94a",
+    "targetProjectId": "proj-299d699e04703cfd"
   },
   {
-    "confidence": 0.4118,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-e8264b2278ae8037",
+    "confidence": 0.4708,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ATmega328P.",
+    "evidence": [
+      "Mismo microcontrolador principal: ATmega328P."
+    ],
+    "relationId": "rel-f8ec98e814b9d1b2",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8df10854ea1082a6",
-    "targetProjectId": "proj-8c76d2f0e14a7e6d"
-  },
-  {
-    "confidence": 0.4792,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-e9379d1466a12593",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a906f1e86a9caa9f",
-    "targetProjectId": "proj-a245d2a49550770f"
-  },
-  {
-    "confidence": 0.435,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-ea1e1ecf36f1b00d",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-683b8320c77d62a2",
-    "targetProjectId": "proj-a2ebed30b19669a5"
+    "sourceProjectId": "proj-985a367fdabbc644",
+    "targetProjectId": "proj-e1043df73e599c7e"
   },
   {
     "confidence": 0.4167,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-eb8a67998948ebd3",
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-f9a5afcdfcf45dfe",
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-23e2ffb84ec9c3a1",
     "targetProjectId": "proj-6efd04ef2f2f5cab"
   },
   {
-    "confidence": 0.4143,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-ec3c4af07bfc089d",
+    "confidence": 0.4167,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-f9ad259cc8020624",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-9fb705613f7fa35c",
-    "targetProjectId": "proj-6efd04ef2f2f5cab"
-  },
-  {
-    "confidence": 0.4125,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-eda3c80b028bf9df",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8df10854ea1082a6",
-    "targetProjectId": "proj-df20c0bdfa75937d"
-  },
-  {
-    "confidence": 0.5071,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-edc4fd6790f1e0cb",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8b212f8f0d5012cc",
-    "targetProjectId": "proj-2d6bb1ea265633fd"
+    "sourceProjectId": "proj-a906f1e86a9caa9f",
+    "targetProjectId": "proj-4902d58497d90422"
   },
   {
     "confidence": 0.4154,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-f000031af45b0aaa",
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-faebdc5276190643",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-0e0c3069f5a83ea4",
+    "targetProjectId": "proj-df20c0bdfa75937d"
+  },
+  {
+    "confidence": 0.4154,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-fe6ec8d810502f8a",
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-8c76d2f0e14a7e6d",
     "targetProjectId": "proj-299d699e04703cfd"
   },
   {
-    "confidence": 0.4091,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-f2a893dc5cf51a56",
+    "confidence": 0.4667,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-ffd7c06c58e4a918",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-1c2472bca80aab75",
-    "targetProjectId": "proj-a09c9eaab189e94a"
-  },
-  {
-    "confidence": 0.4143,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-f2d373369b877dff",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-4902d58497d90422",
-    "targetProjectId": "proj-413f063f71e7017e"
-  },
-  {
-    "confidence": 0.4091,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-f3d7d2f72bf34726",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8df10854ea1082a6",
-    "targetProjectId": "proj-a09c9eaab189e94a"
-  },
-  {
-    "confidence": 0.4167,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-f6f522e9bbebaa53",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a906f1e86a9caa9f",
-    "targetProjectId": "proj-0e0c3069f5a83ea4"
-  },
-  {
-    "confidence": 0.4308,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-f712b2724d597bd4",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-2684f7e12c69809f",
-    "targetProjectId": "proj-8bf5eb8c424af41d"
-  },
-  {
-    "confidence": 0.4182,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-faa269002d47b386",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-4e461b38f5d05afd",
-    "targetProjectId": "proj-299d699e04703cfd"
-  },
-  {
-    "confidence": 0.4143,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-fc928ccb3448f202",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8df10854ea1082a6",
-    "targetProjectId": "proj-23e2ffb84ec9c3a1"
-  },
-  {
-    "confidence": 0.4154,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-fcb460e2ad70d67a",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-4e461b38f5d05afd",
-    "targetProjectId": "proj-fb8e65ad8631b29f"
-  },
-  {
-    "confidence": 0.4118,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-ff0b82a355399b4f",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a245d2a49550770f",
-    "targetProjectId": "proj-df20c0bdfa75937d"
-  },
-  {
-    "confidence": 0.4182,
-    "description": "Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-    "relationId": "rel-ff1ece100c40587b",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-4902d58497d90422",
+    "sourceProjectId": "proj-413f063f71e7017e",
     "targetProjectId": "proj-23e2ffb84ec9c3a1"
   }
 ]

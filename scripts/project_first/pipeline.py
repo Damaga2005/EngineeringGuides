@@ -168,6 +168,20 @@ def run_project_first_pipeline() -> Dict[str, Any]:
             encoding="utf-8"
         )
         
+    # 8. Generate Recertification Audit Artifacts
+    print("--> Step 6/6: Generating recertification audit artifacts...")
+    from scripts.project_first.audit_artifacts import (
+        generate_evidence_audit,
+        generate_fabrication_audit,
+        generate_golden_execution,
+    )
+    ev_audit = generate_evidence_audit()
+    fab_audit = generate_fabrication_audit()
+    gold_audit = generate_golden_execution()
+    print(f"    Evidence audit: {ev_audit['verdict']} ({ev_audit['literalMatches']} matches, {ev_audit['literalMismatches']} mismatches)")
+    print(f"    Fabrication audit: {fab_audit['verdict']} (banned: {fab_audit['bannedPhrasesFoundCount']}, inconsistencies: {fab_audit['statusInconsistenciesCount']})")
+    print(f"    Golden dataset audit: {gold_audit['verdict']} (all tiers passed: {gold_audit['allTiersPassed']})")
+        
     print("==========================================================")
     print("  PROJECT-FIRST PIPELINE COMPLETED SUCCESSFULLY")
     print(f"  - 183 Projects, {len(canonical_projects)} Canonical Projects, {len(relations)} Relations")
@@ -178,7 +192,10 @@ def run_project_first_pipeline() -> Dict[str, Any]:
         "canonicalProjects": len(canonical_projects),
         "duplicateCandidates": len(candidates),
         "relations": len(relations),
-        "dedupStats": dedup_stats
+        "dedupStats": dedup_stats,
+        "evidenceAudit": ev_audit["verdict"],
+        "fabricationAudit": fab_audit["verdict"],
+        "goldenAudit": gold_audit["verdict"]
     }
 
 

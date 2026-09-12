@@ -1,0 +1,34 @@
+{
+  "allFilesByteIdentical": true,
+  "auditType": "STRICT_DETERMINISM_REPRODUCIBILITY_AUDIT",
+  "comparisons": {
+    "boundary_reconciliation.json": {
+      "byteIdentical": true,
+      "runA_sha256": "05fc897ad3513817b50d5b0bf6718023bfef38fe4483f770583b707a98265523",
+      "runB_sha256": "05fc897ad3513817b50d5b0bf6718023bfef38fe4483f770583b707a98265523"
+    },
+    "canonical_projects.json": {
+      "byteIdentical": true,
+      "runA_sha256": "ef36ec519d8a9952df1489c2119151f0b2dd0593d17f509ab13c809f2cf2a355",
+      "runB_sha256": "ef36ec519d8a9952df1489c2119151f0b2dd0593d17f509ab13c809f2cf2a355"
+    },
+    "duplicate_candidates.json": {
+      "byteIdentical": true,
+      "runA_sha256": "811b0aec5af5715c1c71e89e922e698a0bd42fef9ae6efef83a758ba8aea7cdd",
+      "runB_sha256": "811b0aec5af5715c1c71e89e922e698a0bd42fef9ae6efef83a758ba8aea7cdd"
+    },
+    "projects.json": {
+      "byteIdentical": true,
+      "runA_sha256": "4ec54adacdf124a5dd4ecfaf9bbf15aacb2a9a5b1c900953e907ca6d485ccb70",
+      "runB_sha256": "4ec54adacdf124a5dd4ecfaf9bbf15aacb2a9a5b1c900953e907ca6d485ccb70"
+    },
+    "relations.json": {
+      "byteIdentical": true,
+      "runA_sha256": "9326f84da884c253e2042bae8be36670b22e31e54e1c3f43cba9ef1c2fe4f91e",
+      "runB_sha256": "9326f84da884c253e2042bae8be36670b22e31e54e1c3f43cba9ef1c2fe4f91e"
+    }
+  },
+  "timestamp": "2026-09-12T00:00:00Z",
+  "totalFilesAudited": 5,
+  "verdict": "PASS_STRICT_DETERMINISM"
+}

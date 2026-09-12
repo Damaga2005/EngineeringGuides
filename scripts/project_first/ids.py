@@ -1,11 +1,12 @@
 """
-Deterministic Cryptographic ID and Slug Generators for Project-First Architecture (Prompt 02).
+Deterministic Cryptographic ID and Slug Generators for Project-First Architecture (Prompt 02, 02.1 & 02.2).
 Guarantees zero random UUIDs, zero timestamps, and 100% cross-platform reproducibility.
 """
 
 import hashlib
 import re
 import unicodedata
+from typing import List
 
 
 def deterministic_hash(content: str, length: int = 16) -> str:
@@ -33,9 +34,14 @@ def generate_project_source_id(project_id: str, source_document_id: str, page_st
     return f"psrc-{deterministic_hash(canonical_key)}"
 
 
-def generate_canonical_project_id(canonical_name: str, controller: str = "") -> str:
-    """Derive stable CanonicalProject ID: cproj-<hash>."""
-    canonical_key = f"{canonical_name.strip().lower()}:{controller.strip().lower()}"
+def generate_evidence_id(source_document_id: str, page_number: int, block_index: int) -> str:
+    """Derive stable EvidenceBlock ID: ev-<docId>-p<page>-b<block>."""
+    return f"ev-{source_document_id}-p{page_number}-b{block_index}"
+
+
+def generate_canonical_project_id(project_ids: List[str]) -> str:
+    """Derive stable CanonicalProject ID strictly from sorted member project IDs: cproj-<hash>."""
+    canonical_key = ":".join(sorted(project_ids))
     return f"cproj-{deterministic_hash(canonical_key)}"
 
 

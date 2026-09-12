@@ -1,0 +1,32 @@
+{
+  "allTiersPassed": true,
+  "auditType": "TIERED_GOLDEN_DATASET_EXECUTION",
+  "tiers": {
+    "golden_tier_1": {
+      "durationMs": 0.19,
+      "errors": [],
+      "passed": true,
+      "projectsChecked": 1
+    },
+    "golden_tier_20": {
+      "durationMs": 3.58,
+      "errors": [],
+      "passed": true,
+      "projectsChecked": 20
+    },
+    "golden_tier_5": {
+      "durationMs": 1.45,
+      "errors": [],
+      "passed": true,
+      "projectsChecked": 5
+    },
+    "golden_tier_full_183": {
+      "durationMs": 27.05,
+      "errors": [],
+      "passed": true,
+      "projectsChecked": 183
+    }
+  },
+  "timestamp": "2026-09-12T00:00:00Z",
+  "verdict": "PASS"
+}

@@ -1,5 +1,5 @@
 """
-Formal Pydantic Data Models for Project-First Architecture (Prompt 02 & Prompt 02.1).
+Formal Pydantic Data Models for Project-First Architecture (Prompt 02, 02.1 & 02.2).
 Ensures strict validation, evidence-level provenance, zero-fabrication guarantees,
 and deterministic serialization.
 """
@@ -56,10 +56,11 @@ class BoundaryReconciliationStatus(str, Enum):
 
 class EvidenceBlock(BaseModel):
     model_config = ConfigDict(extra="forbid")
+    evidenceId: str = Field(description="Deterministic ID, e.g. ev-guide-001-p2-b10")
     sourceDocumentId: str = Field(description="e.g. guide-001")
     pageNumber: int = Field(description="1-based page number in source PDF")
     blockIndex: int = Field(description="0-based block index within Document IR page")
-    textSnippet: str = Field(description="Literal text extracted from the block")
+    textSnippet: str = Field(description="Literal text extracted from the block without truncation")
     bbox: Optional[List[float]] = Field(default=None, description="[x0, y0, x1, y1] bounding box in PDF points")
     sourceHash: str = Field(description="SHA-256 of the source PDF")
     claim: Optional[str] = Field(default=None, description="What this evidence supports")
@@ -74,7 +75,7 @@ class ProjectBoundary(BaseModel):
     startBlock: int = Field(description="Starting block index on startPage")
     endPage: int = Field(description="Ending page number (1-based)")
     endBlock: int = Field(description="Ending block index on endPage")
-    detectionMethod: str = Field(description="e.g. ir_heading_marker, ir_title_pattern, layout_continuity")
+    detectionMethod: str = Field(description="e.g. ir_bracket_marker, ir_project_heading, ir_numbered_header, NEEDS_REVIEW")
     confidence: float = Field(default=1.0, ge=0.0, le=1.0)
     evidenceBlocks: List[EvidenceBlock] = Field(default_factory=list)
 
@@ -90,6 +91,7 @@ class BoundaryReconciliationRecord(BaseModel):
     irPageRange: List[int]
     status: BoundaryReconciliationStatus
     discrepancyNote: Optional[str] = None
+    evidenceBlocks: List[EvidenceBlock] = Field(default_factory=list)
 
 
 class TechnicalIdentity(BaseModel):
@@ -110,19 +112,22 @@ class TechnicalIdentity(BaseModel):
 class ProjectDescription(BaseModel):
     model_config = ConfigDict(extra="forbid")
     whatIsIt: str = Field(description="¿Qué es?: Definición concisa y fiel del sistema respaldada por evidencia")
-    whatDoesItDo: str = Field(description="¿Qué hace?: Descripción técnica operativa respaldada por evidencia")
-    purpose: str = Field(description="¿Para qué sirve?: Propósito y casos de uso respaldados por evidencia")
+    whatDoesItDo: Optional[str] = Field(default=None, description="¿Qué hace?: Descripción técnica operativa respaldada por evidencia o NOT_DOCUMENTED")
+    purpose: Optional[str] = Field(default=None, description="¿Para qué sirve?: Propósito respaldado por evidencia o NOT_DOCUMENTED")
     objective: Optional[str] = Field(default=None, description="¿Cuál es su objetivo?")
     technologies: List[str] = Field(default_factory=list, description="¿Qué tecnología utiliza?")
     summary: str = Field(description="Resumen técnico integrado")
+    evidenceIds: List[str] = Field(default_factory=list, description="IDs of EvidenceBlocks grounding description")
+    fieldStatus: Dict[str, ContentStatus] = Field(default_factory=dict)
 
 
 class TechnicalSection(BaseModel):
     model_config = ConfigDict(extra="forbid")
     sectionIndex: int
     title: str
-    sourceText: Optional[str] = Field(default=None, description="Texto literal exacto extraído de Document IR o None")
+    sourceText: Optional[str] = Field(default=None, description="Texto literal exacto del bloque IR sin truncación o None")
     derivedExplanation: Optional[str] = Field(default=None, description="Explicación técnica fundamentada en evidencia o None")
+    derivedFrom: List[str] = Field(default_factory=list, description="IDs de EvidenceBlocks que sustentan la derivación")
     status: ContentStatus = Field(default=ContentStatus.SOURCE)
     evidenceBlocks: List[EvidenceBlock] = Field(default_factory=list)
     provenance: Optional[Provenance] = None
@@ -267,6 +272,7 @@ class ProjectRelation(BaseModel):
     relationType: RelationType
     description: str
     confidence: float = 1.0
+    evidence: List[str] = Field(default_factory=list)
 
 
 class ProjectCatalog(BaseModel):

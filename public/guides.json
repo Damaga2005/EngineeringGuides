@@ -135,7 +135,7 @@
       ],
       "keyProjects": [
         {
-          "canonicalProjectId": "cproj-c76abbe84f3d3d46",
+          "canonicalProjectId": "cproj-1027e9a6e496de83",
           "components": [
             "Sony Starvis IMX307",
             "VCSEL 940nm",
@@ -289,7 +289,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-9bbf116cb10919dc",
+          "canonicalProjectId": "cproj-105f9723d8a015b6",
           "components": [
             "Prisma colimador",
             "ESP32-S3",
@@ -443,7 +443,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-027e7becb31d9c20",
+          "canonicalProjectId": "cproj-4f886033a4e68cb3",
           "components": [
             "Radar 24GHz",
             "Servos PTZ",
@@ -597,7 +597,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-b15a9e936705f131",
+          "canonicalProjectId": "cproj-306b89ecd22ea8a5",
           "components": [
             "RTL-SDR v4",
             "Antena telescópica",
@@ -751,7 +751,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-f9e1b66ec251ee32",
+          "canonicalProjectId": "cproj-7f4655217e79c79e",
           "components": [
             "Heltec V3 ESP32 LoRa",
             "Antena fibra de vidrio",
@@ -905,7 +905,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-52240393ff2e42b6",
+          "canonicalProjectId": "cproj-d9b1fd7ae8241b9a",
           "components": [
             "Servidor Node.js",
             "OpenStreetMap offline",
@@ -1178,7 +1178,7 @@
       ],
       "keyProjects": [
         {
-          "canonicalProjectId": "cproj-c3c44d457b226e75",
+          "canonicalProjectId": "cproj-837683c116aa3f30",
           "components": [
             "Matek 3901-L0X",
             "UART/I2C"
@@ -1325,7 +1325,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-6832a2aceb2b8b1e",
+          "canonicalProjectId": "cproj-cb6af7a387a8936b",
           "components": [
             "4x VL53L1X",
             "Hub I2C",
@@ -1472,7 +1472,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-b67622fff9837383",
+          "canonicalProjectId": "cproj-afa6a94c8efdb0ac",
           "components": [
             "Tolva con resorte",
             "Servo gatillo",
@@ -1619,7 +1619,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-97a3b30e48307035",
+          "canonicalProjectId": "cproj-b712316045f11d7d",
           "components": [
             "2x Motores BLDC 2204",
             "Storm32 BGC",
@@ -1766,7 +1766,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-f0e4e4d885a87b67",
+          "canonicalProjectId": "cproj-d88e31e003dd21c8",
           "components": [
             "OpenMV Cam",
             "Algoritmo ArUco",
@@ -1913,7 +1913,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-fb200e786201d104",
+          "canonicalProjectId": "cproj-9cd9651020f5432f",
           "components": [
             "ESP32 Sniffer",
             "MicroSD SPI",
@@ -2193,7 +2193,7 @@
       ],
       "keyProjects": [
         {
-          "canonicalProjectId": "cproj-d7bb89f50c71aece",
+          "canonicalProjectId": "cproj-821fbafc924ae66e",
           "components": [
             "Electroválvulas 12V",
             "Boquillas Laval",
@@ -2346,7 +2346,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-bc23ee2ea0d3fd95",
+          "canonicalProjectId": "cproj-292b4569c7eba784",
           "components": [
             "Yagi 437 MHz",
             "Servos 25kg",
@@ -2500,7 +2500,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-62287bbdbed96401",
+          "canonicalProjectId": "cproj-e238c9ff2779a6fc",
           "components": [
             "Bobinas ferrita",
             "Driver DRV8871",
@@ -2646,7 +2646,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-a42b6129bc4193ac",
+          "canonicalProjectId": "cproj-3527373f031d9d96",
           "components": [
             "STM32F405",
             "FRAM SPI",
@@ -2799,7 +2799,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-cc5ff82e1fdb3c67",
+          "canonicalProjectId": "cproj-85ab1b9c2a83df3f",
           "components": [
             "Fotodiodos 4 cuadrantes",
             "Amplificador transimpedancia"
@@ -2938,7 +2938,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-1a0baef26e8eea10",
+          "canonicalProjectId": "cproj-889bb98e542cb9bc",
           "components": [
             "Células solares",
             "MPPT LT3652",
@@ -3204,7 +3204,7 @@
       ],
       "keyProjects": [
         {
-          "canonicalProjectId": "cproj-3dc6e0464e6b72d8",
+          "canonicalProjectId": "cproj-15e95c1996a7c2e7",
           "components": [
             "RTL-SDR v4",
             "Antena colineal",
@@ -3350,7 +3350,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-62ce941977fa75c4",
+          "canonicalProjectId": "cproj-0b2f8ea0094fe7e7",
           "components": [
             "RTL-SDR",
             "Antena dipolo",
@@ -3496,7 +3496,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-26e66bdb4b6ad6f9",
+          "canonicalProjectId": "cproj-d4404ef3445328d5",
           "components": [
             "Antena Yagi VHF",
             "SDR",
@@ -3642,7 +3642,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-4d855c70f7d3c3ca",
+          "canonicalProjectId": "cproj-87e13d62caaec4b7",
           "components": [
             "Antena marina 162MHz",
             "OpenCPN",
@@ -3788,7 +3788,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-3d9f85865a52bff7",
+          "canonicalProjectId": "cproj-1575be2222361291",
           "components": [
             "RTL-SDR",
             "Herramienta rtl_433"
@@ -3928,7 +3928,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-629e88057d85ea16",
+          "canonicalProjectId": "cproj-2c18d355ce14dffa",
           "components": [
             "Antena 403MHz",
             "LNA",
@@ -4200,7 +4200,7 @@
       ],
       "keyProjects": [
         {
-          "canonicalProjectId": "cproj-65bf285c80063a95",
+          "canonicalProjectId": "cproj-4abb56feac66293c",
           "components": [
             "NEMA 17",
             "AS5600",
@@ -4345,7 +4345,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-a82b6100e793848f",
+          "canonicalProjectId": "cproj-18f742c604a5ad55",
           "components": [
             "Motor BLDC gimbal",
             "Driver SimpleFOC",
@@ -4490,7 +4490,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-eef67b1258d5875e",
+          "canonicalProjectId": "cproj-a0704707498d88cc",
           "components": [
             "Husillo T8",
             "Raíl lineal MGN12",
@@ -4636,7 +4636,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-ebb8ed966adeac47",
+          "canonicalProjectId": "cproj-8f0a77a8a6abfe43",
           "components": [
             "Carro lineal",
             "Encoder rotatorio",
@@ -4782,7 +4782,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-53c7a45200ce44f2",
+          "canonicalProjectId": "cproj-0e928b4af4ee80ad",
           "components": [
             "Motorreductor",
             "Sensor INA226",
@@ -4928,7 +4928,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-84eb15533a2cd2cb",
+          "canonicalProjectId": "cproj-51bc59d121e263ed",
           "components": [
             "Rodamientos",
             "Pines mecanizados",
@@ -5200,7 +5200,7 @@
       ],
       "keyProjects": [
         {
-          "canonicalProjectId": "cproj-1728c057ef9ccbd1",
+          "canonicalProjectId": "cproj-8aba5d56e8742034",
           "components": [
             "STM32F405",
             "ICM-42688-P",
@@ -5305,7 +5305,7 @@
             "source": "guide-006"
           },
           "schematicSvg": "schematics/guide-006_p1.svg",
-          "sourcePageRange": "2-3",
+          "sourcePageRange": "2-4",
           "time": "2 fines de semana",
           "title": "Custom STM32 Flight Controller",
           "wiringTable": [
@@ -5347,7 +5347,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-73a4fd97d4a040bb",
+          "canonicalProjectId": "cproj-c02c3998d4e69337",
           "components": [
             "6x MOSFETs N-channel",
             "Gate Drivers",
@@ -5451,7 +5451,7 @@
             "source": "guide-006"
           },
           "schematicSvg": "schematics/guide-006_p2.svg",
-          "sourcePageRange": "3-3",
+          "sourcePageRange": "5-7",
           "time": "1 fin de semana",
           "title": "High-Speed Brushless ESC",
           "wiringTable": [
@@ -5500,7 +5500,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-0cadbecee24fa05f",
+          "canonicalProjectId": "cproj-fe39c85e080cf5e6",
           "components": [
             "Transceptor RFM95 / ELRS",
             "Antena dipolo T"
@@ -5597,7 +5597,7 @@
             "source": "guide-006"
           },
           "schematicSvg": "schematics/guide-006_p3.svg",
-          "sourcePageRange": "3-3",
+          "sourcePageRange": "8-10",
           "time": "1 fin de semana",
           "title": "Bidirectional Telemetry Link",
           "wiringTable": [
@@ -5646,7 +5646,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-36a2f297a477805c",
+          "canonicalProjectId": "cproj-f757989bf71faad1",
           "components": [
             "Shunt 0.5mΩ",
             "Regulador Buck 5V 3A",
@@ -5751,7 +5751,7 @@
             "source": "guide-006"
           },
           "schematicSvg": "schematics/guide-006_p4.svg",
-          "sourcePageRange": "3-3",
+          "sourcePageRange": "11-13",
           "time": "1 fin de semana",
           "title": "Power Distribution Board & Shunt Monitor",
           "wiringTable": [
@@ -5793,7 +5793,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-0721ac1a36af22fe",
+          "canonicalProjectId": "cproj-5610b76546bb3e6a",
           "components": [
             "Firmware en C",
             "Matemáticas de cuaterniones"
@@ -5891,7 +5891,7 @@
             "source": "guide-006"
           },
           "schematicSvg": "schematics/guide-006_p5.svg",
-          "sourcePageRange": "4-16",
+          "sourcePageRange": "14-16",
           "time": "1 fin de semana",
           "title": "Attitude Sensor Fusion Engine",
           "wiringTable": [
@@ -5933,7 +5933,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-f1293b3bd7bbfde9",
+          "canonicalProjectId": "cproj-c932aec841f39e48",
           "components": [
             "Memoria Flash SPI W25Q128 16MB",
             "Lector USB"
@@ -6205,7 +6205,7 @@
       ],
       "keyProjects": [
         {
-          "canonicalProjectId": "cproj-a4a0c854a174523d",
+          "canonicalProjectId": "cproj-e59a6c6e5dbe44d1",
           "components": [
             "Antena parabólica de rejilla WiFi",
             "LNA Sawbird GOES",
@@ -6359,7 +6359,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-38559e81101767a7",
+          "canonicalProjectId": "cproj-f730199fbeca9942",
           "components": [
             "Antena V-dipole",
             "RTL-SDR",
@@ -6512,7 +6512,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-7378444b70b9e598",
+          "canonicalProjectId": "cproj-74ed9fe246321fb7",
           "components": [
             "Volante de inercia latón",
             "Motor brushless",
@@ -6659,7 +6659,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-32a33cf5db3361cb",
+          "canonicalProjectId": "cproj-17cb5ec64a541c1a",
           "components": [
             "Cámara de baja luz",
             "Lente 16mm",
@@ -6813,7 +6813,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-d86aa1344463851c",
+          "canonicalProjectId": "cproj-c71eeee6fc78e10e",
           "components": [
             "Módulo GPS PPS",
             "Oscilador OCXO 10MHz",
@@ -6960,7 +6960,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-11828408f5a2d615",
+          "canonicalProjectId": "cproj-60cb94512a7bc449",
           "components": [
             "Centellador plástico",
             "SiPM",
@@ -7232,7 +7232,7 @@
       ],
       "keyProjects": [
         {
-          "canonicalProjectId": "cproj-42b7d25e5f5bf467",
+          "canonicalProjectId": "cproj-4e36fe5b605fb848",
           "components": [
             "INA128",
             "Filtro Notch 50/60Hz",
@@ -7379,7 +7379,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-dbe7189ab6d7cbd2",
+          "canonicalProjectId": "cproj-42dc558c26cfd0fd",
           "components": [
             "Rectificador de precisión",
             "Integrador analógico",
@@ -7533,7 +7533,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-33ff2c4420cc7377",
+          "canonicalProjectId": "cproj-61211ddf912b1f01",
           "components": [
             "Amplificador de muy bajo ruido",
             "Filtro paso banda activo"
@@ -7672,7 +7672,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-105ac2572cc1f730",
+          "canonicalProjectId": "cproj-a7f7ede01a61d76e",
           "components": [
             "Sensor MAX30102",
             "I2C",
@@ -7818,7 +7818,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-8482ab674907c68e",
+          "canonicalProjectId": "cproj-4d7e197648dd8160",
           "components": [
             "Puente divisor sensible",
             "Electrodos en dedos"
@@ -7957,7 +7957,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-883b4deb3219e0ca",
+          "canonicalProjectId": "cproj-fe5123fe80e89fa9",
           "components": [
             "Generador AD9833",
             "Aislamiento galvánico",
@@ -8229,7 +8229,7 @@
       ],
       "keyProjects": [
         {
-          "canonicalProjectId": "cproj-564c72f71e9aa175",
+          "canonicalProjectId": "cproj-a2d56352e4216c7a",
           "components": [
             "Diodos láser 650nm",
             "Fototransistores rápidos",
@@ -8376,7 +8376,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-46713656d67073ce",
+          "canonicalProjectId": "cproj-f97e7f30e50d72e3",
           "components": [
             "Sensor VL53L1X",
             "Lente colimadora",
@@ -8523,7 +8523,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-312d58b2b77abf01",
+          "canonicalProjectId": "cproj-f41bb225e05fdbe8",
           "components": [
             "Sensor ToF",
             "Anillo rozante (slip ring)",
@@ -8676,7 +8676,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-cca7a89adb726b7f",
+          "canonicalProjectId": "cproj-b4e0155379170577",
           "components": [
             "Láser modulable",
             "Fotodiodo PIN",
@@ -8822,7 +8822,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-4f5087a499b47d36",
+          "canonicalProjectId": "cproj-7454201d2bc063e4",
           "components": [
             "Divisor de haz óptico",
             "Fotodiodo balanceado"
@@ -8962,7 +8962,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-2f3a06f5975b5544",
+          "canonicalProjectId": "cproj-babff28e8b3558e5",
           "components": [
             "Láser con lente de línea",
             "Cámara USB",
@@ -9235,7 +9235,7 @@
       ],
       "keyProjects": [
         {
-          "canonicalProjectId": "cproj-32ede30fb040467f",
+          "canonicalProjectId": "cproj-aef45da610d5cc7e",
           "components": [
             "HB100 10.5GHz",
             "Preamplificador operacional",
@@ -9382,7 +9382,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-ec097906ddf3289b",
+          "canonicalProjectId": "cproj-5284fab2c962c998",
           "components": [
             "Sensor radar 24GHz",
             "Display OLED",
@@ -9529,7 +9529,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-ad223b0fdb572ccb",
+          "canonicalProjectId": "cproj-850ff6565a1cc80c",
           "components": [
             "Módulo FMCW 24GHz",
             "ADC rápido",
@@ -9675,7 +9675,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-b70b9c09b72e9088",
+          "canonicalProjectId": "cproj-4a9d4f9dd6ec4993",
           "components": [
             "Módulo radar alta ganancia",
             "Filtro paso bajo 2Hz",
@@ -9822,7 +9822,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-f1a3d0a542dfe071",
+          "canonicalProjectId": "cproj-33c25ab79b558273",
           "components": [
             "2x Módulos ESP32 con firmware CSI",
             "Python tool"
@@ -9962,7 +9962,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-4912a660ad9eaeee",
+          "canonicalProjectId": "cproj-f2de13ec8aff7fc1",
           "components": [
             "Doble sintonizador RTL-SDR coherente",
             "Antenas"
@@ -10227,7 +10227,7 @@
       ],
       "keyProjects": [
         {
-          "canonicalProjectId": "cproj-f0aa3cf4629a29e7",
+          "canonicalProjectId": "cproj-f26af37eefcf2308",
           "components": [
             "u-blox NEO-6M / M8N",
             "RTL-SDR v4",
@@ -10387,7 +10387,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-6494fa6629693789",
+          "canonicalProjectId": "cproj-fb591a5241f6a4d0",
           "components": [
             "Arreglo 4x dipolos",
             "Interruptor RF SP4T HMC241",
@@ -10547,7 +10547,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-f5947fa1527ee9c7",
+          "canonicalProjectId": "cproj-eeaf549a710bf142",
           "components": [
             "Sensor fluxgate FGM-3",
             "Amplificador de instrumentación",
@@ -10700,7 +10700,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-0800d3b0bea2b0f1",
+          "canonicalProjectId": "cproj-ad5fbfda2e7f1aab",
           "components": [
             "Geófono SM-24 4.5Hz",
             "Op-amp bajo ruido OPA227",
@@ -10853,7 +10853,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-09c327a5daf85b4b",
+          "canonicalProjectId": "cproj-0afc512778088ccd",
           "components": [
             "Receptor SDR",
             "Antena directiva 2.4/5.8GHz",
@@ -11013,7 +11013,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-6e590ad0fcf75c67",
+          "canonicalProjectId": "cproj-eccd1944aae7e404",
           "components": [
             "2x Transceptores SX1262 LoRa",
             "ESP32-S3",
@@ -11299,7 +11299,7 @@
       ],
       "keyProjects": [
         {
-          "canonicalProjectId": "cproj-fdce3ff5930e6327",
+          "canonicalProjectId": "cproj-baa16f9379743447",
           "components": [
             "u-blox NEO-6M",
             "RTL-SDR",
@@ -11403,7 +11403,7 @@
             "source": "guide-012"
           },
           "schematicSvg": "schematics/guide-012_p1.svg",
-          "sourcePageRange": "2-3",
+          "sourcePageRange": "2-4",
           "time": "1 fin de semana",
           "title": "GNSS Receiver & Resilience Analysis",
           "wiringTable": [
@@ -11452,7 +11452,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-10facc044543aeeb",
+          "canonicalProjectId": "cproj-f347233387456337",
           "components": [
             "Arreglo 4x dipolos",
             "Switch RF HMC241",
@@ -11556,7 +11556,7 @@
             "source": "guide-012"
           },
           "schematicSvg": "schematics/guide-012_p2.svg",
-          "sourcePageRange": "4-4",
+          "sourcePageRange": "5-8",
           "time": "2 fines de semana",
           "title": "RF Direction Finder (Pseudo-Doppler)",
           "wiringTable": [
@@ -11605,7 +11605,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-f5947fa1527ee9c7",
+          "canonicalProjectId": "cproj-42ed3ee226678619",
           "components": [
             "Sensor fluxgate",
             "Op-amp instrumentación",
@@ -11709,7 +11709,7 @@
             "source": "guide-012"
           },
           "schematicSvg": "schematics/guide-012_p3.svg",
-          "sourcePageRange": "4-4",
+          "sourcePageRange": "9-11",
           "time": "1 fin de semana",
           "title": "Magnetic Anomaly Detector (Fluxgate)",
           "wiringTable": [
@@ -11751,7 +11751,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-0800d3b0bea2b0f1",
+          "canonicalProjectId": "cproj-ad5fbfda2e7f1aab",
           "components": [
             "Geófono SM-24",
             "Filtro analógico pasa-bajos",
@@ -11855,7 +11855,7 @@
             "source": "guide-012"
           },
           "schematicSvg": "schematics/guide-012_p4.svg",
-          "sourcePageRange": "4-4",
+          "sourcePageRange": "12-14",
           "time": "1 fin de semana",
           "title": "Seismic Unattended Ground Sensor (UGS)",
           "wiringTable": [
@@ -11897,7 +11897,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-09c327a5daf85b4b",
+          "canonicalProjectId": "cproj-869203ed882d2170",
           "components": [
             "SDR Blog v4",
             "Antena log-periódica",
@@ -12001,7 +12001,7 @@
             "source": "guide-012"
           },
           "schematicSvg": "schematics/guide-012_p5.svg",
-          "sourcePageRange": "4-18",
+          "sourcePageRange": "15-18",
           "time": "1 fin de semana",
           "title": "Passive Drone Detection Receiver",
           "wiringTable": [
@@ -12050,7 +12050,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-6e590ad0fcf75c67",
+          "canonicalProjectId": "cproj-eccd1944aae7e404",
           "components": [
             "Semtech SX1262",
             "ESP32-S3",
@@ -12329,7 +12329,7 @@
       ],
       "keyProjects": [
         {
-          "canonicalProjectId": "cproj-a6b6dce26060f972",
+          "canonicalProjectId": "cproj-98f504bd16b33327",
           "components": [
             "Chasis 2WD",
             "2x Motores N20 reductora",
@@ -12483,7 +12483,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-e2837e7dd484a501",
+          "canonicalProjectId": "cproj-813dc520bc5aca2c",
           "components": [
             "4x Servos metálicos MG996R",
             "Chasis acrílico/impreso",
@@ -12593,7 +12593,7 @@
             "source": "guide-013"
           },
           "schematicSvg": "schematics/guide-013_p2.svg",
-          "sourcePageRange": "4-4",
+          "sourcePageRange": "4-7",
           "time": "2 fines de semana",
           "title": "Robot Arm with Inverse Kinematics",
           "wiringTable": [
@@ -12635,7 +12635,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-e1ca6b4c98d626ee",
+          "canonicalProjectId": "cproj-027142344e67a3f6",
           "components": [
             "8x Servos SG90/MG90S",
             "Estructura ligera 3D",
@@ -12745,7 +12745,7 @@
             "source": "guide-013"
           },
           "schematicSvg": "schematics/guide-013_p3.svg",
-          "sourcePageRange": "4-4",
+          "sourcePageRange": "7-9",
           "time": "3 semanas",
           "title": "Quadruped Walking Robot",
           "wiringTable": [
@@ -12787,7 +12787,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-279f8c9a5286d8bd",
+          "canonicalProjectId": "cproj-fd0e2f78a993286d",
           "components": [
             "Lidar 360° RPLIDAR A1",
             "Encoders ópticos de rueda",
@@ -12899,7 +12899,7 @@
             "source": "guide-013"
           },
           "schematicSvg": "schematics/guide-013_p4.svg",
-          "sourcePageRange": "4-4",
+          "sourcePageRange": "9-11",
           "time": "2 fines de semana",
           "title": "SLAM Mapping Autonomous Rover",
           "wiringTable": [
@@ -12941,7 +12941,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-a0eb77817e0f88a8",
+          "canonicalProjectId": "cproj-e96c4a52096d6e5e",
           "components": [
             "2x Motores paso a paso / DC",
             "IMU BNO055 / MPU6050",
@@ -13053,7 +13053,7 @@
             "source": "guide-013"
           },
           "schematicSvg": "schematics/guide-013_p5.svg",
-          "sourcePageRange": "4-4",
+          "sourcePageRange": "11-13",
           "time": "1 fin de semana",
           "title": "Self-Balancing Inverted Pendulum",
           "wiringTable": [
@@ -13095,7 +13095,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-da8d8784f767e274",
+          "canonicalProjectId": "cproj-1e453f1b85beb3a6",
           "components": [
             "Pórtico aluminio V-Slot",
             "Cámara OpenCV",
@@ -13207,7 +13207,7 @@
             "source": "guide-013"
           },
           "schematicSvg": "schematics/guide-013_p6.svg",
-          "sourcePageRange": "4-15",
+          "sourcePageRange": "13-15",
           "time": "2 fines de semana",
           "title": "Vision-Guided Pick-and-Place Gantry",
           "wiringTable": [
@@ -13375,7 +13375,7 @@
       ],
       "keyProjects": [
         {
-          "canonicalProjectId": "cproj-272e0b0a491ff991",
+          "canonicalProjectId": "cproj-ad0e26985a24a0fd",
           "components": [
             "Caja de aluminio fundido",
             "Junta elastomérica conductora",
@@ -13535,7 +13535,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-43cd83a1da6292f8",
+          "canonicalProjectId": "cproj-5d59ec4479374cf1",
           "components": [
             "Ventilador de alta presión",
             "Panal laminar",
@@ -13688,7 +13688,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-235a646d8f69e94d",
+          "canonicalProjectId": "cproj-c8a94afecf890c01",
           "components": [
             "Acelerómetro 500g",
             "Guía lineal vertical",
@@ -13841,7 +13841,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-df2fbd6aa490e57c",
+          "canonicalProjectId": "cproj-34d2bc49325529c8",
           "components": [
             "2x Discos piezoeléctricos",
             "Preamplificador bajo ruido",
@@ -13994,7 +13994,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-156515df9d74fe53",
+          "canonicalProjectId": "cproj-837b6ee60b46474e",
           "components": [
             "Ala de parapente RC",
             "2x Servos de alto torque",
@@ -14147,7 +14147,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-15c89db2e8b15ba3",
+          "canonicalProjectId": "cproj-0d2113f9273dd979",
           "components": [
             "Célula Peltier TEC1-12706",
             "Transductor de vibración",
@@ -14426,7 +14426,7 @@
       ],
       "keyProjects": [
         {
-          "canonicalProjectId": "cproj-cd6b51d86b3ed777",
+          "canonicalProjectId": "cproj-dcf1581a94becbb1",
           "components": [
             "Sensor PMW3901",
             "Sensor ToF VL53L1X",
@@ -14587,7 +14587,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-38de4f643d74d6cc",
+          "canonicalProjectId": "cproj-e96790da91921378",
           "components": [
             "2x IMU BMI088",
             "Aisladores de silicona",
@@ -14741,7 +14741,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-0f7864c99e0bebed",
+          "canonicalProjectId": "cproj-a8ae10df2af9c8c3",
           "components": [
             "Transceptores MCP2562",
             "Shunt de corriente INA226",
@@ -14902,7 +14902,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-4a7b6b373d6b57a9",
+          "canonicalProjectId": "cproj-2e0d81f0631c9aeb",
           "components": [
             "Módulo LoRa SX1262",
             "Batería 1S LiPo dedicada",
@@ -15056,7 +15056,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-32867e6df259080a",
+          "canonicalProjectId": "cproj-aa97aee364f7f05f",
           "components": [
             "Calefactor flexible de poliimida",
             "Sensor capacitivo",
@@ -15210,7 +15210,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-3369daaae2078469",
+          "canonicalProjectId": "cproj-cc5bba86f9102f00",
           "components": [
             "Raspberry Pi 4 / Coral TPU",
             "Cámara estéreo",
@@ -15490,7 +15490,7 @@
       ],
       "keyProjects": [
         {
-          "canonicalProjectId": "cproj-6f40a6c87f798215",
+          "canonicalProjectId": "cproj-555469e3ca9bb72d",
           "components": [
             "React",
             "Node.js",
@@ -15650,7 +15650,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-b43c9047b2e87767",
+          "canonicalProjectId": "cproj-95f5a6e9e91df46c",
           "components": [
             "FastAPI",
             "LangChain",
@@ -15769,7 +15769,7 @@
             "source": "guide-016"
           },
           "schematicSvg": "schematics/guide-018_p2.svg",
-          "sourcePageRange": "5-7",
+          "sourcePageRange": "4-4",
           "time": "2-3 fines de semana",
           "title": "Personal AI Assistant with RAG",
           "wiringTable": [
@@ -15811,7 +15811,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-b84bf98e576625c7",
+          "canonicalProjectId": "cproj-9d81e091efb478bc",
           "components": [
             "Go / Node.js",
             "Redis Streams",
@@ -15923,7 +15923,7 @@
             "source": "guide-016"
           },
           "schematicSvg": "schematics/guide-018_p3.svg",
-          "sourcePageRange": "8-10",
+          "sourcePageRange": "4-4",
           "time": "3-4 fines de semana",
           "title": "Distributed Task Queue & Worker System",
           "wiringTable": [
@@ -15965,7 +15965,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-9f0998455b5bde74",
+          "canonicalProjectId": "cproj-d0712abf506018f2",
           "components": [
             "TypeScript / Python",
             "Commander",
@@ -16068,7 +16068,7 @@
             "source": "guide-016"
           },
           "schematicSvg": "schematics/guide-018_p4.svg",
-          "sourcePageRange": "11-13",
+          "sourcePageRange": "4-4",
           "time": "1-2 fines de semana",
           "title": "Open Source Developer CLI Tool",
           "wiringTable": [
@@ -16117,7 +16117,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-4972c8cb98e21abf",
+          "canonicalProjectId": "cproj-56a66bd545766341",
           "components": [
             "Next.js",
             "Clerk / NextAuth",
@@ -16224,7 +16224,7 @@
             "source": "guide-016"
           },
           "schematicSvg": "schematics/guide-018_p5.svg",
-          "sourcePageRange": "14-16",
+          "sourcePageRange": "4-4",
           "time": "4-6 fines de semana",
           "title": "Full-Stack Multi-Tenant SaaS with Payments",
           "wiringTable": [
@@ -16266,7 +16266,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-a21e7e9b0c584ff8",
+          "canonicalProjectId": "cproj-c2b0427e49f30248",
           "components": [
             "Rust / Go / Python",
             "Lexer / Parser",
@@ -16369,7 +16369,7 @@
             "source": "guide-016"
           },
           "schematicSvg": "schematics/guide-018_p6.svg",
-          "sourcePageRange": "17-21",
+          "sourcePageRange": "4-21",
           "time": "3-5 fines de semana",
           "title": "Custom Programming Language Interpreter",
           "wiringTable": [
@@ -16531,7 +16531,7 @@
       ],
       "keyProjects": [
         {
-          "canonicalProjectId": "cproj-01bcd9c17b630780",
+          "canonicalProjectId": "cproj-35704e78de3c4e8a",
           "components": [
             "YouTube playlists oficiales",
             "Lectures y exámenes libres"
@@ -16670,7 +16670,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-009f89fd6ddaab88",
+          "canonicalProjectId": "cproj-48ccd1ebf5440bac",
           "components": [
             "Stack tecnológico definido",
             "Proyectos de nicho"
@@ -16767,7 +16767,7 @@
             "source": "guide-017"
           },
           "schematicSvg": "schematics/guide-019_p2.svg",
-          "sourcePageRange": "2-8",
+          "sourcePageRange": "3-3",
           "time": "Semanas 2-6",
           "title": "Elige una Especialidad y Profundiza al Máximo",
           "wiringTable": [
@@ -16809,7 +16809,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-ba38c53a0100b07d",
+          "canonicalProjectId": "cproj-7edabbe69387c094",
           "components": [
             "Hardware funcional",
             "Repositorio GitHub impecable"
@@ -16907,7 +16907,7 @@
             "source": "guide-017"
           },
           "schematicSvg": "schematics/guide-019_p3.svg",
-          "sourcePageRange": "8-8",
+          "sourcePageRange": "4-4",
           "time": "Semanas 4-8",
           "title": "Construye Algo que Nadie te Pidió que Construyas",
           "wiringTable": [
@@ -16949,7 +16949,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-1899faf71061a6b8",
+          "canonicalProjectId": "cproj-4c780d6b9b9b3d5b",
           "components": [
             "Application notes de Texas Instruments y ADI"
           ],
@@ -17040,7 +17040,7 @@
             "source": "guide-017"
           },
           "schematicSvg": "schematics/guide-019_p4.svg",
-          "sourcePageRange": "8-8",
+          "sourcePageRange": "5-5",
           "time": "Continuo",
           "title": "Lee Datasheets y Notas de Aplicación como Ficción",
           "wiringTable": [
@@ -17082,7 +17082,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-06f183c09d488357",
+          "canonicalProjectId": "cproj-6dcf5c175e1bcaa3",
           "components": [
             "Herramientas de desmontaje",
             "Microscopio USB"
@@ -17179,7 +17179,7 @@
             "source": "guide-017"
           },
           "schematicSvg": "schematics/guide-019_p5.svg",
-          "sourcePageRange": "8-8",
+          "sourcePageRange": "6-6",
           "time": "Semanas 8-10",
           "title": "Ingeniería Inversa de Productos Comerciales Reales",
           "wiringTable": [
@@ -17221,7 +17221,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-ad9c21a290bac7a7",
+          "canonicalProjectId": "cproj-b5d01968c9317469",
           "components": [
             "GitHub Pages",
             "LinkedIn técnico",
@@ -17321,7 +17321,7 @@
             "source": "guide-017"
           },
           "schematicSvg": "schematics/guide-019_p6.svg",
-          "sourcePageRange": "8-10",
+          "sourcePageRange": "7-10",
           "time": "Semanas 10-12",
           "title": "Haz de tu Presencia en Internet un Portafolio Indiscutible",
           "wiringTable": [
@@ -17489,7 +17489,7 @@
       ],
       "keyProjects": [
         {
-          "canonicalProjectId": "cproj-ee546f114dd2442f",
+          "canonicalProjectId": "cproj-1e822885787be88d",
           "components": [
             "Banco de filtros analógicos activos",
             "Detector de picos",
@@ -17642,7 +17642,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-37fa15910a1fa476",
+          "canonicalProjectId": "cproj-cd49b4f9d5061ff2",
           "components": [
             "Sonda de bucle magnético H-Field",
             "LNA 20dB bajo ruido",
@@ -17795,7 +17795,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-6f42d47c5f86d745",
+          "canonicalProjectId": "cproj-6dbbefb02e9f4c21",
           "components": [
             "Resistencia shunt 0.01Ω",
             "Amplificador de corriente INA180",
@@ -17948,7 +17948,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-283063b09e2d4447",
+          "canonicalProjectId": "cproj-badf78deb550732c",
           "components": [
             "Criptochip ATECC608A",
             "Módulo cámara OV2640",
@@ -18109,7 +18109,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-543646c89911c8a7",
+          "canonicalProjectId": "cproj-bfa4f3086bb75a67",
           "components": [
             "Op-Amps LM358",
             "Integradores RC",
@@ -18258,7 +18258,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-6ab3c18c503c603f",
+          "canonicalProjectId": "cproj-570913184d55f0b7",
           "components": [
             "Receptor SDR HackRF / RTL-SDR",
             "Procesador DSP ARM",
@@ -18544,7 +18544,7 @@
       ],
       "keyProjects": [
         {
-          "canonicalProjectId": "cproj-04152fa3dfbe4d1b",
+          "canonicalProjectId": "cproj-5d4e0df346c38f82",
           "components": [
             "Diodo láser rojo colimado 5mW",
             "Fotodiodo PIN BPW34",
@@ -18698,7 +18698,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-d564feb75a2549b1",
+          "canonicalProjectId": "cproj-4a2caa3aede7ae3e",
           "components": [
             "LED/Láser infrarrojo 850nm",
             "Receptor óptico rápido",
@@ -18851,7 +18851,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-0acb1285cc4e153e",
+          "canonicalProjectId": "cproj-4e8096957de87c80",
           "components": [
             "Diodo láser pulsado 905nm",
             "Fotodiodo de avalancha (APD)",
@@ -19004,7 +19004,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-8e226a46ad3b3aa7",
+          "canonicalProjectId": "cproj-5d784f4bdc23ac2b",
           "components": [
             "Transceptor RF CC1101",
             "ESP32-S3",
@@ -19164,7 +19164,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-11d039487eece57b",
+          "canonicalProjectId": "cproj-b3805a90e9b60210",
           "components": [
             "Sensor CMOS Sony Starvis",
             "Lente F/1.2 gran apertura",
@@ -19318,7 +19318,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-3514f611f5c4fea5",
+          "canonicalProjectId": "cproj-6b9e20fbe6dc72d8",
           "components": [
             "Transceptor Doppler HB100 10.525GHz",
             "Bocina de ganancia",
@@ -19598,7 +19598,7 @@
       ],
       "keyProjects": [
         {
-          "canonicalProjectId": "cproj-f660dcfc35059845",
+          "canonicalProjectId": "cproj-13f1507266190c97",
           "components": [
             "Frontend biopotencial ADS1299",
             "8x Electrodos Ag/AgCl dorados",
@@ -19759,7 +19759,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-4c019104eae43468",
+          "canonicalProjectId": "cproj-12bf5da251b7ae0f",
           "components": [
             "5x Servos micro metálicos",
             "Mano impresa en 3D SLS/PLA",
@@ -19913,7 +19913,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-8f574bc44f256d3a",
+          "canonicalProjectId": "cproj-f8facf8319de586a",
           "components": [
             "Anillo de electrodos flexibles",
             "Multiplexor analógico 16:1",
@@ -20073,7 +20073,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-7cacb26753296fba",
+          "canonicalProjectId": "cproj-98209fb02789f426",
           "components": [
             "Sensor fotopletismógrafo MAX30102",
             "Sensor galvánico EDA",
@@ -20234,7 +20234,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-420216588b4138be",
+          "canonicalProjectId": "cproj-e0feba7c88eecae4",
           "components": [
             "5x Actuadores LRA hápticos",
             "Driver DRV2605L",
@@ -20388,7 +20388,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-1974cbf6b12fd6b1",
+          "canonicalProjectId": "cproj-c298a3c9d7083b64",
           "components": [
             "Parche cutáneo flexible",
             "Amplificador biopotencial INA128",
@@ -20669,7 +20669,7 @@
       ],
       "keyProjects": [
         {
-          "canonicalProjectId": "cproj-dbf6051346f82092",
+          "canonicalProjectId": "cproj-f4aae69073c7cf0e",
           "components": [
             "ESP32",
             "Sensor ACS712 / SCT-013",
@@ -20780,7 +20780,7 @@
             "source": "guide-021"
           },
           "schematicSvg": "schematics/guide-023_p1.svg",
-          "sourcePageRange": "3-4",
+          "sourcePageRange": "3-3",
           "time": "1 fin de semana",
           "title": "Smart Energy Monitor IoT",
           "wiringTable": [
@@ -20822,7 +20822,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-fbe7d92ada955577",
+          "canonicalProjectId": "cproj-854a04e6f836e731",
           "components": [
             "MyoWare 2.0 EMG",
             "Arduino Mega",
@@ -20926,7 +20926,7 @@
             "source": "guide-021"
           },
           "schematicSvg": "schematics/guide-023_p2.svg",
-          "sourcePageRange": "5-6",
+          "sourcePageRange": "3-3",
           "time": "2 fines de semana",
           "title": "Gesture-Controlled EMG Robot Arm",
           "wiringTable": [
@@ -20975,7 +20975,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-9ffdf2e4a3210b1f",
+          "canonicalProjectId": "cproj-d7a8d9a576f11a2e",
           "components": [
             "KiCad EDA",
             "Op-amps TL072",
@@ -21086,7 +21086,7 @@
             "source": "guide-021"
           },
           "schematicSvg": "schematics/guide-023_p3.svg",
-          "sourcePageRange": "7-8",
+          "sourcePageRange": "3-3",
           "time": "2 fines de semana",
           "title": "Custom PCB Synthesizer",
           "wiringTable": [
@@ -21128,7 +21128,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-b3e0ab55d07b8f54",
+          "canonicalProjectId": "cproj-0bfbff4aea4cb72c",
           "components": [
             "Panel 10W",
             "MOSFETs",
@@ -21235,7 +21235,7 @@
             "source": "guide-021"
           },
           "schematicSvg": "schematics/guide-023_p4.svg",
-          "sourcePageRange": "9-10",
+          "sourcePageRange": "4-4",
           "time": "2 fines de semana",
           "title": "MPPT Solar Charge Controller",
           "wiringTable": [
@@ -21277,7 +21277,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-40b001e59eb00858",
+          "canonicalProjectId": "cproj-3ea6911b6746e6ce",
           "components": [
             "Dongle RTL-SDR",
             "Antena dipolo",
@@ -21381,7 +21381,7 @@
             "source": "guide-021"
           },
           "schematicSvg": "schematics/guide-023_p5.svg",
-          "sourcePageRange": "11-12",
+          "sourcePageRange": "4-4",
           "time": "1 fin de semana",
           "title": "Software-Defined Radio Receiver",
           "wiringTable": [
@@ -21430,7 +21430,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-71e8a8d9f4c1cd12",
+          "canonicalProjectId": "cproj-49b6f306f47e4998",
           "components": [
             "ESP32",
             "Sensor IMU MPU6050",
@@ -21534,7 +21534,7 @@
             "source": "guide-021"
           },
           "schematicSvg": "schematics/guide-023_p6.svg",
-          "sourcePageRange": "13-15",
+          "sourcePageRange": "4-15",
           "time": "2 fines de semana",
           "title": "PID Self-Balancing Robot",
           "wiringTable": [
@@ -21689,7 +21689,7 @@
       ],
       "keyProjects": [
         {
-          "canonicalProjectId": "cproj-c8d4cf60a5cdd891",
+          "canonicalProjectId": "cproj-148dea7d70fe79c8",
           "components": [
             "Dossier de proyecto",
             "Propuesta de valor de marca"
@@ -21786,7 +21786,7 @@
             "source": "guide-022"
           },
           "schematicSvg": "schematics/guide-024_p1.svg",
-          "sourcePageRange": "2-2",
+          "sourcePageRange": "3-3",
           "time": "3 días",
           "title": "El Gancho de la Reciprocidad y Visibilidad",
           "wiringTable": [
@@ -21828,7 +21828,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-65fd69de34db6db1",
+          "canonicalProjectId": "cproj-c9ca1ea353db5401",
           "components": [
             "Plantilla de correo",
             "Vídeo de 30 segundos"
@@ -21925,7 +21925,7 @@
             "source": "guide-022"
           },
           "schematicSvg": "schematics/guide-024_p2.svg",
-          "sourcePageRange": "2-8",
+          "sourcePageRange": "4-4",
           "time": "2 días",
           "title": "La Redacción del Correo Frío Irrechazable",
           "wiringTable": [
@@ -21967,7 +21967,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-b3000988ae27e9fe",
+          "canonicalProjectId": "cproj-d1d62381fc897c87",
           "components": [
             "Gantt técnico",
             "Plan de riesgos"
@@ -22065,7 +22065,7 @@
             "source": "guide-022"
           },
           "schematicSvg": "schematics/guide-024_p3.svg",
-          "sourcePageRange": "8-8",
+          "sourcePageRange": "5-5",
           "time": "1 semana",
           "title": "La Presentación del Plan de Investigación",
           "wiringTable": [
@@ -22107,7 +22107,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-8fa15690372707ef",
+          "canonicalProjectId": "cproj-e1a16b838a694da5",
           "components": [
             "Contrato de comodato",
             "Póliza de seguro"
@@ -22204,7 +22204,7 @@
             "source": "guide-022"
           },
           "schematicSvg": "schematics/guide-024_p4.svg",
-          "sourcePageRange": "8-8",
+          "sourcePageRange": "6-6",
           "time": "1 semana",
           "title": "Logística, Seguros y Contratos de Comodato",
           "wiringTable": [
@@ -22246,7 +22246,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-45876883a83ea1bd",
+          "canonicalProjectId": "cproj-a6fd52d69361ec82",
           "components": [
             "Lenguaje KRL",
             "Controlador KUKA SmartPAD"
@@ -22339,7 +22339,7 @@
             "source": "guide-022"
           },
           "schematicSvg": "schematics/guide-024_p5.svg",
-          "sourcePageRange": "8-11",
+          "sourcePageRange": "7-11",
           "time": "2 semanas",
           "title": "Programación KRL, Puesta en Marcha y Retorno",
           "wiringTable": [
@@ -22501,7 +22501,7 @@
       ],
       "keyProjects": [
         {
-          "canonicalProjectId": "cproj-2c4cd4693d57d925",
+          "canonicalProjectId": "cproj-60b5895891eba953",
           "components": [
             "Kit Arduino Uno clone con componentes"
           ],
@@ -22629,7 +22629,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-3a16ee407be1da47",
+          "canonicalProjectId": "cproj-5547d250f83dfb95",
           "components": [
             "Multímetro digital",
             "Cables con pinzas cocodrilo"
@@ -22768,7 +22768,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-12b76c820e093500",
+          "canonicalProjectId": "cproj-fefe9ac2518396b7",
           "components": [
             "Chip 555",
             "Condensadores electrolíticos"
@@ -22907,7 +22907,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-c96a7e9b3e9fb7b8",
+          "canonicalProjectId": "cproj-241c49a39f7f10c5",
           "components": [
             "Soldador regulable",
             "Estaño 60/40 con resina",
@@ -23011,7 +23011,7 @@
             "source": "guide-023"
           },
           "schematicSvg": "schematics/guide-025_p4.svg",
-          "sourcePageRange": "2-2",
+          "sourcePageRange": "3-3",
           "time": "Fin de semana 2",
           "title": "Paso 4: Aprende a soldar temprano con un kit de práctica",
           "wiringTable": [
@@ -23053,7 +23053,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-7528f95e881b6da5",
+          "canonicalProjectId": "cproj-d44a5f88c90e572e",
           "components": [
             "Software libre KiCad",
             "Archivos Gerber"
@@ -23150,7 +23150,7 @@
             "source": "guide-023"
           },
           "schematicSvg": "schematics/guide-025_p5.svg",
-          "sourcePageRange": "2-2",
+          "sourcePageRange": "3-3",
           "time": "Fin de semana 3",
           "title": "Paso 5: Pasa de la protoboard a KiCad y diseña tu primera PCB",
           "wiringTable": [
@@ -23192,7 +23192,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-bddfe2392c590ee7",
+          "canonicalProjectId": "cproj-b97d7e87a8d75062",
           "components": [
             "Caja impresa o plástico",
             "Alimentación por batería"
@@ -23289,7 +23289,7 @@
             "source": "guide-023"
           },
           "schematicSvg": "schematics/guide-025_p6.svg",
-          "sourcePageRange": "2-5",
+          "sourcePageRange": "3-5",
           "time": "Fin de semana 4",
           "title": "Paso 6: Construye un proyecto físico que realmente quieras usar",
           "wiringTable": [
@@ -23457,7 +23457,7 @@
       ],
       "keyProjects": [
         {
-          "canonicalProjectId": "cproj-90ad39ff8a70022f",
+          "canonicalProjectId": "cproj-00b5b50001e8bd0b",
           "components": [
             "Motor DC con encoder",
             "Driver L298N/TB6612",
@@ -23568,7 +23568,7 @@
             "source": "guide-024"
           },
           "schematicSvg": "schematics/guide-016_p1.svg",
-          "sourcePageRange": "3-5",
+          "sourcePageRange": "3-4",
           "time": "1-2 fines de semana",
           "title": "PID Motor Speed Controller",
           "wiringTable": [
@@ -23610,7 +23610,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-226559615b4dfbf5",
+          "canonicalProjectId": "cproj-d87775a76bba50c8",
           "components": [
             "KiCad",
             "ESP32-WROOM",
@@ -23721,7 +23721,7 @@
             "source": "guide-024"
           },
           "schematicSvg": "schematics/guide-016_p2.svg",
-          "sourcePageRange": "6-8",
+          "sourcePageRange": "4-4",
           "time": "2 fines de semana",
           "title": "Custom PCB — Design to Manufactured Board",
           "wiringTable": [
@@ -23763,7 +23763,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-cfd14b292d15213f",
+          "canonicalProjectId": "cproj-f2ca05ffa8683bb9",
           "components": [
             "ADC 16 bits ADS1115",
             "Shunt",
@@ -23874,7 +23874,7 @@
             "source": "guide-024"
           },
           "schematicSvg": "schematics/guide-016_p3.svg",
-          "sourcePageRange": "9-11",
+          "sourcePageRange": "4-4",
           "time": "1-2 fines de semana",
           "title": "DIY Digital Multimeter with Input Protection",
           "wiringTable": [
@@ -23916,7 +23916,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-b299ae77186cda3c",
+          "canonicalProjectId": "cproj-fec4784d9cd9930e",
           "components": [
             "MOSFETs N-ch",
             "Inductor de potencia",
@@ -24026,7 +24026,7 @@
             "source": "guide-024"
           },
           "schematicSvg": "schematics/guide-016_p4.svg",
-          "sourcePageRange": "12-14",
+          "sourcePageRange": "4-4",
           "time": "2-3 fines de semana",
           "title": "Synchronous Buck Converter (12V to 5V 3A)",
           "wiringTable": [
@@ -24075,7 +24075,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-675924757cdd999c",
+          "canonicalProjectId": "cproj-f134cefddbbb612a",
           "components": [
             "Raspberry Pi Pico / ESP32",
             "Display OLED",
@@ -24175,7 +24175,7 @@
             "source": "guide-024"
           },
           "schematicSvg": "schematics/guide-016_p5.svg",
-          "sourcePageRange": "15-17",
+          "sourcePageRange": "4-4",
           "time": "2 fines de semana",
           "title": "UART / SPI / I2C Protocol Analyzer",
           "wiringTable": [
@@ -24224,7 +24224,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-c7ae68742fe93c38",
+          "canonicalProjectId": "cproj-be99231de8c4d769",
           "components": [
             "Tang Nano 9K / Cyclone IV",
             "Panel LED RGB",
@@ -24329,7 +24329,7 @@
             "source": "guide-024"
           },
           "schematicSvg": "schematics/guide-016_p6.svg",
-          "sourcePageRange": "18-21",
+          "sourcePageRange": "4-21",
           "time": "3-4 fines de semana",
           "title": "FPGA LED Matrix Controller in Pure Verilog",
           "wiringTable": [
@@ -24497,7 +24497,7 @@
       ],
       "keyProjects": [
         {
-          "canonicalProjectId": "cproj-8dec1105cee21c4d",
+          "canonicalProjectId": "cproj-55f087d6e1c5ae89",
           "components": [
             "Sensores FSR 402",
             "Arduino Uno",
@@ -24608,7 +24608,7 @@
             "source": "guide-025"
           },
           "schematicSvg": "schematics/guide-026_p1.svg",
-          "sourcePageRange": "3-5",
+          "sourcePageRange": "3-4",
           "time": "1-2 fines de semana",
           "title": "3D-Printed Gripper with Force Feedback",
           "wiringTable": [
@@ -24650,7 +24650,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-d33dbdf816b0f5b0",
+          "canonicalProjectId": "cproj-a271c782ce59a372",
           "components": [
             "Ventiladores 120mm",
             "Tubo Pitot casero",
@@ -24755,7 +24755,7 @@
             "source": "guide-025"
           },
           "schematicSvg": "schematics/guide-026_p2.svg",
-          "sourcePageRange": "6-8",
+          "sourcePageRange": "4-4",
           "time": "2-3 fines de semana",
           "title": "Portable Wind Tunnel with Data Acquisition",
           "wiringTable": [
@@ -24797,7 +24797,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-a0934d3eee1aa622",
+          "canonicalProjectId": "cproj-d40df6b5a86ff447",
           "components": [
             "Panel solar 10W",
             "4x LDRs",
@@ -24909,7 +24909,7 @@
             "source": "guide-025"
           },
           "schematicSvg": "schematics/guide-026_p3.svg",
-          "sourcePageRange": "9-11",
+          "sourcePageRange": "4-4",
           "time": "1-2 fines de semana",
           "title": "Dual-Axis Solar Tracker",
           "wiringTable": [
@@ -24951,7 +24951,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-474cb9cbea5a975f",
+          "canonicalProjectId": "cproj-cfa2ea69856b28c3",
           "components": [
             "Termistores NTC",
             "Ventiladores PWM",
@@ -25055,7 +25055,7 @@
             "source": "guide-025"
           },
           "schematicSvg": "schematics/guide-026_p4.svg",
-          "sourcePageRange": "12-14",
+          "sourcePageRange": "4-4",
           "time": "1 fin de semana",
           "title": "PID Thermal Management System",
           "wiringTable": [
@@ -25097,7 +25097,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-73a63f52789ed787",
+          "canonicalProjectId": "cproj-8c6a209572d81df7",
           "components": [
             "NEMA 17",
             "CNC Shield v3",
@@ -25208,7 +25208,7 @@
             "source": "guide-025"
           },
           "schematicSvg": "schematics/guide-026_p5.svg",
-          "sourcePageRange": "15-17",
+          "sourcePageRange": "4-4",
           "time": "3-4 fines de semana",
           "title": "Desktop CNC Engraver Built From Scratch",
           "wiringTable": [
@@ -25250,7 +25250,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-991a697e933679a7",
+          "canonicalProjectId": "cproj-99a9814a8044e942",
           "components": [
             "Galgas extensométricas 120Ω",
             "ADC HX711",
@@ -25361,7 +25361,7 @@
             "source": "guide-025"
           },
           "schematicSvg": "schematics/guide-026_p6.svg",
-          "sourcePageRange": "18-22",
+          "sourcePageRange": "4-22",
           "time": "2 fines de semana",
           "title": "Wireless Strain Gauge Bridge Monitor",
           "wiringTable": [
@@ -25529,7 +25529,7 @@
       ],
       "keyProjects": [
         {
-          "canonicalProjectId": "cproj-7bbdfb147b8906aa",
+          "canonicalProjectId": "cproj-cdb5de09962ad6d1",
           "components": [
             "Google Colab",
             "Scikit-Learn",
@@ -25629,7 +25629,7 @@
             "source": "guide-026"
           },
           "schematicSvg": "schematics/guide-027_p1.svg",
-          "sourcePageRange": "2-2",
+          "sourcePageRange": "3-4",
           "time": "Semanas 1-2",
           "title": "Fundamentos de ML: Clasificación y Regresión Práctica",
           "wiringTable": [
@@ -25671,7 +25671,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-7c065ababee7080c",
+          "canonicalProjectId": "cproj-e4abcc556adae4c4",
           "components": [
             "Dataset IMS Bearings",
             "PyTorch",
@@ -25775,7 +25775,7 @@
             "source": "guide-026"
           },
           "schematicSvg": "schematics/guide-027_p2.svg",
-          "sourcePageRange": "2-2",
+          "sourcePageRange": "4-4",
           "time": "Semanas 3-4",
           "title": "Ingeniería Mecánica: Mantenimiento Predictivo por Vibraciones",
           "wiringTable": [
@@ -25817,7 +25817,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-637e8f7495453bf4",
+          "canonicalProjectId": "cproj-b44400f178dc5177",
           "components": [
             "PhysioNet MIT-BIH",
             "Redes 1D CNN"
@@ -25914,7 +25914,7 @@
             "source": "guide-026"
           },
           "schematicSvg": "schematics/guide-027_p3.svg",
-          "sourcePageRange": "2-2",
+          "sourcePageRange": "4-5",
           "time": "Semanas 4-5",
           "title": "Ingeniería Electrónica: Clasificación de Señales de ECG en Tiempo Real",
           "wiringTable": [
@@ -25956,7 +25956,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-79756bfacabe0639",
+          "canonicalProjectId": "cproj-f3d712cc9fa4033d",
           "components": [
             "TensorFlow Lite for Microcontrollers",
             "ESP32",
@@ -26061,7 +26061,7 @@
             "source": "guide-026"
           },
           "schematicSvg": "schematics/guide-027_p4.svg",
-          "sourcePageRange": "2-2",
+          "sourcePageRange": "5-5",
           "time": "Semanas 5-6",
           "title": "Despliegue de Edge AI y TinyML en Microcontroladores",
           "wiringTable": [
@@ -26103,7 +26103,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-d18961f7d79a40c0",
+          "canonicalProjectId": "cproj-c233a14787af8904",
           "components": [
             "Gaussian Processes",
             "Optuna"
@@ -26201,7 +26201,7 @@
             "source": "guide-026"
           },
           "schematicSvg": "schematics/guide-027_p5.svg",
-          "sourcePageRange": "2-2",
+          "sourcePageRange": "6-8",
           "time": "Semanas 6-7",
           "title": "Ingeniería Química: Modelado y Optimización de Reactores",
           "wiringTable": [
@@ -26243,7 +26243,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-0dc64246f387a608",
+          "canonicalProjectId": "cproj-23fcabbbd2b23b59",
           "components": [
             "Sensor físico",
             "Inferencia Edge",
@@ -26347,7 +26347,7 @@
             "source": "guide-026"
           },
           "schematicSvg": "schematics/guide-027_p6.svg",
-          "sourcePageRange": "2-10",
+          "sourcePageRange": "9-10",
           "time": "Semanas 7-8",
           "title": "Proyecto Integrador para Portafolio de Ingeniería",
           "wiringTable": [
@@ -26489,7 +26489,7 @@
       ],
       "keyProjects": [
         {
-          "canonicalProjectId": "cproj-c773be45c324b547",
+          "canonicalProjectId": "cproj-a852834d127a87e9",
           "components": [
             "Display OLED 2.42\" SPI",
             "Arduino Uno"
@@ -26582,7 +26582,7 @@
             "source": "guide-027"
           },
           "schematicSvg": "schematics/guide-017_p1.svg",
-          "sourcePageRange": "2-2",
+          "sourcePageRange": "4-4",
           "time": "2 horas",
           "title": "Conexionado de Pantalla OLED SPI 2.42\"",
           "wiringTable": [
@@ -26631,7 +26631,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-60bdf95241a0d0e2",
+          "canonicalProjectId": "cproj-cbcfca26ec8454a4",
           "components": [
             "Slider Pot 10k lineal",
             "Condensador 100nF"
@@ -26724,7 +26724,7 @@
             "source": "guide-027"
           },
           "schematicSvg": "schematics/guide-017_p2.svg",
-          "sourcePageRange": "2-2",
+          "sourcePageRange": "4-4",
           "time": "1 hora",
           "title": "Control Analógico por Potenciómetro Slider",
           "wiringTable": [
@@ -26766,7 +26766,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-6d7d6c6cea1065bd",
+          "canonicalProjectId": "cproj-f2bd11b1c61d0e91",
           "components": [
             "Buzzer pasivo",
             "Resistencia 220Ω"
@@ -26863,7 +26863,7 @@
             "source": "guide-027"
           },
           "schematicSvg": "schematics/guide-017_p3.svg",
-          "sourcePageRange": "2-2",
+          "sourcePageRange": "4-4",
           "time": "1 hora",
           "title": "Generador de Audio Retro por Buzzer",
           "wiringTable": [
@@ -26905,7 +26905,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-44119063eaf16d31",
+          "canonicalProjectId": "cproj-d527d9320b53f7ef",
           "components": [
             "PlatformIO",
             "Juegos Pong y Runner"
@@ -27002,7 +27002,7 @@
             "source": "guide-027"
           },
           "schematicSvg": "schematics/guide-017_p4.svg",
-          "sourcePageRange": "2-15",
+          "sourcePageRange": "4-15",
           "time": "2 horas",
           "title": "Compilación y Flasheo de los 2 Juegos",
           "wiringTable": [
@@ -27170,7 +27170,7 @@
       ],
       "keyProjects": [
         {
-          "canonicalProjectId": "cproj-aac67c6a997dd84d",
+          "canonicalProjectId": "cproj-637384500cc656e5",
           "components": [
             "Kit de componentes discretos",
             "Amplificador LF356",
@@ -27319,7 +27319,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-03192105d7679c57",
+          "canonicalProjectId": "cproj-46feb8c9044a3d92",
           "components": [
             "Entorno KiCad",
             "Plantillas JLCPCB",
@@ -27461,7 +27461,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-d3b2fc1ca6e2c075",
+          "canonicalProjectId": "cproj-9b50b89c285e3c56",
           "components": [
             "Puertas lógicas 74LS",
             "EEPROMs 28C16",
@@ -27610,7 +27610,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-d818ef7f0069eae8",
+          "canonicalProjectId": "cproj-480af3da27fb2c78",
           "components": [
             "Estación de aire caliente",
             "Flux no-clean",
@@ -27762,7 +27762,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-29d8b7c13fa17c6c",
+          "canonicalProjectId": "cproj-ce6825a780048e81",
           "components": [
             "Op-amps TL082",
             "Potenciómetro multivuelta",
@@ -27915,7 +27915,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-882301bff958c4eb",
+          "canonicalProjectId": "cproj-7a7f46d0d2801597",
           "components": [
             "Receptor RTL-SDR Blog v4",
             "Antena dipolo telescópica",
@@ -28201,7 +28201,7 @@
       ],
       "keyProjects": [
         {
-          "canonicalProjectId": "cproj-73d4a8f2878b0111",
+          "canonicalProjectId": "cproj-72cc1f81a8e65404",
           "components": [
             "Medidor LCR",
             "Variedad de inductores toroidales",
@@ -28350,7 +28350,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-229c4171e763d2b1",
+          "canonicalProjectId": "cproj-7d201051a0439541",
           "components": [
             "Pares emparejados de transistores",
             "Simulador SPICE",
@@ -28499,7 +28499,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-739ea0165abded17",
+          "canonicalProjectId": "cproj-c0b7689c0d56b505",
           "components": [
             "Software LTspice XVII",
             "Modelos SPICE de fabricantes",
@@ -28648,7 +28648,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-d38ae76c52978211",
+          "canonicalProjectId": "cproj-0f0085eec37f6903",
           "components": [
             "Simulador Wokwi",
             "Compilador C++ para ESP32/Pico",
@@ -28790,7 +28790,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-c3443f776ec7fc7d",
+          "canonicalProjectId": "cproj-f52ec4fa1985d173",
           "components": [
             "Placa Teensy 4.0 / STM32",
             "Codec de audio I2S",
@@ -28943,7 +28943,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-4d4279f3f22adbc3",
+          "canonicalProjectId": "cproj-f367abbbda6712c4",
           "components": [
             "Analizador de redes NanoVNA-H",
             "Kit de calibración SOLT",
@@ -29229,7 +29229,7 @@
       ],
       "keyProjects": [
         {
-          "canonicalProjectId": "cproj-6a2fde280003c6a2",
+          "canonicalProjectId": "cproj-52af54cdcbb23ccc",
           "components": [
             "KiCad / Altium",
             "Calculadora de impedancias Polar",
@@ -29371,7 +29371,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-fc0cb7592bc8fe30",
+          "canonicalProjectId": "cproj-d802fc7c1692d982",
           "components": [
             "Simulador Python / MATLAB",
             "Péndulo con encoder",
@@ -29513,7 +29513,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-1bd9131aee614a4f",
+          "canonicalProjectId": "cproj-f9f487d5ebc5ed47",
           "components": [
             "Módulo LoRa Heltec ESP32",
             "Panel solar 5V 1W",
@@ -29673,7 +29673,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-a4341e3008634c9b",
+          "canonicalProjectId": "cproj-334e61d3bd1b0d31",
           "components": [
             "Controlador PWM síncrono",
             "MOSFETs de baja RDS(on)",
@@ -29822,7 +29822,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-612ab289846bc5d2",
+          "canonicalProjectId": "cproj-17d81817ee434cf9",
           "components": [
             "Placa FPGA Gowin Tang Nano 9K",
             "Cable USB-JTAG",
@@ -29964,7 +29964,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-bbfa4bb55a34b0c6",
+          "canonicalProjectId": "cproj-4e3b689a21b2de1f",
           "components": [
             "Microcontrolador Seeed Xiao nRF52840",
             "Micrófono PDM",
@@ -30239,7 +30239,7 @@
       ],
       "keyProjects": [
         {
-          "canonicalProjectId": "cproj-f2311da268276aee",
+          "canonicalProjectId": "cproj-9b7fcee8039c8cf2",
           "components": [
             "KiCad 8",
             "Archivos de reglas DFM",
@@ -30381,7 +30381,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-b300980f85c34817",
+          "canonicalProjectId": "cproj-cfca216d2a1ed9a9",
           "components": [
             "Regulador de ultra-bajo ruido LT3042",
             "Transformador toroidal",
@@ -30481,7 +30481,7 @@
             "source": "guide-031"
           },
           "schematicSvg": "schematics/guide-031_p2.svg",
-          "sourcePageRange": "3-3",
+          "sourcePageRange": "2-2",
           "time": "2 semanas",
           "title": "The Art of Electronics Ultra-Low Noise Supply",
           "wiringTable": [
@@ -30523,7 +30523,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-dc31bef9ac936652",
+          "canonicalProjectId": "cproj-5fb9716719f28b55",
           "components": [
             "Placa STM32 Nucleo / ESP32-S3",
             "Depurador J-Link / ST-Link",
@@ -30626,7 +30626,7 @@
             "source": "guide-031"
           },
           "schematicSvg": "schematics/guide-031_p3.svg",
-          "sourcePageRange": "4-4",
+          "sourcePageRange": "3-3",
           "time": "2 semanas",
           "title": "Zephyr RTOS Industrial Node Deployment",
           "wiringTable": [
@@ -30668,7 +30668,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-afe2d60109c6be41",
+          "canonicalProjectId": "cproj-921e08edfa97c66d",
           "components": [
             "Sustrato PCB de alta frecuencia",
             "Conectores SMA de borde de placa",
@@ -30813,7 +30813,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-410829ad294beffc",
+          "canonicalProjectId": "cproj-42e94e5d1ead1f01",
           "components": [
             "Herramienta de panelizado KiKit",
             "Fiduciales 1mm",
@@ -30955,7 +30955,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-bf2186bd14bd42e2",
+          "canonicalProjectId": "cproj-3d121fa1e47f82a1",
           "components": [
             "Arreglo diodos TVS USBLC6-2",
             "Fusibles PolySwitch",
@@ -31059,7 +31059,7 @@
             "source": "guide-031"
           },
           "schematicSvg": "schematics/guide-031_p6.svg",
-          "sourcePageRange": "5-10",
+          "sourcePageRange": "6-10",
           "time": "1 semana",
           "title": "EEVblog Teardown Forensic & ESD Hardening",
           "wiringTable": [

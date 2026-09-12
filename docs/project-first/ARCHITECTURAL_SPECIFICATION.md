@@ -1,25 +1,23 @@
-# EngineeringGuides: Project-First Architectural Specification (P02.1)
+# EngineeringGuides: Project-First Architectural Specification (P02.2)
 
-**Version:** 2.1.0  
-**Status:** Certified & Released (Zero-Fabrication & Evidence-Provenance Recertified)  
+**Version:** 2.2.0  
+**Status:** Certified & Released (P02.2 Forensic Closure: IR-First, Literal Evidence, Zero-Fabrication, Strict Dedup)  
 **Standard:** $1\ \text{Technical Project} = 1\ \text{Independent Entity}$  
 
 ---
 
-## 1. Executive Summary & Architectural Evolution (P02.1)
+## 1. Executive Summary & Architectural Evolution (P02.2)
 
-Following the initial Project-First architecture (P02), the **P02.1 Forensic Extraction, Evidence-Level Provenance & Zero-Fabrication Repair** initiative enforces absolute algorithmic rigor across the entire EngineeringGuides technical corpus:
+Following the initial Project-First architecture (P02) and audit repair (P02.1), **Prompt 02.2 — Forensic Closure** eliminates all "FALSE PASS" conditions detected in independent audits, making what the system declares as PASS strictly demonstrable by code, Document IR, literal artifacts, and tests:
 
-1. **Forensic Boundary Determination:** Replaced any heuristic or proportional page division with IR-derived block parsing (`scripts/project_first/boundaries.py`), detecting explicit project headers (`[ P R O J E C T 0 1 ]`, `❯ project 01`, `PROJECT 1`, `UPGRADE 01`, `#1`) and layout continuity across all 31 documentary guides.
-2. **Evidence-Level Provenance (`EvidenceBlock`):** Every non-null `sourceText` string in every technical section is backed by an `EvidenceBlock` referencing `sourceDocumentId`, `pageNumber`, `blockIndex`, `bbox`, `textSnippet`, `sourceHash`, and `claim`.
-3. **Four-Way Content Separation:** Strict taxonomy separates:
-   - `SOURCE`: Literal unmodified text extracted from Document IR with verified bounding boxes.
-   - `DERIVED`: Algorithmic or structured inferences grounded strictly in evidence.
-   - `NOT_DOCUMENTED`: Sections with zero documentary evidence in the source PDF (`sourceText: null`).
-   - `UNVERIFIED`: Data points (e.g. BOM pricing) not independently audited.
-4. **Zero Fabrication Guarantee:** No placeholder strings (such as *"Información técnica estructurada"* or *"Pendiente de verificación"*) are permitted in source fields.
-5. **Strict Identity-Evidence Deduplication:** Merges into `CanonicalProject` require unambiguous identity evidence (matching project/guide identity, shared vector schematics, or $\ge 70\%$ literal title overlap). Shared controllers or BOM components alone are forbidden from causing merges (**FALSE NEGATIVE > FALSE MERGE**).
-6. **Exhaustive Pairwise Evaluation:** All $\frac{183 \times 182}{2} = 16,653$ candidate pairs are evaluated exhaustively in under 6 seconds, eliminating lossy heuristic candidate filtering.
+1. **IR-First Boundary Determination:** Multi-pattern boundary scanner (`boundaries.py`) matches exact Document IR markers (`[ P R O J E C T 0 1 ]`, `■ P R O J E C T 0 1`, `PROJECT 01`, `UPGRADE 01`, `#1`, `STEP 01`, `01 Name`) across all 31 documentary guides. Synthetic fallback page divisions (`fallback_document_span`) are completely eliminated. Reconciles without artificial promotion: `MATCH` (28), `PARTIAL_MATCH` (105), `BOUNDARY_MISMATCH` (50), `MISSING_IN_IR` (0).
+2. **Literal Untruncated Source Text:** Elimination of `clean_snippet` truncation (`...`). Every `sourceText` is the verbatim, literal text of the matching IR block (`block["text"]`).
+3. **Zero Fabrication & Elimination of Synthetic Phrases:** Banned phrases (`"Adquiere variables y ejecuta control..."`, `"Procesa señales..."`, `"Aplicación práctica en..."`, `"Continuidad de layout en pág..."`) are completely banned and absent. Any section or description field without literal IR evidence is declared `sourceText: null`, `derived: null`, `fieldStatus: NOT_DOCUMENTED`.
+4. **Deterministic Evidence IDs:** Every `EvidenceBlock` has a unique deterministic identifier `ev-{docId}-p{page}-b{block}`.
+5. **Canonical Project Derivation:** `canonicalProjectId` is derived strictly and stably from `sorted(projectIds) -> sha256 -> cproj-<hash>`, never mutable titles or heuristics.
+6. **Grounded Project Relations:** Every relation's `evidence` field is populated with specific pairwise candidate evidence (e.g. `cand.matchEvidence` or `similarityEvidence`), eliminating generic boilerplate text.
+7. **Exhaustive Pairwise Evaluation:** All $\frac{183 \times 182}{2} = 16,653$ candidate pairs evaluated under 4 seconds (**FALSE NEGATIVE > FALSE MERGE**).
+8. **Four Forensic Audit Artifacts:** Standardized audit reporting in `docs/project-first/` (`evidence_audit.json`, `fabrication_audit.json`, `golden_execution.json`, `determinism_audit.json`).
 
 ---
 

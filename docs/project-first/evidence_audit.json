@@ -1,0 +1,16 @@
+{
+  "auditType": "EVIDENCE_BLOCK_IR_GROUNDING_AUDIT",
+  "evidenceIdResolutionRate": 1.0,
+  "evidenceIdValidCount": 3002,
+  "invalidBlockIndices": 0,
+  "invalidHashes": 0,
+  "invalidPages": 0,
+  "literalMatchRate": 1.0,
+  "literalMatches": 3002,
+  "literalMismatches": 0,
+  "mismatchDetails": [],
+  "timestamp": "2026-09-12T00:00:00Z",
+  "totalEvidenceBlocksAudited": 3002,
+  "totalProjects": 183,
+  "verdict": "PASS"
+}

@@ -149,6 +149,16 @@ def validate_project_forensic_integrity(p: Dict[str, Any]) -> List[str]:
                     
     # 2. Detailed explanation zero fabrication check
     exp = p.get("detailedExplanation", {})
+    banned_phrases = [
+        "Información técnica estructurada",
+        "Pendiente de verificación",
+        "Placeholder",
+        "Lorem ipsum",
+        "Continuidad de layout en pág",
+        "Adquiere variables y ejecuta control",
+        "Procesa señales y ejecuta la función",
+        "Aplicación práctica y despliegue en"
+    ]
     for sec_name, sec in exp.items():
         if not sec:
             continue
@@ -156,11 +166,11 @@ def validate_project_forensic_integrity(p: Dict[str, Any]) -> List[str]:
         status = sec.get("status")
         ev_list = sec.get("evidenceBlocks", [])
         
-        # Zero placeholder strings
-        if stxt and "Información técnica estructurada" in stxt:
-            errors.append(f"[{pid}] Section {sec_name} contains placeholder string in sourceText!")
-        if stxt and "Pendiente de verificación" in stxt:
-            errors.append(f"[{pid}] Section {sec_name} contains placeholder string in sourceText!")
+        # Zero placeholder or banned strings
+        if stxt:
+            for bp in banned_phrases:
+                if bp.lower() in stxt.lower():
+                    errors.append(f"[{pid}] Section {sec_name} contains banned/placeholder string in sourceText: '{bp}'")
             
         # Status consistency
         if stxt is not None and status != "SOURCE":
@@ -170,13 +180,30 @@ def validate_project_forensic_integrity(p: Dict[str, Any]) -> List[str]:
         if status == "NOT_DOCUMENTED" and stxt is not None:
             errors.append(f"[{pid}] Section {sec_name} status is NOT_DOCUMENTED but sourceText is non-null")
             
-    # 3. Description answers core questions
+    # 3. Description answers core questions or declares NOT_DOCUMENTED
     desc = p.get("description", {})
-    for q in ["whatIsIt", "whatDoesItDo", "purpose"]:
-        val = desc.get(q, "")
-        if not val or len(val.strip()) < 5:
-            errors.append(f"[{pid}] Description field '{q}' is missing or too short")
-            
+    fstatus = desc.get("fieldStatus", {})
+    
+    what_is_it = desc.get("whatIsIt")
+    if not what_is_it or len(str(what_is_it).strip()) < 5:
+        errors.append(f"[{pid}] Description field 'whatIsIt' is missing or too short")
+        
+    what_does = desc.get("whatDoesItDo")
+    if what_does is None:
+        status_val = fstatus.get("whatDoesItDo")
+        if status_val not in ["NOT_DOCUMENTED", None]:
+            errors.append(f"[{pid}] Description field 'whatDoesItDo' is None but fieldStatus is {status_val}")
+    elif len(str(what_does).strip()) < 5:
+        errors.append(f"[{pid}] Description field 'whatDoesItDo' is too short: '{what_does}'")
+        
+    purp = desc.get("purpose")
+    if purp is None:
+        status_val = fstatus.get("purpose")
+        if status_val not in ["NOT_DOCUMENTED", None]:
+            errors.append(f"[{pid}] Description field 'purpose' is None but fieldStatus is {status_val}")
+    elif len(str(purp).strip()) < 5:
+        errors.append(f"[{pid}] Description field 'purpose' is too short: '{purp}'")
+        
     return errors
 
 

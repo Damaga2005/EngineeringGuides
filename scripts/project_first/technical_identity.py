@@ -1,7 +1,7 @@
 """
-Technical Identity Normalization and Extraction Module (Prompt 02).
+Technical Identity Normalization and Extraction Module (Prompt 02, 02.1 & 02.2).
 Normalizes component nomenclature safely without destroying technical nuances
-(e.g., normalizes ESP-32 -> ESP32, but isolates ESP32-S3 or ESP32-C3).
+and strictly requires evidence for firmware, architecture, and power claims.
 """
 
 import re
@@ -78,7 +78,7 @@ COMM_PATTERNS = [
 
 
 def extract_technical_identity(text: str, components: List[str] = None) -> TechnicalIdentity:
-    """Analyze project text and components to extract a normalized TechnicalIdentity."""
+    """Analyze project text and components to extract a normalized TechnicalIdentity strictly grounded in evidence."""
     combined_text = (text + " " + " ".join(components or [])).lower()
     
     # 1. Controller
@@ -106,17 +106,14 @@ def extract_technical_identity(text: str, components: List[str] = None) -> Techn
     comms = []
     for pattern, norm_comm in COMM_PATTERNS:
         if re.search(pattern, combined_text, re.IGNORECASE):
-            if norm_comm not in comms:
-                comms.append(norm_comm)
-                
-    # 5. Power
+            comms.append(norm_comm)
+            
+    # 5. Operating Voltage / Power
     power = None
-    if re.search(r"\b(lipo|3\.7v|18650)\b", combined_text):
-        power = "3.7V Batería Li-Ion/LiPo"
-    elif re.search(r"\b(5v|usb-c)\b", combined_text):
-        power = "5V USB / Regulador LDO"
-    elif re.search(r"\b(12v|24v)\b", combined_text):
-        power = "12V-24V Alimentación Externa Industrial"
+    if re.search(r"\b(battery|batería|li-?ion|lipo|18650)\b", combined_text):
+        power = "Alimentación por Batería Li-Ion / LiPo"
+    elif re.search(r"\b(5v)\b", combined_text):
+        power = "5V DC Regulado"
     elif re.search(r"\b(3\.3v)\b", combined_text):
         power = "3.3V DC Regulado"
         
@@ -141,8 +138,30 @@ def extract_technical_identity(text: str, components: List[str] = None) -> Techn
         func = "Redes de Sensores Distribuidos / IoT"
     elif any(k in combined_text for k in ["visión", "cámara", "image", "night-vision", "thermal"]):
         func = "Sistemas de Visión Artificial y Espectroscopía"
-    else:
-        func = "Sistemas Embebidos y Electrónica General"
+        
+    # 8. Firmware (Only if explicitly evidenced)
+    firmware = None
+    if re.search(r"\b(micropython)\b", combined_text):
+        firmware = "MicroPython"
+    elif re.search(r"\b(freertos)\b", combined_text):
+        firmware = "FreeRTOS / C"
+    elif re.search(r"\b(verilog|vhdl|fpga)\b", combined_text):
+        firmware = "Verilog / VHDL (Hardware Description)"
+    elif re.search(r"\b(arduino|esp-idf|bare-metal|c\+\+|firmware)\b", combined_text) and mcu:
+        firmware = f"Firmware C/C++ ({mcu})"
+        
+    # 9. Architecture (Only if explicitly evidenced)
+    arch = None
+    if re.search(r"\b(mesh)\b", combined_text):
+        arch = "Red Mesh Distribuida"
+    elif re.search(r"\b(closed-loop|lazo cerrado)\b", combined_text):
+        arch = "Control en Lazo Cerrado (Closed-Loop)"
+    elif re.search(r"\b(edge[- ]ai|tinyml)\b", combined_text):
+        arch = "Edge AI / TinyML"
+    elif re.search(r"\b(differential drive)\b", combined_text):
+        arch = "Tracción Diferencial (Differential Drive)"
+    elif re.search(r"\b(client-server|websocket)\b", combined_text):
+        arch = "Cliente-Servidor en Tiempo Real"
         
     return TechnicalIdentity(
         controller=mcu,
@@ -151,9 +170,9 @@ def extract_technical_identity(text: str, components: List[str] = None) -> Techn
         actuators=sorted(list(set(actuators))),
         communications=sorted(list(set(comms))),
         power=power,
-        firmware="C/C++ (ESP-IDF / Arduino / Bare-metal)" if mcu else None,
+        firmware=firmware,
         majorComponents=major[:8],
-        architecture="Sistema embebido en tiempo real" if mcu else "Módulo de instrumentación hardware",
+        architecture=arch,
         function=func,
         constraints=[]
     )

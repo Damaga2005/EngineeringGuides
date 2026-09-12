@@ -66,7 +66,8 @@ def build_canonical_projects(
         member_projs = [proj_map[mid] for mid in sorted(member_ids)]
         primary = member_projs[0]
         
-        cproj_id = generate_canonical_project_id(primary.title, primary.technicalIdentity.controller or "")
+        sorted_pids = sorted([p.projectId for p in member_projs])
+        cproj_id = generate_canonical_project_id(sorted_pids)
         cslug = slugify(f"canon-{primary.title}")
         
         all_sources = []
@@ -84,7 +85,7 @@ def build_canonical_projects(
                     mcu_i = p_i.technicalIdentity.controller
                     mcu_j = p_j.technicalIdentity.controller
                     if mcu_i and mcu_j and mcu_i != mcu_j:
-                        conf_id = generate_conflict_id("technicalIdentity.controller", p_i.projectId, p_j.projectId)
+                        conf_id = generate_conflict_id(p_i.projectId, p_j.projectId, "technicalIdentity.controller")
                         conflicts.append(ConflictRecord(
                             conflictId=conf_id,
                             fieldPath="technicalIdentity.controller",
@@ -119,7 +120,7 @@ def build_canonical_projects(
             canonicalProjectId=cproj_id,
             canonicalSlug=cslug,
             preferredTitle=primary.title,
-            projectIds=[p.projectId for p in member_projs],
+            projectIds=sorted_pids,
             variantIds=[],
             technicalIdentity=primary.technicalIdentity,
             canonicalDescription=primary.description,
@@ -137,25 +138,31 @@ def build_canonical_projects(
     
     for cand in candidates:
         if cand.classification == DuplicateClassification.VARIANT:
-            rel_id = generate_relation_id("VARIANT_OF", cand.projectAId, cand.projectBId)
+            rel_id = generate_relation_id(cand.projectAId, cand.projectBId, "VARIANT_OF")
+            ev_list = cand.matchEvidence or ["Variante de arquitectura de circuito."]
+            desc = f"Variante técnica documentada: {'; '.join(ev_list[:2])}"
             rel = ProjectRelation(
                 relationId=rel_id,
                 sourceProjectId=cand.projectAId,
                 targetProjectId=cand.projectBId,
                 relationType=RelationType.VARIANT_OF,
-                description="Variante técnica con circuitos derivados.",
-                confidence=cand.similarityScore
+                description=desc,
+                confidence=cand.similarityScore,
+                evidence=ev_list
             )
             relations.append(rel)
         elif cand.classification == DuplicateClassification.RELATED:
-            rel_id = generate_relation_id("RELATED_TO", cand.projectAId, cand.projectBId)
+            rel_id = generate_relation_id(cand.projectAId, cand.projectBId, "RELATED_TO")
+            ev_list = cand.similarityEvidence or cand.matchEvidence or ["Arquitectura o subsistemas afines."]
+            desc = f"Relación arquitectónica documentada: {'; '.join(ev_list[:2])}"
             rel = ProjectRelation(
                 relationId=rel_id,
                 sourceProjectId=cand.projectAId,
                 targetProjectId=cand.projectBId,
                 relationType=RelationType.RELATED_TO,
-                description="Proyectos relacionados por ecosistema, bus de comunicación o arquitectura técnica compartida.",
-                confidence=cand.similarityScore
+                description=desc,
+                confidence=cand.similarityScore,
+                evidence=ev_list
             )
             relations.append(rel)
             
