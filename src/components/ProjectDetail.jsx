@@ -247,7 +247,7 @@ export default function ProjectDetail({
                 <span>1. ¿Qué es?</span>
               </div>
               <p className="text-xs text-slate-300 leading-relaxed">
-                {desc.whatIsIt || desc.summary || 'Sistema embebido de ingeniería aplicada con procesamiento dedicado.'}
+                {desc.whatIsIt || desc.summary || project.title}
               </p>
             </div>
 
@@ -256,9 +256,13 @@ export default function ProjectDetail({
                 <Activity className="h-4 w-4" />
                 <span>2. ¿Qué hace?</span>
               </div>
-              <p className="text-xs text-slate-300 leading-relaxed">
-                {desc.whatDoesItDo || 'Adquiere variables físicas, aplica lógica de control en tiempo real y ejecuta actuadores.'}
-              </p>
+              {desc.whatDoesItDo ? (
+                <p className="text-xs text-slate-300 leading-relaxed">{desc.whatDoesItDo}</p>
+              ) : (
+                <p className="text-xs text-slate-500 italic leading-relaxed">
+                  No documentado en la fuente original.
+                </p>
+              )}
             </div>
 
             <div className="glass-panel p-4 rounded-xl border border-indigo-900/40 bg-indigo-950/10 space-y-2">
@@ -266,9 +270,13 @@ export default function ProjectDetail({
                 <Zap className="h-4 w-4" />
                 <span>3. ¿Para qué sirve?</span>
               </div>
-              <p className="text-xs text-slate-300 leading-relaxed">
-                {desc.whatIsItFor || desc.purpose || 'Despliegues industriales, telemetría remota, instrumentación y aplicaciones autónomas.'}
-              </p>
+              {(desc.whatIsItFor || desc.purpose) ? (
+                <p className="text-xs text-slate-300 leading-relaxed">{desc.whatIsItFor || desc.purpose}</p>
+              ) : (
+                <p className="text-xs text-slate-500 italic leading-relaxed">
+                  No documentado en la fuente original.
+                </p>
+              )}
             </div>
           </div>
 
@@ -390,8 +398,9 @@ export default function ProjectDetail({
               <Info className="h-5 w-5 text-cyan-400 flex-shrink-0 mt-0.5" />
               <div className="text-xs text-slate-300 leading-relaxed">
                 <span className="font-semibold text-white">Separación Estricta: Fuente vs Derivado. </span>
-                Cada sección presenta claramente el texto oficial extraído directamente de la fuente documental original
-                y el desglose técnico complementario derivado. Ambas partes cuentan con trazabilidad criptográfica SHA-256.
+                Cada sección muestra únicamente el texto oficial extraído literalmente de la fuente documental original,
+                con trazabilidad criptográfica SHA-256. Si no existe evidencia literal para una sección, se indica
+                explícitamente en lugar de generar contenido de relleno.
               </div>
             </div>
 
@@ -418,12 +427,15 @@ export default function ProjectDetail({
                     </div>
 
                     <div className="flex items-center gap-3">
-                      <span className="hidden sm:inline-block text-[11px] font-mono px-2 py-0.5 rounded bg-emerald-950/60 text-emerald-300 border border-emerald-800/40">
-                        Fuente PDF
-                      </span>
-                      <span className="hidden sm:inline-block text-[11px] font-mono px-2 py-0.5 rounded bg-blue-950/60 text-blue-300 border border-blue-800/40">
-                        Derivado
-                      </span>
+                      {section.status === 'SOURCE' ? (
+                        <span className="hidden sm:inline-block text-[11px] font-mono px-2 py-0.5 rounded bg-emerald-950/60 text-emerald-300 border border-emerald-800/40">
+                          Fuente PDF
+                        </span>
+                      ) : (
+                        <span className="hidden sm:inline-block text-[11px] font-mono px-2 py-0.5 rounded bg-slate-800/80 text-slate-400 border border-slate-700">
+                          No documentado
+                        </span>
+                      )}
                       {isExpanded ? (
                         <ChevronUp className="h-4 w-4 text-slate-400" />
                       ) : (
@@ -434,37 +446,52 @@ export default function ProjectDetail({
 
                   {isExpanded && (
                     <div className="p-5 space-y-4 border-t border-slate-800/80">
-                      {/* Source Text Box */}
-                      <div className="p-4 rounded-xl bg-emerald-950/20 border border-emerald-900/40 space-y-2">
-                        <div className="flex items-center justify-between gap-2">
-                          <div className="flex items-center gap-2 text-xs font-semibold text-emerald-400">
-                            <ShieldCheck className="h-4 w-4" />
-                            <span>Texto Oficial de la Fuente (Inmutable)</span>
+                      {section.sourceText ? (
+                        <div className="p-4 rounded-xl bg-emerald-950/20 border border-emerald-900/40 space-y-2">
+                          <div className="flex items-center justify-between gap-2">
+                            <div className="flex items-center gap-2 text-xs font-semibold text-emerald-400">
+                              <ShieldCheck className="h-4 w-4" />
+                              <span>Texto Oficial de la Fuente (Inmutable)</span>
+                            </div>
+                            <span className="text-[10px] font-mono text-emerald-500/80">
+                              {sProv.source} • Pág. {sProv.sourcePage || 1}
+                            </span>
                           </div>
-                          <span className="text-[10px] font-mono text-emerald-500/80">
-                            {sProv.source} • Pág. {sProv.sourcePage || 1}
-                          </span>
+                          <p className="text-xs text-slate-200 leading-relaxed font-sans whitespace-pre-wrap">
+                            {section.sourceText}
+                          </p>
                         </div>
-                        <p className="text-xs text-slate-200 leading-relaxed font-sans whitespace-pre-wrap">
-                          {section.sourceText || 'No se registraron declaraciones literales en esta sección para este proyecto.'}
-                        </p>
-                      </div>
+                      ) : (
+                        <div className="p-4 rounded-xl bg-slate-900/40 border border-slate-800 space-y-1">
+                          <div className="flex items-center gap-2 text-xs font-semibold text-slate-400">
+                            <Info className="h-4 w-4" />
+                            <span>Sin evidencia literal</span>
+                          </div>
+                          <p className="text-xs text-slate-500 italic leading-relaxed">
+                            No se encontró texto literal en la fuente documental para esta sección. No se muestra contenido generado en su lugar.
+                          </p>
+                        </div>
+                      )}
 
-                      {/* Derived Explanation Box */}
-                      <div className="p-4 rounded-xl bg-blue-950/15 border border-blue-900/30 space-y-2">
-                        <div className="flex items-center justify-between gap-2">
-                          <div className="flex items-center gap-2 text-xs font-semibold text-blue-400">
-                            <Sparkles className="h-4 w-4" />
-                            <span>Análisis Técnico Derivado</span>
+                      {/* Derived Explanation Box: only rendered when a real derivation exists */}
+                      {section.derivedExplanation && (
+                        <div className="p-4 rounded-xl bg-blue-950/15 border border-blue-900/30 space-y-2">
+                          <div className="flex items-center justify-between gap-2">
+                            <div className="flex items-center gap-2 text-xs font-semibold text-blue-400">
+                              <Sparkles className="h-4 w-4" />
+                              <span>Análisis Técnico Derivado</span>
+                            </div>
+                            {sProv.confidence && (
+                              <span className="text-[10px] font-mono text-slate-500">
+                                Confianza: {sProv.confidence}
+                              </span>
+                            )}
                           </div>
-                          <span className="text-[10px] font-mono text-slate-500">
-                            Confianza: {sProv.confidence || 'EXACT'}
-                          </span>
+                          <p className="text-xs text-slate-300 leading-relaxed font-sans whitespace-pre-wrap">
+                            {section.derivedExplanation}
+                          </p>
                         </div>
-                        <p className="text-xs text-slate-300 leading-relaxed font-sans whitespace-pre-wrap">
-                          {section.derivedExplanation || 'Análisis técnico consolidado.'}
-                        </p>
-                      </div>
+                      )}
                     </div>
                   )}
                 </div>
