@@ -1,21 +1,26 @@
 import React from 'react';
-import { 
-  Clock, 
-  ExternalLink, 
-  ArrowRight, 
+import {
+  Clock,
+  ExternalLink,
+  ArrowRight,
   FileText,
   Boxes,
   Code2,
+  Bookmark,
   FlaskConical,
   GitCompare,
-  Check
+  Check,
+  Sparkles
 } from 'lucide-react';
 
-export default function ProjectCard({ 
-  project, 
-  onSelectProject, 
+export default function ProjectCard({
+  project,
+  onSelectProject,
   onSelectGuide,
   viewMode = 'grid',
+  isFavorite = false,
+  onToggleFavorite,
+  hasExpandedGuide = false,
   onOpenInLab,
   onToggleCompare,
   isCompared = false
@@ -35,9 +40,18 @@ export default function ProjectCard({
   } = project;
 
   const controller = technicalIdentity?.controller || technicalIdentity?.controllerFamily;
-  const functionClass = technicalIdentity?.function || 'Ingeniería Aplicada';
+  const functionClass = technicalIdentity?.function || 'Ingenier?a Aplicada';
   const whatDoesItDo = description?.whatDoesItDo || description?.summary || '';
   const bomCount = Array.isArray(bom) ? bom.length : 0;
+
+  // Badge label: prefer controller, then sensor, actuator, comms, or fallback
+  const badgeLabel =
+    controller ||
+    technicalIdentity?.sensors?.[0] ||
+    technicalIdentity?.actuators?.[0] ||
+    technicalIdentity?.communications?.[0] ||
+    functionClass ||
+    `Proyecto #${projectNumber}`;
 
   if (viewMode === 'list') {
     return (
@@ -45,8 +59,14 @@ export default function ProjectCard({
         <div className="flex-1 min-w-0 space-y-2">
           <div className="flex flex-wrap items-center gap-2">
             <span className="px-2.5 py-0.5 rounded-md text-[11px] font-mono font-semibold bg-cyan-950/80 border border-cyan-700/50 text-cyan-300">
-              #{projectNumber} {controller || 'Hardware'}
+              {badgeLabel}
             </span>
+            {hasExpandedGuide && (
+              <span className="px-2 py-0.5 rounded-md text-[10px] font-mono font-semibold bg-amber-500/15 border border-amber-500/40 text-amber-300 inline-flex items-center gap-1">
+                <Sparkles className="h-3 w-3" />
+                Gu?a Ampliada
+              </span>
+            )}
             <span className="px-2.5 py-0.5 rounded-md text-[11px] font-medium bg-slate-800/80 text-slate-300">
               {functionClass}
             </span>
@@ -105,7 +125,7 @@ export default function ProjectCard({
                   ? 'bg-cyan-950 text-cyan-300 border-cyan-700 shadow-sm'
                   : 'bg-slate-900/80 text-slate-400 border-slate-800 hover:text-slate-200'
               }`}
-              title={isCompared ? 'Quitar de comparador' : 'Añadir a comparador'}
+              title={isCompared ? 'Quitar de comparador' : 'A?adir a comparador'}
             >
               {isCompared ? <Check className="w-3.5 h-3.5 text-cyan-400" /> : <GitCompare className="w-3.5 h-3.5" />}
             </button>
@@ -119,6 +139,20 @@ export default function ProjectCard({
             >
               <FlaskConical className="h-3.5 w-3.5" />
               <span>Lab</span>
+            </button>
+          )}
+
+          {onToggleFavorite && (
+            <button
+              onClick={(e) => { e.stopPropagation(); onToggleFavorite(project.projectId); }}
+              className={`p-2 rounded-xl border transition-colors ${
+                isFavorite
+                  ? 'bg-amber-500/20 text-amber-400 border-amber-500/40'
+                  : 'bg-slate-800/60 text-slate-400 border-slate-700 hover:text-slate-200'
+              }`}
+              title={isFavorite ? 'Quitar de favoritos' : 'Guardar en favoritos'}
+            >
+              <Bookmark className={`h-4 w-4 ${isFavorite ? 'fill-amber-400' : ''}`} />
             </button>
           )}
 
@@ -136,38 +170,60 @@ export default function ProjectCard({
 
   // Grid view
   return (
-    <div className="glass-panel rounded-2xl border border-slate-800/80 hover:border-cyan-500/40 transition-all hover:shadow-xl hover:shadow-cyan-950/20 flex flex-col justify-between overflow-hidden group">
+    <div
+      onClick={() => onSelectProject(slug || project)}
+      className="glass-panel rounded-2xl border border-slate-800/80 hover:border-cyan-500/40 transition-all hover:shadow-xl hover:shadow-cyan-950/20 flex flex-col justify-between overflow-hidden group cursor-pointer"
+    >
       <div className="p-5 space-y-3">
         {/* Header Badges */}
         <div className="flex items-center justify-between gap-2">
-          <span className="px-2.5 py-0.5 rounded-md text-[11px] font-mono font-semibold bg-cyan-950/80 border border-cyan-700/50 text-cyan-300">
-            {controller ? controller : `Proyecto #${projectNumber}`}
+          <span className="px-2.5 py-0.5 rounded-md text-[11px] font-mono font-semibold bg-cyan-950/80 border border-cyan-700/50 text-cyan-300 truncate max-w-[160px]">
+            {badgeLabel}
           </span>
           <div className="flex items-center gap-1.5">
+            {hasExpandedGuide && (
+              <span className="px-2 py-0.5 rounded-md text-[10px] font-mono font-semibold bg-amber-500/15 border border-amber-500/40 text-amber-300 inline-flex items-center gap-1" title="Gu?a ampliada con pasos de construcci?n detallados disponible">
+                <Sparkles className="h-3 w-3" />
+                Ampliada
+              </span>
+            )}
+
             {onToggleCompare && (
               <button
-                onClick={() => onToggleCompare(project)}
+                onClick={(e) => { e.stopPropagation(); onToggleCompare(project); }}
                 className={`p-1 rounded-md text-[10px] border transition-all ${
                   isCompared 
                     ? 'bg-cyan-950 border-cyan-700 text-cyan-300' 
                     : 'bg-slate-900/60 border-slate-800 text-slate-500 hover:text-slate-300'
                 }`}
-                title={isCompared ? 'En el comparador (click para quitar)' : 'Añadir al comparador'}
+                title={isCompared ? 'En el comparador (click para quitar)' : 'A?adir al comparador'}
               >
                 <GitCompare className="w-3 h-3" />
               </button>
             )}
+
             <span className="text-[11px] font-mono text-slate-500">
               {difficulty || 'Intermedio'}
             </span>
+
+            {onToggleFavorite && (
+              <button
+                onClick={(e) => { e.stopPropagation(); onToggleFavorite(project.projectId); }}
+                className={`p-1.5 rounded-lg border transition-colors ${
+                  isFavorite
+                    ? 'bg-amber-500/20 text-amber-400 border-amber-500/40'
+                    : 'bg-slate-800/60 text-slate-400 border-slate-700 hover:text-slate-200'
+                }`}
+                title={isFavorite ? 'Quitar de favoritos' : 'Guardar en favoritos'}
+              >
+                <Bookmark className={`h-3.5 w-3.5 ${isFavorite ? 'fill-amber-400' : ''}`} />
+              </button>
+            )}
           </div>
         </div>
 
         {/* Title */}
-        <h3 
-          onClick={() => onSelectProject(slug || project)}
-          className="text-base font-bold text-white group-hover:text-cyan-400 cursor-pointer transition-colors line-clamp-2 leading-snug"
-        >
+        <h3 className="text-base font-bold text-white group-hover:text-cyan-400 transition-colors line-clamp-2 leading-snug">
           {title}
         </h3>
 
@@ -216,7 +272,7 @@ export default function ProjectCard({
         <div className="flex items-center gap-1.5">
           {onOpenInLab && (
             <button
-              onClick={() => onOpenInLab(project)}
+              onClick={(e) => { e.stopPropagation(); onOpenInLab(project); }}
               className="p-1.5 rounded-lg bg-slate-900/90 border border-slate-800 hover:bg-cyan-950/50 hover:border-cyan-800 text-cyan-400 text-xs transition-all shadow-sm"
               title="Abrir en el Laboratorio Virtual"
             >
@@ -224,15 +280,12 @@ export default function ProjectCard({
             </button>
           )}
 
-          <button
-            onClick={() => onSelectProject(slug || project)}
-            className="px-3 py-1.5 rounded-lg bg-cyan-600/90 hover:bg-cyan-500 text-white text-[11px] font-semibold inline-flex items-center gap-1 transition-all"
-          >
-            <span>Ficha Técnica</span>
+          <span className="px-3 py-1.5 rounded-lg bg-cyan-600/90 group-hover:bg-cyan-500 text-white text-[11px] font-semibold inline-flex items-center gap-1 transition-all">
+            <span>Ficha T?cnica</span>
             <ArrowRight className="h-3 w-3" />
-          </button>
+          </span>
         </div>
       </div>
     </div>
   );
-}
+}\n

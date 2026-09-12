@@ -1,9 +1,9 @@
 """
-Multi-Signal Project Deduplication & Classification Engine (Prompt 02.3).
+Multi-Signal Project Deduplication & Classification Engine (Prompt 02 & Prompt 02.1).
 Strictly implements:
 1. FALSE NEGATIVE > FALSE MERGE invariant.
-2. Formal, unified definition of EXACT_DUPLICATE based solely on UNEQUIVOCAL IDENTITY EVIDENCE.
-3. Separation of IDENTITY EVIDENCE from SIMILARITY EVIDENCE (text similarity alone NEVER creates EXACT_DUPLICATE).
+2. Formal, unified definition of EXACT_DUPLICATE based solely on IDENTITY EVIDENCE.
+3. Separation of IDENTITY EVIDENCE from SIMILARITY EVIDENCE.
 4. Exhaustive pairwise evaluation across all 183 * 182 / 2 = 16,653 pairs.
 """
 
@@ -47,7 +47,6 @@ def evaluate_project_pair(
     """
     Perform rigorous multi-signal evaluation on a pair of projects.
     Separates IDENTITY EVIDENCE from SIMILARITY EVIDENCE.
-    Strictly forbids EXACT_DUPLICATE classification based solely on textual/BOM similarity.
     """
     signals: Dict[str, Any] = {}
     identity_evidence: List[str] = []
@@ -106,7 +105,7 @@ def evaluate_project_pair(
     # 4. Schematic Vector Match
     schem_a = p_a.schematicSvg
     schem_b = p_b.schematicSvg
-    schematic_match = bool(schem_a and schem_b and schem_a == schem_b)
+    schematic_match = (schem_a and schem_b and schem_a == schem_b)
     signals["schematic_match"] = 1.0 if schematic_match else 0.0
     if schematic_match:
         identity_evidence.append(f"Mismo esquemático vectorial SVG compartido: {schem_a}.")
@@ -137,18 +136,37 @@ def evaluate_project_pair(
     sim_score = round(min(1.0, max(0.0, sim_score)), 4)
     
     # STRICT CLASSIFICATION ENGINE (Enforces FALSE NEGATIVE > FALSE MERGE)
-    # Definition of EXACT_DUPLICATE: Requires unequivocal, hard IDENTITY EVIDENCE.
-    # Textual similarity (title + MCU + BOM overlap) can NEVER produce EXACT_DUPLICATE on its own.
+    # Definition of EXACT_DUPLICATE: Requires unambiguous IDENTITY EVIDENCE.
+    # Forensic Closure P02.3, Section 8: similarity of title, controller, BOM,
+    # sensors or architecture CANNOT by itself produce EXACT_DUPLICATE. Only
+    # concrete identity evidence (same source document, same schematic
+    # identity, same firmware identity, or an equivalent unambiguous
+    # technical artifact match) may certify identity.
     classification = DuplicateClassification.UNRELATED
+
+    # Criteria for EXACT_DUPLICATE (IDENTITY EVIDENCE ONLY):
+    # Condition 1: Same identical document bit-for-bit + same slot + exact title match.
+    # Condition 2: Exact title match + shared schematic SVG identity + same controller.
+    # Condition 3: Exact title match + shared firmware code identity + same controller.
     is_exact = False
-    
+
+    same_firmware = bool(
+        getattr(p_a, "firmwareCode", None)
+        and getattr(p_b, "firmwareCode", None)
+        and p_a.firmwareCode == p_b.firmwareCode
+    )
+    signals["same_firmware_identity"] = same_firmware
+
     if same_source_hash and same_slot and exact_title_match:
         is_exact = True
         identity_evidence.append("Certificación de identidad por coincidencia criptográfica de PDF y slot.")
     elif exact_title_match and schematic_match and signals.get("controller_match") == 1.0:
         is_exact = True
         identity_evidence.append("Certificación de identidad por coincidencia total de esquemático y arquitectura.")
-            
+    elif exact_title_match and same_firmware and signals.get("controller_match") == 1.0:
+        is_exact = True
+        identity_evidence.append("Certificación de identidad por firmware idéntico y mismo controlador.")
+
     if is_exact:
         classification = DuplicateClassification.EXACT_DUPLICATE
     elif conflict_evidence and (title_jaccard > 0.65 or same_source_hash or exact_title_match):
@@ -195,16 +213,17 @@ def evaluate_all_pairs_exhaustive(
     n = len(projects)
     total_pairs = n * (n - 1) // 2
     
-    candidates: List[DuplicateCandidate] = []
     stats: Dict[str, int] = {
         "total_pairs_evaluated": total_pairs,
-        "EXACT_DUPLICATE": 0,
-        "PROBABLE_DUPLICATE": 0,
-        "VARIANT": 0,
-        "RELATED": 0,
-        "NEEDS_REVIEW": 0,
-        "UNRELATED": 0,
+        DuplicateClassification.EXACT_DUPLICATE.value: 0,
+        DuplicateClassification.PROBABLE_DUPLICATE.value: 0,
+        DuplicateClassification.VARIANT.value: 0,
+        DuplicateClassification.RELATED.value: 0,
+        DuplicateClassification.NEEDS_REVIEW.value: 0,
+        DuplicateClassification.UNRELATED.value: 0,
     }
+    
+    non_unrelated_candidates: List[DuplicateCandidate] = []
     
     for i in range(n):
         for j in range(i + 1, n):
@@ -212,10 +231,20 @@ def evaluate_all_pairs_exhaustive(
             cls_name = cand.classification.value
             stats[cls_name] = stats.get(cls_name, 0) + 1
             
-            # Retain all pairs that have any relationship signal
             if cand.classification != DuplicateClassification.UNRELATED:
-                candidates.append(cand)
+                non_unrelated_candidates.append(cand)
                 
-    # Sort candidates deterministically by candidateId
-    candidates.sort(key=lambda c: c.candidateId)
-    return candidates, stats
+    # Sort non-unrelated by classification priority and score
+    priority_order = {
+        DuplicateClassification.EXACT_DUPLICATE: 0,
+        DuplicateClassification.NEEDS_REVIEW: 1,
+        DuplicateClassification.PROBABLE_DUPLICATE: 2,
+        DuplicateClassification.VARIANT: 3,
+        DuplicateClassification.RELATED: 4,
+        DuplicateClassification.UNRELATED: 5,
+    }
+    non_unrelated_candidates.sort(
+        key=lambda c: (priority_order.get(c.classification, 99), -c.similarityScore)
+    )
+    
+    return non_unrelated_candidates, stats

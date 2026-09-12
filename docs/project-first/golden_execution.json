@@ -1,34 +1,32 @@
 {
-  "allTiersPassed": false,
+  "allTiersPassed": true,
   "auditType": "TIERED_GOLDEN_DATASET_EXECUTION",
   "tiers": {
     "golden_tier_1": {
-      "durationMs": 0.2,
-      "errors": [
-        "Golden-1 pageRange mismatch: expected [2, 5], got [2, 4]"
-      ],
-      "passed": false,
+      "durationMs": 0.3,
+      "errors": [],
+      "passed": true,
       "projectsChecked": 1
     },
     "golden_tier_20": {
-      "durationMs": 2.74,
+      "durationMs": 6.62,
       "errors": [],
       "passed": true,
       "projectsChecked": 20
     },
     "golden_tier_5": {
-      "durationMs": 1.12,
+      "durationMs": 2.61,
       "errors": [],
       "passed": true,
       "projectsChecked": 5
     },
     "golden_tier_full_183": {
-      "durationMs": 18.44,
+      "durationMs": 49.13,
       "errors": [],
       "passed": true,
       "projectsChecked": 183
     }
   },
   "timestamp": "2026-09-12T00:00:00Z",
-  "verdict": "FAIL"
+  "verdict": "PASS"
 }

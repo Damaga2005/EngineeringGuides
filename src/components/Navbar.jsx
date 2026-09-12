@@ -183,7 +183,7 @@ export default function Navbar({
                 ? 'bg-amber-500/20 text-amber-300 border-amber-500/50 shadow-sm shadow-amber-500/20'
                 : 'bg-slate-800/80 text-slate-300 border-slate-700 hover:bg-slate-700 hover:text-white'
             }`}
-            title="Ver solo elementos marcados como favoritos"
+            title="Ver solo tus proyectos y guías marcados como favoritos"
           >
             <Bookmark className={`h-3.5 w-3.5 ${showOnlyFavorites ? 'fill-amber-400 text-amber-400' : ''}`} />
             {favoritesCount > 0 && (

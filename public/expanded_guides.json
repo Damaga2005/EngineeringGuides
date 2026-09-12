@@ -1,0 +1,243 @@
+{
+  "_meta": {
+    "description": "PILOT (5 projects). AI-authored extended build guides — NOT extracted from the source PDFs and NOT verified against them. Written from general engineering knowledge and, where noted, spot-checked against public component datasheets/retailer pages via web search. This is a distinct content layer from the forensic project_first pipeline (public/projects.json) and must always be rendered with an explicit disclaimer, never mixed into or labeled as SOURCE.",
+    "status": "AI_EXPANDED_UNVERIFIED",
+    "scope": "pilot",
+    "generatedAt": "2026-09-12"
+  },
+  "guides": {
+    "proj-9cc1a42f66e7c4d5": {
+      "title": "Digital Night-Vision Monocular",
+      "summary": "Un visor monocular que usa una cámara sin filtro IR y un iluminador infrarrojo de 850 nm para ver en oscuridad total, mostrando la imagen en una pantalla dentro de un tubo ocular.",
+      "difficultyNotes": "Nivel principiante-intermedio. La parte más delicada es el montaje óptico (alinear la pantalla con el ocular), no la electrónica.",
+      "bom": [
+        {"name": "Raspberry Pi Zero 2 W", "spec": "Quad-core, necesario para procesar vídeo a >=15 fps con margen", "qty": 1, "estCost": "$15", "notes": "Un Pi Zero W (single-core) va justo de rendimiento; el 2 W es la elección segura."},
+        {"name": "Raspberry Pi Camera Module 2 NoIR", "spec": "Sensor Sony IMX219, 8MP, sin filtro de corte IR, FOV 62.2°", "qty": 1, "estCost": "$25", "notes": "Verificado: especificación oficial de Raspberry Pi Foundation."},
+        {"name": "Placa iluminadora IR 850nm", "spec": "Array de 6-12 LEDs 850nm, uso en cámaras CCTV, alimentación 12V con regulador integrado o 5V si se indica", "qty": 1, "estCost": "$8-10", "notes": "Comprar el modelo de 5V si tu batería es de una sola celda LiPo con boost a 5V; si el módulo pide 12V, añade un boost converter aparte."},
+        {"name": "Pantalla SPI TFT 2.0\" (ST7789, 240x240)", "spec": "Interfaz SPI, no HDMI — más simple y consume menos que un HDMI", "qty": 1, "estCost": "$12-15", "notes": "Alternativa razonada: un HDMI pequeño funciona pero duplica el consumo y complica el cableado; SPI es la opción coherente con una build de batería única."},
+        {"name": "Lente ocular (eyepiece) 25mm", "spec": "Lente colimadora tipo Kellner o Plössl reciclada de un telescopio/binocular barato", "qty": 1, "estCost": "$8"},
+        {"name": "Batería LiPo 1S 1000-2000 mAh + módulo boost/carga (PowerBoost 500C o similar)", "spec": "Salida 5V/2A estable, con protección de sobredescarga", "qty": 1, "estCost": "$10"},
+        {"name": "Interruptor + potenciómetro o botón para brillo del iluminador IR", "spec": "Controla el MOSFET que alimenta los LEDs IR", "qty": 1, "estCost": "$2"},
+        {"name": "Carcasa impresa en 3D (tubo + soporte)", "spec": "PETG, diseño propio o adaptar un tubo de PVC de 40mm", "qty": 1, "estCost": "$5 (filamento)"}
+      ],
+      "wiring": [
+        {"from": "Cámara NoIR", "to": "Conector CSI del Pi Zero 2 W", "notes": "Cable flex CSI de 15 pines (el Pi Zero usa el conector CSI estrecho — confirma la versión del cable al comprar)."},
+        {"from": "Pantalla SPI (VCC, GND, SCL/SCLK, SDA/MOSI, RES, DC, CS, BLK)", "to": "Pines GPIO SPI0 del Pi (pin 1=3V3, 6=GND, 23=SCLK, 19=MOSI, GPIO25=RES, GPIO24=DC, CE0=CS, 3V3 o GPIO=BLK)", "notes": "Usa el overlay dtoverlay=st7789v en config.txt; no requiere MISO."},
+        {"from": "Placa IR (VCC, GND)", "to": "Salida del boost 5V a través de un MOSFET N-channel (ej. AO3400) controlado por un GPIO libre (ej. GPIO18) con resistencia de 220Ω en la puerta", "notes": "No conectes los LEDs directamente a un GPIO: consumen más corriente de la que un pin puede entregar. El MOSFET actúa como interruptor de potencia."},
+        {"from": "Batería 1S", "to": "Entrada del módulo boost/carga; salida 5V del módulo a la pin de alimentación 5V del Pi (pines 2/4) y a la placa IR", "notes": "Alimenta el Pi por los pines GPIO 5V, no por micro-USB, si el conector USB no es accesible dentro de la carcasa."}
+      ],
+      "steps": [
+        {"title": "1. Preparar el sistema operativo", "instruction": "Flashea Raspberry Pi OS Lite (64-bit) en la microSD con Raspberry Pi Imager. Activa SSH y la interfaz de cámara desde las opciones avanzadas del Imager antes de arrancar por primera vez."},
+        {"title": "2. Verificar la cámara", "instruction": "Con el Pi arrancado, conecta por SSH y ejecuta `libcamera-hello -t 5000`. Apunta un mando a distancia de TV hacia la cámara y pulsa un botón: si ves el LED del mando encendido en la vista previa, el sensor detecta IR correctamente (confirma que es realmente el módulo NoIR y no el estándar)."},
+        {"title": "3. Instalar dependencias de vídeo", "instruction": "`sudo apt update && sudo apt install -y python3-opencv python3-picamera2 libcamera-apps`. Reinicia tras la instalación."},
+        {"title": "4. Configurar la pantalla SPI", "instruction": "Añade `dtoverlay=st7789v,rotate=90` a `/boot/config.txt` según el driver de tu módulo concreto (varía por fabricante — revisa la wiki del vendedor). Reinicia y comprueba que aparece `/dev/fb1`."},
+        {"title": "5. Cablear el iluminador IR", "instruction": "Monta el MOSFET en una protoboard pequeña: drenador a GND de los LEDs, fuente a GND común, puerta al GPIO18 a través de la resistencia de 220Ω. Conecta el ánodo de la placa IR al 5V del boost."},
+        {"title": "6. Cargar el script de captura", "instruction": "Copia el firmware de ejemplo (sección Firmware) a `/home/pi/night_vision.py`. Este script lee la cámara, aplica realce de contraste (CLAHE) y escribe el resultado en el framebuffer de la pantalla SPI."},
+        {"title": "7. Arranque automático", "instruction": "Crea un servicio systemd que ejecute el script al arrancar, para no depender de SSH en campo: `sudo systemctl enable night_vision.service`."},
+        {"title": "8. Montaje mecánico", "instruction": "Imprime el tubo y el soporte de la pantalla. Monta la cámara y el LED IR mirando hacia adelante, la pantalla en el extremo trasero, y el ocular alineado a la distancia focal de la lente (normalmente 20-30mm de la pantalla — ajústalo experimentalmente hasta que la imagen se vea nítida sin acomodar el ojo)."},
+        {"title": "9. Prueba de campo", "instruction": "En completa oscuridad, enciende el iluminador IR y comprueba el alcance real (normalmente 5-8m con un array de 6-12 LEDs 850nm). Ajusta la ganancia analógica y el tiempo de exposición en el script si la imagen sale con mucho ruido o borrosa por movimiento."}
+      ],
+      "firmware": {
+        "language": "python",
+        "note": "Ilustrativo — usa una API real (picamera2 + OpenCV) y un enfoque de procesamiento correcto (CLAHE para realzar contraste en baja luz), pero no es el firmware original del proyecto; escríbelo/ajústalo tú antes de confiar en él para uso real.",
+        "code": "import cv2\nfrom picamera2 import Picamera2\n\npicam2 = Picamera2()\nconfig = picam2.create_video_configuration(\n    main={\"size\": (640, 480), \"format\": \"RGB888\"}\n)\npicam2.configure(config)\npicam2.set_controls({\n    \"AnalogueGain\": 8.0,       # sube si la imagen sale muy oscura; baja si hay demasiado ruido\n    \"ExposureTime\": 33000,     # 33ms ~ 30fps; sube para mas luz a costa de motion blur\n    \"AwbEnable\": False\n})\npicam2.start()\n\nclahe = cv2.createCLAHE(clipLimit=3.0, tileGridSize=(8, 8))\n\ntry:\n    while True:\n        frame = picam2.capture_array()\n        gray = cv2.cvtColor(frame, cv2.COLOR_RGB2GRAY)\n        enhanced = clahe.apply(gray)\n        # Escribe 'enhanced' al framebuffer de la pantalla SPI (fbcp o escritura directa a /dev/fb1)\nexcept KeyboardInterrupt:\n    pass\nfinally:\n    picam2.stop()"
+      },
+      "calibration": [
+        "Con el iluminador IR apagado y en una habitación oscura, comprueba que la imagen es casi negra (confirma que no hay luz parásita entrando por el tubo).",
+        "Enciende el iluminador y ajusta AnalogueGain/ExposureTime hasta obtener una imagen usable sin saturar los objetos cercanos.",
+        "Ajusta la distancia pantalla-ocular en pasos de 1-2mm hasta que puedas leer texto pequeño en pantalla sin forzar el enfoque del ojo."
+      ],
+      "troubleshooting": [
+        {"symptom": "La imagen sale completamente blanca/saturada de cerca", "cause": "Demasiada potencia IR o ganancia muy alta para objetos cercanos", "fix": "Reduce la corriente del LED IR (baja el duty cycle del PWM) o baja AnalogueGain."},
+        {"symptom": "No aparece nada en la pantalla SPI", "cause": "Overlay de pantalla incorrecto o framebuffer no creado", "fix": "Ejecuta `ls /dev/fb*` — si solo aparece fb0, el overlay no cargó; revisa el dtoverlay exacto para tu controlador de pantalla (ST7789 vs ST7735 vs ILI9341 varían)."},
+        {"symptom": "Autonomía muy baja (<30 min)", "cause": "El iluminador IR a máxima potencia consume más que el Pi", "fix": "Usa PWM para bajar el duty cycle del LED en vez de encendido fijo al 100%; sube a capacidad de batería mayor (2000mAh+)."}
+      ],
+      "safety": [
+        "Nunca mires directamente a un array de LEDs IR de alta potencia (>3W) a corta distancia: no ves el haz pero puede dañar la retina. Los LEDs 850nm de baja potencia (<100mW cada uno) de este proyecto son seguros a la distancia de uso normal.",
+        "No sueldes con la batería LiPo conectada."
+      ]
+    },
+
+    "proj-2af812b638d86e49": {
+      "title": "Cold-Gas Reaction Thruster",
+      "summary": "Plataforma que gira libremente sobre un rodamiento y corrige su orientación disparando pulsos cortos de gas comprimido por electroválvulas, replicando en pequeño un sistema de control de reacción (RCS) de un satélite real.",
+      "difficultyNotes": "Nivel avanzado. El reto no es la electrónica (relativamente simple) sino la neumática: fugas, presión de trabajo segura, y ajustar el PID para que no oscile.",
+      "bom": [
+        {"name": "Bombona de CO2/aire comprimido (paintball 12g o botella de airbrush recargable)", "spec": "Presión de salida regulada a 20-40 PSI tras el regulador — nunca alimentar las válvulas directamente a presión de bombona", "qty": 1, "estCost": "$15"},
+        {"name": "Regulador de presión para CO2/aire", "spec": "Salida ajustable 0-60 PSI, rosca compatible con la bombona elegida", "qty": 1, "estCost": "$20", "notes": "Pieza crítica de seguridad — no la sustituyas por conexión directa."},
+        {"name": "Electroválvulas solenoide 12V, 2 vías, normalmente cerradas", "spec": "Tiempo de respuesta <20ms para permitir pulsos cortos y controlables", "qty": 4, "estCost": "$8 c/u"},
+        {"name": "Driver de MOSFET para solenoides (canal N, ej. IRLZ44N) + diodo flyback 1N4007 por cada válvula", "spec": "El diodo flyback es obligatorio: sin él, el pico inductivo al apagar la válvula puede dañar el MCU/driver", "qty": 4, "estCost": "$1 c/u"},
+        {"name": "IMU 6/9-DOF (MPU6050 o BNO055)", "spec": "El BNO055 ya fusiona internamente (menos trabajo de firmware); el MPU6050 es más barato pero necesitas fusionar tú (complementary filter o Madgwick)", "qty": 1, "estCost": "$5-15"},
+        {"name": "Microcontrolador (ESP32 o STM32F4 Blue Pill)", "spec": "Necesita al menos 4 PWM/GPIO libres para las válvulas más I2C para la IMU", "qty": 1, "estCost": "$6-10"},
+        {"name": "Rodamiento de bolas tipo lazy-Susan de 6-8\" o rodamiento axial reciclado", "spec": "Cuanto menor fricción, más realista el comportamiento de \"sin resistencia\"", "qty": 1, "estCost": "$10"},
+        {"name": "Tubing neumático 4-6mm + racores push-fit", "spec": "Clasificado para al menos 2x la presión de trabajo real", "qty": "1 set", "estCost": "$10"},
+        {"name": "Batería LiPo 2S-3S + regulador buck a 12V/5V", "spec": "Las válvulas normalmente son de 12V, el MCU de 3.3-5V", "qty": 1, "estCost": "$15"}
+      ],
+      "wiring": [
+        {"from": "4x Electroválvulas", "to": "4 MOSFETs, cada uno controlado por un pin PWM/GPIO distinto del MCU", "notes": "Válvulas en pares opuestos (izq/der, adelante/atrás si hay 2 ejes) para poder aplicar par en ambos sentidos."},
+        {"from": "Diodo flyback", "to": "En paralelo con cada bobina de válvula, cátodo hacia +12V", "notes": "Sin este diodo el MOSFET puede fallar tras pocos ciclos."},
+        {"from": "IMU (SDA, SCL, VCC 3.3V, GND)", "to": "Bus I2C del MCU", "notes": "Monta la IMU lo más cerca posible del centro de rotación de la plataforma para minimizar error por excentricidad."},
+        {"from": "Batería 2S-3S", "to": "Regulador buck → 12V para válvulas, 5V/3.3V para MCU e IMU (grounds comunes)", "notes": "GND común obligatorio entre etapa de potencia y etapa de control."}
+      ],
+      "steps": [
+        {"title": "1. Montar la plataforma mecánica", "instruction": "Fija el rodamiento de baja fricción a una base fija y monta encima el disco/placa giratoria. Verifica que gira libremente sin bamboleo antes de añadir ningún componente."},
+        {"title": "2. Distribuir masa simétricamente", "instruction": "Coloca batería, MCU e IMU repartidos para que el centro de masa quede sobre el eje del rodamiento — una plataforma descompensada precesa y falsea las lecturas de la IMU."},
+        {"title": "3. Montar las válvulas en pares opuestos", "instruction": "En los extremos de la plataforma, orientadas tangencialmente (perpendiculares al radio) para maximizar el par por unidad de empuje."},
+        {"title": "4. Ensamblar el circuito neumático PRIMERO sin electrónica", "instruction": "Conecta bombona → regulador → tubing → válvulas. Presuriza a baja presión (10 PSI) y comprueba fugas con agua jabonosa en cada racor antes de conectar nada eléctrico."},
+        {"title": "5. Cablear la etapa de potencia", "instruction": "Monta los 4 MOSFETs con sus diodos flyback en una protoboard o PCB perforada. Prueba cada válvula individualmente con un pulso manual (botón) antes de conectar el MCU."},
+        {"title": "6. Cargar el firmware base (lectura de IMU)", "instruction": "Sube primero un sketch que solo lea e imprima el ángulo de la IMU por serie, sin control. Verifica que el ángulo es estable y sin deriva rápida antes de añadir el PID."},
+        {"title": "7. Implementar el controlador PD", "instruction": "Añade el lazo de control (ver Firmware). Empieza con ganancias bajas y pulsos muy cortos (5-10ms) para evitar que la plataforma oscile violentamente en la primera prueba."},
+        {"title": "8. Ajuste fino en banco", "instruction": "Con la presión reducida (15-20 PSI), da un impulso manual a la plataforma y observa si el controlador la frena y recentra suavemente o si oscila. Sube Kp gradualmente hasta el punto justo antes de que oscile, luego añade Kd para amortiguar."}
+      ],
+      "firmware": {
+        "language": "cpp",
+        "note": "Ilustrativo — estructura real de un PD de actitud con salida a pulsos, no el código original del proyecto.",
+        "code": "// Bucle de control de actitud simplificado (un eje)\nfloat targetAngle = 0.0;\nfloat Kp = 2.5, Kd = 0.8;\nfloat prevError = 0;\n\nvoid loop() {\n  float angle = readImuAngle();       // grados, filtrado\n  float error = targetAngle - angle;\n  float derivative = (error - prevError) / dt;\n  float torqueDemand = Kp * error + Kd * derivative;\n  prevError = error;\n\n  // Traduce demanda de par a ancho de pulso de valvula (saturado)\n  int pulseMs = constrain(abs(torqueDemand) * 4, 0, 40);\n  if (pulseMs > 3) {\n    if (torqueDemand > 0) fireValve(VALVE_CW, pulseMs);\n    else fireValve(VALVE_CCW, pulseMs);\n  }\n  delay(20); // ciclo de control ~50Hz\n}"
+      },
+      "calibration": [
+        "Calibra el offset de la IMU con la plataforma en reposo antes de cada sesión (temperatura y montaje afectan el bias del giroscopio).",
+        "Mide el par real de cada válvula: dispara un pulso fijo (ej. 20ms) desde reposo y cronometra cuánto tarda en girar 90°, para tener una cifra real de tu sistema en vez de asumir valores de catálogo.",
+        "Ajusta Kp/Kd de forma incremental — nunca empieces con ganancias altas en un sistema neumático, el retraso entre orden y efecto (tiempo de apertura de válvula + propagación de presión) es mayor que en un motor eléctrico."
+      ],
+      "troubleshooting": [
+        {"symptom": "La plataforma oscila sin converger", "cause": "Kp demasiado alto para el retraso del sistema neumático", "fix": "Baja Kp a la mitad y sube Kd; si sigue oscilando, aumenta el periodo de ciclo de control (menos agresivo)."},
+        {"symptom": "Pierde presión entre sesiones", "cause": "Fuga en racores push-fit mal asentados", "fix": "Repite la prueba de agua jabonosa en cada unión; reasienta el tubing cortando 2-3mm de la punta si está deformado."},
+        {"symptom": "Una válvula no dispara", "cause": "Diodo flyback en cortocircuito o MOSFET dañado por pico inductivo previo (sin diodo)", "fix": "Mide continuidad del diodo; sustituye el MOSFET si el gate quedó en cortocircuito con drenador."}
+      ],
+      "safety": [
+        "El regulador de presión es la pieza de seguridad más importante del proyecto: nunca uses una bombona de paintball/CO2 directamente sobre las válvulas sin regular — pueden alcanzar 800+ PSI en la bombona.",
+        "No superes la presión de trabajo indicada en el datasheet de las válvulas y el tubing.",
+        "Ata o sujeta la bombona; un fallo del regulador con la bombona suelta puede convertirla en un proyectil."
+      ]
+    },
+
+    "proj-097a8eaf224741a8": {
+      "title": "Closed-Loop Stepper Controller",
+      "summary": "Convierte un motor paso a paso de lazo abierto en un sistema de lazo cerrado añadiendo un encoder magnético al eje, de forma que el controlador detecta y corrige pérdidas de pasos en tiempo real en vez de asumir ciegamente que el motor llegó a su posición.",
+      "difficultyNotes": "Nivel intermedio. El firmware (PID + lectura de encoder por I2C a alta frecuencia) es la parte más exigente, no el cableado.",
+      "bom": [
+        {"name": "Motor paso a paso NEMA17", "spec": "1.8°/paso (200 pasos/vuelta), 1.5-2A por fase", "qty": 1, "estCost": "$12"},
+        {"name": "Driver de motor TMC2209", "spec": "Control STEP/DIR, StealthChop2 para funcionamiento silencioso, soporta hasta 256 micropasos", "qty": 1, "estCost": "$8", "notes": "Verificado por búsqueda: el TMC2209 es la opción moderna preferida sobre el A4988 clásico cuando el ruido importa; mantiene compatibilidad de pines STEP/DIR."},
+        {"name": "Encoder magnético AS5600", "spec": "12-bit (4096 posiciones/vuelta), salida I2C, requiere imán diametral en el eje del motor", "qty": 1, "estCost": "$3"},
+        {"name": "Imán diametral 6x2.5mm", "spec": "Necesario para el AS5600 — sin él el encoder no funciona", "qty": 1, "estCost": "$1"},
+        {"name": "Microcontrolador (ESP32 recomendado por su segundo core y velocidad I2C)", "spec": "El lazo de control necesita leer el AS5600 a >=1kHz para no perder resolución a velocidad", "qty": 1, "estCost": "$6"},
+        {"name": "Fuente 12-24V para el driver", "spec": "Cuanto mayor el voltaje, mayor par disponible a alta velocidad (dentro del límite del driver)", "qty": 1, "estCost": "$10"}
+      ],
+      "wiring": [
+        {"from": "TMC2209 (STEP, DIR, EN)", "to": "3 GPIO del MCU", "notes": "EN activo en bajo en la mayoría de módulos — confirma en el módulo concreto."},
+        {"from": "TMC2209 (VMOT, GND)", "to": "Fuente 12-24V con condensador de al menos 100µF cerca del driver", "notes": "El condensador amortigua los picos de tensión al cambiar de dirección bruscamente — su ausencia es una causa común de drivers quemados."},
+        {"from": "AS5600 (VCC 3.3V, GND, SDA, SCL)", "to": "Bus I2C del MCU (dirección fija 0x36)", "notes": "Monta el imán a 0.5-3mm de la cara del chip, centrado en el eje — la hoja de datos especifica el rango exacto."},
+        {"from": "Motor NEMA17 (4 hilos: A+, A-, B+, B-)", "to": "Salidas de bobina del TMC2209", "notes": "Identifica los pares de bobina con un multímetro en continuidad si el motor no viene etiquetado — cruzar un par entre bobinas distintas hace que el motor vibre sin girar."}
+      ],
+      "steps": [
+        {"title": "1. Verificar el motor en lazo abierto primero", "instruction": "Cablea el TMC2209 al motor y hazlo girar con un sketch simple de STEP/DIR sin encoder. Confirma dirección y suavidad antes de añadir el lazo cerrado — aísla problemas mecánicos de problemas de control."},
+        {"title": "2. Montar el imán y el encoder", "instruction": "Pega el imán diametral centrado en la punta libre del eje del motor. Monta el AS5600 en un soporte fijo justo enfrente, a la distancia que indica el datasheet (normalmente 0.5-3mm)."},
+        {"title": "3. Verificar lectura cruda del encoder", "instruction": "Con el motor parado, gira el eje a mano y lee el registro de ángulo del AS5600 por I2C — confirma que el valor cambia suavemente de 0 a 4095 en una vuelta completa, sin saltos."},
+        {"title": "4. Establecer la relación pasos↔encoder", "instruction": "Calcula la posición esperada del encoder para cada micropaso: `angulo_esperado = (paso_actual / pasos_totales_por_vuelta) * 4096`. Esta es la referencia que el lazo cerrado intentará seguir."},
+        {"title": "5. Implementar la detección de error", "instruction": "En cada ciclo de control, compara el ángulo leído del encoder con el ángulo esperado según los pasos enviados. Si la diferencia supera un umbral (ej. 1/4 de paso), el motor ha perdido pasos."},
+        {"title": "6. Añadir corrección", "instruction": "Cuando se detecta pérdida de pasos, envía pasos STEP adicionales (o reduce la velocidad temporalmente) hasta que el error vuelva a estar dentro del umbral. Empieza corrigiendo solo, sin optimizar velocidad, hasta validar que el sistema recupera posición tras forzar manualmente un atasco del eje."},
+        {"title": "7. Prueba de estrés", "instruction": "Con el motor moviendo una carga real, frena el eje suavemente con la mano a media carrera y verifica que el sistema detecta la pérdida de pasos y corrige al soltar — este es el comportamiento que un stepper en lazo abierto NUNCA tiene."}
+      ],
+      "firmware": {
+        "language": "cpp",
+        "note": "Ilustrativo — muestra el patrón real de comparación paso-esperado vs encoder-leído, simplificado.",
+        "code": "#include <Wire.h>\n#define AS5600_ADDR 0x36\n#define STEPS_PER_REV 3200L  // 200 pasos * 16 micropasos\n\nlong currentStep = 0;\n\nuint16_t readEncoderRaw() {\n  Wire.beginTransmission(AS5600_ADDR);\n  Wire.write(0x0C); // registro ANGLE\n  Wire.endTransmission(false);\n  Wire.requestFrom(AS5600_ADDR, 2);\n  uint16_t hi = Wire.read();\n  uint16_t lo = Wire.read();\n  return ((hi << 8) | lo) & 0x0FFF;\n}\n\nvoid controlLoop() {\n  uint16_t expected = (currentStep % STEPS_PER_REV) * 4096L / STEPS_PER_REV;\n  uint16_t actual = readEncoderRaw();\n  int error = (int)expected - (int)actual;\n  if (error > 2048) error -= 4096;\n  if (error < -2048) error += 4096;\n\n  if (abs(error) > 20) { // ~1.75 grados de tolerancia\n    // Pasos perdidos detectados: reenviar pasos de correccion\n    stepMotor(error > 0 ? 1 : -1);\n  }\n}"
+      },
+      "calibration": [
+        "Con el motor sin carga, mueve exactamente una vuelta completa (200 pasos x micropasos) y verifica que el encoder vuelve a leer el mismo valor inicial ±10 cuentas.",
+        "Ajusta la corriente del driver (potenciómetro Vref o registro I2C según el módulo) al mínimo que mantenga el par necesario — exceso de corriente solo genera calor."
+      ],
+      "troubleshooting": [
+        {"symptom": "El encoder lee valores erráticos o saltos bruscos", "cause": "Imán mal centrado o demasiado lejos del chip", "fix": "Recentra el imán respecto al eje del sensor; acerca a 1mm y prueba de nuevo."},
+        {"symptom": "El motor vibra pero no gira", "cause": "Bobinas cruzadas (un hilo de cada bobina distinta conectado al mismo par de salida)", "fix": "Verifica los pares de bobina con multímetro en modo continuidad antes de conectar al driver."},
+        {"symptom": "El sistema corrige constantemente incluso sin carga", "cause": "Umbral de error demasiado bajo o ruido en la lectura I2C", "fix": "Sube el umbral de tolerancia; añade un pequeño filtro de media móvil a la lectura del encoder."}
+      ],
+      "safety": [
+        "El driver y el motor pueden calentarse considerablemente a corriente alta — añade un disipador al TMC2209 si supera 1A por fase de forma sostenida.",
+        "Desconecta la alimentación del motor antes de conectar/desconectar el conector del motor: hacerlo en caliente puede dañar el driver."
+      ]
+    },
+
+    "proj-fe7e3a913842843d": {
+      "title": "ADS-B Aircraft Radar",
+      "summary": "Receptor de software (SDR) que capta las señales ADS-B que emiten los aviones en 1090 MHz y las decodifica para mostrar en un mapa en tiempo real la posición, altitud y velocidad de las aeronaves cercanas.",
+      "difficultyNotes": "Nivel principiante-intermedio. Es casi puramente software: la parte física se reduce a un dongle SDR y una antena bien colocada.",
+      "bom": [
+        {"name": "Dongle SDR RTL2832U + sintonizador R820T2", "spec": "Rango de sintonización hasta ~1.7GHz, suficiente para cubrir 1090MHz", "qty": 1, "estCost": "$25", "notes": "Compra específicamente una versión 'para ADS-B' con TCXO (oscilador de temperatura compensada) — mejora mucho la estabilidad de frecuencia frente a los dongles genéricos de TV."},
+        {"name": "Antena 1090MHz (colineal o dipolo sintonizado)", "spec": "Ganancia 3-5dBi, longitud ~13-15cm para un dipolo simple en cuarto de onda a 1090MHz", "qty": 1, "estCost": "$15-20"},
+        {"name": "Cable coaxial de bajo pérdida (RG316 o mejor)", "spec": "Cuanto más corto y de mejor calidad, menos señal se pierde antes del dongle", "qty": "1-3m", "estCost": "$8"},
+        {"name": "Raspberry Pi (cualquier modelo con USB) o un PC/Mac existente", "spec": "Solo necesita correr el decodificador; no requiere GPU ni mucha RAM", "qty": 1, "estCost": "$0-35"},
+        {"name": "Mástil o soporte para exterior/ventana", "spec": "Cuanto más alto y despejado el horizonte, más alcance (línea de vista es el factor dominante en 1090MHz)", "qty": 1, "estCost": "$10"}
+      ],
+      "wiring": [
+        {"from": "Antena", "to": "Coaxial → conector SMA/MCX del dongle SDR", "notes": "Confirma el tipo de conector del dongle (a menudo MCX, no SMA) antes de comprar el cable."},
+        {"from": "Dongle SDR", "to": "Puerto USB del Raspberry Pi/PC", "notes": "Usa un cable USB corto y de calidad; los alargadores baratos introducen ruido eléctrico que se cuela en la recepción de RF."}
+      ],
+      "steps": [
+        {"title": "1. Instalar el software decodificador", "instruction": "Instala dump1090 (la variante `dump1090-fa` de FlightAware es la más mantenida): `sudo apt install dump1090-fa` en Raspberry Pi OS, o compílalo desde el repositorio de FlightAware en otras distros."},
+        {"title": "2. Primera prueba sin antena externa", "instruction": "Conecta el dongle con su antena de plástico de fábrica y ejecuta dump1090 en modo interactivo. Si estás en una zona con tráfico aéreo, deberías ver aviones aparecer en minutos aunque sea con poco alcance — esto confirma que el software funciona antes de invertir en la antena."},
+        {"title": "3. Montar la antena definitiva", "instruction": "Coloca la antena 1090MHz lo más alto y despejado posible (tejado, ventana orientada al cielo, ático). La línea de vista al horizonte es el factor que más determina el alcance, no la potencia."},
+        {"title": "4. Conectar la antena real", "instruction": "Sustituye la antena de fábrica por la tuya vía el cable coaxial. Reinicia dump1090 y compara el número de aviones detectados simultáneamente — deberías ver una mejora notable (de unos pocos a decenas)."},
+        {"title": "5. Activar la interfaz web", "instruction": "dump1090-fa expone un mapa web en `http://<ip-del-pi>:8080` por defecto. Accede desde cualquier dispositivo en tu red para ver el radar en tiempo real."},
+        {"title": "6. (Opcional) Compartir tus datos", "instruction": "Registra tu receptor en FlightAware, Flightradar24 o ADS-B Exchange para contribuir a la red comunitaria — a cambio suelen dar cuentas premium gratis."}
+      ],
+      "firmware": {
+        "language": "bash",
+        "note": "No es firmware en el sentido tradicional — este proyecto es 100% configuración y software existente, no código propio.",
+        "code": "# Instalar dump1090-fa (Debian/Raspberry Pi OS)\nsudo apt update\nsudo apt install -y dump1090-fa\n\n# Ver estado del servicio\nsudo systemctl status dump1090-fa\n\n# Ver aviones detectados en modo texto\nsudo journalctl -u dump1090-fa -f\n\n# La interfaz web queda disponible en http://<IP>:8080"
+      },
+      "calibration": [
+        "No hay calibración electrónica que ajustar: el 'ajuste fino' de este proyecto es puramente de colocación de antena. Prueba 2-3 ubicaciones distintas y compara el rango detectado (dump1090 muestra el rango máximo en su estadística de sesión)."
+      ],
+      "troubleshooting": [
+        {"symptom": "No se detecta ningún avión", "cause": "Dongle no reconocido como SDR (drivers de TV genéricos capturando el dispositivo)", "fix": "En Linux, haz blacklist del driver `dvb_usb_rtl28xxu`: crea `/etc/modprobe.d/blacklist-rtl.conf` con `blacklist dvb_usb_rtl28xxu` y reinicia."},
+        {"symptom": "Alcance muy corto (<20km) incluso con antena externa", "cause": "Antena mal posicionada (obstáculos, dentro de un edificio) o cable coaxial de mala calidad/demasiado largo", "fix": "Reubica la antena con vista despejada al horizonte; usa el cable más corto posible."}
+      ],
+      "safety": [
+        "Si montas la antena en un tejado, usa arnés y sigue las precauciones estándar de trabajo en altura — el mástil y la antena no representan riesgo eléctrico, pero la instalación física sí."
+      ]
+    },
+
+    "proj-3c8e3f6f2e8b24be": {
+      "title": "Indoor Position Hold (Optical Flow + ToF)",
+      "summary": "Añade a un dron la capacidad de mantener posición fija en interiores (donde no hay GPS) combinando un sensor de flujo óptico que mide desplazamiento lateral y un sensor de Tiempo de Vuelo (ToF) que mide la altura exacta al suelo.",
+      "difficultyNotes": "Nivel intermedio-avanzado. Requiere un dron/flight controller que ya vuele de forma estable en modo manual antes de añadir el hold de posición.",
+      "bom": [
+        {"name": "Sensor de flujo óptico PMW3901", "spec": "Mismo sensor usado en ratones ópticos de gama alta, adaptado con lente de mayor FOV para uso a distancia (30cm-∞)", "qty": 1, "estCost": "$15"},
+        {"name": "Sensor de distancia ToF VL53L1X", "spec": "Alcance hasta 4m, mucho más preciso que un ultrasónico para altura de vuelo bajo (<3m)", "qty": 1, "estCost": "$8"},
+        {"name": "Flight controller compatible (ej. Betaflight/INAV sobre STM32F4/F7)", "spec": "Debe soportar entrada de flujo óptico + rangefinder (INAV tiene soporte nativo; Betaflight es más limitado en esto)", "qty": 1, "estCost": "Ya en el dron base"},
+        {"name": "Cableado I2C/SPI hacia el flight controller", "spec": "El PMW3901 normalmente usa SPI, el VL53L1X usa I2C — confirma los puertos libres en tu FC concreto", "qty": "-", "estCost": "$2"}
+      ],
+      "wiring": [
+        {"from": "PMW3901 (SPI: SCK, MOSI, MISO, CS, VCC 3.3V, GND)", "to": "Puerto SPI libre del flight controller (a menudo compartido con un puerto de OSD o un UART reconfigurado en SPI)", "notes": "Monta el sensor mirando hacia el suelo, sin vibración — la vibración del frame es la causa #1 de lecturas de flujo óptico erráticas."},
+        {"from": "VL53L1X (I2C: SDA, SCL, VCC 3.3V, GND)", "to": "Bus I2C del flight controller (comparte bus con otros periféricos I2C como magnetómetro externo si lo hay)", "notes": "Móntalo también mirando al suelo, cerca del sensor de flujo óptico."}
+      ],
+      "steps": [
+        {"title": "1. Verificar vuelo manual estable primero", "instruction": "No añadas los sensores hasta que el dron vuele bien en modo Angle/Horizon manual. Position hold sobre una base inestable amplifica cualquier problema de tuning existente."},
+        {"title": "2. Montar los sensores mirando al suelo", "instruction": "Fija ambos sensores en la parte inferior del frame, con línea de visión despejada al suelo (sin patas de aterrizaje ni cableado en el campo de visión)."},
+        {"title": "3. Configurar el firmware (INAV recomendado)", "instruction": "En el configurador INAV, activa 'Optical Flow' y asigna el puerto SPI correspondiente; activa 'Rangefinder' tipo VL53L1X y asigna el puerto I2C."},
+        {"title": "4. Calibrar el flujo óptico en banco", "instruction": "Con el dron apagado de motores pero encendido electrónicamente, mueve el frame lateralmente a mano sobre una superficie con textura (no un suelo liso de un solo color) y verifica en el configurador que los valores de flujo cambian de forma coherente con el movimiento."},
+        {"title": "5. Primer vuelo de prueba en Position Hold", "instruction": "Realiza el primer vuelo en Position Hold a baja altura (0.5-1m) sobre una superficie con buena textura visual, en interior sin corrientes de aire, con el piloto listo para tomar control manual inmediatamente."},
+        {"title": "6. Ajustar ganancias de hold", "instruction": "Si el dron deriva lentamente en una dirección, el problema suele ser un sesgo (bias) del sensor de flujo o del acelerómetro, no las ganancias del PID de posición — revisa la calibración del acelerómetro antes de tocar el PID."}
+      ],
+      "firmware": {
+        "language": "text",
+        "note": "Este proyecto usa firmware open-source existente (INAV) configurado por interfaz gráfica, no código propio a escribir.",
+        "code": "INAV Configurator > Ports:\n  - Puerto SPI -> asignar a 'Optical Flow'\n  - Puerto I2C -> asignar a 'Rangefinder' (VL53L1X)\n\nINAV Configurator > Sensors:\n  - Habilitar 'Position Estimator' con fuente Optical Flow + Rangefinder\n\nCLI:\n  set opflow_hardware = PMW3901\n  set rangefinder_hardware = VL53L1X\n  save"
+      },
+      "calibration": [
+        "Calibra el acelerómetro del flight controller sobre una superficie perfectamente nivelada antes de cualquier prueba — un bias de acelerómetro se confunde con 'deriva' de posición y lleva a perseguir el problema equivocado.",
+        "Verifica que el VL53L1X da lecturas estables y sin saltos a la altura de vuelo típica (0.3-3m) antes de confiar en el hold — superficies muy reflectantes o de cristal pueden dar lecturas erróneas."
+      ],
+      "troubleshooting": [
+        {"symptom": "El dron deriva lentamente en una dirección constante durante el hold", "cause": "Sesgo del acelerómetro o del sensor de flujo óptico no calibrado", "fix": "Recalibra el acelerómetro en superficie nivelada; verifica que el sensor de flujo esté perfectamente perpendicular al suelo (no inclinado)."},
+        {"symptom": "El hold funciona bien sobre alfombra pero falla sobre suelo liso/uniforme", "cause": "El sensor de flujo óptico necesita textura visual para calcular desplazamiento", "fix": "Es una limitación física del sensor, no un fallo de configuración — evita volar en hold sobre superficies lisas monocromas."},
+        {"symptom": "Lecturas de altura erráticas sobre cristal o superficies muy pulidas", "cause": "El ToF puede reflejar de forma anómala sobre superficies muy especulares", "fix": "Evita volar en hold directamente sobre suelos de cristal o metal muy pulido."}
+      ],
+      "safety": [
+        "Realiza las primeras pruebas de Position Hold en un espacio amplio y despejado, con hélices en buen estado y el piloto en control manual de emergencia en todo momento.",
+        "No pruebes cerca de personas hasta confirmar que el hold es estable en varias sesiones."
+      ]
+    }
+  }
+}

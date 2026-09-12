@@ -34,6 +34,7 @@ import {
 export default function App() {
   const [guides, setGuides] = useState([]);
   const [projects, setProjects] = useState([]);
+  const [expandedGuides, setExpandedGuides] = useState({});
   const [catalogMetadata, setCatalogMetadata] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -126,6 +127,17 @@ export default function App() {
           }
         } catch (projErr) {
           console.warn('Could not load projects.json:', projErr);
+        }
+
+        // Fetch expanded_guides.json (optional, pilot-only AI-authored extended guides)
+        try {
+          const expandedRes = await fetch(`${baseUrl}expanded_guides.json?t=${Date.now()}`);
+          if (expandedRes.ok) {
+            const expandedData = await expandedRes.json();
+            setExpandedGuides(expandedData.guides || {});
+          }
+        } catch (expErr) {
+          console.warn('Could not load expanded_guides.json:', expErr);
         }
 
       } catch (err) {
@@ -436,6 +448,10 @@ export default function App() {
   const filteredProjects = useMemo(() => {
     let result = [...projects];
 
+    if (showOnlyFavorites) {
+      result = result.filter(p => favorites.includes(p.projectId));
+    }
+
     if (selectedController !== 'all') {
       result = result.filter(p => {
         const c = p.technicalIdentity?.controller || p.technicalIdentity?.controllerFamily;
@@ -458,7 +474,7 @@ export default function App() {
     }
 
     return result;
-  }, [projects, selectedController, projectSearchQuery]);
+  }, [projects, selectedController, projectSearchQuery, showOnlyFavorites, favorites]);
 
   // If on a Project Detail route (#/project/:slug)
   if (isProjectRoute) {
@@ -508,6 +524,7 @@ export default function App() {
           project={activeLandingProject}
           allProjects={projects}
           guides={guides}
+          expandedGuide={expandedGuides[activeLandingProject.projectId]}
           onBack={navigateToCatalog}
           onSelectProject={navigateToProject}
           onSelectGuide={navigateToLanding}
@@ -749,11 +766,12 @@ export default function App() {
             {/* Results count */}
             <div className="flex items-center justify-between text-xs text-slate-400 font-mono px-1">
               <span>Mostrando {filteredProjects.length} de {projects.length} proyectos técnicos</span>
-              {(projectSearchQuery || selectedController !== 'all') && (
+              {(projectSearchQuery || selectedController !== 'all' || showOnlyFavorites) && (
                 <button
                   onClick={() => {
                     setProjectSearchQuery('');
                     setSelectedController('all');
+                    setShowOnlyFavorites(false);
                   }}
                   className="text-cyan-400 hover:underline"
                 >
@@ -767,15 +785,18 @@ export default function App() {
               <div className="py-20 text-center max-w-md mx-auto glass-panel p-8 rounded-2xl border border-slate-800">
                 <Boxes className="h-12 w-12 text-slate-600 mx-auto mb-3" />
                 <h3 className="text-base font-bold text-slate-200 mb-1">
-                  No se encontraron proyectos
+                  {showOnlyFavorites ? 'Aún no tienes favoritos' : 'No se encontraron proyectos'}
                 </h3>
                 <p className="text-xs text-slate-400 mb-5">
-                  No hay proyectos que coincidan con los criterios de búsqueda actuales.
+                  {showOnlyFavorites
+                    ? 'Pulsa el icono de marcador en cualquier tarjeta de proyecto para guardarlo aquí.'
+                    : 'No hay proyectos que coincidan con los criterios de búsqueda actuales.'}
                 </p>
                 <button
                   onClick={() => {
                     setProjectSearchQuery('');
                     setSelectedController('all');
+                    setShowOnlyFavorites(false);
                   }}
                   className="px-4 py-2 rounded-xl bg-cyan-600/20 text-cyan-300 border border-cyan-500/40 hover:bg-cyan-600/30 text-xs font-semibold transition-all"
                 >
@@ -794,6 +815,9 @@ export default function App() {
                     onOpenInLab={handleOpenInLab}
                     onToggleCompare={handleToggleCompare}
                     isCompared={compareProjectIds.includes(proj.id || proj.projectId || proj.slug)}
+                    isFavorite={favorites.includes(proj.projectId)}
+                    onToggleFavorite={toggleFavorite}
+                    hasExpandedGuide={Boolean(expandedGuides[proj.projectId])}
                   />
                 ))}
               </div>
@@ -809,6 +833,9 @@ export default function App() {
                     onOpenInLab={handleOpenInLab}
                     onToggleCompare={handleToggleCompare}
                     isCompared={compareProjectIds.includes(proj.id || proj.projectId || proj.slug)}
+                    isFavorite={favorites.includes(proj.projectId)}
+                    onToggleFavorite={toggleFavorite}
+                    hasExpandedGuide={Boolean(expandedGuides[proj.projectId])}
                   />
                 ))}
               </div>
