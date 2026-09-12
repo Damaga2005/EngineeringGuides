@@ -1,38 +1,5 @@
 [
   {
-    "confidence": 0.4154,
-    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
-    "evidence": [
-      "Mismo microcontrolador principal: ESP32."
-    ],
-    "relationId": "rel-025ed4d196e00a30",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-0e0c3069f5a83ea4",
-    "targetProjectId": "proj-4902d58497d90422"
-  },
-  {
-    "confidence": 0.4125,
-    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
-    "evidence": [
-      "Mismo microcontrolador principal: ESP32."
-    ],
-    "relationId": "rel-02bec20383b9dcf7",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-4e461b38f5d05afd",
-    "targetProjectId": "proj-a245d2a49550770f"
-  },
-  {
-    "confidence": 0.4182,
-    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
-    "evidence": [
-      "Mismo microcontrolador principal: ESP32."
-    ],
-    "relationId": "rel-0771df74cfe035db",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-4902d58497d90422",
-    "targetProjectId": "proj-23e2ffb84ec9c3a1"
-  },
-  {
     "confidence": 0.425,
     "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
     "evidence": [
@@ -64,6 +31,17 @@
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-299d699e04703cfd",
     "targetProjectId": "proj-6efd04ef2f2f5cab"
+  },
+  {
+    "confidence": 0.4118,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-0f8900b7c4c7f858",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-92139980dfd95e5e",
+    "targetProjectId": "proj-8c76d2f0e14a7e6d"
   },
   {
     "confidence": 0.4143,
@@ -132,15 +110,15 @@
     "targetProjectId": "proj-df20c0bdfa75937d"
   },
   {
-    "confidence": 0.4167,
+    "confidence": 0.4111,
     "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
     "evidence": [
       "Mismo microcontrolador principal: ESP32."
     ],
-    "relationId": "rel-20b5831f5c7aa091",
+    "relationId": "rel-21e3d6319538fd07",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-4902d58497d90422",
-    "targetProjectId": "proj-299d699e04703cfd"
+    "sourceProjectId": "proj-d58e4ae2c89c2b95",
+    "targetProjectId": "proj-413f063f71e7017e"
   },
   {
     "confidence": 0.42,
@@ -176,17 +154,6 @@
     "targetProjectId": "proj-9fb705613f7fa35c"
   },
   {
-    "confidence": 0.4111,
-    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
-    "evidence": [
-      "Mismo microcontrolador principal: ESP32."
-    ],
-    "relationId": "rel-27ba2caa40e850b3",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a245d2a49550770f",
-    "targetProjectId": "proj-413f063f71e7017e"
-  },
-  {
     "confidence": 0.4133,
     "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
     "evidence": [
@@ -207,6 +174,28 @@
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-683b8320c77d62a2",
     "targetProjectId": "proj-a2ebed30b19669a5"
+  },
+  {
+    "confidence": 0.4091,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-2adf085b35db1cbd",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-92139980dfd95e5e",
+    "targetProjectId": "proj-a09c9eaab189e94a"
+  },
+  {
+    "confidence": 0.4,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: STM32F4.",
+    "evidence": [
+      "Mismo microcontrolador principal: STM32F4."
+    ],
+    "relationId": "rel-2bc44abdb092684f",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-14bca4088da46825",
+    "targetProjectId": "proj-56d7311c137973c2"
   },
   {
     "confidence": 0.4118,
@@ -231,15 +220,26 @@
     "targetProjectId": "proj-299d699e04703cfd"
   },
   {
-    "confidence": 0.4792,
+    "confidence": 0.4154,
     "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
     "evidence": [
       "Mismo microcontrolador principal: ESP32."
     ],
-    "relationId": "rel-2e0ccc1d9a093c38",
+    "relationId": "rel-30a36a9ba34db62b",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a906f1e86a9caa9f",
-    "targetProjectId": "proj-a245d2a49550770f"
+    "sourceProjectId": "proj-0e0c3069f5a83ea4",
+    "targetProjectId": "proj-34f8130b926946da"
+  },
+  {
+    "confidence": 0.4154,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-314da7fe1aa414af",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-34f8130b926946da",
+    "targetProjectId": "proj-df20c0bdfa75937d"
   },
   {
     "confidence": 0.41,
@@ -253,26 +253,15 @@
     "targetProjectId": "proj-6efd04ef2f2f5cab"
   },
   {
-    "confidence": 0.4133,
+    "confidence": 0.4286,
     "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
     "evidence": [
       "Mismo microcontrolador principal: ESP32."
     ],
-    "relationId": "rel-321eb006a81a3693",
+    "relationId": "rel-32b3eb7434f60edb",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8df10854ea1082a6",
-    "targetProjectId": "proj-4e461b38f5d05afd"
-  },
-  {
-    "confidence": 0.4133,
-    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
-    "evidence": [
-      "Mismo microcontrolador principal: ESP32."
-    ],
-    "relationId": "rel-3399fb3cde8efd88",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8df10854ea1082a6",
-    "targetProjectId": "proj-299d699e04703cfd"
+    "sourceProjectId": "proj-92139980dfd95e5e",
+    "targetProjectId": "proj-a906f1e86a9caa9f"
   },
   {
     "confidence": 0.4125,
@@ -280,10 +269,10 @@
     "evidence": [
       "Mismo microcontrolador principal: ESP32."
     ],
-    "relationId": "rel-35bdeb32c947e2d7",
+    "relationId": "rel-33c01d9d44275d9b",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-4902d58497d90422",
-    "targetProjectId": "proj-1c2472bca80aab75"
+    "sourceProjectId": "proj-92139980dfd95e5e",
+    "targetProjectId": "proj-34f8130b926946da"
   },
   {
     "confidence": 0.4105,
@@ -308,6 +297,17 @@
     "targetProjectId": "proj-89dce9c8134220ee"
   },
   {
+    "confidence": 0.4308,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-3b243b46cc03e5f6",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-34f8130b926946da",
+    "targetProjectId": "proj-fb8e65ad8631b29f"
+  },
+  {
     "confidence": 0.4125,
     "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
     "evidence": [
@@ -330,26 +330,48 @@
     "targetProjectId": "proj-23e2ffb84ec9c3a1"
   },
   {
-    "confidence": 0.4308,
+    "confidence": 0.4375,
     "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
     "evidence": [
       "Mismo microcontrolador principal: ESP32."
     ],
-    "relationId": "rel-40524a7919e2283e",
+    "relationId": "rel-405a592bc01254a0",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-4902d58497d90422",
+    "sourceProjectId": "proj-d58e4ae2c89c2b95",
     "targetProjectId": "proj-fb8e65ad8631b29f"
   },
   {
-    "confidence": 0.4154,
+    "confidence": 0.4118,
     "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
     "evidence": [
       "Mismo microcontrolador principal: ESP32."
     ],
-    "relationId": "rel-4301f857217502d7",
+    "relationId": "rel-41f39dba6afe1c00",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-4902d58497d90422",
-    "targetProjectId": "proj-df20c0bdfa75937d"
+    "sourceProjectId": "proj-92139980dfd95e5e",
+    "targetProjectId": "proj-413f063f71e7017e"
+  },
+  {
+    "confidence": 0.4683,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-44ed81e8ad19defe",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8c76d2f0e14a7e6d",
+    "targetProjectId": "proj-d58e4ae2c89c2b95"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-4721f55b6ced82ea",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-92139980dfd95e5e",
+    "targetProjectId": "proj-23e2ffb84ec9c3a1"
   },
   {
     "confidence": 0.4167,
@@ -372,17 +394,6 @@
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-0e0c3069f5a83ea4",
     "targetProjectId": "proj-413f063f71e7017e"
-  },
-  {
-    "confidence": 0.4143,
-    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
-    "evidence": [
-      "Mismo microcontrolador principal: ESP32."
-    ],
-    "relationId": "rel-4aea5d3cc762bcce",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8c76d2f0e14a7e6d",
-    "targetProjectId": "proj-4902d58497d90422"
   },
   {
     "confidence": 0.3355,
@@ -418,17 +429,6 @@
     "targetProjectId": "proj-a09c9eaab189e94a"
   },
   {
-    "confidence": 0.4118,
-    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
-    "evidence": [
-      "Mismo microcontrolador principal: ESP32."
-    ],
-    "relationId": "rel-4e83e15d4d7887e3",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8df10854ea1082a6",
-    "targetProjectId": "proj-fb8e65ad8631b29f"
-  },
-  {
     "confidence": 0.4167,
     "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
     "evidence": [
@@ -451,26 +451,15 @@
     "targetProjectId": "proj-df20c0bdfa75937d"
   },
   {
-    "confidence": 0.4286,
-    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "confidence": 0.4333,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ATmega328P.",
     "evidence": [
-      "Mismo microcontrolador principal: ESP32."
+      "Mismo microcontrolador principal: ATmega328P."
     ],
-    "relationId": "rel-536738dec5d5fa10",
+    "relationId": "rel-54f5cf1b434848ed",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8df10854ea1082a6",
-    "targetProjectId": "proj-a906f1e86a9caa9f"
-  },
-  {
-    "confidence": 0.4154,
-    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
-    "evidence": [
-      "Mismo microcontrolador principal: ESP32."
-    ],
-    "relationId": "rel-5493d5e6699959fc",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-4902d58497d90422",
-    "targetProjectId": "proj-9fb705613f7fa35c"
+    "sourceProjectId": "proj-870e3798e482728a",
+    "targetProjectId": "proj-ebd06c8fe102558d"
   },
   {
     "confidence": 0.4286,
@@ -484,28 +473,6 @@
     "targetProjectId": "proj-6efd04ef2f2f5cab"
   },
   {
-    "confidence": 0.4125,
-    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
-    "evidence": [
-      "Mismo microcontrolador principal: ESP32."
-    ],
-    "relationId": "rel-5811419127b2135b",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8df10854ea1082a6",
-    "targetProjectId": "proj-df20c0bdfa75937d"
-  },
-  {
-    "confidence": 0.4111,
-    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
-    "evidence": [
-      "Mismo microcontrolador principal: ESP32."
-    ],
-    "relationId": "rel-58677f3b2509537c",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8c76d2f0e14a7e6d",
-    "targetProjectId": "proj-a245d2a49550770f"
-  },
-  {
     "confidence": 0.4154,
     "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
     "evidence": [
@@ -517,15 +484,15 @@
     "targetProjectId": "proj-6efd04ef2f2f5cab"
   },
   {
-    "confidence": 0.4118,
+    "confidence": 0.4105,
     "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
     "evidence": [
       "Mismo microcontrolador principal: ESP32."
     ],
-    "relationId": "rel-594e4bddfc651f65",
+    "relationId": "rel-597f24ee36c48af0",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a245d2a49550770f",
-    "targetProjectId": "proj-df20c0bdfa75937d"
+    "sourceProjectId": "proj-92139980dfd95e5e",
+    "targetProjectId": "proj-1c2472bca80aab75"
   },
   {
     "confidence": 0.4143,
@@ -539,6 +506,17 @@
     "targetProjectId": "proj-fb8e65ad8631b29f"
   },
   {
+    "confidence": 0.4125,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-5f3dbc8b56108ef5",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-4e461b38f5d05afd",
+    "targetProjectId": "proj-d58e4ae2c89c2b95"
+  },
+  {
     "confidence": 0.4154,
     "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
     "evidence": [
@@ -548,6 +526,17 @@
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-4e461b38f5d05afd",
     "targetProjectId": "proj-ae877be606e5b288"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-65378db586008ea9",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-34f8130b926946da",
+    "targetProjectId": "proj-6efd04ef2f2f5cab"
   },
   {
     "confidence": 0.4167,
@@ -561,15 +550,26 @@
     "targetProjectId": "proj-23e2ffb84ec9c3a1"
   },
   {
-    "confidence": 0.4105,
+    "confidence": 0.4118,
     "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
     "evidence": [
       "Mismo microcontrolador principal: ESP32."
     ],
-    "relationId": "rel-6b8b0857419d7a17",
+    "relationId": "rel-6b16835bf39c0f26",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-4902d58497d90422",
-    "targetProjectId": "proj-a09c9eaab189e94a"
+    "sourceProjectId": "proj-92139980dfd95e5e",
+    "targetProjectId": "proj-fb8e65ad8631b29f"
+  },
+  {
+    "confidence": 0.4125,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-6b17fd600fa2af90",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-92139980dfd95e5e",
+    "targetProjectId": "proj-df20c0bdfa75937d"
   },
   {
     "confidence": 0.5071,
@@ -581,6 +581,17 @@
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-8b212f8f0d5012cc",
     "targetProjectId": "proj-2d6bb1ea265633fd"
+  },
+  {
+    "confidence": 0.41,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-6f2fbfae9eb067d3",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-1c2472bca80aab75",
+    "targetProjectId": "proj-d58e4ae2c89c2b95"
   },
   {
     "confidence": 0.4167,
@@ -605,15 +616,15 @@
     "targetProjectId": "proj-4e461b38f5d05afd"
   },
   {
-    "confidence": 0.4167,
+    "confidence": 0.4118,
     "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
     "evidence": [
       "Mismo microcontrolador principal: ESP32."
     ],
-    "relationId": "rel-75c83781cd5bc16f",
+    "relationId": "rel-757c54a599b8745f",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-4902d58497d90422",
-    "targetProjectId": "proj-4e461b38f5d05afd"
+    "sourceProjectId": "proj-d58e4ae2c89c2b95",
+    "targetProjectId": "proj-df20c0bdfa75937d"
   },
   {
     "confidence": 0.4133,
@@ -625,17 +636,6 @@
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-1c2472bca80aab75",
     "targetProjectId": "proj-299d699e04703cfd"
-  },
-  {
-    "confidence": 0.4308,
-    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ATmega2560.",
-    "evidence": [
-      "Mismo microcontrolador principal: ATmega2560."
-    ],
-    "relationId": "rel-77804483af4a3e2b",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-2684f7e12c69809f",
-    "targetProjectId": "proj-8bf5eb8c424af41d"
   },
   {
     "confidence": 0.4167,
@@ -671,15 +671,15 @@
     "targetProjectId": "proj-ae877be606e5b288"
   },
   {
-    "confidence": 0.4118,
+    "confidence": 0.4143,
     "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
     "evidence": [
       "Mismo microcontrolador principal: ESP32."
     ],
-    "relationId": "rel-7b486bcb0f1f8c58",
+    "relationId": "rel-7ad82773ef23887b",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8df10854ea1082a6",
-    "targetProjectId": "proj-ae877be606e5b288"
+    "sourceProjectId": "proj-8c76d2f0e14a7e6d",
+    "targetProjectId": "proj-34f8130b926946da"
   },
   {
     "confidence": 0.4154,
@@ -693,26 +693,15 @@
     "targetProjectId": "proj-299d699e04703cfd"
   },
   {
-    "confidence": 0.4125,
-    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "confidence": 0.44,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ATmega328P.",
     "evidence": [
-      "Mismo microcontrolador principal: ESP32."
+      "Mismo microcontrolador principal: ATmega328P."
     ],
-    "relationId": "rel-7edcf88c7724b44b",
+    "relationId": "rel-7ca280f655da0e26",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8df10854ea1082a6",
-    "targetProjectId": "proj-0e0c3069f5a83ea4"
-  },
-  {
-    "confidence": 0.4821,
-    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: STM32F4.",
-    "evidence": [
-      "Mismo microcontrolador principal: STM32F4."
-    ],
-    "relationId": "rel-80373ab92b86ffbf",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-c552597bc8d468cc",
-    "targetProjectId": "proj-14bca4088da46825"
+    "sourceProjectId": "proj-870e3798e482728a",
+    "targetProjectId": "proj-e1043df73e599c7e"
   },
   {
     "confidence": 0.4118,
@@ -759,17 +748,6 @@
     "targetProjectId": "proj-a2ebed30b19669a5"
   },
   {
-    "confidence": 0.4,
-    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: STM32F4.",
-    "evidence": [
-      "Mismo microcontrolador principal: STM32F4."
-    ],
-    "relationId": "rel-8342c7b1a18925d5",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-c552597bc8d468cc",
-    "targetProjectId": "proj-a3d73d08684a062d"
-  },
-  {
     "confidence": 0.4235,
     "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32-S3.",
     "evidence": [
@@ -779,6 +757,39 @@
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-2d6bb1ea265633fd",
     "targetProjectId": "proj-89dce9c8134220ee"
+  },
+  {
+    "confidence": 0.4167,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-860ae197e9280bdf",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-34f8130b926946da",
+    "targetProjectId": "proj-4e461b38f5d05afd"
+  },
+  {
+    "confidence": 0.4182,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-8668ca42b73a9d81",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-34f8130b926946da",
+    "targetProjectId": "proj-23e2ffb84ec9c3a1"
+  },
+  {
+    "confidence": 0.4133,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-86e536432d37133b",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-92139980dfd95e5e",
+    "targetProjectId": "proj-299d699e04703cfd"
   },
   {
     "confidence": 0.4211,
@@ -837,6 +848,17 @@
   },
   {
     "confidence": 0.4211,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-8b212f3cf50df41b",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-92139980dfd95e5e",
+    "targetProjectId": "proj-d58e4ae2c89c2b95"
+  },
+  {
+    "confidence": 0.4211,
     "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32-S3.",
     "evidence": [
       "Mismo microcontrolador principal: ESP32-S3."
@@ -847,26 +869,15 @@
     "targetProjectId": "proj-22933371bb73088f"
   },
   {
-    "confidence": 0.4,
-    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: STM32F4.",
+    "confidence": 0.4118,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
     "evidence": [
-      "Mismo microcontrolador principal: STM32F4."
+      "Mismo microcontrolador principal: ESP32."
     ],
-    "relationId": "rel-90eaf5b5da044361",
+    "relationId": "rel-8fa9e2c8c2409bef",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-14bca4088da46825",
-    "targetProjectId": "proj-a3d73d08684a062d"
-  },
-  {
-    "confidence": 0.4308,
-    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ATmega2560.",
-    "evidence": [
-      "Mismo microcontrolador principal: ATmega2560."
-    ],
-    "relationId": "rel-95578edd2dbd5f20",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-2684f7e12c69809f",
-    "targetProjectId": "proj-b4b49073df0bfb7a"
+    "sourceProjectId": "proj-d58e4ae2c89c2b95",
+    "targetProjectId": "proj-9fb705613f7fa35c"
   },
   {
     "confidence": 0.4182,
@@ -880,39 +891,6 @@
     "targetProjectId": "proj-df20c0bdfa75937d"
   },
   {
-    "confidence": 0.4118,
-    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
-    "evidence": [
-      "Mismo microcontrolador principal: ESP32."
-    ],
-    "relationId": "rel-983c3f93b430d989",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-4902d58497d90422",
-    "targetProjectId": "proj-a245d2a49550770f"
-  },
-  {
-    "confidence": 0.41,
-    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
-    "evidence": [
-      "Mismo microcontrolador principal: ESP32."
-    ],
-    "relationId": "rel-984efb6cb354cde4",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-1c2472bca80aab75",
-    "targetProjectId": "proj-a245d2a49550770f"
-  },
-  {
-    "confidence": 0.4375,
-    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
-    "evidence": [
-      "Mismo microcontrolador principal: ESP32."
-    ],
-    "relationId": "rel-9b2af481a5614386",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a245d2a49550770f",
-    "targetProjectId": "proj-fb8e65ad8631b29f"
-  },
-  {
     "confidence": 0.41,
     "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
     "evidence": [
@@ -924,15 +902,15 @@
     "targetProjectId": "proj-fb8e65ad8631b29f"
   },
   {
-    "confidence": 0.4111,
+    "confidence": 0.4125,
     "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
     "evidence": [
       "Mismo microcontrolador principal: ESP32."
     ],
-    "relationId": "rel-9da55b286f9692a9",
+    "relationId": "rel-9bd286763d3dfdc5",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a245d2a49550770f",
-    "targetProjectId": "proj-6efd04ef2f2f5cab"
+    "sourceProjectId": "proj-a906f1e86a9caa9f",
+    "targetProjectId": "proj-d58e4ae2c89c2b95"
   },
   {
     "confidence": 0.4143,
@@ -966,6 +944,17 @@
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-0e0c3069f5a83ea4",
     "targetProjectId": "proj-ae877be606e5b288"
+  },
+  {
+    "confidence": 0.4143,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-a2c17f6807a20b78",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-34f8130b926946da",
+    "targetProjectId": "proj-413f063f71e7017e"
   },
   {
     "confidence": 0.42,
@@ -1012,6 +1001,17 @@
     "targetProjectId": "proj-6efd04ef2f2f5cab"
   },
   {
+    "confidence": 0.4125,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-adce539f0f64c7d1",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-92139980dfd95e5e",
+    "targetProjectId": "proj-0e0c3069f5a83ea4"
+  },
+  {
     "confidence": 0.4133,
     "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
     "evidence": [
@@ -1021,17 +1021,6 @@
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-8c76d2f0e14a7e6d",
     "targetProjectId": "proj-6efd04ef2f2f5cab"
-  },
-  {
-    "confidence": 0.4125,
-    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
-    "evidence": [
-      "Mismo microcontrolador principal: ESP32."
-    ],
-    "relationId": "rel-b039a5954bce213e",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8df10854ea1082a6",
-    "targetProjectId": "proj-9fb705613f7fa35c"
   },
   {
     "confidence": 0.4154,
@@ -1056,6 +1045,17 @@
     "targetProjectId": "proj-2d6bb1ea265633fd"
   },
   {
+    "confidence": 0.4118,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-b20391181f6d5e40",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-92139980dfd95e5e",
+    "targetProjectId": "proj-6efd04ef2f2f5cab"
+  },
+  {
     "confidence": 0.4333,
     "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ATmega328P.",
     "evidence": [
@@ -1076,28 +1076,6 @@
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-0e0c3069f5a83ea4",
     "targetProjectId": "proj-9fb705613f7fa35c"
-  },
-  {
-    "confidence": 0.4211,
-    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
-    "evidence": [
-      "Mismo microcontrolador principal: ESP32."
-    ],
-    "relationId": "rel-b3ba9a06c81f072c",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8df10854ea1082a6",
-    "targetProjectId": "proj-a245d2a49550770f"
-  },
-  {
-    "confidence": 0.4091,
-    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
-    "evidence": [
-      "Mismo microcontrolador principal: ESP32."
-    ],
-    "relationId": "rel-b55816b2d2b259e5",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8df10854ea1082a6",
-    "targetProjectId": "proj-a09c9eaab189e94a"
   },
   {
     "confidence": 0.42,
@@ -1122,15 +1100,37 @@
     "targetProjectId": "proj-b4b49073df0bfb7a"
   },
   {
-    "confidence": 0.4118,
+    "confidence": 0.4308,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ATmega2560.",
+    "evidence": [
+      "Mismo microcontrolador principal: ATmega2560."
+    ],
+    "relationId": "rel-b6a0a491e4b09155",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8739f5afc4163730",
+    "targetProjectId": "proj-8bf5eb8c424af41d"
+  },
+  {
+    "confidence": 0.4308,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ATmega2560.",
+    "evidence": [
+      "Mismo microcontrolador principal: ATmega2560."
+    ],
+    "relationId": "rel-b8be2afb455545a2",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-8739f5afc4163730",
+    "targetProjectId": "proj-b4b49073df0bfb7a"
+  },
+  {
+    "confidence": 0.4125,
     "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
     "evidence": [
       "Mismo microcontrolador principal: ESP32."
     ],
-    "relationId": "rel-ba2b222da06d6ff4",
+    "relationId": "rel-b9212c7e4be66054",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a245d2a49550770f",
-    "targetProjectId": "proj-9fb705613f7fa35c"
+    "sourceProjectId": "proj-d58e4ae2c89c2b95",
+    "targetProjectId": "proj-299d699e04703cfd"
   },
   {
     "confidence": 0.4182,
@@ -1153,6 +1153,17 @@
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-a906f1e86a9caa9f",
     "targetProjectId": "proj-1c2472bca80aab75"
+  },
+  {
+    "confidence": 0.4611,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-bcef5fddbccf9c4c",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-ae877be606e5b288",
+    "targetProjectId": "proj-d58e4ae2c89c2b95"
   },
   {
     "confidence": 0.4286,
@@ -1210,6 +1221,17 @@
     "targetProjectId": "proj-fb8e65ad8631b29f"
   },
   {
+    "confidence": 0.4133,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-c22d0497bae2996e",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-92139980dfd95e5e",
+    "targetProjectId": "proj-4e461b38f5d05afd"
+  },
+  {
     "confidence": 0.4154,
     "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
     "evidence": [
@@ -1241,6 +1263,17 @@
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-ae877be606e5b288",
     "targetProjectId": "proj-fb8e65ad8631b29f"
+  },
+  {
+    "confidence": 0.4118,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-c5168835d6c5aac6",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-92139980dfd95e5e",
+    "targetProjectId": "proj-ae877be606e5b288"
   },
   {
     "confidence": 0.4118,
@@ -1287,26 +1320,15 @@
     "targetProjectId": "proj-413f063f71e7017e"
   },
   {
-    "confidence": 0.4087,
-    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "confidence": 0.475,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: STM32F4.",
     "evidence": [
-      "Mismo microcontrolador principal: ESP32."
+      "Mismo microcontrolador principal: STM32F4."
     ],
-    "relationId": "rel-cd37b3586c93819f",
+    "relationId": "rel-cf908dc20570aad2",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a09c9eaab189e94a",
-    "targetProjectId": "proj-a245d2a49550770f"
-  },
-  {
-    "confidence": 0.4143,
-    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
-    "evidence": [
-      "Mismo microcontrolador principal: ESP32."
-    ],
-    "relationId": "rel-cf44311d4eca0727",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8df10854ea1082a6",
-    "targetProjectId": "proj-23e2ffb84ec9c3a1"
+    "sourceProjectId": "proj-07abe9bee1e961a9",
+    "targetProjectId": "proj-14bca4088da46825"
   },
   {
     "confidence": 0.4143,
@@ -1320,15 +1342,26 @@
     "targetProjectId": "proj-413f063f71e7017e"
   },
   {
-    "confidence": 0.4111,
+    "confidence": 0.4105,
     "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
     "evidence": [
       "Mismo microcontrolador principal: ESP32."
     ],
-    "relationId": "rel-d014b44c80dbf2c9",
+    "relationId": "rel-d035c5978b9ec6f0",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-ae877be606e5b288",
-    "targetProjectId": "proj-a245d2a49550770f"
+    "sourceProjectId": "proj-34f8130b926946da",
+    "targetProjectId": "proj-a09c9eaab189e94a"
+  },
+  {
+    "confidence": 0.4125,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-d15e50418d2ac780",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-34f8130b926946da",
+    "targetProjectId": "proj-1c2472bca80aab75"
   },
   {
     "confidence": 0.4133,
@@ -1336,9 +1369,9 @@
     "evidence": [
       "Mismo microcontrolador principal: ESP32."
     ],
-    "relationId": "rel-d1e57fd7a8d7cda3",
+    "relationId": "rel-d50653a7981a7c8b",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a245d2a49550770f",
+    "sourceProjectId": "proj-d58e4ae2c89c2b95",
     "targetProjectId": "proj-23e2ffb84ec9c3a1"
   },
   {
@@ -1347,10 +1380,10 @@
     "evidence": [
       "Mismo microcontrolador principal: ESP32."
     ],
-    "relationId": "rel-d3c44cc7f1b9d2dd",
+    "relationId": "rel-d61b07d2e9abe244",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8df10854ea1082a6",
-    "targetProjectId": "proj-8c76d2f0e14a7e6d"
+    "sourceProjectId": "proj-0e0c3069f5a83ea4",
+    "targetProjectId": "proj-d58e4ae2c89c2b95"
   },
   {
     "confidence": 0.4143,
@@ -1362,6 +1395,17 @@
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-df20c0bdfa75937d",
     "targetProjectId": "proj-6efd04ef2f2f5cab"
+  },
+  {
+    "confidence": 0.4154,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-d78207641168fa6e",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-34f8130b926946da",
+    "targetProjectId": "proj-9fb705613f7fa35c"
   },
   {
     "confidence": 0.4654,
@@ -1397,17 +1441,6 @@
     "targetProjectId": "proj-df20c0bdfa75937d"
   },
   {
-    "confidence": 0.4118,
-    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
-    "evidence": [
-      "Mismo microcontrolador principal: ESP32."
-    ],
-    "relationId": "rel-da6de9e3d8438902",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-0e0c3069f5a83ea4",
-    "targetProjectId": "proj-a245d2a49550770f"
-  },
-  {
     "confidence": 0.4182,
     "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
     "evidence": [
@@ -1419,6 +1452,17 @@
     "targetProjectId": "proj-299d699e04703cfd"
   },
   {
+    "confidence": 0.4087,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-dcb5cf58c7eb2008",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-a09c9eaab189e94a",
+    "targetProjectId": "proj-d58e4ae2c89c2b95"
+  },
+  {
     "confidence": 0.4182,
     "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
     "evidence": [
@@ -1428,28 +1472,6 @@
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-a906f1e86a9caa9f",
     "targetProjectId": "proj-4e461b38f5d05afd"
-  },
-  {
-    "confidence": 0.4143,
-    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
-    "evidence": [
-      "Mismo microcontrolador principal: ESP32."
-    ],
-    "relationId": "rel-dd81cfecd429ca3e",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-4902d58497d90422",
-    "targetProjectId": "proj-413f063f71e7017e"
-  },
-  {
-    "confidence": 0.4333,
-    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ATmega328P.",
-    "evidence": [
-      "Mismo microcontrolador principal: ATmega328P."
-    ],
-    "relationId": "rel-dd8d84f1dca47f5e",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-985a367fdabbc644",
-    "targetProjectId": "proj-ebd06c8fe102558d"
   },
   {
     "confidence": 0.4333,
@@ -1474,17 +1496,6 @@
     "targetProjectId": "proj-1c2472bca80aab75"
   },
   {
-    "confidence": 0.4125,
-    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
-    "evidence": [
-      "Mismo microcontrolador principal: ESP32."
-    ],
-    "relationId": "rel-e27edaa3fa7ac636",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a245d2a49550770f",
-    "targetProjectId": "proj-299d699e04703cfd"
-  },
-  {
     "confidence": 0.4133,
     "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
     "evidence": [
@@ -1507,15 +1518,15 @@
     "targetProjectId": "proj-0455fb2c072df1ec"
   },
   {
-    "confidence": 0.4125,
+    "confidence": 0.4167,
     "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
     "evidence": [
       "Mismo microcontrolador principal: ESP32."
     ],
-    "relationId": "rel-e62a0ad1c12e6127",
+    "relationId": "rel-e9225fb203fc10fa",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8df10854ea1082a6",
-    "targetProjectId": "proj-4902d58497d90422"
+    "sourceProjectId": "proj-34f8130b926946da",
+    "targetProjectId": "proj-299d699e04703cfd"
   },
   {
     "confidence": 0.4154,
@@ -1540,37 +1551,37 @@
     "targetProjectId": "proj-fb8e65ad8631b29f"
   },
   {
-    "confidence": 0.4118,
-    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
-    "evidence": [
-      "Mismo microcontrolador principal: ESP32."
-    ],
-    "relationId": "rel-ed91657e11e4b98a",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8df10854ea1082a6",
-    "targetProjectId": "proj-6efd04ef2f2f5cab"
-  },
-  {
     "confidence": 0.4143,
     "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
     "evidence": [
       "Mismo microcontrolador principal: ESP32."
     ],
-    "relationId": "rel-ee220fe655410a94",
+    "relationId": "rel-ed02467212aa5a0e",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-4902d58497d90422",
+    "sourceProjectId": "proj-34f8130b926946da",
     "targetProjectId": "proj-ae877be606e5b288"
   },
   {
-    "confidence": 0.4143,
+    "confidence": 0.4167,
     "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
     "evidence": [
       "Mismo microcontrolador principal: ESP32."
     ],
-    "relationId": "rel-f0c726be823c1dd9",
+    "relationId": "rel-eff3c12bb3366463",
     "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-4902d58497d90422",
-    "targetProjectId": "proj-6efd04ef2f2f5cab"
+    "sourceProjectId": "proj-a906f1e86a9caa9f",
+    "targetProjectId": "proj-34f8130b926946da"
+  },
+  {
+    "confidence": 0.4125,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-f07d6bd97a50bcc0",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-92139980dfd95e5e",
+    "targetProjectId": "proj-9fb705613f7fa35c"
   },
   {
     "confidence": 0.4167,
@@ -1582,6 +1593,28 @@
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-4e461b38f5d05afd",
     "targetProjectId": "proj-9fb705613f7fa35c"
+  },
+  {
+    "confidence": 0.4118,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-f1a7132ee2e279cc",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-34f8130b926946da",
+    "targetProjectId": "proj-d58e4ae2c89c2b95"
+  },
+  {
+    "confidence": 0.4,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: STM32F4.",
+    "evidence": [
+      "Mismo microcontrolador principal: STM32F4."
+    ],
+    "relationId": "rel-f1bfce3019a15ced",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-07abe9bee1e961a9",
+    "targetProjectId": "proj-56d7311c137973c2"
   },
   {
     "confidence": 0.4167,
@@ -1617,17 +1650,6 @@
     "targetProjectId": "proj-df20c0bdfa75937d"
   },
   {
-    "confidence": 0.4118,
-    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
-    "evidence": [
-      "Mismo microcontrolador principal: ESP32."
-    ],
-    "relationId": "rel-f537dc05c34a0b5d",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8df10854ea1082a6",
-    "targetProjectId": "proj-413f063f71e7017e"
-  },
-  {
     "confidence": 0.4154,
     "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
     "evidence": [
@@ -1650,17 +1672,6 @@
     "targetProjectId": "proj-22933371bb73088f"
   },
   {
-    "confidence": 0.4105,
-    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
-    "evidence": [
-      "Mismo microcontrolador principal: ESP32."
-    ],
-    "relationId": "rel-f71a339002bcce43",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-8df10854ea1082a6",
-    "targetProjectId": "proj-1c2472bca80aab75"
-  },
-  {
     "confidence": 0.4111,
     "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
     "evidence": [
@@ -1670,17 +1681,6 @@
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-a09c9eaab189e94a",
     "targetProjectId": "proj-299d699e04703cfd"
-  },
-  {
-    "confidence": 0.4708,
-    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ATmega328P.",
-    "evidence": [
-      "Mismo microcontrolador principal: ATmega328P."
-    ],
-    "relationId": "rel-f8ec98e814b9d1b2",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-985a367fdabbc644",
-    "targetProjectId": "proj-e1043df73e599c7e"
   },
   {
     "confidence": 0.4167,
@@ -1694,17 +1694,6 @@
     "targetProjectId": "proj-6efd04ef2f2f5cab"
   },
   {
-    "confidence": 0.4167,
-    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
-    "evidence": [
-      "Mismo microcontrolador principal: ESP32."
-    ],
-    "relationId": "rel-f9ad259cc8020624",
-    "relationType": "RELATED_TO",
-    "sourceProjectId": "proj-a906f1e86a9caa9f",
-    "targetProjectId": "proj-4902d58497d90422"
-  },
-  {
     "confidence": 0.4154,
     "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
     "evidence": [
@@ -1714,6 +1703,17 @@
     "relationType": "RELATED_TO",
     "sourceProjectId": "proj-0e0c3069f5a83ea4",
     "targetProjectId": "proj-df20c0bdfa75937d"
+  },
+  {
+    "confidence": 0.4111,
+    "description": "Relación arquitectónica documentada: Mismo microcontrolador principal: ESP32.",
+    "evidence": [
+      "Mismo microcontrolador principal: ESP32."
+    ],
+    "relationId": "rel-fce1696fe7bed9ea",
+    "relationType": "RELATED_TO",
+    "sourceProjectId": "proj-d58e4ae2c89c2b95",
+    "targetProjectId": "proj-6efd04ef2f2f5cab"
   },
   {
     "confidence": 0.4154,

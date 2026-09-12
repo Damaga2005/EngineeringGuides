@@ -517,3 +517,78 @@ def test_full_pipeline_determinism_and_idempotency(tmp_path):
     hashes_run_c = hash_all()
     assert hashes_run_b == hashes_run_c, "Pipeline is not idempotent on a third run"
 
+
+# ===========================================================================
+# CATALOG TITLE CORRECTION TESTS (P02.3.3)
+# The legacy catalog's title for a slot does not always match the real IR
+# content at that position (a pre-existing catalog data issue - see
+# PROJECT_FIRST_CERTIFICATION_REPORT.md). looks_like_real_title() gates
+# which candidate titleHints are trustworthy enough to override the catalog.
+# ===========================================================================
+
+def test_looks_like_real_title_rejects_ascii_lowercase_only():
+    """
+    Regression test for a real bug: Python's str.islower() considers
+    lowercase Greek/other Unicode letters "lowercase" too, so a sensor
+    annotation like "SP03 . 31.6C . <lowercase-epsilon> 0.95" printed above
+    a project marker was being accepted as a real title. Only ASCII
+    lowercase letters count.
+    """
+    from scripts.project_first.boundaries import looks_like_real_title
+
+    assert looks_like_real_title("SP03 · 31.6 °C · ε 0.95") is False
+    assert looks_like_real_title("Impact-Resistant Composite Panel") is True
+
+
+def test_looks_like_real_title_rejects_marker_lines():
+    from scripts.project_first.boundaries import looks_like_real_title
+
+    assert looks_like_real_title("[ P R O J E C T 0 1 ]") is False
+    assert looks_like_real_title("❯ project 01") is False
+    assert looks_like_real_title("UPGRADE 02 · REV A") is False
+    assert looks_like_real_title("PROJECT 03") is False
+    assert looks_like_real_title(None) is False
+    assert looks_like_real_title("Hi") is False  # too short / single word
+
+
+def test_pick_real_title_line_skips_marker_and_annotation_lines():
+    from scripts.project_first.boundaries import _pick_real_title_line
+
+    text = "SP03 · 31.6 °C · ε 0.95\n[ P R O J E C T 0 3 ]\nImpact-Resistant Composite Panel &\nDrop Tower"
+    assert _pick_real_title_line(text) == "Impact-Resistant Composite Panel & Drop Tower"
+
+
+def test_catalog_title_correction_requires_high_confidence_and_quality():
+    """
+    Integration-level check: every project whose title was corrected away
+    from the legacy catalog's title in the real pipeline output must have a
+    high-confidence, real-looking boundary title - never a low-confidence
+    guess or marker/annotation artifact.
+    """
+    from scripts.project_first.boundaries import looks_like_real_title
+    import json as _json
+
+    rec = _json.loads((REPO_ROOT / "docs" / "project-first" / "boundary_reconciliation.json").read_text(encoding="utf-8"))
+    cat = _json.loads(PROJECTS_CATALOG_PATH.read_text(encoding="utf-8"))
+    by_gn = {(p["guideId"], p["projectNumber"]): p for p in cat["projects"]}
+
+    checked = 0
+    for r in rec:
+        if r.get("catalogTitle") == "(none)":
+            continue
+        p = by_gn.get((r["guideId"], r["projectNumber"]))
+        if not p:
+            continue
+        actual_title = p["title"]
+        if actual_title != r["catalogTitle"] and actual_title == r.get("irTitle"):
+            # This project's displayed title was corrected to the IR title.
+            checked += 1
+            assert p["boundary"]["confidence"] >= 0.95, (
+                f"{p['projectId']} title was corrected from a boundary with confidence "
+                f"{p['boundary']['confidence']} - correction must require >= 0.95"
+            )
+            assert looks_like_real_title(actual_title), (
+                f"{p['projectId']} corrected title '{actual_title}' does not look like a real title"
+            )
+    assert checked > 0, "Expected at least one project to have a verified title correction"
+

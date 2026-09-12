@@ -40,6 +40,76 @@ def normalize_text(text: str) -> str:
     return re.sub(r'[^a-z0-9]', '', text.lower())
 
 
+def looks_like_real_title(line: Optional[str]) -> bool:
+    """
+    Guards against using a titleHint that is itself marker/index text, a
+    false-positive structural match, or an unrelated annotation caught in
+    the same literal block (e.g. a thermal-camera reading "SP03 . 31.6C .
+    e 0.95" printed above a project marker) as if it were a real project
+    title. A real title has multiple ASCII words, reasonable length, and
+    does not start with a marker glyph or read as a bare "PROJECT N" /
+    "UPGRADE N" / revision label.
+
+    Deliberately checks ASCII lowercase only (`[a-z]`), not `str.islower()`
+    - the latter also matches lowercase Greek/other Unicode letters (e.g.
+    "epsilon" in a sensor-reading annotation), which was a real bug: such an
+    annotation line was being accepted as a "title" purely because Python
+    considers a Greek lowercase letter to satisfy `.islower()`.
+    """
+    if not line:
+        return False
+    l = line.strip()
+    if len(l) < 6:
+        return False
+    if not re.search(r'[a-z]', l):
+        return False
+    if re.match(r'^[\[■❯→]', l):
+        return False
+    if re.match(r'^(project|upgrade|node|step)\s*0?\d', l, re.IGNORECASE):
+        return False
+    if re.search(r'\brev\s*[a-z]?\s*$', l, re.IGNORECASE):
+        return False
+    if len(l.split()) < 2:
+        return False
+    return True
+
+
+def _pick_real_title_line(text: str) -> Optional[str]:
+    """
+    A project's marker block often contains several lines: decorative
+    marker/index lines ("[ P R O J E C T 0 1 ]", "UPGRADE 02 * REV A",
+    "NODE 02 * ONLINE"), sometimes an unrelated annotation caught in the
+    same block, plus the actual descriptive title on another line. The
+    previous heuristic (always take line index 1) broke whenever a guide's
+    marker used 3+ lines - it would return the wrong line as the "title".
+
+    Returns the first line that passes the same `looks_like_real_title`
+    quality gate used by the caller, rather than a fixed line position or a
+    bare "any lowercase letter" test (too permissive - see that function's
+    docstring).
+    """
+    lines = [l.strip() for l in text.splitlines() if l.strip()]
+    if not lines:
+        return None
+    for idx, line in enumerate(lines):
+        if looks_like_real_title(line):
+            # Some titles wrap across two lines in the source layout and a
+            # dangling connector ("... Panel &") is a literal, reliable
+            # signal that the next line is a continuation, not unrelated
+            # text - joining them is still 100% the literal wording, just
+            # not artificially cut at the line break.
+            if re.search(r'[&,\-]\s*$', line) and idx + 1 < len(lines):
+                nxt = lines[idx + 1]
+                if not re.match(r'^[\[■❯→]', nxt) and re.search(r'[a-z]', nxt):
+                    return f"{line} {nxt}"
+            return line
+    # No line passed the quality gate: fall back to the previous positional
+    # heuristic. The caller still re-validates with looks_like_real_title()
+    # before ever using this as a correction, so a poor fallback here is
+    # simply ignored rather than accepted.
+    return lines[1] if len(lines) > 1 else lines[0]
+
+
 PATTERNS = [
     # 1. Bracket or symbol spaced project: [ P R O J E C T 0 1 ] or ■ P R O J E C T 0 1
     (r'(?:\[|■|■)\s*P\s*R\s*O\s*J\s*E\s*C\s*T\s*([0-9\s]+)', "ir_bracket_marker", 1.0),
@@ -102,8 +172,7 @@ def discover_projects_from_ir(
                         p_num = int(raw_num)
                         if not (1 <= p_num <= MAX_STRUCTURAL_PROJECT_NUMBER):
                             continue
-                        lines = [l.strip() for l in text.splitlines() if l.strip()]
-                        title = lines[1] if len(lines) > 1 else (lines[0] if lines else None)
+                        title = _pick_real_title_line(text)
 
                         raw_markers.append({
                             "projectNumber": p_num,

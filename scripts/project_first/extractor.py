@@ -50,6 +50,8 @@ from scripts.project_first.technical_identity import extract_technical_identity
 from scripts.project_first.boundaries import (
     discover_projects_from_ir,
     reconcile_boundaries_with_catalog,
+    normalize_text,
+    looks_like_real_title,
 )
 from scripts.project_first.structural_sections import (
     extract_structural_sections,
@@ -438,6 +440,28 @@ def extract_all_projects_forensic() -> Tuple[List[Project], List[Dict[str, Any]]
                 start_p = boundary.startPage
                 end_p = boundary.endPage
                 page_range_str = f"{start_p}-{end_p}" if start_p != end_p else str(start_p)
+
+                # The legacy catalog's title for this slot does not always
+                # correspond to what is actually at this IR-verified
+                # boundary (a pre-existing data problem in the catalog
+                # itself - see PROJECT_FIRST_CERTIFICATION_REPORT.md). When
+                # reconciliation shows a real mismatch and the independently
+                # discovered boundary has a real (non-marker) title, prefer
+                # the IR-verified title so the displayed title matches the
+                # content actually shown under it, rather than silently
+                # keeping a wrong catalog title paired with correct content.
+                if (
+                    boundary.titleHint
+                    and boundary.confidence >= 0.95
+                    and looks_like_real_title(boundary.titleHint)
+                ):
+                    cat_norm = normalize_text(title)
+                    ir_norm = normalize_text(boundary.titleHint)
+                    title_matches = (
+                        cat_norm in ir_norm or ir_norm in cat_norm or cat_norm[:15] == ir_norm[:15]
+                    )
+                    if not title_matches:
+                        title = boundary.titleHint.strip()
 
                 project_ir_blocks = []
                 for page in pages:

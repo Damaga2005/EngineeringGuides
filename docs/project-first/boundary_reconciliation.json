@@ -63,7 +63,7 @@
       8
     ],
     "irTitle": "AR Heads-Up Display Goggles",
-    "projectId": "proj-a6a7911d0a82e714",
+    "projectId": "proj-051f72e0a48446c7",
     "projectNumber": 2,
     "status": "PARTIAL_MATCH"
   },
@@ -97,7 +97,7 @@
       11
     ],
     "irTitle": "Autonomous Sentry Tower",
-    "projectId": "proj-7b3d0a559298c92a",
+    "projectId": "proj-4400b52b3d14d8d1",
     "projectNumber": 3,
     "status": "PARTIAL_MATCH"
   },
@@ -131,7 +131,7 @@
       13
     ],
     "irTitle": "RF Ground Station",
-    "projectId": "proj-cff102681e8f1361",
+    "projectId": "proj-90d297a495fbbc2d",
     "projectNumber": 4,
     "status": "PARTIAL_MATCH"
   },
@@ -165,7 +165,7 @@
       15
     ],
     "irTitle": "Mesh Field Radio",
-    "projectId": "proj-8df10854ea1082a6",
+    "projectId": "proj-92139980dfd95e5e",
     "projectNumber": 5,
     "status": "PARTIAL_MATCH"
   },
@@ -199,7 +199,7 @@
       15
     ],
     "irTitle": "Command Map (Common Operating",
-    "projectId": "proj-a74b6ca7835233c4",
+    "projectId": "proj-651c9fd23a05ef37",
     "projectNumber": 6,
     "status": "BOUNDARY_MISMATCH"
   },
@@ -229,7 +229,7 @@
       7,
       8
     ],
-    "irTitle": "7 / 18",
+    "irTitle": "see everything coming — a Build List field guide",
     "projectId": "ir-only-guide-001-p07",
     "projectNumber": 7,
     "status": "MISSING_IN_CATALOG"
@@ -260,7 +260,7 @@
       8,
       9
     ],
-    "irTitle": "8 / 18",
+    "irTitle": "see everything coming — a Build List field guide",
     "projectId": "ir-only-guide-001-p08",
     "projectNumber": 8,
     "status": "MISSING_IN_CATALOG"
@@ -291,7 +291,7 @@
       9,
       10
     ],
-    "irTitle": "9 / 18",
+    "irTitle": "see everything coming — a Build List field guide",
     "projectId": "ir-only-guide-001-p09",
     "projectNumber": 9,
     "status": "MISSING_IN_CATALOG"
@@ -322,7 +322,7 @@
       10,
       11
     ],
-    "irTitle": "10 / 18",
+    "irTitle": "see everything coming — a Build List field guide",
     "projectId": "ir-only-guide-001-p10",
     "projectNumber": 10,
     "status": "MISSING_IN_CATALOG"
@@ -353,7 +353,7 @@
       11,
       12
     ],
-    "irTitle": "11 / 18",
+    "irTitle": "see everything coming — a Build List field guide",
     "projectId": "ir-only-guide-001-p11",
     "projectNumber": 11,
     "status": "MISSING_IN_CATALOG"
@@ -384,7 +384,7 @@
       12,
       13
     ],
-    "irTitle": "12 / 18",
+    "irTitle": "see everything coming — a Build List field guide",
     "projectId": "ir-only-guide-001-p12",
     "projectNumber": 12,
     "status": "MISSING_IN_CATALOG"
@@ -415,7 +415,7 @@
       13,
       14
     ],
-    "irTitle": "13 / 18",
+    "irTitle": "see everything coming — a Build List field guide",
     "projectId": "ir-only-guide-001-p13",
     "projectNumber": 13,
     "status": "MISSING_IN_CATALOG"
@@ -446,7 +446,7 @@
       14,
       15
     ],
-    "irTitle": "14 / 18",
+    "irTitle": "see everything coming — a Build List field guide",
     "projectId": "ir-only-guide-001-p14",
     "projectNumber": 14,
     "status": "MISSING_IN_CATALOG"
@@ -477,7 +477,7 @@
       15,
       16
     ],
-    "irTitle": "15 / 18",
+    "irTitle": "see everything coming — a Build List field guide",
     "projectId": "ir-only-guide-001-p15",
     "projectNumber": 15,
     "status": "MISSING_IN_CATALOG"
@@ -508,7 +508,7 @@
       16,
       17
     ],
-    "irTitle": "16 / 18",
+    "irTitle": "see everything coming — a Build List field guide",
     "projectId": "ir-only-guide-001-p16",
     "projectNumber": 16,
     "status": "MISSING_IN_CATALOG"
@@ -539,7 +539,7 @@
       17,
       18
     ],
-    "irTitle": "17 / 18",
+    "irTitle": "see everything coming — a Build List field guide",
     "projectId": "ir-only-guide-001-p17",
     "projectNumber": 17,
     "status": "MISSING_IN_CATALOG"
@@ -570,7 +570,7 @@
       18,
       18
     ],
-    "irTitle": "18 / 18",
+    "irTitle": "see everything coming — a Build List field guide",
     "projectId": "ir-only-guide-001-p18",
     "projectNumber": 18,
     "status": "MISSING_IN_CATALOG"
@@ -646,7 +646,7 @@
       7
     ],
     "catalogTitle": "Obstacle-Avoidance Sensor Ring",
-    "discrepancyNote": "Page range matched [4, 7], title discrepancy: 'Obstacle-Avoidance Sensor Ring' vs '[ U P G R A D E 0 2 ]'.",
+    "discrepancyNote": "Exact title and boundary match.",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -669,10 +669,10 @@
       4,
       7
     ],
-    "irTitle": "[ U P G R A D E 0 2 ]",
+    "irTitle": "Obstacle-Avoidance Sensor Ring",
     "projectId": "proj-7251513973158948",
     "projectNumber": 2,
-    "status": "PARTIAL_MATCH"
+    "status": "MATCH"
   },
   {
     "catalogPageRange": [
@@ -805,7 +805,7 @@
       13,
       13
     ],
-    "irTitle": "[ U P G R A D E 0 6 ]",
+    "irTitle": "Signal-Mapping Payload",
     "projectId": "proj-a906f1e86a9caa9f",
     "projectNumber": 6,
     "status": "BOUNDARY_MISMATCH"
@@ -836,7 +836,7 @@
       7,
       8
     ],
-    "irTitle": "7 / 16",
+    "irTitle": "drone upgrades — a Build List field guide",
     "projectId": "ir-only-guide-002-p07",
     "projectNumber": 7,
     "status": "MISSING_IN_CATALOG"
@@ -867,7 +867,7 @@
       8,
       9
     ],
-    "irTitle": "8 / 16",
+    "irTitle": "drone upgrades — a Build List field guide",
     "projectId": "ir-only-guide-002-p08",
     "projectNumber": 8,
     "status": "MISSING_IN_CATALOG"
@@ -898,7 +898,7 @@
       9,
       10
     ],
-    "irTitle": "9 / 16",
+    "irTitle": "drone upgrades — a Build List field guide",
     "projectId": "ir-only-guide-002-p09",
     "projectNumber": 9,
     "status": "MISSING_IN_CATALOG"
@@ -929,7 +929,7 @@
       10,
       11
     ],
-    "irTitle": "10 / 16",
+    "irTitle": "drone upgrades — a Build List field guide",
     "projectId": "ir-only-guide-002-p10",
     "projectNumber": 10,
     "status": "MISSING_IN_CATALOG"
@@ -960,7 +960,7 @@
       11,
       12
     ],
-    "irTitle": "11 / 16",
+    "irTitle": "drone upgrades — a Build List field guide",
     "projectId": "ir-only-guide-002-p11",
     "projectNumber": 11,
     "status": "MISSING_IN_CATALOG"
@@ -991,7 +991,7 @@
       12,
       13
     ],
-    "irTitle": "12 / 16",
+    "irTitle": "drone upgrades — a Build List field guide",
     "projectId": "ir-only-guide-002-p12",
     "projectNumber": 12,
     "status": "MISSING_IN_CATALOG"
@@ -1022,7 +1022,7 @@
       13,
       14
     ],
-    "irTitle": "13 / 16",
+    "irTitle": "drone upgrades — a Build List field guide",
     "projectId": "ir-only-guide-002-p13",
     "projectNumber": 13,
     "status": "MISSING_IN_CATALOG"
@@ -1053,7 +1053,7 @@
       14,
       15
     ],
-    "irTitle": "14 / 16",
+    "irTitle": "drone upgrades — a Build List field guide",
     "projectId": "ir-only-guide-002-p14",
     "projectNumber": 14,
     "status": "MISSING_IN_CATALOG"
@@ -1084,7 +1084,7 @@
       15,
       16
     ],
-    "irTitle": "15 / 16",
+    "irTitle": "drone upgrades — a Build List field guide",
     "projectId": "ir-only-guide-002-p15",
     "projectNumber": 15,
     "status": "MISSING_IN_CATALOG"
@@ -1115,7 +1115,7 @@
       16,
       16
     ],
-    "irTitle": "16 / 16",
+    "irTitle": "drone upgrades — a Build List field guide",
     "projectId": "ir-only-guide-002-p16",
     "projectNumber": 16,
     "status": "MISSING_IN_CATALOG"
@@ -1252,7 +1252,7 @@
       15
     ],
     "irTitle": "Satellite-in-a-Box Flight Computer",
-    "projectId": "proj-c552597bc8d468cc",
+    "projectId": "proj-07abe9bee1e961a9",
     "projectNumber": 4,
     "status": "PARTIAL_MATCH"
   },
@@ -1286,7 +1286,7 @@
       18
     ],
     "irTitle": "Sun-Vector Sensor",
-    "projectId": "proj-4e59318e9573e811",
+    "projectId": "proj-4ae8358f5ebb56d0",
     "projectNumber": 5,
     "status": "PARTIAL_MATCH"
   },
@@ -1422,7 +1422,7 @@
       12
     ],
     "irTitle": "Radio Meteor Detector",
-    "projectId": "proj-d9a1ad8519965884",
+    "projectId": "proj-5f285a322ebfc12b",
     "projectNumber": 3,
     "status": "PARTIAL_MATCH"
   },
@@ -1456,7 +1456,7 @@
       15
     ],
     "irTitle": "AIS Ship Tracker",
-    "projectId": "proj-53dcbf9d339e022d",
+    "projectId": "proj-2d95ff798680784e",
     "projectNumber": 4,
     "status": "PARTIAL_MATCH"
   },
@@ -1490,7 +1490,7 @@
       18
     ],
     "irTitle": "433 MHz Sensor Decoder",
-    "projectId": "proj-ea0a6ca4f058bde4",
+    "projectId": "proj-9af622f0f931b959",
     "projectNumber": 5,
     "status": "PARTIAL_MATCH"
   },
@@ -1524,7 +1524,7 @@
       23
     ],
     "irTitle": "Radiosonde Tracker & Recovery",
-    "projectId": "proj-529f0d836c079877",
+    "projectId": "proj-3bab84be8f44c317",
     "projectNumber": 6,
     "status": "PARTIAL_MATCH"
   },
@@ -1558,7 +1558,7 @@
       3
     ],
     "irTitle": "H-Bridge DC Motor Driver",
-    "projectId": "proj-097a8eaf224741a8",
+    "projectId": "proj-bcfd9fbeaa87c10d",
     "projectNumber": 1,
     "status": "PARTIAL_MATCH"
   },
@@ -1592,7 +1592,7 @@
       6
     ],
     "irTitle": "Closed-Loop Position Servo",
-    "projectId": "proj-f353d8bac54c1f1e",
+    "projectId": "proj-83e9902d5c3b038a",
     "projectNumber": 2,
     "status": "PARTIAL_MATCH"
   },
@@ -1626,7 +1626,7 @@
       9
     ],
     "irTitle": "Self-Balancing Robot",
-    "projectId": "proj-49c8ccba97aec32a",
+    "projectId": "proj-27a016a189140ed2",
     "projectNumber": 3,
     "status": "PARTIAL_MATCH"
   },
@@ -1660,7 +1660,7 @@
       12
     ],
     "irTitle": "FOC Brushless Motor Drive",
-    "projectId": "proj-c1422fd48562f524",
+    "projectId": "proj-81c9a2c04fc24060",
     "projectNumber": 4,
     "status": "PARTIAL_MATCH"
   },
@@ -1694,7 +1694,7 @@
       15
     ],
     "irTitle": "2-Axis Pen Plotter",
-    "projectId": "proj-f279f4481f7b38bd",
+    "projectId": "proj-b0370f60d9b162c5",
     "projectNumber": 5,
     "status": "PARTIAL_MATCH"
   },
@@ -1728,7 +1728,7 @@
       16
     ],
     "irTitle": "Haptic Smart Knob",
-    "projectId": "proj-d69245bb938183fc",
+    "projectId": "proj-c5bf47262bc94293",
     "projectNumber": 6,
     "status": "BOUNDARY_MISMATCH"
   },
@@ -1758,7 +1758,7 @@
       7,
       8
     ],
-    "irTitle": "7 / 19",
+    "irTitle": "motion control — a Build List field guide",
     "projectId": "ir-only-guide-005-p07",
     "projectNumber": 7,
     "status": "MISSING_IN_CATALOG"
@@ -1789,7 +1789,7 @@
       8,
       9
     ],
-    "irTitle": "8 / 19",
+    "irTitle": "motion control — a Build List field guide",
     "projectId": "ir-only-guide-005-p08",
     "projectNumber": 8,
     "status": "MISSING_IN_CATALOG"
@@ -1820,7 +1820,7 @@
       9,
       10
     ],
-    "irTitle": "9 / 19",
+    "irTitle": "motion control — a Build List field guide",
     "projectId": "ir-only-guide-005-p09",
     "projectNumber": 9,
     "status": "MISSING_IN_CATALOG"
@@ -1851,7 +1851,7 @@
       10,
       11
     ],
-    "irTitle": "10 / 19",
+    "irTitle": "motion control — a Build List field guide",
     "projectId": "ir-only-guide-005-p10",
     "projectNumber": 10,
     "status": "MISSING_IN_CATALOG"
@@ -1882,7 +1882,7 @@
       11,
       12
     ],
-    "irTitle": "11 / 19",
+    "irTitle": "motion control — a Build List field guide",
     "projectId": "ir-only-guide-005-p11",
     "projectNumber": 11,
     "status": "MISSING_IN_CATALOG"
@@ -1913,7 +1913,7 @@
       12,
       13
     ],
-    "irTitle": "12 / 19",
+    "irTitle": "motion control — a Build List field guide",
     "projectId": "ir-only-guide-005-p12",
     "projectNumber": 12,
     "status": "MISSING_IN_CATALOG"
@@ -1944,7 +1944,7 @@
       13,
       14
     ],
-    "irTitle": "13 / 19",
+    "irTitle": "motion control — a Build List field guide",
     "projectId": "ir-only-guide-005-p13",
     "projectNumber": 13,
     "status": "MISSING_IN_CATALOG"
@@ -1975,7 +1975,7 @@
       14,
       15
     ],
-    "irTitle": "14 / 19",
+    "irTitle": "motion control — a Build List field guide",
     "projectId": "ir-only-guide-005-p14",
     "projectNumber": 14,
     "status": "MISSING_IN_CATALOG"
@@ -2006,7 +2006,7 @@
       15,
       16
     ],
-    "irTitle": "15 / 19",
+    "irTitle": "motion control — a Build List field guide",
     "projectId": "ir-only-guide-005-p15",
     "projectNumber": 15,
     "status": "MISSING_IN_CATALOG"
@@ -2037,7 +2037,7 @@
       16,
       17
     ],
-    "irTitle": "16 / 19",
+    "irTitle": "motion control — a Build List field guide",
     "projectId": "ir-only-guide-005-p16",
     "projectNumber": 16,
     "status": "MISSING_IN_CATALOG"
@@ -2068,7 +2068,7 @@
       17,
       18
     ],
-    "irTitle": "17 / 19",
+    "irTitle": "motion control — a Build List field guide",
     "projectId": "ir-only-guide-005-p17",
     "projectNumber": 17,
     "status": "MISSING_IN_CATALOG"
@@ -2099,7 +2099,7 @@
       18,
       19
     ],
-    "irTitle": "18 / 19",
+    "irTitle": "motion control — a Build List field guide",
     "projectId": "ir-only-guide-005-p18",
     "projectNumber": 18,
     "status": "MISSING_IN_CATALOG"
@@ -2130,7 +2130,7 @@
       19,
       19
     ],
-    "irTitle": "19 / 19",
+    "irTitle": "motion control — a Build List field guide",
     "projectId": "ir-only-guide-005-p19",
     "projectNumber": 19,
     "status": "MISSING_IN_CATALOG"
@@ -2365,7 +2365,7 @@
       7,
       8
     ],
-    "irTitle": "7 / 20",
+    "irTitle": "flight control · motor drive · rf links · power — a Build List field guide",
     "projectId": "ir-only-guide-006-p07",
     "projectNumber": 7,
     "status": "MISSING_IN_CATALOG"
@@ -2396,7 +2396,7 @@
       8,
       9
     ],
-    "irTitle": "8 / 20",
+    "irTitle": "flight control · motor drive · rf links · power — a Build List field guide",
     "projectId": "ir-only-guide-006-p08",
     "projectNumber": 8,
     "status": "MISSING_IN_CATALOG"
@@ -2427,7 +2427,7 @@
       9,
       10
     ],
-    "irTitle": "9 / 20",
+    "irTitle": "flight control · motor drive · rf links · power — a Build List field guide",
     "projectId": "ir-only-guide-006-p09",
     "projectNumber": 9,
     "status": "MISSING_IN_CATALOG"
@@ -2458,7 +2458,7 @@
       10,
       11
     ],
-    "irTitle": "10 / 20",
+    "irTitle": "flight control · motor drive · rf links · power — a Build List field guide",
     "projectId": "ir-only-guide-006-p10",
     "projectNumber": 10,
     "status": "MISSING_IN_CATALOG"
@@ -2489,7 +2489,7 @@
       11,
       12
     ],
-    "irTitle": "11 / 20",
+    "irTitle": "flight control · motor drive · rf links · power — a Build List field guide",
     "projectId": "ir-only-guide-006-p11",
     "projectNumber": 11,
     "status": "MISSING_IN_CATALOG"
@@ -2520,7 +2520,7 @@
       12,
       13
     ],
-    "irTitle": "12 / 20",
+    "irTitle": "flight control · motor drive · rf links · power — a Build List field guide",
     "projectId": "ir-only-guide-006-p12",
     "projectNumber": 12,
     "status": "MISSING_IN_CATALOG"
@@ -2551,7 +2551,7 @@
       13,
       14
     ],
-    "irTitle": "13 / 20",
+    "irTitle": "flight control · motor drive · rf links · power — a Build List field guide",
     "projectId": "ir-only-guide-006-p13",
     "projectNumber": 13,
     "status": "MISSING_IN_CATALOG"
@@ -2582,7 +2582,7 @@
       14,
       15
     ],
-    "irTitle": "14 / 20",
+    "irTitle": "flight control · motor drive · rf links · power — a Build List field guide",
     "projectId": "ir-only-guide-006-p14",
     "projectNumber": 14,
     "status": "MISSING_IN_CATALOG"
@@ -2613,7 +2613,7 @@
       15,
       16
     ],
-    "irTitle": "15 / 20",
+    "irTitle": "flight control · motor drive · rf links · power — a Build List field guide",
     "projectId": "ir-only-guide-006-p15",
     "projectNumber": 15,
     "status": "MISSING_IN_CATALOG"
@@ -2644,7 +2644,7 @@
       16,
       17
     ],
-    "irTitle": "16 / 20",
+    "irTitle": "flight control · motor drive · rf links · power — a Build List field guide",
     "projectId": "ir-only-guide-006-p16",
     "projectNumber": 16,
     "status": "MISSING_IN_CATALOG"
@@ -2675,7 +2675,7 @@
       17,
       18
     ],
-    "irTitle": "17 / 20",
+    "irTitle": "flight control · motor drive · rf links · power — a Build List field guide",
     "projectId": "ir-only-guide-006-p17",
     "projectNumber": 17,
     "status": "MISSING_IN_CATALOG"
@@ -2706,7 +2706,7 @@
       18,
       19
     ],
-    "irTitle": "18 / 20",
+    "irTitle": "flight control · motor drive · rf links · power — a Build List field guide",
     "projectId": "ir-only-guide-006-p18",
     "projectNumber": 18,
     "status": "MISSING_IN_CATALOG"
@@ -2737,7 +2737,7 @@
       19,
       20
     ],
-    "irTitle": "19 / 20",
+    "irTitle": "flight control · motor drive · rf links · power — a Build List field guide",
     "projectId": "ir-only-guide-006-p19",
     "projectNumber": 19,
     "status": "MISSING_IN_CATALOG"
@@ -2768,7 +2768,7 @@
       20,
       20
     ],
-    "irTitle": "20 / 20",
+    "irTitle": "flight control · motor drive · rf links · power — a Build List field guide",
     "projectId": "ir-only-guide-006-p20",
     "projectNumber": 20,
     "status": "MISSING_IN_CATALOG"
@@ -2803,7 +2803,7 @@
       5
     ],
     "irTitle": "GOES Earth Receiver",
-    "projectId": "proj-63a47ba3fd3f219d",
+    "projectId": "proj-42a2b0aa016cd341",
     "projectNumber": 1,
     "status": "PARTIAL_MATCH"
   },
@@ -2905,7 +2905,7 @@
       14
     ],
     "irTitle": "Camera Star Tracker",
-    "projectId": "proj-ab2410b28d3cebe9",
+    "projectId": "proj-b1047df1d415ff14",
     "projectNumber": 4,
     "status": "PARTIAL_MATCH"
   },
@@ -3007,7 +3007,7 @@
       4
     ],
     "irTitle": "Optical Pulse Sensor (PPG)",
-    "projectId": "proj-ce306b5cb95f8c2a",
+    "projectId": "proj-459a2ee6506bd00d",
     "projectNumber": 1,
     "status": "PARTIAL_MATCH"
   },
@@ -3041,7 +3041,7 @@
       7
     ],
     "irTitle": "Biopotential Front End",
-    "projectId": "proj-2f202e89ff045441",
+    "projectId": "proj-9e1e977f64e4bc67",
     "projectNumber": 2,
     "status": "PARTIAL_MATCH"
   },
@@ -3075,7 +3075,7 @@
       11
     ],
     "irTitle": "ECG Heart Monitor",
-    "projectId": "proj-f04cc7365f79eb84",
+    "projectId": "proj-af3aa771b9d40821",
     "projectNumber": 3,
     "status": "PARTIAL_MATCH"
   },
@@ -3109,7 +3109,7 @@
       13
     ],
     "irTitle": "EMG Muscle Sensor",
-    "projectId": "proj-02bea515e35b1b01",
+    "projectId": "proj-105fe41205873a2c",
     "projectNumber": 4,
     "status": "PARTIAL_MATCH"
   },
@@ -3143,7 +3143,7 @@
       16
     ],
     "irTitle": "EMG-Controlled Robotic Hand",
-    "projectId": "proj-b02bcca777dfb105",
+    "projectId": "proj-8f3eac46c3909e24",
     "projectNumber": 5,
     "status": "PARTIAL_MATCH"
   },
@@ -3177,7 +3177,7 @@
       17
     ],
     "irTitle": "EEG Alpha-Wave Detector",
-    "projectId": "proj-a8e6f7c0ed91345a",
+    "projectId": "proj-d747988ca540ea48",
     "projectNumber": 6,
     "status": "BOUNDARY_MISMATCH"
   },
@@ -3207,7 +3207,7 @@
       7,
       8
     ],
-    "irTitle": "7 / 20",
+    "irTitle": "reading the body — a Build List field guide",
     "projectId": "ir-only-guide-008-p07",
     "projectNumber": 7,
     "status": "MISSING_IN_CATALOG"
@@ -3238,7 +3238,7 @@
       8,
       8
     ],
-    "irTitle": "8 / 20",
+    "irTitle": "reading the body — a Build List field guide",
     "projectId": "ir-only-guide-008-p08",
     "projectNumber": 8,
     "status": "MISSING_IN_CATALOG"
@@ -3300,7 +3300,7 @@
       10,
       11
     ],
-    "irTitle": "10 / 20",
+    "irTitle": "reading the body — a Build List field guide",
     "projectId": "ir-only-guide-008-p10",
     "projectNumber": 10,
     "status": "MISSING_IN_CATALOG"
@@ -3331,7 +3331,7 @@
       11,
       12
     ],
-    "irTitle": "11 / 20",
+    "irTitle": "reading the body — a Build List field guide",
     "projectId": "ir-only-guide-008-p11",
     "projectNumber": 11,
     "status": "MISSING_IN_CATALOG"
@@ -3362,7 +3362,7 @@
       12,
       13
     ],
-    "irTitle": "12 / 20",
+    "irTitle": "reading the body — a Build List field guide",
     "projectId": "ir-only-guide-008-p12",
     "projectNumber": 12,
     "status": "MISSING_IN_CATALOG"
@@ -3393,7 +3393,7 @@
       13,
       14
     ],
-    "irTitle": "13 / 20",
+    "irTitle": "reading the body — a Build List field guide",
     "projectId": "ir-only-guide-008-p13",
     "projectNumber": 13,
     "status": "MISSING_IN_CATALOG"
@@ -3424,7 +3424,7 @@
       14,
       15
     ],
-    "irTitle": "14 / 20",
+    "irTitle": "reading the body — a Build List field guide",
     "projectId": "ir-only-guide-008-p14",
     "projectNumber": 14,
     "status": "MISSING_IN_CATALOG"
@@ -3455,7 +3455,7 @@
       15,
       16
     ],
-    "irTitle": "15 / 20",
+    "irTitle": "reading the body — a Build List field guide",
     "projectId": "ir-only-guide-008-p15",
     "projectNumber": 15,
     "status": "MISSING_IN_CATALOG"
@@ -3486,7 +3486,7 @@
       16,
       17
     ],
-    "irTitle": "16 / 20",
+    "irTitle": "reading the body — a Build List field guide",
     "projectId": "ir-only-guide-008-p16",
     "projectNumber": 16,
     "status": "MISSING_IN_CATALOG"
@@ -3517,7 +3517,7 @@
       17,
       18
     ],
-    "irTitle": "17 / 20",
+    "irTitle": "reading the body — a Build List field guide",
     "projectId": "ir-only-guide-008-p17",
     "projectNumber": 17,
     "status": "MISSING_IN_CATALOG"
@@ -3548,7 +3548,7 @@
       18,
       19
     ],
-    "irTitle": "18 / 20",
+    "irTitle": "reading the body — a Build List field guide",
     "projectId": "ir-only-guide-008-p18",
     "projectNumber": 18,
     "status": "MISSING_IN_CATALOG"
@@ -3579,7 +3579,7 @@
       19,
       20
     ],
-    "irTitle": "19 / 20",
+    "irTitle": "reading the body — a Build List field guide",
     "projectId": "ir-only-guide-008-p19",
     "projectNumber": 19,
     "status": "MISSING_IN_CATALOG"
@@ -3610,7 +3610,7 @@
       20,
       20
     ],
-    "irTitle": "20 / 20",
+    "irTitle": "reading the body — a Build List field guide",
     "projectId": "ir-only-guide-008-p20",
     "projectNumber": 20,
     "status": "MISSING_IN_CATALOG"
@@ -3641,7 +3641,7 @@
       19,
       19
     ],
-    "irTitle": "30 Hz with a mains notch. Keep leads short and shielded and run everything from",
+    "irTitle": "Assemble the front end with very high gain, split across stages, band-passed to about 1–",
     "projectId": "ir-only-guide-008-p30",
     "projectNumber": 30,
     "status": "MISSING_IN_CATALOG"
@@ -3672,7 +3672,7 @@
       6,
       20
     ],
-    "irTitle": "roughly 20–450 Hz, EEG roughly 1–30 Hz. Band-pass to that window (plus an optional 50 /",
+    "irTitle": "Filtering to the band you want: Each biosignal has a band: ECG roughly 0.5–40 Hz, EMG",
     "projectId": "ir-only-guide-008-p60",
     "projectNumber": 60,
     "status": "MISSING_IN_CATALOG"
@@ -3809,7 +3809,7 @@
       11
     ],
     "irTitle": "Laser Data Link (Free-Space Optical Comms)",
-    "projectId": "proj-1cef58ba65d1d5e5",
+    "projectId": "proj-d79f6db1768ac1bb",
     "projectNumber": 4,
     "status": "PARTIAL_MATCH"
   },
@@ -3843,7 +3843,7 @@
       14
     ],
     "irTitle": "Laser Vibrometer",
-    "projectId": "proj-052a5c03c6733f19",
+    "projectId": "proj-329345bd47e40ee9",
     "projectNumber": 5,
     "status": "PARTIAL_MATCH"
   },
@@ -3907,7 +3907,7 @@
       7,
       8
     ],
-    "irTitle": "7 / 18",
+    "irTitle": "seeing with light — a Build List field guide",
     "projectId": "ir-only-guide-009-p07",
     "projectNumber": 7,
     "status": "MISSING_IN_CATALOG"
@@ -3938,7 +3938,7 @@
       8,
       9
     ],
-    "irTitle": "8 / 18",
+    "irTitle": "seeing with light — a Build List field guide",
     "projectId": "ir-only-guide-009-p08",
     "projectNumber": 8,
     "status": "MISSING_IN_CATALOG"
@@ -3969,7 +3969,7 @@
       9,
       10
     ],
-    "irTitle": "9 / 18",
+    "irTitle": "seeing with light — a Build List field guide",
     "projectId": "ir-only-guide-009-p09",
     "projectNumber": 9,
     "status": "MISSING_IN_CATALOG"
@@ -4000,7 +4000,7 @@
       10,
       11
     ],
-    "irTitle": "10 / 18",
+    "irTitle": "seeing with light — a Build List field guide",
     "projectId": "ir-only-guide-009-p10",
     "projectNumber": 10,
     "status": "MISSING_IN_CATALOG"
@@ -4031,7 +4031,7 @@
       11,
       12
     ],
-    "irTitle": "11 / 18",
+    "irTitle": "seeing with light — a Build List field guide",
     "projectId": "ir-only-guide-009-p11",
     "projectNumber": 11,
     "status": "MISSING_IN_CATALOG"
@@ -4062,7 +4062,7 @@
       12,
       13
     ],
-    "irTitle": "12 / 18",
+    "irTitle": "seeing with light — a Build List field guide",
     "projectId": "ir-only-guide-009-p12",
     "projectNumber": 12,
     "status": "MISSING_IN_CATALOG"
@@ -4093,7 +4093,7 @@
       13,
       14
     ],
-    "irTitle": "13 / 18",
+    "irTitle": "seeing with light — a Build List field guide",
     "projectId": "ir-only-guide-009-p13",
     "projectNumber": 13,
     "status": "MISSING_IN_CATALOG"
@@ -4124,7 +4124,7 @@
       14,
       15
     ],
-    "irTitle": "14 / 18",
+    "irTitle": "seeing with light — a Build List field guide",
     "projectId": "ir-only-guide-009-p14",
     "projectNumber": 14,
     "status": "MISSING_IN_CATALOG"
@@ -4155,7 +4155,7 @@
       15,
       16
     ],
-    "irTitle": "15 / 18",
+    "irTitle": "seeing with light — a Build List field guide",
     "projectId": "ir-only-guide-009-p15",
     "projectNumber": 15,
     "status": "MISSING_IN_CATALOG"
@@ -4186,7 +4186,7 @@
       16,
       17
     ],
-    "irTitle": "16 / 18",
+    "irTitle": "seeing with light — a Build List field guide",
     "projectId": "ir-only-guide-009-p16",
     "projectNumber": 16,
     "status": "MISSING_IN_CATALOG"
@@ -4217,7 +4217,7 @@
       17,
       18
     ],
-    "irTitle": "17 / 18",
+    "irTitle": "seeing with light — a Build List field guide",
     "projectId": "ir-only-guide-009-p17",
     "projectNumber": 17,
     "status": "MISSING_IN_CATALOG"
@@ -4248,7 +4248,7 @@
       18,
       18
     ],
-    "irTitle": "18 / 18",
+    "irTitle": "seeing with light — a Build List field guide",
     "projectId": "ir-only-guide-009-p18",
     "projectNumber": 18,
     "status": "MISSING_IN_CATALOG"
@@ -4419,7 +4419,7 @@
       15
     ],
     "irTitle": "WiFi-Sensing Motion Detector",
-    "projectId": "proj-4902d58497d90422",
+    "projectId": "proj-34f8130b926946da",
     "projectNumber": 5,
     "status": "PARTIAL_MATCH"
   },
@@ -4453,7 +4453,7 @@
       16
     ],
     "irTitle": "Passive Radar",
-    "projectId": "proj-82f234929af2fa43",
+    "projectId": "proj-0e3437e72056994b",
     "projectNumber": 6,
     "status": "BOUNDARY_MISMATCH"
   },
@@ -4483,7 +4483,7 @@
       7,
       8
     ],
-    "irTitle": "7 / 19",
+    "irTitle": "seeing with radio — a Build List field guide",
     "projectId": "ir-only-guide-010-p07",
     "projectNumber": 7,
     "status": "MISSING_IN_CATALOG"
@@ -4514,7 +4514,7 @@
       8,
       9
     ],
-    "irTitle": "8 / 19",
+    "irTitle": "seeing with radio — a Build List field guide",
     "projectId": "ir-only-guide-010-p08",
     "projectNumber": 8,
     "status": "MISSING_IN_CATALOG"
@@ -4545,7 +4545,7 @@
       9,
       10
     ],
-    "irTitle": "9 / 19",
+    "irTitle": "seeing with radio — a Build List field guide",
     "projectId": "ir-only-guide-010-p09",
     "projectNumber": 9,
     "status": "MISSING_IN_CATALOG"
@@ -4576,7 +4576,7 @@
       10,
       11
     ],
-    "irTitle": "10 / 19",
+    "irTitle": "seeing with radio — a Build List field guide",
     "projectId": "ir-only-guide-010-p10",
     "projectNumber": 10,
     "status": "MISSING_IN_CATALOG"
@@ -4607,7 +4607,7 @@
       11,
       12
     ],
-    "irTitle": "11 / 19",
+    "irTitle": "seeing with radio — a Build List field guide",
     "projectId": "ir-only-guide-010-p11",
     "projectNumber": 11,
     "status": "MISSING_IN_CATALOG"
@@ -4638,7 +4638,7 @@
       12,
       13
     ],
-    "irTitle": "12 / 19",
+    "irTitle": "seeing with radio — a Build List field guide",
     "projectId": "ir-only-guide-010-p12",
     "projectNumber": 12,
     "status": "MISSING_IN_CATALOG"
@@ -4669,7 +4669,7 @@
       13,
       14
     ],
-    "irTitle": "13 / 19",
+    "irTitle": "seeing with radio — a Build List field guide",
     "projectId": "ir-only-guide-010-p13",
     "projectNumber": 13,
     "status": "MISSING_IN_CATALOG"
@@ -4700,7 +4700,7 @@
       14,
       15
     ],
-    "irTitle": "14 / 19",
+    "irTitle": "seeing with radio — a Build List field guide",
     "projectId": "ir-only-guide-010-p14",
     "projectNumber": 14,
     "status": "MISSING_IN_CATALOG"
@@ -4731,7 +4731,7 @@
       15,
       16
     ],
-    "irTitle": "15 / 19",
+    "irTitle": "seeing with radio — a Build List field guide",
     "projectId": "ir-only-guide-010-p15",
     "projectNumber": 15,
     "status": "MISSING_IN_CATALOG"
@@ -4762,7 +4762,7 @@
       16,
       17
     ],
-    "irTitle": "16 / 19",
+    "irTitle": "seeing with radio — a Build List field guide",
     "projectId": "ir-only-guide-010-p16",
     "projectNumber": 16,
     "status": "MISSING_IN_CATALOG"
@@ -4793,7 +4793,7 @@
       17,
       18
     ],
-    "irTitle": "17 / 19",
+    "irTitle": "seeing with radio — a Build List field guide",
     "projectId": "ir-only-guide-010-p17",
     "projectNumber": 17,
     "status": "MISSING_IN_CATALOG"
@@ -4824,7 +4824,7 @@
       18,
       19
     ],
-    "irTitle": "18 / 19",
+    "irTitle": "seeing with radio — a Build List field guide",
     "projectId": "ir-only-guide-010-p18",
     "projectNumber": 18,
     "status": "MISSING_IN_CATALOG"
@@ -4855,7 +4855,7 @@
       19,
       19
     ],
-    "irTitle": "19 / 19",
+    "irTitle": "seeing with radio — a Build List field guide",
     "projectId": "ir-only-guide-010-p19",
     "projectNumber": 19,
     "status": "MISSING_IN_CATALOG"
@@ -4886,7 +4886,7 @@
       8,
       19
     ],
-    "irTitle": "dev board (IPM-165 / BGT24) or coffee-can horns",
+    "irTitle": "24 GHz module or 2 cans",
     "projectId": "ir-only-guide-010-p24",
     "projectNumber": 24,
     "status": "MISSING_IN_CATALOG"
@@ -5121,7 +5121,7 @@
       7,
       8
     ],
-    "irTitle": "7 / 17",
+    "irTitle": "defense signals — a Build List field guide",
     "projectId": "ir-only-guide-011-p07",
     "projectNumber": 7,
     "status": "MISSING_IN_CATALOG"
@@ -5152,7 +5152,7 @@
       8,
       9
     ],
-    "irTitle": "8 / 17",
+    "irTitle": "defense signals — a Build List field guide",
     "projectId": "ir-only-guide-011-p08",
     "projectNumber": 8,
     "status": "MISSING_IN_CATALOG"
@@ -5183,7 +5183,7 @@
       9,
       10
     ],
-    "irTitle": "9 / 17",
+    "irTitle": "defense signals — a Build List field guide",
     "projectId": "ir-only-guide-011-p09",
     "projectNumber": 9,
     "status": "MISSING_IN_CATALOG"
@@ -5214,7 +5214,7 @@
       10,
       11
     ],
-    "irTitle": "10 / 17",
+    "irTitle": "defense signals — a Build List field guide",
     "projectId": "ir-only-guide-011-p10",
     "projectNumber": 10,
     "status": "MISSING_IN_CATALOG"
@@ -5245,7 +5245,7 @@
       11,
       12
     ],
-    "irTitle": "11 / 17",
+    "irTitle": "defense signals — a Build List field guide",
     "projectId": "ir-only-guide-011-p11",
     "projectNumber": 11,
     "status": "MISSING_IN_CATALOG"
@@ -5276,7 +5276,7 @@
       12,
       13
     ],
-    "irTitle": "12 / 17",
+    "irTitle": "defense signals — a Build List field guide",
     "projectId": "ir-only-guide-011-p12",
     "projectNumber": 12,
     "status": "MISSING_IN_CATALOG"
@@ -5307,7 +5307,7 @@
       13,
       14
     ],
-    "irTitle": "13 / 17",
+    "irTitle": "defense signals — a Build List field guide",
     "projectId": "ir-only-guide-011-p13",
     "projectNumber": 13,
     "status": "MISSING_IN_CATALOG"
@@ -5338,7 +5338,7 @@
       14,
       15
     ],
-    "irTitle": "14 / 17",
+    "irTitle": "defense signals — a Build List field guide",
     "projectId": "ir-only-guide-011-p14",
     "projectNumber": 14,
     "status": "MISSING_IN_CATALOG"
@@ -5369,7 +5369,7 @@
       15,
       16
     ],
-    "irTitle": "15 / 17",
+    "irTitle": "defense signals — a Build List field guide",
     "projectId": "ir-only-guide-011-p15",
     "projectNumber": 15,
     "status": "MISSING_IN_CATALOG"
@@ -5400,7 +5400,7 @@
       16,
       17
     ],
-    "irTitle": "16 / 17",
+    "irTitle": "defense signals — a Build List field guide",
     "projectId": "ir-only-guide-011-p16",
     "projectNumber": 16,
     "status": "MISSING_IN_CATALOG"
@@ -5431,7 +5431,7 @@
       17,
       17
     ],
-    "irTitle": "17 / 17",
+    "irTitle": "defense signals — a Build List field guide",
     "projectId": "ir-only-guide-011-p17",
     "projectNumber": 17,
     "status": "MISSING_IN_CATALOG"
@@ -5666,7 +5666,7 @@
       7,
       7
     ],
-    "irTitle": "07 / 23",
+    "irTitle": "defense signals — a Build List field guide",
     "projectId": "ir-only-guide-012-p07",
     "projectNumber": 7,
     "status": "MISSING_IN_CATALOG"
@@ -5697,7 +5697,7 @@
       8,
       9
     ],
-    "irTitle": "08 / 23",
+    "irTitle": "defense signals — a Build List field guide",
     "projectId": "ir-only-guide-012-p08",
     "projectNumber": 8,
     "status": "MISSING_IN_CATALOG"
@@ -5728,7 +5728,7 @@
       9,
       10
     ],
-    "irTitle": "09 / 23",
+    "irTitle": "defense signals — a Build List field guide",
     "projectId": "ir-only-guide-012-p09",
     "projectNumber": 9,
     "status": "MISSING_IN_CATALOG"
@@ -5759,7 +5759,7 @@
       10,
       11
     ],
-    "irTitle": "10 / 23",
+    "irTitle": "defense signals — a Build List field guide",
     "projectId": "ir-only-guide-012-p10",
     "projectNumber": 10,
     "status": "MISSING_IN_CATALOG"
@@ -5790,7 +5790,7 @@
       11,
       12
     ],
-    "irTitle": "11 / 23",
+    "irTitle": "defense signals — a Build List field guide",
     "projectId": "ir-only-guide-012-p11",
     "projectNumber": 11,
     "status": "MISSING_IN_CATALOG"
@@ -5821,7 +5821,7 @@
       12,
       13
     ],
-    "irTitle": "12 / 23",
+    "irTitle": "defense signals — a Build List field guide",
     "projectId": "ir-only-guide-012-p12",
     "projectNumber": 12,
     "status": "MISSING_IN_CATALOG"
@@ -5852,7 +5852,7 @@
       13,
       14
     ],
-    "irTitle": "13 / 23",
+    "irTitle": "defense signals — a Build List field guide",
     "projectId": "ir-only-guide-012-p13",
     "projectNumber": 13,
     "status": "MISSING_IN_CATALOG"
@@ -5883,7 +5883,7 @@
       14,
       15
     ],
-    "irTitle": "14 / 23",
+    "irTitle": "defense signals — a Build List field guide",
     "projectId": "ir-only-guide-012-p14",
     "projectNumber": 14,
     "status": "MISSING_IN_CATALOG"
@@ -5914,7 +5914,7 @@
       15,
       16
     ],
-    "irTitle": "15 / 23",
+    "irTitle": "defense signals — a Build List field guide",
     "projectId": "ir-only-guide-012-p15",
     "projectNumber": 15,
     "status": "MISSING_IN_CATALOG"
@@ -5945,7 +5945,7 @@
       16,
       17
     ],
-    "irTitle": "16 / 23",
+    "irTitle": "defense signals — a Build List field guide",
     "projectId": "ir-only-guide-012-p16",
     "projectNumber": 16,
     "status": "MISSING_IN_CATALOG"
@@ -5976,7 +5976,7 @@
       17,
       17
     ],
-    "irTitle": "17 / 23",
+    "irTitle": "defense signals — a Build List field guide",
     "projectId": "ir-only-guide-012-p17",
     "projectNumber": 17,
     "status": "MISSING_IN_CATALOG"
@@ -6007,7 +6007,7 @@
       18,
       19
     ],
-    "irTitle": "18 / 23",
+    "irTitle": "defense signals — a Build List field guide",
     "projectId": "ir-only-guide-012-p18",
     "projectNumber": 18,
     "status": "MISSING_IN_CATALOG"
@@ -6038,7 +6038,7 @@
       19,
       20
     ],
-    "irTitle": "19 / 23",
+    "irTitle": "defense signals — a Build List field guide",
     "projectId": "ir-only-guide-012-p19",
     "projectNumber": 19,
     "status": "MISSING_IN_CATALOG"
@@ -6069,7 +6069,7 @@
       20,
       21
     ],
-    "irTitle": "20 / 23",
+    "irTitle": "defense signals — a Build List field guide",
     "projectId": "ir-only-guide-012-p20",
     "projectNumber": 20,
     "status": "MISSING_IN_CATALOG"
@@ -6100,7 +6100,7 @@
       21,
       21
     ],
-    "irTitle": "21 / 23",
+    "irTitle": "defense signals — a Build List field guide",
     "projectId": "ir-only-guide-012-p21",
     "projectNumber": 21,
     "status": "MISSING_IN_CATALOG"
@@ -6131,7 +6131,7 @@
       22,
       23
     ],
-    "irTitle": "22 / 23",
+    "irTitle": "defense signals — a Build List field guide",
     "projectId": "ir-only-guide-012-p22",
     "projectNumber": 22,
     "status": "MISSING_IN_CATALOG"
@@ -6162,7 +6162,7 @@
       23,
       23
     ],
-    "irTitle": "23 / 23",
+    "irTitle": "defense signals — a Build List field guide",
     "projectId": "ir-only-guide-012-p23",
     "projectNumber": 23,
     "status": "MISSING_IN_CATALOG"
@@ -6265,7 +6265,7 @@
       9
     ],
     "irTitle": "Quadruped Walker",
-    "projectId": "proj-8e955745d51cb80d",
+    "projectId": "proj-6601045dd0ed3112",
     "projectNumber": 3,
     "status": "PARTIAL_MATCH"
   },
@@ -6299,7 +6299,7 @@
       11
     ],
     "irTitle": "Vision-Guided Tracking Robot",
-    "projectId": "proj-a245d2a49550770f",
+    "projectId": "proj-d58e4ae2c89c2b95",
     "projectNumber": 4,
     "status": "PARTIAL_MATCH"
   },
@@ -6333,7 +6333,7 @@
       13
     ],
     "irTitle": "Force-Sensing Gripper",
-    "projectId": "proj-761ec11a3abe8911",
+    "projectId": "proj-440b5f074e637b33",
     "projectNumber": 5,
     "status": "PARTIAL_MATCH"
   },
@@ -6367,7 +6367,7 @@
       13
     ],
     "irTitle": "SLAM Mapping Rover",
-    "projectId": "proj-2684f7e12c69809f",
+    "projectId": "proj-8739f5afc4163730",
     "projectNumber": 6,
     "status": "BOUNDARY_MISMATCH"
   },
@@ -6397,7 +6397,7 @@
       7,
       8
     ],
-    "irTitle": "7 / 15",
+    "irTitle": "build robots — a Build List field guide",
     "projectId": "ir-only-guide-013-p07",
     "projectNumber": 7,
     "status": "MISSING_IN_CATALOG"
@@ -6428,7 +6428,7 @@
       8,
       9
     ],
-    "irTitle": "8 / 15",
+    "irTitle": "build robots — a Build List field guide",
     "projectId": "ir-only-guide-013-p08",
     "projectNumber": 8,
     "status": "MISSING_IN_CATALOG"
@@ -6459,7 +6459,7 @@
       9,
       10
     ],
-    "irTitle": "9 / 15",
+    "irTitle": "build robots — a Build List field guide",
     "projectId": "ir-only-guide-013-p09",
     "projectNumber": 9,
     "status": "MISSING_IN_CATALOG"
@@ -6490,7 +6490,7 @@
       10,
       11
     ],
-    "irTitle": "10 / 15",
+    "irTitle": "build robots — a Build List field guide",
     "projectId": "ir-only-guide-013-p10",
     "projectNumber": 10,
     "status": "MISSING_IN_CATALOG"
@@ -6521,7 +6521,7 @@
       11,
       12
     ],
-    "irTitle": "11 / 15",
+    "irTitle": "build robots — a Build List field guide",
     "projectId": "ir-only-guide-013-p11",
     "projectNumber": 11,
     "status": "MISSING_IN_CATALOG"
@@ -6552,7 +6552,7 @@
       12,
       13
     ],
-    "irTitle": "12 / 15",
+    "irTitle": "build robots — a Build List field guide",
     "projectId": "ir-only-guide-013-p12",
     "projectNumber": 12,
     "status": "MISSING_IN_CATALOG"
@@ -6583,7 +6583,7 @@
       13,
       14
     ],
-    "irTitle": "13 / 15",
+    "irTitle": "build robots — a Build List field guide",
     "projectId": "ir-only-guide-013-p13",
     "projectNumber": 13,
     "status": "MISSING_IN_CATALOG"
@@ -6614,7 +6614,7 @@
       14,
       15
     ],
-    "irTitle": "14 / 15",
+    "irTitle": "build robots — a Build List field guide",
     "projectId": "ir-only-guide-013-p14",
     "projectNumber": 14,
     "status": "MISSING_IN_CATALOG"
@@ -6645,7 +6645,7 @@
       15,
       15
     ],
-    "irTitle": "15 / 15",
+    "irTitle": "build robots — a Build List field guide",
     "projectId": "ir-only-guide-013-p15",
     "projectNumber": 15,
     "status": "MISSING_IN_CATALOG"
@@ -6680,7 +6680,7 @@
       4
     ],
     "irTitle": "Faraday Cage & EMP-Hardened",
-    "projectId": "proj-0b965c322325da27",
+    "projectId": "proj-f62dc9c8b307e058",
     "projectNumber": 1,
     "status": "PARTIAL_MATCH"
   },
@@ -6714,7 +6714,7 @@
       7
     ],
     "irTitle": "Desktop Wind Tunnel",
-    "projectId": "proj-6a481bcdd735d488",
+    "projectId": "proj-6ddd2494ee5147e5",
     "projectNumber": 2,
     "status": "PARTIAL_MATCH"
   },
@@ -6724,7 +6724,7 @@
       10
     ],
     "catalogTitle": "Composite Armor Instrumented Impact Tester",
-    "discrepancyNote": "Page range matched [7, 10], title discrepancy: 'Composite Armor Instrumented Impact Tester' vs '[ P R O J E C T 0 3 ]'.",
+    "discrepancyNote": "Page range matched [7, 10], title discrepancy: 'Composite Armor Instrumented Impact Tester' vs 'Impact-Resistant Composite Panel & Drop Tower'.",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -6747,8 +6747,8 @@
       7,
       10
     ],
-    "irTitle": "[ P R O J E C T 0 3 ]",
-    "projectId": "proj-628a686b3596462b",
+    "irTitle": "Impact-Resistant Composite Panel & Drop Tower",
+    "projectId": "proj-0d8e9c0c0fc73284",
     "projectNumber": 3,
     "status": "PARTIAL_MATCH"
   },
@@ -6782,7 +6782,7 @@
       12
     ],
     "irTitle": "Passive Sonar Hydrophone Array",
-    "projectId": "proj-5d89db99dc84eddf",
+    "projectId": "proj-608c1af3a5234d6d",
     "projectNumber": 4,
     "status": "PARTIAL_MATCH"
   },
@@ -6816,7 +6816,7 @@
       14
     ],
     "irTitle": "Precision Airdrop Parafoil Payload",
-    "projectId": "proj-2cbe8a39a8284482",
+    "projectId": "proj-f1eec11a53164f7e",
     "projectNumber": 5,
     "status": "PARTIAL_MATCH"
   },
@@ -6850,7 +6850,7 @@
       14
     ],
     "irTitle": "Survivability Test Rig",
-    "projectId": "proj-5bd7220eac89d8ea",
+    "projectId": "proj-c75c1711d621f4fd",
     "projectNumber": 6,
     "status": "BOUNDARY_MISMATCH"
   },
@@ -6880,7 +6880,7 @@
       7,
       8
     ],
-    "irTitle": "7 / 16",
+    "irTitle": "survive the field — a Build List field guide",
     "projectId": "ir-only-guide-014-p07",
     "projectNumber": 7,
     "status": "MISSING_IN_CATALOG"
@@ -6911,7 +6911,7 @@
       8,
       9
     ],
-    "irTitle": "8 / 16",
+    "irTitle": "survive the field — a Build List field guide",
     "projectId": "ir-only-guide-014-p08",
     "projectNumber": 8,
     "status": "MISSING_IN_CATALOG"
@@ -6942,7 +6942,7 @@
       9,
       10
     ],
-    "irTitle": "9 / 16",
+    "irTitle": "survive the field — a Build List field guide",
     "projectId": "ir-only-guide-014-p09",
     "projectNumber": 9,
     "status": "MISSING_IN_CATALOG"
@@ -6973,7 +6973,7 @@
       10,
       11
     ],
-    "irTitle": "10 / 16",
+    "irTitle": "survive the field — a Build List field guide",
     "projectId": "ir-only-guide-014-p10",
     "projectNumber": 10,
     "status": "MISSING_IN_CATALOG"
@@ -7004,7 +7004,7 @@
       11,
       12
     ],
-    "irTitle": "11 / 16",
+    "irTitle": "survive the field — a Build List field guide",
     "projectId": "ir-only-guide-014-p11",
     "projectNumber": 11,
     "status": "MISSING_IN_CATALOG"
@@ -7035,7 +7035,7 @@
       12,
       13
     ],
-    "irTitle": "12 / 16",
+    "irTitle": "survive the field — a Build List field guide",
     "projectId": "ir-only-guide-014-p12",
     "projectNumber": 12,
     "status": "MISSING_IN_CATALOG"
@@ -7066,7 +7066,7 @@
       13,
       14
     ],
-    "irTitle": "13 / 16",
+    "irTitle": "survive the field — a Build List field guide",
     "projectId": "ir-only-guide-014-p13",
     "projectNumber": 13,
     "status": "MISSING_IN_CATALOG"
@@ -7097,7 +7097,7 @@
       14,
       15
     ],
-    "irTitle": "14 / 16",
+    "irTitle": "survive the field — a Build List field guide",
     "projectId": "ir-only-guide-014-p14",
     "projectNumber": 14,
     "status": "MISSING_IN_CATALOG"
@@ -7128,7 +7128,7 @@
       15,
       16
     ],
-    "irTitle": "15 / 16",
+    "irTitle": "survive the field — a Build List field guide",
     "projectId": "ir-only-guide-014-p15",
     "projectNumber": 15,
     "status": "MISSING_IN_CATALOG"
@@ -7159,7 +7159,7 @@
       16,
       16
     ],
-    "irTitle": "16 / 16",
+    "irTitle": "survive the field — a Build List field guide",
     "projectId": "ir-only-guide-014-p16",
     "projectNumber": 16,
     "status": "MISSING_IN_CATALOG"
@@ -7204,7 +7204,7 @@
       7
     ],
     "catalogTitle": "Redundant Dual-IMU with Kalman Voting",
-    "discrepancyNote": "Page range matched [4, 7], title discrepancy: 'Redundant Dual-IMU with Kalman Voting' vs '[ U P G R A D E 0 2 ]'.",
+    "discrepancyNote": "Page range matched [4, 7], title discrepancy: 'Redundant Dual-IMU with Kalman Voting' vs 'Obstacle-Avoidance Sensor Ring'.",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -7227,8 +7227,8 @@
       4,
       7
     ],
-    "irTitle": "[ U P G R A D E 0 2 ]",
-    "projectId": "proj-a3d73d08684a062d",
+    "irTitle": "Obstacle-Avoidance Sensor Ring",
+    "projectId": "proj-56d7311c137973c2",
     "projectNumber": 2,
     "status": "PARTIAL_MATCH"
   },
@@ -7363,8 +7363,8 @@
       13,
       13
     ],
-    "irTitle": "[ U P G R A D E 0 6 ]",
-    "projectId": "proj-4ba4e6958a29f2ab",
+    "irTitle": "Signal-Mapping Payload",
+    "projectId": "proj-4c8b24a49cc89a75",
     "projectNumber": 6,
     "status": "BOUNDARY_MISMATCH"
   },
@@ -7394,7 +7394,7 @@
       7,
       8
     ],
-    "irTitle": "7 / 16",
+    "irTitle": "drone upgrades — a Build List field guide",
     "projectId": "ir-only-guide-015-p07",
     "projectNumber": 7,
     "status": "MISSING_IN_CATALOG"
@@ -7425,7 +7425,7 @@
       8,
       9
     ],
-    "irTitle": "8 / 16",
+    "irTitle": "drone upgrades — a Build List field guide",
     "projectId": "ir-only-guide-015-p08",
     "projectNumber": 8,
     "status": "MISSING_IN_CATALOG"
@@ -7456,7 +7456,7 @@
       9,
       10
     ],
-    "irTitle": "9 / 16",
+    "irTitle": "drone upgrades — a Build List field guide",
     "projectId": "ir-only-guide-015-p09",
     "projectNumber": 9,
     "status": "MISSING_IN_CATALOG"
@@ -7487,7 +7487,7 @@
       10,
       11
     ],
-    "irTitle": "10 / 16",
+    "irTitle": "drone upgrades — a Build List field guide",
     "projectId": "ir-only-guide-015-p10",
     "projectNumber": 10,
     "status": "MISSING_IN_CATALOG"
@@ -7518,7 +7518,7 @@
       11,
       12
     ],
-    "irTitle": "11 / 16",
+    "irTitle": "drone upgrades — a Build List field guide",
     "projectId": "ir-only-guide-015-p11",
     "projectNumber": 11,
     "status": "MISSING_IN_CATALOG"
@@ -7549,7 +7549,7 @@
       12,
       13
     ],
-    "irTitle": "12 / 16",
+    "irTitle": "drone upgrades — a Build List field guide",
     "projectId": "ir-only-guide-015-p12",
     "projectNumber": 12,
     "status": "MISSING_IN_CATALOG"
@@ -7580,7 +7580,7 @@
       13,
       14
     ],
-    "irTitle": "13 / 16",
+    "irTitle": "drone upgrades — a Build List field guide",
     "projectId": "ir-only-guide-015-p13",
     "projectNumber": 13,
     "status": "MISSING_IN_CATALOG"
@@ -7611,7 +7611,7 @@
       14,
       15
     ],
-    "irTitle": "14 / 16",
+    "irTitle": "drone upgrades — a Build List field guide",
     "projectId": "ir-only-guide-015-p14",
     "projectNumber": 14,
     "status": "MISSING_IN_CATALOG"
@@ -7642,7 +7642,7 @@
       15,
       16
     ],
-    "irTitle": "15 / 16",
+    "irTitle": "drone upgrades — a Build List field guide",
     "projectId": "ir-only-guide-015-p15",
     "projectNumber": 15,
     "status": "MISSING_IN_CATALOG"
@@ -7673,7 +7673,7 @@
       16,
       16
     ],
-    "irTitle": "16 / 16",
+    "irTitle": "drone upgrades — a Build List field guide",
     "projectId": "ir-only-guide-015-p16",
     "projectNumber": 16,
     "status": "MISSING_IN_CATALOG"
@@ -7912,7 +7912,7 @@
       2
     ],
     "irTitle": "Stop Relying on Your Classes",
-    "projectId": "proj-fe4a998067b3d8aa",
+    "projectId": "proj-78707896b3568b80",
     "projectNumber": 1,
     "status": "PARTIAL_MATCH"
   },
@@ -7946,7 +7946,7 @@
       3
     ],
     "irTitle": "Pick a Stack and Go Stupid Deep",
-    "projectId": "proj-d625020e720f2574",
+    "projectId": "proj-3aec279be534ff12",
     "projectNumber": 2,
     "status": "PARTIAL_MATCH"
   },
@@ -7980,7 +7980,7 @@
       4
     ],
     "irTitle": "Build Something Nobody Asked You to Build",
-    "projectId": "proj-f4c34c72a59d5e68",
+    "projectId": "proj-fb0d548022858b81",
     "projectNumber": 3,
     "status": "PARTIAL_MATCH"
   },
@@ -8014,7 +8014,7 @@
       5
     ],
     "irTitle": "Read Documentation Like Other People Read",
-    "projectId": "proj-40abc903cf68b70c",
+    "projectId": "proj-02dbbc8ddd31a403",
     "projectNumber": 4,
     "status": "PARTIAL_MATCH"
   },
@@ -8048,7 +8048,7 @@
       6
     ],
     "irTitle": "Reverse Engineer Real Products",
-    "projectId": "proj-0d37911802b012cb",
+    "projectId": "proj-70d00a159382c7b2",
     "projectNumber": 5,
     "status": "PARTIAL_MATCH"
   },
@@ -8082,7 +8082,7 @@
       10
     ],
     "irTitle": "Make Your Internet Presence a Portfolio",
-    "projectId": "proj-814228cd5c64175a",
+    "projectId": "proj-40d00bd011aadb3b",
     "projectNumber": 6,
     "status": "PARTIAL_MATCH"
   },
@@ -8755,7 +8755,7 @@
       12,
       23
     ],
-    "irTitle": "16 ring around forearm",
+    "irTitle": "Dry EMG electrodes",
     "projectId": "ir-only-guide-020-p16",
     "projectNumber": 16,
     "status": "MISSING_IN_CATALOG"
@@ -8994,7 +8994,7 @@
       3
     ],
     "irTitle": "Collect Contacts Before You Need Them",
-    "projectId": "proj-08d95f39921234f1",
+    "projectId": "proj-6b0a52bf024366f5",
     "projectNumber": 1,
     "status": "PARTIAL_MATCH"
   },
@@ -9028,7 +9028,7 @@
       4
     ],
     "irTitle": "Pitch Their Win, Not Your Need",
-    "projectId": "proj-273ead6161abcad3",
+    "projectId": "proj-b78e4cf469556699",
     "projectNumber": 2,
     "status": "PARTIAL_MATCH"
   },
@@ -9062,7 +9062,7 @@
       5
     ],
     "irTitle": "Reframe, Don't Retreat",
-    "projectId": "proj-33e829cad7110af3",
+    "projectId": "proj-b12a577cab41355e",
     "projectNumber": 3,
     "status": "PARTIAL_MATCH"
   },
@@ -9096,7 +9096,7 @@
       6
     ],
     "irTitle": "Make It Embarrassingly Easy to Say Yes",
-    "projectId": "proj-f7ffbdd7d6579c7b",
+    "projectId": "proj-f9180d45f5ec9f14",
     "projectNumber": 4,
     "status": "PARTIAL_MATCH"
   },
@@ -9130,7 +9130,7 @@
       11
     ],
     "irTitle": "Follow Up Like Your Life Depends on It",
-    "projectId": "proj-a1795bd7588ca33b",
+    "projectId": "proj-5476aa59832095c4",
     "projectNumber": 5,
     "status": "PARTIAL_MATCH"
   },
@@ -9164,7 +9164,7 @@
       2
     ],
     "irTitle": "Skip the theory at first. Get a breadboard and an Arduino kit.",
-    "projectId": "proj-985a367fdabbc644",
+    "projectId": "proj-870e3798e482728a",
     "projectNumber": 1,
     "status": "PARTIAL_MATCH"
   },
@@ -9198,7 +9198,7 @@
       2
     ],
     "irTitle": "Blink an LED. Then a buzzer. Then a button.",
-    "projectId": "proj-94fe7239accddca6",
+    "projectId": "proj-c54d5ce6b7eb5c72",
     "projectNumber": 2,
     "status": "PARTIAL_MATCH"
   },
@@ -9232,7 +9232,7 @@
       2
     ],
     "irTitle": "Now learn the theory you just used.",
-    "projectId": "proj-e8453ca3d13f58fb",
+    "projectId": "proj-aa9dc979642f0763",
     "projectNumber": 3,
     "status": "PARTIAL_MATCH"
   },
@@ -9266,7 +9266,7 @@
       3
     ],
     "irTitle": "Learn to solder early. It's easier than it looks.",
-    "projectId": "proj-7b2012360f90ea4a",
+    "projectId": "proj-45b7d735f22891b5",
     "projectNumber": 4,
     "status": "PARTIAL_MATCH"
   },
@@ -9300,7 +9300,7 @@
       3
     ],
     "irTitle": "Measure everything. Multimeter first, oscilloscope later.",
-    "projectId": "proj-e17fbdd168fa8192",
+    "projectId": "proj-c6ed4e527202fe9f",
     "projectNumber": 5,
     "status": "PARTIAL_MATCH"
   },
@@ -9334,7 +9334,7 @@
       5
     ],
     "irTitle": "Build one real project you actually want to use.",
-    "projectId": "proj-ecc4d19a4cc58c9d",
+    "projectId": "proj-7ab2bb2006d5e60e",
     "projectNumber": 6,
     "status": "PARTIAL_MATCH"
   },
@@ -11399,7 +11399,7 @@
       2
     ],
     "catalogTitle": "The Art of Electronics Ultra-Low Noise Supply",
-    "discrepancyNote": "Page range matched [2, 2], title discrepancy: 'The Art of Electronics Ultra-Low Noise Supply' vs '2'.",
+    "discrepancyNote": "Page range matched [2, 2], title discrepancy: 'The Art of Electronics Ultra-Low Noise Supply' vs '@1nska   >   the build list'.",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -11422,7 +11422,7 @@
       2,
       2
     ],
-    "irTitle": "2",
+    "irTitle": "@1nska   >   the build list",
     "projectId": "proj-25015e1de0868338",
     "projectNumber": 2,
     "status": "PARTIAL_MATCH"
@@ -11433,7 +11433,7 @@
       3
     ],
     "catalogTitle": "Zephyr RTOS Industrial Node Deployment",
-    "discrepancyNote": "Page range matched [3, 3], title discrepancy: 'Zephyr RTOS Industrial Node Deployment' vs '3'.",
+    "discrepancyNote": "Page range matched [3, 3], title discrepancy: 'Zephyr RTOS Industrial Node Deployment' vs '@1nska   >   the build list'.",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -11456,7 +11456,7 @@
       3,
       3
     ],
-    "irTitle": "3",
+    "irTitle": "@1nska   >   the build list",
     "projectId": "proj-89dce9c8134220ee",
     "projectNumber": 3,
     "status": "PARTIAL_MATCH"
@@ -11467,7 +11467,7 @@
       4
     ],
     "catalogTitle": "Microwaves101 Planar Filter & Coupler",
-    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'Microwaves101 Planar Filter & Coupler' vs '4'.",
+    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'Microwaves101 Planar Filter & Coupler' vs '@1nska   >   the build list'.",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -11490,7 +11490,7 @@
       4,
       4
     ],
-    "irTitle": "4",
+    "irTitle": "@1nska   >   the build list",
     "projectId": "proj-d31ca580450cf995",
     "projectNumber": 4,
     "status": "PARTIAL_MATCH"
@@ -11501,7 +11501,7 @@
       5
     ],
     "catalogTitle": "JLCPCB SMT Panelization & Automated Assembly",
-    "discrepancyNote": "Page range matched [5, 5], title discrepancy: 'JLCPCB SMT Panelization & Automated Assembly' vs '5'.",
+    "discrepancyNote": "Page range matched [5, 5], title discrepancy: 'JLCPCB SMT Panelization & Automated Assembly' vs '@1nska   >   the build list'.",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -11524,7 +11524,7 @@
       5,
       5
     ],
-    "irTitle": "5",
+    "irTitle": "@1nska   >   the build list",
     "projectId": "proj-66ff5c3263b46c00",
     "projectNumber": 5,
     "status": "PARTIAL_MATCH"
@@ -11558,7 +11558,7 @@
       6,
       6
     ],
-    "irTitle": "6",
+    "irTitle": "@1nska   >   the build list",
     "projectId": "proj-4c78d5781b650b28",
     "projectNumber": 6,
     "status": "BOUNDARY_MISMATCH"
@@ -11589,7 +11589,7 @@
       7,
       7
     ],
-    "irTitle": "7",
+    "irTitle": "@1nska   >   the build list",
     "projectId": "ir-only-guide-031-p07",
     "projectNumber": 7,
     "status": "MISSING_IN_CATALOG"
@@ -11620,7 +11620,7 @@
       8,
       8
     ],
-    "irTitle": "8",
+    "irTitle": "@1nska   >   the build list",
     "projectId": "ir-only-guide-031-p08",
     "projectNumber": 8,
     "status": "MISSING_IN_CATALOG"
@@ -11651,7 +11651,7 @@
       9,
       9
     ],
-    "irTitle": "9",
+    "irTitle": "@1nska   >   the build list",
     "projectId": "ir-only-guide-031-p09",
     "projectNumber": 9,
     "status": "MISSING_IN_CATALOG"
@@ -11682,7 +11682,7 @@
       10,
       10
     ],
-    "irTitle": "10",
+    "irTitle": "@1nska   >   the build list",
     "projectId": "ir-only-guide-031-p10",
     "projectNumber": 10,
     "status": "MISSING_IN_CATALOG"

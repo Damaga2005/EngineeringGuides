@@ -87,7 +87,11 @@ GOLDEN_1_PROJECT = {
     "minActiveSections": 10
 }
 
-# Tier 2: Controlled 5-project benchmark across diverse engineering domains
+# Tier 2: Controlled 5-project benchmark across diverse engineering domains.
+# Titles/IDs verified against the corrected (IR-title-preferring) pipeline
+# output as of the P02.3.3 catalog-title-mismatch fix - see
+# PROJECT_FIRST_CERTIFICATION_REPORT.md for the underlying issue (many
+# legacy catalog titles did not correspond to their document position).
 GOLDEN_5_PROJECTS = [
     {
         "projectId": "proj-9cc1a42f66e7c4d5",
@@ -130,10 +134,10 @@ GOLDEN_5_PROJECTS = [
         "endPage": 5
     },
     {
-        "projectId": "proj-097a8eaf224741a8",
+        "projectId": "proj-bcfd9fbeaa87c10d",
         "sourceDocumentId": "guide-005",
         "projectNumber": 1,
-        "title": "Closed-Loop Stepper Controller",
+        "title": "H-Bridge DC Motor Driver",
         "domain": "Power Electronics & Motion Control",
         "controller": None,
         "startPage": 2,
@@ -144,32 +148,32 @@ GOLDEN_5_PROJECTS = [
 # Tier 3: 20 audited projects across multiple guides
 GOLDEN_20_PROJECTS = [
     {"projectId": "proj-9cc1a42f66e7c4d5", "sourceDocumentId": "guide-001", "projectNumber": 1, "title": "Digital Night-Vision Monocular", "controller": None, "startPage": 2, "endPage": 5},
-    {"projectId": "proj-a6a7911d0a82e714", "sourceDocumentId": "guide-001", "projectNumber": 2, "title": "Wearable Heads-Up Display (HUD)", "controller": "ESP32-S3", "startPage": 5, "endPage": 8},
-    {"projectId": "proj-7b3d0a559298c92a", "sourceDocumentId": "guide-001", "projectNumber": 3, "title": "Solar Perimeter Sentry Tower", "controller": "ESP32-CAM", "startPage": 8, "endPage": 11},
-    {"projectId": "proj-8df10854ea1082a6", "sourceDocumentId": "guide-001", "projectNumber": 5, "title": "Off-Grid LoRa Mesh Node", "controller": "ESP32", "startPage": 13, "endPage": 15},
+    {"projectId": "proj-051f72e0a48446c7", "sourceDocumentId": "guide-001", "projectNumber": 2, "title": "AR Heads-Up Display Goggles", "controller": "ESP32-S3", "startPage": 5, "endPage": 8},
+    {"projectId": "proj-4400b52b3d14d8d1", "sourceDocumentId": "guide-001", "projectNumber": 3, "title": "Autonomous Sentry Tower", "controller": "ESP32-CAM", "startPage": 8, "endPage": 11},
+    {"projectId": "proj-92139980dfd95e5e", "sourceDocumentId": "guide-001", "projectNumber": 5, "title": "Mesh Field Radio", "controller": "ESP32", "startPage": 13, "endPage": 15},
     {"projectId": "proj-3c8e3f6f2e8b24be", "sourceDocumentId": "guide-002", "projectNumber": 1, "title": "Indoor Position Hold (Optical Flow + ToF)", "controller": None, "startPage": 2, "endPage": 4},
     {"projectId": "proj-7251513973158948", "sourceDocumentId": "guide-002", "projectNumber": 2, "title": "Obstacle-Avoidance Sensor Ring", "controller": None, "startPage": 4, "endPage": 7},
     {"projectId": "proj-b4e3670bf00a9de2", "sourceDocumentId": "guide-002", "projectNumber": 4, "title": "2-Axis Brushless Gimbal (FOC)", "controller": None, "startPage": 9, "endPage": 11},
     {"projectId": "proj-2af812b638d86e49", "sourceDocumentId": "guide-003", "projectNumber": 1, "title": "Cold-Gas Reaction Thruster", "controller": None, "startPage": 2, "endPage": 5},
     {"projectId": "proj-8c76d2f0e14a7e6d", "sourceDocumentId": "guide-003", "projectNumber": 2, "title": "Auto-Tracking Ground Station", "controller": "ESP32", "startPage": 6, "endPage": 8},
-    {"projectId": "proj-c552597bc8d468cc", "sourceDocumentId": "guide-003", "projectNumber": 4, "title": "CubeSat Flight Computer (OBC)", "controller": "STM32F4", "startPage": 12, "endPage": 15},
+    {"projectId": "proj-07abe9bee1e961a9", "sourceDocumentId": "guide-003", "projectNumber": 4, "title": "Satellite-in-a-Box Flight Computer", "controller": "STM32F4", "startPage": 12, "endPage": 15},
     {"projectId": "proj-fe7e3a913842843d", "sourceDocumentId": "guide-004", "projectNumber": 1, "title": "ADS-B Aircraft Radar", "controller": None, "startPage": 2, "endPage": 5},
-    {"projectId": "proj-53dcbf9d339e022d", "sourceDocumentId": "guide-004", "projectNumber": 4, "title": "AIS Marine Vessel Tracker", "controller": None, "startPage": 13, "endPage": 15},
-    {"projectId": "proj-097a8eaf224741a8", "sourceDocumentId": "guide-005", "projectNumber": 1, "title": "Closed-Loop Stepper Controller", "controller": None, "startPage": 2, "endPage": 3},
-    {"projectId": "proj-14bca4088da46825", "sourceDocumentId": "guide-006", "projectNumber": 1, "title": "Custom STM32 Flight Controller", "controller": "STM32F4", "startPage": 2, "endPage": 3},
-    {"projectId": "proj-02bea515e35b1b01", "sourceDocumentId": "guide-008", "projectNumber": 4, "title": "Dual-Wavelength Pulse Oximeter (PPG)", "controller": None, "startPage": 12, "endPage": 13},
+    {"projectId": "proj-2d95ff798680784e", "sourceDocumentId": "guide-004", "projectNumber": 4, "title": "AIS Ship Tracker", "controller": None, "startPage": 13, "endPage": 15},
+    {"projectId": "proj-bcfd9fbeaa87c10d", "sourceDocumentId": "guide-005", "projectNumber": 1, "title": "H-Bridge DC Motor Driver", "controller": None, "startPage": 2, "endPage": 3},
+    {"projectId": "proj-14bca4088da46825", "sourceDocumentId": "guide-006", "projectNumber": 1, "title": "Custom STM32 Flight Controller", "controller": "STM32F4", "startPage": 2, "endPage": 4},
+    {"projectId": "proj-105fe41205873a2c", "sourceDocumentId": "guide-008", "projectNumber": 4, "title": "EMG Muscle Sensor", "controller": None, "startPage": 12, "endPage": 13},
     {"projectId": "proj-1a64e60857cbc87d", "sourceDocumentId": "guide-011", "projectNumber": 1, "title": "GNSS Receiver & Resilience Analysis", "controller": "ESP32", "startPage": 2, "endPage": 5},
-    {"projectId": "proj-628a686b3596462b", "sourceDocumentId": "guide-014", "projectNumber": 3, "title": "Composite Armor Instrumented Impact Tester", "controller": None, "startPage": 7, "endPage": 10},
-    {"projectId": "proj-0d37911802b012cb", "sourceDocumentId": "guide-017", "projectNumber": 5, "title": "Ingeniería Inversa de Productos Comerciales Reales", "controller": None, "startPage": 8, "endPage": 8},
-    {"projectId": "proj-a1795bd7588ca33b", "sourceDocumentId": "guide-022", "projectNumber": 5, "title": "Programación KRL, Puesta en Marcha y Retorno", "controller": None, "startPage": 8, "endPage": 11},
+    {"projectId": "proj-0d8e9c0c0fc73284", "sourceDocumentId": "guide-014", "projectNumber": 3, "title": "Impact-Resistant Composite Panel & Drop Tower", "controller": None, "startPage": 7, "endPage": 10},
+    {"projectId": "proj-70d00a159382c7b2", "sourceDocumentId": "guide-017", "projectNumber": 5, "title": "Reverse Engineer Real Products", "controller": None, "startPage": 6, "endPage": 6},
+    {"projectId": "proj-5476aa59832095c4", "sourceDocumentId": "guide-022", "projectNumber": 5, "title": "Follow Up Like Your Life Depends on It", "controller": None, "startPage": 7, "endPage": 11},
     {"projectId": "proj-fb1ddf823a1438db", "sourceDocumentId": "guide-028", "projectNumber": 2, "title": "Phil's Lab High-Speed Hardware Design", "controller": None, "startPage": 3, "endPage": 3},
 ]
 
 # Anti-False-Merge Benchmarks: Pairs that must NEVER be classified as EXACT_DUPLICATE
 FALSE_MERGE_BENCHMARKS = [
     {
-        "case": "Same MCU (ESP32) but completely different functions (Night-Vision HUD vs Satellite Station)",
-        "projectA": "proj-a6a7911d0a82e714",  # Wearable Heads-Up Display (HUD)
+        "case": "Same MCU (ESP32) but completely different functions (AR HUD vs Ground Station)",
+        "projectA": "proj-051f72e0a48446c7",  # AR Heads-Up Display Goggles
         "projectB": "proj-8c76d2f0e14a7e6d",  # Auto-Tracking Ground Station
         "forbiddenClassification": "EXACT_DUPLICATE"
     },
@@ -180,9 +184,9 @@ FALSE_MERGE_BENCHMARKS = [
         "forbiddenClassification": "EXACT_DUPLICATE"
     },
     {
-        "case": "Multi-rotor vs Satellite OBC (STM32F4 flight controller vs CubeSat OBC)",
+        "case": "Multi-rotor vs Satellite OBC (STM32F4 flight controller vs Satellite-in-a-Box OBC)",
         "projectA": "proj-14bca4088da46825",  # Custom STM32 Flight Controller
-        "projectB": "proj-c552597bc8d468cc",  # CubeSat Flight Computer (OBC)
+        "projectB": "proj-07abe9bee1e961a9",  # Satellite-in-a-Box Flight Computer
         "forbiddenClassification": "EXACT_DUPLICATE"
     }
 ]

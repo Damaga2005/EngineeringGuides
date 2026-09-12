@@ -289,7 +289,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-105f9723d8a015b6",
+          "canonicalProjectId": "cproj-4a7cecb5e3bccfe9",
           "components": [
             "Prisma colimador",
             "ESP32-S3",
@@ -392,8 +392,8 @@
             "whatThisProves": "You understand optical see-through display design (beam splitters, collimation, eye relief), heading and position sensing (IMU + magnetometer + GPS), rendering a stable HUD from sensor data, and designing information for a glanceable display — the core of AR/HUD and wearable- systems engineering.",
             "whyThisMatters": "The most talked-about piece of modern soldier equipment is the augmented-reality headset: a see- through display that overlays a compass, waypoints, teammate locations, and sensor alerts onto the real world, so the wearer never looks down at a map. You can build the core of one. A small bright display reflected off a half-mirror in front of your eye gives you a see-through HUD; an IMU compass and a GPS feed it heading and position; a radio brings in teammate positions and alerts. Turn your head and the bearing to the waypoint slides across your view. It is optics, embedded systems, and UI design in one build, and the first-person footage is unlike anything else in this series. see everything coming — a Build List field guide 5 / 18 --- PAGE 6 ---"
           },
-          "projectId": "proj-a6a7911d0a82e714",
-          "projectSlug": "guide-001-p02-wearable-heads-up-display-hud",
+          "projectId": "proj-051f72e0a48446c7",
+          "projectSlug": "guide-001-p02-ar-heads-up-display-goggles",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -443,7 +443,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-4f886033a4e68cb3",
+          "canonicalProjectId": "cproj-888e3f28d4ea587e",
           "components": [
             "Radar 24GHz",
             "Servos PTZ",
@@ -546,8 +546,8 @@
             "whatThisProves": "You understand layered detection (a cheap trigger plus camera confirmation), object classification on the edge, pan-tilt tracking control (visual servoing), event logging and alerting, and designing an unattended system that runs reliably. That is the core of autonomous-surveillance and perimeter-security engineering.",
             "whyThisMatters": "The modern border and base perimeter is watched by autonomous sensor towers: they detect motion, classify what it is, slew a camera to track it, and alert an operator — no human staring at a screen. Build a small one: a pan-tilt camera head on a mast, a wide-field motion trigger, a person / vehicle classifier, a tracking loop that keeps the target centred, and an alert with a snapshot to your phone (or your command map in project 6). Watch it wake up, turn, and follow you across the yard. It is perception, control, and systems integration — and, because it only watches, entirely a sensor. see everything coming — a Build List field guide 8 / 18 --- PAGE 9 ---"
           },
-          "projectId": "proj-7b3d0a559298c92a",
-          "projectSlug": "guide-001-p03-solar-perimeter-sentry-tower",
+          "projectId": "proj-4400b52b3d14d8d1",
+          "projectSlug": "guide-001-p03-autonomous-sentry-tower",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -597,7 +597,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-306b89ecd22ea8a5",
+          "canonicalProjectId": "cproj-e17ef96c8e061b29",
           "components": [
             "RTL-SDR v4",
             "Antena telescópica",
@@ -693,8 +693,8 @@
             "whatThisProves": "You understand wideband spectrum monitoring, automated sweeping and logging, signal and change detection (“new emitter”), decoding standard public protocols, antenna and station design, and building a reliable always-on receiver. Spectrum awareness is core to EW, SIGINT, and spectrum-management roles.",
             "whyThisMatters": "A signals station doesn’t hunt one signal; it watches the whole spectrum, all the time. Build a permanent RF ground station: an SDR on a mast antenna, continuously sweeping the bands, logging what is on the air, decoding the public signals — aircraft (ADS-B), ships (AIS), weather satellites, broadcast — and raising an alert when a new emitter appears where there was none. Its waterfall dashboard becomes your radio picture of the area. It is the receive-only heart of a signals post, and it feeds the command map with everything that transmits nearby. see everything coming — a Build List field guide 11 / 18 --- PAGE 12 ---"
           },
-          "projectId": "proj-cff102681e8f1361",
-          "projectSlug": "guide-001-p04-rf-spectrum-surveillance-station",
+          "projectId": "proj-90d297a495fbbc2d",
+          "projectSlug": "guide-001-p04-rf-ground-station",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -751,7 +751,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-7f4655217e79c79e",
+          "canonicalProjectId": "cproj-63b5440db06748a3",
           "components": [
             "Heltec V3 ESP32 LoRa",
             "Antena fibra de vidrio",
@@ -847,8 +847,8 @@
             "whatThisProves": "You understand LoRa modulation and link budget, mesh routing and relaying, position sharing and message encryption, node power management, and real-world range testing. Off-grid mesh networking is core to tactical-comms and resilient-communications engineering.",
             "whyThisMatters": "When the network is down, jammed, or simply absent, teams still need to talk and know where each other are. A LoRa mesh does exactly that: small radios that relay for each other, carrying short encrypted messages and GPS positions across kilometres with no infrastructure. Build a set of nodes, pair them, test range across your town, and watch teammate dots appear on a map — and on your HUD from project 2. It is networking, RF, and embedded in one, and it is the connective tissue of the whole situational-awareness stack. see everything coming — a Build List field guide 13 / 18 --- PAGE 14 ---"
           },
-          "projectId": "proj-8df10854ea1082a6",
-          "projectSlug": "guide-001-p05-off-grid-lora-mesh-node",
+          "projectId": "proj-92139980dfd95e5e",
+          "projectSlug": "guide-001-p05-mesh-field-radio",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -905,7 +905,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-d9b1fd7ae8241b9a",
+          "canonicalProjectId": "cproj-e8a141c8c51f1008",
           "components": [
             "Servidor Node.js",
             "OpenStreetMap offline",
@@ -1001,8 +1001,8 @@
             "whatThisProves": "Demuestra dominio en Tactical Situational Awareness Map: diseño de hardware de alta fiabilidad, acondicionamiento de señal, control en lazo cerrado y validación con instrumentación real.",
             "whyThisMatters": "Tactical Situational Awareness Map es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
-          "projectId": "proj-a74b6ca7835233c4",
-          "projectSlug": "guide-001-p06-tactical-situational-awareness-map",
+          "projectId": "proj-651c9fd23a05ef37",
+          "projectSlug": "guide-001-p06-command-map-common-operating",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -1325,7 +1325,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-cb6af7a387a8936b",
+          "canonicalProjectId": "cproj-33f38764663c729d",
           "components": [
             "4x VL53L1X",
             "Hub I2C",
@@ -1913,7 +1913,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-9cd9651020f5432f",
+          "canonicalProjectId": "cproj-d55d747c68d26beb",
           "components": [
             "ESP32 Sniffer",
             "MicroSD SPI",
@@ -2646,7 +2646,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-3527373f031d9d96",
+          "canonicalProjectId": "cproj-d906989f819de920",
           "components": [
             "STM32F405",
             "FRAM SPI",
@@ -2741,8 +2741,8 @@
             "whatThisProves": ": You understand command-and-data-handling architecture, telemetry packetization (CCSDS), reliable serial/radio links, and ground-side decoding and display. Flight software and C&DH; are central to every space mission, and a working telemetry pipeline is a standout systems project.",
             "whyThisMatters": "CubeSat Flight Computer (OBC) es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
-          "projectId": "proj-c552597bc8d468cc",
-          "projectSlug": "guide-003-p04-cubesat-flight-computer-obc",
+          "projectId": "proj-07abe9bee1e961a9",
+          "projectSlug": "guide-003-p04-satellite-in-a-box-flight-computer",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -2799,7 +2799,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-85ab1b9c2a83df3f",
+          "canonicalProjectId": "cproj-063966aca0a69fc3",
           "components": [
             "Fotodiodos 4 cuadrantes",
             "Amplificador transimpedancia"
@@ -2887,8 +2887,8 @@
             "whatThisProves": ": You understand optical attitude sensing, photodiode analog front-ends and ratiometric measurement, the geometry of converting intensities into an angle, and sensor calibration. Sun sensors fly on nearly every satellite, and building one is a recognizable ADCS sensing skill.",
             "whyThisMatters": "Sun-Vector Attitude Sensor es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
-          "projectId": "proj-4e59318e9573e811",
-          "projectSlug": "guide-003-p05-sun-vector-attitude-sensor",
+          "projectId": "proj-4ae8358f5ebb56d0",
+          "projectSlug": "guide-003-p05-sun-vector-sensor",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -3496,7 +3496,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-d4404ef3445328d5",
+          "canonicalProjectId": "cproj-22455634c0733f8f",
           "components": [
             "Antena Yagi VHF",
             "SDR",
@@ -3591,8 +3591,8 @@
             "whatThisProves": ": You understand weak-signal reception, the radio horizon and forward-scatter propagation, narrowband detection and spectrograms, and distinguishing real events from noise. It is a genuine radio-astronomy instrumentation skill that maps onto research, defence, and DSP roles.",
             "whyThisMatters": "Radio Meteor Scatter Detector es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
-          "projectId": "proj-d9a1ad8519965884",
-          "projectSlug": "guide-004-p03-radio-meteor-scatter-detector",
+          "projectId": "proj-5f285a322ebfc12b",
+          "projectSlug": "guide-004-p03-radio-meteor-detector",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -3642,7 +3642,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-87e13d62caaec4b7",
+          "canonicalProjectId": "cproj-257ab60a9758ea6e",
           "components": [
             "Antena marina 162MHz",
             "OpenCPN",
@@ -3737,8 +3737,8 @@
             "whatThisProves": ": You understand weak-signal reception, the radio horizon and forward-scatter propagation, narrowband detection and spectrograms, and distinguishing real events from noise. It is a genuine radio-astronomy instrumentation skill that maps onto research, defence, and DSP roles.",
             "whyThisMatters": "AIS Marine Vessel Tracker es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
-          "projectId": "proj-53dcbf9d339e022d",
-          "projectSlug": "guide-004-p04-ais-marine-vessel-tracker",
+          "projectId": "proj-2d95ff798680784e",
+          "projectSlug": "guide-004-p04-ais-ship-tracker",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -3788,7 +3788,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-1575be2222361291",
+          "canonicalProjectId": "cproj-3ae103164884cd01",
           "components": [
             "RTL-SDR",
             "Herramienta rtl_433"
@@ -3877,8 +3877,8 @@
             "whatThisProves": ": You understand VHF reception, GMSK demodulation, the AIS/NMEA message format, and multi-channel decoding. Receiving and plotting a live maritime datalink is a concrete RF and decoding skill directly relevant to maritime, surveillance, and wireless-systems work.",
             "whyThisMatters": "433 MHz ISM Sensor Decoder es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
-          "projectId": "proj-ea0a6ca4f058bde4",
-          "projectSlug": "guide-004-p05-433-mhz-ism-sensor-decoder",
+          "projectId": "proj-9af622f0f931b959",
+          "projectSlug": "guide-004-p05-433-mhz-sensor-decoder",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -3928,7 +3928,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-2c18d355ce14dffa",
+          "canonicalProjectId": "cproj-58cf9026415bbd5c",
           "components": [
             "Antena 403MHz",
             "LNA",
@@ -4023,8 +4023,8 @@
             "whatThisProves": ": You understand sub-GHz ISM communication, OOK/FSK demodulation, packet framing and checksums, and decoding undocumented device protocols. This is exactly the wireless skill set behind IoT product engineering and connected-device security.",
             "whyThisMatters": "Stratospheric Radiosonde Tracker es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
-          "projectId": "proj-529f0d836c079877",
-          "projectSlug": "guide-004-p06-stratospheric-radiosonde-tracker",
+          "projectId": "proj-3bab84be8f44c317",
+          "projectSlug": "guide-004-p06-radiosonde-tracker-recovery",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -4200,7 +4200,7 @@
       ],
       "keyProjects": [
         {
-          "canonicalProjectId": "cproj-4abb56feac66293c",
+          "canonicalProjectId": "cproj-f3fd8c4807cf59e3",
           "components": [
             "NEMA 17",
             "AS5600",
@@ -4294,8 +4294,8 @@
             "whatThisProves": "You understand H-bridge topology, PWM speed control, motor direction switching, freewheeling and why inductive loads need it, and current sensing — the power-stage foundation of motor-drive and robotics hardware.",
             "whyThisMatters": "Before a robot can balance, drive, or steer, something has to turn a control signal into torque. An H-bridge does exactly that: four switches that push current through a DC motor in either direction, plus PWM that sets how hard. Build one, drive a motor forward and reverse, ramp its speed smoothly, and sense the current it draws, and you have the power stage that sits under every motor-control project in this guide. It is the cheapest, most fundamental motor build, and the payoff is immediate — a motor that does exactly what your code says."
           },
-          "projectId": "proj-097a8eaf224741a8",
-          "projectSlug": "guide-005-p01-closed-loop-stepper-controller",
+          "projectId": "proj-bcfd9fbeaa87c10d",
+          "projectSlug": "guide-005-p01-h-bridge-dc-motor-driver",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -4345,7 +4345,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-18f742c604a5ad55",
+          "canonicalProjectId": "cproj-54471e99a9022257",
           "components": [
             "Motor BLDC gimbal",
             "Driver SimpleFOC",
@@ -4439,8 +4439,8 @@
             "whatThisProves": "You understand encoders and quadrature decoding, feedback control, what each of the P, I, and D terms does, tuning, and steady-state error — the core of control-systems and robotics engineering, and the most transferable skill in the whole guide.",
             "whyThisMatters": "Open-loop, a motor just spins and you have no idea where it actually is. Add an encoder to measure its position and a PID controller to drive the error to zero, and the motor becomes a servo: command 90 degrees and it snaps there and holds, resisting if you push it. This is the single most important skill in motor control and robotics — closing the loop with feedback — and it is the foundation under every robot joint, CNC axis, and drone. Building your own PID position controller (rather than buying a servo) is the project that turns “I can spin a motor” into “I can control motion.”"
           },
-          "projectId": "proj-f353d8bac54c1f1e",
-          "projectSlug": "guide-005-p02-field-oriented-control-foc-bldc-servo",
+          "projectId": "proj-83e9902d5c3b038a",
+          "projectSlug": "guide-005-p02-closed-loop-position-servo",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -4490,7 +4490,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-a0704707498d88cc",
+          "canonicalProjectId": "cproj-7f5dbc08fa2c7f51",
           "components": [
             "Husillo T8",
             "Raíl lineal MGN12",
@@ -4585,8 +4585,8 @@
             "whatThisProves": "You understand inverted-pendulum dynamics, IMU sensor fusion (accelerometer + gyro, complementary or Kalman filtering), cascaded PID (angle and speed loops), and real-time control of an unstable plant — exactly the hard part of mobile-robotics and drone control.",
             "whyThisMatters": "A two-wheel balancing robot is an inverted pendulum: left alone it falls, so it only stays upright because a controller is constantly catching it. An IMU measures the tilt, a control loop computes how to drive the wheels to stay under the centre of mass, and the robot balances — leaning into a push and recovering. It is the most visually striking build in this guide and a genuine lesson in controlling an unstable system, sensor fusion, and cascaded control. If the closed-loop servo taught you to hold a position, this teaches you to stabilise something that actively wants to fall."
           },
-          "projectId": "proj-49c8ccba97aec32a",
-          "projectSlug": "guide-005-p03-micrometric-linear-lead-screw-stage",
+          "projectId": "proj-27a016a189140ed2",
+          "projectSlug": "guide-005-p03-self-balancing-robot",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -4636,7 +4636,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-8f0a77a8a6abfe43",
+          "canonicalProjectId": "cproj-f44980550c7baa6d",
           "components": [
             "Carro lineal",
             "Encoder rotatorio",
@@ -4731,8 +4731,8 @@
             "whatThisProves": "You understand three-phase brushless motors, electronic commutation, the idea of FOC (Clarke / Park transforms, controlling torque-producing current directly), rotor position sensing, and three-phase driver hardware — core to motor-drive, drone, EV, and robotics-actuator engineering.",
             "whyThisMatters": "Brushless (BLDC / PMSM) motors are everywhere high performance matters — drones, EVs, robot joints, gimbals — because they are efficient, powerful, and long-lived. But they need electronic commutation: you must energise the right coils at the right instant based on rotor position. Field-Oriented Control (FOC) does this optimally, producing smooth, silent, full- torque-at-any-speed motion, even holding still. Building a FOC drive — with a position sensor, a three-phase driver, and a library like SimpleFOC — is the leap into modern motor control and one of the most in-demand EE skills in robotics and electrified everything."
           },
-          "projectId": "proj-c1422fd48562f524",
-          "projectSlug": "guide-005-p04-pid-inverted-pendulum-balancer",
+          "projectId": "proj-81c9a2c04fc24060",
+          "projectSlug": "guide-005-p04-foc-brushless-motor-drive",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -4782,7 +4782,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-0e928b4af4ee80ad",
+          "canonicalProjectId": "cproj-f4e6816d166225a5",
           "components": [
             "Motorreductor",
             "Sensor INA226",
@@ -4877,8 +4877,8 @@
             "whatThisProves": "You understand stepper driving and microstepping, coordinating multiple axes, linear interpolation (Bresenham / DDA), acceleration profiles (trapezoidal motion), and turning a path into synchronised motor steps — core CNC, 3D-printing, and motion-control engineering.",
             "whyThisMatters": "A single controlled motor is one thing; making several move together to trace a precise path is another. A 2-axis pen plotter coordinates two stepper motors so a pen follows straight lines, curves, and shapes — the same coordinated-motion and interpolation problem at the heart of 3D printers, CNC machines, and laser cutters. You build the motion controller: parse a path, break it into synchronised X / Y steps with proper acceleration, and watch the machine draw. It is a deeply satisfying, visual build that teaches trajectory planning and multi-axis coordination, a different and essential facet of motor control."
           },
-          "projectId": "proj-f279f4481f7b38bd",
-          "projectSlug": "guide-005-p05-torque-limiting-linear-actuator",
+          "projectId": "proj-b0370f60d9b162c5",
+          "projectSlug": "guide-005-p05-2-axis-pen-plotter",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -4928,7 +4928,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-51bc59d121e263ed",
+          "canonicalProjectId": "cproj-305799c8000ff4e0",
           "components": [
             "Rodamientos",
             "Pines mecanizados",
@@ -5023,8 +5023,8 @@
             "whatThisProves": "You understand torque (current) control of a brushless motor, reading precise position, and rendering position-dependent forces (virtual springs, detents, walls) — the basis of haptics and force-feedback systems. It shows you can use a motor as an output device, not just an actuator.",
             "whyThisMatters": "Most knobs are passive; this one fights back. By driving a brushless motor with FOC and reading its exact angle, you can render torque as a function of position — so the same physical knob can feel like clicky detents, a smooth spring that returns to centre, or a hard end-stop, all changed in software. It is the technology behind high-end car controls and the viral “smart knob,” and it is a brilliant lesson in torque control and haptics: you are programming a force field you can feel with your fingers. It builds directly on FOC and turns motor control into a user interface."
           },
-          "projectId": "proj-d69245bb938183fc",
-          "projectSlug": "guide-005-p06-3d-printed-cycloidal-drive-joint",
+          "projectId": "proj-c5bf47262bc94293",
+          "projectSlug": "guide-005-p06-haptic-smart-knob",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -6205,7 +6205,7 @@
       ],
       "keyProjects": [
         {
-          "canonicalProjectId": "cproj-e59a6c6e5dbe44d1",
+          "canonicalProjectId": "cproj-16f81ecdb6fc2b70",
           "components": [
             "Antena parabólica de rejilla WiFi",
             "LNA Sawbird GOES",
@@ -6301,8 +6301,8 @@
             "whatThisProves": ": You understand L-band RF, low-noise amplifier and noise-figure design, link budgets, antenna gain, and digital demodulation of a BPSK downlink. These are the exact skills behind satellite communications, GPS, radar, and every space-to-ground link in the industry. --- PAGE 3 --- @1nska • 6 EE Projects That Reach Space • Page 3 How It Works • Geostationary downlink (1.69 GHz): GOES-East (GOES-19) and GOES-West (GOES-18) broadcast HRIT near 1694.1 MHz. The signal is BPSK at roughly 400 kSym/s and carries full-disk Earth images, regional mesoscale scans, and weather products. • Antenna — gain is everything: After a 36,000 km path the signal is extremely weak, so you need directional gain. A repurposed 2.4 GHz WiFi grid dish, a small offset satellite dish with a helical feed, or a DIY cookware reflector all work. Because the bird is geostationary, you point once and bolt it down. • Low-noise amplifier + SAW filter: An LNA with a sub-1 dB noise figure, mounted right at the antenna feed, sets the system sensitivity. A SAW filter near 1.69 GHz rejects cellular and WiFi that would otherwise desensitize the receiver. This LNA-at-the-antenna placement is the single most important decision in the build. • Bias tee + SDR: A bias tee injects DC up the coax to power the LNA at the mast while passing RF down to the radio. An RTL-SDR (or Airspy for more headroom) digitizes the filtered signal and streams IQ samples to a laptop or Raspberry Pi. • Demodulation + decode (SatDump): SatDump locks the BPSK carrier, recovers symbol timing, applies Viterbi and Reed-Solomon forward error correction, and reassembles the packets into full-disk and mesoscale images — the same pictures meteorologists use, pulled out of the air by you. Key Design Decisions",
             "whyThisMatters": "GOES Full-Disk Earth Receiver (1.7 GHz) es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
-          "projectId": "proj-63a47ba3fd3f219d",
-          "projectSlug": "guide-007-p01-goes-full-disk-earth-receiver-17-ghz",
+          "projectId": "proj-42a2b0aa016cd341",
+          "projectSlug": "guide-007-p01-goes-earth-receiver",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -6659,7 +6659,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-17cb5ec64a541c1a",
+          "canonicalProjectId": "cproj-7ff04c37b686e45c",
           "components": [
             "Cámara de baja luz",
             "Lente 16mm",
@@ -6755,8 +6755,8 @@
             "whatThisProves": ": You understand low-light image sensors and optics (f-number, exposure), embedded computer vision, star-identification algorithms, and the coordinate-frame math (quaternions) behind pointing systems. Star trackers are flagship aerospace GNC hardware — building one signals you can work on real spacecraft guidance. --- PAGE 13 --- @1nska • 6 EE Projects That Reach Space • Page 13 How It Works • Fast lens + low-light sensor: Stars are dim, so the optics matter most. A fast lens (f/1.4–f/2) gathers maximum light; a sensitive CMOS sensor (a Raspberry Pi HQ camera or a Sony IMX module) with a multi-second exposure captures enough stars per frame to identify a pattern. Monochrome and longer exposure both help. • Star centroiding: The software thresholds the image to separate stars from background, then computes the sub-pixel centroid of each star blob. Centroiding to a fraction of a pixel is what gives the tracker its arc-second accuracy — far finer than the pixel grid itself. • Pattern matching (lost in space): The key trick: the angular distances between stars form a unique fingerprint. An open-source solver like Tetra3 hashes these geometric patterns and matches them against a precomputed catalog — identifying exactly which stars you are looking at with no prior orientation estimate. • Attitude solve: Once stars are identified, their known catalog positions (right ascension and declination) plus their measured pixel positions let the solver compute the rotation that maps one to the other. The result is the camera's orientation, expressed as a quaternion or rotation matrix. • Edge compute: All of this runs on a Raspberry Pi (Zero 2 W or Pi 4). The solve takes well under a second per frame — fast enough to output a continuous attitude estimate, exactly as a real star tracker feeds a spacecraft's control system. Bill of Materials Component Part / Spec Qty ~Cost Raspberry Pi Zero 2 W or Pi 4 (runs Tetra3) 1 $15 Camera module Pi HQ camera or IMX290 / 462 board 1 $22 Fast lens CCTV C-mount, f/1.4–f/2, ~16 mm 1 $12 Lens adapter C / CS-mount to camera 1 $3 MicroSD card OS + star catalog 1 $5 Mount 3D-printed rigid camera bracket 1 $3 Power USB-C / LiPo + buck 1 —",
             "whyThisMatters": "Camera-Based Star Tracker es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
-          "projectId": "proj-ab2410b28d3cebe9",
-          "projectSlug": "guide-007-p04-camera-based-star-tracker",
+          "projectId": "proj-b1047df1d415ff14",
+          "projectSlug": "guide-007-p04-camera-star-tracker",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 6,
@@ -7232,7 +7232,7 @@
       ],
       "keyProjects": [
         {
-          "canonicalProjectId": "cproj-4e36fe5b605fb848",
+          "canonicalProjectId": "cproj-d04915bd36d406c8",
           "components": [
             "INA128",
             "Filtro Notch 50/60Hz",
@@ -7328,8 +7328,8 @@
             "whatThisProves": "You understand photoplethysmography, separating a small AC signal riding on a large DC baseline, band-pass filtering, peak detection, and why motion artifacts dominate wearable sensing — the core of consumer health-device engineering.",
             "whyThisMatters": "The gentlest way into biosignals uses no electrodes at all. Shine light into tissue and a photodiode sees it dim slightly with every heartbeat, because each pulse of blood absorbs a little more. That is photoplethysmography (PPG) — the exact sensor on the back of every smartwatch and fitness ring. A $5 module gives you a raw optical waveform; your job is to pull the tiny pulsatile component out of a big steady one, filter it, and count peaks into a heart rate. It teaches the AC-on-DC structure that runs through every biosignal in this guide, without ever touching a skin electrode."
           },
-          "projectId": "proj-ce306b5cb95f8c2a",
-          "projectSlug": "guide-008-p01-3-lead-ecg-heart-rate-monitor",
+          "projectId": "proj-459a2ee6506bd00d",
+          "projectSlug": "guide-008-p01-optical-pulse-sensor-ppg",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -7379,7 +7379,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-42dc558c26cfd0fd",
+          "canonicalProjectId": "cproj-c39fe4ff0f100452",
           "components": [
             "Rectificador de precisión",
             "Integrador analógico",
@@ -7475,8 +7475,8 @@
             "whatThisProves": "You understand instrumentation-amplifier topology, common-mode rejection (CMRR), driven- reference (right-leg drive) circuits, electrode half-cell offsets and why you must AC- couple, gain staging, and mains-hum rejection — the foundation of all precision biomedical analog design.",
             "whyThisMatters": "Your body produces electrical signals measured in millivolts — and it also acts as an antenna that picks up the mains hum flooding every room, often a thousand times larger than the signal you want. The instrumentation amplifier is the circuit that solves this: it amplifies only the difference between two electrodes while rejecting everything they see in common. Add a driven-reference electrode and careful filtering and suddenly a heartbeat or a muscle twitch emerges from the noise. This is the single circuit that makes ECG, EMG, and EEG possible, and building it yourself — rather than buying a module — is what separates people who understand biosignals from people who plug in a breakout board."
           },
-          "projectId": "proj-2f202e89ff045441",
-          "projectSlug": "guide-008-p02-emg-muscle-controlled-prosthetic-trigger",
+          "projectId": "proj-9e1e977f64e4bc67",
+          "projectSlug": "guide-008-p02-biopotential-front-end",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -7533,7 +7533,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-61211ddf912b1f01",
+          "canonicalProjectId": "cproj-9fa496147478eeab",
           "components": [
             "Amplificador de muy bajo ruido",
             "Filtro paso banda activo"
@@ -7621,8 +7621,8 @@
             "whatThisProves": "You understand cardiac electrophysiology at the signal level, lead configurations, the ECG bandwidth, R-peak detection algorithms, heart-rate and HRV extraction, and safe patient-connected design — the exact skill set of medical-device and patient-monitoring engineering.",
             "whyThisMatters": "Every beat of your heart is a coordinated electrical wave, and it is large enough to read from your skin. Put two electrodes across your chest or arms, run them into a biopotential front end, and the classic PQRST complex appears on screen: the small P wave as the atria fire, the sharp QRS spike as the ventricles contract, the broad T wave as they reset. Then detect those R peaks and you have a live heart rate and beat-to-beat variability. It is the most iconic biosignal there is, the payoff is unmistakable, and it is the project that proves you can build precision analog that works on a living system."
           },
-          "projectId": "proj-f04cc7365f79eb84",
-          "projectSlug": "guide-008-p03-single-channel-alpha-wave-eeg-monitor",
+          "projectId": "proj-af3aa771b9d40821",
+          "projectSlug": "guide-008-p03-ecg-heart-monitor",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -7672,7 +7672,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-a7f7ede01a61d76e",
+          "canonicalProjectId": "cproj-9885954d4468c52f",
           "components": [
             "Sensor MAX30102",
             "I2C",
@@ -7767,8 +7767,8 @@
             "whatThisProves": "You understand surface EMG generation, why its band differs from ECG, envelope detection (rectify plus low-pass), electrode placement along muscle fibres, crosstalk between adjacent muscles, and turning a biosignal into a usable control value — the basis of human-machine interface work.",
             "whyThisMatters": "When you contract a muscle, hundreds of motor units fire and their summed action potentials reach the skin as surface EMG — a burst of noisy, high-frequency activity whose amplitude tracks how hard you are pushing. Reuse your biopotential front end, shift the filter band upward, rectify and smooth the result, and you get a clean “muscle effort” signal you can plot, threshold, or use as a control input. It is the biosignal most useful as an interface, and it is the direct prerequisite for the myoelectric hand in project 5."
           },
-          "projectId": "proj-02bea515e35b1b01",
-          "projectSlug": "guide-008-p04-dual-wavelength-pulse-oximeter-ppg",
+          "projectId": "proj-105fe41205873a2c",
+          "projectSlug": "guide-008-p04-emg-muscle-sensor",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -7818,7 +7818,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-4d7e197648dd8160",
+          "canonicalProjectId": "cproj-8dc47d17bfe0f1e0",
           "components": [
             "Puente divisor sensible",
             "Electrodos en dedos"
@@ -7906,8 +7906,8 @@
             "whatThisProves": "You can take a noisy biological signal all the way through a real system — amplification, filtering, envelope extraction, calibration, thresholding, and actuator control — and make it work in real time on a living body. That end-to-end biosignal-to- actuator pipeline is exactly what prosthetics and neural-interface teams build.",
             "whyThisMatters": "This is the build that makes people stop scrolling. Take the EMG envelope from project 4, map it to servo positions, and a tendon-driven robotic hand opens and closes in time with your own muscle — the same myoelectric principle behind real prosthetic limbs. Add a second EMG channel (flexor and extensor) and you can command open and close independently; map the envelope proportionally and the grip strength follows your effort. It ties every skill in this guide together into a single, visceral demo: biology in, mechanics out."
           },
-          "projectId": "proj-b02bcca777dfb105",
-          "projectSlug": "guide-008-p05-galvanic-skin-response-gsr-stress-sensor",
+          "projectId": "proj-8f3eac46c3909e24",
+          "projectSlug": "guide-008-p05-emg-controlled-robotic-hand",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -7957,7 +7957,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-fe5123fe80e89fa9",
+          "canonicalProjectId": "cproj-40214fb7f5d7ad0e",
           "components": [
             "Generador AD9833",
             "Aislamiento galvánico",
@@ -8052,8 +8052,8 @@
             "whatThisProves": "You can design a genuinely low-noise, high-gain analog front end, manage shielding and grounding at the microvolt level, distinguish real neural signal from muscle and eye artifact, and validate a result experimentally. Microvolt-level analog design and honest artifact rejection are precisely what neurotech teams look for.",
             "whyThisMatters": "EEG is the hardest biosignal there is: tens of microvolts, a hundred times smaller than an ECG, buried under mains hum, muscle tension, and eye movement. But there is one effect a careful DIY rig can genuinely capture — the alpha rhythm. Relax with your eyes closed and an 8 to 12 Hz oscillation appears over the back of your head; open your eyes and it vanishes within a second. Watching that band power rise and fall on an FFT, on command, is the most demanding and most rewarding build in this guide — and it is a real, reproducible neuroscience result, not a gimmick."
           },
-          "projectId": "proj-a8e6f7c0ed91345a",
-          "projectSlug": "guide-008-p06-bio-impedance-body-composition-analyzer",
+          "projectId": "proj-d747988ca540ea48",
+          "projectSlug": "guide-008-p06-eeg-alpha-wave-detector",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -8676,7 +8676,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-b4e0155379170577",
+          "canonicalProjectId": "cproj-925ccd88ee609b05",
           "components": [
             "Láser modulable",
             "Fotodiodo PIN",
@@ -8771,8 +8771,8 @@
             "whatThisProves": "You understand intensity modulation of an optical source, transimpedance photodiode receivers, bandwidth and signal-to-noise in an analog link, and the basics of free-space optics — which maps onto optical-comms, fibre, and photonics engineering.",
             "whyThisMatters": "Fibre-optic internet is just light carrying data down a glass thread — and you can do the same thing through open air with a laser and a photodiode. Modulate a laser’s brightness with an audio or digital signal, point it at a photodiode across the room, and recover the signal on the far side: a free-space optical link, the same idea as Li-Fi and satellite laser comms. It is a hands-on lesson in modulation, analog front ends, and why light is such a high- bandwidth carrier — and unlike radio it needs no licence and barely leaks past the beam."
           },
-          "projectId": "proj-1cef58ba65d1d5e5",
-          "projectSlug": "guide-009-p04-free-space-optical-fso-laser-data-link",
+          "projectId": "proj-d79f6db1768ac1bb",
+          "projectSlug": "guide-009-p04-laser-data-link-free-space-optical-comms",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 1,
@@ -8822,7 +8822,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-7454201d2bc063e4",
+          "canonicalProjectId": "cproj-b658a1b389222d23",
           "components": [
             "Divisor de haz óptico",
             "Fotodiodo balanceado"
@@ -8911,8 +8911,8 @@
             "whatThisProves": "You understand triangulation, camera-laser calibration, extracting a laser line from an image, and reconstructing 3D points from 2D observations — core 3D-vision, metrology, and depth-sensing engineering.",
             "whyThisMatters": "A camera sees a flat image; add a laser and geometry and you can recover depth. Project a thin laser line onto an object, watch from a camera offset to one side, and the line bends along the object’s contours — measure that bend and triangulation gives you the surface’s 3D shape. Sweep the line across the object and you reconstruct a full 3D model, the same structured-light principle behind many 3D scanners and depth cameras. It is the most ambitious optical build here and a direct lesson in the camera-plus-light geometry at the core of 3D vision."
           },
-          "projectId": "proj-052a5c03c6733f19",
-          "projectSlug": "guide-009-p05-laser-doppler-vibrometer",
+          "projectId": "proj-329345bd47e40ee9",
+          "projectSlug": "guide-009-p05-laser-vibrometer",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 1,
@@ -9822,7 +9822,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-33c25ab79b558273",
+          "canonicalProjectId": "cproj-6e941668490a6840",
           "components": [
             "2x Módulos ESP32 con firmware CSI",
             "Python tool"
@@ -9911,8 +9911,8 @@
             "whatThisProves": "You understand channel-state information, multipath and how bodies perturb it, time- series feature extraction (variance, correlation), and the basics of RF sensing without a dedicated radar. This maps directly onto the WiFi-sensing and wireless-ML work now moving from research into products.",
             "whyThisMatters": "You do not even need a radar transmitter to sense motion — the WiFi already in the room will do it. A standard ESP32 can expose its WiFi channel-state information (CSI): a fine-grained measurement of how the radio channel between two devices changes. When a person moves, they perturb the multipath, and the CSI fluctuates in a way you can detect — presence and motion sensing, through walls, with a $10 microcontroller and no camera. It is the most accessible entry point into the very active research area of WiFi sensing (the basis of the new IEEE 802.11bf sensing standard), and it costs almost nothing."
           },
-          "projectId": "proj-4902d58497d90422",
-          "projectSlug": "guide-010-p05-through-wall-wifi-motion-detector",
+          "projectId": "proj-34f8130b926946da",
+          "projectSlug": "guide-010-p05-wifi-sensing-motion-detector",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 1,
@@ -9962,7 +9962,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-f2de13ec8aff7fc1",
+          "canonicalProjectId": "cproj-9c7d1019414cfce1",
           "components": [
             "Doble sintonizador RTL-SDR coherente",
             "Antenas"
@@ -10050,8 +10050,8 @@
             "whatThisProves": "You understand bistatic radar geometry, coherent multi-channel reception and clock synchronisation, the cross-ambiguity function (range-Doppler correlation), and direct- signal cancellation. Coherent multi-receiver SDR and correlation processing are advanced, in-demand skills for defense, surveillance, and signals work.",
             "whyThisMatters": "The most elegant build here transmits nothing at all. A powerful FM or digital-TV station already floods the sky with radio; passive (bistatic) radar listens to that signal directly on one receiver and to its echoes off passing aircraft on a second, then cross-correlates the two to reveal the planes’ range and Doppler. You build a radar that is completely silent — undetectable, license-free, and powered entirely by transmitters that already exist. It is the hardest project in the set because it demands two coherent, clock-locked receivers and real cross-ambiguity processing, which is exactly why it is the standout portfolio piece."
           },
-          "projectId": "proj-82f234929af2fa43",
-          "projectSlug": "guide-010-p06-passive-bistatic-radar",
+          "projectId": "proj-0e3437e72056994b",
+          "projectSlug": "guide-010-p06-passive-radar",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 1,
@@ -12635,7 +12635,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-027142344e67a3f6",
+          "canonicalProjectId": "cproj-3c57857d002c3fe2",
           "components": [
             "8x Servos SG90/MG90S",
             "Estructura ligera 3D",
@@ -12736,8 +12736,8 @@
             "whatThisProves": "You understand leg inverse kinematics, gait generation and phasing, static stability (support polygons), servo torque budgeting, and coordinating many actuators in real time. Legged locomotion is one of the most demanding — and most exciting — corners of robotics.",
             "whyThisMatters": "Nothing stops a scroll like a small four-legged robot walking across a table. Each leg is a little robot arm with its own inverse kinematics, and walking is the art of moving them in a coordinated rhythm — a gait — while keeping the body balanced over the feet still on the ground. Build a 12-servo quadruped, solve leg IK, and implement a creep or trot gait, and you have a machine that walks, turns, and stands up on its own. It is the most ambitious build in this guide, a genuine mechatronics and control challenge, and the same fundamentals behind every legged robot from research labs to robot dogs. build robots — a Build List field guide 7 / 15"
           },
-          "projectId": "proj-8e955745d51cb80d",
-          "projectSlug": "guide-013-p03-quadruped-walking-robot",
+          "projectId": "proj-6601045dd0ed3112",
+          "projectSlug": "guide-013-p03-quadruped-walker",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -12787,7 +12787,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-fd0e2f78a993286d",
+          "canonicalProjectId": "cproj-e894b7f6c5fb8f75",
           "components": [
             "Lidar 360° RPLIDAR A1",
             "Encoders ópticos de rueda",
@@ -12890,8 +12890,8 @@
             "whatThisProves": "You understand leg inverse kinematics, gait generation and phasing, static stability (support polygons), servo torque budgeting, and coordinating many actuators in real time. Legged locomotion is one of the most demanding — and most exciting — corners of robotics.",
             "whyThisMatters": "Nothing stops a scroll like a small four-legged robot walking across a table. Each leg is a little robot arm with its own inverse kinematics, and walking is the art of moving them in a coordinated rhythm — a gait — while keeping the body balanced over the feet still on the ground. Build a 12-servo quadruped, solve leg IK, and implement a creep or trot gait, and you have a machine that walks, turns, and stands up on its own. It is the most ambitious build in this guide, a genuine mechatronics and control challenge, and the same fundamentals behind every legged robot from research labs to robot dogs. build robots — a Build List field guide 7 / 15 --- PAGE 8 ---"
           },
-          "projectId": "proj-a245d2a49550770f",
-          "projectSlug": "guide-013-p04-slam-mapping-autonomous-rover",
+          "projectId": "proj-d58e4ae2c89c2b95",
+          "projectSlug": "guide-013-p04-vision-guided-tracking-robot",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -12941,7 +12941,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-e96c4a52096d6e5e",
+          "canonicalProjectId": "cproj-780baf342daac10a",
           "components": [
             "2x Motores paso a paso / DC",
             "IMU BNO055 / MPU6050",
@@ -13044,8 +13044,8 @@
             "whatThisProves": "You understand image capture and processing, object detection (colour segmentation, face and feature detection), turning detection into a control error, visual servoing, and the latency and robustness issues of real-world vision. Perception plus control is the core of modern robotics.",
             "whyThisMatters": "A robot that can see is a robot that can do almost anything, and the simplest vision task — find a thing and follow it — teaches the whole perception-to-action pipeline. Put a camera on your rover or a pan-tilt head, detect a coloured object (or a face) with OpenCV, and steer the robot to keep it centred and at a set distance. The result follows you around a room, and the pipeline (capture, detect, compute error, control) is exactly what robot vacuums, delivery robots, and industrial vision systems run. It is the bridge from blind reactive behavior to robots that understand what is in front of them. build robots — a Build List field guide 9 / 15 --- PAGE 10 ---"
           },
-          "projectId": "proj-761ec11a3abe8911",
-          "projectSlug": "guide-013-p05-self-balancing-inverted-pendulum",
+          "projectId": "proj-440b5f074e637b33",
+          "projectSlug": "guide-013-p05-force-sensing-gripper",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -13095,7 +13095,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-1e453f1b85beb3a6",
+          "canonicalProjectId": "cproj-ba1db053b5b95302",
           "components": [
             "Pórtico aluminio V-Slot",
             "Cámara OpenCV",
@@ -13198,8 +13198,8 @@
             "whatThisProves": "You understand tactile and force sensing (FSRs, load cells), compliant gripper design, closed-loop force control versus position control, grasp detection, and the mechanics of gentle manipulation — core to manipulation and soft- robotics engineering.",
             "whyThisMatters": "A gripper that only knows its finger position will crush a strawberry and drop a coffee cup. Give it a sense of touch — a force sensor in the fingertip and a control loop on grip force — and it can pick up an egg, a paper cup, or a tool with just the right squeeze. Building one teaches force sensing, compliant mechanisms, and force control as opposed to position control, which is the difference between industrial pick-and-place and robots that can handle the messy, fragile real world. It is a compact, satisfying build with an unforgettable demo. build robots — a Build List field guide 11 / 15 --- PAGE 12 ---"
           },
-          "projectId": "proj-2684f7e12c69809f",
-          "projectSlug": "guide-013-p06-vision-guided-pick-and-place-gantry",
+          "projectId": "proj-8739f5afc4163730",
+          "projectSlug": "guide-013-p06-slam-mapping-rover",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -13375,7 +13375,7 @@
       ],
       "keyProjects": [
         {
-          "canonicalProjectId": "cproj-ad0e26985a24a0fd",
+          "canonicalProjectId": "cproj-ab28afd46ce8b5dd",
           "components": [
             "Caja de aluminio fundido",
             "Junta elastomérica conductora",
@@ -13477,8 +13477,8 @@
             "whatThisProves": "You understand electromagnetic shielding (skin depth, aperture leakage, seam and gasket design), how to measure attenuation in dB with a source and a receiver, and the difference between shielding, filtering, and grounding — the fundamentals of EMC and hardening engineering.",
             "whyThisMatters": "Every piece of defense electronics has to survive an environment full of interference — radar, lightning, hostile transmitters, and the electromagnetic pulse that hardened systems are built to shrug off. The defense against all of it is the same physics: a conductive enclosure that stops fields at the boundary. Build a Faraday cage, put a phone inside and watch it lose signal, then measure exactly how many decibels of attenuation your seams, mesh, and gaskets buy you with an SDR. It is a beginner build with an unforgettable demo, and it teaches EMC and hardening — the survivability discipline that sits under every ruggedised system. survive the field — a Build List field guide 2 / 16 --- PAGE 3 ---"
           },
-          "projectId": "proj-0b965c322325da27",
-          "projectSlug": "guide-014-p01-shielding-emc-hardening-faraday-box",
+          "projectId": "proj-f62dc9c8b307e058",
+          "projectSlug": "guide-014-p01-faraday-cage-emp-hardened",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -13535,7 +13535,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-5d59ec4479374cf1",
+          "canonicalProjectId": "cproj-74c727edfbd8716f",
           "components": [
             "Ventilador de alta presión",
             "Panal laminar",
@@ -13637,8 +13637,8 @@
             "whatThisProves": "You understand subsonic aerodynamics (lift, drag, angle of attack, stall), flow conditioning (honeycombs, screens, contraction ratio), flow visualisation, and force measurement with a balance. That is the core of aerospace and aerodynamics engineering, and the wind-tunnel workflow every aircraft program uses.",
             "whyThisMatters": "Every aircraft, drone, and glider in the defense world was shaped in a wind tunnel long before it flew, and you can build a real one on a desk. A fan, a settling chamber, a honeycomb flow straightener, a smooth contraction, and a clear test section give you steady laminar air; add a smoke wand and the streamlines over a 3D-printed wing become visible, and a load cell turns the invisible force of lift into a number you can plot against angle of attack. It is the flagship of this guide — a genuine aerospace instrument, visually spectacular, and a hands-on route into aerodynamics and aircraft design. survive the field — a Build List field guide 4 / 16 --- PAGE 5 ---"
           },
-          "projectId": "proj-6a481bcdd735d488",
-          "projectSlug": "guide-014-p02-subsonic-wind-tunnel-flow-conditioning",
+          "projectId": "proj-6ddd2494ee5147e5",
+          "projectSlug": "guide-014-p02-desktop-wind-tunnel",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -13688,7 +13688,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-c8a94afecf890c01",
+          "canonicalProjectId": "cproj-b3c026baac4b819c",
           "components": [
             "Acelerómetro 500g",
             "Guía lineal vertical",
@@ -13790,8 +13790,8 @@
             "whatThisProves": "You understand composite layup (fiber types, weave, stacking sequence, resin), energy absorption and failure modes (delamination, fiber breakage), instrumented impact testing, and turning a test into data. Materials and structural-test engineering underpin every protective system in defense.",
             "whyThisMatters": "Helmets, vehicle panels, and protective gear are built from composites engineered to absorb impact — and the way engineers develop them is by making test panels and hitting them, repeatably, with an instrumented impactor. Lay up your own panels from carbon, fiberglass, and aramid with different stacks and resins, then build a drop tower that drops a known mass from a known height onto them while an accelerometer records the impact. Compare the panels: which cracked, which delaminated, which shrugged it off. It is hands-on materials engineering with a dramatic slow-motion payoff, and it is exactly how protective structures get designed. survive the field — a Build List field guide 7 / 16"
           },
-          "projectId": "proj-628a686b3596462b",
-          "projectSlug": "guide-014-p03-composite-armor-instrumented-impact-tester",
+          "projectId": "proj-0d8e9c0c0fc73284",
+          "projectSlug": "guide-014-p03-impact-resistant-composite-panel-drop-tower",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -13841,7 +13841,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-34d2bc49325529c8",
+          "canonicalProjectId": "cproj-012cb01c39ecf9ac",
           "components": [
             "2x Discos piezoeléctricos",
             "Preamplificador bajo ruido",
@@ -13943,8 +13943,8 @@
             "whatThisProves": "You understand composite layup (fiber types, weave, stacking sequence, resin), energy absorption and failure modes (delamination, fiber breakage), instrumented impact testing, and turning a test into data. Materials and structural-test engineering underpin every protective system in defense.",
             "whyThisMatters": "Helmets, vehicle panels, and protective gear are built from composites engineered to absorb impact — and the way engineers develop them is by making test panels and hitting them, repeatably, with an instrumented impactor. Lay up your own panels from carbon, fiberglass, and aramid with different stacks and resins, then build a drop tower that drops a known mass from a known height onto them while an accelerometer records the impact. Compare the panels: which cracked, which delaminated, which shrugged it off. It is hands-on materials engineering with a dramatic slow-motion payoff, and it is exactly how protective structures get designed. survive the field — a Build List field guide 7 / 16 --- PAGE 8 ---"
           },
-          "projectId": "proj-5d89db99dc84eddf",
-          "projectSlug": "guide-014-p04-underwater-hydrophone-array-acoustic-tdoa",
+          "projectId": "proj-608c1af3a5234d6d",
+          "projectSlug": "guide-014-p04-passive-sonar-hydrophone-array",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -13994,7 +13994,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-837b6ee60b46474e",
+          "canonicalProjectId": "cproj-82ed96c47c7d338e",
           "components": [
             "Ala de parapente RC",
             "2x Servos de alto torque",
@@ -14096,8 +14096,8 @@
             "whatThisProves": "You understand underwater acoustics, piezo transducers and potting, low-noise preamplification, time-difference-of- arrival bearing estimation, and cross-correlation. Passive acoustic sensing is core to naval, marine, and monitoring engineering.",
             "whyThisMatters": "Sound travels farther and faster in water than radio ever could, which is why navies listen. Build a hydrophone from a piezo element potted in epoxy, drop it in a lake, and you hear propellers, outboards, and the whole underwater soundscape; add a second hydrophone a known distance away, measure the time difference of arrival, and you get the bearing to the source — passive sonar, the technique behind anti-submarine warfare and marine monitoring. It is receive-only, cross-disciplinary (acoustics, transducers, signal processing), and a strikingly different sensing domain from the RF work in the rest of the series. survive the field — a Build List field guide 10 / 16 --- PAGE 11 ---"
           },
-          "projectId": "proj-2cbe8a39a8284482",
-          "projectSlug": "guide-014-p05-autonomous-guided-airdrop-parafoil-gnc",
+          "projectId": "proj-f1eec11a53164f7e",
+          "projectSlug": "guide-014-p05-precision-airdrop-parafoil-payload",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -14147,7 +14147,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-0d2113f9273dd979",
+          "canonicalProjectId": "cproj-69211933046f063e",
           "components": [
             "Célula Peltier TEC1-12706",
             "Transductor de vibración",
@@ -14249,8 +14249,8 @@
             "whatThisProves": "You understand ram-air parafoil aerodynamics and control (brake-line steering), guidance to a waypoint from GPS and heading, closed-loop heading control under wind, and the",
             "whyThisMatters": "Getting supplies to a precise spot from the air is a logistics problem the defense world solved with self-steering parafoils: a ram-air canopy with servo-pulled control lines and a GPS-guided controller that flies the payload to a coordinate. Build a small one — a ram-air kite canopy, two servos on the brake lines, a GPS and IMU on the payload box — drop it from a legal height, and watch it turn toward the landing point and flare. It is aerospace, control, and embedded engineering in one build, it is pure cargo delivery, and it is one of the most satisfying autonomous systems you can make. survive the field — a Build List field guide 12 / 16 --- PAGE 13 ---"
           },
-          "projectId": "proj-5bd7220eac89d8ea",
-          "projectSlug": "guide-014-p06-environmental-torture-test-lab-thermalvibe",
+          "projectId": "proj-c75c1711d621f4fd",
+          "projectSlug": "guide-014-p06-survivability-test-rig",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -14587,7 +14587,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-e96790da91921378",
+          "canonicalProjectId": "cproj-33f38764663c729d",
           "components": [
             "2x IMU BMI088",
             "Aisladores de silicona",
@@ -14690,8 +14690,8 @@
             "whatThisProves": "You understand multi-sensor proximity sensing, sector-based obstacle representation, streaming sensor data to a flight controller over a standard protocol, and how avoidance behaviour (stop versus slide,",
             "whyThisMatters": "A drone that can feel the walls is a fundamentally safer drone. Mount a ring of time-of-flight distance sensors around the frame, have a small microcontroller stream the nearest obstacle in each direction to the flight controller as proximity data, and the controller’s own avoidance logic takes over: fly toward a wall and the drone stops short, or slides along it, no matter what the sticks say. Push it toward a doorway and it refuses to hit the frame. It is the flagship of this guide — sensing, integration, and control behaviour in one upgrade — and it is the same layered safety architecture real autonomous drones use. drone upgrades — a Build List field guide 4 / 16 --- PAGE 5 ---"
           },
-          "projectId": "proj-a3d73d08684a062d",
-          "projectSlug": "guide-015-p02-redundant-dual-imu-with-kalman-voting",
+          "projectId": "proj-56d7311c137973c2",
+          "projectSlug": "guide-015-p02-obstacle-avoidance-sensor-ring",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -15210,7 +15210,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-cc5bba86f9102f00",
+          "canonicalProjectId": "cproj-d55d747c68d26beb",
           "components": [
             "Raspberry Pi 4 / Coral TPU",
             "Cámara estéreo",
@@ -15313,8 +15313,8 @@
             "whatThisProves": "You understand fiducial detection and pose estimation, camera calibration, sending a landing target to a flight controller over a standard protocol, the controller’s precision-landing behaviour, and failure handling when the target is lost. That is the vision-to-control pipeline autonomous drones are built on.",
             "whyThisMatters": "GPS puts a drone down within a couple of metres, which is useless for docking, charging, or landing on a vehicle. Precision landing uses a downward camera to see a fiducial marker on the pad, computes exactly where the pad is relative to the drone, and steers the descent so it touches down centred — the technology behind every autonomous docking and charging drone. Add a small companion computer, a camera, and a printed tag, and your drone lands itself on a pad the size of a coaster. It is computer vision, coordinate transforms, and controller integration, and the demo is undeniable. drone upgrades — a Build List field guide 11 / 16 --- PAGE 12 ---"
           },
-          "projectId": "proj-4ba4e6958a29f2ab",
-          "projectSlug": "guide-015-p06-ai-edge-companion-computer-collision-avoidance",
+          "projectId": "proj-4c8b24a49cc89a75",
+          "projectSlug": "guide-015-p06-signal-mapping-payload",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -16531,7 +16531,7 @@
       ],
       "keyProjects": [
         {
-          "canonicalProjectId": "cproj-35704e78de3c4e8a",
+          "canonicalProjectId": "cproj-1b2b4c105b674657",
           "components": [
             "YouTube playlists oficiales",
             "Lectures y exámenes libres"
@@ -16619,8 +16619,8 @@
             "whatThisProves": "Demuestra dominio en Audita los Mejores Cursos del Mundo (Stanford, MIT, CMU): diseño de hardware de alta fiabilidad, acondicionamiento de señal, control en lazo cerrado y validación con instrumentación real.",
             "whyThisMatters": "Audita los Mejores Cursos del Mundo (Stanford, MIT, CMU) es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
-          "projectId": "proj-fe4a998067b3d8aa",
-          "projectSlug": "guide-017-p01-audita-los-mejores-cursos-del-mundo-stanford-mit-cmu",
+          "projectId": "proj-78707896b3568b80",
+          "projectSlug": "guide-017-p01-stop-relying-on-your-classes",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -16670,7 +16670,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-48ccd1ebf5440bac",
+          "canonicalProjectId": "cproj-6f59281644228b16",
           "components": [
             "Stack tecnológico definido",
             "Proyectos de nicho"
@@ -16758,8 +16758,8 @@
             "whatThisProves": "Demuestra dominio en Elige una Especialidad y Profundiza al Máximo: diseño de hardware de alta fiabilidad, acondicionamiento de señal, control en lazo cerrado y validación con instrumentación real.",
             "whyThisMatters": "Elige una Especialidad y Profundiza al Máximo es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
-          "projectId": "proj-d625020e720f2574",
-          "projectSlug": "guide-017-p02-elige-una-especialidad-y-profundiza-al-maximo",
+          "projectId": "proj-3aec279be534ff12",
+          "projectSlug": "guide-017-p02-pick-a-stack-and-go-stupid-deep",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -16809,7 +16809,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-7edabbe69387c094",
+          "canonicalProjectId": "cproj-6683301a1e996b24",
           "components": [
             "Hardware funcional",
             "Repositorio GitHub impecable"
@@ -16898,8 +16898,8 @@
             "whatThisProves": "Demuestra dominio en Construye Algo que Nadie te Pidió que Construyas: diseño de hardware de alta fiabilidad, acondicionamiento de señal, control en lazo cerrado y validación con instrumentación real.",
             "whyThisMatters": "Construye Algo que Nadie te Pidió que Construyas es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
-          "projectId": "proj-f4c34c72a59d5e68",
-          "projectSlug": "guide-017-p03-construye-algo-que-nadie-te-pidio-que-construyas",
+          "projectId": "proj-fb0d548022858b81",
+          "projectSlug": "guide-017-p03-build-something-nobody-asked-you-to-build",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -16949,7 +16949,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-4c780d6b9b9b3d5b",
+          "canonicalProjectId": "cproj-0915f4a23b6bfa7b",
           "components": [
             "Application notes de Texas Instruments y ADI"
           ],
@@ -17031,8 +17031,8 @@
             "whatThisProves": "Demuestra dominio en Lee Datasheets y Notas de Aplicación como Ficción: diseño de hardware de alta fiabilidad, acondicionamiento de señal, control en lazo cerrado y validación con instrumentación real.",
             "whyThisMatters": "Lee Datasheets y Notas de Aplicación como Ficción es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
-          "projectId": "proj-40abc903cf68b70c",
-          "projectSlug": "guide-017-p04-lee-datasheets-y-notas-de-aplicacion-como-ficcion",
+          "projectId": "proj-02dbbc8ddd31a403",
+          "projectSlug": "guide-017-p04-read-documentation-like-other-people-read",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -17082,7 +17082,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-6dcf5c175e1bcaa3",
+          "canonicalProjectId": "cproj-922ca730fc68f57e",
           "components": [
             "Herramientas de desmontaje",
             "Microscopio USB"
@@ -17170,8 +17170,8 @@
             "whatThisProves": "Demuestra dominio en Ingeniería Inversa de Productos Comerciales Reales: diseño de hardware de alta fiabilidad, acondicionamiento de señal, control en lazo cerrado y validación con instrumentación real.",
             "whyThisMatters": "Ingeniería Inversa de Productos Comerciales Reales es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
-          "projectId": "proj-0d37911802b012cb",
-          "projectSlug": "guide-017-p05-ingenieria-inversa-de-productos-comerciales-reales",
+          "projectId": "proj-70d00a159382c7b2",
+          "projectSlug": "guide-017-p05-reverse-engineer-real-products",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -17221,7 +17221,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-b5d01968c9317469",
+          "canonicalProjectId": "cproj-24b7525fbb7b4cfb",
           "components": [
             "GitHub Pages",
             "LinkedIn técnico",
@@ -17312,8 +17312,8 @@
             "whatThisProves": "Demuestra dominio en Haz de tu Presencia en Internet un Portafolio Indiscutible: diseño de hardware de alta fiabilidad, acondicionamiento de señal, control en lazo cerrado y validación con instrumentación real.",
             "whyThisMatters": "Haz de tu Presencia en Internet un Portafolio Indiscutible es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
-          "projectId": "proj-814228cd5c64175a",
-          "projectSlug": "guide-017-p06-haz-de-tu-presencia-en-internet-un-portafolio-indiscutible",
+          "projectId": "proj-40d00bd011aadb3b",
+          "projectSlug": "guide-017-p06-make-your-internet-presence-a-portfolio",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -21689,7 +21689,7 @@
       ],
       "keyProjects": [
         {
-          "canonicalProjectId": "cproj-148dea7d70fe79c8",
+          "canonicalProjectId": "cproj-04b5ebee988990b1",
           "components": [
             "Dossier de proyecto",
             "Propuesta de valor de marca"
@@ -21777,8 +21777,8 @@
             "whatThisProves": "Demuestra dominio en El Gancho de la Reciprocidad y Visibilidad: diseño de hardware de alta fiabilidad, acondicionamiento de señal, control en lazo cerrado y validación con instrumentación real.",
             "whyThisMatters": "El Gancho de la Reciprocidad y Visibilidad es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
-          "projectId": "proj-08d95f39921234f1",
-          "projectSlug": "guide-022-p01-el-gancho-de-la-reciprocidad-y-visibilidad",
+          "projectId": "proj-6b0a52bf024366f5",
+          "projectSlug": "guide-022-p01-collect-contacts-before-you-need-them",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -21828,7 +21828,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-c9ca1ea353db5401",
+          "canonicalProjectId": "cproj-6683391249c938af",
           "components": [
             "Plantilla de correo",
             "Vídeo de 30 segundos"
@@ -21916,8 +21916,8 @@
             "whatThisProves": "Demuestra dominio en La Redacción del Correo Frío Irrechazable: diseño de hardware de alta fiabilidad, acondicionamiento de señal, control en lazo cerrado y validación con instrumentación real.",
             "whyThisMatters": "La Redacción del Correo Frío Irrechazable es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
-          "projectId": "proj-273ead6161abcad3",
-          "projectSlug": "guide-022-p02-la-redaccion-del-correo-frio-irrechazable",
+          "projectId": "proj-b78e4cf469556699",
+          "projectSlug": "guide-022-p02-pitch-their-win-not-your-need",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -21967,7 +21967,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-d1d62381fc897c87",
+          "canonicalProjectId": "cproj-8b9d92b65d88f0ef",
           "components": [
             "Gantt técnico",
             "Plan de riesgos"
@@ -22056,8 +22056,8 @@
             "whatThisProves": "Demuestra dominio en La Presentación del Plan de Investigación: diseño de hardware de alta fiabilidad, acondicionamiento de señal, control en lazo cerrado y validación con instrumentación real.",
             "whyThisMatters": "La Presentación del Plan de Investigación es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
-          "projectId": "proj-33e829cad7110af3",
-          "projectSlug": "guide-022-p03-la-presentacion-del-plan-de-investigacion",
+          "projectId": "proj-b12a577cab41355e",
+          "projectSlug": "guide-022-p03-reframe-dont-retreat",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -22107,7 +22107,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-e1a16b838a694da5",
+          "canonicalProjectId": "cproj-e02f780d388635dc",
           "components": [
             "Contrato de comodato",
             "Póliza de seguro"
@@ -22195,8 +22195,8 @@
             "whatThisProves": "Demuestra dominio en Logística, Seguros y Contratos de Comodato: diseño de hardware de alta fiabilidad, acondicionamiento de señal, control en lazo cerrado y validación con instrumentación real.",
             "whyThisMatters": "Logística, Seguros y Contratos de Comodato es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
-          "projectId": "proj-f7ffbdd7d6579c7b",
-          "projectSlug": "guide-022-p04-logistica-seguros-y-contratos-de-comodato",
+          "projectId": "proj-f9180d45f5ec9f14",
+          "projectSlug": "guide-022-p04-make-it-embarrassingly-easy-to-say-yes",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -22246,7 +22246,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-a6fd52d69361ec82",
+          "canonicalProjectId": "cproj-9734e9e0962f0488",
           "components": [
             "Lenguaje KRL",
             "Controlador KUKA SmartPAD"
@@ -22330,8 +22330,8 @@
             "whatThisProves": "Demuestra dominio en Programación KRL, Puesta en Marcha y Retorno: diseño de hardware de alta fiabilidad, acondicionamiento de señal, control en lazo cerrado y validación con instrumentación real.",
             "whyThisMatters": "Programación KRL, Puesta en Marcha y Retorno es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
-          "projectId": "proj-a1795bd7588ca33b",
-          "projectSlug": "guide-022-p05-programacion-krl-puesta-en-marcha-y-retorno",
+          "projectId": "proj-5476aa59832095c4",
+          "projectSlug": "guide-022-p05-follow-up-like-your-life-depends-on-it",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -22501,7 +22501,7 @@
       ],
       "keyProjects": [
         {
-          "canonicalProjectId": "cproj-60b5895891eba953",
+          "canonicalProjectId": "cproj-ff4773467bd859c1",
           "components": [
             "Kit Arduino Uno clone con componentes"
           ],
@@ -22578,8 +22578,8 @@
             "whatThisProves": "Demuestra dominio en Paso 1: Salta la teoría y compra un kit de Arduino: diseño de hardware de alta fiabilidad, acondicionamiento de señal, control en lazo cerrado y validación con instrumentación real.",
             "whyThisMatters": "Paso 1: Salta la teoría y compra un kit de Arduino es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
-          "projectId": "proj-985a367fdabbc644",
-          "projectSlug": "guide-023-p01-paso-1-salta-la-teoria-y-compra-un-kit-de-arduino",
+          "projectId": "proj-870e3798e482728a",
+          "projectSlug": "guide-023-p01-skip-the-theory-at-first-get-a-breadboard-and-an-arduino-kit",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -22629,7 +22629,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-5547d250f83dfb95",
+          "canonicalProjectId": "cproj-c03cc672bf487286",
           "components": [
             "Multímetro digital",
             "Cables con pinzas cocodrilo"
@@ -22717,8 +22717,8 @@
             "whatThisProves": "Demuestra dominio en Paso 2: Hazte con un multímetro y mide voltajes reales: diseño de hardware de alta fiabilidad, acondicionamiento de señal, control en lazo cerrado y validación con instrumentación real.",
             "whyThisMatters": "Paso 2: Hazte con un multímetro y mide voltajes reales es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
-          "projectId": "proj-94fe7239accddca6",
-          "projectSlug": "guide-023-p02-paso-2-hazte-con-un-multimetro-y-mide-voltajes-reales",
+          "projectId": "proj-c54d5ce6b7eb5c72",
+          "projectSlug": "guide-023-p02-blink-an-led-then-a-buzzer-then-a-button",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -22768,7 +22768,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-fefe9ac2518396b7",
+          "canonicalProjectId": "cproj-284532f72247fa1c",
           "components": [
             "Chip 555",
             "Condensadores electrolíticos"
@@ -22856,8 +22856,8 @@
             "whatThisProves": "Demuestra dominio en Paso 3: Construye tu primer circuito analógico sin código: diseño de hardware de alta fiabilidad, acondicionamiento de señal, control en lazo cerrado y validación con instrumentación real.",
             "whyThisMatters": "Paso 3: Construye tu primer circuito analógico sin código es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
-          "projectId": "proj-e8453ca3d13f58fb",
-          "projectSlug": "guide-023-p03-paso-3-construye-tu-primer-circuito-analogico-sin-codigo",
+          "projectId": "proj-aa9dc979642f0763",
+          "projectSlug": "guide-023-p03-now-learn-the-theory-you-just-used",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -22907,7 +22907,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-241c49a39f7f10c5",
+          "canonicalProjectId": "cproj-6257064bf72b8fc1",
           "components": [
             "Soldador regulable",
             "Estaño 60/40 con resina",
@@ -23002,8 +23002,8 @@
             "whatThisProves": "Demuestra dominio en Paso 4: Aprende a soldar temprano con un kit de práctica: diseño de hardware de alta fiabilidad, acondicionamiento de señal, control en lazo cerrado y validación con instrumentación real.",
             "whyThisMatters": "Paso 4: Aprende a soldar temprano con un kit de práctica es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
-          "projectId": "proj-7b2012360f90ea4a",
-          "projectSlug": "guide-023-p04-paso-4-aprende-a-soldar-temprano-con-un-kit-de-practica",
+          "projectId": "proj-45b7d735f22891b5",
+          "projectSlug": "guide-023-p04-learn-to-solder-early-its-easier-than-it-looks",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -23053,7 +23053,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-d44a5f88c90e572e",
+          "canonicalProjectId": "cproj-7f91442f108ef298",
           "components": [
             "Software libre KiCad",
             "Archivos Gerber"
@@ -23141,8 +23141,8 @@
             "whatThisProves": "Demuestra dominio en Paso 5: Pasa de la protoboard a KiCad y diseña tu primera PCB: diseño de hardware de alta fiabilidad, acondicionamiento de señal, control en lazo cerrado y validación con instrumentación real.",
             "whyThisMatters": "Paso 5: Pasa de la protoboard a KiCad y diseña tu primera PCB es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
-          "projectId": "proj-e17fbdd168fa8192",
-          "projectSlug": "guide-023-p05-paso-5-pasa-de-la-protoboard-a-kicad-y-disena-tu-primera-pcb",
+          "projectId": "proj-c6ed4e527202fe9f",
+          "projectSlug": "guide-023-p05-measure-everything-multimeter-first-oscilloscope-later",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,
@@ -23192,7 +23192,7 @@
           ]
         },
         {
-          "canonicalProjectId": "cproj-b97d7e87a8d75062",
+          "canonicalProjectId": "cproj-2fa14db81fb6ca06",
           "components": [
             "Caja impresa o plástico",
             "Alimentación por batería"
@@ -23280,8 +23280,8 @@
             "whatThisProves": "Demuestra dominio en Paso 6: Construye un proyecto físico que realmente quieras usar: diseño de hardware de alta fiabilidad, acondicionamiento de señal, control en lazo cerrado y validación con instrumentación real.",
             "whyThisMatters": "Paso 6: Construye un proyecto físico que realmente quieras usar es el bloque fundamental que diferencia un prototipo básico de un sistema desplegable en campo: inmunidad al ruido, latencia determinista y fiabilidad operativa."
           },
-          "projectId": "proj-ecc4d19a4cc58c9d",
-          "projectSlug": "guide-023-p06-paso-6-construye-un-proyecto-fisico-que-realmente-quieras-usar",
+          "projectId": "proj-7ab2bb2006d5e60e",
+          "projectSlug": "guide-023-p06-build-one-real-project-you-actually-want-to-use",
           "provenance": {
             "confidence": "EXACT",
             "detectionSignals": 0,

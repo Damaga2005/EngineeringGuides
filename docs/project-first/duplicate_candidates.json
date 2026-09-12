@@ -67,6 +67,72 @@
       "similarityScore": 0.8714
     },
     {
+      "candidateId": "cand-d55d747c68d26beb",
+      "classification": "EXACT_DUPLICATE",
+      "conflictEvidence": [
+        "Controlador asimétrico: ESP32 vs None."
+      ],
+      "evaluatedSignals": {
+        "bom_overlap": 0.0,
+        "controller_match": 0.2,
+        "exact_title_match": true,
+        "same_firmware_identity": true,
+        "same_project_slot": true,
+        "same_source_hash": true,
+        "schematic_match": 0.0,
+        "sensor_overlap": 1.0,
+        "title_similarity": 1.0
+      },
+      "identityEvidence": [
+        "Mismo slot de proyecto (#6) en PDFs fuente idénticos bit a bit (SHA: 87f5986df335...).",
+        "Certificación de identidad por coincidencia criptográfica de PDF y slot."
+      ],
+      "matchEvidence": [
+        "Títulos idénticos tras normalización alfanumérica.",
+        "Mismo slot de proyecto (#6) en PDFs fuente idénticos bit a bit (SHA: 87f5986df335...).",
+        "Certificación de identidad por coincidencia criptográfica de PDF y slot."
+      ],
+      "projectAId": "proj-a906f1e86a9caa9f",
+      "projectBId": "proj-4c8b24a49cc89a75",
+      "similarityEvidence": [
+        "Títulos idénticos tras normalización alfanumérica."
+      ],
+      "similarityScore": 0.6
+    },
+    {
+      "candidateId": "cand-33f38764663c729d",
+      "classification": "EXACT_DUPLICATE",
+      "conflictEvidence": [
+        "Controlador asimétrico: None vs STM32F4."
+      ],
+      "evaluatedSignals": {
+        "bom_overlap": 0.0,
+        "controller_match": 0.2,
+        "exact_title_match": true,
+        "same_firmware_identity": true,
+        "same_project_slot": true,
+        "same_source_hash": true,
+        "schematic_match": 0.0,
+        "sensor_overlap": 0.0,
+        "title_similarity": 1.0
+      },
+      "identityEvidence": [
+        "Mismo slot de proyecto (#2) en PDFs fuente idénticos bit a bit (SHA: 87f5986df335...).",
+        "Certificación de identidad por coincidencia criptográfica de PDF y slot."
+      ],
+      "matchEvidence": [
+        "Títulos idénticos tras normalización alfanumérica.",
+        "Mismo slot de proyecto (#2) en PDFs fuente idénticos bit a bit (SHA: 87f5986df335...).",
+        "Certificación de identidad por coincidencia criptográfica de PDF y slot."
+      ],
+      "projectAId": "proj-7251513973158948",
+      "projectBId": "proj-56d7311c137973c2",
+      "similarityEvidence": [
+        "Títulos idénticos tras normalización alfanumérica."
+      ],
+      "similarityScore": 0.45
+    },
+    {
       "candidateId": "cand-7a10144c6e5bec06",
       "classification": "NEEDS_REVIEW",
       "conflictEvidence": [
@@ -127,6 +193,34 @@
       "similarityScore": 0.7273
     },
     {
+      "candidateId": "cand-1b2b16ed28e41648",
+      "classification": "NEEDS_REVIEW",
+      "conflictEvidence": [
+        "Controlador asimétrico: None vs ESP32."
+      ],
+      "evaluatedSignals": {
+        "bom_overlap": 0.0,
+        "controller_match": 0.2,
+        "exact_title_match": false,
+        "same_firmware_identity": true,
+        "same_project_slot": false,
+        "same_source_hash": false,
+        "schematic_match": 0.0,
+        "sensor_overlap": 0.0,
+        "title_similarity": 0.75
+      },
+      "identityEvidence": [],
+      "matchEvidence": [
+        "Alta similitud léxica de títulos (0.75)."
+      ],
+      "projectAId": "proj-27a016a189140ed2",
+      "projectBId": "proj-d8c93538c64e97f6",
+      "similarityEvidence": [
+        "Alta similitud léxica de títulos (0.75)."
+      ],
+      "similarityScore": 0.35
+    },
+    {
       "candidateId": "cand-57bc1fb8521470a0",
       "classification": "NEEDS_REVIEW",
       "conflictEvidence": [
@@ -176,7 +270,7 @@
       "similarityScore": 0.2139
     },
     {
-      "candidateId": "cand-27885943f4e8cbd4",
+      "candidateId": "cand-b9683d124175e45b",
       "classification": "NEEDS_REVIEW",
       "conflictEvidence": [
         "Controlador asimétrico: None vs STM32F4."
@@ -195,12 +289,12 @@
       "identityEvidence": [],
       "matchEvidence": [],
       "projectAId": "proj-217f596a43c24e22",
-      "projectBId": "proj-a3d73d08684a062d",
+      "projectBId": "proj-56d7311c137973c2",
       "similarityEvidence": [],
       "similarityScore": 0.2118
     },
     {
-      "candidateId": "cand-bc4b3d14889b2310",
+      "candidateId": "cand-75fcb9b30509023b",
       "classification": "NEEDS_REVIEW",
       "conflictEvidence": [
         "Controlador asimétrico: None vs STM32F4."
@@ -219,7 +313,7 @@
       "identityEvidence": [],
       "matchEvidence": [],
       "projectAId": "proj-171507a32b08d9c8",
-      "projectBId": "proj-a3d73d08684a062d",
+      "projectBId": "proj-56d7311c137973c2",
       "similarityEvidence": [],
       "similarityScore": 0.2
     },
@@ -272,32 +366,7 @@
       "similarityScore": 0.2
     },
     {
-      "candidateId": "cand-07328ecfd9f1bcfd",
-      "classification": "NEEDS_REVIEW",
-      "conflictEvidence": [
-        "Mismo slot en PDFs duplicados pero títulos divergen: 'Signal-Mapping Payload' vs 'AI Edge Companion Computer & Collision Avoidance'.",
-        "Controlador asimétrico: ESP32 vs None."
-      ],
-      "evaluatedSignals": {
-        "bom_overlap": 0.0,
-        "controller_match": 0.2,
-        "exact_title_match": false,
-        "same_firmware_identity": true,
-        "same_project_slot": true,
-        "same_source_hash": true,
-        "schematic_match": 0.0,
-        "sensor_overlap": 1.0,
-        "title_similarity": 0.0
-      },
-      "identityEvidence": [],
-      "matchEvidence": [],
-      "projectAId": "proj-a906f1e86a9caa9f",
-      "projectBId": "proj-4ba4e6958a29f2ab",
-      "similarityEvidence": [],
-      "similarityScore": 0.2
-    },
-    {
-      "candidateId": "cand-4115909acfa144b0",
+      "candidateId": "cand-e2d05c230db8eb86",
       "classification": "NEEDS_REVIEW",
       "conflictEvidence": [
         "Discrepancia crítica de controlador: ESP32 vs STM32F4."
@@ -316,7 +385,7 @@
       "identityEvidence": [],
       "matchEvidence": [],
       "projectAId": "proj-a906f1e86a9caa9f",
-      "projectBId": "proj-a3d73d08684a062d",
+      "projectBId": "proj-56d7311c137973c2",
       "similarityEvidence": [],
       "similarityScore": 0.15
     },
@@ -465,7 +534,7 @@
       "similarityScore": 0.125
     },
     {
-      "candidateId": "cand-5693673750814672",
+      "candidateId": "cand-d221adaf3bf8a979",
       "classification": "NEEDS_REVIEW",
       "conflictEvidence": [
         "Controlador asimétrico: None vs STM32F4."
@@ -484,12 +553,12 @@
       "identityEvidence": [],
       "matchEvidence": [],
       "projectAId": "proj-b4e3670bf00a9de2",
-      "projectBId": "proj-a3d73d08684a062d",
+      "projectBId": "proj-56d7311c137973c2",
       "similarityEvidence": [],
       "similarityScore": 0.0735
     },
     {
-      "candidateId": "cand-e29a6b0db44b2adf",
+      "candidateId": "cand-61426d9027b80af2",
       "classification": "NEEDS_REVIEW",
       "conflictEvidence": [
         "Controlador asimétrico: None vs STM32F4."
@@ -508,32 +577,7 @@
       "identityEvidence": [],
       "matchEvidence": [],
       "projectAId": "proj-3c8e3f6f2e8b24be",
-      "projectBId": "proj-a3d73d08684a062d",
-      "similarityEvidence": [],
-      "similarityScore": 0.05
-    },
-    {
-      "candidateId": "cand-4eeacb8e0d5fcabd",
-      "classification": "NEEDS_REVIEW",
-      "conflictEvidence": [
-        "Mismo slot en PDFs duplicados pero títulos divergen: 'Obstacle-Avoidance Sensor Ring' vs 'Redundant Dual-IMU with Kalman Voting'.",
-        "Controlador asimétrico: None vs STM32F4."
-      ],
-      "evaluatedSignals": {
-        "bom_overlap": 0.0,
-        "controller_match": 0.2,
-        "exact_title_match": false,
-        "same_firmware_identity": true,
-        "same_project_slot": true,
-        "same_source_hash": true,
-        "schematic_match": 0.0,
-        "sensor_overlap": 0.0,
-        "title_similarity": 0.0
-      },
-      "identityEvidence": [],
-      "matchEvidence": [],
-      "projectAId": "proj-7251513973158948",
-      "projectBId": "proj-a3d73d08684a062d",
+      "projectBId": "proj-56d7311c137973c2",
       "similarityEvidence": [],
       "similarityScore": 0.05
     },
@@ -743,58 +787,6 @@
       "similarityScore": 0.5071
     },
     {
-      "candidateId": "cand-3c85f7243e1a49ff",
-      "classification": "RELATED",
-      "conflictEvidence": [],
-      "evaluatedSignals": {
-        "bom_overlap": 0.125,
-        "controller_match": 1.0,
-        "exact_title_match": false,
-        "same_firmware_identity": false,
-        "same_project_slot": false,
-        "same_source_hash": false,
-        "schematic_match": 0.0,
-        "sensor_overlap": 1.0,
-        "title_similarity": 0.1429
-      },
-      "identityEvidence": [],
-      "matchEvidence": [
-        "Mismo microcontrolador principal: STM32F4."
-      ],
-      "projectAId": "proj-c552597bc8d468cc",
-      "projectBId": "proj-14bca4088da46825",
-      "similarityEvidence": [
-        "Mismo microcontrolador principal: STM32F4."
-      ],
-      "similarityScore": 0.4821
-    },
-    {
-      "candidateId": "cand-2af26a2af4ba9ee4",
-      "classification": "RELATED",
-      "conflictEvidence": [],
-      "evaluatedSignals": {
-        "bom_overlap": 0.0625,
-        "controller_match": 1.0,
-        "exact_title_match": false,
-        "same_firmware_identity": true,
-        "same_project_slot": false,
-        "same_source_hash": false,
-        "schematic_match": 0.0,
-        "sensor_overlap": 1.0,
-        "title_similarity": 0.1667
-      },
-      "identityEvidence": [],
-      "matchEvidence": [
-        "Mismo microcontrolador principal: ESP32."
-      ],
-      "projectAId": "proj-a906f1e86a9caa9f",
-      "projectBId": "proj-a245d2a49550770f",
-      "similarityEvidence": [
-        "Mismo microcontrolador principal: ESP32."
-      ],
-      "similarityScore": 0.4792
-    },
-    {
       "candidateId": "cand-fe175ae11779a2a5",
       "classification": "RELATED",
       "conflictEvidence": [],
@@ -817,30 +809,56 @@
       "similarityScore": 0.475
     },
     {
-      "candidateId": "cand-6bf88aaecac7e6ca",
+      "candidateId": "cand-863aa5ace39dce50",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
-        "bom_overlap": 0.2,
+        "bom_overlap": 0.125,
         "controller_match": 1.0,
         "exact_title_match": false,
-        "same_firmware_identity": true,
-        "same_project_slot": true,
+        "same_firmware_identity": false,
+        "same_project_slot": false,
         "same_source_hash": false,
         "schematic_match": 0.0,
         "sensor_overlap": 1.0,
-        "title_similarity": 0.0769
+        "title_similarity": 0.125
       },
       "identityEvidence": [],
       "matchEvidence": [
-        "Mismo microcontrolador principal: ATmega328P."
+        "Mismo microcontrolador principal: STM32F4."
       ],
-      "projectAId": "proj-985a367fdabbc644",
-      "projectBId": "proj-e1043df73e599c7e",
+      "projectAId": "proj-07abe9bee1e961a9",
+      "projectBId": "proj-14bca4088da46825",
       "similarityEvidence": [
-        "Mismo microcontrolador principal: ATmega328P."
+        "Mismo microcontrolador principal: STM32F4."
       ],
-      "similarityScore": 0.4708
+      "similarityScore": 0.475
+    },
+    {
+      "candidateId": "cand-daf67afd998b8336",
+      "classification": "RELATED",
+      "conflictEvidence": [],
+      "evaluatedSignals": {
+        "bom_overlap": 0.0556,
+        "controller_match": 1.0,
+        "exact_title_match": false,
+        "same_firmware_identity": true,
+        "same_project_slot": false,
+        "same_source_hash": false,
+        "schematic_match": 0.0,
+        "sensor_overlap": 1.0,
+        "title_similarity": 0.1429
+      },
+      "identityEvidence": [],
+      "matchEvidence": [
+        "Mismo microcontrolador principal: ESP32."
+      ],
+      "projectAId": "proj-8c76d2f0e14a7e6d",
+      "projectBId": "proj-d58e4ae2c89c2b95",
+      "similarityEvidence": [
+        "Mismo microcontrolador principal: ESP32."
+      ],
+      "similarityScore": 0.4683
     },
     {
       "candidateId": "cand-07ac63fba88504e6",
@@ -893,6 +911,32 @@
         "Mismo microcontrolador principal: ESP32."
       ],
       "similarityScore": 0.4654
+    },
+    {
+      "candidateId": "cand-1531fc4a521672e9",
+      "classification": "RELATED",
+      "conflictEvidence": [],
+      "evaluatedSignals": {
+        "bom_overlap": 0.0556,
+        "controller_match": 1.0,
+        "exact_title_match": false,
+        "same_firmware_identity": false,
+        "same_project_slot": false,
+        "same_source_hash": false,
+        "schematic_match": 0.0,
+        "sensor_overlap": 1.0,
+        "title_similarity": 0.125
+      },
+      "identityEvidence": [],
+      "matchEvidence": [
+        "Mismo microcontrolador principal: ESP32."
+      ],
+      "projectAId": "proj-ae877be606e5b288",
+      "projectBId": "proj-d58e4ae2c89c2b95",
+      "similarityEvidence": [
+        "Mismo microcontrolador principal: ESP32."
+      ],
+      "similarityScore": 0.4611
     },
     {
       "candidateId": "cand-7c7771ade9639a28",
@@ -995,7 +1039,33 @@
       "similarityScore": 0.44
     },
     {
-      "candidateId": "cand-dff733cdfb0f5e1e",
+      "candidateId": "cand-52b0bb997299572b",
+      "classification": "RELATED",
+      "conflictEvidence": [],
+      "evaluatedSignals": {
+        "bom_overlap": 0.2,
+        "controller_match": 1.0,
+        "exact_title_match": false,
+        "same_firmware_identity": true,
+        "same_project_slot": true,
+        "same_source_hash": false,
+        "schematic_match": 0.0,
+        "sensor_overlap": 1.0,
+        "title_similarity": 0.0
+      },
+      "identityEvidence": [],
+      "matchEvidence": [
+        "Mismo microcontrolador principal: ATmega328P."
+      ],
+      "projectAId": "proj-870e3798e482728a",
+      "projectBId": "proj-e1043df73e599c7e",
+      "similarityEvidence": [
+        "Mismo microcontrolador principal: ATmega328P."
+      ],
+      "similarityScore": 0.44
+    },
+    {
+      "candidateId": "cand-d4b5bd051b26a3c6",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -1013,7 +1083,7 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
-      "projectAId": "proj-a245d2a49550770f",
+      "projectAId": "proj-d58e4ae2c89c2b95",
       "projectBId": "proj-fb8e65ad8631b29f",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
@@ -1073,29 +1143,7 @@
       "similarityScore": 0.4333
     },
     {
-      "candidateId": "cand-82db1be37ecb7abe",
-      "classification": "RELATED",
-      "conflictEvidence": [],
-      "evaluatedSignals": {
-        "bom_overlap": 0.125,
-        "controller_match": 0.5,
-        "exact_title_match": false,
-        "same_firmware_identity": false,
-        "same_project_slot": false,
-        "same_source_hash": false,
-        "schematic_match": 0.0,
-        "sensor_overlap": 1.0,
-        "title_similarity": 0.3333
-      },
-      "identityEvidence": [],
-      "matchEvidence": [],
-      "projectAId": "proj-273ead6161abcad3",
-      "projectBId": "proj-33e829cad7110af3",
-      "similarityEvidence": [],
-      "similarityScore": 0.4333
-    },
-    {
-      "candidateId": "cand-16d5c2ffe9815c10",
+      "candidateId": "cand-63a48528e184e87a",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -1113,7 +1161,7 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: ATmega328P."
       ],
-      "projectAId": "proj-985a367fdabbc644",
+      "projectAId": "proj-870e3798e482728a",
       "projectBId": "proj-ebd06c8fe102558d",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ATmega328P."
@@ -1147,7 +1195,7 @@
       "similarityScore": 0.4333
     },
     {
-      "candidateId": "cand-6b0460b5c89c490c",
+      "candidateId": "cand-517e6854029a53f6",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -1165,7 +1213,7 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
-      "projectAId": "proj-4902d58497d90422",
+      "projectAId": "proj-34f8130b926946da",
       "projectBId": "proj-fb8e65ad8631b29f",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
@@ -1173,7 +1221,7 @@
       "similarityScore": 0.4308
     },
     {
-      "candidateId": "cand-858f008d7e2f73f7",
+      "candidateId": "cand-665a2a208ebef9a5",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -1191,7 +1239,7 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: ATmega2560."
       ],
-      "projectAId": "proj-2684f7e12c69809f",
+      "projectAId": "proj-8739f5afc4163730",
       "projectBId": "proj-8bf5eb8c424af41d",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ATmega2560."
@@ -1199,7 +1247,7 @@
       "similarityScore": 0.4308
     },
     {
-      "candidateId": "cand-18e484a7dedb0a9e",
+      "candidateId": "cand-4d385ac408cd3a8f",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -1217,7 +1265,7 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: ATmega2560."
       ],
-      "projectAId": "proj-2684f7e12c69809f",
+      "projectAId": "proj-8739f5afc4163730",
       "projectBId": "proj-b4b49073df0bfb7a",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ATmega2560."
@@ -1225,7 +1273,7 @@
       "similarityScore": 0.4308
     },
     {
-      "candidateId": "cand-3d38886370251119",
+      "candidateId": "cand-e0810792cdae150b",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -1243,7 +1291,7 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
-      "projectAId": "proj-8df10854ea1082a6",
+      "projectAId": "proj-92139980dfd95e5e",
       "projectBId": "proj-a906f1e86a9caa9f",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
@@ -1485,7 +1533,7 @@
       "similarityScore": 0.4222
     },
     {
-      "candidateId": "cand-8ddd59a51829aacd",
+      "candidateId": "cand-0614501a02a01536",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -1503,8 +1551,8 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
-      "projectAId": "proj-8df10854ea1082a6",
-      "projectBId": "proj-a245d2a49550770f",
+      "projectAId": "proj-92139980dfd95e5e",
+      "projectBId": "proj-d58e4ae2c89c2b95",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
@@ -1719,7 +1767,7 @@
       "similarityScore": 0.4182
     },
     {
-      "candidateId": "cand-995e3444445ed7b0",
+      "candidateId": "cand-a7ab11fa6c11063b",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -1737,7 +1785,7 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
-      "projectAId": "proj-4902d58497d90422",
+      "projectAId": "proj-34f8130b926946da",
       "projectBId": "proj-23e2ffb84ec9c3a1",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
@@ -1849,7 +1897,7 @@
       "similarityScore": 0.4167
     },
     {
-      "candidateId": "cand-77bfd3195a90fe3a",
+      "candidateId": "cand-ed5348404806db63",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -1868,7 +1916,7 @@
         "Mismo microcontrolador principal: ESP32."
       ],
       "projectAId": "proj-a906f1e86a9caa9f",
-      "projectBId": "proj-4902d58497d90422",
+      "projectBId": "proj-34f8130b926946da",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
@@ -2005,7 +2053,7 @@
       "similarityScore": 0.4167
     },
     {
-      "candidateId": "cand-719ea173309f6848",
+      "candidateId": "cand-e4907dbf18f55d8b",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -2023,7 +2071,7 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
-      "projectAId": "proj-4902d58497d90422",
+      "projectAId": "proj-34f8130b926946da",
       "projectBId": "proj-4e461b38f5d05afd",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
@@ -2031,7 +2079,7 @@
       "similarityScore": 0.4167
     },
     {
-      "candidateId": "cand-c76496eda639a870",
+      "candidateId": "cand-b91c21c3ce430a93",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -2049,7 +2097,7 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
-      "projectAId": "proj-4902d58497d90422",
+      "projectAId": "proj-34f8130b926946da",
       "projectBId": "proj-299d699e04703cfd",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
@@ -2369,7 +2417,7 @@
       "similarityScore": 0.4154
     },
     {
-      "candidateId": "cand-5fc66ea59259753f",
+      "candidateId": "cand-377917d2236f31ca",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -2388,7 +2436,7 @@
         "Mismo microcontrolador principal: ESP32."
       ],
       "projectAId": "proj-0e0c3069f5a83ea4",
-      "projectBId": "proj-4902d58497d90422",
+      "projectBId": "proj-34f8130b926946da",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
@@ -2447,7 +2495,7 @@
       "similarityScore": 0.4154
     },
     {
-      "candidateId": "cand-5a979bc670a56291",
+      "candidateId": "cand-6d724c1f70f03963",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -2465,7 +2513,7 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
-      "projectAId": "proj-4902d58497d90422",
+      "projectAId": "proj-34f8130b926946da",
       "projectBId": "proj-9fb705613f7fa35c",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
@@ -2473,7 +2521,7 @@
       "similarityScore": 0.4154
     },
     {
-      "candidateId": "cand-b4423c16c6b27cbb",
+      "candidateId": "cand-eff0c17484f6bc45",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -2491,7 +2539,7 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
-      "projectAId": "proj-4902d58497d90422",
+      "projectAId": "proj-34f8130b926946da",
       "projectBId": "proj-df20c0bdfa75937d",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
@@ -2733,7 +2781,29 @@
       "similarityScore": 0.4154
     },
     {
-      "candidateId": "cand-06b160076e69e8a6",
+      "candidateId": "cand-d59dc88e53f584db",
+      "classification": "RELATED",
+      "conflictEvidence": [],
+      "evaluatedSignals": {
+        "bom_overlap": 0.2,
+        "controller_match": 0.5,
+        "exact_title_match": false,
+        "same_firmware_identity": true,
+        "same_project_slot": false,
+        "same_source_hash": false,
+        "schematic_match": 0.0,
+        "sensor_overlap": 1.0,
+        "title_similarity": 0.25
+      },
+      "identityEvidence": [],
+      "matchEvidence": [],
+      "projectAId": "proj-fe7e3a913842843d",
+      "projectBId": "proj-0e3437e72056994b",
+      "similarityEvidence": [],
+      "similarityScore": 0.415
+    },
+    {
+      "candidateId": "cand-f97b67a4e057d560",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -2751,7 +2821,7 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
-      "projectAId": "proj-8df10854ea1082a6",
+      "projectAId": "proj-92139980dfd95e5e",
       "projectBId": "proj-23e2ffb84ec9c3a1",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
@@ -2785,7 +2855,7 @@
       "similarityScore": 0.4143
     },
     {
-      "candidateId": "cand-ba7e706c2548ba7c",
+      "candidateId": "cand-be0b15da93d007c9",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -2804,7 +2874,7 @@
         "Mismo microcontrolador principal: ESP32."
       ],
       "projectAId": "proj-8c76d2f0e14a7e6d",
-      "projectBId": "proj-4902d58497d90422",
+      "projectBId": "proj-34f8130b926946da",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
@@ -2993,7 +3063,7 @@
       "similarityScore": 0.4143
     },
     {
-      "candidateId": "cand-2e723354963e201c",
+      "candidateId": "cand-dc098d21eb60e4a7",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -3011,7 +3081,7 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
-      "projectAId": "proj-4902d58497d90422",
+      "projectAId": "proj-34f8130b926946da",
       "projectBId": "proj-ae877be606e5b288",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
@@ -3019,7 +3089,7 @@
       "similarityScore": 0.4143
     },
     {
-      "candidateId": "cand-e00e1d170ab5c70b",
+      "candidateId": "cand-168837574c4b62fd",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -3037,7 +3107,7 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
-      "projectAId": "proj-4902d58497d90422",
+      "projectAId": "proj-34f8130b926946da",
       "projectBId": "proj-413f063f71e7017e",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
@@ -3045,7 +3115,7 @@
       "similarityScore": 0.4143
     },
     {
-      "candidateId": "cand-aa7f03f5e6b7eb50",
+      "candidateId": "cand-48e0a91f9244b041",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -3063,7 +3133,7 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
-      "projectAId": "proj-4902d58497d90422",
+      "projectAId": "proj-34f8130b926946da",
       "projectBId": "proj-6efd04ef2f2f5cab",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
@@ -3305,7 +3375,7 @@
       "similarityScore": 0.4143
     },
     {
-      "candidateId": "cand-0723c30546d0a839",
+      "candidateId": "cand-7bc2faebd28accbf",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -3323,7 +3393,7 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
-      "projectAId": "proj-8df10854ea1082a6",
+      "projectAId": "proj-92139980dfd95e5e",
       "projectBId": "proj-4e461b38f5d05afd",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
@@ -3331,7 +3401,7 @@
       "similarityScore": 0.4133
     },
     {
-      "candidateId": "cand-e5840037b126af2c",
+      "candidateId": "cand-a6ecc5729308ebd5",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -3349,7 +3419,7 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
-      "projectAId": "proj-8df10854ea1082a6",
+      "projectAId": "proj-92139980dfd95e5e",
       "projectBId": "proj-299d699e04703cfd",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
@@ -3591,7 +3661,7 @@
       "similarityScore": 0.4133
     },
     {
-      "candidateId": "cand-f819221ad40f420f",
+      "candidateId": "cand-dcab2b7035d07709",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -3609,7 +3679,7 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
-      "projectAId": "proj-a245d2a49550770f",
+      "projectAId": "proj-d58e4ae2c89c2b95",
       "projectBId": "proj-23e2ffb84ec9c3a1",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
@@ -3669,7 +3739,7 @@
       "similarityScore": 0.4133
     },
     {
-      "candidateId": "cand-be4eeda0391dd750",
+      "candidateId": "cand-bfa2189a2e2c05bd",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -3687,7 +3757,7 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
-      "projectAId": "proj-8df10854ea1082a6",
+      "projectAId": "proj-92139980dfd95e5e",
       "projectBId": "proj-0e0c3069f5a83ea4",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
@@ -3695,7 +3765,7 @@
       "similarityScore": 0.4125
     },
     {
-      "candidateId": "cand-dc874fab3b64fc04",
+      "candidateId": "cand-0adb8d54bc349583",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -3713,15 +3783,15 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
-      "projectAId": "proj-8df10854ea1082a6",
-      "projectBId": "proj-4902d58497d90422",
+      "projectAId": "proj-92139980dfd95e5e",
+      "projectBId": "proj-34f8130b926946da",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
       "similarityScore": 0.4125
     },
     {
-      "candidateId": "cand-797cd6ba0e1e142c",
+      "candidateId": "cand-23aaf0b18a17c2bb",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -3739,7 +3809,7 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
-      "projectAId": "proj-8df10854ea1082a6",
+      "projectAId": "proj-92139980dfd95e5e",
       "projectBId": "proj-9fb705613f7fa35c",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
@@ -3747,7 +3817,7 @@
       "similarityScore": 0.4125
     },
     {
-      "candidateId": "cand-fd3cd81bfec2cf2e",
+      "candidateId": "cand-de646d1f9491e2bd",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -3765,8 +3835,34 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
-      "projectAId": "proj-8df10854ea1082a6",
+      "projectAId": "proj-92139980dfd95e5e",
       "projectBId": "proj-df20c0bdfa75937d",
+      "similarityEvidence": [
+        "Mismo microcontrolador principal: ESP32."
+      ],
+      "similarityScore": 0.4125
+    },
+    {
+      "candidateId": "cand-983dd92cedb311f9",
+      "classification": "RELATED",
+      "conflictEvidence": [],
+      "evaluatedSignals": {
+        "bom_overlap": 0.0625,
+        "controller_match": 1.0,
+        "exact_title_match": false,
+        "same_firmware_identity": true,
+        "same_project_slot": false,
+        "same_source_hash": false,
+        "schematic_match": 0.0,
+        "sensor_overlap": 1.0,
+        "title_similarity": 0.0
+      },
+      "identityEvidence": [],
+      "matchEvidence": [
+        "Mismo microcontrolador principal: ESP32."
+      ],
+      "projectAId": "proj-a906f1e86a9caa9f",
+      "projectBId": "proj-d58e4ae2c89c2b95",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
@@ -3799,7 +3895,7 @@
       "similarityScore": 0.4125
     },
     {
-      "candidateId": "cand-79b4f1c244b5a6b1",
+      "candidateId": "cand-0969085f44c87e1b",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -3817,7 +3913,7 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
-      "projectAId": "proj-4902d58497d90422",
+      "projectAId": "proj-34f8130b926946da",
       "projectBId": "proj-1c2472bca80aab75",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
@@ -3877,7 +3973,7 @@
       "similarityScore": 0.4125
     },
     {
-      "candidateId": "cand-4281e8f37075078c",
+      "candidateId": "cand-f57f798d79461719",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -3896,14 +3992,14 @@
         "Mismo microcontrolador principal: ESP32."
       ],
       "projectAId": "proj-4e461b38f5d05afd",
-      "projectBId": "proj-a245d2a49550770f",
+      "projectBId": "proj-d58e4ae2c89c2b95",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
       "similarityScore": 0.4125
     },
     {
-      "candidateId": "cand-4186cb2e6b64416c",
+      "candidateId": "cand-c725d725a939cdf5",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -3921,7 +4017,7 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
-      "projectAId": "proj-a245d2a49550770f",
+      "projectAId": "proj-d58e4ae2c89c2b95",
       "projectBId": "proj-299d699e04703cfd",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
@@ -3929,7 +4025,7 @@
       "similarityScore": 0.4125
     },
     {
-      "candidateId": "cand-35830e1c788f9845",
+      "candidateId": "cand-2dd7d24b3643fa09",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -3947,7 +4043,7 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
-      "projectAId": "proj-8df10854ea1082a6",
+      "projectAId": "proj-92139980dfd95e5e",
       "projectBId": "proj-8c76d2f0e14a7e6d",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
@@ -3955,7 +4051,7 @@
       "similarityScore": 0.4118
     },
     {
-      "candidateId": "cand-fcc11f9be4ff1516",
+      "candidateId": "cand-cad8840022a35f5a",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -3973,7 +4069,7 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
-      "projectAId": "proj-8df10854ea1082a6",
+      "projectAId": "proj-92139980dfd95e5e",
       "projectBId": "proj-ae877be606e5b288",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
@@ -3981,7 +4077,7 @@
       "similarityScore": 0.4118
     },
     {
-      "candidateId": "cand-b1c5ba6ba9d23dec",
+      "candidateId": "cand-318b6300b57a5207",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -3999,7 +4095,7 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
-      "projectAId": "proj-8df10854ea1082a6",
+      "projectAId": "proj-92139980dfd95e5e",
       "projectBId": "proj-413f063f71e7017e",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
@@ -4007,7 +4103,7 @@
       "similarityScore": 0.4118
     },
     {
-      "candidateId": "cand-16419c239a21e62a",
+      "candidateId": "cand-4d264af3ab5659f6",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -4025,7 +4121,7 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
-      "projectAId": "proj-8df10854ea1082a6",
+      "projectAId": "proj-92139980dfd95e5e",
       "projectBId": "proj-fb8e65ad8631b29f",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
@@ -4033,7 +4129,7 @@
       "similarityScore": 0.4118
     },
     {
-      "candidateId": "cand-7a7121827c9d2f58",
+      "candidateId": "cand-6ff6638937a8bb34",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -4051,7 +4147,7 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
-      "projectAId": "proj-8df10854ea1082a6",
+      "projectAId": "proj-92139980dfd95e5e",
       "projectBId": "proj-6efd04ef2f2f5cab",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
@@ -4085,7 +4181,7 @@
       "similarityScore": 0.4118
     },
     {
-      "candidateId": "cand-3b9faba629563264",
+      "candidateId": "cand-cb87f9a779a6dda6",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -4104,14 +4200,14 @@
         "Mismo microcontrolador principal: ESP32."
       ],
       "projectAId": "proj-0e0c3069f5a83ea4",
-      "projectBId": "proj-a245d2a49550770f",
+      "projectBId": "proj-d58e4ae2c89c2b95",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
       "similarityScore": 0.4118
     },
     {
-      "candidateId": "cand-98ff6d064c9102d0",
+      "candidateId": "cand-68a3a9ce170aee1a",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -4129,8 +4225,8 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
-      "projectAId": "proj-4902d58497d90422",
-      "projectBId": "proj-a245d2a49550770f",
+      "projectAId": "proj-34f8130b926946da",
+      "projectBId": "proj-d58e4ae2c89c2b95",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
@@ -4215,7 +4311,7 @@
       "similarityScore": 0.4118
     },
     {
-      "candidateId": "cand-366076f955405967",
+      "candidateId": "cand-fd4f2896e2880faa",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -4233,7 +4329,7 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
-      "projectAId": "proj-a245d2a49550770f",
+      "projectAId": "proj-d58e4ae2c89c2b95",
       "projectBId": "proj-9fb705613f7fa35c",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
@@ -4241,7 +4337,7 @@
       "similarityScore": 0.4118
     },
     {
-      "candidateId": "cand-b7b2e1cbd6c67cc9",
+      "candidateId": "cand-41f8c1e92cde8a02",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -4259,7 +4355,7 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
-      "projectAId": "proj-a245d2a49550770f",
+      "projectAId": "proj-d58e4ae2c89c2b95",
       "projectBId": "proj-df20c0bdfa75937d",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
@@ -4319,32 +4415,6 @@
       "similarityScore": 0.4111
     },
     {
-      "candidateId": "cand-57aa0f680ba18219",
-      "classification": "RELATED",
-      "conflictEvidence": [],
-      "evaluatedSignals": {
-        "bom_overlap": 0.0556,
-        "controller_match": 1.0,
-        "exact_title_match": false,
-        "same_firmware_identity": true,
-        "same_project_slot": false,
-        "same_source_hash": false,
-        "schematic_match": 0.0,
-        "sensor_overlap": 1.0,
-        "title_similarity": 0.0
-      },
-      "identityEvidence": [],
-      "matchEvidence": [
-        "Mismo microcontrolador principal: ESP32."
-      ],
-      "projectAId": "proj-8c76d2f0e14a7e6d",
-      "projectBId": "proj-a245d2a49550770f",
-      "similarityEvidence": [
-        "Mismo microcontrolador principal: ESP32."
-      ],
-      "similarityScore": 0.4111
-    },
-    {
       "candidateId": "cand-2f499b184861abc2",
       "classification": "RELATED",
       "conflictEvidence": [],
@@ -4371,7 +4441,7 @@
       "similarityScore": 0.4111
     },
     {
-      "candidateId": "cand-e7e5d3724ddfd1f2",
+      "candidateId": "cand-5008e3b6eedcadc1",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -4389,33 +4459,7 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
-      "projectAId": "proj-ae877be606e5b288",
-      "projectBId": "proj-a245d2a49550770f",
-      "similarityEvidence": [
-        "Mismo microcontrolador principal: ESP32."
-      ],
-      "similarityScore": 0.4111
-    },
-    {
-      "candidateId": "cand-e77291094ecaacf3",
-      "classification": "RELATED",
-      "conflictEvidence": [],
-      "evaluatedSignals": {
-        "bom_overlap": 0.0556,
-        "controller_match": 1.0,
-        "exact_title_match": false,
-        "same_firmware_identity": false,
-        "same_project_slot": false,
-        "same_source_hash": false,
-        "schematic_match": 0.0,
-        "sensor_overlap": 1.0,
-        "title_similarity": 0.0
-      },
-      "identityEvidence": [],
-      "matchEvidence": [
-        "Mismo microcontrolador principal: ESP32."
-      ],
-      "projectAId": "proj-a245d2a49550770f",
+      "projectAId": "proj-d58e4ae2c89c2b95",
       "projectBId": "proj-413f063f71e7017e",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
@@ -4423,7 +4467,7 @@
       "similarityScore": 0.4111
     },
     {
-      "candidateId": "cand-febd091dfc7f71be",
+      "candidateId": "cand-4d7bb2e13454d38f",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -4441,7 +4485,7 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
-      "projectAId": "proj-a245d2a49550770f",
+      "projectAId": "proj-d58e4ae2c89c2b95",
       "projectBId": "proj-6efd04ef2f2f5cab",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
@@ -4449,7 +4493,7 @@
       "similarityScore": 0.4111
     },
     {
-      "candidateId": "cand-4c773dc40959971f",
+      "candidateId": "cand-c56a63e8e97de390",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -4467,7 +4511,7 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
-      "projectAId": "proj-8df10854ea1082a6",
+      "projectAId": "proj-92139980dfd95e5e",
       "projectBId": "proj-1c2472bca80aab75",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
@@ -4475,7 +4519,7 @@
       "similarityScore": 0.4105
     },
     {
-      "candidateId": "cand-d172e236d7d3203b",
+      "candidateId": "cand-46e940719bc38e44",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -4493,7 +4537,7 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
-      "projectAId": "proj-4902d58497d90422",
+      "projectAId": "proj-34f8130b926946da",
       "projectBId": "proj-a09c9eaab189e94a",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
@@ -4553,7 +4597,7 @@
       "similarityScore": 0.4105
     },
     {
-      "candidateId": "cand-3baa65f03eacbecf",
+      "candidateId": "cand-1f0f2ec2f02b8b11",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -4572,7 +4616,7 @@
         "Mismo microcontrolador principal: ESP32."
       ],
       "projectAId": "proj-1c2472bca80aab75",
-      "projectBId": "proj-a245d2a49550770f",
+      "projectBId": "proj-d58e4ae2c89c2b95",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
@@ -4683,7 +4727,7 @@
       "similarityScore": 0.41
     },
     {
-      "candidateId": "cand-f64b2d3ec8ebc2e1",
+      "candidateId": "cand-4e22dabe7e82c1f7",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -4701,7 +4745,7 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
-      "projectAId": "proj-8df10854ea1082a6",
+      "projectAId": "proj-92139980dfd95e5e",
       "projectBId": "proj-a09c9eaab189e94a",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
@@ -4735,7 +4779,7 @@
       "similarityScore": 0.4091
     },
     {
-      "candidateId": "cand-1c623d957d5c10dc",
+      "candidateId": "cand-5c6d7c87a638bd29",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -4754,36 +4798,14 @@
         "Mismo microcontrolador principal: ESP32."
       ],
       "projectAId": "proj-a09c9eaab189e94a",
-      "projectBId": "proj-a245d2a49550770f",
+      "projectBId": "proj-d58e4ae2c89c2b95",
       "similarityEvidence": [
         "Mismo microcontrolador principal: ESP32."
       ],
       "similarityScore": 0.4087
     },
     {
-      "candidateId": "cand-c3668adc86c0d403",
-      "classification": "RELATED",
-      "conflictEvidence": [],
-      "evaluatedSignals": {
-        "bom_overlap": 0.0,
-        "controller_match": 0.5,
-        "exact_title_match": false,
-        "same_firmware_identity": false,
-        "same_project_slot": true,
-        "same_source_hash": false,
-        "schematic_match": 0.0,
-        "sensor_overlap": 1.0,
-        "title_similarity": 0.3333
-      },
-      "identityEvidence": [],
-      "matchEvidence": [],
-      "projectAId": "proj-4e59318e9573e811",
-      "projectBId": "proj-4a566f25189a6e42",
-      "similarityEvidence": [],
-      "similarityScore": 0.4083
-    },
-    {
-      "candidateId": "cand-dfdab753e1e01385",
+      "candidateId": "cand-d51a4e5427dafb6e",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -4801,15 +4823,15 @@
       "matchEvidence": [
         "Mismo microcontrolador principal: STM32F4."
       ],
-      "projectAId": "proj-c552597bc8d468cc",
-      "projectBId": "proj-a3d73d08684a062d",
+      "projectAId": "proj-07abe9bee1e961a9",
+      "projectBId": "proj-56d7311c137973c2",
       "similarityEvidence": [
         "Mismo microcontrolador principal: STM32F4."
       ],
       "similarityScore": 0.4
     },
     {
-      "candidateId": "cand-df475671bff128c4",
+      "candidateId": "cand-7aa30946d5e02839",
       "classification": "RELATED",
       "conflictEvidence": [],
       "evaluatedSignals": {
@@ -4828,11 +4850,35 @@
         "Mismo microcontrolador principal: STM32F4."
       ],
       "projectAId": "proj-14bca4088da46825",
-      "projectBId": "proj-a3d73d08684a062d",
+      "projectBId": "proj-56d7311c137973c2",
       "similarityEvidence": [
         "Mismo microcontrolador principal: STM32F4."
       ],
       "similarityScore": 0.4
+    },
+    {
+      "candidateId": "cand-8977772f9da742c0",
+      "classification": "RELATED",
+      "conflictEvidence": [
+        "Controlador asimétrico: None vs ESP32."
+      ],
+      "evaluatedSignals": {
+        "bom_overlap": 0.0,
+        "controller_match": 0.2,
+        "exact_title_match": false,
+        "same_firmware_identity": true,
+        "same_project_slot": false,
+        "same_source_hash": false,
+        "schematic_match": 0.0,
+        "sensor_overlap": 1.0,
+        "title_similarity": 0.4
+      },
+      "identityEvidence": [],
+      "matchEvidence": [],
+      "projectAId": "proj-90d297a495fbbc2d",
+      "projectBId": "proj-8c76d2f0e14a7e6d",
+      "similarityEvidence": [],
+      "similarityScore": 0.36
     },
     {
       "candidateId": "cand-f23a153235b38955",
@@ -4888,11 +4934,11 @@
     }
   ],
   "stats": {
-    "EXACT_DUPLICATE": 2,
-    "NEEDS_REVIEW": 23,
+    "EXACT_DUPLICATE": 4,
+    "NEEDS_REVIEW": 22,
     "PROBABLE_DUPLICATE": 2,
     "RELATED": 162,
-    "UNRELATED": 16464,
+    "UNRELATED": 16463,
     "VARIANT": 0,
     "total_pairs_evaluated": 16653
   }
