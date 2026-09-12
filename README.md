@@ -190,8 +190,7 @@ El portal está configurado para que **el usuario jamás necesite editar código
 EngineeringGuides/
 ├── .github/
 │   └── workflows/
-│       ├── deploy.yml                             # Pipeline CI/CD completo de extracción y despliegue
-│       └── sync-gdrive.yml                        # Sincronización automática con Google Drive
+│       └── deploy.yml                             # Pipeline CI/CD completo de extracción y despliegue
 ├── Engineering guides/                            # Repositorio central de los 31 PDFs oficiales
 ├── public/
 │   ├── covers/                                    # Escaneos de portadas oficiales de los PDFs (PNG)
@@ -203,8 +202,7 @@ EngineeringGuides/
 │   ├── extract_official_and_build_manuals.py      # Motor maestro de extracción, schematics SVG y fotos
 │   ├── build_comprehensive_catalog.py             # Metadatos estructurados base
 │   ├── copy_guides.js                             # Copia recursiva de PDFs y esquemáticos al bundle dist
-│   ├── generate_catalog.py / generate_catalog.js  # Indexadores auxiliares
-│   └── sync_gdrive.py                             # Conector con la API de Google Drive
+│   └── generate_catalog.py / generate_catalog.js  # Indexadores auxiliares
 ├── src/
 │   ├── components/
 │   │   ├── ErrorBoundary.jsx                      # Blindaje contra caídas de vista y reporte amigable

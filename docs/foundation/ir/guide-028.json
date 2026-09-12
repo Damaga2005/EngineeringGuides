@@ -1,0 +1,2630 @@
+{
+  "metadata": {
+    "author": "@1nska / The Build List",
+    "creationDate": "D:20260616143730+00'00'",
+    "creator": "(unspecified)",
+    "format": "PDF 1.4",
+    "modDate": "D:20260616143730+00'00'",
+    "producer": "ReportLab PDF Library - (opensource)",
+    "subject": "(unspecified)",
+    "title": "The Summer EE Glow-Up"
+  },
+  "pageCount": 10,
+  "pages": [
+    {
+      "blocks": [
+        {
+          "bbox": [
+            61.2,
+            93.01,
+            261.0,
+            104.71
+          ],
+          "blockIndex": 0,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "THE BUILD LIST  |  SUMMER FIELD GUIDE"
+        },
+        {
+          "bbox": [
+            61.2,
+            149.77,
+            259.2,
+            228.67
+          ],
+          "blockIndex": 1,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "THE SUMMER\nEE GLOW-UP"
+        },
+        {
+          "bbox": [
+            61.2,
+            254.1,
+            385.2,
+            287.7
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "10 resources and exactly how to use each one.\nCome back in September dangerous."
+        },
+        {
+          "bbox": [
+            75.2,
+            339.06,
+            365.9,
+            351.41
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "buildlist $ start glow-up --resources 10 --weeks 12"
+        },
+        {
+          "bbox": [
+            75.2,
+            355.06,
+            246.2,
+            367.41
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "loading summer plan ... ready."
+        },
+        {
+          "bbox": [
+            61.2,
+            731.96,
+            550.8,
+            742.36
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "@1nska\nthe build list"
+        }
+      ],
+      "charCount": 239,
+      "height": 792.0,
+      "pageNumber": 1,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            61.2,
+            36.95,
+            550.8,
+            46.7
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "THE SUMMER EE GLOW-UP\n@1nska  |  THE BUILD LIST"
+        },
+        {
+          "bbox": [
+            61.2,
+            747.8,
+            550.8,
+            758.2
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "@1nska  >  the build list\n2"
+        },
+        {
+          "bbox": [
+            67.2,
+            78.19,
+            143.7,
+            89.24
+          ],
+          "blockIndex": 2,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "READ THIS FIRST"
+        },
+        {
+          "bbox": [
+            67.2,
+            101.09,
+            502.2,
+            135.34
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Most EE students waste the summer and wonder why they feel\nbehind in September."
+        },
+        {
+          "bbox": [
+            67.2,
+            145.16,
+            534.6,
+            157.51
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Three months is enough time to go from someone who studies circuits to someone who"
+        },
+        {
+          "bbox": [
+            67.2,
+            160.16,
+            544.8,
+            172.51
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "builds things people do not believe came out of a dorm room. The resources below are"
+        },
+        {
+          "bbox": [
+            67.2,
+            175.16,
+            534.6,
+            187.51
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "the fastest path. But a list is not a plan, so this guide tells you exactly how to"
+        },
+        {
+          "bbox": [
+            67.2,
+            190.16,
+            528.9,
+            202.51
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "use each one and how to stack them into a real summer. Every resource has a link."
+        },
+        {
+          "bbox": [
+            67.2,
+            205.16,
+            204.0,
+            217.51
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Tap the name to open it."
+        },
+        {
+          "bbox": [
+            72.2,
+            241.12,
+            151.4,
+            255.42
+          ],
+          "blockIndex": 9,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "THE ONE RULE"
+        },
+        {
+          "bbox": [
+            72.2,
+            273.12,
+            539.8,
+            319.42
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Do not try to do all 10. Pick 3 that point at the same job and go deep.\nDepth is what gets you hired and what makes content nobody can fake. A\nchecklist is not a skill."
+        }
+      ],
+      "charCount": 701,
+      "height": 792.0,
+      "pageNumber": 2,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            61.2,
+            36.95,
+            550.8,
+            46.7
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "THE SUMMER EE GLOW-UP\n@1nska  |  THE BUILD LIST"
+        },
+        {
+          "bbox": [
+            61.2,
+            747.8,
+            550.8,
+            758.2
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "@1nska  >  the build list\n3"
+        },
+        {
+          "bbox": [
+            67.2,
+            76.0,
+            540.3,
+            108.51
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "THE 10 RESOURCES\nEach one with what it is, how to actually use it, and the job it maps to. Links are"
+        },
+        {
+          "bbox": [
+            67.2,
+            111.16,
+            124.2,
+            123.51
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "clickable."
+        },
+        {
+          "bbox": [
+            67.2,
+            140.05,
+            361.2,
+            158.25
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "01  Learning the Art of Electronics"
+        },
+        {
+          "bbox": [
+            67.2,
+            160.2,
+            211.2,
+            170.6
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "BOOK | CORE | Hayes & Horowitz"
+        },
+        {
+          "bbox": [
+            67.2,
+            176.19,
+            198.24,
+            187.11
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "> open search for the book"
+        },
+        {
+          "bbox": [
+            67.2,
+            194.66,
+            506.1,
+            207.01
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "The lab companion to the Art of Electronics bible. A real bench course, not a"
+        },
+        {
+          "bbox": [
+            67.2,
+            209.16,
+            118.5,
+            221.51
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "textbook."
+        },
+        {
+          "bbox": [
+            72.2,
+            240.66,
+            146.3,
+            253.01
+          ],
+          "blockIndex": 9,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "HOW TO USE IT"
+        },
+        {
+          "bbox": [
+            72.2,
+            256.16,
+            511.1,
+            268.51
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "> Treat it as a lab. Grab a breadboard, a function generator, and a cheap USB"
+        },
+        {
+          "bbox": [
+            72.2,
+            271.66,
+            106.4,
+            284.01
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "scope."
+        },
+        {
+          "bbox": [
+            72.2,
+            287.16,
+            522.5,
+            299.51
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "> One lab per sitting. Build it, measure it, then read why it behaved that way."
+        },
+        {
+          "bbox": [
+            72.2,
+            302.66,
+            488.3,
+            315.01
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "> Do not skip the transistor and op-amp labs. That is where students fake"
+        },
+        {
+          "bbox": [
+            72.2,
+            318.16,
+            152.0,
+            330.51
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "understanding."
+        },
+        {
+          "bbox": [
+            67.2,
+            349.66,
+            523.2,
+            362.01
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "-> The job this maps to: Analog hardware engineer. Every EE interview eventually"
+        },
+        {
+          "bbox": [
+            67.2,
+            364.16,
+            232.5,
+            376.51
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "drifts back to this material."
+        },
+        {
+          "bbox": [
+            67.2,
+            394.55,
+            184.8,
+            412.75
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "02  Phil's Lab"
+        },
+        {
+          "bbox": [
+            67.2,
+            414.7,
+            312.0,
+            425.1
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "YOUTUBE and COURSE | INTERMEDIATE | PCB, DSP, STM32"
+        },
+        {
+          "bbox": [
+            67.2,
+            430.69,
+            208.32,
+            441.61
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "> open youtube.com/@PhilsLab"
+        },
+        {
+          "bbox": [
+            67.2,
+            449.16,
+            494.7,
+            461.51
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Real-world PCB design, firmware, and DSP, all built on actual STM32 boards."
+        },
+        {
+          "bbox": [
+            72.2,
+            480.66,
+            146.3,
+            493.01
+          ],
+          "blockIndex": 21,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "HOW TO USE IT"
+        },
+        {
+          "bbox": [
+            72.2,
+            496.16,
+            516.8,
+            508.51
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "> Watch the KiCad STM32 series once with no laptop, then again building along."
+        },
+        {
+          "bbox": [
+            72.2,
+            511.66,
+            533.9,
+            524.01
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "> Clone one of his boards end to end, then change one thing. Swap a sensor, add a"
+        },
+        {
+          "bbox": [
+            72.2,
+            527.16,
+            129.2,
+            539.51
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "regulator."
+        },
+        {
+          "bbox": [
+            72.2,
+            542.66,
+            499.7,
+            555.01
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "> Get it fabbed. A board in your hand beats ten tutorials you only watched."
+        },
+        {
+          "bbox": [
+            67.2,
+            574.16,
+            540.3,
+            586.51
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "-> The job this maps to: Embedded hardware engineer. PCB and firmware on one resume"
+        },
+        {
+          "bbox": [
+            67.2,
+            588.66,
+            181.2,
+            601.01
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "is rare and it pays."
+        }
+      ],
+      "charCount": 1260,
+      "height": 792.0,
+      "pageNumber": 3,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            61.2,
+            36.95,
+            550.8,
+            46.7
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "THE SUMMER EE GLOW-UP\n@1nska  |  THE BUILD LIST"
+        },
+        {
+          "bbox": [
+            61.2,
+            747.8,
+            550.8,
+            758.2
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "@1nska  >  the build list\n4"
+        },
+        {
+          "bbox": [
+            67.2,
+            74.05,
+            176.4,
+            92.25
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "03  Ben Eater"
+        },
+        {
+          "bbox": [
+            67.2,
+            94.2,
+            249.6,
+            104.6
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "YOUTUBE and KIT | CORE | digital logic"
+        },
+        {
+          "bbox": [
+            67.2,
+            110.19,
+            147.84,
+            121.11
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "> open eater.net"
+        },
+        {
+          "bbox": [
+            67.2,
+            128.66,
+            523.2,
+            141.01
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Build an 8-bit CPU on breadboards, or the 6502 kit. The deepest understanding on"
+        },
+        {
+          "bbox": [
+            67.2,
+            143.16,
+            124.2,
+            155.51
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "this list."
+        },
+        {
+          "bbox": [
+            72.2,
+            174.66,
+            146.3,
+            187.01
+          ],
+          "blockIndex": 7,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "HOW TO USE IT"
+        },
+        {
+          "bbox": [
+            72.2,
+            190.16,
+            488.3,
+            202.51
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "> Build the breadboard CPU or the 6502 kit. Do not just watch the videos."
+        },
+        {
+          "bbox": [
+            72.2,
+            205.66,
+            494.0,
+            218.01
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "> Film it. The clock module alone is stop-the-scroll content for the feed."
+        },
+        {
+          "bbox": [
+            72.2,
+            221.16,
+            454.1,
+            233.51
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "> When it breaks, debug with a multimeter before you watch his fix."
+        },
+        {
+          "bbox": [
+            67.2,
+            252.66,
+            506.1,
+            265.01
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "-> The job this maps to: Digital design and computer architecture. Proves you"
+        },
+        {
+          "bbox": [
+            67.2,
+            267.16,
+            278.1,
+            279.51
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "understand machines from the gate up."
+        },
+        {
+          "bbox": [
+            67.2,
+            297.55,
+            285.6,
+            315.75
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "04  Contextual Electronics"
+        },
+        {
+          "bbox": [
+            67.2,
+            317.7,
+            244.8,
+            328.1
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "COURSE | INTERMEDIATE | Chris Gammell"
+        },
+        {
+          "bbox": [
+            67.2,
+            333.69,
+            228.48,
+            344.61
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "> open contextualelectronics.com"
+        },
+        {
+          "bbox": [
+            67.2,
+            352.16,
+            489.0,
+            364.51
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "A structured KiCad bootcamp where the output is a working device you keep."
+        },
+        {
+          "bbox": [
+            72.2,
+            383.66,
+            146.3,
+            396.01
+          ],
+          "blockIndex": 17,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "HOW TO USE IT"
+        },
+        {
+          "bbox": [
+            72.2,
+            399.16,
+            505.4,
+            411.51
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "> Follow it as your KiCad sprint. The point is a finished board, not slides."
+        },
+        {
+          "bbox": [
+            72.2,
+            414.66,
+            442.7,
+            427.01
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "> Pair it with your NextPCB account and actually order the thing."
+        },
+        {
+          "bbox": [
+            72.2,
+            430.16,
+            448.4,
+            442.51
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "> Post the build log weekly. Documenting it is the second product."
+        },
+        {
+          "bbox": [
+            67.2,
+            461.66,
+            540.3,
+            474.01
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "-> The job this maps to: Hardware engineer who can take a product from schematic to"
+        },
+        {
+          "bbox": [
+            67.2,
+            476.16,
+            175.5,
+            488.51
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "a fabricated board."
+        }
+      ],
+      "charCount": 1063,
+      "height": 792.0,
+      "pageNumber": 4,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            61.2,
+            36.95,
+            550.8,
+            46.7
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "THE SUMMER EE GLOW-UP\n@1nska  |  THE BUILD LIST"
+        },
+        {
+          "bbox": [
+            61.2,
+            747.8,
+            550.8,
+            758.2
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "@1nska  >  the build list\n5"
+        },
+        {
+          "bbox": [
+            67.2,
+            74.05,
+            252.0,
+            92.25
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "05  MIT OpenCourseWare"
+        },
+        {
+          "bbox": [
+            67.2,
+            94.2,
+            288.0,
+            104.6
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "COURSE | CORE | 6.002 Circuits, 6.302 Feedback"
+        },
+        {
+          "bbox": [
+            67.2,
+            110.19,
+            188.16,
+            121.11
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "> open ocw.mit.edu 6.002"
+        },
+        {
+          "bbox": [
+            67.2,
+            128.66,
+            540.3,
+            141.01
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Free and rigorous. The theory backbone under everything else you build this summer."
+        },
+        {
+          "bbox": [
+            72.2,
+            160.16,
+            146.3,
+            172.51
+          ],
+          "blockIndex": 6,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "HOW TO USE IT"
+        },
+        {
+          "bbox": [
+            72.2,
+            175.66,
+            505.4,
+            188.01
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "> One lecture, one problem set, repeat. Do not binge lectures or it will not"
+        },
+        {
+          "bbox": [
+            72.2,
+            191.16,
+            106.4,
+            203.51
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "stick."
+        },
+        {
+          "bbox": [
+            72.2,
+            206.66,
+            539.6,
+            219.01
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "> 6.302 Feedback is the secret weapon. Control is where self-taught builders stop."
+        },
+        {
+          "bbox": [
+            72.2,
+            222.16,
+            516.8,
+            234.51
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "> Keep a notebook of every equation you actually used in a build. That is your"
+        },
+        {
+          "bbox": [
+            72.2,
+            237.66,
+            152.0,
+            250.01
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "real syllabus."
+        },
+        {
+          "bbox": [
+            67.2,
+            269.16,
+            534.6,
+            281.51
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "-> The job this maps to: Any rigorous EE role. Proof you can do the math, not just"
+        },
+        {
+          "bbox": [
+            67.2,
+            283.66,
+            186.9,
+            296.01
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "wire things together."
+        },
+        {
+          "bbox": [
+            67.2,
+            314.05,
+            268.8,
+            332.25
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "06  nandland and HDLBits"
+        },
+        {
+          "bbox": [
+            67.2,
+            334.2,
+            230.4,
+            344.6
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "SITE | ADVANCED | Verilog and FPGA"
+        },
+        {
+          "bbox": [
+            67.2,
+            350.19,
+            258.72,
+            361.11
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "> open nandland.com | hdlbits.01xz.net"
+        },
+        {
+          "bbox": [
+            67.2,
+            368.66,
+            540.3,
+            381.01
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Learn hardware description and digital design, then drill it until it feels boring."
+        },
+        {
+          "bbox": [
+            72.2,
+            400.16,
+            146.3,
+            412.51
+          ],
+          "blockIndex": 18,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "HOW TO USE IT"
+        },
+        {
+          "bbox": [
+            72.2,
+            415.66,
+            533.9,
+            428.01
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "> Learn Verilog basics on nandland, then grind HDLBits problems to muscle memory."
+        },
+        {
+          "bbox": [
+            72.2,
+            431.16,
+            499.7,
+            443.51
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "> Buy a cheap FPGA board like a Tang Nano or iCE40 and blink an LED in real"
+        },
+        {
+          "bbox": [
+            72.2,
+            446.66,
+            123.5,
+            459.01
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "hardware."
+        },
+        {
+          "bbox": [
+            72.2,
+            462.16,
+            419.9,
+            474.51
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "> Build one real thing. A UART, a VGA pattern, or a tiny CPU."
+        },
+        {
+          "bbox": [
+            67.2,
+            493.66,
+            544.8,
+            506.01
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "-> The job this maps to: FPGA and digital design engineer. Almost no student builder"
+        },
+        {
+          "bbox": [
+            67.2,
+            508.16,
+            243.9,
+            520.51
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "touches this, so you stand out."
+        }
+      ],
+      "charCount": 1154,
+      "height": 792.0,
+      "pageNumber": 5,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            61.2,
+            36.95,
+            550.8,
+            46.7
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "THE SUMMER EE GLOW-UP\n@1nska  |  THE BUILD LIST"
+        },
+        {
+          "bbox": [
+            61.2,
+            747.8,
+            550.8,
+            758.2
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "@1nska  >  the build list\n6"
+        },
+        {
+          "bbox": [
+            67.2,
+            74.05,
+            302.4,
+            92.25
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "07  GNU Radio and an RTL-SDR"
+        },
+        {
+          "bbox": [
+            67.2,
+            94.2,
+            220.8,
+            104.6
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "TOOL | INTERMEDIATE | RF and DSP"
+        },
+        {
+          "bbox": [
+            67.2,
+            110.19,
+            233.52,
+            121.11
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "> open gnuradio.org | rtl-sdr.com"
+        },
+        {
+          "bbox": [
+            67.2,
+            128.66,
+            540.3,
+            141.01
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "A 25 dollar dongle that turns the airwaves into a playground. On-brand for your sky"
+        },
+        {
+          "bbox": [
+            67.2,
+            143.16,
+            112.8,
+            155.51
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "content."
+        },
+        {
+          "bbox": [
+            72.2,
+            174.66,
+            146.3,
+            187.01
+          ],
+          "blockIndex": 7,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "HOW TO USE IT"
+        },
+        {
+          "bbox": [
+            72.2,
+            190.16,
+            499.7,
+            202.51
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "> Decode FM first, then ADS-B aircraft, then NOAA weather satellite images."
+        },
+        {
+          "bbox": [
+            72.2,
+            205.66,
+            454.1,
+            218.01
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "> Build a flowgraph from scratch instead of loading someone else's."
+        },
+        {
+          "bbox": [
+            72.2,
+            221.16,
+            476.9,
+            233.51
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "> This feeds your satellite and eavesdrop-on-the-sky episodes directly."
+        },
+        {
+          "bbox": [
+            67.2,
+            252.66,
+            540.3,
+            265.01
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "-> The job this maps to: RF and DSP engineer. Capturing real signals is a portfolio"
+        },
+        {
+          "bbox": [
+            67.2,
+            267.16,
+            238.2,
+            279.51
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "piece, not a class assignment."
+        },
+        {
+          "bbox": [
+            67.2,
+            297.55,
+            294.0,
+            315.75
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "08  Making Embedded Systems"
+        },
+        {
+          "bbox": [
+            67.2,
+            317.7,
+            288.0,
+            328.1
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "BOOK and PODCAST | INTERMEDIATE | Elecia White"
+        },
+        {
+          "bbox": [
+            67.2,
+            333.69,
+            157.92,
+            344.61
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "> open embedded.fm"
+        },
+        {
+          "bbox": [
+            67.2,
+            352.16,
+            544.8,
+            364.51
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "The book that gets you past Arduino into real firmware. Pair it with the Embedded.fm"
+        },
+        {
+          "bbox": [
+            67.2,
+            366.66,
+            112.8,
+            379.01
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "podcast."
+        },
+        {
+          "bbox": [
+            72.2,
+            398.16,
+            146.3,
+            410.51
+          ],
+          "blockIndex": 18,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "HOW TO USE IT"
+        },
+        {
+          "bbox": [
+            72.2,
+            413.66,
+            533.9,
+            426.01
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "> Read it next to an STM32 dev board. Apply each chapter to code that same night."
+        },
+        {
+          "bbox": [
+            72.2,
+            429.16,
+            465.5,
+            441.51
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "> Touch registers, interrupts, and a real debugger. No more guessing."
+        },
+        {
+          "bbox": [
+            72.2,
+            444.66,
+            528.2,
+            457.01
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "> Use the podcast on commutes to pick up how working firmware engineers actually"
+        },
+        {
+          "bbox": [
+            72.2,
+            460.16,
+            100.7,
+            472.51
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "talk."
+        },
+        {
+          "bbox": [
+            67.2,
+            491.66,
+            534.6,
+            504.01
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "-> The job this maps to: Firmware engineer. The single most hireable skill on this"
+        },
+        {
+          "bbox": [
+            67.2,
+            506.16,
+            135.6,
+            518.51
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "entire list."
+        }
+      ],
+      "charCount": 1122,
+      "height": 792.0,
+      "pageNumber": 6,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            61.2,
+            36.95,
+            550.8,
+            46.7
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "THE SUMMER EE GLOW-UP\n@1nska  |  THE BUILD LIST"
+        },
+        {
+          "bbox": [
+            61.2,
+            747.8,
+            550.8,
+            758.2
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "@1nska  >  the build list\n7"
+        },
+        {
+          "bbox": [
+            67.2,
+            74.05,
+            260.4,
+            92.25
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "09  Falstad and ngspice"
+        },
+        {
+          "bbox": [
+            67.2,
+            94.2,
+            182.4,
+            104.6
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "TOOL | CORE | simulation"
+        },
+        {
+          "bbox": [
+            67.2,
+            110.19,
+            283.92,
+            121.11
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "> open falstad.com | ngspice.sourceforge.io"
+        },
+        {
+          "bbox": [
+            67.2,
+            128.66,
+            517.5,
+            141.01
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Falstad builds intuition fast. ngspice gives you the real numbers when you need"
+        },
+        {
+          "bbox": [
+            67.2,
+            143.16,
+            95.7,
+            155.51
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "them."
+        },
+        {
+          "bbox": [
+            72.2,
+            174.66,
+            146.3,
+            187.01
+          ],
+          "blockIndex": 7,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "HOW TO USE IT"
+        },
+        {
+          "bbox": [
+            72.2,
+            190.16,
+            533.9,
+            202.51
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "> Use Falstad to feel circuits. Drag one out, watch the current animate, change a"
+        },
+        {
+          "bbox": [
+            72.2,
+            205.66,
+            106.4,
+            218.01
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "value."
+        },
+        {
+          "bbox": [
+            72.2,
+            221.16,
+            476.9,
+            233.51
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "> Move to ngspice when you need SPICE models and numbers you can trust."
+        },
+        {
+          "bbox": [
+            72.2,
+            236.66,
+            528.2,
+            249.01
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "> Study what makes Falstad feel good. You are building CircuitIQ to beat exactly"
+        },
+        {
+          "bbox": [
+            72.2,
+            252.16,
+            100.7,
+            264.51
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "this."
+        },
+        {
+          "bbox": [
+            67.2,
+            283.66,
+            534.6,
+            296.01
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "-> The job this maps to: Anyone doing circuit design. Simulating before you solder"
+        },
+        {
+          "bbox": [
+            67.2,
+            298.16,
+            181.2,
+            310.51
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "saves money and ego."
+        },
+        {
+          "bbox": [
+            67.2,
+            328.55,
+            428.4,
+            346.75
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "10  EEVblog, The Amp Hour, r/AskElectronics"
+        },
+        {
+          "bbox": [
+            67.2,
+            348.7,
+            244.8,
+            359.1
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "COMMUNITY | CORE | the unstuck button"
+        },
+        {
+          "bbox": [
+            67.2,
+            364.69,
+            243.6,
+            375.61
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "> open eevblog.com | theamphour.com"
+        },
+        {
+          "bbox": [
+            67.2,
+            383.16,
+            540.3,
+            395.51
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Where working engineers and serious hobbyists hang out. Use it when a build stalls."
+        },
+        {
+          "bbox": [
+            72.2,
+            414.66,
+            146.3,
+            427.01
+          ],
+          "blockIndex": 19,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "HOW TO USE IT"
+        },
+        {
+          "bbox": [
+            72.2,
+            430.16,
+            539.6,
+            442.51
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "> Stuck for over an hour? Post it. Photos, what you tried, the actual measurement."
+        },
+        {
+          "bbox": [
+            72.2,
+            445.66,
+            476.9,
+            458.01
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "> Lurk The Amp Hour podcast to absorb how experienced engineers reason."
+        },
+        {
+          "bbox": [
+            72.2,
+            461.16,
+            516.8,
+            473.51
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "> Answer one beginner question a week. Teaching is how you find your own gaps."
+        },
+        {
+          "bbox": [
+            67.2,
+            492.66,
+            540.3,
+            505.01
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "-> The job this maps to: Not a job, a multiplier. People who ask good questions get"
+        },
+        {
+          "bbox": [
+            67.2,
+            507.16,
+            209.7,
+            519.51
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "unstuck and get referred."
+        }
+      ],
+      "charCount": 1156,
+      "height": 792.0,
+      "pageNumber": 7,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            61.2,
+            36.95,
+            550.8,
+            46.7
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "THE SUMMER EE GLOW-UP\n@1nska  |  THE BUILD LIST"
+        },
+        {
+          "bbox": [
+            61.2,
+            747.8,
+            550.8,
+            758.2
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "@1nska  >  the build list\n8"
+        },
+        {
+          "bbox": [
+            67.2,
+            76.0,
+            544.8,
+            108.51
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "THE 12-WEEK STACK\nHow to combine them so the summer actually compounds. Each phase ends with something"
+        },
+        {
+          "bbox": [
+            67.2,
+            111.16,
+            118.5,
+            123.51
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "you ship."
+        },
+        {
+          "bbox": [
+            70.2,
+            148.19,
+            370.2,
+            159.24
+          ],
+          "blockIndex": 4,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "PHASE\nDO THIS\nYOU SHIP"
+        },
+        {
+          "bbox": [
+            70.2,
+            176.18,
+            122.4,
+            200.49
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "FOUNDATION\nWeeks 1-4"
+        },
+        {
+          "bbox": [
+            145.8,
+            176.18,
+            307.62,
+            213.49
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Learning the Art of Electronics\nlabs next to MIT 6.002. Falstad\nopen every day."
+        },
+        {
+          "bbox": [
+            329.4,
+            176.18,
+            512.1,
+            200.49
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "An analog circuit you built and can\nexplain cold."
+        },
+        {
+          "bbox": [
+            70.2,
+            231.18,
+            117.18,
+            255.49
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "BUILD\nWeeks 5-8"
+        },
+        {
+          "bbox": [
+            145.8,
+            231.18,
+            302.4,
+            281.49
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Contextual Electronics or\nPhil's Lab. Design and fab one\nboard. Start firmware with\nMaking Embedded Systems."
+        },
+        {
+          "bbox": [
+            329.4,
+            231.18,
+            501.66,
+            242.49
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "A real PCB running your own code."
+        },
+        {
+          "bbox": [
+            70.2,
+            299.18,
+            122.4,
+            323.49
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "SPIKE\nWeeks 9-12"
+        },
+        {
+          "bbox": [
+            145.8,
+            299.18,
+            307.62,
+            336.49
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Pick one lane and go far. FPGA,\nRF, or deep firmware. Stop\nspreading yourself thin."
+        },
+        {
+          "bbox": [
+            329.4,
+            299.18,
+            522.54,
+            323.49
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "One project nobody believes a student\nbuilt, plus the build log."
+        }
+      ],
+      "charCount": 674,
+      "height": 792.0,
+      "pageNumber": 8,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            61.2,
+            36.95,
+            550.8,
+            46.7
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "THE SUMMER EE GLOW-UP\n@1nska  |  THE BUILD LIST"
+        },
+        {
+          "bbox": [
+            61.2,
+            747.8,
+            550.8,
+            758.2
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "@1nska  >  the build list\n9"
+        },
+        {
+          "bbox": [
+            67.2,
+            76.0,
+            540.3,
+            108.51
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "PICK YOUR LANE\nIf you only remember one thing from this guide, remember this. Three resources, one"
+        },
+        {
+          "bbox": [
+            67.2,
+            111.16,
+            124.2,
+            123.51
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "direction."
+        },
+        {
+          "bbox": [
+            72.2,
+            149.13,
+            184.4,
+            163.43
+          ],
+          "blockIndex": 4,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "THE HARDWARE LANE"
+        },
+        {
+          "bbox": [
+            72.2,
+            166.18,
+            249.68,
+            177.49
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "You want to design and fab boards."
+        },
+        {
+          "bbox": [
+            72.2,
+            185.18,
+            244.46,
+            196.49
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "> Learning the Art of Electronics"
+        },
+        {
+          "bbox": [
+            72.2,
+            198.68,
+            134.84,
+            209.99
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "> Phil's Lab"
+        },
+        {
+          "bbox": [
+            72.2,
+            212.18,
+            197.48,
+            223.49
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "> Contextual Electronics"
+        },
+        {
+          "bbox": [
+            72.2,
+            231.69,
+            424.1,
+            242.74
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Outcome: a real PCB running your firmware, in your hand by September."
+        },
+        {
+          "bbox": [
+            72.2,
+            272.62,
+            177.8,
+            286.92
+          ],
+          "blockIndex": 10,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "THE SIGNALS LANE"
+        },
+        {
+          "bbox": [
+            72.2,
+            289.68,
+            296.66,
+            300.99
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "You want to understand and capture signals."
+        },
+        {
+          "bbox": [
+            72.2,
+            308.68,
+            181.82,
+            319.99
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "> MIT 6.002 and 6.302"
+        },
+        {
+          "bbox": [
+            72.2,
+            322.18,
+            192.26,
+            333.49
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "> GNU Radio and RTL-SDR"
+        },
+        {
+          "bbox": [
+            72.2,
+            335.68,
+            181.82,
+            346.99
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "> Falstad and ngspice"
+        },
+        {
+          "bbox": [
+            72.2,
+            355.19,
+            475.1,
+            366.24
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Outcome: you pull real signals out of the air and explain the math behind them."
+        },
+        {
+          "bbox": [
+            72.2,
+            396.12,
+            177.8,
+            410.42
+          ],
+          "blockIndex": 16,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "THE DIGITAL LANE"
+        },
+        {
+          "bbox": [
+            72.2,
+            413.18,
+            327.98,
+            424.49
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "You want to build computers and the code on them."
+        },
+        {
+          "bbox": [
+            72.2,
+            432.18,
+            129.62,
+            443.49
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "> Ben Eater"
+        },
+        {
+          "bbox": [
+            72.2,
+            445.68,
+            187.04,
+            456.99
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "> nandland and HDLBits"
+        },
+        {
+          "bbox": [
+            72.2,
+            459.18,
+            202.7,
+            470.49
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "> Making Embedded Systems"
+        },
+        {
+          "bbox": [
+            72.2,
+            478.69,
+            485.3,
+            489.74
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Outcome: you build a machine from logic up and write the firmware that drives it."
+        }
+      ],
+      "charCount": 778,
+      "height": 792.0,
+      "pageNumber": 9,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            61.2,
+            36.95,
+            550.8,
+            46.7
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "THE SUMMER EE GLOW-UP\n@1nska  |  THE BUILD LIST"
+        },
+        {
+          "bbox": [
+            61.2,
+            747.8,
+            550.8,
+            758.2
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "@1nska  >  the build list\n10"
+        },
+        {
+          "bbox": [
+            67.2,
+            104.0,
+            326.4,
+            124.8
+          ],
+          "blockIndex": 2,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "THE GLOW-UP IS NOT THIS PDF"
+        },
+        {
+          "bbox": [
+            67.2,
+            134.13,
+            516.0,
+            148.43
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "This guide is a map, not a trophy. The glow-up is the boards on your"
+        },
+        {
+          "bbox": [
+            67.2,
+            152.13,
+            502.8,
+            166.43
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "bench in September, not the file in your downloads. Pick your lane"
+        },
+        {
+          "bbox": [
+            67.2,
+            170.13,
+            285.0,
+            184.43
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "today. Start phase one this week."
+        },
+        {
+          "bbox": [
+            72.2,
+            223.07,
+            204.8,
+            239.97
+          ],
+          "blockIndex": 6,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "KEEP THE MOMENTUM"
+        },
+        {
+          "bbox": [
+            72.2,
+            248.17,
+            158.6,
+            259.88
+          ],
+          "blockIndex": 7,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "> THE BUILD LIST"
+        },
+        {
+          "bbox": [
+            72.2,
+            262.67,
+            539.8,
+            274.38
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "The newsletter. Weekly build breakdowns and the projects you should not be able to make"
+        },
+        {
+          "bbox": [
+            72.2,
+            277.17,
+            115.4,
+            288.88
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "at home."
+        },
+        {
+          "bbox": [
+            72.2,
+            299.67,
+            169.4,
+            311.38
+          ],
+          "blockIndex": 10,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "> FOLLOW THE BUILD"
+        },
+        {
+          "bbox": [
+            72.2,
+            314.17,
+            471.8,
+            325.88
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "@1nska on Instagram. Daily build logs and the projects behind every guide."
+        },
+        {
+          "bbox": [
+            169.5,
+            359.57,
+            442.5,
+            376.48
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Build in public. Ship by September."
+        },
+        {
+          "bbox": [
+            117.0,
+            383.67,
+            495.0,
+            395.38
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Follow @1nska if you're building the future, not just studying for it."
+        }
+      ],
+      "charCount": 594,
+      "height": 792.0,
+      "pageNumber": 10,
+      "textExtractable": true,
+      "width": 612.0
+    }
+  ],
+  "provenance": {
+    "confidence": "EXACT",
+    "extractionMethod": "pymupdf-blocks-v1",
+    "extractorVersion": "1.28.0",
+    "generatorVersion": null,
+    "origin": "extracted",
+    "source": "guide-028",
+    "sourceHash": "a1d4397fa62aead0cc5cb90443490e8cacdddcbe7c26429d6d9e94c7b4aee31d",
+    "sourcePage": null,
+    "sourcePath": "Engineering guides/summer-ee-glow-up-light.pdf",
+    "sourceSection": "ROOT"
+  },
+  "relativePath": "Engineering guides/summer-ee-glow-up-light.pdf",
+  "schemaVersion": "1.0.0",
+  "sha256": "a1d4397fa62aead0cc5cb90443490e8cacdddcbe7c26429d6d9e94c7b4aee31d",
+  "sourceId": "guide-028"
+}

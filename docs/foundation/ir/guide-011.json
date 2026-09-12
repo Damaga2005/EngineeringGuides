@@ -1,0 +1,7380 @@
+{
+  "metadata": {
+    "format": "PDF 1.4",
+    "producer": "pypdf"
+  },
+  "pageCount": 17,
+  "pages": [
+    {
+      "blocks": [
+        {
+          "bbox": [
+            51.12,
+            33.04,
+            367.82,
+            43.01
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "// FIELD GUIDE · DEFENSE SIGNALS · 6 PROJECTS · SEP 2026"
+        },
+        {
+          "bbox": [
+            58.42,
+            56.05,
+            306.0,
+            65.55
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "[ UNCLASSIFIED · RECEIVE-ONLY · FOR TRAINING ]"
+        },
+        {
+          "bbox": [
+            51.12,
+            100.16,
+            339.65,
+            160.92
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Six EE Projects That\nSee The Invisible"
+        },
+        {
+          "bbox": [
+            51.12,
+            173.3,
+            469.19,
+            185.07
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "GNSS, direction finding, magnetic anomaly, and secure comms — six builds from"
+        },
+        {
+          "bbox": [
+            51.12,
+            188.63,
+            463.76,
+            200.4
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "the sensing and signals side of defense. From a receiver that hunts a hidden"
+        },
+        {
+          "bbox": [
+            51.12,
+            203.24,
+            431.18,
+            215.01
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "transmitter across a field to a link that scatters across the band and"
+        },
+        {
+          "bbox": [
+            51.12,
+            217.84,
+            452.9,
+            229.62
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "encrypts itself. All receive-only or protective; real defense-grade signal"
+        },
+        {
+          "bbox": [
+            51.12,
+            232.45,
+            110.85,
+            244.22
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "processing."
+        },
+        {
+          "bbox": [
+            51.12,
+            274.34,
+            419.26,
+            287.63
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "01\nGNSS Receiver & Resilience  Pull position and time out of signals from"
+        },
+        {
+          "bbox": [
+            77.41,
+            290.76,
+            286.31,
+            300.83
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "20,000 km up — and learn how they're attacked"
+        },
+        {
+          "bbox": [
+            463.53,
+            275.84,
+            479.31,
+            287.23
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$25"
+        },
+        {
+          "bbox": [
+            51.12,
+            318.16,
+            433.52,
+            331.45
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "02\nRF Direction Finder  Point a needle straight at a hidden transmitter — the"
+        },
+        {
+          "bbox": [
+            77.41,
+            333.85,
+            207.39,
+            343.91
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "core of signals intelligence"
+        },
+        {
+          "bbox": [
+            463.53,
+            319.66,
+            479.31,
+            331.05
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$50"
+        },
+        {
+          "bbox": [
+            51.12,
+            361.98,
+            432.58,
+            375.27
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "03\nMagnetic Anomaly Detector  Sense a hidden vehicle by the dent it makes in"
+        },
+        {
+          "bbox": [
+            77.41,
+            377.67,
+            179.54,
+            387.73
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Earth's magnetic field"
+        },
+        {
+          "bbox": [
+            463.53,
+            363.48,
+            479.31,
+            374.87
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$30"
+        },
+        {
+          "bbox": [
+            51.12,
+            405.07,
+            436.89,
+            418.36
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "04\nSeismic Unattended Ground Sensor  Feel footsteps and vehicles through the"
+        },
+        {
+          "bbox": [
+            77.41,
+            421.49,
+            216.68,
+            431.55
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "ground before you can see them"
+        },
+        {
+          "bbox": [
+            463.53,
+            406.56,
+            479.31,
+            417.96
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$35"
+        },
+        {
+          "bbox": [
+            51.12,
+            448.89,
+            394.83,
+            462.18
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "05\nDrone Detection Receiver  Spot a drone by the radio it can't stop"
+        },
+        {
+          "bbox": [
+            77.41,
+            465.31,
+            235.24,
+            475.37
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "transmitting — passive counter-UAS"
+        },
+        {
+          "bbox": [
+            463.53,
+            450.38,
+            479.31,
+            461.78
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$40"
+        },
+        {
+          "bbox": [
+            51.12,
+            492.7,
+            427.61,
+            506.0
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "06\nFrequency-Hopping Encrypted Link  A radio link that scatters across the"
+        },
+        {
+          "bbox": [
+            77.41,
+            509.12,
+            346.65,
+            519.19
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "band and encrypts every packet — resilient comms by design"
+        },
+        {
+          "bbox": [
+            463.53,
+            494.2,
+            479.31,
+            505.59
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$30"
+        },
+        {
+          "bbox": [
+            51.12,
+            538.21,
+            420.9,
+            547.51
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "SIG 01 ▮▮▮▯▯ · AZ 214.6° · 1575.42 MHZ · LOCK · GRAD 0.31 µT · RX ONLY"
+        },
+        {
+          "bbox": [
+            51.12,
+            566.67,
+            388.94,
+            576.92
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "● By Enes · @1nska · Electrical Engineer — a Build List field guide"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "defense signals — a Build List field guide\n1 / 17"
+        }
+      ],
+      "charCount": 1313,
+      "height": 792.0,
+      "pageNumber": 1,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            66.46,
+            294.86,
+            513.52,
+            317.09
+          ],
+          "blockIndex": 0,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand GNSS fundamentals (trilateration from time-of-flight, the role of precise"
+        },
+        {
+          "bbox": [
+            66.46,
+            319.23,
+            533.84,
+            330.24
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "time), NMEA data, why the signal sits below the noise floor and how correlation recovers it,"
+        },
+        {
+          "bbox": [
+            66.46,
+            332.37,
+            523.68,
+            343.38
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "and the concepts of jamming and spoofing resilience. PNT is core defense and aerospace EE."
+        },
+        {
+          "bbox": [
+            51.12,
+            365.97,
+            554.11,
+            376.98
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "→ the job this maps to: positioning, navigation, and timing (PNT) engineering — aerospace, defense,"
+        },
+        {
+          "bbox": [
+            51.12,
+            379.11,
+            315.3,
+            390.12
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "autonomous-systems, and timing-infrastructure teams."
+        },
+        {
+          "bbox": [
+            66.46,
+            412.44,
+            523.68,
+            434.67
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "!\nRECEIVE ONLY — NEVER JAM OR SPOOF\nThis build only listens. Jamming or spoofing GNSS is a serious federal crime and endangers"
+        },
+        {
+          "bbox": [
+            66.46,
+            436.81,
+            498.28,
+            447.82
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "aircraft, ships, and emergency services, so nothing here transmits and the resilience"
+        },
+        {
+          "bbox": [
+            66.46,
+            449.95,
+            523.68,
+            460.96
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "discussion stays conceptual. Understanding the threat is a defensive skill; creating it is"
+        },
+        {
+          "bbox": [
+            66.46,
+            463.83,
+            86.78,
+            474.84
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "not."
+        },
+        {
+          "bbox": [
+            51.12,
+            25.73,
+            317.98,
+            63.24
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "[ P R O J E C T 0 1 ]\nGNSS Receiver & Resilience"
+        },
+        {
+          "bbox": [
+            51.12,
+            69.89,
+            424.46,
+            81.28
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Pull position and time out of signals from 20,000 km up — and learn how"
+        },
+        {
+          "bbox": [
+            51.12,
+            83.77,
+            135.25,
+            95.16
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "they're attacked"
+        },
+        {
+          "bbox": [
+            59.16,
+            110.45,
+            200.83,
+            120.42
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "$25\nbeginner\n1 weekend"
+        },
+        {
+          "bbox": [
+            51.12,
+            143.95,
+            180.17,
+            158.67
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "// why this matters"
+        },
+        {
+          "bbox": [
+            51.12,
+            167.32,
+            554.07,
+            178.33
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Every ship, aircraft, drone, and vehicle depends on GNSS for position and precise time, which makes"
+        },
+        {
+          "bbox": [
+            51.12,
+            180.47,
+            548.99,
+            191.48
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "it one of the most important — and most contested — signals in defense. Building a receiver is the"
+        },
+        {
+          "bbox": [
+            51.12,
+            193.61,
+            538.83,
+            204.63
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "way in: a $12 module locks onto satellites 20,000 km overhead and hands you latitude, longitude,"
+        },
+        {
+          "bbox": [
+            51.12,
+            206.76,
+            533.75,
+            217.77
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "altitude, and nanosecond-grade time, and with an SDR you can even glimpse the raw signal buried"
+        },
+        {
+          "bbox": [
+            51.12,
+            220.63,
+            543.91,
+            231.65
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "below the noise floor. Understanding how GNSS works, and why it is so fragile, is foundational to"
+        },
+        {
+          "bbox": [
+            51.12,
+            233.78,
+            543.91,
+            244.79
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "positioning, navigation, and timing (PNT) engineering — one of the largest and most strategically"
+        },
+        {
+          "bbox": [
+            51.12,
+            246.93,
+            183.21,
+            257.94
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "vital areas of defense EE."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "defense signals — a Build List field guide\n2 / 17"
+        }
+      ],
+      "charCount": 1591,
+      "height": 792.0,
+      "pageNumber": 2,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            51.12,
+            26.37,
+            153.01,
+            41.09
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "// how it works"
+        },
+        {
+          "bbox": [
+            51.12,
+            346.25,
+            186.97,
+            360.96
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "// bill of materials"
+        },
+        {
+          "bbox": [
+            51.12,
+            373.36,
+            552.96,
+            383.33
+          ],
+          "blockIndex": 2,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "COMPONENT\nPART / SPEC\nQTY\n~COST"
+        },
+        {
+          "bbox": [
+            51.12,
+            394.9,
+            553.57,
+            405.34
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "GNSS module\nu-blox NEO-6M / 8M with antenna\n1\n$12"
+        },
+        {
+          "bbox": [
+            51.12,
+            416.81,
+            553.57,
+            427.25
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Microcontroller\nESP32 / Arduino (serial)\n1\n$8"
+        },
+        {
+          "bbox": [
+            51.12,
+            438.72,
+            553.57,
+            449.16
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Active antenna + passives\nGPS antenna, wiring\n—\n$5"
+        },
+        {
+          "bbox": [
+            51.12,
+            461.36,
+            553.57,
+            471.8
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "SDR (optional)\nRTL-SDR to view the raw L1 signal\n1\n$25"
+        },
+        {
+          "bbox": [
+            65.73,
+            49.74,
+            543.28,
+            60.75
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Trilateration from time: Each satellite broadcasts its position and an extremely precise time."
+        },
+        {
+          "bbox": [
+            65.73,
+            62.89,
+            528.03,
+            73.9
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "The receiver measures how long each signal took to arrive, converts that to a distance, and"
+        },
+        {
+          "bbox": [
+            65.73,
+            76.03,
+            558.52,
+            87.05
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "solves for its own position where the ranges intersect — needing at least four satellites to also"
+        },
+        {
+          "bbox": [
+            65.73,
+            89.18,
+            218.14,
+            100.19
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "solve for its own clock error."
+        },
+        {
+          "bbox": [
+            51.12,
+            50.56,
+            56.22,
+            60.42
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            65.73,
+            108.9,
+            543.29,
+            119.91
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Time is the real product: Because position comes from timing, GNSS is first a time system. The"
+        },
+        {
+          "bbox": [
+            65.73,
+            122.77,
+            553.44,
+            133.79
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "satellites carry atomic clocks and the receiver recovers time to nanoseconds — which is why GNSS"
+        },
+        {
+          "bbox": [
+            65.73,
+            135.92,
+            553.44,
+            146.93
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "quietly synchronises power grids, cell networks, and financial systems, and why time itself is a"
+        },
+        {
+          "bbox": [
+            65.73,
+            149.06,
+            152.1,
+            160.08
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "defense priority."
+        },
+        {
+          "bbox": [
+            51.12,
+            109.72,
+            56.22,
+            119.58
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            65.73,
+            168.78,
+            548.36,
+            179.8
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Below the noise floor: The signal arriving at your antenna is weaker than the background noise."
+        },
+        {
+          "bbox": [
+            65.73,
+            181.93,
+            538.19,
+            192.94
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "The receiver recovers it by correlating against each satellite’s known pseudo-random code — a"
+        },
+        {
+          "bbox": [
+            65.73,
+            195.07,
+            385.79,
+            206.09
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "huge processing gain that pulls the signal up out of the noise."
+        },
+        {
+          "bbox": [
+            51.12,
+            169.6,
+            56.22,
+            179.46
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            65.73,
+            214.79,
+            533.12,
+            225.8
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Reading the output: A receiver module outputs standard NMEA sentences over serial: position,"
+        },
+        {
+          "bbox": [
+            65.73,
+            227.94,
+            553.44,
+            238.95
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "altitude, speed, satellites in view, and fix quality. Parsing these is your window into what the"
+        },
+        {
+          "bbox": [
+            65.73,
+            241.08,
+            202.9,
+            252.1
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "receiver is actually doing."
+        },
+        {
+          "bbox": [
+            51.12,
+            215.61,
+            56.22,
+            225.47
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            65.73,
+            260.8,
+            553.44,
+            271.81
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Why it is fragile: The received power is tiny, so a small interferer can jam it, and because the"
+        },
+        {
+          "bbox": [
+            65.73,
+            273.95,
+            548.36,
+            284.96
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "format is public, a fake stronger signal can spoof it. Real systems defend with directional and"
+        },
+        {
+          "bbox": [
+            65.73,
+            287.09,
+            558.52,
+            298.11
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "adaptive antennas, multi-constellation receivers, and spoofing detection — the resilience side of"
+        },
+        {
+          "bbox": [
+            65.73,
+            300.97,
+            86.05,
+            311.98
+          ],
+          "blockIndex": 28,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "PNT."
+        },
+        {
+          "bbox": [
+            51.12,
+            261.62,
+            56.22,
+            271.48
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "defense signals — a Build List field guide\n3 / 17"
+        }
+      ],
+      "charCount": 1691,
+      "height": 792.0,
+      "pageNumber": 3,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            51.12,
+            26.37,
+            146.22,
+            41.09
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "// build steps"
+        },
+        {
+          "bbox": [
+            51.12,
+            353.55,
+            200.55,
+            368.27
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "// interview questions"
+        },
+        {
+          "bbox": [
+            80.33,
+            52.66,
+            126.06,
+            63.68
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Get a fix"
+        },
+        {
+          "bbox": [
+            80.33,
+            68.0,
+            542.64,
+            79.01
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Wire the GNSS module to your microcontroller over serial, take it near a window or outside,"
+        },
+        {
+          "bbox": [
+            80.33,
+            81.14,
+            522.32,
+            92.16
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "and wait for a lock. Watch the satellite count climb and the first position fix appear."
+        },
+        {
+          "bbox": [
+            56.96,
+            51.6,
+            63.1,
+            64.89
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            80.33,
+            105.25,
+            131.14,
+            116.26
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Parse NMEA"
+        },
+        {
+          "bbox": [
+            80.33,
+            120.58,
+            552.8,
+            131.59
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Read the NMEA sentences and extract latitude, longitude, altitude, speed, satellites in view,"
+        },
+        {
+          "bbox": [
+            80.33,
+            134.46,
+            476.6,
+            145.47
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "and fix quality. Print them cleanly and confirm they match your real location."
+        },
+        {
+          "bbox": [
+            56.96,
+            104.18,
+            63.1,
+            117.47
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            80.33,
+            158.56,
+            136.22,
+            169.57
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Log a track"
+        },
+        {
+          "bbox": [
+            80.33,
+            173.89,
+            552.8,
+            184.91
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Record position over time and plot it (a walk around the block). See the accuracy, the noise,"
+        },
+        {
+          "bbox": [
+            80.33,
+            187.04,
+            298.79,
+            198.05
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "and how it degrades indoors or under cover."
+        },
+        {
+          "bbox": [
+            56.96,
+            157.49,
+            63.1,
+            170.78
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            80.33,
+            211.14,
+            181.94,
+            222.15
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Recover precise time"
+        },
+        {
+          "bbox": [
+            80.33,
+            226.48,
+            557.88,
+            237.49
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Use the receiver’s timing output (the PPS pin, if present) and note how tightly it disciplines"
+        },
+        {
+          "bbox": [
+            80.33,
+            239.62,
+            395.31,
+            250.64
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "time — the feature that makes GNSS a synchronisation backbone."
+        },
+        {
+          "bbox": [
+            56.96,
+            210.07,
+            63.1,
+            223.37
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            80.33,
+            263.72,
+            227.66,
+            274.74
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "See the raw signal (optional)"
+        },
+        {
+          "bbox": [
+            80.33,
+            279.06,
+            542.64,
+            290.07
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "With an RTL-SDR and an active antenna, tune to L1 (1575.42 MHz) and observe what looks like"
+        },
+        {
+          "bbox": [
+            80.33,
+            292.2,
+            557.88,
+            303.22
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "pure noise — then read how correlation pulls the real signal out. That gap between “looks like"
+        },
+        {
+          "bbox": [
+            80.33,
+            305.35,
+            385.15,
+            316.36
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "noise” and “carries the world’s timing” is the whole lesson."
+        },
+        {
+          "bbox": [
+            56.96,
+            262.66,
+            63.1,
+            275.95
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            66.46,
+            389.34,
+            441.77,
+            400.35
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "How does a GNSS receiver determine its position from satellite signals?\n→"
+        },
+        {
+          "bbox": [
+            66.46,
+            408.32,
+            406.2,
+            419.34
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Why does a GNSS fix require at least four satellites, not three?\n→"
+        },
+        {
+          "bbox": [
+            66.46,
+            427.31,
+            294.44,
+            438.33
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Why is GNSS fundamentally a timing system?\n→"
+        },
+        {
+          "bbox": [
+            66.46,
+            446.3,
+            426.52,
+            457.31
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "How is the GNSS signal recovered when it sits below the noise floor?\n→"
+        },
+        {
+          "bbox": [
+            66.46,
+            465.29,
+            416.36,
+            476.3
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "What is the difference between jamming and spoofing, conceptually?\n→"
+        },
+        {
+          "bbox": [
+            66.46,
+            484.28,
+            406.2,
+            495.29
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "How do modern receivers improve resilience against interference?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "defense signals — a Build List field guide\n4 / 17"
+        }
+      ],
+      "charCount": 1442,
+      "height": 792.0,
+      "pageNumber": 4,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            66.46,
+            294.86,
+            523.68,
+            317.09
+          ],
+          "blockIndex": 0,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand direction-finding techniques (RSSI / rotational, pseudo-Doppler, and phase-"
+        },
+        {
+          "bbox": [
+            66.46,
+            319.23,
+            533.84,
+            330.24
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "based angle-of-arrival), coherent multi-channel reception, antenna arrays, and the math that"
+        },
+        {
+          "bbox": [
+            66.46,
+            332.37,
+            523.68,
+            343.38
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "turns antenna phase differences into a bearing. Coherent RF and DF are advanced, in-demand"
+        },
+        {
+          "bbox": [
+            66.46,
+            346.25,
+            289.99,
+            357.26
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "skills across SIGINT, EW, and spectrum work."
+        },
+        {
+          "bbox": [
+            51.12,
+            379.11,
+            559.19,
+            390.12
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ the job this maps to: signals intelligence, electronic warfare, and spectrum engineering — defense"
+        },
+        {
+          "bbox": [
+            51.12,
+            392.26,
+            320.38,
+            403.27
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "RF, spectrum-monitoring, and search-and-rescue teams."
+        },
+        {
+          "bbox": [
+            66.46,
+            425.59,
+            523.68,
+            447.82
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "!\nLOCATE, DON'T INTRUDE\nThis is receive-only: you locate transmitters, you never transmit or interfere. Use it for"
+        },
+        {
+          "bbox": [
+            66.46,
+            449.95,
+            544.01,
+            460.96
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "fox-hunting, tracking down interference, or search-and-rescue beacons, and respect privacy and"
+        },
+        {
+          "bbox": [
+            66.46,
+            463.83,
+            320.47,
+            474.84
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "radio law — don’t use it to covertly track people."
+        },
+        {
+          "bbox": [
+            51.12,
+            25.73,
+            246.2,
+            63.24
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "[ P R O J E C T 0 2 ]\nRF Direction Finder"
+        },
+        {
+          "bbox": [
+            51.12,
+            69.89,
+            413.94,
+            81.28
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Point a needle straight at a hidden transmitter — the core of signals"
+        },
+        {
+          "bbox": [
+            51.12,
+            83.77,
+            114.22,
+            95.16
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "intelligence"
+        },
+        {
+          "bbox": [
+            59.16,
+            110.45,
+            215.56,
+            120.42
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "$50\nadvanced\n1–2 weekends"
+        },
+        {
+          "bbox": [
+            51.12,
+            143.95,
+            180.17,
+            158.67
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "// why this matters"
+        },
+        {
+          "bbox": [
+            51.12,
+            167.32,
+            533.75,
+            178.33
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Finding where a radio signal comes from is one of the oldest and most important jobs in defense"
+        },
+        {
+          "bbox": [
+            51.12,
+            180.47,
+            554.07,
+            191.48
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "electronics — search and rescue, spectrum enforcement, electronic warfare, and signals intelligence"
+        },
+        {
+          "bbox": [
+            51.12,
+            193.61,
+            543.91,
+            204.63
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "all rest on it. Build a direction finder and you can watch a bearing swing to point straight at a"
+        },
+        {
+          "bbox": [
+            51.12,
+            206.76,
+            528.67,
+            217.77
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "hidden transmitter across a field. The accessible version uses a single SDR with a directional"
+        },
+        {
+          "bbox": [
+            51.12,
+            220.63,
+            548.99,
+            231.65
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "antenna and signal strength, or a pseudo-Doppler array; the serious version uses a coherent multi-"
+        },
+        {
+          "bbox": [
+            51.12,
+            233.78,
+            538.83,
+            244.79
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "channel SDR to compute true angle-of-arrival from phase. It is the marquee build of this guide —"
+        },
+        {
+          "bbox": [
+            51.12,
+            246.93,
+            523.59,
+            257.94
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "visual, deeply technical, and a direct window into how SIGINT and EW systems locate emitters."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "defense signals — a Build List field guide\n5 / 17"
+        }
+      ],
+      "charCount": 1646,
+      "height": 792.0,
+      "pageNumber": 5,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            51.12,
+            26.37,
+            153.01,
+            41.09
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "// how it works"
+        },
+        {
+          "bbox": [
+            66.46,
+            294.13,
+            119.48,
+            303.63
+          ],
+          "blockIndex": 1,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "BUILD NOTE"
+        },
+        {
+          "bbox": [
+            66.46,
+            306.08,
+            533.84,
+            317.09
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Start cheap: one RTL-SDR and a directional (Yagi) antenna plus signal strength, or a pseudo-"
+        },
+        {
+          "bbox": [
+            66.46,
+            319.23,
+            513.52,
+            330.24
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Doppler array. A coherent KrakenSDR is the upgrade that gives true phase-based angle-of-"
+        },
+        {
+          "bbox": [
+            66.46,
+            332.37,
+            381.44,
+            343.38
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "arrival — far more robust, and worth it once the basics click."
+        },
+        {
+          "bbox": [
+            51.12,
+            381.3,
+            207.34,
+            396.02
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "// key design decisions"
+        },
+        {
+          "bbox": [
+            65.73,
+            49.74,
+            548.37,
+            60.75
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "The basic idea: A directional antenna hears a signal loudest when pointed at its source. Rotate"
+        },
+        {
+          "bbox": [
+            65.73,
+            62.89,
+            553.44,
+            73.9
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "it (or steer a phased array electronically) and the direction of peak strength, or of a specific"
+        },
+        {
+          "bbox": [
+            65.73,
+            76.03,
+            345.14,
+            87.05
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "phase relationship, points back toward the transmitter."
+        },
+        {
+          "bbox": [
+            51.12,
+            50.56,
+            56.22,
+            60.42
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            65.73,
+            95.75,
+            553.44,
+            106.76
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "RSSI and rotational DF: The simplest method reads received signal strength as you rotate a Yagi;"
+        },
+        {
+          "bbox": [
+            65.73,
+            108.9,
+            553.44,
+            119.91
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "the peak is the bearing. Cheap and intuitive, but reflections and multipath in real environments"
+        },
+        {
+          "bbox": [
+            65.73,
+            122.77,
+            284.18,
+            133.79
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "blur it, which is why better methods exist."
+        },
+        {
+          "bbox": [
+            51.12,
+            96.57,
+            56.22,
+            106.43
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            65.73,
+            142.49,
+            543.29,
+            153.5
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Pseudo-Doppler: Rapidly switching between antennas arranged in a circle imposes a Doppler-like"
+        },
+        {
+          "bbox": [
+            65.73,
+            155.64,
+            522.95,
+            166.65
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "modulation whose phase encodes the arrival angle. It works with a single receiver and is a"
+        },
+        {
+          "bbox": [
+            65.73,
+            168.78,
+            233.38,
+            179.8
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "classic, affordable DF technique."
+        },
+        {
+          "bbox": [
+            51.12,
+            143.31,
+            56.22,
+            153.17
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            65.73,
+            188.5,
+            558.52,
+            199.51
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Phase-based angle-of-arrival: With multiple coherent receivers sharing one clock, you measure the"
+        },
+        {
+          "bbox": [
+            65.73,
+            201.65,
+            553.44,
+            212.66
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "tiny phase difference of the same signal arriving at spaced antennas. That phase difference maps"
+        },
+        {
+          "bbox": [
+            65.73,
+            214.79,
+            416.27,
+            225.8
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "directly to the arrival angle — the method behind precise, modern DF."
+        },
+        {
+          "bbox": [
+            51.12,
+            189.32,
+            56.22,
+            199.18
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            65.73,
+            234.51,
+            548.36,
+            245.52
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "From one bearing to a fix: A single bearing is a line; take bearings from two or more locations"
+        },
+        {
+          "bbox": [
+            65.73,
+            247.66,
+            553.44,
+            258.67
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "and where they cross is the transmitter’s position. Moving receivers, or multiple stations, turn"
+        },
+        {
+          "bbox": [
+            65.73,
+            260.8,
+            207.98,
+            271.81
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "a direction into a location."
+        },
+        {
+          "bbox": [
+            51.12,
+            235.33,
+            56.22,
+            245.19
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            65.73,
+            406.13,
+            548.36,
+            417.15
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Why coherent multi-channel over a spinning antenna? A rotating Yagi with RSSI is cheap but slow"
+        },
+        {
+          "bbox": [
+            65.73,
+            419.28,
+            517.87,
+            430.29
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "and easily fooled by reflections, which create false peaks in real environments. Coherent"
+        },
+        {
+          "bbox": [
+            65.73,
+            433.15,
+            538.19,
+            444.17
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "receivers measure phase across a fixed array instantly and are far more robust to multipath —"
+        },
+        {
+          "bbox": [
+            65.73,
+            446.3,
+            507.71,
+            457.31
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "which is why professional DF uses phase-based angle-of-arrival, not a spinning antenna."
+        },
+        {
+          "bbox": [
+            51.12,
+            406.95,
+            56.22,
+            416.81
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "→"
+        },
+        {
+          "bbox": [
+            65.73,
+            467.48,
+            558.52,
+            478.49
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Why does coherence (a shared clock) matter so much? Phase-based DF depends on comparing the exact"
+        },
+        {
+          "bbox": [
+            65.73,
+            480.62,
+            553.44,
+            491.64
+          ],
+          "blockIndex": 32,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "phase of the same signal at several antennas. If the receivers don’t share a clock, their phases"
+        },
+        {
+          "bbox": [
+            65.73,
+            493.77,
+            528.03,
+            504.78
+          ],
+          "blockIndex": 33,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "drift independently and the comparison is meaningless. Locking them to one reference is the"
+        },
+        {
+          "bbox": [
+            65.73,
+            506.92,
+            411.19,
+            517.93
+          ],
+          "blockIndex": 34,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "entire reason a coherent SDR works where independent dongles do not."
+        },
+        {
+          "bbox": [
+            51.12,
+            468.3,
+            56.22,
+            478.16
+          ],
+          "blockIndex": 35,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "→"
+        },
+        {
+          "bbox": [
+            65.73,
+            528.09,
+            553.44,
+            539.11
+          ],
+          "blockIndex": 36,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Why does one direction finder only give a line, not a point? A single station measures the angle"
+        },
+        {
+          "bbox": [
+            65.73,
+            541.24,
+            558.52,
+            552.25
+          ],
+          "blockIndex": 37,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "a signal arrives from, which defines a bearing line — the transmitter is somewhere along it. Only"
+        },
+        {
+          "bbox": [
+            65.73,
+            554.39,
+            558.52,
+            565.4
+          ],
+          "blockIndex": 38,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "by crossing bearings from different locations (or moving) does the intersection reveal the actual"
+        },
+        {
+          "bbox": [
+            65.73,
+            567.53,
+            380.71,
+            578.54
+          ],
+          "blockIndex": 39,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "position, which is why DF networks and moving platforms exist."
+        },
+        {
+          "bbox": [
+            51.12,
+            528.91,
+            56.22,
+            538.78
+          ],
+          "blockIndex": 40,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 41,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "defense signals — a Build List field guide\n6 / 17"
+        }
+      ],
+      "charCount": 2594,
+      "height": 792.0,
+      "pageNumber": 6,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            51.12,
+            26.37,
+            186.97,
+            41.09
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "// bill of materials"
+        },
+        {
+          "bbox": [
+            51.12,
+            53.49,
+            552.96,
+            63.45
+          ],
+          "blockIndex": 1,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "COMPONENT\nPART / SPEC\nQTY\n~COST"
+        },
+        {
+          "bbox": [
+            51.12,
+            75.75,
+            553.57,
+            86.2
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "SDR\nRTL-SDR, or KrakenSDR for coherent DF\n1\n$25–150"
+        },
+        {
+          "bbox": [
+            51.12,
+            97.66,
+            553.57,
+            108.1
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Directional antenna\nYagi for your band, or 5-element array\n1\n$15"
+        },
+        {
+          "bbox": [
+            51.12,
+            119.57,
+            553.57,
+            130.01
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Rotator / mount (optional)\nfor rotational DF\n1\n$5"
+        },
+        {
+          "bbox": [
+            51.12,
+            141.48,
+            553.57,
+            151.92
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Coax + connectors\nfeedlines\n—\n$6"
+        },
+        {
+          "bbox": [
+            51.12,
+            163.39,
+            553.57,
+            173.83
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Laptop\nGNU Radio / DF software\n1\n—"
+        },
+        {
+          "bbox": [
+            51.12,
+            206.76,
+            146.22,
+            221.48
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "// build steps"
+        },
+        {
+          "bbox": [
+            51.12,
+            534.67,
+            200.55,
+            549.39
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "// interview questions"
+        },
+        {
+          "bbox": [
+            80.33,
+            233.78,
+            212.42,
+            244.79
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Pick a method and a target"
+        },
+        {
+          "bbox": [
+            80.33,
+            249.12,
+            537.56,
+            260.13
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Choose RSSI-with-Yagi (cheapest), pseudo-Doppler, or coherent DF. Pick a legal, known test"
+        },
+        {
+          "bbox": [
+            80.33,
+            262.26,
+            441.04,
+            273.27
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "transmitter — a friend with a handheld, or a licensed beacon — to hunt."
+        },
+        {
+          "bbox": [
+            56.96,
+            232.71,
+            63.1,
+            246.01
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            80.33,
+            286.36,
+            212.42,
+            297.38
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Build the antenna or array"
+        },
+        {
+          "bbox": [
+            80.33,
+            301.7,
+            537.56,
+            312.71
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Build or buy a Yagi for your band, or assemble the circular antenna array for coherent DF."
+        },
+        {
+          "bbox": [
+            80.33,
+            314.84,
+            339.43,
+            325.86
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Antenna geometry directly determines your accuracy."
+        },
+        {
+          "bbox": [
+            56.96,
+            285.3,
+            63.1,
+            298.59
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            80.33,
+            338.94,
+            146.38,
+            349.96
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Get a bearing"
+        },
+        {
+          "bbox": [
+            80.33,
+            354.28,
+            512.16,
+            365.29
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "For RSSI, rotate and log signal strength versus heading; the peak is the bearing. For"
+        },
+        {
+          "bbox": [
+            80.33,
+            367.43,
+            522.32,
+            378.44
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "coherent, run the DF software and read the computed angle-of-arrival. Confirm it points"
+        },
+        {
+          "bbox": [
+            80.33,
+            380.57,
+            227.66,
+            391.59
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "sensibly at the known source."
+        },
+        {
+          "bbox": [
+            56.96,
+            337.88,
+            63.1,
+            351.17
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            80.33,
+            404.67,
+            161.62,
+            415.69
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Handle multipath"
+        },
+        {
+          "bbox": [
+            80.33,
+            420.01,
+            537.56,
+            431.02
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Move around and watch reflections create false bearings, then average, change location, or"
+        },
+        {
+          "bbox": [
+            80.33,
+            433.15,
+            502.0,
+            444.17
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "switch to a phase-based method to firm up the estimate. This is where DF gets real."
+        },
+        {
+          "bbox": [
+            56.96,
+            403.61,
+            63.1,
+            416.9
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            80.33,
+            457.99,
+            181.94,
+            469.0
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Triangulate to a fix"
+        },
+        {
+          "bbox": [
+            80.33,
+            473.32,
+            512.16,
+            484.33
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Take bearings from two or three separate spots, draw the lines on a map, and find the"
+        },
+        {
+          "bbox": [
+            80.33,
+            486.47,
+            410.55,
+            497.48
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "intersection. You’ve located the transmitter — the essence of DF."
+        },
+        {
+          "bbox": [
+            56.96,
+            456.92,
+            63.1,
+            470.21
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            66.46,
+            569.72,
+            370.64,
+            580.74
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "What are the main techniques for radio direction finding?\n→"
+        },
+        {
+          "bbox": [
+            66.46,
+            588.71,
+            375.72,
+            599.72
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "How does phase-based angle-of-arrival determine a bearing?\n→"
+        },
+        {
+          "bbox": [
+            66.46,
+            607.7,
+            396.04,
+            618.71
+          ],
+          "blockIndex": 32,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Why must the receivers in a phase-based DF system be coherent?\n→"
+        },
+        {
+          "bbox": [
+            66.46,
+            626.69,
+            365.56,
+            637.7
+          ],
+          "blockIndex": 33,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Why is multipath the central challenge in real-world DF?\n→"
+        },
+        {
+          "bbox": [
+            66.46,
+            645.67,
+            411.28,
+            656.69
+          ],
+          "blockIndex": 34,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "How do you turn one or more bearings into a transmitter location?\n→"
+        },
+        {
+          "bbox": [
+            66.46,
+            664.66,
+            431.6,
+            675.68
+          ],
+          "blockIndex": 35,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "What are the tradeoffs between RSSI, pseudo-Doppler, and coherent DF?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 36,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "defense signals — a Build List field guide\n7 / 17"
+        }
+      ],
+      "charCount": 1677,
+      "height": 792.0,
+      "pageNumber": 7,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            66.46,
+            267.84,
+            232.97,
+            277.34
+          ],
+          "blockIndex": 0,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "WHAT THIS PROVES TO A RECRUITER"
+        },
+        {
+          "bbox": [
+            66.46,
+            279.79,
+            528.76,
+            290.8
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "You understand magnetometry (fluxgate and magnetoresistive sensors), the Earth’s field as a"
+        },
+        {
+          "bbox": [
+            66.46,
+            292.94,
+            538.92,
+            303.95
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "baseline, gradiometry to cancel common-mode drift, calibration, and anomaly detection against"
+        },
+        {
+          "bbox": [
+            66.46,
+            306.08,
+            493.2,
+            317.09
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "a noisy background. Passive magnetic sensing is used across defense, geophysics, and"
+        },
+        {
+          "bbox": [
+            66.46,
+            319.23,
+            122.34,
+            330.24
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "navigation."
+        },
+        {
+          "bbox": [
+            51.12,
+            352.09,
+            528.71,
+            363.1
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "→ the job this maps to: magnetic sensing and geophysical engineering — defense sensor, survey,"
+        },
+        {
+          "bbox": [
+            51.12,
+            365.24,
+            244.17,
+            376.25
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "navigation, and instrumentation teams."
+        },
+        {
+          "bbox": [
+            51.12,
+            403.94,
+            153.01,
+            418.66
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "// how it works"
+        },
+        {
+          "bbox": [
+            66.46,
+            671.7,
+            119.48,
+            681.2
+          ],
+          "blockIndex": 8,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "BUILD NOTE"
+        },
+        {
+          "bbox": [
+            66.46,
+            683.65,
+            513.52,
+            694.66
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "A single magnetometer drifts with temperature and Earth-field changes. Use two identical"
+        },
+        {
+          "bbox": [
+            66.46,
+            696.8,
+            528.76,
+            707.81
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "sensors as a gradiometer — subtracting one from the other cancels the common background and"
+        },
+        {
+          "bbox": [
+            66.46,
+            709.94,
+            376.36,
+            720.96
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "leaves the local anomaly, the trick that makes real MAD work."
+        },
+        {
+          "bbox": [
+            65.73,
+            427.31,
+            543.29,
+            438.33
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "The Earth’s field as baseline: The geomagnetic field is roughly 25–65 microtesla everywhere. A"
+        },
+        {
+          "bbox": [
+            65.73,
+            440.46,
+            558.52,
+            451.47
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "ferrous object perturbs it locally by a tiny amount, so detecting the object means measuring that"
+        },
+        {
+          "bbox": [
+            65.73,
+            453.6,
+            304.5,
+            464.62
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "small change against the large steady baseline."
+        },
+        {
+          "bbox": [
+            51.12,
+            428.13,
+            56.22,
+            437.99
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            65.73,
+            473.32,
+            538.21,
+            484.34
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Measuring the field: A fluxgate or magnetoresistive magnetometer outputs the field along each"
+        },
+        {
+          "bbox": [
+            65.73,
+            486.47,
+            558.52,
+            497.48
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "axis. Cheap 3-axis modules resolve well under a microtesla — enough to see a car-sized anomaly at"
+        },
+        {
+          "bbox": [
+            65.73,
+            500.34,
+            126.69,
+            511.36
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "short range."
+        },
+        {
+          "bbox": [
+            51.12,
+            474.14,
+            56.22,
+            484.0
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            65.73,
+            520.06,
+            548.36,
+            531.07
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Anomaly, not absolute: What matters is the deviation from the local baseline. You establish the"
+        },
+        {
+          "bbox": [
+            65.73,
+            533.21,
+            553.44,
+            544.22
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "ambient field, then watch for the perturbation as a ferrous mass comes near — the anomaly is the"
+        },
+        {
+          "bbox": [
+            65.73,
+            546.35,
+            101.29,
+            557.37
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "signal."
+        },
+        {
+          "bbox": [
+            51.12,
+            520.88,
+            56.22,
+            530.74
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            65.73,
+            566.07,
+            558.52,
+            577.08
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Gradiometry kills drift: The baseline itself wanders with temperature, solar activity, and nearby"
+        },
+        {
+          "bbox": [
+            65.73,
+            579.22,
+            543.27,
+            590.23
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "currents. Two matched sensors a fixed distance apart, subtracted, reject that shared drift and"
+        },
+        {
+          "bbox": [
+            65.73,
+            592.36,
+            370.55,
+            603.38
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "respond only to the steep local gradient of a nearby object."
+        },
+        {
+          "bbox": [
+            51.12,
+            566.89,
+            56.22,
+            576.75
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            65.73,
+            612.08,
+            548.37,
+            623.09
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Range and mass: The anomaly falls off steeply with distance (roughly as the cube), so detection"
+        },
+        {
+          "bbox": [
+            65.73,
+            625.23,
+            512.79,
+            636.24
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "range depends on the object’s mass and your sensitivity. Understanding that falloff sets"
+        },
+        {
+          "bbox": [
+            65.73,
+            638.37,
+            304.5,
+            649.39
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "realistic expectations for any magnetic sensor."
+        },
+        {
+          "bbox": [
+            51.12,
+            612.9,
+            56.22,
+            622.76
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            51.12,
+            25.73,
+            307.72,
+            63.25
+          ],
+          "blockIndex": 32,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "[ P R O J E C T 0 3 ]\nMagnetic Anomaly Detector"
+        },
+        {
+          "bbox": [
+            51.12,
+            69.89,
+            413.94,
+            81.28
+          ],
+          "blockIndex": 33,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Sense a hidden vehicle by the dent it makes in Earth's magnetic field"
+        },
+        {
+          "bbox": [
+            59.16,
+            96.58,
+            220.46,
+            106.54
+          ],
+          "blockIndex": 34,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "$30\nintermediate\n1 weekend"
+        },
+        {
+          "bbox": [
+            51.12,
+            130.08,
+            180.17,
+            144.79
+          ],
+          "blockIndex": 35,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "// why this matters"
+        },
+        {
+          "bbox": [
+            51.12,
+            153.45,
+            543.91,
+            164.46
+          ],
+          "blockIndex": 36,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "A large steel object — a vehicle, a pipe, a ship — distorts the Earth’s magnetic field around it,"
+        },
+        {
+          "bbox": [
+            51.12,
+            167.32,
+            533.75,
+            178.34
+          ],
+          "blockIndex": 37,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "and a sensitive magnetometer can detect that distortion from a distance, with no contact and no"
+        },
+        {
+          "bbox": [
+            51.12,
+            180.47,
+            548.99,
+            191.48
+          ],
+          "blockIndex": 38,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "emission. This is magnetic anomaly detection (MAD), used in defense for submarine hunting and mine"
+        },
+        {
+          "bbox": [
+            51.12,
+            193.61,
+            559.15,
+            204.63
+          ],
+          "blockIndex": 39,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "detection, and in the civilian world for archaeology, geophysics, and utility locating. Building one"
+        },
+        {
+          "bbox": [
+            51.12,
+            206.76,
+            559.15,
+            217.77
+          ],
+          "blockIndex": 40,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "teaches you to pull a tiny anomaly out of a large, noisy background field — a purely passive sensing"
+        },
+        {
+          "bbox": [
+            51.12,
+            219.9,
+            493.11,
+            230.92
+          ],
+          "blockIndex": 41,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "skill with the same signal-in-noise flavour as the RF work, but in the magnetic domain."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 42,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "defense signals — a Build List field guide\n8 / 17"
+        }
+      ],
+      "charCount": 2618,
+      "height": 792.0,
+      "pageNumber": 8,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            51.12,
+            26.37,
+            186.97,
+            41.09
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "// bill of materials"
+        },
+        {
+          "bbox": [
+            51.12,
+            53.49,
+            552.96,
+            63.45
+          ],
+          "blockIndex": 1,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "COMPONENT\nPART / SPEC\nQTY\n~COST"
+        },
+        {
+          "bbox": [
+            51.12,
+            75.75,
+            553.57,
+            86.2
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Magnetometer (×1–2)\n3-axis fluxgate or RM3100 / HMC5883\n2\n$16"
+        },
+        {
+          "bbox": [
+            51.12,
+            97.66,
+            553.57,
+            108.1
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Microcontroller\nESP32 / Arduino (I2C)\n1\n$8"
+        },
+        {
+          "bbox": [
+            51.12,
+            119.57,
+            553.57,
+            130.01
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Boom / mount\nnon-magnetic separation for gradiometer\n1\n$3"
+        },
+        {
+          "bbox": [
+            51.12,
+            141.48,
+            553.57,
+            151.92
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Display / logging\nOLED or laptop plot\n1\n$3"
+        },
+        {
+          "bbox": [
+            51.12,
+            163.39,
+            553.57,
+            173.83
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Passives\nwiring\n—\n$2"
+        },
+        {
+          "bbox": [
+            51.12,
+            206.76,
+            146.22,
+            221.48
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "// build steps"
+        },
+        {
+          "bbox": [
+            51.12,
+            521.52,
+            200.55,
+            536.24
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "// interview questions"
+        },
+        {
+          "bbox": [
+            80.33,
+            233.78,
+            151.46,
+            244.79
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Read the field"
+        },
+        {
+          "bbox": [
+            80.33,
+            249.12,
+            542.64,
+            260.13
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Wire a 3-axis magnetometer over I2C and read the field magnitude. Move a steel tool near it"
+        },
+        {
+          "bbox": [
+            80.33,
+            262.26,
+            324.19,
+            273.27
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "and watch the reading jump — your first anomaly."
+        },
+        {
+          "bbox": [
+            56.96,
+            232.71,
+            63.1,
+            246.01
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            80.33,
+            286.36,
+            181.94,
+            297.38
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Establish a baseline"
+        },
+        {
+          "bbox": [
+            80.33,
+            301.7,
+            552.8,
+            312.71
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Log the ambient field in a clear area and note how much it drifts over minutes. This baseline"
+        },
+        {
+          "bbox": [
+            80.33,
+            314.84,
+            314.03,
+            325.86
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "noise sets the smallest anomaly you can trust."
+        },
+        {
+          "bbox": [
+            56.96,
+            285.3,
+            63.1,
+            298.59
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            80.33,
+            338.94,
+            176.86,
+            349.96
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Build a gradiometer"
+        },
+        {
+          "bbox": [
+            80.33,
+            354.28,
+            537.56,
+            365.29
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Mount two matched sensors on a non-magnetic boom a fixed distance apart and subtract their"
+        },
+        {
+          "bbox": [
+            80.33,
+            367.43,
+            532.48,
+            378.44
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "readings. Confirm the common drift cancels while a nearby object still shows up strongly."
+        },
+        {
+          "bbox": [
+            56.96,
+            337.88,
+            63.1,
+            351.17
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            80.33,
+            391.53,
+            166.7,
+            402.54
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Sweep for objects"
+        },
+        {
+          "bbox": [
+            80.33,
+            406.86,
+            532.48,
+            417.88
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Walk the gradiometer over the ground (or past a parked car) and log the gradient. Watch a"
+        },
+        {
+          "bbox": [
+            80.33,
+            420.01,
+            349.59,
+            431.02
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "clear peak appear over buried or nearby ferrous mass."
+        },
+        {
+          "bbox": [
+            56.96,
+            390.46,
+            63.1,
+            403.75
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            80.33,
+            444.11,
+            151.46,
+            455.12
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Map an anomaly"
+        },
+        {
+          "bbox": [
+            80.33,
+            460.18,
+            547.72,
+            471.19
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Take readings on a grid and plot the field or gradient as a heatmap, revealing the shape and"
+        },
+        {
+          "bbox": [
+            80.33,
+            473.32,
+            369.91,
+            484.33
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "location of the hidden mass. That map is the deliverable."
+        },
+        {
+          "bbox": [
+            56.96,
+            443.04,
+            63.1,
+            456.33
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            66.46,
+            556.58,
+            401.12,
+            567.59
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "How does a ferrous object create a detectable magnetic anomaly?\n→"
+        },
+        {
+          "bbox": [
+            66.46,
+            575.56,
+            482.41,
+            586.58
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "What is the typical strength of the Earth’s field, and why does it matter here?\n→"
+        },
+        {
+          "bbox": [
+            66.46,
+            594.55,
+            472.25,
+            605.57
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Why is a gradiometer better than a single magnetometer for anomaly detection?\n→"
+        },
+        {
+          "bbox": [
+            66.46,
+            613.54,
+            390.96,
+            624.55
+          ],
+          "blockIndex": 32,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "How does detection range scale with object size and distance?\n→"
+        },
+        {
+          "bbox": [
+            66.46,
+            632.53,
+            350.32,
+            643.54
+          ],
+          "blockIndex": 33,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "What sources of magnetic noise limit a real detector?\n→"
+        },
+        {
+          "bbox": [
+            66.46,
+            651.52,
+            446.85,
+            662.53
+          ],
+          "blockIndex": 34,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "What is the difference between a fluxgate and a magnetoresistive sensor?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 35,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "defense signals — a Build List field guide\n9 / 17"
+        }
+      ],
+      "charCount": 1612,
+      "height": 792.0,
+      "pageNumber": 9,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            66.46,
+            280.99,
+            232.97,
+            290.48
+          ],
+          "blockIndex": 0,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "WHAT THIS PROVES TO A RECRUITER"
+        },
+        {
+          "bbox": [
+            66.46,
+            292.94,
+            528.76,
+            303.95
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "You understand seismic and vibration sensing, very-low-frequency signal conditioning, event"
+        },
+        {
+          "bbox": [
+            66.46,
+            306.08,
+            528.76,
+            317.09
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "detection and simple classification (footstep versus vehicle by frequency and cadence), and"
+        },
+        {
+          "bbox": [
+            66.46,
+            319.23,
+            493.2,
+            330.24
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "sensor siting. Passive ground sensing is used in perimeter security, seismology, and"
+        },
+        {
+          "bbox": [
+            66.46,
+            332.37,
+            178.23,
+            343.39
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "structural monitoring."
+        },
+        {
+          "bbox": [
+            51.12,
+            365.24,
+            528.71,
+            376.25
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "→ the job this maps to: unattended-sensor and perimeter-security engineering — defense sensor,"
+        },
+        {
+          "bbox": [
+            51.12,
+            378.38,
+            294.98,
+            389.4
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "seismic-monitoring, and structural-health teams."
+        },
+        {
+          "bbox": [
+            66.46,
+            411.71,
+            173.23,
+            421.21
+          ],
+          "blockIndex": 7,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "!\nYOUR OWN PERIMETER"
+        },
+        {
+          "bbox": [
+            66.46,
+            423.66,
+            518.6,
+            434.67
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "This is passive monitoring of ground you own or are responsible for — a driveway, a fence"
+        },
+        {
+          "bbox": [
+            66.46,
+            436.81,
+            544.01,
+            447.82
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "line, a site perimeter. Keep it on your own property and respect the privacy of anyone nearby;"
+        },
+        {
+          "bbox": [
+            66.46,
+            449.95,
+            223.95,
+            460.97
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "it senses motion, not identity."
+        },
+        {
+          "bbox": [
+            51.12,
+            498.88,
+            153.01,
+            513.6
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "// how it works"
+        },
+        {
+          "bbox": [
+            65.73,
+            522.25,
+            548.36,
+            533.27
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "The geophone: A geophone is a coil-and-magnet transducer that outputs a voltage proportional to"
+        },
+        {
+          "bbox": [
+            65.73,
+            535.4,
+            553.44,
+            546.41
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "ground velocity. Footsteps and vehicles couple energy into the ground as low-frequency waves the"
+        },
+        {
+          "bbox": [
+            65.73,
+            548.54,
+            157.18,
+            559.56
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "geophone picks up."
+        },
+        {
+          "bbox": [
+            51.12,
+            523.07,
+            56.22,
+            532.93
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            65.73,
+            568.26,
+            553.44,
+            579.28
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "The frequency band: Seismic events of interest live at low frequencies — footsteps a few to tens"
+        },
+        {
+          "bbox": [
+            65.73,
+            581.41,
+            558.52,
+            592.42
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "of Hz, vehicles lower and more continuous. Amplify and band-pass this range while rejecting wind,"
+        },
+        {
+          "bbox": [
+            65.73,
+            594.55,
+            258.78,
+            605.57
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "mains hum, and higher-frequency noise."
+        },
+        {
+          "bbox": [
+            51.12,
+            569.08,
+            56.22,
+            578.94
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            65.73,
+            615.0,
+            538.2,
+            626.02
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Detecting an event: A footstep is a short impulsive burst; the detector watches signal energy"
+        },
+        {
+          "bbox": [
+            65.73,
+            628.15,
+            533.11,
+            639.16
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "rise above the background floor and flags an event, much like triggering on a noise-adaptive"
+        },
+        {
+          "bbox": [
+            65.73,
+            641.29,
+            116.53,
+            652.31
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "threshold."
+        },
+        {
+          "bbox": [
+            51.12,
+            615.82,
+            56.22,
+            625.68
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            65.73,
+            661.01,
+            528.04,
+            672.03
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Classifying the source: A person produces distinct, spaced impulses at a walking cadence; a"
+        },
+        {
+          "bbox": [
+            65.73,
+            674.16,
+            558.52,
+            685.17
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "vehicle produces continuous, lower-frequency energy. Looking at frequency content and rhythm lets"
+        },
+        {
+          "bbox": [
+            65.73,
+            687.3,
+            395.95,
+            698.32
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "you tell them apart — simple classification from a single sensor."
+        },
+        {
+          "bbox": [
+            51.12,
+            661.83,
+            56.22,
+            671.69
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            65.73,
+            707.02,
+            517.88,
+            718.03
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Siting and range: Coupling to firm ground, sensor depth, and soil type dominate range and"
+        },
+        {
+          "bbox": [
+            65.73,
+            720.17,
+            512.79,
+            731.18
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "sensitivity. Where and how you plant the sensor matters as much as the electronics — the"
+        },
+        {
+          "bbox": [
+            65.73,
+            733.31,
+            258.78,
+            744.33
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "practical heart of unattended sensing."
+        },
+        {
+          "bbox": [
+            51.12,
+            707.84,
+            56.22,
+            717.7
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            51.12,
+            25.74,
+            379.5,
+            63.25
+          ],
+          "blockIndex": 32,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "[ P R O J E C T 0 4 ]\nSeismic Unattended Ground Sensor"
+        },
+        {
+          "bbox": [
+            51.12,
+            69.89,
+            419.2,
+            81.28
+          ],
+          "blockIndex": 33,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Feel footsteps and vehicles through the ground before you can see them"
+        },
+        {
+          "bbox": [
+            59.16,
+            96.58,
+            220.46,
+            106.54
+          ],
+          "blockIndex": 34,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "$35\nintermediate\n1 weekend"
+        },
+        {
+          "bbox": [
+            51.12,
+            130.08,
+            180.17,
+            144.79
+          ],
+          "blockIndex": 35,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "// why this matters"
+        },
+        {
+          "bbox": [
+            51.12,
+            153.45,
+            508.35,
+            164.46
+          ],
+          "blockIndex": 36,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Long before you can see or hear an approaching person or vehicle, the ground carries their"
+        },
+        {
+          "bbox": [
+            51.12,
+            167.32,
+            543.91,
+            178.34
+          ],
+          "blockIndex": 37,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "vibration. A geophone — the same sensor used in oil exploration and earthquake monitoring — turns"
+        },
+        {
+          "bbox": [
+            51.12,
+            180.47,
+            543.91,
+            191.48
+          ],
+          "blockIndex": 38,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "that ground motion into a voltage, and with the right processing you can detect footsteps, tell a"
+        },
+        {
+          "bbox": [
+            51.12,
+            193.61,
+            523.59,
+            204.63
+          ],
+          "blockIndex": 39,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "person from a vehicle, and estimate direction. This is the principle behind unattended ground"
+        },
+        {
+          "bbox": [
+            51.12,
+            206.76,
+            523.59,
+            217.77
+          ],
+          "blockIndex": 40,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "sensors used for perimeter monitoring. It is a passive, emission-free build that teaches low-"
+        },
+        {
+          "bbox": [
+            51.12,
+            219.9,
+            554.07,
+            230.92
+          ],
+          "blockIndex": 41,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "frequency signal detection, simple classification, and the reality of picking a faint signal out of"
+        },
+        {
+          "bbox": [
+            51.12,
+            233.05,
+            152.73,
+            244.06
+          ],
+          "blockIndex": 42,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "environmental noise."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 43,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "defense signals — a Build List field guide\n10 / 17"
+        }
+      ],
+      "charCount": 2626,
+      "height": 792.0,
+      "pageNumber": 10,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            51.12,
+            26.37,
+            186.97,
+            41.09
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "// bill of materials"
+        },
+        {
+          "bbox": [
+            51.12,
+            53.49,
+            552.96,
+            63.45
+          ],
+          "blockIndex": 1,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "COMPONENT\nPART / SPEC\nQTY\n~COST"
+        },
+        {
+          "bbox": [
+            51.12,
+            75.75,
+            553.57,
+            86.2
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Geophone\n4.5 Hz geophone element\n1\n$15"
+        },
+        {
+          "bbox": [
+            51.12,
+            97.66,
+            553.57,
+            108.1
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Instrumentation amp\nlow-noise gain stage\n1\n$4"
+        },
+        {
+          "bbox": [
+            51.12,
+            119.57,
+            553.57,
+            130.01
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "ADC / MCU\nESP32 or audio interface\n1\n$8"
+        },
+        {
+          "bbox": [
+            51.12,
+            141.48,
+            553.57,
+            151.92
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Passives + filter\nband-pass, wiring\n—\n$4"
+        },
+        {
+          "bbox": [
+            51.12,
+            163.39,
+            553.57,
+            173.83
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Enclosure / spike\nground coupling\n1\n$4"
+        },
+        {
+          "bbox": [
+            51.12,
+            206.76,
+            146.22,
+            221.48
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "// build steps"
+        },
+        {
+          "bbox": [
+            51.12,
+            521.52,
+            200.55,
+            536.24
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "// interview questions"
+        },
+        {
+          "bbox": [
+            80.33,
+            233.78,
+            166.7,
+            244.79
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Read the geophone"
+        },
+        {
+          "bbox": [
+            80.33,
+            249.12,
+            532.48,
+            260.13
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Amplify the geophone output and digitize it. Tap the ground nearby and watch the waveform"
+        },
+        {
+          "bbox": [
+            80.33,
+            262.26,
+            293.71,
+            273.27
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "respond — your first ground-motion signal."
+        },
+        {
+          "bbox": [
+            56.96,
+            232.71,
+            63.1,
+            246.01
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            80.33,
+            286.36,
+            171.78,
+            297.38
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Condition the band"
+        },
+        {
+          "bbox": [
+            80.33,
+            301.7,
+            532.48,
+            312.71
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Band-pass to roughly 2–50 Hz to keep footstep and vehicle energy while rejecting wind and"
+        },
+        {
+          "bbox": [
+            80.33,
+            314.84,
+            359.75,
+            325.86
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "mains. Confirm a quiet baseline when nothing is moving."
+        },
+        {
+          "bbox": [
+            56.96,
+            285.3,
+            63.1,
+            298.59
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            80.33,
+            338.94,
+            161.62,
+            349.96
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Detect footsteps"
+        },
+        {
+          "bbox": [
+            80.33,
+            354.28,
+            552.8,
+            365.29
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Compute short-window energy and flag events above a noise-adaptive threshold. Walk toward the"
+        },
+        {
+          "bbox": [
+            80.33,
+            367.43,
+            324.19,
+            378.44
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "sensor and count how far away it first triggers."
+        },
+        {
+          "bbox": [
+            56.96,
+            337.88,
+            63.1,
+            351.17
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            80.33,
+            391.53,
+            212.42,
+            402.54
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Classify person vs vehicle"
+        },
+        {
+          "bbox": [
+            80.33,
+            406.86,
+            542.64,
+            417.88
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Compare the frequency content and rhythm of footsteps versus a rolling vehicle, and build a"
+        },
+        {
+          "bbox": [
+            80.33,
+            420.01,
+            283.55,
+            431.02
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "simple rule that labels each event type."
+        },
+        {
+          "bbox": [
+            56.96,
+            390.46,
+            63.1,
+            403.75
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            80.33,
+            444.11,
+            187.02,
+            455.12
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Test siting and range"
+        },
+        {
+          "bbox": [
+            80.33,
+            460.18,
+            532.48,
+            471.19
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Move the sensor between soft and firm ground and re-measure detection range. Document how"
+        },
+        {
+          "bbox": [
+            80.33,
+            473.32,
+            405.47,
+            484.33
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "coupling changes everything — the real lesson of ground sensing."
+        },
+        {
+          "bbox": [
+            56.96,
+            443.04,
+            63.1,
+            456.33
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            66.46,
+            556.58,
+            365.56,
+            567.59
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "How does a geophone convert ground motion into a signal?\n→"
+        },
+        {
+          "bbox": [
+            66.46,
+            575.57,
+            411.28,
+            586.58
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "What frequency band matters for detecting footsteps and vehicles?\n→"
+        },
+        {
+          "bbox": [
+            66.46,
+            594.55,
+            441.77,
+            605.57
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "How would you detect a discrete seismic event against background noise?\n→"
+        },
+        {
+          "bbox": [
+            66.46,
+            613.54,
+            406.2,
+            624.55
+          ],
+          "blockIndex": 32,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "How can you distinguish a person from a vehicle with one sensor?\n→"
+        },
+        {
+          "bbox": [
+            66.46,
+            632.53,
+            324.92,
+            643.54
+          ],
+          "blockIndex": 33,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Why does sensor siting dominate detection range?\n→"
+        },
+        {
+          "bbox": [
+            66.46,
+            651.52,
+            406.2,
+            662.53
+          ],
+          "blockIndex": 34,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "What environmental sources limit a seismic sensor’s sensitivity?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 35,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "defense signals — a Build List field guide\n11 / 17"
+        }
+      ],
+      "charCount": 1520,
+      "height": 792.0,
+      "pageNumber": 11,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            66.46,
+            280.99,
+            232.97,
+            290.48
+          ],
+          "blockIndex": 0,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "WHAT THIS PROVES TO A RECRUITER"
+        },
+        {
+          "bbox": [
+            66.46,
+            292.93,
+            528.76,
+            303.95
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "You understand wideband spectrum scanning, recognising signal signatures (frequency-hopping"
+        },
+        {
+          "bbox": [
+            66.46,
+            306.08,
+            538.92,
+            317.09
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "control links, video downlinks), the ISM bands drones use, and energy and feature detection —"
+        },
+        {
+          "bbox": [
+            66.46,
+            319.23,
+            508.44,
+            330.24
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "the passive-sensing core of counter-UAS. It maps directly onto RF-sensing and spectrum-"
+        },
+        {
+          "bbox": [
+            66.46,
+            332.37,
+            147.75,
+            343.38
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "awareness roles."
+        },
+        {
+          "bbox": [
+            51.12,
+            365.24,
+            503.31,
+            376.25
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "→ the job this maps to: counter-UAS and RF-sensing engineering — drone-defense, critical-"
+        },
+        {
+          "bbox": [
+            51.12,
+            378.38,
+            340.7,
+            389.39
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "infrastructure-protection, and spectrum-monitoring teams."
+        },
+        {
+          "bbox": [
+            66.46,
+            411.71,
+            254.3,
+            421.21
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "!\nDETECT ONLY — NEVER JAM OR HIJACK"
+        },
+        {
+          "bbox": [
+            66.46,
+            423.66,
+            533.84,
+            434.67
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "This build never transmits. Jamming, hijacking, or spoofing a drone or its GPS is illegal in"
+        },
+        {
+          "bbox": [
+            66.46,
+            436.81,
+            533.84,
+            447.82
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "most countries and can be dangerous, so this stays entirely passive — you sense that a drone"
+        },
+        {
+          "bbox": [
+            66.46,
+            449.95,
+            366.2,
+            460.96
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "is present, nothing more. Respect privacy and spectrum law."
+        },
+        {
+          "bbox": [
+            51.12,
+            498.88,
+            153.01,
+            513.6
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "// how it works"
+        },
+        {
+          "bbox": [
+            65.73,
+            522.25,
+            558.52,
+            533.27
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Drones are noisy on purpose: A drone needs a control link and usually a live video feed, so it is"
+        },
+        {
+          "bbox": [
+            65.73,
+            535.4,
+            528.03,
+            546.41
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "almost always transmitting on 2.4 GHz, 5.8 GHz, or both. Those emissions are exactly what a"
+        },
+        {
+          "bbox": [
+            65.73,
+            548.54,
+            202.9,
+            559.56
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "passive receiver looks for."
+        },
+        {
+          "bbox": [
+            51.12,
+            523.07,
+            56.22,
+            532.93
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            65.73,
+            568.26,
+            538.2,
+            579.27
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Scanning the bands: An SDR sweeps the ISM bands and builds a spectrogram, or waterfall. Drone"
+        },
+        {
+          "bbox": [
+            65.73,
+            581.41,
+            553.44,
+            592.42
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "control links often frequency-hop across the band in a recognisable pattern, and video downlinks"
+        },
+        {
+          "bbox": [
+            65.73,
+            594.55,
+            228.3,
+            605.57
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "appear as wide, steady carriers."
+        },
+        {
+          "bbox": [
+            51.12,
+            569.08,
+            56.22,
+            578.94
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            65.73,
+            615.0,
+            558.52,
+            626.01
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Signatures, not just energy: Distinguishing a drone from WiFi and Bluetooth means recognising the"
+        },
+        {
+          "bbox": [
+            65.73,
+            628.15,
+            548.36,
+            639.16
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "shape and timing of its signals — the hopping cadence of the control link, the bandwidth of the"
+        },
+        {
+          "bbox": [
+            65.73,
+            641.29,
+            324.82,
+            652.31
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "video — rather than just seeing energy in the band."
+        },
+        {
+          "bbox": [
+            51.12,
+            615.82,
+            56.22,
+            625.68
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            65.73,
+            661.01,
+            558.52,
+            672.02
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Detection and alerting: When a matching signature appears, you flag it. Advanced systems classify"
+        },
+        {
+          "bbox": [
+            65.73,
+            674.16,
+            558.52,
+            685.17
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "the drone type from its protocol fingerprint; a first build can simply and reliably say “a drone-"
+        },
+        {
+          "bbox": [
+            65.73,
+            687.3,
+            187.66,
+            698.32
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "like signal is present.”"
+        },
+        {
+          "bbox": [
+            51.12,
+            661.83,
+            56.22,
+            671.69
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            65.73,
+            707.02,
+            553.44,
+            718.03
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Range and antennas: A directional antenna extends range and, swept, hints at direction. Combined"
+        },
+        {
+          "bbox": [
+            65.73,
+            720.17,
+            538.19,
+            731.18
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "with the direction finder from project 2, passive detection can become passive location — all"
+        },
+        {
+          "bbox": [
+            65.73,
+            733.31,
+            192.74,
+            744.32
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "without emitting a thing."
+        },
+        {
+          "bbox": [
+            51.12,
+            707.84,
+            56.22,
+            717.7
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            51.12,
+            25.73,
+            297.47,
+            63.24
+          ],
+          "blockIndex": 32,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "[ P R O J E C T 0 5 ]\nDrone Detection Receiver"
+        },
+        {
+          "bbox": [
+            51.12,
+            69.89,
+            440.23,
+            81.28
+          ],
+          "blockIndex": 33,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Spot a drone by the radio it can't stop transmitting — passive counter-UAS"
+        },
+        {
+          "bbox": [
+            59.16,
+            96.57,
+            215.56,
+            106.54
+          ],
+          "blockIndex": 34,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "$40\nadvanced\n1–2 weekends"
+        },
+        {
+          "bbox": [
+            51.12,
+            130.08,
+            180.17,
+            144.79
+          ],
+          "blockIndex": 35,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "// why this matters"
+        },
+        {
+          "bbox": [
+            51.12,
+            153.45,
+            559.15,
+            164.46
+          ],
+          "blockIndex": 36,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Small drones have gone from novelty to a serious security concern, and detecting them is now a major"
+        },
+        {
+          "bbox": [
+            51.12,
+            167.32,
+            528.67,
+            178.33
+          ],
+          "blockIndex": 37,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "defense and infrastructure problem. Most drones constantly transmit — a control link on 2.4 or"
+        },
+        {
+          "bbox": [
+            51.12,
+            180.47,
+            513.43,
+            191.48
+          ],
+          "blockIndex": 38,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "5.8 GHz and usually a video downlink — and those emissions are a fingerprint you can detect"
+        },
+        {
+          "bbox": [
+            51.12,
+            193.61,
+            523.59,
+            204.63
+          ],
+          "blockIndex": 39,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "passively with an SDR. Building a drone-detection receiver teaches you to scan the ISM bands,"
+        },
+        {
+          "bbox": [
+            51.12,
+            206.76,
+            548.99,
+            217.77
+          ],
+          "blockIndex": 40,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "recognise the signatures of drone control and video protocols, and flag a drone’s presence without"
+        },
+        {
+          "bbox": [
+            51.12,
+            219.9,
+            559.15,
+            230.92
+          ],
+          "blockIndex": 41,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "transmitting anything yourself. It is a receive-only, topical build that sits right at the centre of"
+        },
+        {
+          "bbox": [
+            51.12,
+            233.05,
+            228.93,
+            244.06
+          ],
+          "blockIndex": 42,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "the fast-growing counter-UAS field."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 43,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "defense signals — a Build List field guide\n12 / 17"
+        }
+      ],
+      "charCount": 2698,
+      "height": 792.0,
+      "pageNumber": 12,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            51.12,
+            26.37,
+            186.97,
+            41.09
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "// bill of materials"
+        },
+        {
+          "bbox": [
+            51.12,
+            53.49,
+            552.96,
+            63.46
+          ],
+          "blockIndex": 1,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "COMPONENT\nPART / SPEC\nQTY\n~COST"
+        },
+        {
+          "bbox": [
+            51.12,
+            75.75,
+            553.57,
+            86.2
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Wideband SDR\nRTL-SDR (2.4 GHz) or HackRF for 5.8 GHz\n1\n$25"
+        },
+        {
+          "bbox": [
+            51.12,
+            97.66,
+            553.57,
+            108.1
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Antennas\n2.4 / 5.8 GHz, directional optional\n1\n$10"
+        },
+        {
+          "bbox": [
+            51.12,
+            119.57,
+            553.57,
+            130.01
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Coax + connectors\nfeedlines\n—\n$5"
+        },
+        {
+          "bbox": [
+            51.12,
+            141.48,
+            553.57,
+            151.92
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Laptop\nGNU Radio / spectrum software\n1\n—"
+        },
+        {
+          "bbox": [
+            51.12,
+            184.85,
+            146.22,
+            199.57
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "// build steps"
+        },
+        {
+          "bbox": [
+            51.12,
+            499.61,
+            200.55,
+            514.33
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "// interview questions"
+        },
+        {
+          "bbox": [
+            80.33,
+            211.14,
+            151.46,
+            222.15
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Watch the band"
+        },
+        {
+          "bbox": [
+            80.33,
+            226.48,
+            552.8,
+            237.49
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Point an SDR at 2.4 GHz and open a waterfall display. Identify the ambient WiFi and Bluetooth"
+        },
+        {
+          "bbox": [
+            80.33,
+            240.35,
+            253.07,
+            251.37
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "so you know the normal background."
+        },
+        {
+          "bbox": [
+            56.96,
+            210.07,
+            63.1,
+            223.37
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            80.33,
+            264.45,
+            176.86,
+            275.47
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Fingerprint a drone"
+        },
+        {
+          "bbox": [
+            80.33,
+            279.79,
+            552.8,
+            290.8
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "With a drone you own powered on nearby (legally), find its control link and video downlink in"
+        },
+        {
+          "bbox": [
+            80.33,
+            292.93,
+            435.95,
+            303.95
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "the waterfall. Note the hopping pattern and the video carrier’s width."
+        },
+        {
+          "bbox": [
+            56.96,
+            263.39,
+            63.1,
+            276.68
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            80.33,
+            317.04,
+            171.78,
+            328.05
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Automate detection"
+        },
+        {
+          "bbox": [
+            80.33,
+            332.37,
+            547.72,
+            343.39
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Write logic that watches for that signature — the hopping cadence or the video carrier — and"
+        },
+        {
+          "bbox": [
+            80.33,
+            345.52,
+            354.67,
+            356.53
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "raises a flag when it appears, ignoring ordinary WiFi."
+        },
+        {
+          "bbox": [
+            56.96,
+            315.97,
+            63.1,
+            329.26
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            80.33,
+            369.62,
+            166.7,
+            380.63
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Extend to 5.8 GHz"
+        },
+        {
+          "bbox": [
+            80.33,
+            384.95,
+            537.56,
+            395.97
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Add a 5.8 GHz-capable front end (or a HackRF) to catch drones that use the upper band, and"
+        },
+        {
+          "bbox": [
+            80.33,
+            398.1,
+            293.71,
+            409.11
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "confirm you detect both control and video."
+        },
+        {
+          "bbox": [
+            56.96,
+            368.55,
+            63.1,
+            381.84
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            80.33,
+            422.2,
+            207.34,
+            433.21
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Add a directional antenna"
+        },
+        {
+          "bbox": [
+            80.33,
+            437.54,
+            552.8,
+            448.55
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Swap to a directional antenna to extend range and get a rough bearing, and note how detection"
+        },
+        {
+          "bbox": [
+            80.33,
+            450.68,
+            344.51,
+            461.69
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "distance improves. Detection stays entirely passive."
+        },
+        {
+          "bbox": [
+            56.96,
+            421.13,
+            63.1,
+            434.43
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            66.46,
+            534.67,
+            350.32,
+            545.68
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Why are most drones detectable by their RF emissions?\n→"
+        },
+        {
+          "bbox": [
+            66.46,
+            553.66,
+            375.72,
+            564.67
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "What bands do drone control and video links typically use?\n→"
+        },
+        {
+          "bbox": [
+            66.46,
+            572.64,
+            390.96,
+            583.66
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "How do you distinguish a drone signal from WiFi or Bluetooth?\n→"
+        },
+        {
+          "bbox": [
+            66.46,
+            591.63,
+            441.77,
+            602.65
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "What is a waterfall / spectrogram, and why is it central to this build?\n→"
+        },
+        {
+          "bbox": [
+            66.46,
+            610.62,
+            477.33,
+            621.63
+          ],
+          "blockIndex": 32,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Why is passive detection preferable (and legal) versus active countermeasures?\n→"
+        },
+        {
+          "bbox": [
+            66.46,
+            629.61,
+            375.72,
+            640.62
+          ],
+          "blockIndex": 33,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "How could passive detection be extended to locate a drone?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 34,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "defense signals — a Build List field guide\n13 / 17"
+        }
+      ],
+      "charCount": 1519,
+      "height": 792.0,
+      "pageNumber": 13,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            66.46,
+            294.86,
+            462.72,
+            317.09
+          ],
+          "blockIndex": 0,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand frequency-hopping spread spectrum, transmitter and receiver hop"
+        },
+        {
+          "bbox": [
+            66.46,
+            319.23,
+            528.76,
+            330.24
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "synchronisation, why spreading resists jamming and interception, and applying authenticated"
+        },
+        {
+          "bbox": [
+            66.46,
+            332.37,
+            508.44,
+            343.39
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "encryption (AES) to a real link. Resilient, secure communications is a core defense and"
+        },
+        {
+          "bbox": [
+            66.46,
+            346.25,
+            188.39,
+            357.26
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "aerospace EE discipline."
+        },
+        {
+          "bbox": [
+            51.12,
+            379.11,
+            559.19,
+            390.12
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "→ the job this maps to: secure and resilient communications engineering — tactical-radio, aerospace-"
+        },
+        {
+          "bbox": [
+            51.12,
+            392.26,
+            208.61,
+            403.27
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "datalink, and secure-IoT teams."
+        },
+        {
+          "bbox": [
+            66.46,
+            425.59,
+            528.76,
+            447.82
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "!\nSECURE YOUR OWN LINK, AND STAY LEGAL\nBuild this to protect communications you are allowed to operate, and stay within your local"
+        },
+        {
+          "bbox": [
+            66.46,
+            449.95,
+            538.92,
+            460.96
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "radio regulations — the legal band, power limits, and any licensing. Resilient comms is about"
+        },
+        {
+          "bbox": [
+            66.46,
+            463.83,
+            533.84,
+            474.84
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "protecting your own link, not evading lawful authority. And never roll your own cryptography"
+        },
+        {
+          "bbox": [
+            66.46,
+            476.97,
+            366.2,
+            487.99
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "for anything that matters; use a vetted AES implementation."
+        },
+        {
+          "bbox": [
+            51.12,
+            25.73,
+            379.5,
+            63.24
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "[ P R O J E C T 0 6 ]\nFrequency-Hopping Encrypted Link"
+        },
+        {
+          "bbox": [
+            51.12,
+            69.89,
+            419.2,
+            81.28
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "A radio link that scatters across the band and encrypts every packet —"
+        },
+        {
+          "bbox": [
+            51.12,
+            83.77,
+            182.58,
+            95.16
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "resilient comms by design"
+        },
+        {
+          "bbox": [
+            59.16,
+            110.45,
+            215.56,
+            120.42
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "$30\nadvanced\n1–2 weekends"
+        },
+        {
+          "bbox": [
+            51.12,
+            143.95,
+            180.17,
+            158.67
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "// why this matters"
+        },
+        {
+          "bbox": [
+            51.12,
+            167.32,
+            543.91,
+            178.33
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "In contested environments, communications have to survive both interception and interference, and"
+        },
+        {
+          "bbox": [
+            51.12,
+            180.47,
+            533.75,
+            191.48
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "the classic answers are spread spectrum and encryption. Build a data link that hops across many"
+        },
+        {
+          "bbox": [
+            51.12,
+            193.61,
+            543.91,
+            204.63
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "frequencies in a pattern only the two endpoints know, and encrypts every packet with AES, and you"
+        },
+        {
+          "bbox": [
+            51.12,
+            206.76,
+            559.15,
+            217.77
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "have a channel that is hard to jam, hard to intercept, and hard to even detect — the same principles"
+        },
+        {
+          "bbox": [
+            51.12,
+            220.63,
+            528.67,
+            231.65
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "behind military tactical radios (and, historically, a patent from Hedy Lamarr). It is a superb"
+        },
+        {
+          "bbox": [
+            51.12,
+            233.78,
+            554.07,
+            244.79
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "lesson in resilient communications: synchronisation, spread spectrum, and applied cryptography, all"
+        },
+        {
+          "bbox": [
+            51.12,
+            246.93,
+            167.97,
+            257.94
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "on cheap radio modules."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "defense signals — a Build List field guide\n14 / 17"
+        }
+      ],
+      "charCount": 1665,
+      "height": 792.0,
+      "pageNumber": 14,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            51.12,
+            26.37,
+            153.01,
+            41.09
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "// how it works"
+        },
+        {
+          "bbox": [
+            51.12,
+            306.08,
+            186.97,
+            320.8
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "// bill of materials"
+        },
+        {
+          "bbox": [
+            51.12,
+            333.93,
+            552.96,
+            343.89
+          ],
+          "blockIndex": 2,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "COMPONENT\nPART / SPEC\nQTY\n~COST"
+        },
+        {
+          "bbox": [
+            51.12,
+            355.46,
+            553.57,
+            365.9
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Radio modules (×2)\nLoRa (SX127x) or nRF24 (2.4 GHz)\n2\n$12"
+        },
+        {
+          "bbox": [
+            51.12,
+            377.37,
+            553.57,
+            387.81
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Microcontrollers (×2)\nESP32 / Arduino\n2\n$12"
+        },
+        {
+          "bbox": [
+            51.12,
+            399.28,
+            553.57,
+            409.72
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Antennas\nfor your module’s band\n2\n$4"
+        },
+        {
+          "bbox": [
+            51.12,
+            421.19,
+            553.57,
+            431.63
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Passives + power\nwiring, batteries\n—\n$2"
+        },
+        {
+          "bbox": [
+            51.12,
+            465.29,
+            146.22,
+            480.01
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "// build steps"
+        },
+        {
+          "bbox": [
+            65.73,
+            49.74,
+            543.28,
+            60.76
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Spread spectrum, why: Concentrating a signal on one frequency makes it easy to jam and easy to"
+        },
+        {
+          "bbox": [
+            65.73,
+            62.89,
+            558.52,
+            73.9
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "intercept. Spreading it — hopping across many channels — means a jammer must cover the whole band"
+        },
+        {
+          "bbox": [
+            65.73,
+            76.03,
+            477.23,
+            87.05
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "and an eavesdropper must know where to listen, dramatically improving resilience."
+        },
+        {
+          "bbox": [
+            51.12,
+            50.56,
+            56.22,
+            60.42
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            65.73,
+            95.75,
+            512.8,
+            106.77
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Frequency hopping: Both ends step through a sequence of frequencies many times a second,"
+        },
+        {
+          "bbox": [
+            65.73,
+            108.9,
+            517.87,
+            119.91
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "following the same pseudo-random pattern seeded by a shared secret. To anyone without the"
+        },
+        {
+          "bbox": [
+            65.73,
+            122.77,
+            340.06,
+            133.79
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "pattern, the signal appears as brief, scattered blips."
+        },
+        {
+          "bbox": [
+            51.12,
+            96.57,
+            56.22,
+            106.43
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            65.73,
+            142.49,
+            548.37,
+            153.51
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Synchronisation is everything: The receiver must hop in lockstep with the transmitter. A shared"
+        },
+        {
+          "bbox": [
+            65.73,
+            155.64,
+            553.44,
+            166.65
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "clock or a sync handshake keeps them aligned; lose sync and the link drops — which is why timing"
+        },
+        {
+          "bbox": [
+            65.73,
+            168.78,
+            233.38,
+            179.8
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "is the hardest part of the build."
+        },
+        {
+          "bbox": [
+            51.12,
+            143.31,
+            56.22,
+            153.17
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            65.73,
+            188.5,
+            517.88,
+            199.51
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Encrypting the payload: Hopping hides where you transmit; encryption hides what you send."
+        },
+        {
+          "bbox": [
+            65.73,
+            201.65,
+            558.52,
+            212.66
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Wrapping each packet in authenticated AES means even a receiver that follows the hops cannot read"
+        },
+        {
+          "bbox": [
+            65.73,
+            214.79,
+            258.78,
+            225.81
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "or forge the contents without the key."
+        },
+        {
+          "bbox": [
+            51.12,
+            189.32,
+            56.22,
+            199.18
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            65.73,
+            234.51,
+            548.36,
+            245.52
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "What the pros add: Real tactical radios add much faster hopping, wider bands, error correction,"
+        },
+        {
+          "bbox": [
+            65.73,
+            247.66,
+            548.36,
+            258.67
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "and rigorous key management. Your build captures the core ideas honestly; the rest is scale and"
+        },
+        {
+          "bbox": [
+            65.73,
+            260.8,
+            101.29,
+            271.82
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "rigour."
+        },
+        {
+          "bbox": [
+            51.12,
+            235.33,
+            56.22,
+            245.19
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            80.33,
+            491.58,
+            171.78,
+            502.59
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Build a plain link"
+        },
+        {
+          "bbox": [
+            80.33,
+            506.92,
+            557.88,
+            517.93
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Get two modules talking on a single fixed frequency first — send and receive packets reliably."
+        },
+        {
+          "bbox": [
+            80.33,
+            520.06,
+            319.11,
+            531.08
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Prove the basic radio before adding complexity."
+        },
+        {
+          "bbox": [
+            56.96,
+            490.51,
+            63.1,
+            503.81
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            80.33,
+            544.16,
+            176.86,
+            555.18
+          ],
+          "blockIndex": 32,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Add channel hopping"
+        },
+        {
+          "bbox": [
+            80.33,
+            559.5,
+            552.8,
+            570.51
+          ],
+          "blockIndex": 33,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Have both ends step through a list of channels on a shared schedule. Start slow, confirm they"
+        },
+        {
+          "bbox": [
+            80.33,
+            572.64,
+            364.83,
+            583.66
+          ],
+          "blockIndex": 34,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "stay in sync, and watch packets get through as they hop."
+        },
+        {
+          "bbox": [
+            56.96,
+            543.1,
+            63.1,
+            556.39
+          ],
+          "blockIndex": 35,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            80.33,
+            596.75,
+            181.94,
+            607.76
+          ],
+          "blockIndex": 36,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Synchronise robustly"
+        },
+        {
+          "bbox": [
+            80.33,
+            612.08,
+            552.8,
+            623.09
+          ],
+          "blockIndex": 37,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Add a sync handshake so a receiver can find and lock onto the transmitter’s hop sequence, and"
+        },
+        {
+          "bbox": [
+            80.33,
+            625.23,
+            349.59,
+            636.24
+          ],
+          "blockIndex": 38,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "recover if it drifts. This is the make-or-break step."
+        },
+        {
+          "bbox": [
+            56.96,
+            595.68,
+            63.1,
+            608.97
+          ],
+          "blockIndex": 39,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            80.33,
+            649.33,
+            232.74,
+            660.34
+          ],
+          "blockIndex": 40,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Seed the pattern with a secret"
+        },
+        {
+          "bbox": [
+            80.33,
+            664.66,
+            537.56,
+            675.68
+          ],
+          "blockIndex": 41,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Generate the hop sequence from a shared key so only the paired endpoints know the pattern."
+        },
+        {
+          "bbox": [
+            80.33,
+            678.54,
+            359.75,
+            689.55
+          ],
+          "blockIndex": 42,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Confirm an unpaired receiver sees only scattered blips."
+        },
+        {
+          "bbox": [
+            56.96,
+            648.26,
+            63.1,
+            661.55
+          ],
+          "blockIndex": 43,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            80.33,
+            702.64,
+            181.94,
+            713.65
+          ],
+          "blockIndex": 44,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Encrypt every packet"
+        },
+        {
+          "bbox": [
+            80.33,
+            717.98,
+            557.88,
+            728.99
+          ],
+          "blockIndex": 45,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Wrap each payload in authenticated AES with the shared key. Verify the link still works end to"
+        },
+        {
+          "bbox": [
+            80.33,
+            731.12,
+            390.23,
+            742.14
+          ],
+          "blockIndex": 46,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "end and that captured packets are unreadable without the key."
+        },
+        {
+          "bbox": [
+            56.96,
+            701.57,
+            63.1,
+            714.87
+          ],
+          "blockIndex": 47,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 48,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "defense signals — a Build List field guide\n15 / 17"
+        }
+      ],
+      "charCount": 2306,
+      "height": 792.0,
+      "pageNumber": 15,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            51.12,
+            26.37,
+            200.55,
+            41.09
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "// interview questions"
+        },
+        {
+          "bbox": [
+            66.46,
+            61.43,
+            396.04,
+            72.44
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Why does spread spectrum resist both jamming and interception?\n→"
+        },
+        {
+          "bbox": [
+            66.46,
+            80.41,
+            324.92,
+            91.43
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "How does frequency-hopping spread spectrum work?\n→"
+        },
+        {
+          "bbox": [
+            66.46,
+            99.4,
+            401.12,
+            110.42
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Why is synchronisation the central challenge in a hopping link?\n→"
+        },
+        {
+          "bbox": [
+            66.46,
+            118.39,
+            350.32,
+            129.4
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "What does encryption add on top of frequency hopping?\n→"
+        },
+        {
+          "bbox": [
+            66.46,
+            137.38,
+            411.28,
+            148.39
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Why should you never implement your own cryptographic primitives?\n→"
+        },
+        {
+          "bbox": [
+            66.46,
+            157.1,
+            390.96,
+            168.11
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "What do real tactical radios add beyond a hobby hopping link?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "defense signals — a Build List field guide\n16 / 17"
+        }
+      ],
+      "charCount": 436,
+      "height": 792.0,
+      "pageNumber": 16,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            51.12,
+            25.73,
+            352.14,
+            81.83
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "[ W R A P ]\nDefense EE isn’t about weapons —\nit’s about who sees first."
+        },
+        {
+          "bbox": [
+            51.12,
+            95.75,
+            538.83,
+            106.76
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "A receiver pulling position from space, a needle pointing at a hidden transmitter, a dent in the"
+        },
+        {
+          "bbox": [
+            51.12,
+            108.9,
+            523.59,
+            119.91
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "magnetic field, footsteps through the ground, a drone’s own radio giving it away, a link that"
+        },
+        {
+          "bbox": [
+            51.12,
+            122.04,
+            548.99,
+            133.06
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "scatters and encrypts itself — six ways to detect, locate, navigate, and protect, without emitting"
+        },
+        {
+          "bbox": [
+            51.12,
+            135.19,
+            554.07,
+            146.2
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "harm. Every one is receive-only, passive, or protective; the value is in the signal processing: the"
+        },
+        {
+          "bbox": [
+            51.12,
+            148.33,
+            543.91,
+            159.35
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "correlation, the phase, the anomaly detection, the synchronisation. That is exactly what defense,"
+        },
+        {
+          "bbox": [
+            51.12,
+            161.48,
+            249.25,
+            172.49
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "aerospace, and spectrum teams hire for."
+        },
+        {
+          "bbox": [
+            51.12,
+            193.61,
+            180.17,
+            208.33
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "// the skill ladder"
+        },
+        {
+          "bbox": [
+            51.12,
+            216.98,
+            437.22,
+            228.0
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Build them in order and each one hands you the technique the next one needs:"
+        },
+        {
+          "bbox": [
+            51.12,
+            235.67,
+            513.71,
+            247.06
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "GNSS →direction finding →magnetic anomaly →seismic →passive RF detection →secure comms"
+        },
+        {
+          "bbox": [
+            66.46,
+            273.68,
+            533.85,
+            295.91
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "!\nTHE LINE THIS GUIDE STAYS ON\nEverything here is receive-only, passive, or protective — built to detect, locate, navigate,"
+        },
+        {
+          "bbox": [
+            66.46,
+            298.05,
+            508.46,
+            309.06
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "and secure, never to jam, spoof, target, or harm. Jamming or spoofing GNSS or drones is"
+        },
+        {
+          "bbox": [
+            66.46,
+            311.19,
+            544.01,
+            322.21
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "illegal and dangerous. Follow your local radio and privacy laws, keep the one transmitter here"
+        },
+        {
+          "bbox": [
+            66.46,
+            324.34,
+            538.92,
+            335.35
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "(the hopping link) legal and within its band, and don’t point these tools at people. Build to"
+        },
+        {
+          "bbox": [
+            66.46,
+            337.48,
+            203.63,
+            348.5
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "understand, and to protect."
+        },
+        {
+          "bbox": [
+            66.46,
+            380.31,
+            533.84,
+            402.54
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "DO THIS\nBuild even one. Capture it — a position track, a bearing swinging to a hidden transmitter, a"
+        },
+        {
+          "bbox": [
+            66.46,
+            404.67,
+            544.01,
+            415.69
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "magnetic anomaly map, a footstep trigger, a drone flagged on a waterfall — and put the code on"
+        },
+        {
+          "bbox": [
+            66.46,
+            417.82,
+            513.52,
+            428.83
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "GitHub with your method, your results, and an honest note on scope and legal limits. One"
+        },
+        {
+          "bbox": [
+            66.46,
+            430.96,
+            447.48,
+            441.98
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "sensing demo and one clean repo prove you can do defense-grade signal work."
+        },
+        {
+          "bbox": [
+            66.46,
+            473.32,
+            533.85,
+            484.33
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Full build notes, parts links, and the next field guide go out in The Build List. The people"
+        },
+        {
+          "bbox": [
+            66.46,
+            487.2,
+            508.46,
+            498.21
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "actually shipping these — and trading antenna and coherence tricks — are in Ohm’s Club."
+        },
+        {
+          "bbox": [
+            51.12,
+            526.35,
+            229.46,
+            536.8
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "— Enes (@1nska) · Electrical Engineer"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "defense signals — a Build List field guide\n17 / 17"
+        }
+      ],
+      "charCount": 1821,
+      "height": 792.0,
+      "pageNumber": 17,
+      "textExtractable": true,
+      "width": 612.0
+    }
+  ],
+  "provenance": {
+    "confidence": "EXACT",
+    "extractionMethod": "pymupdf-blocks-v1",
+    "extractorVersion": "1.28.0",
+    "generatorVersion": null,
+    "origin": "extracted",
+    "source": "guide-011",
+    "sourceHash": "377095a4c2cb6d131690aaf69e691be4f2b609a28a91af4931ce058b196572a8",
+    "sourcePage": null,
+    "sourcePath": "Engineering guides/6_EE_Projects_That_See_The_Invisible_dark_ops.pdf",
+    "sourceSection": "ROOT"
+  },
+  "relativePath": "Engineering guides/6_EE_Projects_That_See_The_Invisible_dark_ops.pdf",
+  "schemaVersion": "1.0.0",
+  "sha256": "377095a4c2cb6d131690aaf69e691be4f2b609a28a91af4931ce058b196572a8",
+  "sourceId": "guide-011"
+}

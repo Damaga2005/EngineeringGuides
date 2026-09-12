@@ -1,0 +1,4833 @@
+{
+  "metadata": {
+    "format": "PDF 1.4",
+    "producer": "pypdf"
+  },
+  "pageCount": 20,
+  "pages": [
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            33.33,
+            67.85,
+            63.01
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "✻"
+        },
+        {
+          "bbox": [
+            52.5,
+            81.91,
+            341.09,
+            93.12
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "field guide · reading the body · 6 projects · jul 2026"
+        },
+        {
+          "bbox": [
+            52.5,
+            128.76,
+            274.82,
+            141.43
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "> build six things that read the body_"
+        },
+        {
+          "bbox": [
+            52.5,
+            153.13,
+            344.8,
+            213.81
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Six EE Projects That\nRead The Body"
+        },
+        {
+          "bbox": [
+            52.5,
+            225.12,
+            526.35,
+            238.28
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "ECG, EMG, EEG, and optical pulse — six builds that pull a living signal out of"
+        },
+        {
+          "bbox": [
+            52.5,
+            241.62,
+            526.35,
+            254.78
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "a room full of noise. From a $15 sensor that finds your heartbeat in a beam of"
+        },
+        {
+          "bbox": [
+            52.5,
+            257.37,
+            520.27,
+            270.53
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "light to a robotic hand that closes when you flex, to catching an 8 Hz rhythm"
+        },
+        {
+          "bbox": [
+            52.5,
+            273.87,
+            441.3,
+            287.03
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "from your own visual cortex. Cheap parts; real precision analog."
+        },
+        {
+          "bbox": [
+            52.5,
+            320.74,
+            512.26,
+            334.39
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "01\nOptical Pulse Sensor (PPG)  Shine light through your finger and watch your heartbeat"
+        },
+        {
+          "bbox": [
+            78.0,
+            336.54,
+            107.7,
+            347.27
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "appear"
+        },
+        {
+          "bbox": [
+            543.29,
+            322.27,
+            559.49,
+            333.98
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$15"
+        },
+        {
+          "bbox": [
+            52.5,
+            364.99,
+            514.51,
+            378.64
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "02\nBiopotential Front End  The instrumentation amplifier that pulls a 1 mV signal out of"
+        },
+        {
+          "bbox": [
+            78.0,
+            380.79,
+            196.8,
+            391.52
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "a room full of mains hum"
+        },
+        {
+          "bbox": [
+            543.29,
+            366.52,
+            559.49,
+            378.23
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$20"
+        },
+        {
+          "bbox": [
+            52.5,
+            409.24,
+            521.93,
+            422.89
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "03\nECG Heart Monitor  Watch your own heartbeat draw itself on screen, wave by wave\n$25"
+        },
+        {
+          "bbox": [
+            52.5,
+            440.74,
+            536.78,
+            454.39
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "04\nEMG Muscle Sensor  Clench your fist and watch the electrical storm in your forearm\n$25"
+        },
+        {
+          "bbox": [
+            52.5,
+            472.24,
+            463.44,
+            485.89
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "05\nEMG-Controlled Robotic Hand  Flex your forearm and a robotic hand closes —"
+        },
+        {
+          "bbox": [
+            78.0,
+            488.04,
+            276.0,
+            498.77
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "myoelectric control, built on your bench"
+        },
+        {
+          "bbox": [
+            543.29,
+            473.77,
+            559.49,
+            485.48
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$70"
+        },
+        {
+          "bbox": [
+            52.5,
+            516.49,
+            505.29,
+            530.14
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "06\nEEG Alpha-Wave Detector  Close your eyes and watch an 8 to 12 Hz rhythm rise out of"
+        },
+        {
+          "bbox": [
+            78.0,
+            532.29,
+            122.55,
+            543.02
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "the noise"
+        },
+        {
+          "bbox": [
+            543.29,
+            518.03,
+            559.49,
+            529.72
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$60"
+        },
+        {
+          "bbox": [
+            52.5,
+            574.28,
+            414.33,
+            585.97
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "● By Enes · @1nska · Electrical Engineer — a Build List field guide"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "reading the body — a Build List field guide\n1 / 20"
+        }
+      ],
+      "charCount": 1145,
+      "height": 792.0,
+      "pageNumber": 1,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.03,
+            340.31,
+            65.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "❯ project 01\nOptical Pulse Sensor (PPG)"
+        },
+        {
+          "bbox": [
+            52.5,
+            72.14,
+            406.88,
+            84.33
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Shine light through your finger and watch your heartbeat appear"
+        },
+        {
+          "bbox": [
+            60.75,
+            98.04,
+            204.77,
+            108.77
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "$15\nbeginner\n1 weekend"
+        },
+        {
+          "bbox": [
+            52.5,
+            132.43,
+            196.71,
+            149.01
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "## why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            158.02,
+            549.3,
+            250.73
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "The gentlest way into biosignals uses no electrodes at all. Shine light into tissue and a\nphotodiode sees it dim slightly with every heartbeat, because each pulse of blood absorbs a\nlittle more. That is photoplethysmography (PPG) — the exact sensor on the back of every\nsmartwatch and fitness ring. A $5 module gives you a raw optical waveform; your job is to\npull the tiny pulsatile component out of a big steady one, filter it, and count peaks into a\nheart rate. It teaches the AC-on-DC structure that runs through every biosignal in this\nguide, without ever touching a skin electrode."
+        },
+        {
+          "bbox": [
+            69.0,
+            288.18,
+            533.4,
+            339.23
+          ],
+          "blockIndex": 5,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand photoplethysmography, separating a small AC signal riding on a large DC\nbaseline, band-pass filtering, peak detection, and why motion artifacts dominate\nwearable sensing — the core of consumer health-device engineering."
+        },
+        {
+          "bbox": [
+            52.5,
+            361.27,
+            516.93,
+            386.48
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "→ the job this maps to: wearables and consumer health-device engineering — smartwatch,\nfitness-tracker, and ring companies."
+        },
+        {
+          "bbox": [
+            69.0,
+            408.93,
+            544.2,
+            473.48
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "! NOT A PULSE OXIMETER\nThis shows a pulse waveform and a heart rate. It is not a medical instrument. Real SpO₂\nreadings require empirical calibration against a clinical reference on actual subjects —\na number your build cannot produce trustworthily. Never make a health decision from it,\nand if you are worried about your heart or breathing, see a doctor, not a breadboard."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "reading the body — a Build List field guide\n2 / 20"
+        }
+      ],
+      "charCount": 1542,
+      "height": 792.0,
+      "pageNumber": 2,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            166.36,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "## how it works"
+        },
+        {
+          "bbox": [
+            52.5,
+            327.43,
+            204.29,
+            344.01
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "## bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            356.79,
+            552.0,
+            367.52
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "component\npart / spec\nqty\n~cost"
+        },
+        {
+          "bbox": [
+            52.5,
+            380.41,
+            551.99,
+            391.62
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "PPG sensor module\nMAX30102 (red + IR + photodiode)\n1\n$5"
+        },
+        {
+          "bbox": [
+            52.5,
+            402.91,
+            551.99,
+            414.12
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Microcontroller\nESP32 / Arduino (I2C)\n1\n$8"
+        },
+        {
+          "bbox": [
+            52.5,
+            425.41,
+            551.99,
+            436.62
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Display (optional)\nOLED for live waveform\n1\n$4"
+        },
+        {
+          "bbox": [
+            52.5,
+            447.91,
+            551.99,
+            459.12
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Passives + breadboard\nwiring\n—\n$2"
+        },
+        {
+          "bbox": [
+            67.5,
+            52.28,
+            553.52,
+            90.97
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Light in, blood out: An LED sends light into the tissue and a photodiode measures how much\ncomes back. Blood volume rises with each heartbeat and absorbs more light, so the detected\nsignal dips in time with your pulse."
+        },
+        {
+          "bbox": [
+            52.5,
+            53.15,
+            57.92,
+            63.62
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            99.53,
+            558.9,
+            138.23
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "AC riding on DC: Most of what the photodiode sees is constant — skin, bone, static blood.\nThe heartbeat is a tiny fluctuation (the AC part) on top of that big DC level. Extracting a\nclean AC from a dominant DC is the whole game."
+        },
+        {
+          "bbox": [
+            52.5,
+            100.4,
+            57.92,
+            110.87
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            146.77,
+            548.1,
+            185.48
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Why green for heart rate: Green light is strongly absorbed by haemoglobin and penetrates\nshallowly, giving a strong pulse signal with less motion sensitivity. That is why fitness\nwearables glow green on your wrist."
+        },
+        {
+          "bbox": [
+            52.5,
+            147.65,
+            57.92,
+            158.12
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            194.02,
+            553.5,
+            246.23
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Red and infrared for oxygenation: Oxygenated and deoxygenated haemoglobin absorb red\n(~660 nm) and infrared (~940 nm) light differently. Comparing the pulsatile signal at both\nwavelengths is how commercial pulse oximeters estimate SpO₂ — but only after calibration\nagainst a clinical reference."
+        },
+        {
+          "bbox": [
+            52.5,
+            194.9,
+            57.92,
+            205.37
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            254.77,
+            548.11,
+            293.48
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Band-pass and peak detect: A heart rate lives around 0.7–3 Hz (40–180 bpm). Band-pass the\nsignal into that window to kill DC drift and high-frequency noise, then detect peaks and\ntime the intervals to get beats per minute."
+        },
+        {
+          "bbox": [
+            52.5,
+            255.65,
+            57.92,
+            266.12
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "reading the body — a Build List field guide\n3 / 20"
+        }
+      ],
+      "charCount": 1473,
+      "height": 792.0,
+      "pageNumber": 3,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            158.77,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "## build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            349.18,
+            219.46,
+            365.76
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "## interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            55.28,
+            185.1,
+            66.97
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Read the raw sensor"
+        },
+        {
+          "bbox": [
+            82.5,
+            71.03,
+            557.7,
+            96.22
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Wire the MAX30102 over I2C, load the library, and stream the raw red and IR counts. Rest\na fingertip on it and confirm the numbers wobble slightly with each heartbeat."
+        },
+        {
+          "bbox": [
+            58.5,
+            54.49,
+            64.8,
+            68.14
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            109.28,
+            174.3,
+            120.97
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Plot the waveform"
+        },
+        {
+          "bbox": [
+            82.5,
+            125.03,
+            546.9,
+            150.23
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Stream the raw values to a plot. You should see a large baseline with a small ripple —\nthat ripple is your pulse. Note how much bigger the DC part is than the AC part."
+        },
+        {
+          "bbox": [
+            58.5,
+            108.49,
+            64.8,
+            122.14
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            163.27,
+            212.1,
+            174.98
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Filter to the pulse band"
+        },
+        {
+          "bbox": [
+            82.5,
+            179.02,
+            525.3,
+            204.23
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Band-pass roughly 0.7–3 Hz to remove the DC baseline and high-frequency noise. The\nwaveform should now show clean, repeating pulse peaks."
+        },
+        {
+          "bbox": [
+            58.5,
+            162.49,
+            64.8,
+            176.14
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            217.27,
+            163.5,
+            228.98
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Count the beats"
+        },
+        {
+          "bbox": [
+            82.5,
+            233.02,
+            519.9,
+            258.23
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Detect peaks, measure the interval between them, and convert to beats per minute.\nCompare to your pulse counted by hand at the wrist to sanity-check the number."
+        },
+        {
+          "bbox": [
+            58.5,
+            216.49,
+            64.8,
+            230.14
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            271.27,
+            185.1,
+            282.98
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Break it on purpose"
+        },
+        {
+          "bbox": [
+            82.5,
+            287.02,
+            557.7,
+            312.23
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Move your finger, press harder, press lighter, and watch the signal collapse into motion\nartifact. Understanding why wearables struggle during exercise is the real lesson here."
+        },
+        {
+          "bbox": [
+            58.5,
+            270.49,
+            64.8,
+            284.14
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            69.0,
+            386.77,
+            386.4,
+            398.48
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "What physical effect does a PPG sensor actually measure?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            406.27,
+            494.4,
+            417.98
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Why is the pulsatile part of a PPG signal so small compared to the baseline?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            425.77,
+            386.4,
+            437.48
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Why do fitness wearables use green light for heart rate?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            445.27,
+            472.8,
+            456.98
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "How do red and infrared light let a pulse oximeter estimate oxygenation?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            464.77,
+            418.82,
+            476.48
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Why can a DIY SpO₂ reading not be trusted without calibration?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            484.27,
+            445.8,
+            495.98
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "What causes motion artifacts in PPG, and how would you reduce them?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "reading the body — a Build List field guide\n4 / 20"
+        }
+      ],
+      "charCount": 1393,
+      "height": 792.0,
+      "pageNumber": 4,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.03,
+            296.06,
+            65.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "❯ project 02\nBiopotential Front End"
+        },
+        {
+          "bbox": [
+            52.5,
+            72.14,
+            536.25,
+            84.33
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "The instrumentation amplifier that pulls a 1 mV signal out of a room full of mains hum"
+        },
+        {
+          "bbox": [
+            60.75,
+            98.04,
+            224.56,
+            108.77
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "$20\nintermediate\n1 weekend"
+        },
+        {
+          "bbox": [
+            52.5,
+            132.43,
+            196.71,
+            149.01
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "## why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            158.02,
+            554.7,
+            264.23
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Your body produces electrical signals measured in millivolts — and it also acts as an antenna\nthat picks up the mains hum flooding every room, often a thousand times larger than the\nsignal you want. The instrumentation amplifier is the circuit that solves this: it amplifies\nonly the difference between two electrodes while rejecting everything they see in common. Add\na driven-reference electrode and careful filtering and suddenly a heartbeat or a muscle\ntwitch emerges from the noise. This is the single circuit that makes ECG, EMG, and EEG\npossible, and building it yourself — rather than buying a module — is what separates people\nwho understand biosignals from people who plug in a breakout board."
+        },
+        {
+          "bbox": [
+            69.0,
+            301.68,
+            544.2,
+            366.23
+          ],
+          "blockIndex": 5,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand instrumentation-amplifier topology, common-mode rejection (CMRR), driven-\nreference (right-leg drive) circuits, electrode half-cell offsets and why you must AC-\ncouple, gain staging, and mains-hum rejection — the foundation of all precision\nbiomedical analog design."
+        },
+        {
+          "bbox": [
+            52.5,
+            388.27,
+            554.73,
+            413.48
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ the job this maps to: medical-device and precision-analog engineering — patient-monitoring,\ndiagnostics, and analog front-end teams."
+        },
+        {
+          "bbox": [
+            69.0,
+            435.93,
+            544.21,
+            527.47
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "! BATTERY POWER, ALWAYS — AND NEVER INJECT CURRENT\nAnything wired to your skin must run on batteries and must never be connected to mains-\npowered gear (a plugged-in laptop, a bench scope, a wall adapter) while electrodes are\non a body. Use series resistors in every electrode lead, and isolate (Bluetooth, or an\nunplugged battery laptop) if you need to see the data on a computer. Everything in this\nguide only measures — never build anything that pushes current into a person, and do not\nattach electrodes to anyone with a pacemaker or implanted device."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "reading the body — a Build List field guide\n5 / 20"
+        }
+      ],
+      "charCount": 1921,
+      "height": 792.0,
+      "pageNumber": 5,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            166.36,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "## how it works"
+        },
+        {
+          "bbox": [
+            52.5,
+            354.43,
+            204.29,
+            371.01
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "## bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            383.79,
+            552.0,
+            394.52
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "component\npart / spec\nqty\n~cost"
+        },
+        {
+          "bbox": [
+            52.5,
+            407.41,
+            551.99,
+            418.62
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Instrumentation amp\nINA333 or AD620\n1\n$6"
+        },
+        {
+          "bbox": [
+            52.5,
+            429.91,
+            551.99,
+            441.12
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Op-amp\nfor driven reference + filters (quad)\n1\n$2"
+        },
+        {
+          "bbox": [
+            52.5,
+            452.41,
+            551.99,
+            463.62
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Ag/AgCl electrodes\ndisposable snap electrodes (pack)\n1\n$6"
+        },
+        {
+          "bbox": [
+            52.5,
+            474.91,
+            551.99,
+            486.12
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Passives + breadboard\nresistors, caps, lead resistors\n—\n$4"
+        },
+        {
+          "bbox": [
+            52.5,
+            498.16,
+            551.99,
+            509.37
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Batteries\n9 V pair (isolated supply)\n2\n$3"
+        },
+        {
+          "bbox": [
+            67.5,
+            52.28,
+            548.11,
+            90.97
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "The signal is tiny, the noise is huge: An ECG is about 1 mV, an EMG a few mV, an EEG only\ntens of microvolts. Meanwhile your body couples capacitively to mains wiring and carries\nvolts of 50 / 60 Hz interference. The signal is buried a thousandfold."
+        },
+        {
+          "bbox": [
+            52.5,
+            53.15,
+            57.92,
+            63.62
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            99.53,
+            548.1,
+            151.73
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Differential rescue: That interference appears almost identically on both measuring\nelectrodes (it is common-mode), while the biosignal appears as a difference between them.\nAn instrumentation amplifier amplifies the difference and rejects the common part — its\nability to do so is its CMRR."
+        },
+        {
+          "bbox": [
+            52.5,
+            100.4,
+            57.92,
+            110.87
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            160.27,
+            531.91,
+            212.48
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Driven reference (right-leg drive): Better still, sense the common-mode voltage on the\nbody, invert it, and feed it back through a third electrode. This actively cancels the\ninterference at the source and buys you far more rejection than the amplifier alone —\nwithout ever tying the body to ground."
+        },
+        {
+          "bbox": [
+            52.5,
+            161.15,
+            57.92,
+            171.62
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            221.02,
+            553.51,
+            273.23
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Electrode offsets force AC coupling: Two Ag/AgCl electrodes on skin produce a DC half-cell\nvoltage of up to a few hundred millivolts — hundreds of times bigger than the signal. If\nyou applied full gain to that, the amplifier would slam into its rail. So you take modest\ngain first, high-pass to strip the DC, then apply the rest of the gain."
+        },
+        {
+          "bbox": [
+            52.5,
+            221.9,
+            57.92,
+            232.37
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            281.77,
+            537.3,
+            320.48
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Filtering to the band you want: Each biosignal has a band: ECG roughly 0.5–40 Hz, EMG\nroughly 20–450 Hz, EEG roughly 1–30 Hz. Band-pass to that window (plus an optional 50 /\n60 Hz notch) and you throw away most of the remaining noise."
+        },
+        {
+          "bbox": [
+            52.5,
+            282.65,
+            57.92,
+            293.12
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "reading the body — a Build List field guide\n6 / 20"
+        }
+      ],
+      "charCount": 1779,
+      "height": 792.0,
+      "pageNumber": 6,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            158.77,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "## build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            403.18,
+            219.46,
+            419.76
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "## interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            55.28,
+            212.1,
+            66.97
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Build the amplifier core"
+        },
+        {
+          "bbox": [
+            82.5,
+            71.03,
+            541.5,
+            109.72
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Wire the instrumentation amp with a modest first-stage gain (about 10). Power it from\nbatteries only. Test it with a signal generator or a divider before it ever touches\nskin."
+        },
+        {
+          "bbox": [
+            58.5,
+            54.49,
+            64.8,
+            68.14
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            122.78,
+            217.5,
+            134.48
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Add series lead resistors"
+        },
+        {
+          "bbox": [
+            82.5,
+            138.52,
+            541.52,
+            163.73
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Put a current-limiting resistor (tens of kΩ) in each electrode lead. This is a safety\nmeasure, not an optional extra, and it costs you nothing in signal quality."
+        },
+        {
+          "bbox": [
+            58.5,
+            121.99,
+            64.8,
+            135.64
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            176.77,
+            201.3,
+            188.48
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "AC-couple and add gain"
+        },
+        {
+          "bbox": [
+            82.5,
+            192.52,
+            536.1,
+            231.23
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "High-pass at roughly 0.5 Hz to strip the electrode DC offset, then add a second gain\nstage (100 or more) plus a low-pass for your band. Confirm the output no longer\nsaturates."
+        },
+        {
+          "bbox": [
+            58.5,
+            175.99,
+            64.8,
+            189.64
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            244.27,
+            212.1,
+            255.98
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Add the driven reference"
+        },
+        {
+          "bbox": [
+            82.5,
+            260.02,
+            557.7,
+            298.73
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Buffer and invert the common-mode voltage and drive it back into a third electrode on a\nbony spot (hip or elbow). Watch the mains hum on your output collapse — this is the most\nsatisfying moment in the build."
+        },
+        {
+          "bbox": [
+            58.5,
+            243.49,
+            64.8,
+            257.14
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            311.77,
+            217.5,
+            323.48
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Prove it on a real signal"
+        },
+        {
+          "bbox": [
+            82.5,
+            327.52,
+            552.3,
+            366.23
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Put two electrodes across your forearm, clench your fist, and watch the burst of muscle\nactivity. You now have the front end that every remaining project in this guide depends\non."
+        },
+        {
+          "bbox": [
+            58.5,
+            310.99,
+            64.8,
+            324.64
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            69.0,
+            440.77,
+            467.4,
+            465.98
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Why is an instrumentation amplifier used instead of a single op-amp for\nbiopotentials?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            473.77,
+            440.4,
+            485.48
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "What is CMRR, and why does it dominate biosignal front-end design?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            493.27,
+            505.2,
+            504.98
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "How does a driven-reference (right-leg drive) circuit improve noise rejection?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            512.78,
+            435.0,
+            524.47
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Why must a biopotential amplifier be AC-coupled before high gain?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            532.28,
+            445.8,
+            543.97
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Why is the gain split across stages instead of applied all at once?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            551.78,
+            440.4,
+            563.47
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Why must a body-connected circuit be battery powered and isolated?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "reading the body — a Build List field guide\n7 / 20"
+        }
+      ],
+      "charCount": 1549,
+      "height": 792.0,
+      "pageNumber": 7,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.03,
+            240.75,
+            65.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "❯ project 03\nECG Heart Monitor"
+        },
+        {
+          "bbox": [
+            52.5,
+            72.14,
+            390.0,
+            84.33
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Watch your own heartbeat draw itself on screen, wave by wave"
+        },
+        {
+          "bbox": [
+            60.75,
+            98.04,
+            224.56,
+            108.77
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "$25\nintermediate\n1 weekend"
+        },
+        {
+          "bbox": [
+            52.5,
+            132.43,
+            196.71,
+            149.01
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "## why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            158.02,
+            554.7,
+            250.73
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Every beat of your heart is a coordinated electrical wave, and it is large enough to read\nfrom your skin. Put two electrodes across your chest or arms, run them into a biopotential\nfront end, and the classic PQRST complex appears on screen: the small P wave as the atria\nfire, the sharp QRS spike as the ventricles contract, the broad T wave as they reset. Then\ndetect those R peaks and you have a live heart rate and beat-to-beat variability. It is the\nmost iconic biosignal there is, the payoff is unmistakable, and it is the project that proves\nyou can build precision analog that works on a living system."
+        },
+        {
+          "bbox": [
+            69.0,
+            288.18,
+            538.8,
+            352.73
+          ],
+          "blockIndex": 5,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand cardiac electrophysiology at the signal level, lead configurations, the\nECG bandwidth, R-peak detection algorithms, heart-rate and HRV extraction, and safe\npatient-connected design — the exact skill set of medical-device and patient-monitoring\nengineering."
+        },
+        {
+          "bbox": [
+            52.5,
+            374.77,
+            554.73,
+            399.98
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "→ the job this maps to: medical-device engineering — patient monitoring, cardiac diagnostics,\nand clinical-instrumentation teams."
+        },
+        {
+          "bbox": [
+            69.0,
+            422.43,
+            544.2,
+            500.48
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "! NOT A MEDICAL DEVICE\nThis is an engineering demonstration, not a diagnostic tool. It is not calibrated, not\nvalidated, and not certified. It can show you a waveform and a heart rate; it cannot\ntell you whether your heart is healthy, and a normal-looking trace means nothing\nclinically. Never make a health decision from it. If you have any cardiac concern, see a\ndoctor."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "reading the body — a Build List field guide\n8 / 20"
+        }
+      ],
+      "charCount": 1598,
+      "height": 792.0,
+      "pageNumber": 8,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            166.36,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "## how it works"
+        },
+        {
+          "bbox": [
+            69.0,
+            302.43,
+            528.0,
+            352.73
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "BUILD NOTE\nThe AD8232 packages the whole front end — instrumentation amp, right-leg drive, and\nfilters — into one $10 chip. Start there to get a waveform fast, then rebuild it with\nyour project-2 front end to prove you understand what the chip is doing."
+        },
+        {
+          "bbox": [
+            52.5,
+            390.43,
+            227.05,
+            407.01
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "## key design decisions"
+        },
+        {
+          "bbox": [
+            67.5,
+            52.28,
+            558.9,
+            90.97
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "The heart as a moving dipole: As the cardiac muscle depolarises, it creates an electrical\nwavefront that behaves like a rotating dipole in your torso. Electrodes on the skin see the\nprojection of that dipole — which is why where you place them changes what you see."
+        },
+        {
+          "bbox": [
+            52.5,
+            53.15,
+            57.92,
+            63.62
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            99.53,
+            553.51,
+            138.23
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Reading the PQRST: The P wave is atrial depolarisation, the QRS complex is the much larger\nventricular depolarisation, and the T wave is ventricular repolarisation. Their shapes and\ntimings are what clinicians read; for you, the tall R peak is the easiest landmark."
+        },
+        {
+          "bbox": [
+            52.5,
+            100.4,
+            57.92,
+            110.87
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            146.77,
+            558.92,
+            185.48
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Leads and placement: Einthoven’s triangle defines the classic limb leads. Lead I runs right\narm to left arm; Lead II (right arm to left leg) usually gives the biggest, cleanest R peak\n— a good first target. A third electrode carries the driven reference."
+        },
+        {
+          "bbox": [
+            52.5,
+            147.65,
+            57.92,
+            158.12
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            194.02,
+            558.9,
+            232.73
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "The right bandwidth: Monitoring-grade ECG lives roughly between 0.5 and 40 Hz. Band-pass\nthere and you remove electrode drift below and muscle noise above, without mangling the QRS\nshape."
+        },
+        {
+          "bbox": [
+            52.5,
+            194.9,
+            57.92,
+            205.37
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            241.27,
+            553.5,
+            279.98
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Finding the beats: The classic R-peak detector (Pan-Tompkins) band-passes the signal,\ndifferentiates it, squares it, integrates over a moving window, and thresholds the result.\nTime the intervals between R peaks and you have heart rate and beat-to-beat variability."
+        },
+        {
+          "bbox": [
+            52.5,
+            242.15,
+            57.92,
+            252.62
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            418.27,
+            558.9,
+            483.98
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Why not just notch out the mains hum and skip the fancy front end? A notch filter removes\ninterference after the amplifier — but if the hum is a thousand times larger than the\nsignal, it has already saturated your gain stages and the ECG is unrecoverable. And a notch\nnear the QRS band distorts the waveform. The real fix is rejecting the interference at the\ninput, with CMRR and a driven reference, so it never gets amplified in the first place."
+        },
+        {
+          "bbox": [
+            52.5,
+            419.15,
+            57.92,
+            429.62
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "→"
+        },
+        {
+          "bbox": [
+            67.5,
+            494.02,
+            548.1,
+            559.72
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Why drive a reference electrode instead of just grounding the body? Tying a person to\ncircuit ground creates a low-impedance path for fault current — a safety hazard — and it\ndoes not actually cancel the common-mode voltage. A driven-reference electrode feeds back\nan inverted copy of the common-mode signal through a high-value resistor, actively\ncancelling the hum while keeping the connection current-limited and safe."
+        },
+        {
+          "bbox": [
+            52.5,
+            494.9,
+            57.92,
+            505.37
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "→"
+        },
+        {
+          "bbox": [
+            67.5,
+            569.78,
+            558.9,
+            621.97
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Why AC-couple when the ECG has low-frequency content? Electrode half-cell offsets reach\nhundreds of millivolts against a 1 mV signal, so without a high-pass the amplifier rails\nand you see nothing at all. The compromise is to set the corner low (about 0.5 Hz) — enough\nto strip electrode drift while preserving the ECG’s slow features like the T wave."
+        },
+        {
+          "bbox": [
+            52.5,
+            570.65,
+            57.92,
+            581.12
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "reading the body — a Build List field guide\n9 / 20"
+        }
+      ],
+      "charCount": 2803,
+      "height": 792.0,
+      "pageNumber": 9,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            204.29,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "## bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            56.04,
+            552.0,
+            66.77
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "component\npart / spec\nqty\n~cost"
+        },
+        {
+          "bbox": [
+            52.5,
+            78.91,
+            552.0,
+            90.12
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "ECG front end\nAD8232 module (or your project-2 front end)\n1\n$10"
+        },
+        {
+          "bbox": [
+            52.5,
+            101.41,
+            551.99,
+            112.62
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Ag/AgCl electrodes\ndisposable snap electrodes (pack)\n1\n$6"
+        },
+        {
+          "bbox": [
+            52.5,
+            124.66,
+            551.99,
+            135.87
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Microcontroller\nESP32 / Arduino (ADC)\n1\n$8"
+        },
+        {
+          "bbox": [
+            52.5,
+            147.16,
+            551.99,
+            158.37
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Battery\n9 V or LiPo (isolated supply)\n1\n$3"
+        },
+        {
+          "bbox": [
+            52.5,
+            169.66,
+            551.99,
+            180.87
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Passives\nlead resistors, wiring\n—\n$2"
+        },
+        {
+          "bbox": [
+            52.5,
+            212.68,
+            158.77,
+            229.26
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "## build steps"
+        },
+        {
+          "bbox": [
+            82.5,
+            242.02,
+            195.9,
+            253.73
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Wire it up on battery"
+        },
+        {
+          "bbox": [
+            82.5,
+            257.77,
+            557.7,
+            296.48
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Connect the front end and microcontroller and power the whole thing from a battery.\nConfirm it works before an electrode ever touches you, and keep it disconnected from any\nmains-powered device."
+        },
+        {
+          "bbox": [
+            58.5,
+            241.24,
+            64.8,
+            254.89
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            309.52,
+            201.3,
+            321.23
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Place three electrodes"
+        },
+        {
+          "bbox": [
+            82.5,
+            325.27,
+            541.5,
+            363.98
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Two measuring electrodes (Lead I across the arms, or Lead II for a bigger R peak) and\none driven reference on a bony landmark. Clean the skin so the contact is good — poor\ncontact ruins everything downstream."
+        },
+        {
+          "bbox": [
+            58.5,
+            308.74,
+            64.8,
+            322.39
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            377.02,
+            163.5,
+            388.73
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Get a raw trace"
+        },
+        {
+          "bbox": [
+            82.5,
+            392.77,
+            557.7,
+            431.48
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Stream the ADC values and plot them. Sit very still. You should see a repeating waveform\nwith an unmistakable sharp spike — your QRS complex. Move and watch it drown in\nartifact."
+        },
+        {
+          "bbox": [
+            58.5,
+            376.24,
+            64.8,
+            389.89
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            444.52,
+            185.1,
+            456.23
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Filter and clean up"
+        },
+        {
+          "bbox": [
+            82.5,
+            460.27,
+            557.7,
+            485.48
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Band-pass roughly 0.5–40 Hz and, if needed, notch the mains frequency. The P, QRS, and T\nfeatures should now be clearly separable on the plot."
+        },
+        {
+          "bbox": [
+            58.5,
+            443.74,
+            64.8,
+            457.39
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            498.52,
+            239.1,
+            510.23
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Detect beats and compute rate"
+        },
+        {
+          "bbox": [
+            82.5,
+            514.28,
+            557.7,
+            552.97
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Implement R-peak detection, compute beats per minute from the R-R intervals, and display\nit. Compare to your pulse counted by hand, then watch the rate rise after a set of push-\nups."
+        },
+        {
+          "bbox": [
+            58.5,
+            497.74,
+            64.8,
+            511.39
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "reading the body — a Build List field guide\n10 / 20"
+        }
+      ],
+      "charCount": 1371,
+      "height": 792.0,
+      "pageNumber": 10,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            219.46,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "## interview questions"
+        },
+        {
+          "bbox": [
+            69.0,
+            64.28,
+            489.0,
+            75.97
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "What do the P wave, QRS complex, and T wave each represent physiologically?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            83.78,
+            451.2,
+            95.47
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Why does electrode placement change the shape of the ECG you record?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            103.28,
+            429.6,
+            114.97
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "What is the appropriate bandwidth for a monitoring ECG, and why?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            122.78,
+            478.2,
+            134.48
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Why is a notch filter alone insufficient to deal with mains interference?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            142.27,
+            348.6,
+            153.98
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Describe how an R-peak detection algorithm works.\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            161.77,
+            456.6,
+            173.48
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "What safety measures are mandatory for any patient-connected circuit?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "reading the body — a Build List field guide\n11 / 20"
+        }
+      ],
+      "charCount": 483,
+      "height": 792.0,
+      "pageNumber": 11,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.03,
+            240.75,
+            65.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "❯ project 04\nEMG Muscle Sensor"
+        },
+        {
+          "bbox": [
+            52.5,
+            72.14,
+            406.88,
+            84.33
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Clench your fist and watch the electrical storm in your forearm"
+        },
+        {
+          "bbox": [
+            60.75,
+            98.04,
+            224.56,
+            108.77
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "$25\nintermediate\n1 weekend"
+        },
+        {
+          "bbox": [
+            52.5,
+            132.43,
+            196.71,
+            149.01
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "## why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            158.02,
+            549.3,
+            237.23
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "When you contract a muscle, hundreds of motor units fire and their summed action potentials\nreach the skin as surface EMG — a burst of noisy, high-frequency activity whose amplitude\ntracks how hard you are pushing. Reuse your biopotential front end, shift the filter band\nupward, rectify and smooth the result, and you get a clean “muscle effort” signal you can\nplot, threshold, or use as a control input. It is the biosignal most useful as an interface,\nand it is the direct prerequisite for the myoelectric hand in project 5."
+        },
+        {
+          "bbox": [
+            69.0,
+            274.68,
+            544.2,
+            339.23
+          ],
+          "blockIndex": 5,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand surface EMG generation, why its band differs from ECG, envelope detection\n(rectify plus low-pass), electrode placement along muscle fibres, crosstalk between\nadjacent muscles, and turning a biosignal into a usable control value — the basis of\nhuman-machine interface work."
+        },
+        {
+          "bbox": [
+            52.5,
+            361.27,
+            549.33,
+            386.48
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "→ the job this maps to: biomedical sensing and human-machine interface engineering — neural-\nwearable, rehab-tech, and gesture-input teams."
+        },
+        {
+          "bbox": [
+            52.5,
+            413.68,
+            166.36,
+            430.26
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "## how it works"
+        },
+        {
+          "bbox": [
+            67.5,
+            440.02,
+            542.7,
+            492.23
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Where the signal comes from: A motor neuron fires and the muscle fibres it controls\ndepolarise. Thousands of these overlapping action potentials sum into a noisy, spiky\nvoltage at the skin — a few hundred microvolts to a few millivolts, much rougher-looking\nthan an ECG."
+        },
+        {
+          "bbox": [
+            52.5,
+            440.9,
+            57.92,
+            451.37
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            500.77,
+            553.51,
+            539.47
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "A different band: Most EMG energy sits between about 20 and 450 Hz. High-passing at ~20 Hz\nis essential: it rejects motion artifact and the ECG contamination that would otherwise\npollute a recording taken anywhere near the torso."
+        },
+        {
+          "bbox": [
+            52.5,
+            501.65,
+            57.92,
+            512.12
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            548.03,
+            553.5,
+            600.22
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "The envelope is the useful part: Raw EMG looks like noise, and its instantaneous value is\nmeaningless for control. Rectify it (take the absolute value) and low-pass it, and you get\na smooth envelope whose height tracks contraction strength — that is the signal you\nactually use."
+        },
+        {
+          "bbox": [
+            52.5,
+            548.9,
+            57.92,
+            559.37
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            608.78,
+            558.91,
+            647.47
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Placement and crosstalk: Put two electrodes on the belly of the target muscle, aligned with\nthe fibre direction, with a reference on a bony landmark. Place them poorly and you will\npick up neighbouring muscles — crosstalk, the main reason multi-gesture control is hard."
+        },
+        {
+          "bbox": [
+            52.5,
+            609.65,
+            57.92,
+            620.12
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            656.03,
+            548.11,
+            694.72
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Fatigue and drift: As a muscle tires, the EMG amplitude and frequency content shift, so a\nfixed threshold that worked ten minutes ago may not work now. Real systems recalibrate or\nnormalise — a lesson that matters immediately in project 5."
+        },
+        {
+          "bbox": [
+            52.5,
+            656.9,
+            57.92,
+            667.37
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "reading the body — a Build List field guide\n12 / 20"
+        }
+      ],
+      "charCount": 2479,
+      "height": 792.0,
+      "pageNumber": 12,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            204.29,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "## bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            56.04,
+            552.0,
+            66.77
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "component\npart / spec\nqty\n~cost"
+        },
+        {
+          "bbox": [
+            52.5,
+            78.91,
+            552.0,
+            90.12
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "EMG front end\nyour project-2 front end, or an EMG sensor module\n1\n$12"
+        },
+        {
+          "bbox": [
+            52.5,
+            101.41,
+            551.99,
+            112.62
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Ag/AgCl electrodes\nsnap electrodes (pack)\n1\n$6"
+        },
+        {
+          "bbox": [
+            52.5,
+            124.66,
+            551.99,
+            135.87
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Microcontroller\nESP32 / Arduino\n1\n$8"
+        },
+        {
+          "bbox": [
+            52.5,
+            147.16,
+            551.99,
+            158.37
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Battery\nisolated supply\n1\n$3"
+        },
+        {
+          "bbox": [
+            52.5,
+            169.66,
+            551.99,
+            180.87
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Passives\nfilters, lead resistors\n—\n$2"
+        },
+        {
+          "bbox": [
+            52.5,
+            212.68,
+            158.77,
+            229.26
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "## build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            535.93,
+            219.46,
+            552.51
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "## interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            242.02,
+            190.5,
+            253.73
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Retune the front end"
+        },
+        {
+          "bbox": [
+            82.5,
+            257.77,
+            552.3,
+            282.98
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Take your project-2 amplifier and move the band to roughly 20–450 Hz. Everything else —\nthe instrumentation amp, driven reference, battery power — stays exactly as it was."
+        },
+        {
+          "bbox": [
+            58.5,
+            241.24,
+            64.8,
+            254.89
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            296.02,
+            190.5,
+            307.73
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Place the electrodes"
+        },
+        {
+          "bbox": [
+            82.5,
+            311.77,
+            541.5,
+            336.98
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Two on the belly of your forearm flexor, aligned along the muscle, and a reference on\nyour elbow. Clean the skin. Relax, then clench, and look for a burst of activity."
+        },
+        {
+          "bbox": [
+            58.5,
+            295.24,
+            64.8,
+            308.89
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            350.02,
+            163.5,
+            361.73
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Look at raw EMG"
+        },
+        {
+          "bbox": [
+            82.5,
+            365.77,
+            546.9,
+            390.98
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Plot the raw signal. Relaxed, it should be near-silent; contracting, it should explode\ninto noisy activity. That contrast is the whole signal."
+        },
+        {
+          "bbox": [
+            58.5,
+            349.24,
+            64.8,
+            362.89
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            404.02,
+            179.7,
+            415.73
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Build the envelope"
+        },
+        {
+          "bbox": [
+            82.5,
+            419.77,
+            530.7,
+            444.98
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Rectify the signal and low-pass it (a few Hz) to produce a smooth envelope. Squeeze\ngently, then hard, and confirm the envelope height tracks your effort."
+        },
+        {
+          "bbox": [
+            58.5,
+            403.24,
+            64.8,
+            416.89
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            458.02,
+            201.3,
+            469.73
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Turn it into a control"
+        },
+        {
+          "bbox": [
+            82.5,
+            473.77,
+            557.7,
+            498.98
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Map the envelope to something visible — an LED’s brightness, a bar graph, a servo angle.\nSet a threshold for “muscle on,” then check how well it holds up as your arm tires."
+        },
+        {
+          "bbox": [
+            58.5,
+            457.24,
+            64.8,
+            470.89
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            69.0,
+            573.53,
+            381.0,
+            585.22
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "What physiological event produces a surface EMG signal?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            593.03,
+            343.2,
+            604.72
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Why is EMG high-passed around 20 Hz, unlike ECG?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            612.53,
+            451.2,
+            624.22
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "What is envelope detection, and why is raw EMG unusable for control?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            632.03,
+            418.8,
+            643.72
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "How does electrode placement affect EMG quality and crosstalk?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            651.53,
+            386.4,
+            663.22
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "How does muscle fatigue change the EMG signal over time?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            671.03,
+            397.2,
+            682.72
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "How would you distinguish two different gestures from EMG?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "reading the body — a Build List field guide\n13 / 20"
+        }
+      ],
+      "charCount": 1619,
+      "height": 792.0,
+      "pageNumber": 13,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.03,
+            351.38,
+            65.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "❯ project 05\nEMG-Controlled Robotic Hand"
+        },
+        {
+          "bbox": [
+            52.5,
+            72.14,
+            536.25,
+            84.33
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Flex your forearm and a robotic hand closes — myoelectric control, built on your bench"
+        },
+        {
+          "bbox": [
+            60.75,
+            98.04,
+            209.72,
+            108.77
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "$70\nadvanced\n2 weekends"
+        },
+        {
+          "bbox": [
+            52.5,
+            132.43,
+            196.71,
+            149.01
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "## why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            158.02,
+            554.7,
+            237.23
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "This is the build that makes people stop scrolling. Take the EMG envelope from project 4, map\nit to servo positions, and a tendon-driven robotic hand opens and closes in time with your\nown muscle — the same myoelectric principle behind real prosthetic limbs. Add a second EMG\nchannel (flexor and extensor) and you can command open and close independently; map the\nenvelope proportionally and the grip strength follows your effort. It ties every skill in\nthis guide together into a single, visceral demo: biology in, mechanics out."
+        },
+        {
+          "bbox": [
+            69.0,
+            274.68,
+            538.8,
+            339.23
+          ],
+          "blockIndex": 5,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou can take a noisy biological signal all the way through a real system —\namplification, filtering, envelope extraction, calibration, thresholding, and actuator\ncontrol — and make it work in real time on a living body. That end-to-end biosignal-to-\nactuator pipeline is exactly what prosthetics and neural-interface teams build."
+        },
+        {
+          "bbox": [
+            52.5,
+            361.27,
+            516.93,
+            386.48
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "→ the job this maps to: prosthetics, neural interfaces, and robotics — prosthetic-limb\nmakers, neural-wearable companies, and rehab-robotics teams."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "reading the body — a Build List field guide\n14 / 20"
+        }
+      ],
+      "charCount": 1257,
+      "height": 792.0,
+      "pageNumber": 14,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            166.36,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "## how it works"
+        },
+        {
+          "bbox": [
+            69.0,
+            315.93,
+            544.2,
+            379.73
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "BUILD NOTE\nDon’t design a hand from scratch. Print an open-source tendon-driven hand (InMoov and\nsimilar) or buy a servo hand kit, drive the fingers with fishing line, and power the\nservos from their own supply — not from the microcontroller’s rail, which will brown out\nthe moment five servos move at once."
+        },
+        {
+          "bbox": [
+            52.5,
+            417.43,
+            204.29,
+            434.01
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "## bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            447.54,
+            552.0,
+            458.27
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "component\npart / spec\nqty\n~cost"
+        },
+        {
+          "bbox": [
+            52.5,
+            470.41,
+            552.0,
+            481.62
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "EMG front end\nproject-4 sensor (×2 channels ideal)\n1\n$15"
+        },
+        {
+          "bbox": [
+            52.5,
+            493.66,
+            552.0,
+            504.87
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Robotic hand\n3D-printed tendon hand or servo hand kit\n1\n$25"
+        },
+        {
+          "bbox": [
+            52.5,
+            516.16,
+            552.0,
+            527.37
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Servos\nSG90 / MG90S (×5)\n5\n$12"
+        },
+        {
+          "bbox": [
+            52.5,
+            538.66,
+            551.99,
+            549.87
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Microcontroller\nESP32 / Arduino\n1\n$8"
+        },
+        {
+          "bbox": [
+            52.5,
+            561.16,
+            551.99,
+            572.37
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Servo power + battery\nseparate 5 V supply, isolated sensor battery\n1\n$8"
+        },
+        {
+          "bbox": [
+            52.5,
+            584.41,
+            551.99,
+            595.62
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Electrodes + line\nsnap electrodes, fishing line, elastic\n—\n$5"
+        },
+        {
+          "bbox": [
+            67.5,
+            52.28,
+            548.11,
+            90.97
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Envelope to angle: The EMG envelope is a single number tracking contraction strength. Map\nit to a servo position and the finger closes as you squeeze harder — proportional\nmyoelectric control, in one line of arithmetic."
+        },
+        {
+          "bbox": [
+            52.5,
+            53.15,
+            57.92,
+            63.62
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            99.53,
+            558.91,
+            138.23
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Two channels, two commands: One electrode pair on your flexor (closing) and another on your\nextensor (opening) gives you two independent inputs, so you can command open and close\ndeliberately rather than relying on one muscle relaxing."
+        },
+        {
+          "bbox": [
+            52.5,
+            100.4,
+            57.92,
+            110.87
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            146.77,
+            553.5,
+            185.48
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Calibration is mandatory: Everyone’s EMG amplitude differs, and it drifts with sweat,\nelectrode position, and fatigue. Every session starts with a calibration: record a relaxed\nbaseline and a maximum contraction, then normalise everything in between."
+        },
+        {
+          "bbox": [
+            52.5,
+            147.65,
+            57.92,
+            158.12
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            194.02,
+            558.9,
+            232.73
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Tendon-driven mechanics: Five servos pull fishing-line tendons through the fingers, with\nelastic returning them. The mechanics are simple and the compliance is forgiving — which is\nexactly why this architecture is so common in hobby and research hands alike."
+        },
+        {
+          "bbox": [
+            52.5,
+            194.9,
+            57.92,
+            205.37
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            241.27,
+            548.11,
+            293.48
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "What real prosthetics add: Clinical myoelectric limbs use multi-channel EMG plus pattern-\nrecognition machine learning to classify many grips, with socket fitting, robustness, and\nregulatory validation on top. Your build is the honest core of that idea, and the rest is\nengineering rigour."
+        },
+        {
+          "bbox": [
+            52.5,
+            242.15,
+            57.92,
+            252.62
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "reading the body — a Build List field guide\n15 / 20"
+        }
+      ],
+      "charCount": 1993,
+      "height": 792.0,
+      "pageNumber": 15,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            158.77,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "## build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            403.18,
+            219.46,
+            419.76
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "## interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            55.28,
+            158.1,
+            66.97
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Build the hand"
+        },
+        {
+          "bbox": [
+            82.5,
+            71.03,
+            541.5,
+            109.72
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Print or assemble the tendon-driven hand, route fishing line through each finger to a\nservo horn, and add elastic returns. Test each finger by driving its servo directly —\nmechanics first, biology second."
+        },
+        {
+          "bbox": [
+            58.5,
+            54.49,
+            64.8,
+            68.14
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            122.78,
+            185.1,
+            134.48
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Separate your power"
+        },
+        {
+          "bbox": [
+            82.5,
+            138.52,
+            557.7,
+            177.23
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Run the servos from their own 5 V supply with a common ground to the logic, and keep the\nEMG front end on its own isolated battery. Servo current spikes will wreck a shared rail\nand inject noise into your biosignal."
+        },
+        {
+          "bbox": [
+            58.5,
+            121.99,
+            64.8,
+            135.64
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            190.27,
+            206.7,
+            201.98
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Feed in one EMG channel"
+        },
+        {
+          "bbox": [
+            82.5,
+            206.02,
+            552.3,
+            231.23
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Take the envelope from project 4 and map it to grip position. Clench and watch the hand\nclose. Expect it to be jittery — that is the raw truth of biosignals."
+        },
+        {
+          "bbox": [
+            58.5,
+            189.49,
+            64.8,
+            203.14
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            244.27,
+            190.5,
+            255.98
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Calibrate and smooth"
+        },
+        {
+          "bbox": [
+            82.5,
+            260.02,
+            536.1,
+            298.73
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Record your relaxed baseline and maximum contraction, normalise the envelope between\nthem, add hysteresis so it does not chatter at the threshold, and smooth the servo\nmotion. It should now feel deliberate."
+        },
+        {
+          "bbox": [
+            58.5,
+            243.49,
+            64.8,
+            257.14
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            311.77,
+            201.3,
+            323.48
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Add the second channel"
+        },
+        {
+          "bbox": [
+            82.5,
+            327.52,
+            552.3,
+            366.23
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Add an extensor channel so one muscle closes and the other opens. Tune both, then film\nit — a hand that mirrors your own muscle in real time is the single best portfolio clip\nin this guide."
+        },
+        {
+          "bbox": [
+            58.5,
+            310.99,
+            64.8,
+            324.64
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            69.0,
+            440.77,
+            472.8,
+            452.48
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "How does a myoelectric prosthesis translate muscle activity into motion?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            460.27,
+            445.8,
+            471.98
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Why must an EMG control system be calibrated per session, per user?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            479.77,
+            451.2,
+            491.48
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Why use separate flexor and extensor channels instead of one muscle?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            499.27,
+            424.2,
+            510.98
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Why must servo power be separated from the biosignal front end?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            518.78,
+            445.8,
+            530.47
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "What is hysteresis, and why does a threshold-based control need it?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            538.28,
+            413.4,
+            549.97
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "How do clinical prosthetics classify multiple grips from EMG?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "reading the body — a Build List field guide\n16 / 20"
+        }
+      ],
+      "charCount": 1571,
+      "height": 792.0,
+      "pageNumber": 16,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.03,
+            307.13,
+            65.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "❯ project 06\nEEG Alpha-Wave Detector"
+        },
+        {
+          "bbox": [
+            52.5,
+            72.14,
+            435.0,
+            84.33
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Close your eyes and watch an 8 to 12 Hz rhythm rise out of the noise"
+        },
+        {
+          "bbox": [
+            60.75,
+            98.04,
+            209.72,
+            108.77
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "$60\nadvanced\n2 weekends"
+        },
+        {
+          "bbox": [
+            52.5,
+            132.43,
+            196.71,
+            149.01
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "## why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            158.02,
+            549.3,
+            250.73
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "EEG is the hardest biosignal there is: tens of microvolts, a hundred times smaller than an\nECG, buried under mains hum, muscle tension, and eye movement. But there is one effect a\ncareful DIY rig can genuinely capture — the alpha rhythm. Relax with your eyes closed and an\n8 to 12 Hz oscillation appears over the back of your head; open your eyes and it vanishes\nwithin a second. Watching that band power rise and fall on an FFT, on command, is the most\ndemanding and most rewarding build in this guide — and it is a real, reproducible\nneuroscience result, not a gimmick."
+        },
+        {
+          "bbox": [
+            69.0,
+            288.18,
+            544.2,
+            352.73
+          ],
+          "blockIndex": 5,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou can design a genuinely low-noise, high-gain analog front end, manage shielding and\ngrounding at the microvolt level, distinguish real neural signal from muscle and eye\nartifact, and validate a result experimentally. Microvolt-level analog design and honest\nartifact rejection are precisely what neurotech teams look for."
+        },
+        {
+          "bbox": [
+            52.5,
+            374.77,
+            538.53,
+            399.98
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "→ the job this maps to: neurotech and brain-computer interface engineering — BCI startups,\nneural-wearable companies, and neuroscience research labs."
+        },
+        {
+          "bbox": [
+            69.0,
+            422.43,
+            544.2,
+            513.97
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "! IT WILL NOT READ YOUR MIND\nAlpha blocking — a rhythm that appears when your eyes close and disappears when they\nopen — is the realistic and honest goal. Anything claiming to read thoughts or emotions\nfrom a few electrodes is overselling. Most hobby “brainwave” projects are actually\ndetecting jaw clenching or eye blinks; the eyes-closed alpha test is how you prove yours\nis real. This is also not a diagnostic device, and it cannot tell you anything about\nyour neurological health."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "reading the body — a Build List field guide\n17 / 20"
+        }
+      ],
+      "charCount": 1757,
+      "height": 792.0,
+      "pageNumber": 17,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            166.36,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "## how it works"
+        },
+        {
+          "bbox": [
+            69.0,
+            342.93,
+            538.8,
+            406.73
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "BUILD NOTE\nThis is the one build where sloppiness guarantees failure. Battery power, shielded\nleads, short wires, a driven reference, and real electrode contact (gold cup electrodes\nwith conductive paste, parted through the hair) are not optional extras — they are the\ndifference between alpha waves and a screen full of mains hum."
+        },
+        {
+          "bbox": [
+            52.5,
+            444.43,
+            204.29,
+            461.01
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "## bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            474.54,
+            552.0,
+            485.27
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "component\npart / spec\nqty\n~cost"
+        },
+        {
+          "bbox": [
+            52.5,
+            497.41,
+            551.99,
+            508.62
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Low-noise front end\nINA333 (or ADS1299 for the serious build)\n1\n$8"
+        },
+        {
+          "bbox": [
+            52.5,
+            520.66,
+            551.99,
+            531.87
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Precision op-amps\nfilters + driven reference\n1\n$5"
+        },
+        {
+          "bbox": [
+            52.5,
+            543.16,
+            552.0,
+            554.37
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Gold cup electrodes + paste\noccipital, reference, ground\n1\n$20"
+        },
+        {
+          "bbox": [
+            52.5,
+            565.66,
+            551.99,
+            576.87
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Shielded cable + enclosure\nshort shielded leads, metal box\n—\n$8"
+        },
+        {
+          "bbox": [
+            52.5,
+            588.16,
+            552.0,
+            599.37
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "ADC / microcontroller\n24-bit ADC or ESP32 + care\n1\n$10"
+        },
+        {
+          "bbox": [
+            52.5,
+            611.41,
+            551.99,
+            622.62
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Batteries + passives\nisolated supply, filters\n—\n$9"
+        },
+        {
+          "bbox": [
+            67.5,
+            52.28,
+            558.91,
+            90.97
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Microvolts, not millivolts: Scalp EEG is roughly 10–100 µV — ten to a hundred times smaller\nthan an ECG. That means much higher gain (often 10,000× or more), far lower noise, and no\ntolerance for the sloppy wiring you got away with earlier."
+        },
+        {
+          "bbox": [
+            52.5,
+            53.15,
+            57.92,
+            63.62
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            99.53,
+            558.9,
+            151.73
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "The alpha rhythm: When a relaxed person closes their eyes, neurons in the visual cortex\nsynchronise into an 8–12 Hz oscillation that is strongest over the occipital region, at the\nback of the head. Opening the eyes suppresses it almost immediately. This alpha blocking is\nthe classic, reproducible EEG demonstration."
+        },
+        {
+          "bbox": [
+            52.5,
+            100.4,
+            57.92,
+            110.87
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            160.27,
+            558.9,
+            212.48
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Electrodes and placement: Measure over the occipital area, referenced to an earlobe or\nmastoid, with a driven reference electrode. Gold cup electrodes with conductive paste\n(parted through the hair) give far better contact than dry electrodes — and contact quality\ndominates your result."
+        },
+        {
+          "bbox": [
+            52.5,
+            161.15,
+            57.92,
+            171.62
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            221.02,
+            553.5,
+            273.23
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Artifacts everywhere: Eye blinks produce huge slow deflections, jaw and neck tension\nproduce broadband muscle noise, and any cable movement produces artifact. All of these are\nbigger than the alpha you are chasing, which is why so many “brainwave” demos are really\nartifact detectors."
+        },
+        {
+          "bbox": [
+            52.5,
+            221.9,
+            57.92,
+            232.37
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            281.77,
+            548.11,
+            320.48
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Proving it with an FFT: Band-pass roughly 1–30 Hz, run an FFT, and watch the power in the\n8–12 Hz bin. Eyes closed and relaxed: it rises. Eyes open: it drops. Toggling that on\ncommand, repeatably, is your proof the signal is neural and not noise."
+        },
+        {
+          "bbox": [
+            52.5,
+            282.65,
+            57.92,
+            293.12
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "reading the body — a Build List field guide\n18 / 20"
+        }
+      ],
+      "charCount": 2170,
+      "height": 792.0,
+      "pageNumber": 18,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            158.77,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "## build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            403.18,
+            219.46,
+            419.76
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "## interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            55.28,
+            222.9,
+            66.97
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Build for noise, not speed"
+        },
+        {
+          "bbox": [
+            82.5,
+            71.03,
+            557.7,
+            109.72
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Assemble the front end with very high gain, split across stages, band-passed to about 1–\n30 Hz with a mains notch. Keep leads short and shielded and run everything from\nbatteries in a shielded enclosure."
+        },
+        {
+          "bbox": [
+            58.5,
+            54.49,
+            64.8,
+            68.14
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            122.78,
+            222.9,
+            134.48
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Prove the rig on ECG first"
+        },
+        {
+          "bbox": [
+            82.5,
+            138.52,
+            557.7,
+            163.73
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Before you go near your head, record an ECG with the same rig. If you cannot get a clean\nECG, you will never see EEG — this step will save you a weekend of confusion."
+        },
+        {
+          "bbox": [
+            58.5,
+            121.99,
+            64.8,
+            135.64
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            176.77,
+            222.9,
+            188.48
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Place occipital electrodes"
+        },
+        {
+          "bbox": [
+            82.5,
+            192.52,
+            557.7,
+            231.23
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Part the hair and apply gold cup electrodes with paste over the occipital region,\nreference on the earlobe or mastoid, plus the driven reference. Check contact impedance;\npoor contact is the number one failure."
+        },
+        {
+          "bbox": [
+            58.5,
+            175.99,
+            64.8,
+            189.64
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            244.27,
+            222.9,
+            255.98
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Sit still, close your eyes"
+        },
+        {
+          "bbox": [
+            82.5,
+            260.02,
+            546.9,
+            298.73
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Relax, stay very still, and record with eyes closed for thirty seconds, then eyes open\nfor thirty seconds. Stillness matters enormously — any jaw tension will swamp the\nsignal."
+        },
+        {
+          "bbox": [
+            58.5,
+            243.49,
+            64.8,
+            257.14
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            311.77,
+            217.5,
+            323.48
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Find the alpha in the FFT"
+        },
+        {
+          "bbox": [
+            82.5,
+            327.52,
+            546.9,
+            366.23
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Run an FFT and compare the 8–12 Hz band power between the two conditions. A clear rise\nwith eyes closed, repeatable across trials, is real alpha. Anything that only appears\nwhen you blink or clench is artifact — be honest about which you got."
+        },
+        {
+          "bbox": [
+            58.5,
+            310.99,
+            64.8,
+            324.64
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            69.0,
+            440.77,
+            332.4,
+            452.48
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Why is EEG so much harder to measure than ECG?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            460.27,
+            391.8,
+            471.98
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "What is the alpha rhythm, and what causes alpha blocking?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            479.77,
+            375.6,
+            491.48
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Why is electrode contact impedance so critical in EEG?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            499.27,
+            456.6,
+            510.98
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "What are the dominant artifacts in EEG, and how do you identify them?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            518.78,
+            521.4,
+            530.47
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "How would you prove that a signal you recorded is neural and not muscle artifact?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            538.28,
+            429.6,
+            549.97
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "What are the realistic limits of a low-channel-count EEG system?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "reading the body — a Build List field guide\n19 / 20"
+        }
+      ],
+      "charCount": 1601,
+      "height": 792.0,
+      "pageNumber": 19,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.03,
+            87.17,
+            37.72
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "❯ wrap"
+        },
+        {
+          "bbox": [
+            52.5,
+            43.82,
+            398.71,
+            87.24
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Your body is broadcasting —\nmost engineers just can’t hear it."
+        },
+        {
+          "bbox": [
+            52.5,
+            100.28,
+            549.3,
+            179.48
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "A pulse in a beam of light, a heartbeat across your chest, a muscle firing, a rhythm in your\nvisual cortex — six ways to pull a living signal out of noise a thousand times larger. The\nparts are cheap (a $5 optical sensor, a $6 instrumentation amp, a pack of electrodes). The\nskill is entirely in the analog: the common-mode rejection, the gain staging, the filtering,\nthe honest separation of signal from artifact. That is exactly what medical-device,\nneurotech, and wearable teams hire for."
+        },
+        {
+          "bbox": [
+            52.5,
+            199.18,
+            196.71,
+            215.76
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "// the skill ladder"
+        },
+        {
+          "bbox": [
+            52.5,
+            225.52,
+            462.9,
+            237.23
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Build them in order and each one hands you the technique the next one needs:"
+        },
+        {
+          "bbox": [
+            52.5,
+            245.39,
+            472.68,
+            257.58
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "optical pulse →biopotential front end →ECG →EMG →myoelectric control →EEG"
+        },
+        {
+          "bbox": [
+            69.0,
+            283.68,
+            544.2,
+            388.73
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "! THE RULES, EVERY SINGLE TIME\nBattery power only. Never connect a body-attached circuit to mains-powered equipment —\nno plugged-in laptop, no bench scope, no wall adapter. Put current-limiting resistors in\nevery electrode lead, and isolate (Bluetooth, or a laptop running on battery) if you\nneed the data on a computer. Everything here only measures; never build anything that\npushes current into a person, and never attach electrodes to anyone with a pacemaker or\nimplanted device. And none of these are medical devices — they are demonstrations, and\nno health decision should ever come from one."
+        },
+        {
+          "bbox": [
+            69.0,
+            420.18,
+            544.2,
+            498.23
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "DO THIS\nBuild even one. Capture the trace — a PQRST complex, an EMG envelope tracking your grip,\na hand closing when you flex, alpha power rising when your eyes close — and put the code\non GitHub with your filter design, your calibration, and an honest note on artifacts and\nscope. One biosignal demo and one clean repo prove you can do precision analog on a\nliving system."
+        },
+        {
+          "bbox": [
+            69.0,
+            530.03,
+            528.02,
+            568.72
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Full build notes, parts links, and the next field guide go out in The Build List. The\npeople actually shipping these — and trading electrode and shielding tricks — are in\nOhm’s Club."
+        },
+        {
+          "bbox": [
+            52.5,
+            597.53,
+            252.3,
+            609.22
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "— Enes (@1nska) · Electrical Engineer"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "reading the body — a Build List field guide\n20 / 20"
+        }
+      ],
+      "charCount": 1968,
+      "height": 792.0,
+      "pageNumber": 20,
+      "textExtractable": true,
+      "width": 612.0
+    }
+  ],
+  "provenance": {
+    "confidence": "EXACT",
+    "extractionMethod": "pymupdf-blocks-v1",
+    "extractorVersion": "1.28.0",
+    "generatorVersion": null,
+    "origin": "extracted",
+    "source": "guide-008",
+    "sourceHash": "86768ecf607a9976460cd5eb814372f60b8013ad843b16736d76b298925f0d6b",
+    "sourcePage": null,
+    "sourcePath": "Engineering guides/6 EE Projects That Read The Body.pdf",
+    "sourceSection": "ROOT"
+  },
+  "relativePath": "Engineering guides/6 EE Projects That Read The Body.pdf",
+  "schemaVersion": "1.0.0",
+  "sha256": "86768ecf607a9976460cd5eb814372f60b8013ad843b16736d76b298925f0d6b",
+  "sourceId": "guide-008"
+}

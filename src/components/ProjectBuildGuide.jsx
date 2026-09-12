@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { getStoredItem, setStoredItem } from '../utils/storage';
 import { 
   Wrench, 
   Cpu, 
@@ -62,20 +63,13 @@ export default function ProjectBuildGuide({
 
   // Local storage checklist state for this project
   const [checkedSteps, setCheckedSteps] = useState(() => {
-    try {
-      const saved = localStorage.getItem(`build_check_${project?.id}`);
-      return saved ? JSON.parse(saved) : {};
-    } catch {
-      return {};
-    }
+    return getStoredItem(`build_check_${project?.id}`, {});
   });
 
   const toggleCheckStep = (stepIdx) => {
     setCheckedSteps(prev => {
       const next = { ...prev, [stepIdx]: !prev[stepIdx] };
-      try {
-        localStorage.setItem(`build_check_${project?.id}`, JSON.stringify(next));
-      } catch {}
+      setStoredItem(`build_check_${project?.id}`, next);
       return next;
     });
   };
@@ -159,9 +153,7 @@ export default function ProjectBuildGuide({
     const next = {};
     allKeys.forEach(k => { next[k] = completed; });
     setCheckedSteps(next);
-    try {
-      localStorage.setItem(`build_check_${project?.id}`, JSON.stringify(next));
-    } catch {}
+    setStoredItem(`build_check_${project?.id}`, next);
   };
 
   const official = project.officialData || {};

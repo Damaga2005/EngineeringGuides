@@ -22,7 +22,7 @@
 
   <!-- Header Panel -->
   <rect x="30" y="25" width="840" height="52" rx="8" fill="#101C38" stroke="#2A4575" stroke-width="1.5"/>
-  <text x="48" y="48" fill="#00E5FF" font-size="13" font-weight="bold" letter-spacing="0.5">ESQUEMA TÉCNICO CAD · Phil's Lab High-Speed Hardware Design</text>
+  <text x="48" y="48" fill="#00E5FF" font-size="13" font-weight="bold" letter-spacing="0.5">ESQUEMA TÉCNICO CAD · Phil&apos;s Lab High-Speed Hardware Design</text>
   <text x="48" y="66" fill="#94A3B8" font-size="10">NIVEL LÓGICO 3.3V LVTTL · FILTRADO LOW-ESR · CONEXIONADO DIRECTO PUNTO A PUNTO</text>
 
   <!-- Left Block: MCU Controller -->
@@ -53,7 +53,7 @@
 
   <!-- Right Block: Target Module / Payload -->
   <rect x="625" y="92" width="235" height="295" rx="10" fill="url(#glow_mod_guide-028_2)" stroke="#10B981" stroke-width="2"/>
-  <text x="642" y="122" fill="#34D399" font-size="14" font-weight="bold">Phil's Lab High-Speed Hardware Desi</text>
+  <text x="642" y="122" fill="#34D399" font-size="14" font-weight="bold">Phil&apos;s Lab High-Speed Hardware Desi</text>
   <text x="642" y="138" fill="#94A3B8" font-size="10">Módulo / Sensor / Actuador de Precisión</text>
   
         <rect x="635" y="160" width="215" height="34" rx="6" fill="#11332C" stroke="#FF3366" stroke-width="1.5"/>

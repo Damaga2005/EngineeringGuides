@@ -1,0 +1,3324 @@
+{
+  "metadata": {
+    "author": "@1nska / The Build List",
+    "creationDate": "D:20260628183733+00'00'",
+    "creator": "(unspecified)",
+    "format": "PDF 1.4",
+    "modDate": "D:20260628183733+00'00'",
+    "producer": "ReportLab PDF Library - (opensource)",
+    "subject": "(unspecified)",
+    "title": "The Summer EE Glow-Up Vol. 3"
+  },
+  "pageCount": 12,
+  "pages": [
+    {
+      "blocks": [
+        {
+          "bbox": [
+            61.2,
+            93.01,
+            320.4,
+            104.71
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "THE BUILD LIST  |  SUMMER FIELD GUIDE  |  VOL. 3"
+        },
+        {
+          "bbox": [
+            61.2,
+            146.18,
+            259.2,
+            225.07
+          ],
+          "blockIndex": 1,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "THE SUMMER\nEE GLOW-UP"
+        },
+        {
+          "bbox": [
+            61.2,
+            229.93,
+            246.0,
+            244.23
+          ],
+          "blockIndex": 2,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "VOL. 3  |  14 MORE RESOURCES"
+        },
+        {
+          "bbox": [
+            61.2,
+            264.9,
+            514.8,
+            298.5
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Fourteen more, and still zero overlap with the first two lists.\nIf you ran the first two, this is where you specialize."
+        },
+        {
+          "bbox": [
+            75.2,
+            346.26,
+            348.8,
+            358.61
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "buildlist $ start glow-up --vol 3 --resources 14"
+        },
+        {
+          "bbox": [
+            75.2,
+            362.26,
+            274.7,
+            374.61
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "loading specialist picks ... ready."
+        },
+        {
+          "bbox": [
+            61.2,
+            731.96,
+            550.8,
+            742.36
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "@1nska\nthe build list"
+        }
+      ],
+      "charCount": 320,
+      "height": 792.0,
+      "pageNumber": 1,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            61.2,
+            36.95,
+            550.8,
+            46.7
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "THE SUMMER EE GLOW-UP  /  VOL. 3\n@1nska  |  THE BUILD LIST"
+        },
+        {
+          "bbox": [
+            61.2,
+            747.8,
+            550.8,
+            758.2
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "@1nska  >  the build list\n2"
+        },
+        {
+          "bbox": [
+            67.2,
+            78.19,
+            143.7,
+            89.24
+          ],
+          "blockIndex": 2,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "READ THIS FIRST"
+        },
+        {
+          "bbox": [
+            67.2,
+            101.09,
+            539.7,
+            135.34
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Volume three. Fourteen more of the best, and still zero overlap\nwith the first two lists."
+        },
+        {
+          "bbox": [
+            67.2,
+            145.16,
+            540.3,
+            157.51
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "The first two guides covered the foundations and the deeper cuts. This one is about"
+        },
+        {
+          "bbox": [
+            67.2,
+            160.16,
+            540.3,
+            172.51
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "specializing: the channels, courses, and tools that take you from a capable student"
+        },
+        {
+          "bbox": [
+            67.2,
+            175.16,
+            540.3,
+            187.51
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "to someone with a real lane. Same format. Every resource has how to use it, the job"
+        },
+        {
+          "bbox": [
+            67.2,
+            190.16,
+            340.8,
+            202.51
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "it maps to, and a link. Tap any name to open it."
+        },
+        {
+          "bbox": [
+            72.2,
+            226.12,
+            197.6,
+            240.42
+          ],
+          "blockIndex": 8,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "THE ONE RULE, STILL"
+        },
+        {
+          "bbox": [
+            72.2,
+            258.12,
+            539.8,
+            304.42
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Fourteen options now, so the rule matters more, not less. Do not try to\ndo all of them. Pick three that point at the same job and go deep. A\nchecklist is not a skill."
+        }
+      ],
+      "charCount": 671,
+      "height": 792.0,
+      "pageNumber": 2,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            61.2,
+            36.95,
+            550.8,
+            46.7
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "THE SUMMER EE GLOW-UP  /  VOL. 3\n@1nska  |  THE BUILD LIST"
+        },
+        {
+          "bbox": [
+            61.2,
+            747.8,
+            550.8,
+            758.2
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "@1nska  >  the build list\n3"
+        },
+        {
+          "bbox": [
+            67.2,
+            76.0,
+            540.3,
+            108.51
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "THE 14 RESOURCES\nEach one with what it is, how to actually use it, and the job it maps to. Links are"
+        },
+        {
+          "bbox": [
+            67.2,
+            111.16,
+            124.2,
+            123.51
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "clickable."
+        },
+        {
+          "bbox": [
+            91.2,
+            142.81,
+            269.4,
+            160.36
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "01  All About Circuits"
+        },
+        {
+          "bbox": [
+            67.2,
+            165.2,
+            220.8,
+            175.6
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "SITE | CORE | textbook and forum"
+        },
+        {
+          "bbox": [
+            67.2,
+            181.19,
+            203.28,
+            192.11
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "> open allaboutcircuits.com"
+        },
+        {
+          "bbox": [
+            67.2,
+            199.66,
+            528.9,
+            212.01
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "A free online textbook covering nearly every EE topic, with a busy forum for when"
+        },
+        {
+          "bbox": [
+            67.2,
+            214.16,
+            147.0,
+            226.51
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "you get stuck."
+        },
+        {
+          "bbox": [
+            72.2,
+            245.66,
+            146.3,
+            258.01
+          ],
+          "blockIndex": 9,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "HOW TO USE IT"
+        },
+        {
+          "bbox": [
+            72.2,
+            261.16,
+            539.6,
+            273.51
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "> Use the textbook volumes as a searchable reference. Look up the concept, not the"
+        },
+        {
+          "bbox": [
+            72.2,
+            276.66,
+            152.0,
+            289.01
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "whole chapter."
+        },
+        {
+          "bbox": [
+            72.2,
+            292.16,
+            511.1,
+            304.51
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "> When a build stalls, search the forum first. Your exact problem is probably"
+        },
+        {
+          "bbox": [
+            72.2,
+            307.66,
+            169.1,
+            320.01
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "already answered."
+        },
+        {
+          "bbox": [
+            72.2,
+            323.16,
+            482.6,
+            335.51
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "> Bookmark the worked examples. They are cleaner than most paid courses."
+        },
+        {
+          "bbox": [
+            67.2,
+            354.66,
+            528.9,
+            367.01
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "-> The job this maps to: Generalist EE. A free reference deep enough to carry you"
+        },
+        {
+          "bbox": [
+            67.2,
+            369.16,
+            164.1,
+            381.51
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "through a degree."
+        },
+        {
+          "bbox": [
+            91.2,
+            401.31,
+            164.1,
+            418.86
+          ],
+          "blockIndex": 17,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "02  NPTEL"
+        },
+        {
+          "bbox": [
+            67.2,
+            423.7,
+            297.6,
+            434.1
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "COURSES | CORE | India's top engineering schools"
+        },
+        {
+          "bbox": [
+            67.2,
+            439.69,
+            157.92,
+            450.61
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "> open nptel.ac.in"
+        },
+        {
+          "bbox": [
+            67.2,
+            458.16,
+            528.9,
+            470.51
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Full university courses from the IITs and IISc, free, with real lectures and real"
+        },
+        {
+          "bbox": [
+            67.2,
+            472.66,
+            101.4,
+            485.01
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "rigor."
+        },
+        {
+          "bbox": [
+            72.2,
+            504.16,
+            146.3,
+            516.51
+          ],
+          "blockIndex": 22,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "HOW TO USE IT"
+        },
+        {
+          "bbox": [
+            72.2,
+            519.66,
+            494.0,
+            532.01
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "> Pick one full course and follow it like a class, not a playlist to skim."
+        },
+        {
+          "bbox": [
+            72.2,
+            535.16,
+            539.6,
+            547.51
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "> Do the assignments. The depth is the point and the problems are where it sticks."
+        },
+        {
+          "bbox": [
+            72.2,
+            550.66,
+            448.4,
+            563.01
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "> Use it to go deeper on a topic your own program covers too fast."
+        },
+        {
+          "bbox": [
+            67.2,
+            582.16,
+            528.9,
+            594.51
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "-> The job this maps to: Any rigorous EE role. University-grade depth without the"
+        },
+        {
+          "bbox": [
+            67.2,
+            596.66,
+            112.8,
+            609.01
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "tuition."
+        }
+      ],
+      "charCount": 1230,
+      "height": 792.0,
+      "pageNumber": 3,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            61.2,
+            36.95,
+            550.8,
+            46.7
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "THE SUMMER EE GLOW-UP  /  VOL. 3\n@1nska  |  THE BUILD LIST"
+        },
+        {
+          "bbox": [
+            61.2,
+            747.8,
+            550.8,
+            758.2
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "@1nska  >  the build list\n4"
+        },
+        {
+          "bbox": [
+            91.2,
+            76.81,
+            212.7,
+            94.36
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "03  GreatScott!"
+        },
+        {
+          "bbox": [
+            67.2,
+            99.2,
+            225.6,
+            109.6
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "YOUTUBE | CORE | practical builds"
+        },
+        {
+          "bbox": [
+            67.2,
+            115.19,
+            233.52,
+            126.11
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "> open youtube.com/@greatscottlab"
+        },
+        {
+          "bbox": [
+            67.2,
+            133.66,
+            540.3,
+            146.01
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Fast, practical build tutorials that turn theory into things you can actually make."
+        },
+        {
+          "bbox": [
+            72.2,
+            165.16,
+            146.3,
+            177.51
+          ],
+          "blockIndex": 6,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "HOW TO USE IT"
+        },
+        {
+          "bbox": [
+            72.2,
+            180.66,
+            465.5,
+            193.01
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "> Pick a project and build it with him, sourcing the parts as you go."
+        },
+        {
+          "bbox": [
+            72.2,
+            196.16,
+            511.1,
+            208.51
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "> Watch the electronics basics series to shore up the fundamentals behind the"
+        },
+        {
+          "bbox": [
+            72.2,
+            211.66,
+            112.1,
+            224.01
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "builds."
+        },
+        {
+          "bbox": [
+            72.2,
+            227.16,
+            499.7,
+            239.51
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "> Then remix one project into your own. That is where the learning happens."
+        },
+        {
+          "bbox": [
+            67.2,
+            258.66,
+            534.6,
+            271.01
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "-> The job this maps to: Maker and hardware engineer. Proof you can take a circuit"
+        },
+        {
+          "bbox": [
+            67.2,
+            273.16,
+            226.8,
+            285.51
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "from idea to working object."
+        },
+        {
+          "bbox": [
+            91.2,
+            305.31,
+            212.7,
+            322.86
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "04  ElectroBOOM"
+        },
+        {
+          "bbox": [
+            67.2,
+            327.7,
+            220.8,
+            338.1
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "YOUTUBE | CORE | Mehdi Sadaghdar"
+        },
+        {
+          "bbox": [
+            67.2,
+            343.69,
+            223.44,
+            354.61
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "> open youtube.com/@ElectroBOOM"
+        },
+        {
+          "bbox": [
+            67.2,
+            362.16,
+            534.6,
+            374.51
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Electronics taught through mistakes and small explosions. You learn the danger and"
+        },
+        {
+          "bbox": [
+            67.2,
+            376.66,
+            158.4,
+            389.01
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "never forget it."
+        },
+        {
+          "bbox": [
+            72.2,
+            408.16,
+            146.3,
+            420.51
+          ],
+          "blockIndex": 18,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "HOW TO USE IT"
+        },
+        {
+          "bbox": [
+            72.2,
+            423.66,
+            471.2,
+            436.01
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "> Watch for the intuition and the safety lessons, not just the laughs."
+        },
+        {
+          "bbox": [
+            72.2,
+            439.16,
+            499.7,
+            451.51
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "> Note every time something pops. That is a rule you now remember for life."
+        },
+        {
+          "bbox": [
+            72.2,
+            454.66,
+            539.6,
+            467.01
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "> Pair it with a serious source. He shows what not to do, then you learn the right"
+        },
+        {
+          "bbox": [
+            72.2,
+            470.16,
+            95.0,
+            482.51
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "way."
+        },
+        {
+          "bbox": [
+            67.2,
+            501.66,
+            540.3,
+            514.01
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "-> The job this maps to: Any hands-on engineer. Respect for high voltage is a skill"
+        },
+        {
+          "bbox": [
+            67.2,
+            516.16,
+            181.2,
+            528.51
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "that keeps you safe."
+        }
+      ],
+      "charCount": 1123,
+      "height": 792.0,
+      "pageNumber": 4,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            61.2,
+            36.95,
+            550.8,
+            46.7
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "THE SUMMER EE GLOW-UP  /  VOL. 3\n@1nska  |  THE BUILD LIST"
+        },
+        {
+          "bbox": [
+            61.2,
+            747.8,
+            550.8,
+            758.2
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "@1nska  >  the build list\n5"
+        },
+        {
+          "bbox": [
+            91.2,
+            76.81,
+            237.0,
+            94.36
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "05  Andreas Spiess"
+        },
+        {
+          "bbox": [
+            67.2,
+            99.2,
+            249.6,
+            109.6
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "YOUTUBE | INTERMEDIATE | ESP32 and IoT"
+        },
+        {
+          "bbox": [
+            67.2,
+            115.19,
+            228.48,
+            126.11
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "> open Andreas Spiess on YouTube"
+        },
+        {
+          "bbox": [
+            67.2,
+            133.66,
+            494.7,
+            146.01
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "The ESP32 and IoT channel. Sensors, wifi projects, and home automation done"
+        },
+        {
+          "bbox": [
+            67.2,
+            148.16,
+            118.5,
+            160.51
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "properly."
+        },
+        {
+          "bbox": [
+            72.2,
+            179.66,
+            146.3,
+            192.01
+          ],
+          "blockIndex": 7,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "HOW TO USE IT"
+        },
+        {
+          "bbox": [
+            72.2,
+            195.16,
+            516.8,
+            207.51
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "> Use it whenever you build with an ESP32 or sensors. The detail is unmatched."
+        },
+        {
+          "bbox": [
+            72.2,
+            210.66,
+            459.8,
+            223.01
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "> Follow one full project, then swap in your own sensor or use case."
+        },
+        {
+          "bbox": [
+            72.2,
+            226.16,
+            425.6,
+            238.51
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "> Keep his videos open as a reference while you wire and code."
+        },
+        {
+          "bbox": [
+            67.2,
+            257.66,
+            523.2,
+            270.01
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "-> The job this maps to: Embedded and IoT developer. The wireless, sensor-driven"
+        },
+        {
+          "bbox": [
+            67.2,
+            272.16,
+            164.1,
+            284.51
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "side of hardware."
+        },
+        {
+          "bbox": [
+            91.2,
+            304.31,
+            318.0,
+            321.86
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "06  FEDEVEL (Robert Feranec)"
+        },
+        {
+          "bbox": [
+            67.2,
+            326.7,
+            283.2,
+            337.1
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "YOUTUBE | ADVANCED | PCB and signal integrity"
+        },
+        {
+          "bbox": [
+            67.2,
+            342.69,
+            228.48,
+            353.61
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "> open Robert Feranec on YouTube"
+        },
+        {
+          "bbox": [
+            67.2,
+            361.16,
+            540.3,
+            373.51
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Real PCB design and signal integrity from an industry pro. What turns a hobby board"
+        },
+        {
+          "bbox": [
+            67.2,
+            375.66,
+            152.7,
+            388.01
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "into a product."
+        },
+        {
+          "bbox": [
+            72.2,
+            407.16,
+            146.3,
+            419.51
+          ],
+          "blockIndex": 18,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "HOW TO USE IT"
+        },
+        {
+          "bbox": [
+            72.2,
+            422.66,
+            482.6,
+            435.01
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "> Watch his board reviews to see what separates an amateur layout from a"
+        },
+        {
+          "bbox": [
+            72.2,
+            438.16,
+            169.1,
+            450.51
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "professional one."
+        },
+        {
+          "bbox": [
+            72.2,
+            453.66,
+            511.1,
+            466.01
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "> Apply one signal integrity idea, like proper grounding, to your next board."
+        },
+        {
+          "bbox": [
+            72.2,
+            469.16,
+            425.6,
+            481.51
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "> This is the step up after you can already make a simple PCB."
+        },
+        {
+          "bbox": [
+            67.2,
+            500.66,
+            523.2,
+            513.01
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "-> The job this maps to: Professional PCB and hardware engineer. The skills that"
+        },
+        {
+          "bbox": [
+            67.2,
+            515.16,
+            175.5,
+            527.51
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "ship real products."
+        }
+      ],
+      "charCount": 1118,
+      "height": 792.0,
+      "pageNumber": 5,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            61.2,
+            36.95,
+            550.8,
+            46.7
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "THE SUMMER EE GLOW-UP  /  VOL. 3\n@1nska  |  THE BUILD LIST"
+        },
+        {
+          "bbox": [
+            61.2,
+            747.8,
+            550.8,
+            758.2
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "@1nska  >  the build list\n6"
+        },
+        {
+          "bbox": [
+            91.2,
+            76.81,
+            228.9,
+            94.36
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "07  Steve Brunton"
+        },
+        {
+          "bbox": [
+            67.2,
+            99.2,
+            283.2,
+            109.6
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "YOUTUBE | ADVANCED | control and applied math"
+        },
+        {
+          "bbox": [
+            67.2,
+            115.19,
+            223.44,
+            126.11
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "> open Steve Brunton on YouTube"
+        },
+        {
+          "bbox": [
+            67.2,
+            133.66,
+            534.6,
+            146.01
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Control, Fourier, and dynamics explained with rare clarity. The applied math under"
+        },
+        {
+          "bbox": [
+            67.2,
+            148.16,
+            181.2,
+            160.51
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "signals and systems."
+        },
+        {
+          "bbox": [
+            72.2,
+            179.66,
+            146.3,
+            192.01
+          ],
+          "blockIndex": 7,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "HOW TO USE IT"
+        },
+        {
+          "bbox": [
+            72.2,
+            195.16,
+            533.9,
+            207.51
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "> Start with the Control Bootcamp series. It is the clearest intro to control you"
+        },
+        {
+          "bbox": [
+            72.2,
+            210.66,
+            129.2,
+            223.01
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "will find."
+        },
+        {
+          "bbox": [
+            72.2,
+            226.16,
+            425.6,
+            238.51
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "> Watch with a notebook and rederive the key results yourself."
+        },
+        {
+          "bbox": [
+            72.2,
+            241.66,
+            465.5,
+            254.01
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "> Use it the moment your signals or control class stops making sense."
+        },
+        {
+          "bbox": [
+            67.2,
+            273.16,
+            500.4,
+            285.51
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "-> The job this maps to: Controls and signals engineer. The math that powers"
+        },
+        {
+          "bbox": [
+            67.2,
+            287.66,
+            232.5,
+            300.01
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "robotics, RF, and automation."
+        },
+        {
+          "bbox": [
+            91.2,
+            319.81,
+            301.8,
+            337.36
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "08  Digi-Key (Shawn Hymel)"
+        },
+        {
+          "bbox": [
+            67.2,
+            342.2,
+            278.4,
+            352.6
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "COURSES | INTERMEDIATE | embedded and TinyML"
+        },
+        {
+          "bbox": [
+            67.2,
+            358.19,
+            173.04,
+            369.11
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "> open shawnhymel.com"
+        },
+        {
+          "bbox": [
+            67.2,
+            376.66,
+            544.8,
+            389.01
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Free structured series on real embedded topics like RTOS and TinyML. A hidden course"
+        },
+        {
+          "bbox": [
+            67.2,
+            391.16,
+            158.4,
+            403.51
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "on a parts site."
+        },
+        {
+          "bbox": [
+            72.2,
+            422.66,
+            146.3,
+            435.01
+          ],
+          "blockIndex": 19,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "HOW TO USE IT"
+        },
+        {
+          "bbox": [
+            72.2,
+            438.16,
+            528.2,
+            450.51
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "> Run the Intro to RTOS series end to end. Most students never learn this and it"
+        },
+        {
+          "bbox": [
+            72.2,
+            453.66,
+            106.4,
+            466.01
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "shows."
+        },
+        {
+          "bbox": [
+            72.2,
+            469.16,
+            368.6,
+            481.51
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "> Do every challenge before peeking at the solution."
+        },
+        {
+          "bbox": [
+            72.2,
+            484.66,
+            528.2,
+            497.01
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "> Move to the TinyML series once you want machine learning on a microcontroller."
+        },
+        {
+          "bbox": [
+            67.2,
+            516.16,
+            523.2,
+            528.51
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "-> The job this maps to: Embedded firmware engineer. RTOS and edge ML are skills"
+        },
+        {
+          "bbox": [
+            67.2,
+            530.66,
+            175.5,
+            543.01
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "that get you hired."
+        }
+      ],
+      "charCount": 1141,
+      "height": 792.0,
+      "pageNumber": 6,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            61.2,
+            36.95,
+            550.8,
+            46.7
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "THE SUMMER EE GLOW-UP  /  VOL. 3\n@1nska  |  THE BUILD LIST"
+        },
+        {
+          "bbox": [
+            61.2,
+            747.8,
+            550.8,
+            758.2
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "@1nska  >  the build list\n7"
+        },
+        {
+          "bbox": [
+            91.2,
+            76.81,
+            220.8,
+            94.36
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "09  CircuitVerse"
+        },
+        {
+          "bbox": [
+            67.2,
+            99.2,
+            268.8,
+            109.6
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "TOOL | CORE | digital logic in the browser"
+        },
+        {
+          "bbox": [
+            67.2,
+            115.19,
+            183.12,
+            126.11
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "> open circuitverse.org"
+        },
+        {
+          "bbox": [
+            67.2,
+            133.66,
+            544.8,
+            146.01
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Build and simulate digital logic in your browser, from gates to a working processor,"
+        },
+        {
+          "bbox": [
+            67.2,
+            148.16,
+            129.9,
+            160.51
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "no install."
+        },
+        {
+          "bbox": [
+            72.2,
+            179.66,
+            146.3,
+            192.01
+          ],
+          "blockIndex": 7,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "HOW TO USE IT"
+        },
+        {
+          "bbox": [
+            72.2,
+            195.16,
+            505.4,
+            207.51
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "> Build the basic gates first, then combine them into adders and flip-flops."
+        },
+        {
+          "bbox": [
+            72.2,
+            210.66,
+            528.2,
+            223.01
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "> Work up to a simple processor. Seeing it run makes architecture finally click."
+        },
+        {
+          "bbox": [
+            72.2,
+            226.16,
+            442.7,
+            238.51
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "> Save and share your circuits. They make clean portfolio pieces."
+        },
+        {
+          "bbox": [
+            67.2,
+            257.66,
+            523.2,
+            270.01
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "-> The job this maps to: Digital design engineer. Logic and architecture you can"
+        },
+        {
+          "bbox": [
+            67.2,
+            272.16,
+            186.9,
+            284.51
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "actually demonstrate."
+        },
+        {
+          "bbox": [
+            91.2,
+            304.31,
+            180.3,
+            321.86
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "10  EasyEDA"
+        },
+        {
+          "bbox": [
+            67.2,
+            326.7,
+            254.4,
+            337.1
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "TOOL | INTERMEDIATE | schematic and PCB"
+        },
+        {
+          "bbox": [
+            67.2,
+            342.69,
+            157.92,
+            353.61
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "> open easyeda.com"
+        },
+        {
+          "bbox": [
+            67.2,
+            361.16,
+            534.6,
+            373.51
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Draw a schematic and lay out a PCB in the browser, then order it straight from the"
+        },
+        {
+          "bbox": [
+            67.2,
+            375.66,
+            90.0,
+            388.01
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "fab."
+        },
+        {
+          "bbox": [
+            72.2,
+            407.16,
+            146.3,
+            419.51
+          ],
+          "blockIndex": 18,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "HOW TO USE IT"
+        },
+        {
+          "bbox": [
+            72.2,
+            422.66,
+            528.2,
+            435.01
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "> Draw a simple schematic, convert it to a PCB, and route it. No install needed."
+        },
+        {
+          "bbox": [
+            72.2,
+            438.16,
+            408.5,
+            450.51
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "> Use the huge parts library so footprints are not a fight."
+        },
+        {
+          "bbox": [
+            72.2,
+            453.66,
+            505.4,
+            466.01
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "> Export the files or order the board directly and hold your first real PCB."
+        },
+        {
+          "bbox": [
+            67.2,
+            485.16,
+            523.2,
+            497.51
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "-> The job this maps to: Hardware engineer. The fastest path from schematic to a"
+        },
+        {
+          "bbox": [
+            67.2,
+            499.66,
+            175.5,
+            512.01
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "board in your hand."
+        }
+      ],
+      "charCount": 1077,
+      "height": 792.0,
+      "pageNumber": 7,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            61.2,
+            36.95,
+            550.8,
+            46.7
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "THE SUMMER EE GLOW-UP  /  VOL. 3\n@1nska  |  THE BUILD LIST"
+        },
+        {
+          "bbox": [
+            61.2,
+            747.8,
+            550.8,
+            758.2
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "@1nska  >  the build list\n8"
+        },
+        {
+          "bbox": [
+            91.2,
+            76.81,
+            220.8,
+            94.36
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "11  WolframAlpha"
+        },
+        {
+          "bbox": [
+            67.2,
+            99.2,
+            220.8,
+            109.6
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "TOOL | CORE | computation engine"
+        },
+        {
+          "bbox": [
+            67.2,
+            115.19,
+            183.12,
+            126.11
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "> open wolframalpha.com"
+        },
+        {
+          "bbox": [
+            67.2,
+            133.66,
+            534.6,
+            146.01
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Solve the math, check the integral, plot the response. Your engineering calculator"
+        },
+        {
+          "bbox": [
+            67.2,
+            148.16,
+            152.7,
+            160.51
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "with no limits."
+        },
+        {
+          "bbox": [
+            72.2,
+            179.66,
+            146.3,
+            192.01
+          ],
+          "blockIndex": 7,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "HOW TO USE IT"
+        },
+        {
+          "bbox": [
+            72.2,
+            195.16,
+            471.2,
+            207.51
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "> Use it to check your hand math, not replace it. Solve, then confirm."
+        },
+        {
+          "bbox": [
+            72.2,
+            210.66,
+            465.5,
+            223.01
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "> Plot transfer functions and step responses to build intuition fast."
+        },
+        {
+          "bbox": [
+            72.2,
+            226.16,
+            488.3,
+            238.51
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "> Ask it to solve circuits and differential equations when you are stuck."
+        },
+        {
+          "bbox": [
+            67.2,
+            257.66,
+            528.9,
+            270.01
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "-> The job this maps to: Any EE role. The tool that turns messy math into a quick"
+        },
+        {
+          "bbox": [
+            67.2,
+            272.16,
+            107.1,
+            284.51
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "answer."
+        },
+        {
+          "bbox": [
+            91.2,
+            304.31,
+            334.2,
+            321.86
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "12  Electronics Stack Exchange"
+        },
+        {
+          "bbox": [
+            67.2,
+            326.7,
+            192.0,
+            337.1
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "COMMUNITY | CORE | Q and A"
+        },
+        {
+          "bbox": [
+            67.2,
+            342.69,
+            248.64,
+            353.61
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "> open electronics.stackexchange.com"
+        },
+        {
+          "bbox": [
+            67.2,
+            361.16,
+            544.8,
+            373.51
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Where working engineers answer the hard questions. Search it first, then ask a sharp"
+        },
+        {
+          "bbox": [
+            67.2,
+            375.66,
+            90.0,
+            388.01
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "one."
+        },
+        {
+          "bbox": [
+            72.2,
+            407.16,
+            146.3,
+            419.51
+          ],
+          "blockIndex": 18,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "HOW TO USE IT"
+        },
+        {
+          "bbox": [
+            72.2,
+            422.66,
+            494.0,
+            435.01
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "> Search before you post. Your question has likely been answered in detail"
+        },
+        {
+          "bbox": [
+            72.2,
+            438.16,
+            117.8,
+            450.51
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "already."
+        },
+        {
+          "bbox": [
+            72.2,
+            453.66,
+            471.2,
+            466.01
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "> When you do ask, show your schematic, your math, and what you tried."
+        },
+        {
+          "bbox": [
+            72.2,
+            469.16,
+            454.1,
+            481.51
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "> Read the top answers on classic questions. They are mini lessons."
+        },
+        {
+          "bbox": [
+            67.2,
+            500.66,
+            523.2,
+            513.01
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "-> The job this maps to: Not a job, a multiplier. Asking precise questions is an"
+        },
+        {
+          "bbox": [
+            67.2,
+            515.16,
+            209.7,
+            527.51
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "engineering skill itself."
+        }
+      ],
+      "charCount": 1083,
+      "height": 792.0,
+      "pageNumber": 8,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            61.2,
+            36.95,
+            550.8,
+            46.7
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "THE SUMMER EE GLOW-UP  /  VOL. 3\n@1nska  |  THE BUILD LIST"
+        },
+        {
+          "bbox": [
+            61.2,
+            747.8,
+            550.8,
+            758.2
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "@1nska  >  the build list\n9"
+        },
+        {
+          "bbox": [
+            91.2,
+            76.81,
+            212.7,
+            94.36
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "13  Hackster.io"
+        },
+        {
+          "bbox": [
+            67.2,
+            99.2,
+            268.8,
+            109.6
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "COMMUNITY | CORE | projects and publishing"
+        },
+        {
+          "bbox": [
+            67.2,
+            115.19,
+            157.92,
+            126.11
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "> open hackster.io"
+        },
+        {
+          "bbox": [
+            67.2,
+            133.66,
+            540.3,
+            146.01
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Thousands of project tutorials with parts and code, and a place to publish your own"
+        },
+        {
+          "bbox": [
+            67.2,
+            148.16,
+            107.1,
+            160.51
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "builds."
+        },
+        {
+          "bbox": [
+            72.2,
+            179.66,
+            146.3,
+            192.01
+          ],
+          "blockIndex": 7,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "HOW TO USE IT"
+        },
+        {
+          "bbox": [
+            72.2,
+            195.16,
+            505.4,
+            207.51
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "> Browse projects near what you want to build and follow the parts and code."
+        },
+        {
+          "bbox": [
+            72.2,
+            210.66,
+            516.8,
+            223.01
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "> Publish your own build with steps and photos. A documented project is proof."
+        },
+        {
+          "bbox": [
+            72.2,
+            226.16,
+            465.5,
+            238.51
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "> Enter a contest. The deadline will get a project actually finished."
+        },
+        {
+          "bbox": [
+            67.2,
+            257.66,
+            540.3,
+            270.01
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "-> The job this maps to: Maker and engineer. A public project portfolio that people"
+        },
+        {
+          "bbox": [
+            67.2,
+            272.16,
+            118.5,
+            284.51
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "can find."
+        },
+        {
+          "bbox": [
+            91.2,
+            304.31,
+            447.6,
+            321.86
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "14  Digital Design and Computer Architecture"
+        },
+        {
+          "bbox": [
+            67.2,
+            326.7,
+            235.2,
+            337.1
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "BOOK | ADVANCED | Harris and Harris"
+        },
+        {
+          "bbox": [
+            67.2,
+            342.69,
+            198.24,
+            353.61
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "> open search for the book"
+        },
+        {
+          "bbox": [
+            67.2,
+            361.16,
+            528.9,
+            373.51
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "The book that takes you from logic gates all the way to a working processor, with"
+        },
+        {
+          "bbox": [
+            67.2,
+            375.66,
+            186.9,
+            388.01
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "free lectures online."
+        },
+        {
+          "bbox": [
+            72.2,
+            407.16,
+            146.3,
+            419.51
+          ],
+          "blockIndex": 18,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "HOW TO USE IT"
+        },
+        {
+          "bbox": [
+            72.2,
+            422.66,
+            414.2,
+            435.01
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "> Read it alongside CircuitVerse so you build what you read."
+        },
+        {
+          "bbox": [
+            72.2,
+            438.16,
+            488.3,
+            450.51
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "> Work through the RISC-V or MIPS processor chapters. That is the payoff."
+        },
+        {
+          "bbox": [
+            72.2,
+            453.66,
+            488.3,
+            466.01
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "> Pair the chapters with the free lecture videos when a concept is dense."
+        },
+        {
+          "bbox": [
+            67.2,
+            485.16,
+            544.8,
+            497.51
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "-> The job this maps to: Computer architecture and digital design engineer. How CPUs"
+        },
+        {
+          "bbox": [
+            67.2,
+            499.66,
+            147.0,
+            512.01
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "actually work."
+        }
+      ],
+      "charCount": 1102,
+      "height": 792.0,
+      "pageNumber": 9,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            61.2,
+            36.95,
+            550.8,
+            46.7
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "THE SUMMER EE GLOW-UP  /  VOL. 3\n@1nska  |  THE BUILD LIST"
+        },
+        {
+          "bbox": [
+            61.2,
+            747.8,
+            550.8,
+            758.2
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "@1nska  >  the build list\n10"
+        },
+        {
+          "bbox": [
+            67.2,
+            76.0,
+            517.5,
+            108.51
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "THE 12-WEEK STACK\nHow to combine them so the summer compounds. Each phase ends with something you"
+        },
+        {
+          "bbox": [
+            67.2,
+            111.16,
+            95.7,
+            123.51
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "ship."
+        },
+        {
+          "bbox": [
+            70.2,
+            148.19,
+            370.2,
+            159.24
+          ],
+          "blockIndex": 4,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "PHASE\nDO THIS\nYOU SHIP"
+        },
+        {
+          "bbox": [
+            70.2,
+            176.18,
+            122.4,
+            200.49
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "FOUNDATION\nWeeks 1-4"
+        },
+        {
+          "bbox": [
+            145.8,
+            176.18,
+            307.62,
+            213.49
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "All About Circuits and NPTEL\nfor the theory. WolframAlpha to\ncheck every result."
+        },
+        {
+          "bbox": [
+            329.4,
+            176.18,
+            532.98,
+            200.49
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "The fundamentals locked, with notes you\ncan search."
+        },
+        {
+          "bbox": [
+            70.2,
+            231.18,
+            117.18,
+            255.49
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "BUILD\nWeeks 5-8"
+        },
+        {
+          "bbox": [
+            145.8,
+            231.18,
+            291.96,
+            281.49
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Pick a lane. GreatScott and\nEasyEDA for hardware, or\nCircuitVerse and Shawn Hymel\nfor digital and firmware."
+        },
+        {
+          "bbox": [
+            329.4,
+            231.18,
+            527.76,
+            255.49
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "A real circuit or board, simulated and\nbuilt."
+        },
+        {
+          "bbox": [
+            70.2,
+            299.18,
+            122.4,
+            323.49
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "LEVEL UP\nWeeks 9-12"
+        },
+        {
+          "bbox": [
+            145.8,
+            299.18,
+            302.4,
+            349.49
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Go deep with Feranec, Brunton,\nor the Harris book, then\npublish the result on\nHackster.io."
+        },
+        {
+          "bbox": [
+            329.4,
+            299.18,
+            501.66,
+            323.49
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "One advanced project and a public\nwriteup."
+        }
+      ],
+      "charCount": 679,
+      "height": 792.0,
+      "pageNumber": 10,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            61.2,
+            36.95,
+            550.8,
+            46.7
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "THE SUMMER EE GLOW-UP  /  VOL. 3\n@1nska  |  THE BUILD LIST"
+        },
+        {
+          "bbox": [
+            61.2,
+            747.8,
+            550.8,
+            758.2
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "@1nska  >  the build list\n11"
+        },
+        {
+          "bbox": [
+            67.2,
+            76.0,
+            534.6,
+            108.51
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "PICK YOUR LANE\nThree lanes again. Pick one set of three. The reference, IoT, safety, Q and A, and"
+        },
+        {
+          "bbox": [
+            67.2,
+            111.16,
+            289.5,
+            123.51
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "project picks ride along with any lane."
+        },
+        {
+          "bbox": [
+            72.2,
+            149.13,
+            184.4,
+            163.43
+          ],
+          "blockIndex": 4,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "THE HARDWARE LANE"
+        },
+        {
+          "bbox": [
+            72.2,
+            166.18,
+            327.98,
+            177.49
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "You want to design, build, and fab real hardware."
+        },
+        {
+          "bbox": [
+            72.2,
+            185.18,
+            140.06,
+            196.49
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "> GreatScott!"
+        },
+        {
+          "bbox": [
+            72.2,
+            198.68,
+            171.38,
+            209.99
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "> FEDEVEL (Feranec)"
+        },
+        {
+          "bbox": [
+            72.2,
+            212.18,
+            119.18,
+            223.49
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "> EasyEDA"
+        },
+        {
+          "bbox": [
+            72.2,
+            231.69,
+            378.2,
+            242.74
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Outcome: you take a circuit from idea to a fabricated board."
+        },
+        {
+          "bbox": [
+            72.2,
+            272.62,
+            177.8,
+            286.92
+          ],
+          "blockIndex": 10,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "THE DIGITAL LANE"
+        },
+        {
+          "bbox": [
+            72.2,
+            289.68,
+            333.2,
+            300.99
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "You want to understand logic, chips, and firmware."
+        },
+        {
+          "bbox": [
+            72.2,
+            308.68,
+            145.28,
+            319.99
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "> CircuitVerse"
+        },
+        {
+          "bbox": [
+            72.2,
+            322.18,
+            291.44,
+            333.49
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "> Digital Design and Computer Architecture"
+        },
+        {
+          "bbox": [
+            72.2,
+            335.68,
+            197.48,
+            346.99
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "> Digi-Key (Shawn Hymel)"
+        },
+        {
+          "bbox": [
+            72.2,
+            355.19,
+            464.9,
+            366.24
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Outcome: you build logic, see how a CPU works, and write the firmware on top."
+        },
+        {
+          "bbox": [
+            72.2,
+            396.12,
+            237.2,
+            410.42
+          ],
+          "blockIndex": 16,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "THE SIGNALS AND MATH LANE"
+        },
+        {
+          "bbox": [
+            72.2,
+            413.18,
+            327.98,
+            424.49
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "You want the math, signals, and control to click."
+        },
+        {
+          "bbox": [
+            72.2,
+            432.18,
+            150.5,
+            443.49
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "> Steve Brunton"
+        },
+        {
+          "bbox": [
+            72.2,
+            445.68,
+            145.28,
+            456.99
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "> WolframAlpha"
+        },
+        {
+          "bbox": [
+            72.2,
+            459.18,
+            108.74,
+            470.49
+          ],
+          "blockIndex": 20,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "> NPTEL"
+        },
+        {
+          "bbox": [
+            72.2,
+            478.69,
+            449.6,
+            489.74
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Outcome: you handle the math and control that everything else is built on."
+        }
+      ],
+      "charCount": 796,
+      "height": 792.0,
+      "pageNumber": 11,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            61.2,
+            36.95,
+            550.8,
+            46.7
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "THE SUMMER EE GLOW-UP  /  VOL. 3\n@1nska  |  THE BUILD LIST"
+        },
+        {
+          "bbox": [
+            61.2,
+            747.8,
+            550.8,
+            758.2
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "@1nska  >  the build list\n12"
+        },
+        {
+          "bbox": [
+            67.2,
+            104.0,
+            326.4,
+            124.8
+          ],
+          "blockIndex": 2,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "THE GLOW-UP IS NOT THIS PDF"
+        },
+        {
+          "bbox": [
+            67.2,
+            134.13,
+            516.0,
+            148.43
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Three guides and almost forty resources in, the bottleneck was never"
+        },
+        {
+          "bbox": [
+            67.2,
+            152.13,
+            542.4,
+            166.43
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "information. It is reps. Pick your lane, pick your three, and start this"
+        },
+        {
+          "bbox": [
+            67.2,
+            170.13,
+            522.6,
+            184.43
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "week. The projects on your bench in September are the only proof that"
+        },
+        {
+          "bbox": [
+            67.2,
+            188.13,
+            113.4,
+            202.43
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "counts."
+        },
+        {
+          "bbox": [
+            72.2,
+            241.07,
+            204.8,
+            257.98
+          ],
+          "blockIndex": 7,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "KEEP THE MOMENTUM"
+        },
+        {
+          "bbox": [
+            72.2,
+            266.17,
+            158.6,
+            277.88
+          ],
+          "blockIndex": 8,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "> THE BUILD LIST"
+        },
+        {
+          "bbox": [
+            72.2,
+            280.67,
+            539.8,
+            292.38
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "The newsletter. Weekly build breakdowns and the projects you should not be able to make"
+        },
+        {
+          "bbox": [
+            72.2,
+            295.17,
+            115.4,
+            306.88
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "at home."
+        },
+        {
+          "bbox": [
+            72.2,
+            317.67,
+            169.4,
+            329.38
+          ],
+          "blockIndex": 11,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "> FOLLOW THE BUILD"
+        },
+        {
+          "bbox": [
+            72.2,
+            332.17,
+            471.8,
+            343.88
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "@1nska on Instagram. Daily build logs and the projects behind every guide."
+        },
+        {
+          "bbox": [
+            169.5,
+            377.57,
+            442.5,
+            394.48
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Build in public. Ship by September."
+        },
+        {
+          "bbox": [
+            117.0,
+            401.67,
+            495.0,
+            413.38
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Follow @1nska if you're building the future, not just studying for it."
+        }
+      ],
+      "charCount": 654,
+      "height": 792.0,
+      "pageNumber": 12,
+      "textExtractable": true,
+      "width": 612.0
+    }
+  ],
+  "provenance": {
+    "confidence": "EXACT",
+    "extractionMethod": "pymupdf-blocks-v1",
+    "extractorVersion": "1.28.0",
+    "generatorVersion": null,
+    "origin": "extracted",
+    "source": "guide-030",
+    "sourceHash": "b3ea413994392805f3419ec1babde9b792fed6f587244590687170afd86dbd25",
+    "sourcePage": null,
+    "sourcePath": "Engineering guides/summer-ee-glow-up-vol3.pdf",
+    "sourceSection": "ROOT"
+  },
+  "relativePath": "Engineering guides/summer-ee-glow-up-vol3.pdf",
+  "schemaVersion": "1.0.0",
+  "sha256": "b3ea413994392805f3419ec1babde9b792fed6f587244590687170afd86dbd25",
+  "sourceId": "guide-030"
+}

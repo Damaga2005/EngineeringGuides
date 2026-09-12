@@ -1,0 +1,6153 @@
+{
+  "metadata": {
+    "format": "PDF 1.4",
+    "producer": "pypdf"
+  },
+  "pageCount": 15,
+  "pages": [
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            33.93,
+            319.46,
+            44.17
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "FIELD GUIDE · ROBOTICS · 6 PROJECTS · SEP 2026"
+        },
+        {
+          "bbox": [
+            59.25,
+            56.81,
+            209.55,
+            66.56
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "REV A · SENSE · DECIDE · ACT"
+        },
+        {
+          "bbox": [
+            52.5,
+            102.86,
+            348.81,
+            165.26
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Six EE Projects That\nThink For Themselves"
+        },
+        {
+          "bbox": [
+            52.5,
+            177.38,
+            467.38,
+            189.66
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Rovers, arms, legs, eyes, and hands — six complete robots that run the loop every real robot"
+        },
+        {
+          "bbox": [
+            52.5,
+            193.88,
+            461.75,
+            206.16
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "runs: sense, decide, act. From a rover that avoids walls on its own, to an arm that solves its"
+        },
+        {
+          "bbox": [
+            52.5,
+            210.38,
+            461.1,
+            222.66
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "own joint angles, to a quadruped that walks, to a rover that maps a room it has never seen."
+        },
+        {
+          "bbox": [
+            52.5,
+            226.88,
+            251.51,
+            239.16
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Commodity parts; real robotics engineering."
+        },
+        {
+          "bbox": [
+            52.5,
+            273.49,
+            419.89,
+            287.14
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "01\nReactive Rover A rover that senses walls and steers itself — the sense-plan-act loop in its"
+        },
+        {
+          "bbox": [
+            79.5,
+            290.25,
+            130.63,
+            300.26
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "simplest form"
+        },
+        {
+          "bbox": [
+            462.16,
+            275.02,
+            478.36,
+            286.73
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$35"
+        },
+        {
+          "bbox": [
+            52.5,
+            318.49,
+            418.81,
+            332.14
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "02\nRobot Arm with Inverse Kinematics Tell the arm an X, Y, Z and it works out every joint"
+        },
+        {
+          "bbox": [
+            79.5,
+            336.0,
+            226.24,
+            346.01
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "angle itself — pick and place, from math"
+        },
+        {
+          "bbox": [
+            462.16,
+            320.02,
+            478.36,
+            331.73
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$60"
+        },
+        {
+          "bbox": [
+            52.5,
+            364.24,
+            409.27,
+            377.89
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "03\nQuadruped Walker Four legs, twelve servos, and a gait that actually walks — the robot"
+        },
+        {
+          "bbox": [
+            79.5,
+            381.0,
+            169.44,
+            391.01
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "everyone stops to watch"
+        },
+        {
+          "bbox": [
+            462.16,
+            365.77,
+            478.36,
+            377.48
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$90"
+        },
+        {
+          "bbox": [
+            52.5,
+            409.24,
+            427.26,
+            422.89
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "04\nVision-Guided Tracking Robot A robot that sees a target and follows it across the room —"
+        },
+        {
+          "bbox": [
+            79.5,
+            426.0,
+            172.65,
+            436.01
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "perception meets control"
+        },
+        {
+          "bbox": [
+            462.16,
+            410.77,
+            478.36,
+            422.48
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$45"
+        },
+        {
+          "bbox": [
+            52.5,
+            454.24,
+            423.65,
+            467.89
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "05\nForce-Sensing Gripper A gripper that feels how hard it's squeezing — grab an egg without"
+        },
+        {
+          "bbox": [
+            79.5,
+            471.75,
+            118.56,
+            481.76
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "breaking it"
+        },
+        {
+          "bbox": [
+            462.16,
+            455.77,
+            478.36,
+            467.48
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$40"
+        },
+        {
+          "bbox": [
+            52.5,
+            499.99,
+            406.46,
+            513.64
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "06\nSLAM Mapping Rover A rover that maps a room it has never seen, then navigates it —"
+        },
+        {
+          "bbox": [
+            79.5,
+            516.75,
+            146.77,
+            526.76
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "autonomy, for real"
+        },
+        {
+          "bbox": [
+            462.16,
+            501.52,
+            478.36,
+            513.22
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$95"
+        },
+        {
+          "bbox": [
+            52.5,
+            557.04,
+            405.96,
+            567.77
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "● By Enes · @1nska · Electrical Engineer — a Build List field guide"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "build robots — a Build List field guide\n1 / 15"
+        }
+      ],
+      "charCount": 1233,
+      "height": 792.0,
+      "pageNumber": 1,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            69.0,
+            264.56,
+            240.0,
+            274.31
+          ],
+          "blockIndex": 0,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "WHAT THIS PROVES TO A RECRUITER"
+        },
+        {
+          "bbox": [
+            69.0,
+            277.35,
+            527.98,
+            288.46
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "You understand the sense-plan-act loop, distance sensing (ultrasonic time-of-flight, IR reflectance), differential-"
+        },
+        {
+          "bbox": [
+            69.0,
+            291.6,
+            510.22,
+            302.71
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "drive steering, and behavior-based control. That is the foundation of mobile robotics and embedded control."
+        },
+        {
+          "bbox": [
+            52.5,
+            326.1,
+            546.83,
+            337.41
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "→the job this maps to: mobile robotics & embedded systems — robot-vacuum, warehouse-AMR, and consumer-robotics"
+        },
+        {
+          "bbox": [
+            52.5,
+            342.31,
+            80.45,
+            351.46
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "teams."
+        },
+        {
+          "bbox": [
+            52.5,
+            379.58,
+            156.32,
+            394.7
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "// how it works"
+        },
+        {
+          "bbox": [
+            67.5,
+            404.1,
+            540.9,
+            415.21
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Sense-plan-act: The robot reads its sensors, applies a rule to decide a motion, drives the motors, and repeats many"
+        },
+        {
+          "bbox": [
+            67.5,
+            418.35,
+            440.77,
+            429.46
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "times a second. The entire behavior emerges from that tight loop — no global map required."
+        },
+        {
+          "bbox": [
+            52.5,
+            404.76,
+            57.09,
+            415.41
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            439.35,
+            556.14,
+            450.46
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Ultrasonic ranging: An HC-SR04 emits a 40 kHz ping and times the echo; distance is the speed of sound times the time,"
+        },
+        {
+          "bbox": [
+            67.5,
+            453.6,
+            401.97,
+            464.71
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "halved. It gives you a “how far to the thing ahead” number tens of times a second."
+        },
+        {
+          "bbox": [
+            52.5,
+            440.01,
+            57.09,
+            450.66
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            474.6,
+            532.59,
+            485.71
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "IR reflectance: Cheap IR sensors detect a nearby obstacle (or a line or edge) by bounced infrared. Mounted at the"
+        },
+        {
+          "bbox": [
+            67.5,
+            488.85,
+            293.74,
+            499.96
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "corners, they catch what the forward ultrasonic misses."
+        },
+        {
+          "bbox": [
+            52.5,
+            475.26,
+            57.09,
+            485.91
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            509.85,
+            555.14,
+            520.96
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Differential drive: Two independently driven wheels (plus a caster) steer by speed difference: equal speeds go straight,"
+        },
+        {
+          "bbox": [
+            67.5,
+            524.1,
+            455.33,
+            535.21
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "unequal speeds turn, opposite spin turns in place. It is the simplest steerable platform there is."
+        },
+        {
+          "bbox": [
+            52.5,
+            510.51,
+            57.09,
+            521.16
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            545.1,
+            548.71,
+            556.21
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Behavior rules: A priority list of simple behaviors — if something is close ahead, back up and turn; else if a side sensor"
+        },
+        {
+          "bbox": [
+            67.5,
+            559.35,
+            542.4,
+            583.96
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "fires, veer away; else drive forward — produces surprisingly lifelike wandering. This is behavior-based (subsumption)\ncontrol."
+        },
+        {
+          "bbox": [
+            52.5,
+            545.76,
+            57.09,
+            556.41
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            26.43,
+            200.19,
+            64.95
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "■ P R O J E C T 0 1\nReactive Rover"
+        },
+        {
+          "bbox": [
+            52.5,
+            72.38,
+            421.1,
+            83.75
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "A rover that senses walls and steers itself — the sense-plan-act loop in its simplest form"
+        },
+        {
+          "bbox": [
+            60.75,
+            99.18,
+            206.25,
+            109.42
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "$35\nbeginner\n1 weekend"
+        },
+        {
+          "bbox": [
+            52.5,
+            134.33,
+            183.99,
+            149.45
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "// why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            158.85,
+            551.87,
+            169.96
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Every robot, from a vacuum to a Mars rover, runs the same loop: sense the world, decide what to do, act, repeat. A reactive"
+        },
+        {
+          "bbox": [
+            52.5,
+            173.1,
+            544.63,
+            184.21
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "rover is the purest version — an ultrasonic and a pair of IR sensors feed a few simple rules that steer two motors, and the"
+        },
+        {
+          "bbox": [
+            52.5,
+            187.35,
+            555.57,
+            211.96
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "machine roams a room avoiding walls and furniture with no map and no plan. It is the cheapest way to build something that\nbehaves on its own, the payoff is immediate (it just drives off), and it is the chassis and control skeleton every later project"
+        },
+        {
+          "bbox": [
+            52.5,
+            215.1,
+            144.15,
+            226.21
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "in this guide builds on."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "build robots — a Build List field guide\n2 / 15"
+        }
+      ],
+      "charCount": 2158,
+      "height": 792.0,
+      "pageNumber": 2,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            27.08,
+            190.9,
+            42.2
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "// bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            54.93,
+            551.37,
+            65.17
+          ],
+          "blockIndex": 1,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "COMPONENT\nPART / SPEC\nQTY\n~COST"
+        },
+        {
+          "bbox": [
+            52.5,
+            77.41,
+            552.0,
+            88.62
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Chassis + motors + caster\n2WD robot chassis kit\n1\n$12"
+        },
+        {
+          "bbox": [
+            52.5,
+            100.66,
+            551.99,
+            111.87
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Motor driver\nTB6612 / L298N\n1\n$4"
+        },
+        {
+          "bbox": [
+            52.5,
+            123.91,
+            551.99,
+            135.12
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Ultrasonic sensor\nHC-SR04\n1\n$2"
+        },
+        {
+          "bbox": [
+            52.5,
+            147.16,
+            551.99,
+            158.37
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "IR obstacle sensors\nreflectance modules (×2)\n2\n$3"
+        },
+        {
+          "bbox": [
+            52.5,
+            170.41,
+            552.0,
+            181.62
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Microcontroller + battery\nArduino / ESP32, 18650 or AA pack\n1\n$14"
+        },
+        {
+          "bbox": [
+            52.5,
+            214.58,
+            149.4,
+            229.7
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "// build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            532.58,
+            204.74,
+            547.7
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "// interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            242.1,
+            195.83,
+            253.21
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Build and drive the chassis"
+        },
+        {
+          "bbox": [
+            82.5,
+            258.6,
+            550.28,
+            269.71
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Assemble the 2WD chassis, wire the motor driver, and drive forward, back, and turn from code. Confirm the wheels"
+        },
+        {
+          "bbox": [
+            82.5,
+            272.85,
+            156.81,
+            283.96
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "spin the right way."
+        },
+        {
+          "bbox": [
+            58.5,
+            240.49,
+            64.8,
+            254.14
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            298.35,
+            164.66,
+            309.46
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Read the ultrasonic"
+        },
+        {
+          "bbox": [
+            82.5,
+            314.85,
+            554.92,
+            325.96
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Mount the HC-SR04 facing forward, trigger a ping, time the echo, and print distance. Wave a hand in front and watch"
+        },
+        {
+          "bbox": [
+            82.5,
+            329.1,
+            155.58,
+            340.21
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "the number track."
+        },
+        {
+          "bbox": [
+            58.5,
+            296.74,
+            64.8,
+            310.39
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            354.6,
+            162.81,
+            365.71
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Add the IR sensors"
+        },
+        {
+          "bbox": [
+            82.5,
+            371.1,
+            488.11,
+            382.21
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Mount IR sensors at the front corners and read them. Confirm they trigger on a nearby wall or hand."
+        },
+        {
+          "bbox": [
+            58.5,
+            352.99,
+            64.8,
+            366.64
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            396.6,
+            184.38,
+            407.71
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Write the behavior rules"
+        },
+        {
+          "bbox": [
+            82.5,
+            413.1,
+            556.99,
+            437.71
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Implement the priority rules: close ahead means back up and turn, a side sensor means veer, otherwise forward. Let\nit loose in a room and watch it avoid furniture."
+        },
+        {
+          "bbox": [
+            58.5,
+            394.99,
+            64.8,
+            408.64
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            452.1,
+            185.69,
+            463.21
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Tune and make it lifelike"
+        },
+        {
+          "bbox": [
+            82.5,
+            468.6,
+            534.72,
+            479.71
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Adjust thresholds, turn durations, and speeds until it roams smoothly without getting stuck. Add a random turn"
+        },
+        {
+          "bbox": [
+            82.5,
+            482.85,
+            303.77,
+            493.96
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "direction so it explores — your first autonomous robot."
+        },
+        {
+          "bbox": [
+            58.5,
+            450.49,
+            64.8,
+            464.14
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            69.0,
+            569.1,
+            374.35,
+            580.41
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "What is the sense-plan-act loop, and why is it fundamental to robotics?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            589.35,
+            288.76,
+            600.66
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "How does an ultrasonic sensor measure distance?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            609.6,
+            254.39,
+            620.91
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "How does a differential-drive robot steer?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            629.85,
+            277.87,
+            641.16
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "What is behavior-based (subsumption) control?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            650.1,
+            286.72,
+            661.41
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Why can a reactive robot navigate without a map?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            670.35,
+            314.84,
+            681.66
+          ],
+          "blockIndex": 32,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "What are the failure modes of ultrasonic and IR sensing?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 33,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "build robots — a Build List field guide\n3 / 15"
+        }
+      ],
+      "charCount": 1491,
+      "height": 792.0,
+      "pageNumber": 3,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            69.0,
+            264.56,
+            240.0,
+            274.31
+          ],
+          "blockIndex": 0,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "WHAT THIS PROVES TO A RECRUITER"
+        },
+        {
+          "bbox": [
+            69.0,
+            277.35,
+            526.57,
+            288.46
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "You understand forward and inverse kinematics, joint-space versus Cartesian-space control, servo coordination,"
+        },
+        {
+          "bbox": [
+            69.0,
+            291.6,
+            529.04,
+            302.71
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "workspace limits, and trajectory smoothing. Kinematics and manipulation are core to industrial and collaborative"
+        },
+        {
+          "bbox": [
+            69.0,
+            307.81,
+            104.83,
+            316.96
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "robotics."
+        },
+        {
+          "bbox": [
+            52.5,
+            340.35,
+            511.07,
+            351.66
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "→the job this maps to: robotics and manipulation engineering — industrial-robot, cobot, and automation teams."
+        },
+        {
+          "bbox": [
+            52.5,
+            379.58,
+            156.32,
+            394.7
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "// how it works"
+        },
+        {
+          "bbox": [
+            67.5,
+            404.1,
+            551.66,
+            415.21
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Forward kinematics: Given the joint angles and link lengths, trigonometry tells you where the gripper ends up. It is the"
+        },
+        {
+          "bbox": [
+            67.5,
+            418.35,
+            357.04,
+            429.46
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "easy direction, and it is how you verify your model against the real arm."
+        },
+        {
+          "bbox": [
+            52.5,
+            404.76,
+            57.09,
+            415.41
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            439.35,
+            555.66,
+            450.46
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Inverse kinematics: Given a target (x, y, z), you solve backward for the joint angles. For a 4-axis arm: base rotation from"
+        },
+        {
+          "bbox": [
+            67.5,
+            453.6,
+            549.45,
+            464.71
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "the target’s bearing, then a planar two-link triangle (shoulder and elbow) solved with the law of cosines, then the wrist"
+        },
+        {
+          "bbox": [
+            67.5,
+            467.85,
+            146.24,
+            478.96
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "to level the gripper."
+        },
+        {
+          "bbox": [
+            52.5,
+            440.01,
+            57.09,
+            450.66
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            488.85,
+            559.42,
+            499.96
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "The two-link triangle: The shoulder, elbow, and target form a triangle whose sides are your link lengths and the distance"
+        },
+        {
+          "bbox": [
+            67.5,
+            503.1,
+            531.51,
+            514.21
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "to the target. The law of cosines gives the elbow angle; a little more trig gives the shoulder. That is the heart of the"
+        },
+        {
+          "bbox": [
+            67.5,
+            519.31,
+            103.04,
+            528.46
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "solution."
+        },
+        {
+          "bbox": [
+            52.5,
+            489.51,
+            57.09,
+            500.16
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            538.35,
+            514.6,
+            549.46
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Joint limits and workspace: Servos only rotate so far and links have fixed lengths, so only a region of space is"
+        },
+        {
+          "bbox": [
+            67.5,
+            552.6,
+            455.67,
+            563.71
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "reachable. Your IK must check reachability and respect limits, or you command the impossible."
+        },
+        {
+          "bbox": [
+            52.5,
+            539.01,
+            57.09,
+            549.66
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            572.85,
+            552.07,
+            583.96
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Smooth motion: Jumping servos straight to a new angle is jerky. Interpolating between poses over time (in joint space,"
+        },
+        {
+          "bbox": [
+            67.5,
+            587.1,
+            525.08,
+            598.21
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "or along a straight Cartesian path) makes motion smooth and predictable — the beginning of trajectory planning."
+        },
+        {
+          "bbox": [
+            52.5,
+            573.51,
+            57.09,
+            584.16
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            26.43,
+            400.26,
+            64.95
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "■ P R O J E C T 0 2\nRobot Arm with Inverse Kinematics"
+        },
+        {
+          "bbox": [
+            52.5,
+            72.38,
+            427.12,
+            83.75
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Tell the arm an X, Y, Z and it works out every joint angle itself — pick and place, from math"
+        },
+        {
+          "bbox": [
+            60.75,
+            99.18,
+            241.52,
+            109.42
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "$60\nintermediate\n1–2 weekends"
+        },
+        {
+          "bbox": [
+            52.5,
+            134.33,
+            183.99,
+            149.45
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "// why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            158.85,
+            554.98,
+            169.96
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "A robot arm looks simple until you try to move its hand to a specific point in space: you have to solve, in reverse, what every"
+        },
+        {
+          "bbox": [
+            52.5,
+            173.1,
+            552.88,
+            184.21
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "joint angle must be to put the gripper there. That is inverse kinematics, and it is the difference between a servo puppet and"
+        },
+        {
+          "bbox": [
+            52.5,
+            187.35,
+            558.19,
+            211.96
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "a robot you command in coordinates. Build a 4-axis arm, derive its geometry, implement IK, and you can type a position and\nwatch it reach there, then pick up an object and place it somewhere else. It is the classic centrepiece of robotics, the"
+        },
+        {
+          "bbox": [
+            52.5,
+            215.1,
+            373.75,
+            226.21
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "flagship of this guide, and a direct lesson in the math every industrial arm runs."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "build robots — a Build List field guide\n4 / 15"
+        }
+      ],
+      "charCount": 2350,
+      "height": 792.0,
+      "pageNumber": 4,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            27.08,
+            211.65,
+            42.2
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "// key design decisions"
+        },
+        {
+          "bbox": [
+            52.5,
+            245.33,
+            190.9,
+            260.45
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "// bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            273.18,
+            551.37,
+            283.42
+          ],
+          "blockIndex": 2,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "COMPONENT\nPART / SPEC\nQTY\n~COST"
+        },
+        {
+          "bbox": [
+            52.5,
+            295.66,
+            552.0,
+            306.87
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "4-axis arm frame\nservo arm kit (3D-printed or acrylic)\n1\n$25"
+        },
+        {
+          "bbox": [
+            52.5,
+            318.91,
+            552.0,
+            330.12
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Servos\nMG996R / DS3218 (×4) + gripper servo\n5\n$22"
+        },
+        {
+          "bbox": [
+            52.5,
+            342.16,
+            551.99,
+            353.37
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Servo driver\nPCA9685 16-channel PWM board\n1\n$5"
+        },
+        {
+          "bbox": [
+            52.5,
+            365.41,
+            551.99,
+            376.62
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Microcontroller + power\nESP32, 5–6 V servo supply\n1\n$8"
+        },
+        {
+          "bbox": [
+            52.5,
+            410.33,
+            149.4,
+            425.45
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "// build steps"
+        },
+        {
+          "bbox": [
+            67.5,
+            53.1,
+            553.78,
+            64.21
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Why solve inverse kinematics instead of driving joints by hand? Joint angles are not how tasks are described — a task"
+        },
+        {
+          "bbox": [
+            67.5,
+            67.35,
+            524.62,
+            78.46
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "says “put the gripper here.” IK translates a Cartesian target into joint angles automatically, so you can command"
+        },
+        {
+          "bbox": [
+            67.5,
+            81.6,
+            514.08,
+            92.71
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "positions, follow paths, and place objects precisely. Without it, an arm is a puppet; with it, it is programmable."
+        },
+        {
+          "bbox": [
+            52.5,
+            53.76,
+            60.17,
+            64.41
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→"
+        },
+        {
+          "bbox": [
+            67.5,
+            104.1,
+            547.26,
+            115.21
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Why a closed-form geometric solution instead of a numeric solver? A 4-axis arm with a planar geometry has a clean"
+        },
+        {
+          "bbox": [
+            67.5,
+            118.35,
+            555.94,
+            129.46
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "trigonometric solution: rotate the base to the target’s bearing, then solve the two-link triangle with the law of cosines. It"
+        },
+        {
+          "bbox": [
+            67.5,
+            132.6,
+            547.21,
+            157.21
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "is exact, instant, and easy to reason about — and it teaches the geometry. Numeric solvers matter for six or more axes\nand redundancy."
+        },
+        {
+          "bbox": [
+            52.5,
+            104.76,
+            60.17,
+            115.41
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→"
+        },
+        {
+          "bbox": [
+            67.5,
+            168.6,
+            556.44,
+            179.71
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Why must IK check reachability? The arm can only reach points within its link lengths and joint limits; some targets are"
+        },
+        {
+          "bbox": [
+            67.5,
+            182.85,
+            546.6,
+            193.96
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "too far, too close, or need an impossible elbow angle. IK must validate the solution and clamp or reject bad targets, or"
+        },
+        {
+          "bbox": [
+            67.5,
+            197.1,
+            369.96,
+            208.21
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "the arm slams into itself — the practical discipline real controllers enforce."
+        },
+        {
+          "bbox": [
+            52.5,
+            169.26,
+            60.17,
+            179.91
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→"
+        },
+        {
+          "bbox": [
+            82.5,
+            437.85,
+            206.69,
+            448.96
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Assemble and centre the arm"
+        },
+        {
+          "bbox": [
+            82.5,
+            454.35,
+            553.25,
+            478.96
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Build the arm, mount servos at their mid-positions, and drive each joint individually. Confirm range and direction for\nbase, shoulder, elbow, and wrist."
+        },
+        {
+          "bbox": [
+            58.5,
+            436.24,
+            64.8,
+            449.89
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            493.35,
+            165.58,
+            504.46
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Measure and model"
+        },
+        {
+          "bbox": [
+            82.5,
+            509.85,
+            544.21,
+            520.96
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Measure your link lengths and joint offsets, and write forward kinematics. Command known angles and check the"
+        },
+        {
+          "bbox": [
+            82.5,
+            524.1,
+            241.19,
+            535.21
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "gripper lands where the math predicts."
+        },
+        {
+          "bbox": [
+            58.5,
+            491.74,
+            64.8,
+            505.39
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            549.6,
+            211.47,
+            560.71
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Implement inverse kinematics"
+        },
+        {
+          "bbox": [
+            82.5,
+            566.1,
+            550.03,
+            577.21
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Solve the base bearing, the two-link triangle with the law of cosines, and the wrist. Command an (x, y, z) and watch"
+        },
+        {
+          "bbox": [
+            82.5,
+            580.35,
+            314.11,
+            591.46
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "the arm reach it. Fix the sign errors — there will be some."
+        },
+        {
+          "bbox": [
+            58.5,
+            547.99,
+            64.8,
+            561.64
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            605.85,
+            190.46,
+            616.96
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Add limits and smoothing"
+        },
+        {
+          "bbox": [
+            82.5,
+            622.35,
+            555.99,
+            633.46
+          ],
+          "blockIndex": 32,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Reject unreachable targets, clamp joint limits, and interpolate between poses so moves are smooth. Trace a straight"
+        },
+        {
+          "bbox": [
+            82.5,
+            636.6,
+            186.15,
+            647.71
+          ],
+          "blockIndex": 33,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "line and a circle in the air."
+        },
+        {
+          "bbox": [
+            58.5,
+            604.24,
+            64.8,
+            617.89
+          ],
+          "blockIndex": 34,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            662.1,
+            144.01,
+            673.21
+          ],
+          "blockIndex": 35,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Pick and place"
+        },
+        {
+          "bbox": [
+            82.5,
+            677.85,
+            528.88,
+            688.96
+          ],
+          "blockIndex": 36,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Add the gripper, command a sequence — move above an object, descend, grip, lift, move, release — and place"
+        },
+        {
+          "bbox": [
+            82.5,
+            692.1,
+            304.34,
+            703.21
+          ],
+          "blockIndex": 37,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "objects from one spot to another. Film it from the side."
+        },
+        {
+          "bbox": [
+            58.5,
+            660.49,
+            64.8,
+            674.14
+          ],
+          "blockIndex": 38,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 39,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "build robots — a Build List field guide\n5 / 15"
+        }
+      ],
+      "charCount": 2275,
+      "height": 792.0,
+      "pageNumber": 5,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            27.08,
+            204.74,
+            42.2
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "// interview questions"
+        },
+        {
+          "bbox": [
+            69.0,
+            63.6,
+            346.13,
+            74.91
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "What is the difference between forward and inverse kinematics?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            83.85,
+            341.94,
+            95.16
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "How do you solve inverse kinematics for a two-link planar arm?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            104.1,
+            292.91,
+            115.41
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Why is the law of cosines useful in arm kinematics?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            124.35,
+            352.9,
+            135.66
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "What is a robot’s workspace, and why must IK check reachability?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            144.6,
+            299.07,
+            155.91
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Why is interpolation needed for smooth arm motion?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            164.85,
+            379.41,
+            176.16
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "When would you need a numeric IK solver instead of a closed-form one?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "build robots — a Build List field guide\n6 / 15"
+        }
+      ],
+      "charCount": 438,
+      "height": 792.0,
+      "pageNumber": 6,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            69.0,
+            264.56,
+            240.0,
+            274.31
+          ],
+          "blockIndex": 0,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "WHAT THIS PROVES TO A RECRUITER"
+        },
+        {
+          "bbox": [
+            69.0,
+            277.35,
+            541.89,
+            288.46
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "You understand leg inverse kinematics, gait generation and phasing, static stability (support polygons), servo torque"
+        },
+        {
+          "bbox": [
+            69.0,
+            291.6,
+            529.66,
+            302.71
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "budgeting, and coordinating many actuators in real time. Legged locomotion is one of the most demanding — and"
+        },
+        {
+          "bbox": [
+            69.0,
+            305.85,
+            214.33,
+            316.96
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "most exciting — corners of robotics."
+        },
+        {
+          "bbox": [
+            52.5,
+            340.35,
+            527.38,
+            351.66
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "→the job this maps to: legged robotics and mechatronics — robot-dog, humanoid, and research-lab robotics teams."
+        },
+        {
+          "bbox": [
+            52.5,
+            379.58,
+            156.32,
+            394.7
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "// how it works"
+        },
+        {
+          "bbox": [
+            69.0,
+            607.31,
+            123.45,
+            617.06
+          ],
+          "blockIndex": 6,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "BUILD NOTE"
+        },
+        {
+          "bbox": [
+            69.0,
+            620.1,
+            538.77,
+            631.21
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Print a proven open-source quadruped frame rather than designing your own, use decent metal-gear servos (cheap"
+        },
+        {
+          "bbox": [
+            69.0,
+            634.35,
+            538.47,
+            645.46
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "plastic ones strip under load), and power the servos from a dedicated high-current supply. Get one leg’s IK working"
+        },
+        {
+          "bbox": [
+            69.0,
+            648.6,
+            257.65,
+            659.71
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "standing still before you attempt a single step."
+        },
+        {
+          "bbox": [
+            67.5,
+            404.1,
+            549.44,
+            415.21
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Legs are arms: Each leg has three joints — hip abduction, hip pitch, knee — and placing a foot at an (x, y, z) is the same"
+        },
+        {
+          "bbox": [
+            67.5,
+            418.35,
+            387.07,
+            429.46
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "inverse-kinematics problem as the arm, solved twelve times over for four legs."
+        },
+        {
+          "bbox": [
+            52.5,
+            404.76,
+            57.09,
+            415.41
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            439.35,
+            536.74,
+            450.46
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Gaits: A gait is the pattern of which legs are in the air and which are on the ground. A creep moves one leg at a time"
+        },
+        {
+          "bbox": [
+            67.5,
+            453.6,
+            541.39,
+            464.71
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "(slow, always stable); a trot moves diagonal pairs together (faster, needs balance). Phasing the legs correctly is what"
+        },
+        {
+          "bbox": [
+            67.5,
+            467.85,
+            152.99,
+            478.96
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "makes walking work."
+        },
+        {
+          "bbox": [
+            52.5,
+            440.01,
+            57.09,
+            450.66
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            488.85,
+            549.89,
+            499.96
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Stability: When a leg lifts, the body must stay balanced over the remaining feet. The support polygon — the area under"
+        },
+        {
+          "bbox": [
+            67.5,
+            503.1,
+            550.81,
+            514.21
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "the grounded feet — must contain the centre of mass, or the robot tips. Shifting the body before lifting a leg is the trick."
+        },
+        {
+          "bbox": [
+            52.5,
+            489.51,
+            57.09,
+            500.16
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            524.1,
+            550.09,
+            535.21
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Swing and stance: A stepping leg swings forward through the air; the grounded legs stroke backward together to push"
+        },
+        {
+          "bbox": [
+            67.5,
+            538.35,
+            473.82,
+            549.46
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "the body forward. Coordinating swing and stance across all legs, cycle after cycle, is the gait engine."
+        },
+        {
+          "bbox": [
+            52.5,
+            524.76,
+            57.09,
+            535.41
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            559.35,
+            558.56,
+            583.96
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Torque and timing: Twelve servos moving under load draw serious current and must move smoothly and in sync. A\ndedicated supply, sensible speeds, and a fixed-rate control loop are the difference between a walk and a twitching heap.\n▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            26.43,
+            221.25,
+            64.95
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "■ P R O J E C T 0 3\nQuadruped Walker"
+        },
+        {
+          "bbox": [
+            52.5,
+            72.38,
+            434.05,
+            83.75
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Four legs, twelve servos, and a gait that actually walks — the robot everyone stops to watch"
+        },
+        {
+          "bbox": [
+            60.75,
+            99.18,
+            211.29,
+            109.42
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "$90\nadvanced\n2 weekends"
+        },
+        {
+          "bbox": [
+            52.5,
+            134.33,
+            183.99,
+            149.45
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "// why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            158.85,
+            556.94,
+            169.96
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Nothing stops a scroll like a small four-legged robot walking across a table. Each leg is a little robot arm with its own inverse"
+        },
+        {
+          "bbox": [
+            52.5,
+            173.1,
+            553.57,
+            184.21
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "kinematics, and walking is the art of moving them in a coordinated rhythm — a gait — while keeping the body balanced over"
+        },
+        {
+          "bbox": [
+            52.5,
+            187.35,
+            542.39,
+            211.96
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "the feet still on the ground. Build a 12-servo quadruped, solve leg IK, and implement a creep or trot gait, and you have a\nmachine that walks, turns, and stands up on its own. It is the most ambitious build in this guide, a genuine mechatronics"
+        },
+        {
+          "bbox": [
+            52.5,
+            215.1,
+            506.07,
+            226.21
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "and control challenge, and the same fundamentals behind every legged robot from research labs to robot dogs."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 32,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "build robots — a Build List field guide\n7 / 15"
+        }
+      ],
+      "charCount": 2672,
+      "height": 792.0,
+      "pageNumber": 7,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            27.08,
+            190.9,
+            42.2
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "// bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            54.93,
+            551.37,
+            65.17
+          ],
+          "blockIndex": 1,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "COMPONENT\nPART / SPEC\nQTY\n~COST"
+        },
+        {
+          "bbox": [
+            52.5,
+            77.41,
+            552.0,
+            88.62
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Quadruped frame\n3D-printed open-source design\n1\n$15"
+        },
+        {
+          "bbox": [
+            52.5,
+            100.66,
+            552.0,
+            111.87
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Servos\nmetal-gear 20 kg class (×12)\n12\n$45"
+        },
+        {
+          "bbox": [
+            52.5,
+            123.91,
+            551.99,
+            135.12
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Servo driver\nPCA9685 (16-channel)\n1\n$5"
+        },
+        {
+          "bbox": [
+            52.5,
+            147.16,
+            551.99,
+            158.37
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Microcontroller\nESP32 (control loop, remote)\n1\n$8"
+        },
+        {
+          "bbox": [
+            52.5,
+            170.41,
+            552.0,
+            181.62
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Power\n2S LiPo + high-current 6 V regulator\n1\n$17"
+        },
+        {
+          "bbox": [
+            52.5,
+            214.58,
+            149.4,
+            229.7
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "// build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            532.58,
+            204.74,
+            547.7
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "// interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            242.1,
+            195.14,
+            253.21
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Build and calibrate one leg"
+        },
+        {
+          "bbox": [
+            82.5,
+            258.6,
+            552.7,
+            269.71
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Assemble a single leg, mount its three servos, and calibrate their zero positions. Drive each joint and confirm range."
+        },
+        {
+          "bbox": [
+            58.5,
+            240.49,
+            64.8,
+            254.14
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            284.1,
+            132.82,
+            295.21
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Solve leg IK"
+        },
+        {
+          "bbox": [
+            82.5,
+            300.6,
+            558.93,
+            311.71
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Implement inverse kinematics for one leg and command foot positions. Move the foot through a square in the air and"
+        },
+        {
+          "bbox": [
+            82.5,
+            314.85,
+            274.86,
+            325.96
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "confirm it tracks. Then replicate to all four legs."
+        },
+        {
+          "bbox": [
+            58.5,
+            282.49,
+            64.8,
+            296.14
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            340.35,
+            120.46,
+            351.46
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Stand up"
+        },
+        {
+          "bbox": [
+            82.5,
+            356.85,
+            547.51,
+            367.96
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Command all four feet to a standing stance and lift the body off the ground. Balance the stance and tune the servo"
+        },
+        {
+          "bbox": [
+            82.5,
+            371.1,
+            195.31,
+            382.21
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "speeds so it rises smoothly."
+        },
+        {
+          "bbox": [
+            58.5,
+            338.74,
+            64.8,
+            352.39
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            396.6,
+            181.27,
+            407.71
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Implement a creep gait"
+        },
+        {
+          "bbox": [
+            82.5,
+            413.1,
+            557.9,
+            437.71
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Move one leg at a time — shift the body over the other three, swing one leg forward, set it down, repeat. Get it to take\nslow, stable steps forward."
+        },
+        {
+          "bbox": [
+            58.5,
+            394.99,
+            64.8,
+            408.64
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            452.1,
+            137.51,
+            463.21
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Trot and turn"
+        },
+        {
+          "bbox": [
+            82.5,
+            468.6,
+            555.22,
+            479.71
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Move to a diagonal-pair trot for speed, add turning by asymmetric strokes, and add a remote for direction. Now walk"
+        },
+        {
+          "bbox": [
+            82.5,
+            482.85,
+            201.01,
+            493.96
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "it across the table and film it."
+        },
+        {
+          "bbox": [
+            58.5,
+            450.49,
+            64.8,
+            464.14
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            69.0,
+            569.1,
+            290.74,
+            580.41
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "How is a robot leg an inverse-kinematics problem?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            589.35,
+            293.1,
+            600.66
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "What is a gait, and how do a creep and a trot differ?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            609.6,
+            350.55,
+            620.91
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "What is the support polygon, and why does it determine stability?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            629.85,
+            329.44,
+            641.16
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Why must the body shift before a leg is lifted in a creep gait?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            650.1,
+            389.29,
+            661.41
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Why do legged robots demand high-torque servos and a dedicated supply?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            670.35,
+            344.22,
+            681.66
+          ],
+          "blockIndex": 32,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "How do you coordinate many servos in a real-time control loop?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 33,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "build robots — a Build List field guide\n8 / 15"
+        }
+      ],
+      "charCount": 1542,
+      "height": 792.0,
+      "pageNumber": 8,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            69.0,
+            264.56,
+            240.0,
+            274.31
+          ],
+          "blockIndex": 0,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "WHAT THIS PROVES TO A RECRUITER"
+        },
+        {
+          "bbox": [
+            69.0,
+            277.35,
+            537.13,
+            288.46
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "You understand image capture and processing, object detection (colour segmentation, face and feature detection),"
+        },
+        {
+          "bbox": [
+            69.0,
+            291.6,
+            526.61,
+            302.71
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "turning detection into a control error, visual servoing, and the latency and robustness issues of real-world vision."
+        },
+        {
+          "bbox": [
+            69.0,
+            305.85,
+            290.93,
+            316.96
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Perception plus control is the core of modern robotics."
+        },
+        {
+          "bbox": [
+            52.5,
+            340.35,
+            534.12,
+            364.96
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "→the job this maps to: robot perception and computer-vision engineering — autonomous-vehicle, delivery-robot, and\nindustrial-vision teams."
+        },
+        {
+          "bbox": [
+            52.5,
+            393.83,
+            156.32,
+            408.95
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "// how it works"
+        },
+        {
+          "bbox": [
+            67.5,
+            418.35,
+            551.6,
+            429.46
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Capture and detect: A camera grabs frames; OpenCV finds the target — simplest via colour segmentation (threshold in"
+        },
+        {
+          "bbox": [
+            67.5,
+            432.6,
+            536.45,
+            443.71
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "HSV for a coloured ball), or a face or feature detector. The output is a bounding box or centroid in pixel coordinates."
+        },
+        {
+          "bbox": [
+            52.5,
+            419.01,
+            57.09,
+            429.66
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            453.6,
+            538.38,
+            464.71
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "From pixels to error: The target’s horizontal offset from image centre is your steering error; its apparent size is your"
+        },
+        {
+          "bbox": [
+            67.5,
+            467.85,
+            354.06,
+            478.96
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "range error. Perception has become two numbers a controller can use."
+        },
+        {
+          "bbox": [
+            52.5,
+            454.26,
+            57.09,
+            464.91
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            488.85,
+            557.44,
+            499.96
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Visual servoing: Feed those errors into control loops: turn toward the target to zero the horizontal error, drive forward or"
+        },
+        {
+          "bbox": [
+            67.5,
+            503.1,
+            518.34,
+            514.21
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "back to hold the size at a setpoint. The robot now tracks and follows — a control loop closed through a camera."
+        },
+        {
+          "bbox": [
+            52.5,
+            489.51,
+            57.09,
+            500.16
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            524.1,
+            538.14,
+            535.21
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Latency and robustness: Vision is slow and noisy compared to a sensor: frames take time, detection jitters, lighting"
+        },
+        {
+          "bbox": [
+            67.5,
+            538.35,
+            552.63,
+            549.46
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "changes ruin colour thresholds. Filtering the detection and tuning gains for the latency are what make tracking smooth."
+        },
+        {
+          "bbox": [
+            52.5,
+            524.76,
+            57.09,
+            535.41
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            559.35,
+            538.49,
+            583.96
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Stepping up: Swap colour segmentation for a lightweight neural detector (a MobileNet-class model on a Pi) and the\nsame pipeline tracks people or objects by class — the path to real-world perception.\n▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            26.43,
+            347.61,
+            64.95
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "■ P R O J E C T 0 4\nVision-Guided Tracking Robot"
+        },
+        {
+          "bbox": [
+            52.5,
+            72.38,
+            404.2,
+            83.75
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "A robot that sees a target and follows it across the room — perception meets control"
+        },
+        {
+          "bbox": [
+            60.75,
+            99.18,
+            241.52,
+            109.42
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "$45\nintermediate\n1–2 weekends"
+        },
+        {
+          "bbox": [
+            52.5,
+            134.33,
+            183.99,
+            149.45
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "// why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            158.85,
+            527.74,
+            169.96
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "A robot that can see is a robot that can do almost anything, and the simplest vision task — find a thing and follow it —"
+        },
+        {
+          "bbox": [
+            52.5,
+            173.1,
+            554.35,
+            184.21
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "teaches the whole perception-to-action pipeline. Put a camera on your rover or a pan-tilt head, detect a coloured object (or"
+        },
+        {
+          "bbox": [
+            52.5,
+            187.35,
+            554.45,
+            211.96
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "a face) with OpenCV, and steer the robot to keep it centred and at a set distance. The result follows you around a room, and\nthe pipeline (capture, detect, compute error, control) is exactly what robot vacuums, delivery robots, and industrial vision"
+        },
+        {
+          "bbox": [
+            52.5,
+            215.1,
+            489.37,
+            226.21
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "systems run. It is the bridge from blind reactive behavior to robots that understand what is in front of them."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "build robots — a Build List field guide\n9 / 15"
+        }
+      ],
+      "charCount": 2392,
+      "height": 792.0,
+      "pageNumber": 9,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            27.08,
+            190.9,
+            42.2
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "// bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            54.93,
+            551.37,
+            65.17
+          ],
+          "blockIndex": 1,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "COMPONENT\nPART / SPEC\nQTY\n~COST"
+        },
+        {
+          "bbox": [
+            52.5,
+            77.41,
+            552.0,
+            88.62
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Camera + compute\nRaspberry Pi + camera, or ESP32-CAM\n1\n$30"
+        },
+        {
+          "bbox": [
+            52.5,
+            100.66,
+            552.0,
+            111.87
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Mobile base or pan-tilt\nproject-1 rover, or pan-tilt servos\n1\n$10"
+        },
+        {
+          "bbox": [
+            52.5,
+            123.91,
+            551.99,
+            135.12
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Motor driver / servos\nas needed\n1\n$4"
+        },
+        {
+          "bbox": [
+            52.5,
+            147.16,
+            551.99,
+            158.37
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Power\nbattery pack\n1\n$1"
+        },
+        {
+          "bbox": [
+            52.5,
+            192.08,
+            149.4,
+            207.2
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "// build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            523.58,
+            204.74,
+            538.7
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "// interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            219.6,
+            178.67,
+            230.71
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Stream and view video"
+        },
+        {
+          "bbox": [
+            82.5,
+            235.35,
+            544.2,
+            246.46
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Set up the camera and confirm you can capture frames and display them (or stream to a laptop). Check the frame"
+        },
+        {
+          "bbox": [
+            82.5,
+            249.6,
+            207.44,
+            260.71
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "rate — it sets your control rate."
+        },
+        {
+          "bbox": [
+            58.5,
+            217.99,
+            64.8,
+            231.64
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            275.1,
+            184.61,
+            286.21
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Detect a coloured target"
+        },
+        {
+          "bbox": [
+            82.5,
+            291.6,
+            553.61,
+            302.71
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Threshold in HSV to segment a brightly coloured ball, find its contour, and draw its centroid and bounding box. Tune"
+        },
+        {
+          "bbox": [
+            82.5,
+            305.85,
+            210.76,
+            316.96
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "the thresholds for your lighting."
+        },
+        {
+          "bbox": [
+            58.5,
+            273.49,
+            64.8,
+            287.14
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            331.35,
+            148.67,
+            342.46
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Compute errors"
+        },
+        {
+          "bbox": [
+            82.5,
+            347.85,
+            551.7,
+            358.96
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Calculate horizontal offset from centre and target size each frame. Print both and move the ball around to see them"
+        },
+        {
+          "bbox": [
+            82.5,
+            364.06,
+            118.68,
+            373.21
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "respond."
+        },
+        {
+          "bbox": [
+            58.5,
+            329.74,
+            64.8,
+            343.39
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            387.6,
+            142.54,
+            398.71
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Close the loop"
+        },
+        {
+          "bbox": [
+            82.5,
+            404.1,
+            530.7,
+            415.21
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Drive the base (or pan-tilt) to zero the offset and hold the size at a setpoint. Tune gains until it tracks smoothly"
+        },
+        {
+          "bbox": [
+            82.5,
+            418.35,
+            160.26,
+            429.46
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "without oscillating."
+        },
+        {
+          "bbox": [
+            58.5,
+            385.99,
+            64.8,
+            399.64
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            443.1,
+            127.92,
+            454.21
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Follow you"
+        },
+        {
+          "bbox": [
+            82.5,
+            459.6,
+            549.03,
+            470.71
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Let it follow the ball (or you) around the room. Test changing light and speed, add filtering, then try a face or neural"
+        },
+        {
+          "bbox": [
+            82.5,
+            473.85,
+            209.64,
+            484.96
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "detector for a bigger challenge."
+        },
+        {
+          "bbox": [
+            58.5,
+            441.49,
+            64.8,
+            455.14
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            69.0,
+            560.1,
+            332.82,
+            571.41
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "How does colour segmentation detect an object in an image?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            580.35,
+            349.26,
+            591.66
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "How do you turn a detected object’s position into a control error?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            600.6,
+            181.55,
+            611.91
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "What is visual servoing?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            620.85,
+            427.79,
+            632.16
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Why is latency a bigger problem for vision-based control than sensor-based control?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            641.1,
+            376.34,
+            652.41
+          ],
+          "blockIndex": 32,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "What makes colour-based detection fragile, and how do you improve it?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            661.35,
+            405.82,
+            672.66
+          ],
+          "blockIndex": 33,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "How would you extend simple tracking to detecting people or objects by class?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 34,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "build robots — a Build List field guide\n10 / 15"
+        }
+      ],
+      "charCount": 1496,
+      "height": 792.0,
+      "pageNumber": 10,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            69.0,
+            264.56,
+            240.0,
+            274.31
+          ],
+          "blockIndex": 0,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "WHAT THIS PROVES TO A RECRUITER"
+        },
+        {
+          "bbox": [
+            69.0,
+            277.35,
+            521.93,
+            288.46
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "You understand tactile and force sensing (FSRs, load cells), compliant gripper design, closed-loop force control"
+        },
+        {
+          "bbox": [
+            69.0,
+            291.6,
+            541.75,
+            302.71
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "versus position control, grasp detection, and the mechanics of gentle manipulation — core to manipulation and soft-"
+        },
+        {
+          "bbox": [
+            69.0,
+            305.85,
+            155.36,
+            316.96
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "robotics engineering."
+        },
+        {
+          "bbox": [
+            52.5,
+            340.35,
+            557.2,
+            364.96
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "→the job this maps to: manipulation and gripper engineering — warehouse-picking, food-handling, and collaborative-robot\nteams."
+        },
+        {
+          "bbox": [
+            52.5,
+            393.83,
+            156.32,
+            408.95
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "// how it works"
+        },
+        {
+          "bbox": [
+            69.0,
+            621.56,
+            123.45,
+            631.31
+          ],
+          "blockIndex": 6,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "BUILD NOTE"
+        },
+        {
+          "bbox": [
+            69.0,
+            634.35,
+            545.05,
+            645.46
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "A servo-driven parallel or fin-ray (compliant) gripper printed from an open design is enough. Put the force sensor in a"
+        },
+        {
+          "bbox": [
+            69.0,
+            648.6,
+            540.6,
+            659.71
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "fingertip pad, and remember the sensor reads a squeeze, not a mass — you are controlling grip force, not measuring"
+        },
+        {
+          "bbox": [
+            69.0,
+            664.81,
+            98.99,
+            673.96
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "weight."
+        },
+        {
+          "bbox": [
+            67.5,
+            418.35,
+            533.12,
+            429.46
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Sensing touch: A force-sensitive resistor (FSR) drops in resistance as you press it; a load cell flexes and changes a"
+        },
+        {
+          "bbox": [
+            67.5,
+            432.6,
+            421.18,
+            443.71
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "strain-gauge bridge. Either gives you a voltage that rises with grip force at the fingertip."
+        },
+        {
+          "bbox": [
+            52.5,
+            419.01,
+            57.09,
+            429.66
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            453.6,
+            552.58,
+            464.71
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Position vs force control: A position-controlled gripper closes to a set opening regardless of what is in it — fine for rigid"
+        },
+        {
+          "bbox": [
+            67.5,
+            467.85,
+            558.34,
+            478.96
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "parts, disastrous for fragile ones. Force control closes until the fingertip force reaches a setpoint, then holds, adapting to"
+        },
+        {
+          "bbox": [
+            67.5,
+            482.1,
+            112.24,
+            493.21
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "any object."
+        },
+        {
+          "bbox": [
+            52.5,
+            454.26,
+            57.09,
+            464.91
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            503.1,
+            549.08,
+            514.21
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Compliance helps: Flexible fingers (fin-ray or soft pads) conform to an object’s shape, spreading contact and forgiving"
+        },
+        {
+          "bbox": [
+            67.5,
+            517.35,
+            409.7,
+            528.46
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "errors. Mechanical compliance does half the work before the control loop even acts."
+        },
+        {
+          "bbox": [
+            52.5,
+            503.76,
+            57.09,
+            514.41
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            538.35,
+            551.24,
+            549.46
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Grasp detection: A rising force signal tells you contact happened; a stable force tells you the grasp is secure; a sudden"
+        },
+        {
+          "bbox": [
+            67.5,
+            552.6,
+            473.05,
+            563.71
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "drop tells you the object slipped. Reading these events is how a robot knows what its hand is doing."
+        },
+        {
+          "bbox": [
+            52.5,
+            539.01,
+            57.09,
+            549.66
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            572.85,
+            553.06,
+            583.96
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "The control loop: Command the servo to close, read fingertip force, and stop (or servo around) at the target force. Set a"
+        },
+        {
+          "bbox": [
+            67.5,
+            587.1,
+            399.56,
+            598.21
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "low target for an egg, a higher one for a tool — the same gripper, different objects."
+        },
+        {
+          "bbox": [
+            52.5,
+            573.51,
+            57.09,
+            584.16
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            26.43,
+            273.9,
+            64.95
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "■ P R O J E C T 0 5\nForce-Sensing Gripper"
+        },
+        {
+          "bbox": [
+            52.5,
+            72.38,
+            374.61,
+            83.75
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "A gripper that feels how hard it's squeezing — grab an egg without breaking it"
+        },
+        {
+          "bbox": [
+            60.75,
+            99.18,
+            226.4,
+            109.42
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "$40\nintermediate\n1 weekend"
+        },
+        {
+          "bbox": [
+            52.5,
+            134.33,
+            183.99,
+            149.45
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "// why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            158.85,
+            553.84,
+            169.96
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "A gripper that only knows its finger position will crush a strawberry and drop a coffee cup. Give it a sense of touch — a force"
+        },
+        {
+          "bbox": [
+            52.5,
+            173.1,
+            547.96,
+            184.21
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "sensor in the fingertip and a control loop on grip force — and it can pick up an egg, a paper cup, or a tool with just the right"
+        },
+        {
+          "bbox": [
+            52.5,
+            187.35,
+            543.73,
+            211.96
+          ],
+          "blockIndex": 32,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "squeeze. Building one teaches force sensing, compliant mechanisms, and force control as opposed to position control,\nwhich is the difference between industrial pick-and-place and robots that can handle the messy, fragile real world. It is a"
+        },
+        {
+          "bbox": [
+            52.5,
+            215.1,
+            272.16,
+            226.21
+          ],
+          "blockIndex": 33,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "compact, satisfying build with an unforgettable demo."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 34,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "build robots — a Build List field guide\n11 / 15"
+        }
+      ],
+      "charCount": 2534,
+      "height": 792.0,
+      "pageNumber": 11,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            27.08,
+            190.9,
+            42.2
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "// bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            54.93,
+            551.37,
+            65.17
+          ],
+          "blockIndex": 1,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "COMPONENT\nPART / SPEC\nQTY\n~COST"
+        },
+        {
+          "bbox": [
+            52.5,
+            77.41,
+            552.0,
+            88.62
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Gripper mechanism\n3D-printed parallel / fin-ray gripper\n1\n$10"
+        },
+        {
+          "bbox": [
+            52.5,
+            100.66,
+            551.99,
+            111.87
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Servo\nMG996R or similar\n1\n$6"
+        },
+        {
+          "bbox": [
+            52.5,
+            123.91,
+            551.99,
+            135.12
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Force sensor\nFSR 402, or small load cell + HX711\n1\n$8"
+        },
+        {
+          "bbox": [
+            52.5,
+            147.16,
+            551.99,
+            158.37
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Microcontroller\nArduino / ESP32\n1\n$8"
+        },
+        {
+          "bbox": [
+            52.5,
+            170.41,
+            551.99,
+            181.62
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Pads + wiring\nsoft fingertip pads, passives\n—\n$8"
+        },
+        {
+          "bbox": [
+            52.5,
+            214.58,
+            149.4,
+            229.7
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "// build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            532.58,
+            204.74,
+            547.7
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "// interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            242.1,
+            153.58,
+            253.21
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Build the gripper"
+        },
+        {
+          "bbox": [
+            82.5,
+            258.6,
+            531.53,
+            269.71
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Print and assemble a parallel or fin-ray gripper on a servo. Drive it open and closed and confirm smooth travel."
+        },
+        {
+          "bbox": [
+            58.5,
+            240.49,
+            64.8,
+            254.14
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            284.1,
+            169.91,
+            295.21
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Add the force sensor"
+        },
+        {
+          "bbox": [
+            82.5,
+            300.6,
+            527.12,
+            311.71
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Mount the FSR (or load cell) in a fingertip pad and read it. Press with your finger and watch the value rise with"
+        },
+        {
+          "bbox": [
+            82.5,
+            316.81,
+            120.8,
+            325.96
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "pressure."
+        },
+        {
+          "bbox": [
+            58.5,
+            282.49,
+            64.8,
+            296.14
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            340.35,
+            144.97,
+            351.46
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Calibrate force"
+        },
+        {
+          "bbox": [
+            82.5,
+            356.85,
+            539.96,
+            367.96
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Press with known weights (or a kitchen scale) to map sensor reading to grip force. Note its nonlinearity and set a"
+        },
+        {
+          "bbox": [
+            82.5,
+            371.1,
+            137.47,
+            382.21
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "usable range."
+        },
+        {
+          "bbox": [
+            58.5,
+            338.74,
+            64.8,
+            352.39
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            396.6,
+            166.29,
+            407.71
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Close the force loop"
+        },
+        {
+          "bbox": [
+            82.5,
+            413.1,
+            553.55,
+            437.71
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Close the gripper until the fingertip force hits a setpoint, then hold. Test on a rigid block, then a paper cup, adjusting\nthe setpoint."
+        },
+        {
+          "bbox": [
+            58.5,
+            394.99,
+            64.8,
+            408.64
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            452.1,
+            134.1,
+            463.21
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "The egg test"
+        },
+        {
+          "bbox": [
+            82.5,
+            468.6,
+            553.96,
+            479.71
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Set a gentle target and pick up an egg, then a strawberry, then a tool with a higher target. Add slip detection (a force"
+        },
+        {
+          "bbox": [
+            82.5,
+            482.85,
+            202.38,
+            493.96
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "drop) to re-grip. Film the egg."
+        },
+        {
+          "bbox": [
+            58.5,
+            450.49,
+            64.8,
+            464.14
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            69.0,
+            569.1,
+            299.69,
+            580.41
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "How does a force-sensitive resistor sense grip force?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            589.35,
+            402.68,
+            600.66
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "What is the difference between position control and force control of a gripper?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            609.6,
+            304.27,
+            620.91
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Why does mechanical compliance help with grasping?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            629.85,
+            324.48,
+            641.16
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "How can a gripper detect contact, a secure grasp, and slip?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            650.1,
+            370.46,
+            661.41
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Why is a fingertip force sensor measuring squeeze rather than weight?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            670.35,
+            317.42,
+            681.66
+          ],
+          "blockIndex": 32,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "How would you scale this to multi-finger or soft grippers?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 33,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "build robots — a Build List field guide\n12 / 15"
+        }
+      ],
+      "charCount": 1477,
+      "height": 792.0,
+      "pageNumber": 12,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            69.0,
+            264.56,
+            240.0,
+            274.31
+          ],
+          "blockIndex": 0,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "WHAT THIS PROVES TO A RECRUITER"
+        },
+        {
+          "bbox": [
+            69.0,
+            277.35,
+            529.26,
+            288.46
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "You understand odometry and its drift, LiDAR scanning, SLAM at a conceptual and practical level (scan matching,"
+        },
+        {
+          "bbox": [
+            69.0,
+            291.6,
+            522.06,
+            302.71
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "pose estimation, occupancy grids), and path planning on a real robot — the complete autonomy stack of mobile"
+        },
+        {
+          "bbox": [
+            69.0,
+            305.85,
+            321.27,
+            316.96
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "robotics, and one of the most in-demand skill sets in the field."
+        },
+        {
+          "bbox": [
+            52.5,
+            340.35,
+            548.25,
+            364.96
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "→the job this maps to: autonomous-navigation and SLAM engineering — robot-vacuum, warehouse-AMR, delivery-robot,\nand autonomy teams."
+        },
+        {
+          "bbox": [
+            52.5,
+            393.83,
+            156.32,
+            408.95
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "// how it works"
+        },
+        {
+          "bbox": [
+            69.0,
+            635.81,
+            123.45,
+            645.56
+          ],
+          "blockIndex": 6,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "BUILD NOTE"
+        },
+        {
+          "bbox": [
+            69.0,
+            648.6,
+            528.71,
+            659.71
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Use the tooling: a Raspberry Pi running ROS 2 with a cheap 2D LiDAR (RPLidar A1 or LD19) and the slam_toolbox"
+        },
+        {
+          "bbox": [
+            69.0,
+            662.85,
+            517.96,
+            673.96
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "and Nav2 packages gets you a working map and navigation without writing SLAM from scratch. Learn what the"
+        },
+        {
+          "bbox": [
+            69.0,
+            677.1,
+            317.47,
+            688.21
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "packages do first; go deeper on the algorithms once it drives."
+        },
+        {
+          "bbox": [
+            67.5,
+            418.35,
+            541.33,
+            429.46
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Odometry, and why it drifts: Counting wheel rotations gives you a position estimate, but wheel slip and small errors"
+        },
+        {
+          "bbox": [
+            67.5,
+            432.6,
+            537.49,
+            443.71
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "accumulate, so odometry alone wanders off within metres. It is a good short-term guess and a bad long-term truth."
+        },
+        {
+          "bbox": [
+            52.5,
+            419.01,
+            57.09,
+            429.66
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            453.6,
+            542.65,
+            464.71
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "LiDAR scans the room: A spinning 2D LiDAR returns hundreds of range measurements per revolution — a slice of the"
+        },
+        {
+          "bbox": [
+            67.5,
+            467.85,
+            456.67,
+            478.96
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "surrounding walls. Each scan is a snapshot of what the world looks like from where the robot is."
+        },
+        {
+          "bbox": [
+            52.5,
+            454.26,
+            57.09,
+            464.91
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            488.85,
+            551.62,
+            499.96
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "SLAM: scan matching: SLAM compares each new scan to the map so far, finds the pose that best aligns them, corrects"
+        },
+        {
+          "bbox": [
+            67.5,
+            503.1,
+            558.34,
+            514.21
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "the odometry drift, and adds the scan to the map. Localisation and mapping improve each other — the “simultaneous” in"
+        },
+        {
+          "bbox": [
+            67.5,
+            519.31,
+            93.33,
+            528.46
+          ],
+          "blockIndex": 18,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "SLAM."
+        },
+        {
+          "bbox": [
+            52.5,
+            489.51,
+            57.09,
+            500.16
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            538.35,
+            552.08,
+            549.46
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "The occupancy grid: The map is a grid where each cell is free, occupied, or unknown, built up from the scans. That grid"
+        },
+        {
+          "bbox": [
+            67.5,
+            552.6,
+            202.19,
+            563.71
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "is what the planner reasons over."
+        },
+        {
+          "bbox": [
+            52.5,
+            539.01,
+            57.09,
+            549.66
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            572.85,
+            548.5,
+            583.96
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Planning and navigation: Given the map and a goal, a planner (A* over a costmap that inflates obstacles) finds a path,"
+        },
+        {
+          "bbox": [
+            67.5,
+            587.1,
+            532.9,
+            598.21
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "and a local controller drives it while dodging anything new. The robot is now autonomous in a space it built its own"
+        },
+        {
+          "bbox": [
+            67.5,
+            601.35,
+            105.8,
+            612.46
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "model of."
+        },
+        {
+          "bbox": [
+            52.5,
+            573.51,
+            57.09,
+            584.16
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            26.43,
+            242.31,
+            64.95
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "■ P R O J E C T 0 6\nSLAM Mapping Rover"
+        },
+        {
+          "bbox": [
+            52.5,
+            72.38,
+            393.74,
+            83.75
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "A rover that maps a room it has never seen, then navigates it — autonomy, for real"
+        },
+        {
+          "bbox": [
+            60.75,
+            99.18,
+            221.37,
+            109.42
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "$95\nadvanced\n2–3 weekends"
+        },
+        {
+          "bbox": [
+            52.5,
+            134.33,
+            183.99,
+            149.45
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "// why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            158.85,
+            524.51,
+            169.96
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "The rover in project 1 wanders blind; this one knows where it is. Put a spinning LiDAR on a wheeled base, add wheel"
+        },
+        {
+          "bbox": [
+            52.5,
+            173.1,
+            541.34,
+            184.21
+          ],
+          "blockIndex": 32,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "odometry, and run SLAM — simultaneous localisation and mapping — and the robot builds a map of the room as it drives"
+        },
+        {
+          "bbox": [
+            52.5,
+            187.35,
+            549.84,
+            211.96
+          ],
+          "blockIndex": 33,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "while tracking its own position inside it. Then give it a goal and it plans a path around the furniture and drives there. This is\nthe technology in every robot vacuum and warehouse robot, and building it end to end is the capstone of this guide:"
+        },
+        {
+          "bbox": [
+            52.5,
+            215.1,
+            309.74,
+            226.21
+          ],
+          "blockIndex": 34,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "perception, estimation, mapping, and planning in one machine."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 35,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "build robots — a Build List field guide\n13 / 15"
+        }
+      ],
+      "charCount": 2568,
+      "height": 792.0,
+      "pageNumber": 13,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            27.08,
+            190.9,
+            42.2
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "// bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            54.93,
+            551.37,
+            65.17
+          ],
+          "blockIndex": 1,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "COMPONENT\nPART / SPEC\nQTY\n~COST"
+        },
+        {
+          "bbox": [
+            52.5,
+            77.41,
+            552.0,
+            88.62
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "2D LiDAR\nRPLidar A1 or LD19\n1\n$50"
+        },
+        {
+          "bbox": [
+            52.5,
+            100.66,
+            552.0,
+            111.87
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Compute\nRaspberry Pi 4 / 5 (ROS 2)\n1\n$25"
+        },
+        {
+          "bbox": [
+            52.5,
+            123.91,
+            552.0,
+            135.12
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Base with encoders\n2WD chassis + encoder motors + driver\n1\n$15"
+        },
+        {
+          "bbox": [
+            52.5,
+            147.16,
+            551.99,
+            158.37
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Power\nbattery + regulators\n1\n$5"
+        },
+        {
+          "bbox": [
+            52.5,
+            192.08,
+            149.4,
+            207.2
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "// build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            523.58,
+            204.74,
+            538.7
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "// interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            219.6,
+            207.06,
+            230.71
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Build the base with odometry"
+        },
+        {
+          "bbox": [
+            82.5,
+            235.35,
+            526.37,
+            246.46
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Assemble a 2WD base with encoder motors, publish wheel odometry, and drive it in a square. Watch how the"
+        },
+        {
+          "bbox": [
+            82.5,
+            249.6,
+            306.39,
+            260.71
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "odometry drifts from where the robot actually ends up."
+        },
+        {
+          "bbox": [
+            58.5,
+            217.99,
+            64.8,
+            231.64
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            275.1,
+            192.53,
+            286.21
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Mount and read the LiDAR"
+        },
+        {
+          "bbox": [
+            82.5,
+            291.6,
+            558.56,
+            302.71
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Mount the LiDAR level on top and stream scans. Visualise a scan and confirm the room’s walls appear as you turn the"
+        },
+        {
+          "bbox": [
+            82.5,
+            307.81,
+            107.05,
+            316.96
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "robot."
+        },
+        {
+          "bbox": [
+            58.5,
+            273.49,
+            64.8,
+            287.14
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            331.35,
+            125.6,
+            342.46
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Run SLAM"
+        },
+        {
+          "bbox": [
+            82.5,
+            347.85,
+            554.5,
+            358.96
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Launch slam_toolbox with odometry and LiDAR, drive the robot slowly around the room, and watch the map build in"
+        },
+        {
+          "bbox": [
+            82.5,
+            362.1,
+            354.34,
+            373.21
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "real time. Note how the pose stays locked even as odometry drifts."
+        },
+        {
+          "bbox": [
+            58.5,
+            329.74,
+            64.8,
+            343.39
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            387.6,
+            192.63,
+            398.71
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Save the map and localise"
+        },
+        {
+          "bbox": [
+            82.5,
+            404.1,
+            551.65,
+            415.21
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Save the finished map, restart, and have the robot localise itself within it from its scans alone. This is the moment it"
+        },
+        {
+          "bbox": [
+            82.5,
+            418.35,
+            163.77,
+            429.46
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "“knows where it is.”"
+        },
+        {
+          "bbox": [
+            58.5,
+            385.99,
+            64.8,
+            399.64
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            443.1,
+            157.89,
+            454.21
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Navigate to a goal"
+        },
+        {
+          "bbox": [
+            82.5,
+            459.6,
+            529.2,
+            470.71
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Launch Nav2, click a goal on the map, and watch the robot plan a path around obstacles and drive there. Drop"
+        },
+        {
+          "bbox": [
+            82.5,
+            473.85,
+            344.08,
+            484.96
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "something in its way and watch it re-plan — autonomy achieved."
+        },
+        {
+          "bbox": [
+            58.5,
+            441.49,
+            64.8,
+            455.14
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            69.0,
+            560.1,
+            247.93,
+            571.41
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "What is odometry, and why does it drift?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            580.35,
+            374.68,
+            591.66
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "What does SLAM solve, and why are mapping and localisation coupled?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            600.6,
+            319.91,
+            611.91
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "How does scan matching correct a robot’s pose estimate?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            620.85,
+            194.98,
+            632.16
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "What is an occupancy grid?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            641.1,
+            294.01,
+            652.41
+          ],
+          "blockIndex": 32,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "How does a planner find a path through a costmap?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            661.35,
+            370.01,
+            672.66
+          ],
+          "blockIndex": 33,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "What are the main failure modes of LiDAR SLAM in real environments?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 34,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "build robots — a Build List field guide\n14 / 15"
+        }
+      ],
+      "charCount": 1490,
+      "height": 792.0,
+      "pageNumber": 14,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.43,
+            332.67,
+            84.04
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "■ W R A P\nEvery robot is the same loop:\nsense, decide, act."
+        },
+        {
+          "bbox": [
+            52.5,
+            98.85,
+            547.11,
+            109.96
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "A rover that avoids walls, an arm that reaches a coordinate, a quadruped that walks, a robot that sees and follows, a hand"
+        },
+        {
+          "bbox": [
+            52.5,
+            113.1,
+            548.36,
+            124.21
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "that feels, a rover that maps its own world — six robots, one loop, escalating from reflexes to real autonomy. The parts are"
+        },
+        {
+          "bbox": [
+            52.5,
+            127.35,
+            535.17,
+            138.46
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "commodity (servos, a LiDAR, a Pi); the skill is in the integration — the kinematics, the control loops, the perception, the"
+        },
+        {
+          "bbox": [
+            52.5,
+            141.6,
+            529.5,
+            152.71
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "estimation. That is exactly what robotics teams hire for: people who can make the whole loop work on real hardware."
+        },
+        {
+          "bbox": [
+            52.5,
+            174.08,
+            183.99,
+            189.2
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "// the skill ladder"
+        },
+        {
+          "bbox": [
+            52.5,
+            198.6,
+            373.87,
+            209.71
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Build them in order and each one hands you the technique the next one needs:"
+        },
+        {
+          "bbox": [
+            52.5,
+            217.88,
+            476.74,
+            229.46
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "reactive control →kinematics →locomotion →perception →force control →SLAM & navigation"
+        },
+        {
+          "bbox": [
+            69.0,
+            257.06,
+            200.85,
+            266.81
+          ],
+          "blockIndex": 8,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "!\nBEFORE YOU POWER IT UP"
+        },
+        {
+          "bbox": [
+            69.0,
+            269.85,
+            538.44,
+            280.96
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Servos and motors pinch and draw serious current, and LiPo batteries need respect. Set current limits, keep fingers"
+        },
+        {
+          "bbox": [
+            69.0,
+            284.1,
+            538.93,
+            295.21
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "clear of legs and grippers under power, never leave a LiPo charging unattended, power down before you rewire, and"
+        },
+        {
+          "bbox": [
+            69.0,
+            298.35,
+            361.78,
+            309.46
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "test the quadruped and rovers in a clear area away from stairs and pets."
+        },
+        {
+          "bbox": [
+            69.0,
+            341.06,
+            106.8,
+            350.81
+          ],
+          "blockIndex": 12,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "DO THIS"
+        },
+        {
+          "bbox": [
+            69.0,
+            353.85,
+            543.62,
+            364.96
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Build even one. Film it — a rover roaming, an arm placing an object, a quadruped’s first steps, a gripper lifting an egg,"
+        },
+        {
+          "bbox": [
+            69.0,
+            368.1,
+            531.67,
+            379.21
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "a map drawing itself — and put the code on GitHub with your kinematics, your tuning, and an honest note on what"
+        },
+        {
+          "bbox": [
+            69.0,
+            382.35,
+            489.26,
+            393.46
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "works and what doesn’t. One robot demo and one clean repo prove you can make the whole loop work."
+        },
+        {
+          "bbox": [
+            69.0,
+            426.6,
+            532.55,
+            437.71
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Full build notes, parts links, and the next field guide go out in The Build List. The people actually shipping these —"
+        },
+        {
+          "bbox": [
+            69.0,
+            440.85,
+            273.8,
+            451.96
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "and trading IK and gait tricks — are in Ohm’s Club."
+        },
+        {
+          "bbox": [
+            52.5,
+            480.54,
+            235.65,
+            491.27
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "— Enes (@1nska) · Electrical Engineer"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "build robots — a Build List field guide\n15 / 15"
+        }
+      ],
+      "charCount": 1637,
+      "height": 792.0,
+      "pageNumber": 15,
+      "textExtractable": true,
+      "width": 612.0
+    }
+  ],
+  "provenance": {
+    "confidence": "EXACT",
+    "extractionMethod": "pymupdf-blocks-v1",
+    "extractorVersion": "1.28.0",
+    "generatorVersion": null,
+    "origin": "extracted",
+    "source": "guide-013",
+    "sourceHash": "ae934d8db41674c5876e6bc9abc56b9be05af70587db6eb4cc3249c69b4239f5",
+    "sourcePage": null,
+    "sourcePath": "Engineering guides/6_EE_Projects_That_Think_For_Themselves.pdf",
+    "sourceSection": "ROOT"
+  },
+  "relativePath": "Engineering guides/6_EE_Projects_That_Think_For_Themselves.pdf",
+  "schemaVersion": "1.0.0",
+  "sha256": "ae934d8db41674c5876e6bc9abc56b9be05af70587db6eb4cc3249c69b4239f5",
+  "sourceId": "guide-013"
+}

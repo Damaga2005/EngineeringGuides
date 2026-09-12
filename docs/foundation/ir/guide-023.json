@@ -1,0 +1,1129 @@
+{
+  "metadata": {
+    "author": "Enes (@1nska)",
+    "creationDate": "D:20260907192258-04'00'",
+    "creator": "(unspecified)",
+    "format": "PDF 1.4",
+    "modDate": "D:20260907192258-04'00'",
+    "producer": "ReportLab PDF Library - (opensource)",
+    "subject": "(unspecified)",
+    "title": "How to Learn Electronics From Zero"
+  },
+  "pageCount": 5,
+  "pages": [
+    {
+      "blocks": [
+        {
+          "bbox": [
+            61.2,
+            748.31,
+            550.8,
+            758.06
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "the build list · @1nska\n1"
+        },
+        {
+          "bbox": [
+            61.2,
+            172.59,
+            513.6,
+            254.95
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "beginner roadmap · 6 steps · zero to first real build\nHow to Learn Electronics From\nZero"
+        },
+        {
+          "bbox": [
+            61.2,
+            262.55,
+            550.8,
+            275.55
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "The order I'd do it in if I started again: build first, read second, solder early,"
+        },
+        {
+          "bbox": [
+            61.2,
+            278.05,
+            529.2,
+            291.05
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "measure everything, then make one thing you actually want. No degree required,"
+        },
+        {
+          "bbox": [
+            61.2,
+            293.55,
+            457.2,
+            306.55
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "about $60 of parts, and you'll have something blinking on day one."
+        },
+        {
+          "bbox": [
+            61.2,
+            319.09,
+            448.8,
+            330.14
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "By Enes · @1nska · Electrical Engineering student — a Build List quick guide"
+        },
+        {
+          "bbox": [
+            78.3,
+            438.61,
+            533.7,
+            453.56
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "“you don't learn electronics by reading about electrons. you learn"
+        },
+        {
+          "bbox": [
+            154.2,
+            455.61,
+            457.8,
+            470.56
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "it by making an LED do what you told it to.”"
+        },
+        {
+          "bbox": [
+            61.2,
+            536.89,
+            545.7,
+            559.94
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "what's inside: the six steps · a $60 bench · the first five builds · the only theory you need ·\nthree decisions explained"
+        }
+      ],
+      "charCount": 646,
+      "height": 792.0,
+      "pageNumber": 1,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            61.2,
+            748.31,
+            550.8,
+            758.06
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "the build list · @1nska\n2"
+        },
+        {
+          "bbox": [
+            61.2,
+            57.27,
+            186.0,
+            74.17
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "## the six steps"
+        },
+        {
+          "bbox": [
+            71.2,
+            97.39,
+            499.0,
+            123.26
+          ],
+          "blockIndex": 2,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "STEP 01\nSkip the theory at first. Get a breadboard and an Arduino kit."
+        },
+        {
+          "bbox": [
+            71.2,
+            126.9,
+            540.4,
+            163.63
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "DO THIS\nBuy a starter kit, not individual parts. A $30–40 Arduino Uno clone kit gives you the\nboard, a breadboard, jumper wires, a resistor assortment, LEDs, buttons, a buzzer, a"
+        },
+        {
+          "bbox": [
+            71.2,
+            165.47,
+            430.0,
+            177.43
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "potentiometer and a few sensors — everything for the first month."
+        },
+        {
+          "bbox": [
+            71.2,
+            183.3,
+            540.4,
+            220.03
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "THE TRAP\nBuying a 'proper' bench setup before you know what you'll use. A $200 oscilloscope on\nday one teaches you nothing; a $2 LED does."
+        },
+        {
+          "bbox": [
+            71.2,
+            225.9,
+            540.4,
+            262.63
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "YOU'RE DONE WHEN\nThe kit is on your desk and the Arduino IDE (or PlatformIO) is installed and sees the\nboard."
+        },
+        {
+          "bbox": [
+            71.2,
+            292.49,
+            367.9,
+            318.36
+          ],
+          "blockIndex": 7,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "STEP 02\nBlink an LED. Then a buzzer. Then a button."
+        },
+        {
+          "bbox": [
+            71.2,
+            322.0,
+            529.36,
+            344.93
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "DO THIS\nUpload the Blink example, then change the delay from 1000 ms to 100 ms and watch it"
+        },
+        {
+          "bbox": [
+            71.2,
+            346.77,
+            523.84,
+            372.53
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "change. Wire an LED with a 220 ohm resistor on pin 13. Add the buzzer with tone().\nAdd a button with pinMode(INPUT_PULLUP) so the LED only lights while it's pressed."
+        },
+        {
+          "bbox": [
+            71.2,
+            378.4,
+            523.84,
+            415.13
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "THE TRAP\nCopy-pasting a whole project on day two. Every build here is under 15 lines — type\nthem, break them, fix them."
+        },
+        {
+          "bbox": [
+            71.2,
+            421.0,
+            496.24,
+            457.73
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "YOU'RE DONE WHEN\nYou can make the LED, the buzzer and the button work together without looking\nanything up."
+        },
+        {
+          "bbox": [
+            71.2,
+            487.59,
+            312.7,
+            513.46
+          ],
+          "blockIndex": 12,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "STEP 03\nNow learn the theory you just used."
+        },
+        {
+          "bbox": [
+            71.2,
+            517.1,
+            534.88,
+            567.63
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "DO THIS\nYou've already used Ohm's law (that 220 ohm resistor), Kirchhoff's laws (the current\nthrough your LED loop) and a pull-up resistor. Go back and read exactly those: V =\nIR, series vs parallel, voltage dividers, why the LED needs a resistor at all. The"
+        },
+        {
+          "bbox": [
+            71.2,
+            569.47,
+            319.6,
+            581.43
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "concepts stick because you've held the parts."
+        },
+        {
+          "bbox": [
+            71.2,
+            587.3,
+            534.88,
+            610.23
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "THE TRAP\nTrying to finish a 900-page textbook before touching a wire. Read one chapter, build"
+        },
+        {
+          "bbox": [
+            71.2,
+            612.07,
+            170.56,
+            624.03
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "one thing, repeat."
+        },
+        {
+          "bbox": [
+            71.2,
+            629.9,
+            518.32,
+            652.83
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "YOU'RE DONE WHEN\nYou can calculate the resistor for any LED from its datasheet and explain why 5 V"
+        },
+        {
+          "bbox": [
+            71.2,
+            654.67,
+            236.8,
+            666.63
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "straight into an LED kills it."
+        }
+      ],
+      "charCount": 1719,
+      "height": 792.0,
+      "pageNumber": 2,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            61.2,
+            748.31,
+            550.8,
+            758.06
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "the build list · @1nska\n3"
+        },
+        {
+          "bbox": [
+            71.2,
+            67.39,
+            409.3,
+            93.26
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "STEP 04\nLearn to solder early. It's easier than it looks."
+        },
+        {
+          "bbox": [
+            71.2,
+            96.9,
+            512.8,
+            119.83
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "DO THIS\nA $20 temperature-controlled iron, 0.8 mm leaded or lead-free solder, flux and a"
+        },
+        {
+          "bbox": [
+            71.2,
+            121.67,
+            540.4,
+            147.43
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "practice kit (a $5 through-hole 'skill kit'). Tin the tip, heat the pad and the leg\ntogether for two seconds, feed solder into the joint, not the iron. Twenty joints and"
+        },
+        {
+          "bbox": [
+            71.2,
+            149.27,
+            154.0,
+            161.23
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "you'll have it."
+        },
+        {
+          "bbox": [
+            71.2,
+            167.1,
+            540.4,
+            203.83
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "THE TRAP\nWaiting until a project 'needs' soldering. Breadboards fall apart the moment you move\nthem — soldering is what makes something yours to keep."
+        },
+        {
+          "bbox": [
+            71.2,
+            209.7,
+            529.36,
+            246.43
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "YOU'RE DONE WHEN\nYour joints look like small shiny cones, not grey blobs, and a soldered LED circuit\nworks first try."
+        },
+        {
+          "bbox": [
+            71.2,
+            276.29,
+            464.5,
+            302.16
+          ],
+          "blockIndex": 7,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "STEP 05\nMeasure everything. Multimeter first, oscilloscope later."
+        },
+        {
+          "bbox": [
+            71.2,
+            305.8,
+            529.36,
+            342.53
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "DO THIS\nA $15 multimeter answers 90% of beginner questions: is there voltage here, is this\nwire actually connected (continuity beep), how much current does this draw. Measure"
+        },
+        {
+          "bbox": [
+            71.2,
+            344.37,
+            523.84,
+            370.13
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "your LED circuit and compare with what Ohm's law predicted. Only reach for a scope\nwhen you start caring about signals over time (PWM, serial, audio)."
+        },
+        {
+          "bbox": [
+            71.2,
+            376.0,
+            540.4,
+            412.73
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "THE TRAP\nGuessing. 'It doesn't work' is not a diagnosis. 'Pin 13 is at 4.9 V but the LED anode\nis at 0 V' is — and that takes ten seconds with a meter."
+        },
+        {
+          "bbox": [
+            71.2,
+            418.6,
+            363.76,
+            441.53
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "YOU'RE DONE WHEN\nYou debug by measuring before you debug by re-wiring."
+        },
+        {
+          "bbox": [
+            71.2,
+            471.39,
+            402.4,
+            497.26
+          ],
+          "blockIndex": 12,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "STEP 06\nBuild one real project you actually want to use."
+        },
+        {
+          "bbox": [
+            71.2,
+            500.9,
+            534.88,
+            551.43
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "DO THIS\nNot a tutorial — something with a job: a plant-moisture alarm, a desk lamp that dims\nwith a knob, a door sensor that texts you, a temperature logger for your room. Pick\none, make a parts list, build it on a breadboard, then solder it onto perfboard and"
+        },
+        {
+          "bbox": [
+            71.2,
+            553.27,
+            159.52,
+            565.23
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "put it in a box."
+        },
+        {
+          "bbox": [
+            71.2,
+            571.1,
+            523.84,
+            594.03
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "THE TRAP\nTen half-finished projects. One finished thing you use every day teaches more than"
+        },
+        {
+          "bbox": [
+            71.2,
+            595.87,
+            330.64,
+            607.83
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "ten demos, and it's the one you'll show people."
+        },
+        {
+          "bbox": [
+            71.2,
+            613.7,
+            523.84,
+            636.63
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "YOU'RE DONE WHEN\nIt's been running on your desk for a week and you've fixed at least one thing that"
+        },
+        {
+          "bbox": [
+            71.2,
+            638.47,
+            104.32,
+            650.43
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "broke."
+        }
+      ],
+      "charCount": 1806,
+      "height": 792.0,
+      "pageNumber": 3,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            61.2,
+            748.31,
+            550.8,
+            758.06
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "the build list · @1nska\n4"
+        },
+        {
+          "bbox": [
+            61.2,
+            57.27,
+            248.4,
+            74.17
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "## the $60 starter bench"
+        },
+        {
+          "bbox": [
+            71.2,
+            95.37,
+            534.88,
+            107.33
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• Arduino Uno clone starter kit (board, breadboard, wires, LEDs, resistors, buttons,"
+        },
+        {
+          "bbox": [
+            71.2,
+            109.17,
+            330.64,
+            134.93
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "buzzer, pot, sensors) — $30–40\n• Digital multimeter with continuity beep — $15"
+        },
+        {
+          "bbox": [
+            71.2,
+            136.77,
+            446.56,
+            148.73
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• Temperature-controlled soldering iron kit + solder + flux — $20–25"
+        },
+        {
+          "bbox": [
+            71.2,
+            150.57,
+            374.8,
+            176.33
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• Through-hole soldering practice kit — $5\n• USB cable and a phone charger as your 5 V supply — $0"
+        },
+        {
+          "bbox": [
+            71.2,
+            178.17,
+            529.36,
+            203.93
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• Later, not now: ESP32 board ($6) once you want Wi-Fi, a basic oscilloscope ($60+)\nonce you care about signals"
+        },
+        {
+          "bbox": [
+            61.2,
+            231.68,
+            326.4,
+            248.57
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "## the first five builds, in order"
+        },
+        {
+          "bbox": [
+            71.2,
+            269.77,
+            507.28,
+            295.53
+          ],
+          "blockIndex": 8,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• Blink — change the timing, then blink two LEDs alternately\n• Button-controlled LED — learn INPUT_PULLUP and why the button reads backwards"
+        },
+        {
+          "bbox": [
+            71.2,
+            297.37,
+            424.48,
+            323.13
+          ],
+          "blockIndex": 9,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• Buzzer melody — tone() and a short array of notes\n• Potentiometer dimmer — analogRead in, PWM out with analogWrite"
+        },
+        {
+          "bbox": [
+            71.2,
+            324.97,
+            540.4,
+            350.73
+          ],
+          "blockIndex": 10,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• Light-sensor night light — a photoresistor in a voltage divider turns the LED on in\nthe dark"
+        },
+        {
+          "bbox": [
+            61.2,
+            378.47,
+            381.0,
+            395.38
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "## the only theory you need for month one"
+        },
+        {
+          "bbox": [
+            71.2,
+            416.57,
+            391.36,
+            428.53
+          ],
+          "blockIndex": 12,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• Ohm's law, V = IR: picks every resistor you'll ever add."
+        },
+        {
+          "bbox": [
+            71.2,
+            430.37,
+            518.32,
+            469.93
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• Kirchhoff's current and voltage laws: what goes in comes out; voltages around a\nloop add to zero. That's how you reason about any circuit.\n• Series vs parallel: series shares current, parallel shares voltage."
+        },
+        {
+          "bbox": [
+            71.2,
+            471.77,
+            507.28,
+            497.53
+          ],
+          "blockIndex": 14,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• Voltage divider: two resistors turn any sensor into a readable voltage.\n• LED current limiting: (5 V - 2 V) / 220 ohm is about 14 mA — bright and safe."
+        },
+        {
+          "bbox": [
+            71.2,
+            499.37,
+            485.2,
+            511.33
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• Pull-up and pull-down resistors: why a floating input reads random noise."
+        },
+        {
+          "bbox": [
+            71.2,
+            513.17,
+            446.56,
+            525.13
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• PWM: switching fast enough that a dimmer looks smooth to your eye."
+        }
+      ],
+      "charCount": 1477,
+      "height": 792.0,
+      "pageNumber": 4,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            61.2,
+            748.31,
+            550.8,
+            758.06
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "the build list · @1nska\n5"
+        },
+        {
+          "bbox": [
+            61.2,
+            57.27,
+            193.8,
+            74.17
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "## why this order"
+        },
+        {
+          "bbox": [
+            71.2,
+            95.36,
+            226.72,
+            107.84
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ Why build before reading?"
+        },
+        {
+          "bbox": [
+            83.2,
+            109.37,
+            535.84,
+            121.33
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "theory read without a circuit in front of you evaporates in a week; theory read to"
+        },
+        {
+          "bbox": [
+            83.2,
+            123.17,
+            540.8,
+            148.93
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "explain something you just watched happen sticks for years. The kit costs less than\nthe textbook."
+        },
+        {
+          "bbox": [
+            71.2,
+            156.76,
+            364.96,
+            169.24
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ Why an Arduino instead of a bare microcontroller?"
+        },
+        {
+          "bbox": [
+            83.2,
+            170.77,
+            524.8,
+            182.73
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "the Uno hides nothing that matters to a beginner — you still wire every resistor"
+        },
+        {
+          "bbox": [
+            83.2,
+            184.57,
+            530.32,
+            196.53
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "and read every pin — but it removes the toolchain and programmer setup that stops"
+        },
+        {
+          "bbox": [
+            83.2,
+            198.37,
+            530.32,
+            224.13
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "most people before the first blink. Move to bare chips or an ESP32 when a project\nneeds it."
+        },
+        {
+          "bbox": [
+            71.2,
+            231.96,
+            313.12,
+            244.44
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ Why a multimeter before an oscilloscope?"
+        },
+        {
+          "bbox": [
+            83.2,
+            245.97,
+            530.32,
+            257.93
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "a meter tells you what's true right now, and almost every beginner bug is a wrong"
+        },
+        {
+          "bbox": [
+            83.2,
+            259.77,
+            524.8,
+            285.53
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "voltage or an open wire. A scope shows how a signal changes over time, which you\nwon't need until you're debugging PWM, serial or audio."
+        },
+        {
+          "bbox": [
+            61.2,
+            315.31,
+            233.7,
+            330.26
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "That's the whole roadmap."
+        },
+        {
+          "bbox": [
+            61.2,
+            333.87,
+            535.92,
+            345.83
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Six steps, one kit, one project you keep. Everything past this — motors, radios, PCBs,"
+        },
+        {
+          "bbox": [
+            61.2,
+            347.67,
+            546.96,
+            373.43
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "power supplies — is the same loop: build the small version, then read exactly the theory\nyou just used, then measure it."
+        },
+        {
+          "bbox": [
+            71.2,
+            393.25,
+            540.8,
+            421.25
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Comment LEARN on the reel and I'll send you this guide. Follow for the next one\n— the first five builds, step by step."
+        },
+        {
+          "bbox": [
+            61.2,
+            441.27,
+            320.4,
+            452.98
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "— Enes (@1nska) · Electrical Engineering student"
+        }
+      ],
+      "charCount": 1207,
+      "height": 792.0,
+      "pageNumber": 5,
+      "textExtractable": true,
+      "width": 612.0
+    }
+  ],
+  "provenance": {
+    "confidence": "EXACT",
+    "extractionMethod": "pymupdf-blocks-v1",
+    "extractorVersion": "1.28.0",
+    "generatorVersion": null,
+    "origin": "extracted",
+    "source": "guide-023",
+    "sourceHash": "5f3ba1c228eb16e42d8ebc1b2f8540856f0c9056057b3f82837b88c3b3c14b91",
+    "sourcePage": null,
+    "sourcePath": "Engineering guides/how-to-learn-electronics-from-zero.pdf",
+    "sourceSection": "ROOT"
+  },
+  "relativePath": "Engineering guides/how-to-learn-electronics-from-zero.pdf",
+  "schemaVersion": "1.0.0",
+  "sha256": "5f3ba1c228eb16e42d8ebc1b2f8540856f0c9056057b3f82837b88c3b3c14b91",
+  "sourceId": "guide-023"
+}

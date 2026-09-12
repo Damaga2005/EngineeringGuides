@@ -1,0 +1,3579 @@
+{
+  "metadata": {
+    "author": "@1nska",
+    "creationDate": "D:20260602044125+00'00'",
+    "creator": "(unspecified)",
+    "format": "PDF 1.4",
+    "modDate": "D:20260602044125+00'00'",
+    "producer": "ReportLab PDF Library - (opensource)",
+    "subject": "(unspecified)",
+    "title": "6 EE Projects That Reach Space"
+  },
+  "pageCount": 23,
+  "pages": [
+    {
+      "blocks": [
+        {
+          "bbox": [
+            223.9,
+            733.07,
+            388.09,
+            744.07
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "By @1nska  •  Electrical Engineer"
+        },
+        {
+          "bbox": [
+            67.2,
+            77.67,
+            388.11,
+            235.72
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "SPACE TECH • SPACECRAFT SUBSYSTEMS\n6 EE PROJECTS\nTHAT BUILD A\nREAL SATELLITE"
+        },
+        {
+          "bbox": [
+            67.2,
+            251.23,
+            469.37,
+            283.73
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Thrusters. Attitude control. Flight software. Ground stations. Power.\nThe actual subsystems of a spacecraft. Real EE."
+        },
+        {
+          "bbox": [
+            67.2,
+            319.0,
+            544.79,
+            331.5
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "1. Cold-Gas Reaction Thruster — slew a platform by firing gas\n$75"
+        },
+        {
+          "bbox": [
+            67.2,
+            346.0,
+            544.79,
+            358.5
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "2. Auto-Tracking Ground Station — an antenna that follows satellites\n$70"
+        },
+        {
+          "bbox": [
+            67.2,
+            373.0,
+            544.79,
+            385.5
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "3. Magnetorquer Detumble System — stabilize against Earth's field\n$30"
+        },
+        {
+          "bbox": [
+            67.2,
+            400.0,
+            544.79,
+            412.5
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "4. Satellite-in-a-Box Flight Computer — live telemetry downlink\n$50"
+        },
+        {
+          "bbox": [
+            67.2,
+            427.0,
+            544.79,
+            439.5
+          ],
+          "blockIndex": 7,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "5. Sun-Vector Sensor — find the Sun for attitude\n$25"
+        },
+        {
+          "bbox": [
+            67.2,
+            454.0,
+            544.79,
+            466.5
+          ],
+          "blockIndex": 8,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "6. CubeSat Power System (EPS) — a satellite's electrical heart\n$45"
+        }
+      ],
+      "charCount": 617,
+      "height": 792.0,
+      "pageNumber": 1,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            183.9,
+            749.41,
+            428.1,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "@1nska   •   6 EE Projects That Build a Real Satellite   •   Page 2"
+        },
+        {
+          "bbox": [
+            67.2,
+            73.03,
+            346.08,
+            124.91
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "PROJECT 1\nCold-Gas Reaction Thruster"
+        },
+        {
+          "bbox": [
+            67.2,
+            131.0,
+            514.64,
+            159.5
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "A platform that rotates and holds its heading by firing puffs of compressed gas —\nexactly like a spacecraft's RCS"
+        },
+        {
+          "bbox": [
+            116.1,
+            181.55,
+            531.93,
+            192.05
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Cost: ~$75\nDifficulty: Advanced\nBuild Time: 2-3 weekends"
+        },
+        {
+          "bbox": [
+            67.2,
+            217.34,
+            183.11,
+            231.34
+          ],
+          "blockIndex": 4,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Why This Matters"
+        },
+        {
+          "bbox": [
+            67.2,
+            239.55,
+            544.77,
+            358.55
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Out in orbit there is nothing to push against, so spacecraft change and hold their orientation by firing\nsmall thrusters — the reaction control system (RCS). You can build the same thing on the ground:\nmount a platform on a near-frictionless bearing, plumb a few small solenoid valves to a\ncompressed-gas supply, and fire short puffs to rotate it and hold a commanded heading. An IMU\nsenses the angle, a controller decides which thruster to pulse and for how long, and the platform slews\nand stops on target — no wheels, no contact, just gas. This is exactly how satellites maneuver, and the\nair-bearing version is literally how aerospace labs test real attitude-control hardware before flight. It is\nthe most viscerally 'spacecraft' project you can build on a bench."
+        },
+        {
+          "bbox": [
+            73.2,
+            380.55,
+            538.76,
+            436.05
+          ],
+          "blockIndex": 6,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "What this proves to a recruiter: You understand reaction-control propulsion, closed-loop attitude\ncontrol, solenoid valve driving and pulse-width thrust modulation, and inertial sensing. Propulsion\nand GNC are core spacecraft disciplines, and demonstrating thruster-based attitude control on an air\nbearing is exactly the kind of hardware aerospace teams build and test."
+        },
+        {
+          "bbox": [
+            67.2,
+            457.55,
+            536.38,
+            482.55
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "→ The job this maps to: spacecraft propulsion and GNC — satellite and launch companies, and the\nair-bearing test labs that validate attitude-control systems."
+        },
+        {
+          "bbox": [
+            73.2,
+            506.55,
+            532.48,
+            577.05
+          ],
+          "blockIndex": 8,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Safety: Compressed gas is genuinely dangerous. Use only a properly rated regulator and tubing,\nnever exceed component pressure ratings, and secure the gas supply so it cannot become a\nprojectile. Use inert gas (CO2 or filtered compressed air) — never anything flammable or an\nunregulated high-pressure source — wear eye protection, and fully depressurize before working on\nthe plumbing."
+        }
+      ],
+      "charCount": 1968,
+      "height": 792.0,
+      "pageNumber": 2,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            183.9,
+            749.41,
+            428.1,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "@1nska   •   6 EE Projects That Build a Real Satellite   •   Page 3"
+        },
+        {
+          "bbox": [
+            67.2,
+            300.54,
+            155.88,
+            314.54
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "How It Works"
+        },
+        {
+          "bbox": [
+            67.2,
+            322.75,
+            529.14,
+            379.75
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Newton's third law in a vacuum: A spacecraft cannot push against anything, so it carries its own\nreaction mass: expel gas one way, the body rotates the other. Firing a thruster offset from the\ncenter of mass produces a torque that slews the vehicle. Your bench version does the identical\nthing on a low-friction bearing that mimics the freedom of orbit."
+        },
+        {
+          "bbox": [
+            67.2,
+            390.75,
+            536.23,
+            432.25
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Near-frictionless bearing: The platform sits on a ball bearing, a lazy-Susan, or — for the stretch\nversion — a planar air bearing that floats it on a thin film of air. The lower the friction, the more the\ndemo behaves like a real satellite, where the only torques are the ones you command."
+        },
+        {
+          "bbox": [
+            67.2,
+            443.25,
+            536.31,
+            484.75
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Solenoid 'thrusters': Small 12 V solenoid valves act as on/off thrusters. Mounted in opposing pairs\nat the platform's edge and fed from a regulated gas line, each releases a puff of gas through a\nnozzle when energized. Opposing pairs let you torque clockwise or counter-clockwise."
+        },
+        {
+          "bbox": [
+            67.2,
+            495.75,
+            544.78,
+            537.25
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Pulsed thrust control: You cannot throttle a solenoid, so you modulate thrust the way real RCS does\n— by pulse width and pulse frequency. Short pulses give fine control near the target; longer or more\nfrequent pulses give a fast slew. The controller translates a commanded torque into a valve on-time."
+        },
+        {
+          "bbox": [
+            67.2,
+            548.25,
+            531.61,
+            605.25
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Closed-loop attitude control: An IMU measures the platform's angle and rate; a PD controller\ncomputes the torque needed to reach and hold the setpoint, then thruster-selection logic fires the\ncorrect valve. Because gas is limited, the controller must avoid a 'limit cycle' — chattering around\nthe target and wasting gas — which is a real spacecraft design problem."
+        }
+      ],
+      "charCount": 1676,
+      "height": 792.0,
+      "pageNumber": 3,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            183.9,
+            749.41,
+            428.1,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "@1nska   •   6 EE Projects That Build a Real Satellite   •   Page 4"
+        },
+        {
+          "bbox": [
+            67.2,
+            70.34,
+            213.47,
+            84.34
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Key Design Decisions"
+        },
+        {
+          "bbox": [
+            67.2,
+            92.55,
+            531.67,
+            103.05
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "→ Why cold gas instead of anything fancier? Cold-gas propulsion — just releasing a pressurized"
+        },
+        {
+          "bbox": [
+            83.2,
+            108.05,
+            538.38,
+            149.55
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "inert gas — is the simplest, safest thruster there is, and it is genuinely flown on small satellites. No\ncombustion, no high voltage, no toxic propellant: ideal for learning the control problem without the\nhazards of real rocketry."
+        },
+        {
+          "bbox": [
+            67.2,
+            160.55,
+            518.86,
+            171.05
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "→ Why pulse-width modulate thrust? A solenoid valve is on or off; it cannot be partly open in a"
+        },
+        {
+          "bbox": [
+            83.2,
+            176.05,
+            544.77,
+            217.55
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "controllable way. Spacecraft RCS solves this with pulse modulation — varying how long and how\noften you fire — mapping a continuous torque command onto discrete puffs. Tuning it is the heart of\nthe project."
+        },
+        {
+          "bbox": [
+            67.2,
+            228.55,
+            536.36,
+            239.05
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "→ Why an air bearing for testing? Aerospace labs validate attitude-control hardware on air-bearing"
+        },
+        {
+          "bbox": [
+            83.2,
+            244.05,
+            534.32,
+            285.55
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "tables precisely because they remove friction and gravity torque, leaving the vehicle free to rotate\nas it would in orbit. Building even a simple version teaches you how flight hardware is actually\ntested on the ground."
+        },
+        {
+          "bbox": [
+            67.2,
+            303.34,
+            170.67,
+            317.34
+          ],
+          "blockIndex": 8,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Bill of Materials"
+        },
+        {
+          "bbox": [
+            68.2,
+            333.44,
+            543.8,
+            343.44
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Component\nPart / Spec\nQty\n~Cost"
+        },
+        {
+          "bbox": [
+            68.2,
+            357.33,
+            543.8,
+            366.83
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Solenoid valves\n12 V, small pneumatic (opposing pairs)\n4\n$20"
+        },
+        {
+          "bbox": [
+            68.2,
+            381.33,
+            543.8,
+            390.83
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Gas supply + regulator\nCO2 cartridge or small tank + regulator\n1\n$22"
+        },
+        {
+          "bbox": [
+            68.2,
+            405.33,
+            543.8,
+            414.83
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Tubing + nozzles\nRated pneumatic tubing + fittings\n1\n$8"
+        },
+        {
+          "bbox": [
+            68.2,
+            429.33,
+            543.8,
+            438.83
+          ],
+          "blockIndex": 13,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "IMU\nMPU-6050 / BNO055\n1\n$4"
+        },
+        {
+          "bbox": [
+            68.2,
+            453.33,
+            543.8,
+            462.83
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "MOSFET drivers\nLogic-level + flyback diodes\n1\n$3"
+        },
+        {
+          "bbox": [
+            68.2,
+            477.33,
+            543.8,
+            486.83
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Microcontroller\nESP32 / STM32\n1\n$6"
+        },
+        {
+          "bbox": [
+            68.2,
+            501.33,
+            543.8,
+            510.83
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Low-friction bearing\nLazy-Susan or air-bearing puck\n1\n$8"
+        },
+        {
+          "bbox": [
+            68.2,
+            525.33,
+            543.8,
+            534.83
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Platform + battery\nRigid disk + LiPo\n1\n$8"
+        },
+        {
+          "bbox": [
+            67.2,
+            556.34,
+            144.21,
+            570.34
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Build Steps"
+        },
+        {
+          "bbox": [
+            67.2,
+            578.55,
+            541.65,
+            620.05
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Build the frictionless platform: Mount a rigid disk on a low-friction bearing (a quality lazy-Susan to\nstart, a planar air bearing for the stretch build). Balance it carefully so gravity introduces no torque — it\nshould sit still at any angle when undisturbed."
+        },
+        {
+          "bbox": [
+            67.2,
+            633.05,
+            527.68,
+            674.55
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Plumb the gas system: Fit a regulator to the gas supply and run rated tubing to opposing solenoid\nvalves at the rim, each ending in a small nozzle. Keep supply pressure within every component's\nrating, and leak-check before powering anything."
+        }
+      ],
+      "charCount": 1979,
+      "height": 792.0,
+      "pageNumber": 4,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            183.9,
+            749.41,
+            428.1,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "@1nska   •   6 EE Projects That Build a Real Satellite   •   Page 5"
+        },
+        {
+          "bbox": [
+            67.2,
+            69.55,
+            533.74,
+            111.05
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Wire valves + IMU: Drive each solenoid from a MOSFET with a flyback diode (valves are inductive).\nMount the IMU at the platform's center and read angle and rate over I2C. Confirm a brief valve pulse\nproduces a clean puff and a small rotation."
+        },
+        {
+          "bbox": [
+            67.2,
+            124.05,
+            533.54,
+            165.55
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Close the control loop: Implement a PD controller: from heading error and rate, compute a torque\ncommand, then convert it to a valve and a pulse width. Add a deadband so the platform does not fire\nconstantly near the target — that is how you stop wasting gas in a limit cycle."
+        },
+        {
+          "bbox": [
+            67.2,
+            178.55,
+            544.78,
+            220.05
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Slew and hold on camera: Command a 90-degree turn and film the platform puffing gas, rotating, and\nstopping precisely on the new heading. Nudge it and watch it fire to recover. Log angle vs. time to show\nthe slew and settle — the language of attitude control."
+        },
+        {
+          "bbox": [
+            73.2,
+            249.17,
+            181.4,
+            260.17
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Interview Questions:"
+        },
+        {
+          "bbox": [
+            73.2,
+            269.05,
+            488.97,
+            279.55
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ How does a reaction-control thruster change a spacecraft's orientation with no external"
+        },
+        {
+          "bbox": [
+            89.2,
+            284.55,
+            139.39,
+            295.05
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "reference?"
+        },
+        {
+          "bbox": [
+            73.2,
+            306.05,
+            485.81,
+            316.55
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ Why is thrust modulated by pulse width and frequency rather than throttling the valve?"
+        },
+        {
+          "bbox": [
+            73.2,
+            327.55,
+            413.4,
+            338.05
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ What is a limit cycle in RCS control, and why does it waste propellant?"
+        },
+        {
+          "bbox": [
+            73.2,
+            349.05,
+            459.55,
+            359.55
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ Why are air-bearing tables used to test attitude-control hardware on the ground?"
+        },
+        {
+          "bbox": [
+            73.2,
+            370.55,
+            480.5,
+            381.05
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ Why is cold-gas propulsion attractive for small satellites despite its low performance?"
+        },
+        {
+          "bbox": [
+            73.2,
+            392.05,
+            479.94,
+            402.55
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ How would you allocate thruster firings for combined slew and disturbance rejection?"
+        }
+      ],
+      "charCount": 1381,
+      "height": 792.0,
+      "pageNumber": 5,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            183.9,
+            749.41,
+            428.1,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "@1nska   •   6 EE Projects That Build a Real Satellite   •   Page 6"
+        },
+        {
+          "bbox": [
+            67.2,
+            73.03,
+            368.21,
+            124.91
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "PROJECT 2\nAuto-Tracking Ground Station"
+        },
+        {
+          "bbox": [
+            67.2,
+            131.0,
+            539.63,
+            143.5
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "A motorized antenna that locks onto a satellite and physically follows it across the sky"
+        },
+        {
+          "bbox": [
+            116.1,
+            165.55,
+            531.93,
+            176.05
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Cost: ~$70\nDifficulty: Advanced\nBuild Time: 2-3 weekends"
+        },
+        {
+          "bbox": [
+            67.2,
+            201.34,
+            183.11,
+            215.34
+          ],
+          "blockIndex": 4,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Why This Matters"
+        },
+        {
+          "bbox": [
+            67.2,
+            223.55,
+            544.76,
+            327.05
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "A satellite in low orbit crosses the sky in minutes, so to keep a high-gain antenna pointed at it you need\na tracker that moves. This project builds a real azimuth-elevation rotator: two motors aim an antenna, a\nmicrocontroller predicts the satellite's position from its orbital elements, and the antenna physically\nslews to follow the pass from horizon to horizon — exactly what a professional ground station does.\nPair it with an SDR and you can hold a lock on a fast-moving satellite and pull down a clean signal a\nfixed antenna would lose in seconds. It is the ground half of every space mission, and watching your\nantenna hunt across the sky on its own is genuinely striking."
+        },
+        {
+          "bbox": [
+            73.2,
+            349.05,
+            535.44,
+            404.55
+          ],
+          "blockIndex": 6,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "What this proves to a recruiter: You understand satellite tracking and orbital prediction\n(TLEs/SGP4), azimuth-elevation pointing and motor control, antenna gain and link geometry, and\nground-station automation. The ground segment is a huge part of the space industry, and a working\nauto-tracker is a concrete TT&C; and RF skill."
+        },
+        {
+          "bbox": [
+            67.2,
+            426.05,
+            525.25,
+            451.05
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "→ The job this maps to: ground segment and TT&C; (telemetry, tracking & command) — satellite\noperators, ground-station networks, and RF/antenna teams."
+        }
+      ],
+      "charCount": 1424,
+      "height": 792.0,
+      "pageNumber": 6,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            183.9,
+            749.41,
+            428.1,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "@1nska   •   6 EE Projects That Build a Real Satellite   •   Page 7"
+        },
+        {
+          "bbox": [
+            67.2,
+            70.34,
+            155.88,
+            84.34
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "How It Works"
+        },
+        {
+          "bbox": [
+            67.2,
+            92.55,
+            536.25,
+            149.55
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Predicting where the satellite is: Every tracked satellite has published orbital elements (a TLE —\ntwo-line element set). An SGP4 propagator turns those plus the current time into the satellite's\nposition, which is then converted to an azimuth (compass bearing) and elevation (angle above the\nhorizon) from your exact location."
+        },
+        {
+          "bbox": [
+            67.2,
+            160.55,
+            537.71,
+            202.05
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Azimuth-elevation rotator: Two motors — one for azimuth, one for elevation — aim the antenna at\nany point in the sky. Geared steppers (or DC motors with position feedback) move the antenna to\nthe commanded az/el and update continuously as the satellite moves."
+        },
+        {
+          "bbox": [
+            67.2,
+            213.05,
+            542.11,
+            254.55
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Why a moving antenna at all: A high-gain, directional antenna has a narrow beam, which is what\ngives it the gain to hear a weak satellite — but that beam must stay pointed. A fixed antenna trades\ngain for coverage; a tracker gives you both by following the target."
+        },
+        {
+          "bbox": [
+            67.2,
+            265.55,
+            535.35,
+            307.05
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Closing the loop with the SDR: An SDR at the feed receives the downlink while the rotator tracks.\nBecause the satellite moves fast, you also correct for Doppler shift in software. Accurate pointing\nplus Doppler correction keep a solid lock across the whole pass."
+        },
+        {
+          "bbox": [
+            67.2,
+            318.05,
+            534.47,
+            359.55
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Horizon-to-horizon automation: The controller waits for a predicted pass, slews to the rise point\n(AOS), tracks across the sky, and parks at the set point (LOS) — fully automatic. A scheduler can\nchain multiple satellites across a day, exactly like an operational ground station."
+        },
+        {
+          "bbox": [
+            67.2,
+            377.34,
+            170.67,
+            391.34
+          ],
+          "blockIndex": 7,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Bill of Materials"
+        },
+        {
+          "bbox": [
+            68.2,
+            407.44,
+            543.8,
+            417.44
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Component\nPart / Spec\nQty\n~Cost"
+        },
+        {
+          "bbox": [
+            68.2,
+            431.33,
+            543.8,
+            440.83
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Geared stepper motors\n28BYJ-48 + ULN2003 driver (az + el)\n2\n$8"
+        },
+        {
+          "bbox": [
+            68.2,
+            455.33,
+            543.8,
+            464.83
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "RTL-SDR\nDownlink receiver\n1\n$30"
+        },
+        {
+          "bbox": [
+            68.2,
+            479.33,
+            543.8,
+            488.83
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Microcontroller\nESP32 / STM32 (runs SGP4)\n1\n$6"
+        },
+        {
+          "bbox": [
+            68.2,
+            503.33,
+            543.8,
+            512.83
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Directional antenna\nVHF/UHF Yagi (DIY)\n1\n$10"
+        },
+        {
+          "bbox": [
+            68.2,
+            527.33,
+            543.8,
+            536.83
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Rotator hardware\nBearings, brackets, mast\n1\n$10"
+        },
+        {
+          "bbox": [
+            68.2,
+            551.33,
+            543.79,
+            560.83
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Heavier motors (opt.)\nNEMA17 + driver for a big antenna\n1\n$0-15"
+        },
+        {
+          "bbox": [
+            68.2,
+            575.33,
+            543.8,
+            584.83
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Power supply\n5-12 V\n1\n$6"
+        }
+      ],
+      "charCount": 1845,
+      "height": 792.0,
+      "pageNumber": 7,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            183.9,
+            749.41,
+            428.1,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "@1nska   •   6 EE Projects That Build a Real Satellite   •   Page 8"
+        },
+        {
+          "bbox": [
+            67.2,
+            70.34,
+            144.21,
+            84.34
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Build Steps"
+        },
+        {
+          "bbox": [
+            67.2,
+            92.55,
+            534.61,
+            134.05
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Build the az-el rotator: Construct a two-axis mount: an azimuth base that spins the whole assembly\nand an elevation axis that tilts the antenna up. Use motors with enough torque to hold the antenna\nsteady, and add end stops or position feedback."
+        },
+        {
+          "bbox": [
+            67.2,
+            147.05,
+            536.95,
+            188.55
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Mount a directional antenna: Build or attach a lightweight VHF/UHF Yagi as the payload. Balance it\non the elevation axis so the motor is not fighting gravity. Run the feedline with a service loop so the\ncable does not bind as the rotator turns."
+        },
+        {
+          "bbox": [
+            67.2,
+            201.55,
+            535.22,
+            243.05
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Run SGP4 on the controller: Load the target satellite's TLE and implement SGP4 (libraries exist for\nmost MCUs). Feed it your location and the current time; verify it outputs az/el that matches a tracking\napp for the next pass."
+        },
+        {
+          "bbox": [
+            67.2,
+            256.05,
+            541.7,
+            297.55
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Drive the motors to az/el: Map the computed az/el to motor positions and update once a second.\nCalibrate the azimuth zero to true north and the elevation zero to the horizon. Watch the antenna track\na 'virtual' pass before trying a real one."
+        },
+        {
+          "bbox": [
+            67.2,
+            310.55,
+            544.79,
+            352.05
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Track a live pass + receive: Connect the SDR, wait for a real pass, and let the station track from AOS\nto LOS. Apply Doppler correction in the SDR software and capture the downlink. Film the antenna\nsweeping the sky on its own — the money shot."
+        },
+        {
+          "bbox": [
+            73.2,
+            381.17,
+            181.4,
+            392.17
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Interview Questions:"
+        },
+        {
+          "bbox": [
+            73.2,
+            401.05,
+            400.61,
+            411.55
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "→ What is a TLE, and how does SGP4 turn it into a pointing direction?"
+        },
+        {
+          "bbox": [
+            73.2,
+            422.55,
+            450.79,
+            433.05
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "→ Why does a high-gain antenna require active tracking while an omni does not?"
+        },
+        {
+          "bbox": [
+            73.2,
+            444.05,
+            507.65,
+            454.55
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "→ How do you convert a satellite's predicted position into azimuth and elevation for your site?"
+        },
+        {
+          "bbox": [
+            73.2,
+            465.55,
+            379.55,
+            476.05
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "→ Why must you correct for Doppler shift during a low-orbit pass?"
+        },
+        {
+          "bbox": [
+            73.2,
+            487.05,
+            406.1,
+            497.55
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "→ How do you calibrate the rotator's azimuth and elevation references?"
+        },
+        {
+          "bbox": [
+            73.2,
+            508.55,
+            395.89,
+            519.05
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "→ What limits your tracking accuracy, and how would you improve it?"
+        }
+      ],
+      "charCount": 1742,
+      "height": 792.0,
+      "pageNumber": 8,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            183.9,
+            749.41,
+            428.1,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "@1nska   •   6 EE Projects That Build a Real Satellite   •   Page 9"
+        },
+        {
+          "bbox": [
+            67.2,
+            73.03,
+            389.26,
+            124.91
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "PROJECT 3\nMagnetorquer Detumble System"
+        },
+        {
+          "bbox": [
+            67.2,
+            131.0,
+            519.79,
+            159.5
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Coils that push against Earth's magnetic field to stop a tumbling platform — how a\nCubeSat stabilizes after launch"
+        },
+        {
+          "bbox": [
+            116.1,
+            181.55,
+            531.93,
+            206.05
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Cost: ~$30\nDifficulty:\nIntermediate-Advanced\nBuild Time: 1-2 weekends"
+        },
+        {
+          "bbox": [
+            67.2,
+            231.34,
+            183.11,
+            245.34
+          ],
+          "blockIndex": 4,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Why This Matters"
+        },
+        {
+          "bbox": [
+            67.2,
+            253.55,
+            544.78,
+            357.05
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "When a CubeSat is ejected from its deployer it is tumbling, and before it can do anything useful it has\nto stop spinning and stabilize — a maneuver called detumbling. The clever part: it has nothing to push\nagainst, so it pushes against Earth itself. Electromagnets called magnetorquers create a magnetic\nmoment that interacts with Earth's magnetic field to produce a tiny torque, bleeding off the spin. This\nproject builds exactly that: coils on a platform, a magnetometer to sense rotation, and the famous\n'B-dot' control law that drives the coils to kill the tumble. It is one of the most elegant ideas in spacecraft\nengineering — steering against a planet's magnetic field — and it is genuinely buildable and cheap."
+        },
+        {
+          "bbox": [
+            73.2,
+            379.05,
+            537.13,
+            419.55
+          ],
+          "blockIndex": 6,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "What this proves to a recruiter: You understand magnetic actuation, the B-dot detumbling control\nlaw, magnetometer sensing and the geomagnetic field, and coil/driver design. Magnetorquers are\nflown on most CubeSats, and demonstrating detumbling control is a direct, recognizable ADCS skill."
+        },
+        {
+          "bbox": [
+            67.2,
+            441.05,
+            544.53,
+            466.05
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "→ The job this maps to: spacecraft attitude control (ADCS) — CubeSat and smallsat companies, and\nADCS subsystem teams."
+        }
+      ],
+      "charCount": 1431,
+      "height": 792.0,
+      "pageNumber": 9,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            181.54,
+            749.41,
+            430.46,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "@1nska   •   6 EE Projects That Build a Real Satellite   •   Page 10"
+        },
+        {
+          "bbox": [
+            67.2,
+            70.34,
+            155.88,
+            84.34
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "How It Works"
+        },
+        {
+          "bbox": [
+            67.2,
+            92.55,
+            531.22,
+            149.55
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "• Pushing against a planet: A magnetorquer is just a coil; running current through it creates a\nmagnetic dipole. That dipole tries to align with Earth's magnetic field — like a compass needle —\nproducing a torque on the spacecraft. With no reaction mass needed, it is an almost-free way to\ncontrol attitude in low orbit."
+        },
+        {
+          "bbox": [
+            67.2,
+            160.55,
+            544.42,
+            202.05
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "• Sensing the tumble: A 3-axis magnetometer measures Earth's field in the spacecraft's frame. If the\nspacecraft is rotating, that measured field vector sweeps around — and the rate at which it changes\n(its derivative) tells you how fast you are tumbling. This is the key insight behind the control law."
+        },
+        {
+          "bbox": [
+            67.2,
+            213.05,
+            544.78,
+            270.05
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "• The B-dot control law: B-dot drives each coil proportional to the rate of change of the measured field\n(the 'B-dot' signal), in the direction that opposes the change. The result is a torque that always fights\nthe tumble, smoothly bleeding off rotational energy until the field stops sweeping. It needs no\nknowledge of absolute orientation, which is why it is so robust."
+        },
+        {
+          "bbox": [
+            67.2,
+            281.05,
+            537.73,
+            322.55
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "• Driving the coils: An H-bridge per axis lets the controller push current either direction through each\ncoil, so it can torque whichever way is needed. Coil current sets the dipole strength; the bigger the\ncoil and current, the more torque — traded against power and heat."
+        },
+        {
+          "bbox": [
+            67.2,
+            333.55,
+            540.91,
+            375.05
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "• Demonstrating it on the ground: Hang the platform on a thin thread (a torsion pendulum) or float it\non a bearing, give it a spin, and watch the B-dot controller drive the coils to slow and stop it relative\nto Earth's field. The same algorithm runs on real CubeSats minutes after deployment."
+        },
+        {
+          "bbox": [
+            67.2,
+            392.84,
+            170.67,
+            406.84
+          ],
+          "blockIndex": 7,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Bill of Materials"
+        },
+        {
+          "bbox": [
+            68.2,
+            422.94,
+            543.8,
+            432.94
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Component\nPart / Spec\nQty\n~Cost"
+        },
+        {
+          "bbox": [
+            68.2,
+            446.83,
+            543.8,
+            456.33
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Magnetometer\n3-axis (QMC5883L / LIS3MDL)\n1\n$3"
+        },
+        {
+          "bbox": [
+            68.2,
+            470.83,
+            543.8,
+            480.33
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Magnetorquer coils\nHand-wound air coils or torque rods (x3)\n3\n$8"
+        },
+        {
+          "bbox": [
+            68.2,
+            494.83,
+            543.8,
+            504.33
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "H-bridge drivers\nPer-axis (DRV8833 x2)\n2\n$5"
+        },
+        {
+          "bbox": [
+            68.2,
+            518.83,
+            543.8,
+            528.33
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Microcontroller\nSTM32 / ESP32 (B-dot loop)\n1\n$6"
+        },
+        {
+          "bbox": [
+            68.2,
+            542.83,
+            543.8,
+            552.33
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Battery\nLiPo + regulator\n1\n$5"
+        },
+        {
+          "bbox": [
+            68.2,
+            566.83,
+            543.8,
+            576.33
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Platform\nFrame + suspension thread / bearing\n1\n$3"
+        }
+      ],
+      "charCount": 1963,
+      "height": 792.0,
+      "pageNumber": 10,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            181.54,
+            749.41,
+            430.46,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "@1nska   •   6 EE Projects That Build a Real Satellite   •   Page 11"
+        },
+        {
+          "bbox": [
+            67.2,
+            70.34,
+            144.21,
+            84.34
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Build Steps"
+        },
+        {
+          "bbox": [
+            67.2,
+            92.55,
+            543.39,
+            134.05
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Wind the magnetorquers: Wind three air-core coils (or coils on a ferrite rod for more moment) on the\nthree axes of a small frame. More turns and area give more magnetic moment per amp. Measure each\ncoil's resistance and confirm it produces a field with a compass."
+        },
+        {
+          "bbox": [
+            67.2,
+            147.05,
+            543.95,
+            188.55
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Read the magnetometer: Mount the 3-axis magnetometer away from the coils and read all three axes\nover I2C. Rotate the platform by hand and watch the field vector sweep — confirming you can sense\nrotation."
+        },
+        {
+          "bbox": [
+            67.2,
+            201.55,
+            542.85,
+            243.05
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Drive coils with H-bridges: Wire each coil to an H-bridge so the MCU can energize it in either\npolarity. Verify a commanded current produces a deflection near a reference magnet, and that you can\nreverse the torque direction."
+        },
+        {
+          "bbox": [
+            67.2,
+            256.05,
+            538.39,
+            297.55
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Implement B-dot: Compute the derivative of the measured field, then set each coil's current opposite\nto that rate of change. Tune the gain so it responds firmly without chattering. Crucially, pulse the coils\nand read the magnetometer when they are off, so you measure Earth's field, not your own coils."
+        },
+        {
+          "bbox": [
+            67.2,
+            310.55,
+            537.01,
+            352.05
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Detumble on a thread: Suspend the platform on a thin thread or float it on a bearing, spin it up, and\nswitch on B-dot. Watch the rotation slow and settle. Log angular rate vs. time to show the exponential\ndetumble — the exact curve a CubeSat produces in orbit."
+        },
+        {
+          "bbox": [
+            73.2,
+            381.17,
+            181.4,
+            392.17
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Interview Questions:"
+        },
+        {
+          "bbox": [
+            73.2,
+            401.05,
+            414.02,
+            411.55
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "→ How does a magnetorquer produce torque without any reaction mass?"
+        },
+        {
+          "bbox": [
+            73.2,
+            422.55,
+            484.0,
+            433.05
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "→ What does the magnetometer's rate of change tell you about the spacecraft's motion?"
+        },
+        {
+          "bbox": [
+            73.2,
+            444.05,
+            475.33,
+            454.55
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "→ Explain the B-dot control law and why it does not need absolute attitude knowledge."
+        },
+        {
+          "bbox": [
+            73.2,
+            465.55,
+            356.82,
+            476.05
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "→ Why must you sense the field with the coils de-energized?"
+        },
+        {
+          "bbox": [
+            73.2,
+            487.05,
+            449.87,
+            497.55
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "→ What are the limitations of magnetic actuation — when can't it control an axis?"
+        },
+        {
+          "bbox": [
+            73.2,
+            508.55,
+            405.82,
+            519.05
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "→ How do magnetorquers complement reaction wheels in a full ADCS?"
+        }
+      ],
+      "charCount": 1795,
+      "height": 792.0,
+      "pageNumber": 11,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            181.54,
+            749.41,
+            430.46,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "@1nska   •   6 EE Projects That Build a Real Satellite   •   Page 12"
+        },
+        {
+          "bbox": [
+            67.2,
+            73.03,
+            406.73,
+            124.91
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "PROJECT 4\nSatellite-in-a-Box Flight Computer"
+        },
+        {
+          "bbox": [
+            67.2,
+            131.0,
+            529.86,
+            159.5
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "An avionics stack that reads its sensors and beams CCSDS-style telemetry packets\ndown to a ground dashboard"
+        },
+        {
+          "bbox": [
+            116.1,
+            181.55,
+            531.93,
+            206.05
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Cost: ~$50\nDifficulty:\nIntermediate-Advanced\nBuild Time: 2-3 weekends"
+        },
+        {
+          "bbox": [
+            67.2,
+            231.34,
+            183.11,
+            245.34
+          ],
+          "blockIndex": 4,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Why This Matters"
+        },
+        {
+          "bbox": [
+            67.2,
+            253.55,
+            541.71,
+            372.55
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Every spacecraft has a brain: the command-and-data-handling (C&DH;) computer that reads the\nsensors, runs the housekeeping, packages everything into telemetry, and beams it to the ground while\naccepting commands back up. This project builds a working one — a flight-computer stack that\nsamples its sensors, forms proper telemetry packets, transmits them over a radio link to a ground\nstation you also build, and decodes them onto a live dashboard. Use the real spacecraft data standard\n(CCSDS) for the packets and you have built the same data architecture that flies on actual missions. It\nis less flashy than a thruster, but it is the literal nervous system of a satellite — and the flight-software\nskill is in high demand."
+        },
+        {
+          "bbox": [
+            73.2,
+            394.55,
+            535.37,
+            450.05
+          ],
+          "blockIndex": 6,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "What this proves to a recruiter: You understand command-and-data-handling architecture,\ntelemetry packetization (CCSDS), reliable serial/radio links, and ground-side decoding and display.\nFlight software and C&DH; are central to every space mission, and a working telemetry pipeline is a\nstandout systems project."
+        },
+        {
+          "bbox": [
+            67.2,
+            471.55,
+            531.09,
+            496.55
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "→ The job this maps to: command & data handling (C&DH;) and flight software — satellite primes,\nCubeSat companies, and avionics teams."
+        }
+      ],
+      "charCount": 1475,
+      "height": 792.0,
+      "pageNumber": 12,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            181.54,
+            749.41,
+            430.46,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "@1nska   •   6 EE Projects That Build a Real Satellite   •   Page 13"
+        },
+        {
+          "bbox": [
+            67.2,
+            300.54,
+            155.88,
+            314.54
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "How It Works"
+        },
+        {
+          "bbox": [
+            67.2,
+            322.75,
+            531.56,
+            379.75
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• The C&DH; role: The flight computer is the spacecraft's housekeeper: on a fixed schedule it reads\nevery sensor (voltages, currents, temperatures, attitude), checks system health, stores data, and\nassembles telemetry for downlink — all while listening for commands from the ground. It is the\nintegration point for every other subsystem."
+        },
+        {
+          "bbox": [
+            67.2,
+            390.75,
+            535.92,
+            432.25
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• Housekeeping telemetry: Your stack samples a set of 'housekeeping' channels — battery voltage,\nboard temperature, IMU attitude, a packet counter — at a steady rate. This is exactly the data\noperators watch to know a real satellite is alive and healthy."
+        },
+        {
+          "bbox": [
+            67.2,
+            443.25,
+            527.51,
+            500.25
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• CCSDS packetization: Spacecraft do not send raw numbers; they wrap data in standardized\npackets. The CCSDS space-packet format adds a header (identifying the data type, a sequence\ncount, a timestamp) and a checksum. Implementing it means your telemetry is structured,\nparseable, and corruption-checkable — the way flight data really works."
+        },
+        {
+          "bbox": [
+            67.2,
+            511.25,
+            540.36,
+            568.25
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• The radio link: A simple radio module (a UHF data module, or LoRa for easy range) carries the\npacket stream to the ground. You frame the packets for the link, and the ground side detects frame\nboundaries, validates checksums, and rejects corrupted packets — the reliability layer every\ndownlink needs."
+        },
+        {
+          "bbox": [
+            67.2,
+            579.25,
+            535.07,
+            636.25
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• Ground decoding + dashboard: On the ground, software receives the stream, parses the CCSDS\npackets back into named values, and plots them live — voltages trending, temperature rising,\nattitude changing. Add a command uplink and you can send instructions back, completing a real\ntelemetry-and-command loop."
+        }
+      ],
+      "charCount": 1622,
+      "height": 792.0,
+      "pageNumber": 13,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            181.54,
+            749.41,
+            430.46,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "@1nska   •   6 EE Projects That Build a Real Satellite   •   Page 14"
+        },
+        {
+          "bbox": [
+            67.2,
+            70.34,
+            170.67,
+            84.34
+          ],
+          "blockIndex": 1,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Bill of Materials"
+        },
+        {
+          "bbox": [
+            68.2,
+            100.44,
+            543.8,
+            110.44
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Component\nPart / Spec\nQty\n~Cost"
+        },
+        {
+          "bbox": [
+            68.2,
+            124.33,
+            543.8,
+            133.83
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Flight MCU\nSTM32 (C&DH; computer)\n1\n$6"
+        },
+        {
+          "bbox": [
+            68.2,
+            148.33,
+            543.8,
+            157.83
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Sensor suite\nIMU + temp + INA voltage/current\n1\n$8"
+        },
+        {
+          "bbox": [
+            68.2,
+            172.33,
+            543.8,
+            181.83
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Radio modules\nUHF data / LoRa pair (flight + ground)\n2\n$16"
+        },
+        {
+          "bbox": [
+            68.2,
+            196.33,
+            543.8,
+            205.83
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "SD card module\nOnboard data storage\n1\n$3"
+        },
+        {
+          "bbox": [
+            68.2,
+            220.33,
+            543.8,
+            229.83
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Ground computer\nRaspberry Pi / laptop (dashboard)\n1\n—"
+        },
+        {
+          "bbox": [
+            68.2,
+            244.33,
+            543.8,
+            253.83
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "USB-serial bridge\nGround radio to PC\n1\n$3"
+        },
+        {
+          "bbox": [
+            68.2,
+            268.33,
+            543.8,
+            277.83
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Power + battery\nRegulator + LiPo\n1\n$6"
+        },
+        {
+          "bbox": [
+            68.2,
+            292.33,
+            543.8,
+            301.83
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Protoboard + wiring\nStack assembly\n1\n$5"
+        },
+        {
+          "bbox": [
+            67.2,
+            323.34,
+            144.21,
+            337.34
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Build Steps"
+        },
+        {
+          "bbox": [
+            67.2,
+            345.55,
+            542.21,
+            387.05
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Bring up the sensors: Wire the IMU, a temperature sensor, and a voltage/current monitor to the flight\nMCU. Sample them on a fixed schedule (say 1 Hz) and confirm clean readings. These are your\nhousekeeping channels."
+        },
+        {
+          "bbox": [
+            67.2,
+            400.05,
+            524.18,
+            441.55
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Build CCSDS packets: Implement the CCSDS space-packet structure: a primary header with an\napplication ID, a sequence counter, and a timestamp, then your sensor payload, then a checksum.\nPrint the raw bytes and verify the structure by hand before transmitting."
+        },
+        {
+          "bbox": [
+            67.2,
+            454.55,
+            544.79,
+            496.05
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Add the radio downlink: Connect a radio module and frame the packets for it (sync word + length +\npacket + CRC). Transmit at a steady rate. On the second radio at the ground, capture the framed bytes\nand confirm you are receiving the stream."
+        },
+        {
+          "bbox": [
+            67.2,
+            509.05,
+            544.79,
+            550.55
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Decode on the ground: Write ground software that finds frame boundaries, validates the CRC, parses\nthe CCSDS header and payload, and prints named telemetry. Reject and count corrupted packets so\nyou can see link quality."
+        },
+        {
+          "bbox": [
+            67.2,
+            563.55,
+            532.55,
+            605.05
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Build the dashboard + uplink: Plot the telemetry live (a simple web dashboard or plotting script) —\nvoltage, temperature, attitude, packet count. Add a command uplink so the ground can change a\nsetting on the flight computer. Demonstrate the full loop end to end."
+        }
+      ],
+      "charCount": 1681,
+      "height": 792.0,
+      "pageNumber": 14,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            181.54,
+            749.41,
+            430.46,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "@1nska   •   6 EE Projects That Build a Real Satellite   •   Page 15"
+        },
+        {
+          "bbox": [
+            73.2,
+            79.67,
+            181.4,
+            90.67
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Interview Questions:"
+        },
+        {
+          "bbox": [
+            73.2,
+            99.55,
+            439.7,
+            110.05
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "→ What does the command-and-data-handling subsystem do on a spacecraft?"
+        },
+        {
+          "bbox": [
+            73.2,
+            121.05,
+            471.19,
+            131.55
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "→ Why use a standardized packet format like CCSDS instead of sending raw values?"
+        },
+        {
+          "bbox": [
+            73.2,
+            142.55,
+            429.18,
+            153.05
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "→ What is in a CCSDS primary header, and what is the sequence count for?"
+        },
+        {
+          "bbox": [
+            73.2,
+            164.05,
+            388.35,
+            174.55
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "→ How does the ground side detect and reject corrupted telemetry?"
+        },
+        {
+          "bbox": [
+            73.2,
+            185.55,
+            377.24,
+            196.05
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "→ Why timestamp telemetry at the source rather than on receipt?"
+        },
+        {
+          "bbox": [
+            73.2,
+            207.05,
+            442.61,
+            217.55
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "→ How would you make the downlink robust to dropped packets and bit errors?"
+        }
+      ],
+      "charCount": 514,
+      "height": 792.0,
+      "pageNumber": 15,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            181.54,
+            749.41,
+            430.46,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "@1nska   •   6 EE Projects That Build a Real Satellite   •   Page 16"
+        },
+        {
+          "bbox": [
+            67.2,
+            73.03,
+            256.24,
+            124.91
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "PROJECT 5\nSun-Vector Sensor"
+        },
+        {
+          "bbox": [
+            67.2,
+            131.0,
+            498.68,
+            159.5
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "A photodiode-array sensor that computes the exact direction to the Sun — the\nmost-flown attitude sensor in space"
+        },
+        {
+          "bbox": [
+            116.1,
+            181.55,
+            524.63,
+            192.05
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Cost: ~$25\nDifficulty: Intermediate\nBuild Time: 1 weekend"
+        },
+        {
+          "bbox": [
+            67.2,
+            217.34,
+            183.11,
+            231.34
+          ],
+          "blockIndex": 4,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Why This Matters"
+        },
+        {
+          "bbox": [
+            67.2,
+            239.55,
+            544.03,
+            343.05
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "To point itself, a spacecraft first has to know which way it is facing — and the simplest, cheapest,\nmost-flown way to get a reference is to find the Sun. A sun sensor measures the direction to the Sun in\nthe spacecraft's own frame, and that single vector is enough to constrain attitude for power-positioning\nand coarse pointing. This project builds a real one: an arrangement of photodiodes (or a pinhole over a\nsmall sensor array) whose relative readings encode the Sun's angle, plus the math to turn those\nreadings into a sun vector. It is a clean, satisfying sensor project — analog front end, geometry, and\ncalibration — and it is a genuine flight sensor, not a toy."
+        },
+        {
+          "bbox": [
+            73.2,
+            365.05,
+            526.08,
+            420.55
+          ],
+          "blockIndex": 6,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "What this proves to a recruiter: You understand optical attitude sensing, photodiode analog\nfront-ends and ratiometric measurement, the geometry of converting intensities into an angle, and\nsensor calibration. Sun sensors fly on nearly every satellite, and building one is a recognizable\nADCS sensing skill."
+        },
+        {
+          "bbox": [
+            67.2,
+            442.05,
+            522.36,
+            467.05
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "→ The job this maps to: attitude determination (ADCS) — CubeSat and satellite companies, and\nsensor/ADCS subsystem teams."
+        }
+      ],
+      "charCount": 1380,
+      "height": 792.0,
+      "pageNumber": 16,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            181.54,
+            749.41,
+            430.46,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "@1nska   •   6 EE Projects That Build a Real Satellite   •   Page 17"
+        },
+        {
+          "bbox": [
+            67.2,
+            70.34,
+            155.88,
+            84.34
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "How It Works"
+        },
+        {
+          "bbox": [
+            67.2,
+            92.55,
+            543.82,
+            149.55
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "• Why the Sun: The Sun is a bright, effectively point source in a known direction, making it the easiest\ncelestial reference to measure. Knowing the sun vector in the body frame lets a spacecraft orient its\nsolar panels and perform coarse attitude control — which is why almost every satellite carries a sun\nsensor."
+        },
+        {
+          "bbox": [
+            67.2,
+            160.55,
+            537.15,
+            217.55
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "• Photodiodes at angles: If you mount photodiodes facing slightly different directions (or put a single\npinhole/mask over a small array), each receives sunlight at a different incidence angle. Since a\nphotodiode's output falls off predictably with angle (roughly as the cosine), the relative outputs\ndepend on where the Sun is."
+        },
+        {
+          "bbox": [
+            67.2,
+            228.55,
+            535.41,
+            285.55
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "• Ratiometric measurement: Absolute brightness varies with distance and conditions, so you do not\nuse raw values — you use ratios between diodes. Ratios cancel overall intensity and depend only\non the angle, which is the trick that makes the sensor robust. This is the same principle as\ncommercial analog sun sensors."
+        },
+        {
+          "bbox": [
+            67.2,
+            296.55,
+            522.23,
+            338.05
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "• Analog front end: Each photodiode's tiny current is converted to a voltage by a transimpedance\namplifier and read by the MCU's ADC. Matching the channels and keeping noise low matters,\nbecause the angle accuracy comes directly from how cleanly you measure the photocurrents."
+        },
+        {
+          "bbox": [
+            67.2,
+            349.05,
+            519.59,
+            390.55
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "• Computing the sun vector: From the calibrated ratios, the MCU computes the two angles that\ndefine the Sun's direction (azimuth and elevation in the sensor frame), outputting a unit vector.\nCalibrating against known Sun angles turns the raw geometry into an accurate sensor."
+        },
+        {
+          "bbox": [
+            67.2,
+            408.34,
+            170.67,
+            422.34
+          ],
+          "blockIndex": 7,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Bill of Materials"
+        },
+        {
+          "bbox": [
+            68.2,
+            438.44,
+            543.8,
+            448.44
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Component\nPart / Spec\nQty\n~Cost"
+        },
+        {
+          "bbox": [
+            68.2,
+            462.33,
+            543.8,
+            471.83
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Photodiodes\nMatched (x4) or a quad photodiode\n4\n$6"
+        },
+        {
+          "bbox": [
+            68.2,
+            486.33,
+            543.8,
+            495.83
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Op-amps\nTransimpedance amplifiers (quad)\n1\n$3"
+        },
+        {
+          "bbox": [
+            68.2,
+            510.33,
+            543.8,
+            519.83
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Pinhole / mask + housing\nDefines incidence geometry\n1\n$4"
+        },
+        {
+          "bbox": [
+            68.2,
+            534.33,
+            543.8,
+            543.83
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Microcontroller\nWith multi-channel ADC\n1\n$5"
+        },
+        {
+          "bbox": [
+            68.2,
+            558.33,
+            543.8,
+            567.83
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Precision resistors\nTIA feedback, matched\n1\n$2"
+        },
+        {
+          "bbox": [
+            68.2,
+            582.33,
+            543.8,
+            591.83
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "OLED / output\nShow the computed angle\n1\n$4"
+        }
+      ],
+      "charCount": 1920,
+      "height": 792.0,
+      "pageNumber": 17,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            181.54,
+            749.41,
+            430.46,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "@1nska   •   6 EE Projects That Build a Real Satellite   •   Page 18"
+        },
+        {
+          "bbox": [
+            67.2,
+            70.34,
+            144.21,
+            84.34
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Build Steps"
+        },
+        {
+          "bbox": [
+            67.2,
+            92.55,
+            533.55,
+            134.05
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Arrange the photodiodes: Either tilt four photodiodes outward in a shallow pyramid, or place a\npinhole mask above a quad photodiode so the light spot shifts with Sun angle. Both encode direction\ninto the relative outputs; the pinhole approach is more precise."
+        },
+        {
+          "bbox": [
+            67.2,
+            147.05,
+            533.13,
+            188.55
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Build the analog front end: Convert each photodiode current to a voltage with a transimpedance\namplifier using matched feedback resistors. Read all channels on the MCU's ADC. In shade, confirm\nnear-zero; in sun, confirm strong, sensible readings."
+        },
+        {
+          "bbox": [
+            67.2,
+            201.55,
+            518.9,
+            243.05
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Take ratios, not raw values: Compute ratios between opposing channels so overall brightness\ncancels. Verify that moving a light source (or tilting the sensor toward the Sun) changes the ratios\nsmoothly and repeatably while brightness changes do not."
+        },
+        {
+          "bbox": [
+            67.2,
+            256.05,
+            544.76,
+            297.55
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Calibrate against known angles: Point the sensor at the Sun (or a collimated lamp) at several known\nangles and record the ratios. Fit a simple model mapping ratios to angle — this calibration is what turns\nthe device into a real sensor."
+        },
+        {
+          "bbox": [
+            67.2,
+            310.55,
+            537.82,
+            352.05
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Output the sun vector: Use the calibrated model to output the Sun's azimuth and elevation, or a unit\nvector, live on the OLED. Demonstrate it tracking the Sun's direction as you rotate the sensor — and\ndiscuss its accuracy and field of view."
+        },
+        {
+          "bbox": [
+            73.2,
+            381.17,
+            181.4,
+            392.17
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Interview Questions:"
+        },
+        {
+          "bbox": [
+            73.2,
+            401.05,
+            400.59,
+            411.55
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "→ Why is the Sun the most common attitude reference for spacecraft?"
+        },
+        {
+          "bbox": [
+            73.2,
+            422.55,
+            406.46,
+            433.05
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "→ Why use ratios of photodiode outputs instead of absolute intensities?"
+        },
+        {
+          "bbox": [
+            73.2,
+            444.05,
+            419.57,
+            454.55
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "→ How does a photodiode's output depend on the angle of incoming light?"
+        },
+        {
+          "bbox": [
+            73.2,
+            465.55,
+            483.47,
+            476.05
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "→ What does the transimpedance amplifier do, and why does channel matching matter?"
+        },
+        {
+          "bbox": [
+            73.2,
+            487.05,
+            359.75,
+            497.55
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "→ How do you calibrate raw readings into an accurate angle?"
+        },
+        {
+          "bbox": [
+            73.2,
+            508.55,
+            395.57,
+            519.05
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "→ What are a sun sensor's limitations (eclipse, albedo, field of view)?"
+        }
+      ],
+      "charCount": 1751,
+      "height": 792.0,
+      "pageNumber": 18,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            181.54,
+            749.41,
+            430.46,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "@1nska   •   6 EE Projects That Build a Real Satellite   •   Page 19"
+        },
+        {
+          "bbox": [
+            67.2,
+            73.03,
+            363.61,
+            124.91
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "PROJECT 6\nCubeSat Power System (EPS)"
+        },
+        {
+          "bbox": [
+            67.2,
+            131.0,
+            542.41,
+            159.5
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Solar input, battery management, regulated distribution, and power telemetry — a real\nsatellite's electrical heart"
+        },
+        {
+          "bbox": [
+            116.1,
+            181.55,
+            527.26,
+            206.05
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Cost: ~$45\nDifficulty:\nIntermediate-Advanced\nBuild Time: 2 weekends"
+        },
+        {
+          "bbox": [
+            67.2,
+            231.34,
+            183.11,
+            245.34
+          ],
+          "blockIndex": 4,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Why This Matters"
+        },
+        {
+          "bbox": [
+            67.2,
+            253.55,
+            543.42,
+            372.55
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "A satellite lives and dies by its power system. The EPS (electrical power subsystem) harvests energy\nfrom solar panels, charges and protects the battery, regulates it into the voltage rails every other\nsubsystem needs, and reports power health as telemetry — all of it autonomously, because there is no\none to flip a switch in orbit. This project builds a real one: a solar input stage that charges a lithium\nbattery safely, regulated output rails, protection against over-current and over-discharge, and\nvoltage/current telemetry on every channel. It is the same architecture as a flight EPS, and it is the\nsubsystem that keeps everything else alive — which is exactly why power engineers are always in\ndemand."
+        },
+        {
+          "bbox": [
+            73.2,
+            394.55,
+            534.8,
+            450.05
+          ],
+          "blockIndex": 6,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "What this proves to a recruiter: You understand solar energy harvesting, lithium battery charging\nand protection, DC-DC regulation and power distribution, and power telemetry/monitoring. The EPS\nis mission-critical on every spacecraft, and building one demonstrates real power-electronics and\nsystems competence."
+        },
+        {
+          "bbox": [
+            67.2,
+            471.55,
+            527.59,
+            496.55
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "→ The job this maps to: electrical power systems (EPS) — satellite and CubeSat companies, and\npower-electronics subsystem teams."
+        }
+      ],
+      "charCount": 1452,
+      "height": 792.0,
+      "pageNumber": 19,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            181.54,
+            749.41,
+            430.46,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "@1nska   •   6 EE Projects That Build a Real Satellite   •   Page 20"
+        },
+        {
+          "bbox": [
+            67.2,
+            300.54,
+            155.88,
+            314.54
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "How It Works"
+        },
+        {
+          "bbox": [
+            67.2,
+            322.75,
+            538.89,
+            364.25
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "• Harvesting solar power: Solar cells are the only energy source in orbit, but their output swings with\nsun angle and temperature. The charge stage (often with MPPT, as in the solar-controller project)\nextracts as much power as conditions allow and uses it to charge the battery."
+        },
+        {
+          "bbox": [
+            67.2,
+            375.25,
+            543.82,
+            432.25
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "• Battery charging + protection: A lithium battery must be charged within strict voltage and current\nlimits and protected against over-charge, over-discharge, over-current, and temperature extremes\n— any of which can damage or destroy it. The EPS enforces all of this automatically; in space there\nis no replacing a cooked battery."
+        },
+        {
+          "bbox": [
+            67.2,
+            443.25,
+            542.39,
+            484.75
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "• Regulated distribution: Different subsystems need different, clean voltages (e.g. 3.3 V for logic, 5 V\nfor radios). DC-DC converters generate these regulated rails from the battery, and the EPS\ndistributes them — often with the ability to switch individual loads on and off."
+        },
+        {
+          "bbox": [
+            67.2,
+            495.75,
+            544.78,
+            537.25
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "• Protection and autonomy: Each rail has over-current protection so one faulty subsystem cannot pull\ndown the whole bus, and the battery has an under-voltage cutoff so the satellite can safely 'brown\nout' and recover. This autonomy is essential — the spacecraft must protect itself."
+        },
+        {
+          "bbox": [
+            67.2,
+            548.25,
+            544.41,
+            605.25
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "• Power telemetry: The EPS measures voltage and current at the solar input, the battery, and each\nrail, and reports them as telemetry. Operators watch this to understand the energy balance — is the\nsatellite generating more than it consumes? — one of the most important health metrics of any\nmission."
+        }
+      ],
+      "charCount": 1548,
+      "height": 792.0,
+      "pageNumber": 20,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            181.54,
+            749.41,
+            430.46,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "@1nska   •   6 EE Projects That Build a Real Satellite   •   Page 21"
+        },
+        {
+          "bbox": [
+            67.2,
+            70.34,
+            170.67,
+            84.34
+          ],
+          "blockIndex": 1,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Bill of Materials"
+        },
+        {
+          "bbox": [
+            68.2,
+            100.44,
+            543.8,
+            110.44
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Component\nPart / Spec\nQty\n~Cost"
+        },
+        {
+          "bbox": [
+            68.2,
+            124.33,
+            543.8,
+            133.83
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Solar panel(s)\nSmall PV panel / cells\n1\n$10"
+        },
+        {
+          "bbox": [
+            68.2,
+            148.33,
+            543.8,
+            157.83
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Charge controller\nLi-ion charger IC (+ MPPT input)\n1\n$5"
+        },
+        {
+          "bbox": [
+            68.2,
+            172.33,
+            543.8,
+            181.83
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Battery + protection\nLi-ion cell + protection board\n1\n$8"
+        },
+        {
+          "bbox": [
+            68.2,
+            196.33,
+            543.8,
+            205.83
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "DC-DC regulators\n3.3 V + 5 V buck modules\n2\n$6"
+        },
+        {
+          "bbox": [
+            68.2,
+            220.33,
+            543.8,
+            229.83
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Voltage/current monitors\nINA219 / INA226 (x3)\n3\n$6"
+        },
+        {
+          "bbox": [
+            68.2,
+            244.33,
+            543.8,
+            253.83
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Load switches\nMOSFET high-side switches\n1\n$3"
+        },
+        {
+          "bbox": [
+            68.2,
+            268.33,
+            543.8,
+            277.83
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Microcontroller\nReads telemetry, controls switches\n1\n$5"
+        },
+        {
+          "bbox": [
+            68.2,
+            292.33,
+            543.8,
+            301.83
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Protoboard + wiring\nAssembly\n1\n$2"
+        },
+        {
+          "bbox": [
+            67.2,
+            323.34,
+            144.21,
+            337.34
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Build Steps"
+        },
+        {
+          "bbox": [
+            67.2,
+            345.55,
+            515.92,
+            387.05
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Build the charge stage: Wire the solar panel to a lithium charge-controller IC sized for your cell,\nideally with an MPPT input stage. Confirm it charges the battery from sunlight within the correct\nvoltage/current limits and stops at full charge."
+        },
+        {
+          "bbox": [
+            67.2,
+            400.05,
+            537.58,
+            441.55
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Add battery protection: Use a protected cell or add a protection board enforcing over-charge,\nover-discharge, and over-current limits. Test the under-voltage cutoff by loading the battery down and\nconfirming it disconnects safely."
+        },
+        {
+          "bbox": [
+            67.2,
+            454.55,
+            533.48,
+            480.55
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Generate regulated rails: Add buck converters for 3.3 V and 5 V from the battery. Verify each rail is\nclean and holds voltage under load. These are the rails the rest of your 'satellite' would run on."
+        },
+        {
+          "bbox": [
+            67.2,
+            493.55,
+            533.48,
+            535.05
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Instrument every channel: Place INA-class voltage/current monitors on the solar input, the battery,\nand each rail, and read them on the MCU. Now you can see exactly where power is flowing and how\nmuch."
+        },
+        {
+          "bbox": [
+            67.2,
+            548.05,
+            528.51,
+            589.55
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Add switching + telemetry: Add high-side load switches so the MCU can turn rails on and off, and\nstream all the power telemetry (with over-current protection) to a display or your flight computer.\nDemonstrate the energy balance: solar in vs. load out, charging and discharging."
+        }
+      ],
+      "charCount": 1663,
+      "height": 792.0,
+      "pageNumber": 21,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            181.54,
+            749.41,
+            430.46,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "@1nska   •   6 EE Projects That Build a Real Satellite   •   Page 22"
+        },
+        {
+          "bbox": [
+            73.2,
+            79.67,
+            181.4,
+            90.67
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "Interview Questions:"
+        },
+        {
+          "bbox": [
+            73.2,
+            99.55,
+            317.15,
+            110.05
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "→ What are the four main jobs of a spacecraft EPS?"
+        },
+        {
+          "bbox": [
+            73.2,
+            121.05,
+            426.83,
+            131.55
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "→ Why must lithium batteries be so carefully protected, especially in space?"
+        },
+        {
+          "bbox": [
+            73.2,
+            142.55,
+            383.65,
+            153.05
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "→ Why does each power rail need its own over-current protection?"
+        },
+        {
+          "bbox": [
+            73.2,
+            164.05,
+            423.95,
+            174.55
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "→ What is the energy balance of a satellite, and why do operators watch it?"
+        },
+        {
+          "bbox": [
+            73.2,
+            185.55,
+            299.62,
+            196.05
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "→ Why include MPPT in the solar charge stage?"
+        },
+        {
+          "bbox": [
+            73.2,
+            207.05,
+            427.43,
+            217.55
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "→ How would you design the EPS to survive and recover from a brown-out?"
+        }
+      ],
+      "charCount": 469,
+      "height": 792.0,
+      "pageNumber": 22,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            181.54,
+            749.41,
+            430.46,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 23,
+          "text": "@1nska   •   6 EE Projects That Build a Real Satellite   •   Page 23"
+        },
+        {
+          "bbox": [
+            67.2,
+            71.01,
+            404.7,
+            110.01
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 23,
+          "text": "Six subsystems. One satellite.\nBuild them and you've built the real thing."
+        },
+        {
+          "bbox": [
+            67.2,
+            127.55,
+            544.75,
+            215.55
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 23,
+          "text": "Propulsion, attitude control, attitude sensing, flight software, ground systems, and power. Put these six\ntogether and you do not have six gadgets — you have the functional subsystems of an actual satellite,\nbuilt on a bench for the price of a textbook each. A thruster that slews a platform, coils that detumble\nagainst Earth's field, a sun sensor, a flight computer streaming telemetry, a tracking ground station,\nand a power system to keep it all alive. That is genuinely how spacecraft are organized, and how space\ncompanies hire."
+        },
+        {
+          "bbox": [
+            67.2,
+            227.55,
+            535.78,
+            269.05
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 23,
+          "text": "The space industry recruits by subsystem — GNC, ADCS, propulsion, C&DH;, ground, EPS — and a\nworking demo of any one of these speaks that language directly. You are not claiming to have built a\nsatellite; you are showing you can build the part they need."
+        },
+        {
+          "bbox": [
+            73.2,
+            297.05,
+            538.77,
+            337.55
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 23,
+          "text": "Build even one of these. Log the slew, plot the detumble curve, screenshot the telemetry dashboard,\nshow the energy balance. Put it on your GitHub with a proper README and the subsystem it maps\nto. You will have a portfolio piece that puts you in the room with a real space-hardware team."
+        },
+        {
+          "bbox": [
+            73.2,
+            373.05,
+            490.71,
+            398.55
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 23,
+          "text": "Follow @1nska on Instagram for build logs, new guides, and projects that build real\nspacecraft."
+        },
+        {
+          "bbox": [
+            67.2,
+            429.51,
+            378.84,
+            446.51
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 23,
+          "text": "— Enes (@1nska) • Electrical Engineer"
+        }
+      ],
+      "charCount": 1350,
+      "height": 792.0,
+      "pageNumber": 23,
+      "textExtractable": true,
+      "width": 612.0
+    }
+  ],
+  "provenance": {
+    "confidence": "EXACT",
+    "extractionMethod": "pymupdf-blocks-v1",
+    "extractorVersion": "1.28.0",
+    "generatorVersion": null,
+    "origin": "extracted",
+    "source": "guide-003",
+    "sourceHash": "dbb989b7af06df4d29bbe55f77da3eb56f4c8d929cdeec7786acd4289510d025",
+    "sourcePage": null,
+    "sourcePath": "Engineering guides/6 EE Projects That Build a Real Satellite.pdf",
+    "sourceSection": "ROOT"
+  },
+  "relativePath": "Engineering guides/6 EE Projects That Build a Real Satellite.pdf",
+  "schemaVersion": "1.0.0",
+  "sha256": "dbb989b7af06df4d29bbe55f77da3eb56f4c8d929cdeec7786acd4289510d025",
+  "sourceId": "guide-003"
+}

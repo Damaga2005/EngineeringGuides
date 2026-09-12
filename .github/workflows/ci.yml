@@ -1,0 +1,60 @@
+name: Continuous Integration & Verification Gate
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  foundation-gate:
+    name: Foundation Gate & Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Python Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install Node Dependencies
+        run: npm ci
+
+      - name: Run Source & Asset Validators
+        run: python -m scripts.foundation.validators
+
+      - name: Run Automated Test Suite
+        run: pytest tests/ -v
+
+      - name: Verify Deterministic Catalog Generation
+        run: |
+          python -m scripts.foundation.pipeline
+          git diff --exit-code public/guides.json
+
+      - name: Build Web Application
+        run: npx vite build

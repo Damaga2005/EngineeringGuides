@@ -266,9 +266,14 @@ def generate_project_wiring_table(title, category_id, components):
             { "mcuPin": "GPIO 4", "modulePin": "INT / ALERT", "signalType": "Interrupción", "voltage": "3.3V Lógico", "note": "Aviso inmediato por hardware cuando hay nuevo dato disponible." }
         ]
 
+def xml_escape(val):
+    if not val:
+        return ""
+    return str(val).replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('"', '&quot;').replace("'", '&apos;')
+
 # Generates technical SVG circuit schematics focused on each project
 def generate_project_schematic_svg(guide_id, proj_id, title, wiring_table, category_id):
-    title_escaped = clean_str(title).replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
+    title_escaped = xml_escape(clean_str(title))
     
     # Determine board types based on category / title
     tl = (title + " " + category_id).lower()
@@ -282,7 +287,7 @@ def generate_project_schematic_svg(guide_id, proj_id, title, wiring_table, categ
         mcu_name = "Microcontrolador Principal (MCU)"
         mcu_desc = "32-Bit ARM Cortex / ESP32"
 
-    target_name = clean_str(title)[:35]
+    target_name = xml_escape(clean_str(title)[:35])
     
     # Generate pin rows
     mcu_pins_svg = ""
@@ -308,8 +313,8 @@ def generate_project_schematic_svg(guide_id, proj_id, title, wiring_table, categ
         elif "rf" in st or "ant" in st or "audio" in st:
             color = "#A855F7" # purple
 
-        mcu_pin_txt = clean_str(row.get("mcuPin", f"PIN {i+1}"))[:24]
-        mod_pin_txt = clean_str(row.get("modulePin", f"PIN {i+1}"))[:24]
+        mcu_pin_txt = xml_escape(clean_str(row.get("mcuPin", f"PIN {i+1}"))[:24])
+        mod_pin_txt = xml_escape(clean_str(row.get("modulePin", f"PIN {i+1}"))[:24])
 
         # MCU Pin box
         mcu_pins_svg += f'''

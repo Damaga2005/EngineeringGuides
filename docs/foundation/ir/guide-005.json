@@ -1,0 +1,4837 @@
+{
+  "metadata": {
+    "format": "PDF 1.4",
+    "producer": "pypdf"
+  },
+  "pageCount": 19,
+  "pages": [
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            33.33,
+            67.85,
+            63.01
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "✻"
+        },
+        {
+          "bbox": [
+            52.5,
+            81.91,
+            330.39,
+            93.12
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "field guide · motion control · 6 projects · jun 2026"
+        },
+        {
+          "bbox": [
+            52.5,
+            128.76,
+            251.42,
+            141.43
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "> make six things move on command_"
+        },
+        {
+          "bbox": [
+            52.5,
+            153.13,
+            344.8,
+            213.81
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Six EE Projects That\nMove With Precision"
+        },
+        {
+          "bbox": [
+            52.5,
+            225.12,
+            526.35,
+            238.28
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Steppers, servos, and brushless motors — six builds that turn electricity into"
+        },
+        {
+          "bbox": [
+            52.5,
+            241.62,
+            489.9,
+            254.78
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "precise, controlled motion. From a closed-loop position servo to a self-"
+        },
+        {
+          "bbox": [
+            52.5,
+            257.37,
+            471.67,
+            270.53
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "balancing robot to field-oriented control of a brushless motor. Cheap"
+        },
+        {
+          "bbox": [
+            52.5,
+            273.87,
+            319.8,
+            287.03
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "actuators; real control-systems engineering."
+        },
+        {
+          "bbox": [
+            52.5,
+            320.74,
+            515.86,
+            334.39
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "01\nH-Bridge DC Motor Driver  Spin a motor either direction at any speed you choose — the"
+        },
+        {
+          "bbox": [
+            78.0,
+            336.54,
+            196.8,
+            347.27
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "front end of every robot"
+        },
+        {
+          "bbox": [
+            543.29,
+            322.27,
+            559.49,
+            333.98
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$15"
+        },
+        {
+          "bbox": [
+            52.5,
+            364.99,
+            492.46,
+            378.64
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "02\nClosed-Loop Position Servo  Tell a motor to go to exactly 90 degrees and hold it"
+        },
+        {
+          "bbox": [
+            78.0,
+            380.79,
+            295.8,
+            391.52
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "there — feedback control, built from scratch"
+        },
+        {
+          "bbox": [
+            543.29,
+            366.52,
+            559.49,
+            378.23
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$30"
+        },
+        {
+          "bbox": [
+            52.5,
+            409.24,
+            508.21,
+            422.89
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "03\nSelf-Balancing Robot  A two-wheel robot that stands up and stays up — controlling an"
+        },
+        {
+          "bbox": [
+            78.0,
+            425.04,
+            216.6,
+            435.77
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "unstable system in real time"
+        },
+        {
+          "bbox": [
+            543.29,
+            410.77,
+            559.49,
+            422.48
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$55"
+        },
+        {
+          "bbox": [
+            52.5,
+            453.49,
+            481.89,
+            467.14
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "04\nFOC Brushless Motor Drive  Drive a brushless motor smoothly and silently — the"
+        },
+        {
+          "bbox": [
+            78.0,
+            469.29,
+            280.95,
+            480.02
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "technology in drones, EVs, and robot dogs"
+        },
+        {
+          "bbox": [
+            543.29,
+            455.02,
+            559.49,
+            466.73
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$45"
+        },
+        {
+          "bbox": [
+            52.5,
+            497.74,
+            516.76,
+            511.39
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "05\n2-Axis Pen Plotter  Two steppers that draw anything you give them — coordinated motion"
+        },
+        {
+          "bbox": [
+            78.0,
+            513.54,
+            162.15,
+            524.27
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "and interpolation"
+        },
+        {
+          "bbox": [
+            543.29,
+            499.27,
+            559.49,
+            510.98
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$50"
+        },
+        {
+          "bbox": [
+            52.5,
+            541.99,
+            496.29,
+            555.64
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "06\nHaptic Smart Knob  A knob you can feel — render detents, springs, and end-stops in"
+        },
+        {
+          "bbox": [
+            78.0,
+            557.79,
+            186.9,
+            568.52
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "software, with a motor"
+        },
+        {
+          "bbox": [
+            543.29,
+            543.53,
+            559.49,
+            555.22
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$40"
+        },
+        {
+          "bbox": [
+            52.5,
+            599.78,
+            414.33,
+            611.47
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "● By Enes · @1nska · Electrical Engineer — a Build List field guide"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "motion control — a Build List field guide\n1 / 19"
+        }
+      ],
+      "charCount": 1212,
+      "height": 792.0,
+      "pageNumber": 1,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.03,
+            318.19,
+            65.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "❯ project 01\nH-Bridge DC Motor Driver"
+        },
+        {
+          "bbox": [
+            52.5,
+            72.14,
+            525.0,
+            84.33
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Spin a motor either direction at any speed you choose — the front end of every robot"
+        },
+        {
+          "bbox": [
+            60.75,
+            98.04,
+            204.77,
+            108.77
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "$15\nbeginner\n1 weekend"
+        },
+        {
+          "bbox": [
+            52.5,
+            132.43,
+            196.71,
+            149.01
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "## why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            158.02,
+            549.3,
+            237.23
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Before a robot can balance, drive, or steer, something has to turn a control signal into\ntorque. An H-bridge does exactly that: four switches that push current through a DC motor in\neither direction, plus PWM that sets how hard. Build one, drive a motor forward and reverse,\nramp its speed smoothly, and sense the current it draws, and you have the power stage that\nsits under every motor-control project in this guide. It is the cheapest, most fundamental\nmotor build, and the payoff is immediate — a motor that does exactly what your code says."
+        },
+        {
+          "bbox": [
+            69.0,
+            274.68,
+            517.2,
+            325.73
+          ],
+          "blockIndex": 5,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand H-bridge topology, PWM speed control, motor direction switching,\nfreewheeling and why inductive loads need it, and current sensing — the power-stage\nfoundation of motor-drive and robotics hardware."
+        },
+        {
+          "bbox": [
+            52.5,
+            347.77,
+            527.73,
+            372.98
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "→ the job this maps to: motor drives & robotics hardware — actuator, drone, and robotics\ncompanies, and power-electronics teams."
+        },
+        {
+          "bbox": [
+            52.5,
+            400.18,
+            166.36,
+            416.76
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "## how it works"
+        },
+        {
+          "bbox": [
+            67.5,
+            426.52,
+            553.51,
+            465.23
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "The H-bridge: Four switches arranged in an H around the motor. Close one diagonal pair and\ncurrent flows one way (forward); close the other pair and it reverses. Never close one\nside’s top and bottom together — that is “shoot-through,” a dead short."
+        },
+        {
+          "bbox": [
+            52.5,
+            427.4,
+            57.92,
+            437.87
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            473.77,
+            558.9,
+            512.47
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "PWM sets the speed: Rather than vary the voltage, you switch the bridge on and off\nthousands of times a second. The duty cycle (fraction on) sets the average voltage and thus\nthe speed; the motor’s inductance smooths the pulses into steady torque."
+        },
+        {
+          "bbox": [
+            52.5,
+            474.65,
+            57.92,
+            485.12
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            521.03,
+            558.9,
+            559.72
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Freewheeling and flyback: A motor is inductive, so when you switch it off the current must\nkeep flowing somewhere. The bridge’s body diodes (or added flyback diodes) give it a path,\nprotecting the switches from voltage spikes — which is why an unprotected bridge dies fast."
+        },
+        {
+          "bbox": [
+            52.5,
+            521.9,
+            57.92,
+            532.37
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            568.28,
+            558.91,
+            606.97
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Driving it from logic: Two pins set direction and a PWM pin sets speed (or two PWM pins for\nsign-magnitude drive). A driver IC (DRV8871, TB6612, L298) packages the bridge and gate\ndrive so you command it with logic levels."
+        },
+        {
+          "bbox": [
+            52.5,
+            569.15,
+            57.92,
+            579.62
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            615.53,
+            558.91,
+            654.22
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Sensing current: A small sense resistor (or the driver’s current output) tells you how hard\nthe motor is working. It is your window into torque, stalls, and faults — and the first\ningredient of closed-loop control."
+        },
+        {
+          "bbox": [
+            52.5,
+            616.4,
+            57.92,
+            626.87
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "motion control — a Build List field guide\n2 / 19"
+        }
+      ],
+      "charCount": 2353,
+      "height": 792.0,
+      "pageNumber": 2,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            204.29,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "## bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            56.04,
+            552.0,
+            66.77
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "component\npart / spec\nqty\n~cost"
+        },
+        {
+          "bbox": [
+            52.5,
+            78.91,
+            551.99,
+            90.12
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "DC gear motor\n6–12 V brushed\n1\n$4"
+        },
+        {
+          "bbox": [
+            52.5,
+            101.41,
+            551.99,
+            112.62
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Motor driver\nDRV8871 / TB6612 / L298N\n1\n$3"
+        },
+        {
+          "bbox": [
+            52.5,
+            124.66,
+            551.99,
+            135.87
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Microcontroller\nArduino / ESP32\n1\n$8"
+        },
+        {
+          "bbox": [
+            52.5,
+            147.16,
+            551.99,
+            158.37
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Sense resistor + passives\ncurrent sense, bulk caps\n—\n$2"
+        },
+        {
+          "bbox": [
+            52.5,
+            169.66,
+            552.0,
+            180.87
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Power supply\nbattery or bench\n1\n—"
+        },
+        {
+          "bbox": [
+            52.5,
+            212.68,
+            158.77,
+            229.26
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "## build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            562.93,
+            219.46,
+            579.51
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "## interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            242.02,
+            217.5,
+            253.73
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Wire the driver and motor"
+        },
+        {
+          "bbox": [
+            82.5,
+            257.77,
+            557.7,
+            296.48
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Connect the motor to the driver outputs, logic pins to your microcontroller, and a motor\nsupply separate from the USB rail. Add bulk capacitance across the motor supply. Confirm\nthe motor twitches when you toggle a pin."
+        },
+        {
+          "bbox": [
+            58.5,
+            241.24,
+            64.8,
+            254.89
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            309.52,
+            217.5,
+            321.23
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Drive forward and reverse"
+        },
+        {
+          "bbox": [
+            82.5,
+            325.27,
+            552.3,
+            350.48
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Set the direction pins and spin the motor each way at full duty. Confirm clean reversal\nand that nothing overheats; add a brief dead-time between direction changes."
+        },
+        {
+          "bbox": [
+            58.5,
+            308.74,
+            64.8,
+            322.39
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            363.52,
+            195.9,
+            375.23
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Add PWM speed control"
+        },
+        {
+          "bbox": [
+            82.5,
+            379.27,
+            557.7,
+            404.48
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Apply PWM to the speed input and sweep the duty cycle. Watch the motor ramp from a crawl\nto full speed, and find the minimum duty where it starts to turn under load."
+        },
+        {
+          "bbox": [
+            58.5,
+            362.74,
+            64.8,
+            376.39
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            417.52,
+            185.1,
+            429.23
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Add current sensing"
+        },
+        {
+          "bbox": [
+            82.5,
+            433.27,
+            546.9,
+            458.48
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Read the sense-resistor voltage (or driver current output) on the ADC. Stall the motor\nby hand briefly and watch the current spike — your torque and fault signal."
+        },
+        {
+          "bbox": [
+            58.5,
+            416.74,
+            64.8,
+            430.39
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            471.52,
+            174.3,
+            483.23
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Wrap it in an API"
+        },
+        {
+          "bbox": [
+            82.5,
+            487.27,
+            552.3,
+            525.97
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Write setMotor(speed, direction) with limits and a soft-start ramp, and drive it from a\npotentiometer or serial. You now have a clean motor power stage to build closed-loop\ncontrol on."
+        },
+        {
+          "bbox": [
+            58.5,
+            470.74,
+            64.8,
+            484.39
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            69.0,
+            600.53,
+            483.6,
+            612.22
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "How does an H-bridge let a single supply drive a motor in both directions?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            620.03,
+            348.6,
+            631.72
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "What is shoot-through, and how do you prevent it?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            639.53,
+            489.0,
+            651.22
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Why does PWM control motor speed, and what role does motor inductance play?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            659.03,
+            467.4,
+            670.72
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Why must an H-bridge provide a freewheeling path for the motor current?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            678.53,
+            294.6,
+            690.22
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "How and why do you sense motor current?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            698.03,
+            499.8,
+            709.72
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "What is the difference between sign-magnitude and locked-antiphase PWM drive?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "motion control — a Build List field guide\n3 / 19"
+        }
+      ],
+      "charCount": 1737,
+      "height": 792.0,
+      "pageNumber": 3,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.03,
+            340.31,
+            65.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "❯ project 02\nClosed-Loop Position Servo"
+        },
+        {
+          "bbox": [
+            52.5,
+            72.14,
+            553.13,
+            97.83
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Tell a motor to go to exactly 90 degrees and hold it there — feedback control, built from\nscratch"
+        },
+        {
+          "bbox": [
+            60.75,
+            112.29,
+            224.56,
+            123.02
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "$30\nintermediate\n1 weekend"
+        },
+        {
+          "bbox": [
+            52.5,
+            146.68,
+            196.71,
+            163.26
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "## why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            172.27,
+            554.7,
+            264.98
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Open-loop, a motor just spins and you have no idea where it actually is. Add an encoder to\nmeasure its position and a PID controller to drive the error to zero, and the motor becomes a\nservo: command 90 degrees and it snaps there and holds, resisting if you push it. This is the\nsingle most important skill in motor control and robotics — closing the loop with feedback —\nand it is the foundation under every robot joint, CNC axis, and drone. Building your own PID\nposition controller (rather than buying a servo) is the project that turns “I can spin a\nmotor” into “I can control motion.”"
+        },
+        {
+          "bbox": [
+            69.0,
+            302.43,
+            533.4,
+            353.48
+          ],
+          "blockIndex": 5,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand encoders and quadrature decoding, feedback control, what each of the P,\nI, and D terms does, tuning, and steady-state error — the core of control-systems and\nrobotics engineering, and the most transferable skill in the whole guide."
+        },
+        {
+          "bbox": [
+            52.5,
+            375.52,
+            543.93,
+            400.73
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "→ the job this maps to: control systems, robotics, and mechatronics engineering — robotics,\nautomation, aerospace, and motion-control companies."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "motion control — a Build List field guide\n4 / 19"
+        }
+      ],
+      "charCount": 1240,
+      "height": 792.0,
+      "pageNumber": 4,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            166.36,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "## how it works"
+        },
+        {
+          "bbox": [
+            69.0,
+            302.43,
+            544.2,
+            352.73
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "BUILD NOTE\nReach for a microcontroller with a fast, regular loop and a real quadrature input.\nDecode the encoder cleanly first and confirm the count tracks the shaft before you close\nany loop — a flaky encoder makes PID impossible to tune."
+        },
+        {
+          "bbox": [
+            52.5,
+            390.43,
+            227.05,
+            407.01
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "## key design decisions"
+        },
+        {
+          "bbox": [
+            67.5,
+            52.28,
+            521.1,
+            90.97
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Measuring position: A quadrature encoder outputs two pulse trains 90° out of phase;\ncounting their edges and their order gives position and direction to a fraction of a\ndegree. The microcontroller keeps a running count — the motor’s measured angle."
+        },
+        {
+          "bbox": [
+            52.5,
+            53.15,
+            57.92,
+            63.62
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            99.53,
+            558.9,
+            138.23
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "The control loop: Each cycle you compute error = target − measured, turn that error into a\nmotor command, apply it, and repeat hundreds to thousands of times a second. The faster and\nmore regular the loop, the tighter the control."
+        },
+        {
+          "bbox": [
+            52.5,
+            100.4,
+            57.92,
+            110.87
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            146.77,
+            558.91,
+            185.48
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Proportional, integral, derivative: P pushes proportionally to the error (the main effort).\nI accumulates error to kill the steady-state offset so it actually reaches the target. D\nresponds to the rate of change to damp overshoot. Their sum is the motor command."
+        },
+        {
+          "bbox": [
+            52.5,
+            147.65,
+            57.92,
+            158.12
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            194.02,
+            548.11,
+            232.73
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Tuning: Too much P oscillates; too little is sluggish. I removes droop but can wind up; D\nsmooths but amplifies noise. Tuning is finding the balance — and feeling, hands-on, what\neach term does is the real lesson."
+        },
+        {
+          "bbox": [
+            52.5,
+            194.9,
+            57.92,
+            205.37
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            241.27,
+            558.94,
+            279.98
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Position, velocity, torque: The same loop structure controls velocity (regulate speed) or,\nwith current sensing, torque. Cascading them (position → velocity → current) is exactly how\nindustrial servo drives are built."
+        },
+        {
+          "bbox": [
+            52.5,
+            242.15,
+            57.92,
+            252.62
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            418.27,
+            548.1,
+            470.48
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Why closed-loop over a stepper’s open-loop precision? A stepper holds position without\nfeedback but can silently lose steps under load and wastes power holding still. A closed-\nloop servo knows its true position, recovers from disturbances, and only works as hard as\nneeded — which is why robots and CNC increasingly use closed-loop drives."
+        },
+        {
+          "bbox": [
+            52.5,
+            419.15,
+            57.92,
+            429.62
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→"
+        },
+        {
+          "bbox": [
+            67.5,
+            480.52,
+            548.1,
+            532.72
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Why does the loop rate matter so much? Control assumes the world barely changes between\nupdates. A slow loop reacts late, so it must use gentle gains or it oscillates; a fast,\nregular loop can use higher gains for tighter, stiffer control. Jitter in the loop timing\nis as harmful as a slow loop."
+        },
+        {
+          "bbox": [
+            52.5,
+            481.4,
+            57.92,
+            491.87
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→"
+        },
+        {
+          "bbox": [
+            67.5,
+            542.78,
+            553.5,
+            594.97
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Why add the integral term if P almost works? Proportional control alone leaves a residual\nerror — the motor settles where P’s push balances friction and load, short of the target.\nThe integral term accumulates that leftover error until it is driven to zero, so the servo\nactually reaches the commanded angle and holds it under load."
+        },
+        {
+          "bbox": [
+            52.5,
+            543.65,
+            57.92,
+            554.12
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "motion control — a Build List field guide\n5 / 19"
+        }
+      ],
+      "charCount": 2470,
+      "height": 792.0,
+      "pageNumber": 5,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            204.29,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "## bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            56.04,
+            552.0,
+            66.77
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "component\npart / spec\nqty\n~cost"
+        },
+        {
+          "bbox": [
+            52.5,
+            78.91,
+            552.0,
+            90.12
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "DC gear motor with encoder\n6–12 V + quadrature encoder\n1\n$12"
+        },
+        {
+          "bbox": [
+            52.5,
+            101.41,
+            551.99,
+            112.62
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Motor driver\nDRV8871 / TB6612\n1\n$4"
+        },
+        {
+          "bbox": [
+            52.5,
+            124.66,
+            551.99,
+            135.87
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Microcontroller\nESP32 / Arduino (fast loop)\n1\n$8"
+        },
+        {
+          "bbox": [
+            52.5,
+            147.16,
+            551.99,
+            158.37
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Knob / input\npotentiometer for target\n1\n$2"
+        },
+        {
+          "bbox": [
+            52.5,
+            169.66,
+            551.99,
+            180.87
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Passives + breadboard\nwiring\n—\n$4"
+        },
+        {
+          "bbox": [
+            52.5,
+            212.68,
+            158.77,
+            229.26
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "## build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            576.43,
+            219.46,
+            593.01
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "## interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            242.02,
+            168.9,
+            253.73
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Read the encoder"
+        },
+        {
+          "bbox": [
+            82.5,
+            257.77,
+            557.7,
+            296.48
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Wire the quadrature encoder and decode it (interrupts or a hardware quadrature\nperipheral). Turn the shaft by hand and confirm the count rises and falls correctly with\ndirection."
+        },
+        {
+          "bbox": [
+            58.5,
+            241.24,
+            64.8,
+            254.89
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            309.52,
+            158.1,
+            321.23
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Close a P loop"
+        },
+        {
+          "bbox": [
+            82.5,
+            325.27,
+            557.7,
+            363.98
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Compute error = target − count and drive the motor with a command proportional to it.\nRaise the gain until the motor moves to the target — and watch it overshoot or buzz. You\njust closed the loop."
+        },
+        {
+          "bbox": [
+            58.5,
+            308.74,
+            64.8,
+            322.39
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            377.02,
+            152.7,
+            388.73
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Add D, then I"
+        },
+        {
+          "bbox": [
+            82.5,
+            392.77,
+            557.7,
+            417.98
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Add a derivative term to damp the overshoot, then an integral term to remove the\nresidual offset so it lands exactly on target. Observe each term’s effect as you add it."
+        },
+        {
+          "bbox": [
+            58.5,
+            376.24,
+            64.8,
+            389.89
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            431.02,
+            152.7,
+            442.73
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Tune and test"
+        },
+        {
+          "bbox": [
+            82.5,
+            446.77,
+            530.72,
+            471.98
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Step the target (0 → 90°), watch the response, and tune P / I / D for a fast, clean\nsettle with minimal overshoot. Push the shaft and feel it resist and return."
+        },
+        {
+          "bbox": [
+            58.5,
+            430.24,
+            64.8,
+            443.89
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            485.02,
+            185.1,
+            496.73
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Make it a servo API"
+        },
+        {
+          "bbox": [
+            82.5,
+            500.77,
+            546.9,
+            539.47
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Wrap it as moveTo(angle) with a fixed loop rate, limits, and a potentiometer or serial\ntarget. You now have a from-scratch closed-loop servo — the heart of every later\nrobotics project."
+        },
+        {
+          "bbox": [
+            58.5,
+            484.24,
+            64.8,
+            497.89
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            69.0,
+            614.03,
+            435.0,
+            625.72
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "How does a quadrature encoder encode both position and direction?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            633.53,
+            445.8,
+            645.22
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "What does each of the P, I, and D terms contribute to a controller?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            653.03,
+            418.8,
+            664.72
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Why does proportional-only control leave a steady-state error?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            672.53,
+            462.0,
+            684.22
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Why does control-loop rate (and its consistency) matter for stability?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            692.03,
+            478.2,
+            703.72
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "How would you extend a position controller to control velocity or torque?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            711.53,
+            370.2,
+            723.22
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "What is integrator windup, and how do you prevent it?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "motion control — a Build List field guide\n6 / 19"
+        }
+      ],
+      "charCount": 1722,
+      "height": 792.0,
+      "pageNumber": 6,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.03,
+            273.94,
+            65.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "❯ project 03\nSelf-Balancing Robot"
+        },
+        {
+          "bbox": [
+            52.5,
+            72.14,
+            536.25,
+            97.83
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "A two-wheel robot that stands up and stays up — controlling an unstable system in real\ntime"
+        },
+        {
+          "bbox": [
+            60.75,
+            112.29,
+            219.62,
+            123.02
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "$55\nadvanced\n1–2 weekends"
+        },
+        {
+          "bbox": [
+            52.5,
+            146.68,
+            196.71,
+            163.26
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "## why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            172.27,
+            554.7,
+            264.98
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "A two-wheel balancing robot is an inverted pendulum: left alone it falls, so it only stays\nupright because a controller is constantly catching it. An IMU measures the tilt, a control\nloop computes how to drive the wheels to stay under the centre of mass, and the robot\nbalances — leaning into a push and recovering. It is the most visually striking build in this\nguide and a genuine lesson in controlling an unstable system, sensor fusion, and cascaded\ncontrol. If the closed-loop servo taught you to hold a position, this teaches you to\nstabilise something that actively wants to fall."
+        },
+        {
+          "bbox": [
+            69.0,
+            302.43,
+            538.8,
+            366.98
+          ],
+          "blockIndex": 5,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand inverted-pendulum dynamics, IMU sensor fusion (accelerometer + gyro,\ncomplementary or Kalman filtering), cascaded PID (angle and speed loops), and real-time\ncontrol of an unstable plant — exactly the hard part of mobile-robotics and drone\ncontrol."
+        },
+        {
+          "bbox": [
+            52.5,
+            389.02,
+            554.73,
+            414.23
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "→ the job this maps to: robotics and control engineering — mobile-robot, drone, and balancing\n/ legged-robot companies, and controls teams."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "motion control — a Build List field guide\n7 / 19"
+        }
+      ],
+      "charCount": 1235,
+      "height": 792.0,
+      "pageNumber": 7,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            166.36,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "## how it works"
+        },
+        {
+          "bbox": [
+            69.0,
+            302.43,
+            538.8,
+            352.73
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "BUILD NOTE\nDon’t fight three problems at once. Use a proven two-wheel chassis, geared motors with\nencoders, and an MPU6050; get a clean tilt angle first, then add the balance loop, then\nthe speed loop. Tune one loop at a time."
+        },
+        {
+          "bbox": [
+            52.5,
+            390.43,
+            204.29,
+            407.01
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "## bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            420.54,
+            552.0,
+            431.27
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "component\npart / spec\nqty\n~cost"
+        },
+        {
+          "bbox": [
+            52.5,
+            443.41,
+            552.0,
+            454.62
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Geared motors + encoders (×2)\n6–12 V with quadrature\n2\n$20"
+        },
+        {
+          "bbox": [
+            52.5,
+            466.66,
+            551.99,
+            477.87
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Motor driver\ndual H-bridge (TB6612)\n1\n$8"
+        },
+        {
+          "bbox": [
+            52.5,
+            489.16,
+            551.99,
+            500.37
+          ],
+          "blockIndex": 6,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "IMU\nMPU6050 / MPU9250\n1\n$3"
+        },
+        {
+          "bbox": [
+            52.5,
+            511.66,
+            552.0,
+            522.87
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Chassis + wheels\ntwo-wheel balance frame\n1\n$12"
+        },
+        {
+          "bbox": [
+            52.5,
+            534.16,
+            551.99,
+            545.37
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Microcontroller\nESP32\n1\n$8"
+        },
+        {
+          "bbox": [
+            52.5,
+            557.41,
+            551.99,
+            568.62
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Battery\nLiPo + holder\n1\n$8"
+        },
+        {
+          "bbox": [
+            67.5,
+            52.28,
+            558.91,
+            90.97
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "The inverted pendulum: A body balanced above its wheels is unstable — any lean grows unless\ncorrected. The controller drives the wheels in the direction of the fall so the pivot stays\nunder the centre of mass, the same way you balance a broom on your hand."
+        },
+        {
+          "bbox": [
+            52.5,
+            53.15,
+            57.92,
+            63.62
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            99.53,
+            553.5,
+            138.23
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Measuring tilt: An accelerometer gives a noisy absolute tilt; a gyro gives a clean tilt\nrate but drifts. Fusing them (a complementary or Kalman filter) yields a stable, fast tilt\nangle — the single most important signal in the system."
+        },
+        {
+          "bbox": [
+            52.5,
+            100.4,
+            57.92,
+            110.87
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            146.77,
+            526.5,
+            185.48
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "The balance loop: A PID controller takes the tilt error and commands wheel torque to\ncorrect it. Get this loop right and the robot stands; it leans into a push and drives\nforward to recover, which looks like magic but is just feedback."
+        },
+        {
+          "bbox": [
+            52.5,
+            147.65,
+            57.92,
+            158.12
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            194.02,
+            558.91,
+            232.73
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Cascaded control: A second, slower loop controls wheel speed and position by gently biasing\nthe target tilt — so the robot not only balances but holds its ground (or drives where\ncommanded) instead of slowly rolling away."
+        },
+        {
+          "bbox": [
+            52.5,
+            194.9,
+            57.92,
+            205.37
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            241.27,
+            553.5,
+            279.98
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Why timing and tuning are everything: An unstable plant punishes slow or jittery loops\ninstantly. A fast, regular loop and careful tuning are the difference between standing and\nthrashing — the core discipline of real-time control."
+        },
+        {
+          "bbox": [
+            52.5,
+            242.15,
+            57.92,
+            252.62
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "motion control — a Build List field guide\n8 / 19"
+        }
+      ],
+      "charCount": 1744,
+      "height": 792.0,
+      "pageNumber": 8,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            158.77,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "## build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            376.18,
+            219.46,
+            392.76
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "## interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            55.28,
+            179.7,
+            66.97
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Build the platform"
+        },
+        {
+          "bbox": [
+            82.5,
+            71.03,
+            546.9,
+            109.72
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Assemble the two-wheel chassis with motors, encoders, driver, the IMU mounted near the\nwheel axis, and battery. Keep the centre of mass reasonable and the wiring tidy —\nmechanics matter here."
+        },
+        {
+          "bbox": [
+            58.5,
+            54.49,
+            64.8,
+            68.14
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            122.78,
+            201.3,
+            134.48
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Get a clean tilt angle"
+        },
+        {
+          "bbox": [
+            82.5,
+            138.52,
+            552.3,
+            163.73
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Read the IMU and fuse accel + gyro into a stable tilt estimate with a complementary (or\nKalman) filter. Tip the robot by hand and confirm the angle is fast and drift-free."
+        },
+        {
+          "bbox": [
+            58.5,
+            121.99,
+            64.8,
+            135.64
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            176.77,
+            201.3,
+            188.48
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Close the balance loop"
+        },
+        {
+          "bbox": [
+            82.5,
+            192.52,
+            546.9,
+            217.73
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Feed tilt error into a PID that commands wheel torque. Hold the robot near upright and\ntune until it briefly balances on its own, then stands. Expect a lot of tuning."
+        },
+        {
+          "bbox": [
+            58.5,
+            175.99,
+            64.8,
+            189.64
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            230.77,
+            179.7,
+            242.48
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Add the speed loop"
+        },
+        {
+          "bbox": [
+            82.5,
+            246.52,
+            557.7,
+            285.23
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Add a slower outer loop that nudges the target tilt to control wheel speed and position,\nso the robot holds station instead of drifting. Tune so it balances without rolling\naway."
+        },
+        {
+          "bbox": [
+            58.5,
+            229.99,
+            64.8,
+            243.64
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            298.27,
+            152.7,
+            309.98
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Make it drive"
+        },
+        {
+          "bbox": [
+            82.5,
+            314.02,
+            541.5,
+            339.23
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Add commands (serial / Bluetooth) that bias the loops to move forward, back, and turn\nwhile staying balanced. Now push it and watch it catch itself."
+        },
+        {
+          "bbox": [
+            58.5,
+            297.49,
+            64.8,
+            311.14
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            69.0,
+            413.77,
+            397.2,
+            425.48
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Why is a balancing robot an example of an unstable system?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            433.27,
+            445.8,
+            444.98
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Why fuse accelerometer and gyro data instead of using either alone?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            452.77,
+            472.8,
+            464.48
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "What is the role of the inner (angle) versus outer (speed) control loop?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            472.27,
+            440.4,
+            483.98
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Why does an unstable plant demand a fast, low-jitter control loop?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            491.77,
+            391.8,
+            503.48
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "How does the robot recover from a push, in control terms?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            511.27,
+            472.8,
+            522.97
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "What is sensor fusion, and why is a complementary or Kalman filter used?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "motion control — a Build List field guide\n9 / 19"
+        }
+      ],
+      "charCount": 1440,
+      "height": 792.0,
+      "pageNumber": 9,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.03,
+            329.25,
+            65.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "❯ project 04\nFOC Brushless Motor Drive"
+        },
+        {
+          "bbox": [
+            52.5,
+            72.14,
+            547.5,
+            97.83
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Drive a brushless motor smoothly and silently — the technology in drones, EVs, and robot\ndogs"
+        },
+        {
+          "bbox": [
+            60.75,
+            112.29,
+            219.62,
+            123.02
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "$45\nadvanced\n1–2 weekends"
+        },
+        {
+          "bbox": [
+            52.5,
+            146.68,
+            196.71,
+            163.26
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "## why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            172.27,
+            554.7,
+            264.98
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Brushless (BLDC / PMSM) motors are everywhere high performance matters — drones, EVs, robot\njoints, gimbals — because they are efficient, powerful, and long-lived. But they need\nelectronic commutation: you must energise the right coils at the right instant based on rotor\nposition. Field-Oriented Control (FOC) does this optimally, producing smooth, silent, full-\ntorque-at-any-speed motion, even holding still. Building a FOC drive — with a position\nsensor, a three-phase driver, and a library like SimpleFOC — is the leap into modern motor\ncontrol and one of the most in-demand EE skills in robotics and electrified everything."
+        },
+        {
+          "bbox": [
+            69.0,
+            302.43,
+            538.8,
+            366.98
+          ],
+          "blockIndex": 5,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand three-phase brushless motors, electronic commutation, the idea of FOC\n(Clarke / Park transforms, controlling torque-producing current directly), rotor\nposition sensing, and three-phase driver hardware — core to motor-drive, drone, EV, and\nrobotics-actuator engineering."
+        },
+        {
+          "bbox": [
+            52.5,
+            389.02,
+            538.53,
+            414.23
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "→ the job this maps to: motor-drive, drone, EV, and robotics-actuator engineering — drone,\nelectric-vehicle, and advanced-robotics companies."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "motion control — a Build List field guide\n10 / 19"
+        }
+      ],
+      "charCount": 1310,
+      "height": 792.0,
+      "pageNumber": 10,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            166.36,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "## how it works"
+        },
+        {
+          "bbox": [
+            69.0,
+            329.43,
+            533.4,
+            393.23
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "BUILD NOTE\nDon’t write FOC from scratch first. Start with SimpleFOC on a small gimbal BLDC, an\nAS5600 magnetic encoder, and a three-phase driver board — get smooth open-loop motion,\nthen closed-loop torque and position, then study what the transforms are doing\nunderneath."
+        },
+        {
+          "bbox": [
+            52.5,
+            430.93,
+            204.29,
+            447.51
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "## bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            461.04,
+            552.0,
+            471.77
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "component\npart / spec\nqty\n~cost"
+        },
+        {
+          "bbox": [
+            52.5,
+            483.91,
+            552.0,
+            495.12
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Gimbal BLDC motor\nsmall, high pole-count\n1\n$12"
+        },
+        {
+          "bbox": [
+            52.5,
+            507.16,
+            552.0,
+            518.37
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "3-phase driver board\nSimpleFOC Mini / DRV8313\n1\n$14"
+        },
+        {
+          "bbox": [
+            52.5,
+            529.66,
+            551.99,
+            540.87
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Magnetic encoder\nAS5600 (I2C / analog)\n1\n$3"
+        },
+        {
+          "bbox": [
+            52.5,
+            552.16,
+            551.99,
+            563.37
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Microcontroller\nESP32 / STM32\n1\n$8"
+        },
+        {
+          "bbox": [
+            52.5,
+            574.66,
+            551.99,
+            585.87
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Power + passives\nsupply, bulk caps\n—\n$8"
+        },
+        {
+          "bbox": [
+            67.5,
+            52.28,
+            542.7,
+            104.47
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Why brushless needs commutation: A BLDC has no brushes to switch its coils, so the\ncontroller must energise the three phases in the right sequence based on where the rotor\nis. Get the timing wrong and it cogs, stalls, or runs hot; get it right and it is smooth\nand efficient."
+        },
+        {
+          "bbox": [
+            52.5,
+            53.15,
+            57.92,
+            63.62
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            113.03,
+            558.9,
+            151.73
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Knowing the rotor angle: FOC needs accurate rotor position — from a magnetic encoder\n(AS5600), Hall sensors, or sensorless back-EMF estimation. Position is to a brushless drive\nwhat the encoder was to your servo: without it, no smooth control."
+        },
+        {
+          "bbox": [
+            52.5,
+            113.9,
+            57.92,
+            124.37
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            160.27,
+            558.9,
+            212.48
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Field-oriented control: FOC mathematically rotates the three-phase currents into the\nrotor’s frame (the Clarke and Park transforms) so you can directly command the torque-\nproducing current and keep it optimally aligned with the rotor — maximum torque per amp, at\nany speed."
+        },
+        {
+          "bbox": [
+            52.5,
+            161.15,
+            57.92,
+            171.62
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            221.02,
+            558.91,
+            259.73
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "The three-phase driver: Three half-bridges (six switches) drive the three motor phases with\nPWM. A gate driver and current sensing turn your FOC commands into the actual phase\ncurrents — the brushless equivalent of project 1’s H-bridge, scaled up."
+        },
+        {
+          "bbox": [
+            52.5,
+            221.9,
+            57.92,
+            232.37
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            268.27,
+            548.1,
+            306.98
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "What you get: Smooth motion down to zero speed, full torque while holding still (no\ncogging), high efficiency, and quiet operation — the qualities that make brushless drives\nthe default for drones, EVs, gimbals, and robot joints."
+        },
+        {
+          "bbox": [
+            52.5,
+            269.15,
+            57.92,
+            279.62
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "motion control — a Build List field guide\n11 / 19"
+        }
+      ],
+      "charCount": 1873,
+      "height": 792.0,
+      "pageNumber": 11,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            158.77,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "## build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            376.18,
+            219.46,
+            392.76
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "## interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            55.28,
+            222.9,
+            66.97
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Wire motor, driver, sensor"
+        },
+        {
+          "bbox": [
+            82.5,
+            71.03,
+            552.3,
+            109.72
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Connect the BLDC to the three-phase driver, the AS5600 to read the rotor angle, and the\ndriver control pins to your microcontroller. Confirm the encoder reports a clean\nabsolute angle as you turn the shaft."
+        },
+        {
+          "bbox": [
+            58.5,
+            54.49,
+            64.8,
+            68.14
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            122.78,
+            158.1,
+            134.48
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Open-loop spin"
+        },
+        {
+          "bbox": [
+            82.5,
+            138.52,
+            541.5,
+            163.73
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Run SimpleFOC in open-loop velocity mode to energise the phases and spin the motor\nsmoothly. This proves the driver and phase wiring before you trust position feedback."
+        },
+        {
+          "bbox": [
+            58.5,
+            121.99,
+            64.8,
+            135.64
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            176.77,
+            190.5,
+            188.48
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Calibrate the sensor"
+        },
+        {
+          "bbox": [
+            82.5,
+            192.52,
+            536.1,
+            231.23
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Run the alignment routine so the controller learns the rotor’s electrical zero and\ndirection relative to the encoder. This is essential for FOC to apply current in the\nright place."
+        },
+        {
+          "bbox": [
+            58.5,
+            175.99,
+            64.8,
+            189.64
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            244.27,
+            249.9,
+            255.98
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Closed-loop torque and position"
+        },
+        {
+          "bbox": [
+            82.5,
+            260.02,
+            552.3,
+            285.23
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Switch to closed-loop modes — command a torque and feel the motor hold it, then command\npositions and watch it move smoothly and hold with no cogging, even at standstill."
+        },
+        {
+          "bbox": [
+            58.5,
+            243.49,
+            64.8,
+            257.14
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            298.27,
+            185.1,
+            309.98
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Look under the hood"
+        },
+        {
+          "bbox": [
+            82.5,
+            314.02,
+            552.3,
+            339.23
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "With it working, dig into the Clarke / Park transforms and current loops the library\nruns, and tune them. You now understand the drive behind drones, EVs, and robot joints."
+        },
+        {
+          "bbox": [
+            58.5,
+            297.49,
+            64.8,
+            311.14
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            69.0,
+            413.77,
+            397.2,
+            425.48
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Why does a brushless motor require electronic commutation?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            433.27,
+            429.6,
+            444.98
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "What problem does Field-Oriented Control solve, at a high level?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            452.77,
+            440.4,
+            464.48
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Why does FOC need accurate rotor position, and how is it obtained?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            472.27,
+            391.8,
+            483.98
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "What do the Clarke and Park transforms accomplish in FOC?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            491.77,
+            462.0,
+            503.48
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Why can a FOC drive produce full torque at zero speed without cogging?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            511.27,
+            418.8,
+            522.97
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "How does a three-phase inverter differ from a single H-bridge?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "motion control — a Build List field guide\n12 / 19"
+        }
+      ],
+      "charCount": 1485,
+      "height": 792.0,
+      "pageNumber": 12,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.03,
+            251.81,
+            65.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "❯ project 05\n2-Axis Pen Plotter"
+        },
+        {
+          "bbox": [
+            52.5,
+            72.14,
+            525.0,
+            84.33
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Two steppers that draw anything you give them — coordinated motion and interpolation"
+        },
+        {
+          "bbox": [
+            60.75,
+            98.04,
+            239.41,
+            108.77
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "$50\nintermediate\n1–2 weekends"
+        },
+        {
+          "bbox": [
+            52.5,
+            132.43,
+            196.71,
+            149.01
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "## why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            158.02,
+            554.7,
+            250.73
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "A single controlled motor is one thing; making several move together to trace a precise path\nis another. A 2-axis pen plotter coordinates two stepper motors so a pen follows straight\nlines, curves, and shapes — the same coordinated-motion and interpolation problem at the\nheart of 3D printers, CNC machines, and laser cutters. You build the motion controller: parse\na path, break it into synchronised X / Y steps with proper acceleration, and watch the\nmachine draw. It is a deeply satisfying, visual build that teaches trajectory planning and\nmulti-axis coordination, a different and essential facet of motor control."
+        },
+        {
+          "bbox": [
+            69.0,
+            288.18,
+            544.2,
+            352.73
+          ],
+          "blockIndex": 5,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand stepper driving and microstepping, coordinating multiple axes, linear\ninterpolation (Bresenham / DDA), acceleration profiles (trapezoidal motion), and turning\na path into synchronised motor steps — core CNC, 3D-printing, and motion-control\nengineering."
+        },
+        {
+          "bbox": [
+            52.5,
+            374.77,
+            549.33,
+            399.98
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "→ the job this maps to: motion control, CNC, and robotics engineering — 3D-printer, CNC, and\nautomation-equipment companies."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "motion control — a Build List field guide\n13 / 19"
+        }
+      ],
+      "charCount": 1253,
+      "height": 792.0,
+      "pageNumber": 13,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            166.36,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "## how it works"
+        },
+        {
+          "bbox": [
+            69.0,
+            288.93,
+            544.2,
+            339.23
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "BUILD NOTE\nDon’t reinvent the firmware stack. A CNC shield with stepper drivers (A4988 / DRV8825)\nplus GRBL gets you drawing fast; then study how it interpolates and ramps, or write your\nown simple line / arc interpolator to really learn it."
+        },
+        {
+          "bbox": [
+            52.5,
+            376.93,
+            204.29,
+            393.51
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "## bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            407.04,
+            552.0,
+            417.77
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "component\npart / spec\nqty\n~cost"
+        },
+        {
+          "bbox": [
+            52.5,
+            429.91,
+            552.0,
+            441.12
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Stepper motors (×2)\nNEMA-17\n2\n$14"
+        },
+        {
+          "bbox": [
+            52.5,
+            453.16,
+            551.99,
+            464.37
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Stepper drivers\nA4988 / DRV8825 (×2)\n2\n$4"
+        },
+        {
+          "bbox": [
+            52.5,
+            475.66,
+            552.0,
+            486.87
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Controller\nArduino + CNC shield (or ESP32)\n1\n$10"
+        },
+        {
+          "bbox": [
+            52.5,
+            498.16,
+            552.0,
+            509.37
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Frame, belts, pulleys\n2-axis gantry / CoreXY\n1\n$15"
+        },
+        {
+          "bbox": [
+            52.5,
+            520.66,
+            551.99,
+            531.87
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Pen-lift servo\nSG90 + linkage\n1\n$5"
+        },
+        {
+          "bbox": [
+            67.5,
+            52.28,
+            548.12,
+            90.97
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Stepper basics: A stepper moves in precise increments; microstepping subdivides each step\nfor smoothness and resolution. Driving it open-loop gives accurate positioning without an\nencoder — as long as you never exceed its torque, or it skips steps."
+        },
+        {
+          "bbox": [
+            52.5,
+            53.15,
+            57.92,
+            63.62
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            99.53,
+            558.9,
+            138.23
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Coordinating two axes: To draw a straight diagonal, both motors must move together at the\nright relative rates so the pen follows the line, not a staircase. Interpolation (Bresenham\nor a DDA) decides which axis steps when, keeping the path straight."
+        },
+        {
+          "bbox": [
+            52.5,
+            100.4,
+            57.92,
+            110.87
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            146.77,
+            542.7,
+            185.48
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Acceleration profiles: Steppers lose torque with speed and skip if jerked, so each move\nramps up and down (a trapezoidal velocity profile). Smooth acceleration is what lets the\nmachine move fast without losing position."
+        },
+        {
+          "bbox": [
+            52.5,
+            147.65,
+            57.92,
+            158.12
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            194.02,
+            553.5,
+            232.73
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "From path to motion: A drawing is a list of line and curve segments. The controller\nconverts each into coordinated, ramped X / Y step pulses — exactly the job a 3D printer or\nCNC controller does turning G-code into motion."
+        },
+        {
+          "bbox": [
+            52.5,
+            194.9,
+            57.92,
+            205.37
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            241.27,
+            537.31,
+            266.48
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "The pen axis: A small servo or solenoid lifts and drops the pen between strokes, so the\nmachine draws only where it should — the simplest possible “tool” on a motion platform.\n▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "motion control — a Build List field guide\n14 / 19"
+        }
+      ],
+      "charCount": 1681,
+      "height": 792.0,
+      "pageNumber": 14,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            158.77,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "## build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            349.18,
+            219.46,
+            365.76
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "## interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            55.28,
+            168.9,
+            66.97
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Build the gantry"
+        },
+        {
+          "bbox": [
+            82.5,
+            71.03,
+            525.3,
+            96.22
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Assemble a 2-axis frame (gantry or CoreXY) with the two steppers, belts, and a pen\ncarriage. Square and tension it — slop here shows up directly in the drawing."
+        },
+        {
+          "bbox": [
+            58.5,
+            54.49,
+            64.8,
+            68.14
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            109.28,
+            163.5,
+            120.97
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Drive each axis"
+        },
+        {
+          "bbox": [
+            82.5,
+            125.03,
+            536.1,
+            150.23
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Wire the stepper drivers, set their current limits, and jog each axis independently.\nConfirm correct direction and that a commanded distance matches the actual travel."
+        },
+        {
+          "bbox": [
+            58.5,
+            108.49,
+            64.8,
+            122.14
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            163.27,
+            179.7,
+            174.98
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Interpolate a line"
+        },
+        {
+          "bbox": [
+            82.5,
+            179.02,
+            525.3,
+            204.23
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Implement (or run GRBL’s) coordinated stepping so a diagonal move drives both axes\ntogether into a straight line. Draw a square and check the corners and edges."
+        },
+        {
+          "bbox": [
+            58.5,
+            162.49,
+            64.8,
+            176.14
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            217.27,
+            168.9,
+            228.98
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Add acceleration"
+        },
+        {
+          "bbox": [
+            82.5,
+            233.02,
+            536.1,
+            258.23
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Add trapezoidal ramping so moves speed up and slow down smoothly. Push the speed and\nconfirm it no longer skips steps or loses position."
+        },
+        {
+          "bbox": [
+            58.5,
+            216.49,
+            64.8,
+            230.14
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            271.27,
+            174.3,
+            282.98
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Draw real artwork"
+        },
+        {
+          "bbox": [
+            82.5,
+            287.02,
+            530.7,
+            312.23
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Feed it paths (G-code or your own format), add pen up / down, and let it draw. Tune\nspeed, acceleration, and current for clean lines — your own little CNC."
+        },
+        {
+          "bbox": [
+            58.5,
+            270.49,
+            64.8,
+            284.14
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            69.0,
+            386.77,
+            451.2,
+            398.48
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Why can a stepper be driven open-loop and still position accurately?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            406.27,
+            343.2,
+            417.98
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "What is microstepping, and what does it buy you?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            425.77,
+            429.6,
+            437.48
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "How do you coordinate two axes to draw a straight diagonal line?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            445.27,
+            343.2,
+            456.98
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Why do stepper moves need acceleration profiles?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            464.77,
+            413.4,
+            476.48
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "What causes a stepper to lose steps, and how do you avoid it?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            484.27,
+            462.0,
+            495.98
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "How does a CNC or 3D-printer controller turn a path into motor motion?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "motion control — a Build List field guide\n15 / 19"
+        }
+      ],
+      "charCount": 1321,
+      "height": 792.0,
+      "pageNumber": 15,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.03,
+            240.75,
+            65.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "❯ project 06\nHaptic Smart Knob"
+        },
+        {
+          "bbox": [
+            52.5,
+            72.14,
+            536.25,
+            84.33
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "A knob you can feel — render detents, springs, and end-stops in software, with a motor"
+        },
+        {
+          "bbox": [
+            60.75,
+            98.04,
+            219.62,
+            108.77
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "$40\nadvanced\n1–2 weekends"
+        },
+        {
+          "bbox": [
+            52.5,
+            132.43,
+            196.71,
+            149.01
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "## why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            158.02,
+            554.7,
+            250.73
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Most knobs are passive; this one fights back. By driving a brushless motor with FOC and\nreading its exact angle, you can render torque as a function of position — so the same\nphysical knob can feel like clicky detents, a smooth spring that returns to centre, or a hard\nend-stop, all changed in software. It is the technology behind high-end car controls and the\nviral “smart knob,” and it is a brilliant lesson in torque control and haptics: you are\nprogramming a force field you can feel with your fingers. It builds directly on FOC and turns\nmotor control into a user interface."
+        },
+        {
+          "bbox": [
+            69.0,
+            288.18,
+            544.2,
+            352.73
+          ],
+          "blockIndex": 5,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand torque (current) control of a brushless motor, reading precise position,\nand rendering position-dependent forces (virtual springs, detents, walls) — the basis of\nhaptics and force-feedback systems. It shows you can use a motor as an output device,\nnot just an actuator."
+        },
+        {
+          "bbox": [
+            52.5,
+            374.77,
+            506.13,
+            399.98
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "→ the job this maps to: haptics, human-machine interface, and robotics engineering —\nautomotive HMI, consumer-device, and force-feedback / robotics teams."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "motion control — a Build List field guide\n16 / 19"
+        }
+      ],
+      "charCount": 1259,
+      "height": 792.0,
+      "pageNumber": 16,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            166.36,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "## how it works"
+        },
+        {
+          "bbox": [
+            69.0,
+            302.43,
+            544.2,
+            352.73
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "BUILD NOTE\nThis is FOC plus a feel function. Reuse the project-4 setup (gimbal BLDC, AS5600, three-\nphase driver, SimpleFOC in torque mode); the new work is mapping angle to commanded\ntorque to create each “feel.”"
+        },
+        {
+          "bbox": [
+            52.5,
+            390.43,
+            204.29,
+            407.01
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "## bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            420.54,
+            552.0,
+            431.27
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "component\npart / spec\nqty\n~cost"
+        },
+        {
+          "bbox": [
+            52.5,
+            443.41,
+            552.0,
+            454.62
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Gimbal BLDC motor\nsmall, high pole-count\n1\n$12"
+        },
+        {
+          "bbox": [
+            52.5,
+            466.66,
+            552.0,
+            477.87
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "3-phase driver board\nSimpleFOC Mini / DRV8313\n1\n$14"
+        },
+        {
+          "bbox": [
+            52.5,
+            489.16,
+            551.99,
+            500.37
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Magnetic encoder\nAS5600\n1\n$3"
+        },
+        {
+          "bbox": [
+            52.5,
+            511.66,
+            551.99,
+            522.87
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Microcontroller\nESP32 / STM32\n1\n$8"
+        },
+        {
+          "bbox": [
+            52.5,
+            534.16,
+            551.99,
+            545.37
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Knob + power\ncap, supply, knob cap\n—\n$3"
+        },
+        {
+          "bbox": [
+            67.5,
+            52.28,
+            558.9,
+            90.97
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Torque from current: In FOC torque mode you command the motor’s torque directly via its\ncurrent. Instead of asking the motor to reach a position, you ask it to push with a certain\nforce — the key that makes haptics possible."
+        },
+        {
+          "bbox": [
+            52.5,
+            53.15,
+            57.92,
+            63.62
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            99.53,
+            558.9,
+            138.23
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Position-dependent force: Read the precise angle and compute the torque to apply as a\nfunction of it. A torque that pulls toward the nearest of N evenly spaced angles feels like\ndetents; a torque proportional to distance from centre feels like a spring."
+        },
+        {
+          "bbox": [
+            52.5,
+            100.4,
+            57.92,
+            110.87
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            146.77,
+            537.3,
+            185.48
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Detents, springs, walls: Different force-versus-angle functions give different feels —\nclicky notches, a smooth centring spring, a free spin with hard end-stops, or a viscous\n“thick oil” drag (torque opposing velocity). All are just math on the angle and speed."
+        },
+        {
+          "bbox": [
+            52.5,
+            147.65,
+            57.92,
+            158.12
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            194.02,
+            548.1,
+            232.73
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "The control loop: A fast loop reads angle (and speed), evaluates the feel function, and\ncommands the corresponding torque — hundreds to thousands of times a second, so the force\nfeels instantaneous and stable under your fingers."
+        },
+        {
+          "bbox": [
+            52.5,
+            194.9,
+            57.92,
+            205.37
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            241.27,
+            558.9,
+            279.98
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "A motor as an output device: This flips motor control on its head: the motor is now a\ndisplay for forces, not a mover of loads. The same idea scales to force-feedback joysticks,\nsteering wheels, and robot end-effectors that feel their environment."
+        },
+        {
+          "bbox": [
+            52.5,
+            242.15,
+            57.92,
+            252.62
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "motion control — a Build List field guide\n17 / 19"
+        }
+      ],
+      "charCount": 1744,
+      "height": 792.0,
+      "pageNumber": 17,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            158.77,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "## build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            349.18,
+            219.46,
+            365.76
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "## interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            55.28,
+            185.1,
+            66.97
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Reuse the FOC drive"
+        },
+        {
+          "bbox": [
+            82.5,
+            71.03,
+            557.7,
+            96.22
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Start from a working FOC setup (project 4) in torque mode with the AS5600 reading angle.\nConfirm you can command a steady torque and feel the motor push."
+        },
+        {
+          "bbox": [
+            58.5,
+            54.49,
+            64.8,
+            68.14
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            109.28,
+            163.5,
+            120.97
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Render a spring"
+        },
+        {
+          "bbox": [
+            82.5,
+            125.03,
+            552.3,
+            150.23
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Apply a torque proportional to the negative of the angle from a centre point. Let go of\nthe knob and feel it spring back to centre; change the gain to make it stiff or soft."
+        },
+        {
+          "bbox": [
+            58.5,
+            108.49,
+            64.8,
+            122.14
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            163.27,
+            158.1,
+            174.98
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Render detents"
+        },
+        {
+          "bbox": [
+            82.5,
+            179.02,
+            546.9,
+            204.23
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Compute the nearest of N evenly spaced positions and apply a torque pulling toward it.\nTurn the knob and feel discrete clicks; change N to change the number of detents."
+        },
+        {
+          "bbox": [
+            58.5,
+            162.49,
+            64.8,
+            176.14
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            217.27,
+            195.9,
+            228.98
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Add walls and damping"
+        },
+        {
+          "bbox": [
+            82.5,
+            233.02,
+            546.9,
+            258.23
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Add hard end-stops (a large restoring torque past a limit) and a velocity-proportional\ndrag for a “thick” feel. Switch between feels in software on the same hardware."
+        },
+        {
+          "bbox": [
+            58.5,
+            216.49,
+            64.8,
+            230.14
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            271.27,
+            174.3,
+            282.98
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Make it a control"
+        },
+        {
+          "bbox": [
+            82.5,
+            287.02,
+            536.1,
+            312.23
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Map knob position or detents to an action (volume, menu, brightness) over serial, so\nyour programmable haptic knob actually controls something. One knob, any feel."
+        },
+        {
+          "bbox": [
+            58.5,
+            270.49,
+            64.8,
+            284.14
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            69.0,
+            386.77,
+            456.6,
+            398.48
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "What is torque (current) control, and why is it the basis of haptics?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            406.27,
+            343.2,
+            417.98
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "How do you make a motor render a virtual spring?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            425.77,
+            370.2,
+            437.48
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "How would you create the feel of detents in software?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            445.27,
+            354.0,
+            456.98
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Why does the haptic control loop need to run fast?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            464.77,
+            499.8,
+            476.48
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "What does it mean to use a motor as an output device rather than an actuator?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            484.27,
+            375.6,
+            495.98
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "How would you add a velocity-dependent (viscous) feel?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "motion control — a Build List field guide\n18 / 19"
+        }
+      ],
+      "charCount": 1362,
+      "height": 792.0,
+      "pageNumber": 18,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.03,
+            87.17,
+            37.72
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "❯ wrap"
+        },
+        {
+          "bbox": [
+            52.5,
+            43.82,
+            358.0,
+            87.24
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "A motor is just electricity —\ncontrol turns it into a robot."
+        },
+        {
+          "bbox": [
+            52.5,
+            100.28,
+            549.3,
+            165.98
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "An H-bridge, a PID servo, a balancing robot, a FOC brushless drive, a coordinated plotter, a\nhaptic knob — six steps from “spin a motor” to “command motion precisely.” The actuators are\ncheap (a few dollars of motor, a driver board, an encoder), and the value is entirely in the\ncontrol: the feedback, the tuning, the commutation, the trajectory. That is exactly what\nrobotics, motion-control, and electrified-everything teams hire for."
+        },
+        {
+          "bbox": [
+            52.5,
+            185.68,
+            196.71,
+            202.26
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "// the skill ladder"
+        },
+        {
+          "bbox": [
+            52.5,
+            212.02,
+            462.9,
+            223.73
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Build them in order and each one hands you the technique the next one needs:"
+        },
+        {
+          "bbox": [
+            52.5,
+            231.89,
+            510.14,
+            244.08
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "open-loop drive →closed-loop PID →balancing →field-oriented control →coordinated"
+        },
+        {
+          "bbox": [
+            52.5,
+            249.14,
+            138.79,
+            261.33
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "motion →haptics"
+        },
+        {
+          "bbox": [
+            69.0,
+            288.18,
+            522.6,
+            352.73
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "! BEFORE YOU SPIN IT UP\nMotors mean moving parts, real current, and LiPo batteries. Set the driver’s current\nlimit, keep fingers and cables clear of wheels and gears, fuse or current-limit your\nsupply, and don’t bench-test a balancing robot near your face. Power down before you\nrewire."
+        },
+        {
+          "bbox": [
+            69.0,
+            384.18,
+            538.8,
+            462.23
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "DO THIS\nBuild even one. Film it — a motor snapping to a target and resisting your push, a robot\ncatching itself, a brushless motor holding torque in silence, a machine drawing — and\nput the code on GitHub with the control loop, your tuning, and an honest note on what\nworks and what doesn’t. One motion demo and one clean repo prove you can make hardware\ndo exactly what you tell it."
+        },
+        {
+          "bbox": [
+            69.0,
+            494.02,
+            528.02,
+            532.72
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Full build notes, parts links, and the next field guide go out in The Build List. The\npeople actually shipping these — and trading PID gains and FOC tricks — are in Ohm’s\nClub."
+        },
+        {
+          "bbox": [
+            52.5,
+            561.53,
+            252.3,
+            573.22
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "— Enes (@1nska) · Electrical Engineer"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "motion control — a Build List field guide\n19 / 19"
+        }
+      ],
+      "charCount": 1623,
+      "height": 792.0,
+      "pageNumber": 19,
+      "textExtractable": true,
+      "width": 612.0
+    }
+  ],
+  "provenance": {
+    "confidence": "EXACT",
+    "extractionMethod": "pymupdf-blocks-v1",
+    "extractorVersion": "1.28.0",
+    "generatorVersion": null,
+    "origin": "extracted",
+    "source": "guide-005",
+    "sourceHash": "904707e1b5fcf83e8805800e7328e962ad8844e7f7dc9a74fc527d7cca0b508e",
+    "sourcePage": null,
+    "sourcePath": "Engineering guides/6 EE Projects That Move With Precision.pdf",
+    "sourceSection": "ROOT"
+  },
+  "relativePath": "Engineering guides/6 EE Projects That Move With Precision.pdf",
+  "schemaVersion": "1.0.0",
+  "sha256": "904707e1b5fcf83e8805800e7328e962ad8844e7f7dc9a74fc527d7cca0b508e",
+  "sourceId": "guide-005"
+}

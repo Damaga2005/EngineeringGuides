@@ -1,0 +1,5681 @@
+{
+  "metadata": {
+    "format": "PDF 1.4",
+    "producer": "pypdf"
+  },
+  "pageCount": 16,
+  "pages": [
+    {
+      "blocks": [
+        {
+          "bbox": [
+            343.36,
+            621.22,
+            406.91,
+            640.21
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "DRAWING\nDrone Upgrades"
+        },
+        {
+          "bbox": [
+            458.18,
+            621.22,
+            485.25,
+            640.21
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "SHEET\n1 of 1"
+        },
+        {
+          "bbox": [
+            343.36,
+            651.22,
+            364.52,
+            670.21
+          ],
+          "blockIndex": 2,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "SCALE\nNTS"
+        },
+        {
+          "bbox": [
+            419.91,
+            651.22,
+            432.4,
+            670.21
+          ],
+          "blockIndex": 3,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "REV\nA"
+        },
+        {
+          "bbox": [
+            496.45,
+            651.22,
+            528.09,
+            670.21
+          ],
+          "blockIndex": 4,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "DATE\n09.2026"
+        },
+        {
+          "bbox": [
+            343.36,
+            681.22,
+            377.53,
+            700.21
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "DRAWN BY\n@1nska"
+        },
+        {
+          "bbox": [
+            458.18,
+            681.22,
+            503.49,
+            700.21
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "CHECKED\nOhm’s Club"
+        },
+        {
+          "bbox": [
+            52.5,
+            33.93,
+            371.91,
+            44.17
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "// FIELD GUIDE · DRONE UPGRADES · 6 PROJECTS · SEP 2026"
+        },
+        {
+          "bbox": [
+            60.0,
+            57.56,
+            469.65,
+            67.31
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "[ FITS ANY ARDUPILOT / PX4 BUILD · BENCH-TEST WITH PROPS OFF · FLY LEGAL ]"
+        },
+        {
+          "bbox": [
+            52.5,
+            102.92,
+            336.15,
+            160.14
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Six Upgrades\nYour Drone Is Missing"
+        },
+        {
+          "bbox": [
+            52.5,
+            173.4,
+            356.0,
+            185.05
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Add-ons for the drone you already own: an indoor hover with no GPS, a"
+        },
+        {
+          "bbox": [
+            52.5,
+            188.4,
+            349.65,
+            200.05
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "sensor ring that refuses to hit a wall, a parachute that saves it when it"
+        },
+        {
+          "bbox": [
+            52.5,
+            204.15,
+            352.29,
+            215.8
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "falls, a gimbal, a landing pad it finds by itself, and a payload that maps"
+        },
+        {
+          "bbox": [
+            52.5,
+            219.9,
+            314.93,
+            231.55
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "the invisible. Every one bolts onto a standard flight controller."
+        },
+        {
+          "bbox": [
+            52.5,
+            264.49,
+            388.06,
+            278.14
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "01\nIndoor Position Hold Rock-steady hover in a room with no GPS — a $12 sensor that"
+        },
+        {
+          "bbox": [
+            79.5,
+            280.8,
+            141.24,
+            290.45
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "watches the floor"
+        },
+        {
+          "bbox": [
+            441.89,
+            266.02,
+            458.09,
+            277.73
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$35"
+        },
+        {
+          "bbox": [
+            52.5,
+            309.49,
+            402.96,
+            323.14
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "02\nObstacle-Avoidance Sensor Ring A ring of ToF sensors that stops your drone before it"
+        },
+        {
+          "bbox": [
+            79.5,
+            325.8,
+            195.61,
+            335.45
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "hits the wall — and slides it away"
+        },
+        {
+          "bbox": [
+            441.89,
+            311.02,
+            458.09,
+            322.73
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$50"
+        },
+        {
+          "bbox": [
+            52.5,
+            354.49,
+            415.06,
+            368.14
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "03\nParachute Recovery System A failsafe that senses freefall and pops a canopy — saves the"
+        },
+        {
+          "bbox": [
+            79.5,
+            371.55,
+            187.81,
+            381.2
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "drone, and whoever is below it"
+        },
+        {
+          "bbox": [
+            441.89,
+            356.02,
+            458.09,
+            367.73
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$50"
+        },
+        {
+          "bbox": [
+            52.5,
+            399.49,
+            396.66,
+            413.14
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "04\n2-Axis Brushless Camera Gimbal Buttery footage from a shaky drone — FOC gimbal"
+        },
+        {
+          "bbox": [
+            79.5,
+            416.55,
+            195.65,
+            426.2
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "motors that cancel every wobble"
+        },
+        {
+          "bbox": [
+            441.89,
+            401.02,
+            458.09,
+            412.73
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$60"
+        },
+        {
+          "bbox": [
+            52.5,
+            444.49,
+            409.03,
+            458.14
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "05\nVision Precision Landing It lands itself on a coaster-sized pad — a downward camera, an"
+        },
+        {
+          "bbox": [
+            79.5,
+            461.55,
+            210.04,
+            471.2
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "AprilTag, and a companion computer"
+        },
+        {
+          "bbox": [
+            441.89,
+            446.02,
+            458.09,
+            457.73
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$55"
+        },
+        {
+          "bbox": [
+            52.5,
+            489.49,
+            414.49,
+            503.14
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "06\nSignal-Mapping Payload Fly a grid and come back with a 3D heatmap of every radio signal"
+        },
+        {
+          "bbox": [
+            79.5,
+            506.55,
+            226.2,
+            516.2
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "in the air — a receive-only survey payload"
+        },
+        {
+          "bbox": [
+            441.89,
+            491.02,
+            458.09,
+            502.73
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$50"
+        },
+        {
+          "bbox": [
+            52.5,
+            536.97,
+            377.78,
+            546.52
+          ],
+          "blockIndex": 32,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "MASS +142 G · CG +3 MM · UPGRADES 06 · PROPS OFF · FLY LEGAL"
+        },
+        {
+          "bbox": [
+            52.5,
+            566.2,
+            399.43,
+            576.73
+          ],
+          "blockIndex": 33,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "● By Enes · @1nska · Electrical Engineer — a Build List field guide"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 34,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "drone upgrades — a Build List field guide\n1 / 16"
+        }
+      ],
+      "charCount": 1439,
+      "height": 792.0,
+      "pageNumber": 1,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            68.25,
+            262.31,
+            540.88,
+            298.92
+          ],
+          "blockIndex": 0,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand optical flow (velocity from image motion), why flow must be scaled by height, how a flight controller’s\nestimator fuses a new sensor, and how to configure and validate that fusion safely. That is the core of GPS-denied"
+        },
+        {
+          "bbox": [
+            68.25,
+            304.17,
+            112.31,
+            313.17
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "navigation."
+        },
+        {
+          "bbox": [
+            52.5,
+            336.0,
+            506.4,
+            347.12
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "→the job this maps to: drone autonomy and GNC engineering — indoor-drone, inspection, and navigation teams."
+        },
+        {
+          "bbox": [
+            68.25,
+            371.06,
+            530.05,
+            393.42
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "!\nPROPS OFF FIRST\nConfigure and verify every new sensor with the propellers removed, watching the data in your ground station. Make"
+        },
+        {
+          "bbox": [
+            68.25,
+            396.75,
+            528.9,
+            407.67
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "the first hover low, in a large clear room, with a hand on the sticks and nobody else inside — and never over people."
+        },
+        {
+          "bbox": [
+            68.25,
+            411.0,
+            258.84,
+            421.92
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "That rule applies to every upgrade in this guide."
+        },
+        {
+          "bbox": [
+            52.5,
+            461.33,
+            157.13,
+            476.45
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "// how it works"
+        },
+        {
+          "bbox": [
+            469.58,
+            17.08,
+            558.55,
+            25.86
+          ],
+          "blockIndex": 7,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "UPGRADE 01 · REV A"
+        },
+        {
+          "bbox": [
+            67.5,
+            485.25,
+            541.37,
+            496.17
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Optical flow: The sensor sees floor texture move across its tiny image and reports pixel displacement per frame — the"
+        },
+        {
+          "bbox": [
+            67.5,
+            499.5,
+            441.68,
+            510.42
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "angular rate of the ground beneath. It is a mouse sensor pointed at the floor from a metre up."
+        },
+        {
+          "bbox": [
+            52.5,
+            485.9,
+            57.02,
+            496.37
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            519.75,
+            541.54,
+            530.67
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Height turns flow into velocity: The same angular rate means a faster ground speed when you are higher, so the flight"
+        },
+        {
+          "bbox": [
+            67.5,
+            534.0,
+            530.51,
+            544.92
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "controller needs the height from a rangefinder (a ToF like the VL53L1X or a TFmini) to scale flow into linear velocity."
+        },
+        {
+          "bbox": [
+            52.5,
+            520.4,
+            57.02,
+            530.87
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            555.0,
+            543.37,
+            579.42
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Fusion in the estimator: The flight controller’s EKF fuses flow velocity with the IMU and the rangefinder into a position\nestimate whose drift is bounded by the flow — no GPS required. It also enables terrain-following altitude hold.\n▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            589.5,
+            530.78,
+            613.92
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Light and texture: Flow needs texture and light: a blank floor or a dim room starves it. A small downward LED and a\ntextured surface make the difference between a locked hover and a drift.\n▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            624.0,
+            556.31,
+            634.92
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Flight modes: With flow enabled, position-hold and loiter modes work indoors, and the controller arbitrates between GPS"
+        },
+        {
+          "bbox": [
+            67.5,
+            638.25,
+            551.96,
+            649.17
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "and flow depending on what is healthy. Understanding that arbitration is what keeps a hybrid indoor / outdoor flight safe."
+        },
+        {
+          "bbox": [
+            52.5,
+            624.65,
+            57.02,
+            635.12
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            26.43,
+            254.58,
+            64.74
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "[ U P G R A D E 0 1 ]\nIndoor Position Hold"
+        },
+        {
+          "bbox": [
+            52.5,
+            71.85,
+            377.03,
+            82.96
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Rock-steady hover in a room with no GPS — a $12 sensor that watches the floor"
+        },
+        {
+          "bbox": [
+            60.75,
+            98.43,
+            206.25,
+            108.67
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "$35\nbeginner\n1 weekend"
+        },
+        {
+          "bbox": [
+            52.5,
+            132.83,
+            185.03,
+            147.95
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "// why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            156.75,
+            558.83,
+            167.67
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Outdoors, GPS tells the flight controller where the drone is. Indoors there is no GPS, and a drone drifts like a balloon in a draft."
+        },
+        {
+          "bbox": [
+            52.5,
+            171.0,
+            555.93,
+            195.42
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "The fix is the same trick an optical mouse uses: a tiny downward camera (a PMW3901 optical-flow sensor) watches the floor\ntexture slide by and reports velocity, while a rangefinder gives height. Feed both to the flight controller and it holds position —"
+        },
+        {
+          "bbox": [
+            52.5,
+            198.75,
+            546.61,
+            209.67
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "a hover you can let go of, indoors, that stays put. It is the cheapest, most dramatic upgrade there is, and it is the foundation"
+        },
+        {
+          "bbox": [
+            52.5,
+            213.0,
+            190.05,
+            223.92
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "for every kind of indoor autonomy."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "drone upgrades — a Build List field guide\n2 / 16"
+        }
+      ],
+      "charCount": 2584,
+      "height": 792.0,
+      "pageNumber": 2,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            27.08,
+            192.01,
+            42.2
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "// bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            54.93,
+            551.37,
+            65.17
+          ],
+          "blockIndex": 1,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "COMPONENT\nPART / SPEC\nQTY\n~COST"
+        },
+        {
+          "bbox": [
+            52.5,
+            76.89,
+            552.0,
+            87.81
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Optical-flow sensor\nPMW3901 module\n1\n$12"
+        },
+        {
+          "bbox": [
+            52.5,
+            100.14,
+            552.0,
+            111.06
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Rangefinder\nVL53L1X or TFmini-S\n1\n$14"
+        },
+        {
+          "bbox": [
+            52.5,
+            122.64,
+            552.0,
+            133.56
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Mount + wiring\nprinted bracket, cable\n—\n$5"
+        },
+        {
+          "bbox": [
+            52.5,
+            145.14,
+            552.0,
+            156.06
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Downward LED (optional)\nfor dark floors\n1\n$4"
+        },
+        {
+          "bbox": [
+            52.5,
+            190.58,
+            150.16,
+            205.7
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "// build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            504.83,
+            205.96,
+            519.95
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "// interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            217.5,
+            159.19,
+            228.42
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Mount the sensors"
+        },
+        {
+          "bbox": [
+            82.5,
+            233.25,
+            548.52,
+            244.17
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Fix the flow sensor and rangefinder facing straight down, clear of props and landing gear. Alignment matters: a tilted"
+        },
+        {
+          "bbox": [
+            82.5,
+            247.5,
+            247.93,
+            258.42
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "flow sensor reads motion that isn’t there."
+        },
+        {
+          "bbox": [
+            58.5,
+            216.49,
+            64.8,
+            230.14
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            273.0,
+            150.41,
+            283.92
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Wire and enable"
+        },
+        {
+          "bbox": [
+            82.5,
+            288.75,
+            536.46,
+            299.67
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Connect flow (SPI or UART) and rangefinder (I2C or UART) to the flight controller, enable both in parameters, and"
+        },
+        {
+          "bbox": [
+            82.5,
+            303.0,
+            301.27,
+            313.92
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "confirm live readings in the ground station — props off."
+        },
+        {
+          "bbox": [
+            58.5,
+            271.99,
+            64.8,
+            285.64
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            327.75,
+            180.63,
+            338.67
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Calibrate the flow scale"
+        },
+        {
+          "bbox": [
+            82.5,
+            344.25,
+            539.03,
+            368.67
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Move the drone by hand over a textured floor and compare flow-reported motion to the IMU; adjust the flow scale\nparameters until they agree."
+        },
+        {
+          "bbox": [
+            58.5,
+            326.74,
+            64.8,
+            340.39
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            383.25,
+            165.06,
+            394.17
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Verify the estimator"
+        },
+        {
+          "bbox": [
+            58.5,
+            382.24,
+            507.19,
+            410.67
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "With props still off, check that the EKF reports a healthy flow-based position estimate. Only then fit props.\n4"
+        },
+        {
+          "bbox": [
+            82.5,
+            424.5,
+            150.22,
+            435.42
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Hover and let go"
+        },
+        {
+          "bbox": [
+            82.5,
+            441.0,
+            557.11,
+            465.42
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "In a clear, well-lit room, take off low in position-hold and slowly release the sticks. Watch it stay put. Then test terrain-\nfollowing over a step and note where flow breaks (dark floor, low texture)."
+        },
+        {
+          "bbox": [
+            58.5,
+            423.49,
+            64.8,
+            437.14
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            68.25,
+            540.75,
+            290.0,
+            551.87
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "How does an optical-flow sensor estimate velocity?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            561.0,
+            313.59,
+            572.12
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Why must optical flow be scaled by height above ground?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            580.5,
+            371.96,
+            591.62
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "How does a flight controller’s EKF fuse flow, IMU, and rangefinder data?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            600.75,
+            252.44,
+            611.87
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "What conditions cause optical flow to fail?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            620.25,
+            314.18,
+            631.37
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "How does the controller arbitrate between GPS and flow?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            640.5,
+            318.17,
+            651.62
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "How would you validate a new sensor before flying with it?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "drone upgrades — a Build List field guide\n3 / 16"
+        }
+      ],
+      "charCount": 1520,
+      "height": 792.0,
+      "pageNumber": 3,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            68.25,
+            276.56,
+            526.46,
+            298.92
+          ],
+          "blockIndex": 0,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand multi-sensor proximity sensing, sector-based obstacle representation, streaming sensor data to a"
+        },
+        {
+          "bbox": [
+            68.25,
+            302.25,
+            541.82,
+            326.67
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "flight controller over a standard protocol, and how avoidance behaviour (stop versus slide, safety margins) is designed\nand tuned. That is core drone-safety and autonomy engineering."
+        },
+        {
+          "bbox": [
+            52.5,
+            350.25,
+            514.65,
+            361.37
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "→the job this maps to: drone safety and autonomy engineering — inspection-drone, delivery, and consumer-drone"
+        },
+        {
+          "bbox": [
+            52.5,
+            364.5,
+            125.7,
+            375.42
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "perception teams."
+        },
+        {
+          "bbox": [
+            68.25,
+            398.81,
+            540.62,
+            435.42
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "!\nA SAFETY LAYER, NOT A PILOT\nAvoidance has blind spots (between sensors, above, below) and hard limits (glass, bright sun, speed). Test it slowly,\nlow, in a clear space with a spotter, and never treat it as permission to fly near people. It catches mistakes; it does not"
+        },
+        {
+          "bbox": [
+            68.25,
+            438.75,
+            136.36,
+            449.67
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "replace the pilot."
+        },
+        {
+          "bbox": [
+            52.5,
+            17.08,
+            558.55,
+            64.74
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "UPGRADE 02 · REV A\n[ U P G R A D E 0 2 ]\nObstacle-Avoidance Sensor Ring"
+        },
+        {
+          "bbox": [
+            52.5,
+            71.85,
+            399.48,
+            82.96
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "A ring of ToF sensors that stops your drone before it hits the wall — and slides it away"
+        },
+        {
+          "bbox": [
+            60.75,
+            98.43,
+            241.52,
+            108.67
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "$50\nintermediate\n1–2 weekends"
+        },
+        {
+          "bbox": [
+            52.5,
+            132.83,
+            185.03,
+            147.95
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "// why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            156.75,
+            535.73,
+            167.67
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "A drone that can feel the walls is a fundamentally safer drone. Mount a ring of time-of-flight distance sensors around the"
+        },
+        {
+          "bbox": [
+            52.5,
+            171.0,
+            548.7,
+            195.42
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "frame, have a small microcontroller stream the nearest obstacle in each direction to the flight controller as proximity data,\nand the controller’s own avoidance logic takes over: fly toward a wall and the drone stops short, or slides along it, no matter"
+        },
+        {
+          "bbox": [
+            52.5,
+            198.75,
+            521.28,
+            209.67
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "what the sticks say. Push it toward a doorway and it refuses to hit the frame. It is the flagship of this guide — sensing,"
+        },
+        {
+          "bbox": [
+            52.5,
+            213.0,
+            543.7,
+            237.42
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "integration, and control behaviour in one upgrade — and it is the same layered safety architecture real autonomous drones\nuse."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "drone upgrades — a Build List field guide\n4 / 16"
+        }
+      ],
+      "charCount": 1618,
+      "height": 792.0,
+      "pageNumber": 4,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            27.08,
+            157.13,
+            42.2
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "// how it works"
+        },
+        {
+          "bbox": [
+            68.25,
+            252.56,
+            492.75,
+            274.92
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "BUILD NOTE\nSix VL53L1X modules at 60° spacing is the cheap version; four TFmini-S give longer range. Either way, the"
+        },
+        {
+          "bbox": [
+            68.25,
+            278.25,
+            540.65,
+            302.67
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "microcontroller sends standard MAVLink OBSTACLE_DISTANCE messages, so the flight controller’s built-in avoidance\ndoes the hard part — you don’t write the control loop."
+        },
+        {
+          "bbox": [
+            52.5,
+            342.83,
+            212.93,
+            357.95
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "// key design decisions"
+        },
+        {
+          "bbox": [
+            52.5,
+            558.83,
+            192.01,
+            573.95
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "// bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            586.68,
+            551.37,
+            596.92
+          ],
+          "blockIndex": 5,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "COMPONENT\nPART / SPEC\nQTY\n~COST"
+        },
+        {
+          "bbox": [
+            52.5,
+            608.64,
+            552.0,
+            619.56
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "ToF sensors (×6)\nVL53L1X (or 4× TFmini-S)\n6\n$36"
+        },
+        {
+          "bbox": [
+            52.5,
+            631.14,
+            552.0,
+            642.06
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Microcontroller\nESP32 / Arduino as sensor bridge\n1\n$8"
+        },
+        {
+          "bbox": [
+            52.5,
+            654.39,
+            552.0,
+            665.31
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Ring mount\nprinted ring / brackets\n1\n$5"
+        },
+        {
+          "bbox": [
+            52.5,
+            676.89,
+            552.0,
+            687.81
+          ],
+          "blockIndex": 9,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Wiring\ncables, connectors\n—\n$2"
+        },
+        {
+          "bbox": [
+            67.5,
+            51.0,
+            550.33,
+            61.92
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Sectors, not a single beam: One ultrasonic sensor sees one direction. A ring of ToF sensors reports the nearest obstacle"
+        },
+        {
+          "bbox": [
+            67.5,
+            65.25,
+            451.7,
+            76.17
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "in each sector around the drone, giving the controller a 360° picture of the horizontal clearance."
+        },
+        {
+          "bbox": [
+            52.5,
+            51.65,
+            57.02,
+            62.12
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            85.5,
+            526.64,
+            96.42
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Speaking the controller’s language: A microcontroller reads every sensor and packs the distances into a standard"
+        },
+        {
+          "bbox": [
+            67.5,
+            99.75,
+            557.2,
+            124.17
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "proximity message over the telemetry port. The flight controller ingests it exactly as it would a commercial sensor — it just\nworks."
+        },
+        {
+          "bbox": [
+            52.5,
+            86.15,
+            57.02,
+            96.62
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            134.25,
+            553.48,
+            145.17
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Stop or slide: With avoidance enabled, the controller applies a margin: approach an obstacle and it either halts the drone"
+        },
+        {
+          "bbox": [
+            67.5,
+            148.5,
+            530.11,
+            159.42
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "at the margin or lets it slide along the obstacle. Both are tunable, and the choice changes how the drone feels to fly."
+        },
+        {
+          "bbox": [
+            52.5,
+            134.9,
+            57.02,
+            145.37
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            168.75,
+            543.62,
+            179.67
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Field of view and gaps: Each sensor covers a cone; between cones there are gaps, and nothing covers above or below."
+        },
+        {
+          "bbox": [
+            67.5,
+            183.0,
+            371.68,
+            193.92
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Sensor count, spacing, and mounting angle set how complete the picture is."
+        },
+        {
+          "bbox": [
+            52.5,
+            169.4,
+            57.02,
+            179.87
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            203.25,
+            550.89,
+            214.17
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "What ToF can’t see: Glass, mirrors, very dark surfaces, and bright sunlight fool infrared ToF. Speed matters too — at high"
+        },
+        {
+          "bbox": [
+            67.5,
+            217.5,
+            444.4,
+            228.42
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "speed the drone can outrun its own reaction distance. Knowing the limits is part of the design."
+        },
+        {
+          "bbox": [
+            52.5,
+            203.9,
+            57.02,
+            214.37
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            368.25,
+            556.17,
+            392.67
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Why a ring of ToF sensors instead of one ultrasonic sensor? A single sensor sees one narrow direction and ultrasonics\nare slow and wide-beamed. A ring of fast, narrow ToF sensors gives clearance in every horizontal direction, updated many"
+        },
+        {
+          "bbox": [
+            67.5,
+            396.0,
+            491.65,
+            406.92
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "times a second — the minimum for the drone to react to a wall it is drifting toward, not just one it is facing."
+        },
+        {
+          "bbox": [
+            52.5,
+            368.9,
+            60.04,
+            379.37
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→"
+        },
+        {
+          "bbox": [
+            67.5,
+            418.5,
+            559.22,
+            442.92
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Why send proximity to the flight controller instead of overriding the sticks yourself? The flight controller already has the\nstate estimate, the motor mixing, and a tested avoidance algorithm with proper margins. Feeding it standard proximity"
+        },
+        {
+          "bbox": [
+            67.5,
+            446.25,
+            556.13,
+            470.67
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "data means your sensors plug into that safety logic instead of fighting it with a home-made override that could destabilise\nthe aircraft."
+        },
+        {
+          "bbox": [
+            52.5,
+            419.15,
+            60.04,
+            429.62
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→"
+        },
+        {
+          "bbox": [
+            67.5,
+            482.25,
+            556.21,
+            493.17
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Why is this not autonomy? Avoidance is a reflex: it prevents contact within its field of view at modest speeds. It has gaps,"
+        },
+        {
+          "bbox": [
+            67.5,
+            496.5,
+            555.2,
+            520.92
+          ],
+          "blockIndex": 32,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "it can be fooled, and it plans nothing. Real autonomy adds mapping, planning, and redundancy on top. Treating avoidance\nas a safety net rather than a self-flying feature is the honest engineering position."
+        },
+        {
+          "bbox": [
+            52.5,
+            482.9,
+            60.04,
+            493.37
+          ],
+          "blockIndex": 33,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 34,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "drone upgrades — a Build List field guide\n5 / 16"
+        }
+      ],
+      "charCount": 2763,
+      "height": 792.0,
+      "pageNumber": 5,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            27.08,
+            150.16,
+            42.2
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "// build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            355.58,
+            205.96,
+            370.7
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "// interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            54.0,
+            138.42,
+            64.92
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Build the ring"
+        },
+        {
+          "bbox": [
+            82.5,
+            70.5,
+            558.04,
+            94.92
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Mount six ToF sensors at 60° spacing on a printed ring around the frame, facing outward and level, clear of props. Wire\nthem to the microcontroller."
+        },
+        {
+          "bbox": [
+            58.5,
+            52.99,
+            64.8,
+            66.64
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            109.5,
+            157.03,
+            120.42
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Read every sector"
+        },
+        {
+          "bbox": [
+            82.5,
+            125.25,
+            555.03,
+            136.17
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Program the microcontroller to poll all sensors and print the six distances. Wave a hand around the drone and confirm"
+        },
+        {
+          "bbox": [
+            82.5,
+            139.5,
+            171.41,
+            150.42
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "each sector responds."
+        },
+        {
+          "bbox": [
+            58.5,
+            108.49,
+            64.8,
+            122.14
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            165.0,
+            205.92,
+            175.92
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Stream to the flight controller"
+        },
+        {
+          "bbox": [
+            82.5,
+            180.75,
+            547.95,
+            191.67
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Send the distances as MAVLink OBSTACLE_DISTANCE messages over a telemetry port. Confirm the ground station’s"
+        },
+        {
+          "bbox": [
+            82.5,
+            195.0,
+            286.46,
+            205.92
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "proximity view shows your sectors live — props off."
+        },
+        {
+          "bbox": [
+            58.5,
+            163.99,
+            64.8,
+            177.64
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            219.75,
+            224.41,
+            230.67
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Enable avoidance and set margins"
+        },
+        {
+          "bbox": [
+            82.5,
+            236.25,
+            544.46,
+            247.17
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Turn on the controller’s avoidance, set a conservative margin (a metre or more) and choose stop or slide. Hover in a"
+        },
+        {
+          "bbox": [
+            82.5,
+            250.5,
+            336.32,
+            261.42
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "clear space and slowly push toward a wall: it should stop short."
+        },
+        {
+          "bbox": [
+            58.5,
+            218.74,
+            64.8,
+            232.39
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            275.25,
+            182.68,
+            286.17
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Tune and map the limits"
+        },
+        {
+          "bbox": [
+            82.5,
+            291.75,
+            556.47,
+            316.17
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Adjust margins and behaviour, test corners and doorways, then deliberately find the failure modes — glass, sun, speed\n— and document them. Knowing where it fails is the deliverable."
+        },
+        {
+          "bbox": [
+            58.5,
+            274.24,
+            64.8,
+            287.89
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            68.25,
+            391.5,
+            330.89,
+            402.62
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Why does obstacle avoidance need coverage in all directions?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            411.75,
+            298.2,
+            422.87
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "How do you send proximity data to a flight controller?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            431.25,
+            356.87,
+            442.37
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "What is the difference between stop and slide avoidance behaviour?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            451.5,
+            290.56,
+            462.62
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "What limits do infrared time-of-flight sensors have?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            471.0,
+            308.13,
+            482.12
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "How do sensor count and spacing affect coverage gaps?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            491.25,
+            302.3,
+            502.37
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Why is avoidance a safety layer rather than autonomy?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "drone upgrades — a Build List field guide\n6 / 16"
+        }
+      ],
+      "charCount": 1362,
+      "height": 792.0,
+      "pageNumber": 6,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            68.25,
+            276.56,
+            536.66,
+            313.17
+          ],
+          "blockIndex": 0,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand freefall detection from an IMU, failsafe logic and false-trigger rejection, mechanical deployer design,\ncanopy sizing from descent-rate physics, and the test discipline (bench, drop, tethered, live) that a safety system"
+        },
+        {
+          "bbox": [
+            68.25,
+            316.5,
+            366.62,
+            327.42
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "demands. Safety-critical design is a skill every aviation employer looks for."
+        },
+        {
+          "bbox": [
+            52.5,
+            350.25,
+            523.89,
+            361.37
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "→the job this maps to: drone safety-systems and aviation-safety engineering — delivery-drone, UAS-operations, and"
+        },
+        {
+          "bbox": [
+            52.5,
+            364.5,
+            137.07,
+            375.42
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "airworthiness teams."
+        },
+        {
+          "bbox": [
+            68.25,
+            398.81,
+            540.96,
+            421.92
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "!\nTEST IT LIKE IT MATTERS\nA deployer is a spring or a gas charge under tension: keep hands clear of the tube, test with props off, and never stand"
+        },
+        {
+          "bbox": [
+            68.25,
+            425.25,
+            529.45,
+            449.67
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "under a drop test. Use spring or servo release — no pyrotechnics. Do live deploy tests only over an empty field, well\nwithin your local rules, and remember a canopy in the props is worse than no canopy: motor cut-off on deploy is"
+        },
+        {
+          "bbox": [
+            68.25,
+            454.92,
+            114.05,
+            463.92
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "mandatory."
+        },
+        {
+          "bbox": [
+            52.5,
+            503.33,
+            157.13,
+            518.45
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "// how it works"
+        },
+        {
+          "bbox": [
+            469.58,
+            17.08,
+            558.55,
+            25.86
+          ],
+          "blockIndex": 8,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "UPGRADE 03 · REV A"
+        },
+        {
+          "bbox": [
+            67.5,
+            527.25,
+            547.92,
+            538.17
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Detecting the fall: In freefall the accelerometer reads near zero g on all axes. Detect that condition for longer than a set"
+        },
+        {
+          "bbox": [
+            67.5,
+            541.5,
+            521.78,
+            552.42
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "time (a few hundred milliseconds, to reject bumps) and you have a reliable trigger. A failsafe signal from the flight"
+        },
+        {
+          "bbox": [
+            67.5,
+            555.75,
+            284.27,
+            566.67
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "controller, or a manual channel, are the other triggers."
+        },
+        {
+          "bbox": [
+            52.5,
+            527.9,
+            57.02,
+            538.37
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            576.0,
+            539.2,
+            586.92
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Cut the motors: On deploy, the props must stop instantly, or the canopy and lines wrap into them. The trigger sends a"
+        },
+        {
+          "bbox": [
+            67.5,
+            590.25,
+            375.32,
+            601.17
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "motor-kill to the flight controller (or cuts ESC power) before the pin releases."
+        },
+        {
+          "bbox": [
+            52.5,
+            576.65,
+            57.02,
+            587.12
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            610.5,
+            544.97,
+            621.42
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "The deployer: A tube holds the packed canopy on a compressed spring, retained by a pin a servo pulls. Release the pin"
+        },
+        {
+          "bbox": [
+            67.5,
+            624.75,
+            495.13,
+            635.67
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "and the spring throws the canopy clear of the airframe; a bridle and swivel connect it to the frame’s centre."
+        },
+        {
+          "bbox": [
+            52.5,
+            611.15,
+            57.02,
+            621.62
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            645.75,
+            549.58,
+            670.17
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Sizing the canopy: Descent rate depends on canopy area and total mass; aim for roughly four to five metres per second.\nToo small and the landing is a crash; too large and the pack won’t fit. The maths is simple drag physics.\n▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            680.25,
+            554.27,
+            704.67
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Testing a safety system: Bench trigger tests, then drop tests with a dummy mass from height, then tethered deploy, then\na live test over an empty field. A parachute you haven’t drop-tested is decoration.\n▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            26.43,
+            305.04,
+            64.74
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "[ U P G R A D E 0 3 ]\nParachute Recovery System"
+        },
+        {
+          "bbox": [
+            52.5,
+            71.85,
+            391.92,
+            82.96
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "A failsafe that senses freefall and pops a canopy — saves the drone, and whoever is"
+        },
+        {
+          "bbox": [
+            52.5,
+            86.1,
+            85.05,
+            97.21
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "below it"
+        },
+        {
+          "bbox": [
+            60.75,
+            112.68,
+            226.4,
+            122.92
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "$50\nintermediate\n1 weekend"
+        },
+        {
+          "bbox": [
+            52.5,
+            147.08,
+            185.03,
+            162.2
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "// why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            171.0,
+            550.75,
+            181.92
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Motors fail, batteries fail, and a drone that loses power becomes a falling brick. A parachute recovery system detects the fall"
+        },
+        {
+          "bbox": [
+            52.5,
+            185.25,
+            533.52,
+            209.67
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "— or takes a command — kills the motors, and deploys a canopy so the aircraft comes down at a walking pace instead of\nterminal velocity. Commercial systems cost hundreds; you can build one with a spring-loaded tube, a servo pin, an"
+        },
+        {
+          "bbox": [
+            52.5,
+            213.0,
+            555.28,
+            237.42
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "accelerometer, and a properly sized canopy. It is the one upgrade that protects people on the ground as much as the drone, it\nis increasingly what regulators want for flights near people, and the deployment shot is spectacular."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "drone upgrades — a Build List field guide\n7 / 16"
+        }
+      ],
+      "charCount": 2864,
+      "height": 792.0,
+      "pageNumber": 7,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            27.08,
+            192.01,
+            42.2
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "// bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            54.93,
+            551.37,
+            65.17
+          ],
+          "blockIndex": 1,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "COMPONENT\nPART / SPEC\nQTY\n~COST"
+        },
+        {
+          "bbox": [
+            52.5,
+            76.89,
+            552.0,
+            87.81
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Canopy\ndrone parachute sized for your mass\n1\n$25"
+        },
+        {
+          "bbox": [
+            52.5,
+            100.14,
+            552.0,
+            111.06
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Deployer\nprinted tube, spring, servo + pin\n1\n$12"
+        },
+        {
+          "bbox": [
+            52.5,
+            122.64,
+            552.0,
+            133.56
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Trigger\nIMU + microcontroller (or FC channel)\n1\n$8"
+        },
+        {
+          "bbox": [
+            52.5,
+            145.14,
+            552.0,
+            156.06
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Bridle + mount\nswivel, cord, frame mount\n—\n$5"
+        },
+        {
+          "bbox": [
+            52.5,
+            190.58,
+            150.16,
+            205.7
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "// build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            519.08,
+            205.96,
+            534.2
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "// interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            217.5,
+            147.89,
+            228.42
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Size the canopy"
+        },
+        {
+          "bbox": [
+            82.5,
+            233.25,
+            538.32,
+            244.17
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Weigh your drone, choose a target descent rate, and compute the canopy area. Buy or sew a canopy to match and"
+        },
+        {
+          "bbox": [
+            82.5,
+            247.5,
+            254.69,
+            258.42
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "pack it with a spring-loaded deployer tube."
+        },
+        {
+          "bbox": [
+            58.5,
+            216.49,
+            64.8,
+            230.14
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            273.0,
+            158.88,
+            283.92
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Build the deployer"
+        },
+        {
+          "bbox": [
+            82.5,
+            288.75,
+            533.05,
+            299.67
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Print the tube, fit the spring and a servo-pulled retaining pin, and mount it at the frame’s centre with a bridle and"
+        },
+        {
+          "bbox": [
+            82.5,
+            303.0,
+            324.75,
+            313.92
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "swivel. Confirm a clean, fast throw on the bench — props off."
+        },
+        {
+          "bbox": [
+            58.5,
+            271.99,
+            64.8,
+            285.64
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            327.75,
+            150.99,
+            338.67
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Write the trigger"
+        },
+        {
+          "bbox": [
+            82.5,
+            344.25,
+            550.72,
+            368.67
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Detect near-zero g for a few hundred milliseconds on the IMU, plus a manual trigger channel. Wire a motor-kill to the\nflight controller that fires before the pin releases."
+        },
+        {
+          "bbox": [
+            58.5,
+            326.74,
+            64.8,
+            340.39
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            383.25,
+            183.74,
+            394.17
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Drop-test with a dummy"
+        },
+        {
+          "bbox": [
+            82.5,
+            399.75,
+            545.44,
+            424.17
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Drop the deployer with a dummy mass from height over soft ground, many times. Measure the descent rate and the\ndeploy delay; tune spring, packing, and trigger time."
+        },
+        {
+          "bbox": [
+            58.5,
+            382.24,
+            64.8,
+            395.89
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            438.75,
+            160.45,
+            449.67
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Tethered, then live"
+        },
+        {
+          "bbox": [
+            82.5,
+            454.5,
+            541.86,
+            465.42
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Fit it to the drone, verify motor kill on trigger with props off, then do a tethered deploy and finally a live test over an"
+        },
+        {
+          "bbox": [
+            82.5,
+            468.75,
+            368.09,
+            479.67
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "empty field at safe altitude. Film the deploy — and log the descent rate."
+        },
+        {
+          "bbox": [
+            58.5,
+            437.74,
+            64.8,
+            451.39
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            68.25,
+            555.0,
+            281.58,
+            566.12
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "How can an IMU detect that a drone is in freefall?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            574.5,
+            313.24,
+            585.62
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Why must the motors be cut before a parachute deploys?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            594.75,
+            299.1,
+            605.87
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "How do you size a parachute for a given descent rate?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            614.25,
+            298.18,
+            625.37
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "How do you reject false triggers in a freefall detector?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            634.5,
+            338.03,
+            645.62
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "What is the correct test sequence for a safety-critical deployer?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            654.75,
+            352.95,
+            665.87
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Why are parachutes becoming a regulatory expectation for drones?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 32,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "drone upgrades — a Build List field guide\n8 / 16"
+        }
+      ],
+      "charCount": 1637,
+      "height": 792.0,
+      "pageNumber": 8,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            68.25,
+            262.31,
+            544.54,
+            298.92
+          ],
+          "blockIndex": 0,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand gimbal mechanics and balancing, IMU-based attitude sensing on a moving base, field-oriented control\nof brushless motors for smooth torque, PID tuning of a stabilisation loop, and vibration isolation. Stabilisation"
+        },
+        {
+          "bbox": [
+            68.25,
+            302.25,
+            383.15,
+            313.17
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "engineering shows up across cameras, drones, weapons-sights, and satellites."
+        },
+        {
+          "bbox": [
+            52.5,
+            336.0,
+            553.94,
+            347.12
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "→the job this maps to: stabilisation and mechatronics engineering — camera-gimbal, drone-payload, and precision-pointing"
+        },
+        {
+          "bbox": [
+            52.5,
+            352.17,
+            80.01,
+            361.17
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "teams."
+        },
+        {
+          "bbox": [
+            52.5,
+            390.83,
+            157.13,
+            405.95
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "// how it works"
+        },
+        {
+          "bbox": [
+            68.25,
+            602.06,
+            526.44,
+            624.42
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "BUILD NOTE\nDon’t write gimbal firmware from scratch. A STorM32 or SimpleBGC-class controller with its IMU handles FOC and"
+        },
+        {
+          "bbox": [
+            68.25,
+            627.75,
+            524.92,
+            652.17
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "stabilisation; your engineering is the frame, the balance, the motor choice, the tuning, and the vibration mounting.\nBalance first — an unbalanced gimbal can never be tuned smooth."
+        },
+        {
+          "bbox": [
+            469.58,
+            17.08,
+            558.55,
+            25.86
+          ],
+          "blockIndex": 7,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "UPGRADE 04 · REV A"
+        },
+        {
+          "bbox": [
+            52.5,
+            414.75,
+            513.13,
+            439.17
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Sensing the camera’s attitude: An IMU mounted on the camera plate reports its pitch and roll at high rate. The\ncontroller’s job is to hold that attitude at the target regardless of what the frame beneath it does.\n▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            449.25,
+            536.96,
+            473.67
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Gimbal motors and FOC: Gimbal brushless motors are high-pole-count, low-speed motors driven with field-oriented\ncontrol for smooth, cogging-free torque at zero speed — exactly what holding a camera still requires.\n▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            483.75,
+            549.98,
+            494.67
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "The stabilisation loop: A PID loop per axis takes the attitude error and commands motor torque to cancel it. Tuning sets"
+        },
+        {
+          "bbox": [
+            67.5,
+            498.0,
+            371.37,
+            508.92
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "the stiffness and damping: too soft and it wobbles, too stiff and it oscillates."
+        },
+        {
+          "bbox": [
+            52.5,
+            484.4,
+            57.02,
+            494.87
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            518.25,
+            552.94,
+            529.17
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Balance is everything: If the camera’s centre of mass sits off the motor axes, the motors fight gravity constantly, wasting"
+        },
+        {
+          "bbox": [
+            67.5,
+            532.5,
+            475.51,
+            543.42
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "torque and ruining smoothness. Mechanical balance on each axis before any tuning is the golden rule."
+        },
+        {
+          "bbox": [
+            52.5,
+            518.9,
+            57.02,
+            529.37
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            552.75,
+            552.22,
+            563.67
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Isolating vibration: Motor and prop vibration reaches the gimbal through the frame; rubber dampers between drone and"
+        },
+        {
+          "bbox": [
+            67.5,
+            567.0,
+            330.64,
+            577.92
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "gimbal filter it so the IMU sees camera motion, not airframe buzz."
+        },
+        {
+          "bbox": [
+            52.5,
+            553.4,
+            57.02,
+            563.87
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            26.43,
+            355.5,
+            64.74
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "[ U P G R A D E 0 4 ]\n2-Axis Brushless Camera Gimbal"
+        },
+        {
+          "bbox": [
+            52.5,
+            71.85,
+            391.16,
+            82.96
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Buttery footage from a shaky drone — FOC gimbal motors that cancel every wobble"
+        },
+        {
+          "bbox": [
+            60.75,
+            98.43,
+            221.37,
+            108.67
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "$60\nadvanced\n1–2 weekends"
+        },
+        {
+          "bbox": [
+            52.5,
+            132.83,
+            185.03,
+            147.95
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "// why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            156.75,
+            547.22,
+            167.67
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Raw drone footage is a jittery mess because the camera rides every twitch of the airframe. A brushless gimbal fixes that: an"
+        },
+        {
+          "bbox": [
+            52.5,
+            171.0,
+            554.91,
+            195.42
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "IMU on the camera measures its attitude hundreds of times a second and two brushless motors, driven smoothly with field-\noriented control, hold it level no matter what the drone does. Build one and your footage goes from home video to broadcast-"
+        },
+        {
+          "bbox": [
+            52.5,
+            198.75,
+            552.97,
+            209.67
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "smooth. It is mechatronics, control, and the same FOC drive technology behind robot joints — and it is the upgrade that most"
+        },
+        {
+          "bbox": [
+            52.5,
+            213.0,
+            196.09,
+            223.92
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "changes what your drone produces."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "drone upgrades — a Build List field guide\n9 / 16"
+        }
+      ],
+      "charCount": 2582,
+      "height": 792.0,
+      "pageNumber": 9,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            27.08,
+            192.01,
+            42.2
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "// bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            54.93,
+            551.37,
+            65.17
+          ],
+          "blockIndex": 1,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "COMPONENT\nPART / SPEC\nQTY\n~COST"
+        },
+        {
+          "bbox": [
+            52.5,
+            76.89,
+            552.0,
+            87.81
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Gimbal motors (×2)\nbrushless gimbal motors, sized for your camera\n2\n$24"
+        },
+        {
+          "bbox": [
+            52.5,
+            100.14,
+            552.0,
+            111.06
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Gimbal controller + IMU\nSTorM32 / SimpleBGC-class board\n1\n$25"
+        },
+        {
+          "bbox": [
+            52.5,
+            122.64,
+            552.0,
+            133.56
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Frame\n3D-printed 2-axis frame\n1\n$8"
+        },
+        {
+          "bbox": [
+            52.5,
+            145.14,
+            552.0,
+            156.06
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Dampers + wiring\nrubber damper balls, cables\n—\n$3"
+        },
+        {
+          "bbox": [
+            52.5,
+            190.58,
+            150.16,
+            205.7
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "// build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            490.58,
+            205.96,
+            505.7
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "// interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            217.5,
+            205.42,
+            228.42
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Print and assemble the frame"
+        },
+        {
+          "bbox": [
+            58.5,
+            216.49,
+            412.2,
+            244.17
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Build the two-axis frame with pitch and roll motors, and mount your camera plate.\n1"
+        },
+        {
+          "bbox": [
+            82.5,
+            258.75,
+            157.16,
+            269.67
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Balance each axis"
+        },
+        {
+          "bbox": [
+            58.5,
+            257.74,
+            540.45,
+            286.17
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Adjust the camera position until it stays put at any angle with the motors unpowered. Do this before anything else.\n2"
+        },
+        {
+          "bbox": [
+            82.5,
+            300.0,
+            161.21,
+            310.92
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Wire and configure"
+        },
+        {
+          "bbox": [
+            82.5,
+            316.5,
+            554.14,
+            340.92
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Connect motors, IMU, and controller; set motor poles, IMU orientation, and directions in the configurator. Confirm the\ncamera levels when powered."
+        },
+        {
+          "bbox": [
+            58.5,
+            298.99,
+            64.8,
+            312.64
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            355.5,
+            143.51,
+            366.42
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Tune the loops"
+        },
+        {
+          "bbox": [
+            82.5,
+            371.25,
+            532.2,
+            382.17
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Raise P until it holds firmly, add D to stop oscillation, add I to remove droop. Tilt the base by hand and watch the"
+        },
+        {
+          "bbox": [
+            82.5,
+            385.5,
+            155.28,
+            396.42
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "camera stay level."
+        },
+        {
+          "bbox": [
+            58.5,
+            354.49,
+            64.8,
+            368.14
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            411.0,
+            170.47,
+            421.92
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Mount, damp, and fly"
+        },
+        {
+          "bbox": [
+            82.5,
+            426.75,
+            557.54,
+            437.67
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Fit it to the drone on rubber dampers, check clearance from props and landing gear, and fly. Compare footage with and"
+        },
+        {
+          "bbox": [
+            82.5,
+            441.0,
+            294.6,
+            451.92
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "without stabilisation — the before / after is the video."
+        },
+        {
+          "bbox": [
+            58.5,
+            409.99,
+            64.8,
+            423.64
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            68.25,
+            526.5,
+            326.83,
+            537.62
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Why must a gimbal be mechanically balanced before tuning?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            546.75,
+            356.87,
+            557.87
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Why are brushless gimbal motors driven with field-oriented control?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            567.0,
+            290.42,
+            578.12
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "What does each PID term do in a stabilisation loop?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            586.5,
+            315.57,
+            597.62
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Where should the IMU be mounted on a gimbal, and why?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            606.75,
+            324.31,
+            617.87
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "How does vibration reach the gimbal, and how is it isolated?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            626.25,
+            237.19,
+            637.37
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "How would you add a third (yaw) axis?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "drone upgrades — a Build List field guide\n10 / 16"
+        }
+      ],
+      "charCount": 1441,
+      "height": 792.0,
+      "pageNumber": 10,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            68.25,
+            276.56,
+            537.86,
+            313.17
+          ],
+          "blockIndex": 0,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand fiducial detection and pose estimation, camera calibration, sending a landing target to a flight\ncontroller over a standard protocol, the controller’s precision-landing behaviour, and failure handling when the target"
+        },
+        {
+          "bbox": [
+            68.25,
+            316.5,
+            375.96,
+            327.42
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "is lost. That is the vision-to-control pipeline autonomous drones are built on."
+        },
+        {
+          "bbox": [
+            52.5,
+            350.25,
+            547.37,
+            361.37
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "→the job this maps to: drone autonomy and computer-vision engineering — docking, delivery, and autonomous-inspection"
+        },
+        {
+          "bbox": [
+            52.5,
+            366.42,
+            80.01,
+            375.42
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "teams."
+        },
+        {
+          "bbox": [
+            68.25,
+            398.81,
+            526.88,
+            421.92
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "!\nCLEAR PAD, EMPTY FIELD\nTest precision landings over an empty field with a clear area around the pad and an abort ready on the sticks. Start"
+        },
+        {
+          "bbox": [
+            68.25,
+            425.25,
+            516.85,
+            449.67
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "from low altitude and increase as it proves reliable. A drone descending onto a target is committed — make sure\nnothing can be under it."
+        },
+        {
+          "bbox": [
+            52.5,
+            489.83,
+            157.13,
+            504.95
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "// how it works"
+        },
+        {
+          "bbox": [
+            469.58,
+            17.08,
+            558.55,
+            25.86
+          ],
+          "blockIndex": 7,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "UPGRADE 05 · REV A"
+        },
+        {
+          "bbox": [
+            52.5,
+            513.75,
+            558.1,
+            538.17
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Fiducials: An AprilTag or ArUco marker is a black-and-white pattern designed for reliable detection; from its corners in the\nimage, the software recovers the tag’s position and orientation relative to the camera.\n▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            548.25,
+            531.16,
+            559.17
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "The companion computer: A small computer (a Raspberry Pi) runs the camera and the tag detector, then sends the"
+        },
+        {
+          "bbox": [
+            67.5,
+            562.5,
+            462.22,
+            573.42
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "target’s offset to the flight controller as a standard landing-target message over the telemetry link."
+        },
+        {
+          "bbox": [
+            52.5,
+            548.9,
+            57.02,
+            559.37
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            582.75,
+            537.05,
+            593.67
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "The controller lands on it: In precision-landing mode, the flight controller uses the target offset to steer the descent,"
+        },
+        {
+          "bbox": [
+            67.5,
+            597.0,
+            393.48,
+            607.92
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "correcting horizontally as it comes down so the drone stays centred over the pad."
+        },
+        {
+          "bbox": [
+            52.5,
+            583.4,
+            57.02,
+            593.87
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            617.25,
+            550.47,
+            628.17
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Calibration and alignment: Camera calibration turns pixels into angles correctly; camera-to-body alignment turns those"
+        },
+        {
+          "bbox": [
+            67.5,
+            631.5,
+            446.14,
+            642.42
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "into offsets the controller can act on. Get either wrong and it lands confidently next to the pad."
+        },
+        {
+          "bbox": [
+            52.5,
+            617.9,
+            57.02,
+            628.37
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            652.5,
+            556.46,
+            676.92
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Losing the target: Tags disappear when the drone is too high, too tilted, or too close. Robust behaviour handles that: keep\nthe last estimate briefly, then fall back to a normal landing or abort.\n▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            26.43,
+            294.95,
+            64.74
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "[ U P G R A D E 0 5 ]\nVision Precision Landing"
+        },
+        {
+          "bbox": [
+            52.5,
+            71.85,
+            372.67,
+            82.96
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "It lands itself on a coaster-sized pad — a downward camera, an AprilTag, and a"
+        },
+        {
+          "bbox": [
+            52.5,
+            86.1,
+            139.95,
+            97.21
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "companion computer"
+        },
+        {
+          "bbox": [
+            60.75,
+            112.68,
+            211.29,
+            122.92
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "$55\nadvanced\n2 weekends"
+        },
+        {
+          "bbox": [
+            52.5,
+            147.08,
+            185.03,
+            162.2
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "// why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            171.0,
+            542.67,
+            181.92
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "GPS puts a drone down within a couple of metres, which is useless for docking, charging, or landing on a vehicle. Precision"
+        },
+        {
+          "bbox": [
+            52.5,
+            185.25,
+            558.13,
+            209.67
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "landing uses a downward camera to see a fiducial marker on the pad, computes exactly where the pad is relative to the drone,\nand steers the descent so it touches down centred — the technology behind every autonomous docking and charging drone."
+        },
+        {
+          "bbox": [
+            52.5,
+            213.0,
+            551.75,
+            237.42
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Add a small companion computer, a camera, and a printed tag, and your drone lands itself on a pad the size of a coaster. It is\ncomputer vision, coordinate transforms, and controller integration, and the demo is undeniable."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "drone upgrades — a Build List field guide\n11 / 16"
+        }
+      ],
+      "charCount": 2639,
+      "height": 792.0,
+      "pageNumber": 11,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            27.08,
+            192.01,
+            42.2
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "// bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            54.93,
+            551.37,
+            65.17
+          ],
+          "blockIndex": 1,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "COMPONENT\nPART / SPEC\nQTY\n~COST"
+        },
+        {
+          "bbox": [
+            52.5,
+            76.89,
+            552.0,
+            87.81
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Companion computer\nRaspberry Pi Zero 2 / Pi 4\n1\n$30"
+        },
+        {
+          "bbox": [
+            52.5,
+            100.14,
+            552.0,
+            111.06
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Camera\nPi camera, downward\n1\n$10"
+        },
+        {
+          "bbox": [
+            52.5,
+            122.64,
+            552.0,
+            133.56
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Tag + pad\nprinted AprilTag on a board\n1\nfree"
+        },
+        {
+          "bbox": [
+            52.5,
+            145.14,
+            552.0,
+            156.06
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Mount + wiring + power\nbracket, telemetry cable, BEC\n—\n$15"
+        },
+        {
+          "bbox": [
+            52.5,
+            190.58,
+            150.16,
+            205.7
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "// build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            490.58,
+            205.96,
+            505.7
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "// interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            217.5,
+            169.67,
+            228.42
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Calibrate the camera"
+        },
+        {
+          "bbox": [
+            58.5,
+            216.49,
+            454.44,
+            244.17
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Mount the camera facing down and run a calibration so the detector reports accurate angles.\n1"
+        },
+        {
+          "bbox": [
+            82.5,
+            258.75,
+            197.32,
+            269.67
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Detect the tag on the bench"
+        },
+        {
+          "bbox": [
+            58.5,
+            257.74,
+            548.76,
+            286.17
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Run the AprilTag detector and confirm it reports the tag’s offset and distance as you move the tag under the camera.\n2"
+        },
+        {
+          "bbox": [
+            82.5,
+            300.0,
+            192.87,
+            310.92
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Talk to the flight controller"
+        },
+        {
+          "bbox": [
+            82.5,
+            316.5,
+            554.39,
+            340.92
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Wire the companion computer to a telemetry port and send landing-target messages. Confirm the controller reports a\nvalid target — props off."
+        },
+        {
+          "bbox": [
+            58.5,
+            298.99,
+            64.8,
+            312.64
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            355.5,
+            173.25,
+            366.42
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Low-altitude landings"
+        },
+        {
+          "bbox": [
+            82.5,
+            371.25,
+            548.18,
+            382.17
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Over an empty field, take off, enable precision landing from a couple of metres, and watch it correct and touch down"
+        },
+        {
+          "bbox": [
+            82.5,
+            385.5,
+            203.71,
+            396.42
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "on the pad. Measure the error."
+        },
+        {
+          "bbox": [
+            58.5,
+            354.49,
+            64.8,
+            368.14
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            411.0,
+            203.46,
+            421.92
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Increase altitude and harden"
+        },
+        {
+          "bbox": [
+            82.5,
+            426.75,
+            543.26,
+            437.67
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Land from higher up, test in wind, and add the lost-target fallback. Log the landing error over many attempts — that"
+        },
+        {
+          "bbox": [
+            82.5,
+            441.0,
+            186.88,
+            451.92
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "consistency is your result."
+        },
+        {
+          "bbox": [
+            58.5,
+            409.99,
+            64.8,
+            423.64
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            68.25,
+            526.5,
+            334.18,
+            537.62
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "How does a fiducial marker give both position and orientation?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            546.75,
+            310.4,
+            557.87
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "What is a companion computer’s role in a drone system?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            567.0,
+            350.44,
+            578.12
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "How does the flight controller use a landing target during descent?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            586.5,
+            340.53,
+            597.62
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Why do camera calibration and alignment matter so much here?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            606.75,
+            315.34,
+            617.87
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "What should happen when the target is lost mid-descent?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            626.25,
+            319.8,
+            637.37
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "How would you extend this to landing on a moving vehicle?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "drone upgrades — a Build List field guide\n12 / 16"
+        }
+      ],
+      "charCount": 1456,
+      "height": 792.0,
+      "pageNumber": 12,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            68.25,
+            276.56,
+            542.79,
+            313.17
+          ],
+          "blockIndex": 0,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand payload integration (mass, power, isolation from the drone’s own RF noise), geotagged data logging,\nsurvey flight planning, spatial interpolation into a heatmap, and interpreting RF propagation. Aerial survey and sensing"
+        },
+        {
+          "bbox": [
+            68.25,
+            316.5,
+            232.71,
+            327.42
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "payloads are a growing engineering field."
+        },
+        {
+          "bbox": [
+            52.5,
+            350.25,
+            515.78,
+            361.37
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "→the job this maps to: drone-payload and aerial-survey engineering — inspection, mapping, and RF-survey teams."
+        },
+        {
+          "bbox": [
+            68.25,
+            385.31,
+            524.68,
+            407.67
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "!\nRECEIVE-ONLY, YOUR OWN AIRSPACE\nThe payload only listens — it transmits nothing beyond your drone’s normal control link. Fly the survey within your"
+        },
+        {
+          "bbox": [
+            68.25,
+            411.0,
+            538.96,
+            421.92
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "local rules: line of sight, altitude limits, not over people or others’ property, and keep the added mass well inside your"
+        },
+        {
+          "bbox": [
+            68.25,
+            425.25,
+            124.86,
+            436.17
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "drone’s limits."
+        },
+        {
+          "bbox": [
+            52.5,
+            17.08,
+            558.55,
+            64.74
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "UPGRADE 06 · REV A\n[ U P G R A D E 0 6 ]\nSignal-Mapping Payload"
+        },
+        {
+          "bbox": [
+            52.5,
+            71.85,
+            406.73,
+            82.96
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Fly a grid and come back with a 3D heatmap of every radio signal in the air — a receive-"
+        },
+        {
+          "bbox": [
+            52.5,
+            86.1,
+            133.62,
+            97.21
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "only survey payload"
+        },
+        {
+          "bbox": [
+            60.75,
+            112.68,
+            221.37,
+            122.92
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "$50\nadvanced\n1–2 weekends"
+        },
+        {
+          "bbox": [
+            52.5,
+            147.08,
+            185.03,
+            162.2
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "// why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            171.0,
+            558.21,
+            181.92
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "A drone is the perfect platform for measuring things you can’t see from the ground — and radio is the best example. Strap on a"
+        },
+        {
+          "bbox": [
+            52.5,
+            185.25,
+            559.19,
+            209.67
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "receive-only payload (an SDR or a WiFi scanner) with a GPS logger, fly a lawnmower grid at a few altitudes, and you come back\nwith a three-dimensional heatmap of signal strength: where your WiFi dies, how far your mesh radios reach, where"
+        },
+        {
+          "bbox": [
+            52.5,
+            213.0,
+            542.19,
+            237.42
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "interference lives. It is the drone as a scientific instrument, it is receive-only, and it produces the one thing nobody else on\nyour feed has: a picture of the invisible over your own neighbourhood."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "drone upgrades — a Build List field guide\n13 / 16"
+        }
+      ],
+      "charCount": 1530,
+      "height": 792.0,
+      "pageNumber": 13,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            27.08,
+            157.13,
+            42.2
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "// how it works"
+        },
+        {
+          "bbox": [
+            68.25,
+            238.31,
+            530.39,
+            260.67
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "BUILD NOTE\nStart with an ESP32 WiFi scanner (cheapest, lightest, logs every access point’s strength) before an SDR. Isolate the"
+        },
+        {
+          "bbox": [
+            68.25,
+            264.0,
+            527.93,
+            274.92
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "payload’s antenna from the drone’s own transmitter, and always check hover time with the payload aboard — extra"
+        },
+        {
+          "bbox": [
+            68.25,
+            278.25,
+            530.47,
+            302.67
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "mass shortens flights faster than you expect. Swap in a small thermal sensor and the same pipeline maps roof heat\nloss."
+        },
+        {
+          "bbox": [
+            52.5,
+            342.83,
+            192.01,
+            357.95
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "// bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            370.68,
+            551.37,
+            380.92
+          ],
+          "blockIndex": 5,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "COMPONENT\nPART / SPEC\nQTY\n~COST"
+        },
+        {
+          "bbox": [
+            52.5,
+            392.64,
+            551.99,
+            403.56
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Receiver\nESP32 WiFi scanner (or RTL-SDR)\n1\n$8–25"
+        },
+        {
+          "bbox": [
+            52.5,
+            415.14,
+            552.0,
+            426.06
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "GPS logger\nGNSS module + microSD logging\n1\n$12"
+        },
+        {
+          "bbox": [
+            52.5,
+            438.39,
+            552.0,
+            449.31
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Battery + power\nsmall LiPo, regulator\n1\n$5"
+        },
+        {
+          "bbox": [
+            52.5,
+            460.89,
+            552.0,
+            471.81
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Mount + antenna\nprinted payload mount, antenna\n—\n$8"
+        },
+        {
+          "bbox": [
+            67.5,
+            51.0,
+            545.19,
+            61.92
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "The payload: A lightweight receiver (WiFi scanner or SDR), a GPS logger, and a battery, mounted away from the drone’s"
+        },
+        {
+          "bbox": [
+            67.5,
+            65.25,
+            330.28,
+            76.17
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "own antenna so its transmitter doesn’t swamp the measurement."
+        },
+        {
+          "bbox": [
+            52.5,
+            51.65,
+            57.02,
+            62.12
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            85.5,
+            536.33,
+            96.42
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Geotagged logging: Every measurement is stamped with position, altitude, and time, so each reading is a point in 3D"
+        },
+        {
+          "bbox": [
+            67.5,
+            99.75,
+            258.6,
+            110.67
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "space. Logging rate sets your spatial resolution."
+        },
+        {
+          "bbox": [
+            52.5,
+            86.15,
+            57.02,
+            96.62
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            120.0,
+            543.27,
+            130.92
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "The survey pattern: A planned lawnmower grid at constant altitude covers the area evenly; repeating it at two or three"
+        },
+        {
+          "bbox": [
+            67.5,
+            134.25,
+            366.98,
+            145.17
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "altitudes builds the third dimension. Mission planning makes it repeatable."
+        },
+        {
+          "bbox": [
+            52.5,
+            120.65,
+            57.02,
+            131.12
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            155.25,
+            555.04,
+            179.67
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "From points to a heatmap: Interpolating scattered readings (inverse-distance or kriging) turns points into a smooth map;\nstacking altitudes gives a 3D volume you can slice.\n▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            189.75,
+            540.98,
+            214.17
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Reading the map: Signal strength varies with distance, obstacles, multipath, and your payload antenna’s own pattern.\nInterpreting the map honestly — separating real coverage from artefacts — is the engineering.\n▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "drone upgrades — a Build List field guide\n14 / 16"
+        }
+      ],
+      "charCount": 1583,
+      "height": 792.0,
+      "pageNumber": 14,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            27.08,
+            150.16,
+            42.2
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "// build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            327.83,
+            205.96,
+            342.95
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "// interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            54.0,
+            220.78,
+            64.92
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Build and bench-test the payload"
+        },
+        {
+          "bbox": [
+            58.5,
+            52.99,
+            534.84,
+            81.42
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Assemble receiver, GPS, and logger; confirm it logs signal strength with position and time while you walk around.\n1"
+        },
+        {
+          "bbox": [
+            82.5,
+            95.25,
+            209.94,
+            106.17
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Mount it and check the aircraft"
+        },
+        {
+          "bbox": [
+            82.5,
+            111.75,
+            531.28,
+            136.17
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Fit the payload away from the drone’s antenna, check centre of gravity, and hover-test to confirm flight time and\nstability with the extra mass."
+        },
+        {
+          "bbox": [
+            58.5,
+            94.24,
+            64.8,
+            107.89
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            150.75,
+            146.88,
+            161.67
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Plan the survey"
+        },
+        {
+          "bbox": [
+            82.5,
+            167.25,
+            533.24,
+            191.67
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Define a lawnmower grid over your area at a fixed altitude in the mission planner, within line of sight and altitude\nlimits."
+        },
+        {
+          "bbox": [
+            58.5,
+            149.74,
+            64.8,
+            163.39
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            206.25,
+            127.58,
+            217.17
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Fly and log"
+        },
+        {
+          "bbox": [
+            58.5,
+            205.24,
+            499.93,
+            232.92
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Fly the grid (autonomously or by hand), then repeat at one or two more altitudes. Land and pull the logs.\n4"
+        },
+        {
+          "bbox": [
+            82.5,
+            247.5,
+            159.3,
+            258.42
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Build the heatmap"
+        },
+        {
+          "bbox": [
+            82.5,
+            264.0,
+            555.18,
+            288.42
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Interpolate the readings into a map per altitude, stack them into a 3D view, and annotate what you find — dead zones,\nstrong spots, interference. Publish it."
+        },
+        {
+          "bbox": [
+            58.5,
+            246.49,
+            64.8,
+            260.14
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            68.25,
+            363.75,
+            444.79,
+            374.87
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "How do you keep a receiver payload from being swamped by the drone’s own transmitter?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            383.25,
+            388.99,
+            394.37
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Why must every measurement be geotagged with altitude, not just position?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            403.5,
+            295.35,
+            414.62
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "How do you plan a survey pattern for even coverage?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            423.75,
+            293.58,
+            434.87
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "How do you turn scattered readings into a heatmap?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            443.25,
+            251.07,
+            454.37
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "What artefacts can mislead an RF survey?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            463.5,
+            358.86,
+            474.62
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "How does added payload mass affect flight performance and safety?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "drone upgrades — a Build List field guide\n15 / 16"
+        }
+      ],
+      "charCount": 1217,
+      "height": 792.0,
+      "pageNumber": 15,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            17.08,
+            558.54,
+            84.04
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "WRAP · 6 UPGRADES FITTED\n[ W R A P ]\nYour drone is a platform —\nthe upgrades are the engineering."
+        },
+        {
+          "bbox": [
+            52.5,
+            98.25,
+            549.75,
+            109.17
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "An indoor hover, a wall it refuses to hit, a parachute, a gimbal, a pad it lands on by itself, a map of the invisible — six add-ons"
+        },
+        {
+          "bbox": [
+            52.5,
+            112.5,
+            556.39,
+            136.92
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "that turn a stock quad into a sensing, self-protecting, self-landing instrument. The airframe is commodity; the value is in what\nyou bolt on and integrate: sensor fusion, avoidance logic, safety systems, stabilisation, vision, and payloads. That is exactly"
+        },
+        {
+          "bbox": [
+            52.5,
+            140.25,
+            432.52,
+            151.17
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "the work drone and autonomy companies hire for, and it is far more impressive than a kit build."
+        },
+        {
+          "bbox": [
+            52.5,
+            172.58,
+            185.03,
+            187.7
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "// the skill ladder"
+        },
+        {
+          "bbox": [
+            52.5,
+            196.5,
+            358.46,
+            207.42
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Fit them in order and each one hands you the technique the next one needs:"
+        },
+        {
+          "bbox": [
+            52.5,
+            217.35,
+            427.09,
+            228.66
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "sensing →avoidance →safety systems →stabilisation →vision autonomy →payloads"
+        },
+        {
+          "bbox": [
+            68.25,
+            255.56,
+            544.48,
+            292.17
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "!\nBEFORE YOU FLY\nKnow your local rules — registration, line of sight, altitude limits, no flying over people or near airports, lights at night —\nand follow them. Bench-test every upgrade with the props off and verify the data before a single flight. Check mass"
+        },
+        {
+          "bbox": [
+            68.25,
+            295.5,
+            532.07,
+            319.92
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "and centre of gravity after each add-on, keep failsafes configured, respect LiPo safety, and test new behaviours low,\nslow, in an empty field, with a spotter. A drone is an aircraft; treat every upgrade like an airworthiness change."
+        },
+        {
+          "bbox": [
+            68.25,
+            353.06,
+            535.15,
+            375.42
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "DO THIS\nFit even one. Film it — a hover you let go of, a drone stopping short of a wall, a canopy popping mid-air, footage going"
+        },
+        {
+          "bbox": [
+            68.25,
+            378.75,
+            534.65,
+            389.67
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "from shaky to glass-smooth, a touchdown centred on a coaster, a heatmap of your street — and put the config, code,"
+        },
+        {
+          "bbox": [
+            68.25,
+            393.0,
+            534.5,
+            417.42
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "and test logs on GitHub with an honest note on what failed. One upgrade and one clean repo prove you can engineer\nan aircraft, not just assemble one."
+        },
+        {
+          "bbox": [
+            68.25,
+            450.75,
+            541.93,
+            475.17
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Full build notes, parts links, and the next field guide go out in The Build List. The people actually shipping these — and\ntrading tuning and payload tricks — are in Ohm’s Club."
+        },
+        {
+          "bbox": [
+            52.5,
+            505.29,
+            235.65,
+            516.02
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "— Enes (@1nska) · Electrical Engineer"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "drone upgrades — a Build List field guide\n16 / 16"
+        }
+      ],
+      "charCount": 1894,
+      "height": 792.0,
+      "pageNumber": 16,
+      "textExtractable": true,
+      "width": 612.0
+    }
+  ],
+  "provenance": {
+    "confidence": "EXACT",
+    "extractionMethod": "pymupdf-blocks-v1",
+    "extractorVersion": "1.28.0",
+    "generatorVersion": null,
+    "origin": "extracted",
+    "source": "guide-002",
+    "sourceHash": "87f5986df3355a1a67dc65349f4d93287b1e1a73431ff5f38eb06b59a238e92c",
+    "sourcePage": null,
+    "sourcePath": "Engineering guides/(PART 21) 6_Upgrades_Your_Drone_Is_Missing.pdf",
+    "sourceSection": "ROOT"
+  },
+  "relativePath": "Engineering guides/(PART 21) 6_Upgrades_Your_Drone_Is_Missing.pdf",
+  "schemaVersion": "1.0.0",
+  "sha256": "87f5986df3355a1a67dc65349f4d93287b1e1a73431ff5f38eb06b59a238e92c",
+  "sourceId": "guide-002"
+}

@@ -1,0 +1,7337 @@
+{
+  "metadata": {
+    "format": "PDF 1.4",
+    "producer": "pypdf"
+  },
+  "pageCount": 18,
+  "pages": [
+    {
+      "blocks": [
+        {
+          "bbox": [
+            51.86,
+            33.52,
+            407.7,
+            43.63
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "// FIELD GUIDE · SITUATIONAL AWARENESS · 6 PROJECTS · SEP 2026"
+        },
+        {
+          "bbox": [
+            59.27,
+            56.87,
+            425.58,
+            66.5
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "[ UNCLASSIFIED · RECEIVE-ONLY · YOUR OWN PERIMETER · FOR TRAINING ]"
+        },
+        {
+          "bbox": [
+            51.86,
+            101.71,
+            413.7,
+            154.83
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Six Engineering Projects That\nSee Everything Coming"
+        },
+        {
+          "bbox": [
+            51.86,
+            167.74,
+            440.0,
+            179.59
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Night vision, a heads-up display, a sentry tower, an RF station, a mesh"
+        },
+        {
+          "bbox": [
+            51.86,
+            182.56,
+            472.8,
+            194.4
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "network, and a command map that fuses them all — six builds that stack into a"
+        },
+        {
+          "bbox": [
+            51.86,
+            197.38,
+            472.8,
+            209.22
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "personal situational-awareness system, the same architecture the new defense-"
+        },
+        {
+          "bbox": [
+            51.86,
+            212.19,
+            450.93,
+            224.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "tech companies are built on. Sense, connect, display, decide. Every one a"
+        },
+        {
+          "bbox": [
+            51.86,
+            227.01,
+            221.33,
+            238.86
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "sensor, a network, or a screen."
+        },
+        {
+          "bbox": [
+            51.86,
+            270.18,
+            437.28,
+            283.66
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "01\nDigital Night-Vision Monocular  See in total darkness with a camera that"
+        },
+        {
+          "bbox": [
+            78.54,
+            286.1,
+            346.98,
+            296.31
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "watches infrared — and an illuminator nobody else can see"
+        },
+        {
+          "bbox": [
+            462.8,
+            271.7,
+            478.8,
+            283.25
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$60"
+        },
+        {
+          "bbox": [
+            51.86,
+            314.63,
+            430.69,
+            328.12
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "02\nAR Heads-Up Display Goggles  A see-through display that floats heading,"
+        },
+        {
+          "bbox": [
+            78.54,
+            330.55,
+            332.85,
+            340.76
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "waypoints, and teammate positions in front of your eye"
+        },
+        {
+          "bbox": [
+            462.8,
+            316.15,
+            478.8,
+            327.71
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$70"
+        },
+        {
+          "bbox": [
+            51.86,
+            358.35,
+            414.06,
+            371.83
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "03\nAutonomous Sentry Tower  A tower that spots motion, slews to it, and"
+        },
+        {
+          "bbox": [
+            78.54,
+            375.01,
+            375.23,
+            385.22
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "tracks it across the yard — a perimeter that watches on its own"
+        },
+        {
+          "bbox": [
+            462.8,
+            359.86,
+            478.8,
+            371.42
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$90"
+        },
+        {
+          "bbox": [
+            51.86,
+            402.8,
+            433.86,
+            416.29
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "04\nRF Ground Station  A fixed station that watches the whole radio spectrum,"
+        },
+        {
+          "bbox": [
+            78.54,
+            419.46,
+            290.46,
+            429.67
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "decodes what's public, and flags anything new"
+        },
+        {
+          "bbox": [
+            462.8,
+            404.32,
+            478.8,
+            415.88
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$80"
+        },
+        {
+          "bbox": [
+            51.86,
+            447.26,
+            419.1,
+            460.74
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "05\nMesh Field Radio  Pocket radios that form their own network — text and"
+        },
+        {
+          "bbox": [
+            78.54,
+            463.92,
+            281.05,
+            474.13
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "position sharing with no cell towers at all"
+        },
+        {
+          "bbox": [
+            462.8,
+            448.78,
+            478.8,
+            460.33
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$70"
+        },
+        {
+          "bbox": [
+            51.86,
+            491.71,
+            437.57,
+            505.2
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "06\nCommand Map (Common Operating Picture)  One map that fuses every sensor"
+        },
+        {
+          "bbox": [
+            78.54,
+            507.63,
+            389.36,
+            517.84
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "you built — tracks, alerts, and teammates in a single live picture"
+        },
+        {
+          "bbox": [
+            462.8,
+            493.23,
+            478.8,
+            504.79
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$25"
+        },
+        {
+          "bbox": [
+            51.86,
+            537.87,
+            367.85,
+            547.31
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "SENSORS 06 · TRACKS 03 · ALERTS 01 · MESH 3 NODES · RX ONLY"
+        },
+        {
+          "bbox": [
+            51.86,
+            566.75,
+            394.59,
+            577.15
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "● By Enes · @1nska · Electrical Engineer — a Build List field guide"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "see everything coming — a Build List field guide\n1 / 18"
+        }
+      ],
+      "charCount": 1479,
+      "height": 792.0,
+      "pageNumber": 1,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            67.42,
+            298.41,
+            520.98,
+            320.96
+          ],
+          "blockIndex": 0,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand silicon sensor spectral response (why cameras see near-IR), active versus"
+        },
+        {
+          "bbox": [
+            67.42,
+            323.12,
+            536.45,
+            334.3
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "passive illumination, IR illuminator design and safety, low-light imaging trade-offs (gain,"
+        },
+        {
+          "bbox": [
+            67.42,
+            336.46,
+            520.98,
+            347.63
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "exposure, noise), and packaging optics — the foundations of electro-optical engineering."
+        },
+        {
+          "bbox": [
+            51.86,
+            369.8,
+            541.54,
+            380.97
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "→ the job this maps to: electro-optical (EO/IR) and imaging-systems engineering — night-vision,"
+        },
+        {
+          "bbox": [
+            51.86,
+            383.14,
+            288.95,
+            394.31
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "surveillance-camera, and imaging-sensor teams."
+        },
+        {
+          "bbox": [
+            67.42,
+            417.69,
+            531.29,
+            440.25
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "!\nYOUR OWN DARK, NOT SOMEONE ELSE'S\nNight vision lets you see people who can’t see you. Use it on your own property, on hikes,"
+        },
+        {
+          "bbox": [
+            67.42,
+            442.41,
+            526.14,
+            453.58
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "for wildlife, for astronomy — never to watch people who don’t know you’re there. And keep"
+        },
+        {
+          "bbox": [
+            67.42,
+            455.75,
+            536.45,
+            466.92
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "illuminators to low-power IR LEDs: high-power IR lasers or arrays can injure eyes precisely"
+        },
+        {
+          "bbox": [
+            67.42,
+            469.08,
+            206.59,
+            480.26
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "because you can’t see them."
+        },
+        {
+          "bbox": [
+            481.16,
+            15.39,
+            559.19,
+            24.06
+          ],
+          "blockIndex": 9,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "NODE 01 · ONLINE"
+        },
+        {
+          "bbox": [
+            51.86,
+            26.11,
+            351.19,
+            63.96
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "[ P R O J E C T 0 1 ]\nDigital Night-Vision Monocular"
+        },
+        {
+          "bbox": [
+            51.86,
+            70.17,
+            403.95,
+            81.72
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "See in total darkness with a camera that watches infrared — and an"
+        },
+        {
+          "bbox": [
+            51.86,
+            84.24,
+            217.24,
+            95.8
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "illuminator nobody else can see"
+        },
+        {
+          "bbox": [
+            60.01,
+            110.57,
+            203.75,
+            120.69
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "$60\nbeginner\n1 weekend"
+        },
+        {
+          "bbox": [
+            51.86,
+            145.3,
+            182.79,
+            160.23
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "// why this matters"
+        },
+        {
+          "bbox": [
+            51.86,
+            169.01,
+            546.66,
+            180.18
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Night vision is the original force multiplier: the side that can see in the dark owns the night."
+        },
+        {
+          "bbox": [
+            51.86,
+            182.35,
+            531.19,
+            193.52
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Real image-intensifier tubes cost thousands, but a digital version is astonishingly cheap — a"
+        },
+        {
+          "bbox": [
+            51.86,
+            195.68,
+            556.97,
+            206.86
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "camera with its infrared filter removed sees near-IR light your eyes cannot, and an IR illuminator"
+        },
+        {
+          "bbox": [
+            51.86,
+            209.02,
+            515.73,
+            220.19
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "floods the scene with light that is invisible to everyone but your sensor. Build it into a"
+        },
+        {
+          "bbox": [
+            51.86,
+            222.36,
+            515.73,
+            233.53
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "monocular with a small display and you can walk through a pitch-black room, read a sign at"
+        },
+        {
+          "bbox": [
+            51.86,
+            235.69,
+            526.04,
+            246.87
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "30 metres, and watch wildlife that has no idea it is lit. It is a beginner build with a jaw-"
+        },
+        {
+          "bbox": [
+            51.86,
+            249.77,
+            520.89,
+            260.94
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "dropping demo, and it teaches the sensor and optics fundamentals behind every EO/IR system."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "see everything coming — a Build List field guide\n2 / 18"
+        }
+      ],
+      "charCount": 1684,
+      "height": 792.0,
+      "pageNumber": 2,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            51.86,
+            26.76,
+            155.23,
+            41.69
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "// how it works"
+        },
+        {
+          "bbox": [
+            51.86,
+            310.53,
+            189.68,
+            325.46
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "// bill of materials"
+        },
+        {
+          "bbox": [
+            51.86,
+            338.78,
+            552.1,
+            348.89
+          ],
+          "blockIndex": 2,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "COMPONENT\nPART / SPEC\nQTY\n~COST"
+        },
+        {
+          "bbox": [
+            51.86,
+            360.62,
+            552.72,
+            371.22
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "NoIR camera + compute\nRaspberry Pi Zero 2 + NoIR camera\n1\n$30"
+        },
+        {
+          "bbox": [
+            51.86,
+            382.85,
+            552.72,
+            393.45
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "IR illuminator\n850 nm IR LED board\n1\n$6"
+        },
+        {
+          "bbox": [
+            51.86,
+            405.08,
+            552.72,
+            415.67
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Display\n2–2.8″ TFT / OLED\n1\n$12"
+        },
+        {
+          "bbox": [
+            51.86,
+            427.31,
+            552.72,
+            437.9
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Eyepiece + tube\neyepiece lens, 3D-printed housing\n1\n$8"
+        },
+        {
+          "bbox": [
+            51.86,
+            450.28,
+            552.72,
+            460.87
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Battery\nLiPo + boost\n1\n$4"
+        },
+        {
+          "bbox": [
+            66.68,
+            50.46,
+            551.17,
+            61.64
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Silicon sees infrared: A camera’s silicon sensor is sensitive well past visible red into near-"
+        },
+        {
+          "bbox": [
+            66.68,
+            63.8,
+            525.4,
+            74.97
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "infrared (about 700–1000 nm); manufacturers add an IR-cut filter so daylight colours look"
+        },
+        {
+          "bbox": [
+            66.68,
+            77.14,
+            365.62,
+            88.31
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "right. Remove it (a “NoIR” camera) and the sensor sees IR."
+        },
+        {
+          "bbox": [
+            51.86,
+            51.3,
+            57.04,
+            61.3
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            66.68,
+            97.14,
+            551.18,
+            108.32
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Active illumination: In true darkness there is little IR to see, so you add your own: an array"
+        },
+        {
+          "bbox": [
+            66.68,
+            110.48,
+            530.55,
+            121.65
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "of 850 nm IR LEDs floods the scene with light invisible to human eyes (a faint red glow at"
+        },
+        {
+          "bbox": [
+            66.68,
+            124.56,
+            375.93,
+            135.73
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "most) but bright to the sensor. That is active night vision."
+        },
+        {
+          "bbox": [
+            51.86,
+            97.97,
+            57.04,
+            107.98
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            66.68,
+            144.56,
+            525.4,
+            155.73
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Passive vs active: Image intensifiers amplify faint ambient light (passive, no emission);"
+        },
+        {
+          "bbox": [
+            66.68,
+            157.9,
+            551.17,
+            169.07
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "thermal cameras see heat. Digital IR-illuminated night vision is active — cheap and effective,"
+        },
+        {
+          "bbox": [
+            66.68,
+            171.23,
+            334.7,
+            182.41
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "but the illuminator can be seen by other IR cameras."
+        },
+        {
+          "bbox": [
+            51.86,
+            145.39,
+            57.04,
+            155.4
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            66.68,
+            191.24,
+            546.02,
+            202.41
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Low-light imaging: Higher sensor gain and longer exposure pull more from the dark at the cost"
+        },
+        {
+          "bbox": [
+            66.68,
+            204.58,
+            515.09,
+            215.75
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "of noise and motion blur; a fast lens gathers more light. Balancing gain, exposure, and"
+        },
+        {
+          "bbox": [
+            66.68,
+            217.91,
+            257.39,
+            229.08
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "illuminator power is the core tuning."
+        },
+        {
+          "bbox": [
+            51.86,
+            192.07,
+            57.04,
+            202.08
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            66.68,
+            237.92,
+            551.17,
+            249.09
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "The monocular: A small display behind an eyepiece lens shows the live IR video, and everything"
+        },
+        {
+          "bbox": [
+            66.68,
+            251.25,
+            551.17,
+            262.43
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "mounts in a tube with the camera and illuminator forward — a self-contained device you hold to"
+        },
+        {
+          "bbox": [
+            66.68,
+            264.59,
+            113.07,
+            275.76
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "your eye."
+        },
+        {
+          "bbox": [
+            51.86,
+            238.75,
+            57.04,
+            248.75
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "see everything coming — a Build List field guide\n3 / 18"
+        }
+      ],
+      "charCount": 1470,
+      "height": 792.0,
+      "pageNumber": 3,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            51.86,
+            26.76,
+            148.34,
+            41.69
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "// build steps"
+        },
+        {
+          "bbox": [
+            51.86,
+            358.69,
+            203.46,
+            373.62
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "// interview questions"
+        },
+        {
+          "bbox": [
+            81.5,
+            53.43,
+            143.35,
+            64.6
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Get IR video"
+        },
+        {
+          "bbox": [
+            81.5,
+            68.99,
+            540.22,
+            80.16
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Connect the NoIR camera to the Pi and view video. Point a TV remote at it and see its LED"
+        },
+        {
+          "bbox": [
+            81.5,
+            82.32,
+            287.67,
+            93.5
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "flash bright — proof the sensor sees IR."
+        },
+        {
+          "bbox": [
+            57.79,
+            52.35,
+            64.02,
+            65.83
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            81.5,
+            106.77,
+            179.43,
+            117.95
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Add the illuminator"
+        },
+        {
+          "bbox": [
+            81.5,
+            122.33,
+            545.37,
+            133.51
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Mount the 850 nm LED board next to the lens and turn the lights off. Watch the room appear"
+        },
+        {
+          "bbox": [
+            81.5,
+            136.41,
+            339.21,
+            147.58
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "on screen while it stays pitch black to your eyes."
+        },
+        {
+          "bbox": [
+            57.79,
+            105.69,
+            64.02,
+            119.18
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            81.5,
+            160.86,
+            169.12,
+            172.03
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Tune for the dark"
+        },
+        {
+          "bbox": [
+            81.5,
+            176.42,
+            545.37,
+            187.59
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Adjust gain, exposure, and frame rate for the best image in true darkness. Note the trade-"
+        },
+        {
+          "bbox": [
+            81.5,
+            189.76,
+            287.67,
+            200.93
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "off between brightness, noise, and blur."
+        },
+        {
+          "bbox": [
+            57.79,
+            159.78,
+            64.02,
+            173.26
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            81.5,
+            214.21,
+            179.43,
+            225.38
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Build the monocular"
+        },
+        {
+          "bbox": [
+            81.5,
+            229.77,
+            550.52,
+            240.94
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Mount camera, illuminator, display, eyepiece lens, and battery in a printed tube so you can"
+        },
+        {
+          "bbox": [
+            81.5,
+            243.1,
+            421.67,
+            254.28
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "hold it to your eye. Add a power switch and an illuminator dimmer."
+        },
+        {
+          "bbox": [
+            57.79,
+            213.13,
+            64.02,
+            226.61
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            81.5,
+            267.55,
+            133.04,
+            278.73
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Field test"
+        },
+        {
+          "bbox": [
+            81.5,
+            283.11,
+            555.68,
+            294.29
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Take it outside at night. Read a sign at distance, find the range limit of your illuminator,"
+        },
+        {
+          "bbox": [
+            81.5,
+            296.45,
+            535.06,
+            307.62
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "and watch wildlife. Film the demo — then explain why the illuminator is visible to other"
+        },
+        {
+          "bbox": [
+            81.5,
+            309.79,
+            122.74,
+            320.96
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "cameras."
+        },
+        {
+          "bbox": [
+            57.79,
+            266.47,
+            64.02,
+            279.96
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            67.42,
+            394.99,
+            370.87,
+            406.16
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Why can a silicon camera sensor see near-infrared light?\n→"
+        },
+        {
+          "bbox": [
+            67.42,
+            414.26,
+            406.95,
+            425.43
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "What is the difference between active and passive night vision?\n→"
+        },
+        {
+          "bbox": [
+            67.42,
+            433.52,
+            345.1,
+            444.69
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Why do cameras include an IR-cut filter by default?\n→"
+        },
+        {
+          "bbox": [
+            67.42,
+            452.78,
+            412.1,
+            463.96
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "How do gain, exposure, and lens aperture trade off in low light?\n→"
+        },
+        {
+          "bbox": [
+            67.42,
+            472.05,
+            360.56,
+            483.22
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "What are the eye-safety concerns with IR illuminators?\n→"
+        },
+        {
+          "bbox": [
+            67.42,
+            491.31,
+            427.57,
+            502.48
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "How does an image-intensifier tube differ from a digital IR camera?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "see everything coming — a Build List field guide\n4 / 18"
+        }
+      ],
+      "charCount": 1284,
+      "height": 792.0,
+      "pageNumber": 4,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            67.42,
+            311.74,
+            541.6,
+            334.3
+          ],
+          "blockIndex": 0,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand optical see-through display design (beam splitters, collimation, eye relief),"
+        },
+        {
+          "bbox": [
+            67.42,
+            336.46,
+            536.45,
+            347.63
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "heading and position sensing (IMU + magnetometer + GPS), rendering a stable HUD from sensor"
+        },
+        {
+          "bbox": [
+            67.42,
+            349.8,
+            536.45,
+            360.97
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "data, and designing information for a glanceable display — the core of AR/HUD and wearable-"
+        },
+        {
+          "bbox": [
+            67.42,
+            363.13,
+            170.51,
+            374.31
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "systems engineering."
+        },
+        {
+          "bbox": [
+            51.86,
+            397.21,
+            531.23,
+            408.39
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ the job this maps to: AR / HUD, wearable-systems, and human-machine-interface engineering —"
+        },
+        {
+          "bbox": [
+            51.86,
+            410.55,
+            325.03,
+            421.72
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "defense-headset, avionics-HUD, and AR-hardware teams."
+        },
+        {
+          "bbox": [
+            67.42,
+            444.37,
+            541.6,
+            466.92
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "!\nEYES FIRST\nA display inches from your eye must be dim enough and properly focused through a collimating"
+        },
+        {
+          "bbox": [
+            67.42,
+            469.08,
+            515.83,
+            480.26
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "lens, and it must never be worn while driving, cycling, or in traffic. Keep most of the"
+        },
+        {
+          "bbox": [
+            67.42,
+            482.42,
+            417.9,
+            493.59
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "field of view clear: a HUD is an aid, not a replacement for looking."
+        },
+        {
+          "bbox": [
+            481.16,
+            15.39,
+            559.19,
+            24.06
+          ],
+          "blockIndex": 9,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "NODE 02 · ONLINE"
+        },
+        {
+          "bbox": [
+            51.86,
+            26.11,
+            321.29,
+            63.96
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "[ P R O J E C T 0 2 ]\nAR Heads-Up Display Goggles"
+        },
+        {
+          "bbox": [
+            51.86,
+            70.17,
+            403.95,
+            81.72
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "A see-through display that floats heading, waypoints, and teammate"
+        },
+        {
+          "bbox": [
+            51.86,
+            84.24,
+            211.9,
+            95.8
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "positions in front of your eye"
+        },
+        {
+          "bbox": [
+            60.01,
+            110.57,
+            208.73,
+            120.69
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "$70\nadvanced\n2 weekends"
+        },
+        {
+          "bbox": [
+            51.86,
+            145.3,
+            182.79,
+            160.23
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "// why this matters"
+        },
+        {
+          "bbox": [
+            51.86,
+            169.01,
+            546.66,
+            180.18
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "The most talked-about piece of modern soldier equipment is the augmented-reality headset: a see-"
+        },
+        {
+          "bbox": [
+            51.86,
+            182.35,
+            556.97,
+            193.52
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "through display that overlays a compass, waypoints, teammate locations, and sensor alerts onto the"
+        },
+        {
+          "bbox": [
+            51.86,
+            195.68,
+            556.97,
+            206.86
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "real world, so the wearer never looks down at a map. You can build the core of one. A small bright"
+        },
+        {
+          "bbox": [
+            51.86,
+            209.02,
+            526.04,
+            220.19
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "display reflected off a half-mirror in front of your eye gives you a see-through HUD; an IMU"
+        },
+        {
+          "bbox": [
+            51.86,
+            222.36,
+            546.66,
+            233.53
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "compass and a GPS feed it heading and position; a radio brings in teammate positions and alerts."
+        },
+        {
+          "bbox": [
+            51.86,
+            235.69,
+            536.35,
+            246.87
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Turn your head and the bearing to the waypoint slides across your view. It is optics, embedded"
+        },
+        {
+          "bbox": [
+            51.86,
+            249.77,
+            551.81,
+            260.94
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "systems, and UI design in one build, and the first-person footage is unlike anything else in this"
+        },
+        {
+          "bbox": [
+            51.86,
+            263.11,
+            87.95,
+            274.28
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "series."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "see everything coming — a Build List field guide\n5 / 18"
+        }
+      ],
+      "charCount": 1668,
+      "height": 792.0,
+      "pageNumber": 5,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            51.86,
+            26.76,
+            155.23,
+            41.69
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "// how it works"
+        },
+        {
+          "bbox": [
+            51.86,
+            310.53,
+            210.35,
+            325.46
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "// key design decisions"
+        },
+        {
+          "bbox": [
+            51.86,
+            546.88,
+            189.68,
+            561.81
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "// bill of materials"
+        },
+        {
+          "bbox": [
+            51.86,
+            575.13,
+            552.1,
+            585.24
+          ],
+          "blockIndex": 3,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "COMPONENT\nPART / SPEC\nQTY\n~COST"
+        },
+        {
+          "bbox": [
+            51.86,
+            596.98,
+            552.72,
+            607.57
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Micro display\n0.96–1.3″ bright OLED, or small TFT\n1\n$10"
+        },
+        {
+          "bbox": [
+            51.86,
+            619.2,
+            552.72,
+            629.8
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Beam splitter + lens\n50/50 half-mirror glass, collimating lens\n1\n$18"
+        },
+        {
+          "bbox": [
+            51.86,
+            641.43,
+            552.72,
+            652.03
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "IMU + magnetometer\nBNO055 / ICM-20948\n1\n$14"
+        },
+        {
+          "bbox": [
+            51.86,
+            663.66,
+            552.72,
+            674.26
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "GPS module\nNEO-6M / 8M\n1\n$12"
+        },
+        {
+          "bbox": [
+            51.86,
+            686.63,
+            552.72,
+            697.22
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "ESP32 + battery + frame\nMCU, LiPo, 3D-printed goggle mount\n1\n$16"
+        },
+        {
+          "bbox": [
+            66.68,
+            50.46,
+            540.87,
+            61.64
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "The optical combiner: A small bright display is reflected off a half-silvered mirror (a beam"
+        },
+        {
+          "bbox": [
+            66.68,
+            63.8,
+            515.09,
+            74.97
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "splitter) angled in front of the eye. The mirror passes the real scene and reflects the"
+        },
+        {
+          "bbox": [
+            66.68,
+            77.14,
+            345.0,
+            88.31
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "display, so the graphics appear overlaid on the world."
+        },
+        {
+          "bbox": [
+            51.86,
+            51.3,
+            57.04,
+            61.3
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            66.68,
+            97.14,
+            551.18,
+            108.31
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Focus and eye relief: A collimating lens between the display and the combiner sets the image’s"
+        },
+        {
+          "bbox": [
+            66.68,
+            110.48,
+            535.71,
+            121.65
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "virtual distance so it is sharp alongside distant objects. Eye relief and combiner size set"
+        },
+        {
+          "bbox": [
+            66.68,
+            124.56,
+            200.69,
+            135.73
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "your usable field of view."
+        },
+        {
+          "bbox": [
+            51.86,
+            97.97,
+            57.04,
+            107.98
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            66.68,
+            144.56,
+            540.87,
+            155.73
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Heading and position: An IMU with a magnetometer gives head heading (fused for stability); a"
+        },
+        {
+          "bbox": [
+            66.68,
+            157.9,
+            546.01,
+            169.07
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "GPS module gives position. From these you compute the bearing and distance to any waypoint or"
+        },
+        {
+          "bbox": [
+            66.68,
+            171.23,
+            113.07,
+            182.41
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "teammate."
+        },
+        {
+          "bbox": [
+            51.86,
+            145.39,
+            57.04,
+            155.4
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            66.68,
+            191.24,
+            540.86,
+            202.41
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Rendering the HUD: A microcontroller draws a compass tape, a waypoint marker at its relative"
+        },
+        {
+          "bbox": [
+            66.68,
+            204.57,
+            530.55,
+            215.75
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "bearing, distance, and alert icons — high-contrast, minimal graphics that read at a glance"
+        },
+        {
+          "bbox": [
+            66.68,
+            217.91,
+            211.0,
+            229.08
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "without cluttering the view."
+        },
+        {
+          "bbox": [
+            51.86,
+            192.07,
+            57.04,
+            202.07
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            66.68,
+            237.92,
+            520.25,
+            249.09
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Bringing in the team: A radio (your mesh node from project 5, or Bluetooth from a phone)"
+        },
+        {
+          "bbox": [
+            66.68,
+            251.25,
+            546.01,
+            262.43
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "supplies teammate positions and sensor alerts from the sentry or RF station, so the HUD shows"
+        },
+        {
+          "bbox": [
+            66.68,
+            264.59,
+            159.46,
+            275.76
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "the whole picture."
+        },
+        {
+          "bbox": [
+            51.86,
+            238.75,
+            57.04,
+            248.75
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            66.68,
+            336.46,
+            556.32,
+            347.63
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Why a half-mirror combiner instead of a screen you look at? A HUD only works if the information"
+        },
+        {
+          "bbox": [
+            66.68,
+            349.8,
+            556.32,
+            360.97
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "sits on the world — you must see through it. A beam splitter reflects the display into your eye"
+        },
+        {
+          "bbox": [
+            66.68,
+            363.13,
+            556.32,
+            374.3
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "while passing the real scene, so the overlay floats in front of you. A solid screen would block"
+        },
+        {
+          "bbox": [
+            66.68,
+            376.47,
+            252.23,
+            387.64
+          ],
+          "blockIndex": 32,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "the view, which defeats the purpose."
+        },
+        {
+          "bbox": [
+            51.86,
+            337.29,
+            57.04,
+            347.3
+          ],
+          "blockIndex": 33,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "→"
+        },
+        {
+          "bbox": [
+            66.68,
+            397.96,
+            530.56,
+            409.13
+          ],
+          "blockIndex": 34,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Why does the display need a collimating lens? Your eye cannot focus on a screen two inches"
+        },
+        {
+          "bbox": [
+            66.68,
+            411.29,
+            546.01,
+            422.46
+          ],
+          "blockIndex": 35,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "away. A lens between display and combiner places the image at a comfortable virtual distance,"
+        },
+        {
+          "bbox": [
+            66.68,
+            424.63,
+            546.01,
+            435.8
+          ],
+          "blockIndex": 36,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "near infinity, so the overlay and the distant world are in focus together. Without it the HUD"
+        },
+        {
+          "bbox": [
+            66.68,
+            437.96,
+            118.23,
+            449.14
+          ],
+          "blockIndex": 37,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "is a blur."
+        },
+        {
+          "bbox": [
+            51.86,
+            398.79,
+            57.04,
+            408.79
+          ],
+          "blockIndex": 38,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "→"
+        },
+        {
+          "bbox": [
+            66.68,
+            459.45,
+            535.71,
+            470.62
+          ],
+          "blockIndex": 39,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Why fuse heading instead of using the magnetometer alone? A magnetometer alone is noisy and"
+        },
+        {
+          "bbox": [
+            66.68,
+            472.79,
+            551.17,
+            483.96
+          ],
+          "blockIndex": 40,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "lags, so a compass overlay would jitter and swim as you turn your head. Fusing the gyro (fast,"
+        },
+        {
+          "bbox": [
+            66.68,
+            486.12,
+            520.24,
+            497.3
+          ],
+          "blockIndex": 41,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "but drifts) with the magnetometer (slow, but absolute) yields a smooth, stable heading —"
+        },
+        {
+          "bbox": [
+            66.68,
+            499.46,
+            360.47,
+            510.63
+          ],
+          "blockIndex": 42,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "essential for a HUD that has to feel locked to the world."
+        },
+        {
+          "bbox": [
+            51.86,
+            460.28,
+            57.04,
+            470.29
+          ],
+          "blockIndex": 43,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 44,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "see everything coming — a Build List field guide\n6 / 18"
+        }
+      ],
+      "charCount": 2394,
+      "height": 792.0,
+      "pageNumber": 6,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            51.86,
+            26.76,
+            148.34,
+            41.69
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "// build steps"
+        },
+        {
+          "bbox": [
+            51.86,
+            358.69,
+            203.46,
+            373.62
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "// interview questions"
+        },
+        {
+          "bbox": [
+            81.5,
+            53.43,
+            163.97,
+            64.6
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Prove the optics"
+        },
+        {
+          "bbox": [
+            81.5,
+            68.99,
+            555.68,
+            80.16
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Mount the display, lens, and half-mirror on a bench and look through: adjust distances until"
+        },
+        {
+          "bbox": [
+            81.5,
+            82.32,
+            550.52,
+            93.5
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "the display image is sharp while you focus on the far wall. This is the hardest step — nail"
+        },
+        {
+          "bbox": [
+            81.5,
+            95.66,
+            127.89,
+            106.83
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "it first."
+        },
+        {
+          "bbox": [
+            57.79,
+            52.35,
+            64.02,
+            65.83
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            81.5,
+            120.11,
+            153.66,
+            131.28
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Draw a compass"
+        },
+        {
+          "bbox": [
+            81.5,
+            136.41,
+            540.22,
+            147.58
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Fuse IMU and magnetometer for heading and render a compass tape on the display. Turn your"
+        },
+        {
+          "bbox": [
+            81.5,
+            149.75,
+            411.36,
+            160.92
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "head and confirm the tape scrolls smoothly and settles on north."
+        },
+        {
+          "bbox": [
+            57.79,
+            119.03,
+            64.02,
+            132.51
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            81.5,
+            174.2,
+            148.51,
+            185.37
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Add waypoints"
+        },
+        {
+          "bbox": [
+            81.5,
+            189.76,
+            545.37,
+            200.93
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Read GPS, define a waypoint, and draw a marker at its relative bearing with distance. Walk"
+        },
+        {
+          "bbox": [
+            81.5,
+            203.09,
+            380.44,
+            214.27
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "toward it and watch the marker move and the distance drop."
+        },
+        {
+          "bbox": [
+            57.79,
+            173.12,
+            64.02,
+            186.6
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            81.5,
+            227.54,
+            163.97,
+            238.72
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Build the goggle"
+        },
+        {
+          "bbox": [
+            81.5,
+            243.1,
+            535.06,
+            254.28
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Mount everything on a 3D-printed frame or a pair of safety glasses, with the combiner in"
+        },
+        {
+          "bbox": [
+            81.5,
+            256.44,
+            478.37,
+            267.61
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "front of one eye and the battery and MCU on the strap. Balance and secure it."
+        },
+        {
+          "bbox": [
+            57.79,
+            226.46,
+            64.02,
+            239.95
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            81.5,
+            280.89,
+            179.43,
+            292.06
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Connect the picture"
+        },
+        {
+          "bbox": [
+            81.5,
+            296.45,
+            550.52,
+            307.62
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Feed teammate positions and alerts in over radio and render them. Film first-person through"
+        },
+        {
+          "bbox": [
+            81.5,
+            309.79,
+            370.13,
+            320.96
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "the combiner — the shot that shows what a HUD really is."
+        },
+        {
+          "bbox": [
+            57.79,
+            279.81,
+            64.02,
+            293.29
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            67.42,
+            394.99,
+            448.18,
+            406.16
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "How does an optical see-through HUD overlay graphics on the real world?\n→"
+        },
+        {
+          "bbox": [
+            67.42,
+            414.26,
+            376.03,
+            425.43
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Why is a collimating lens required in a near-eye display?\n→"
+        },
+        {
+          "bbox": [
+            67.42,
+            433.52,
+            355.41,
+            444.69
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "What limits the field of view of a beam-splitter HUD?\n→"
+        },
+        {
+          "bbox": [
+            67.42,
+            452.78,
+            381.18,
+            463.96
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Why fuse gyro and magnetometer data for a heading display?\n→"
+        },
+        {
+          "bbox": [
+            67.42,
+            472.05,
+            370.87,
+            483.22
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "How do you compute a waypoint’s position on the display?\n→"
+        },
+        {
+          "bbox": [
+            67.42,
+            491.31,
+            365.72,
+            502.48
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "What design principles make a HUD readable at a glance?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "see everything coming — a Build List field guide\n7 / 18"
+        }
+      ],
+      "charCount": 1341,
+      "height": 792.0,
+      "pageNumber": 7,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            67.42,
+            298.41,
+            495.21,
+            320.96
+          ],
+          "blockIndex": 0,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand layered detection (a cheap trigger plus camera confirmation), object"
+        },
+        {
+          "bbox": [
+            67.42,
+            323.12,
+            531.29,
+            334.3
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "classification on the edge, pan-tilt tracking control (visual servoing), event logging and"
+        },
+        {
+          "bbox": [
+            67.42,
+            336.46,
+            500.37,
+            347.63
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "alerting, and designing an unattended system that runs reliably. That is the core of"
+        },
+        {
+          "bbox": [
+            67.42,
+            349.8,
+            371.52,
+            360.97
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "autonomous-surveillance and perimeter-security engineering."
+        },
+        {
+          "bbox": [
+            51.86,
+            383.14,
+            526.08,
+            394.31
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "→ the job this maps to: autonomous-sensor and perimeter-security engineering — sentry-tower,"
+        },
+        {
+          "bbox": [
+            51.86,
+            397.21,
+            304.42,
+            408.39
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "security-camera, and base-security systems teams."
+        },
+        {
+          "bbox": [
+            67.42,
+            431.03,
+            515.83,
+            453.58
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "!\nWATCH YOUR OWN GROUND ONLY\nThis is a sensor tower, never a weapon: nothing gets mounted on it that can harm, ever."
+        },
+        {
+          "bbox": [
+            67.42,
+            455.75,
+            520.98,
+            466.92
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Point it only at property you own or control, don’t record neighbours, public spaces, or"
+        },
+        {
+          "bbox": [
+            67.42,
+            469.08,
+            536.45,
+            480.26
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "people who haven’t consented, and store footage responsibly. A tower that watches your yard"
+        },
+        {
+          "bbox": [
+            67.42,
+            482.42,
+            386.98,
+            493.59
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "is a security camera; a tower aimed at others is surveillance."
+        },
+        {
+          "bbox": [
+            481.16,
+            15.39,
+            559.19,
+            24.06
+          ],
+          "blockIndex": 10,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "NODE 03 · ONLINE"
+        },
+        {
+          "bbox": [
+            51.86,
+            26.11,
+            281.41,
+            63.96
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "[ P R O J E C T 0 3 ]\nAutonomous Sentry Tower"
+        },
+        {
+          "bbox": [
+            51.86,
+            70.17,
+            419.96,
+            81.72
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "A tower that spots motion, slews to it, and tracks it across the yard"
+        },
+        {
+          "bbox": [
+            51.86,
+            84.24,
+            249.25,
+            95.8
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "— a perimeter that watches on its own"
+        },
+        {
+          "bbox": [
+            60.01,
+            110.57,
+            208.73,
+            120.69
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "$90\nadvanced\n2 weekends"
+        },
+        {
+          "bbox": [
+            51.86,
+            145.3,
+            182.79,
+            160.23
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "// why this matters"
+        },
+        {
+          "bbox": [
+            51.86,
+            169.01,
+            546.66,
+            180.18
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "The modern border and base perimeter is watched by autonomous sensor towers: they detect motion,"
+        },
+        {
+          "bbox": [
+            51.86,
+            182.35,
+            531.19,
+            193.52
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "classify what it is, slew a camera to track it, and alert an operator — no human staring at a"
+        },
+        {
+          "bbox": [
+            51.86,
+            195.68,
+            556.97,
+            206.86
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "screen. Build a small one: a pan-tilt camera head on a mast, a wide-field motion trigger, a person"
+        },
+        {
+          "bbox": [
+            51.86,
+            209.02,
+            551.81,
+            220.19
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "/ vehicle classifier, a tracking loop that keeps the target centred, and an alert with a snapshot"
+        },
+        {
+          "bbox": [
+            51.86,
+            222.36,
+            541.5,
+            233.53
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "to your phone (or your command map in project 6). Watch it wake up, turn, and follow you across"
+        },
+        {
+          "bbox": [
+            51.86,
+            235.69,
+            526.04,
+            246.87
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "the yard. It is perception, control, and systems integration — and, because it only watches,"
+        },
+        {
+          "bbox": [
+            51.86,
+            249.77,
+            144.64,
+            260.94
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "entirely a sensor."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "see everything coming — a Build List field guide\n8 / 18"
+        }
+      ],
+      "charCount": 1699,
+      "height": 792.0,
+      "pageNumber": 8,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            51.86,
+            26.76,
+            155.23,
+            41.69
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "// how it works"
+        },
+        {
+          "bbox": [
+            51.86,
+            297.19,
+            189.68,
+            312.12
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "// bill of materials"
+        },
+        {
+          "bbox": [
+            51.86,
+            324.7,
+            552.1,
+            334.81
+          ],
+          "blockIndex": 2,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "COMPONENT\nPART / SPEC\nQTY\n~COST"
+        },
+        {
+          "bbox": [
+            51.86,
+            347.29,
+            552.72,
+            357.88
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Pan-tilt head + servos\n2-axis bracket, MG996R ×2\n1\n$15"
+        },
+        {
+          "bbox": [
+            51.86,
+            369.52,
+            552.72,
+            380.11
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Camera + compute\nRaspberry Pi 4 / 5 + camera (Coral optional)\n1\n$45"
+        },
+        {
+          "bbox": [
+            51.86,
+            391.74,
+            552.72,
+            402.34
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Trigger sensor\nPIR or 24 GHz microwave motion module\n1\n$6"
+        },
+        {
+          "bbox": [
+            51.86,
+            413.97,
+            552.72,
+            424.57
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Mast + enclosure\npole, weatherproof box\n1\n$14"
+        },
+        {
+          "bbox": [
+            51.86,
+            436.2,
+            552.72,
+            446.79
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Power\nbattery + small solar (optional)\n1\n$10"
+        },
+        {
+          "bbox": [
+            66.68,
+            50.46,
+            535.71,
+            61.64
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Cheap trigger, smart confirm: Running a camera classifier constantly is expensive. A PIR or"
+        },
+        {
+          "bbox": [
+            66.68,
+            63.8,
+            551.17,
+            74.97
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "microwave-radar sensor with a wide field cheaply detects motion, and only then does the camera"
+        },
+        {
+          "bbox": [
+            66.68,
+            77.14,
+            468.7,
+            88.31
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "wake, look, and classify. Layered detection is how real towers stay efficient."
+        },
+        {
+          "bbox": [
+            51.86,
+            51.3,
+            57.04,
+            61.3
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            66.68,
+            97.14,
+            546.02,
+            108.31
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Classification on the edge: A lightweight neural network (a MobileNet-class model on a Pi, or"
+        },
+        {
+          "bbox": [
+            66.68,
+            110.48,
+            551.17,
+            121.65
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "with a Coral accelerator) distinguishes person, vehicle, and animal — so the tower ignores the"
+        },
+        {
+          "bbox": [
+            66.68,
+            124.56,
+            267.69,
+            135.73
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "neighbour’s cat and alerts on a person."
+        },
+        {
+          "bbox": [
+            51.86,
+            97.97,
+            57.04,
+            107.98
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            66.68,
+            144.56,
+            540.87,
+            155.73
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Tracking (visual servoing): Once a target is classified, the pan-tilt head steers to keep it"
+        },
+        {
+          "bbox": [
+            66.68,
+            157.9,
+            556.32,
+            169.07
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "centred using the same control loop as a tracking robot — pixel offset in, servo velocity out —"
+        },
+        {
+          "bbox": [
+            66.68,
+            171.23,
+            278.0,
+            182.41
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "so the target stays in frame as it moves."
+        },
+        {
+          "bbox": [
+            51.86,
+            145.39,
+            57.04,
+            155.4
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            66.68,
+            191.24,
+            535.71,
+            202.41
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Alerting and logging: Each event gets a timestamp, class, snapshot, and track, sent to your"
+        },
+        {
+          "bbox": [
+            66.68,
+            204.58,
+            463.55,
+            215.75
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "phone (or the command map) and logged. A good sentry is a good record keeper."
+        },
+        {
+          "bbox": [
+            51.86,
+            192.07,
+            57.04,
+            202.08
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            66.68,
+            224.58,
+            515.09,
+            235.75
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Running unattended: Weatherproofing, power (solar plus battery), watchdogs, and failure"
+        },
+        {
+          "bbox": [
+            66.68,
+            237.92,
+            556.32,
+            249.09
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "handling are half the engineering — a sentry that dies at 3 a.m. is useless. Reliability is the"
+        },
+        {
+          "bbox": [
+            66.68,
+            251.25,
+            123.38,
+            262.43
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "discipline."
+        },
+        {
+          "bbox": [
+            51.86,
+            225.41,
+            57.04,
+            235.42
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "see everything coming — a Build List field guide\n9 / 18"
+        }
+      ],
+      "charCount": 1471,
+      "height": 792.0,
+      "pageNumber": 9,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            51.86,
+            26.76,
+            148.34,
+            41.69
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "// build steps"
+        },
+        {
+          "bbox": [
+            51.86,
+            345.35,
+            203.46,
+            360.28
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "// interview questions"
+        },
+        {
+          "bbox": [
+            81.5,
+            53.43,
+            153.66,
+            64.6
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Build the head"
+        },
+        {
+          "bbox": [
+            81.5,
+            68.99,
+            555.68,
+            80.16
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Assemble the pan-tilt bracket with the camera, drive both axes from the Pi, and confirm full"
+        },
+        {
+          "bbox": [
+            81.5,
+            82.32,
+            205.2,
+            93.5
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "sweep and smooth motion."
+        },
+        {
+          "bbox": [
+            57.79,
+            52.35,
+            64.02,
+            65.83
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            81.5,
+            106.77,
+            158.81,
+            117.95
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Add the trigger"
+        },
+        {
+          "bbox": [
+            81.5,
+            122.33,
+            524.75,
+            133.51
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Mount the PIR / radar sensor with a wide field. Have motion wake the camera and grab a"
+        },
+        {
+          "bbox": [
+            81.5,
+            136.41,
+            205.2,
+            147.58
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "frame; log each trigger."
+        },
+        {
+          "bbox": [
+            57.79,
+            105.69,
+            64.02,
+            119.18
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            81.5,
+            160.86,
+            122.74,
+            172.03
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Classify"
+        },
+        {
+          "bbox": [
+            81.5,
+            176.42,
+            540.22,
+            187.59
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Run a person / vehicle / animal classifier on the triggered frame. Tune it so a person is"
+        },
+        {
+          "bbox": [
+            81.5,
+            189.76,
+            416.52,
+            200.93
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "reliably detected and animals are ignored (or logged separately)."
+        },
+        {
+          "bbox": [
+            57.79,
+            159.78,
+            64.02,
+            173.26
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            81.5,
+            214.21,
+            107.27,
+            225.38
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Track"
+        },
+        {
+          "bbox": [
+            81.5,
+            229.77,
+            545.37,
+            240.94
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "When a person is confirmed, close the loop: compute the pixel offset from centre and drive"
+        },
+        {
+          "bbox": [
+            81.5,
+            243.1,
+            431.98,
+            254.28
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "the pan-tilt to follow. Walk across the yard and watch it track you."
+        },
+        {
+          "bbox": [
+            57.79,
+            213.13,
+            64.02,
+            226.61
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            81.5,
+            267.55,
+            163.97,
+            278.73
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Deploy and alert"
+        },
+        {
+          "bbox": [
+            81.5,
+            283.11,
+            550.52,
+            294.29
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Mount it on the mast in a weatherproof box, add alerts with snapshots to your phone (or the"
+        },
+        {
+          "bbox": [
+            81.5,
+            296.45,
+            493.83,
+            307.62
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "command map), power it, and let it run overnight. Review the log in the morning."
+        },
+        {
+          "bbox": [
+            57.79,
+            266.47,
+            64.02,
+            279.96
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            67.42,
+            381.66,
+            370.87,
+            392.83
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Why use a cheap trigger sensor before waking the camera?\n→"
+        },
+        {
+          "bbox": [
+            67.42,
+            400.92,
+            412.1,
+            412.09
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "How does an edge classifier distinguish a person from an animal?\n→"
+        },
+        {
+          "bbox": [
+            67.42,
+            420.18,
+            381.18,
+            431.36
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "How does the pan-tilt tracking loop keep a target centred?\n→"
+        },
+        {
+          "bbox": [
+            67.42,
+            439.45,
+            293.56,
+            450.62
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "What makes an unattended sensor reliable?\n→"
+        },
+        {
+          "bbox": [
+            67.42,
+            458.71,
+            324.49,
+            469.88
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "How should a sentry log and communicate events?\n→"
+        },
+        {
+          "bbox": [
+            67.42,
+            477.98,
+            432.72,
+            489.15
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "What are the privacy and legal constraints on a surveillance sensor?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "see everything coming — a Build List field guide\n10 / 18"
+        }
+      ],
+      "charCount": 1210,
+      "height": 792.0,
+      "pageNumber": 10,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            67.42,
+            285.07,
+            515.83,
+            307.62
+          ],
+          "blockIndex": 0,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand wideband spectrum monitoring, automated sweeping and logging, signal and"
+        },
+        {
+          "bbox": [
+            67.42,
+            309.79,
+            526.14,
+            320.96
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "change detection (“new emitter”), decoding standard public protocols, antenna and station"
+        },
+        {
+          "bbox": [
+            67.42,
+            323.12,
+            505.52,
+            334.29
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "design, and building a reliable always-on receiver. Spectrum awareness is core to EW,"
+        },
+        {
+          "bbox": [
+            67.42,
+            336.46,
+            263.28,
+            347.63
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "SIGINT, and spectrum-management roles."
+        },
+        {
+          "bbox": [
+            51.86,
+            369.8,
+            510.62,
+            380.97
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "→ the job this maps to: spectrum-monitoring, SIGINT, and electronic-warfare engineering —"
+        },
+        {
+          "bbox": [
+            51.86,
+            383.14,
+            366.26,
+            394.31
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "spectrum-management, defense-RF, and monitoring-system teams."
+        },
+        {
+          "bbox": [
+            67.42,
+            417.69,
+            531.29,
+            440.25
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "!\nPUBLIC SIGNALS ONLY\nReceive-only, and decode only signals meant to be public — ADS-B, AIS, weather satellites,"
+        },
+        {
+          "bbox": [
+            67.42,
+            442.41,
+            531.29,
+            453.58
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "broadcast, unencrypted telemetry. Intercepting or decoding private communications (phones,"
+        },
+        {
+          "bbox": [
+            67.42,
+            455.75,
+            541.6,
+            466.92
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "private voice, anything not broadcast to the public) is illegal in most countries. Watch the"
+        },
+        {
+          "bbox": [
+            67.42,
+            469.08,
+            237.51,
+            480.26
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "spectrum; don’t listen to people."
+        },
+        {
+          "bbox": [
+            51.86,
+            518.73,
+            155.23,
+            533.66
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "// how it works"
+        },
+        {
+          "bbox": [
+            481.16,
+            15.39,
+            559.19,
+            24.06
+          ],
+          "blockIndex": 11,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "NODE 04 · ONLINE"
+        },
+        {
+          "bbox": [
+            66.68,
+            543.17,
+            551.17,
+            554.35
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Sweeping the spectrum: An SDR retunes across the bands in steps, capturing a power spectrum at"
+        },
+        {
+          "bbox": [
+            66.68,
+            556.51,
+            556.32,
+            567.68
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "each; stitched together it is a wideband survey. Repeated continuously, it becomes a time-lapse"
+        },
+        {
+          "bbox": [
+            66.68,
+            569.85,
+            195.54,
+            581.02
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "of the radio environment."
+        },
+        {
+          "bbox": [
+            51.86,
+            544.01,
+            57.04,
+            554.01
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            66.68,
+            589.85,
+            515.1,
+            601.03
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Baseline and change detection: Log the average power per frequency over days to build a"
+        },
+        {
+          "bbox": [
+            66.68,
+            603.19,
+            509.93,
+            614.36
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "baseline; a signal where the baseline is empty is a new emitter. Flagging those is the"
+        },
+        {
+          "bbox": [
+            66.68,
+            616.53,
+            339.85,
+            627.7
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "station’s alert function — spectrum change detection."
+        },
+        {
+          "bbox": [
+            51.86,
+            590.68,
+            57.04,
+            600.69
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            66.68,
+            636.53,
+            551.18,
+            647.7
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Decoding the public: Dedicated decoders turn broadcasts into data: ADS-B (aircraft positions),"
+        },
+        {
+          "bbox": [
+            66.68,
+            649.87,
+            515.09,
+            661.04
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "AIS (ships), NOAA / Meteor weather images, FM and DAB. Each becomes a feed on your map."
+        },
+        {
+          "bbox": [
+            51.86,
+            637.36,
+            57.04,
+            647.37
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            66.68,
+            669.87,
+            546.02,
+            681.05
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "The station: A fixed mast antenna (a discone for wideband, plus dedicated antennas), low-loss"
+        },
+        {
+          "bbox": [
+            66.68,
+            683.21,
+            551.17,
+            694.38
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "coax, an LNA, and an SDR into a Pi running always-on software — with a waterfall dashboard you"
+        },
+        {
+          "bbox": [
+            66.68,
+            696.55,
+            195.54,
+            707.72
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "can open from any device."
+        },
+        {
+          "bbox": [
+            51.86,
+            670.7,
+            57.04,
+            680.71
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            66.68,
+            717.29,
+            540.87,
+            728.46
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Feeding the picture: Every decoded track and every emitter alert is published to the command"
+        },
+        {
+          "bbox": [
+            66.68,
+            730.63,
+            484.16,
+            741.8
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "map (project 6), so it shows aircraft, ships, and radio activity live around you."
+        },
+        {
+          "bbox": [
+            51.86,
+            718.12,
+            57.04,
+            728.13
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            51.86,
+            26.11,
+            221.59,
+            63.96
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "[ P R O J E C T 0 4 ]\nRF Ground Station"
+        },
+        {
+          "bbox": [
+            51.86,
+            70.16,
+            419.96,
+            81.72
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "A fixed station that watches the whole radio spectrum, decodes what's"
+        },
+        {
+          "bbox": [
+            51.86,
+            84.24,
+            211.9,
+            95.8
+          ],
+          "blockIndex": 32,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "public, and flags anything new"
+        },
+        {
+          "bbox": [
+            60.01,
+            110.57,
+            238.6,
+            120.69
+          ],
+          "blockIndex": 33,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "$80\nintermediate\n1–2 weekends"
+        },
+        {
+          "bbox": [
+            51.86,
+            145.3,
+            182.79,
+            160.23
+          ],
+          "blockIndex": 34,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "// why this matters"
+        },
+        {
+          "bbox": [
+            51.86,
+            169.01,
+            541.5,
+            180.18
+          ],
+          "blockIndex": 35,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "A signals station doesn’t hunt one signal; it watches the whole spectrum, all the time. Build a"
+        },
+        {
+          "bbox": [
+            51.86,
+            182.35,
+            541.5,
+            193.52
+          ],
+          "blockIndex": 36,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "permanent RF ground station: an SDR on a mast antenna, continuously sweeping the bands, logging"
+        },
+        {
+          "bbox": [
+            51.86,
+            195.68,
+            505.42,
+            206.86
+          ],
+          "blockIndex": 37,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "what is on the air, decoding the public signals — aircraft (ADS-B), ships (AIS), weather"
+        },
+        {
+          "bbox": [
+            51.86,
+            209.02,
+            551.81,
+            220.19
+          ],
+          "blockIndex": 38,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "satellites, broadcast — and raising an alert when a new emitter appears where there was none. Its"
+        },
+        {
+          "bbox": [
+            51.86,
+            222.36,
+            531.19,
+            233.53
+          ],
+          "blockIndex": 39,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "waterfall dashboard becomes your radio picture of the area. It is the receive-only heart of a"
+        },
+        {
+          "bbox": [
+            51.86,
+            235.69,
+            469.35,
+            246.87
+          ],
+          "blockIndex": 40,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "signals post, and it feeds the command map with everything that transmits nearby."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 41,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "see everything coming — a Build List field guide\n11 / 18"
+        }
+      ],
+      "charCount": 2641,
+      "height": 792.0,
+      "pageNumber": 11,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            51.86,
+            26.76,
+            189.68,
+            41.69
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "// bill of materials"
+        },
+        {
+          "bbox": [
+            51.86,
+            54.26,
+            552.1,
+            64.38
+          ],
+          "blockIndex": 1,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "COMPONENT\nPART / SPEC\nQTY\n~COST"
+        },
+        {
+          "bbox": [
+            51.86,
+            76.85,
+            552.72,
+            87.45
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "SDR(s)\nRTL-SDR (or two: one sweeping, one decoding)\n1–2\n$30"
+        },
+        {
+          "bbox": [
+            51.86,
+            99.08,
+            552.72,
+            109.67
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Antennas\ndiscone (wideband) + ADS-B / AIS antennas\n—\n$30"
+        },
+        {
+          "bbox": [
+            51.86,
+            121.31,
+            552.72,
+            131.9
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "LNA + coax\nwideband LNA, low-loss coax\n—\n$12"
+        },
+        {
+          "bbox": [
+            51.86,
+            143.53,
+            552.72,
+            154.13
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Compute\nRaspberry Pi 4 (or existing)\n1\n$25"
+        },
+        {
+          "bbox": [
+            51.86,
+            165.76,
+            552.72,
+            176.36
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Enclosure / mast\nweatherproof box, mast\n1\n$8"
+        },
+        {
+          "bbox": [
+            51.86,
+            209.76,
+            148.34,
+            224.69
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "// build steps"
+        },
+        {
+          "bbox": [
+            51.86,
+            542.44,
+            203.46,
+            557.37
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "// interview questions"
+        },
+        {
+          "bbox": [
+            81.5,
+            237.18,
+            184.59,
+            248.35
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Stand up the antenna"
+        },
+        {
+          "bbox": [
+            81.5,
+            252.73,
+            524.75,
+            263.91
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Mount a discone on a mast with low-loss coax and an LNA at the antenna. Confirm strong"
+        },
+        {
+          "bbox": [
+            81.5,
+            266.07,
+            297.97,
+            277.24
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "reception across VHF / UHF on a waterfall."
+        },
+        {
+          "bbox": [
+            57.79,
+            236.09,
+            64.02,
+            249.58
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            81.5,
+            290.52,
+            148.51,
+            301.69
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Sweep and log"
+        },
+        {
+          "bbox": [
+            81.5,
+            306.08,
+            550.52,
+            317.25
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Run a continuous spectrum sweep and log power versus frequency versus time. View the survey"
+        },
+        {
+          "bbox": [
+            81.5,
+            319.42,
+            246.43,
+            330.59
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "as a waterfall image over a day."
+        },
+        {
+          "bbox": [
+            57.79,
+            289.44,
+            64.02,
+            302.92
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            81.5,
+            343.87,
+            230.97,
+            355.04
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Build the baseline and alerts"
+        },
+        {
+          "bbox": [
+            81.5,
+            359.43,
+            555.68,
+            370.6
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Average several days of sweeps into a baseline, then flag frequencies that light up above it"
+        },
+        {
+          "bbox": [
+            81.5,
+            372.76,
+            313.44,
+            383.94
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "— your new-emitter alert. Tune the threshold."
+        },
+        {
+          "bbox": [
+            57.79,
+            342.79,
+            64.02,
+            356.27
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            81.5,
+            397.21,
+            143.35,
+            408.39
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Add decoders"
+        },
+        {
+          "bbox": [
+            81.5,
+            412.77,
+            519.6,
+            423.95
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Run ADS-B and AIS decoders (and a weather-satellite receiver if you like) and confirm"
+        },
+        {
+          "bbox": [
+            81.5,
+            426.11,
+            292.82,
+            437.28
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "aircraft and ships appear with positions."
+        },
+        {
+          "bbox": [
+            57.79,
+            396.13,
+            64.02,
+            409.62
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            81.5,
+            450.56,
+            179.43,
+            461.73
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Publish the picture"
+        },
+        {
+          "bbox": [
+            81.5,
+            466.86,
+            498.98,
+            478.03
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Push decoded tracks and alerts to a dashboard or the command map, box the station"
+        },
+        {
+          "bbox": [
+            81.5,
+            480.2,
+            535.06,
+            491.37
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "weatherproof, and let it run for a week. Review what your area’s spectrum actually looks"
+        },
+        {
+          "bbox": [
+            81.5,
+            493.53,
+            107.27,
+            504.71
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "like."
+        },
+        {
+          "bbox": [
+            57.79,
+            449.48,
+            64.02,
+            462.96
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            67.42,
+            578.0,
+            453.34,
+            589.17
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "How does an SDR survey a spectrum far wider than it can capture at once?\n→"
+        },
+        {
+          "bbox": [
+            67.42,
+            597.26,
+            376.03,
+            608.44
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "How do you detect a new emitter against a noisy baseline?\n→"
+        },
+        {
+          "bbox": [
+            67.42,
+            616.53,
+            355.41,
+            627.7
+          ],
+          "blockIndex": 32,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Which signals are legal to decode, and which are not?\n→"
+        },
+        {
+          "bbox": [
+            67.42,
+            635.79,
+            412.1,
+            646.96
+          ],
+          "blockIndex": 33,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Why does antenna and LNA placement dominate station performance?\n→"
+        },
+        {
+          "bbox": [
+            67.42,
+            655.05,
+            288.41,
+            666.23
+          ],
+          "blockIndex": 34,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "How do ADS-B and AIS broadcast position?\n→"
+        },
+        {
+          "bbox": [
+            67.42,
+            674.32,
+            381.18,
+            685.49
+          ],
+          "blockIndex": 35,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "How would you make an always-on receiver station reliable?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 36,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "see everything coming — a Build List field guide\n12 / 18"
+        }
+      ],
+      "charCount": 1530,
+      "height": 792.0,
+      "pageNumber": 12,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            67.42,
+            285.07,
+            536.45,
+            307.62
+          ],
+          "blockIndex": 0,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand LoRa modulation and link budget, mesh routing and relaying, position sharing"
+        },
+        {
+          "bbox": [
+            67.42,
+            309.79,
+            531.29,
+            320.96
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "and message encryption, node power management, and real-world range testing. Off-grid mesh"
+        },
+        {
+          "bbox": [
+            67.42,
+            323.12,
+            469.44,
+            334.3
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "networking is core to tactical-comms and resilient-communications engineering."
+        },
+        {
+          "bbox": [
+            51.86,
+            356.46,
+            541.54,
+            367.64
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "→ the job this maps to: tactical-communications and resilient-network engineering — mesh-radio,"
+        },
+        {
+          "bbox": [
+            51.86,
+            369.8,
+            299.26,
+            380.97
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "off-grid comms, and secure-communications teams."
+        },
+        {
+          "bbox": [
+            51.86,
+            409.07,
+            155.23,
+            424.0
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "// how it works"
+        },
+        {
+          "bbox": [
+            67.42,
+            641.45,
+            536.45,
+            664.01
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "BUILD NOTE\nDon’t write a mesh stack from scratch. Meshtastic-compatible ESP32 LoRa boards with GPS get"
+        },
+        {
+          "bbox": [
+            67.42,
+            666.17,
+            520.98,
+            677.34
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "you a working encrypted mesh in an afternoon; the engineering is in antennas, placement,"
+        },
+        {
+          "bbox": [
+            67.42,
+            679.5,
+            412.75,
+            690.68
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "range testing, and bridging the data into your HUD and command map."
+        },
+        {
+          "bbox": [
+            481.16,
+            15.39,
+            559.19,
+            24.06
+          ],
+          "blockIndex": 9,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "NODE 05 · ONLINE"
+        },
+        {
+          "bbox": [
+            66.68,
+            433.52,
+            546.02,
+            444.69
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "LoRa: A spread-spectrum modulation that trades data rate for range and sensitivity — kilobits"
+        },
+        {
+          "bbox": [
+            66.68,
+            446.86,
+            540.86,
+            458.03
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "per second over kilometres at milliwatts. Perfect for text and positions, useless for video,"
+        },
+        {
+          "bbox": [
+            66.68,
+            460.19,
+            164.61,
+            471.37
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "which is the point."
+        },
+        {
+          "bbox": [
+            51.86,
+            434.35,
+            57.04,
+            444.36
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            66.68,
+            480.2,
+            546.02,
+            491.37
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Meshing: Each node relays messages it hears, so a message hops node to node beyond any single"
+        },
+        {
+          "bbox": [
+            66.68,
+            493.53,
+            540.86,
+            504.71
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "radio’s range. Flooding with hop limits keeps it simple; smarter routing keeps it efficient."
+        },
+        {
+          "bbox": [
+            51.86,
+            481.03,
+            57.04,
+            491.03
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            66.68,
+            513.54,
+            530.56,
+            524.71
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Position sharing: Nodes with GPS broadcast their position periodically; every node keeps a"
+        },
+        {
+          "bbox": [
+            66.68,
+            526.88,
+            551.17,
+            538.05
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "table of teammates and their last known location — the data that draws dots on a map or a HUD."
+        },
+        {
+          "bbox": [
+            51.86,
+            514.37,
+            57.04,
+            524.38
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            66.68,
+            546.88,
+            540.87,
+            558.05
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Encryption: Messages are encrypted with a shared channel key, so the mesh is private to your"
+        },
+        {
+          "bbox": [
+            66.68,
+            560.22,
+            334.7,
+            571.39
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "team even though anyone can receive the raw packets."
+        },
+        {
+          "bbox": [
+            51.86,
+            547.71,
+            57.04,
+            557.72
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            66.68,
+            580.22,
+            540.87,
+            591.39
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Range and power: Antenna height and gain, terrain, and transmit power set range; sleep modes"
+        },
+        {
+          "bbox": [
+            66.68,
+            593.56,
+            530.55,
+            604.73
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "and duty cycling stretch a battery to days. Range testing is where the link budget becomes"
+        },
+        {
+          "bbox": [
+            66.68,
+            607.64,
+            92.46,
+            618.81
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "real."
+        },
+        {
+          "bbox": [
+            51.86,
+            581.05,
+            57.04,
+            591.06
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            51.86,
+            26.11,
+            211.63,
+            63.96
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "[ P R O J E C T 0 5 ]\nMesh Field Radio"
+        },
+        {
+          "bbox": [
+            51.86,
+            70.17,
+            419.96,
+            81.72
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Pocket radios that form their own network — text and position sharing"
+        },
+        {
+          "bbox": [
+            51.86,
+            84.24,
+            190.57,
+            95.8
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "with no cell towers at all"
+        },
+        {
+          "bbox": [
+            60.01,
+            110.57,
+            223.66,
+            120.69
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "$70\nintermediate\n1 weekend"
+        },
+        {
+          "bbox": [
+            51.86,
+            145.3,
+            182.79,
+            160.23
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "// why this matters"
+        },
+        {
+          "bbox": [
+            51.86,
+            169.01,
+            546.66,
+            180.18
+          ],
+          "blockIndex": 32,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "When the network is down, jammed, or simply absent, teams still need to talk and know where each"
+        },
+        {
+          "bbox": [
+            51.86,
+            182.35,
+            546.66,
+            193.52
+          ],
+          "blockIndex": 33,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "other are. A LoRa mesh does exactly that: small radios that relay for each other, carrying short"
+        },
+        {
+          "bbox": [
+            51.86,
+            195.68,
+            531.19,
+            206.86
+          ],
+          "blockIndex": 34,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "encrypted messages and GPS positions across kilometres with no infrastructure. Build a set of"
+        },
+        {
+          "bbox": [
+            51.86,
+            209.02,
+            541.5,
+            220.19
+          ],
+          "blockIndex": 35,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "nodes, pair them, test range across your town, and watch teammate dots appear on a map — and on"
+        },
+        {
+          "bbox": [
+            51.86,
+            222.36,
+            526.04,
+            233.53
+          ],
+          "blockIndex": 36,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "your HUD from project 2. It is networking, RF, and embedded in one, and it is the connective"
+        },
+        {
+          "bbox": [
+            51.86,
+            235.69,
+            299.26,
+            246.87
+          ],
+          "blockIndex": 37,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "tissue of the whole situational-awareness stack."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 38,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "see everything coming — a Build List field guide\n13 / 18"
+        }
+      ],
+      "charCount": 2385,
+      "height": 792.0,
+      "pageNumber": 13,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            51.86,
+            26.76,
+            189.68,
+            41.69
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "// bill of materials"
+        },
+        {
+          "bbox": [
+            51.86,
+            54.26,
+            552.1,
+            64.38
+          ],
+          "blockIndex": 1,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "COMPONENT\nPART / SPEC\nQTY\n~COST"
+        },
+        {
+          "bbox": [
+            51.86,
+            76.85,
+            552.72,
+            87.45
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "LoRa + GPS nodes (×3)\nESP32 LoRa boards with GPS (Meshtastic-compatible)\n3\n$54"
+        },
+        {
+          "bbox": [
+            51.86,
+            99.08,
+            552.72,
+            109.67
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Antennas\ntuned for your ISM band\n3\n$9"
+        },
+        {
+          "bbox": [
+            51.86,
+            121.31,
+            552.72,
+            131.9
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Batteries + cases\nLiPo, 3D-printed cases\n3\n$7"
+        },
+        {
+          "bbox": [
+            51.86,
+            165.31,
+            148.34,
+            180.24
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "// build steps"
+        },
+        {
+          "bbox": [
+            51.86,
+            483.9,
+            203.46,
+            498.83
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "// interview questions"
+        },
+        {
+          "bbox": [
+            81.5,
+            191.98,
+            153.66,
+            203.15
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Flash and pair"
+        },
+        {
+          "bbox": [
+            81.5,
+            207.54,
+            535.06,
+            218.71
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Flash mesh firmware on three nodes, set a private channel key, and confirm they exchange"
+        },
+        {
+          "bbox": [
+            81.5,
+            220.88,
+            194.89,
+            232.05
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "messages on the bench."
+        },
+        {
+          "bbox": [
+            57.79,
+            190.9,
+            64.02,
+            204.38
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            81.5,
+            245.33,
+            148.51,
+            256.5
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Add positions"
+        },
+        {
+          "bbox": [
+            81.5,
+            261.63,
+            550.52,
+            272.8
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Enable GPS position sharing and open the map view. Confirm each node’s dot appears with its"
+        },
+        {
+          "bbox": [
+            81.5,
+            274.96,
+            184.59,
+            286.14
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "last-known position."
+        },
+        {
+          "bbox": [
+            57.79,
+            244.24,
+            64.02,
+            257.73
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            81.5,
+            299.41,
+            133.04,
+            310.59
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Test range"
+        },
+        {
+          "bbox": [
+            81.5,
+            314.97,
+            545.37,
+            326.14
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Walk or drive nodes apart and log the distance at which the direct link drops. Try antenna"
+        },
+        {
+          "bbox": [
+            81.5,
+            328.31,
+            256.74,
+            339.48
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "height and watch the range change."
+        },
+        {
+          "bbox": [
+            57.79,
+            298.33,
+            64.02,
+            311.82
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            81.5,
+            352.76,
+            148.51,
+            363.93
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Test relaying"
+        },
+        {
+          "bbox": [
+            81.5,
+            368.32,
+            550.52,
+            379.49
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Place a third node between two out-of-range nodes and confirm messages hop through it — the"
+        },
+        {
+          "bbox": [
+            81.5,
+            381.65,
+            210.36,
+            392.83
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "mesh working as designed."
+        },
+        {
+          "bbox": [
+            57.79,
+            351.68,
+            64.02,
+            365.16
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            81.5,
+            406.1,
+            153.66,
+            417.28
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Feed the stack"
+        },
+        {
+          "bbox": [
+            81.5,
+            421.66,
+            540.22,
+            432.84
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Bridge one node to your HUD (project 2) and command map (project 6) so teammate positions"
+        },
+        {
+          "bbox": [
+            81.5,
+            435.0,
+            473.21,
+            446.17
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "and messages appear there. Now the team is connected with no infrastructure."
+        },
+        {
+          "bbox": [
+            57.79,
+            405.02,
+            64.02,
+            418.51
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            67.42,
+            520.21,
+            345.1,
+            531.38
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Why does LoRa achieve such long range at low power?\n→"
+        },
+        {
+          "bbox": [
+            67.42,
+            539.47,
+            386.33,
+            550.64
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "How does a mesh network extend range beyond a single radio?\n→"
+        },
+        {
+          "bbox": [
+            67.42,
+            558.73,
+            329.64,
+            569.91
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "How do nodes share and track teammate positions?\n→"
+        },
+        {
+          "bbox": [
+            67.42,
+            578.0,
+            262.64,
+            589.17
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "How is a mesh channel kept private?\n→"
+        },
+        {
+          "bbox": [
+            67.42,
+            597.26,
+            314.18,
+            608.44
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "What determines LoRa range in the real world?\n→"
+        },
+        {
+          "bbox": [
+            67.42,
+            616.53,
+            360.56,
+            627.7
+          ],
+          "blockIndex": 32,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "How would you extend the battery life of a field node?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 33,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "see everything coming — a Build List field guide\n14 / 18"
+        }
+      ],
+      "charCount": 1302,
+      "height": 792.0,
+      "pageNumber": 14,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            67.42,
+            317.67,
+            236.35,
+            327.3
+          ],
+          "blockIndex": 0,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "WHAT THIS PROVES TO A RECRUITER"
+        },
+        {
+          "bbox": [
+            67.42,
+            329.79,
+            531.29,
+            340.96
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "You understand systems integration, data models for tracks and events, publish / subscribe"
+        },
+        {
+          "bbox": [
+            67.42,
+            343.13,
+            515.83,
+            354.3
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "messaging, track-level sensor fusion, map-based UI design for decisions, and building a"
+        },
+        {
+          "bbox": [
+            67.42,
+            356.46,
+            520.98,
+            367.64
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "reliable, replayable service. Command-and-control software is one of the fastest-growing"
+        },
+        {
+          "bbox": [
+            67.42,
+            369.8,
+            216.89,
+            380.97
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "areas of defense engineering."
+        },
+        {
+          "bbox": [
+            51.86,
+            403.14,
+            551.85,
+            414.31
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "→ the job this maps to: command-and-control, systems, and defense-software engineering — mission-"
+        },
+        {
+          "bbox": [
+            51.86,
+            416.48,
+            294.11,
+            427.65
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "software, sensor-fusion, and integration teams."
+        },
+        {
+          "bbox": [
+            67.42,
+            450.29,
+            219.61,
+            459.93
+          ],
+          "blockIndex": 7,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "!\nYOUR SENSORS, YOUR PICTURE"
+        },
+        {
+          "bbox": [
+            67.42,
+            462.42,
+            495.21,
+            473.59
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "This fuses data from your own sensors on your own property and your own team. Don’t"
+        },
+        {
+          "bbox": [
+            67.42,
+            475.75,
+            515.83,
+            486.93
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "aggregate other people’s data into it, and secure the server — it is a live map of your"
+        },
+        {
+          "bbox": [
+            67.42,
+            489.09,
+            191.12,
+            500.26
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "sensors and your people."
+        },
+        {
+          "bbox": [
+            481.16,
+            15.39,
+            559.19,
+            24.06
+          ],
+          "blockIndex": 11,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "NODE 06 · ONLINE"
+        },
+        {
+          "bbox": [
+            51.86,
+            26.11,
+            341.22,
+            83.96
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "[ P R O J E C T 0 6 ]\nCommand Map (Common Operating\nPicture)"
+        },
+        {
+          "bbox": [
+            51.86,
+            90.17,
+            387.95,
+            115.06
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "One map that fuses every sensor you built — tracks, alerts, and\nteammates in a single live picture"
+        },
+        {
+          "bbox": [
+            60.01,
+            130.58,
+            208.73,
+            140.69
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "$25\nadvanced\n2 weekends"
+        },
+        {
+          "bbox": [
+            51.86,
+            165.31,
+            182.79,
+            180.24
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "// why this matters"
+        },
+        {
+          "bbox": [
+            51.86,
+            189.02,
+            551.81,
+            200.19
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Every sensor you have built so far is a separate window; command and control is about fusing them"
+        },
+        {
+          "bbox": [
+            51.86,
+            202.35,
+            526.04,
+            213.53
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "into one picture. Build a common operating picture: a server that ingests the sentry tower’s"
+        },
+        {
+          "bbox": [
+            51.86,
+            215.69,
+            546.66,
+            226.86
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "detections, the RF station’s aircraft and ship tracks and emitter alerts, and the mesh network’s"
+        },
+        {
+          "bbox": [
+            51.86,
+            229.03,
+            536.35,
+            240.2
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "teammate positions, and renders them all on a live map with a timeline and an alert feed — the"
+        },
+        {
+          "bbox": [
+            51.86,
+            242.36,
+            531.19,
+            253.54
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "same idea behind the software that runs modern defense operations. It is systems and software"
+        },
+        {
+          "bbox": [
+            51.86,
+            255.7,
+            551.81,
+            266.87
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "engineering: data models, message buses, fusion, and a UI built for decisions. It is the capstone"
+        },
+        {
+          "bbox": [
+            51.86,
+            269.04,
+            258.03,
+            280.21
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "that turns six projects into one system."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "see everything coming — a Build List field guide\n15 / 18"
+        }
+      ],
+      "charCount": 1572,
+      "height": 792.0,
+      "pageNumber": 15,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            51.86,
+            26.76,
+            155.23,
+            41.69
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "// how it works"
+        },
+        {
+          "bbox": [
+            51.86,
+            297.19,
+            189.68,
+            312.12
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "// bill of materials"
+        },
+        {
+          "bbox": [
+            51.86,
+            324.7,
+            552.1,
+            334.81
+          ],
+          "blockIndex": 2,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "COMPONENT\nPART / SPEC\nQTY\n~COST"
+        },
+        {
+          "bbox": [
+            51.86,
+            347.29,
+            552.72,
+            357.88
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Server\nRaspberry Pi 4 (or your laptop)\n1\n$25"
+        },
+        {
+          "bbox": [
+            51.86,
+            369.52,
+            552.72,
+            380.11
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Software\nMQTT broker, Python or Node backend, web map\n—\nfree"
+        },
+        {
+          "bbox": [
+            51.86,
+            391.74,
+            552.73,
+            402.34
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Sensors\nprojects 3, 4, and 5\n—\nbuilt"
+        },
+        {
+          "bbox": [
+            51.86,
+            435.74,
+            148.34,
+            450.67
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "// build steps"
+        },
+        {
+          "bbox": [
+            66.68,
+            50.46,
+            551.18,
+            61.64
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "The data model: Everything becomes a track (an object with position, class, and history) or an"
+        },
+        {
+          "bbox": [
+            66.68,
+            63.8,
+            551.17,
+            74.97
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "event (a detection, an alert), each with a timestamp and a source. Defining that model well is"
+        },
+        {
+          "bbox": [
+            66.68,
+            77.14,
+            154.3,
+            88.31
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "most of the work."
+        },
+        {
+          "bbox": [
+            51.86,
+            51.3,
+            57.04,
+            61.3
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            66.68,
+            97.14,
+            546.02,
+            108.31
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "The message bus: Sensors publish to a broker (MQTT is the classic choice); the map subscribes"
+        },
+        {
+          "bbox": [
+            66.68,
+            110.48,
+            551.17,
+            121.65
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "to everything. Publish / subscribe decouples sensors from the display, so you can add a sensor"
+        },
+        {
+          "bbox": [
+            66.68,
+            124.56,
+            195.54,
+            135.73
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "without touching the map."
+        },
+        {
+          "bbox": [
+            51.86,
+            97.97,
+            57.04,
+            107.98
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            66.68,
+            144.56,
+            535.71,
+            155.73
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Fusion: When two sensors see the same thing (the sentry’s person and the mesh’s teammate at"
+        },
+        {
+          "bbox": [
+            66.68,
+            157.9,
+            546.01,
+            169.07
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "that spot), the map correlates them into one track instead of two — track-level fusion, which"
+        },
+        {
+          "bbox": [
+            66.68,
+            171.23,
+            278.0,
+            182.41
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "is where the picture becomes trustworthy."
+        },
+        {
+          "bbox": [
+            51.86,
+            145.39,
+            57.04,
+            155.4
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            66.68,
+            191.24,
+            546.02,
+            202.41
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "The map UI: A web map draws tracks, alerts, sensor footprints, and a timeline, with filters —"
+        },
+        {
+          "bbox": [
+            66.68,
+            204.58,
+            468.7,
+            215.75
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "designed for quick decisions, not for looking pretty. Alerts float to the top."
+        },
+        {
+          "bbox": [
+            51.86,
+            192.07,
+            57.04,
+            202.08
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            66.68,
+            224.58,
+            556.32,
+            235.75
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Reliability and history: A database stores every track and event so you can replay a night; the"
+        },
+        {
+          "bbox": [
+            66.68,
+            237.92,
+            530.55,
+            249.09
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "service restarts itself, buffers when sensors drop, and never loses an alert. That is what"
+        },
+        {
+          "bbox": [
+            66.68,
+            251.25,
+            174.92,
+            262.43
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "makes it operational."
+        },
+        {
+          "bbox": [
+            51.86,
+            225.41,
+            57.04,
+            235.42
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            81.5,
+            462.42,
+            163.97,
+            473.59
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Define the model"
+        },
+        {
+          "bbox": [
+            81.5,
+            478.72,
+            555.68,
+            489.89
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Write the track and event schemas (position, class, source, time, history). Keep them simple"
+        },
+        {
+          "bbox": [
+            81.5,
+            492.05,
+            220.66,
+            503.23
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "and shared by every sensor."
+        },
+        {
+          "bbox": [
+            57.79,
+            461.33,
+            64.02,
+            474.82
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            81.5,
+            516.5,
+            163.97,
+            527.68
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Stand up the bus"
+        },
+        {
+          "bbox": [
+            81.5,
+            532.06,
+            555.68,
+            543.24
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Run an MQTT broker and have each sensor (sentry, RF station, mesh bridge) publish tracks and"
+        },
+        {
+          "bbox": [
+            81.5,
+            545.4,
+            256.74,
+            556.57
+          ],
+          "blockIndex": 32,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "events to it. Watch messages flow."
+        },
+        {
+          "bbox": [
+            57.79,
+            515.42,
+            64.02,
+            528.91
+          ],
+          "blockIndex": 33,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            81.5,
+            569.85,
+            148.51,
+            581.02
+          ],
+          "blockIndex": 34,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Build the map"
+        },
+        {
+          "bbox": [
+            81.5,
+            585.41,
+            550.52,
+            596.58
+          ],
+          "blockIndex": 35,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Create the web map that subscribes and draws tracks, alerts, and sensor positions live. Add"
+        },
+        {
+          "bbox": [
+            81.5,
+            598.75,
+            230.97,
+            609.92
+          ],
+          "blockIndex": 36,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "a timeline and an alert feed."
+        },
+        {
+          "bbox": [
+            57.79,
+            568.77,
+            64.02,
+            582.25
+          ],
+          "blockIndex": 37,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            81.5,
+            623.2,
+            138.2,
+            634.37
+          ],
+          "blockIndex": 38,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Fuse tracks"
+        },
+        {
+          "bbox": [
+            81.5,
+            638.75,
+            504.14,
+            649.93
+          ],
+          "blockIndex": 39,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Implement correlation so the same object seen by two sensors becomes one track and"
+        },
+        {
+          "bbox": [
+            81.5,
+            652.09,
+            504.14,
+            663.26
+          ],
+          "blockIndex": 40,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "confidence rises. Test by walking past the sentry with a mesh node in your pocket."
+        },
+        {
+          "bbox": [
+            57.79,
+            622.11,
+            64.02,
+            635.6
+          ],
+          "blockIndex": 41,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            81.5,
+            676.54,
+            189.74,
+            687.72
+          ],
+          "blockIndex": 42,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Store, replay, harden"
+        },
+        {
+          "bbox": [
+            81.5,
+            692.1,
+            555.68,
+            703.27
+          ],
+          "blockIndex": 43,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Add a database, a replay mode, auto-restart, and buffering. Run the full stack overnight and"
+        },
+        {
+          "bbox": [
+            81.5,
+            706.18,
+            359.82,
+            717.35
+          ],
+          "blockIndex": 44,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "replay it in the morning — your own operating picture."
+        },
+        {
+          "bbox": [
+            57.79,
+            675.46,
+            64.02,
+            688.94
+          ],
+          "blockIndex": 45,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 46,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "see everything coming — a Build List field guide\n16 / 18"
+        }
+      ],
+      "charCount": 2057,
+      "height": 792.0,
+      "pageNumber": 16,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            51.86,
+            26.76,
+            203.46,
+            41.69
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "// interview questions"
+        },
+        {
+          "bbox": [
+            67.42,
+            62.32,
+            386.33,
+            73.49
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "What is a common operating picture, and why does it matter?\n→"
+        },
+        {
+          "bbox": [
+            67.42,
+            81.58,
+            432.72,
+            92.76
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Why use publish / subscribe messaging between sensors and a display?\n→"
+        },
+        {
+          "bbox": [
+            67.42,
+            100.85,
+            396.64,
+            112.02
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "How would you model tracks and events from different sensors?\n→"
+        },
+        {
+          "bbox": [
+            67.42,
+            120.11,
+            324.49,
+            131.28
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "What is track-level fusion, and why is it hard?\n→"
+        },
+        {
+          "bbox": [
+            67.42,
+            139.37,
+            309.02,
+            150.55
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "What makes a map UI effective for decisions?\n→"
+        },
+        {
+          "bbox": [
+            67.42,
+            159.38,
+            355.41,
+            170.55
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "How do you make a C2 service reliable and replayable?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "see everything coming — a Build List field guide\n17 / 18"
+        }
+      ],
+      "charCount": 422,
+      "height": 792.0,
+      "pageNumber": 17,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            461.44,
+            15.39,
+            559.2,
+            24.06
+          ],
+          "blockIndex": 0,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "STACK · 6 / 6 ONLINE"
+        },
+        {
+          "bbox": [
+            51.86,
+            26.11,
+            376.32,
+            83.02
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "[ W R A P ]\nSituational awareness is a stack —\nsense, connect, display, decide."
+        },
+        {
+          "bbox": [
+            51.86,
+            97.14,
+            546.66,
+            108.31
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "A night-vision monocular, a HUD goggle, a sentry tower, an RF station, a mesh network, a command"
+        },
+        {
+          "bbox": [
+            51.86,
+            110.48,
+            546.66,
+            121.65
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "map — six builds that together are a personal situational-awareness stack, the same architecture"
+        },
+        {
+          "bbox": [
+            51.86,
+            123.81,
+            546.66,
+            134.99
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "behind the systems modern defense runs on. Every one senses, connects, or displays; none of them"
+        },
+        {
+          "bbox": [
+            51.86,
+            137.15,
+            556.97,
+            148.32
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "harm. The value is in the integration: optics, edge inference, control loops, spectrum monitoring,"
+        },
+        {
+          "bbox": [
+            51.86,
+            150.49,
+            556.97,
+            161.66
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "networking, and systems software, working as one. That is what the defense-tech companies everyone"
+        },
+        {
+          "bbox": [
+            51.86,
+            163.82,
+            232.26,
+            175.0
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "is talking about actually hire for."
+        },
+        {
+          "bbox": [
+            51.86,
+            196.43,
+            182.79,
+            211.36
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "// the skill ladder"
+        },
+        {
+          "bbox": [
+            51.86,
+            220.13,
+            443.58,
+            231.31
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Build them in order and each one hands you the technique the next one needs:"
+        },
+        {
+          "bbox": [
+            51.86,
+            239.09,
+            531.86,
+            250.65
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "imaging →HUD optics →autonomous sensing →spectrum monitoring →mesh networking →command &"
+        },
+        {
+          "bbox": [
+            51.86,
+            256.13,
+            89.21,
+            267.69
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "control"
+        },
+        {
+          "bbox": [
+            67.42,
+            293.96,
+            230.58,
+            303.59
+          ],
+          "blockIndex": 12,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "!\nTHE LINE THIS GUIDE STAYS ON"
+        },
+        {
+          "bbox": [
+            67.42,
+            306.08,
+            536.46,
+            317.25
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Every build here is receive-only, a sensor, a network, or a display. Nothing targets, jams,"
+        },
+        {
+          "bbox": [
+            67.42,
+            319.42,
+            541.6,
+            330.59
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "intercepts private communications, or carries anything that can harm — and nothing ever gets"
+        },
+        {
+          "bbox": [
+            67.42,
+            332.75,
+            541.6,
+            343.93
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "mounted on the sentry tower but a camera. Watch your own ground, decode only public signals,"
+        },
+        {
+          "bbox": [
+            67.42,
+            346.09,
+            510.68,
+            357.26
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "respect people who haven’t consented, and follow local law. Build the picture, not the"
+        },
+        {
+          "bbox": [
+            67.42,
+            359.43,
+            103.5,
+            370.6
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "weapon."
+        },
+        {
+          "bbox": [
+            67.42,
+            402.13,
+            104.77,
+            411.77
+          ],
+          "blockIndex": 18,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "DO THIS"
+        },
+        {
+          "bbox": [
+            67.42,
+            414.25,
+            536.45,
+            425.43
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Build even one. Film it — a pitch-black room appearing on screen, a waypoint sliding across"
+        },
+        {
+          "bbox": [
+            67.42,
+            427.59,
+            536.45,
+            438.76
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "your view as you turn your head, a tower slewing to follow you, a new emitter lighting up a"
+        },
+        {
+          "bbox": [
+            67.42,
+            440.93,
+            541.6,
+            452.1
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "waterfall, a teammate’s dot appearing with no cell signal, a map fusing it all — and put the"
+        },
+        {
+          "bbox": [
+            67.42,
+            454.26,
+            515.83,
+            465.44
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "code on GitHub with your architecture, your data model, and an honest note on scope and"
+        },
+        {
+          "bbox": [
+            67.42,
+            467.6,
+            453.98,
+            478.77
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "privacy. One working node and one clean repo prove you can build the stack."
+        },
+        {
+          "bbox": [
+            67.42,
+            510.57,
+            541.61,
+            521.75
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Full build notes, parts links, and the next field guide go out in The Build List. The people"
+        },
+        {
+          "bbox": [
+            67.42,
+            523.91,
+            510.7,
+            535.08
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "actually shipping these — and trading combiner and antenna tricks — are in Ohm’s Club."
+        },
+        {
+          "bbox": [
+            51.86,
+            563.64,
+            232.8,
+            574.23
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "— Enes (@1nska) · Electrical Engineer"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "see everything coming — a Build List field guide\n18 / 18"
+        }
+      ],
+      "charCount": 1920,
+      "height": 792.0,
+      "pageNumber": 18,
+      "textExtractable": true,
+      "width": 612.0
+    }
+  ],
+  "provenance": {
+    "confidence": "EXACT",
+    "extractionMethod": "pymupdf-blocks-v1",
+    "extractorVersion": "1.28.0",
+    "generatorVersion": null,
+    "origin": "extracted",
+    "source": "guide-001",
+    "sourceHash": "fdfb0020434976e8803d478a469c38516d9b0dec4152ee2e7d8b2dac2ceb0e09",
+    "sourcePage": null,
+    "sourcePath": "Engineering guides/(PART 20) 6_Engineering_Projects_That_See_Everything_Coming.pdf",
+    "sourceSection": "ROOT"
+  },
+  "relativePath": "Engineering guides/(PART 20) 6_Engineering_Projects_That_See_Everything_Coming.pdf",
+  "schemaVersion": "1.0.0",
+  "sha256": "fdfb0020434976e8803d478a469c38516d9b0dec4152ee2e7d8b2dac2ceb0e09",
+  "sourceId": "guide-001"
+}

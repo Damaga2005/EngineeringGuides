@@ -1,0 +1,6582 @@
+{
+  "metadata": {
+    "author": "(anonymous)",
+    "creationDate": "D:20260522044400+00'00'",
+    "creator": "(unspecified)",
+    "format": "PDF 1.4",
+    "modDate": "D:20260522044400+00'00'",
+    "producer": "ReportLab PDF Library - (opensource)",
+    "subject": "(unspecified)",
+    "title": "(anonymous)"
+  },
+  "pageCount": 23,
+  "pages": [
+    {
+      "blocks": [
+        {
+          "bbox": [
+            210.91,
+            100.7,
+            401.09,
+            114.47
+          ],
+          "blockIndex": 0,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "PHYSICAL AI • EMBODIED COMPUTING"
+        },
+        {
+          "bbox": [
+            104.79,
+            134.02,
+            507.21,
+            276.84
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "6 EE PROJECTS WHERE\nAI LIVES ON\nYOUR BODY"
+        },
+        {
+          "bbox": [
+            100.42,
+            309.42,
+            511.58,
+            327.29
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Neural interfaces. Silent speech. Intent detection. Tactile augmentation."
+        },
+        {
+          "bbox": [
+            156.43,
+            333.42,
+            455.56,
+            351.29
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "All built on one platform. One PCB. Six applications."
+        },
+        {
+          "bbox": [
+            87.2,
+            377.61,
+            453.15,
+            392.04
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "1. Silent Speech Neural Interface — talk to AI without anyone hearing you, $60"
+        },
+        {
+          "bbox": [
+            87.2,
+            397.61,
+            408.74,
+            412.04
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "2. EMG Prosthetic Hand — moves before your muscle contracts, $80"
+        },
+        {
+          "bbox": [
+            87.2,
+            417.61,
+            398.23,
+            432.04
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "3. Gesture-Controlled AR Coding — type in mid-air, anywhere, $50"
+        },
+        {
+          "bbox": [
+            87.2,
+            437.61,
+            404.67,
+            452.04
+          ],
+          "blockIndex": 7,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "4. Emotion-Aware AI Companion — physiological context for AI, $30"
+        },
+        {
+          "bbox": [
+            87.2,
+            457.61,
+            428.04,
+            472.04
+          ],
+          "blockIndex": 8,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "5. Tactile Augmentation Glove — feel objects before you touch them, $45"
+        },
+        {
+          "bbox": [
+            87.2,
+            477.61,
+            408.76,
+            492.04
+          ],
+          "blockIndex": 9,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "6. Subvocal AI Commands — hands-free computing, silent input, $35"
+        },
+        {
+          "bbox": [
+            241.33,
+            527.73,
+            370.66,
+            540.09
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "By @1nska • Electrical Engineer"
+        }
+      ],
+      "charCount": 637,
+      "height": 792.0,
+      "pageNumber": 1,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            204.65,
+            758.2,
+            407.35,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "@1nska  •  6 Physical AI Embodiment Projects  •  Page 2"
+        },
+        {
+          "bbox": [
+            67.2,
+            54.86,
+            239.53,
+            85.15
+          ],
+          "blockIndex": 1,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "THE PLATFORM"
+        },
+        {
+          "bbox": [
+            67.2,
+            97.35,
+            415.68,
+            118.01
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "One core. Six applications. Endless possibilities."
+        },
+        {
+          "bbox": [
+            67.2,
+            132.61,
+            544.8,
+            147.04
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Every project in this guide is built on the same core hardware platform. The Neural Bench architecture"
+        },
+        {
+          "bbox": [
+            67.2,
+            148.61,
+            544.8,
+            163.04
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "combines an 8-channel 24-bit biosignal acquisition chip (ADS1299), a high-performance STM32H7"
+        },
+        {
+          "bbox": [
+            67.2,
+            164.61,
+            544.8,
+            179.04
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "microcontroller, a Nordic nRF52 Bluetooth radio, and a LiPo charging system on a single PCB. What"
+        },
+        {
+          "bbox": [
+            67.2,
+            180.61,
+            544.8,
+            195.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "changes between projects is the electrode placement, the firmware configuration, and the ML model"
+        },
+        {
+          "bbox": [
+            67.2,
+            196.61,
+            524.74,
+            211.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "running on top. This is the philosophy: build the platform once, then build six (or sixty) applications."
+        },
+        {
+          "bbox": [
+            108.8,
+            514.77,
+            493.31,
+            529.28
+          ],
+          "blockIndex": 8,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Why this matters for your portfolio: Showing a recruiter six different applications"
+        },
+        {
+          "bbox": [
+            108.8,
+            530.77,
+            463.06,
+            545.2
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "built on one platform demonstrates engineering judgment — you understand"
+        },
+        {
+          "bbox": [
+            108.8,
+            546.77,
+            493.05,
+            561.2
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "abstraction, modularity, and platform thinking. That's worth more than six unrelated"
+        },
+        {
+          "bbox": [
+            108.8,
+            562.77,
+            143.23,
+            577.2
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "demos."
+        }
+      ],
+      "charCount": 855,
+      "height": 792.0,
+      "pageNumber": 2,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            204.65,
+            758.2,
+            407.35,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "@1nska  •  6 Physical AI Embodiment Projects  •  Page 3"
+        },
+        {
+          "bbox": [
+            67.2,
+            54.86,
+            193.08,
+            85.15
+          ],
+          "blockIndex": 1,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "THE STACK"
+        },
+        {
+          "bbox": [
+            67.2,
+            97.35,
+            278.13,
+            118.01
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Three layers. Master all three."
+        },
+        {
+          "bbox": [
+            67.2,
+            132.61,
+            544.8,
+            147.04
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Every embodied AI project follows the same architecture. The analog layer captures biosignals from"
+        },
+        {
+          "bbox": [
+            67.2,
+            148.61,
+            544.8,
+            163.04
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "the body. The DSP layer filters and conditions those signals. The AI layer classifies or regresses"
+        },
+        {
+          "bbox": [
+            67.2,
+            164.61,
+            544.8,
+            179.04
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "against the conditioned signal to produce a decision. Understanding this stack — and being able to"
+        },
+        {
+          "bbox": [
+            67.2,
+            180.61,
+            544.8,
+            195.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "design every layer — is what separates a hobbyist from an engineer who can ship a neural interface"
+        },
+        {
+          "bbox": [
+            67.2,
+            196.61,
+            105.14,
+            211.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "product."
+        },
+        {
+          "bbox": [
+            108.8,
+            462.61,
+            500.38,
+            477.12
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "The analog layer is where most projects fail. Anyone can train an ML model. Few"
+        },
+        {
+          "bbox": [
+            108.8,
+            478.61,
+            479.96,
+            493.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "can design a clean, low-noise, multi-channel biosignal acquisition front end. The"
+        },
+        {
+          "bbox": [
+            108.8,
+            494.61,
+            229.01,
+            509.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "analog layer is your moat."
+        }
+      ],
+      "charCount": 681,
+      "height": 792.0,
+      "pageNumber": 3,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            204.65,
+            758.2,
+            407.35,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "@1nska  •  6 Physical AI Embodiment Projects  •  Page 4"
+        },
+        {
+          "bbox": [
+            67.2,
+            54.72,
+            200.57,
+            87.77
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "PROJECT 1"
+        },
+        {
+          "bbox": [
+            67.2,
+            104.86,
+            383.87,
+            135.15
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Silent Speech Neural Interface"
+        },
+        {
+          "bbox": [
+            105.51,
+            143.43,
+            506.49,
+            161.29
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Mouth words silently. AI reads your muscles. Text appears on screen."
+        },
+        {
+          "bbox": [
+            89.2,
+            175.69,
+            505.11,
+            188.82
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Cost: ~$60\nDifficulty: Advanced\nBuild Time: 2-4 weekends"
+        },
+        {
+          "bbox": [
+            67.2,
+            222.35,
+            191.39,
+            243.01
+          ],
+          "blockIndex": 5,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Why This Matters"
+        },
+        {
+          "bbox": [
+            67.2,
+            249.61,
+            544.8,
+            264.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Meta acquired CTRL-labs for nearly $1 billion to build wrist-based gesture input. They have not built"
+        },
+        {
+          "bbox": [
+            67.2,
+            265.61,
+            544.8,
+            280.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "silent speech yet. The reason is simple: their entire platform is locked into wrist EMG, and silent speech"
+        },
+        {
+          "bbox": [
+            67.2,
+            281.61,
+            544.8,
+            296.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "requires reading muscle signals from the neck, jaw, and throat — a completely different body location,"
+        },
+        {
+          "bbox": [
+            67.2,
+            297.61,
+            544.8,
+            312.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "different muscle group, and different ML model. The acquirer for silent speech is Apple, who needs a"
+        },
+        {
+          "bbox": [
+            67.2,
+            313.61,
+            544.8,
+            328.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "private input method for Vision Pro and Siri, or defense contractors who need silent battlefield"
+        },
+        {
+          "bbox": [
+            67.2,
+            329.61,
+            412.11,
+            344.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "communication. This is the flagship project. The one that gets you noticed."
+        },
+        {
+          "bbox": [
+            108.8,
+            363.61,
+            479.02,
+            378.12
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "The opportunity: Silent speech has the same demo impact as 'typing without a"
+        },
+        {
+          "bbox": [
+            108.8,
+            379.61,
+            485.14,
+            394.04
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "keyboard' — but Meta isn't building it. A 3-4 year window exists before they pivot."
+        },
+        {
+          "bbox": [
+            108.8,
+            395.61,
+            348.66,
+            410.04
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "This is the project that defines a career or a startup."
+        },
+        {
+          "bbox": [
+            67.2,
+            445.35,
+            213.08,
+            466.01
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "System Architecture"
+        }
+      ],
+      "charCount": 1047,
+      "height": 792.0,
+      "pageNumber": 4,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            204.65,
+            758.2,
+            407.35,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "@1nska  •  6 Physical AI Embodiment Projects  •  Page 5"
+        },
+        {
+          "bbox": [
+            67.2,
+            55.35,
+            162.21,
+            76.01
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "How It Works"
+        },
+        {
+          "bbox": [
+            87.2,
+            82.61,
+            539.03,
+            97.12
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• 8 EMG electrodes around the neck and jaw: Specifically placed over the digastric, mylohyoid,"
+        },
+        {
+          "bbox": [
+            87.2,
+            98.61,
+            530.11,
+            113.04
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "geniohyoid (chin), platysma (neck), and laryngeal muscles. Each muscle activates with different"
+        },
+        {
+          "bbox": [
+            87.2,
+            114.61,
+            541.81,
+            129.04
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "phoneme groups — labial sounds (P, B, M) light up different muscles than dental sounds (T, D, N)"
+        },
+        {
+          "bbox": [
+            87.2,
+            130.61,
+            192.82,
+            145.04
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "or velar sounds (K, G)."
+        },
+        {
+          "bbox": [
+            87.2,
+            150.61,
+            531.7,
+            165.12
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• ADS1299 simultaneous acquisition: Texas Instruments' gold-standard biosignal ADC. 24-bit"
+        },
+        {
+          "bbox": [
+            87.2,
+            166.61,
+            542.97,
+            181.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "resolution, 8 channels sampled simultaneously at up to 16kSPS. Built-in PGA (programmable gain"
+        },
+        {
+          "bbox": [
+            87.2,
+            182.61,
+            536.83,
+            197.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "amp) with selectable gain from 1x to 24x. Common-mode rejection ratio >100dB. This single chip"
+        },
+        {
+          "bbox": [
+            87.2,
+            198.61,
+            478.77,
+            213.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "replaces what would otherwise be a discrete board with 8 instrumentation amplifiers."
+        },
+        {
+          "bbox": [
+            87.2,
+            218.61,
+            535.54,
+            233.12
+          ],
+          "blockIndex": 10,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• STM32H7 DSP: The MCU applies bandpass filtering (20-450Hz, the EMG band), notch filtering"
+        },
+        {
+          "bbox": [
+            87.2,
+            234.61,
+            524.3,
+            249.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "(60Hz), and computes spectral features in real-time. Output: a continuous stream of 8-channel"
+        },
+        {
+          "bbox": [
+            87.2,
+            250.61,
+            204.51,
+            265.04
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "feature vectors at 100Hz."
+        },
+        {
+          "bbox": [
+            87.2,
+            270.61,
+            533.88,
+            285.12
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• Transformer model (EMG → text): A small encoder-decoder transformer (~2-5M parameters)"
+        },
+        {
+          "bbox": [
+            87.2,
+            286.61,
+            534.25,
+            301.04
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "trained on paired EMG-to-text data. The encoder converts the EMG feature stream into a hidden"
+        },
+        {
+          "bbox": [
+            87.2,
+            302.61,
+            536.58,
+            317.04
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "representation; the decoder generates the corresponding text. Runs on-device using TensorFlow"
+        },
+        {
+          "bbox": [
+            87.2,
+            318.61,
+            202.71,
+            333.04
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Lite Micro or CMSIS-NN."
+        },
+        {
+          "bbox": [
+            87.2,
+            338.61,
+            537.85,
+            353.12
+          ],
+          "blockIndex": 17,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• Bluetooth output: Decoded text streams to a paired device (phone, computer, AI assistant) via"
+        },
+        {
+          "bbox": [
+            87.2,
+            354.61,
+            422.77,
+            369.04
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "BLE GATT. Latency from mouthed word to displayed text: under 500ms."
+        },
+        {
+          "bbox": [
+            67.2,
+            388.35,
+            223.92,
+            409.01
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Key Design Decisions"
+        },
+        {
+          "bbox": [
+            87.2,
+            415.61,
+            542.8,
+            430.12
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ Why neck/jaw electrodes instead of throat? Throat electrodes are awkward to wear and pick"
+        },
+        {
+          "bbox": [
+            87.2,
+            431.61,
+            541.23,
+            446.04
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "up too much swallowing/breathing artifact. The neck/jaw region captures the same speech-related"
+        },
+        {
+          "bbox": [
+            87.2,
+            447.61,
+            257.58,
+            462.04
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "muscles with a wearable form factor."
+        },
+        {
+          "bbox": [
+            87.2,
+            467.61,
+            541.66,
+            482.12
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ Why 8 channels minimum? Speech production involves dozens of muscles. 8 channels is the"
+        },
+        {
+          "bbox": [
+            87.2,
+            483.61,
+            514.34,
+            498.04
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "practical minimum to distinguish phoneme classes — fewer channels lose information; more"
+        },
+        {
+          "bbox": [
+            87.2,
+            499.61,
+            372.57,
+            514.04
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "channels add complexity without proportional accuracy gains."
+        },
+        {
+          "bbox": [
+            87.2,
+            519.61,
+            544.8,
+            534.12
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ Why a transformer instead of a CNN? Speech is sequential. The relationship between muscle"
+        },
+        {
+          "bbox": [
+            87.2,
+            535.61,
+            544.74,
+            550.04
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "activations and meaning depends on temporal context — what came before. Transformers capture"
+        },
+        {
+          "bbox": [
+            87.2,
+            551.61,
+            294.39,
+            566.04
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "long-range dependencies that CNNs cannot."
+        }
+      ],
+      "charCount": 2108,
+      "height": 792.0,
+      "pageNumber": 5,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            204.65,
+            758.2,
+            407.35,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "@1nska  •  6 Physical AI Embodiment Projects  •  Page 6"
+        },
+        {
+          "bbox": [
+            67.2,
+            55.35,
+            178.07,
+            76.01
+          ],
+          "blockIndex": 1,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Bill of Materials"
+        },
+        {
+          "bbox": [
+            114.0,
+            88.73,
+            479.06,
+            101.82
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Component\nPart / Spec\nQty\n~Cost"
+        },
+        {
+          "bbox": [
+            114.0,
+            113.69,
+            481.45,
+            126.74
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "ADS1299\n8-channel 24-bit biosignal ADC\n1\n$25.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            138.69,
+            476.17,
+            151.74
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "STM32H7\nCortex-M7 dev board\n1\n$8.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            163.69,
+            476.17,
+            176.74
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "nRF52 module\nBluetooth LE 5.0\n1\n$4.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            188.69,
+            476.17,
+            201.74
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Dry EMG electrodes\nSnap-on, conductive fabric\n8\n$8.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            213.69,
+            476.17,
+            226.74
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Flex PCB\nCustom, 4-layer (JLCPCB)\n1\n$4.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            238.69,
+            476.17,
+            251.74
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Neck strap mount\n3D-printed TPU\n1\n$2.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            263.69,
+            476.17,
+            276.74
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "LiPo battery\n3.7V 500mAh\n1\n$3.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            288.69,
+            476.17,
+            301.74
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "TP4056\nLiPo charging IC\n1\n$0.50"
+        },
+        {
+          "bbox": [
+            114.0,
+            313.69,
+            476.17,
+            326.74
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Misc passives\nCaps, resistors, ferrites\n~30\n$5.00"
+        },
+        {
+          "bbox": [
+            67.2,
+            358.35,
+            149.71,
+            379.01
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Build Steps"
+        },
+        {
+          "bbox": [
+            87.2,
+            385.61,
+            521.92,
+            400.12
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "PCB design: Design a 4-layer flex PCB in KiCad. Layer stackup: signal-ground-power-signal."
+        },
+        {
+          "bbox": [
+            87.2,
+            401.61,
+            537.73,
+            416.04
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Route the 8 differential EMG inputs as twisted pairs with matched length. Keep digital traces (SPI"
+        },
+        {
+          "bbox": [
+            87.2,
+            417.61,
+            538.92,
+            432.04
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "between ADS1299 and STM32H7) away from analog inputs. Include a ground plane stitched with"
+        },
+        {
+          "bbox": [
+            87.2,
+            433.61,
+            343.99,
+            448.04
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "vias. Manufacture at JLCPCB — about $4 for 5 boards."
+        },
+        {
+          "bbox": [
+            87.2,
+            453.61,
+            533.65,
+            468.12
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Electrode array assembly: Sew or adhere 8 snap-on EMG electrodes onto a fabric neck collar."
+        },
+        {
+          "bbox": [
+            87.2,
+            469.61,
+            472.38,
+            484.04
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Reference positions: 2 under the chin (mylohyoid/geniohyoid), 2 on the lateral neck"
+        },
+        {
+          "bbox": [
+            87.2,
+            485.61,
+            516.73,
+            500.04
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "(sternocleidomastoid), 2 on the platysma, 2 near the laryngeal area. Plus 2 ground/reference"
+        },
+        {
+          "bbox": [
+            87.2,
+            501.61,
+            328.12,
+            516.04
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "electrodes. Test impedance below 5kΩ at each site."
+        },
+        {
+          "bbox": [
+            87.2,
+            521.61,
+            526.63,
+            536.12
+          ],
+          "blockIndex": 21,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Firmware bring-up: Configure ADS1299 via SPI: gain x12, sample rate 1kSPS, all 8 channels"
+        },
+        {
+          "bbox": [
+            87.2,
+            537.61,
+            528.4,
+            552.04
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "active. Implement a circular buffer that stores 1 second of data per channel. Apply digital filters:"
+        },
+        {
+          "bbox": [
+            87.2,
+            553.61,
+            544.8,
+            568.04
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "20-450Hz bandpass + 60Hz notch. Verify with oscilloscope-equivalent display on connected laptop"
+        },
+        {
+          "bbox": [
+            87.2,
+            569.61,
+            430.94,
+            584.04
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "— you should see clear EMG bursts when you mouth different phonemes."
+        },
+        {
+          "bbox": [
+            87.2,
+            589.61,
+            508.85,
+            604.12
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Dataset collection: Build a training dataset by recording 1000+ short utterances. Software"
+        },
+        {
+          "bbox": [
+            87.2,
+            605.61,
+            542.94,
+            620.04
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "prompts you to mouth a word silently; system records the EMG; you confirm the word. Save (EMG"
+        },
+        {
+          "bbox": [
+            87.2,
+            621.61,
+            542.4,
+            636.04
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "sequence, label) pairs. For initial proof of concept, target a vocabulary of 100 common words. Use"
+        },
+        {
+          "bbox": [
+            87.2,
+            637.61,
+            258.77,
+            652.04
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "this dataset to train your transformer."
+        }
+      ],
+      "charCount": 1796,
+      "height": 792.0,
+      "pageNumber": 6,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            204.65,
+            758.2,
+            407.35,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "@1nska  •  6 Physical AI Embodiment Projects  •  Page 7"
+        },
+        {
+          "bbox": [
+            87.2,
+            55.61,
+            530.66,
+            70.12
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Model training and deployment: Train an encoder-decoder transformer in PyTorch using your"
+        },
+        {
+          "bbox": [
+            87.2,
+            71.61,
+            518.5,
+            86.04
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "dataset. Architecture: 4-layer encoder, 4-layer decoder, hidden dim 128. Quantize to int8 and"
+        },
+        {
+          "bbox": [
+            87.2,
+            87.61,
+            534.74,
+            102.04
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "export to TensorFlow Lite Micro format. Deploy on STM32H7 with CMSIS-NN acceleration. Final"
+        },
+        {
+          "bbox": [
+            87.2,
+            103.61,
+            526.66,
+            118.04
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "demo: wear the device, mouth a word from your vocabulary, watch text appear on a connected"
+        },
+        {
+          "bbox": [
+            87.2,
+            119.61,
+            119.31,
+            134.04
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "phone."
+        },
+        {
+          "bbox": [
+            108.8,
+            149.66,
+            212.08,
+            164.12
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Interview Questions:"
+        },
+        {
+          "bbox": [
+            108.8,
+            165.61,
+            448.87,
+            180.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "→ Why is the ADS1299 specifically used for biosignal acquisition — what"
+        },
+        {
+          "bbox": [
+            108.8,
+            181.61,
+            320.05,
+            196.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "differentiates it from a general-purpose ADC?"
+        },
+        {
+          "bbox": [
+            108.8,
+            197.61,
+            445.38,
+            212.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "→ How do you handle electrode-skin impedance variation across users?"
+        },
+        {
+          "bbox": [
+            108.8,
+            213.61,
+            452.34,
+            228.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "→ Why use a transformer model instead of CNN or RNN for EMG-to-text?"
+        },
+        {
+          "bbox": [
+            108.8,
+            229.61,
+            348.5,
+            244.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "→ How would you handle out-of-vocabulary words?"
+        },
+        {
+          "bbox": [
+            108.8,
+            245.61,
+            420.57,
+            260.04
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "→ What's the latency budget from mouthed word to displayed text?"
+        },
+        {
+          "bbox": [
+            108.8,
+            261.61,
+            406.88,
+            276.04
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "→ How would you scale this to a continuous dictation use case?"
+        }
+      ],
+      "charCount": 869,
+      "height": 792.0,
+      "pageNumber": 7,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            204.65,
+            758.2,
+            407.35,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "@1nska  •  6 Physical AI Embodiment Projects  •  Page 8"
+        },
+        {
+          "bbox": [
+            67.2,
+            54.72,
+            200.57,
+            87.77
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "PROJECT 2"
+        },
+        {
+          "bbox": [
+            67.2,
+            104.86,
+            514.59,
+            135.15
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "EMG Prosthetic Hand with Intent Detection"
+        },
+        {
+          "bbox": [
+            95.04,
+            143.43,
+            516.96,
+            161.29
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "5-finger control from forearm muscle signals. Faster than your own reflex."
+        },
+        {
+          "bbox": [
+            89.2,
+            175.69,
+            505.11,
+            188.82
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Cost: ~$80\nDifficulty: Advanced\nBuild Time: 2-4 weekends"
+        },
+        {
+          "bbox": [
+            67.2,
+            222.35,
+            191.39,
+            243.01
+          ],
+          "blockIndex": 5,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Why This Matters"
+        },
+        {
+          "bbox": [
+            67.2,
+            249.61,
+            544.8,
+            264.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Commercial myoelectric prosthetic hands cost $20,000-$50,000 and offer 2-4 grip patterns. Modern"
+        },
+        {
+          "bbox": [
+            67.2,
+            265.61,
+            544.8,
+            280.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "AI-driven prosthetics like the Ottobock bebionic or Open Bionics Hero Arm offer individual finger"
+        },
+        {
+          "bbox": [
+            67.2,
+            281.61,
+            544.8,
+            296.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "control, but at higher prices and with significant calibration requirements. This project builds a 5-finger"
+        },
+        {
+          "bbox": [
+            67.2,
+            297.61,
+            544.8,
+            312.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "prosthetic hand controlled by 8-channel forearm EMG with per-user CNN classification — the same"
+        },
+        {
+          "bbox": [
+            67.2,
+            313.61,
+            544.8,
+            328.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "architecture used in research-grade prosthetics. Accessibility is the most meaningful application of"
+        },
+        {
+          "bbox": [
+            67.2,
+            329.61,
+            528.83,
+            344.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "biomedical EE, and Medtronic, Abbott, and Össur all have active acquisition appetites in this space."
+        },
+        {
+          "bbox": [
+            67.2,
+            359.35,
+            213.08,
+            380.01
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "System Architecture"
+        },
+        {
+          "bbox": [
+            67.2,
+            600.59,
+            162.21,
+            621.24
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "How It Works"
+        },
+        {
+          "bbox": [
+            87.2,
+            627.85,
+            498.8,
+            642.36
+          ],
+          "blockIndex": 14,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• Forearm EMG array: Same 8-channel acquisition as the silent speech project, but with"
+        },
+        {
+          "bbox": [
+            87.2,
+            643.85,
+            525.47,
+            658.28
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "electrodes placed in a ring around the upper forearm over the flexor digitorum superficialis and"
+        },
+        {
+          "bbox": [
+            87.2,
+            659.85,
+            533.61,
+            674.28
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "extensor digitorum communis muscles. These muscles control finger flexion and extension; their"
+        },
+        {
+          "bbox": [
+            87.2,
+            675.85,
+            510.3,
+            690.28
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "electrical signals appear at the skin surface as the user attempts to move individual fingers."
+        },
+        {
+          "bbox": [
+            87.2,
+            695.85,
+            537.02,
+            710.36
+          ],
+          "blockIndex": 18,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• Pre-amp + filter: Same DSP pipeline as silent speech — 20-450Hz bandpass with 60Hz notch."
+        },
+        {
+          "bbox": [
+            87.2,
+            711.85,
+            537.67,
+            726.28
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Critical to remove motion artifact (slow drift below 20Hz) and electromagnetic interference (power"
+        }
+      ],
+      "charCount": 1436,
+      "height": 792.0,
+      "pageNumber": 8,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            204.65,
+            758.2,
+            407.35,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "@1nska  •  6 Physical AI Embodiment Projects  •  Page 9"
+        },
+        {
+          "bbox": [
+            87.2,
+            55.61,
+            177.07,
+            70.04
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "line noise at 60Hz)."
+        },
+        {
+          "bbox": [
+            87.2,
+            75.61,
+            529.95,
+            90.12
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• Per-user classifier (CNN): A small convolutional neural network trained on the user's specific"
+        },
+        {
+          "bbox": [
+            87.2,
+            91.61,
+            491.27,
+            106.04
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "muscle activation patterns. Every person's forearm anatomy differs, so models must be"
+        },
+        {
+          "bbox": [
+            87.2,
+            107.61,
+            517.9,
+            122.04
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "personalized. The training takes 60 seconds: the system shows the user a finger to flex; user"
+        },
+        {
+          "bbox": [
+            87.2,
+            123.61,
+            514.68,
+            138.04
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "attempts the motion; system records the EMG pattern. Repeat for all 10 motions (5 fingers ×"
+        },
+        {
+          "bbox": [
+            87.2,
+            139.61,
+            144.39,
+            154.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "flex/extend)."
+        },
+        {
+          "bbox": [
+            87.2,
+            159.61,
+            541.79,
+            174.12
+          ],
+          "blockIndex": 7,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• Intent → finger mapping: Classifier output is a probability distribution over 10 possible motions."
+        },
+        {
+          "bbox": [
+            87.2,
+            175.61,
+            532.45,
+            190.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "The highest-probability motion is selected; intermediate-probability motions activate proportional"
+        },
+        {
+          "bbox": [
+            87.2,
+            191.61,
+            293.8,
+            206.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "finger angles for smooth, continuous control."
+        },
+        {
+          "bbox": [
+            87.2,
+            211.61,
+            534.06,
+            226.12
+          ],
+          "blockIndex": 10,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• Servo drivers + 3D-printed hand: 5 servo motors (one per finger) driven by current-controlled"
+        },
+        {
+          "bbox": [
+            87.2,
+            227.61,
+            539.46,
+            242.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "MOSFET drivers. Position feedback from each servo enables PID control. The hand is 3D-printed"
+        },
+        {
+          "bbox": [
+            87.2,
+            243.61,
+            515.54,
+            258.04
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "using open-source designs (Inmoov, Open Bionics) with TPU tendons providing compliance."
+        },
+        {
+          "bbox": [
+            67.2,
+            273.35,
+            178.07,
+            294.01
+          ],
+          "blockIndex": 13,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Bill of Materials"
+        },
+        {
+          "bbox": [
+            114.0,
+            306.74,
+            479.06,
+            319.82
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Component\nPart / Spec\nQty\n~Cost"
+        },
+        {
+          "bbox": [
+            114.0,
+            331.69,
+            481.45,
+            344.74
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "ADS1299\n8-channel biosignal ADC\n1\n$25.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            356.69,
+            476.17,
+            369.74
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "STM32H7\nCortex-M7 with NN acceleration\n1\n$8.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            381.69,
+            476.17,
+            394.74
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Dry EMG electrodes\nSewn into forearm sleeve\n8\n$8.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            406.69,
+            481.45,
+            419.74
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Servo motors\nMetal gear, position feedback\n5\n$30.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            431.69,
+            476.17,
+            444.74
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Servo driver board\nPCA9685 16-ch PWM\n1\n$3.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            456.69,
+            476.17,
+            469.74
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "3D-printed hand\nPLA + TPU tendons\n1\n$5.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            481.69,
+            476.17,
+            494.74
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "LiPo battery\n7.4V 2000mAh (2S)\n1\n$8.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            506.69,
+            476.17,
+            519.74
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Buck converter\n5V for servos, 3.3V for logic\n1\n$2.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            531.69,
+            476.17,
+            544.74
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Forearm sleeve\nCompression fabric mount\n1\n$3.00"
+        }
+      ],
+      "charCount": 1429,
+      "height": 792.0,
+      "pageNumber": 9,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            202.43,
+            758.2,
+            409.57,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "@1nska  •  6 Physical AI Embodiment Projects  •  Page 10"
+        },
+        {
+          "bbox": [
+            67.2,
+            55.35,
+            149.71,
+            76.01
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Build Steps"
+        },
+        {
+          "bbox": [
+            87.2,
+            82.61,
+            542.94,
+            97.12
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Hand assembly: Print the open-source Inmoov or Hero Arm files in PLA. Print finger joints in TPU"
+        },
+        {
+          "bbox": [
+            87.2,
+            98.61,
+            540.64,
+            113.04
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "for flexibility. Route TPU tendons from fingertips through the palm and out the wrist, terminating at"
+        },
+        {
+          "bbox": [
+            87.2,
+            114.61,
+            534.22,
+            129.04
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "servo horns. Mount 5 servos on the forearm side of the wrist joint. Test mechanical motion: each"
+        },
+        {
+          "bbox": [
+            87.2,
+            130.61,
+            330.58,
+            145.04
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "servo should produce one finger flex when actuated."
+        },
+        {
+          "bbox": [
+            87.2,
+            150.61,
+            509.11,
+            165.12
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "EMG sleeve fabrication: Sew 8 EMG electrodes into a compression sleeve at the forearm"
+        },
+        {
+          "bbox": [
+            87.2,
+            166.61,
+            543.58,
+            181.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "positions described above. Wire each electrode to the snap connector on your Neural Bench PCB."
+        },
+        {
+          "bbox": [
+            87.2,
+            182.61,
+            506.82,
+            197.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Adjust positioning until you get clean signals on all channels when the user attempts finger"
+        },
+        {
+          "bbox": [
+            87.2,
+            198.61,
+            144.38,
+            213.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "movements."
+        },
+        {
+          "bbox": [
+            87.2,
+            218.61,
+            535.39,
+            233.12
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Calibration session: Run the calibration software: the user wears the sleeve and attempts each"
+        },
+        {
+          "bbox": [
+            87.2,
+            234.61,
+            532.77,
+            249.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "of 10 finger movements (5 fingers × flex/extend) for 5 seconds each. The software records EMG"
+        },
+        {
+          "bbox": [
+            87.2,
+            250.61,
+            501.28,
+            265.04
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "signals and labels them. Total calibration time: ~60 seconds. The data is used to train the"
+        },
+        {
+          "bbox": [
+            87.2,
+            266.61,
+            174.71,
+            281.04
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "user-specific CNN."
+        },
+        {
+          "bbox": [
+            87.2,
+            286.61,
+            544.8,
+            301.12
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Model training: Train a small CNN (3 conv layers + 2 dense) on the calibration data. Input: 200ms"
+        },
+        {
+          "bbox": [
+            87.2,
+            302.61,
+            536.84,
+            317.04
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "windows of 8-channel EMG (200 samples × 8 channels). Output: 10-class probability distribution."
+        },
+        {
+          "bbox": [
+            87.2,
+            318.61,
+            505.94,
+            333.04
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Training runs on a laptop in <2 minutes; model is then deployed to the STM32H7 via USB."
+        },
+        {
+          "bbox": [
+            87.2,
+            338.61,
+            542.94,
+            353.12
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Closed-loop control test: Wear the sleeve, attempt finger movements, watch the prosthetic hand"
+        },
+        {
+          "bbox": [
+            87.2,
+            354.61,
+            544.8,
+            369.04
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "respond. Measure latency: time from EMG burst to servo motion start. Target: <100ms. If latency is"
+        },
+        {
+          "bbox": [
+            87.2,
+            370.61,
+            535.4,
+            385.04
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "too high, optimize the inference loop (reduce model size, use quantization). Test individual finger"
+        },
+        {
+          "bbox": [
+            87.2,
+            386.61,
+            352.14,
+            401.04
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "control vs. full hand grips. Document accuracy per finger."
+        },
+        {
+          "bbox": [
+            108.8,
+            416.67,
+            212.08,
+            431.12
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Interview Questions:"
+        },
+        {
+          "bbox": [
+            108.8,
+            432.61,
+            475.16,
+            447.04
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "→ Why do prosthetic hand classifiers need to be per-user instead of universal?"
+        },
+        {
+          "bbox": [
+            108.8,
+            448.61,
+            481.28,
+            463.04
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "→ What's the difference between intent detection and motion detection in EMG?"
+        },
+        {
+          "bbox": [
+            108.8,
+            464.61,
+            503.2,
+            479.04
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "→ How do you handle the case where the user wears the sleeve in a slightly different"
+        },
+        {
+          "bbox": [
+            108.8,
+            480.61,
+            224.94,
+            495.04
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "position than calibration?"
+        },
+        {
+          "bbox": [
+            108.8,
+            496.61,
+            471.62,
+            511.04
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "→ Why use current-controlled servo drivers instead of standard PWM control?"
+        },
+        {
+          "bbox": [
+            108.8,
+            512.61,
+            454.73,
+            527.04
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "→ How would you add tactile feedback (sensation) for the prosthetic user?"
+        },
+        {
+          "bbox": [
+            108.8,
+            528.61,
+            492.03,
+            543.04
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "→ What FDA regulatory pathway exists for medical-grade myoelectric prosthetics?"
+        }
+      ],
+      "charCount": 2128,
+      "height": 792.0,
+      "pageNumber": 10,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            202.43,
+            758.2,
+            409.57,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "@1nska  •  6 Physical AI Embodiment Projects  •  Page 11"
+        },
+        {
+          "bbox": [
+            67.2,
+            54.72,
+            200.57,
+            87.77
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "PROJECT 3"
+        },
+        {
+          "bbox": [
+            67.2,
+            104.86,
+            485.24,
+            135.15
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Gesture-Controlled AR Coding Interface"
+        },
+        {
+          "bbox": [
+            103.52,
+            143.43,
+            508.47,
+            161.29
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Sixteen-channel wrist EMG + screen-reading camera. Type anywhere."
+        },
+        {
+          "bbox": [
+            89.2,
+            175.69,
+            505.11,
+            188.82
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Cost: ~$50\nDifficulty: Advanced\nBuild Time: 2-4 weekends"
+        },
+        {
+          "bbox": [
+            67.2,
+            222.35,
+            191.39,
+            243.01
+          ],
+          "blockIndex": 5,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Why This Matters"
+        },
+        {
+          "bbox": [
+            67.2,
+            249.61,
+            544.8,
+            264.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Meta's Neural Band shipped in 2025 with a vocabulary of approximately a dozen gestures. It works, but"
+        },
+        {
+          "bbox": [
+            67.2,
+            265.61,
+            544.8,
+            280.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "it's a closed ecosystem locked to Ray-Ban Display glasses. The next frontier is full text input — typing"
+        },
+        {
+          "bbox": [
+            67.2,
+            281.61,
+            544.8,
+            296.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "without a keyboard. Apple is researching this for Vision Pro. The competitive advantage: more"
+        },
+        {
+          "bbox": [
+            67.2,
+            297.61,
+            544.8,
+            312.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "channels (16 vs. Meta's lower count), a camera that reads screen context to enable predictive"
+        },
+        {
+          "bbox": [
+            67.2,
+            313.61,
+            544.8,
+            328.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "completion, and an open API that works across all devices. This is the project that demonstrates"
+        },
+        {
+          "bbox": [
+            67.2,
+            329.61,
+            364.22,
+            344.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "competence with both biosignal acquisition AND multi-modal AI."
+        },
+        {
+          "bbox": [
+            67.2,
+            359.35,
+            213.08,
+            380.01
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "System Architecture"
+        },
+        {
+          "bbox": [
+            67.2,
+            600.59,
+            162.21,
+            621.24
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "How It Works"
+        },
+        {
+          "bbox": [
+            87.2,
+            627.85,
+            536.13,
+            642.36
+          ],
+          "blockIndex": 14,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "• 16-channel EMG wrist band: Two stacked ADS1299 chips provide 16 simultaneous channels."
+        },
+        {
+          "bbox": [
+            87.2,
+            643.85,
+            538.9,
+            658.28
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "The wrist band is a ring of electrodes that wraps once around the forearm just below the elbow —"
+        },
+        {
+          "bbox": [
+            87.2,
+            659.85,
+            521.98,
+            674.28
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "the location where individual finger control signals are strongest. Each finger creates a unique"
+        },
+        {
+          "bbox": [
+            87.2,
+            675.85,
+            177.67,
+            690.28
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "16-channel pattern."
+        },
+        {
+          "bbox": [
+            87.2,
+            695.85,
+            519.16,
+            710.36
+          ],
+          "blockIndex": 18,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "• Camera (back of hand or fixed): A small camera reads your screen content via OCR. This"
+        },
+        {
+          "bbox": [
+            87.2,
+            711.85,
+            537.99,
+            726.28
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "provides context for predictive completion — if you're typing in a code editor and the system sees"
+        }
+      ],
+      "charCount": 1305,
+      "height": 792.0,
+      "pageNumber": 11,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            202.43,
+            758.2,
+            409.57,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "@1nska  •  6 Physical AI Embodiment Projects  •  Page 12"
+        },
+        {
+          "bbox": [
+            87.2,
+            55.61,
+            312.47,
+            70.04
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Python syntax, it predicts completions in Python."
+        },
+        {
+          "bbox": [
+            87.2,
+            75.61,
+            534.64,
+            90.12
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "• Multi-modal sensor fusion: Two parallel streams (EMG features + screen context) feed into a"
+        },
+        {
+          "bbox": [
+            87.2,
+            91.61,
+            515.13,
+            106.04
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "small transformer that fuses them. The EMG stream provides 'what you're trying to type'; the"
+        },
+        {
+          "bbox": [
+            87.2,
+            107.61,
+            378.92,
+            122.04
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "camera stream provides 'what you should be typing in context.'"
+        },
+        {
+          "bbox": [
+            87.2,
+            127.61,
+            530.24,
+            142.12
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "• Gesture + intent classifier: Maps EMG patterns to keystrokes. Tap index finger = 'I' key. Tap"
+        },
+        {
+          "bbox": [
+            87.2,
+            143.61,
+            509.2,
+            158.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "middle finger = 'M' key. Pinch = 'space.' Swipe right = 'cursor right.' The mapping is learned"
+        },
+        {
+          "bbox": [
+            87.2,
+            159.61,
+            536.56,
+            174.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "per-user through a 5-minute calibration where the user types known sentences while wearing the"
+        },
+        {
+          "bbox": [
+            87.2,
+            175.61,
+            113.47,
+            190.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "band."
+        },
+        {
+          "bbox": [
+            87.2,
+            195.61,
+            528.52,
+            210.12
+          ],
+          "blockIndex": 9,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "• USB-HID keyboard output: The device emulates a standard USB HID keyboard. To the host"
+        },
+        {
+          "bbox": [
+            87.2,
+            211.61,
+            520.78,
+            226.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "computer, it looks like any keyboard — works with any OS, any application, no special drivers"
+        },
+        {
+          "bbox": [
+            87.2,
+            227.61,
+            128.63,
+            242.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "required."
+        },
+        {
+          "bbox": [
+            67.2,
+            257.35,
+            178.07,
+            278.01
+          ],
+          "blockIndex": 12,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Bill of Materials"
+        },
+        {
+          "bbox": [
+            114.0,
+            290.73,
+            479.06,
+            303.82
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Component\nPart / Spec\nQty\n~Cost"
+        },
+        {
+          "bbox": [
+            114.0,
+            315.69,
+            481.45,
+            328.74
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "ADS1299\n16-channel total (2 chips)\n2\n$50.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            340.69,
+            476.17,
+            353.74
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "STM32H7\nMain processor\n1\n$8.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            365.69,
+            476.17,
+            378.74
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "OV2640 camera\nSmall format, SPI\n1\n$3.50"
+        },
+        {
+          "bbox": [
+            114.0,
+            390.69,
+            481.45,
+            403.74
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Dry EMG electrodes\n16 ring around forearm\n16\n$16.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            415.69,
+            476.17,
+            428.74
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Flex PCB\nCustom 4-layer\n1\n$5.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            440.69,
+            476.17,
+            453.74
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "USB Type-C connector\nFor HID output\n1\n$0.50"
+        },
+        {
+          "bbox": [
+            114.0,
+            465.69,
+            476.17,
+            478.74
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "3D-printed band\nTPU wrist band\n1\n$2.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            490.69,
+            476.17,
+            503.74
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "LiPo battery\n3.7V 500mAh\n1\n$3.00"
+        }
+      ],
+      "charCount": 1184,
+      "height": 792.0,
+      "pageNumber": 12,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            202.43,
+            758.2,
+            409.57,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "@1nska  •  6 Physical AI Embodiment Projects  •  Page 13"
+        },
+        {
+          "bbox": [
+            67.2,
+            55.35,
+            149.71,
+            76.01
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Build Steps"
+        },
+        {
+          "bbox": [
+            87.2,
+            82.61,
+            526.6,
+            97.12
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Dual ADS1299 setup: Cascade two ADS1299 chips via the DAISY_IN/DAISY_OUT pins. This"
+        },
+        {
+          "bbox": [
+            87.2,
+            98.61,
+            538.32,
+            113.04
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "gives 16 simultaneous channels from a single SPI bus. Configure both chips identically: gain x12,"
+        },
+        {
+          "bbox": [
+            87.2,
+            114.61,
+            464.2,
+            129.04
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "sample rate 1kSPS. Verify on a test signal that both chips sample synchronously."
+        },
+        {
+          "bbox": [
+            87.2,
+            134.61,
+            539.47,
+            149.12
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Wrist band assembly: Embed 16 EMG electrodes in a TPU wrist band, spaced equally around a"
+        },
+        {
+          "bbox": [
+            87.2,
+            150.61,
+            520.23,
+            165.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "60mm diameter (suitable for adult wrists). Each electrode connects to the snap header on the"
+        },
+        {
+          "bbox": [
+            87.2,
+            166.61,
+            437.97,
+            181.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "PCB. The 17th and 18th positions are the ground and bias drive electrodes."
+        },
+        {
+          "bbox": [
+            87.2,
+            186.61,
+            500.98,
+            201.12
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Camera integration: Mount the OV2640 camera module on the back of the hand or on a"
+        },
+        {
+          "bbox": [
+            87.2,
+            202.61,
+            520.49,
+            217.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "desk-mounted stand pointing at the user's screen. Stream image data to STM32H7 via SPI at"
+        },
+        {
+          "bbox": [
+            87.2,
+            218.61,
+            532.42,
+            233.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "10fps. Implement basic OCR (Tesseract Lite or a small CNN-based OCR) to extract text context"
+        },
+        {
+          "bbox": [
+            87.2,
+            234.61,
+            198.07,
+            249.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "from the camera image."
+        },
+        {
+          "bbox": [
+            87.2,
+            254.61,
+            542.93,
+            269.12
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Multi-modal model training: Collect training data: user types known sentences while wearing the"
+        },
+        {
+          "bbox": [
+            87.2,
+            270.61,
+            541.79,
+            285.04
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "band. Record (EMG_features, screen_context, target_keystroke) tuples. Train a small transformer"
+        },
+        {
+          "bbox": [
+            87.2,
+            286.61,
+            502.17,
+            301.04
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "that fuses both inputs and predicts the next keystroke. Quantize and deploy to STM32H7."
+        },
+        {
+          "bbox": [
+            87.2,
+            306.61,
+            535.93,
+            321.12
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "HID emulation: Configure the STM32H7 USB peripheral as a HID keyboard. When the classifier"
+        },
+        {
+          "bbox": [
+            87.2,
+            322.61,
+            506.81,
+            337.04
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "outputs a keystroke prediction with high confidence, send it as a USB HID report. The host"
+        },
+        {
+          "bbox": [
+            87.2,
+            338.61,
+            544.08,
+            353.04
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "computer receives it as if from a real keyboard. Test by opening Notepad/TextEdit and 'typing' with"
+        },
+        {
+          "bbox": [
+            87.2,
+            354.61,
+            145.58,
+            369.04
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "the band on."
+        },
+        {
+          "bbox": [
+            108.8,
+            384.67,
+            212.08,
+            399.12
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Interview Questions:"
+        },
+        {
+          "bbox": [
+            108.8,
+            400.61,
+            463.48,
+            415.04
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "→ Why use two cascaded ADS1299 chips instead of a single chip with more"
+        },
+        {
+          "bbox": [
+            108.8,
+            416.61,
+            156.66,
+            431.04
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "channels?"
+        },
+        {
+          "bbox": [
+            108.8,
+            432.61,
+            382.93,
+            447.04
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "→ How does the camera context improve typing accuracy?"
+        },
+        {
+          "bbox": [
+            108.8,
+            448.61,
+            410.05,
+            463.04
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "→ What's the latency from finger movement to keystroke output?"
+        },
+        {
+          "bbox": [
+            108.8,
+            464.61,
+            486.85,
+            479.04
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "→ How would you handle the case where the user types faster than the inference"
+        },
+        {
+          "bbox": [
+            108.8,
+            480.61,
+            157.82,
+            495.04
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "loop runs?"
+        },
+        {
+          "bbox": [
+            108.8,
+            496.61,
+            473.63,
+            511.04
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "→ What's the difference between USB-HID and USB-CDC for this application?"
+        },
+        {
+          "bbox": [
+            108.8,
+            512.61,
+            405.7,
+            527.04
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "→ How would you support keyboard layouts beyond QWERTY?"
+        }
+      ],
+      "charCount": 1867,
+      "height": 792.0,
+      "pageNumber": 13,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            202.43,
+            758.2,
+            409.57,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "@1nska  •  6 Physical AI Embodiment Projects  •  Page 14"
+        },
+        {
+          "bbox": [
+            67.2,
+            54.72,
+            200.57,
+            87.77
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "PROJECT 4"
+        },
+        {
+          "bbox": [
+            67.2,
+            104.86,
+            476.69,
+            135.15
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Emotion-Aware AI Companion Pendant"
+        },
+        {
+          "bbox": [
+            86.35,
+            143.43,
+            525.65,
+            161.29
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Multi-modal biosensor fusion. AI assistant adapts to your physiological state."
+        },
+        {
+          "bbox": [
+            89.2,
+            188.69,
+            137.51,
+            201.82
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Cost: ~$30"
+        },
+        {
+          "bbox": [
+            240.4,
+            175.74,
+            505.11,
+            201.82
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Difficulty:\nIntermediate-Advanced\nBuild Time: 2-4 weekends"
+        },
+        {
+          "bbox": [
+            67.2,
+            235.35,
+            191.39,
+            256.01
+          ],
+          "blockIndex": 6,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Why This Matters"
+        },
+        {
+          "bbox": [
+            67.2,
+            262.61,
+            544.8,
+            277.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "AI assistants today are emotionally blind. They respond the same way whether you're calm, stressed,"
+        },
+        {
+          "bbox": [
+            67.2,
+            278.61,
+            544.8,
+            293.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "or exhausted. This pendant adds a physiological context channel — fusing heart rate variability, skin"
+        },
+        {
+          "bbox": [
+            67.2,
+            294.61,
+            544.8,
+            309.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "conductance, jaw tension, and voice prosody — to produce a continuous emotional state estimate that"
+        },
+        {
+          "bbox": [
+            67.2,
+            310.61,
+            544.8,
+            325.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "the AI can use. Imagine ChatGPT knowing you're stressed before you ask for help. Or your AI calendar"
+        },
+        {
+          "bbox": [
+            67.2,
+            326.61,
+            544.8,
+            341.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "refusing to schedule a meeting when you're fatigued. This is the missing input modality for human-AI"
+        },
+        {
+          "bbox": [
+            67.2,
+            342.61,
+            118.56,
+            357.04
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "interaction."
+        },
+        {
+          "bbox": [
+            67.2,
+            372.35,
+            213.08,
+            393.01
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "System Architecture"
+        }
+      ],
+      "charCount": 791,
+      "height": 792.0,
+      "pageNumber": 14,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            202.43,
+            758.2,
+            409.57,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "@1nska  •  6 Physical AI Embodiment Projects  •  Page 15"
+        },
+        {
+          "bbox": [
+            67.2,
+            55.35,
+            162.21,
+            76.01
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "How It Works"
+        },
+        {
+          "bbox": [
+            87.2,
+            82.61,
+            523.31,
+            97.12
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "• Multi-modal sensor array: The pendant houses 4 sensor channels — 2 ECG electrodes for"
+        },
+        {
+          "bbox": [
+            87.2,
+            98.61,
+            510.85,
+            113.04
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "heart rate variability (HRV), 2 GSR electrodes for skin conductance, 1 EMG channel for jaw"
+        },
+        {
+          "bbox": [
+            87.2,
+            114.61,
+            435.57,
+            129.04
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "muscle tension, and a small MEMS microphone for voice prosody analysis."
+        },
+        {
+          "bbox": [
+            87.2,
+            134.61,
+            527.35,
+            149.12
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "• Sensor fusion processor: An STM32 runs 4 parallel signal processing chains. HRV: R-peak"
+        },
+        {
+          "bbox": [
+            87.2,
+            150.61,
+            497.99,
+            165.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "detection from ECG, time-domain and frequency-domain HRV metrics. GSR: AC-excited"
+        },
+        {
+          "bbox": [
+            87.2,
+            166.61,
+            527.81,
+            181.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "conductance measurement with synchronous demod. EMG: standard biosignal pipeline. Voice:"
+        },
+        {
+          "bbox": [
+            87.2,
+            182.61,
+            325.89,
+            197.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "pitch tracking, formant extraction, prosody features."
+        },
+        {
+          "bbox": [
+            87.2,
+            202.61,
+            519.45,
+            217.12
+          ],
+          "blockIndex": 9,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "• Emotion classifier (CNN+LSTM): A hybrid network that ingests all 4 feature streams. CNN"
+        },
+        {
+          "bbox": [
+            87.2,
+            218.61,
+            531.84,
+            233.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "extracts local features per stream; LSTM models temporal dynamics; final dense layer classifies"
+        },
+        {
+          "bbox": [
+            87.2,
+            234.61,
+            388.92,
+            249.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "into emotional states (calm, focused, stressed, fatigued, excited)."
+        },
+        {
+          "bbox": [
+            87.2,
+            254.61,
+            531.44,
+            269.12
+          ],
+          "blockIndex": 12,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "• Bluetooth output: The classified emotional state streams via BLE to a connected phone or AI"
+        },
+        {
+          "bbox": [
+            87.2,
+            270.61,
+            540.66,
+            285.04
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "service. APIs can subscribe to emotion state changes and adapt their responses accordingly. The"
+        },
+        {
+          "bbox": [
+            87.2,
+            286.61,
+            536.21,
+            301.04
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "OpenAI API, for example, could receive emotion as a system message context: 'User is currently"
+        },
+        {
+          "bbox": [
+            87.2,
+            302.61,
+            192.51,
+            317.04
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "stressed and fatigued.'"
+        },
+        {
+          "bbox": [
+            67.2,
+            332.35,
+            178.07,
+            353.01
+          ],
+          "blockIndex": 16,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Bill of Materials"
+        },
+        {
+          "bbox": [
+            114.0,
+            365.74,
+            479.06,
+            378.82
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Component\nPart / Spec\nQty\n~Cost"
+        },
+        {
+          "bbox": [
+            114.0,
+            390.69,
+            476.17,
+            403.74
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "STM32L4\nLow-power MCU\n1\n$5.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            415.69,
+            476.17,
+            428.74
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "AD8232\nECG analog front end\n1\n$3.50"
+        },
+        {
+          "bbox": [
+            114.0,
+            440.69,
+            476.17,
+            453.74
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Op-amps\nFor GSR + EMG (TL074)\n1\n$0.80"
+        },
+        {
+          "bbox": [
+            114.0,
+            465.69,
+            476.17,
+            478.74
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "MEMS microphone\nMP34DT01 (I2S)\n1\n$2.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            490.69,
+            476.17,
+            503.74
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "nRF52 module\nBLE 5.0\n1\n$4.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            515.69,
+            476.17,
+            528.74
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Snap electrodes\nECG + GSR + EMG\n5\n$3.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            540.69,
+            476.17,
+            553.74
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "LiPo battery\n3.7V 200mAh (small)\n1\n$2.50"
+        },
+        {
+          "bbox": [
+            114.0,
+            565.69,
+            476.17,
+            578.74
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "3D-printed pendant\nTPU + PLA enclosure\n1\n$2.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            590.69,
+            476.17,
+            603.74
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "PCB\nCustom 2-layer\n1\n$2.00"
+        }
+      ],
+      "charCount": 1549,
+      "height": 792.0,
+      "pageNumber": 15,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            202.43,
+            758.2,
+            409.57,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "@1nska  •  6 Physical AI Embodiment Projects  •  Page 16"
+        },
+        {
+          "bbox": [
+            67.2,
+            55.35,
+            149.71,
+            76.01
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Build Steps"
+        },
+        {
+          "bbox": [
+            87.2,
+            82.61,
+            528.39,
+            97.12
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Sensor front ends: ECG: use the AD8232 dedicated ECG chip with 2 electrodes on the chest."
+        },
+        {
+          "bbox": [
+            87.2,
+            98.61,
+            544.8,
+            113.04
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "GSR: Wheatstone bridge with 100Hz AC excitation, synchronous demod for skin conductance (see"
+        },
+        {
+          "bbox": [
+            87.2,
+            114.61,
+            525.44,
+            129.04
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "medical guide). EMG: standard pipeline for jaw muscle. Microphone: I2S MEMS mic feeds into"
+        },
+        {
+          "bbox": [
+            87.2,
+            130.61,
+            195.14,
+            145.04
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "STM32 via direct DMA."
+        },
+        {
+          "bbox": [
+            87.2,
+            150.61,
+            525.69,
+            165.12
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Feature extraction: ECG → R-peak detection → HRV metrics (RMSSD, pNN50, LF/HF ratio)."
+        },
+        {
+          "bbox": [
+            87.2,
+            166.61,
+            530.44,
+            181.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "GSR → low-pass filter → tonic level + phasic responses. EMG → envelope detection → muscle"
+        },
+        {
+          "bbox": [
+            87.2,
+            182.61,
+            404.84,
+            197.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "tension level. Audio → pitch + spectral features at 100Hz frame rate."
+        },
+        {
+          "bbox": [
+            87.2,
+            202.61,
+            508.52,
+            217.12
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Emotion dataset collection: Build a training dataset: ask the user to record themselves in"
+        },
+        {
+          "bbox": [
+            87.2,
+            218.61,
+            544.8,
+            233.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "different emotional contexts (relaxing music = calm, work stress = stressed, exercise = excited, late"
+        },
+        {
+          "bbox": [
+            87.2,
+            234.61,
+            543.3,
+            249.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "evening = fatigued). Capture 5-10 minutes per state. Label and store. This is a per-user dataset —"
+        },
+        {
+          "bbox": [
+            87.2,
+            250.61,
+            194.0,
+            265.04
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "emotions are personal."
+        },
+        {
+          "bbox": [
+            87.2,
+            270.61,
+            517.22,
+            285.12
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Model training: Train CNN+LSTM in PyTorch using the user's labeled dataset. Architecture:"
+        },
+        {
+          "bbox": [
+            87.2,
+            286.61,
+            530.7,
+            301.04
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "1D-CNN per stream (4 streams), then LSTM fusion, then dense classifier. Quantize and deploy."
+        },
+        {
+          "bbox": [
+            87.2,
+            302.61,
+            236.6,
+            317.04
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Inference runs every 5 seconds."
+        },
+        {
+          "bbox": [
+            87.2,
+            322.61,
+            544.8,
+            337.12
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "BLE service + AI integration: Implement a BLE GATT service that exposes the current emotional"
+        },
+        {
+          "bbox": [
+            87.2,
+            338.61,
+            534.84,
+            353.04
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "state. Build a phone app or system service that subscribes to this and passes emotion context to"
+        },
+        {
+          "bbox": [
+            87.2,
+            354.61,
+            524.93,
+            369.04
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "AI APIs. Test: have the AI assistant respond differently when you wear the pendant in different"
+        },
+        {
+          "bbox": [
+            87.2,
+            370.61,
+            118.13,
+            385.04
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "states."
+        },
+        {
+          "bbox": [
+            108.8,
+            400.67,
+            212.08,
+            415.12
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Interview Questions:"
+        },
+        {
+          "bbox": [
+            108.8,
+            416.61,
+            381.2,
+            431.04
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "→ Why fuse 4 sensor modalities instead of using just one?"
+        },
+        {
+          "bbox": [
+            108.8,
+            432.61,
+            424.65,
+            447.04
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "→ What's the difference between tonic and phasic GSR responses?"
+        },
+        {
+          "bbox": [
+            108.8,
+            448.61,
+            418.52,
+            463.04
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "→ How does HRV correlate with autonomic nervous system state?"
+        },
+        {
+          "bbox": [
+            108.8,
+            464.61,
+            476.57,
+            479.04
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "→ What's the ethical consideration of streaming emotional state to AI services?"
+        },
+        {
+          "bbox": [
+            108.8,
+            480.61,
+            420.29,
+            495.04
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "→ How would you handle user calibration without manual labeling?"
+        },
+        {
+          "bbox": [
+            108.8,
+            496.61,
+            423.21,
+            511.04
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "→ What other applications exist for continuous emotion monitoring?"
+        }
+      ],
+      "charCount": 1826,
+      "height": 792.0,
+      "pageNumber": 16,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            202.43,
+            758.2,
+            409.57,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "@1nska  •  6 Physical AI Embodiment Projects  •  Page 17"
+        },
+        {
+          "bbox": [
+            67.2,
+            54.72,
+            200.57,
+            87.77
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "PROJECT 5"
+        },
+        {
+          "bbox": [
+            67.2,
+            104.86,
+            429.08,
+            135.15
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Tactile Sense Augmentation Glove"
+        },
+        {
+          "bbox": [
+            127.89,
+            143.43,
+            484.11,
+            161.29
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Feel objects from a distance. AI predicts touch before contact."
+        },
+        {
+          "bbox": [
+            89.2,
+            175.69,
+            505.11,
+            188.82
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Cost: ~$45\nDifficulty: Advanced\nBuild Time: 2-4 weekends"
+        },
+        {
+          "bbox": [
+            67.2,
+            222.35,
+            191.39,
+            243.01
+          ],
+          "blockIndex": 5,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Why This Matters"
+        },
+        {
+          "bbox": [
+            67.2,
+            249.61,
+            544.8,
+            264.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Vision and touch are biologically synchronized — you see an object and your brain predicts what it will"
+        },
+        {
+          "bbox": [
+            67.2,
+            265.61,
+            544.8,
+            280.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "feel like before you touch it. This glove makes that prediction explicit. A small camera identifies the"
+        },
+        {
+          "bbox": [
+            67.2,
+            281.61,
+            544.8,
+            296.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "material and texture of the object you're reaching for; an AI model maps that material to a haptic"
+        },
+        {
+          "bbox": [
+            67.2,
+            297.61,
+            544.8,
+            312.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "vibration pattern; the pattern plays on motors in the fingertips and palm. You 'feel' surfaces from 10cm"
+        },
+        {
+          "bbox": [
+            67.2,
+            313.61,
+            544.8,
+            328.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "away. Applications: enhanced accessibility for the visually impaired, VR/AR interaction, training for"
+        },
+        {
+          "bbox": [
+            67.2,
+            329.61,
+            342.63,
+            344.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "delicate manipulation tasks (surgery, archaeology, jewelry)."
+        },
+        {
+          "bbox": [
+            67.2,
+            359.35,
+            213.08,
+            380.01
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "System Architecture"
+        },
+        {
+          "bbox": [
+            67.2,
+            600.59,
+            162.21,
+            621.24
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "How It Works"
+        },
+        {
+          "bbox": [
+            87.2,
+            627.85,
+            538.41,
+            642.36
+          ],
+          "blockIndex": 14,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "• Camera on the back of the hand: A small camera (OV5640 or similar) points outward from the"
+        },
+        {
+          "bbox": [
+            87.2,
+            643.85,
+            538.36,
+            658.28
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "back of the hand, capturing whatever the hand is reaching for. Streaming at 15fps to the on-glove"
+        },
+        {
+          "bbox": [
+            87.2,
+            659.85,
+            136.21,
+            674.28
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "processor."
+        },
+        {
+          "bbox": [
+            87.2,
+            679.85,
+            516.84,
+            694.36
+          ],
+          "blockIndex": 17,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "• IMU for hand pose: A 9-DOF IMU provides hand orientation and movement direction. This"
+        },
+        {
+          "bbox": [
+            87.2,
+            695.85,
+            544.8,
+            710.28
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "contextualizes the camera image — knowing the hand is reaching forward changes what counts as"
+        },
+        {
+          "bbox": [
+            87.2,
+            711.85,
+            186.95,
+            726.28
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "'about to be touched.'"
+        }
+      ],
+      "charCount": 1233,
+      "height": 792.0,
+      "pageNumber": 17,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            202.43,
+            758.2,
+            409.57,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "@1nska  •  6 Physical AI Embodiment Projects  •  Page 18"
+        },
+        {
+          "bbox": [
+            87.2,
+            55.61,
+            532.0,
+            70.12
+          ],
+          "blockIndex": 1,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "• Material classifier: An edge ML model (MobileNet-Tiny or similar) trained to classify materials"
+        },
+        {
+          "bbox": [
+            87.2,
+            71.61,
+            505.06,
+            86.04
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "from images: wood, metal, fabric, plastic, glass, paper, skin. Quantized and deployed on a"
+        },
+        {
+          "bbox": [
+            87.2,
+            87.61,
+            450.15,
+            102.04
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Raspberry Pi Zero 2W or similar edge compute platform mounted on the wrist."
+        },
+        {
+          "bbox": [
+            87.2,
+            107.61,
+            537.6,
+            122.12
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "• Distance + texture estimator: A second model estimates distance to the object (using parallax"
+        },
+        {
+          "bbox": [
+            87.2,
+            123.61,
+            530.43,
+            138.04
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "from hand motion + IMU data) and surface texture (smooth, rough, grainy) from image features."
+        },
+        {
+          "bbox": [
+            87.2,
+            143.61,
+            536.41,
+            158.12
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "• Haptic pattern generator: Maps material+texture+distance to a vibration pattern. Wood = slow"
+        },
+        {
+          "bbox": [
+            87.2,
+            159.61,
+            525.81,
+            174.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "steady pulse on the index fingertip. Metal = sharp, high-frequency pulse on the thumb. Smooth"
+        },
+        {
+          "bbox": [
+            87.2,
+            175.61,
+            543.56,
+            190.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "surfaces = single steady vibration; rough surfaces = irregular pattern. Distance modulates intensity"
+        },
+        {
+          "bbox": [
+            87.2,
+            191.61,
+            222.6,
+            206.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "— stronger as you approach."
+        },
+        {
+          "bbox": [
+            87.2,
+            211.61,
+            532.02,
+            226.12
+          ],
+          "blockIndex": 10,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "• 16-channel PWM motor array: 16 ERM coin motors distributed on the fingertips (3 per finger)"
+        },
+        {
+          "bbox": [
+            87.2,
+            227.61,
+            520.84,
+            242.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "and palm. Each motor driven by an independent PWM channel on a PCA9685 expander. The"
+        },
+        {
+          "bbox": [
+            87.2,
+            243.61,
+            381.35,
+            258.04
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "pattern generator updates all 16 PWM values 100x per second."
+        },
+        {
+          "bbox": [
+            67.2,
+            273.35,
+            178.07,
+            294.01
+          ],
+          "blockIndex": 13,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Bill of Materials"
+        },
+        {
+          "bbox": [
+            114.0,
+            306.74,
+            479.06,
+            319.82
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Component\nPart / Spec\nQty\n~Cost"
+        },
+        {
+          "bbox": [
+            114.0,
+            331.69,
+            481.45,
+            344.74
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Raspberry Pi Zero 2W\nML inference platform\n1\n$15.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            356.69,
+            476.17,
+            369.74
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "OV5640 camera\n5MP, MIPI CSI\n1\n$8.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            381.69,
+            481.45,
+            394.74
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "BNO055 IMU\n9-DOF with fusion\n1\n$10.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            406.69,
+            476.17,
+            419.74
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "PCA9685\n16-channel PWM driver\n1\n$3.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            431.69,
+            476.17,
+            444.74
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "ERM coin motors\n10mm vibration motors\n16\n$8.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            456.69,
+            476.17,
+            469.74
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "MOSFETs\n2N7000 (motor drivers)\n16\n$2.50"
+        },
+        {
+          "bbox": [
+            114.0,
+            481.69,
+            476.17,
+            494.74
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "LiPo battery\n3.7V 2000mAh\n1\n$4.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            506.69,
+            476.17,
+            519.74
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Glove substrate\nLycra or similar stretch fabric\n1\n$3.00"
+        }
+      ],
+      "charCount": 1438,
+      "height": 792.0,
+      "pageNumber": 18,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            202.43,
+            758.2,
+            409.57,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "@1nska  •  6 Physical AI Embodiment Projects  •  Page 19"
+        },
+        {
+          "bbox": [
+            67.2,
+            55.35,
+            149.71,
+            76.01
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Build Steps"
+        },
+        {
+          "bbox": [
+            87.2,
+            82.61,
+            511.46,
+            97.12
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Glove assembly: Sew 16 ERM motors into the glove substrate: 3 on each finger (proximal,"
+        },
+        {
+          "bbox": [
+            87.2,
+            98.61,
+            514.64,
+            113.04
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "middle, distal phalanges), 1 on the palm. Route thin wires from each motor along the glove's"
+        },
+        {
+          "bbox": [
+            87.2,
+            114.61,
+            442.6,
+            129.04
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "seams back to the PCB at the wrist. Use heat-shrink to insulate connections."
+        },
+        {
+          "bbox": [
+            87.2,
+            134.61,
+            505.55,
+            149.12
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Computing module mount: Mount the Pi Zero 2W on the wrist with a 3D-printed bracket."
+        },
+        {
+          "bbox": [
+            87.2,
+            150.61,
+            544.8,
+            165.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Connect the OV5640 camera via flat ribbon to the Pi's CSI port. Connect the BNO055 IMU via I2C."
+        },
+        {
+          "bbox": [
+            87.2,
+            166.61,
+            529.59,
+            181.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Connect the PCA9685 via I2C to the same bus. Power everything from the LiPo through a buck"
+        },
+        {
+          "bbox": [
+            87.2,
+            182.61,
+            133.88,
+            197.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "converter."
+        },
+        {
+          "bbox": [
+            87.2,
+            202.61,
+            539.44,
+            217.12
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Material classification model: Train MobileNetV3-Small on a custom dataset of material images"
+        },
+        {
+          "bbox": [
+            87.2,
+            218.61,
+            526.06,
+            233.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "(use Open Images dataset for initial training, fine-tune on your own samples). 7 classes: wood,"
+        },
+        {
+          "bbox": [
+            87.2,
+            234.61,
+            542.41,
+            249.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "metal, fabric, plastic, glass, paper, skin. Quantize to int8 and deploy via TensorFlow Lite on the Pi."
+        },
+        {
+          "bbox": [
+            87.2,
+            254.61,
+            527.78,
+            269.12
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Haptic pattern library: Define 7 distinct vibration patterns (one per material). Each pattern is a"
+        },
+        {
+          "bbox": [
+            87.2,
+            270.61,
+            540.68,
+            285.04
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "1-second sequence of 16-channel PWM values. Patterns should feel distinct enough that the user"
+        },
+        {
+          "bbox": [
+            87.2,
+            286.61,
+            514.95,
+            301.04
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "learns to associate them with materials within minutes of use. Test with blindfolded subjects."
+        },
+        {
+          "bbox": [
+            87.2,
+            306.61,
+            534.49,
+            321.12
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Real-time loop: Main loop runs at 15fps: capture frame → classify material → estimate distance"
+        },
+        {
+          "bbox": [
+            87.2,
+            322.61,
+            544.32,
+            337.04
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "→ look up haptic pattern → modulate by distance → write PWM values to PCA9685. Total latency:"
+        },
+        {
+          "bbox": [
+            87.2,
+            338.61,
+            307.5,
+            353.04
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "<100ms from camera frame to haptic feedback."
+        },
+        {
+          "bbox": [
+            108.8,
+            368.66,
+            212.08,
+            383.12
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Interview Questions:"
+        },
+        {
+          "bbox": [
+            108.8,
+            384.61,
+            432.55,
+            399.04
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "→ Why use vibration motors instead of pneumatic or piezo actuators?"
+        },
+        {
+          "bbox": [
+            108.8,
+            400.61,
+            383.52,
+            415.04
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "→ How do you handle multiple objects in the camera view?"
+        },
+        {
+          "bbox": [
+            108.8,
+            416.61,
+            417.97,
+            431.04
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "→ What determines the spatial resolution of your haptic feedback?"
+        },
+        {
+          "bbox": [
+            108.8,
+            432.61,
+            472.8,
+            447.04
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "→ How would you train the user to associate vibration patterns with materials?"
+        },
+        {
+          "bbox": [
+            108.8,
+            448.61,
+            413.57,
+            463.04
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "→ What's the difference between this and actual texture sensing?"
+        },
+        {
+          "bbox": [
+            108.8,
+            464.61,
+            367.77,
+            479.04
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "→ How does the IMU contribute to distance estimation?"
+        }
+      ],
+      "charCount": 1811,
+      "height": 792.0,
+      "pageNumber": 19,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            202.43,
+            758.2,
+            409.57,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "@1nska  •  6 Physical AI Embodiment Projects  •  Page 20"
+        },
+        {
+          "bbox": [
+            67.2,
+            54.72,
+            200.57,
+            87.77
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "PROJECT 6"
+        },
+        {
+          "bbox": [
+            67.2,
+            104.86,
+            404.61,
+            135.15
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Subvocal AI Command Interface"
+        },
+        {
+          "bbox": [
+            112.0,
+            143.43,
+            500.0,
+            161.29
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "4 electrodes under the chin. 50 commands. Always-on. Hands-free."
+        },
+        {
+          "bbox": [
+            89.2,
+            188.69,
+            137.51,
+            201.82
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Cost: ~$35"
+        },
+        {
+          "bbox": [
+            240.4,
+            175.74,
+            505.11,
+            201.82
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Difficulty:\nIntermediate-Advanced\nBuild Time: 2-4 weekends"
+        },
+        {
+          "bbox": [
+            67.2,
+            235.35,
+            191.39,
+            256.01
+          ],
+          "blockIndex": 6,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Why This Matters"
+        },
+        {
+          "bbox": [
+            67.2,
+            262.61,
+            544.8,
+            277.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Silent speech for full dictation is the moonshot. Subvocal commands for everyday computing is the"
+        },
+        {
+          "bbox": [
+            67.2,
+            278.61,
+            544.8,
+            293.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "immediate product. A small 4-electrode patch under the chin runs always-on classification of 50"
+        },
+        {
+          "bbox": [
+            67.2,
+            294.61,
+            544.8,
+            309.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "common commands: 'open email,' 'send message,' 'play music,' 'navigate home,' 'what time.' Mouth the"
+        },
+        {
+          "bbox": [
+            67.2,
+            310.61,
+            544.8,
+            325.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "command silently — your phone or AI assistant responds within 100ms. This is the practical version"
+        },
+        {
+          "bbox": [
+            67.2,
+            326.61,
+            544.8,
+            341.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "that ships in 6 months instead of 3 years. Apple, Google, and Amazon would all want this for their voice"
+        },
+        {
+          "bbox": [
+            67.2,
+            342.61,
+            116.8,
+            357.04
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "assistants."
+        },
+        {
+          "bbox": [
+            67.2,
+            372.35,
+            213.08,
+            393.01
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "System Architecture"
+        }
+      ],
+      "charCount": 766,
+      "height": 792.0,
+      "pageNumber": 20,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            202.43,
+            758.2,
+            409.57,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "@1nska  •  6 Physical AI Embodiment Projects  •  Page 21"
+        },
+        {
+          "bbox": [
+            67.2,
+            55.35,
+            162.21,
+            76.01
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "How It Works"
+        },
+        {
+          "bbox": [
+            87.2,
+            82.61,
+            509.86,
+            97.12
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "• 4 EMG electrodes under the chin: Strategic placement over the digastric and mylohyoid"
+        },
+        {
+          "bbox": [
+            87.2,
+            98.61,
+            533.04,
+            113.04
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "muscles — the muscles involved in jaw movement during speech. 4 channels are sufficient for a"
+        },
+        {
+          "bbox": [
+            87.2,
+            114.61,
+            407.86,
+            129.04
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "fixed vocabulary of commands (unlike full speech which requires 8+)."
+        },
+        {
+          "bbox": [
+            87.2,
+            134.61,
+            508.05,
+            149.12
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "• Ultra-low-power analog front end: Optimized for always-on operation. The MCU sleeps"
+        },
+        {
+          "bbox": [
+            87.2,
+            150.61,
+            506.5,
+            165.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "between samples; an analog wake-up circuit (envelope detector + comparator) triggers full"
+        },
+        {
+          "bbox": [
+            87.2,
+            166.61,
+            536.85,
+            181.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "processing only when subvocal activity exceeds threshold. Average power draw: <1mA, enabling"
+        },
+        {
+          "bbox": [
+            87.2,
+            182.61,
+            273.33,
+            197.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "all-day battery life from a small coin cell."
+        },
+        {
+          "bbox": [
+            87.2,
+            202.61,
+            519.8,
+            217.12
+          ],
+          "blockIndex": 9,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "• Keyword classifier: A small CNN trained on the fixed vocabulary of 50 commands. Output:"
+        },
+        {
+          "bbox": [
+            87.2,
+            218.61,
+            544.8,
+            233.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "50-class probability distribution plus a 'silence' class. Inference runs only when wake-up triggers —"
+        },
+        {
+          "bbox": [
+            87.2,
+            234.61,
+            234.84,
+            249.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "typically 100-500 times per day."
+        },
+        {
+          "bbox": [
+            87.2,
+            254.61,
+            543.02,
+            269.12
+          ],
+          "blockIndex": 12,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "• Wake-word detection: The first word of any valid command serves as the wake-word. If 'Hey' or"
+        },
+        {
+          "bbox": [
+            87.2,
+            270.61,
+            511.38,
+            285.04
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "'OK' or your custom trigger is detected, the system listens for the rest of the command. This"
+        },
+        {
+          "bbox": [
+            87.2,
+            286.61,
+            359.72,
+            301.04
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "prevents false activations from random mouth movements."
+        },
+        {
+          "bbox": [
+            87.2,
+            306.61,
+            542.51,
+            321.12
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "• BLE command output: Detected commands transmit via BLE to your phone, smart watch, or AI"
+        },
+        {
+          "bbox": [
+            87.2,
+            322.61,
+            515.97,
+            337.04
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "assistant. Standard intents like 'open_email' or 'play_music' map directly to OS-level actions."
+        },
+        {
+          "bbox": [
+            67.2,
+            352.35,
+            178.07,
+            373.01
+          ],
+          "blockIndex": 17,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Bill of Materials"
+        },
+        {
+          "bbox": [
+            114.0,
+            385.74,
+            479.06,
+            398.82
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Component\nPart / Spec\nQty\n~Cost"
+        },
+        {
+          "bbox": [
+            114.0,
+            410.69,
+            476.17,
+            423.74
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "STM32L0\nUltra-low-power MCU\n1\n$3.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            435.69,
+            481.45,
+            448.74
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "ADS1294R\n4-channel biosignal ADC\n1\n$12.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            460.69,
+            476.17,
+            473.74
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Dry electrodes\nAdhesive, low-profile\n4\n$3.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            485.69,
+            476.17,
+            498.74
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "nRF52 module\nBLE 5.0\n1\n$4.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            510.69,
+            476.17,
+            523.74
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "CR2032 battery\nCoin cell, long-life\n1\n$1.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            535.69,
+            476.17,
+            548.74
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Flex PCB\nCustom, ultra-thin\n1\n$3.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            560.69,
+            476.17,
+            573.74
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Adhesive patch\nMedical-grade, skin-safe\n1\n$2.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            585.69,
+            476.17,
+            598.74
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Charging coil\nWireless charging (optional)\n1\n$3.00"
+        }
+      ],
+      "charCount": 1647,
+      "height": 792.0,
+      "pageNumber": 21,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            202.43,
+            758.2,
+            409.57,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "@1nska  •  6 Physical AI Embodiment Projects  •  Page 22"
+        },
+        {
+          "bbox": [
+            67.2,
+            55.35,
+            149.71,
+            76.01
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "Build Steps"
+        },
+        {
+          "bbox": [
+            87.2,
+            82.61,
+            544.69,
+            97.12
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "Form factor design: Design a flexible PCB shaped like a small bandage (2cm x 4cm). 4 electrode"
+        },
+        {
+          "bbox": [
+            87.2,
+            98.61,
+            543.59,
+            113.04
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "pads on the underside. Battery and electronics on the upper side. The whole assembly is meant to"
+        },
+        {
+          "bbox": [
+            87.2,
+            114.61,
+            519.67,
+            129.04
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "be worn on the underside of the chin, held by adhesive or a thin neck strap. Manufacture with"
+        },
+        {
+          "bbox": [
+            87.2,
+            130.61,
+            217.57,
+            145.04
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "JLCPCB's flex PCB service."
+        },
+        {
+          "bbox": [
+            87.2,
+            150.61,
+            514.99,
+            165.12
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "Wake-up circuit: Build an analog wake-up: envelope detector on one EMG channel feeds a"
+        },
+        {
+          "bbox": [
+            87.2,
+            166.61,
+            531.86,
+            181.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "comparator with hysteresis. When signal exceeds threshold, comparator output wakes the MCU"
+        },
+        {
+          "bbox": [
+            87.2,
+            182.61,
+            539.48,
+            197.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "from sleep. This eliminates the need to run the classifier continuously — saving 99% of the power"
+        },
+        {
+          "bbox": [
+            87.2,
+            198.61,
+            122.23,
+            213.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "budget."
+        },
+        {
+          "bbox": [
+            87.2,
+            218.61,
+            518.44,
+            233.12
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "Command dataset: Define 50 commands covering common phone/AI assistant interactions."
+        },
+        {
+          "bbox": [
+            87.2,
+            234.61,
+            515.25,
+            249.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "Record 20+ examples per command from the user. Use data augmentation (time shifts, gain"
+        },
+        {
+          "bbox": [
+            87.2,
+            250.61,
+            437.68,
+            265.04
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "variations) to expand the dataset 10x. Total training set: 10,000+ examples."
+        },
+        {
+          "bbox": [
+            87.2,
+            270.61,
+            520.79,
+            285.12
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "Classifier training: Train a small CNN: 3 conv layers + 1 dense + 1 softmax. Input: 1-second"
+        },
+        {
+          "bbox": [
+            87.2,
+            286.61,
+            506.79,
+            301.04
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "4-channel windows. Output: 51 classes (50 commands + silence). Target accuracy: >95%."
+        },
+        {
+          "bbox": [
+            87.2,
+            302.61,
+            335.54,
+            317.04
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "Quantize to int8 for deployment. Model size: <100KB."
+        },
+        {
+          "bbox": [
+            87.2,
+            322.61,
+            535.93,
+            337.12
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "Integration with phone OS: Build an Android service or iOS app that listens for BLE commands"
+        },
+        {
+          "bbox": [
+            87.2,
+            338.61,
+            542.33,
+            353.04
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "from the device. Each command maps to an OS-level intent: 'open_email' launches the email app,"
+        },
+        {
+          "bbox": [
+            87.2,
+            354.61,
+            544.8,
+            369.04
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "'send_message' opens a compose window with the last contact, etc. Test the full pipeline: wear the"
+        },
+        {
+          "bbox": [
+            87.2,
+            370.61,
+            377.83,
+            385.04
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "device, mouth a command silently, watch your phone respond."
+        },
+        {
+          "bbox": [
+            108.8,
+            400.67,
+            212.08,
+            415.12
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "Interview Questions:"
+        },
+        {
+          "bbox": [
+            108.8,
+            416.61,
+            367.21,
+            431.04
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "→ Why use 4 channels instead of 8 for this application?"
+        },
+        {
+          "bbox": [
+            108.8,
+            432.61,
+            356.1,
+            447.04
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "→ How does the analog wake-up circuit save power?"
+        },
+        {
+          "bbox": [
+            108.8,
+            448.61,
+            400.12,
+            463.04
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "→ What's the false activation rate and how do you minimize it?"
+        },
+        {
+          "bbox": [
+            108.8,
+            464.61,
+            458.22,
+            479.04
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "→ How would you add new commands without retraining the whole model?"
+        },
+        {
+          "bbox": [
+            108.8,
+            480.61,
+            439.83,
+            495.04
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "→ What's the latency budget from mouthed command to phone action?"
+        },
+        {
+          "bbox": [
+            108.8,
+            496.61,
+            343.27,
+            511.04
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "→ How would you handle multi-language support?"
+        }
+      ],
+      "charCount": 1840,
+      "height": 792.0,
+      "pageNumber": 22,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            202.43,
+            758.2,
+            409.57,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 23,
+          "text": "@1nska  •  6 Physical AI Embodiment Projects  •  Page 23"
+        },
+        {
+          "bbox": [
+            67.2,
+            104.86,
+            383.85,
+            135.15
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 23,
+          "text": "The body is the next interface."
+        },
+        {
+          "bbox": [
+            67.2,
+            152.86,
+            321.5,
+            183.15
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 23,
+          "text": "The circuit is the bridge."
+        },
+        {
+          "bbox": [
+            67.2,
+            203.61,
+            544.8,
+            218.04
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 23,
+          "text": "Six projects. One platform. The same core hardware — ADS1299, STM32H7, nRF52 — builds all of"
+        },
+        {
+          "bbox": [
+            67.2,
+            219.61,
+            544.8,
+            234.04
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 23,
+          "text": "them. What changes is the electrode placement, the firmware configuration, and the ML model. This is"
+        },
+        {
+          "bbox": [
+            67.2,
+            235.61,
+            544.8,
+            250.04
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 23,
+          "text": "platform thinking: design once, deploy infinitely. It's how Apple designed the iPhone (one device,"
+        },
+        {
+          "bbox": [
+            67.2,
+            251.61,
+            544.8,
+            266.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 23,
+          "text": "infinite apps), how Boston Dynamics designed Spot (one robot, infinite tasks), and how every"
+        },
+        {
+          "bbox": [
+            67.2,
+            267.61,
+            236.43,
+            282.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 23,
+          "text": "successful hardware product scales."
+        },
+        {
+          "bbox": [
+            67.2,
+            303.61,
+            544.8,
+            318.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 23,
+          "text": "Meta paid nearly a billion dollars for one of these applications. Apple is racing to build another. The"
+        },
+        {
+          "bbox": [
+            67.2,
+            319.61,
+            544.8,
+            334.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 23,
+          "text": "window for an independent builder is short — but it's open. Build something with this guide and you're"
+        },
+        {
+          "bbox": [
+            67.2,
+            335.61,
+            325.42,
+            350.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 23,
+          "text": "not just decorating a portfolio. You're entering a market."
+        },
+        {
+          "bbox": [
+            108.8,
+            381.61,
+            464.77,
+            396.12
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 23,
+          "text": "Build even one of these. Document the design. Screenshot the waveforms."
+        },
+        {
+          "bbox": [
+            108.8,
+            397.61,
+            495.16,
+            412.04
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 23,
+          "text": "Open-source the demo (but keep the dataset and model architecture private). Put it"
+        },
+        {
+          "bbox": [
+            108.8,
+            413.61,
+            491.87,
+            428.04
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 23,
+          "text": "on your GitHub with a proper README. You'll have a portfolio piece that recruiters"
+        },
+        {
+          "bbox": [
+            108.8,
+            429.61,
+            263.43,
+            444.04
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 23,
+          "text": "and investors actually remember."
+        },
+        {
+          "bbox": [
+            139.09,
+            498.43,
+            472.91,
+            516.29
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 23,
+          "text": "One platform. Six applications. The future of embodied AI."
+        },
+        {
+          "bbox": [
+            108.8,
+            552.61,
+            493.71,
+            567.12
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 23,
+          "text": "Follow @1nska on Instagram for build logs, new guides, and projects at the edge"
+        },
+        {
+          "bbox": [
+            108.8,
+            568.61,
+            197.77,
+            583.04
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 23,
+          "text": "of what's buildable."
+        },
+        {
+          "bbox": [
+            227.58,
+            634.73,
+            384.42,
+            647.09
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 23,
+          "text": "— Enes (@1nska) • Electrical Engineer"
+        }
+      ],
+      "charCount": 1254,
+      "height": 792.0,
+      "pageNumber": 23,
+      "textExtractable": true,
+      "width": 612.0
+    }
+  ],
+  "provenance": {
+    "confidence": "EXACT",
+    "extractionMethod": "pymupdf-blocks-v1",
+    "extractorVersion": "1.28.0",
+    "generatorVersion": null,
+    "origin": "extracted",
+    "source": "guide-020",
+    "sourceHash": "92a38cfc580ec18b7c4dc48037a66ee8fbea9190eed71b5063d3f25282c1d362",
+    "sourcePage": null,
+    "sourcePath": "Engineering guides/ee physical ai embodiment.pdf",
+    "sourceSection": "ROOT"
+  },
+  "relativePath": "Engineering guides/ee physical ai embodiment.pdf",
+  "schemaVersion": "1.0.0",
+  "sha256": "92a38cfc580ec18b7c4dc48037a66ee8fbea9190eed71b5063d3f25282c1d362",
+  "sourceId": "guide-020"
+}

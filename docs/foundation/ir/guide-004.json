@@ -1,0 +1,3514 @@
+{
+  "metadata": {
+    "author": "@1nska",
+    "creationDate": "D:20260601033637+00'00'",
+    "creator": "(unspecified)",
+    "format": "PDF 1.4",
+    "modDate": "D:20260601033637+00'00'",
+    "producer": "ReportLab PDF Library - (opensource)",
+    "subject": "(unspecified)",
+    "title": "6 EE Projects That Reach Space"
+  },
+  "pageCount": 23,
+  "pages": [
+    {
+      "blocks": [
+        {
+          "bbox": [
+            223.9,
+            733.07,
+            388.09,
+            744.07
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "By @1nska  •  Electrical Engineer"
+        },
+        {
+          "bbox": [
+            67.2,
+            77.67,
+            417.67,
+            235.72
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "RF + SDR • RECEIVE-ONLY SIGNALS INTELLIGENCE\n6 EE PROJECTS\nTHAT EAVESDROP\nON THE SKY"
+        },
+        {
+          "bbox": [
+            67.2,
+            251.23,
+            476.87,
+            283.73
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Aircraft. Ships. Meteors. Weather balloons. The sensors around you.\nAll receive-only, all legal. One $30 radio. Real RF."
+        },
+        {
+          "bbox": [
+            67.2,
+            319.0,
+            544.79,
+            331.5
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "1. ADS-B Aircraft Radar — a live map of every plane overhead\n$30"
+        },
+        {
+          "bbox": [
+            67.2,
+            346.0,
+            544.79,
+            358.5
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "2. TPMS Car-ID Sniffer — see what your own car broadcasts\n$30"
+        },
+        {
+          "bbox": [
+            67.2,
+            373.0,
+            544.79,
+            385.5
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "3. Radio Meteor Detector — a ping for every shooting star\n$30"
+        },
+        {
+          "bbox": [
+            67.2,
+            400.0,
+            544.79,
+            412.5
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "4. AIS Ship Tracker — live positions of every ship in range\n$35"
+        },
+        {
+          "bbox": [
+            67.2,
+            427.0,
+            544.79,
+            439.5
+          ],
+          "blockIndex": 7,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "5. 433 MHz Sensor Decoder — read the ISM chatter around you\n$25"
+        },
+        {
+          "bbox": [
+            67.2,
+            454.0,
+            544.79,
+            466.5
+          ],
+          "blockIndex": 8,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "6. Radiosonde Tracker — chase a weather balloon from 30 km up\n$35"
+        }
+      ],
+      "charCount": 614,
+      "height": 792.0,
+      "pageNumber": 1,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            181.54,
+            749.41,
+            430.47,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "@1nska   •   6 EE Projects That Eavesdrop on the Sky   •   Page 2"
+        },
+        {
+          "bbox": [
+            67.2,
+            73.03,
+            279.55,
+            124.91
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "PROJECT 1\nADS-B Aircraft Radar"
+        },
+        {
+          "bbox": [
+            67.2,
+            131.0,
+            529.93,
+            159.5
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Build a live map of every plane overhead — callsign, altitude, speed — pulled out of\nthe air onto your screen"
+        },
+        {
+          "bbox": [
+            116.1,
+            181.55,
+            524.63,
+            206.05
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Cost: ~$30\nDifficulty:\nBeginner-Intermediate\nBuild Time: 1 weekend"
+        },
+        {
+          "bbox": [
+            67.2,
+            231.34,
+            183.11,
+            245.34
+          ],
+          "blockIndex": 4,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Why This Matters"
+        },
+        {
+          "bbox": [
+            67.2,
+            253.55,
+            544.76,
+            372.55
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Every airliner constantly broadcasts its identity, GPS position, altitude, and velocity in the clear on 1090\nMHz — a system called ADS-B that is replacing radar for air-traffic control worldwide. There is no\nencryption and no subscription: with a $30 software-defined radio and a small antenna, you can\nreceive those broadcasts directly and plot every aircraft in range on a live map, exactly like the\nprofessional flight-tracking sites (which are largely built from volunteer receivers just like the one you\nwill build). It is the perfect first SDR project — the signal is strong, always present, and the payoff is\nimmediate and genuinely impressive: a real-time radar picture of the sky above you, decoded by\nhardware you assembled."
+        },
+        {
+          "bbox": [
+            73.2,
+            394.55,
+            519.62,
+            450.05
+          ],
+          "blockIndex": 6,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "What this proves to a recruiter: You understand SDR fundamentals, pulse-position-modulated\ndigital signals (Mode S), antenna selection for a specific band, and real-time packet decoding.\nReceiving and decoding a live aviation datalink is a concrete, demonstrable RF skill that maps\nstraight onto avionics, surveillance, and wireless-systems work."
+        },
+        {
+          "bbox": [
+            67.2,
+            471.55,
+            515.9,
+            496.55
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "→ The job this maps to: air-traffic / surveillance systems, avionics, and SDR/RF engineering —\nflight-tracking networks, air-navigation service providers, and aerospace firms."
+        }
+      ],
+      "charCount": 1541,
+      "height": 792.0,
+      "pageNumber": 2,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            181.54,
+            749.41,
+            430.47,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "@1nska   •   6 EE Projects That Eavesdrop on the Sky   •   Page 3"
+        },
+        {
+          "bbox": [
+            67.2,
+            300.54,
+            155.88,
+            314.54
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "How It Works"
+        },
+        {
+          "bbox": [
+            67.2,
+            322.75,
+            537.63,
+            379.75
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• ADS-B on 1090 MHz: Aircraft transponders broadcast 'extended squitter' messages roughly twice a\nsecond containing the 24-bit ICAO address, GPS latitude/longitude, altitude, speed, and callsign.\nThe signals are unencrypted and standardised worldwide, so any compatible receiver can decode\nthem."
+        },
+        {
+          "bbox": [
+            67.2,
+            390.75,
+            535.05,
+            432.25
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Pulse-position modulation: Mode S encodes bits as the position of short pulses within each\nmicrosecond — a 1 Mbit/s pulse-position-modulated stream. The decoder samples fast enough to\ndistinguish pulse timing, reconstruct the message bits, and check them with a CRC."
+        },
+        {
+          "bbox": [
+            67.2,
+            443.25,
+            542.06,
+            484.75
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Antenna tuned to 1090 MHz: At 1090 MHz a quarter-wave is only ~6.9 cm, so a small ground-plane\nor 'spider' antenna works and a collinear gives more range. Antenna length and placement (high,\nclear of obstructions) matter far more than fancy electronics on this band."
+        },
+        {
+          "bbox": [
+            67.2,
+            495.75,
+            543.55,
+            537.25
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• LNA and filter help range: Distant aircraft are weak and the band sits near strong cellular and pager\ninterference. A 1090 MHz SAW filter plus a low-noise amplifier at the antenna dramatically extends\nrange — from tens to a couple hundred kilometres line-of-sight."
+        },
+        {
+          "bbox": [
+            67.2,
+            548.25,
+            540.63,
+            605.25
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Decode and map (dump1090): Software like dump1090 demodulates the Mode S stream, validates\neach message by CRC, and converts the position fields into latitude/longitude. It serves a live\nbrowser map showing every aircraft's callsign, altitude, heading, and trail — a real-time radar\ndisplay you built."
+        }
+      ],
+      "charCount": 1477,
+      "height": 792.0,
+      "pageNumber": 3,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            181.54,
+            749.41,
+            430.47,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "@1nska   •   6 EE Projects That Eavesdrop on the Sky   •   Page 4"
+        },
+        {
+          "bbox": [
+            67.2,
+            70.34,
+            213.47,
+            84.34
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Key Design Decisions"
+        },
+        {
+          "bbox": [
+            67.2,
+            92.55,
+            508.32,
+            103.05
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "→ Why does ADS-B need no decryption? ADS-B was designed as an open air-traffic-control"
+        },
+        {
+          "bbox": [
+            83.2,
+            108.05,
+            515.03,
+            149.55
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "broadcast so any aircraft or ground station can see the picture. Privacy of the broadcast was\ndeliberately traded for universal situational awareness — which is exactly why a hobbyist can\nreceive it legally."
+        },
+        {
+          "bbox": [
+            67.2,
+            160.55,
+            512.41,
+            171.05
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "→ Why is antenna height the biggest factor? 1090 MHz is line-of-sight; the radio horizon, not"
+        },
+        {
+          "bbox": [
+            83.2,
+            176.05,
+            537.82,
+            217.55
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "transmit power, sets your range. Raising the antenna a few metres and clearing obstructions adds\nfar more range than any amplifier, because you are literally seeing farther over the curve of the\nEarth."
+        },
+        {
+          "bbox": [
+            67.2,
+            228.55,
+            501.34,
+            239.05
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "→ Why a filter before the amplifier? Strong nearby signals (cellular, pagers) can overload a"
+        },
+        {
+          "bbox": [
+            83.2,
+            244.05,
+            525.0,
+            270.05
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "broadband LNA and desensitise it. A SAW filter centred on 1090 MHz ahead of the LNA rejects\nthose, so the amplifier's gain goes to the signal you want instead of amplifying interference."
+        },
+        {
+          "bbox": [
+            67.2,
+            287.84,
+            170.67,
+            301.84
+          ],
+          "blockIndex": 8,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Bill of Materials"
+        },
+        {
+          "bbox": [
+            68.2,
+            317.94,
+            543.8,
+            327.94
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Component\nPart / Spec\nQty\n~Cost"
+        },
+        {
+          "bbox": [
+            68.2,
+            341.83,
+            543.8,
+            351.33
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "RTL-SDR dongle\nRTL2832U + R820T2 (1090 MHz capable)\n1\n$30"
+        },
+        {
+          "bbox": [
+            68.2,
+            365.83,
+            543.8,
+            375.33
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "1090 MHz antenna\nQuarter-wave ground plane or collinear\n1\n$0-8"
+        },
+        {
+          "bbox": [
+            68.2,
+            389.83,
+            543.8,
+            399.33
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "1090 MHz LNA + SAW\nOptional, for range\n1\n$10"
+        },
+        {
+          "bbox": [
+            68.2,
+            413.83,
+            543.8,
+            423.33
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Coax + SMA\nLow-loss feedline\n1\n$5"
+        },
+        {
+          "bbox": [
+            68.2,
+            437.83,
+            543.8,
+            447.33
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Mount / mast\nGet the antenna high\n1\n$5"
+        },
+        {
+          "bbox": [
+            68.2,
+            461.83,
+            543.8,
+            471.33
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Raspberry Pi / laptop\nRuns dump1090\n1\n—"
+        },
+        {
+          "bbox": [
+            67.2,
+            492.84,
+            144.21,
+            506.84
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Build Steps"
+        },
+        {
+          "bbox": [
+            67.2,
+            515.05,
+            513.05,
+            556.55
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Plug in and scan: Install the RTL-SDR drivers and a general SDR app. Tune to 1090 MHz and\nconfirm you see brief bursts of activity — those are aircraft squitters. This proves the dongle and\nantenna work before you add anything."
+        },
+        {
+          "bbox": [
+            67.2,
+            569.55,
+            541.01,
+            611.05
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Build a 1090 MHz antenna: Make a quarter-wave ground-plane (a 6.9 cm vertical with four radials) or\na coaxial collinear for more gain. Mount it as high and clear as possible — a window or rooftop.\nConnect with low-loss coax."
+        },
+        {
+          "bbox": [
+            67.2,
+            624.05,
+            541.89,
+            650.05
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Add the LNA + filter: For more range, fit a 1090 MHz SAW-filtered LNA at the antenna and power it\nvia the dongle's bias-tee. Verify it is the 1090 MHz part — a wrong-band LNA will reduce performance."
+        },
+        {
+          "bbox": [
+            67.2,
+            663.05,
+            537.57,
+            689.05
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Run dump1090: Install dump1090 (or readsb) on a Raspberry Pi or laptop, start it, and open the web\ninterface. Decoded aircraft appear with ICAO address, callsign, altitude, and speed."
+        }
+      ],
+      "charCount": 2115,
+      "height": 792.0,
+      "pageNumber": 4,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            181.54,
+            749.41,
+            430.47,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "@1nska   •   6 EE Projects That Eavesdrop on the Sky   •   Page 5"
+        },
+        {
+          "bbox": [
+            67.2,
+            69.55,
+            539.29,
+            111.05
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Map and log: Enable the live map view and watch aircraft tracks build in real time. Log a day of traffic\nand plot your maximum range and aircraft count — or feed your data to a tracking network and get a\nfree membership in return."
+        },
+        {
+          "bbox": [
+            73.2,
+            140.17,
+            181.4,
+            151.17
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Interview Questions:"
+        },
+        {
+          "bbox": [
+            73.2,
+            160.05,
+            491.65,
+            170.55
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ What information does an ADS-B extended squitter contain, and why is it unencrypted?"
+        },
+        {
+          "bbox": [
+            73.2,
+            181.55,
+            356.83,
+            192.05
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ How does Mode S pulse-position modulation encode bits?"
+        },
+        {
+          "bbox": [
+            73.2,
+            203.05,
+            461.89,
+            213.55
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ Why is antenna height the dominant factor in your reception range at 1090 MHz?"
+        },
+        {
+          "bbox": [
+            73.2,
+            224.55,
+            368.48,
+            235.05
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ Why place a SAW filter before the LNA in this receive chain?"
+        },
+        {
+          "bbox": [
+            73.2,
+            246.05,
+            429.19,
+            256.55
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ How is each message validated, and what does the CRC protect against?"
+        },
+        {
+          "bbox": [
+            73.2,
+            267.55,
+            448.44,
+            278.05
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ How would you estimate the maximum range to an aircraft at a given altitude?"
+        }
+      ],
+      "charCount": 748,
+      "height": 792.0,
+      "pageNumber": 5,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            181.54,
+            749.41,
+            430.47,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "@1nska   •   6 EE Projects That Eavesdrop on the Sky   •   Page 6"
+        },
+        {
+          "bbox": [
+            67.2,
+            73.03,
+            266.72,
+            124.91
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "PROJECT 2\nTPMS Car-ID Sniffer"
+        },
+        {
+          "bbox": [
+            67.2,
+            131.0,
+            513.21,
+            159.5
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Reveal that every car driving past silently broadcasts a unique ID — it is not your\nphone tracking you, it is your tires"
+        },
+        {
+          "bbox": [
+            116.1,
+            181.55,
+            524.63,
+            192.05
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Cost: ~$30\nDifficulty: Intermediate\nBuild Time: 1 weekend"
+        },
+        {
+          "bbox": [
+            67.2,
+            217.34,
+            183.11,
+            231.34
+          ],
+          "blockIndex": 4,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Why This Matters"
+        },
+        {
+          "bbox": [
+            67.2,
+            239.55,
+            544.76,
+            343.05
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Every modern car has tire-pressure sensors that periodically transmit on 315 MHz (North America) or\n433 MHz (Europe) — and each transmission includes a unique sensor ID along with pressure and\ntemperature. They are unencrypted and broadcast whenever the wheels turn, which means a cheap\nradio can log them. Researchers have shown TPMS IDs can be used to identify and track vehicles, and\nthis project lets you see that privacy gap with your own eyes: park near a road, decode the packets,\nand watch unique IDs roll past. It is a striking lesson in how much our everyday devices leak — and\nexactly the kind of wireless-security insight that automotive and IoT-security teams hire for."
+        },
+        {
+          "bbox": [
+            73.2,
+            365.05,
+            535.41,
+            405.55
+          ],
+          "blockIndex": 6,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "What this proves to a recruiter: You understand sub-GHz ISM transmission, OOK/FSK\ndemodulation, reverse-engineering an undocumented packet format, and the privacy implications of\nunencrypted wireless — the core skill set of automotive RF and wireless-security engineering."
+        },
+        {
+          "bbox": [
+            67.2,
+            427.05,
+            458.75,
+            452.05
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "→ The job this maps to: automotive RF, wireless security / penetration testing, and\nembedded-systems roles — automakers, Tier-1 suppliers, and IoT-security firms."
+        },
+        {
+          "bbox": [
+            73.2,
+            476.05,
+            534.27,
+            531.55
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Legal & ethics: This is a receive-only demonstration of how much your own car leaks — best done\nlogging your own vehicles. Building a system to track other people by their TPMS IDs is a privacy\nviolation (and in many places regulated). Observe to understand the problem; do not operate it as a\nsurveillance tool."
+        }
+      ],
+      "charCount": 1715,
+      "height": 792.0,
+      "pageNumber": 6,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            181.54,
+            749.41,
+            430.47,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "@1nska   •   6 EE Projects That Eavesdrop on the Sky   •   Page 7"
+        },
+        {
+          "bbox": [
+            67.2,
+            300.54,
+            155.88,
+            314.54
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "How It Works"
+        },
+        {
+          "bbox": [
+            67.2,
+            322.75,
+            528.95,
+            364.25
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• TPMS transmissions: Each sensor wakes periodically (or on rotation) and transmits a short burst\nwith its unique 28-32 bit ID, the tire pressure, temperature, and a checksum. The bursts are\nunencrypted and repeat every few seconds to a minute."
+        },
+        {
+          "bbox": [
+            67.2,
+            375.25,
+            544.76,
+            416.75
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• 315 vs 433 MHz: North American cars typically use 315 MHz; European and many other markets use\n433.92 MHz ISM. You tune the SDR to the right band for your region — the RTL-SDR covers both\neasily."
+        },
+        {
+          "bbox": [
+            67.2,
+            427.75,
+            531.58,
+            469.25
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• OOK and FSK modulation: TPMS sensors use on-off keying or frequency-shift keying with\nManchester or differential encoding. The decoder demodulates the chosen scheme, recovers the\nbitstream, then aligns to the packet's preamble and sync word."
+        },
+        {
+          "bbox": [
+            67.2,
+            480.25,
+            540.34,
+            521.75
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Reverse-engineering the format: Different manufacturers pack the fields differently. Tools like\nrtl_433 already know dozens of TPMS protocols; decoding a new one means finding the preamble,\nthe ID field, and how pressure and temperature are scaled — real protocol reverse-engineering."
+        },
+        {
+          "bbox": [
+            67.2,
+            532.75,
+            544.17,
+            574.25
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Seeing the privacy gap: Because the ID is static and unencrypted, the same car produces the same\nID every time it passes. Logging these is exactly how researchers demonstrated vehicle tracking —\nand seeing your own car's IDs appear makes the abstract risk concrete."
+        }
+      ],
+      "charCount": 1314,
+      "height": 792.0,
+      "pageNumber": 7,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            181.54,
+            749.41,
+            430.47,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "@1nska   •   6 EE Projects That Eavesdrop on the Sky   •   Page 8"
+        },
+        {
+          "bbox": [
+            67.2,
+            70.34,
+            170.67,
+            84.34
+          ],
+          "blockIndex": 1,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Bill of Materials"
+        },
+        {
+          "bbox": [
+            68.2,
+            100.44,
+            543.8,
+            110.44
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Component\nPart / Spec\nQty\n~Cost"
+        },
+        {
+          "bbox": [
+            68.2,
+            124.33,
+            543.8,
+            133.83
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "RTL-SDR dongle\nRTL2832U + R820T2\n1\n$30"
+        },
+        {
+          "bbox": [
+            68.2,
+            148.33,
+            543.8,
+            157.83
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Antenna\nTuned for 315 or 433 MHz (telescopic)\n1\n$5"
+        },
+        {
+          "bbox": [
+            68.2,
+            172.33,
+            543.8,
+            181.83
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Quarter-wave whip\nCut for your band (alt antenna)\n1\n$2"
+        },
+        {
+          "bbox": [
+            68.2,
+            196.33,
+            543.8,
+            205.83
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "315/433 SAW LNA\nOptional, for weak bursts\n1\n$10"
+        },
+        {
+          "bbox": [
+            68.2,
+            220.33,
+            543.8,
+            229.83
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Coax + SMA\nShort feedline\n1\n$3"
+        },
+        {
+          "bbox": [
+            68.2,
+            244.33,
+            543.8,
+            253.83
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "USB extension\nPosition the dongle near a window\n1\n$3"
+        },
+        {
+          "bbox": [
+            68.2,
+            268.33,
+            543.8,
+            277.83
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Laptop / Pi\nRuns rtl_433\n1\n—"
+        },
+        {
+          "bbox": [
+            67.2,
+            299.34,
+            144.21,
+            313.34
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Build Steps"
+        },
+        {
+          "bbox": [
+            67.2,
+            321.55,
+            517.67,
+            347.55
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Identify your band: Find whether your region/car uses 315 MHz or 433 MHz, tune the RTL-SDR\nthere, and look for short periodic bursts when a car is nearby or you roll your own."
+        },
+        {
+          "bbox": [
+            67.2,
+            360.55,
+            506.65,
+            402.05
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Set up rtl_433: Install rtl_433, the open-source decoder that already understands many TPMS\nprotocols. Run it on your band; as cars pass or your own car rolls, decoded packets with IDs,\npressures, and temperatures print."
+        },
+        {
+          "bbox": [
+            67.2,
+            415.05,
+            538.1,
+            456.55
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Confirm with your own car: Roll your own vehicle and watch its four sensor IDs appear, each with a\nplausible pressure reading. Let a little air out of one tire and watch that sensor's value drop — proof\nyou are decoding real telemetry."
+        },
+        {
+          "bbox": [
+            67.2,
+            469.55,
+            544.79,
+            511.05
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Log passing traffic (ethically): Park near a road and log the stream for a few minutes. Note how each\ncar contributes a cluster of repeating IDs — the dataset that demonstrates the tracking risk. Keep it to\nunderstanding the problem, not profiling people."
+        },
+        {
+          "bbox": [
+            67.2,
+            524.05,
+            520.67,
+            565.55
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Reverse a new protocol (bonus): If you hit a sensor rtl_433 does not recognise, capture the raw\nburst, find the preamble and sync, and work out the ID and pressure fields. Decoding an unknown\nformat from scratch is a strong write-up."
+        }
+      ],
+      "charCount": 1541,
+      "height": 792.0,
+      "pageNumber": 8,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            181.54,
+            749.41,
+            430.47,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "@1nska   •   6 EE Projects That Eavesdrop on the Sky   •   Page 9"
+        },
+        {
+          "bbox": [
+            73.2,
+            79.67,
+            181.4,
+            90.67
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Interview Questions:"
+        },
+        {
+          "bbox": [
+            73.2,
+            99.55,
+            450.77,
+            110.05
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "→ What does a TPMS transmission contain, and why is each sensor identifiable?"
+        },
+        {
+          "bbox": [
+            73.2,
+            121.05,
+            464.19,
+            131.55
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "→ Why do North American and European TPMS systems use different frequencies?"
+        },
+        {
+          "bbox": [
+            73.2,
+            142.55,
+            470.08,
+            153.05
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "→ What is the difference between OOK and FSK, and how do you demodulate each?"
+        },
+        {
+          "bbox": [
+            73.2,
+            164.05,
+            413.67,
+            174.55
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "→ How would you reverse-engineer an unknown sensor's packet format?"
+        },
+        {
+          "bbox": [
+            73.2,
+            185.55,
+            430.34,
+            196.05
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "→ What are the privacy implications of static, unencrypted device identifiers?"
+        },
+        {
+          "bbox": [
+            73.2,
+            207.05,
+            485.79,
+            217.55
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "→ How could a manufacturer redesign TPMS to prevent tracking while keeping it cheap?"
+        }
+      ],
+      "charCount": 544,
+      "height": 792.0,
+      "pageNumber": 9,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            179.17,
+            749.41,
+            432.83,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "@1nska   •   6 EE Projects That Eavesdrop on the Sky   •   Page 10"
+        },
+        {
+          "bbox": [
+            67.2,
+            73.03,
+            291.23,
+            124.91
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "PROJECT 3\nRadio Meteor Detector"
+        },
+        {
+          "bbox": [
+            67.2,
+            131.0,
+            518.8,
+            159.5
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Catch a ping for every shooting star as it ionizes the upper atmosphere — even in\ndaylight or solid cloud"
+        },
+        {
+          "bbox": [
+            116.1,
+            181.55,
+            524.63,
+            192.05
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Cost: ~$30\nDifficulty: Intermediate\nBuild Time: 1 weekend"
+        },
+        {
+          "bbox": [
+            67.2,
+            217.34,
+            183.11,
+            231.34
+          ],
+          "blockIndex": 4,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Why This Matters"
+        },
+        {
+          "bbox": [
+            67.2,
+            239.55,
+            544.77,
+            343.05
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "When a meteor streaks through the upper atmosphere it leaves a trail of ionized gas that briefly reflects\nradio waves — and you can hear it. By tuning to a powerful distant VHF transmitter that is normally\nbelow your horizon (a dedicated radar like GRAVES, or a far-off TV or FM carrier), you receive\nnothing... until a meteor trail bounces that signal over the horizon to your antenna, producing a sudden\n'ping.' This is forward-scatter meteor detection, and it works day or night, through clouds, even when\nyou cannot see a thing. You are detecting objects from space by their effect on radio propagation —\nreal radio-astronomy technique, built from a $30 dongle and a simple antenna."
+        },
+        {
+          "bbox": [
+            73.2,
+            365.05,
+            538.74,
+            420.55
+          ],
+          "blockIndex": 6,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "What this proves to a recruiter: You understand weak-signal reception, the radio horizon and\nforward-scatter propagation, narrowband detection and spectrograms, and distinguishing real events\nfrom noise. It is a genuine radio-astronomy instrumentation skill that maps onto research, defence,\nand DSP roles."
+        },
+        {
+          "bbox": [
+            67.2,
+            442.05,
+            504.82,
+            467.05
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "→ The job this maps to: radio-astronomy instrumentation, weak-signal RF, and DSP roles —\nresearch institutions, observatories, and signal-processing teams."
+        }
+      ],
+      "charCount": 1422,
+      "height": 792.0,
+      "pageNumber": 10,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            179.17,
+            749.41,
+            432.83,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "@1nska   •   6 EE Projects That Eavesdrop on the Sky   •   Page 11"
+        },
+        {
+          "bbox": [
+            67.2,
+            70.34,
+            155.88,
+            84.34
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "How It Works"
+        },
+        {
+          "bbox": [
+            67.2,
+            92.55,
+            530.7,
+            149.55
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "• Forward-scatter geometry: You point a directional antenna toward a powerful VHF transmitter\nhundreds to ~1500 km away — far enough that it is below your horizon and you normally receive\nnothing on its frequency. The transmitter and you form a 'bistatic' pair waiting for something to\nbounce the signal across."
+        },
+        {
+          "bbox": [
+            67.2,
+            160.55,
+            534.82,
+            202.05
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "• Meteors make a mirror: A meteoroid hitting the atmosphere at tens of km/s ionizes a column of air\n~80-120 km up. That plasma trail briefly reflects VHF radio: for a fraction of a second to a few\nseconds, the distant transmitter's carrier is scattered down to your antenna — a 'ping.'"
+        },
+        {
+          "bbox": [
+            67.2,
+            213.05,
+            544.38,
+            254.55
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "• Choosing the transmitter: Dedicated beacons like the French GRAVES radar (143.05 MHz) are\nideal where receivable; elsewhere, distant analog TV or FM carriers, or amateur beacons, serve the\nsame role. You tune precisely to the carrier and look for reflections, not the direct signal."
+        },
+        {
+          "bbox": [
+            67.2,
+            265.55,
+            540.03,
+            322.55
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "• Detecting the ping: Software (SDR# plus a spectrogram, or a dedicated detector) shows a waterfall\nof the narrow frequency around the carrier. A meteor appears as a sudden bright trace — often\nDoppler-shifted as the trail drifts — lasting from a fraction of a second to many seconds for a bright\nfireball."
+        },
+        {
+          "bbox": [
+            67.2,
+            333.55,
+            540.92,
+            375.05
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "• Counting and timing: Logging pings over hours reveals meteor activity, including the dramatic rise\nduring showers like the Perseids. Because radio does not care about daylight or clouds, you detect\nmeteors a visual observer never could — including the daytime showers."
+        },
+        {
+          "bbox": [
+            67.2,
+            392.84,
+            170.67,
+            406.84
+          ],
+          "blockIndex": 7,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Bill of Materials"
+        },
+        {
+          "bbox": [
+            68.2,
+            422.94,
+            543.8,
+            432.94
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Component\nPart / Spec\nQty\n~Cost"
+        },
+        {
+          "bbox": [
+            68.2,
+            446.83,
+            543.8,
+            456.33
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "RTL-SDR dongle\nRTL2832U + R820T2\n1\n$30"
+        },
+        {
+          "bbox": [
+            68.2,
+            470.83,
+            543.79,
+            480.33
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "VHF Yagi antenna\n~3-5 element for the chosen band\n1\n$10-15"
+        },
+        {
+          "bbox": [
+            68.2,
+            494.83,
+            543.8,
+            504.33
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Coax + SMA\nLow-loss feedline\n1\n$5"
+        },
+        {
+          "bbox": [
+            68.2,
+            518.83,
+            543.8,
+            528.33
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "VHF LNA\nOptional, low-noise for weak pings\n1\n$10"
+        },
+        {
+          "bbox": [
+            68.2,
+            542.83,
+            543.8,
+            552.33
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Mast / mount\nTo aim the Yagi\n1\n$5"
+        },
+        {
+          "bbox": [
+            68.2,
+            566.83,
+            543.8,
+            576.33
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Laptop\nRuns SDR + spectrogram / detector\n1\n—"
+        }
+      ],
+      "charCount": 1836,
+      "height": 792.0,
+      "pageNumber": 11,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            179.17,
+            749.41,
+            432.83,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "@1nska   •   6 EE Projects That Eavesdrop on the Sky   •   Page 12"
+        },
+        {
+          "bbox": [
+            67.2,
+            70.34,
+            144.21,
+            84.34
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Build Steps"
+        },
+        {
+          "bbox": [
+            67.2,
+            92.55,
+            539.6,
+            134.05
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Pick a transmitter + frequency: Choose a powerful VHF source beyond your horizon — GRAVES at\n143.05 MHz if you are in range, otherwise a distant TV/FM carrier or beacon. Note its exact frequency\nand compass bearing from you."
+        },
+        {
+          "bbox": [
+            67.2,
+            147.05,
+            538.98,
+            188.55
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Aim a Yagi at it: Build or buy a small VHF Yagi for that frequency and point it toward the transmitter's\nbearing, tilted up slightly toward the reflection region. Directionality rejects local noise and favours the\nscatter path."
+        },
+        {
+          "bbox": [
+            67.2,
+            201.55,
+            536.97,
+            243.05
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Tune precisely to the carrier: In your SDR software, tune exactly to the transmitter frequency with a\nnarrow bandwidth. With no meteor you should see only noise (the direct signal is over the horizon).\nThis 'silent' baseline is what makes pings obvious."
+        },
+        {
+          "bbox": [
+            67.2,
+            256.05,
+            530.54,
+            297.55
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Watch the waterfall: Open a spectrogram zoomed tight on the carrier. When a meteor passes, a\nbright streak appears — sometimes a sharp dot, sometimes a long Doppler-curved trace for a bright\nevent. Confirm a few by ear (a sudden whistle or ping)."
+        },
+        {
+          "bbox": [
+            67.2,
+            310.55,
+            535.24,
+            352.05
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Log and correlate: Run an automatic detector or log manually over a night, counting pings per hour.\nCompare a normal night to a meteor-shower peak and plot the rate — your own radio meteor-activity\ncurve."
+        },
+        {
+          "bbox": [
+            73.2,
+            381.17,
+            181.4,
+            392.17
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Interview Questions:"
+        },
+        {
+          "bbox": [
+            73.2,
+            401.05,
+            398.25,
+            411.55
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "→ What physically reflects the radio signal during a meteor detection?"
+        },
+        {
+          "bbox": [
+            73.2,
+            422.55,
+            493.36,
+            433.05
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "→ Why must the reference transmitter be beyond your horizon for forward scatter to work?"
+        },
+        {
+          "bbox": [
+            73.2,
+            444.05,
+            470.06,
+            454.55
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "→ Why can radio detect meteors in daylight and through clouds when optical cannot?"
+        },
+        {
+          "bbox": [
+            73.2,
+            465.55,
+            339.91,
+            476.05
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "→ What causes the Doppler shift seen on a meteor ping?"
+        },
+        {
+          "bbox": [
+            73.2,
+            487.05,
+            488.12,
+            497.55
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "→ How do you distinguish a genuine meteor ping from aircraft reflections or interference?"
+        },
+        {
+          "bbox": [
+            73.2,
+            508.55,
+            481.72,
+            519.05
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "→ How would you automate counting and characterising pings over a long observation?"
+        }
+      ],
+      "charCount": 1717,
+      "height": 792.0,
+      "pageNumber": 12,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            179.17,
+            749.41,
+            432.83,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "@1nska   •   6 EE Projects That Eavesdrop on the Sky   •   Page 13"
+        },
+        {
+          "bbox": [
+            67.2,
+            73.03,
+            235.26,
+            124.91
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "PROJECT 4\nAIS Ship Tracker"
+        },
+        {
+          "bbox": [
+            67.2,
+            131.0,
+            538.91,
+            159.5
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "The maritime cousin of ADS-B — live positions, names, headings, and cargo of every\nship in range"
+        },
+        {
+          "bbox": [
+            116.1,
+            181.55,
+            524.63,
+            206.05
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Cost: ~$35\nDifficulty:\nBeginner-Intermediate\nBuild Time: 1 weekend"
+        },
+        {
+          "bbox": [
+            67.2,
+            231.34,
+            183.11,
+            245.34
+          ],
+          "blockIndex": 4,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Why This Matters"
+        },
+        {
+          "bbox": [
+            67.2,
+            253.55,
+            544.77,
+            357.05
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Ships continuously broadcast their identity, GPS position, course, speed, and cargo type on marine\nVHF (161.975 and 162.025 MHz) using a system called AIS — the maritime equivalent of aircraft\nADS-B. It is unencrypted and required on most large vessels, so with an SDR tuned to the marine band\nyou can plot live ship traffic on a map: tankers, ferries, fishing boats, naval auxiliaries, each with its\nname and destination. If you are anywhere near a coast, port, or large river, the result is a busy\nreal-time picture of maritime traffic — and the same volunteer-receiver model behind the public\nship-tracking sites."
+        },
+        {
+          "bbox": [
+            73.2,
+            379.05,
+            515.53,
+            434.55
+          ],
+          "blockIndex": 6,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "What this proves to a recruiter: You understand VHF reception, GMSK demodulation, the\nAIS/NMEA message format, and multi-channel decoding. Receiving and plotting a live maritime\ndatalink is a concrete RF and decoding skill directly relevant to maritime, surveillance, and\nwireless-systems work."
+        },
+        {
+          "bbox": [
+            67.2,
+            456.05,
+            529.32,
+            481.05
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "→ The job this maps to: maritime / navigation systems, coastal surveillance, and SDR/RF roles —\nshipping, port authorities, defence, and tracking networks."
+        }
+      ],
+      "charCount": 1335,
+      "height": 792.0,
+      "pageNumber": 13,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            179.17,
+            749.41,
+            432.83,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "@1nska   •   6 EE Projects That Eavesdrop on the Sky   •   Page 14"
+        },
+        {
+          "bbox": [
+            67.2,
+            70.34,
+            155.88,
+            84.34
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "How It Works"
+        },
+        {
+          "bbox": [
+            67.2,
+            92.55,
+            542.63,
+            149.55
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "• AIS on marine VHF: The Automatic Identification System broadcasts on two channels near 162\nMHz. Vessels send their MMSI identity, GPS position, course, speed, and (in static messages) ship\nname, type, and destination, on a self-organising time-division schedule so many ships share the\nchannel."
+        },
+        {
+          "bbox": [
+            67.2,
+            160.55,
+            542.32,
+            202.05
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "• Two channels at once: AIS uses 161.975 MHz (channel A) and 162.025 MHz (channel B). A\ncapable receiver decodes both simultaneously — the RTL-SDR's bandwidth easily spans both, and\nthe decoder splits and demodulates each."
+        },
+        {
+          "bbox": [
+            67.2,
+            213.05,
+            518.71,
+            254.55
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "• GMSK modulation: AIS uses Gaussian minimum-shift keying at 9600 bps — a compact,\nconstant-envelope FSK variant. The decoder demodulates GMSK, recovers the HDLC-framed\npackets, and checks each with a CRC."
+        },
+        {
+          "bbox": [
+            67.2,
+            265.55,
+            540.62,
+            291.55
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "• NMEA decoding: Valid packets are turned into NMEA AIS sentences (the same format chartplotters\nuse). Software like AIS-catcher or rtl-ais parses these into position and vessel-info records."
+        },
+        {
+          "bbox": [
+            67.2,
+            302.55,
+            540.91,
+            344.05
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "• Plot the traffic: Feed the decoded positions to a map (AIS-catcher's web UI or a plotter). Ships\nappear with names, headings, and tracks; static messages fill in type and destination. Near a coast\nyou will see a constantly updating maritime picture."
+        },
+        {
+          "bbox": [
+            67.2,
+            361.84,
+            170.67,
+            375.84
+          ],
+          "blockIndex": 7,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Bill of Materials"
+        },
+        {
+          "bbox": [
+            68.2,
+            391.94,
+            543.8,
+            401.94
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Component\nPart / Spec\nQty\n~Cost"
+        },
+        {
+          "bbox": [
+            68.2,
+            415.83,
+            543.8,
+            425.33
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "RTL-SDR dongle\nRTL2832U + R820T2\n1\n$30"
+        },
+        {
+          "bbox": [
+            68.2,
+            439.83,
+            543.8,
+            449.33
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Marine VHF antenna\nTuned ~162 MHz (or wideband VHF)\n1\n$8"
+        },
+        {
+          "bbox": [
+            68.2,
+            463.83,
+            543.8,
+            473.33
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "VHF LNA + filter\nOptional, for range\n1\n$10"
+        },
+        {
+          "bbox": [
+            68.2,
+            487.83,
+            543.8,
+            497.33
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Coax + SMA\nLow-loss feedline\n1\n$5"
+        },
+        {
+          "bbox": [
+            68.2,
+            511.83,
+            543.8,
+            521.33
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Mast / mount\nHeight improves range\n1\n$5"
+        },
+        {
+          "bbox": [
+            68.2,
+            535.83,
+            543.8,
+            545.33
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Laptop / Pi\nRuns AIS-catcher / rtl-ais\n1\n—"
+        },
+        {
+          "bbox": [
+            67.2,
+            566.84,
+            144.21,
+            580.84
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Build Steps"
+        },
+        {
+          "bbox": [
+            67.2,
+            589.05,
+            544.77,
+            630.55
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Set up a VHF antenna: Use a marine-band (~162 MHz) vertical or a wideband VHF antenna, mounted\nas high and clear as possible — ideally with sea view. Range is line-of-sight, so height and a clear path\nto the water matter most."
+        },
+        {
+          "bbox": [
+            67.2,
+            643.55,
+            531.69,
+            669.55
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Install an AIS decoder: Install AIS-catcher (or rtl-ais), configure it for the RTL-SDR and the two AIS\nchannels, start it, and watch decoded messages appear in the console."
+        }
+      ],
+      "charCount": 1950,
+      "height": 792.0,
+      "pageNumber": 14,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            179.17,
+            749.41,
+            432.83,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "@1nska   •   6 EE Projects That Eavesdrop on the Sky   •   Page 15"
+        },
+        {
+          "bbox": [
+            67.2,
+            69.55,
+            533.47,
+            111.05
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Confirm both channels: Verify you are decoding traffic on both 161.975 and 162.025 MHz — many\ndecoders show per-channel message counts. Strong nearby vessels should appear within minutes if\nyou are near water."
+        },
+        {
+          "bbox": [
+            67.2,
+            124.05,
+            536.4,
+            150.05
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Open the live map: Enable the web map and watch vessels populate with MMSI, name, course, and\nspeed. Static messages will fill in ship type and destination as they are received."
+        },
+        {
+          "bbox": [
+            67.2,
+            163.05,
+            539.87,
+            204.55
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Log and analyse: Record a few hours of traffic and analyse it — busiest vessel types, your maximum\ndecode range, message rates by channel. Optionally feed a tracking network for a free upgraded\naccount."
+        },
+        {
+          "bbox": [
+            73.2,
+            233.67,
+            181.4,
+            244.67
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Interview Questions:"
+        },
+        {
+          "bbox": [
+            73.2,
+            253.55,
+            380.76,
+            264.05
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "→ What information do AIS position and static messages contain?"
+        },
+        {
+          "bbox": [
+            73.2,
+            275.05,
+            429.8,
+            285.55
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "→ Why does AIS use two channels, and how does the receiver handle both?"
+        },
+        {
+          "bbox": [
+            73.2,
+            296.55,
+            423.35,
+            307.05
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "→ What is GMSK, and why is a constant-envelope modulation useful here?"
+        },
+        {
+          "bbox": [
+            73.2,
+            318.05,
+            444.92,
+            328.55
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "→ How does AIS coordinate many ships sharing the same channel (SOTDMA)?"
+        },
+        {
+          "bbox": [
+            73.2,
+            339.55,
+            383.11,
+            350.05
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "→ Why is antenna height and sea view the dominant range factor?"
+        },
+        {
+          "bbox": [
+            73.2,
+            361.05,
+            453.7,
+            371.55
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "→ How does AIS compare to radar for collision avoidance — strengths and gaps?"
+        }
+      ],
+      "charCount": 1089,
+      "height": 792.0,
+      "pageNumber": 15,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            179.17,
+            749.41,
+            432.83,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "@1nska   •   6 EE Projects That Eavesdrop on the Sky   •   Page 16"
+        },
+        {
+          "bbox": [
+            67.2,
+            73.03,
+            318.11,
+            124.91
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "PROJECT 5\n433 MHz Sensor Decoder"
+        },
+        {
+          "bbox": [
+            67.2,
+            131.0,
+            484.06,
+            159.5
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Decode the invisible chatter of the ISM band — weather stations, doorbells,\nthermometers, your own smart-home sensors"
+        },
+        {
+          "bbox": [
+            116.1,
+            181.55,
+            524.63,
+            206.05
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Cost: ~$25\nDifficulty:\nBeginner-Intermediate\nBuild Time: 1 weekend"
+        },
+        {
+          "bbox": [
+            67.2,
+            231.34,
+            183.11,
+            245.34
+          ],
+          "blockIndex": 4,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Why This Matters"
+        },
+        {
+          "bbox": [
+            67.2,
+            253.55,
+            533.47,
+            357.05
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "The 433 MHz ISM band is full of chatter you never notice: wireless weather stations, remote\nthermometers, soil-moisture sensors, doorbells, garage remotes, and cheap smart-home gadgets all\ntransmit there in the clear. Point an SDR at it and an open-source decoder turns that noise into\nreadable data — temperatures, humidity, button presses, sensor IDs — from devices all around your\nneighbourhood and inside your own home. It is the most approachable possible introduction to IoT\nreverse-engineering, and the natural gateway to building your own sensor network or auditing what\nyour devices leak. The same skills underpin IoT product development and wireless security."
+        },
+        {
+          "bbox": [
+            73.2,
+            379.05,
+            532.5,
+            419.55
+          ],
+          "blockIndex": 6,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "What this proves to a recruiter: You understand sub-GHz ISM communication, OOK/FSK\ndemodulation, packet framing and checksums, and decoding undocumented device protocols. This\nis exactly the wireless skill set behind IoT product engineering and connected-device security."
+        },
+        {
+          "bbox": [
+            67.2,
+            441.05,
+            534.0,
+            466.05
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "→ The job this maps to: IoT / embedded wireless, home-automation, and wireless-security roles —\nIoT product companies, smart-home platforms, and security teams."
+        }
+      ],
+      "charCount": 1397,
+      "height": 792.0,
+      "pageNumber": 16,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            179.17,
+            749.41,
+            432.83,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "@1nska   •   6 EE Projects That Eavesdrop on the Sky   •   Page 17"
+        },
+        {
+          "bbox": [
+            67.2,
+            70.34,
+            155.88,
+            84.34
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "How It Works"
+        },
+        {
+          "bbox": [
+            67.2,
+            92.55,
+            520.77,
+            134.05
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "• The 433 MHz ISM band: 433.92 MHz is a licence-free band where countless low-power devices\ntransmit short, simple messages. Because the band is shared and cheap, manufacturers use\nunencrypted OOK/FSK with basic framing — easy to receive and decode."
+        },
+        {
+          "bbox": [
+            67.2,
+            145.05,
+            529.54,
+            186.55
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "• OOK and FSK: Most cheap sensors use on-off keying (the carrier blips on and off) or simple FSK.\nThe decoder demodulates the carrier into a raw pulse train, then interprets pulse widths as bits\nusing each protocol's encoding (PWM, Manchester, and so on)."
+        },
+        {
+          "bbox": [
+            67.2,
+            197.55,
+            541.23,
+            239.05
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "• Packet framing and IDs: A typical message has a preamble, a device ID, the payload (temperature,\nhumidity, state), and a checksum. The ID lets you tell your neighbour's weather station from your\nown; the checksum lets the decoder reject corrupted packets."
+        },
+        {
+          "bbox": [
+            67.2,
+            250.05,
+            534.5,
+            291.55
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "• rtl_433 does the heavy lifting: rtl_433 is an open-source decoder that recognises hundreds of\ndevice protocols out of the box. Run it and it auto-identifies known devices, printing manufacturer,\nmodel, ID, and decoded values as JSON you can log or pipe anywhere."
+        },
+        {
+          "bbox": [
+            67.2,
+            302.55,
+            526.35,
+            344.05
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "• Decode the unknown: When you hit a device rtl_433 does not know, you capture the raw signal,\nstudy the pulse pattern, and work out the encoding and fields yourself — a clean, self-contained\nprotocol reverse-engineering project that is genuinely impressive on a resume."
+        },
+        {
+          "bbox": [
+            67.2,
+            361.84,
+            170.67,
+            375.84
+          ],
+          "blockIndex": 7,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Bill of Materials"
+        },
+        {
+          "bbox": [
+            68.2,
+            391.94,
+            543.8,
+            401.94
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Component\nPart / Spec\nQty\n~Cost"
+        },
+        {
+          "bbox": [
+            68.2,
+            415.83,
+            543.8,
+            425.33
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "RTL-SDR dongle\nRTL2832U + R820T2\n1\n$25"
+        },
+        {
+          "bbox": [
+            68.2,
+            439.83,
+            543.8,
+            449.33
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "433 MHz antenna\nQuarter-wave whip (~17 cm) or telescopic\n1\n$4"
+        },
+        {
+          "bbox": [
+            68.2,
+            463.83,
+            543.8,
+            473.33
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Coax + SMA\nShort feedline\n1\n$3"
+        },
+        {
+          "bbox": [
+            68.2,
+            487.83,
+            543.8,
+            497.33
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "433 MHz LNA\nOptional, for weak/distant devices\n1\n$8"
+        },
+        {
+          "bbox": [
+            68.2,
+            511.83,
+            543.8,
+            521.33
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "USB extension\nPosition the dongle / antenna\n1\n$3"
+        },
+        {
+          "bbox": [
+            68.2,
+            535.83,
+            543.8,
+            545.33
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Laptop / Pi\nRuns rtl_433\n1\n—"
+        },
+        {
+          "bbox": [
+            67.2,
+            566.84,
+            144.21,
+            580.84
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Build Steps"
+        },
+        {
+          "bbox": [
+            67.2,
+            589.05,
+            523.54,
+            630.55
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Tune to 433.92 MHz: Install the RTL-SDR tools and tune to 433.92 MHz in an SDR app. Trigger a\nknown device (press a wireless doorbell or remote) and watch the burst appear — confirming your\nsetup hears the band."
+        },
+        {
+          "bbox": [
+            67.2,
+            643.55,
+            534.05,
+            669.55
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Run rtl_433: Install and run rtl_433 on 433.92 MHz. Within minutes it will start auto-decoding nearby\nweather stations, thermometers, and sensors, printing model names, IDs, and values."
+        }
+      ],
+      "charCount": 2084,
+      "height": 792.0,
+      "pageNumber": 17,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            179.17,
+            749.41,
+            432.83,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "@1nska   •   6 EE Projects That Eavesdrop on the Sky   •   Page 18"
+        },
+        {
+          "bbox": [
+            67.2,
+            69.55,
+            541.04,
+            111.05
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Identify your own devices: Cross-reference the decoded IDs with your own gadgets — your weather\nstation's temperature should match reality. This separates your devices from the neighbourhood's\nchatter."
+        },
+        {
+          "bbox": [
+            67.2,
+            124.05,
+            526.47,
+            165.55
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Log to a dashboard: Pipe rtl_433's JSON output to a simple logger or home-automation system\n(MQTT, InfluxDB/Grafana). Now you are capturing live sensor data into your own dashboard — the\nstart of a DIY sensor network."
+        },
+        {
+          "bbox": [
+            67.2,
+            178.55,
+            534.08,
+            220.05
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Reverse an unknown device: Find a device rtl_433 cannot decode, capture its raw pulses (-A\nanalyzer mode), determine the encoding and fields, and write a decoder. Document the process — a\nstrong, focused portfolio piece."
+        },
+        {
+          "bbox": [
+            73.2,
+            249.17,
+            181.4,
+            260.17
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Interview Questions:"
+        },
+        {
+          "bbox": [
+            73.2,
+            269.05,
+            423.33,
+            279.55
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "→ Why is the 433 MHz band so crowded with simple unencrypted devices?"
+        },
+        {
+          "bbox": [
+            73.2,
+            290.55,
+            390.69,
+            301.05
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "→ What is on-off keying, and how do you turn a pulse train into bits?"
+        },
+        {
+          "bbox": [
+            73.2,
+            312.05,
+            453.71,
+            322.55
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "→ What fields make up a typical sensor packet, and what does the checksum do?"
+        },
+        {
+          "bbox": [
+            73.2,
+            333.55,
+            414.6,
+            344.05
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "→ How would you reverse-engineer a device rtl_433 does not recognise?"
+        },
+        {
+          "bbox": [
+            73.2,
+            355.05,
+            416.9,
+            365.55
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "→ What security and privacy issues arise from unencrypted ISM sensors?"
+        },
+        {
+          "bbox": [
+            73.2,
+            376.55,
+            452.54,
+            387.05
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "→ How would you build a reliable home sensor network on top of these decodes?"
+        }
+      ],
+      "charCount": 1155,
+      "height": 792.0,
+      "pageNumber": 18,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            179.17,
+            749.41,
+            432.83,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "@1nska   •   6 EE Projects That Eavesdrop on the Sky   •   Page 19"
+        },
+        {
+          "bbox": [
+            67.2,
+            73.03,
+            390.47,
+            124.91
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "PROJECT 6\nRadiosonde Tracker & Recovery"
+        },
+        {
+          "bbox": [
+            67.2,
+            131.0,
+            541.31,
+            159.5
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Lock onto a weather balloon's telemetry as it falls from 30 km up — then go physically\nchase it down"
+        },
+        {
+          "bbox": [
+            116.1,
+            181.55,
+            531.93,
+            192.05
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Cost: ~$35\nDifficulty: Intermediate\nBuild Time: 1-2 weekends"
+        },
+        {
+          "bbox": [
+            67.2,
+            217.34,
+            183.11,
+            231.34
+          ],
+          "blockIndex": 4,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Why This Matters"
+        },
+        {
+          "bbox": [
+            67.2,
+            239.55,
+            541.89,
+            358.55
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Twice a day, from hundreds of sites worldwide, weather agencies launch balloons carrying\nradiosondes — small instrument packages that transmit temperature, humidity, pressure, and GPS\nposition as they rise to ~30 km, then parachute back to Earth. Those transmissions (around 400-406\nMHz) are unencrypted, so you can receive a sonde's live telemetry, plot its track, and — using its GPS\nposition and a descent model — predict where it will land and go recover it. It is a genuine treasure\nhunt powered by RF: decode a real aerospace telemetry stream, do the tracking and prediction math,\nand end up holding the instrument you tracked from the edge of space. Recovered sondes are also\nreusable for your own high-altitude projects."
+        },
+        {
+          "bbox": [
+            73.2,
+            380.55,
+            533.03,
+            436.05
+          ],
+          "blockIndex": 6,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "What this proves to a recruiter: You understand telemetry decoding, GNSS position data,\nweak-signal VHF/UHF reception with directional antennas, and trajectory prediction. Tracking a live\naerospace telemetry payload from launch to landing is a standout, end-to-end RF-and-data skill for\naerospace and telemetry roles."
+        },
+        {
+          "bbox": [
+            67.2,
+            457.55,
+            534.0,
+            482.55
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "→ The job this maps to: telemetry / GNSS, aerospace / avionics, and RF-systems roles — weather\nagencies, aerospace firms, and high-altitude ballooning teams."
+        },
+        {
+          "bbox": [
+            73.2,
+            506.55,
+            530.19,
+            562.05
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Recovery etiquette: Recovering a landed radiosonde is legal in most places (they are considered\nabandoned), but the chase is the risky part: do not trespass, do not enter roads or rail, and respect\nprivate property and local rules. Use the telemetry to predict the landing site, then knock and ask\nbefore crossing anyone's land."
+        }
+      ],
+      "charCount": 1811,
+      "height": 792.0,
+      "pageNumber": 19,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            179.17,
+            749.41,
+            432.83,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "@1nska   •   6 EE Projects That Eavesdrop on the Sky   •   Page 20"
+        },
+        {
+          "bbox": [
+            67.2,
+            300.54,
+            155.88,
+            314.54
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "How It Works"
+        },
+        {
+          "bbox": [
+            67.2,
+            322.75,
+            541.51,
+            379.75
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "• Radiosonde telemetry: A radiosonde (commonly a Vaisala RS41 or Graw type) transmits a\ncontinuous data frame with its GPS latitude, longitude, and altitude plus temperature, humidity, and\npressure, on a frequency in the 400-406 MHz meteorological band. Each launch site uses a known\nfrequency you can look up."
+        },
+        {
+          "bbox": [
+            67.2,
+            390.75,
+            538.59,
+            432.25
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "• Receiving the signal: As the balloon climbs it becomes line-of-sight over a huge area, so reception\nis easy at altitude; the hard part is the low-altitude descent and landing. A directional UHF antenna\n(a small Yagi) and an LNA help you hold the signal as the sonde drops behind terrain."
+        },
+        {
+          "bbox": [
+            67.2,
+            443.25,
+            543.86,
+            484.75
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "• Decoding the frame: Software like radiosonde_auto_rx demodulates the sonde's FSK telemetry,\ndecodes the frame format for that sonde type, validates it, and outputs live position and sensor data\n— often uploading to a tracking map automatically."
+        },
+        {
+          "bbox": [
+            67.2,
+            495.75,
+            536.26,
+            537.25
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "• Predicting the landing: Once you have the descent trajectory and the sonde's current position and\naltitude, a descent model (accounting for wind drift under the parachute) predicts the landing spot.\nThe prediction tightens as the sonde nears the ground."
+        },
+        {
+          "bbox": [
+            67.2,
+            548.25,
+            533.1,
+            589.75
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "• The recovery: With a predicted landing zone, you drive toward it, switch to a handheld Yagi for the\nfinal direction-finding, and home in on the last-known position. Recovering the payload is the\ntangible payoff — and the sonde can be reflashed for your own balloon or tracking experiments."
+        }
+      ],
+      "charCount": 1469,
+      "height": 792.0,
+      "pageNumber": 20,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            179.17,
+            749.41,
+            432.83,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "@1nska   •   6 EE Projects That Eavesdrop on the Sky   •   Page 21"
+        },
+        {
+          "bbox": [
+            67.2,
+            70.34,
+            170.67,
+            84.34
+          ],
+          "blockIndex": 1,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Bill of Materials"
+        },
+        {
+          "bbox": [
+            68.2,
+            100.44,
+            543.8,
+            110.44
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Component\nPart / Spec\nQty\n~Cost"
+        },
+        {
+          "bbox": [
+            68.2,
+            124.33,
+            543.8,
+            133.83
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "RTL-SDR dongle\nRTL2832U + R820T2\n1\n$30"
+        },
+        {
+          "bbox": [
+            68.2,
+            148.33,
+            543.8,
+            157.83
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "UHF Yagi antenna\n~400 MHz, 3-5 element (recovery DF)\n1\n$12"
+        },
+        {
+          "bbox": [
+            68.2,
+            172.33,
+            543.8,
+            181.83
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Wideband whip\nFor easy reception at altitude\n1\n$4"
+        },
+        {
+          "bbox": [
+            68.2,
+            196.33,
+            543.8,
+            205.83
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "400 MHz LNA\nOptional, low-altitude reception\n1\n$10"
+        },
+        {
+          "bbox": [
+            68.2,
+            220.33,
+            543.8,
+            229.83
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Coax + SMA\nFeedline\n1\n$5"
+        },
+        {
+          "bbox": [
+            68.2,
+            244.33,
+            543.8,
+            253.83
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Phone / GPS\nNavigate to predicted landing\n1\n—"
+        },
+        {
+          "bbox": [
+            68.2,
+            268.33,
+            543.8,
+            277.83
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Laptop / Pi\nRuns auto_rx\n1\n—"
+        },
+        {
+          "bbox": [
+            67.2,
+            299.34,
+            144.21,
+            313.34
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Build Steps"
+        },
+        {
+          "bbox": [
+            67.2,
+            321.55,
+            538.74,
+            347.55
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Find a launch + frequency: Look up your nearest radiosonde launch site, its schedule (often ~00:00\nand 12:00 UTC), and the transmit frequency. Sites and live sondes are listed on public tracking maps."
+        },
+        {
+          "bbox": [
+            67.2,
+            360.55,
+            539.29,
+            386.55
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Set up auto_rx: Install radiosonde_auto_rx on a Raspberry Pi or laptop with the RTL-SDR. Configure\nyour frequency range; it will scan, detect a sonde, lock on, and decode its telemetry automatically."
+        },
+        {
+          "bbox": [
+            67.2,
+            399.55,
+            544.77,
+            441.05
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Track the flight: Once decoding, watch the sonde's live position, altitude, and sensor data. Follow it up\nto burst altitude (~30 km) and into descent. auto_rx can upload to a map so you see the whole\ntrajectory."
+        },
+        {
+          "bbox": [
+            67.2,
+            454.05,
+            536.99,
+            495.55
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Predict the landing: Use the descent prediction (built into the tracking tools) to estimate the landing\nzone from current position, altitude, and wind. Refine as it drops — the cone narrows quickly near the\nground."
+        },
+        {
+          "bbox": [
+            67.2,
+            508.55,
+            541.66,
+            550.05
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Drive out and recover: Head toward the predicted site, switch to a handheld Yagi to direction-find the\nfinal signal, and locate the payload. Respect property and access rules. Reflash the recovered sonde\nfor your own projects if you like."
+        }
+      ],
+      "charCount": 1479,
+      "height": 792.0,
+      "pageNumber": 21,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            179.17,
+            749.41,
+            432.83,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "@1nska   •   6 EE Projects That Eavesdrop on the Sky   •   Page 22"
+        },
+        {
+          "bbox": [
+            73.2,
+            79.67,
+            181.4,
+            90.67
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "Interview Questions:"
+        },
+        {
+          "bbox": [
+            73.2,
+            99.55,
+            404.71,
+            110.05
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "→ What data does a radiosonde transmit, and in what frequency band?"
+        },
+        {
+          "bbox": [
+            73.2,
+            121.05,
+            503.34,
+            131.55
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "→ Why is the descent and landing the hardest part to receive, and how do you compensate?"
+        },
+        {
+          "bbox": [
+            73.2,
+            142.55,
+            346.32,
+            153.05
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "→ How is the telemetry frame demodulated and validated?"
+        },
+        {
+          "bbox": [
+            73.2,
+            164.05,
+            397.68,
+            174.55
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "→ How do you predict a landing site from position, altitude, and wind?"
+        },
+        {
+          "bbox": [
+            73.2,
+            185.55,
+            383.1,
+            196.05
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "→ How does a Yagi help with final direction-finding on the ground?"
+        },
+        {
+          "bbox": [
+            73.2,
+            207.05,
+            417.53,
+            217.55
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "→ What GNSS and coordinate concepts are involved in plotting the track?"
+        }
+      ],
+      "charCount": 503,
+      "height": 792.0,
+      "pageNumber": 22,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            179.17,
+            749.41,
+            432.83,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 23,
+          "text": "@1nska   •   6 EE Projects That Eavesdrop on the Sky   •   Page 23"
+        },
+        {
+          "bbox": [
+            67.2,
+            71.01,
+            443.46,
+            110.01
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 23,
+          "text": "The sky is full of signals nobody's listening to.\nOne $30 radio, and you are."
+        },
+        {
+          "bbox": [
+            67.2,
+            127.55,
+            543.45,
+            200.05
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 23,
+          "text": "Aircraft, ships, weather balloons, meteors, and the sensors all around you are broadcasting constantly,\nin the clear, to anyone with a receiver. With a single software-defined radio and the right antenna, you\ncan pull all of it out of the air and decode it yourself — a live radar of the sky, a map of the seas, a ping\nfor every shooting star. The hardware is cheap; the skill is in the antennas, the weak-signal reception,\nand the protocol decoding."
+        },
+        {
+          "bbox": [
+            67.2,
+            212.05,
+            544.53,
+            284.55
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 23,
+          "text": "And here is the throughline that makes it more than a hobby: every one of these is receive-only and\nlegal, and that restraint is exactly what real RF and security engineers practise. Decoding what is\nalready public, understanding what leaks, and respecting what is private is the professional version of\nthis craft. SDR, aerospace surveillance, maritime systems, and signals work all hire people who can do\nprecisely this."
+        },
+        {
+          "bbox": [
+            73.2,
+            312.55,
+            538.77,
+            353.05
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 23,
+          "text": "Build even one of these. Screenshot the live map, log the data, plot your range. Put it on your GitHub\nwith a proper README and a note on the legal, receive-only scope. You will have a portfolio piece\nthat proves you can pull real signals out of the air — and the judgment to do it responsibly."
+        },
+        {
+          "bbox": [
+            73.2,
+            388.55,
+            535.63,
+            414.05
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 23,
+          "text": "Follow @1nska on Instagram for build logs, new guides, and projects that listen to the whole\nsky."
+        },
+        {
+          "bbox": [
+            67.2,
+            445.01,
+            378.84,
+            462.01
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 23,
+          "text": "— Enes (@1nska) • Electrical Engineer"
+        }
+      ],
+      "charCount": 1443,
+      "height": 792.0,
+      "pageNumber": 23,
+      "textExtractable": true,
+      "width": 612.0
+    }
+  ],
+  "provenance": {
+    "confidence": "EXACT",
+    "extractionMethod": "pymupdf-blocks-v1",
+    "extractorVersion": "1.28.0",
+    "generatorVersion": null,
+    "origin": "extracted",
+    "source": "guide-004",
+    "sourceHash": "90f2b15ae38369b1ed67c34c437fa43726d07051cbaf3f19455bcd917c53dff4",
+    "sourcePage": null,
+    "sourcePath": "Engineering guides/6 EE Projects That Eavesdrop On The Sky.pdf",
+    "sourceSection": "ROOT"
+  },
+  "relativePath": "Engineering guides/6 EE Projects That Eavesdrop On The Sky.pdf",
+  "schemaVersion": "1.0.0",
+  "sha256": "90f2b15ae38369b1ed67c34c437fa43726d07051cbaf3f19455bcd917c53dff4",
+  "sourceId": "guide-004"
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentCount": 1,
+  "uniqueHashCount": 1,
+  "totalSizeBytes": 50000,
+  "documents": [
+    {
+      "sourceId": "guide-001",
+      "relativePath": "Engineering guides/sample.pdf",
+      "fileName": "sample.pdf",
+      "fileType": "pdf",
+      "fileSize": 50000,
+      "sha256": "abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789",
+      "status": "VALID",
+      "extractor": "pymupdf",
+      "extractorVersion": "1.0.0",
+      "pageCount": 10,
+      "textExtractable": true,
+      "extractionStatus": "SUCCESS",
+      "validationStatus": "VALID",
+      "isDuplicate": false,
+      "duplicateOf": null,
+      "warnings": []
+    }
+  ]
+}\n

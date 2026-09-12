@@ -1,0 +1,2877 @@
+{
+  "metadata": {
+    "author": "(anonymous)",
+    "creationDate": "D:20260223223227+00'00'",
+    "creator": "(unspecified)",
+    "format": "PDF 1.4",
+    "modDate": "D:20260223223227+00'00'",
+    "producer": "ReportLab PDF Library - (opensource)",
+    "subject": "(unspecified)",
+    "title": "(anonymous)"
+  },
+  "pageCount": 10,
+  "pages": [
+    {
+      "blocks": [
+        {
+          "bbox": [
+            125.52,
+            181.36,
+            486.48,
+            273.42
+          ],
+          "blockIndex": 0,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "THE ML GUIDE\nFOR EVERY ENGINEER"
+        },
+        {
+          "bbox": [
+            157.38,
+            313.55,
+            454.62,
+            332.79
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "What to learn, where to start, and why it matters"
+        },
+        {
+          "bbox": [
+            184.61,
+            339.55,
+            427.39,
+            358.79
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "— based on YOUR type of engineering"
+        },
+        {
+          "bbox": [
+            270.1,
+            405.55,
+            341.9,
+            424.79
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "By @1nska"
+        },
+        {
+          "bbox": [
+            259.23,
+            431.93,
+            352.77,
+            444.29
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "NYU Shanghai — 2026"
+        }
+      ],
+      "charCount": 143,
+      "height": 792.0,
+      "pageNumber": 1,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            207.32,
+            754.6,
+            404.68,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "@1nska  •  The ML Guide for Every Engineer  •  Page 2"
+        },
+        {
+          "bbox": [
+            70.8,
+            62.06,
+            393.56,
+            92.35
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Why Every Engineer Needs ML"
+        },
+        {
+          "bbox": [
+            70.8,
+            102.81,
+            541.2,
+            117.24
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Machine learning isn't just a CS thing anymore. It's becoming the layer that sits on top of every"
+        },
+        {
+          "bbox": [
+            70.8,
+            118.81,
+            541.2,
+            133.24
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "engineering discipline. Mechanical engineers use it to predict equipment failures before they happen."
+        },
+        {
+          "bbox": [
+            70.8,
+            134.81,
+            541.2,
+            149.24
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Electrical engineers use it to optimize power grids in real time. Civil engineers use it to model"
+        },
+        {
+          "bbox": [
+            70.8,
+            150.81,
+            373.69,
+            165.24
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "structural integrity under conditions no equation can fully capture."
+        },
+        {
+          "bbox": [
+            70.8,
+            174.81,
+            541.2,
+            189.24
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "The engineers who learn ML now won't just be better engineers — they'll be the ones leading"
+        },
+        {
+          "bbox": [
+            70.8,
+            190.81,
+            513.14,
+            205.24
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "projects, starting companies, and solving problems that were previously considered unsolvable."
+        },
+        {
+          "bbox": [
+            108.8,
+            224.81,
+            474.11,
+            239.32
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "This guide is designed to be practical, not academic. For each engineering"
+        },
+        {
+          "bbox": [
+            108.8,
+            240.81,
+            494.78,
+            255.24
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "discipline, you'll get: why ML matters for your field, what to learn first, which tools to"
+        },
+        {
+          "bbox": [
+            108.8,
+            256.81,
+            264.63,
+            271.24
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "use, and a starter project to build."
+        }
+      ],
+      "charCount": 828,
+      "height": 792.0,
+      "pageNumber": 2,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            207.32,
+            754.6,
+            404.68,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "@1nska  •  The ML Guide for Every Engineer  •  Page 3"
+        },
+        {
+          "bbox": [
+            70.8,
+            62.06,
+            435.05,
+            92.35
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "The ML Foundation (For Everyone)"
+        },
+        {
+          "bbox": [
+            70.8,
+            102.81,
+            541.2,
+            117.24
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Regardless of your discipline, these fundamentals apply to every engineer getting started with ML."
+        },
+        {
+          "bbox": [
+            70.8,
+            118.81,
+            522.48,
+            133.24
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Don't overthink this part — you don't need a PhD in statistics. You need enough to be dangerous."
+        },
+        {
+          "bbox": [
+            70.8,
+            142.86,
+            242.91,
+            157.32
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Core concepts to understand first:"
+        },
+        {
+          "bbox": [
+            90.8,
+            162.81,
+            397.95,
+            177.24
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Supervised vs. unsupervised learning — know when to use each"
+        },
+        {
+          "bbox": [
+            90.8,
+            182.81,
+            417.16,
+            197.24
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Regression vs. classification — the two most common problem types"
+        },
+        {
+          "bbox": [
+            90.8,
+            202.81,
+            417.8,
+            217.24
+          ],
+          "blockIndex": 7,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Training, validation, and test data — why you split your data and how"
+        },
+        {
+          "bbox": [
+            90.8,
+            222.81,
+            307.48,
+            237.24
+          ],
+          "blockIndex": 8,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Overfitting — the #1 mistake beginners make"
+        },
+        {
+          "bbox": [
+            90.8,
+            242.81,
+            401.45,
+            257.24
+          ],
+          "blockIndex": 9,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Feature engineering — often more important than the model itself"
+        },
+        {
+          "bbox": [
+            70.8,
+            270.86,
+            210.82,
+            285.32
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "The learning path (in order):"
+        },
+        {
+          "bbox": [
+            90.8,
+            290.81,
+            518.4,
+            305.32
+          ],
+          "blockIndex": 11,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Week 1–2: Python basics (if you don't already know it). Use Python for Everybody (free) or"
+        },
+        {
+          "bbox": [
+            90.8,
+            306.81,
+            155.57,
+            321.24
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Codecademy."
+        },
+        {
+          "bbox": [
+            90.8,
+            326.81,
+            541.2,
+            341.32
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Week 3–5: Andrew Ng's Machine Learning Specialization on Coursera. The gold standard intro."
+        },
+        {
+          "bbox": [
+            90.8,
+            342.81,
+            186.51,
+            357.24
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Do the assignments."
+        },
+        {
+          "bbox": [
+            90.8,
+            362.81,
+            505.89,
+            377.32
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Week 6–8: Pick ONE project from your discipline section below and build it. Learning by"
+        },
+        {
+          "bbox": [
+            90.8,
+            378.81,
+            249.53,
+            393.24
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "building beats courses every time."
+        },
+        {
+          "bbox": [
+            90.8,
+            398.81,
+            512.04,
+            413.32
+          ],
+          "blockIndex": 17,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Week 9+: Go deeper into the specific ML subfield that applies to your discipline (see your"
+        },
+        {
+          "bbox": [
+            90.8,
+            414.81,
+            130.48,
+            429.24
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "section)."
+        },
+        {
+          "bbox": [
+            108.8,
+            452.81,
+            484.33,
+            467.32
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Pro tip: You don't need to master ML theory. You need to know enough to frame"
+        },
+        {
+          "bbox": [
+            108.8,
+            468.81,
+            461.3,
+            483.24
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "your engineering problems as ML problems, choose the right approach, and"
+        },
+        {
+          "bbox": [
+            108.8,
+            484.81,
+            289.37,
+            499.24
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "implement a working solution. That's it."
+        }
+      ],
+      "charCount": 1281,
+      "height": 792.0,
+      "pageNumber": 3,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            207.32,
+            754.6,
+            404.68,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "@1nska  •  The ML Guide for Every Engineer  •  Page 4"
+        },
+        {
+          "bbox": [
+            70.8,
+            62.06,
+            429.0,
+            92.35
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Your Discipline-Specific Roadmap"
+        },
+        {
+          "bbox": [
+            70.8,
+            102.81,
+            541.2,
+            117.24
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Find your engineering type below. Each section gives you a focused path — no fluff, just what you"
+        },
+        {
+          "bbox": [
+            70.8,
+            118.81,
+            97.07,
+            133.24
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "need."
+        },
+        {
+          "bbox": [
+            70.8,
+            152.48,
+            253.97,
+            174.51
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Mechanical Engineering"
+        },
+        {
+          "bbox": [
+            70.8,
+            182.86,
+            180.48,
+            197.32
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Why ML matters here:"
+        },
+        {
+          "bbox": [
+            70.8,
+            202.81,
+            541.2,
+            217.24
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Predictive maintenance alone is a massive industry. ML models can predict when a machine will fail"
+        },
+        {
+          "bbox": [
+            70.8,
+            218.81,
+            541.2,
+            233.24
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "based on sensor data — vibration, temperature, pressure — saving millions in downtime. Beyond"
+        },
+        {
+          "bbox": [
+            70.8,
+            234.81,
+            541.2,
+            249.24
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "that, generative design uses ML to explore thousands of design variations to find optimal shapes and"
+        },
+        {
+          "bbox": [
+            70.8,
+            250.81,
+            256.98,
+            265.24
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "structures that no human would think of."
+        },
+        {
+          "bbox": [
+            70.8,
+            274.86,
+            122.13,
+            289.32
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Start with:"
+        },
+        {
+          "bbox": [
+            90.8,
+            294.81,
+            480.77,
+            309.24
+          ],
+          "blockIndex": 11,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• Time-series analysis — your sensor data is sequential, so learn how to work with it"
+        },
+        {
+          "bbox": [
+            90.8,
+            314.81,
+            465.02,
+            329.24
+          ],
+          "blockIndex": 12,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• Regression models — predicting continuous values (temperature, stress, wear)"
+        },
+        {
+          "bbox": [
+            90.8,
+            334.81,
+            396.79,
+            349.24
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• Anomaly detection — flagging when something is about to break"
+        },
+        {
+          "bbox": [
+            70.8,
+            358.86,
+            121.56,
+            373.32
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Key tools:"
+        },
+        {
+          "bbox": [
+            90.8,
+            378.81,
+            344.22,
+            393.32
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• scikit-learn — your first stop for classical ML models"
+        },
+        {
+          "bbox": [
+            90.8,
+            398.81,
+            379.82,
+            413.32
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• TensorFlow / PyTorch — for deeper neural network models"
+        },
+        {
+          "bbox": [
+            90.8,
+            418.81,
+            420.3,
+            433.32
+          ],
+          "blockIndex": 17,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• MATLAB ML Toolbox — if you're already in the MATLAB ecosystem"
+        },
+        {
+          "bbox": [
+            90.8,
+            438.81,
+            359.99,
+            453.32
+          ],
+          "blockIndex": 18,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• PySpark — for working with large-scale sensor datasets"
+        },
+        {
+          "bbox": [
+            108.8,
+            472.81,
+            466.52,
+            487.32
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Starter project: Build a predictive maintenance model using a public bearing"
+        },
+        {
+          "bbox": [
+            108.8,
+            488.81,
+            503.2,
+            503.24
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "vibration dataset (NASA's bearing dataset is free). Train a model to predict remaining"
+        },
+        {
+          "bbox": [
+            108.8,
+            504.81,
+            231.37,
+            519.24
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "useful life of a component."
+        },
+        {
+          "bbox": [
+            70.8,
+            558.48,
+            238.86,
+            580.51
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Electrical Engineering"
+        },
+        {
+          "bbox": [
+            70.8,
+            588.86,
+            180.48,
+            603.32
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Why ML matters here:"
+        },
+        {
+          "bbox": [
+            70.8,
+            608.81,
+            541.2,
+            623.24
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Signal processing and ML are a natural fit. From optimizing power grid loads to designing smarter"
+        },
+        {
+          "bbox": [
+            70.8,
+            624.81,
+            541.2,
+            639.24
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "circuits, ML is already deeply embedded in EE. If you work with signals, images, or any kind of"
+        },
+        {
+          "bbox": [
+            70.8,
+            640.81,
+            427.35,
+            655.24
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "waveform data, neural networks can find patterns your traditional filters miss."
+        },
+        {
+          "bbox": [
+            70.8,
+            664.86,
+            122.13,
+            679.32
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Start with:"
+        },
+        {
+          "bbox": [
+            90.8,
+            684.81,
+            358.23,
+            699.24
+          ],
+          "blockIndex": 28,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• Signal classification — identifying patterns in waveforms"
+        }
+      ],
+      "charCount": 1611,
+      "height": 792.0,
+      "pageNumber": 4,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            207.32,
+            754.6,
+            404.68,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "@1nska  •  The ML Guide for Every Engineer  •  Page 5"
+        },
+        {
+          "bbox": [
+            90.8,
+            62.81,
+            513.44,
+            77.24
+          ],
+          "blockIndex": 1,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• Convolutional Neural Networks (CNNs) — not just for images; great for spectrograms and"
+        },
+        {
+          "bbox": [
+            90.8,
+            78.81,
+            141.58,
+            93.24
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "signal data"
+        },
+        {
+          "bbox": [
+            90.8,
+            98.81,
+            422.42,
+            113.24
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• Reinforcement learning basics — for control systems and optimization"
+        },
+        {
+          "bbox": [
+            70.8,
+            122.86,
+            121.56,
+            137.32
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Key tools:"
+        },
+        {
+          "bbox": [
+            90.8,
+            142.81,
+            365.84,
+            157.32
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• PyTorch — the go-to for signal and research-oriented ML"
+        },
+        {
+          "bbox": [
+            90.8,
+            162.81,
+            397.95,
+            177.32
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• scipy.signal — preprocessing your signals before feeding to ML"
+        },
+        {
+          "bbox": [
+            90.8,
+            182.81,
+            381.01,
+            197.32
+          ],
+          "blockIndex": 7,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• Edge Impulse — deploy ML models on embedded hardware"
+        },
+        {
+          "bbox": [
+            90.8,
+            202.81,
+            300.44,
+            217.32
+          ],
+          "blockIndex": 8,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• TinyML — ML that runs on microcontrollers"
+        },
+        {
+          "bbox": [
+            108.8,
+            236.81,
+            497.46,
+            251.32
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Starter project: Build a signal classifier that can distinguish between different types"
+        },
+        {
+          "bbox": [
+            108.8,
+            252.81,
+            483.46,
+            267.24
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "of electrical faults using publicly available power quality datasets. Deploy it on an"
+        },
+        {
+          "bbox": [
+            108.8,
+            268.81,
+            301.38,
+            283.24
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Arduino or Raspberry Pi for bonus points."
+        },
+        {
+          "bbox": [
+            70.8,
+            322.48,
+            290.42,
+            344.51
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Civil / Structural Engineering"
+        },
+        {
+          "bbox": [
+            70.8,
+            352.86,
+            180.48,
+            367.32
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Why ML matters here:"
+        },
+        {
+          "bbox": [
+            70.8,
+            372.81,
+            541.2,
+            387.24
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Infrastructure generates massive amounts of data — strain gauges, traffic sensors, weather patterns,"
+        },
+        {
+          "bbox": [
+            70.8,
+            388.81,
+            541.2,
+            403.24
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "soil tests. ML can process all of it simultaneously to predict structural health, optimize traffic flow, and"
+        },
+        {
+          "bbox": [
+            70.8,
+            404.81,
+            392.93,
+            419.24
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "estimate construction costs more accurately than traditional methods."
+        },
+        {
+          "bbox": [
+            70.8,
+            428.86,
+            122.13,
+            443.32
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Start with:"
+        },
+        {
+          "bbox": [
+            90.8,
+            448.81,
+            380.42,
+            463.24
+          ],
+          "blockIndex": 18,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• Regression models — for cost estimation and load prediction"
+        },
+        {
+          "bbox": [
+            90.8,
+            468.81,
+            420.67,
+            483.24
+          ],
+          "blockIndex": 19,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• Computer vision — crack detection, site monitoring, progress tracking"
+        },
+        {
+          "bbox": [
+            90.8,
+            488.81,
+            435.28,
+            503.24
+          ],
+          "blockIndex": 20,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• Geospatial data analysis — combining satellite imagery with ground data"
+        },
+        {
+          "bbox": [
+            70.8,
+            512.86,
+            121.56,
+            527.32
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Key tools:"
+        },
+        {
+          "bbox": [
+            90.8,
+            532.81,
+            437.03,
+            547.32
+          ],
+          "blockIndex": 22,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• scikit-learn — for tabular data (soil data, cost estimates, measurements)"
+        },
+        {
+          "bbox": [
+            90.8,
+            552.81,
+            383.05,
+            567.32
+          ],
+          "blockIndex": 23,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• OpenCV + YOLO — for visual inspection and crack detection"
+        },
+        {
+          "bbox": [
+            90.8,
+            572.81,
+            349.46,
+            587.32
+          ],
+          "blockIndex": 24,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• Google Earth Engine — for satellite imagery analysis"
+        },
+        {
+          "bbox": [
+            90.8,
+            592.81,
+            355.05,
+            607.32
+          ],
+          "blockIndex": 25,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• Pandas + GeoPandas — for geospatial data wrangling"
+        },
+        {
+          "bbox": [
+            108.8,
+            626.81,
+            500.93,
+            641.32
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Starter project: Train a computer vision model to detect cracks in concrete surfaces"
+        },
+        {
+          "bbox": [
+            108.8,
+            642.81,
+            467.71,
+            657.24
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "using the public SDNET2018 dataset. This is directly applicable to bridge and"
+        },
+        {
+          "bbox": [
+            108.8,
+            658.81,
+            198.09,
+            673.24
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "building inspection."
+        }
+      ],
+      "charCount": 1637,
+      "height": 792.0,
+      "pageNumber": 5,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            207.32,
+            754.6,
+            404.68,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "@1nska  •  The ML Guide for Every Engineer  •  Page 6"
+        },
+        {
+          "bbox": [
+            70.8,
+            62.48,
+            314.45,
+            84.51
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Chemical / Process Engineering"
+        },
+        {
+          "bbox": [
+            70.8,
+            92.86,
+            180.48,
+            107.32
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Why ML matters here:"
+        },
+        {
+          "bbox": [
+            70.8,
+            112.81,
+            541.2,
+            127.24
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Chemical processes are complex, nonlinear systems with dozens of interacting variables. ML excels"
+        },
+        {
+          "bbox": [
+            70.8,
+            128.81,
+            541.2,
+            143.24
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "at modeling these relationships — predicting reaction yields, optimizing process parameters, and"
+        },
+        {
+          "bbox": [
+            70.8,
+            144.81,
+            541.2,
+            159.24
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "catching quality issues before they become expensive. Pharma and materials science are being"
+        },
+        {
+          "bbox": [
+            70.8,
+            160.81,
+            240.6,
+            175.24
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "transformed by ML-driven discovery."
+        },
+        {
+          "bbox": [
+            70.8,
+            184.86,
+            122.13,
+            199.32
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Start with:"
+        },
+        {
+          "bbox": [
+            90.8,
+            204.81,
+            466.78,
+            219.24
+          ],
+          "blockIndex": 8,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• Process optimization — finding optimal operating conditions from historical data"
+        },
+        {
+          "bbox": [
+            90.8,
+            224.81,
+            474.35,
+            239.24
+          ],
+          "blockIndex": 9,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• Soft sensors — predicting hard-to-measure variables from easy-to-measure ones"
+        },
+        {
+          "bbox": [
+            90.8,
+            244.81,
+            394.42,
+            259.24
+          ],
+          "blockIndex": 10,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• Molecular property prediction — emerging and high-impact area"
+        },
+        {
+          "bbox": [
+            70.8,
+            268.86,
+            121.56,
+            283.32
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Key tools:"
+        },
+        {
+          "bbox": [
+            90.8,
+            288.81,
+            323.81,
+            303.32
+          ],
+          "blockIndex": 12,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• scikit-learn — classical models for process data"
+        },
+        {
+          "bbox": [
+            90.8,
+            308.81,
+            341.85,
+            323.32
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• RDKit — molecular informatics and cheminformatics"
+        },
+        {
+          "bbox": [
+            90.8,
+            328.81,
+            407.24,
+            343.32
+          ],
+          "blockIndex": 14,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• DeepChem — deep learning specifically for chemistry applications"
+        },
+        {
+          "bbox": [
+            90.8,
+            348.81,
+            383.61,
+            363.32
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• Aspen + Python API — connecting ML to process simulation"
+        },
+        {
+          "bbox": [
+            108.8,
+            382.81,
+            498.6,
+            397.32
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Starter project: Use a public dataset of chemical reactions (try the USPTO reaction"
+        },
+        {
+          "bbox": [
+            108.8,
+            398.81,
+            498.67,
+            413.24
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "dataset) to build a model that predicts reaction yield based on input conditions. Start"
+        },
+        {
+          "bbox": [
+            108.8,
+            414.81,
+            361.48,
+            429.24
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "with a simple random forest, then try a neural network."
+        },
+        {
+          "bbox": [
+            70.8,
+            468.48,
+            253.07,
+            490.51
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Biomedical Engineering"
+        },
+        {
+          "bbox": [
+            70.8,
+            498.86,
+            180.48,
+            513.32
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Why ML matters here:"
+        },
+        {
+          "bbox": [
+            70.8,
+            518.81,
+            541.2,
+            533.24
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Medical imaging, wearable sensors, genomics — biomedical engineering is one of the fields most"
+        },
+        {
+          "bbox": [
+            70.8,
+            534.81,
+            541.2,
+            549.24
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "transformed by ML. From detecting tumors in X-rays to predicting patient outcomes from wearable"
+        },
+        {
+          "bbox": [
+            70.8,
+            550.81,
+            541.2,
+            565.24
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "data, the applications are immediate and the demand for engineers who can bridge biology and ML is"
+        },
+        {
+          "bbox": [
+            70.8,
+            566.81,
+            120.4,
+            581.24
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "enormous."
+        },
+        {
+          "bbox": [
+            70.8,
+            590.86,
+            122.13,
+            605.32
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Start with:"
+        },
+        {
+          "bbox": [
+            90.8,
+            610.81,
+            378.66,
+            625.24
+          ],
+          "blockIndex": 26,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• Medical image classification — detecting anomalies in scans"
+        },
+        {
+          "bbox": [
+            90.8,
+            630.81,
+            417.15,
+            645.24
+          ],
+          "blockIndex": 27,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• Time-series from wearables — heart rate, EEG, EMG signal analysis"
+        },
+        {
+          "bbox": [
+            90.8,
+            650.81,
+            423.02,
+            665.24
+          ],
+          "blockIndex": 28,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• Natural Language Processing — extracting insights from clinical notes"
+        },
+        {
+          "bbox": [
+            70.8,
+            674.86,
+            121.56,
+            689.32
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Key tools:"
+        },
+        {
+          "bbox": [
+            90.8,
+            694.81,
+            370.18,
+            709.32
+          ],
+          "blockIndex": 30,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• PyTorch + MONAI — purpose-built for medical imaging AI"
+        }
+      ],
+      "charCount": 1732,
+      "height": 792.0,
+      "pageNumber": 6,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            207.32,
+            754.6,
+            404.68,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "@1nska  •  The ML Guide for Every Engineer  •  Page 7"
+        },
+        {
+          "bbox": [
+            90.8,
+            62.81,
+            374.57,
+            77.32
+          ],
+          "blockIndex": 1,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• TensorFlow Lite — deploying models on wearable devices"
+        },
+        {
+          "bbox": [
+            90.8,
+            82.81,
+            314.45,
+            97.32
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• BioPython — for genomics and bioinformatics"
+        },
+        {
+          "bbox": [
+            90.8,
+            102.81,
+            324.37,
+            117.32
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Hugging Face — for NLP models on clinical text"
+        },
+        {
+          "bbox": [
+            108.8,
+            136.81,
+            485.74,
+            151.32
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Starter project: Build an ECG classification model using the MIT-BIH Arrhythmia"
+        },
+        {
+          "bbox": [
+            108.8,
+            152.81,
+            492.79,
+            167.24
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Database (free on PhysioNet). Train a model to distinguish normal heartbeats from"
+        },
+        {
+          "bbox": [
+            108.8,
+            168.81,
+            166.56,
+            183.24
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "arrhythmias."
+        },
+        {
+          "bbox": [
+            70.8,
+            222.48,
+            324.18,
+            244.51
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Software / Computer Engineering"
+        },
+        {
+          "bbox": [
+            70.8,
+            252.86,
+            180.48,
+            267.32
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Why ML matters here:"
+        },
+        {
+          "bbox": [
+            70.8,
+            272.81,
+            541.2,
+            287.24
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "You might think you already know this — but there's a difference between using ML APIs and"
+        },
+        {
+          "bbox": [
+            70.8,
+            288.81,
+            541.2,
+            303.24
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "understanding how to design ML systems. As a software engineer, your advantage is that you"
+        },
+        {
+          "bbox": [
+            70.8,
+            304.81,
+            541.2,
+            319.24
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "already know how to code and ship products. The gap is in ML system design, model selection, and"
+        },
+        {
+          "bbox": [
+            70.8,
+            320.81,
+            191.02,
+            335.24
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "data pipeline architecture."
+        },
+        {
+          "bbox": [
+            70.8,
+            344.86,
+            122.13,
+            359.32
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Start with:"
+        },
+        {
+          "bbox": [
+            90.8,
+            364.81,
+            385.67,
+            379.24
+          ],
+          "blockIndex": 14,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• ML system design — how to architect production ML pipelines"
+        },
+        {
+          "bbox": [
+            90.8,
+            384.81,
+            394.42,
+            399.24
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• MLOps — model versioning, monitoring, retraining in production"
+        },
+        {
+          "bbox": [
+            90.8,
+            404.81,
+            416.59,
+            419.24
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Deep learning — transformers, LLMs, and their practical applications"
+        },
+        {
+          "bbox": [
+            70.8,
+            428.86,
+            121.56,
+            443.32
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Key tools:"
+        },
+        {
+          "bbox": [
+            90.8,
+            448.81,
+            418.95,
+            463.32
+          ],
+          "blockIndex": 18,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• PyTorch — the standard for research and increasingly for production"
+        },
+        {
+          "bbox": [
+            90.8,
+            468.81,
+            454.51,
+            483.32
+          ],
+          "blockIndex": 19,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• MLflow / Weights & Biases — experiment tracking and model management"
+        },
+        {
+          "bbox": [
+            90.8,
+            488.81,
+            352.96,
+            503.32
+          ],
+          "blockIndex": 20,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Hugging Face — transformers and pre-trained models"
+        },
+        {
+          "bbox": [
+            90.8,
+            508.81,
+            401.43,
+            523.32
+          ],
+          "blockIndex": 21,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• LangChain / LlamaIndex — building applications on top of LLMs"
+        },
+        {
+          "bbox": [
+            108.8,
+            542.81,
+            493.96,
+            557.32
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Starter project: Build a full ML-powered feature for a product: data pipeline, model"
+        },
+        {
+          "bbox": [
+            108.8,
+            558.81,
+            469.49,
+            573.24
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "training, API endpoint, and monitoring. Use a real dataset, deploy it, and track"
+        },
+        {
+          "bbox": [
+            108.8,
+            574.81,
+            397.09,
+            589.24
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "performance. The full stack experience is what sets you apart."
+        }
+      ],
+      "charCount": 1424,
+      "height": 792.0,
+      "pageNumber": 7,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            207.32,
+            754.6,
+            404.68,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "@1nska  •  The ML Guide for Every Engineer  •  Page 8"
+        },
+        {
+          "bbox": [
+            70.8,
+            62.06,
+            387.45,
+            92.35
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Free Resources to Get Started"
+        },
+        {
+          "bbox": [
+            70.8,
+            102.81,
+            528.63,
+            117.24
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "You don't need to spend money to learn ML. Here are the best free resources, organized by stage."
+        },
+        {
+          "bbox": [
+            70.8,
+            130.69,
+            122.81,
+            148.59
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Courses"
+        },
+        {
+          "bbox": [
+            90.8,
+            154.81,
+            457.01,
+            169.32
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• Andrew Ng's ML Specialization (Coursera) — the best starting point, period"
+        },
+        {
+          "bbox": [
+            90.8,
+            174.81,
+            479.65,
+            189.32
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• fast.ai Practical Deep Learning — top-down approach, build things from day one"
+        },
+        {
+          "bbox": [
+            90.8,
+            194.81,
+            519.32,
+            209.32
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• MIT OpenCourseWare 6.036 — more rigorous, great if you want deeper math foundations"
+        },
+        {
+          "bbox": [
+            90.8,
+            214.81,
+            428.99,
+            229.32
+          ],
+          "blockIndex": 7,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• Google's ML Crash Course — quick, practical, excellent for engineers"
+        },
+        {
+          "bbox": [
+            90.8,
+            234.81,
+            481.38,
+            249.32
+          ],
+          "blockIndex": 8,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• Stanford CS229 (YouTube) — the classic graduate-level course, free on YouTube"
+        },
+        {
+          "bbox": [
+            70.8,
+            274.69,
+            184.23,
+            292.59
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Practice platforms"
+        },
+        {
+          "bbox": [
+            90.8,
+            298.81,
+            477.77,
+            313.32
+          ],
+          "blockIndex": 10,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• Kaggle — competitions, datasets, and notebooks. Start with their \"Learn\" courses"
+        },
+        {
+          "bbox": [
+            90.8,
+            318.81,
+            366.41,
+            333.32
+          ],
+          "blockIndex": 11,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• Google Colab — free GPU notebooks. No setup required"
+        },
+        {
+          "bbox": [
+            90.8,
+            338.81,
+            429.99,
+            353.32
+          ],
+          "blockIndex": 12,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• Papers With Code — find state-of-the-art models with implementations"
+        },
+        {
+          "bbox": [
+            90.8,
+            358.81,
+            430.01,
+            373.32
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• Hugging Face — pre-trained models you can fine-tune for your domain"
+        },
+        {
+          "bbox": [
+            70.8,
+            398.69,
+            188.54,
+            416.59
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Books (free online)"
+        },
+        {
+          "bbox": [
+            90.8,
+            422.81,
+            523.35,
+            437.32
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• Hands-On ML with Scikit-Learn, Keras & TensorFlow by Aurélien Géron — practical and"
+        },
+        {
+          "bbox": [
+            90.8,
+            438.81,
+            154.4,
+            453.24
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "project-driven"
+        },
+        {
+          "bbox": [
+            90.8,
+            458.81,
+            490.72,
+            473.32
+          ],
+          "blockIndex": 17,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• Deep Learning by Goodfellow, Bengio & Courville — the deep learning bible (free at"
+        },
+        {
+          "bbox": [
+            90.8,
+            474.81,
+            195.85,
+            489.24
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "deeplearningbook.org)"
+        },
+        {
+          "bbox": [
+            90.8,
+            494.81,
+            434.09,
+            509.32
+          ],
+          "blockIndex": 19,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• Pattern Recognition and ML by Bishop — for those who want the math"
+        }
+      ],
+      "charCount": 1159,
+      "height": 792.0,
+      "pageNumber": 8,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            207.32,
+            754.6,
+            404.68,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "@1nska  •  The ML Guide for Every Engineer  •  Page 9"
+        },
+        {
+          "bbox": [
+            70.8,
+            62.06,
+            345.89,
+            92.35
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "The 8-Week Kickstart Plan"
+        },
+        {
+          "bbox": [
+            70.8,
+            102.81,
+            541.2,
+            117.24
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Here's a week-by-week plan to go from zero ML knowledge to having a working project on your"
+        },
+        {
+          "bbox": [
+            70.8,
+            118.81,
+            373.11,
+            133.24
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "resume. Spend 5–8 hours per week. Consistency beats intensity."
+        },
+        {
+          "bbox": [
+            92.8,
+            150.86,
+            271.38,
+            165.32
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Week 1\nSetup & Python review"
+        },
+        {
+          "bbox": [
+            157.6,
+            166.81,
+            519.2,
+            181.24
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Install Python, set up Jupyter/Colab, review NumPy and Pandas basics. If you"
+        },
+        {
+          "bbox": [
+            157.6,
+            182.81,
+            427.22,
+            197.24
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "already know Python, skip to data manipulation exercises."
+        },
+        {
+          "bbox": [
+            92.8,
+            216.87,
+            243.94,
+            231.32
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Week 2\nML fundamentals"
+        },
+        {
+          "bbox": [
+            157.6,
+            232.81,
+            519.2,
+            247.24
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Start Andrew Ng's course or fast.ai. Focus on understanding supervised"
+        },
+        {
+          "bbox": [
+            157.6,
+            248.81,
+            519.2,
+            263.24
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "learning, linear regression, and classification. Don't get stuck on math —"
+        },
+        {
+          "bbox": [
+            157.6,
+            264.81,
+            269.67,
+            279.24
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "understand the intuition."
+        },
+        {
+          "bbox": [
+            92.8,
+            298.86,
+            238.11,
+            313.32
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Week 3\nYour first model"
+        },
+        {
+          "bbox": [
+            157.6,
+            314.81,
+            519.2,
+            329.24
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Pick a simple dataset from Kaggle (house prices, titanic). Build a model from"
+        },
+        {
+          "bbox": [
+            157.6,
+            330.81,
+            426.62,
+            345.24
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "scratch using scikit-learn. Submit to a Kaggle competition."
+        },
+        {
+          "bbox": [
+            92.8,
+            364.86,
+            232.87,
+            379.32
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Week 4\nDeeper models"
+        },
+        {
+          "bbox": [
+            157.6,
+            380.81,
+            519.2,
+            395.24
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Learn decision trees, random forests, and gradient boosting. These are the"
+        },
+        {
+          "bbox": [
+            157.6,
+            396.81,
+            429.53,
+            411.24
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "workhorses of real-world ML. Practice feature engineering."
+        },
+        {
+          "bbox": [
+            92.8,
+            430.86,
+            264.95,
+            445.32
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Week 5\nIntro to deep learning"
+        },
+        {
+          "bbox": [
+            157.6,
+            446.81,
+            519.2,
+            461.24
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Learn what neural networks are and when to use them. Build a simple image"
+        },
+        {
+          "bbox": [
+            157.6,
+            462.81,
+            417.24,
+            477.24
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "classifier or text classifier using PyTorch or TensorFlow."
+        },
+        {
+          "bbox": [
+            92.8,
+            496.86,
+            290.06,
+            511.32
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Week 6\nDomain-specific deep dive"
+        },
+        {
+          "bbox": [
+            157.6,
+            512.81,
+            519.2,
+            527.24
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Go to YOUR discipline section in this guide. Start the recommended project."
+        },
+        {
+          "bbox": [
+            157.6,
+            528.81,
+            404.44,
+            543.24
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Research how ML is being used in your specific field."
+        },
+        {
+          "bbox": [
+            92.8,
+            562.86,
+            247.45,
+            577.32
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Week 7\nBuild your project"
+        },
+        {
+          "bbox": [
+            157.6,
+            578.81,
+            519.2,
+            593.24
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Dedicate this week to building and iterating on your domain project. Document"
+        },
+        {
+          "bbox": [
+            157.6,
+            594.81,
+            378.77,
+            609.24
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "everything — this becomes your portfolio piece."
+        },
+        {
+          "bbox": [
+            92.8,
+            628.86,
+            230.54,
+            643.32
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Week 8\nPolish & share"
+        },
+        {
+          "bbox": [
+            157.6,
+            644.81,
+            519.2,
+            659.24
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Clean up your project code, write a README, publish on GitHub. Post about"
+        },
+        {
+          "bbox": [
+            157.6,
+            660.81,
+            516.54,
+            675.24
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "what you built on LinkedIn or Instagram. You now have proof you can do this."
+        }
+      ],
+      "charCount": 1533,
+      "height": 792.0,
+      "pageNumber": 9,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            205.09,
+            754.6,
+            406.91,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "@1nska  •  The ML Guide for Every Engineer  •  Page 10"
+        },
+        {
+          "bbox": [
+            70.8,
+            126.06,
+            334.82,
+            156.35
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Now Go Build Something"
+        },
+        {
+          "bbox": [
+            70.8,
+            166.81,
+            541.2,
+            181.24
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "The best way to learn ML is to apply it to a problem you actually care about. Don't wait until you feel"
+        },
+        {
+          "bbox": [
+            70.8,
+            182.81,
+            541.2,
+            197.24
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "\"ready\" — you won't. Pick the starter project for your discipline, open a Colab notebook, and start."
+        },
+        {
+          "bbox": [
+            70.8,
+            198.81,
+            450.41,
+            213.24
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "You'll learn more in one weekend of building than in a month of watching tutorials."
+        },
+        {
+          "bbox": [
+            70.8,
+            222.81,
+            541.2,
+            237.24
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "If you want more guides like this — on building startups, switching career paths, or bridging business"
+        },
+        {
+          "bbox": [
+            70.8,
+            238.81,
+            440.47,
+            253.24
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "and engineering — follow me on Instagram. I'm documenting the entire journey."
+        },
+        {
+          "bbox": [
+            108.8,
+            292.81,
+            472.1,
+            307.32
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Follow @1nska on Instagram for more guides, build logs, and real talk about"
+        },
+        {
+          "bbox": [
+            108.8,
+            308.81,
+            492.32,
+            323.24
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "building as a student. DM me \"PROJECT\" and I'll help you pick the right ML starter"
+        },
+        {
+          "bbox": [
+            108.8,
+            324.81,
+            203.92,
+            339.24
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "project for your field."
+        },
+        {
+          "bbox": [
+            263.73,
+            390.93,
+            348.27,
+            416.29
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "— Enes (@1nska)\nNYU Shanghai, 2026"
+        }
+      ],
+      "charCount": 755,
+      "height": 792.0,
+      "pageNumber": 10,
+      "textExtractable": true,
+      "width": 612.0
+    }
+  ],
+  "provenance": {
+    "confidence": "EXACT",
+    "extractionMethod": "pymupdf-blocks-v1",
+    "extractorVersion": "1.28.0",
+    "generatorVersion": null,
+    "origin": "extracted",
+    "source": "guide-026",
+    "sourceHash": "c86362ab7573eda52c7be73a7c1bd4150a5b3be0f3a393ea3578ffa2ac475835",
+    "sourcePage": null,
+    "sourcePath": "Engineering guides/ml guide engineers.pdf",
+    "sourceSection": "ROOT"
+  },
+  "relativePath": "Engineering guides/ml guide engineers.pdf",
+  "schemaVersion": "1.0.0",
+  "sha256": "c86362ab7573eda52c7be73a7c1bd4150a5b3be0f3a393ea3578ffa2ac475835",
+  "sourceId": "guide-026"
+}

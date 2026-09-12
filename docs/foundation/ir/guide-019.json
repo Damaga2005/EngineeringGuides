@@ -1,0 +1,6547 @@
+{
+  "metadata": {
+    "author": "(anonymous)",
+    "creationDate": "D:20260501155133+00'00'",
+    "creator": "(unspecified)",
+    "format": "PDF 1.4",
+    "modDate": "D:20260501155133+00'00'",
+    "producer": "ReportLab PDF Library - (opensource)",
+    "subject": "(unspecified)",
+    "title": "(anonymous)"
+  },
+  "pageCount": 22,
+  "pages": [
+    {
+      "blocks": [
+        {
+          "bbox": [
+            200.21,
+            99.7,
+            411.79,
+            113.47
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "DEFENSE TECH PART 2 • LASER + COVERT"
+        },
+        {
+          "bbox": [
+            282.11,
+            111.7,
+            329.9,
+            125.47
+          ],
+          "blockIndex": 1,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "SYSTEMS"
+        },
+        {
+          "bbox": [
+            143.33,
+            144.16,
+            468.67,
+            234.22
+          ],
+          "blockIndex": 2,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "6 EE PROJECTS\nSTRAIGHT OUT OF A"
+        },
+        {
+          "bbox": [
+            173.55,
+            236.16,
+            438.45,
+            280.22
+          ],
+          "blockIndex": 3,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "CLASSIFIED LAB"
+        },
+        {
+          "bbox": [
+            116.71,
+            313.42,
+            495.29,
+            331.29
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Laser intelligence. Covert communications. Stealth measurement."
+        },
+        {
+          "bbox": [
+            168.74,
+            337.42,
+            443.26,
+            355.29
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Once classified. Now buildable. Still impressive."
+        },
+        {
+          "bbox": [
+            87.2,
+            381.61,
+            442.02,
+            396.04
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "1. Laser Surveillance Microphone — hear through a window from 100m, $15"
+        },
+        {
+          "bbox": [
+            87.2,
+            401.61,
+            447.25,
+            416.04
+          ],
+          "blockIndex": 7,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "2. Tap-Proof Laser Communication — encrypted IR link, no RF emission, $12"
+        },
+        {
+          "bbox": [
+            87.2,
+            421.61,
+            428.6,
+            436.04
+          ],
+          "blockIndex": 8,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "3. Laser Rangefinder — 5ns pulse, 100ps TDC, centimeter accuracy, $25"
+        },
+        {
+          "bbox": [
+            87.2,
+            441.61,
+            471.68,
+            456.04
+          ],
+          "blockIndex": 9,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "4. Encrypted Burst Transmitter — 50ms FHSS burst, can't be jammed or DF'd, $10"
+        },
+        {
+          "bbox": [
+            87.2,
+            461.61,
+            446.08,
+            476.04
+          ],
+          "blockIndex": 10,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "5. Passive Night Vision Scope — image amplification with zero emission, $30"
+        },
+        {
+          "bbox": [
+            87.2,
+            481.61,
+            459.51,
+            496.04
+          ],
+          "blockIndex": 11,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "6. Radar Cross-Section Measurement — test stealth materials at your desk, $12"
+        },
+        {
+          "bbox": [
+            241.33,
+            531.73,
+            370.66,
+            544.09
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "By @1nska • Electrical Engineer"
+        }
+      ],
+      "charCount": 674,
+      "height": 792.0,
+      "pageNumber": 1,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            185.2,
+            758.2,
+            426.8,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "@1nska  •  Defense Tech Part 2: Laser + Covert Systems  •  Page 2"
+        },
+        {
+          "bbox": [
+            67.2,
+            54.72,
+            200.57,
+            87.77
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "PROJECT 1"
+        },
+        {
+          "bbox": [
+            67.2,
+            105.0,
+            362.86,
+            132.54
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Laser Surveillance Microphone"
+        },
+        {
+          "bbox": [
+            94.31,
+            141.43,
+            517.69,
+            159.29
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Hear through a window from 100m — no mic in the room, no RF, no trace"
+        },
+        {
+          "bbox": [
+            89.2,
+            173.69,
+            505.11,
+            186.82
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Cost: ~$15\nDifficulty: Advanced\nBuild Time: 1-2 weekends"
+        },
+        {
+          "bbox": [
+            67.2,
+            220.35,
+            191.39,
+            241.01
+          ],
+          "blockIndex": 5,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Why This Matters"
+        },
+        {
+          "bbox": [
+            67.2,
+            247.61,
+            544.8,
+            262.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "During the Cold War, intelligence agencies developed laser listening devices that could extract audio"
+        },
+        {
+          "bbox": [
+            67.2,
+            263.61,
+            544.8,
+            278.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "from vibrating surfaces at distance. The principle is simple: sound waves inside a room cause the"
+        },
+        {
+          "bbox": [
+            67.2,
+            279.61,
+            544.8,
+            294.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "window glass to vibrate by nanometers. An IR laser bouncing off that window is phase-modulated by"
+        },
+        {
+          "bbox": [
+            67.2,
+            295.61,
+            544.8,
+            310.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "the vibration. A sensitive photodetector reads that modulation, and an FM demodulator extracts the"
+        },
+        {
+          "bbox": [
+            67.2,
+            311.61,
+            544.8,
+            326.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "audio. The technique was declassified decades ago, but the analog design challenges remain:"
+        },
+        {
+          "bbox": [
+            67.2,
+            327.61,
+            544.8,
+            342.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "sub-millivolt signal detection, laser intensity stabilization, and FM demodulation of an extremely weak"
+        },
+        {
+          "bbox": [
+            67.2,
+            343.61,
+            99.87,
+            358.04
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "carrier."
+        },
+        {
+          "bbox": [
+            108.8,
+            377.61,
+            495.68,
+            392.12
+          ],
+          "blockIndex": 13,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "What this proves to a recruiter: You understand optical signal chains, laser driver"
+        },
+        {
+          "bbox": [
+            108.8,
+            393.61,
+            437.95,
+            408.04
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "design, transimpedance amplification at the noise floor, and analog FM"
+        },
+        {
+          "bbox": [
+            108.8,
+            409.61,
+            497.46,
+            424.04
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "demodulation. These skills directly apply to LIDAR, fiber optics, optical sensing, and"
+        },
+        {
+          "bbox": [
+            108.8,
+            425.61,
+            149.08,
+            440.04
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "defense."
+        },
+        {
+          "bbox": [
+            67.2,
+            475.35,
+            213.08,
+            496.01
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "System Architecture"
+        }
+      ],
+      "charCount": 1105,
+      "height": 792.0,
+      "pageNumber": 2,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            185.2,
+            758.2,
+            426.8,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "@1nska  •  Defense Tech Part 2: Laser + Covert Systems  •  Page 3"
+        },
+        {
+          "bbox": [
+            67.2,
+            55.35,
+            162.21,
+            76.01
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "How It Works"
+        },
+        {
+          "bbox": [
+            87.2,
+            82.61,
+            539.62,
+            97.12
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• IR laser diode (808nm): A collimated infrared laser aimed at a window pane. The laser must be"
+        },
+        {
+          "bbox": [
+            87.2,
+            98.61,
+            537.11,
+            113.04
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "intensity-stabilized using an APC (automatic power control) circuit — a monitor photodiode inside"
+        },
+        {
+          "bbox": [
+            87.2,
+            114.61,
+            516.76,
+            129.04
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "the laser package feeds back to the driver, keeping output power constant. Any intensity drift"
+        },
+        {
+          "bbox": [
+            87.2,
+            130.61,
+            271.62,
+            145.04
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "appears as noise in the received signal."
+        },
+        {
+          "bbox": [
+            87.2,
+            150.61,
+            495.27,
+            165.12
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Window vibration: Sound waves inside the room cause the glass to vibrate. A normal"
+        },
+        {
+          "bbox": [
+            87.2,
+            166.61,
+            543.88,
+            181.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "conversation at 60dB SPL causes ~1-10nm of displacement on a window pane. This displacement"
+        },
+        {
+          "bbox": [
+            87.2,
+            182.61,
+            534.84,
+            197.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "phase-modulates the reflected laser beam — the path length changes by twice the displacement"
+        },
+        {
+          "bbox": [
+            87.2,
+            198.61,
+            499.81,
+            213.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "(there and back), creating a Doppler shift proportional to the velocity of the glass surface."
+        },
+        {
+          "bbox": [
+            87.2,
+            218.61,
+            543.96,
+            233.12
+          ],
+          "blockIndex": 10,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Photodetector + TIA: A large-area silicon photodiode (BPW34 or similar) with a transimpedance"
+        },
+        {
+          "bbox": [
+            87.2,
+            234.61,
+            544.8,
+            249.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "amplifier (1MΩ feedback) captures the reflected beam. The DC component represents the average"
+        },
+        {
+          "bbox": [
+            87.2,
+            250.61,
+            502.69,
+            265.04
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "reflected power. The AC component (microvolts) carries the audio information. A coupling"
+        },
+        {
+          "bbox": [
+            87.2,
+            266.61,
+            208.0,
+            281.04
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "capacitor separates them."
+        },
+        {
+          "bbox": [
+            87.2,
+            286.61,
+            543.72,
+            301.12
+          ],
+          "blockIndex": 14,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Bandpass filter (300Hz-3kHz): A 4th-order Sallen-Key bandpass isolates the speech band. This"
+        },
+        {
+          "bbox": [
+            87.2,
+            302.61,
+            467.7,
+            317.04
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "removes laser noise below 300Hz and high-frequency detector noise above 3kHz."
+        },
+        {
+          "bbox": [
+            87.2,
+            322.61,
+            544.8,
+            337.12
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• FM demodulator: The phase modulation from the window vibration is equivalent to FM. A simple"
+        },
+        {
+          "bbox": [
+            87.2,
+            338.61,
+            535.98,
+            353.04
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "PLL-based FM demodulator (LM567 or NE567) or a slope detector (tuned LC circuit on the slope"
+        },
+        {
+          "bbox": [
+            87.2,
+            354.61,
+            468.3,
+            369.04
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "of the resonance curve) extracts the audio. Amplify and output to speaker or ADC."
+        },
+        {
+          "bbox": [
+            67.2,
+            388.35,
+            223.92,
+            409.01
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Key Design Decisions"
+        },
+        {
+          "bbox": [
+            87.2,
+            415.61,
+            511.33,
+            430.12
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "→ Why 808nm instead of visible laser? 808nm is invisible to the human eye — the target"
+        },
+        {
+          "bbox": [
+            87.2,
+            431.61,
+            539.41,
+            446.04
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "doesn't know they're being illuminated. It also avoids eye safety concerns at low power levels and"
+        },
+        {
+          "bbox": [
+            87.2,
+            447.61,
+            266.94,
+            462.04
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "matches common, cheap laser diodes."
+        },
+        {
+          "bbox": [
+            87.2,
+            467.61,
+            537.56,
+            482.12
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "→ Why APC on the laser driver? Without intensity stabilization, laser power fluctuations appear"
+        },
+        {
+          "bbox": [
+            87.2,
+            483.61,
+            503.89,
+            498.04
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "as amplitude noise that masks the tiny phase modulation signal. The APC loop must have"
+        },
+        {
+          "bbox": [
+            87.2,
+            499.61,
+            323.26,
+            514.04
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "bandwidth >10kHz to track fast intensity variations."
+        },
+        {
+          "bbox": [
+            87.2,
+            519.61,
+            540.45,
+            534.12
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "→ Why FM demodulation, not AM? The window vibration modulates the phase/frequency of the"
+        },
+        {
+          "bbox": [
+            87.2,
+            535.61,
+            537.73,
+            550.04
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "reflected beam, not the amplitude. Amplitude changes come from beam wander and atmospheric"
+        },
+        {
+          "bbox": [
+            87.2,
+            551.61,
+            535.96,
+            566.04
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "scintillation — these are noise sources, not signal. FM demodulation rejects AM noise inherently."
+        }
+      ],
+      "charCount": 2249,
+      "height": 792.0,
+      "pageNumber": 3,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            185.2,
+            758.2,
+            426.8,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "@1nska  •  Defense Tech Part 2: Laser + Covert Systems  •  Page 4"
+        },
+        {
+          "bbox": [
+            67.2,
+            55.35,
+            178.07,
+            76.01
+          ],
+          "blockIndex": 1,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Bill of Materials"
+        },
+        {
+          "bbox": [
+            114.0,
+            88.73,
+            479.06,
+            101.82
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Component\nPart / Spec\nQty\n~Cost"
+        },
+        {
+          "bbox": [
+            114.0,
+            113.69,
+            476.17,
+            126.74
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "808nm laser diode\n200mW, TO-18 with monitor PD\n1\n$2.50"
+        },
+        {
+          "bbox": [
+            114.0,
+            138.69,
+            476.17,
+            151.74
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Collimating lens\nGlass, 6mm, AR-coated\n1\n$1.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            163.69,
+            476.17,
+            176.74
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Laser driver\nLM317 + APC feedback circuit\n1\n$1.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            188.69,
+            476.17,
+            201.74
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "BPW34 photodiode\nLarge area, 900nm peak\n1\n$1.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            213.69,
+            476.17,
+            226.74
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "TL074 quad op-amp\nTIA + filters + demod\n2\n$1.60"
+        },
+        {
+          "bbox": [
+            114.0,
+            238.69,
+            476.17,
+            251.74
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "LM567 tone decoder\nPLL-based FM demod\n1\n$0.80"
+        },
+        {
+          "bbox": [
+            114.0,
+            263.69,
+            476.17,
+            276.74
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Precision resistors\n1% for TIA and filters\n~20\n$1.50"
+        },
+        {
+          "bbox": [
+            114.0,
+            288.69,
+            476.17,
+            301.74
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Film capacitors\nFor bandpass filters\n~10\n$1.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            313.69,
+            476.17,
+            326.74
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Tripod mount\nFor stable laser aiming\n1\n$3.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            338.69,
+            476.17,
+            351.74
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Speaker or 3.5mm jack\nAudio output\n1\n$0.50"
+        },
+        {
+          "bbox": [
+            67.2,
+            383.35,
+            149.71,
+            404.01
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Build Steps"
+        },
+        {
+          "bbox": [
+            87.2,
+            410.61,
+            540.02,
+            425.12
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Laser transmitter: Mount 808nm laser diode in a collimating lens assembly. Build an APC driver:"
+        },
+        {
+          "bbox": [
+            87.2,
+            426.61,
+            512.66,
+            441.04
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "LM317 as current source, monitor photodiode feedback through an op-amp comparator that"
+        },
+        {
+          "bbox": [
+            87.2,
+            442.61,
+            541.83,
+            457.04
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "adjusts drive current to maintain constant output. Set power to 50-100mW — enough for reflection"
+        },
+        {
+          "bbox": [
+            87.2,
+            458.61,
+            541.22,
+            473.04
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "from 100m but below eye-safety limits for diffuse reflection. Mount on a tripod with fine adjustment"
+        },
+        {
+          "bbox": [
+            87.2,
+            474.61,
+            122.78,
+            489.04
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "screws."
+        },
+        {
+          "bbox": [
+            87.2,
+            494.61,
+            505.65,
+            509.12
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Optical receiver: Large-area BPW34 photodiode with a 10mm focusing lens to collect the"
+        },
+        {
+          "bbox": [
+            87.2,
+            510.61,
+            528.57,
+            525.04
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "reflected beam (which will be spread over a large area at 100m). TIA with 1MΩ feedback + 1pF"
+        },
+        {
+          "bbox": [
+            87.2,
+            526.61,
+            509.73,
+            541.04
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "compensation cap. Add a narrowband optical filter (800-820nm) in front of the lens to reject"
+        },
+        {
+          "bbox": [
+            87.2,
+            542.61,
+            471.78,
+            557.04
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "ambient light. Shield the entire receiver in a tube to reject stray light from the sides."
+        },
+        {
+          "bbox": [
+            87.2,
+            562.61,
+            527.79,
+            577.12
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Signal conditioning: AC-couple the TIA output through 100nF. First stage: x100 amplification."
+        },
+        {
+          "bbox": [
+            87.2,
+            578.61,
+            489.29,
+            593.04
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Second stage: Sallen-Key bandpass 300Hz-3kHz (4th order for sharp rolloff). Verify on"
+        },
+        {
+          "bbox": [
+            87.2,
+            594.61,
+            516.73,
+            609.04
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "oscilloscope: with the laser on a nearby window and someone talking, you should see an AC"
+        },
+        {
+          "bbox": [
+            87.2,
+            610.61,
+            261.1,
+            625.04
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "waveform correlated with the speech."
+        },
+        {
+          "bbox": [
+            87.2,
+            630.61,
+            540.63,
+            645.12
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "FM demodulation: Feed the filtered signal into an LM567 PLL configured as an FM demodulator."
+        },
+        {
+          "bbox": [
+            87.2,
+            646.61,
+            532.49,
+            661.04
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Set the free-running frequency to match the carrier (center of your bandpass). The demodulated"
+        },
+        {
+          "bbox": [
+            87.2,
+            662.61,
+            513.86,
+            677.04
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "output is a voltage proportional to the instantaneous frequency deviation — this IS the audio"
+        },
+        {
+          "bbox": [
+            87.2,
+            678.61,
+            350.98,
+            693.04
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "signal. Low-pass at 3kHz and amplify for speaker output."
+        }
+      ],
+      "charCount": 1977,
+      "height": 792.0,
+      "pageNumber": 4,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            185.2,
+            758.2,
+            426.8,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "@1nska  •  Defense Tech Part 2: Laser + Covert Systems  •  Page 5"
+        },
+        {
+          "bbox": [
+            87.2,
+            55.61,
+            540.6,
+            70.12
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Test and calibrate: Start with a short range test (5m, indoors). Aim laser at a window. Play music"
+        },
+        {
+          "bbox": [
+            87.2,
+            71.61,
+            544.8,
+            86.04
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "inside the room near the window. You should hear the music through your receiver. Increase range"
+        },
+        {
+          "bbox": [
+            87.2,
+            87.61,
+            513.22,
+            102.04
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "gradually — 10m, 20m, 50m, 100m. At each range, adjust the receiver gain and verify SNR."
+        },
+        {
+          "bbox": [
+            87.2,
+            103.61,
+            429.74,
+            118.04
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Document the maximum intelligible range and the SNR vs distance curve."
+        },
+        {
+          "bbox": [
+            108.8,
+            133.67,
+            212.08,
+            148.12
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Interview Questions:"
+        },
+        {
+          "bbox": [
+            108.8,
+            149.61,
+            495.0,
+            164.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ How does sound inside a room modulate a laser beam reflected off the window?"
+        },
+        {
+          "bbox": [
+            108.8,
+            165.61,
+            393.99,
+            180.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ Why is automatic power control critical for the laser driver?"
+        },
+        {
+          "bbox": [
+            108.8,
+            181.61,
+            342.06,
+            196.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ What limits the maximum range of this system?"
+        },
+        {
+          "bbox": [
+            108.8,
+            197.61,
+            481.55,
+            212.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ How does FM demodulation reject amplitude noise from atmospheric effects?"
+        },
+        {
+          "bbox": [
+            108.8,
+            213.61,
+            439.53,
+            228.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ What countermeasures exist against laser microphone surveillance?"
+        },
+        {
+          "bbox": [
+            108.8,
+            229.61,
+            453.79,
+            244.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ How would you improve sensitivity — what's the theoretical noise floor?"
+        }
+      ],
+      "charCount": 840,
+      "height": 792.0,
+      "pageNumber": 5,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            185.2,
+            758.2,
+            426.8,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "@1nska  •  Defense Tech Part 2: Laser + Covert Systems  •  Page 6"
+        },
+        {
+          "bbox": [
+            67.2,
+            54.72,
+            200.57,
+            87.77
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "PROJECT 2"
+        },
+        {
+          "bbox": [
+            67.2,
+            105.0,
+            423.92,
+            132.54
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Tap-Proof Laser Communication Link"
+        },
+        {
+          "bbox": [
+            75.15,
+            141.43,
+            536.85,
+            159.29
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Encrypted data over invisible IR beam — no RF emission, cannot be intercepted"
+        },
+        {
+          "bbox": [
+            89.2,
+            186.69,
+            137.51,
+            199.82
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Cost: ~$12"
+        },
+        {
+          "bbox": [
+            240.4,
+            173.74,
+            505.11,
+            199.82
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Difficulty:\nIntermediate-Advanced\nBuild Time: 1-2 weekends"
+        },
+        {
+          "bbox": [
+            67.2,
+            233.35,
+            191.39,
+            254.01
+          ],
+          "blockIndex": 6,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Why This Matters"
+        },
+        {
+          "bbox": [
+            67.2,
+            260.61,
+            544.8,
+            275.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Every radio transmission can be intercepted, direction-found, and jammed. Laser communication"
+        },
+        {
+          "bbox": [
+            67.2,
+            276.61,
+            544.8,
+            291.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "eliminates all three problems: the beam is directional (impossible to intercept from the side), invisible"
+        },
+        {
+          "bbox": [
+            67.2,
+            292.61,
+            544.8,
+            307.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "(808nm IR), and carries no RF signature. Military Special Operations, submarine-to-satellite links, and"
+        },
+        {
+          "bbox": [
+            67.2,
+            308.61,
+            544.8,
+            323.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "inter-spacecraft communication all use optical links for exactly these reasons. This project builds a"
+        },
+        {
+          "bbox": [
+            67.2,
+            324.61,
+            544.8,
+            339.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "complete encrypted optical link: modulated laser transmitter, avalanche photodiode receiver, clock"
+        },
+        {
+          "bbox": [
+            67.2,
+            340.61,
+            209.01,
+            355.04
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "recovery, and AES encryption."
+        },
+        {
+          "bbox": [
+            67.2,
+            370.35,
+            213.08,
+            391.01
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "System Architecture"
+        }
+      ],
+      "charCount": 817,
+      "height": 792.0,
+      "pageNumber": 6,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            185.2,
+            758.2,
+            426.8,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "@1nska  •  Defense Tech Part 2: Laser + Covert Systems  •  Page 7"
+        },
+        {
+          "bbox": [
+            67.2,
+            55.35,
+            162.21,
+            76.01
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "How It Works"
+        },
+        {
+          "bbox": [
+            87.2,
+            82.61,
+            544.27,
+            97.12
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Transmitter — laser driver with OOK modulation: An 808nm laser diode driven by a MOSFET"
+        },
+        {
+          "bbox": [
+            87.2,
+            98.61,
+            541.79,
+            113.04
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "switching circuit. On-Off Keying (OOK): laser on = 1, laser off = 0. The MCU (ESP32) encrypts the"
+        },
+        {
+          "bbox": [
+            87.2,
+            114.61,
+            528.98,
+            129.04
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "data with AES-128, adds start/stop framing and Manchester encoding (for clock recovery), then"
+        },
+        {
+          "bbox": [
+            87.2,
+            130.61,
+            257.6,
+            145.04
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "drives the MOSFET at up to 1 Mbps."
+        },
+        {
+          "bbox": [
+            87.2,
+            150.61,
+            523.84,
+            165.12
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Receiver — avalanche photodiode (APD): An APD (or high-speed PIN diode like SFH213)"
+        },
+        {
+          "bbox": [
+            87.2,
+            166.61,
+            538.31,
+            181.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "provides internal gain through avalanche multiplication. This gives 10-50x better sensitivity than a"
+        },
+        {
+          "bbox": [
+            87.2,
+            182.61,
+            526.67,
+            197.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "standard photodiode. Biased at just below breakdown voltage (typically 100-150V from a boost"
+        },
+        {
+          "bbox": [
+            87.2,
+            198.61,
+            423.34,
+            213.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "converter). The received photocurrent feeds a transimpedance amplifier."
+        },
+        {
+          "bbox": [
+            87.2,
+            218.61,
+            517.48,
+            233.12
+          ],
+          "blockIndex": 10,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Clock recovery: Manchester encoding ensures a transition in every bit period, allowing the"
+        },
+        {
+          "bbox": [
+            87.2,
+            234.61,
+            533.52,
+            249.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "receiver's PLL to synchronize its clock to the transmitter's bit rate. Without clock recovery, timing"
+        },
+        {
+          "bbox": [
+            87.2,
+            250.61,
+            511.44,
+            265.04
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "drift over long messages causes bit errors. A simple DPLL (digital PLL) implemented on the"
+        },
+        {
+          "bbox": [
+            87.2,
+            266.61,
+            181.75,
+            281.04
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "ESP32 handles this."
+        },
+        {
+          "bbox": [
+            87.2,
+            286.61,
+            507.53,
+            301.12
+          ],
+          "blockIndex": 14,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• AES decryption: The receiver ESP32 strips framing, decodes Manchester, and decrypts"
+        },
+        {
+          "bbox": [
+            87.2,
+            302.61,
+            521.39,
+            317.04
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "AES-128 using a pre-shared key stored in flash. Output: original plaintext on serial terminal or"
+        },
+        {
+          "bbox": [
+            87.2,
+            318.61,
+            154.31,
+            333.04
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "OLED display."
+        },
+        {
+          "bbox": [
+            67.2,
+            348.35,
+            178.07,
+            369.01
+          ],
+          "blockIndex": 17,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Bill of Materials"
+        },
+        {
+          "bbox": [
+            114.0,
+            381.74,
+            479.06,
+            394.82
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Component\nPart / Spec\nQty\n~Cost"
+        },
+        {
+          "bbox": [
+            114.0,
+            406.69,
+            476.17,
+            419.74
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "808nm laser diode\n200mW, collimated module\n1\n$2.50"
+        },
+        {
+          "bbox": [
+            114.0,
+            431.69,
+            476.17,
+            444.74
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "SFH213 PIN diode\nHigh-speed, 900nm peak\n1\n$1.50"
+        },
+        {
+          "bbox": [
+            114.0,
+            456.69,
+            476.17,
+            469.74
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "MOSFET\n2N7000 (laser switching)\n1\n$0.30"
+        },
+        {
+          "bbox": [
+            114.0,
+            481.69,
+            476.17,
+            494.74
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "ESP32\nTX and RX controllers\n2\n$6.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            506.69,
+            476.17,
+            519.74
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "TL072 op-amp\nTIA + comparator\n1\n$0.80"
+        },
+        {
+          "bbox": [
+            114.0,
+            531.69,
+            476.17,
+            544.74
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Boost converter\nFor APD bias (if using APD)\n1\n$2.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            556.69,
+            476.17,
+            569.74
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Collimating optics\nTX lens + RX focusing lens\n2\n$2.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            581.69,
+            476.17,
+            594.74
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Protoboard\nTX + RX boards\n2\n$3.00"
+        }
+      ],
+      "charCount": 1627,
+      "height": 792.0,
+      "pageNumber": 7,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            185.2,
+            758.2,
+            426.8,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "@1nska  •  Defense Tech Part 2: Laser + Covert Systems  •  Page 8"
+        },
+        {
+          "bbox": [
+            67.2,
+            55.35,
+            149.71,
+            76.01
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Build Steps"
+        },
+        {
+          "bbox": [
+            87.2,
+            82.61,
+            544.8,
+            97.12
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Transmitter: ESP32 GPIO drives 2N7000 MOSFET gate through 100Ω resistor. MOSFET drain to"
+        },
+        {
+          "bbox": [
+            87.2,
+            98.61,
+            531.88,
+            113.04
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "laser diode cathode through current-limiting resistor (set for rated current). Laser anode to VCC."
+        },
+        {
+          "bbox": [
+            87.2,
+            114.61,
+            544.72,
+            129.04
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Test: toggle GPIO at 1kHz — verify laser blinks with oscilloscope and photodiode. Then implement"
+        },
+        {
+          "bbox": [
+            87.2,
+            130.61,
+            504.34,
+            145.04
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Manchester encoding: each '1' bit = high-then-low transition, each '0' = low-then-high. Add"
+        },
+        {
+          "bbox": [
+            87.2,
+            146.61,
+            359.42,
+            161.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "AES-128 encryption using ESP32's hardware AES engine."
+        },
+        {
+          "bbox": [
+            87.2,
+            166.61,
+            531.34,
+            181.12
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Receiver optics: Mount SFH213 photodiode behind a 25mm focusing lens. Add an 800-820nm"
+        },
+        {
+          "bbox": [
+            87.2,
+            182.61,
+            536.57,
+            197.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "optical bandpass filter to reject ambient light. The lens focuses the incoming beam onto the small"
+        },
+        {
+          "bbox": [
+            87.2,
+            198.61,
+            518.52,
+            213.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "active area of the diode, increasing the collected photon count. Shield the assembly in a tube"
+        },
+        {
+          "bbox": [
+            87.2,
+            214.61,
+            211.51,
+            229.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "painted matte black inside."
+        },
+        {
+          "bbox": [
+            87.2,
+            234.61,
+            497.94,
+            249.12
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Receiver electronics: TIA with 100kΩ feedback (lower than laser mic because we need"
+        },
+        {
+          "bbox": [
+            87.2,
+            250.61,
+            523.67,
+            265.04
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "bandwidth for 1Mbps). Follow with a limiting amplifier or comparator (LM393) that converts the"
+        },
+        {
+          "bbox": [
+            87.2,
+            266.61,
+            537.77,
+            281.04
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "analog signal to clean digital pulses. Feed to ESP32 GPIO input configured for interrupt-on-edge."
+        },
+        {
+          "bbox": [
+            87.2,
+            286.61,
+            492.51,
+            301.12
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Clock recovery + decoding: ESP32 measures the time between each edge transition."
+        },
+        {
+          "bbox": [
+            87.2,
+            302.61,
+            510.32,
+            317.04
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Manchester encoding guarantees a transition every bit period. A software DPLL adjusts the"
+        },
+        {
+          "bbox": [
+            87.2,
+            318.61,
+            531.91,
+            333.04
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "sampling point to the center of each bit. Decode Manchester back to binary. Strip framing bytes."
+        },
+        {
+          "bbox": [
+            87.2,
+            334.61,
+            334.05,
+            349.04
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Decrypt AES-128. Output plaintext to serial or OLED."
+        },
+        {
+          "bbox": [
+            87.2,
+            354.61,
+            544.8,
+            369.12
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Range test: Start at 10m indoors. Transmit a known message, verify error-free reception. Increase"
+        },
+        {
+          "bbox": [
+            87.2,
+            370.61,
+            544.73,
+            385.04
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "to 50m, 100m, 200m. At each distance, measure BER (bit error rate) by transmitting 10,000 known"
+        },
+        {
+          "bbox": [
+            87.2,
+            386.61,
+            540.61,
+            401.04
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "bits and counting errors. Document BER vs distance. In clear air, you should achieve <10^-6 BER"
+        },
+        {
+          "bbox": [
+            87.2,
+            402.61,
+            231.34,
+            417.04
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "at 200m with proper alignment."
+        },
+        {
+          "bbox": [
+            108.8,
+            432.67,
+            212.08,
+            447.12
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Interview Questions:"
+        },
+        {
+          "bbox": [
+            108.8,
+            448.61,
+            396.34,
+            463.04
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "→ Why is OOK modulation simpler than PSK for optical links?"
+        },
+        {
+          "bbox": [
+            108.8,
+            464.61,
+            451.8,
+            479.04
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "→ How does Manchester encoding enable clock recovery at the receiver?"
+        },
+        {
+          "bbox": [
+            108.8,
+            480.61,
+            356.65,
+            495.04
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "→ What limits the maximum data rate of this system?"
+        },
+        {
+          "bbox": [
+            108.8,
+            496.61,
+            344.68,
+            511.04
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "→ Why can't this link be intercepted from the side?"
+        },
+        {
+          "bbox": [
+            108.8,
+            512.61,
+            492.08,
+            527.04
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "→ How does atmospheric turbulence affect the link and how would you mitigate it?"
+        },
+        {
+          "bbox": [
+            108.8,
+            528.61,
+            488.59,
+            543.04
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "→ Compare this to RF communication — advantages and disadvantages of each."
+        }
+      ],
+      "charCount": 2119,
+      "height": 792.0,
+      "pageNumber": 8,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            185.2,
+            758.2,
+            426.8,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "@1nska  •  Defense Tech Part 2: Laser + Covert Systems  •  Page 9"
+        },
+        {
+          "bbox": [
+            67.2,
+            54.72,
+            200.57,
+            87.77
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "PROJECT 3"
+        },
+        {
+          "bbox": [
+            67.2,
+            105.0,
+            242.8,
+            132.54
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Laser Rangefinder"
+        },
+        {
+          "bbox": [
+            76.24,
+            141.43,
+            535.76,
+            159.29
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Time-of-flight distance measurement with 5ns pulse and 100ps timing resolution"
+        },
+        {
+          "bbox": [
+            89.2,
+            173.69,
+            505.11,
+            186.82
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Cost: ~$25\nDifficulty: Advanced\nBuild Time: 1-2 weekends"
+        },
+        {
+          "bbox": [
+            67.2,
+            220.35,
+            191.39,
+            241.01
+          ],
+          "blockIndex": 5,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Why This Matters"
+        },
+        {
+          "bbox": [
+            67.2,
+            247.61,
+            544.8,
+            262.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Every military targeting system, every autonomous vehicle LIDAR, every surveying instrument uses"
+        },
+        {
+          "bbox": [
+            67.2,
+            263.61,
+            544.8,
+            278.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "laser time-of-flight ranging. The principle is simple: fire a short laser pulse, start a timer, stop it when"
+        },
+        {
+          "bbox": [
+            67.2,
+            279.61,
+            544.8,
+            294.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "the reflection arrives, calculate distance from the round-trip time. The implementation is one of the"
+        },
+        {
+          "bbox": [
+            67.2,
+            295.61,
+            544.8,
+            310.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "hardest analog design challenges in EE: generating nanosecond pulses, building a time-to-digital"
+        },
+        {
+          "bbox": [
+            67.2,
+            311.61,
+            544.8,
+            326.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "converter with picosecond resolution, and designing a receiver sensitive enough to detect photons"
+        },
+        {
+          "bbox": [
+            67.2,
+            327.61,
+            255.11,
+            342.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "reflected from hundreds of meters away."
+        },
+        {
+          "bbox": [
+            108.8,
+            361.61,
+            443.71,
+            376.12
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Why this is the ultimate portfolio project: A working laser rangefinder"
+        },
+        {
+          "bbox": [
+            108.8,
+            377.61,
+            446.1,
+            392.04
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "demonstrates high-speed analog design, precision timing circuits, optical"
+        },
+        {
+          "bbox": [
+            108.8,
+            393.61,
+            487.82,
+            408.04
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "engineering, and signal processing — all in one device. It's the project that makes"
+        },
+        {
+          "bbox": [
+            108.8,
+            409.61,
+            443.2,
+            424.04
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "interviewers stop asking standard questions and start having a technical"
+        },
+        {
+          "bbox": [
+            108.8,
+            425.61,
+            171.24,
+            440.04
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "conversation."
+        },
+        {
+          "bbox": [
+            67.2,
+            475.35,
+            213.08,
+            496.01
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "System Architecture"
+        }
+      ],
+      "charCount": 1109,
+      "height": 792.0,
+      "pageNumber": 9,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            182.97,
+            758.2,
+            429.03,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "@1nska  •  Defense Tech Part 2: Laser + Covert Systems  •  Page 10"
+        },
+        {
+          "bbox": [
+            67.2,
+            55.35,
+            162.21,
+            76.01
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "How It Works"
+        },
+        {
+          "bbox": [
+            87.2,
+            82.61,
+            535.53,
+            97.12
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "• Pulse generator (5ns): A MOSFET avalanche pulser circuit. A high-voltage supply (100-200V)"
+        },
+        {
+          "bbox": [
+            87.2,
+            98.61,
+            537.13,
+            113.04
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "charges a small capacitor through a resistor. When the MOSFET is triggered, the cap discharges"
+        },
+        {
+          "bbox": [
+            87.2,
+            114.61,
+            536.01,
+            129.04
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "through the laser diode in nanoseconds. The avalanche breakdown of the MOSFET provides the"
+        },
+        {
+          "bbox": [
+            87.2,
+            130.61,
+            521.98,
+            145.04
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "fast switching edge. Pulse width is determined by the capacitance and parasitic inductance —"
+        },
+        {
+          "bbox": [
+            87.2,
+            146.61,
+            167.16,
+            161.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "keep leads short."
+        },
+        {
+          "bbox": [
+            87.2,
+            166.61,
+            543.14,
+            181.12
+          ],
+          "blockIndex": 7,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "• Laser diode (905nm): A pulsed laser diode rated for high peak power (10-75W) but low average"
+        },
+        {
+          "bbox": [
+            87.2,
+            182.61,
+            535.95,
+            197.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "power (duty cycle <0.1%). 905nm is standard for rangefinders because it's eye-safe at the power"
+        },
+        {
+          "bbox": [
+            87.2,
+            198.61,
+            528.1,
+            213.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "levels used and atmospheric absorption is low. A collimating lens focuses the beam to <1 mrad"
+        },
+        {
+          "bbox": [
+            87.2,
+            214.61,
+            141.47,
+            229.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "divergence."
+        },
+        {
+          "bbox": [
+            87.2,
+            234.61,
+            536.75,
+            249.12
+          ],
+          "blockIndex": 11,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "• Receiver (APD): An avalanche photodiode with a narrowband 905nm filter and focusing optics."
+        },
+        {
+          "bbox": [
+            87.2,
+            250.61,
+            511.47,
+            265.04
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "The APD provides internal gain (x50-200) at a reverse bias of 100-200V. A transimpedance"
+        },
+        {
+          "bbox": [
+            87.2,
+            266.61,
+            503.3,
+            281.04
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "amplifier converts the photocurrent pulse to a voltage pulse. A comparator with adjustable"
+        },
+        {
+          "bbox": [
+            87.2,
+            282.61,
+            319.47,
+            297.04
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "threshold generates the STOP signal for the TDC."
+        },
+        {
+          "bbox": [
+            87.2,
+            302.61,
+            543.66,
+            317.12
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "• Time-to-Digital Converter (TDC): The heart of the system. The laser trigger pulse is the START"
+        },
+        {
+          "bbox": [
+            87.2,
+            318.61,
+            521.38,
+            333.04
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "signal. The APD comparator output is the STOP signal. The TDC measures the time between"
+        },
+        {
+          "bbox": [
+            87.2,
+            334.61,
+            533.61,
+            349.04
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "them. A TDC7200 IC provides 55ps resolution. Alternatively, build a Vernier delay line TDC from"
+        },
+        {
+          "bbox": [
+            87.2,
+            350.61,
+            544.13,
+            365.04
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "discrete logic — two ring oscillators at slightly different frequencies that achieve interpolated timing"
+        },
+        {
+          "bbox": [
+            87.2,
+            366.61,
+            164.54,
+            381.04
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "down to ~100ps."
+        },
+        {
+          "bbox": [
+            87.2,
+            386.61,
+            517.88,
+            401.12
+          ],
+          "blockIndex": 20,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "• Distance calculation: Distance = (time × c) / 2, where c = 3×10I m/s. At 100ps resolution:"
+        },
+        {
+          "bbox": [
+            87.2,
+            402.61,
+            527.07,
+            417.04
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "distance resolution = (100ps × 3×10I) / 2 = 1.5 cm. Average multiple measurements to reduce"
+        },
+        {
+          "bbox": [
+            87.2,
+            418.61,
+            257.6,
+            433.04
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "noise and improve resolution further."
+        }
+      ],
+      "charCount": 1692,
+      "height": 792.0,
+      "pageNumber": 10,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            182.97,
+            758.2,
+            429.03,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "@1nska  •  Defense Tech Part 2: Laser + Covert Systems  •  Page 11"
+        },
+        {
+          "bbox": [
+            67.2,
+            55.35,
+            178.07,
+            76.01
+          ],
+          "blockIndex": 1,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Bill of Materials"
+        },
+        {
+          "bbox": [
+            114.0,
+            88.73,
+            479.06,
+            101.82
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Component\nPart / Spec\nQty\n~Cost"
+        },
+        {
+          "bbox": [
+            114.0,
+            113.69,
+            476.17,
+            139.74
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "905nm pulsed laser\ndiode\nSPL PL90_3 or similar\n1\n$5.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            151.69,
+            476.17,
+            164.74
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "APD module\nC30902E or AD500-9\n1\n$8.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            176.69,
+            476.17,
+            189.74
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "TDC7200\nTime-to-digital converter IC\n1\n$4.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            201.69,
+            476.17,
+            214.74
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "MOSFET\nIRF510 (avalanche pulser)\n1\n$1.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            226.69,
+            476.17,
+            239.74
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "HV boost converter\nFor APD bias + pulser\n1\n$3.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            251.69,
+            476.17,
+            264.74
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Collimating optics\nTX + RX lens assembly\n2\n$3.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            276.69,
+            476.17,
+            289.74
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "ESP32 / STM32\nTDC readout + display\n1\n$3.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            301.69,
+            476.17,
+            314.74
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "905nm bandpass filter\nOptical, 10nm FWHM\n1\n$2.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            326.69,
+            476.17,
+            339.74
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Protoboard\nWith ground plane\n1\n$2.00"
+        },
+        {
+          "bbox": [
+            67.2,
+            371.35,
+            149.71,
+            392.01
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Build Steps"
+        },
+        {
+          "bbox": [
+            87.2,
+            398.61,
+            522.45,
+            413.12
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Avalanche pulser: Charge a 100pF capacitor to 200V through a 10MΩ resistor (slow charge,"
+        },
+        {
+          "bbox": [
+            87.2,
+            414.61,
+            532.15,
+            429.04
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "~1ms). IRF510 MOSFET gate driven by a fast logic signal (3.3V from MCU through gate driver)."
+        },
+        {
+          "bbox": [
+            87.2,
+            430.61,
+            519.63,
+            445.04
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "When the MOSFET switches, the cap dumps into the laser diode through minimal inductance"
+        },
+        {
+          "bbox": [
+            87.2,
+            446.61,
+            534.2,
+            461.04
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "(short, wide traces). The pulse width is determined by the LC ringing — aim for 5-10ns. Measure"
+        },
+        {
+          "bbox": [
+            87.2,
+            462.61,
+            303.41,
+            477.04
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "with a fast oscilloscope (>500MHz bandwidth)."
+        },
+        {
+          "bbox": [
+            87.2,
+            482.61,
+            531.88,
+            497.12
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Laser optics: Mount the pulsed laser diode in a collimating lens tube. Adjust focus for minimum"
+        },
+        {
+          "bbox": [
+            87.2,
+            498.61,
+            523.13,
+            513.04
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "beam divergence at 50m (use a wall as target). The RX optics: a 25mm lens focuses reflected"
+        },
+        {
+          "bbox": [
+            87.2,
+            514.61,
+            524.62,
+            529.04
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "photons onto the APD active area. Mount TX and RX optics side by side with ~3cm separation"
+        },
+        {
+          "bbox": [
+            87.2,
+            530.61,
+            402.29,
+            545.04
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "(bistatic configuration) or coaxially with a beam splitter (monostatic)."
+        },
+        {
+          "bbox": [
+            87.2,
+            550.61,
+            529.57,
+            565.12
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Receiver chain: APD biased at its rated voltage (check datasheet — typically 100-200V from a"
+        },
+        {
+          "bbox": [
+            87.2,
+            566.61,
+            493.85,
+            581.04
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "boost converter). TIA with 10kΩ feedback (need bandwidth for 5ns pulse). Follow with a"
+        },
+        {
+          "bbox": [
+            87.2,
+            582.61,
+            541.81,
+            597.04
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "high-speed comparator (LT1016 or ADCMP600) with adjustable threshold. The comparator output"
+        },
+        {
+          "bbox": [
+            87.2,
+            598.61,
+            465.39,
+            613.04
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "is the STOP signal — a clean digital edge triggered by the received photon pulse."
+        },
+        {
+          "bbox": [
+            87.2,
+            618.61,
+            542.36,
+            633.12
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "TDC measurement: Connect the laser trigger to TDC7200 START input. Connect the comparator"
+        },
+        {
+          "bbox": [
+            87.2,
+            634.61,
+            519.62,
+            649.04
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "output to STOP input. The TDC7200 communicates via SPI — read the time-interval register."
+        },
+        {
+          "bbox": [
+            87.2,
+            650.61,
+            505.63,
+            665.04
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Convert to distance: d = (time_ns × 0.15) meters. Average 10 measurements for improved"
+        },
+        {
+          "bbox": [
+            87.2,
+            666.61,
+            218.49,
+            681.04
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "precision. Display on OLED."
+        }
+      ],
+      "charCount": 1919,
+      "height": 792.0,
+      "pageNumber": 11,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            182.97,
+            758.2,
+            429.03,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "@1nska  •  Defense Tech Part 2: Laser + Covert Systems  •  Page 12"
+        },
+        {
+          "bbox": [
+            87.2,
+            55.61,
+            520.18,
+            70.12
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Calibration and test: Start with a known distance (measure with tape). Compare rangefinder"
+        },
+        {
+          "bbox": [
+            87.2,
+            71.61,
+            543.58,
+            86.04
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "reading to actual distance. Adjust the fixed time offset (cable delays, processing delays). Then test"
+        },
+        {
+          "bbox": [
+            87.2,
+            87.61,
+            525.47,
+            102.04
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "at multiple distances: 5m, 10m, 20m, 50m, 100m. Plot measured vs actual distance. The slope"
+        },
+        {
+          "bbox": [
+            87.2,
+            103.61,
+            539.19,
+            118.04
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "should be 1.000 ± 0.001. Document the maximum range (where SNR drops below threshold) and"
+        },
+        {
+          "bbox": [
+            87.2,
+            119.61,
+            452.54,
+            134.04
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "the precision (standard deviation of repeated measurements at fixed distance)."
+        },
+        {
+          "bbox": [
+            108.8,
+            149.66,
+            212.08,
+            164.12
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Interview Questions:"
+        },
+        {
+          "bbox": [
+            108.8,
+            165.61,
+            463.5,
+            180.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "→ Explain the avalanche pulser circuit — how do you generate a 5ns pulse?"
+        },
+        {
+          "bbox": [
+            108.8,
+            181.61,
+            438.93,
+            196.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "→ What determines the minimum and maximum measurable distance?"
+        },
+        {
+          "bbox": [
+            108.8,
+            197.61,
+            444.19,
+            212.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "→ How does the TDC achieve picosecond resolution from a MHz clock?"
+        },
+        {
+          "bbox": [
+            108.8,
+            213.61,
+            487.94,
+            228.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "→ What limits the range of your system — is it peak power, receiver sensitivity, or"
+        },
+        {
+          "bbox": [
+            108.8,
+            229.61,
+            142.06,
+            244.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "optics?"
+        },
+        {
+          "bbox": [
+            108.8,
+            245.61,
+            466.97,
+            260.04
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "→ How would you implement multi-target detection (seeing through glass, for"
+        },
+        {
+          "bbox": [
+            108.8,
+            261.61,
+            157.81,
+            276.04
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "example)?"
+        },
+        {
+          "bbox": [
+            108.8,
+            277.61,
+            366.62,
+            292.04
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "→ What eye safety considerations apply to this design?"
+        }
+      ],
+      "charCount": 964,
+      "height": 792.0,
+      "pageNumber": 12,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            182.97,
+            758.2,
+            429.03,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "@1nska  •  Defense Tech Part 2: Laser + Covert Systems  •  Page 13"
+        },
+        {
+          "bbox": [
+            67.2,
+            54.72,
+            200.57,
+            87.77
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "PROJECT 4"
+        },
+        {
+          "bbox": [
+            67.2,
+            105.0,
+            338.36,
+            132.54
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Encrypted Burst Transmitter"
+        },
+        {
+          "bbox": [
+            83.45,
+            141.43,
+            528.55,
+            177.29
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "50ms frequency-hopping burst — too fast to DF, too short to jam, encrypted if\nintercepted"
+        },
+        {
+          "bbox": [
+            89.2,
+            191.69,
+            505.11,
+            204.82
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Cost: ~$10\nDifficulty: Intermediate\nBuild Time: 1-2 weekends"
+        },
+        {
+          "bbox": [
+            67.2,
+            238.35,
+            191.39,
+            259.01
+          ],
+          "blockIndex": 5,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Why This Matters"
+        },
+        {
+          "bbox": [
+            67.2,
+            265.61,
+            544.8,
+            280.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "In electronic warfare, the three threats to radio communication are: interception (listening), direction"
+        },
+        {
+          "bbox": [
+            67.2,
+            281.61,
+            544.8,
+            296.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "finding (locating the transmitter), and jamming (disrupting the signal). A burst transmitter defeats all"
+        },
+        {
+          "bbox": [
+            67.2,
+            297.61,
+            544.8,
+            312.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "three. The message is compressed and encrypted, then transmitted in a single 50ms burst on a"
+        },
+        {
+          "bbox": [
+            67.2,
+            313.61,
+            544.8,
+            328.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "pseudo-random frequency. 50ms is too short for most direction-finding systems to get a bearing."
+        },
+        {
+          "bbox": [
+            67.2,
+            329.61,
+            544.8,
+            344.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Frequency hopping means a jammer doesn't know which frequency to block. AES encryption means"
+        },
+        {
+          "bbox": [
+            67.2,
+            345.61,
+            544.8,
+            360.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "even if the burst is recorded, it can't be read. This is the fundamental operating principle of military"
+        },
+        {
+          "bbox": [
+            67.2,
+            361.61,
+            244.59,
+            376.04
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "SINCGARS and HAVE QUICK radios."
+        },
+        {
+          "bbox": [
+            67.2,
+            391.35,
+            213.08,
+            412.01
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "System Architecture"
+        }
+      ],
+      "charCount": 908,
+      "height": 792.0,
+      "pageNumber": 13,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            182.97,
+            758.2,
+            429.03,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "@1nska  •  Defense Tech Part 2: Laser + Covert Systems  •  Page 14"
+        },
+        {
+          "bbox": [
+            67.2,
+            55.35,
+            162.21,
+            76.01
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "How It Works"
+        },
+        {
+          "bbox": [
+            87.2,
+            82.61,
+            541.97,
+            97.12
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "• Message input: User types a text message on the ESP32 serial terminal (up to 256 characters)."
+        },
+        {
+          "bbox": [
+            87.2,
+            98.61,
+            538.6,
+            113.04
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "The MCU compresses the text using run-length encoding (saves ~30% on typical messages) and"
+        },
+        {
+          "bbox": [
+            87.2,
+            114.61,
+            306.04,
+            129.04
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "encrypts with AES-256 using a pre-shared key."
+        },
+        {
+          "bbox": [
+            87.2,
+            134.61,
+            512.21,
+            149.12
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "• FHSS sequence generation: A pseudo-random number generator (seeded with a shared"
+        },
+        {
+          "bbox": [
+            87.2,
+            150.61,
+            531.91,
+            165.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "secret) generates a sequence of frequencies across the ISM band (902-928 MHz for US, or 433"
+        },
+        {
+          "bbox": [
+            87.2,
+            166.61,
+            541.26,
+            181.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "MHz band). The TX and RX use the same seed, so they hop to the same frequencies at the same"
+        },
+        {
+          "bbox": [
+            87.2,
+            182.61,
+            109.95,
+            197.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "time."
+        },
+        {
+          "bbox": [
+            87.2,
+            202.61,
+            530.02,
+            217.12
+          ],
+          "blockIndex": 9,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "• Si4432 RF module: A frequency-agile transceiver that can retune in <100µs. The MCU sends"
+        },
+        {
+          "bbox": [
+            87.2,
+            218.61,
+            528.41,
+            233.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "the encrypted, compressed packet in a single 50ms burst. During the burst, the frequency hops"
+        },
+        {
+          "bbox": [
+            87.2,
+            234.61,
+            520.79,
+            249.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "every 5ms across 10 channels. Total airtime per channel: 5ms — below the threshold of most"
+        },
+        {
+          "bbox": [
+            87.2,
+            250.61,
+            259.91,
+            265.04
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "spectrum analyzers and DF systems."
+        },
+        {
+          "bbox": [
+            87.2,
+            270.61,
+            531.18,
+            285.12
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "• Receiver: An identical Si4432 + ESP32 module, time-synchronized with the transmitter (either"
+        },
+        {
+          "bbox": [
+            87.2,
+            286.61,
+            512.63,
+            301.04
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "GPS-disciplined clocks or a pre-agreed hop schedule). The receiver hops through the same"
+        },
+        {
+          "bbox": [
+            87.2,
+            302.61,
+            519.64,
+            317.04
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "frequency sequence, collecting 5ms fragments and reassembling the full packet. Decrypt and"
+        },
+        {
+          "bbox": [
+            87.2,
+            318.61,
+            122.79,
+            333.04
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "display."
+        },
+        {
+          "bbox": [
+            67.2,
+            348.35,
+            178.07,
+            369.01
+          ],
+          "blockIndex": 17,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Bill of Materials"
+        },
+        {
+          "bbox": [
+            114.0,
+            381.74,
+            479.06,
+            394.82
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Component\nPart / Spec\nQty\n~Cost"
+        },
+        {
+          "bbox": [
+            114.0,
+            406.69,
+            476.17,
+            419.74
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Si4432 module\n433/915MHz FHSS-capable\n2\n$4.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            431.69,
+            476.17,
+            444.74
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "ESP32\nTX + RX controllers\n2\n$6.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            456.69,
+            476.17,
+            469.74
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Quarter-wave antenna\nWire, 82mm (915MHz)\n2\n$0.20"
+        },
+        {
+          "bbox": [
+            114.0,
+            481.69,
+            476.17,
+            494.74
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "OLED display\n128x64 I2C\n2\n$5.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            506.69,
+            476.17,
+            519.74
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "LiPo battery\n3.7V 500mAh\n2\n$4.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            531.69,
+            476.17,
+            544.74
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Push button\nTX trigger\n1\n$0.10"
+        }
+      ],
+      "charCount": 1431,
+      "height": 792.0,
+      "pageNumber": 14,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            182.97,
+            758.2,
+            429.03,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "@1nska  •  Defense Tech Part 2: Laser + Covert Systems  •  Page 15"
+        },
+        {
+          "bbox": [
+            67.2,
+            55.35,
+            149.71,
+            76.01
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Build Steps"
+        },
+        {
+          "bbox": [
+            87.2,
+            82.61,
+            523.11,
+            97.12
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Basic RF link: Wire two Si4432 modules to two ESP32s via SPI. Verify basic communication:"
+        },
+        {
+          "bbox": [
+            87.2,
+            98.61,
+            542.95,
+            113.04
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "send a test message from TX, receive on RX. Measure range with simple continuous transmission"
+        },
+        {
+          "bbox": [
+            87.2,
+            114.61,
+            326.18,
+            129.04
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "— should be 500m+ with wire antenna line-of-sight."
+        },
+        {
+          "bbox": [
+            87.2,
+            134.61,
+            526.31,
+            149.12
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Compression + encryption: Implement RLE compression on the TX ESP32. Then implement"
+        },
+        {
+          "bbox": [
+            87.2,
+            150.61,
+            537.42,
+            165.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "AES-256 encryption using the ESP32's hardware AES engine. Pre-share a 256-bit key (flash it to"
+        },
+        {
+          "bbox": [
+            87.2,
+            166.61,
+            503.87,
+            181.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "both devices during programming). Verify: transmit an encrypted message, decrypt on the"
+        },
+        {
+          "bbox": [
+            87.2,
+            182.61,
+            222.58,
+            197.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "receiver, compare to original."
+        },
+        {
+          "bbox": [
+            87.2,
+            202.61,
+            539.47,
+            217.12
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Frequency hopping: Implement the PRNG-based hop sequence. Both TX and RX use the same"
+        },
+        {
+          "bbox": [
+            87.2,
+            218.61,
+            533.66,
+            233.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "seed, so they generate the same frequency list. Program the Si4432 to retune every 5ms across"
+        },
+        {
+          "bbox": [
+            87.2,
+            234.61,
+            536.26,
+            249.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "10 frequencies within the ISM band. The Si4432's frequency resolution is 156Hz, so you can hop"
+        },
+        {
+          "bbox": [
+            87.2,
+            250.61,
+            525.44,
+            265.04
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "precisely. Test: use an RTL-SDR as a spectrum analyzer to observe the signal jumping across"
+        },
+        {
+          "bbox": [
+            87.2,
+            266.61,
+            144.39,
+            281.04
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "frequencies."
+        },
+        {
+          "bbox": [
+            87.2,
+            286.61,
+            514.38,
+            301.12
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Burst assembly: Instead of continuous transmission, the MCU buffers the entire encrypted,"
+        },
+        {
+          "bbox": [
+            87.2,
+            302.61,
+            533.05,
+            317.04
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "compressed message. On button press: the MCU transmits the entire packet in one 50ms burst,"
+        },
+        {
+          "bbox": [
+            87.2,
+            318.61,
+            544.8,
+            333.04
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "hopping 10 times during the burst. Total airtime: 50ms. Then radio silence. The receiver collects all"
+        },
+        {
+          "bbox": [
+            87.2,
+            334.61,
+            234.26,
+            349.04
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "10 fragments and reassembles."
+        },
+        {
+          "bbox": [
+            87.2,
+            354.61,
+            530.71,
+            369.12
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Time synchronization: For the receiver to hop in sync with the transmitter, both need a shared"
+        },
+        {
+          "bbox": [
+            87.2,
+            370.61,
+            528.39,
+            385.04
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "time reference. Simplest method: both devices start their hop sequence from a pre-agreed time"
+        },
+        {
+          "bbox": [
+            87.2,
+            386.61,
+            540.09,
+            401.04
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "offset after power-on (e.g., aligned to the nearest second using an RTC module). More advanced:"
+        },
+        {
+          "bbox": [
+            87.2,
+            402.61,
+            331.68,
+            417.04
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "GPS-disciplined oscillator for sub-microsecond sync."
+        },
+        {
+          "bbox": [
+            108.8,
+            432.67,
+            212.08,
+            447.12
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Interview Questions:"
+        },
+        {
+          "bbox": [
+            108.8,
+            448.61,
+            344.43,
+            463.04
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "→ How does frequency hopping prevent jamming?"
+        },
+        {
+          "bbox": [
+            108.8,
+            464.61,
+            503.2,
+            479.04
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "→ Why is 50ms too short for direction finding — what DF methods exist and what are"
+        },
+        {
+          "bbox": [
+            108.8,
+            480.61,
+            222.0,
+            495.04
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "their time requirements?"
+        },
+        {
+          "bbox": [
+            108.8,
+            496.61,
+            447.14,
+            511.04
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "→ How do you synchronize the transmitter and receiver hop sequences?"
+        },
+        {
+          "bbox": [
+            108.8,
+            512.61,
+            423.5,
+            527.04
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "→ What's the tradeoff between burst length and message capacity?"
+        },
+        {
+          "bbox": [
+            108.8,
+            528.61,
+            403.37,
+            543.04
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "→ How does your PRNG sequence ensure spectral spreading?"
+        },
+        {
+          "bbox": [
+            108.8,
+            544.61,
+            487.39,
+            559.04
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "→ Compare FHSS to DSSS (direct-sequence spread spectrum) — advantages of"
+        },
+        {
+          "bbox": [
+            108.8,
+            560.61,
+            134.48,
+            575.04
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "each."
+        }
+      ],
+      "charCount": 2058,
+      "height": 792.0,
+      "pageNumber": 15,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            182.97,
+            758.2,
+            429.03,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "@1nska  •  Defense Tech Part 2: Laser + Covert Systems  •  Page 16"
+        },
+        {
+          "bbox": [
+            67.2,
+            54.72,
+            200.57,
+            87.77
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "PROJECT 5"
+        },
+        {
+          "bbox": [
+            67.2,
+            105.0,
+            329.52,
+            132.54
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Passive Night Vision Scope"
+        },
+        {
+          "bbox": [
+            100.83,
+            141.43,
+            511.17,
+            159.29
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Image amplification from ambient starlight — zero emission, fully covert"
+        },
+        {
+          "bbox": [
+            89.2,
+            173.69,
+            505.11,
+            186.82
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Cost: ~$30\nDifficulty: Advanced\nBuild Time: 1-2 weekends"
+        },
+        {
+          "bbox": [
+            67.2,
+            220.35,
+            191.39,
+            241.01
+          ],
+          "blockIndex": 5,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Why This Matters"
+        },
+        {
+          "bbox": [
+            67.2,
+            247.61,
+            544.8,
+            262.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Most commercial 'night vision' devices cheat — they blast IR LEDs and use a camera. This is visible to"
+        },
+        {
+          "bbox": [
+            67.2,
+            263.61,
+            544.8,
+            278.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "anyone else with night vision and broadcasts your position. Real military night vision (Gen III image"
+        },
+        {
+          "bbox": [
+            67.2,
+            279.61,
+            544.8,
+            294.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "intensifiers) amplifies ambient photons — starlight, moonlight, airglow — without emitting anything."
+        },
+        {
+          "bbox": [
+            67.2,
+            295.61,
+            544.8,
+            310.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "This project builds a digital equivalent: a high-sensitivity CMOS sensor with a fast lens, gain-adjustable"
+        },
+        {
+          "bbox": [
+            67.2,
+            311.61,
+            520.61,
+            326.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "analog front end, and OLED microdisplay eyepiece. No IR illuminator. No emission. Fully passive."
+        },
+        {
+          "bbox": [
+            67.2,
+            341.35,
+            213.08,
+            362.01
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "System Architecture"
+        },
+        {
+          "bbox": [
+            67.2,
+            582.59,
+            162.21,
+            603.24
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "How It Works"
+        },
+        {
+          "bbox": [
+            87.2,
+            609.85,
+            544.8,
+            624.36
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "• Fast lens (f/1.0): The lens determines how many photons reach the sensor. An f/1.0 lens collects"
+        },
+        {
+          "bbox": [
+            87.2,
+            625.85,
+            536.58,
+            640.28
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "4x more light than an f/2.0 lens. CCTV lenses with 25mm focal length and f/1.0-f/1.2 aperture are"
+        },
+        {
+          "bbox": [
+            87.2,
+            641.85,
+            540.65,
+            656.28
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "available for $5-10. This is the single most important component — without a fast lens, no amount"
+        },
+        {
+          "bbox": [
+            87.2,
+            657.85,
+            301.96,
+            672.28
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "of electronic gain will produce a usable image."
+        },
+        {
+          "bbox": [
+            87.2,
+            677.85,
+            506.34,
+            692.36
+          ],
+          "blockIndex": 17,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "• CMOS sensor (OV7251): A global-shutter monochrome sensor with high NIR sensitivity."
+        },
+        {
+          "bbox": [
+            87.2,
+            693.85,
+            538.29,
+            708.28
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Monochrome sensors are 3-4x more sensitive than color sensors (no Bayer filter absorbing 2/3 of"
+        },
+        {
+          "bbox": [
+            87.2,
+            709.85,
+            534.84,
+            724.28
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "the photons). The OV7251 has 3µm pixels with good quantum efficiency at 850-950nm — where"
+        }
+      ],
+      "charCount": 1389,
+      "height": 792.0,
+      "pageNumber": 16,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            182.97,
+            758.2,
+            429.03,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "@1nska  •  Defense Tech Part 2: Laser + Covert Systems  •  Page 17"
+        },
+        {
+          "bbox": [
+            87.2,
+            55.61,
+            306.02,
+            70.04
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "night sky airglow provides ambient illumination."
+        },
+        {
+          "bbox": [
+            87.2,
+            75.61,
+            544.8,
+            90.12
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "• Gain control (AGC): The sensor's analog gain is adjustable from 1x to 64x. An AGC loop adjusts"
+        },
+        {
+          "bbox": [
+            87.2,
+            91.61,
+            542.41,
+            106.04
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "the gain based on average image brightness — in darker conditions, gain increases automatically."
+        },
+        {
+          "bbox": [
+            87.2,
+            107.61,
+            512.61,
+            122.04
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Additional digital gain (2-8x) on the processor trades noise for visibility in extreme darkness."
+        },
+        {
+          "bbox": [
+            87.2,
+            127.61,
+            539.6,
+            142.12
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "• Image processor (STM32H7 or RPi Zero): Reads the sensor via MIPI CSI or parallel interface."
+        },
+        {
+          "bbox": [
+            87.2,
+            143.61,
+            538.87,
+            158.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Applies histogram equalization to maximize contrast. Optionally applies noise reduction (temporal"
+        },
+        {
+          "bbox": [
+            87.2,
+            159.61,
+            351.55,
+            174.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "averaging of 2-4 frames). Outputs to OLED microdisplay."
+        },
+        {
+          "bbox": [
+            87.2,
+            179.61,
+            516.17,
+            194.12
+          ],
+          "blockIndex": 8,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "• OLED microdisplay: A 0.39\" or 0.5\" OLED microdisplay viewed through an eyepiece lens."
+        },
+        {
+          "bbox": [
+            87.2,
+            195.61,
+            544.8,
+            210.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Green phosphor color (matches human scotopic sensitivity) for traditional NV appearance. Refresh"
+        },
+        {
+          "bbox": [
+            87.2,
+            211.61,
+            255.25,
+            226.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "rate: 30fps minimum to avoid flicker."
+        },
+        {
+          "bbox": [
+            67.2,
+            241.35,
+            178.07,
+            262.01
+          ],
+          "blockIndex": 11,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Bill of Materials"
+        },
+        {
+          "bbox": [
+            114.0,
+            274.73,
+            479.06,
+            287.82
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Component\nPart / Spec\nQty\n~Cost"
+        },
+        {
+          "bbox": [
+            114.0,
+            299.69,
+            476.17,
+            312.74
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "CCTV lens f/1.0\n25mm, CS-mount\n1\n$6.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            324.69,
+            476.17,
+            337.74
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "OV7251 module\nMonochrome, global shutter\n1\n$8.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            349.69,
+            481.45,
+            362.74
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "RPi Zero 2W\nImage processing\n1\n$15.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            374.69,
+            476.17,
+            387.74
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "OLED microdisplay\n0.39\" SPI, green\n1\n$8.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            399.69,
+            476.17,
+            412.74
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Eyepiece lens\n18mm, from surplus optics\n1\n$3.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            424.69,
+            476.17,
+            437.74
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "LiPo battery\n3.7V 2000mAh\n1\n$4.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            449.69,
+            476.17,
+            462.74
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "3D-printed housing\nMonocular tube\n1\n$2.00"
+        },
+        {
+          "bbox": [
+            67.2,
+            494.35,
+            149.71,
+            515.01
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Build Steps"
+        },
+        {
+          "bbox": [
+            87.2,
+            521.61,
+            507.99,
+            536.12
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Optical assembly: Mount the f/1.0 lens on the OV7251 camera module using a CS-mount"
+        },
+        {
+          "bbox": [
+            87.2,
+            537.61,
+            533.67,
+            552.04
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "adapter. Verify focus at infinity (point at a distant streetlight at night). The image should be sharp"
+        },
+        {
+          "bbox": [
+            87.2,
+            553.61,
+            544.17,
+            568.04
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "and bright through the viewfinder. If using an RPi camera module instead of bare OV7251, remove"
+        },
+        {
+          "bbox": [
+            87.2,
+            569.61,
+            367.27,
+            584.04
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "the IR-cut filter — this dramatically increases NIR sensitivity."
+        },
+        {
+          "bbox": [
+            87.2,
+            589.61,
+            532.4,
+            604.12
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Sensor configuration: Configure the OV7251 (or RPi camera) for maximum sensitivity: longest"
+        },
+        {
+          "bbox": [
+            87.2,
+            605.61,
+            535.36,
+            620.04
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "exposure time that maintains 30fps (33ms), maximum analog gain (64x), monochrome mode (no"
+        },
+        {
+          "bbox": [
+            87.2,
+            621.61,
+            544.8,
+            636.04
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "demosaicing). Capture test images at night — compare exposure settings systematically to find the"
+        },
+        {
+          "bbox": [
+            87.2,
+            637.61,
+            356.24,
+            652.04
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "optimal gain/exposure tradeoff for your lighting conditions."
+        },
+        {
+          "bbox": [
+            87.2,
+            657.61,
+            533.62,
+            672.12
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Image processing pipeline: On the RPi Zero: capture frames at 30fps. Apply CLAHE (Contrast"
+        },
+        {
+          "bbox": [
+            87.2,
+            673.61,
+            514.35,
+            688.04
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Limited Adaptive Histogram Equalization) to maximize local contrast. Optionally average 2-4"
+        },
+        {
+          "bbox": [
+            87.2,
+            689.61,
+            534.23,
+            704.04
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "consecutive frames to reduce temporal noise (at the cost of motion blur). Convert to green-tinted"
+        },
+        {
+          "bbox": [
+            87.2,
+            705.61,
+            274.53,
+            720.04
+          ],
+          "blockIndex": 32,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "grayscale for traditional NV appearance."
+        }
+      ],
+      "charCount": 2211,
+      "height": 792.0,
+      "pageNumber": 17,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            182.97,
+            758.2,
+            429.03,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "@1nska  •  Defense Tech Part 2: Laser + Covert Systems  •  Page 18"
+        },
+        {
+          "bbox": [
+            87.2,
+            55.61,
+            542.94,
+            70.12
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Display output: Route the processed image to the OLED microdisplay via SPI. The display sits at"
+        },
+        {
+          "bbox": [
+            87.2,
+            71.61,
+            537.77,
+            86.04
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "the focal point of the eyepiece lens — the eye sees a virtual image at infinity. Adjust the eyepiece"
+        },
+        {
+          "bbox": [
+            87.2,
+            87.61,
+            539.48,
+            102.04
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "position until the image is sharp and comfortable to view. The total magnification is determined by"
+        },
+        {
+          "bbox": [
+            87.2,
+            103.61,
+            388.96,
+            118.04
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "the ratio of the objective focal length to the eyepiece focal length."
+        },
+        {
+          "bbox": [
+            87.2,
+            123.61,
+            535.51,
+            138.12
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Field test: Test in progressively darker conditions: dusk → street-lit area → moonlit rural area →"
+        },
+        {
+          "bbox": [
+            87.2,
+            139.61,
+            503.84,
+            154.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "starlight only. Document the minimum illumination level at which objects are recognizable."
+        },
+        {
+          "bbox": [
+            87.2,
+            155.61,
+            509.71,
+            170.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Compare to your phone camera at the same location. A well-built passive NV scope should"
+        },
+        {
+          "bbox": [
+            87.2,
+            171.61,
+            534.25,
+            186.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "outperform a phone camera by 10-20x in low light due to the fast lens, monochrome sensor, and"
+        },
+        {
+          "bbox": [
+            87.2,
+            187.61,
+            195.16,
+            202.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "histogram equalization."
+        },
+        {
+          "bbox": [
+            108.8,
+            217.66,
+            212.08,
+            232.12
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Interview Questions:"
+        },
+        {
+          "bbox": [
+            108.8,
+            233.61,
+            454.69,
+            248.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "→ Why does f-number matter more than megapixels for low-light imaging?"
+        },
+        {
+          "bbox": [
+            108.8,
+            249.61,
+            467.83,
+            264.04
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "→ What's the advantage of a monochrome sensor over color for night vision?"
+        },
+        {
+          "bbox": [
+            108.8,
+            265.61,
+            503.2,
+            280.04
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "→ How does CLAHE improve contrast differently from global histogram equalization?"
+        },
+        {
+          "bbox": [
+            108.8,
+            281.61,
+            427.3,
+            296.04
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "→ Why remove the IR-cut filter and what wavelengths does it affect?"
+        },
+        {
+          "bbox": [
+            108.8,
+            297.61,
+            490.0,
+            312.04
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "→ What's the noise floor of your system and how does frame averaging reduce it?"
+        },
+        {
+          "bbox": [
+            108.8,
+            313.61,
+            501.43,
+            328.04
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "→ Compare your digital approach to Gen III analog image intensifiers — advantages"
+        },
+        {
+          "bbox": [
+            108.8,
+            329.61,
+            216.18,
+            344.04
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "and limitations of each."
+        }
+      ],
+      "charCount": 1316,
+      "height": 792.0,
+      "pageNumber": 18,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            182.97,
+            758.2,
+            429.03,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "@1nska  •  Defense Tech Part 2: Laser + Covert Systems  •  Page 19"
+        },
+        {
+          "bbox": [
+            67.2,
+            54.72,
+            200.57,
+            87.77
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "PROJECT 6"
+        },
+        {
+          "bbox": [
+            67.2,
+            105.0,
+            476.2,
+            132.54
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Radar Cross-Section Measurement System"
+        },
+        {
+          "bbox": [
+            123.92,
+            141.43,
+            488.08,
+            159.29
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Test stealth shapes and radar-absorbing materials at your desk"
+        },
+        {
+          "bbox": [
+            89.2,
+            173.69,
+            505.11,
+            186.82
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Cost: ~$12\nDifficulty: Intermediate\nBuild Time: 1-2 weekends"
+        },
+        {
+          "bbox": [
+            67.2,
+            220.35,
+            191.39,
+            241.01
+          ],
+          "blockIndex": 5,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Why This Matters"
+        },
+        {
+          "bbox": [
+            67.2,
+            247.61,
+            544.8,
+            262.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Radar cross-section (RCS) is the measure of how visible an object is to radar. A large RCS means"
+        },
+        {
+          "bbox": [
+            67.2,
+            263.61,
+            544.8,
+            278.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "easy to detect; a small RCS means stealthy. Every stealth aircraft, ship, and vehicle is designed to"
+        },
+        {
+          "bbox": [
+            67.2,
+            279.61,
+            544.8,
+            294.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "minimize RCS through shape (angling surfaces away from the radar) and materials (absorbing radar"
+        },
+        {
+          "bbox": [
+            67.2,
+            295.61,
+            544.8,
+            310.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "energy instead of reflecting it). This project builds a bistatic RCS measurement system using two"
+        },
+        {
+          "bbox": [
+            67.2,
+            311.61,
+            544.8,
+            326.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "HB100 modules — one as transmitter, one as receiver — that lets you measure RCS reduction of"
+        },
+        {
+          "bbox": [
+            67.2,
+            327.61,
+            544.8,
+            342.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "different shapes and coatings at 10.5 GHz. You're doing what Lockheed does in anechoic chambers,"
+        },
+        {
+          "bbox": [
+            67.2,
+            343.61,
+            130.23,
+            358.04
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "on your desk."
+        },
+        {
+          "bbox": [
+            67.2,
+            373.35,
+            213.08,
+            394.01
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "System Architecture"
+        }
+      ],
+      "charCount": 860,
+      "height": 792.0,
+      "pageNumber": 19,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            182.97,
+            758.2,
+            429.03,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "@1nska  •  Defense Tech Part 2: Laser + Covert Systems  •  Page 20"
+        },
+        {
+          "bbox": [
+            67.2,
+            55.35,
+            162.21,
+            76.01
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "How It Works"
+        },
+        {
+          "bbox": [
+            87.2,
+            82.61,
+            534.38,
+            97.12
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "• TX module (HB100): Transmits continuous wave at 10.525 GHz. Mount facing the target area."
+        },
+        {
+          "bbox": [
+            87.2,
+            98.61,
+            540.63,
+            113.04
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "The HB100 outputs approximately 15dBm (30mW) — enough for measurements at 1-3m range in"
+        },
+        {
+          "bbox": [
+            87.2,
+            114.61,
+            519.1,
+            129.04
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "a desktop setup. Add a small horn antenna (cut from a tin can) to focus the beam and reduce"
+        },
+        {
+          "bbox": [
+            87.2,
+            130.61,
+            276.85,
+            145.04
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "clutter from reflections off the desk/walls."
+        },
+        {
+          "bbox": [
+            87.2,
+            150.61,
+            531.71,
+            165.12
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "• RX module (second HB100): A second HB100 used as a receiver. The HB100's mixer output"
+        },
+        {
+          "bbox": [
+            87.2,
+            166.61,
+            543.81,
+            181.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "gives a signal proportional to the received 10.5GHz power. Mount at 90° or 180° to the TX (bistatic"
+        },
+        {
+          "bbox": [
+            87.2,
+            182.61,
+            461.25,
+            197.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "or forward-scatter configuration). The mixer IF output is amplified and measured."
+        },
+        {
+          "bbox": [
+            87.2,
+            202.61,
+            543.71,
+            217.12
+          ],
+          "blockIndex": 9,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "• Reference measurement: First, measure the received power with a known reference target — a"
+        },
+        {
+          "bbox": [
+            87.2,
+            218.61,
+            543.95,
+            233.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "metal sphere of known diameter. The RCS of a sphere is σ = π × r² (geometric cross-section). This"
+        },
+        {
+          "bbox": [
+            87.2,
+            234.61,
+            516.13,
+            249.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "calibrates the system: you know the relationship between received power and RCS in dBsm."
+        },
+        {
+          "bbox": [
+            87.2,
+            254.61,
+            521.55,
+            269.12
+          ],
+          "blockIndex": 12,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "• Test targets: Now replace the reference sphere with your test objects: a flat plate at various"
+        },
+        {
+          "bbox": [
+            87.2,
+            270.61,
+            492.22,
+            285.04
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "angles, a faceted shape (like a stealth aircraft cross-section), a foam shape coated with"
+        },
+        {
+          "bbox": [
+            87.2,
+            286.61,
+            507.94,
+            301.04
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "carbon-loaded paint (RAM — radar absorbing material). Measure received power for each."
+        },
+        {
+          "bbox": [
+            87.2,
+            302.61,
+            406.42,
+            317.04
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Calculate RCS relative to the reference. Express the reduction in dB."
+        },
+        {
+          "bbox": [
+            67.2,
+            332.35,
+            178.07,
+            353.01
+          ],
+          "blockIndex": 16,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Bill of Materials"
+        },
+        {
+          "bbox": [
+            114.0,
+            365.74,
+            479.06,
+            378.82
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Component\nPart / Spec\nQty\n~Cost"
+        },
+        {
+          "bbox": [
+            114.0,
+            390.69,
+            476.17,
+            403.74
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "HB100 modules\n10.525 GHz CW\n2\n$8.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            415.69,
+            476.17,
+            428.74
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Op-amp\nTL072 (IF amplification)\n1\n$0.60"
+        },
+        {
+          "bbox": [
+            114.0,
+            440.69,
+            476.17,
+            453.74
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "ADC module\nADS1115 or Arduino\n1\n$3.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            465.69,
+            476.17,
+            478.74
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Metal sphere\nSteel ball bearing, 25mm\n1\n$0.50"
+        },
+        {
+          "bbox": [
+            114.0,
+            490.69,
+            476.17,
+            503.74
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Foam shapes\nFor stealth geometry tests\n3\n$1.50"
+        },
+        {
+          "bbox": [
+            114.0,
+            515.69,
+            476.17,
+            528.74
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Carbon paint\nGraphite/carbon-loaded paint\n1\n$3.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            540.69,
+            476.17,
+            553.74
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Turntable motor\nSlow rotation for angle sweep\n1\n$2.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            565.69,
+            476.17,
+            578.74
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Protoboard\nFor op-amp + ADC\n1\n$1.50"
+        }
+      ],
+      "charCount": 1662,
+      "height": 792.0,
+      "pageNumber": 20,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            182.97,
+            758.2,
+            429.03,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "@1nska  •  Defense Tech Part 2: Laser + Covert Systems  •  Page 21"
+        },
+        {
+          "bbox": [
+            67.2,
+            55.35,
+            149.71,
+            76.01
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Build Steps"
+        },
+        {
+          "bbox": [
+            87.2,
+            82.61,
+            533.64,
+            97.12
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "TX setup: Mount HB100 TX module on a stable platform. Build a simple horn antenna from a tin"
+        },
+        {
+          "bbox": [
+            87.2,
+            98.61,
+            538.58,
+            113.04
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "can (75mm diameter, 100mm length) — solder the HB100's patch antenna centered at the mouth"
+        },
+        {
+          "bbox": [
+            87.2,
+            114.61,
+            518.24,
+            129.04
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "of the can. This provides ~10dB of directional gain, focusing the beam on the target area and"
+        },
+        {
+          "bbox": [
+            87.2,
+            130.61,
+            202.15,
+            145.04
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "reducing wall reflections."
+        },
+        {
+          "bbox": [
+            87.2,
+            150.61,
+            534.82,
+            165.12
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "RX setup: Mount the second HB100 at the receive position (1-2m away, same height, facing the"
+        },
+        {
+          "bbox": [
+            87.2,
+            166.61,
+            544.8,
+            181.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "target area). Connect the IF output to a TL072 non-inverting amplifier with gain of x100. Follow with"
+        },
+        {
+          "bbox": [
+            87.2,
+            182.61,
+            523.14,
+            197.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "a low-pass filter at 100Hz (to average the received power). Feed to ADS1115 ADC read by an"
+        },
+        {
+          "bbox": [
+            87.2,
+            198.61,
+            126.3,
+            213.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Arduino."
+        },
+        {
+          "bbox": [
+            87.2,
+            218.61,
+            537.73,
+            233.12
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Reference calibration: Place a 25mm steel ball bearing at the target position (centered between"
+        },
+        {
+          "bbox": [
+            87.2,
+            234.61,
+            499.17,
+            249.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "TX and RX). Record the received power (ADC reading). This is your reference RCS. The"
+        },
+        {
+          "bbox": [
+            87.2,
+            250.61,
+            544.52,
+            265.04
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "theoretical RCS of a 25mm sphere at 10.5GHz: σ = π × (0.0125)² = 4.9 × 10II m² = -33 dBsm. All"
+        },
+        {
+          "bbox": [
+            87.2,
+            266.61,
+            349.82,
+            281.04
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "subsequent measurements are relative to this reference."
+        },
+        {
+          "bbox": [
+            87.2,
+            286.61,
+            513.34,
+            301.12
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Test stealth shapes: Cut foam into different shapes: flat plate (high RCS), 45° angled plate"
+        },
+        {
+          "bbox": [
+            87.2,
+            302.61,
+            539.48,
+            317.04
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "(deflects energy away), diamond shape (multiple facets), rounded shape (diffuses energy). Mount"
+        },
+        {
+          "bbox": [
+            87.2,
+            318.61,
+            539.47,
+            333.04
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "each on a slow-rotation turntable (1 RPM). Record received power vs angle. Plot the RCS pattern"
+        },
+        {
+          "bbox": [
+            87.2,
+            334.61,
+            530.17,
+            349.04
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "— you should see dramatic differences between a flat plate (bright return) and an angled shape"
+        },
+        {
+          "bbox": [
+            87.2,
+            350.61,
+            199.82,
+            365.04
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "(greatly reduced return)."
+        },
+        {
+          "bbox": [
+            87.2,
+            370.61,
+            478.17,
+            385.12
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Test RAM coatings: Take a flat foam plate (high RCS baseline). Coat one side with"
+        },
+        {
+          "bbox": [
+            87.2,
+            386.61,
+            540.64,
+            401.04
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "carbon-loaded paint (mix graphite powder into acrylic paint). Measure RCS of uncoated side, then"
+        },
+        {
+          "bbox": [
+            87.2,
+            402.61,
+            524.91,
+            417.04
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "coated side. The carbon paint should absorb some radar energy, reducing the RCS by 3-10dB"
+        },
+        {
+          "bbox": [
+            87.2,
+            418.61,
+            482.9,
+            433.04
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "depending on coating thickness and carbon loading. Experiment with different carbon"
+        },
+        {
+          "bbox": [
+            87.2,
+            434.61,
+            278.63,
+            449.04
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "concentrations to find optimal absorption."
+        },
+        {
+          "bbox": [
+            108.8,
+            464.67,
+            212.08,
+            479.12
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Interview Questions:"
+        },
+        {
+          "bbox": [
+            108.8,
+            480.61,
+            363.67,
+            495.04
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "→ What is radar cross-section and what determines it?"
+        },
+        {
+          "bbox": [
+            108.8,
+            496.61,
+            333.34,
+            511.04
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "→ Why use a sphere as a calibration reference?"
+        },
+        {
+          "bbox": [
+            108.8,
+            512.61,
+            462.32,
+            527.04
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "→ How does object shape affect RCS — explain the principle behind stealth"
+        },
+        {
+          "bbox": [
+            108.8,
+            528.61,
+            158.4,
+            543.04
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "geometry?"
+        },
+        {
+          "bbox": [
+            108.8,
+            544.61,
+            490.91,
+            559.04
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "→ What physical mechanism causes carbon-loaded paint to absorb radar energy?"
+        },
+        {
+          "bbox": [
+            108.8,
+            560.61,
+            470.74,
+            575.04
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "→ What's the difference between bistatic and monostatic RCS measurement?"
+        },
+        {
+          "bbox": [
+            108.8,
+            576.61,
+            500.24,
+            591.04
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "→ How would you build a proper anechoic chamber to reduce measurement clutter?"
+        }
+      ],
+      "charCount": 2216,
+      "height": 792.0,
+      "pageNumber": 21,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            182.97,
+            758.2,
+            429.03,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "@1nska  •  Defense Tech Part 2: Laser + Covert Systems  •  Page 22"
+        },
+        {
+          "bbox": [
+            67.2,
+            105.0,
+            442.92,
+            132.54
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "Every one of these was once classified."
+        },
+        {
+          "bbox": [
+            67.2,
+            151.0,
+            281.68,
+            178.54
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "None of them are now."
+        },
+        {
+          "bbox": [
+            67.2,
+            199.61,
+            544.8,
+            214.04
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "Laser surveillance. Tap-proof optical communication. Nanosecond time-of-flight ranging. Covert burst"
+        },
+        {
+          "bbox": [
+            67.2,
+            215.61,
+            544.8,
+            230.04
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "transmission. Passive image amplification. Stealth material characterization. These are the skills that"
+        },
+        {
+          "bbox": [
+            67.2,
+            231.61,
+            544.8,
+            246.04
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "defense contractors, intelligence agencies, and advanced research labs are hiring for — and the"
+        },
+        {
+          "bbox": [
+            67.2,
+            247.61,
+            291.89,
+            262.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "projects that prove you can actually do the work."
+        },
+        {
+          "bbox": [
+            108.8,
+            293.61,
+            503.2,
+            308.12
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "Build even one of these. Document the measurements. Screenshot the waveforms."
+        },
+        {
+          "bbox": [
+            108.8,
+            309.61,
+            488.96,
+            324.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "Write up the design tradeoffs. Put it on your GitHub with a proper README. You'll"
+        },
+        {
+          "bbox": [
+            108.8,
+            325.61,
+            447.86,
+            340.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "have something on your resume that makes the interviewer lean forward."
+        },
+        {
+          "bbox": [
+            168.74,
+            394.42,
+            443.26,
+            412.29
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "Once classified. Now buildable. Still impressive."
+        },
+        {
+          "bbox": [
+            108.8,
+            448.61,
+            503.2,
+            463.12
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "Follow @1nska on Instagram for build logs, new guides, and projects that belong in"
+        },
+        {
+          "bbox": [
+            108.8,
+            464.61,
+            180.58,
+            479.04
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "a classified lab."
+        },
+        {
+          "bbox": [
+            227.58,
+            530.73,
+            384.42,
+            543.09
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "— Enes (@1nska) • Electrical Engineer"
+        }
+      ],
+      "charCount": 886,
+      "height": 792.0,
+      "pageNumber": 22,
+      "textExtractable": true,
+      "width": 612.0
+    }
+  ],
+  "provenance": {
+    "confidence": "EXACT",
+    "extractionMethod": "pymupdf-blocks-v1",
+    "extractorVersion": "1.28.0",
+    "generatorVersion": null,
+    "origin": "extracted",
+    "source": "guide-019",
+    "sourceHash": "93190cb08ab967a2b01e2552f0b56ec97762b28516c1e37e730f6beac7b4f5c9",
+    "sourcePage": null,
+    "sourcePath": "Engineering guides/ee defense tech part2.pdf",
+    "sourceSection": "ROOT"
+  },
+  "relativePath": "Engineering guides/ee defense tech part2.pdf",
+  "schemaVersion": "1.0.0",
+  "sha256": "93190cb08ab967a2b01e2552f0b56ec97762b28516c1e37e730f6beac7b4f5c9",
+  "sourceId": "guide-019"
+}

@@ -1,0 +1,4001 @@
+{
+  "metadata": {
+    "author": "(anonymous)",
+    "creationDate": "D:20260224233607+00'00'",
+    "creator": "(unspecified)",
+    "format": "PDF 1.4",
+    "modDate": "D:20260224233607+00'00'",
+    "producer": "ReportLab PDF Library - (opensource)",
+    "subject": "(unspecified)",
+    "title": "(anonymous)"
+  },
+  "pageCount": 15,
+  "pages": [
+    {
+      "blocks": [
+        {
+          "bbox": [
+            86.4,
+            161.36,
+            525.6,
+            253.42
+          ],
+          "blockIndex": 0,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "6 PORTFOLIO PROJECTS\nEVERY EE STUDENT NEEDS"
+        },
+        {
+          "bbox": [
+            236.74,
+            293.55,
+            375.26,
+            312.79
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Build these. Get hired."
+        },
+        {
+          "bbox": [
+            134.42,
+            319.55,
+            477.58,
+            338.79
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Full breakdowns, components, and step-by-step guides"
+        },
+        {
+          "bbox": [
+            270.1,
+            385.55,
+            341.9,
+            404.79
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "By @1nska"
+        },
+        {
+          "bbox": [
+            259.23,
+            411.93,
+            352.77,
+            424.29
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "NYU Shanghai — 2026"
+        }
+      ],
+      "charCount": 146,
+      "height": 792.0,
+      "pageNumber": 1,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            226.88,
+            754.6,
+            385.12,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "@1nska  •  6 EE Portfolio Projects  •  Page 2"
+        },
+        {
+          "bbox": [
+            70.8,
+            62.06,
+            527.96,
+            120.35
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Why Your Portfolio Matters More Than Your\nGPA"
+        },
+        {
+          "bbox": [
+            70.8,
+            130.81,
+            541.2,
+            145.24
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Here's the truth that most EE programs won't tell you: the students who land the best jobs,"
+        },
+        {
+          "bbox": [
+            70.8,
+            146.81,
+            541.2,
+            161.24
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "internships, and research positions aren't the ones with the highest grades. They're the ones who can"
+        },
+        {
+          "bbox": [
+            70.8,
+            162.81,
+            421.09,
+            177.24
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "point to something they built and say \"I made this, and here's how it works.\""
+        },
+        {
+          "bbox": [
+            70.8,
+            186.81,
+            541.2,
+            201.24
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "A strong portfolio does three things: it proves you can take a project from concept to completion, it"
+        },
+        {
+          "bbox": [
+            70.8,
+            202.81,
+            541.2,
+            217.24
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "shows you understand real-world constraints (not just textbook problems), and it gives interviewers"
+        },
+        {
+          "bbox": [
+            70.8,
+            218.81,
+            410.48,
+            233.24
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "something concrete to talk about instead of generic behavioral questions."
+        },
+        {
+          "bbox": [
+            70.8,
+            242.81,
+            541.2,
+            257.24
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "These 6 projects are designed to cover the key areas employers look for in EE graduates: embedded"
+        },
+        {
+          "bbox": [
+            70.8,
+            258.81,
+            541.2,
+            273.24
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "systems, signal processing, PCB design, power electronics, IoT, and control systems. Build even 2-3"
+        },
+        {
+          "bbox": [
+            70.8,
+            274.81,
+            302.2,
+            289.24
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "of these and you'll be ahead of 90% of applicants."
+        },
+        {
+          "bbox": [
+            108.8,
+            308.81,
+            486.35,
+            323.32
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "How to use this guide: Each project includes what you need, the skills it proves,"
+        },
+        {
+          "bbox": [
+            108.8,
+            324.81,
+            500.98,
+            339.24
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "step-by-step build instructions, and a bonus tip to take it further. Start with whichever"
+        },
+        {
+          "bbox": [
+            108.8,
+            340.81,
+            336.39,
+            355.24
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "excites you most — momentum beats perfection."
+        }
+      ],
+      "charCount": 1093,
+      "height": 792.0,
+      "pageNumber": 2,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            226.88,
+            754.6,
+            385.12,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "@1nska  •  6 EE Portfolio Projects  •  Page 3"
+        },
+        {
+          "bbox": [
+            70.8,
+            61.64,
+            101.94,
+            100.2
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "#1"
+        },
+        {
+          "bbox": [
+            70.8,
+            114.34,
+            258.83,
+            139.13
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Smart Energy Monitor"
+        },
+        {
+          "bbox": [
+            70.8,
+            144.9,
+            261.71,
+            158.67
+          ],
+          "blockIndex": 3,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "IOT • SENSORS • DATA VISUALIZATION"
+        },
+        {
+          "bbox": [
+            70.8,
+            168.81,
+            541.2,
+            183.32
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Why recruiters love this: It shows you can integrate hardware sensors with software dashboards —"
+        },
+        {
+          "bbox": [
+            70.8,
+            184.81,
+            439.05,
+            199.24
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "the exact skill set that IoT companies and smart grid startups are desperate for."
+        },
+        {
+          "bbox": [
+            70.8,
+            208.81,
+            541.2,
+            223.24
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Build a device that clips onto your home's electrical panel (or a single appliance) and tracks real-time"
+        },
+        {
+          "bbox": [
+            70.8,
+            224.81,
+            541.2,
+            239.24
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "power consumption. The data gets sent wirelessly to a web dashboard where you can see usage"
+        },
+        {
+          "bbox": [
+            70.8,
+            240.81,
+            268.65,
+            255.24
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "patterns, peak hours, and estimated costs."
+        },
+        {
+          "bbox": [
+            70.8,
+            270.69,
+            167.59,
+            288.59
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "What you need:"
+        },
+        {
+          "bbox": [
+            90.8,
+            294.81,
+            264.28,
+            309.24
+          ],
+          "blockIndex": 10,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• ESP32 or Arduino with WiFi module"
+        },
+        {
+          "bbox": [
+            90.8,
+            314.81,
+            369.89,
+            329.24
+          ],
+          "blockIndex": 11,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• ACS712 current sensor (or non-invasive CT clamp sensor)"
+        },
+        {
+          "bbox": [
+            90.8,
+            334.81,
+            267.79,
+            349.24
+          ],
+          "blockIndex": 12,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Voltage sensor module (ZMPT101B)"
+        },
+        {
+          "bbox": [
+            90.8,
+            354.81,
+            289.39,
+            369.24
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• OLED display (optional, for local readout)"
+        },
+        {
+          "bbox": [
+            90.8,
+            374.81,
+            309.8,
+            389.24
+          ],
+          "blockIndex": 14,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Breadboard, jumper wires, USB power supply"
+        },
+        {
+          "bbox": [
+            90.8,
+            394.81,
+            344.23,
+            409.24
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Free cloud platform (ThingSpeak, Firebase, or Blynk)"
+        },
+        {
+          "bbox": [
+            70.8,
+            432.69,
+            166.9,
+            450.59
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Skills it proves:"
+        },
+        {
+          "bbox": [
+            90.8,
+            456.81,
+            253.8,
+            471.24
+          ],
+          "blockIndex": 17,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Sensor integration and calibration"
+        },
+        {
+          "bbox": [
+            90.8,
+            476.81,
+            323.17,
+            491.24
+          ],
+          "blockIndex": 18,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Wireless communication protocols (WiFi, MQTT)"
+        },
+        {
+          "bbox": [
+            90.8,
+            496.81,
+            327.9,
+            511.24
+          ],
+          "blockIndex": 19,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Real-time data processing on embedded systems"
+        },
+        {
+          "bbox": [
+            90.8,
+            516.81,
+            345.41,
+            531.24
+          ],
+          "blockIndex": 20,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Full-stack thinking — hardware to cloud to dashboard"
+        },
+        {
+          "bbox": [
+            90.8,
+            536.81,
+            376.91,
+            551.24
+          ],
+          "blockIndex": 21,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Power measurement fundamentals (real vs apparent power)"
+        },
+        {
+          "bbox": [
+            70.8,
+            574.69,
+            164.69,
+            592.59
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "How to build it:"
+        },
+        {
+          "bbox": [
+            90.8,
+            598.81,
+            535.51,
+            613.32
+          ],
+          "blockIndex": 23,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Step 1: Start with the current sensor. Wire the ACS712 to your ESP32, read analog values, and"
+        },
+        {
+          "bbox": [
+            90.8,
+            614.81,
+            481.21,
+            629.24
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "calibrate against a known load (like a 60W bulb). Get accurate current readings first."
+        },
+        {
+          "bbox": [
+            90.8,
+            634.81,
+            523.82,
+            649.32
+          ],
+          "blockIndex": 25,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Step 2: Add voltage sensing. Wire the ZMPT101B and combine with current data to calculate"
+        },
+        {
+          "bbox": [
+            90.8,
+            650.81,
+            395.15,
+            665.24
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "real power (P = V × I × power factor). Log readings every second."
+        },
+        {
+          "bbox": [
+            90.8,
+            670.81,
+            541.2,
+            685.32
+          ],
+          "blockIndex": 27,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Step 3: Set up wireless transmission. Connect your ESP32 to WiFi and send data to ThingSpeak"
+        },
+        {
+          "bbox": [
+            90.8,
+            686.81,
+            471.85,
+            701.24
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "or Firebase using MQTT or HTTP POST requests. Verify data arrives in the cloud."
+        }
+      ],
+      "charCount": 1575,
+      "height": 792.0,
+      "pageNumber": 3,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            226.88,
+            754.6,
+            385.12,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "@1nska  •  6 EE Portfolio Projects  •  Page 4"
+        },
+        {
+          "bbox": [
+            90.8,
+            62.81,
+            532.24,
+            77.32
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Step 4: Build the dashboard. Use ThingSpeak's built-in charts or build a simple web dashboard"
+        },
+        {
+          "bbox": [
+            90.8,
+            78.81,
+            537.21,
+            93.24
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "with HTML/JavaScript that pulls from your cloud database. Show real-time watts, daily kWh, and"
+        },
+        {
+          "bbox": [
+            90.8,
+            94.81,
+            161.41,
+            109.24
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "estimated cost."
+        },
+        {
+          "bbox": [
+            90.8,
+            114.81,
+            524.99,
+            129.32
+          ],
+          "blockIndex": 4,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Step 5: Add alerting. Set up notifications (email or push) when power consumption exceeds a"
+        },
+        {
+          "bbox": [
+            90.8,
+            130.81,
+            405.92,
+            145.24
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "threshold. This shows you understand practical monitoring systems."
+        },
+        {
+          "bbox": [
+            90.8,
+            150.81,
+            537.24,
+            165.32
+          ],
+          "blockIndex": 6,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Step 6: Package it. Put the electronics in a small enclosure. Document the full build with photos,"
+        },
+        {
+          "bbox": [
+            90.8,
+            166.81,
+            266.45,
+            181.24
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "circuit diagrams, and code on GitHub."
+        },
+        {
+          "bbox": [
+            108.8,
+            202.81,
+            492.81,
+            217.32
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Bonus: Add ML-based anomaly detection that flags unusual consumption patterns"
+        },
+        {
+          "bbox": [
+            108.8,
+            218.81,
+            499.2,
+            233.24
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "— like a failing appliance drawing more power than normal. This bridges into the ML"
+        },
+        {
+          "bbox": [
+            108.8,
+            234.81,
+            345.72,
+            249.24
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "space and makes the project 10x more impressive."
+        }
+      ],
+      "charCount": 747,
+      "height": 792.0,
+      "pageNumber": 4,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            226.88,
+            754.6,
+            385.12,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "@1nska  •  6 EE Portfolio Projects  •  Page 5"
+        },
+        {
+          "bbox": [
+            70.8,
+            61.64,
+            101.94,
+            100.2
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "#2"
+        },
+        {
+          "bbox": [
+            70.8,
+            114.34,
+            332.81,
+            139.13
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Gesture-Controlled Robot Arm"
+        },
+        {
+          "bbox": [
+            70.8,
+            144.9,
+            363.38,
+            158.67
+          ],
+          "blockIndex": 3,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "SIGNAL PROCESSING • EMBEDDED SYSTEMS • HARDWARE"
+        },
+        {
+          "bbox": [
+            70.8,
+            168.81,
+            541.2,
+            183.32
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Why recruiters love this: It combines signal processing, embedded programming, and mechanical"
+        },
+        {
+          "bbox": [
+            70.8,
+            184.81,
+            541.2,
+            199.24
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "design in one project. It's visually impressive in demos and shows deep understanding of"
+        },
+        {
+          "bbox": [
+            70.8,
+            200.81,
+            203.27,
+            215.24
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "sensor-to-actuator pipelines."
+        },
+        {
+          "bbox": [
+            70.8,
+            224.81,
+            541.2,
+            239.24
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Build a robotic arm that you control with your forearm muscles. EMG (electromyography) sensors on"
+        },
+        {
+          "bbox": [
+            70.8,
+            240.81,
+            541.2,
+            255.24
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "your arm detect muscle contractions, an Arduino processes the signals in real time, and servo motors"
+        },
+        {
+          "bbox": [
+            70.8,
+            256.81,
+            280.86,
+            271.24
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "move the robotic arm to mirror your gestures."
+        },
+        {
+          "bbox": [
+            70.8,
+            286.69,
+            167.59,
+            304.59
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "What you need:"
+        },
+        {
+          "bbox": [
+            90.8,
+            310.81,
+            437.56,
+            325.24
+          ],
+          "blockIndex": 11,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• MyoWare 2.0 EMG sensor (or DIY EMG circuit with instrumentation amp)"
+        },
+        {
+          "bbox": [
+            90.8,
+            330.81,
+            210.62,
+            345.24
+          ],
+          "blockIndex": 12,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• Arduino Mega or ESP32"
+        },
+        {
+          "bbox": [
+            90.8,
+            350.81,
+            344.81,
+            365.24
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• 4-6 servo motors (SG90 or MG996R for more torque)"
+        },
+        {
+          "bbox": [
+            90.8,
+            370.81,
+            404.32,
+            385.24
+          ],
+          "blockIndex": 14,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• 3D-printed or laser-cut robot arm frame (files available free online)"
+        },
+        {
+          "bbox": [
+            90.8,
+            390.81,
+            377.48,
+            405.24
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• Servo driver board (PCA9685) for controlling multiple servos"
+        },
+        {
+          "bbox": [
+            90.8,
+            410.81,
+            278.9,
+            425.24
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• 9V battery pack or bench power supply"
+        },
+        {
+          "bbox": [
+            70.8,
+            448.69,
+            166.9,
+            466.59
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Skills it proves:"
+        },
+        {
+          "bbox": [
+            90.8,
+            472.81,
+            417.18,
+            487.24
+          ],
+          "blockIndex": 18,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• Analog signal processing — filtering and amplifying biological signals"
+        },
+        {
+          "bbox": [
+            90.8,
+            492.81,
+            388.57,
+            507.24
+          ],
+          "blockIndex": 19,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• Real-time embedded programming with tight timing constraints"
+        },
+        {
+          "bbox": [
+            90.8,
+            512.81,
+            303.97,
+            527.24
+          ],
+          "blockIndex": 20,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• Servo motor control and PWM fundamentals"
+        },
+        {
+          "bbox": [
+            90.8,
+            532.81,
+            251.45,
+            547.24
+          ],
+          "blockIndex": 21,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• Human-machine interface design"
+        },
+        {
+          "bbox": [
+            90.8,
+            552.81,
+            315.63,
+            567.24
+          ],
+          "blockIndex": 22,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• System integration across multiple subsystems"
+        },
+        {
+          "bbox": [
+            70.8,
+            590.69,
+            164.69,
+            608.59
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "How to build it:"
+        },
+        {
+          "bbox": [
+            90.8,
+            614.81,
+            536.05,
+            629.32
+          ],
+          "blockIndex": 24,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Step 1: Start with the EMG sensor. Connect the MyoWare to your Arduino and read raw muscle"
+        },
+        {
+          "bbox": [
+            90.8,
+            630.81,
+            534.94,
+            645.24
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "signals. Plot them on the serial monitor to understand the signal patterns when you flex, extend,"
+        },
+        {
+          "bbox": [
+            90.8,
+            646.81,
+            136.91,
+            661.24
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "and relax."
+        },
+        {
+          "bbox": [
+            90.8,
+            666.81,
+            538.4,
+            681.32
+          ],
+          "blockIndex": 27,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Step 2: Filter the signal. Implement a moving average filter or bandpass filter in code to clean up"
+        },
+        {
+          "bbox": [
+            90.8,
+            682.81,
+            396.05,
+            697.24
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "the noisy EMG data. You need clean, reliable threshold detection."
+        }
+      ],
+      "charCount": 1553,
+      "height": 792.0,
+      "pageNumber": 5,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            226.88,
+            754.6,
+            385.12,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "@1nska  •  6 EE Portfolio Projects  •  Page 6"
+        },
+        {
+          "bbox": [
+            90.8,
+            62.81,
+            531.13,
+            77.32
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Step 3: Map signals to movements. Define gesture profiles — e.g., light flex = open hand, hard"
+        },
+        {
+          "bbox": [
+            90.8,
+            78.81,
+            528.5,
+            93.24
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "flex = close grip, wrist rotation = arm rotate. Create a calibration routine that adapts to different"
+        },
+        {
+          "bbox": [
+            90.8,
+            94.81,
+            119.39,
+            109.24
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "users."
+        },
+        {
+          "bbox": [
+            90.8,
+            114.81,
+            538.05,
+            129.32
+          ],
+          "blockIndex": 4,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Step 4: Build or assemble the arm. Use a free 3D-printable design (search Thingiverse for 'robot"
+        },
+        {
+          "bbox": [
+            90.8,
+            130.81,
+            517.08,
+            145.24
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "arm Arduino'). Attach servos to each joint and wire them through the PCA9685 driver board."
+        },
+        {
+          "bbox": [
+            90.8,
+            150.81,
+            541.2,
+            165.32
+          ],
+          "blockIndex": 6,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Step 5: Connect everything. Write the main control loop: read EMG → filter → classify gesture →"
+        },
+        {
+          "bbox": [
+            90.8,
+            166.81,
+            412.34,
+            181.24
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "move corresponding servo. Focus on smooth, responsive movement."
+        },
+        {
+          "bbox": [
+            90.8,
+            186.81,
+            535.46,
+            201.32
+          ],
+          "blockIndex": 8,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Step 6: Demo and document. Record a video of you controlling the arm with your muscles. This"
+        },
+        {
+          "bbox": [
+            90.8,
+            202.81,
+            506.89,
+            217.24
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "is your portfolio showpiece. Upload code, wiring diagrams, and the demo video to GitHub."
+        },
+        {
+          "bbox": [
+            108.8,
+            238.81,
+            475.87,
+            253.32
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Bonus: Add a second EMG sensor on the other arm for two-handed control, or"
+        },
+        {
+          "bbox": [
+            108.8,
+            254.81,
+            461.25,
+            269.24
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "implement a simple ML classifier (using TensorFlow Lite on the ESP32) that"
+        },
+        {
+          "bbox": [
+            108.8,
+            270.81,
+            373.14,
+            285.24
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "recognizes more complex gestures with higher accuracy."
+        }
+      ],
+      "charCount": 972,
+      "height": 792.0,
+      "pageNumber": 6,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            226.88,
+            754.6,
+            385.12,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "@1nska  •  6 EE Portfolio Projects  •  Page 7"
+        },
+        {
+          "bbox": [
+            70.8,
+            61.64,
+            101.94,
+            100.2
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "#3"
+        },
+        {
+          "bbox": [
+            70.8,
+            114.34,
+            286.84,
+            139.13
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Custom PCB Synthesizer"
+        },
+        {
+          "bbox": [
+            70.8,
+            144.9,
+            276.7,
+            158.67
+          ],
+          "blockIndex": 3,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "PCB DESIGN • ANALOG CIRCUITS • AUDIO"
+        },
+        {
+          "bbox": [
+            70.8,
+            168.81,
+            541.2,
+            183.32
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Why recruiters love this: PCB design is the #1 practical skill EE employers test for. Designing a"
+        },
+        {
+          "bbox": [
+            70.8,
+            184.81,
+            541.2,
+            199.24
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "board that actually makes sound proves you can go from schematic to layout to physical product —"
+        },
+        {
+          "bbox": [
+            70.8,
+            200.81,
+            241.2,
+            215.24
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "the full hardware development cycle."
+        },
+        {
+          "bbox": [
+            70.8,
+            224.81,
+            541.2,
+            239.24
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Design and fabricate a custom PCB that generates audio waveforms (sine, square, triangle,"
+        },
+        {
+          "bbox": [
+            70.8,
+            240.81,
+            541.2,
+            255.24
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "sawtooth). Add potentiometers for frequency and volume control, and an audio jack output so you can"
+        },
+        {
+          "bbox": [
+            70.8,
+            256.81,
+            541.2,
+            271.24
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "plug it into a speaker or headphones. It's a functioning musical instrument you designed from scratch."
+        },
+        {
+          "bbox": [
+            70.8,
+            286.69,
+            167.59,
+            304.59
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "What you need:"
+        },
+        {
+          "bbox": [
+            90.8,
+            310.81,
+            254.95,
+            325.24
+          ],
+          "blockIndex": 11,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• KiCad (free PCB design software)"
+        },
+        {
+          "bbox": [
+            90.8,
+            330.81,
+            227.52,
+            345.24
+          ],
+          "blockIndex": 12,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Op-amps (TL072 or LM358)"
+        },
+        {
+          "bbox": [
+            90.8,
+            350.81,
+            329.09,
+            365.24
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• 555 timer IC and/or XR2206 function generator IC"
+        },
+        {
+          "bbox": [
+            90.8,
+            370.81,
+            244.47,
+            385.24
+          ],
+          "blockIndex": 14,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Potentiometers (10K and 100K)"
+        },
+        {
+          "bbox": [
+            90.8,
+            390.81,
+            278.87,
+            405.24
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• 3.5mm audio jack, capacitors, resistors"
+        },
+        {
+          "bbox": [
+            90.8,
+            410.81,
+            431.17,
+            425.24
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• PCB fabrication service (JLCPCB or PCBWay — under $5 for 5 boards)"
+        },
+        {
+          "bbox": [
+            70.8,
+            448.69,
+            166.9,
+            466.59
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Skills it proves:"
+        },
+        {
+          "bbox": [
+            90.8,
+            472.81,
+            271.87,
+            487.24
+          ],
+          "blockIndex": 18,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Schematic design and circuit analysis"
+        },
+        {
+          "bbox": [
+            90.8,
+            492.81,
+            406.13,
+            507.24
+          ],
+          "blockIndex": 19,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• PCB layout — trace routing, ground planes, component placement"
+        },
+        {
+          "bbox": [
+            90.8,
+            512.81,
+            338.96,
+            527.24
+          ],
+          "blockIndex": 20,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Analog circuit design — oscillators, filters, amplifiers"
+        },
+        {
+          "bbox": [
+            90.8,
+            532.81,
+            404.92,
+            547.24
+          ],
+          "blockIndex": 21,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Manufacturing awareness — DFM, tolerances, BOM management"
+        },
+        {
+          "bbox": [
+            90.8,
+            552.81,
+            389.75,
+            567.24
+          ],
+          "blockIndex": 22,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Debugging physical hardware with oscilloscope and multimeter"
+        },
+        {
+          "bbox": [
+            70.8,
+            590.69,
+            164.69,
+            608.59
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "How to build it:"
+        },
+        {
+          "bbox": [
+            90.8,
+            614.81,
+            533.7,
+            629.32
+          ],
+          "blockIndex": 24,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Step 1: Design the oscillator circuit. Start in KiCad with a 555 timer or XR2206-based oscillator."
+        },
+        {
+          "bbox": [
+            90.8,
+            630.81,
+            467.19,
+            645.24
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Simulate in LTSpice to verify your waveform outputs before committing to a PCB."
+        },
+        {
+          "bbox": [
+            90.8,
+            650.81,
+            530.2,
+            665.32
+          ],
+          "blockIndex": 26,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Step 2: Add control circuits. Design potentiometer-based frequency control (variable resistor in"
+        },
+        {
+          "bbox": [
+            90.8,
+            666.81,
+            433.37,
+            681.24
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "the timing circuit) and a volume control stage using an op-amp attenuator."
+        },
+        {
+          "bbox": [
+            90.8,
+            686.81,
+            495.77,
+            701.32
+          ],
+          "blockIndex": 28,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Step 3: Add waveform selection. Use a rotary switch or DIP switches to select between"
+        },
+        {
+          "bbox": [
+            90.8,
+            702.81,
+            457.31,
+            717.24
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "waveform types. Each position routes a different shaping circuit into the output."
+        }
+      ],
+      "charCount": 1716,
+      "height": 792.0,
+      "pageNumber": 7,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            226.88,
+            754.6,
+            385.12,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "@1nska  •  6 EE Portfolio Projects  •  Page 8"
+        },
+        {
+          "bbox": [
+            90.8,
+            62.81,
+            528.76,
+            77.32
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Step 4: Layout the PCB. Route your schematic in KiCad's PCB editor. Keep analog and digital"
+        },
+        {
+          "bbox": [
+            90.8,
+            78.81,
+            512.19,
+            93.24
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "sections separated, use proper ground planes, and keep trace widths appropriate for audio"
+        },
+        {
+          "bbox": [
+            90.8,
+            94.81,
+            126.4,
+            109.24
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "signals."
+        },
+        {
+          "bbox": [
+            90.8,
+            114.81,
+            524.96,
+            129.32
+          ],
+          "blockIndex": 4,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Step 5: Order and assemble. Send gerber files to JLCPCB. While waiting, order components."
+        },
+        {
+          "bbox": [
+            90.8,
+            130.81,
+            473.63,
+            145.24
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "When boards arrive, hand-solder components and test each section incrementally."
+        },
+        {
+          "bbox": [
+            90.8,
+            150.81,
+            516.83,
+            165.32
+          ],
+          "blockIndex": 6,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Step 6: Test and tune. Use an oscilloscope to verify waveform shape, frequency range, and"
+        },
+        {
+          "bbox": [
+            90.8,
+            166.81,
+            509.24,
+            181.24
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "amplitude. Debug any distortion or noise issues. Document your design decisions and test"
+        },
+        {
+          "bbox": [
+            90.8,
+            182.81,
+            124.64,
+            197.24
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "results."
+        },
+        {
+          "bbox": [
+            108.8,
+            218.81,
+            494.53,
+            233.32
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Bonus: Add MIDI input so the synthesizer can be played from a keyboard or DAW."
+        },
+        {
+          "bbox": [
+            108.8,
+            234.81,
+            500.95,
+            249.24
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "This transforms it from a demo project into a genuinely usable instrument and shows"
+        },
+        {
+          "bbox": [
+            108.8,
+            250.81,
+            306.04,
+            265.24
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "digital communication protocol knowledge."
+        }
+      ],
+      "charCount": 788,
+      "height": 792.0,
+      "pageNumber": 8,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            226.88,
+            754.6,
+            385.12,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "@1nska  •  6 EE Portfolio Projects  •  Page 9"
+        },
+        {
+          "bbox": [
+            70.8,
+            61.64,
+            101.94,
+            100.2
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "#4"
+        },
+        {
+          "bbox": [
+            70.8,
+            114.34,
+            328.85,
+            139.13
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "MPPT Solar Charge Controller"
+        },
+        {
+          "bbox": [
+            70.8,
+            144.9,
+            410.61,
+            158.67
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "POWER ELECTRONICS • RENEWABLE ENERGY • CONTROL SYSTEMS"
+        },
+        {
+          "bbox": [
+            70.8,
+            168.81,
+            541.2,
+            183.32
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Why recruiters love this: Power electronics is one of the highest-demand EE specializations."
+        },
+        {
+          "bbox": [
+            70.8,
+            184.81,
+            541.2,
+            199.24
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Building an MPPT controller shows you understand DC-DC conversion, control loops, and renewable"
+        },
+        {
+          "bbox": [
+            70.8,
+            200.81,
+            240.03,
+            215.24
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "energy systems — all in one project."
+        },
+        {
+          "bbox": [
+            70.8,
+            224.81,
+            541.2,
+            239.24
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Build a Maximum Power Point Tracking (MPPT) solar charge controller that optimizes energy harvest"
+        },
+        {
+          "bbox": [
+            70.8,
+            240.81,
+            541.2,
+            255.24
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "from a solar panel and efficiently charges a battery. Unlike simple PWM controllers, MPPT"
+        },
+        {
+          "bbox": [
+            70.8,
+            256.81,
+            494.46,
+            271.24
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "dynamically adjusts the operating point to extract maximum power regardless of conditions."
+        },
+        {
+          "bbox": [
+            70.8,
+            286.69,
+            167.59,
+            304.59
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "What you need:"
+        },
+        {
+          "bbox": [
+            90.8,
+            310.81,
+            224.59,
+            325.24
+          ],
+          "blockIndex": 11,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• Small solar panel (10-20W)"
+        },
+        {
+          "bbox": [
+            90.8,
+            330.81,
+            254.35,
+            345.24
+          ],
+          "blockIndex": 12,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• Arduino or STM32 microcontroller"
+        },
+        {
+          "bbox": [
+            90.8,
+            350.81,
+            476.12,
+            365.24
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• Buck or buck-boost converter components (MOSFET, inductor, diode, capacitors)"
+        },
+        {
+          "bbox": [
+            90.8,
+            370.81,
+            276.56,
+            385.24
+          ],
+          "blockIndex": 14,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• INA219 current/voltage sensor module"
+        },
+        {
+          "bbox": [
+            90.8,
+            390.81,
+            242.12,
+            405.24
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• 12V lead-acid or lithium battery"
+        },
+        {
+          "bbox": [
+            90.8,
+            410.81,
+            238.62,
+            425.24
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• LCD display for status readout"
+        },
+        {
+          "bbox": [
+            70.8,
+            448.69,
+            166.9,
+            466.59
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Skills it proves:"
+        },
+        {
+          "bbox": [
+            90.8,
+            472.81,
+            273.03,
+            487.24
+          ],
+          "blockIndex": 18,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• DC-DC converter design and analysis"
+        },
+        {
+          "bbox": [
+            90.8,
+            492.81,
+            384.47,
+            507.24
+          ],
+          "blockIndex": 19,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• Control system implementation (Perturb & Observe algorithm)"
+        },
+        {
+          "bbox": [
+            90.8,
+            512.81,
+            316.2,
+            527.24
+          ],
+          "blockIndex": 20,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• Power MOSFET driving and gate driver circuits"
+        },
+        {
+          "bbox": [
+            90.8,
+            532.81,
+            288.8,
+            547.24
+          ],
+          "blockIndex": 21,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• Efficiency measurement and optimization"
+        },
+        {
+          "bbox": [
+            90.8,
+            552.81,
+            339.57,
+            567.24
+          ],
+          "blockIndex": 22,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• Real-world renewable energy system understanding"
+        },
+        {
+          "bbox": [
+            70.8,
+            590.69,
+            164.69,
+            608.59
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "How to build it:"
+        },
+        {
+          "bbox": [
+            90.8,
+            614.81,
+            516.21,
+            629.32
+          ],
+          "blockIndex": 24,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Step 1: Build the buck converter. Design and assemble a basic DC-DC buck converter on a"
+        },
+        {
+          "bbox": [
+            90.8,
+            630.81,
+            513.91,
+            645.24
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "breadboard. Use a MOSFET, Schottky diode, and inductor. Verify voltage step-down with a"
+        },
+        {
+          "bbox": [
+            90.8,
+            646.81,
+            345.27,
+            661.24
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "bench power supply before connecting the solar panel."
+        },
+        {
+          "bbox": [
+            90.8,
+            666.81,
+            537.84,
+            681.32
+          ],
+          "blockIndex": 27,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Step 2: Add sensing. Wire INA219 modules to measure both the solar panel voltage/current and"
+        },
+        {
+          "bbox": [
+            90.8,
+            682.81,
+            497.57,
+            697.24
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "the battery voltage/current. Log these values to verify your measurements are accurate."
+        }
+      ],
+      "charCount": 1562,
+      "height": 792.0,
+      "pageNumber": 9,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            224.66,
+            754.6,
+            387.34,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "@1nska  •  6 EE Portfolio Projects  •  Page 10"
+        },
+        {
+          "bbox": [
+            90.8,
+            62.81,
+            537.21,
+            77.32
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Step 3: Implement MPPT algorithm. Code the Perturb & Observe algorithm — slightly adjust the"
+        },
+        {
+          "bbox": [
+            90.8,
+            78.81,
+            541.2,
+            93.24
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "duty cycle, measure if power increased or decreased, and continue in the direction that increases"
+        },
+        {
+          "bbox": [
+            90.8,
+            94.81,
+            262.96,
+            109.24
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "power. This is the core of the project."
+        },
+        {
+          "bbox": [
+            90.8,
+            114.81,
+            519.17,
+            129.32
+          ],
+          "blockIndex": 4,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Step 4: Add battery management. Implement charging stages — bulk, absorption, float. Add"
+        },
+        {
+          "bbox": [
+            90.8,
+            130.81,
+            514.51,
+            145.24
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "overvoltage and overcurrent protection in software. Add a physical fuse as a safety backup."
+        },
+        {
+          "bbox": [
+            90.8,
+            150.81,
+            528.49,
+            165.32
+          ],
+          "blockIndex": 6,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Step 5: Build the display interface. Show solar power in, battery voltage, charging current, and"
+        },
+        {
+          "bbox": [
+            90.8,
+            166.81,
+            468.38,
+            181.24
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "efficiency on an LCD. Log data to an SD card for performance analysis over time."
+        },
+        {
+          "bbox": [
+            90.8,
+            186.81,
+            528.51,
+            201.32
+          ],
+          "blockIndex": 8,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Step 6: Test under real conditions. Take it outside, connect to a real solar panel, and charge a"
+        },
+        {
+          "bbox": [
+            90.8,
+            202.81,
+            520.3,
+            217.24
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "real battery. Measure and document your MPPT efficiency vs. a simple direct-connect setup."
+        },
+        {
+          "bbox": [
+            108.8,
+            238.81,
+            474.7,
+            253.32
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Bonus: Add WiFi connectivity and log performance data to a cloud dashboard."
+        },
+        {
+          "bbox": [
+            108.8,
+            254.81,
+            502.12,
+            269.24
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Compare your MPPT efficiency across different weather conditions and times of day."
+        },
+        {
+          "bbox": [
+            108.8,
+            270.81,
+            408.72,
+            285.24
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "This data-driven approach impresses power systems employers."
+        }
+      ],
+      "charCount": 1032,
+      "height": 792.0,
+      "pageNumber": 10,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            224.66,
+            754.6,
+            387.34,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "@1nska  •  6 EE Portfolio Projects  •  Page 11"
+        },
+        {
+          "bbox": [
+            70.8,
+            61.64,
+            101.94,
+            100.2
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "#5"
+        },
+        {
+          "bbox": [
+            70.8,
+            114.34,
+            353.87,
+            139.13
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Software-Defined Radio Receiver"
+        },
+        {
+          "bbox": [
+            70.8,
+            144.9,
+            303.37,
+            158.67
+          ],
+          "blockIndex": 3,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "RF • SIGNAL PROCESSING • COMMUNICATIONS"
+        },
+        {
+          "bbox": [
+            70.8,
+            168.81,
+            541.2,
+            183.32
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Why recruiters love this: RF and communications engineering is a specialized, high-paying niche."
+        },
+        {
+          "bbox": [
+            70.8,
+            184.81,
+            541.2,
+            199.24
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Building an SDR receiver proves you understand the full signal chain — from antenna to"
+        },
+        {
+          "bbox": [
+            70.8,
+            200.81,
+            364.91,
+            215.24
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "demodulated audio — and can work with real-world RF signals."
+        },
+        {
+          "bbox": [
+            70.8,
+            224.81,
+            541.2,
+            239.24
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Build a software-defined radio that can receive and demodulate FM radio, aircraft communications"
+        },
+        {
+          "bbox": [
+            70.8,
+            240.81,
+            541.2,
+            255.24
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "(ADS-B), weather satellite images, and more. You'll process raw RF data in software, implementing"
+        },
+        {
+          "bbox": [
+            70.8,
+            256.81,
+            495.07,
+            271.24
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "filters, demodulators, and decoders that traditionally require expensive dedicated hardware."
+        },
+        {
+          "bbox": [
+            70.8,
+            286.69,
+            167.59,
+            304.59
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "What you need:"
+        },
+        {
+          "bbox": [
+            90.8,
+            310.81,
+            299.59,
+            325.24
+          ],
+          "blockIndex": 11,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "• RTL-SDR dongle (RTL2832U-based, ~$25)"
+        },
+        {
+          "bbox": [
+            90.8,
+            330.81,
+            421.87,
+            345.24
+          ],
+          "blockIndex": 12,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "• Antenna (dipole for FM, or build a QFH antenna for weather satellites)"
+        },
+        {
+          "bbox": [
+            90.8,
+            350.81,
+            292.88,
+            365.24
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "• Python with NumPy, SciPy, and matplotlib"
+        },
+        {
+          "bbox": [
+            90.8,
+            370.81,
+            320.28,
+            385.24
+          ],
+          "blockIndex": 14,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "• GNU Radio (free, open-source SDR framework)"
+        },
+        {
+          "bbox": [
+            90.8,
+            390.81,
+            210.59,
+            405.24
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "• Computer with USB port"
+        },
+        {
+          "bbox": [
+            90.8,
+            410.81,
+            337.21,
+            425.24
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "• Optional: LNA (low noise amplifier) for weak signals"
+        },
+        {
+          "bbox": [
+            70.8,
+            448.69,
+            166.9,
+            466.59
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Skills it proves:"
+        },
+        {
+          "bbox": [
+            90.8,
+            472.81,
+            395.6,
+            487.24
+          ],
+          "blockIndex": 18,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "• RF fundamentals — frequency, bandwidth, modulation schemes"
+        },
+        {
+          "bbox": [
+            90.8,
+            492.81,
+            365.81,
+            507.24
+          ],
+          "blockIndex": 19,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "• Digital signal processing — FFT, filtering, sampling theory"
+        },
+        {
+          "bbox": [
+            90.8,
+            512.81,
+            355.92,
+            527.24
+          ],
+          "blockIndex": 20,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "• Communication protocols and demodulation techniques"
+        },
+        {
+          "bbox": [
+            90.8,
+            532.81,
+            273.04,
+            547.24
+          ],
+          "blockIndex": 21,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "• Python for real-time signal processing"
+        },
+        {
+          "bbox": [
+            90.8,
+            552.81,
+            203.03,
+            567.24
+          ],
+          "blockIndex": 22,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "• Antenna design basics"
+        },
+        {
+          "bbox": [
+            70.8,
+            590.69,
+            164.69,
+            608.59
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "How to build it:"
+        },
+        {
+          "bbox": [
+            90.8,
+            614.81,
+            536.61,
+            629.32
+          ],
+          "blockIndex": 24,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Step 1: Set up the RTL-SDR. Install drivers and GNU Radio. Verify you can receive FM radio —"
+        },
+        {
+          "bbox": [
+            90.8,
+            630.81,
+            510.41,
+            645.24
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "tune to a local station and confirm you hear audio. This validates your entire receive chain."
+        },
+        {
+          "bbox": [
+            90.8,
+            650.81,
+            535.45,
+            665.32
+          ],
+          "blockIndex": 26,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Step 2: Build an FM demodulator from scratch. Using Python and NumPy, read raw IQ samples"
+        },
+        {
+          "bbox": [
+            90.8,
+            666.81,
+            541.2,
+            681.24
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "from the RTL-SDR and implement FM demodulation manually — without GNU Radio blocks. This"
+        },
+        {
+          "bbox": [
+            90.8,
+            682.81,
+            324.85,
+            697.24
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "proves you understand the DSP, not just the tools."
+        }
+      ],
+      "charCount": 1617,
+      "height": 792.0,
+      "pageNumber": 11,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            224.66,
+            754.6,
+            387.34,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "@1nska  •  6 EE Portfolio Projects  •  Page 12"
+        },
+        {
+          "bbox": [
+            90.8,
+            62.81,
+            503.92,
+            77.32
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Step 3: Visualize the spectrum. Build a real-time spectrum analyzer using FFT. Display a"
+        },
+        {
+          "bbox": [
+            90.8,
+            78.81,
+            525.55,
+            93.24
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "waterfall plot showing signal activity across a frequency range. This is a powerful demo piece."
+        },
+        {
+          "bbox": [
+            90.8,
+            98.81,
+            515.06,
+            113.32
+          ],
+          "blockIndex": 3,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Step 4: Decode ADS-B aircraft signals. Tune to 1090 MHz and decode aircraft position and"
+        },
+        {
+          "bbox": [
+            90.8,
+            114.81,
+            464.32,
+            129.24
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "identification data. Parse the binary protocol and plot aircraft positions on a map."
+        },
+        {
+          "bbox": [
+            90.8,
+            134.81,
+            541.2,
+            149.32
+          ],
+          "blockIndex": 5,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Step 5: Receive a weather satellite image. Build or buy a QFH antenna, receive a NOAA satellite"
+        },
+        {
+          "bbox": [
+            90.8,
+            150.81,
+            492.33,
+            165.24
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "pass at 137 MHz, and decode the APT signal into an actual weather image. This is the"
+        },
+        {
+          "bbox": [
+            90.8,
+            166.81,
+            182.42,
+            181.24
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "showstopper demo."
+        },
+        {
+          "bbox": [
+            90.8,
+            186.81,
+            499.29,
+            201.32
+          ],
+          "blockIndex": 8,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Step 6: Document everything. Create a GitHub repo with your Python code, GNU Radio"
+        },
+        {
+          "bbox": [
+            90.8,
+            202.81,
+            518.0,
+            217.24
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "flowgraphs, antenna design, and example outputs (spectrum plots, decoded images, aircraft"
+        },
+        {
+          "bbox": [
+            90.8,
+            218.81,
+            125.22,
+            233.24
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "tracks)."
+        },
+        {
+          "bbox": [
+            108.8,
+            254.81,
+            469.42,
+            269.32
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Bonus: Implement your own digital modulation scheme (BPSK or QPSK) and"
+        },
+        {
+          "bbox": [
+            108.8,
+            270.81,
+            502.11,
+            285.24
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "transmit/receive data between two SDRs. Note: only transmit at legal power levels or"
+        },
+        {
+          "bbox": [
+            108.8,
+            286.81,
+            405.27,
+            301.24
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "use a direct cable connection to stay compliant with regulations."
+        }
+      ],
+      "charCount": 995,
+      "height": 792.0,
+      "pageNumber": 12,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            224.66,
+            754.6,
+            387.34,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "@1nska  •  6 EE Portfolio Projects  •  Page 13"
+        },
+        {
+          "bbox": [
+            70.8,
+            61.64,
+            101.94,
+            100.2
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "#6"
+        },
+        {
+          "bbox": [
+            70.8,
+            114.34,
+            344.81,
+            139.13
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "PID-Controlled Balancing Robot"
+        },
+        {
+          "bbox": [
+            70.8,
+            144.9,
+            298.93,
+            158.67
+          ],
+          "blockIndex": 3,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "CONTROL SYSTEMS • ROBOTICS • EMBEDDED"
+        },
+        {
+          "bbox": [
+            70.8,
+            168.81,
+            541.2,
+            183.32
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Why recruiters love this: Control systems are fundamental to EE and notoriously hard to implement"
+        },
+        {
+          "bbox": [
+            70.8,
+            184.81,
+            541.2,
+            199.24
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "well in practice. A self-balancing robot is the perfect proof that you can tune a real control loop — not"
+        },
+        {
+          "bbox": [
+            70.8,
+            200.81,
+            245.3,
+            215.24
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "just solve transfer functions on paper."
+        },
+        {
+          "bbox": [
+            70.8,
+            224.81,
+            541.2,
+            239.24
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Build a two-wheeled robot that balances itself upright using a PID control loop. An IMU"
+        },
+        {
+          "bbox": [
+            70.8,
+            240.81,
+            541.2,
+            255.24
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "(accelerometer + gyroscope) measures tilt angle, a microcontroller runs the PID algorithm, and DC"
+        },
+        {
+          "bbox": [
+            70.8,
+            256.81,
+            541.2,
+            271.24
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "motors with encoders make corrections in real time. It's the inverted pendulum problem — brought to"
+        },
+        {
+          "bbox": [
+            70.8,
+            272.81,
+            87.14,
+            287.24
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "life."
+        },
+        {
+          "bbox": [
+            70.8,
+            302.69,
+            167.59,
+            320.59
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "What you need:"
+        },
+        {
+          "bbox": [
+            90.8,
+            326.81,
+            210.62,
+            341.24
+          ],
+          "blockIndex": 12,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• Arduino Mega or ESP32"
+        },
+        {
+          "bbox": [
+            90.8,
+            346.81,
+            303.08,
+            361.24
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• MPU6050 IMU (accelerometer + gyroscope)"
+        },
+        {
+          "bbox": [
+            90.8,
+            366.81,
+            253.19,
+            381.24
+          ],
+          "blockIndex": 14,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• 2x DC gear motors with encoders"
+        },
+        {
+          "bbox": [
+            90.8,
+            386.81,
+            261.36,
+            401.24
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• L298N or TB6612FNG motor driver"
+        },
+        {
+          "bbox": [
+            90.8,
+            406.81,
+            294.04,
+            421.24
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• Robot chassis (3D print or use a kit frame)"
+        },
+        {
+          "bbox": [
+            90.8,
+            426.81,
+            200.69,
+            441.24
+          ],
+          "blockIndex": 17,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• LiPo battery (7.4V 2S)"
+        },
+        {
+          "bbox": [
+            90.8,
+            446.81,
+            245.6,
+            461.24
+          ],
+          "blockIndex": 18,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• Wheels with rubber tires for grip"
+        },
+        {
+          "bbox": [
+            70.8,
+            484.69,
+            166.9,
+            502.59
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Skills it proves:"
+        },
+        {
+          "bbox": [
+            90.8,
+            508.81,
+            282.38,
+            523.24
+          ],
+          "blockIndex": 20,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• PID control theory and real-world tuning"
+        },
+        {
+          "bbox": [
+            90.8,
+            528.81,
+            316.79,
+            543.24
+          ],
+          "blockIndex": 21,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• Sensor fusion (complementary or Kalman filter)"
+        },
+        {
+          "bbox": [
+            90.8,
+            548.81,
+            327.31,
+            563.24
+          ],
+          "blockIndex": 22,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• Real-time embedded control with tight loop timing"
+        },
+        {
+          "bbox": [
+            90.8,
+            568.81,
+            287.02,
+            583.24
+          ],
+          "blockIndex": 23,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• Motor control and H-bridge driver circuits"
+        },
+        {
+          "bbox": [
+            90.8,
+            588.81,
+            278.87,
+            603.24
+          ],
+          "blockIndex": 24,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• System dynamics and stability analysis"
+        },
+        {
+          "bbox": [
+            70.8,
+            626.69,
+            164.69,
+            644.59
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "How to build it:"
+        },
+        {
+          "bbox": [
+            90.8,
+            650.81,
+            496.37,
+            665.32
+          ],
+          "blockIndex": 26,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Step 1: Get IMU data. Wire the MPU6050 to your Arduino, read raw accelerometer and"
+        },
+        {
+          "bbox": [
+            90.8,
+            666.81,
+            532.58,
+            681.24
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "gyroscope values. Implement a complementary filter to fuse both sensors into a stable tilt angle"
+        },
+        {
+          "bbox": [
+            90.8,
+            682.81,
+            133.4,
+            697.24
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "estimate."
+        }
+      ],
+      "charCount": 1337,
+      "height": 792.0,
+      "pageNumber": 13,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            224.66,
+            754.6,
+            387.34,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "@1nska  •  6 EE Portfolio Projects  •  Page 14"
+        },
+        {
+          "bbox": [
+            90.8,
+            62.81,
+            539.59,
+            77.32
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Step 2: Build the chassis. Mount the motors, wheels, battery, and electronics. Keep the center of"
+        },
+        {
+          "bbox": [
+            90.8,
+            78.81,
+            532.26,
+            93.24
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "gravity high — this actually makes balancing easier (longer pendulum = slower fall). Ensure the"
+        },
+        {
+          "bbox": [
+            90.8,
+            94.81,
+            247.21,
+            109.24
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "IMU is mounted at the pivot point."
+        },
+        {
+          "bbox": [
+            90.8,
+            114.81,
+            503.38,
+            129.32
+          ],
+          "blockIndex": 4,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Step 3: Implement basic PID. Start with proportional control only (P). Set I and D to zero."
+        },
+        {
+          "bbox": [
+            90.8,
+            130.81,
+            513.56,
+            145.24
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Gradually increase P until the robot starts reacting to tilts. It will oscillate — that's expected."
+        },
+        {
+          "bbox": [
+            90.8,
+            150.81,
+            512.72,
+            165.32
+          ],
+          "blockIndex": 6,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Step 4: Tune the full PID loop. Add derivative (D) to dampen oscillations. Add integral (I) to"
+        },
+        {
+          "bbox": [
+            90.8,
+            166.81,
+            537.22,
+            181.24
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "eliminate steady-state lean. Use the Ziegler-Nichols method or manual tuning. This is where you"
+        },
+        {
+          "bbox": [
+            90.8,
+            182.81,
+            220.92,
+            197.24
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "really learn control systems."
+        },
+        {
+          "bbox": [
+            90.8,
+            202.81,
+            539.59,
+            217.32
+          ],
+          "blockIndex": 9,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Step 5: Add encoder feedback. Use motor encoders to implement a position hold — so the robot"
+        },
+        {
+          "bbox": [
+            90.8,
+            218.81,
+            541.2,
+            233.24
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "doesn't just balance but stays in one place. This is a cascaded control loop (inner: balance, outer:"
+        },
+        {
+          "bbox": [
+            90.8,
+            234.81,
+            133.4,
+            249.24
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "position)."
+        },
+        {
+          "bbox": [
+            90.8,
+            254.81,
+            515.06,
+            269.32
+          ],
+          "blockIndex": 12,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Step 6: Demonstrate and document. Film the robot balancing, recovering from pushes, and"
+        },
+        {
+          "bbox": [
+            90.8,
+            270.81,
+            523.23,
+            285.24
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "holding position. Show your PID tuning process and control system block diagram on GitHub."
+        },
+        {
+          "bbox": [
+            90.8,
+            286.81,
+            295.65,
+            301.24
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Include plots of angle vs. time during tuning."
+        },
+        {
+          "bbox": [
+            108.8,
+            322.81,
+            478.77,
+            337.32
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Bonus: Add Bluetooth or WiFi remote control so you can drive the robot while it"
+        },
+        {
+          "bbox": [
+            108.8,
+            338.81,
+            503.2,
+            353.24
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "self-balances. Or implement LQR (Linear Quadratic Regulator) control instead of PID"
+        },
+        {
+          "bbox": [
+            108.8,
+            354.81,
+            468.29,
+            369.24
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "and compare performance — this shows advanced control theory knowledge."
+        }
+      ],
+      "charCount": 1338,
+      "height": 792.0,
+      "pageNumber": 14,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            224.66,
+            754.6,
+            387.34,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "@1nska  •  6 EE Portfolio Projects  •  Page 15"
+        },
+        {
+          "bbox": [
+            70.8,
+            116.06,
+            246.8,
+            146.35
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "What To Do Next"
+        },
+        {
+          "bbox": [
+            70.8,
+            156.81,
+            541.2,
+            171.24
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Don't try to build all 6 at once. Pick the one that excites you most, order the parts today, and start this"
+        },
+        {
+          "bbox": [
+            70.8,
+            172.81,
+            348.6,
+            187.24
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "weekend. A finished project beats a perfect plan every time."
+        },
+        {
+          "bbox": [
+            70.8,
+            196.81,
+            541.2,
+            211.24
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "When you finish a project, document it properly: clean code on GitHub, a detailed README with"
+        },
+        {
+          "bbox": [
+            70.8,
+            212.81,
+            484.58,
+            227.24
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "photos and diagrams, and a short demo video. That package is what gets you interviews."
+        },
+        {
+          "bbox": [
+            70.8,
+            236.81,
+            541.2,
+            251.24
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "If you want more guides like this — on building startups, career strategy for engineers, or bridging"
+        },
+        {
+          "bbox": [
+            70.8,
+            252.81,
+            484.83,
+            267.24
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "business and engineering — follow me on Instagram. I'm documenting the entire journey."
+        },
+        {
+          "bbox": [
+            70.8,
+            306.69,
+            173.4,
+            324.59
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Quick Reference"
+        },
+        {
+          "bbox": [
+            112.7,
+            338.97,
+            492.4,
+            351.36
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "#\nProject\nKey Skill Area\nDifficulty\nCost"
+        },
+        {
+          "bbox": [
+            112.7,
+            366.92,
+            496.41,
+            379.29
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "1\nSmart Energy Monitor\nIoT + Data\nBeginner\n$20-30"
+        },
+        {
+          "bbox": [
+            112.7,
+            394.92,
+            496.41,
+            407.29
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "2\nGesture Robot Arm\nSignal Processing\nIntermediate\n$50-80"
+        },
+        {
+          "bbox": [
+            112.7,
+            422.92,
+            496.41,
+            435.29
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "3\nPCB Synthesizer\nPCB Design\nIntermediate\n$15-25"
+        },
+        {
+          "bbox": [
+            112.7,
+            450.92,
+            496.41,
+            463.29
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "4\nMPPT Solar Controller\nPower Electronics\nAdvanced\n$40-60"
+        },
+        {
+          "bbox": [
+            112.7,
+            478.92,
+            496.41,
+            491.29
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "5\nSDR Receiver\nRF + Comms\nIntermediate\n$30-40"
+        },
+        {
+          "bbox": [
+            112.7,
+            506.92,
+            496.41,
+            519.29
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "6\nBalancing Robot\nControl Systems\nAdvanced\n$50-70"
+        },
+        {
+          "bbox": [
+            108.8,
+            556.81,
+            477.34,
+            571.32
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Follow @1nska on Instagram for more project guides, build logs, and real talk"
+        },
+        {
+          "bbox": [
+            108.8,
+            572.81,
+            502.85,
+            587.24
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "about building as a student. DM me \"BUILD\" and I'll help you pick the right project for"
+        },
+        {
+          "bbox": [
+            108.8,
+            588.81,
+            210.92,
+            603.24
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "your experience level."
+        },
+        {
+          "bbox": [
+            263.73,
+            654.92,
+            348.27,
+            680.29
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "— Enes (@1nska)\nNYU Shanghai, 2026"
+        }
+      ],
+      "charCount": 1173,
+      "height": 792.0,
+      "pageNumber": 15,
+      "textExtractable": true,
+      "width": 612.0
+    }
+  ],
+  "provenance": {
+    "confidence": "EXACT",
+    "extractionMethod": "pymupdf-blocks-v1",
+    "extractorVersion": "1.28.0",
+    "generatorVersion": null,
+    "origin": "extracted",
+    "source": "guide-021",
+    "sourceHash": "fd09c2a12d77783c01968ad84c6271977fabfc40f8dcf7bbfebc3538d2959116",
+    "sourcePage": null,
+    "sourcePath": "Engineering guides/ee_portfolio_projects.pdf",
+    "sourceSection": "ROOT"
+  },
+  "relativePath": "Engineering guides/ee_portfolio_projects.pdf",
+  "schemaVersion": "1.0.0",
+  "sha256": "fd09c2a12d77783c01968ad84c6271977fabfc40f8dcf7bbfebc3538d2959116",
+  "sourceId": "guide-021"
+}

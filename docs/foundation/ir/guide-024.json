@@ -1,0 +1,6226 @@
+{
+  "metadata": {
+    "author": "(anonymous)",
+    "creationDate": "D:20260309042754+00'00'",
+    "creator": "(unspecified)",
+    "format": "PDF 1.4",
+    "modDate": "D:20260309042754+00'00'",
+    "producer": "ReportLab PDF Library - (opensource)",
+    "subject": "(unspecified)",
+    "title": "(anonymous)"
+  },
+  "pageCount": 21,
+  "pages": [
+    {
+      "blocks": [
+        {
+          "bbox": [
+            72.18,
+            127.76,
+            539.82,
+            219.82
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "6 EE PROJECTS RECRUITERS\nACTUALLY WANT TO SEE"
+        },
+        {
+          "bbox": [
+            169.07,
+            259.95,
+            442.93,
+            279.19
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Not traffic light simulators. Not LED blinkers."
+        },
+        {
+          "bbox": [
+            120.42,
+            285.95,
+            491.58,
+            305.19
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Projects that map to real job descriptions at real companies."
+        },
+        {
+          "bbox": [
+            134.44,
+            323.95,
+            477.56,
+            343.19
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Full build guides, wiring diagrams, component lists, and"
+        },
+        {
+          "bbox": [
+            178.39,
+            349.95,
+            433.61,
+            369.19
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "interview prep questions for each project."
+        },
+        {
+          "bbox": [
+            270.1,
+            415.95,
+            341.9,
+            435.19
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "By @1nska"
+        },
+        {
+          "bbox": [
+            259.23,
+            442.33,
+            352.77,
+            454.69
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "NYU Shanghai — 2026"
+        }
+      ],
+      "charCount": 279,
+      "height": 792.0,
+      "pageNumber": 1,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            212.88,
+            758.2,
+            399.12,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "@1nska  •  6 EE Projects Recruiters Want  •  Page 2"
+        },
+        {
+          "bbox": [
+            67.2,
+            58.46,
+            496.31,
+            88.75
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Your Portfolio Is Probably Missing These"
+        },
+        {
+          "bbox": [
+            67.2,
+            99.21,
+            544.8,
+            113.64
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Here's what most EE student portfolios look like: a traffic light simulator, a calculator, an LED blinker,"
+        },
+        {
+          "bbox": [
+            67.2,
+            115.21,
+            544.8,
+            129.64
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "maybe a line-following robot from a class project. Recruiters have seen these 10,000 times. They don't"
+        },
+        {
+          "bbox": [
+            67.2,
+            131.21,
+            144.83,
+            145.64
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "differentiate you."
+        },
+        {
+          "bbox": [
+            67.2,
+            155.21,
+            544.8,
+            169.64
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "These 6 projects are specifically chosen because they map to skills listed on real job postings at"
+        },
+        {
+          "bbox": [
+            67.2,
+            171.21,
+            544.8,
+            185.64
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "companies like Texas Instruments, Analog Devices, Tesla, Qualcomm, SpaceX, and every hardware"
+        },
+        {
+          "bbox": [
+            67.2,
+            187.21,
+            544.8,
+            201.64
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "startup. Each project proves a different set of professional EE skills — and each one gives you"
+        },
+        {
+          "bbox": [
+            67.2,
+            203.21,
+            281.37,
+            217.64
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "something concrete to discuss in an interview."
+        },
+        {
+          "bbox": [
+            108.8,
+            237.21,
+            503.2,
+            251.72
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "How this guide works: Each project includes a full architecture diagram, component"
+        },
+        {
+          "bbox": [
+            108.8,
+            253.21,
+            481.68,
+            267.64
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "list with costs, step-by-step build instructions, and — most importantly — a list of"
+        },
+        {
+          "bbox": [
+            108.8,
+            269.21,
+            496.9,
+            283.64
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "interview questions you should be able to answer after building it. If you can answer"
+        },
+        {
+          "bbox": [
+            108.8,
+            285.21,
+            432.38,
+            299.64
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "those questions confidently, you're ready for that topic in an interview."
+        }
+      ],
+      "charCount": 973,
+      "height": 792.0,
+      "pageNumber": 2,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            212.88,
+            758.2,
+            399.12,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "@1nska  •  6 EE Projects Recruiters Want  •  Page 3"
+        },
+        {
+          "bbox": [
+            67.2,
+            58.04,
+            98.34,
+            96.6
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "#1"
+        },
+        {
+          "bbox": [
+            67.2,
+            106.74,
+            302.23,
+            131.53
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "PID Motor Speed Controller"
+        },
+        {
+          "bbox": [
+            67.2,
+            135.3,
+            288.26,
+            149.07
+          ],
+          "blockIndex": 3,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "CONTROLS • FEEDBACK • MOTORS • TUNING"
+        },
+        {
+          "bbox": [
+            67.2,
+            157.21,
+            442.87,
+            171.72
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Difficulty: ###II Beginner-Intermediate | Cost: $15-18 | Time: 1-2 weekends"
+        },
+        {
+          "bbox": [
+            67.2,
+            459.21,
+            544.8,
+            473.72
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Why recruiters want to see this: PID control is the single most asked-about concept in controls"
+        },
+        {
+          "bbox": [
+            67.2,
+            475.21,
+            544.8,
+            489.64
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "engineering interviews. It's used in robotics, automotive, aerospace, manufacturing, HVAC —"
+        },
+        {
+          "bbox": [
+            67.2,
+            491.21,
+            544.8,
+            505.64
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "essentially every system that needs to maintain a target value. If you can explain P, I, and D terms,"
+        },
+        {
+          "bbox": [
+            67.2,
+            507.21,
+            544.8,
+            521.64
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "show a step response plot, and discuss tuning methods, you've demonstrated the core skill of controls"
+        },
+        {
+          "bbox": [
+            67.2,
+            523.21,
+            124.98,
+            537.64
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "engineering."
+        },
+        {
+          "bbox": [
+            67.2,
+            547.21,
+            544.8,
+            561.64
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Build a system that maintains a DC motor at a precise speed using PID control. A rotary encoder"
+        },
+        {
+          "bbox": [
+            67.2,
+            563.21,
+            544.8,
+            577.64
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "measures actual RPM, the Arduino computes the PID output, and an H-bridge adjusts motor power."
+        },
+        {
+          "bbox": [
+            67.2,
+            579.21,
+            544.8,
+            593.64
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Display setpoint vs actual RPM on an OLED. Use the Arduino Serial Plotter to visualize your control"
+        },
+        {
+          "bbox": [
+            67.2,
+            595.21,
+            304.14,
+            609.64
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "loop performance — this plot IS your portfolio data."
+        },
+        {
+          "bbox": [
+            67.2,
+            623.09,
+            163.99,
+            640.99
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "What you need:"
+        },
+        {
+          "bbox": [
+            87.2,
+            647.21,
+            180.17,
+            661.64
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Arduino Uno — $4"
+        },
+        {
+          "bbox": [
+            87.2,
+            667.21,
+            256.01,
+            681.64
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• L298N H-Bridge motor driver — $2"
+        },
+        {
+          "bbox": [
+            87.2,
+            687.21,
+            258.93,
+            701.64
+          ],
+          "blockIndex": 17,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• DC motor with rotary encoder — $5"
+        },
+        {
+          "bbox": [
+            87.2,
+            707.21,
+            267.93,
+            721.64
+          ],
+          "blockIndex": 18,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• 0.96\" OLED display (SSD1306) — $3"
+        }
+      ],
+      "charCount": 1067,
+      "height": 792.0,
+      "pageNumber": 3,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            212.88,
+            758.2,
+            399.12,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "@1nska  •  6 EE Projects Recruiters Want  •  Page 4"
+        },
+        {
+          "bbox": [
+            87.2,
+            59.21,
+            288.14,
+            73.64
+          ],
+          "blockIndex": 1,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• 10K potentiometer (setpoint dial) — $0.50"
+        },
+        {
+          "bbox": [
+            87.2,
+            79.21,
+            277.63,
+            93.64
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• 12V power supply or battery pack — $3"
+        },
+        {
+          "bbox": [
+            87.2,
+            99.21,
+            220.13,
+            113.64
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• Breadboard + jumper wires"
+        },
+        {
+          "bbox": [
+            67.2,
+            127.09,
+            178.47,
+            144.99
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Skills this proves:"
+        },
+        {
+          "bbox": [
+            87.2,
+            151.21,
+            473.68,
+            165.72
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• PID control theory — proportional, integral, derivative terms and what each does"
+        },
+        {
+          "bbox": [
+            87.2,
+            171.21,
+            408.34,
+            185.72
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• Feedback systems — measuring output and correcting in real time"
+        },
+        {
+          "bbox": [
+            87.2,
+            191.21,
+            447.38,
+            205.72
+          ],
+          "blockIndex": 7,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• H-bridge motor driving — PWM speed control, direction switching, braking"
+        },
+        {
+          "bbox": [
+            87.2,
+            211.21,
+            491.18,
+            225.72
+          ],
+          "blockIndex": 8,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• Rotary encoders — counting pulses, calculating RPM, interrupt-driven measurement"
+        },
+        {
+          "bbox": [
+            87.2,
+            231.21,
+            491.19,
+            245.72
+          ],
+          "blockIndex": 9,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• System tuning — Ziegler-Nichols method, understanding overshoot and settling time"
+        },
+        {
+          "bbox": [
+            87.2,
+            251.21,
+            404.26,
+            265.72
+          ],
+          "blockIndex": 10,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• Data visualization — plotting setpoint vs actual for tuning analysis"
+        },
+        {
+          "bbox": [
+            67.2,
+            279.09,
+            184.93,
+            296.99
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Step-by-step build:"
+        },
+        {
+          "bbox": [
+            87.2,
+            303.21,
+            515.56,
+            317.72
+          ],
+          "blockIndex": 12,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Step 1: Wire the motor and encoder. Connect the motor to L298N output terminals. Connect"
+        },
+        {
+          "bbox": [
+            87.2,
+            319.21,
+            508.57,
+            333.64
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "encoder output to Arduino D2 (interrupt-capable pin). Use attachInterrupt() to count pulses."
+        },
+        {
+          "bbox": [
+            87.2,
+            335.21,
+            530.38,
+            349.64
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Calculate RPM: (pulses / pulsesPerRev) × (60000 / timeInterval). Print RPM to Serial Monitor to"
+        },
+        {
+          "bbox": [
+            87.2,
+            351.21,
+            115.2,
+            365.64
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "verify."
+        },
+        {
+          "bbox": [
+            87.2,
+            371.21,
+            527.81,
+            385.72
+          ],
+          "blockIndex": 16,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Step 2: Implement basic open-loop control. Map a potentiometer on A0 to analogWrite() on the"
+        },
+        {
+          "bbox": [
+            87.2,
+            387.21,
+            531.91,
+            401.64
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "L298N enable pin. Verify the motor speed changes smoothly with the knob. Display RPM on the"
+        },
+        {
+          "bbox": [
+            87.2,
+            403.21,
+            345.74,
+            417.64
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "OLED. This is your baseline — open loop, no feedback."
+        },
+        {
+          "bbox": [
+            87.2,
+            423.21,
+            534.47,
+            437.72
+          ],
+          "blockIndex": 19,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Step 3: Write the PID algorithm from scratch. Error = setpoint - actualRPM. P_term = Kp × error."
+        },
+        {
+          "bbox": [
+            87.2,
+            439.21,
+            525.19,
+            453.64
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "I_term += Ki × error × dt. D_term = Kd × (error - lastError) / dt. Output = P + I + D. Constrain to"
+        },
+        {
+          "bbox": [
+            87.2,
+            455.21,
+            451.59,
+            469.64
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "0-255. Don't use a PID library — write it yourself so you can explain every line."
+        },
+        {
+          "bbox": [
+            87.2,
+            475.21,
+            510.29,
+            489.72
+          ],
+          "blockIndex": 22,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Step 4: Tune using Ziegler-Nichols. Set Ki=0, Kd=0. Increase Kp until the system oscillates"
+        },
+        {
+          "bbox": [
+            87.2,
+            491.21,
+            498.1,
+            505.64
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "steadily — note this as Ku and the oscillation period as Tu. Set Kp=0.6×Ku, Ki=2×Kp/Tu,"
+        },
+        {
+          "bbox": [
+            87.2,
+            507.21,
+            250.03,
+            521.64
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Kd=Kp×Tu/8. Fine-tune from there."
+        },
+        {
+          "bbox": [
+            87.2,
+            527.21,
+            523.15,
+            541.72
+          ],
+          "blockIndex": 25,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Step 5: Add Serial Plotter output. Print setpoint and actual RPM at 50Hz. Open Arduino Serial"
+        },
+        {
+          "bbox": [
+            87.2,
+            543.21,
+            510.01,
+            557.64
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Plotter — you'll see both lines. Change the setpoint suddenly and watch the step response."
+        },
+        {
+          "bbox": [
+            87.2,
+            559.21,
+            436.18,
+            573.64
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Screenshot this — it shows overshoot, settling time, and steady-state error."
+        },
+        {
+          "bbox": [
+            87.2,
+            579.21,
+            541.2,
+            593.72
+          ],
+          "blockIndex": 28,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Step 6: Document everything. Your GitHub README should include: the PID block diagram, your"
+        },
+        {
+          "bbox": [
+            87.2,
+            595.21,
+            531.35,
+            609.64
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "tuning process, step response screenshots showing before/after tuning, and a table of your final"
+        },
+        {
+          "bbox": [
+            87.2,
+            611.21,
+            411.11,
+            625.64
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Kp/Ki/Kd values. This is the data that proves you understand controls."
+        }
+      ],
+      "charCount": 2175,
+      "height": 792.0,
+      "pageNumber": 4,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            212.88,
+            758.2,
+            399.12,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "@1nska  •  6 EE Projects Recruiters Want  •  Page 5"
+        },
+        {
+          "bbox": [
+            108.8,
+            69.26,
+            332.27,
+            83.72
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Interview questions you should be ready for:"
+        },
+        {
+          "bbox": [
+            108.8,
+            101.21,
+            464.66,
+            115.64
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ What does each PID term (P, I, D) do? What happens if you remove one?"
+        },
+        {
+          "bbox": [
+            108.8,
+            117.21,
+            315.85,
+            131.64
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ What happens if Kp is too high? Too low?"
+        },
+        {
+          "bbox": [
+            108.8,
+            133.21,
+            395.18,
+            147.64
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ How do you tune a PID controller? Explain Ziegler-Nichols."
+        },
+        {
+          "bbox": [
+            108.8,
+            149.21,
+            429.91,
+            163.64
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ What's the difference between open-loop and closed-loop control?"
+        },
+        {
+          "bbox": [
+            108.8,
+            165.21,
+            371.27,
+            179.64
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ What is overshoot? Settling time? Steady-state error?"
+        },
+        {
+          "bbox": [
+            108.8,
+            181.21,
+            360.75,
+            195.64
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ How do rotary encoders work? Why use interrupts?"
+        },
+        {
+          "bbox": [
+            108.8,
+            197.21,
+            382.96,
+            211.64
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ When would you use PID vs bang-bang (on/off) control?"
+        },
+        {
+          "bbox": [
+            108.8,
+            213.21,
+            368.36,
+            227.64
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ How would you add position control (not just speed)?"
+        },
+        {
+          "bbox": [
+            67.2,
+            261.09,
+            126.43,
+            278.99
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Tutorials:"
+        },
+        {
+          "bbox": [
+            87.2,
+            285.25,
+            255.21,
+            298.99
+          ],
+          "blockIndex": 11,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• Video: PID control explained visually"
+        },
+        {
+          "bbox": [
+            87.2,
+            303.25,
+            272.44,
+            316.99
+          ],
+          "blockIndex": 12,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• Video: Arduino PID motor control tutorial"
+        },
+        {
+          "bbox": [
+            87.2,
+            321.25,
+            285.21,
+            334.99
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• Written: PID theory — National Instruments"
+        },
+        {
+          "bbox": [
+            67.2,
+            348.09,
+            166.14,
+            365.99
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Documentation:"
+        },
+        {
+          "bbox": [
+            87.2,
+            372.25,
+            206.3,
+            385.99
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• L298N motor driver guide"
+        },
+        {
+          "bbox": [
+            87.2,
+            390.25,
+            212.42,
+            403.99
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• Arduino interrupt reference"
+        },
+        {
+          "bbox": [
+            87.2,
+            408.25,
+            226.3,
+            421.99
+          ],
+          "blockIndex": 17,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• Ziegler-Nichols tuning method"
+        },
+        {
+          "bbox": [
+            108.8,
+            442.21,
+            460.14,
+            456.72
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Level up: Add position control — use the encoder to track total rotation and"
+        },
+        {
+          "bbox": [
+            108.8,
+            458.21,
+            491.76,
+            472.64
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "implement a position PID loop. Command the motor to rotate exactly 90° and stop."
+        },
+        {
+          "bbox": [
+            108.8,
+            474.21,
+            499.77,
+            488.64
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "This is how robotic joints and CNC machines work. Having both speed AND position"
+        },
+        {
+          "bbox": [
+            108.8,
+            490.21,
+            490.42,
+            504.64
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "control on your resume covers the two most common controls interview scenarios."
+        }
+      ],
+      "charCount": 1099,
+      "height": 792.0,
+      "pageNumber": 5,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            212.88,
+            758.2,
+            399.12,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "@1nska  •  6 EE Projects Recruiters Want  •  Page 6"
+        },
+        {
+          "bbox": [
+            67.2,
+            58.04,
+            98.34,
+            96.6
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "#2"
+        },
+        {
+          "bbox": [
+            67.2,
+            106.74,
+            467.23,
+            131.53
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Custom PCB — Design to Manufactured Board"
+        },
+        {
+          "bbox": [
+            67.2,
+            135.3,
+            299.36,
+            149.07
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "PCB DESIGN • KICAD • MANUFACTURING • SMD"
+        },
+        {
+          "bbox": [
+            67.2,
+            157.21,
+            437.03,
+            171.72
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Difficulty: ###II Beginner-Intermediate | Cost: $8-12 | Time: 2-3 weekends"
+        },
+        {
+          "bbox": [
+            67.2,
+            459.21,
+            544.8,
+            473.72
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Why recruiters want to see this: Every hardware job posting says 'PCB design experience preferred.'"
+        },
+        {
+          "bbox": [
+            67.2,
+            475.21,
+            544.8,
+            489.64
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Most students graduate without ever designing one. Having a physical board you designed in KiCad,"
+        },
+        {
+          "bbox": [
+            67.2,
+            491.21,
+            544.8,
+            505.64
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "manufactured at JLCPCB, and soldered yourself puts you in a completely different category. Bring it to"
+        },
+        {
+          "bbox": [
+            67.2,
+            507.21,
+            356.65,
+            521.64
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "the interview. Hand it to the recruiter. Let them hold your work."
+        },
+        {
+          "bbox": [
+            67.2,
+            531.21,
+            544.8,
+            545.64
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Design an ESP32-based sensor board in KiCad — full schematic, PCB layout with proper ground"
+        },
+        {
+          "bbox": [
+            67.2,
+            547.21,
+            544.8,
+            561.64
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "planes, Gerber export, and manufacturing at JLCPCB ($2 for 5 boards). Then solder SMD components"
+        },
+        {
+          "bbox": [
+            67.2,
+            563.21,
+            484.49,
+            577.64
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "and test. The result: a professional-quality board that replaces your breadboard prototype."
+        },
+        {
+          "bbox": [
+            67.2,
+            591.09,
+            163.99,
+            608.99
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "What you need:"
+        },
+        {
+          "bbox": [
+            87.2,
+            615.21,
+            260.09,
+            629.64
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• ESP32-WROOM-32E module — $3"
+        },
+        {
+          "bbox": [
+            87.2,
+            635.21,
+            315.53,
+            649.64
+          ],
+          "blockIndex": 14,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• BME280 sensor (temp/humidity/pressure) — $2"
+        },
+        {
+          "bbox": [
+            87.2,
+            655.21,
+            334.23,
+            669.64
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• AMS1117-3.3 voltage regulator (SOT-223) — $0.15"
+        },
+        {
+          "bbox": [
+            87.2,
+            675.21,
+            270.6,
+            689.64
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• CP2102N USB-UART bridge — $1.50"
+        },
+        {
+          "bbox": [
+            87.2,
+            695.21,
+            251.34,
+            709.64
+          ],
+          "blockIndex": 17,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• USB-C connector (SMD) — $0.30"
+        },
+        {
+          "bbox": [
+            87.2,
+            715.21,
+            286.1,
+            729.64
+          ],
+          "blockIndex": 18,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• 100nF + 10uF capacitors (0805) — $0.25"
+        }
+      ],
+      "charCount": 1090,
+      "height": 792.0,
+      "pageNumber": 6,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            212.88,
+            758.2,
+            399.12,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "@1nska  •  6 EE Projects Recruiters Want  •  Page 7"
+        },
+        {
+          "bbox": [
+            87.2,
+            59.21,
+            230.93,
+            73.64
+          ],
+          "blockIndex": 1,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• 10K resistors (0603) — $0.05"
+        },
+        {
+          "bbox": [
+            87.2,
+            79.21,
+            277.91,
+            93.64
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• LEDs (0805) + tactile switches — $0.20"
+        },
+        {
+          "bbox": [
+            87.2,
+            99.21,
+            308.55,
+            113.64
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• PCB fabrication at JLCPCB — $2 for 5 boards"
+        },
+        {
+          "bbox": [
+            67.2,
+            127.09,
+            178.47,
+            144.99
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Skills this proves:"
+        },
+        {
+          "bbox": [
+            87.2,
+            151.21,
+            509.85,
+            165.72
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Schematic capture — drawing circuits with proper symbols, nets, and hierarchy in KiCad"
+        },
+        {
+          "bbox": [
+            87.2,
+            171.21,
+            468.46,
+            185.72
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• PCB layout — component placement, trace routing, ground planes, design rules"
+        },
+        {
+          "bbox": [
+            87.2,
+            191.21,
+            391.4,
+            205.72
+          ],
+          "blockIndex": 7,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• DRC/ERC — automated design rule and electrical rule checking"
+        },
+        {
+          "bbox": [
+            87.2,
+            211.21,
+            482.99,
+            225.72
+          ],
+          "blockIndex": 8,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Gerber generation — exporting manufacturing files (copper, mask, drill, silkscreen)"
+        },
+        {
+          "bbox": [
+            87.2,
+            231.21,
+            455.0,
+            245.72
+          ],
+          "blockIndex": 9,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• BOM management — tracking components, quantities, costs, and availability"
+        },
+        {
+          "bbox": [
+            87.2,
+            251.21,
+            465.53,
+            265.72
+          ],
+          "blockIndex": 10,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• SMD soldering — hand soldering surface mount components (0805 and larger)"
+        },
+        {
+          "bbox": [
+            67.2,
+            279.09,
+            184.93,
+            296.99
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Step-by-step build:"
+        },
+        {
+          "bbox": [
+            87.2,
+            303.21,
+            509.69,
+            317.72
+          ],
+          "blockIndex": 12,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Step 1: Install KiCad 8 (free). Create a new project. Import the JLCPCB design rules file so"
+        },
+        {
+          "bbox": [
+            87.2,
+            319.21,
+            530.71,
+            333.64
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "everything you design is within their manufacturing capabilities. Add ESP32 symbol library if not"
+        },
+        {
+          "bbox": [
+            87.2,
+            335.21,
+            129.22,
+            349.64
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "included."
+        },
+        {
+          "bbox": [
+            87.2,
+            355.21,
+            483.58,
+            369.72
+          ],
+          "blockIndex": 15,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Step 2: Draw the schematic. Power path: USB-C → CP2102N → auto-reset circuit →"
+        },
+        {
+          "bbox": [
+            87.2,
+            371.21,
+            528.27,
+            385.64
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "AMS1117-3.3 → ESP32. Add 100nF bypass caps on every IC power pin. Connect BME280 via"
+        },
+        {
+          "bbox": [
+            87.2,
+            387.21,
+            435.01,
+            401.64
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "I2C with 10K pullups. Add 2 LEDs and 2 buttons. Run ERC — fix all errors."
+        },
+        {
+          "bbox": [
+            87.2,
+            407.21,
+            498.61,
+            421.72
+          ],
+          "blockIndex": 18,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Step 3: Assign footprints. ESP32-WROOM-32E uses a specific castellated pad footprint."
+        },
+        {
+          "bbox": [
+            87.2,
+            423.21,
+            520.22,
+            437.64
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "AMS1117 uses SOT-223. Caps and resistors use 0805. Double-check EVERY footprint in 3D"
+        },
+        {
+          "bbox": [
+            87.2,
+            439.21,
+            478.43,
+            453.64
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "viewer — a wrong footprint means the part won't fit. This is the #1 first-PCB mistake."
+        },
+        {
+          "bbox": [
+            87.2,
+            459.21,
+            530.75,
+            473.72
+          ],
+          "blockIndex": 21,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Step 4: Layout the PCB. USB-C at board edge, CP2102N nearby, AMS1117 between USB and"
+        },
+        {
+          "bbox": [
+            87.2,
+            475.21,
+            523.75,
+            489.64
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "ESP32, ESP32 centered, BME280 at board edge away from heat. Bypass caps within 5mm of"
+        },
+        {
+          "bbox": [
+            87.2,
+            491.21,
+            434.11,
+            505.64
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "their ICs. Set trace widths: 10mil signals, 20mil power, 40mil+ high current."
+        },
+        {
+          "bbox": [
+            87.2,
+            511.21,
+            540.09,
+            525.72
+          ],
+          "blockIndex": 24,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Step 5: Add ground plane. Pour copper on the entire bottom layer connected to GND. Use vias to"
+        },
+        {
+          "bbox": [
+            87.2,
+            527.21,
+            510.9,
+            541.64
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "connect top-side GND pads to the plane. Run DRC — 0 errors, 0 unconnected nets. Export"
+        },
+        {
+          "bbox": [
+            87.2,
+            543.21,
+            397.64,
+            557.64
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Gerbers and drill files. Upload to jlcpcb.com and verify the preview."
+        },
+        {
+          "bbox": [
+            87.2,
+            563.21,
+            488.09,
+            577.72
+          ],
+          "blockIndex": 27,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Step 6: Assemble and test. When boards arrive, solder lowest-profile components first"
+        },
+        {
+          "bbox": [
+            87.2,
+            579.21,
+            540.64,
+            593.64
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "(resistors/caps), then ICs, then connectors, then ESP32 last. Use flux generously. Check 3.3V rail"
+        },
+        {
+          "bbox": [
+            87.2,
+            595.21,
+            426.26,
+            609.64
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "with multimeter before powering the ESP32. Flash a test sketch via USB."
+        }
+      ],
+      "charCount": 2105,
+      "height": 792.0,
+      "pageNumber": 7,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            212.88,
+            758.2,
+            399.12,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "@1nska  •  6 EE Projects Recruiters Want  •  Page 8"
+        },
+        {
+          "bbox": [
+            108.8,
+            69.26,
+            332.27,
+            83.72
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Interview questions you should be ready for:"
+        },
+        {
+          "bbox": [
+            108.8,
+            101.21,
+            497.91,
+            115.64
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "→ Walk me through your PCB design process from concept to manufactured board."
+        },
+        {
+          "bbox": [
+            108.8,
+            117.21,
+            457.65,
+            131.64
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "→ Why did you choose a 2-layer stackup? When would you need 4 layers?"
+        },
+        {
+          "bbox": [
+            108.8,
+            133.21,
+            386.42,
+            147.64
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "→ How did you determine your trace widths for power rails?"
+        },
+        {
+          "bbox": [
+            108.8,
+            149.21,
+            438.09,
+            163.64
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "→ What's the purpose of the ground plane? How does it reduce noise?"
+        },
+        {
+          "bbox": [
+            108.8,
+            165.21,
+            409.22,
+            179.64
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "→ Why do bypass capacitors need to be close to IC power pins?"
+        },
+        {
+          "bbox": [
+            108.8,
+            181.21,
+            412.97,
+            195.64
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "→ What's the difference between HASL and ENIG surface finish?"
+        },
+        {
+          "bbox": [
+            108.8,
+            197.21,
+            430.82,
+            211.64
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "→ What changes would you make for a production run of 1000 units?"
+        },
+        {
+          "bbox": [
+            108.8,
+            213.21,
+            441.31,
+            227.64
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "→ How do you verify that your footprints match the actual components?"
+        },
+        {
+          "bbox": [
+            67.2,
+            261.09,
+            126.43,
+            278.99
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Tutorials:"
+        },
+        {
+          "bbox": [
+            87.2,
+            285.25,
+            259.66,
+            298.99
+          ],
+          "blockIndex": 11,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• Video: KiCad 8 complete PCB tutorial"
+        },
+        {
+          "bbox": [
+            87.2,
+            303.25,
+            251.32,
+            316.99
+          ],
+          "blockIndex": 12,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• Video: SMD soldering for beginners"
+        },
+        {
+          "bbox": [
+            87.2,
+            321.25,
+            300.23,
+            334.99
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• Written: JLCPCB capabilities and design guide"
+        },
+        {
+          "bbox": [
+            67.2,
+            348.09,
+            166.14,
+            365.99
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Documentation:"
+        },
+        {
+          "bbox": [
+            87.2,
+            372.25,
+            245.22,
+            385.99
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• KiCad official getting started guide"
+        },
+        {
+          "bbox": [
+            87.2,
+            390.25,
+            236.31,
+            403.99
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• ESP32-WROOM-32E datasheet"
+        },
+        {
+          "bbox": [
+            87.2,
+            408.25,
+            184.09,
+            421.99
+          ],
+          "blockIndex": 17,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• AMS1117 datasheet"
+        },
+        {
+          "bbox": [
+            87.2,
+            426.25,
+            190.73,
+            439.99
+          ],
+          "blockIndex": 18,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• Trace width calculator"
+        },
+        {
+          "bbox": [
+            108.8,
+            460.21,
+            502.35,
+            474.72
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Level up: Get your board assembled by JLCPCB's SMT assembly service — upload"
+        },
+        {
+          "bbox": [
+            108.8,
+            476.21,
+            497.17,
+            490.64
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "your BOM and pick-and-place file. Total cost: ~$10-15 for 5 fully assembled boards."
+        },
+        {
+          "bbox": [
+            108.8,
+            492.21,
+            496.54,
+            506.64
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Now you've experienced the complete professional workflow that hardware startups"
+        },
+        {
+          "bbox": [
+            108.8,
+            508.21,
+            128.65,
+            522.64
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "use."
+        }
+      ],
+      "charCount": 1118,
+      "height": 792.0,
+      "pageNumber": 8,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            212.88,
+            758.2,
+            399.12,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "@1nska  •  6 EE Projects Recruiters Want  •  Page 9"
+        },
+        {
+          "bbox": [
+            67.2,
+            58.04,
+            98.34,
+            96.6
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "#3"
+        },
+        {
+          "bbox": [
+            67.2,
+            106.74,
+            253.23,
+            131.53
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "DIY Digital Multimeter"
+        },
+        {
+          "bbox": [
+            67.2,
+            135.3,
+            302.71,
+            149.07
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "ADC • MEASUREMENT • INPUT PROTECTION • UI"
+        },
+        {
+          "bbox": [
+            67.2,
+            157.21,
+            380.44,
+            171.72
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Difficulty: ##III Beginner | Cost: $10-12 | Time: 1-2 weekends"
+        },
+        {
+          "bbox": [
+            67.2,
+            459.21,
+            544.8,
+            473.72
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Why recruiters want to see this: Building the tool — not just using it — proves you understand"
+        },
+        {
+          "bbox": [
+            67.2,
+            475.21,
+            544.8,
+            489.64
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "measurements at a fundamental level. When you say 'I built a multimeter that measures voltage,"
+        },
+        {
+          "bbox": [
+            67.2,
+            491.21,
+            544.8,
+            505.64
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "current, and resistance,' interviewers immediately know you understand ADC theory, input protection,"
+        },
+        {
+          "bbox": [
+            67.2,
+            507.21,
+            341.72,
+            521.64
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Ohm's law applied in practice, and precision measurement."
+        },
+        {
+          "bbox": [
+            67.2,
+            531.21,
+            544.8,
+            545.64
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Build a digital multimeter that measures DC voltage (0-50V), current (0-5A), and resistance (100-100K"
+        },
+        {
+          "bbox": [
+            67.2,
+            547.21,
+            544.8,
+            561.64
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "ohm). A rotary switch selects the mode. An OLED displays the reading with units and a bar graph."
+        },
+        {
+          "bbox": [
+            67.2,
+            563.21,
+            445.38,
+            577.64
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Input protection prevents the Arduino from frying if you connect something wrong."
+        },
+        {
+          "bbox": [
+            67.2,
+            591.09,
+            163.99,
+            608.99
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "What you need:"
+        },
+        {
+          "bbox": [
+            87.2,
+            615.21,
+            186.0,
+            629.64
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• Arduino Nano — $3"
+        },
+        {
+          "bbox": [
+            87.2,
+            635.21,
+            282.52,
+            649.64
+          ],
+          "blockIndex": 14,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• 0.96\" OLED display (SSD1306) — $2.50"
+        },
+        {
+          "bbox": [
+            87.2,
+            655.21,
+            317.86,
+            669.64
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• Rotary switch (3-position, for mode select) — $1"
+        },
+        {
+          "bbox": [
+            87.2,
+            675.21,
+            369.51,
+            689.64
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• Resistor assortment (for voltage dividers + reference) — $1"
+        },
+        {
+          "bbox": [
+            87.2,
+            695.21,
+            340.64,
+            709.64
+          ],
+          "blockIndex": 17,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• 0.1 ohm 1W shunt resistor (current sensing) — $0.50"
+        },
+        {
+          "bbox": [
+            87.2,
+            715.21,
+            333.66,
+            729.64
+          ],
+          "blockIndex": 18,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• 1N4148 clamping diodes (input protection) — $0.20"
+        }
+      ],
+      "charCount": 1087,
+      "height": 792.0,
+      "pageNumber": 9,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            210.66,
+            758.2,
+            401.34,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "@1nska  •  6 EE Projects Recruiters Want  •  Page 10"
+        },
+        {
+          "bbox": [
+            87.2,
+            59.21,
+            295.43,
+            73.64
+          ],
+          "blockIndex": 1,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "• Banana jack connectors (red + black) — $2"
+        },
+        {
+          "bbox": [
+            87.2,
+            79.21,
+            168.49,
+            93.64
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "• Enclosure — $2"
+        },
+        {
+          "bbox": [
+            67.2,
+            107.09,
+            178.47,
+            124.99
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Skills this proves:"
+        },
+        {
+          "bbox": [
+            87.2,
+            131.21,
+            450.34,
+            145.72
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "• ADC theory — resolution, reference voltage, conversion accuracy and noise"
+        },
+        {
+          "bbox": [
+            87.2,
+            151.21,
+            391.37,
+            165.72
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "• Input protection — clamping diodes, fuses, and current limiting"
+        },
+        {
+          "bbox": [
+            87.2,
+            171.21,
+            467.44,
+            185.72
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "• Ohm's law in practice — voltage dividers for voltage, shunt resistors for current"
+        },
+        {
+          "bbox": [
+            87.2,
+            191.21,
+            485.36,
+            205.72
+          ],
+          "blockIndex": 7,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "• Precision measurement — calibration, error sources, averaging for noise reduction"
+        },
+        {
+          "bbox": [
+            87.2,
+            211.21,
+            470.72,
+            225.72
+          ],
+          "blockIndex": 8,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "• Auto-ranging concepts — switching measurement ranges for optimal resolution"
+        },
+        {
+          "bbox": [
+            87.2,
+            231.21,
+            445.7,
+            245.72
+          ],
+          "blockIndex": 9,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "• UI design — mode selection, display layout, bar graphs, and user feedback"
+        },
+        {
+          "bbox": [
+            67.2,
+            259.09,
+            184.93,
+            276.99
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Step-by-step build:"
+        },
+        {
+          "bbox": [
+            87.2,
+            283.21,
+            536.27,
+            297.72
+          ],
+          "blockIndex": 11,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Step 1: Build the voltage measurement circuit. Voltage divider: 100K + 10K gives 11:1 ratio. Max"
+        },
+        {
+          "bbox": [
+            87.2,
+            299.21,
+            538.47,
+            313.64
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "input = 55V → 5V at ADC. Add clamping diodes to 5V and GND rails. Add a 1K series resistor for"
+        },
+        {
+          "bbox": [
+            87.2,
+            315.21,
+            419.8,
+            329.64
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "current limiting. This triple protection saves your Arduino from mistakes."
+        },
+        {
+          "bbox": [
+            87.2,
+            335.21,
+            525.45,
+            349.72
+          ],
+          "blockIndex": 14,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Step 2: Build the current measurement circuit. A 0.1 ohm shunt resistor in series with the load."
+        },
+        {
+          "bbox": [
+            87.2,
+            351.21,
+            529.59,
+            365.64
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Measure the voltage across it: V = I × R, so 1A produces 0.1V. The ADC reads this voltage and"
+        },
+        {
+          "bbox": [
+            87.2,
+            367.21,
+            519.04,
+            381.64
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "calculates current. For better resolution, use a higher shunt value (but it wastes more power)."
+        },
+        {
+          "bbox": [
+            87.2,
+            387.21,
+            537.11,
+            401.72
+          ],
+          "blockIndex": 17,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Step 3: Build the resistance measurement circuit. Known 10K resistor in series with the unknown"
+        },
+        {
+          "bbox": [
+            87.2,
+            403.21,
+            515.58,
+            417.64
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "resistance. Apply 5V. Measure the voltage at the junction. R_unknown = R_known × (V_ref /"
+        },
+        {
+          "bbox": [
+            87.2,
+            419.21,
+            398.23,
+            433.64
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "V_measured - 1). Multiple reference resistors give different ranges."
+        },
+        {
+          "bbox": [
+            87.2,
+            439.21,
+            512.04,
+            453.72
+          ],
+          "blockIndex": 20,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Step 4: Wire the rotary switch for mode selection. Position 1 = voltage, Position 2 = current,"
+        },
+        {
+          "bbox": [
+            87.2,
+            455.21,
+            525.75,
+            469.64
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Position 3 = resistance. The Arduino reads which position is active and switches measurement"
+        },
+        {
+          "bbox": [
+            87.2,
+            471.21,
+            228.42,
+            485.64
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "mode and display accordingly."
+        },
+        {
+          "bbox": [
+            87.2,
+            491.21,
+            544.73,
+            505.72
+          ],
+          "blockIndex": 23,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Step 5: Program the display. Show the measurement value in large text, the unit (V/A/ohm) beside"
+        },
+        {
+          "bbox": [
+            87.2,
+            507.21,
+            529.62,
+            521.64
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "it, and a bar graph showing the reading relative to the range max. Add an auto-hold feature that"
+        },
+        {
+          "bbox": [
+            87.2,
+            523.21,
+            307.22,
+            537.64
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "freezes the display when the reading stabilizes."
+        },
+        {
+          "bbox": [
+            87.2,
+            543.21,
+            526.04,
+            557.72
+          ],
+          "blockIndex": 26,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Step 6: Calibrate against a known reference. Compare your readings to a real multimeter. Add"
+        },
+        {
+          "bbox": [
+            87.2,
+            559.21,
+            516.13,
+            573.64
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "calibration constants in code to correct for resistor tolerance and ADC offset. Document your"
+        },
+        {
+          "bbox": [
+            87.2,
+            575.21,
+            379.88,
+            589.64
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "accuracy: ±X% for each mode. This data goes in your portfolio."
+        }
+      ],
+      "charCount": 2109,
+      "height": 792.0,
+      "pageNumber": 10,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            210.66,
+            758.2,
+            401.34,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "@1nska  •  6 EE Projects Recruiters Want  •  Page 11"
+        },
+        {
+          "bbox": [
+            108.8,
+            69.26,
+            332.27,
+            83.72
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Interview questions you should be ready for:"
+        },
+        {
+          "bbox": [
+            108.8,
+            101.21,
+            357.24,
+            115.64
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "→ How does your voltage measurement circuit work?"
+        },
+        {
+          "bbox": [
+            108.8,
+            117.21,
+            405.15,
+            131.64
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "→ Why do you need input protection? What happens without it?"
+        },
+        {
+          "bbox": [
+            108.8,
+            133.21,
+            389.94,
+            147.64
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "→ How do you measure current without breaking the circuit?"
+        },
+        {
+          "bbox": [
+            108.8,
+            149.21,
+            328.64,
+            163.64
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "→ What limits the accuracy of your multimeter?"
+        },
+        {
+          "bbox": [
+            108.8,
+            165.21,
+            375.04,
+            179.64
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "→ What's the resolution of a 10-bit ADC at 5V reference?"
+        },
+        {
+          "bbox": [
+            108.8,
+            181.21,
+            281.41,
+            195.64
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "→ How would you add auto-ranging?"
+        },
+        {
+          "bbox": [
+            108.8,
+            197.21,
+            404.22,
+            211.64
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "→ What's the difference between your DMM and a $200 Fluke?"
+        },
+        {
+          "bbox": [
+            67.2,
+            245.09,
+            126.43,
+            262.99
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Tutorials:"
+        },
+        {
+          "bbox": [
+            87.2,
+            269.25,
+            227.97,
+            282.99
+          ],
+          "blockIndex": 10,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "• Video: DIY Arduino multimeter"
+        },
+        {
+          "bbox": [
+            87.2,
+            287.25,
+            265.74,
+            300.99
+          ],
+          "blockIndex": 11,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "• Video: How multimeters work internally"
+        },
+        {
+          "bbox": [
+            87.2,
+            305.25,
+            214.63,
+            318.99
+          ],
+          "blockIndex": 12,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "• Written: ADC fundamentals"
+        },
+        {
+          "bbox": [
+            67.2,
+            332.09,
+            166.14,
+            349.99
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Documentation:"
+        },
+        {
+          "bbox": [
+            87.2,
+            356.25,
+            196.85,
+            369.99
+          ],
+          "blockIndex": 14,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "• Arduino ADC reference"
+        },
+        {
+          "bbox": [
+            87.2,
+            374.25,
+            196.29,
+            387.99
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "• SSD1306 OLED library"
+        },
+        {
+          "bbox": [
+            87.2,
+            392.25,
+            221.89,
+            405.99
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "• Input protection design guide"
+        },
+        {
+          "bbox": [
+            108.8,
+            426.21,
+            463.58,
+            440.72
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Level up: Add AC voltage measurement with a rectifier circuit and true RMS"
+        },
+        {
+          "bbox": [
+            108.8,
+            442.21,
+            499.22,
+            456.64
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "calculation. Then add a frequency counter mode using timer/counter interrupts. Now"
+        },
+        {
+          "bbox": [
+            108.8,
+            458.21,
+            442.56,
+            472.64
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "you have a 5-mode instrument that rivals basic commercial multimeters."
+        }
+      ],
+      "charCount": 880,
+      "height": 792.0,
+      "pageNumber": 11,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            210.66,
+            758.2,
+            401.34,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "@1nska  •  6 EE Projects Recruiters Want  •  Page 12"
+        },
+        {
+          "bbox": [
+            67.2,
+            58.04,
+            98.34,
+            96.6
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "#4"
+        },
+        {
+          "bbox": [
+            67.2,
+            106.74,
+            438.29,
+            131.53
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Buck Converter — Switching Power Supply"
+        },
+        {
+          "bbox": [
+            67.2,
+            135.3,
+            268.84,
+            149.07
+          ],
+          "blockIndex": 3,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "POWER • SMPS • MOSFETS • MAGNETICS"
+        },
+        {
+          "bbox": [
+            67.2,
+            157.21,
+            397.93,
+            171.72
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Difficulty: ####I Intermediate | Cost: $12-18 | Time: 2-3 weekends"
+        },
+        {
+          "bbox": [
+            67.2,
+            459.21,
+            544.8,
+            473.72
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Why recruiters want to see this: Power electronics is the most underserved skill in EE hiring. Every"
+        },
+        {
+          "bbox": [
+            67.2,
+            475.21,
+            544.8,
+            489.64
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "electronic device has a power supply, yet most graduates can't design one. Companies like Texas"
+        },
+        {
+          "bbox": [
+            67.2,
+            491.21,
+            544.8,
+            505.64
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Instruments, Analog Devices, Tesla, and Apple need power engineers. If you can design a buck"
+        },
+        {
+          "bbox": [
+            67.2,
+            507.21,
+            544.8,
+            521.64
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "converter, explain your inductor selection, and show efficiency measurements — you qualify for roles"
+        },
+        {
+          "bbox": [
+            67.2,
+            523.21,
+            160.84,
+            537.64
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "most students don't."
+        },
+        {
+          "bbox": [
+            67.2,
+            547.21,
+            544.8,
+            561.64
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Design a synchronous buck converter: 12V input, 5V output, 3A max, targeting >85% efficiency. Work"
+        },
+        {
+          "bbox": [
+            67.2,
+            563.21,
+            544.8,
+            577.64
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "through component calculations, simulate in LTspice, build on a custom PCB (or breadboard for"
+        },
+        {
+          "bbox": [
+            67.2,
+            579.21,
+            544.8,
+            593.64
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "testing), and measure efficiency across load points. The efficiency curve you produce IS your portfolio"
+        },
+        {
+          "bbox": [
+            67.2,
+            595.21,
+            94.05,
+            609.64
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "proof."
+        },
+        {
+          "bbox": [
+            67.2,
+            623.09,
+            163.99,
+            640.99
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "What you need:"
+        },
+        {
+          "bbox": [
+            87.2,
+            647.21,
+            291.31,
+            661.64
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "• N-channel MOSFETs (IRLZ44N) × 2 — $1"
+        },
+        {
+          "bbox": [
+            87.2,
+            667.21,
+            260.7,
+            681.64
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "• IR2104 half-bridge gate driver — $1"
+        },
+        {
+          "bbox": [
+            87.2,
+            687.21,
+            305.05,
+            701.64
+          ],
+          "blockIndex": 17,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "• 10uH power inductor (5A saturation) — $1.50"
+        },
+        {
+          "bbox": [
+            87.2,
+            707.21,
+            284.95,
+            721.64
+          ],
+          "blockIndex": 18,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "• 100uF + 22uF output capacitors — $0.50"
+        }
+      ],
+      "charCount": 1074,
+      "height": 792.0,
+      "pageNumber": 12,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            210.66,
+            758.2,
+            401.34,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "@1nska  •  6 EE Projects Recruiters Want  •  Page 13"
+        },
+        {
+          "bbox": [
+            87.2,
+            59.21,
+            309.45,
+            73.64
+          ],
+          "blockIndex": 1,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• 22uF input capacitor + 100nF bypass — $0.40"
+        },
+        {
+          "bbox": [
+            87.2,
+            79.21,
+            287.26,
+            93.64
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• Feedback resistors (10K + 3.3K) — $0.05"
+        },
+        {
+          "bbox": [
+            87.2,
+            99.21,
+            289.28,
+            113.64
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• Arduino Nano (for PWM generation) — $3"
+        },
+        {
+          "bbox": [
+            87.2,
+            119.21,
+            290.44,
+            133.64
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• Current sense resistor (10mohm) — $0.30"
+        },
+        {
+          "bbox": [
+            87.2,
+            139.21,
+            249.58,
+            153.64
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• Custom PCB from JLCPCB — $2"
+        },
+        {
+          "bbox": [
+            67.2,
+            167.09,
+            178.47,
+            184.99
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Skills this proves:"
+        },
+        {
+          "bbox": [
+            87.2,
+            191.21,
+            457.91,
+            205.72
+          ],
+          "blockIndex": 7,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• Buck converter topology — switching regulation, duty cycle determines Vout"
+        },
+        {
+          "bbox": [
+            87.2,
+            211.21,
+            429.9,
+            225.72
+          ],
+          "blockIndex": 8,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• MOSFET gate driving — bootstrap circuits, dead time, high-side driving"
+        },
+        {
+          "bbox": [
+            87.2,
+            231.21,
+            487.66,
+            245.72
+          ],
+          "blockIndex": 9,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• Inductor selection — saturation current, DCR, core material for switching frequency"
+        },
+        {
+          "bbox": [
+            87.2,
+            251.21,
+            469.0,
+            265.72
+          ],
+          "blockIndex": 10,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• Feedback loop design — voltage divider sensing, error amplifier, compensation"
+        },
+        {
+          "bbox": [
+            87.2,
+            271.21,
+            420.0,
+            285.72
+          ],
+          "blockIndex": 11,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• LTspice simulation — verifying your design before building hardware"
+        },
+        {
+          "bbox": [
+            87.2,
+            291.21,
+            449.78,
+            305.72
+          ],
+          "blockIndex": 12,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• Efficiency measurement — input power vs output power across load points"
+        },
+        {
+          "bbox": [
+            87.2,
+            311.21,
+            438.06,
+            325.72
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• PCB layout for power — trace width for current, minimizing hot loop area"
+        },
+        {
+          "bbox": [
+            67.2,
+            339.09,
+            184.93,
+            356.99
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Step-by-step build:"
+        },
+        {
+          "bbox": [
+            87.2,
+            363.21,
+            533.93,
+            377.72
+          ],
+          "blockIndex": 15,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Step 1: Design calculations. Duty cycle: D = 5/12 = 41.7%. Inductor: L = Vout×(1-D)/(fsw×deltaI)"
+        },
+        {
+          "bbox": [
+            87.2,
+            379.21,
+            544.8,
+            393.64
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "— target 20-30% ripple. At 300kHz: L = 5×0.583/(300k×0.9) = 10.8uH → use 10uH. Peak current ="
+        },
+        {
+          "bbox": [
+            87.2,
+            395.21,
+            300.7,
+            409.64
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "3 + 0.45 = 3.45A → choose 5A rated inductor."
+        },
+        {
+          "bbox": [
+            87.2,
+            415.21,
+            541.77,
+            429.72
+          ],
+          "blockIndex": 18,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Step 2: Simulate in LTspice. Build the full circuit with actual MOSFET spice models. Run transient"
+        },
+        {
+          "bbox": [
+            87.2,
+            431.21,
+            542.11,
+            445.64
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "simulation for 10ms. Verify: output settles to 5.0V ±50mV, inductor current is triangular, no voltage"
+        },
+        {
+          "bbox": [
+            87.2,
+            447.21,
+            363.82,
+            461.64
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "spikes above MOSFET rating. Sweep load from 0.5A to 3A."
+        },
+        {
+          "bbox": [
+            87.2,
+            467.21,
+            536.54,
+            481.72
+          ],
+          "blockIndex": 21,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Step 3: Build the circuit. On a breadboard for testing, or custom PCB for portfolio quality. Critical:"
+        },
+        {
+          "bbox": [
+            87.2,
+            483.21,
+            522.53,
+            497.64
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "input cap must be within 10mm of high-side MOSFET. Minimize the hot loop area. Gate driver"
+        },
+        {
+          "bbox": [
+            87.2,
+            499.21,
+            306.03,
+            513.64
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "should be close to MOSFETs with short traces."
+        },
+        {
+          "bbox": [
+            87.2,
+            519.21,
+            535.98,
+            533.72
+          ],
+          "blockIndex": 24,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Step 4: Bring up carefully. Before connecting 12V: verify no shorts between Vin and GND. Use a"
+        },
+        {
+          "bbox": [
+            87.2,
+            535.21,
+            537.43,
+            549.64
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "current-limited supply at 100mA first. Check for ~5V output with no load. Gradually increase load:"
+        },
+        {
+          "bbox": [
+            87.2,
+            551.21,
+            198.85,
+            565.64
+          ],
+          "blockIndex": 26,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "0.5A → 1A → 2A → 3A."
+        },
+        {
+          "bbox": [
+            87.2,
+            571.21,
+            517.32,
+            585.72
+          ],
+          "blockIndex": 27,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Step 5: Measure efficiency. At each load point: measure Vin×Iin (input power) and Vout×Iout"
+        },
+        {
+          "bbox": [
+            87.2,
+            587.21,
+            526.67,
+            601.64
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "(output power). Efficiency = Pout/Pin × 100%. Plot efficiency vs load current. Expected: 75% at"
+        },
+        {
+          "bbox": [
+            87.2,
+            603.21,
+            190.51,
+            617.64
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "0.5A, 85-90% at 2-3A."
+        },
+        {
+          "bbox": [
+            87.2,
+            623.21,
+            538.87,
+            637.72
+          ],
+          "blockIndex": 30,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Step 6: Document the results. Your README should include: schematic, PCB layout screenshot,"
+        },
+        {
+          "bbox": [
+            87.2,
+            639.21,
+            531.31,
+            653.64
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "efficiency curve plot, output ripple oscilloscope screenshot, and thermal photos if available. This"
+        },
+        {
+          "bbox": [
+            87.2,
+            655.21,
+            399.43,
+            669.64
+          ],
+          "blockIndex": 32,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "data set is what separates a student project from engineering work."
+        }
+      ],
+      "charCount": 2214,
+      "height": 792.0,
+      "pageNumber": 13,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            210.66,
+            758.2,
+            401.34,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "@1nska  •  6 EE Projects Recruiters Want  •  Page 14"
+        },
+        {
+          "bbox": [
+            108.8,
+            69.26,
+            332.27,
+            83.72
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Interview questions you should be ready for:"
+        },
+        {
+          "bbox": [
+            108.8,
+            101.21,
+            454.73,
+            115.64
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "→ How does a buck converter work? What determines the output voltage?"
+        },
+        {
+          "bbox": [
+            108.8,
+            117.21,
+            446.56,
+            131.64
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "→ How did you select your inductor value? What happens if it saturates?"
+        },
+        {
+          "bbox": [
+            108.8,
+            133.21,
+            445.08,
+            147.64
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "→ What's the difference between synchronous and asynchronous buck?"
+        },
+        {
+          "bbox": [
+            108.8,
+            149.21,
+            463.66,
+            163.64
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "→ Why does PCB layout matter for power converters? What's the 'hot loop'?"
+        },
+        {
+          "bbox": [
+            108.8,
+            165.21,
+            472.79,
+            179.64
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "→ What are the dominant loss mechanisms? How did you optimize efficiency?"
+        },
+        {
+          "bbox": [
+            108.8,
+            181.21,
+            439.56,
+            195.64
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "→ Compare a buck converter to an LDO — when would you use each?"
+        },
+        {
+          "bbox": [
+            108.8,
+            197.21,
+            377.98,
+            211.64
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "→ How would you modify this design for 90%+ efficiency?"
+        },
+        {
+          "bbox": [
+            108.8,
+            213.21,
+            334.77,
+            227.64
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "→ What's the role of the compensation network?"
+        },
+        {
+          "bbox": [
+            67.2,
+            261.09,
+            126.43,
+            278.99
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Tutorials:"
+        },
+        {
+          "bbox": [
+            87.2,
+            285.25,
+            256.33,
+            298.99
+          ],
+          "blockIndex": 11,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "• Video: Buck converter design tutorial"
+        },
+        {
+          "bbox": [
+            87.2,
+            303.25,
+            269.1,
+            316.99
+          ],
+          "blockIndex": 12,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "• Video: LTspice power supply simulation"
+        },
+        {
+          "bbox": [
+            87.2,
+            321.25,
+            267.43,
+            334.99
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "• Written: TI Power Supply Design Guide"
+        },
+        {
+          "bbox": [
+            67.2,
+            348.09,
+            166.14,
+            365.99
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Documentation:"
+        },
+        {
+          "bbox": [
+            87.2,
+            372.25,
+            224.64,
+            385.99
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "• IRLZ44N MOSFET datasheet"
+        },
+        {
+          "bbox": [
+            87.2,
+            390.25,
+            222.44,
+            403.99
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "• IR2104 gate driver datasheet"
+        },
+        {
+          "bbox": [
+            87.2,
+            408.25,
+            174.07,
+            421.99
+          ],
+          "blockIndex": 17,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "• LTspice download"
+        },
+        {
+          "bbox": [
+            87.2,
+            426.25,
+            230.17,
+            439.99
+          ],
+          "blockIndex": 18,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "• TI WEBENCH Power Designer"
+        },
+        {
+          "bbox": [
+            108.8,
+            460.21,
+            492.06,
+            474.72
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Level up: Design a boost converter (5V → 12V) using the same principles. Having"
+        },
+        {
+          "bbox": [
+            108.8,
+            476.21,
+            492.22,
+            490.64
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "both buck AND boost on your portfolio shows versatility. Then design a buck-boost"
+        },
+        {
+          "bbox": [
+            108.8,
+            492.21,
+            469.5,
+            506.64
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "for battery applications where input voltage can be above or below the output."
+        }
+      ],
+      "charCount": 1093,
+      "height": 792.0,
+      "pageNumber": 14,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            210.66,
+            758.2,
+            401.34,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "@1nska  •  6 EE Projects Recruiters Want  •  Page 15"
+        },
+        {
+          "bbox": [
+            67.2,
+            58.04,
+            98.34,
+            96.6
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "#5"
+        },
+        {
+          "bbox": [
+            67.2,
+            106.74,
+            362.27,
+            131.53
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "UART / SPI / I2C Protocol Analyzer"
+        },
+        {
+          "bbox": [
+            67.2,
+            135.3,
+            313.28,
+            149.07
+          ],
+          "blockIndex": 3,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "PROTOCOLS • DEBUGGING • EMBEDDED • SERIAL"
+        },
+        {
+          "bbox": [
+            67.2,
+            157.21,
+            392.09,
+            171.72
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Difficulty: ####I Intermediate | Cost: $8-12 | Time: 2-3 weekends"
+        },
+        {
+          "bbox": [
+            67.2,
+            459.21,
+            544.8,
+            473.72
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Why recruiters want to see this: Every embedded systems job involves debugging communication"
+        },
+        {
+          "bbox": [
+            67.2,
+            475.21,
+            544.8,
+            489.64
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "between chips. Building a protocol analyzer proves you understand UART, SPI, and I2C at the byte"
+        },
+        {
+          "bbox": [
+            67.2,
+            491.21,
+            544.8,
+            505.64
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "level — not just calling library functions, but understanding what's actually happening on the wires. This"
+        },
+        {
+          "bbox": [
+            67.2,
+            507.21,
+            393.42,
+            521.64
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "is a tool that working engineers use daily, and you built it from scratch."
+        },
+        {
+          "bbox": [
+            67.2,
+            531.21,
+            544.8,
+            545.64
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Build a device that passively taps into serial communication lines and decodes the data in real time."
+        },
+        {
+          "bbox": [
+            67.2,
+            547.21,
+            544.8,
+            561.64
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Connect to any UART, SPI, or I2C bus and see the decoded bytes, addresses, and timing on your"
+        },
+        {
+          "bbox": [
+            67.2,
+            563.21,
+            441.53,
+            577.64
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "OLED screen or serial terminal. It's a $200 Saleae logic analyzer — built for $10."
+        },
+        {
+          "bbox": [
+            67.2,
+            591.09,
+            163.99,
+            608.99
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "What you need:"
+        },
+        {
+          "bbox": [
+            87.2,
+            615.21,
+            343.25,
+            629.64
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "• Arduino Mega (multiple serial ports + interrupts) — $6"
+        },
+        {
+          "bbox": [
+            87.2,
+            635.21,
+            282.52,
+            649.64
+          ],
+          "blockIndex": 14,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "• 0.96\" OLED display (SSD1306) — $2.50"
+        },
+        {
+          "bbox": [
+            87.2,
+            655.21,
+            335.24,
+            669.64
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "• Bidirectional logic level shifter (3.3V ↔ 5V) — $0.50"
+        },
+        {
+          "bbox": [
+            87.2,
+            675.21,
+            290.15,
+            689.64
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "• Header pins + probe wires with clips — $1"
+        },
+        {
+          "bbox": [
+            87.2,
+            695.21,
+            330.73,
+            709.64
+          ],
+          "blockIndex": 17,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "• Test target: any I2C/SPI sensor from your parts bin"
+        }
+      ],
+      "charCount": 1097,
+      "height": 792.0,
+      "pageNumber": 15,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            210.66,
+            758.2,
+            401.34,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "@1nska  •  6 EE Projects Recruiters Want  •  Page 16"
+        },
+        {
+          "bbox": [
+            67.2,
+            59.09,
+            178.47,
+            76.99
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Skills this proves:"
+        },
+        {
+          "bbox": [
+            87.2,
+            83.21,
+            436.9,
+            97.72
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "• UART protocol — asynchronous serial, baud rate, start/stop bits, framing"
+        },
+        {
+          "bbox": [
+            87.2,
+            103.21,
+            435.16,
+            117.72
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "• SPI protocol — clock polarity/phase, MOSI/MISO, chip select, full duplex"
+        },
+        {
+          "bbox": [
+            87.2,
+            123.21,
+            453.84,
+            137.72
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "• I2C protocol — addressing, start/stop conditions, ACK/NACK, bus arbitration"
+        },
+        {
+          "bbox": [
+            87.2,
+            143.21,
+            430.47,
+            157.72
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "• Interrupt-driven capture — using hardware interrupts for precise timing"
+        },
+        {
+          "bbox": [
+            87.2,
+            163.21,
+            424.67,
+            177.72
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "• Bit-level decoding — converting raw signal edges to meaningful bytes"
+        },
+        {
+          "bbox": [
+            87.2,
+            183.21,
+            421.69,
+            197.72
+          ],
+          "blockIndex": 7,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "• Embedded debugging — the most practical skill for any firmware role"
+        },
+        {
+          "bbox": [
+            67.2,
+            211.09,
+            184.93,
+            228.99
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Step-by-step build:"
+        },
+        {
+          "bbox": [
+            87.2,
+            235.21,
+            524.25,
+            249.72
+          ],
+          "blockIndex": 9,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Step 1: Build the UART decoder first (simplest). Connect a probe wire to a UART TX line. Use"
+        },
+        {
+          "bbox": [
+            87.2,
+            251.21,
+            533.09,
+            265.64
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Serial1 on the Mega to capture incoming bytes. Auto-detect baud rate by measuring the width of"
+        },
+        {
+          "bbox": [
+            87.2,
+            267.21,
+            521.09,
+            281.64
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "the start bit. Display decoded ASCII and hex on the OLED. Test by decoding a GPS module's"
+        },
+        {
+          "bbox": [
+            87.2,
+            283.21,
+            152.56,
+            297.64
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "NMEA output."
+        },
+        {
+          "bbox": [
+            87.2,
+            303.21,
+            514.97,
+            317.72
+          ],
+          "blockIndex": 13,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Step 2: Build the SPI decoder. Connect probes to SCK, MOSI, MISO, and CS lines. Use pin"
+        },
+        {
+          "bbox": [
+            87.2,
+            319.21,
+            544.8,
+            333.64
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "change interrupts on SCK to capture data bits on each clock edge. Group bits into bytes. When CS"
+        },
+        {
+          "bbox": [
+            87.2,
+            335.21,
+            518.18,
+            349.64
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "goes high, that's the end of a transaction. Display: [CS] [command byte] [data bytes] for each"
+        },
+        {
+          "bbox": [
+            87.2,
+            351.21,
+            141.47,
+            365.64
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "transaction."
+        },
+        {
+          "bbox": [
+            87.2,
+            371.21,
+            540.07,
+            385.72
+          ],
+          "blockIndex": 17,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Step 3: Build the I2C decoder. Connect probes to SDA and SCL. Detect start condition (SDA falls"
+        },
+        {
+          "bbox": [
+            87.2,
+            387.21,
+            517.57,
+            401.64
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "while SCL is high). Capture 8 bits + ACK on each clock cycle. First byte = address + R/W bit."
+        },
+        {
+          "bbox": [
+            87.2,
+            403.21,
+            453.67,
+            417.64
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Display: [START] [addr] [R/W] [data] [ACK/NACK] [STOP] for each transaction."
+        },
+        {
+          "bbox": [
+            87.2,
+            423.21,
+            536.74,
+            437.72
+          ],
+          "blockIndex": 20,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Step 4: Add protocol auto-detection. If you see a clock line with regular edges + CS pin → SPI. If"
+        },
+        {
+          "bbox": [
+            87.2,
+            439.21,
+            540.94,
+            453.64
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "you see two wires with start/stop conditions → I2C. If you see a single async line → UART. Select"
+        },
+        {
+          "bbox": [
+            87.2,
+            455.21,
+            322.99,
+            469.64
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "mode automatically based on what you connect to."
+        },
+        {
+          "bbox": [
+            87.2,
+            475.21,
+            534.77,
+            489.72
+          ],
+          "blockIndex": 23,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Step 5: Add timing analysis. Measure and display: clock frequency (SPI/I2C), baud rate (UART),"
+        },
+        {
+          "bbox": [
+            87.2,
+            491.21,
+            515.58,
+            505.64
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "time between transactions, and total transaction duration. This timing data is often the key to"
+        },
+        {
+          "bbox": [
+            87.2,
+            507.21,
+            272.2,
+            521.64
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "finding bugs in real embedded systems."
+        },
+        {
+          "bbox": [
+            87.2,
+            527.21,
+            514.98,
+            541.72
+          ],
+          "blockIndex": 26,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Step 6: Build a decode log. Store the last 50 decoded transactions in a circular buffer. Scroll"
+        },
+        {
+          "bbox": [
+            87.2,
+            543.21,
+            540.67,
+            557.64
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "through them on the OLED. Optionally stream the full decode log over USB to a Python script that"
+        },
+        {
+          "bbox": [
+            87.2,
+            559.21,
+            241.84,
+            573.64
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "saves it to a file for later analysis."
+        }
+      ],
+      "charCount": 2066,
+      "height": 792.0,
+      "pageNumber": 16,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            210.66,
+            758.2,
+            401.34,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "@1nska  •  6 EE Projects Recruiters Want  •  Page 17"
+        },
+        {
+          "bbox": [
+            108.8,
+            69.26,
+            332.27,
+            83.72
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Interview questions you should be ready for:"
+        },
+        {
+          "bbox": [
+            108.8,
+            101.21,
+            365.45,
+            115.64
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "→ Explain the difference between UART, SPI, and I2C."
+        },
+        {
+          "bbox": [
+            108.8,
+            117.21,
+            417.4,
+            131.64
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "→ When would you choose SPI over I2C? What are the tradeoffs?"
+        },
+        {
+          "bbox": [
+            108.8,
+            133.21,
+            452.38,
+            147.64
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "→ How does I2C addressing work? What happens with address conflicts?"
+        },
+        {
+          "bbox": [
+            108.8,
+            149.21,
+            351.41,
+            163.64
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "→ What determines the maximum SPI clock speed?"
+        },
+        {
+          "bbox": [
+            108.8,
+            165.21,
+            418.55,
+            179.64
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "→ How do you debug a communication failure between two chips?"
+        },
+        {
+          "bbox": [
+            108.8,
+            181.21,
+            378.56,
+            195.64
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "→ What's a logic level shifter and when do you need one?"
+        },
+        {
+          "bbox": [
+            108.8,
+            197.21,
+            405.98,
+            211.64
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "→ How would you decode a protocol you've never seen before?"
+        },
+        {
+          "bbox": [
+            67.2,
+            245.09,
+            126.43,
+            262.99
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Tutorials:"
+        },
+        {
+          "bbox": [
+            87.2,
+            269.25,
+            260.21,
+            282.99
+          ],
+          "blockIndex": 10,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "• Video: UART vs SPI vs I2C explained"
+        },
+        {
+          "bbox": [
+            87.2,
+            287.25,
+            290.23,
+            300.99
+          ],
+          "blockIndex": 11,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "• Video: Building a logic analyzer with Arduino"
+        },
+        {
+          "bbox": [
+            87.2,
+            305.25,
+            238.53,
+            318.99
+          ],
+          "blockIndex": 12,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "• Written: SparkFun — SPI tutorial"
+        },
+        {
+          "bbox": [
+            67.2,
+            332.09,
+            166.14,
+            349.99
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Documentation:"
+        },
+        {
+          "bbox": [
+            87.2,
+            356.25,
+            196.84,
+            369.99
+          ],
+          "blockIndex": 14,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "• I2C specification (NXP)"
+        },
+        {
+          "bbox": [
+            87.2,
+            374.25,
+            192.97,
+            387.99
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "• SPI protocol reference"
+        },
+        {
+          "bbox": [
+            87.2,
+            392.25,
+            252.99,
+            405.99
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "• Arduino Mega pinout (interrupt pins)"
+        },
+        {
+          "bbox": [
+            87.2,
+            410.25,
+            204.07,
+            423.99
+          ],
+          "blockIndex": 17,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "• UART protocol reference"
+        },
+        {
+          "bbox": [
+            108.8,
+            444.21,
+            473.53,
+            458.72
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Level up: Add a trigger system — start capturing only when you see a specific"
+        },
+        {
+          "bbox": [
+            108.8,
+            460.21,
+            489.87,
+            474.64
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "address or byte pattern. This is how professional protocol analyzers work (Saleae,"
+        },
+        {
+          "bbox": [
+            108.8,
+            476.21,
+            494.57,
+            490.64
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Teledyne). Then add a Python GUI that displays decoded packets with color-coded"
+        },
+        {
+          "bbox": [
+            108.8,
+            492.21,
+            260.52,
+            506.64
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "fields and search/filter capability."
+        }
+      ],
+      "charCount": 1027,
+      "height": 792.0,
+      "pageNumber": 17,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            210.66,
+            758.2,
+            401.34,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "@1nska  •  6 EE Projects Recruiters Want  •  Page 18"
+        },
+        {
+          "bbox": [
+            67.2,
+            58.04,
+            98.34,
+            96.6
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "#6"
+        },
+        {
+          "bbox": [
+            67.2,
+            106.74,
+            441.28,
+            131.53
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "FPGA LED Matrix Controller — Pure Verilog"
+        },
+        {
+          "bbox": [
+            67.2,
+            135.3,
+            268.84,
+            149.07
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "FPGA • VERILOG • DIGITAL DESIGN • HDL"
+        },
+        {
+          "bbox": [
+            67.2,
+            157.21,
+            448.7,
+            171.72
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Difficulty: ##### Intermediate-Advanced | Cost: $20-30 | Time: 3-4 weekends"
+        },
+        {
+          "bbox": [
+            67.2,
+            459.21,
+            544.8,
+            473.72
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Why recruiters want to see this: FPGA engineers are among the highest-paid in EE — $120-180K"
+        },
+        {
+          "bbox": [
+            67.2,
+            475.21,
+            544.8,
+            489.64
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "entry level at Intel, AMD, Qualcomm, NVIDIA, SpaceX. The supply of qualified engineers is tiny"
+        },
+        {
+          "bbox": [
+            67.2,
+            491.21,
+            544.8,
+            505.64
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "because most universities barely cover FPGAs. If you can show a working FPGA project written in"
+        },
+        {
+          "bbox": [
+            67.2,
+            507.21,
+            544.8,
+            521.64
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Verilog, you immediately qualify for roles most graduates can't even apply for. This single project can"
+        },
+        {
+          "bbox": [
+            67.2,
+            523.21,
+            206.67,
+            537.64
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "change your career trajectory."
+        },
+        {
+          "bbox": [
+            67.2,
+            547.21,
+            544.8,
+            561.64
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Write a Verilog controller that drives a 32×32 RGB LED matrix panel. No Arduino. No library. Pure"
+        },
+        {
+          "bbox": [
+            67.2,
+            563.21,
+            544.8,
+            577.64
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "digital logic — you design the clock divider, row scanner, column driver, frame buffer, and pattern"
+        },
+        {
+          "bbox": [
+            67.2,
+            579.21,
+            544.8,
+            593.64
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "generator as separate Verilog modules. Simulate each module with testbenches, synthesize with"
+        },
+        {
+          "bbox": [
+            67.2,
+            595.21,
+            332.76,
+            609.64
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "open-source tools, and program onto a $15 FPGA board."
+        },
+        {
+          "bbox": [
+            67.2,
+            623.09,
+            163.99,
+            640.99
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "What you need:"
+        },
+        {
+          "bbox": [
+            87.2,
+            647.21,
+            367.48,
+            661.64
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "• Tang Nano 9K FPGA dev board (Gowin GW1NR-9) — $15"
+        },
+        {
+          "bbox": [
+            87.2,
+            667.21,
+            347.35,
+            681.64
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "• 32×32 RGB LED matrix panel (HUB75 interface) — $8"
+        },
+        {
+          "bbox": [
+            87.2,
+            687.21,
+            289.29,
+            701.64
+          ],
+          "blockIndex": 17,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "• 5V 4A power supply (for LED panel) — $3"
+        },
+        {
+          "bbox": [
+            87.2,
+            707.21,
+            249.31,
+            721.64
+          ],
+          "blockIndex": 18,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "• Pin headers + jumper wires — $1"
+        }
+      ],
+      "charCount": 1153,
+      "height": 792.0,
+      "pageNumber": 18,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            210.66,
+            758.2,
+            401.34,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "@1nska  •  6 EE Projects Recruiters Want  •  Page 19"
+        },
+        {
+          "bbox": [
+            87.2,
+            59.21,
+            296.84,
+            73.64
+          ],
+          "blockIndex": 1,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "• USB-C cable (for programming) — included"
+        },
+        {
+          "bbox": [
+            67.2,
+            87.09,
+            178.47,
+            104.99
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Skills this proves:"
+        },
+        {
+          "bbox": [
+            87.2,
+            111.21,
+            372.71,
+            125.72
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "• Verilog HDL — writing synthesizable hardware descriptions"
+        },
+        {
+          "bbox": [
+            87.2,
+            131.21,
+            422.92,
+            145.72
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "• Digital design — combinational logic, sequential logic, state machines"
+        },
+        {
+          "bbox": [
+            87.2,
+            151.21,
+            437.2,
+            165.72
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "• Simulation — writing testbenches, verifying in Icarus Verilog + GTKWave"
+        },
+        {
+          "bbox": [
+            87.2,
+            171.21,
+            420.61,
+            185.72
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "• Synthesis — understanding how Verilog becomes gates and flip-flops"
+        },
+        {
+          "bbox": [
+            87.2,
+            191.21,
+            414.73,
+            205.72
+          ],
+          "blockIndex": 7,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "• LED matrix multiplexing — row scanning, timing, brightness control"
+        },
+        {
+          "bbox": [
+            87.2,
+            211.21,
+            345.87,
+            225.72
+          ],
+          "blockIndex": 8,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "• Memory design — using block RAM for frame buffers"
+        },
+        {
+          "bbox": [
+            67.2,
+            239.09,
+            184.93,
+            256.99
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Step-by-step build:"
+        },
+        {
+          "bbox": [
+            87.2,
+            263.21,
+            513.8,
+            277.72
+          ],
+          "blockIndex": 10,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Step 1: Set up the toolchain. Install Yosys (synthesis), nextpnr-gowin (place and route), and"
+        },
+        {
+          "bbox": [
+            87.2,
+            279.21,
+            544.8,
+            293.64
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "openFPGALoader (programming). All free and open source. Alternatively use Gowin's IDE. Write a"
+        },
+        {
+          "bbox": [
+            87.2,
+            295.21,
+            362.61,
+            309.64
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "simple LED blinker in Verilog to verify your toolchain works."
+        },
+        {
+          "bbox": [
+            87.2,
+            315.21,
+            517.29,
+            329.72
+          ],
+          "blockIndex": 13,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Step 2: Write the clock divider module. The Tang Nano 9K has a 27MHz crystal. You need a"
+        },
+        {
+          "bbox": [
+            87.2,
+            331.21,
+            529.5,
+            345.64
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "slower clock for LED refresh. Implement a configurable divider: input clock / 2^N = output clock."
+        },
+        {
+          "bbox": [
+            87.2,
+            347.21,
+            451.95,
+            361.64
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Write a testbench that verifies the output frequency. Simulate in Icarus Verilog."
+        },
+        {
+          "bbox": [
+            87.2,
+            367.21,
+            523.99,
+            381.72
+          ],
+          "blockIndex": 16,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Step 3: Write the row scanner. The 32×32 matrix has 16 row pairs (dual scan). A 4-bit counter"
+        },
+        {
+          "bbox": [
+            87.2,
+            383.21,
+            496.87,
+            397.64
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "selects which row pair is active. The scanner cycles through all 16 rows fast enough that"
+        },
+        {
+          "bbox": [
+            87.2,
+            399.21,
+            544.8,
+            413.64
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "persistence of vision makes it look like all rows are on simultaneously. Target: >100Hz refresh rate."
+        },
+        {
+          "bbox": [
+            87.2,
+            419.21,
+            541.78,
+            433.72
+          ],
+          "blockIndex": 19,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Step 4: Write the column driver. For each active row, shift out 32 pixels × 3 colors (RGB) = 96 bits"
+        },
+        {
+          "bbox": [
+            87.2,
+            435.21,
+            532.49,
+            449.64
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "of data through the HUB75 interface. This requires: shift clock, data lines (R1/G1/B1 for top half,"
+        },
+        {
+          "bbox": [
+            87.2,
+            451.21,
+            430.94,
+            465.64
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "R2/G2/B2 for bottom), latch, and output enable signals with correct timing."
+        },
+        {
+          "bbox": [
+            87.2,
+            471.21,
+            533.92,
+            485.72
+          ],
+          "blockIndex": 22,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Step 5: Add the frame buffer. Store a 32×32 RGB image in block RAM. The column driver reads"
+        },
+        {
+          "bbox": [
+            87.2,
+            487.21,
+            521.4,
+            501.64
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "pixel data from the buffer for the current row. Write a pattern generator that fills the buffer with"
+        },
+        {
+          "bbox": [
+            87.2,
+            503.21,
+            407.56,
+            517.64
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "animations: solid colors, scrolling rainbow, game of life, scrolling text."
+        },
+        {
+          "bbox": [
+            87.2,
+            523.21,
+            538.31,
+            537.72
+          ],
+          "blockIndex": 25,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Step 6: Add external input. Implement a SPI receiver module that accepts new frame data from a"
+        },
+        {
+          "bbox": [
+            87.2,
+            539.21,
+            499.23,
+            553.64
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "computer. A Python script sends images over SPI to update the display. Now you have a"
+        },
+        {
+          "bbox": [
+            87.2,
+            555.21,
+            374.31,
+            569.64
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "computer-controlled LED display running on pure FPGA logic."
+        }
+      ],
+      "charCount": 2097,
+      "height": 792.0,
+      "pageNumber": 19,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            210.66,
+            758.2,
+            401.34,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "@1nska  •  6 EE Projects Recruiters Want  •  Page 20"
+        },
+        {
+          "bbox": [
+            108.8,
+            69.26,
+            332.27,
+            83.72
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Interview questions you should be ready for:"
+        },
+        {
+          "bbox": [
+            108.8,
+            101.21,
+            432.24,
+            115.64
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "→ What's the difference between combinational and sequential logic?"
+        },
+        {
+          "bbox": [
+            108.8,
+            117.21,
+            496.76,
+            131.64
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "→ Explain the FPGA synthesis flow — what happens between code and hardware?"
+        },
+        {
+          "bbox": [
+            108.8,
+            133.21,
+            389.35,
+            147.64
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "→ What is a state machine? Draw one for your row scanner."
+        },
+        {
+          "bbox": [
+            108.8,
+            149.21,
+            457.6,
+            163.64
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "→ How does LED matrix multiplexing work? What determines refresh rate?"
+        },
+        {
+          "bbox": [
+            108.8,
+            165.21,
+            449.5,
+            179.64
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "→ Why do we need setup and hold times? What happens when violated?"
+        },
+        {
+          "bbox": [
+            108.8,
+            181.21,
+            377.39,
+            195.64
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "→ What's the difference between an FPGA and an ASIC?"
+        },
+        {
+          "bbox": [
+            108.8,
+            197.21,
+            376.51,
+            211.64
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "→ How would you add PWM brightness control per pixel?"
+        },
+        {
+          "bbox": [
+            108.8,
+            213.21,
+            366.61,
+            227.64
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "→ What tools did you use for simulation and synthesis?"
+        },
+        {
+          "bbox": [
+            67.2,
+            261.09,
+            126.43,
+            278.99
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Tutorials:"
+        },
+        {
+          "bbox": [
+            87.2,
+            285.25,
+            249.66,
+            298.99
+          ],
+          "blockIndex": 11,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "• Video: Verilog tutorial for beginners"
+        },
+        {
+          "bbox": [
+            87.2,
+            303.25,
+            236.86,
+            316.99
+          ],
+          "blockIndex": 12,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "• Video: FPGA LED matrix project"
+        },
+        {
+          "bbox": [
+            87.2,
+            321.25,
+            243.55,
+            334.99
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "• Written: FPGA 101 getting started"
+        },
+        {
+          "bbox": [
+            67.2,
+            348.09,
+            166.14,
+            365.99
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Documentation:"
+        },
+        {
+          "bbox": [
+            87.2,
+            372.25,
+            226.33,
+            385.99
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "• Tang Nano 9K documentation"
+        },
+        {
+          "bbox": [
+            87.2,
+            390.25,
+            216.29,
+            403.99
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "• HUB75 LED matrix protocol"
+        },
+        {
+          "bbox": [
+            87.2,
+            408.25,
+            214.09,
+            421.99
+          ],
+          "blockIndex": 17,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "• Yosys open synthesis suite"
+        },
+        {
+          "bbox": [
+            87.2,
+            426.25,
+            197.95,
+            439.99
+          ],
+          "blockIndex": 18,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "• Icarus Verilog simulator"
+        },
+        {
+          "bbox": [
+            87.2,
+            444.25,
+            217.39,
+            457.99
+          ],
+          "blockIndex": 19,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "• GTKWave waveform viewer"
+        },
+        {
+          "bbox": [
+            108.8,
+            478.21,
+            503.2,
+            492.72
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Level up: Implement a simple RISC-V CPU core (RV32I subset) on the same FPGA."
+        },
+        {
+          "bbox": [
+            108.8,
+            494.21,
+            493.37,
+            508.64
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Use it to generate patterns on the LED matrix. Now your LED display is driven by a"
+        },
+        {
+          "bbox": [
+            108.8,
+            510.21,
+            491.29,
+            524.64
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "CPU you designed from scratch. That's the kind of project that makes FPGA hiring"
+        },
+        {
+          "bbox": [
+            108.8,
+            526.21,
+            317.15,
+            540.64
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "managers schedule an interview on the spot."
+        }
+      ],
+      "charCount": 1136,
+      "height": 792.0,
+      "pageNumber": 20,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            210.66,
+            758.2,
+            401.34,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "@1nska  •  6 EE Projects Recruiters Want  •  Page 21"
+        },
+        {
+          "bbox": [
+            67.2,
+            58.46,
+            240.82,
+            88.75
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Quick Reference"
+        },
+        {
+          "bbox": [
+            134.16,
+            107.33,
+            476.75,
+            120.42
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "#\nProject\nKey Skills\nTarget Roles\nCost"
+        },
+        {
+          "bbox": [
+            134.16,
+            135.29,
+            474.12,
+            148.34
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "1\nPID Motor Controller\nControls + Feedback\nControls / Robotics\n$18"
+        },
+        {
+          "bbox": [
+            134.16,
+            163.29,
+            474.12,
+            176.34
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "2\nCustom PCB\nKiCad + Manufacturing Hardware Engineer\n$10"
+        },
+        {
+          "bbox": [
+            134.16,
+            191.29,
+            474.12,
+            204.34
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "3\nDigital Multimeter\nADC + Measurement\nTest / Analog\n$12"
+        },
+        {
+          "bbox": [
+            134.16,
+            219.29,
+            474.12,
+            232.34
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "4\nBuck Converter\nPower Electronics\nPower Engineer\n$15"
+        },
+        {
+          "bbox": [
+            134.16,
+            247.29,
+            474.12,
+            260.34
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "5\nProtocol Analyzer\nUART/SPI/I2C\nEmbedded / Firmware\n$10"
+        },
+        {
+          "bbox": [
+            134.16,
+            275.29,
+            474.12,
+            288.34
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "6\nFPGA LED Matrix\nVerilog + Digital\nFPGA / ASIC\n$25"
+        },
+        {
+          "bbox": [
+            108.8,
+            321.21,
+            502.82,
+            335.72
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Priority order if you're short on time: PCB (#2) is the highest-ROI single project —"
+        },
+        {
+          "bbox": [
+            108.8,
+            337.21,
+            491.6,
+            351.64
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "it applies to every hardware role. PID (#1) is second — it covers the most common"
+        },
+        {
+          "bbox": [
+            108.8,
+            353.21,
+            486.95,
+            367.64
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "interview topic. Buck converter (#4) third — it opens the door to power electronics"
+        },
+        {
+          "bbox": [
+            108.8,
+            369.21,
+            388.64,
+            383.64
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "roles. Do those 3 and you're ahead of 90% of EE graduates."
+        },
+        {
+          "bbox": [
+            108.8,
+            427.21,
+            469.18,
+            441.72
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Follow @1nska on Instagram for build logs, career content, and new project"
+        },
+        {
+          "bbox": [
+            108.8,
+            443.21,
+            470.03,
+            457.64
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "guides. DM me your completed builds — I feature the best ones in my stories."
+        },
+        {
+          "bbox": [
+            263.73,
+            509.33,
+            348.27,
+            534.69
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "— Enes (@1nska)\nNYU Shanghai, 2026"
+        }
+      ],
+      "charCount": 933,
+      "height": 792.0,
+      "pageNumber": 21,
+      "textExtractable": true,
+      "width": 612.0
+    }
+  ],
+  "provenance": {
+    "confidence": "EXACT",
+    "extractionMethod": "pymupdf-blocks-v1",
+    "extractorVersion": "1.28.0",
+    "generatorVersion": null,
+    "origin": "extracted",
+    "source": "guide-024",
+    "sourceHash": "dae0b52f6d153254c18aa4cf8afb35efe5ce083c0b1558e955b990b7c0b447a1",
+    "sourcePage": null,
+    "sourcePath": "Engineering guides/LATESTrecruiter_ee_portfolio.pdf",
+    "sourceSection": "ROOT"
+  },
+  "relativePath": "Engineering guides/LATESTrecruiter_ee_portfolio.pdf",
+  "schemaVersion": "1.0.0",
+  "sha256": "dae0b52f6d153254c18aa4cf8afb35efe5ce083c0b1558e955b990b7c0b447a1",
+  "sourceId": "guide-024"
+}

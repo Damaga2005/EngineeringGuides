@@ -1,0 +1,4 @@
+pymupdf>=1.23.0
+pydantic>=2.5.0
+jsonschema>=4.20.0
+pytest>=8.0.0

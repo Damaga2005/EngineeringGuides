@@ -1,0 +1,5260 @@
+{
+  "metadata": {
+    "author": "(anonymous)",
+    "creationDate": "D:20260228082349+00'00'",
+    "creator": "(unspecified)",
+    "format": "PDF 1.4",
+    "modDate": "D:20260228082349+00'00'",
+    "producer": "ReportLab PDF Library - (opensource)",
+    "subject": "(unspecified)",
+    "title": "(anonymous)"
+  },
+  "pageCount": 22,
+  "pages": [
+    {
+      "blocks": [
+        {
+          "bbox": [
+            83.74,
+            161.36,
+            528.26,
+            253.42
+          ],
+          "blockIndex": 0,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "6 PORTFOLIO PROJECTS\nEVERY ME STUDENT NEEDS"
+        },
+        {
+          "bbox": [
+            236.74,
+            293.55,
+            375.26,
+            312.79
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Build these. Get hired."
+        },
+        {
+          "bbox": [
+            87.36,
+            319.55,
+            524.64,
+            338.79
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Full breakdowns, components, step-by-step guides, and resource links"
+        },
+        {
+          "bbox": [
+            270.1,
+            385.55,
+            341.9,
+            404.79
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "By @1nska"
+        },
+        {
+          "bbox": [
+            259.23,
+            411.93,
+            352.77,
+            424.29
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "NYU Shanghai — 2026"
+        }
+      ],
+      "charCount": 162,
+      "height": 792.0,
+      "pageNumber": 1,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            226.22,
+            754.6,
+            385.78,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "@1nska  •  6 ME Portfolio Projects  •  Page 2"
+        },
+        {
+          "bbox": [
+            70.8,
+            62.06,
+            527.96,
+            120.35
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Why Your Portfolio Matters More Than Your\nGPA"
+        },
+        {
+          "bbox": [
+            70.8,
+            130.81,
+            541.2,
+            145.24
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Here's what most ME programs won't tell you: the students landing the best jobs aren't the ones with"
+        },
+        {
+          "bbox": [
+            70.8,
+            146.81,
+            541.2,
+            161.24
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "the highest grades. They're the ones who can point to something they built and say \"I made this, and"
+        },
+        {
+          "bbox": [
+            70.8,
+            162.81,
+            166.39,
+            177.24
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "here's how it works.\""
+        },
+        {
+          "bbox": [
+            70.8,
+            186.81,
+            541.2,
+            201.24
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "A strong portfolio does three things: it proves you can take a project from concept to completion, it"
+        },
+        {
+          "bbox": [
+            70.8,
+            202.81,
+            541.2,
+            217.24
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "shows you understand real-world constraints beyond textbook problems, and it gives interviewers"
+        },
+        {
+          "bbox": [
+            70.8,
+            218.81,
+            541.2,
+            233.24
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "something concrete to talk about instead of asking you to explain the second law of thermodynamics"
+        },
+        {
+          "bbox": [
+            70.8,
+            234.81,
+            176.44,
+            249.24
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "for the hundredth time."
+        },
+        {
+          "bbox": [
+            70.8,
+            258.81,
+            541.2,
+            273.24
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "These 6 projects cover the key areas ME employers look for: CAD and prototyping, thermal and fluid"
+        },
+        {
+          "bbox": [
+            70.8,
+            274.81,
+            541.2,
+            289.24
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "systems, control systems, manufacturing, instrumentation, and mechatronics. Build 2-3 of these and"
+        },
+        {
+          "bbox": [
+            70.8,
+            290.81,
+            253.14,
+            305.24
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "you'll stand out from 90% of applicants."
+        },
+        {
+          "bbox": [
+            108.8,
+            324.81,
+            491.6,
+            339.32
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "How to use this guide: Each project includes a component list, step-by-step build"
+        },
+        {
+          "bbox": [
+            108.8,
+            340.81,
+            493.82,
+            355.24
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "instructions, clickable resource links, and a \"level up\" tip to take it further. Start with"
+        },
+        {
+          "bbox": [
+            108.8,
+            356.81,
+            240.09,
+            371.24
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "whichever excites you most."
+        }
+      ],
+      "charCount": 1063,
+      "height": 792.0,
+      "pageNumber": 2,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            226.22,
+            754.6,
+            385.78,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "@1nska  •  6 ME Portfolio Projects  •  Page 3"
+        },
+        {
+          "bbox": [
+            70.8,
+            61.64,
+            101.94,
+            100.2
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "#1"
+        },
+        {
+          "bbox": [
+            70.8,
+            110.34,
+            486.89,
+            135.13
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "3D-Printed Robotic Gripper with Force Feedback"
+        },
+        {
+          "bbox": [
+            70.8,
+            138.9,
+            292.27,
+            152.67
+          ],
+          "blockIndex": 3,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "PROTOTYPING • MECHATRONICS • SENSORS"
+        },
+        {
+          "bbox": [
+            70.8,
+            160.81,
+            353.05,
+            175.32
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Difficulty: Beginner–Intermediate | Estimated cost: $25–40"
+        },
+        {
+          "bbox": [
+            70.8,
+            473.61,
+            541.2,
+            488.12
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Why recruiters love this: It shows you can go from CAD model to functional prototype with real"
+        },
+        {
+          "bbox": [
+            70.8,
+            489.61,
+            541.2,
+            504.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "sensor integration. Robotics companies and automation firms specifically look for this end-to-end"
+        },
+        {
+          "bbox": [
+            70.8,
+            505.61,
+            146.07,
+            520.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "prototyping skill."
+        },
+        {
+          "bbox": [
+            70.8,
+            529.61,
+            541.2,
+            544.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Design and 3D-print a robotic gripper that uses force-sensitive resistors (FSRs) to detect how hard it's"
+        },
+        {
+          "bbox": [
+            70.8,
+            545.61,
+            541.2,
+            560.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "gripping and automatically adjusts pressure. It should handle different objects — a soft tomato vs a"
+        },
+        {
+          "bbox": [
+            70.8,
+            561.61,
+            541.2,
+            576.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "hard ball — without crushing either one. This is the exact problem Amazon and warehouse"
+        },
+        {
+          "bbox": [
+            70.8,
+            577.61,
+            272.14,
+            592.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "automation companies are solving at scale."
+        },
+        {
+          "bbox": [
+            70.8,
+            605.49,
+            167.59,
+            623.39
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "What you need:"
+        },
+        {
+          "bbox": [
+            90.8,
+            629.61,
+            399.06,
+            644.04
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• 3D printer access (university lab or online service like Craftcloud)"
+        },
+        {
+          "bbox": [
+            90.8,
+            649.61,
+            196.02,
+            664.04
+          ],
+          "blockIndex": 14,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Arduino Uno or Nano"
+        },
+        {
+          "bbox": [
+            90.8,
+            669.61,
+            230.43,
+            684.04
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• 2x SG90 micro servo motors"
+        },
+        {
+          "bbox": [
+            90.8,
+            689.61,
+            276.51,
+            704.04
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• 2x Force-sensitive resistors (FSR 402)"
+        },
+        {
+          "bbox": [
+            90.8,
+            709.61,
+            366.1,
+            724.04
+          ],
+          "blockIndex": 17,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Flexible filament (TPU) for gripper fingers + PLA for frame"
+        }
+      ],
+      "charCount": 963,
+      "height": 792.0,
+      "pageNumber": 3,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            226.22,
+            754.6,
+            385.78,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "@1nska  •  6 ME Portfolio Projects  •  Page 4"
+        },
+        {
+          "bbox": [
+            90.8,
+            62.81,
+            302.81,
+            77.24
+          ],
+          "blockIndex": 1,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• Jumper wires, breadboard, 5V power supply"
+        },
+        {
+          "bbox": [
+            70.8,
+            98.69,
+            166.9,
+            116.59
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Skills it proves:"
+        },
+        {
+          "bbox": [
+            90.8,
+            122.81,
+            428.86,
+            137.24
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• CAD design for manufacturing — designing parts that actually print well"
+        },
+        {
+          "bbox": [
+            90.8,
+            142.81,
+            253.8,
+            157.24
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• Sensor integration and calibration"
+        },
+        {
+          "bbox": [
+            90.8,
+            162.81,
+            424.81,
+            177.24
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• Closed-loop control — using sensor feedback to adjust actuator output"
+        },
+        {
+          "bbox": [
+            90.8,
+            182.81,
+            273.65,
+            197.24
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• Rapid prototyping and iterative design"
+        },
+        {
+          "bbox": [
+            90.8,
+            202.81,
+            336.05,
+            217.24
+          ],
+          "blockIndex": 7,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• Arduino programming with real-time sensor reading"
+        },
+        {
+          "bbox": [
+            70.8,
+            238.69,
+            164.69,
+            256.59
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "How to build it:"
+        },
+        {
+          "bbox": [
+            90.8,
+            262.81,
+            538.95,
+            277.32
+          ],
+          "blockIndex": 9,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Step 1: Design the gripper in CAD. Use Fusion 360 or SolidWorks — design a two-finger gripper"
+        },
+        {
+          "bbox": [
+            90.8,
+            278.81,
+            526.16,
+            293.24
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "with servo-actuated linkages. Design for 3D printing: avoid overhangs, add chamfers, and use"
+        },
+        {
+          "bbox": [
+            90.8,
+            294.81,
+            257.11,
+            309.24
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "proper clearances for moving joints."
+        },
+        {
+          "bbox": [
+            90.8,
+            314.81,
+            537.23,
+            329.32
+          ],
+          "blockIndex": 12,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Step 2: Print and assemble. Print the frame in PLA and the finger pads in TPU (flexible filament)"
+        },
+        {
+          "bbox": [
+            90.8,
+            330.81,
+            422.27,
+            345.24
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "for better grip. Assemble the linkage mechanism and mount the servos."
+        },
+        {
+          "bbox": [
+            90.8,
+            350.81,
+            541.2,
+            365.32
+          ],
+          "blockIndex": 14,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Step 3: Wire the FSR sensors. Mount force-sensitive resistors on the inner surface of each finger"
+        },
+        {
+          "bbox": [
+            90.8,
+            366.81,
+            519.99,
+            381.24
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "pad. Wire them to the Arduino's analog inputs through a voltage divider circuit (10K resistor)."
+        },
+        {
+          "bbox": [
+            90.8,
+            386.81,
+            513.6,
+            401.32
+          ],
+          "blockIndex": 16,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Step 4: Write the control loop. Read FSR values → compare to target force → adjust servo"
+        },
+        {
+          "bbox": [
+            90.8,
+            402.81,
+            525.56,
+            417.24
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "position. Start with a simple proportional controller: if force is too high, open slightly; if too low,"
+        },
+        {
+          "bbox": [
+            90.8,
+            418.81,
+            153.23,
+            433.24
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "close slightly."
+        },
+        {
+          "bbox": [
+            90.8,
+            438.81,
+            533.14,
+            453.32
+          ],
+          "blockIndex": 19,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Step 5: Test with different objects. Calibrate your force thresholds for soft objects (tomato, egg)"
+        },
+        {
+          "bbox": [
+            90.8,
+            454.81,
+            467.78,
+            469.24
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "vs hard objects (ball, cube). Record success/failure rates for your documentation."
+        },
+        {
+          "bbox": [
+            90.8,
+            474.81,
+            536.06,
+            489.32
+          ],
+          "blockIndex": 21,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Step 6: Document everything. Take photos at every stage. Create a GitHub repo with your CAD"
+        },
+        {
+          "bbox": [
+            90.8,
+            490.81,
+            507.77,
+            505.24
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "files (STL + source), Arduino code, wiring diagram, and a demo video showing the gripper"
+        },
+        {
+          "bbox": [
+            90.8,
+            506.81,
+            210.45,
+            521.24
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "handling different objects."
+        },
+        {
+          "bbox": [
+            70.8,
+            544.69,
+            226.85,
+            562.59
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Useful links & resources:"
+        },
+        {
+          "bbox": [
+            90.8,
+            568.85,
+            221.59,
+            582.59
+          ],
+          "blockIndex": 25,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• Fusion 360 free for students"
+        },
+        {
+          "bbox": [
+            90.8,
+            586.85,
+            227.13,
+            600.59
+          ],
+          "blockIndex": 26,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• FSR sensor guide — Adafruit"
+        },
+        {
+          "bbox": [
+            90.8,
+            604.85,
+            252.69,
+            618.59
+          ],
+          "blockIndex": 27,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• Thingiverse robotic gripper designs"
+        },
+        {
+          "bbox": [
+            90.8,
+            622.85,
+            191.56,
+            636.59
+          ],
+          "blockIndex": 28,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• Arduino servo tutorial"
+        },
+        {
+          "bbox": [
+            90.8,
+            640.85,
+            179.89,
+            654.59
+          ],
+          "blockIndex": 29,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• TPU printing guide"
+        },
+        {
+          "bbox": [
+            90.8,
+            658.85,
+            440.83,
+            672.59
+          ],
+          "blockIndex": 30,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• Seeed Studio reBot Arm B601 — open source 6-DoF arm (GitHub + full docs)"
+        }
+      ],
+      "charCount": 1803,
+      "height": 792.0,
+      "pageNumber": 4,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            226.22,
+            754.6,
+            385.78,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "@1nska  •  6 ME Portfolio Projects  •  Page 5"
+        },
+        {
+          "bbox": [
+            108.8,
+            72.81,
+            495.12,
+            87.32
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Level up: Add computer vision using a Raspberry Pi camera so the gripper detects"
+        },
+        {
+          "bbox": [
+            108.8,
+            88.81,
+            491.66,
+            103.24
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "the object type before gripping and pre-selects the right force profile. If you want to"
+        },
+        {
+          "bbox": [
+            108.8,
+            104.81,
+            480.25,
+            119.24
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "go even further, check out Seeed Studio's open source reBot Arm B601 — a full"
+        },
+        {
+          "bbox": [
+            108.8,
+            120.81,
+            484.03,
+            135.24
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "6-DoF robotic arm with gripper, sub-$1K build cost, ROS2 support, and complete"
+        },
+        {
+          "bbox": [
+            108.8,
+            136.81,
+            491.9,
+            151.24
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "documentation. It's the best open source arm project out right now for learning real"
+        },
+        {
+          "bbox": [
+            108.8,
+            152.81,
+            148.48,
+            167.24
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "robotics."
+        }
+      ],
+      "charCount": 460,
+      "height": 792.0,
+      "pageNumber": 5,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            226.22,
+            754.6,
+            385.78,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "@1nska  •  6 ME Portfolio Projects  •  Page 6"
+        },
+        {
+          "bbox": [
+            70.8,
+            61.64,
+            101.94,
+            100.2
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "#2"
+        },
+        {
+          "bbox": [
+            70.8,
+            110.34,
+            443.85,
+            135.13
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Portable Wind Tunnel with Data Acquisition"
+        },
+        {
+          "bbox": [
+            70.8,
+            138.9,
+            303.91,
+            152.67
+          ],
+          "blockIndex": 3,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "FLUIDS • AERODYNAMICS • INSTRUMENTATION"
+        },
+        {
+          "bbox": [
+            70.8,
+            160.81,
+            305.19,
+            175.32
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Difficulty: Intermediate | Estimated cost: $40–70"
+        },
+        {
+          "bbox": [
+            70.8,
+            473.61,
+            541.2,
+            488.12
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Why recruiters love this: Aerodynamics and fluid mechanics are core ME competencies. Building"
+        },
+        {
+          "bbox": [
+            70.8,
+            489.61,
+            541.2,
+            504.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "your own test equipment shows you understand both the theory and the practical challenges of"
+        },
+        {
+          "bbox": [
+            70.8,
+            505.61,
+            409.88,
+            520.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "measurement — and that you can design experiments, not just run them."
+        },
+        {
+          "bbox": [
+            70.8,
+            529.61,
+            541.2,
+            544.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Build a small-scale open-circuit wind tunnel (~30cm test section) with a fan-driven flow, a honeycomb"
+        },
+        {
+          "bbox": [
+            70.8,
+            545.61,
+            541.2,
+            560.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "flow straightener, a contraction nozzle, and an instrumented test section. Use pressure sensors and"
+        },
+        {
+          "bbox": [
+            70.8,
+            561.61,
+            541.2,
+            576.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "an Arduino to measure velocity profiles and drag forces on test objects. Visualize airflow with smoke"
+        },
+        {
+          "bbox": [
+            70.8,
+            577.61,
+            134.41,
+            592.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "or string tufts."
+        },
+        {
+          "bbox": [
+            70.8,
+            605.49,
+            167.59,
+            623.39
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "What you need:"
+        },
+        {
+          "bbox": [
+            90.8,
+            629.61,
+            288.79,
+            644.04
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• Acrylic or plywood sheets for tunnel walls"
+        },
+        {
+          "bbox": [
+            90.8,
+            649.61,
+            345.97,
+            664.04
+          ],
+          "blockIndex": 14,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• 120mm PC fans (2-3 in series) or a centrifugal blower"
+        },
+        {
+          "bbox": [
+            90.8,
+            669.61,
+            412.47,
+            684.04
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• Drinking straws (honeycomb flow straightener — seriously, it works)"
+        },
+        {
+          "bbox": [
+            90.8,
+            689.61,
+            434.4,
+            704.04
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• Arduino Mega + BMP280 or differential pressure sensor (MPXV7002DP)"
+        },
+        {
+          "bbox": [
+            90.8,
+            709.61,
+            304.54,
+            724.04
+          ],
+          "blockIndex": 17,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• Small load cell (for drag force measurement)"
+        }
+      ],
+      "charCount": 1044,
+      "height": 792.0,
+      "pageNumber": 6,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            226.22,
+            754.6,
+            385.78,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "@1nska  •  6 ME Portfolio Projects  •  Page 7"
+        },
+        {
+          "bbox": [
+            90.8,
+            62.81,
+            272.45,
+            77.24
+          ],
+          "blockIndex": 1,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Incense sticks for smoke visualization"
+        },
+        {
+          "bbox": [
+            90.8,
+            82.81,
+            306.86,
+            97.24
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• 3D-printed airfoil test models (NACA profiles)"
+        },
+        {
+          "bbox": [
+            70.8,
+            118.69,
+            166.9,
+            136.59
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Skills it proves:"
+        },
+        {
+          "bbox": [
+            90.8,
+            142.81,
+            458.02,
+            157.24
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Fluid mechanics — boundary layers, pressure distributions, Reynolds number"
+        },
+        {
+          "bbox": [
+            90.8,
+            162.81,
+            288.82,
+            177.24
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Experimental design and data acquisition"
+        },
+        {
+          "bbox": [
+            90.8,
+            182.81,
+            296.98,
+            197.24
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Sensor calibration and uncertainty analysis"
+        },
+        {
+          "bbox": [
+            90.8,
+            202.81,
+            319.74,
+            217.24
+          ],
+          "blockIndex": 7,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• CAD and fabrication of precision test equipment"
+        },
+        {
+          "bbox": [
+            90.8,
+            222.81,
+            340.45,
+            237.24
+          ],
+          "blockIndex": 8,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Data analysis and visualization (Python + matplotlib)"
+        },
+        {
+          "bbox": [
+            70.8,
+            258.69,
+            164.69,
+            276.59
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "How to build it:"
+        },
+        {
+          "bbox": [
+            90.8,
+            282.81,
+            524.98,
+            297.32
+          ],
+          "blockIndex": 10,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Step 1: Design the tunnel geometry. Follow established open-circuit wind tunnel design rules:"
+        },
+        {
+          "bbox": [
+            90.8,
+            298.81,
+            529.97,
+            313.24
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "contraction ratio of 6:1 to 9:1, test section length ~1.5x the width. Sketch it in CAD first to verify"
+        },
+        {
+          "bbox": [
+            90.8,
+            314.81,
+            146.82,
+            329.24
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "dimensions."
+        },
+        {
+          "bbox": [
+            90.8,
+            334.81,
+            540.16,
+            349.32
+          ],
+          "blockIndex": 13,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Step 2: Build the structure. Cut acrylic or plywood panels. The test section should be transparent"
+        },
+        {
+          "bbox": [
+            90.8,
+            350.81,
+            438.58,
+            365.24
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "(acrylic) for visualization. Use silicone sealant on joints to prevent air leaks."
+        },
+        {
+          "bbox": [
+            90.8,
+            370.81,
+            519.44,
+            385.32
+          ],
+          "blockIndex": 15,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Step 3: Build the flow straightener. Bundle ~200 drinking straws (cut to 10cm) tightly into the"
+        },
+        {
+          "bbox": [
+            90.8,
+            386.81,
+            540.74,
+            401.24
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "settling chamber. This kills turbulence and creates uniform flow. Add a fine mesh screen after the"
+        },
+        {
+          "bbox": [
+            90.8,
+            402.81,
+            124.05,
+            417.24
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "straws."
+        },
+        {
+          "bbox": [
+            90.8,
+            422.81,
+            536.65,
+            437.32
+          ],
+          "blockIndex": 18,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Step 4: Install fans and test airflow. Mount fans at the exit (suction configuration is more uniform"
+        },
+        {
+          "bbox": [
+            90.8,
+            438.81,
+            517.96,
+            453.24
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "than blowing). Measure velocity at multiple points across the test section to verify uniformity."
+        },
+        {
+          "bbox": [
+            90.8,
+            454.81,
+            167.83,
+            469.24
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Target 5-15 m/s."
+        },
+        {
+          "bbox": [
+            90.8,
+            474.81,
+            527.9,
+            489.32
+          ],
+          "blockIndex": 21,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Step 5: Set up instrumentation. Wire the differential pressure sensor to a pitot tube for velocity"
+        },
+        {
+          "bbox": [
+            90.8,
+            490.81,
+            505.77,
+            505.24
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "measurement. Mount the load cell on a sting balance to measure drag. Log all data to the"
+        },
+        {
+          "bbox": [
+            90.8,
+            506.81,
+            183.89,
+            521.24
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Arduino at 100+ Hz."
+        },
+        {
+          "bbox": [
+            90.8,
+            526.81,
+            503.95,
+            541.32
+          ],
+          "blockIndex": 24,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Step 6: Run experiments. 3D-print NACA 0012 and NACA 4412 airfoils. Measure drag at"
+        },
+        {
+          "bbox": [
+            90.8,
+            542.81,
+            528.49,
+            557.24
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "different angles of attack. Compare your data to published results. Use incense smoke for flow"
+        },
+        {
+          "bbox": [
+            90.8,
+            558.81,
+            235.54,
+            573.24
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "visualization and photograph it."
+        },
+        {
+          "bbox": [
+            70.8,
+            596.69,
+            226.85,
+            614.59
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Useful links & resources:"
+        },
+        {
+          "bbox": [
+            90.8,
+            620.85,
+            266.59,
+            634.59
+          ],
+          "blockIndex": 28,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• NASA wind tunnel design guide (PDF)"
+        },
+        {
+          "bbox": [
+            90.8,
+            638.85,
+            246.58,
+            652.59
+          ],
+          "blockIndex": 29,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• NACA airfoil coordinate generator"
+        },
+        {
+          "bbox": [
+            90.8,
+            656.85,
+            282.72,
+            670.59
+          ],
+          "blockIndex": 30,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• MPXV7002DP pressure sensor datasheet"
+        },
+        {
+          "bbox": [
+            90.8,
+            674.85,
+            267.71,
+            688.59
+          ],
+          "blockIndex": 31,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Python matplotlib for data visualization"
+        },
+        {
+          "bbox": [
+            90.8,
+            692.85,
+            273.81,
+            706.59
+          ],
+          "blockIndex": 32,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Open-source wind tunnel project — MIT"
+        }
+      ],
+      "charCount": 1860,
+      "height": 792.0,
+      "pageNumber": 7,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            226.22,
+            754.6,
+            385.78,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "@1nska  •  6 ME Portfolio Projects  •  Page 8"
+        },
+        {
+          "bbox": [
+            108.8,
+            72.81,
+            503.2,
+            87.32
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Level up: Add a hot-wire anemometer for turbulence intensity measurements, or use"
+        },
+        {
+          "bbox": [
+            108.8,
+            88.81,
+            502.68,
+            103.24
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "PIV (Particle Image Velocimetry) with a laser pointer and camera to visualize velocity"
+        },
+        {
+          "bbox": [
+            108.8,
+            104.81,
+            489.29,
+            119.24
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "fields quantitatively. Publish your results and CAD files as an open-source project."
+        }
+      ],
+      "charCount": 296,
+      "height": 792.0,
+      "pageNumber": 8,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            226.22,
+            754.6,
+            385.78,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "@1nska  •  6 ME Portfolio Projects  •  Page 9"
+        },
+        {
+          "bbox": [
+            70.8,
+            61.64,
+            101.94,
+            100.2
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "#3"
+        },
+        {
+          "bbox": [
+            70.8,
+            110.34,
+            273.88,
+            135.13
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Dual-Axis Solar Tracker"
+        },
+        {
+          "bbox": [
+            70.8,
+            138.9,
+            406.71,
+            152.67
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "CONTROL SYSTEMS • RENEWABLE ENERGY • MECHANICAL DESIGN"
+        },
+        {
+          "bbox": [
+            70.8,
+            160.81,
+            305.19,
+            175.32
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Difficulty: Intermediate | Estimated cost: $35–55"
+        },
+        {
+          "bbox": [
+            70.8,
+            473.61,
+            541.2,
+            488.12
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Why recruiters love this: Renewable energy is booming and every company in the space needs"
+        },
+        {
+          "bbox": [
+            70.8,
+            489.61,
+            541.2,
+            504.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "MEs who understand both the mechanical design and the control systems behind tracking systems."
+        },
+        {
+          "bbox": [
+            70.8,
+            505.61,
+            240.05,
+            520.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "This project proves you can do both."
+        },
+        {
+          "bbox": [
+            70.8,
+            529.61,
+            541.2,
+            544.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Build a dual-axis solar tracker that automatically orients a small solar panel to face the sun throughout"
+        },
+        {
+          "bbox": [
+            70.8,
+            545.61,
+            541.2,
+            560.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "the day. Use light-dependent resistors (LDRs) to detect the sun's position and servo motors to adjust"
+        },
+        {
+          "bbox": [
+            70.8,
+            561.61,
+            541.2,
+            576.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "pan and tilt angles. Log power output data to prove your tracker generates more energy than a fixed"
+        },
+        {
+          "bbox": [
+            70.8,
+            577.61,
+            99.4,
+            592.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "panel."
+        },
+        {
+          "bbox": [
+            70.8,
+            605.49,
+            167.59,
+            623.39
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "What you need:"
+        },
+        {
+          "bbox": [
+            90.8,
+            629.61,
+            218.75,
+            644.04
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• Small solar panel (5-10W)"
+        },
+        {
+          "bbox": [
+            90.8,
+            649.61,
+            155.75,
+            664.04
+          ],
+          "blockIndex": 14,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• Arduino Uno"
+        },
+        {
+          "bbox": [
+            90.8,
+            669.61,
+            353.0,
+            684.04
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• 2x MG996R servo motors (high torque for outdoor use)"
+        },
+        {
+          "bbox": [
+            90.8,
+            689.61,
+            245.32,
+            704.04
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• 4x LDR sensors + 10K resistors"
+        },
+        {
+          "bbox": [
+            90.8,
+            709.61,
+            292.3,
+            724.04
+          ],
+          "blockIndex": 17,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• Pan-tilt mounting bracket (3D print or buy)"
+        }
+      ],
+      "charCount": 889,
+      "height": 792.0,
+      "pageNumber": 9,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            223.99,
+            754.6,
+            388.01,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "@1nska  •  6 ME Portfolio Projects  •  Page 10"
+        },
+        {
+          "bbox": [
+            90.8,
+            62.81,
+            322.66,
+            77.24
+          ],
+          "blockIndex": 1,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "• INA219 current/voltage sensor for power logging"
+        },
+        {
+          "bbox": [
+            90.8,
+            82.81,
+            277.71,
+            97.24
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "• Weatherproof enclosure for electronics"
+        },
+        {
+          "bbox": [
+            70.8,
+            118.69,
+            166.9,
+            136.59
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Skills it proves:"
+        },
+        {
+          "bbox": [
+            90.8,
+            142.81,
+            357.09,
+            157.24
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "• Mechanical design for outdoor/environmental conditions"
+        },
+        {
+          "bbox": [
+            90.8,
+            162.81,
+            330.81,
+            177.24
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "• Control system design — closed-loop sun tracking"
+        },
+        {
+          "bbox": [
+            90.8,
+            182.81,
+            291.15,
+            197.24
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "• Sensor calibration and signal conditioning"
+        },
+        {
+          "bbox": [
+            90.8,
+            202.81,
+            344.82,
+            217.24
+          ],
+          "blockIndex": 7,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "• Energy systems — quantitative performance analysis"
+        },
+        {
+          "bbox": [
+            90.8,
+            222.81,
+            288.22,
+            237.24
+          ],
+          "blockIndex": 8,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "• Weatherproofing and design for reliability"
+        },
+        {
+          "bbox": [
+            70.8,
+            258.69,
+            164.69,
+            276.59
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "How to build it:"
+        },
+        {
+          "bbox": [
+            90.8,
+            282.81,
+            532.57,
+            297.32
+          ],
+          "blockIndex": 10,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Step 1: Design the mount. Create a pan-tilt mechanism with two degrees of freedom. The base"
+        },
+        {
+          "bbox": [
+            90.8,
+            298.81,
+            523.21,
+            313.24
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "servo controls azimuth (east-west), the top servo controls elevation (up-down). Design for the"
+        },
+        {
+          "bbox": [
+            90.8,
+            314.81,
+            249.26,
+            329.24
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "weight of your panel + wind loads."
+        },
+        {
+          "bbox": [
+            90.8,
+            334.81,
+            538.96,
+            349.32
+          ],
+          "blockIndex": 13,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Step 2: Build the LDR sensor array. Mount 4 LDRs in a cross pattern with a divider wall between"
+        },
+        {
+          "bbox": [
+            90.8,
+            350.81,
+            533.17,
+            365.24
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "them. When the sun is centered, all 4 read equal values. An imbalance tells you which direction"
+        },
+        {
+          "bbox": [
+            90.8,
+            366.81,
+            131.07,
+            381.24
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "to move."
+        },
+        {
+          "bbox": [
+            90.8,
+            386.81,
+            536.93,
+            401.32
+          ],
+          "blockIndex": 16,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Step 3: Write the tracking algorithm. Compare opposite LDR pairs: if left > right, rotate left. If top"
+        },
+        {
+          "bbox": [
+            90.8,
+            402.81,
+            530.89,
+            417.24
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "> bottom, tilt up. Add a dead band (±5%) to prevent hunting/oscillation around the sun position."
+        },
+        {
+          "bbox": [
+            90.8,
+            422.81,
+            536.91,
+            437.32
+          ],
+          "blockIndex": 18,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Step 4: Add power monitoring. Wire an INA219 sensor to measure the solar panel's voltage and"
+        },
+        {
+          "bbox": [
+            90.8,
+            438.81,
+            515.13,
+            453.24
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "current output. Log data to an SD card every 30 seconds — you need this data to prove the"
+        },
+        {
+          "bbox": [
+            90.8,
+            454.81,
+            156.14,
+            469.24
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "tracker works."
+        },
+        {
+          "bbox": [
+            90.8,
+            474.81,
+            534.94,
+            489.32
+          ],
+          "blockIndex": 21,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Step 5: Set up the comparison test. Place an identical fixed panel next to your tracker. Log both"
+        },
+        {
+          "bbox": [
+            90.8,
+            490.81,
+            479.75,
+            505.24
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "panels' output simultaneously over a full day. Calculate the energy gain percentage."
+        },
+        {
+          "bbox": [
+            90.8,
+            510.81,
+            501.09,
+            525.32
+          ],
+          "blockIndex": 23,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Step 6: Analyze and document. Plot power output vs. time for both panels using Python."
+        },
+        {
+          "bbox": [
+            90.8,
+            526.81,
+            525.83,
+            541.24
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Calculate total daily kWh for each. Create graphs showing the tracker's advantage. Document"
+        },
+        {
+          "bbox": [
+            90.8,
+            542.81,
+            311.98,
+            557.24
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "the full build on GitHub with CAD files and data."
+        },
+        {
+          "bbox": [
+            70.8,
+            580.69,
+            226.85,
+            598.59
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Useful links & resources:"
+        },
+        {
+          "bbox": [
+            90.8,
+            604.85,
+            324.93,
+            618.59
+          ],
+          "blockIndex": 27,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "• Solar tracker theory — how tracking increases yield"
+        },
+        {
+          "bbox": [
+            90.8,
+            622.85,
+            276.04,
+            636.59
+          ],
+          "blockIndex": 28,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "• INA219 power sensor tutorial — Adafruit"
+        },
+        {
+          "bbox": [
+            90.8,
+            640.85,
+            222.12,
+            654.59
+          ],
+          "blockIndex": 29,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "• Pan-tilt bracket 3D print files"
+        },
+        {
+          "bbox": [
+            90.8,
+            658.85,
+            222.12,
+            672.59
+          ],
+          "blockIndex": 30,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "• Arduino solar tracker tutorial"
+        },
+        {
+          "bbox": [
+            90.8,
+            676.85,
+            221.02,
+            690.59
+          ],
+          "blockIndex": 31,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "• Servo motor selection guide"
+        }
+      ],
+      "charCount": 1844,
+      "height": 792.0,
+      "pageNumber": 10,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            223.99,
+            754.6,
+            388.01,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "@1nska  •  6 ME Portfolio Projects  •  Page 11"
+        },
+        {
+          "bbox": [
+            108.8,
+            72.81,
+            481.1,
+            87.32
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Level up: Add WiFi logging so you can monitor performance remotely via a web"
+        },
+        {
+          "bbox": [
+            108.8,
+            88.81,
+            496.91,
+            103.24
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "dashboard. Then add a weather station (temperature, wind speed, cloud cover) and"
+        },
+        {
+          "bbox": [
+            108.8,
+            104.81,
+            503.2,
+            119.24
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "correlate environmental conditions with tracking performance. This data set becomes"
+        },
+        {
+          "bbox": [
+            108.8,
+            120.81,
+            251.78,
+            135.24
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "a publishable research project."
+        }
+      ],
+      "charCount": 316,
+      "height": 792.0,
+      "pageNumber": 11,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            223.99,
+            754.6,
+            388.01,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "@1nska  •  6 ME Portfolio Projects  •  Page 12"
+        },
+        {
+          "bbox": [
+            70.8,
+            61.64,
+            101.94,
+            100.2
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "#4"
+        },
+        {
+          "bbox": [
+            70.8,
+            110.34,
+            455.87,
+            135.13
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "PID-Controlled Thermal Management System"
+        },
+        {
+          "bbox": [
+            70.8,
+            138.9,
+            330.59,
+            152.67
+          ],
+          "blockIndex": 3,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "HEAT TRANSFER • CONTROL SYSTEMS • EMBEDDED"
+        },
+        {
+          "bbox": [
+            70.8,
+            160.81,
+            305.19,
+            175.32
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Difficulty: Intermediate | Estimated cost: $30–50"
+        },
+        {
+          "bbox": [
+            70.8,
+            473.61,
+            541.2,
+            488.12
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Why recruiters love this: Thermal management is critical in electronics, automotive, aerospace, and"
+        },
+        {
+          "bbox": [
+            70.8,
+            489.61,
+            541.2,
+            504.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "data centers. Building a PID-controlled cooling system shows you understand heat transfer"
+        },
+        {
+          "bbox": [
+            70.8,
+            505.61,
+            541.2,
+            520.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "fundamentals AND can implement real control loops — the exact combination companies like Tesla,"
+        },
+        {
+          "bbox": [
+            70.8,
+            521.61,
+            253.47,
+            536.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Apple, and server farm operators need."
+        },
+        {
+          "bbox": [
+            70.8,
+            545.61,
+            541.2,
+            560.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Build a smart cooling system that monitors temperature across multiple zones using thermistors, runs"
+        },
+        {
+          "bbox": [
+            70.8,
+            561.61,
+            541.2,
+            576.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "a PID control loop to adjust fan speeds via PWM, and maintains a target temperature within ±0.5°C."
+        },
+        {
+          "bbox": [
+            70.8,
+            577.61,
+            406.94,
+            592.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Display real-time data on an LCD and log performance data for analysis."
+        },
+        {
+          "bbox": [
+            70.8,
+            605.49,
+            167.59,
+            623.39
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "What you need:"
+        },
+        {
+          "bbox": [
+            90.8,
+            629.61,
+            162.76,
+            644.04
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "• Arduino Mega"
+        },
+        {
+          "bbox": [
+            90.8,
+            649.61,
+            331.37,
+            664.04
+          ],
+          "blockIndex": 14,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "• 3-4x NTC thermistors (10K) for multi-zone sensing"
+        },
+        {
+          "bbox": [
+            90.8,
+            669.61,
+            327.28,
+            684.04
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "• 2x 12V PWM-controllable fans (Noctua or similar)"
+        },
+        {
+          "bbox": [
+            90.8,
+            689.61,
+            326.72,
+            704.04
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "• MOSFET modules (IRF520) for fan speed control"
+        },
+        {
+          "bbox": [
+            90.8,
+            709.61,
+            384.79,
+            724.04
+          ],
+          "blockIndex": 17,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "• Aluminum heat sink + resistive heater (simulated heat source)"
+        }
+      ],
+      "charCount": 1008,
+      "height": 792.0,
+      "pageNumber": 12,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            223.99,
+            754.6,
+            388.01,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "@1nska  •  6 ME Portfolio Projects  •  Page 13"
+        },
+        {
+          "bbox": [
+            90.8,
+            62.81,
+            278.29,
+            77.24
+          ],
+          "blockIndex": 1,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• 16x2 LCD display or OLED (SSD1306)"
+        },
+        {
+          "bbox": [
+            90.8,
+            82.81,
+            315.95,
+            97.24
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• 12V power supply + buck converter for Arduino"
+        },
+        {
+          "bbox": [
+            70.8,
+            118.69,
+            166.9,
+            136.59
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Skills it proves:"
+        },
+        {
+          "bbox": [
+            90.8,
+            142.81,
+            311.57,
+            157.24
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• Heat transfer fundamentals applied in practice"
+        },
+        {
+          "bbox": [
+            90.8,
+            162.81,
+            397.35,
+            177.24
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• PID control — tuning, implementation, and performance analysis"
+        },
+        {
+          "bbox": [
+            90.8,
+            182.81,
+            307.48,
+            197.24
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• Multi-zone thermal sensing and management"
+        },
+        {
+          "bbox": [
+            90.8,
+            202.81,
+            277.69,
+            217.24
+          ],
+          "blockIndex": 7,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• PWM motor control through MOSFETs"
+        },
+        {
+          "bbox": [
+            90.8,
+            222.81,
+            289.97,
+            237.24
+          ],
+          "blockIndex": 8,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• Data logging and system characterization"
+        },
+        {
+          "bbox": [
+            70.8,
+            258.69,
+            164.69,
+            276.59
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "How to build it:"
+        },
+        {
+          "bbox": [
+            90.8,
+            282.81,
+            541.2,
+            297.32
+          ],
+          "blockIndex": 10,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Step 1: Build the thermal test bed. Mount a power resistor (10-50W) on an aluminum heat sink as"
+        },
+        {
+          "bbox": [
+            90.8,
+            298.81,
+            538.42,
+            313.24
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "your heat source. Attach thermistors at different distances from the source to create temperature"
+        },
+        {
+          "bbox": [
+            90.8,
+            314.81,
+            121.73,
+            329.24
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "zones."
+        },
+        {
+          "bbox": [
+            90.8,
+            334.81,
+            519.73,
+            349.32
+          ],
+          "blockIndex": 13,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Step 2: Set up fan control. Wire fans through IRF520 MOSFETs connected to Arduino PWM"
+        },
+        {
+          "bbox": [
+            90.8,
+            350.81,
+            534.89,
+            365.24
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "pins. Verify you can control fan speed from 0-100% smoothly. Measure airflow at different PWM"
+        },
+        {
+          "bbox": [
+            90.8,
+            366.81,
+            124.06,
+            381.24
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "values."
+        },
+        {
+          "bbox": [
+            90.8,
+            386.81,
+            528.47,
+            401.32
+          ],
+          "blockIndex": 16,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Step 3: Implement the PID controller. Start with proportional only (P). Set a target temperature"
+        },
+        {
+          "bbox": [
+            90.8,
+            402.81,
+            509.92,
+            417.24
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "(e.g., 40°C). Gradually add derivative (D) to reduce overshoot, then integral (I) to eliminate"
+        },
+        {
+          "bbox": [
+            90.8,
+            418.81,
+            176.0,
+            433.24
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "steady-state error."
+        },
+        {
+          "bbox": [
+            90.8,
+            438.81,
+            513.89,
+            453.32
+          ],
+          "blockIndex": 19,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Step 4: Tune the PID. Use the Ziegler-Nichols method: increase P until oscillation, note the"
+        },
+        {
+          "bbox": [
+            90.8,
+            454.81,
+            541.2,
+            469.24
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "period, then calculate P, I, D values. Fine-tune from there. Log temperature vs. time to show your"
+        },
+        {
+          "bbox": [
+            90.8,
+            470.81,
+            162.0,
+            485.24
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "tuning process."
+        },
+        {
+          "bbox": [
+            90.8,
+            490.81,
+            535.51,
+            505.32
+          ],
+          "blockIndex": 22,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Step 5: Add multi-zone control. Implement independent PID loops for each zone, or a cascaded"
+        },
+        {
+          "bbox": [
+            90.8,
+            506.81,
+            531.39,
+            521.24
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "controller where the hottest zone drives the primary response. Show the system maintaining all"
+        },
+        {
+          "bbox": [
+            90.8,
+            522.81,
+            186.92,
+            537.24
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "zones within ±0.5°C."
+        },
+        {
+          "bbox": [
+            90.8,
+            542.81,
+            541.2,
+            557.32
+          ],
+          "blockIndex": 25,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Step 6: Run step-response tests. Apply sudden heat loads and record how the system responds."
+        },
+        {
+          "bbox": [
+            90.8,
+            558.81,
+            500.49,
+            573.24
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Plot temperature vs. time, fan speed vs. time, and calculate settling time, overshoot, and"
+        },
+        {
+          "bbox": [
+            90.8,
+            574.81,
+            351.65,
+            589.24
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "steady-state error. This data is your portfolio showpiece."
+        },
+        {
+          "bbox": [
+            70.8,
+            612.69,
+            226.85,
+            630.59
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Useful links & resources:"
+        },
+        {
+          "bbox": [
+            90.8,
+            636.85,
+            331.61,
+            650.59
+          ],
+          "blockIndex": 29,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• PID controller explained — Brian Douglas (YouTube)"
+        },
+        {
+          "bbox": [
+            90.8,
+            654.85,
+            229.9,
+            668.59
+          ],
+          "blockIndex": 30,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• Ziegler-Nichols tuning method"
+        },
+        {
+          "bbox": [
+            90.8,
+            672.85,
+            180.99,
+            686.59
+          ],
+          "blockIndex": 31,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• Arduino PID library"
+        },
+        {
+          "bbox": [
+            90.8,
+            690.85,
+            242.12,
+            704.59
+          ],
+          "blockIndex": 32,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• NTC thermistor guide — Adafruit"
+        },
+        {
+          "bbox": [
+            90.8,
+            708.85,
+            268.79,
+            722.59
+          ],
+          "blockIndex": 33,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• PWM fan control with MOSFET tutorial"
+        }
+      ],
+      "charCount": 1837,
+      "height": 792.0,
+      "pageNumber": 13,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            223.99,
+            754.6,
+            388.01,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "@1nska  •  6 ME Portfolio Projects  •  Page 14"
+        },
+        {
+          "bbox": [
+            108.8,
+            78.81,
+            474.11,
+            93.32
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Level up: Replace the simple heat source with a real CPU or GPU under load."
+        },
+        {
+          "bbox": [
+            108.8,
+            94.81,
+            466.51,
+            109.24
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Benchmark thermal performance against the stock cooler. If your PID system"
+        },
+        {
+          "bbox": [
+            108.8,
+            110.81,
+            486.62,
+            125.24
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "maintains lower temps at the same noise level, you've built something companies"
+        },
+        {
+          "bbox": [
+            108.8,
+            126.81,
+            199.84,
+            141.24
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "would actually ship."
+        }
+      ],
+      "charCount": 294,
+      "height": 792.0,
+      "pageNumber": 14,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            223.99,
+            754.6,
+            388.01,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "@1nska  •  6 ME Portfolio Projects  •  Page 15"
+        },
+        {
+          "bbox": [
+            70.8,
+            61.64,
+            101.94,
+            100.2
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "#5"
+        },
+        {
+          "bbox": [
+            70.8,
+            110.34,
+            446.86,
+            135.13
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Desktop CNC Engraver (Built From Scratch)"
+        },
+        {
+          "bbox": [
+            70.8,
+            138.9,
+            307.78,
+            152.67
+          ],
+          "blockIndex": 3,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "MANUFACTURING • CNC • MECHANICAL DESIGN"
+        },
+        {
+          "bbox": [
+            70.8,
+            160.81,
+            299.36,
+            175.32
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Difficulty: Advanced | Estimated cost: $60–100"
+        },
+        {
+          "bbox": [
+            70.8,
+            473.61,
+            541.2,
+            488.12
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Why recruiters love this: Understanding CNC from the machine-builder's perspective — not just the"
+        },
+        {
+          "bbox": [
+            70.8,
+            489.61,
+            541.2,
+            504.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "operator's — is rare and incredibly valuable. This project proves you understand linear motion"
+        },
+        {
+          "bbox": [
+            70.8,
+            505.61,
+            541.2,
+            520.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "systems, stepper motor control, G-code, and mechanical precision — the fundamentals of advanced"
+        },
+        {
+          "bbox": [
+            70.8,
+            521.61,
+            140.25,
+            536.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "manufacturing."
+        },
+        {
+          "bbox": [
+            70.8,
+            545.61,
+            541.2,
+            560.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Build a small-scale 2-axis (or 3-axis) CNC engraver from scratch that can engrave text and patterns"
+        },
+        {
+          "bbox": [
+            70.8,
+            561.61,
+            541.2,
+            576.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "on wood, acrylic, or aluminum. Use linear rails, stepper motors, and an Arduino with GRBL firmware."
+        },
+        {
+          "bbox": [
+            70.8,
+            577.61,
+            503.52,
+            592.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Design the frame, assemble the motion system, and calibrate it to achieve ±0.1mm accuracy."
+        },
+        {
+          "bbox": [
+            70.8,
+            605.49,
+            167.59,
+            623.39
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "What you need:"
+        },
+        {
+          "bbox": [
+            90.8,
+            629.61,
+            238.32,
+            644.04
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "• Arduino Uno + CNC Shield V3"
+        },
+        {
+          "bbox": [
+            90.8,
+            649.61,
+            315.35,
+            664.04
+          ],
+          "blockIndex": 14,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "• 2-3x NEMA 17 stepper motors + A4988 drivers"
+        },
+        {
+          "bbox": [
+            90.8,
+            669.61,
+            348.6,
+            684.04
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "• Linear rails (MGN12) or smooth rods + linear bearings"
+        },
+        {
+          "bbox": [
+            90.8,
+            689.61,
+            354.13,
+            704.04
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "• GT2 timing belts and pulleys (or lead screws for Z-axis)"
+        },
+        {
+          "bbox": [
+            90.8,
+            709.61,
+            267.78,
+            724.04
+          ],
+          "blockIndex": 17,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "• 775 DC spindle motor or Dremel tool"
+        }
+      ],
+      "charCount": 1000,
+      "height": 792.0,
+      "pageNumber": 15,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            223.99,
+            754.6,
+            388.01,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "@1nska  •  6 ME Portfolio Projects  •  Page 16"
+        },
+        {
+          "bbox": [
+            90.8,
+            62.81,
+            316.79,
+            77.24
+          ],
+          "blockIndex": 1,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "• Aluminum extrusion (2020) or 3D-printed frame"
+        },
+        {
+          "bbox": [
+            90.8,
+            82.81,
+            327.0,
+            97.24
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "• GRBL firmware (free) + Universal G-code Sender"
+        },
+        {
+          "bbox": [
+            90.8,
+            102.81,
+            202.74,
+            117.24
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "• 12V 5A+ power supply"
+        },
+        {
+          "bbox": [
+            70.8,
+            138.69,
+            166.9,
+            156.59
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Skills it proves:"
+        },
+        {
+          "bbox": [
+            90.8,
+            162.81,
+            441.68,
+            177.24
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "• Machine design — frame rigidity, motion systems, backlash compensation"
+        },
+        {
+          "bbox": [
+            90.8,
+            182.81,
+            296.96,
+            197.24
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "• Stepper motor control and CNC kinematics"
+        },
+        {
+          "bbox": [
+            90.8,
+            202.81,
+            292.27,
+            217.24
+          ],
+          "blockIndex": 7,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "• G-code programming and CAM workflows"
+        },
+        {
+          "bbox": [
+            90.8,
+            222.81,
+            278.88,
+            237.24
+          ],
+          "blockIndex": 8,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "• Precision measurement and calibration"
+        },
+        {
+          "bbox": [
+            90.8,
+            242.81,
+            412.78,
+            257.24
+          ],
+          "blockIndex": 9,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "• Manufacturing process understanding from the builder's perspective"
+        },
+        {
+          "bbox": [
+            70.8,
+            278.69,
+            164.69,
+            296.59
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "How to build it:"
+        },
+        {
+          "bbox": [
+            90.8,
+            302.81,
+            533.11,
+            317.32
+          ],
+          "blockIndex": 11,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Step 1: Design the frame. Use 2020 aluminum extrusion or a rigid 3D-printed structure. Rigidity"
+        },
+        {
+          "bbox": [
+            90.8,
+            318.81,
+            541.2,
+            333.24
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "is everything — any flex in the frame becomes inaccuracy in your engraving. Model it in CAD and"
+        },
+        {
+          "bbox": [
+            90.8,
+            334.81,
+            182.41,
+            349.24
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "verify joint stiffness."
+        },
+        {
+          "bbox": [
+            90.8,
+            354.81,
+            524.39,
+            369.32
+          ],
+          "blockIndex": 14,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Step 2: Build the motion system. Mount linear rails and stepper motors for X and Y axes. Use"
+        },
+        {
+          "bbox": [
+            90.8,
+            370.81,
+            506.87,
+            385.24
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "GT2 belts for speed or lead screws for precision. Ensure everything is square — measure"
+        },
+        {
+          "bbox": [
+            90.8,
+            386.81,
+            230.29,
+            401.24
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "diagonals and shim if needed."
+        },
+        {
+          "bbox": [
+            90.8,
+            406.81,
+            508.07,
+            421.32
+          ],
+          "blockIndex": 17,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Step 3: Wire and flash the controller. Stack the CNC Shield on the Arduino, plug in A4988"
+        },
+        {
+          "bbox": [
+            90.8,
+            422.81,
+            540.11,
+            437.24
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "drivers, wire stepper motors. Flash GRBL firmware. Use Universal G-code Sender to test jogging"
+        },
+        {
+          "bbox": [
+            90.8,
+            438.81,
+            138.07,
+            453.24
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "each axis."
+        },
+        {
+          "bbox": [
+            90.8,
+            458.81,
+            536.02,
+            473.32
+          ],
+          "blockIndex": 20,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Step 4: Calibrate steps/mm. Command a 100mm move, measure the actual travel with calipers."
+        },
+        {
+          "bbox": [
+            90.8,
+            474.81,
+            537.82,
+            489.24
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Adjust the steps/mm in GRBL settings until commanded distance matches actual distance within"
+        },
+        {
+          "bbox": [
+            90.8,
+            490.81,
+            131.94,
+            505.24
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "±0.1mm."
+        },
+        {
+          "bbox": [
+            90.8,
+            510.81,
+            538.43,
+            525.32
+          ],
+          "blockIndex": 23,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Step 5: Mount the spindle and test. Attach the spindle motor to the Z-axis (or use a pen for initial"
+        },
+        {
+          "bbox": [
+            90.8,
+            526.81,
+            535.49,
+            541.24
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "tests). Run a test pattern — a square, a circle, and text. Measure dimensions to verify accuracy."
+        },
+        {
+          "bbox": [
+            90.8,
+            546.81,
+            541.2,
+            561.32
+          ],
+          "blockIndex": 25,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Step 6: Engrave a real project. Design something in Fusion 360 CAM or Easel, generate G-code,"
+        },
+        {
+          "bbox": [
+            90.8,
+            562.81,
+            507.61,
+            577.24
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "and engrave it on wood or acrylic. Document the full workflow: CAD → CAM → G-code →"
+        },
+        {
+          "bbox": [
+            90.8,
+            578.81,
+            150.91,
+            593.24
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "finished part."
+        },
+        {
+          "bbox": [
+            70.8,
+            616.69,
+            226.85,
+            634.59
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Useful links & resources:"
+        },
+        {
+          "bbox": [
+            90.8,
+            640.85,
+            212.1,
+            654.59
+          ],
+          "blockIndex": 29,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "• GRBL firmware — GitHub"
+        },
+        {
+          "bbox": [
+            90.8,
+            658.85,
+            209.34,
+            672.59
+          ],
+          "blockIndex": 30,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "• Universal G-code Sender"
+        },
+        {
+          "bbox": [
+            90.8,
+            676.85,
+            253.81,
+            690.59
+          ],
+          "blockIndex": 31,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "• CNC build guide — V1 Engineering"
+        },
+        {
+          "bbox": [
+            90.8,
+            694.85,
+            282.71,
+            708.59
+          ],
+          "blockIndex": 32,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "• Fusion 360 CAM for beginners (YouTube)"
+        }
+      ],
+      "charCount": 1793,
+      "height": 792.0,
+      "pageNumber": 16,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            223.99,
+            754.6,
+            388.01,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "@1nska  •  6 ME Portfolio Projects  •  Page 17"
+        },
+        {
+          "bbox": [
+            90.8,
+            62.85,
+            250.47,
+            76.59
+          ],
+          "blockIndex": 1,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "• Stepper motor basics — SparkFun"
+        },
+        {
+          "bbox": [
+            90.8,
+            80.85,
+            210.46,
+            94.59
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "• Linear rail selection guide"
+        },
+        {
+          "bbox": [
+            108.8,
+            114.81,
+            458.37,
+            129.32
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Level up: Add a laser diode module (1-5W) as a second tool head for laser"
+        },
+        {
+          "bbox": [
+            108.8,
+            130.81,
+            471.21,
+            145.24
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "engraving/cutting thin materials. Having a machine that can both mechanically"
+        },
+        {
+          "bbox": [
+            108.8,
+            146.81,
+            503.2,
+            161.24
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "engrave and laser cut shows serious manufacturing versatility. Just make sure to add"
+        },
+        {
+          "bbox": [
+            108.8,
+            162.81,
+            286.81,
+            177.24
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "proper safety enclosures and goggles."
+        }
+      ],
+      "charCount": 379,
+      "height": 792.0,
+      "pageNumber": 17,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            223.99,
+            754.6,
+            388.01,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "@1nska  •  6 ME Portfolio Projects  •  Page 18"
+        },
+        {
+          "bbox": [
+            70.8,
+            61.64,
+            101.94,
+            100.2
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "#6"
+        },
+        {
+          "bbox": [
+            70.8,
+            110.34,
+            394.87,
+            135.13
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Wireless Strain Gauge Bridge Monitor"
+        },
+        {
+          "bbox": [
+            70.8,
+            138.9,
+            270.57,
+            152.67
+          ],
+          "blockIndex": 3,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "INSTRUMENTATION • STRUCTURAL • IOT"
+        },
+        {
+          "bbox": [
+            70.8,
+            160.81,
+            293.53,
+            175.32
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Difficulty: Advanced | Estimated cost: $45–70"
+        },
+        {
+          "bbox": [
+            70.8,
+            473.61,
+            541.2,
+            488.12
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Why recruiters love this: Structural health monitoring is a growing field where ME meets IoT."
+        },
+        {
+          "bbox": [
+            70.8,
+            489.61,
+            541.2,
+            504.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Companies in aerospace, civil infrastructure, and automotive need engineers who understand both"
+        },
+        {
+          "bbox": [
+            70.8,
+            505.61,
+            541.2,
+            520.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "the mechanics of deformation AND the electronics of measurement. This project proves you're that"
+        },
+        {
+          "bbox": [
+            70.8,
+            521.61,
+            114.57,
+            536.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "engineer."
+        },
+        {
+          "bbox": [
+            70.8,
+            545.61,
+            541.2,
+            560.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Build a wireless strain measurement system using strain gauges in a Wheatstone bridge"
+        },
+        {
+          "bbox": [
+            70.8,
+            561.61,
+            541.2,
+            576.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "configuration, amplified by an instrumentation amplifier, digitized by an HX711 ADC, and transmitted"
+        },
+        {
+          "bbox": [
+            70.8,
+            577.61,
+            541.2,
+            592.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "wirelessly via an ESP32. Apply it to a real structure — a 3D-printed beam under load — and compare"
+        },
+        {
+          "bbox": [
+            70.8,
+            593.61,
+            237.7,
+            608.04
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "measured strain to FEA predictions."
+        },
+        {
+          "bbox": [
+            70.8,
+            621.49,
+            167.59,
+            639.39
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "What you need:"
+        },
+        {
+          "bbox": [
+            90.8,
+            645.61,
+            270.04,
+            660.04
+          ],
+          "blockIndex": 14,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "• Foil strain gauges (120Ω, pack of 10)"
+        },
+        {
+          "bbox": [
+            90.8,
+            665.61,
+            364.66,
+            680.04
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "• HX711 24-bit ADC module (same one used for load cells)"
+        },
+        {
+          "bbox": [
+            90.8,
+            685.61,
+            271.28,
+            700.04
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "• ESP32 for wireless data transmission"
+        },
+        {
+          "bbox": [
+            90.8,
+            705.61,
+            449.86,
+            720.04
+          ],
+          "blockIndex": 17,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "• Instrumentation amplifier (INA125 or AD620) — optional for higher precision"
+        }
+      ],
+      "charCount": 998,
+      "height": 792.0,
+      "pageNumber": 18,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            223.99,
+            754.6,
+            388.01,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "@1nska  •  6 ME Portfolio Projects  •  Page 19"
+        },
+        {
+          "bbox": [
+            90.8,
+            62.81,
+            358.8,
+            77.24
+          ],
+          "blockIndex": 1,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "• 3D-printed or aluminum cantilever beam (test specimen)"
+        },
+        {
+          "bbox": [
+            90.8,
+            82.81,
+            337.83,
+            97.24
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "• Cyanoacrylate adhesive (for bonding strain gauges)"
+        },
+        {
+          "bbox": [
+            90.8,
+            102.81,
+            273.04,
+            117.24
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "• Known weights for calibration (1-5 kg)"
+        },
+        {
+          "bbox": [
+            90.8,
+            122.81,
+            287.62,
+            137.24
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "• Cloud platform (ThingSpeak or Firebase)"
+        },
+        {
+          "bbox": [
+            70.8,
+            158.69,
+            166.9,
+            176.59
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Skills it proves:"
+        },
+        {
+          "bbox": [
+            90.8,
+            182.81,
+            518.76,
+            197.24
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "• Strain measurement fundamentals — gauge factor, Wheatstone bridge, signal conditioning"
+        },
+        {
+          "bbox": [
+            90.8,
+            202.81,
+            316.25,
+            217.24
+          ],
+          "blockIndex": 7,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "• Analog signal amplification and noise reduction"
+        },
+        {
+          "bbox": [
+            90.8,
+            222.81,
+            313.3,
+            237.24
+          ],
+          "blockIndex": 8,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "• Wireless sensor networks and IoT architecture"
+        },
+        {
+          "bbox": [
+            90.8,
+            242.81,
+            400.25,
+            257.24
+          ],
+          "blockIndex": 9,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "• FEA validation — comparing simulation to physical measurement"
+        },
+        {
+          "bbox": [
+            90.8,
+            262.81,
+            242.12,
+            277.24
+          ],
+          "blockIndex": 10,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "• Data acquisition system design"
+        },
+        {
+          "bbox": [
+            70.8,
+            298.69,
+            164.69,
+            316.59
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "How to build it:"
+        },
+        {
+          "bbox": [
+            90.8,
+            322.81,
+            501.08,
+            337.32
+          ],
+          "blockIndex": 12,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Step 1: Prepare and bond strain gauges. Surface-prep the test beam (sand, clean, mark"
+        },
+        {
+          "bbox": [
+            90.8,
+            338.81,
+            524.4,
+            353.24
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "alignment). Apply strain gauges with cyanoacrylate — alignment and adhesion quality directly"
+        },
+        {
+          "bbox": [
+            90.8,
+            354.81,
+            296.22,
+            369.24
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "affect accuracy. This step requires patience."
+        },
+        {
+          "bbox": [
+            90.8,
+            374.81,
+            489.37,
+            389.32
+          ],
+          "blockIndex": 15,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Step 2: Build the Wheatstone bridge circuit. Wire gauges in a half-bridge or full-bridge"
+        },
+        {
+          "bbox": [
+            90.8,
+            390.81,
+            530.25,
+            405.24
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "configuration. Connect to the HX711 ADC. Calibrate the zero point (no load) and verify stability"
+        },
+        {
+          "bbox": [
+            90.8,
+            406.81,
+            252.46,
+            421.24
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "— readings should be rock steady."
+        },
+        {
+          "bbox": [
+            90.8,
+            426.81,
+            509.2,
+            441.32
+          ],
+          "blockIndex": 18,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Step 3: Calibrate with known loads. Apply known weights to your cantilever beam. Record"
+        },
+        {
+          "bbox": [
+            90.8,
+            442.81,
+            515.65,
+            457.24
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "HX711 readings at each load. Create a calibration curve (load vs. digital reading). Calculate"
+        },
+        {
+          "bbox": [
+            90.8,
+            458.81,
+            198.75,
+            473.24
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "sensitivity and linearity."
+        },
+        {
+          "bbox": [
+            90.8,
+            478.81,
+            497.56,
+            493.32
+          ],
+          "blockIndex": 21,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Step 4: Set up wireless transmission. Program the ESP32 to read the HX711, apply the"
+        },
+        {
+          "bbox": [
+            90.8,
+            494.81,
+            509.79,
+            509.24
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "calibration equation, and transmit strain values over WiFi to ThingSpeak or Firebase every"
+        },
+        {
+          "bbox": [
+            90.8,
+            510.81,
+            127.57,
+            525.24
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "second."
+        },
+        {
+          "bbox": [
+            90.8,
+            530.81,
+            527.31,
+            545.32
+          ],
+          "blockIndex": 24,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Step 5: Run the FEA comparison. Model your exact beam geometry in Fusion 360 or ANSYS."
+        },
+        {
+          "bbox": [
+            90.8,
+            546.81,
+            539.0,
+            561.24
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Apply the same loads you tested physically. Compare FEA-predicted strain at the gauge location"
+        },
+        {
+          "bbox": [
+            90.8,
+            562.81,
+            364.5,
+            577.24
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "to your measured values. They should agree within 5-10%."
+        },
+        {
+          "bbox": [
+            90.8,
+            582.81,
+            516.24,
+            597.32
+          ],
+          "blockIndex": 27,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Step 6: Build the dashboard and document. Create a real-time web dashboard showing live"
+        },
+        {
+          "bbox": [
+            90.8,
+            598.81,
+            538.43,
+            613.24
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "strain data. Demonstrate the system detecting when load is applied and removed. Document the"
+        },
+        {
+          "bbox": [
+            90.8,
+            614.81,
+            385.47,
+            629.24
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "FEA vs. measurement comparison — this is gold for interviews."
+        },
+        {
+          "bbox": [
+            70.8,
+            652.69,
+            226.85,
+            670.59
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Useful links & resources:"
+        },
+        {
+          "bbox": [
+            90.8,
+            676.85,
+            257.16,
+            690.59
+          ],
+          "blockIndex": 31,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "• Strain gauge bonding guide — HBM"
+        },
+        {
+          "bbox": [
+            90.8,
+            694.85,
+            236.3,
+            708.59
+          ],
+          "blockIndex": 32,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "• HX711 Arduino library + tutorial"
+        }
+      ],
+      "charCount": 1942,
+      "height": 792.0,
+      "pageNumber": 19,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            223.99,
+            754.6,
+            388.01,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "@1nska  •  6 ME Portfolio Projects  •  Page 20"
+        },
+        {
+          "bbox": [
+            90.8,
+            62.85,
+            226.59,
+            76.59
+          ],
+          "blockIndex": 1,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "• Wheatstone bridge explained"
+        },
+        {
+          "bbox": [
+            90.8,
+            80.85,
+            220.47,
+            94.59
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "• ANSYS free student license"
+        },
+        {
+          "bbox": [
+            90.8,
+            98.85,
+            248.53,
+            112.59
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "• ESP32 WiFi + ThingSpeak tutorial"
+        },
+        {
+          "bbox": [
+            90.8,
+            116.85,
+            271.61,
+            130.59
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "• Strain gauge selection guide — Omega"
+        },
+        {
+          "bbox": [
+            108.8,
+            150.81,
+            491.04,
+            165.32
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Level up: Deploy your system on an actual structure — a footbridge, shelf, or bike"
+        },
+        {
+          "bbox": [
+            108.8,
+            166.81,
+            473.56,
+            181.24
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "frame — and log data over weeks. Add ML-based anomaly detection that flags"
+        },
+        {
+          "bbox": [
+            108.8,
+            182.81,
+            487.56,
+            197.24
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "unexpected strain patterns. This turns a student project into a legitimate structural"
+        },
+        {
+          "bbox": [
+            108.8,
+            198.81,
+            228.43,
+            213.24
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "health monitoring system."
+        }
+      ],
+      "charCount": 441,
+      "height": 792.0,
+      "pageNumber": 20,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            223.99,
+            754.6,
+            388.01,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "@1nska  •  6 ME Portfolio Projects  •  Page 21"
+        },
+        {
+          "bbox": [
+            70.8,
+            106.06,
+            244.42,
+            136.35
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Quick Reference"
+        },
+        {
+          "bbox": [
+            112.7,
+            154.97,
+            488.8,
+            167.36
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "#\nProject\nKey Skill Area\nDifficulty\nCost"
+        },
+        {
+          "bbox": [
+            112.7,
+            182.93,
+            493.81,
+            195.29
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "1\nRobotic Gripper\nPrototyping + Sensors\nBeginner\n$25–40"
+        },
+        {
+          "bbox": [
+            112.7,
+            210.93,
+            493.81,
+            223.29
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "2\nWind Tunnel\nFluids + Data\nIntermediate\n$40–70"
+        },
+        {
+          "bbox": [
+            112.7,
+            238.93,
+            493.81,
+            251.29
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "3\nSolar Tracker\nControls + Energy\nIntermediate\n$35–55"
+        },
+        {
+          "bbox": [
+            112.7,
+            266.93,
+            493.81,
+            279.29
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "4\nThermal System\nHeat Transfer + PID\nIntermediate\n$30–50"
+        },
+        {
+          "bbox": [
+            112.7,
+            294.93,
+            496.31,
+            307.29
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "5\nCNC Engraver\nManufacturing\nAdvanced\n$60–100"
+        },
+        {
+          "bbox": [
+            112.7,
+            322.93,
+            493.81,
+            335.29
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "6\nStrain Monitor\nInstrumentation + IoT\nAdvanced\n$45–70"
+        },
+        {
+          "bbox": [
+            70.8,
+            386.06,
+            246.8,
+            416.35
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "What To Do Next"
+        },
+        {
+          "bbox": [
+            70.8,
+            426.81,
+            541.2,
+            441.24
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Don't try to build all 6 at once. Pick the one that excites you most, order the parts today, and start this"
+        },
+        {
+          "bbox": [
+            70.8,
+            442.81,
+            348.6,
+            457.24
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "weekend. A finished project beats a perfect plan every time."
+        },
+        {
+          "bbox": [
+            70.8,
+            466.81,
+            541.2,
+            481.24
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "When you finish a project, document it properly: clean code on GitHub, a detailed README with"
+        },
+        {
+          "bbox": [
+            70.8,
+            482.81,
+            541.2,
+            497.24
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "photos and diagrams, a short demo video, and your test data. That package is what gets you"
+        },
+        {
+          "bbox": [
+            70.8,
+            498.81,
+            120.39,
+            513.24
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "interviews."
+        },
+        {
+          "bbox": [
+            108.8,
+            544.86,
+            308.93,
+            559.32
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Essential free software for ME students:"
+        },
+        {
+          "bbox": [
+            108.8,
+            560.81,
+            369.82,
+            575.24
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "• Fusion 360 — CAD, CAM, simulation, free for students"
+        },
+        {
+          "bbox": [
+            108.8,
+            576.81,
+            321.97,
+            591.24
+          ],
+          "blockIndex": 17,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "• ANSYS Student — FEA and CFD simulation"
+        },
+        {
+          "bbox": [
+            108.8,
+            592.81,
+            302.71,
+            607.24
+          ],
+          "blockIndex": 18,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "• Arduino IDE — embedded programming"
+        },
+        {
+          "bbox": [
+            108.8,
+            608.81,
+            363.13,
+            623.24
+          ],
+          "blockIndex": 19,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "• Python + Matplotlib — data analysis and visualization"
+        },
+        {
+          "bbox": [
+            108.8,
+            624.81,
+            330.15,
+            639.24
+          ],
+          "blockIndex": 20,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "• GitHub — portfolio hosting and version control"
+        }
+      ],
+      "charCount": 1060,
+      "height": 792.0,
+      "pageNumber": 21,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            223.99,
+            754.6,
+            388.01,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "@1nska  •  6 ME Portfolio Projects  •  Page 22"
+        },
+        {
+          "bbox": [
+            108.8,
+            72.81,
+            477.34,
+            87.32
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "Follow @1nska on Instagram for more project guides, build logs, and real talk"
+        },
+        {
+          "bbox": [
+            108.8,
+            88.81,
+            502.85,
+            103.24
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "about building as a student. DM me \"BUILD\" and I'll help you pick the right project for"
+        },
+        {
+          "bbox": [
+            108.8,
+            104.81,
+            210.92,
+            119.24
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "your experience level."
+        },
+        {
+          "bbox": [
+            263.73,
+            170.92,
+            348.27,
+            196.29
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 22,
+          "text": "— Enes (@1nska)\nNYU Shanghai, 2026"
+        }
+      ],
+      "charCount": 266,
+      "height": 792.0,
+      "pageNumber": 22,
+      "textExtractable": true,
+      "width": 612.0
+    }
+  ],
+  "provenance": {
+    "confidence": "EXACT",
+    "extractionMethod": "pymupdf-blocks-v1",
+    "extractorVersion": "1.28.0",
+    "generatorVersion": null,
+    "origin": "extracted",
+    "source": "guide-025",
+    "sourceHash": "18b165ba177f1be3aa354b368aed98d0af4b71239c6662eb3b207509209c2acc",
+    "sourcePage": null,
+    "sourcePath": "Engineering guides/me_portfolio_projects.pdf",
+    "sourceSection": "ROOT"
+  },
+  "relativePath": "Engineering guides/me_portfolio_projects.pdf",
+  "schemaVersion": "1.0.0",
+  "sha256": "18b165ba177f1be3aa354b368aed98d0af4b71239c6662eb3b207509209c2acc",
+  "sourceId": "guide-025"
+}

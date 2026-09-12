@@ -1,0 +1,2539 @@
+{
+  "metadata": {
+    "author": "(anonymous)",
+    "creationDate": "D:20260219133151+00'00'",
+    "creator": "(unspecified)",
+    "format": "PDF 1.4",
+    "modDate": "D:20260219133151+00'00'",
+    "producer": "ReportLab PDF Library - (opensource)",
+    "subject": "(unspecified)",
+    "title": "(anonymous)"
+  },
+  "pageCount": 10,
+  "pages": [
+    {
+      "blocks": [
+        {
+          "bbox": [
+            163.39,
+            217.5,
+            448.61,
+            322.84
+          ],
+          "blockIndex": 0,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "HOW TO BECOME A\nDANGEROUSLY\nOVEREDUCATED"
+        },
+        {
+          "bbox": [
+            217.21,
+            316.02,
+            394.79,
+            362.84
+          ],
+          "blockIndex": 1,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "ENGINEER"
+        },
+        {
+          "bbox": [
+            171.61,
+            373.42,
+            440.39,
+            391.29
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "The complete guide to self-educating your way"
+        },
+        {
+          "bbox": [
+            187.78,
+            391.42,
+            424.22,
+            409.29
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "into internships you \"shouldn't\" qualify for"
+        },
+        {
+          "bbox": [
+            273.39,
+            458.42,
+            338.61,
+            476.29
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "by @1nska"
+        },
+        {
+          "bbox": [
+            211.15,
+            478.57,
+            400.85,
+            493.69
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Engineering Student @ NYU Shanghai"
+        },
+        {
+          "bbox": [
+            179.67,
+            498.58,
+            432.33,
+            513.69
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "II → Shanghai | Business → Engineering | Builder"
+        }
+      ],
+      "charCount": 228,
+      "height": 792.0,
+      "pageNumber": 1,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            182.02,
+            751.0,
+            429.98,
+            761.99
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "@1nska  |  The Dangerously Overeducated Engineer Guide  |  Page 2"
+        },
+        {
+          "bbox": [
+            60.0,
+            59.23,
+            289.89,
+            103.45
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "BEFORE WE START\nWhy I Made This Guide"
+        },
+        {
+          "bbox": [
+            60.0,
+            110.21,
+            546.72,
+            124.64
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "I switched from a business major to engineering because I wanted to build things with my own hands. No"
+        },
+        {
+          "bbox": [
+            60.0,
+            126.21,
+            259.02,
+            140.64
+          ],
+          "blockIndex": 3,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "safety net. No guarantee it would work out."
+        },
+        {
+          "bbox": [
+            60.0,
+            150.21,
+            506.38,
+            164.64
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Since then, I've worked with KUKA — one of the world's top robotics companies — on a robo art"
+        },
+        {
+          "bbox": [
+            60.0,
+            166.21,
+            525.11,
+            180.64
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "performance, started building a fintech startup from my dorm room, and learned more in 6 months of"
+        },
+        {
+          "bbox": [
+            60.0,
+            182.21,
+            260.77,
+            196.64
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "building than 2 years of lectures taught me."
+        },
+        {
+          "bbox": [
+            60.0,
+            206.21,
+            551.09,
+            220.64
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "This guide is everything I wish someone had handed me on day one. It's the exact framework I used to go"
+        },
+        {
+          "bbox": [
+            60.0,
+            222.21,
+            548.59,
+            236.64
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "from \"business student who can't code\" to someone who actually ships software. No fluff. No motivational"
+        },
+        {
+          "bbox": [
+            60.0,
+            238.21,
+            181.99,
+            252.64
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "quotes. Just the playbook."
+        },
+        {
+          "bbox": [
+            60.0,
+            262.27,
+            531.01,
+            276.72
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "If you follow even half of this, you'll be in the top 5% of engineering students — and internship"
+        },
+        {
+          "bbox": [
+            60.0,
+            278.27,
+            165.04,
+            292.72
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "recruiters will notice."
+        },
+        {
+          "bbox": [
+            60.0,
+            337.73,
+            358.75,
+            381.95
+          ],
+          "blockIndex": 12,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "STEP 01\nStop Relying on Your Classes"
+        },
+        {
+          "bbox": [
+            60.0,
+            388.71,
+            543.18,
+            403.14
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Your degree teaches you the floor, not the ceiling. If you only learn what's in the syllabus, you'll have the"
+        },
+        {
+          "bbox": [
+            60.0,
+            404.71,
+            527.96,
+            419.14
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "exact same skills as every other graduate. That's not a competitive advantage — that's a commodity."
+        },
+        {
+          "bbox": [
+            60.0,
+            436.52,
+            189.89,
+            455.8
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "What to do instead:"
+        },
+        {
+          "bbox": [
+            80.0,
+            460.71,
+            439.1,
+            475.14
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "• Use your classes as a starting point, then go 2–3 levels deeper on your own"
+        },
+        {
+          "bbox": [
+            80.0,
+            480.71,
+            481.68,
+            495.14
+          ],
+          "blockIndex": 17,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "• If a class covers data structures, go build a project that uses them in a non-trivial way"
+        },
+        {
+          "bbox": [
+            80.0,
+            500.71,
+            378.62,
+            515.14
+          ],
+          "blockIndex": 18,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "• If a class covers circuits, go replicate a real product's hardware"
+        },
+        {
+          "bbox": [
+            80.0,
+            520.71,
+            548.21,
+            535.14
+          ],
+          "blockIndex": 19,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "• Treat your professors as mentors, not just lecturers — go to office hours with real questions beyond"
+        },
+        {
+          "bbox": [
+            80.0,
+            536.71,
+            145.93,
+            551.14
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "the curriculum"
+        },
+        {
+          "bbox": [
+            60.0,
+            568.52,
+            180.57,
+            587.8
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "The mindset shift:"
+        },
+        {
+          "bbox": [
+            60.0,
+            592.71,
+            514.62,
+            607.14
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Classes are a map. The territory is what you explore on your own. The students who land the best"
+        },
+        {
+          "bbox": [
+            60.0,
+            608.71,
+            491.27,
+            623.14
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "internships treat their coursework as 40% of their education — the other 60% is self-directed."
+        },
+        {
+          "bbox": [
+            60.0,
+            636.87,
+            184.04,
+            649.26
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Free resources to go deeper:"
+        },
+        {
+          "bbox": [
+            80.0,
+            650.75,
+            405.26,
+            664.49
+          ],
+          "blockIndex": 25,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "• MIT OpenCourseWare — full MIT courses with problem sets and exams"
+        },
+        {
+          "bbox": [
+            80.0,
+            668.75,
+            366.42,
+            682.49
+          ],
+          "blockIndex": 26,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "• Stanford CS courses on YouTube — CS229, CS231n, CS106B"
+        },
+        {
+          "bbox": [
+            80.0,
+            686.75,
+            371.94,
+            700.49
+          ],
+          "blockIndex": 27,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "• 3Blue1Brown — visual math intuition that makes everything click"
+        },
+        {
+          "bbox": [
+            80.0,
+            704.75,
+            400.31,
+            718.49
+          ],
+          "blockIndex": 28,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "• The Feynman Lectures — physics fundamentals explained by a genius"
+        }
+      ],
+      "charCount": 1941,
+      "height": 792.0,
+      "pageNumber": 2,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            182.02,
+            751.0,
+            429.98,
+            761.99
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "@1nska  |  The Dangerously Overeducated Engineer Guide  |  Page 3"
+        },
+        {
+          "bbox": [
+            60.0,
+            59.23,
+            389.11,
+            103.45
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "STEP 02\nPick a Stack and Go Stupid Deep"
+        },
+        {
+          "bbox": [
+            60.0,
+            110.21,
+            547.55,
+            124.64
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Don't learn 10 languages at 10%. Learn one at 100%. Recruiters smell generalists from a mile away. The"
+        },
+        {
+          "bbox": [
+            60.0,
+            126.21,
+            535.74,
+            140.64
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "person who can say \"I know Python deeply — here's a complex project to prove it\" will always beat the"
+        },
+        {
+          "bbox": [
+            60.0,
+            142.21,
+            507.31,
+            156.64
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "person who lists 8 languages on their resume but can't build anything meaningful in any of them."
+        },
+        {
+          "bbox": [
+            60.0,
+            174.02,
+            217.15,
+            193.3
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "How to pick your stack:"
+        },
+        {
+          "bbox": [
+            80.0,
+            198.21,
+            541.11,
+            212.72
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• If you want to build apps: Learn Swift (iOS) or React Native / Flutter (cross-platform). Pair with a"
+        },
+        {
+          "bbox": [
+            80.0,
+            214.21,
+            260.91,
+            228.64
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "backend like Node.js or Python/Django"
+        },
+        {
+          "bbox": [
+            80.0,
+            234.21,
+            534.16,
+            248.72
+          ],
+          "blockIndex": 8,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• If you want to do AI/ML: Python is non-negotiable. Learn PyTorch or TensorFlow deeply. Know"
+        },
+        {
+          "bbox": [
+            80.0,
+            250.21,
+            195.55,
+            264.64
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "NumPy and Pandas cold"
+        },
+        {
+          "bbox": [
+            80.0,
+            270.21,
+            548.16,
+            284.72
+          ],
+          "blockIndex": 10,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• If you want to do systems/infra: C/C++ or Rust. Understand memory, concurrency, and operating"
+        },
+        {
+          "bbox": [
+            80.0,
+            286.21,
+            182.11,
+            300.64
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "systems at a low level"
+        },
+        {
+          "bbox": [
+            80.0,
+            306.21,
+            549.94,
+            320.72
+          ],
+          "blockIndex": 12,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• If you want to do web: TypeScript + React + a backend framework. Learn it end-to-end so you can"
+        },
+        {
+          "bbox": [
+            80.0,
+            322.21,
+            183.88,
+            336.64
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "build full products solo"
+        },
+        {
+          "bbox": [
+            60.0,
+            354.02,
+            160.34,
+            373.3
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "The depth test:"
+        },
+        {
+          "bbox": [
+            60.0,
+            378.21,
+            552.0,
+            392.64
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Can you build a complete, non-trivial project in your chosen stack without following a tutorial? If yes, you're"
+        },
+        {
+          "bbox": [
+            60.0,
+            394.21,
+            207.69,
+            408.64
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "deep enough. If no, keep going."
+        },
+        {
+          "bbox": [
+            75.0,
+            418.3,
+            550.59,
+            446.84
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "I Pro tip: Read the source code of libraries you use. Understanding how React or PyTorch works under the\nhood separates junior developers from engineers."
+        }
+      ],
+      "charCount": 1227,
+      "height": 792.0,
+      "pageNumber": 3,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            182.02,
+            751.0,
+            429.98,
+            761.99
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "@1nska  |  The Dangerously Overeducated Engineer Guide  |  Page 4"
+        },
+        {
+          "bbox": [
+            60.0,
+            59.23,
+            509.21,
+            103.45
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "STEP 03\nBuild Something Nobody Asked You to Build"
+        },
+        {
+          "bbox": [
+            60.0,
+            110.21,
+            527.71,
+            124.64
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "This is the single most important step in this entire guide. I convinced KUKA — one of the world's top"
+        },
+        {
+          "bbox": [
+            60.0,
+            126.21,
+            515.78,
+            140.64
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "robotics companies — to let me borrow a robot for an art engineering performance. No budget. No"
+        },
+        {
+          "bbox": [
+            60.0,
+            142.21,
+            550.29,
+            156.64
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "connections. No one handed it to me. I just reached out, pitched the vision, and made it happen. That one"
+        },
+        {
+          "bbox": [
+            60.0,
+            158.21,
+            495.96,
+            172.64
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "project taught me more than any class and gave me something concrete to talk about in every"
+        },
+        {
+          "bbox": [
+            60.0,
+            174.21,
+            122.44,
+            188.64
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "conversation."
+        },
+        {
+          "bbox": [
+            60.0,
+            206.02,
+            167.35,
+            225.3
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Why this works:"
+        },
+        {
+          "bbox": [
+            80.0,
+            230.21,
+            468.85,
+            244.64
+          ],
+          "blockIndex": 8,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• It proves initiative — anyone can do homework, very few people build on their own"
+        },
+        {
+          "bbox": [
+            80.0,
+            250.21,
+            381.73,
+            264.64
+          ],
+          "blockIndex": 9,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• It creates real stories for interviews (\"Tell me about a project...\")"
+        },
+        {
+          "bbox": [
+            80.0,
+            270.21,
+            452.17,
+            284.64
+          ],
+          "blockIndex": 10,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• You learn 10x faster when you're solving real problems, not textbook exercises"
+        },
+        {
+          "bbox": [
+            80.0,
+            290.21,
+            518.13,
+            304.64
+          ],
+          "blockIndex": 11,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• It gives you something to put on your resume that isn't a class project everyone else also has"
+        },
+        {
+          "bbox": [
+            60.0,
+            322.02,
+            230.34,
+            341.3
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "What to build (start here):"
+        },
+        {
+          "bbox": [
+            80.0,
+            346.21,
+            477.83,
+            360.72
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• Solve your own problem: What annoys you? What's inefficient? Build a tool to fix it"
+        },
+        {
+          "bbox": [
+            80.0,
+            366.21,
+            540.59,
+            380.72
+          ],
+          "blockIndex": 14,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• Pitch something bold: Reach out to companies, labs, or people way above your level. The worst"
+        },
+        {
+          "bbox": [
+            80.0,
+            382.21,
+            164.04,
+            396.64
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "they can say is no"
+        },
+        {
+          "bbox": [
+            80.0,
+            402.21,
+            498.89,
+            416.72
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• Clone and improve: Rebuild a product you use daily, then add a feature they don't have"
+        },
+        {
+          "bbox": [
+            80.0,
+            422.21,
+            403.44,
+            436.72
+          ],
+          "blockIndex": 17,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• Automate something: Find a manual process and engineer it away"
+        },
+        {
+          "bbox": [
+            60.0,
+            454.02,
+            115.23,
+            473.3
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "The bar:"
+        },
+        {
+          "bbox": [
+            60.0,
+            478.21,
+            508.8,
+            492.64
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Your project should be something you can demo in 60 seconds and explain why it matters in one"
+        },
+        {
+          "bbox": [
+            60.0,
+            494.21,
+            350.37,
+            508.64
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "sentence. It doesn't need to be perfect. It needs to be shipped."
+        },
+        {
+          "bbox": [
+            75.0,
+            518.3,
+            438.64,
+            531.84
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "I Ship > perfect. A finished ugly app beats an unfinished beautiful one every time."
+        }
+      ],
+      "charCount": 1490,
+      "height": 792.0,
+      "pageNumber": 4,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            182.02,
+            751.0,
+            429.98,
+            761.99
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "@1nska  |  The Dangerously Overeducated Engineer Guide  |  Page 5"
+        },
+        {
+          "bbox": [
+            60.0,
+            59.23,
+            511.6,
+            128.45
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "STEP 04\nRead Documentation Like Other People Read\nInstagram"
+        },
+        {
+          "bbox": [
+            60.0,
+            135.21,
+            521.02,
+            149.64
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Seriously. The engineers who read docs outperform the ones who watch tutorials every single time."
+        },
+        {
+          "bbox": [
+            60.0,
+            151.21,
+            421.83,
+            165.64
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Tutorials teach you to follow instructions. Documentation teaches you to think."
+        },
+        {
+          "bbox": [
+            60.0,
+            183.02,
+            222.58,
+            202.3
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Why docs beat tutorials:"
+        },
+        {
+          "bbox": [
+            80.0,
+            207.21,
+            541.22,
+            221.64
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• Docs are written by the people who built the thing — tutorials are written by people who learned to"
+        },
+        {
+          "bbox": [
+            80.0,
+            223.21,
+            105.1,
+            237.64
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "use it"
+        },
+        {
+          "bbox": [
+            80.0,
+            243.21,
+            378.94,
+            257.64
+          ],
+          "blockIndex": 7,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• Docs are comprehensive — tutorials cherry-pick the easy parts"
+        },
+        {
+          "bbox": [
+            80.0,
+            263.21,
+            530.67,
+            277.64
+          ],
+          "blockIndex": 8,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• Reading docs builds the skill of learning from primary sources — the #1 skill of senior engineers"
+        },
+        {
+          "bbox": [
+            80.0,
+            283.21,
+            493.78,
+            297.64
+          ],
+          "blockIndex": 9,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• In interviews, saying \"I read the RFC\" signals a completely different level of seriousness"
+        },
+        {
+          "bbox": [
+            60.0,
+            315.02,
+            182.12,
+            334.3
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Docs to start with:"
+        },
+        {
+          "bbox": [
+            80.0,
+            339.25,
+            474.65,
+            353.07
+          ],
+          "blockIndex": 11,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• Whatever framework you use daily — read it cover to cover, not just \"Getting Started\""
+        },
+        {
+          "bbox": [
+            80.0,
+            357.25,
+            323.58,
+            371.07
+          ],
+          "blockIndex": 12,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• MDN Web Docs — the bible for anything web-related"
+        },
+        {
+          "bbox": [
+            80.0,
+            375.25,
+            383.82,
+            389.07
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• Apple Developer Documentation — if you're building iOS/macOS"
+        },
+        {
+          "bbox": [
+            80.0,
+            393.25,
+            384.71,
+            407.07
+          ],
+          "blockIndex": 14,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• Python official docs — especially the tutorial and library reference"
+        },
+        {
+          "bbox": [
+            80.0,
+            411.25,
+            420.28,
+            425.07
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• RFCs and specs — HTTP, TCP/IP, OAuth. Dense but incredibly rewarding"
+        },
+        {
+          "bbox": [
+            60.0,
+            442.02,
+            126.89,
+            461.3
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "The habit:"
+        },
+        {
+          "bbox": [
+            60.0,
+            466.21,
+            509.07,
+            480.64
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Spend 20 minutes a day reading documentation instead of watching a tutorial. In 3 months, you'll"
+        },
+        {
+          "bbox": [
+            60.0,
+            482.21,
+            373.07,
+            496.64
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "understand systems at a level most students don't reach in 4 years."
+        }
+      ],
+      "charCount": 1217,
+      "height": 792.0,
+      "pageNumber": 5,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            182.02,
+            751.0,
+            429.98,
+            761.99
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "@1nska  |  The Dangerously Overeducated Engineer Guide  |  Page 6"
+        },
+        {
+          "bbox": [
+            60.0,
+            59.23,
+            384.45,
+            103.45
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "STEP 05\nReverse Engineer Real Products"
+        },
+        {
+          "bbox": [
+            60.0,
+            110.21,
+            536.22,
+            124.64
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Contributing to open source or breaking down how real products work is the fastest shortcut to thinking"
+        },
+        {
+          "bbox": [
+            60.0,
+            126.21,
+            284.93,
+            140.64
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "like a senior engineer while you're still a student."
+        },
+        {
+          "bbox": [
+            60.0,
+            158.02,
+            186.78,
+            177.3
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "How to get started:"
+        },
+        {
+          "bbox": [
+            80.0,
+            182.21,
+            542.96,
+            196.72
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• Pick a product you love and figure out how it works technically. How does Spotify handle offline?"
+        },
+        {
+          "bbox": [
+            80.0,
+            198.21,
+            231.72,
+            212.64
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "How does Notion render blocks?"
+        },
+        {
+          "bbox": [
+            80.0,
+            218.21,
+            516.09,
+            232.72
+          ],
+          "blockIndex": 7,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• Read open-source code of tools you use — VS Code, React, popular libraries in your stack"
+        },
+        {
+          "bbox": [
+            80.0,
+            238.21,
+            547.05,
+            252.72
+          ],
+          "blockIndex": 8,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• Start with \"good first issue\" labels on GitHub. Fix a bug. Improve a doc. Submit a PR. The bar is"
+        },
+        {
+          "bbox": [
+            80.0,
+            254.21,
+            173.38,
+            268.64
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "lower than you think"
+        },
+        {
+          "bbox": [
+            80.0,
+            274.21,
+            548.79,
+            288.72
+          ],
+          "blockIndex": 10,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• Write technical breakdowns of how things work and post them — this doubles as portfolio content"
+        },
+        {
+          "bbox": [
+            60.0,
+            306.02,
+            223.38,
+            325.3
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Why recruiters love this:"
+        },
+        {
+          "bbox": [
+            60.0,
+            330.21,
+            514.29,
+            344.64
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Open-source contributions show you can read other people's code (critical in any job), understand"
+        },
+        {
+          "bbox": [
+            60.0,
+            346.21,
+            552.0,
+            360.64
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "complex systems, and contribute to a codebase you didn't create. These are the exact skills you'll need on"
+        },
+        {
+          "bbox": [
+            60.0,
+            362.21,
+            180.24,
+            376.64
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "day one of any internship."
+        },
+        {
+          "bbox": [
+            60.0,
+            390.37,
+            158.01,
+            402.76
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Where to find projects:"
+        },
+        {
+          "bbox": [
+            80.0,
+            404.25,
+            254.12,
+            417.99
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• GitHub Explore — github.com/explore"
+        },
+        {
+          "bbox": [
+            80.0,
+            422.25,
+            255.79,
+            435.99
+          ],
+          "blockIndex": 17,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• Good First Issue — goodfirstissue.dev"
+        },
+        {
+          "bbox": [
+            80.0,
+            440.25,
+            233.55,
+            453.99
+          ],
+          "blockIndex": 18,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• Up For Grabs — up-for-grabs.net"
+        },
+        {
+          "bbox": [
+            80.0,
+            458.25,
+            222.44,
+            471.99
+          ],
+          "blockIndex": 19,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• CodeTriage — codetriage.com"
+        }
+      ],
+      "charCount": 1127,
+      "height": 792.0,
+      "pageNumber": 6,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            182.02,
+            751.0,
+            429.98,
+            761.99
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "@1nska  |  The Dangerously Overeducated Engineer Guide  |  Page 7"
+        },
+        {
+          "bbox": [
+            60.0,
+            59.23,
+            457.95,
+            103.45
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "STEP 06\nMake Your Internet Presence a Portfolio"
+        },
+        {
+          "bbox": [
+            60.0,
+            110.21,
+            538.56,
+            124.64
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "When a recruiter Googles you, they should find projects, not just a LinkedIn with your GPA. Your online"
+        },
+        {
+          "bbox": [
+            60.0,
+            126.21,
+            207.64,
+            140.64
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "presence is your 24/7 interview."
+        },
+        {
+          "bbox": [
+            60.0,
+            158.02,
+            154.12,
+            177.3
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "GitHub Profile"
+        },
+        {
+          "bbox": [
+            80.0,
+            182.21,
+            314.17,
+            196.64
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Pin your 4–6 best repos with clear README files"
+        },
+        {
+          "bbox": [
+            80.0,
+            202.21,
+            448.42,
+            216.64
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Each README should explain: what it does, why you built it, and how to run it"
+        },
+        {
+          "bbox": [
+            80.0,
+            222.21,
+            418.64,
+            236.64
+          ],
+          "blockIndex": 7,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Keep your contribution graph active — consistency signals commitment"
+        },
+        {
+          "bbox": [
+            60.0,
+            254.02,
+            117.57,
+            273.3
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "LinkedIn"
+        },
+        {
+          "bbox": [
+            80.0,
+            278.21,
+            428.5,
+            292.64
+          ],
+          "blockIndex": 9,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Headline: not just \"student at X\" but what you build and your unique angle"
+        },
+        {
+          "bbox": [
+            80.0,
+            298.21,
+            398.81,
+            312.64
+          ],
+          "blockIndex": 10,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Feature your projects in the Experience section as if they were jobs"
+        },
+        {
+          "bbox": [
+            80.0,
+            318.21,
+            389.48,
+            332.64
+          ],
+          "blockIndex": 11,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Post technical content occasionally — build logs, lessons learned"
+        },
+        {
+          "bbox": [
+            60.0,
+            350.02,
+            176.7,
+            369.3
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Personal Website"
+        },
+        {
+          "bbox": [
+            80.0,
+            374.21,
+            422.14,
+            388.64
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• A simple portfolio: projects, short bio, contact info (GitHub Pages is free)"
+        },
+        {
+          "bbox": [
+            80.0,
+            394.21,
+            423.5,
+            408.64
+          ],
+          "blockIndex": 14,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Include case studies: problem → approach → result → what you learned"
+        },
+        {
+          "bbox": [
+            60.0,
+            426.02,
+            144.81,
+            445.3
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Social Media"
+        },
+        {
+          "bbox": [
+            80.0,
+            450.21,
+            417.46,
+            464.64
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Document your build journey publicly — this is how I grew my audience"
+        },
+        {
+          "bbox": [
+            80.0,
+            470.21,
+            536.53,
+            484.64
+          ],
+          "blockIndex": 17,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Opportunities come to people who are visible. Recruiters, founders, and mentors are all watching"
+        }
+      ],
+      "charCount": 1025,
+      "height": 792.0,
+      "pageNumber": 7,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            182.02,
+            751.0,
+            429.98,
+            761.99
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "@1nska  |  The Dangerously Overeducated Engineer Guide  |  Page 8"
+        },
+        {
+          "bbox": [
+            60.0,
+            59.23,
+            312.06,
+            103.45
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "BONUS\nThe Internship Gameplan"
+        },
+        {
+          "bbox": [
+            60.0,
+            110.21,
+            537.02,
+            124.64
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "If you've followed steps 1–6, you're already ahead of 90% of applicants. Here's how to convert that into"
+        },
+        {
+          "bbox": [
+            60.0,
+            126.21,
+            120.11,
+            140.64
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "actual offers."
+        },
+        {
+          "bbox": [
+            60.0,
+            158.02,
+            259.15,
+            177.3
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "3 months before applications:"
+        },
+        {
+          "bbox": [
+            80.0,
+            182.21,
+            400.59,
+            196.64
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• Have at least 2 shipped projects you can demo and explain in detail"
+        },
+        {
+          "bbox": [
+            80.0,
+            202.21,
+            392.39,
+            216.64
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• Have your GitHub, LinkedIn, and resume all telling the same story"
+        },
+        {
+          "bbox": [
+            80.0,
+            222.21,
+            435.59,
+            236.64
+          ],
+          "blockIndex": 7,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• Start LeetCode / NeetCode prep — you still need to pass technical screens"
+        },
+        {
+          "bbox": [
+            80.0,
+            242.21,
+            401.15,
+            256.64
+          ],
+          "blockIndex": 8,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• Make a target list of 20–30 companies, prioritized by fit, not prestige"
+        },
+        {
+          "bbox": [
+            60.0,
+            274.02,
+            195.35,
+            293.3
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "During applications:"
+        },
+        {
+          "bbox": [
+            80.0,
+            298.21,
+            449.55,
+            312.64
+          ],
+          "blockIndex": 10,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• Tailor every resume to the specific role — generic resumes get generic results"
+        },
+        {
+          "bbox": [
+            80.0,
+            318.21,
+            460.1,
+            332.64
+          ],
+          "blockIndex": 11,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• Cold DM engineers at target companies on LinkedIn. Ask genuine questions first"
+        },
+        {
+          "bbox": [
+            80.0,
+            338.21,
+            505.3,
+            352.64
+          ],
+          "blockIndex": 12,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• Apply to startups too — steeper learning curve and they care more about what you've built"
+        },
+        {
+          "bbox": [
+            80.0,
+            358.21,
+            460.93,
+            372.64
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• Your projects ARE your pitch. Lead every conversation with what you've shipped"
+        },
+        {
+          "bbox": [
+            60.0,
+            390.02,
+            149.47,
+            409.3
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "In interviews:"
+        },
+        {
+          "bbox": [
+            80.0,
+            414.21,
+            440.09,
+            428.64
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• \"Tell me about yourself\" = tell them what you've built and why, not your GPA"
+        },
+        {
+          "bbox": [
+            80.0,
+            434.21,
+            459.5,
+            448.64
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• For behavioral questions, use your build stories — challenges, tradeoffs, failures"
+        },
+        {
+          "bbox": [
+            80.0,
+            454.21,
+            473.54,
+            468.64
+          ],
+          "blockIndex": 17,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• Think out loud in technical questions. Nobody expects a student to know everything"
+        },
+        {
+          "bbox": [
+            80.0,
+            474.21,
+            418.33,
+            488.64
+          ],
+          "blockIndex": 18,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• Ask smart questions back — about the stack, team, what you'd work on"
+        },
+        {
+          "bbox": [
+            75.0,
+            494.3,
+            523.35,
+            522.84
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "I Internships don't go to the smartest students. They go to the ones who look like they don't need the\ninternship to prove they can build. Be that person."
+        }
+      ],
+      "charCount": 1360,
+      "height": 792.0,
+      "pageNumber": 8,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            182.02,
+            751.0,
+            429.98,
+            761.99
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "@1nska  |  The Dangerously Overeducated Engineer Guide  |  Page 9"
+        },
+        {
+          "bbox": [
+            60.0,
+            59.23,
+            285.23,
+            103.45
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "RESOURCES\nThe Full Resource List"
+        },
+        {
+          "bbox": [
+            60.0,
+            116.02,
+            187.58,
+            135.3
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Learning Platforms"
+        },
+        {
+          "bbox": [
+            80.0,
+            140.25,
+            255.77,
+            153.99
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• MIT OpenCourseWare — ocw.mit.edu"
+        },
+        {
+          "bbox": [
+            80.0,
+            158.25,
+            256.37,
+            171.99
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• Stanford Online — online.stanford.edu"
+        },
+        {
+          "bbox": [
+            80.0,
+            176.25,
+            278.59,
+            189.99
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• 3Blue1Brown — youtube.com/3blue1brown"
+        },
+        {
+          "bbox": [
+            80.0,
+            194.25,
+            250.23,
+            207.99
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• freeCodeCamp — freecodecamp.org"
+        },
+        {
+          "bbox": [
+            60.0,
+            225.02,
+            161.89,
+            244.3
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Documentation"
+        },
+        {
+          "bbox": [
+            80.0,
+            249.25,
+            268.54,
+            262.99
+          ],
+          "blockIndex": 8,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• MDN Web Docs — developer.mozilla.org"
+        },
+        {
+          "bbox": [
+            80.0,
+            267.25,
+            336.95,
+            280.99
+          ],
+          "blockIndex": 9,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• Apple Developer — developer.apple.com/documentation"
+        },
+        {
+          "bbox": [
+            80.0,
+            285.25,
+            229.68,
+            298.99
+          ],
+          "blockIndex": 10,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• Python Docs — docs.python.org"
+        },
+        {
+          "bbox": [
+            80.0,
+            303.25,
+            194.65,
+            316.99
+          ],
+          "blockIndex": 11,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• React Docs — react.dev"
+        },
+        {
+          "bbox": [
+            60.0,
+            334.02,
+            147.14,
+            353.3
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Open Source"
+        },
+        {
+          "bbox": [
+            80.0,
+            358.25,
+            254.12,
+            371.99
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• GitHub Explore — github.com/explore"
+        },
+        {
+          "bbox": [
+            80.0,
+            376.25,
+            255.79,
+            389.99
+          ],
+          "blockIndex": 14,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• Good First Issue — goodfirstissue.dev"
+        },
+        {
+          "bbox": [
+            80.0,
+            394.25,
+            233.55,
+            407.99
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• Up For Grabs — up-for-grabs.net"
+        },
+        {
+          "bbox": [
+            80.0,
+            412.25,
+            222.44,
+            425.99
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• CodeTriage — codetriage.com"
+        },
+        {
+          "bbox": [
+            60.0,
+            443.02,
+            155.7,
+            462.3
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Interview Prep"
+        },
+        {
+          "bbox": [
+            80.0,
+            467.25,
+            340.84,
+            480.99
+          ],
+          "blockIndex": 18,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• NeetCode — neetcode.io (structured LeetCode roadmap)"
+        },
+        {
+          "bbox": [
+            80.0,
+            485.25,
+            204.67,
+            498.99
+          ],
+          "blockIndex": 19,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• LeetCode — leetcode.com"
+        },
+        {
+          "bbox": [
+            80.0,
+            503.25,
+            306.36,
+            516.99
+          ],
+          "blockIndex": 20,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• Blind 75 — curated list of 75 must-know problems"
+        },
+        {
+          "bbox": [
+            80.0,
+            521.25,
+            365.24,
+            534.99
+          ],
+          "blockIndex": 21,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• system-design-primer (GitHub) — system design fundamentals"
+        },
+        {
+          "bbox": [
+            60.0,
+            552.02,
+            187.55,
+            571.3
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Portfolio & Hosting"
+        },
+        {
+          "bbox": [
+            80.0,
+            576.25,
+            243.02,
+            589.99
+          ],
+          "blockIndex": 23,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• GitHub Pages — pages.github.com"
+        },
+        {
+          "bbox": [
+            80.0,
+            594.25,
+            178.52,
+            607.99
+          ],
+          "blockIndex": 24,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• Vercel — vercel.com"
+        },
+        {
+          "bbox": [
+            80.0,
+            612.25,
+            269.13,
+            625.99
+          ],
+          "blockIndex": 25,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• Notion — notion.so (project case studies)"
+        }
+      ],
+      "charCount": 887,
+      "height": 792.0,
+      "pageNumber": 9,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            179.8,
+            751.0,
+            432.2,
+            761.99
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "@1nska  |  The Dangerously Overeducated Engineer Guide  |  Page 10"
+        },
+        {
+          "bbox": [
+            249.35,
+            211.74,
+            362.65,
+            236.53
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "What's Next?"
+        },
+        {
+          "bbox": [
+            76.11,
+            248.18,
+            535.89,
+            279.29
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "This guide is your starting point, not the finish line.\nThe only thing that separates you from the people who land incredible internships is execution."
+        },
+        {
+          "bbox": [
+            154.83,
+            300.17,
+            457.17,
+            315.38
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Follow @1nska for daily build logs, lessons, and the real story"
+        },
+        {
+          "bbox": [
+            224.98,
+            316.17,
+            387.02,
+            331.29
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "of building a startup as a student."
+        },
+        {
+          "bbox": [
+            158.57,
+            417.52,
+            453.43,
+            436.8
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Ship the code. Tell the story. Build in public."
+        },
+        {
+          "bbox": [
+            211.48,
+            441.52,
+            400.52,
+            460.8
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "The opportunities will come."
+        }
+      ],
+      "charCount": 402,
+      "height": 792.0,
+      "pageNumber": 10,
+      "textExtractable": true,
+      "width": 612.0
+    }
+  ],
+  "provenance": {
+    "confidence": "EXACT",
+    "extractionMethod": "pymupdf-blocks-v1",
+    "extractorVersion": "1.28.0",
+    "generatorVersion": null,
+    "origin": "extracted",
+    "source": "guide-017",
+    "sourceHash": "3c0712dcec6c251b433e49856a068b9b7ab924dc67e34ab9036d47a114e96f0d",
+    "sourcePage": null,
+    "sourcePath": "Engineering guides/dangerously_overeducated_engineer_guide.pdf",
+    "sourceSection": "ROOT"
+  },
+  "relativePath": "Engineering guides/dangerously_overeducated_engineer_guide.pdf",
+  "schemaVersion": "1.0.0",
+  "sha256": "3c0712dcec6c251b433e49856a068b9b7ab924dc67e34ab9036d47a114e96f0d",
+  "sourceId": "guide-017"
+}

@@ -7,6 +7,7 @@ import StatsModal from './components/StatsModal';
 import GuideLanding from './components/GuideLanding';
 import ErrorBoundary from './components/ErrorBoundary';
 import { CATEGORY_DEFINITIONS } from './data/categories';
+import { getStoredItem, setStoredItem } from './utils/storage';
 import { 
   Sparkles, 
   AlertCircle, 
@@ -31,17 +32,12 @@ export default function App() {
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [sortBy, setSortBy] = useState('name-asc');
   const [viewMode, setViewMode] = useState(() => {
-    return localStorage.getItem('eng_guides_view_mode') || 'grid';
+    return getStoredItem('eng_guides_view_mode', 'grid');
   });
 
   // Favorites
   const [favorites, setFavorites] = useState(() => {
-    try {
-      const saved = localStorage.getItem('eng_guides_favorites');
-      return saved ? JSON.parse(saved) : [];
-    } catch {
-      return [];
-    }
+    return getStoredItem('eng_guides_favorites', []);
   });
   const [showOnlyFavorites, setShowOnlyFavorites] = useState(false);
 
@@ -85,12 +81,12 @@ export default function App() {
 
   // Save viewMode
   useEffect(() => {
-    localStorage.setItem('eng_guides_view_mode', viewMode);
+    setStoredItem('eng_guides_view_mode', viewMode);
   }, [viewMode]);
 
   // Save favorites
   useEffect(() => {
-    localStorage.setItem('eng_guides_favorites', JSON.stringify(favorites));
+    setStoredItem('eng_guides_favorites', favorites);
   }, [favorites]);
 
   // Toggle favorite
@@ -127,74 +123,34 @@ export default function App() {
     window.location.hash = '';
   };
 
-  // Live Sync with GitHub API
+  // Live Sync / Catalog reload (offline-safe, no external GitHub API dependency)
   const handleLiveSync = async () => {
     setIsSyncing(true);
     setSyncMessage(null);
     try {
-      const response = await fetch('https://api.github.com/repos/Damaga2005/EngineeringGuides/contents/Engineering%20guides');
+      const response = await fetch(`./guides.json?t=${Date.now()}`);
       if (!response.ok) {
-        throw new Error(`GitHub API HTTP ${response.status}`);
+        throw new Error(`HTTP ${response.status}`);
       }
-      const remoteFiles = await response.json();
-      const pdfFiles = remoteFiles.filter(item => item.type === 'file' && item.name.toLowerCase().endsWith('.pdf'));
-
-      const currentFilenames = new Set(guides.map(g => g.filename));
-      const newlyDiscovered = [];
-
-      pdfFiles.forEach((rf, idx) => {
-        if (!currentFilenames.has(rf.name)) {
-          const cleanName = rf.name === 'follow @1nska.pdf' 
-            ? 'The Robot Framework: Patrocinio de Robots de $30.000'
-            : rf.name.replace(/\.pdf$/i, '').replace(/[_]/g, ' ').trim();
-
-          newlyDiscovered.push({
-            id: `guide-remote-${Date.now()}-${idx}`,
-            filename: rf.name,
-            title: cleanName,
-            subtitle: "Guía técnica recién sincronizada desde GitHub",
-            summary: "Documento técnico y proyectos añadidos recientemente al repositorio oficial de EngineeringGuides.",
-            image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80",
-            difficulty: "Intermedio",
-            pageCount: 16,
-            keyProjects: [
-              { id: 1, title: "Proyectos y esquemáticos incluidos", cost: "Variable", time: "1-2 semanas", description: "Ver documentación completa en el archivo PDF oficial.", components: ["Ver PDF"] }
-            ],
-            bom: [
-              { name: "Ver especificaciones en PDF", type: "Documentación", specs: "PDF Original", cost: "N/A" }
-            ],
-            relativePath: `Engineering guides/${rf.name}`,
-            sizeBytes: rf.size,
-            sizeFormatted: `${(rf.size / (1024 * 1024)).toFixed(1)} MB`,
-            categoryId: detectCategoryFromText(rf.name),
-            tags: ['LiveSync', 'Nuevo'],
-            lastModified: new Date().toISOString(),
-            isNew: true
-          });
-        }
+      const data = await response.json();
+      const guidesList = Array.isArray(data) ? data : (data.guides || []);
+      setGuides(guidesList);
+      if (!Array.isArray(data) && data.metadata) {
+        setCatalogMetadata(data.metadata);
+      }
+      setSyncMessage({
+        type: 'success',
+        text: `Catálogo sincronizado exitosamente (${guidesList.length} guías canónicas verificadas).`
       });
-
-      if (newlyDiscovered.length > 0) {
-        setGuides(prev => [...newlyDiscovered, ...prev]);
-        setSyncMessage({
-          type: 'success',
-          text: `¡Sincronizado con éxito! Se detectaron ${newlyDiscovered.length} nuevas guías directamente de GitHub.`
-        });
-      } else {
-        setSyncMessage({
-          type: 'info',
-          text: 'El catálogo ya se encuentra 100% actualizado con la última versión de GitHub.'
-        });
-      }
     } catch (err) {
-      console.warn('GitHub Live Sync fallback:', err);
+      console.warn('Catalog reload fallback:', err);
       setSyncMessage({
         type: 'warning',
-        text: 'No se pudo conectar directamente a la API de GitHub (límite anónimo alcanzado). El catálogo local sigue disponible.'
+        text: 'No se pudo recargar el catálogo estático. El catálogo local actual sigue activo.'
       });
     } finally {
       setIsSyncing(false);
-      setTimeout(() => setSyncMessage(null), 6000);
+      setTimeout(() => setSyncMessage(null), 5000);
     }
   };
 

@@ -1,0 +1,5941 @@
+{
+  "metadata": {
+    "format": "PDF 1.4",
+    "producer": "pypdf"
+  },
+  "pageCount": 16,
+  "pages": [
+    {
+      "blocks": [
+        {
+          "bbox": [
+            556.75,
+            148.72,
+            573.19,
+            157.0
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "48.0"
+        },
+        {
+          "bbox": [
+            556.75,
+            228.97,
+            573.19,
+            237.25
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "36.4"
+        },
+        {
+          "bbox": [
+            556.75,
+            309.22,
+            573.19,
+            317.5
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "24.7"
+        },
+        {
+          "bbox": [
+            556.75,
+            389.47,
+            573.19,
+            397.75
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "13.1"
+        },
+        {
+          "bbox": [
+            556.75,
+            469.72,
+            581.61,
+            478.0
+          ],
+          "blockIndex": 4,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "1.4 °C"
+        },
+        {
+          "bbox": [
+            512.5,
+            531.2,
+            566.65,
+            540.46
+          ],
+          "blockIndex": 5,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "SP1 36.4 °C"
+        },
+        {
+          "bbox": [
+            52.5,
+            33.93,
+            401.05,
+            44.17
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "// FIELD GUIDE · DEFENSE ENGINEERING · 6 PROJECTS · SEP 2026"
+        },
+        {
+          "bbox": [
+            60.0,
+            57.56,
+            375.33,
+            67.31
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "[ ε 0.95 · 9 HZ · PROTECTIVE · LOGISTICS · FOR TRAINING ]"
+        },
+        {
+          "bbox": [
+            52.5,
+            102.96,
+            418.77,
+            155.98
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Six Engineering Projects That\nSurvive The Field"
+        },
+        {
+          "bbox": [
+            52.5,
+            169.65,
+            445.99,
+            181.3
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Shielding, aerodynamics, impact protection, underwater listening, self-steering airdrop, and"
+        },
+        {
+          "bbox": [
+            52.5,
+            185.4,
+            435.04,
+            197.05
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "a torture-test lab — six builds from the survivability, sensing, and logistics side of defense"
+        },
+        {
+          "bbox": [
+            52.5,
+            200.4,
+            430.81,
+            212.05
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "engineering. EE, mechanical, materials, aerospace, and test, all on one bench. Every one"
+        },
+        {
+          "bbox": [
+            52.5,
+            216.15,
+            189.95,
+            227.8
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "protective, passive, or logistical."
+        },
+        {
+          "bbox": [
+            52.5,
+            260.74,
+            402.94,
+            274.39
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "01\nFaraday Cage & EMP-Hardened Enclosure A box that makes a phone go silent — the"
+        },
+        {
+          "bbox": [
+            79.5,
+            277.05,
+            285.17,
+            286.7
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "shielding that protects electronics from EMP and lightning"
+        },
+        {
+          "bbox": [
+            431.74,
+            262.27,
+            447.94,
+            273.98
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$45"
+        },
+        {
+          "bbox": [
+            52.5,
+            305.74,
+            394.59,
+            319.39
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "02\nDesktop Wind Tunnel Smoke lines over a wing and a live lift readout — aerodynamics"
+        },
+        {
+          "bbox": [
+            79.5,
+            322.8,
+            159.34,
+            332.45
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "you can see, on a desk"
+        },
+        {
+          "bbox": [
+            431.74,
+            307.27,
+            447.94,
+            318.98
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$80"
+        },
+        {
+          "bbox": [
+            52.5,
+            350.74,
+            383.34,
+            364.39
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "03\nImpact-Resistant Composite Panel & Drop Tower Lay up your own protective"
+        },
+        {
+          "bbox": [
+            79.5,
+            367.8,
+            322.08,
+            377.45
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "composite, then hit it with a drop weight and measure what survived"
+        },
+        {
+          "bbox": [
+            431.74,
+            352.27,
+            447.94,
+            363.98
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$70"
+        },
+        {
+          "bbox": [
+            52.5,
+            395.74,
+            405.7,
+            409.39
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "04\nPassive Sonar Hydrophone Array Hear a boat before you see it — underwater listening"
+        },
+        {
+          "bbox": [
+            79.5,
+            412.8,
+            219.37,
+            422.45
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "and bearing from a pair of hydrophones"
+        },
+        {
+          "bbox": [
+            431.74,
+            397.27,
+            447.94,
+            408.98
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$50"
+        },
+        {
+          "bbox": [
+            52.5,
+            441.49,
+            399.38,
+            455.14
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "05\nPrecision Airdrop Parafoil Payload A parachute that flies itself to the landing zone —"
+        },
+        {
+          "bbox": [
+            79.5,
+            457.8,
+            176.49,
+            467.45
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "self-steering aerial delivery"
+        },
+        {
+          "bbox": [
+            431.74,
+            443.02,
+            447.94,
+            454.73
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$90"
+        },
+        {
+          "bbox": [
+            52.5,
+            486.49,
+            406.99,
+            500.14
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "06\nSurvivability Test Rig Bake it, freeze it, shake it, drop it — torture-test your electronics to"
+        },
+        {
+          "bbox": [
+            79.5,
+            502.8,
+            143.99,
+            512.45
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "military standards"
+        },
+        {
+          "bbox": [
+            431.74,
+            488.02,
+            447.94,
+            499.73
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$85"
+        },
+        {
+          "bbox": [
+            52.5,
+            533.22,
+            432.18,
+            542.77
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "SP1 36.4 °C · ε 0.95 · RANGE 1.4 – 48.0 °C · PALETTE IRONBOW · RX ONLY"
+        },
+        {
+          "bbox": [
+            52.5,
+            562.45,
+            399.43,
+            572.98
+          ],
+          "blockIndex": 32,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "● By Enes · @1nska · Electrical Engineer — a Build List field guide"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 33,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "survive the field — a Build List field guide\n1 / 16"
+        }
+      ],
+      "charCount": 1458,
+      "height": 792.0,
+      "pageNumber": 1,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            68.25,
+            310.31,
+            531.78,
+            346.92
+          ],
+          "blockIndex": 0,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand electromagnetic shielding (skin depth, aperture leakage, seam and gasket design), how to measure\nattenuation in dB with a source and a receiver, and the difference between shielding, filtering, and grounding — the"
+        },
+        {
+          "bbox": [
+            68.25,
+            350.25,
+            266.51,
+            361.17
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "fundamentals of EMC and hardening engineering."
+        },
+        {
+          "bbox": [
+            52.5,
+            384.75,
+            512.63,
+            409.17
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "→the job this maps to: EMC, EMI, and hardening / survivability engineering — defense electronics, aerospace, and\nruggedised-systems teams."
+        },
+        {
+          "bbox": [
+            52.5,
+            438.83,
+            157.13,
+            453.95
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "// how it works"
+        },
+        {
+          "bbox": [
+            444.57,
+            17.08,
+            558.55,
+            25.86
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "SP01 · 22.4 °C · ε 0.95"
+        },
+        {
+          "bbox": [
+            67.5,
+            462.75,
+            545.63,
+            487.17
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Fields stop at a conductor: A conductive shell redistributes charge and induces currents that cancel an external field\ninside. At radio frequencies a thin conductive layer is enough — the field only penetrates to the “skin depth,” microns at"
+        },
+        {
+          "bbox": [
+            67.5,
+            492.42,
+            86.88,
+            501.42
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "GHz."
+        },
+        {
+          "bbox": [
+            52.5,
+            463.4,
+            57.02,
+            473.87
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            511.5,
+            549.0,
+            535.92
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Apertures leak: Shielding fails at holes and seams, not through the metal. Any gap longer than a fraction of the\nwavelength acts as a slot antenna and lets the field in — which is why gaskets, overlapping seams, and fine mesh matter"
+        },
+        {
+          "bbox": [
+            67.5,
+            539.25,
+            156.22,
+            550.17
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "more than thick walls."
+        },
+        {
+          "bbox": [
+            52.5,
+            512.15,
+            57.02,
+            522.62
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            559.5,
+            557.17,
+            570.42
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Measuring attenuation: Put a known signal outside (WiFi, a broadcast station, a small legal ISM transmitter) and measure"
+        },
+        {
+          "bbox": [
+            67.5,
+            573.75,
+            526.87,
+            584.67
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "inside with an SDR. The drop, in dB, is your shielding effectiveness — and every 20 dB is a tenfold reduction in field"
+        },
+        {
+          "bbox": [
+            67.5,
+            589.92,
+            103.76,
+            598.92
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "strength."
+        },
+        {
+          "bbox": [
+            52.5,
+            560.15,
+            57.02,
+            570.62
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            608.25,
+            554.15,
+            619.17
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "EMP and lightning: A nuclear EMP or a nearby lightning strike is a fast, enormous field pulse. Hardened systems combine"
+        },
+        {
+          "bbox": [
+            67.5,
+            622.5,
+            538.03,
+            646.92
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "a shielded enclosure with filtered entry points and surge protection, because the shield is only as good as its weakest\ncable."
+        },
+        {
+          "bbox": [
+            52.5,
+            608.9,
+            57.02,
+            619.37
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            657.0,
+            529.38,
+            681.42
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Shield, filter, ground: A complete hardening strategy layers three things: shield the enclosure, filter every wire that\ncrosses it, and manage the grounding so currents flow around the electronics rather than through them.\n▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            26.43,
+            325.22,
+            84.99
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "[ P R O J E C T 0 1 ]\nFaraday Cage & EMP-Hardened\nEnclosure"
+        },
+        {
+          "bbox": [
+            52.5,
+            92.1,
+            421.11,
+            103.21
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "A box that makes a phone go silent — the shielding that protects electronics from EMP and"
+        },
+        {
+          "bbox": [
+            52.5,
+            108.31,
+            88.0,
+            117.46
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "lightning"
+        },
+        {
+          "bbox": [
+            60.75,
+            132.18,
+            206.25,
+            142.42
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "$45\nbeginner\n1 weekend"
+        },
+        {
+          "bbox": [
+            52.5,
+            167.33,
+            185.03,
+            182.45
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "// why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            191.25,
+            557.8,
+            215.67
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Every piece of defense electronics has to survive an environment full of interference — radar, lightning, hostile transmitters,\nand the electromagnetic pulse that hardened systems are built to shrug off. The defense against all of it is the same physics: a"
+        },
+        {
+          "bbox": [
+            52.5,
+            219.0,
+            556.59,
+            243.42
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "conductive enclosure that stops fields at the boundary. Build a Faraday cage, put a phone inside and watch it lose signal, then\nmeasure exactly how many decibels of attenuation your seams, mesh, and gaskets buy you with an SDR. It is a beginner build"
+        },
+        {
+          "bbox": [
+            52.5,
+            246.75,
+            552.52,
+            257.67
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "with an unforgettable demo, and it teaches EMC and hardening — the survivability discipline that sits under every ruggedised"
+        },
+        {
+          "bbox": [
+            52.5,
+            262.92,
+            83.87,
+            271.92
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "system."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "survive the field — a Build List field guide\n2 / 16"
+        }
+      ],
+      "charCount": 2587,
+      "height": 792.0,
+      "pageNumber": 2,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            27.08,
+            192.01,
+            42.2
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "// bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            54.93,
+            551.37,
+            65.17
+          ],
+          "blockIndex": 1,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "COMPONENT\nPART / SPEC\nQTY\n~COST"
+        },
+        {
+          "bbox": [
+            52.5,
+            76.89,
+            552.0,
+            87.81
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Enclosure\nmetal box, or foil-lined box, or copper mesh\n1\n$12"
+        },
+        {
+          "bbox": [
+            52.5,
+            100.14,
+            552.0,
+            111.06
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Copper tape / gasket\nconductive seam sealing\n—\n$8"
+        },
+        {
+          "bbox": [
+            52.5,
+            122.64,
+            552.0,
+            133.56
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "SDR + antenna\nRTL-SDR for attenuation measurement\n1\n$25"
+        },
+        {
+          "bbox": [
+            52.5,
+            145.14,
+            552.0,
+            156.06
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Test source\nyour phone, WiFi, or a legal ISM module\n1\n—"
+        },
+        {
+          "bbox": [
+            52.5,
+            168.39,
+            552.0,
+            179.31
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Multimeter\ncontinuity checks\n1\n—"
+        },
+        {
+          "bbox": [
+            52.5,
+            213.08,
+            150.16,
+            228.2
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "// build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            541.58,
+            205.96,
+            556.7
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "// interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            240.0,
+            163.15,
+            250.92
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Build the enclosure"
+        },
+        {
+          "bbox": [
+            82.5,
+            256.5,
+            559.09,
+            280.92
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Start with a metal box (or line a box with overlapping foil) and make sure every panel is electrically continuous — check\nwith a multimeter. Continuity is the whole game."
+        },
+        {
+          "bbox": [
+            58.5,
+            238.99,
+            64.8,
+            252.64
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            295.5,
+            172.99,
+            306.42
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Test the naive version"
+        },
+        {
+          "bbox": [
+            82.5,
+            311.25,
+            528.06,
+            322.17
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Put a phone inside, close the lid, and call it. Watch it lose bars — or not, if a seam is leaking. Note what still gets"
+        },
+        {
+          "bbox": [
+            82.5,
+            327.42,
+            116.49,
+            336.42
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "through."
+        },
+        {
+          "bbox": [
+            58.5,
+            294.49,
+            64.8,
+            308.14
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            351.0,
+            145.65,
+            361.92
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Seal the seams"
+        },
+        {
+          "bbox": [
+            82.5,
+            366.75,
+            523.09,
+            377.67
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Add copper tape or conductive gasket along every joint and around the lid. Retest the phone; it should now be"
+        },
+        {
+          "bbox": [
+            82.5,
+            382.92,
+            135.05,
+            391.92
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "unreachable."
+        },
+        {
+          "bbox": [
+            58.5,
+            349.99,
+            64.8,
+            363.64
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            405.75,
+            168.76,
+            416.67
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Measure attenuation"
+        },
+        {
+          "bbox": [
+            82.5,
+            422.25,
+            551.88,
+            433.17
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Set an SDR outside and note a signal’s strength, then put the SDR inside and re-measure. The difference in dB is your"
+        },
+        {
+          "bbox": [
+            82.5,
+            436.5,
+            419.47,
+            447.42
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "shielding effectiveness. Try it at several frequencies and watch where the box leaks."
+        },
+        {
+          "bbox": [
+            58.5,
+            404.74,
+            64.8,
+            418.39
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            461.25,
+            167.93,
+            472.17
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Harden a real device"
+        },
+        {
+          "bbox": [
+            82.5,
+            477.75,
+            552.77,
+            502.17
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Add a filtered power feedthrough (a feedthrough capacitor or ferrite and cap) and a surge protector so a device inside\ncan be powered without breaking the shield. Now you have a genuinely hardened enclosure."
+        },
+        {
+          "bbox": [
+            58.5,
+            460.24,
+            64.8,
+            473.89
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            68.25,
+            577.5,
+            338.1,
+            588.62
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Why does a conductive enclosure block electromagnetic fields?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            597.75,
+            399.51,
+            608.87
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "What is skin depth, and why does it let thin shielding work at high frequencies?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            617.25,
+            339.38,
+            628.37
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Why do apertures and seams dominate shielding effectiveness?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            637.5,
+            312.27,
+            648.62
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "How do you measure shielding effectiveness in decibels?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            657.0,
+            320.63,
+            668.12
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Why must cables entering a shielded enclosure be filtered?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            677.25,
+            319.9,
+            688.37
+          ],
+          "blockIndex": 32,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "How does EMP hardening differ from ordinary EMC design?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 33,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "survive the field — a Build List field guide\n3 / 16"
+        }
+      ],
+      "charCount": 1696,
+      "height": 792.0,
+      "pageNumber": 3,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            68.25,
+            262.31,
+            524.89,
+            298.92
+          ],
+          "blockIndex": 0,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand subsonic aerodynamics (lift, drag, angle of attack, stall), flow conditioning (honeycombs, screens,\ncontraction ratio), flow visualisation, and force measurement with a balance. That is the core of aerospace and"
+        },
+        {
+          "bbox": [
+            68.25,
+            302.25,
+            415.09,
+            313.17
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "aerodynamics engineering, and the wind-tunnel workflow every aircraft program uses."
+        },
+        {
+          "bbox": [
+            52.5,
+            336.0,
+            552.7,
+            347.12
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "→the job this maps to: aerodynamics and aerospace engineering — aircraft, drone, and flight-vehicle design and test teams."
+        },
+        {
+          "bbox": [
+            52.5,
+            376.58,
+            157.13,
+            391.7
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "// how it works"
+        },
+        {
+          "bbox": [
+            444.57,
+            17.08,
+            558.55,
+            25.86
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "SP02 · 27.9 °C · ε 0.95"
+        },
+        {
+          "bbox": [
+            67.5,
+            400.5,
+            558.73,
+            411.42
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Lift from pressure: Air moving over a curved wing speeds up and its pressure drops relative to the underside; the pressure"
+        },
+        {
+          "bbox": [
+            67.5,
+            414.75,
+            500.77,
+            425.67
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "difference integrates into lift. Angle the wing up and lift grows — until the flow separates and the wing stalls."
+        },
+        {
+          "bbox": [
+            52.5,
+            401.15,
+            57.02,
+            411.62
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            435.0,
+            555.17,
+            445.92
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Conditioning the flow: A fan produces swirl and turbulence. A settling chamber slows the air, a honeycomb straightens it,"
+        },
+        {
+          "bbox": [
+            67.5,
+            449.25,
+            539.41,
+            473.67
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "fine screens break up turbulence, and a contraction (a smooth nozzle) accelerates it into a clean, uniform test-section\nflow."
+        },
+        {
+          "bbox": [
+            52.5,
+            435.65,
+            57.02,
+            446.12
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            483.75,
+            551.8,
+            494.67
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Seeing the flow: A thin stream of smoke (or fog from a small glycol fogger) introduced upstream follows the streamlines,"
+        },
+        {
+          "bbox": [
+            67.5,
+            498.0,
+            500.4,
+            508.92
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "making the flow over the wing visible — attached flow, the stagnation point, and the separated wake at stall."
+        },
+        {
+          "bbox": [
+            52.5,
+            484.4,
+            57.02,
+            494.87
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            518.25,
+            558.97,
+            529.17
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Measuring force: Mount the wing on a sting connected to a load cell (or two, for lift and drag). As the fan runs, the load cell"
+        },
+        {
+          "bbox": [
+            67.5,
+            532.5,
+            474.65,
+            543.42
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "reads the aerodynamic force directly; plot lift against angle of attack to see the lift slope and the stall."
+        },
+        {
+          "bbox": [
+            52.5,
+            518.9,
+            57.02,
+            529.37
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            552.75,
+            543.47,
+            563.67
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Reynolds number: The key scaling parameter for aerodynamics. Your small, slow tunnel runs at low Reynolds number,"
+        },
+        {
+          "bbox": [
+            67.5,
+            567.0,
+            501.13,
+            577.92
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "which changes stall behaviour and lift coefficients — so you report airspeed, chord, and Re with every result."
+        },
+        {
+          "bbox": [
+            52.5,
+            553.4,
+            57.02,
+            563.87
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            26.43,
+            244.49,
+            64.74
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "[ P R O J E C T 0 2 ]\nDesktop Wind Tunnel"
+        },
+        {
+          "bbox": [
+            52.5,
+            71.85,
+            401.96,
+            82.96
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Smoke lines over a wing and a live lift readout — aerodynamics you can see, on a desk"
+        },
+        {
+          "bbox": [
+            60.75,
+            98.43,
+            241.52,
+            108.67
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "$80\nintermediate\n1–2 weekends"
+        },
+        {
+          "bbox": [
+            52.5,
+            132.83,
+            185.03,
+            147.95
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "// why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            156.75,
+            553.43,
+            167.67
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Every aircraft, drone, and glider in the defense world was shaped in a wind tunnel long before it flew, and you can build a real"
+        },
+        {
+          "bbox": [
+            52.5,
+            171.0,
+            547.47,
+            195.42
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "one on a desk. A fan, a settling chamber, a honeycomb flow straightener, a smooth contraction, and a clear test section give\nyou steady laminar air; add a smoke wand and the streamlines over a 3D-printed wing become visible, and a load cell turns"
+        },
+        {
+          "bbox": [
+            52.5,
+            198.75,
+            520.19,
+            209.67
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "the invisible force of lift into a number you can plot against angle of attack. It is the flagship of this guide — a genuine"
+        },
+        {
+          "bbox": [
+            52.5,
+            213.0,
+            471.07,
+            223.92
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "aerospace instrument, visually spectacular, and a hands-on route into aerodynamics and aircraft design."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "survive the field — a Build List field guide\n4 / 16"
+        }
+      ],
+      "charCount": 2500,
+      "height": 792.0,
+      "pageNumber": 4,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            27.08,
+            212.93,
+            42.2
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "// key design decisions"
+        },
+        {
+          "bbox": [
+            52.5,
+            257.33,
+            192.01,
+            272.45
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "// bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            285.18,
+            551.37,
+            295.42
+          ],
+          "blockIndex": 2,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "COMPONENT\nPART / SPEC\nQTY\n~COST"
+        },
+        {
+          "bbox": [
+            52.5,
+            307.14,
+            552.0,
+            318.06
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Fan\n120–200 mm axial fan or centrifugal blower\n1\n$18"
+        },
+        {
+          "bbox": [
+            52.5,
+            329.64,
+            552.0,
+            340.56
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Tunnel body\nfoam board / acrylic, honeycomb (straws), mesh screens\n—\n$22"
+        },
+        {
+          "bbox": [
+            52.5,
+            352.89,
+            552.0,
+            363.81
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Test section\nclear acrylic panels\n1\n$12"
+        },
+        {
+          "bbox": [
+            52.5,
+            375.39,
+            552.0,
+            386.31
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Load cell + HX711\n1 kg load cell + amplifier\n1\n$8"
+        },
+        {
+          "bbox": [
+            52.5,
+            397.89,
+            552.0,
+            408.81
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Smoke source\nincense wand or mini glycol fogger\n1\n$12"
+        },
+        {
+          "bbox": [
+            52.5,
+            421.14,
+            552.0,
+            432.06
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Microcontroller + wing\nArduino / ESP32, 3D-printed airfoil\n1\n$8"
+        },
+        {
+          "bbox": [
+            67.5,
+            52.5,
+            546.82,
+            63.42
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Why a settling chamber and honeycomb instead of a fan and a tube? A fan produces swirling, turbulent air that would"
+        },
+        {
+          "bbox": [
+            67.5,
+            66.75,
+            553.24,
+            91.17
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "smear your smoke lines and corrupt any force reading. A settling chamber slows the flow, a honeycomb kills the swirl,\nscreens break up turbulence, and a smooth contraction accelerates the flow uniformly — which is why real tunnels spend"
+        },
+        {
+          "bbox": [
+            67.5,
+            94.5,
+            306.21,
+            105.42
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "most of their length conditioning air before the test section."
+        },
+        {
+          "bbox": [
+            52.5,
+            53.15,
+            60.04,
+            63.62
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→"
+        },
+        {
+          "bbox": [
+            67.5,
+            116.25,
+            550.18,
+            127.17
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Why a load cell rather than a spring or eyeballing it? Lift is small (fractions of a newton) and varies smoothly with angle"
+        },
+        {
+          "bbox": [
+            67.5,
+            130.5,
+            546.81,
+            141.42
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "of attack. A load-cell balance gives a calibrated, repeatable number you can plot to find the lift slope and the stall — the"
+        },
+        {
+          "bbox": [
+            67.5,
+            144.75,
+            405.64,
+            155.67
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "actual data an aerodynamicist needs. A spring is neither sensitive nor linear enough."
+        },
+        {
+          "bbox": [
+            52.5,
+            116.9,
+            60.04,
+            127.37
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→"
+        },
+        {
+          "bbox": [
+            67.5,
+            166.5,
+            559.14,
+            177.42
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Why does a small tunnel behave differently from a full-size one? Aerodynamics scales with Reynolds number — the ratio"
+        },
+        {
+          "bbox": [
+            67.5,
+            180.75,
+            557.09,
+            205.17
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "of inertial to viscous forces. A desktop tunnel operates at low Reynolds numbers, so your wing sees “thicker” air, stalls\ndifferently, and produces lower lift coefficients than full scale. Reporting Re with your data is what separates a toy from an"
+        },
+        {
+          "bbox": [
+            67.5,
+            210.42,
+            114.27,
+            219.42
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "instrument."
+        },
+        {
+          "bbox": [
+            52.5,
+            167.15,
+            60.04,
+            177.62
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "survive the field — a Build List field guide\n5 / 16"
+        }
+      ],
+      "charCount": 1577,
+      "height": 792.0,
+      "pageNumber": 5,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            27.08,
+            150.16,
+            42.2
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "// build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            355.58,
+            205.96,
+            370.7
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "// interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            54.0,
+            142.79,
+            64.92
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Build the body"
+        },
+        {
+          "bbox": [
+            82.5,
+            70.5,
+            547.59,
+            94.92
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Assemble the settling chamber, honeycomb (a bundle of straws), screens, contraction, and a clear test section, with\nthe fan at the exit pulling air through. Seal all joints."
+        },
+        {
+          "bbox": [
+            58.5,
+            52.99,
+            64.8,
+            66.64
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            109.5,
+            142.31,
+            120.42
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Get clean flow"
+        },
+        {
+          "bbox": [
+            82.5,
+            125.25,
+            549.59,
+            136.17
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Run the fan and introduce smoke upstream. Adjust screens and honeycomb until the smoke lines through the empty"
+        },
+        {
+          "bbox": [
+            82.5,
+            139.5,
+            331.72,
+            150.42
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "test section are straight and steady — that is conditioned flow."
+        },
+        {
+          "bbox": [
+            58.5,
+            108.49,
+            64.8,
+            122.14
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            165.0,
+            190.28,
+            175.92
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Add the wing and balance"
+        },
+        {
+          "bbox": [
+            82.5,
+            180.75,
+            548.22,
+            191.67
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Mount a 3D-printed airfoil on a sting attached to the load cell, with an angle-of-attack adjustment. Zero the load cell"
+        },
+        {
+          "bbox": [
+            82.5,
+            195.0,
+            145.35,
+            205.92
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "with the fan off."
+        },
+        {
+          "bbox": [
+            58.5,
+            163.99,
+            64.8,
+            177.64
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            219.75,
+            156.25,
+            230.67
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Visualise the flow"
+        },
+        {
+          "bbox": [
+            82.5,
+            236.25,
+            557.63,
+            247.17
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Run smoke over the wing at increasing angles of attack and watch the streamlines follow the surface, then separate as"
+        },
+        {
+          "bbox": [
+            82.5,
+            250.5,
+            213.73,
+            261.42
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "it stalls. Film this — it is the shot."
+        },
+        {
+          "bbox": [
+            58.5,
+            218.74,
+            64.8,
+            232.39
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            275.25,
+            154.62,
+            286.17
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Measure and plot"
+        },
+        {
+          "bbox": [
+            82.5,
+            291.75,
+            541.55,
+            316.17
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Record lift versus angle of attack, find the stall angle, and estimate the Reynolds number from airspeed and chord.\nCompare two airfoils. You have run a real aerodynamic test."
+        },
+        {
+          "bbox": [
+            58.5,
+            274.24,
+            64.8,
+            287.89
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            68.25,
+            391.5,
+            314.54,
+            402.62
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "How does a wing generate lift, and what happens at stall?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            411.75,
+            401.41,
+            422.87
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Why does a wind tunnel need a settling chamber, honeycomb, and contraction?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            431.25,
+            261.5,
+            442.37
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "How do you make airflow visible in a tunnel?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            451.5,
+            300.4,
+            462.62
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "How is aerodynamic force measured in a wind tunnel?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            471.0,
+            374.08,
+            482.12
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "What is the Reynolds number, and why does it matter for a small tunnel?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            491.25,
+            386.09,
+            502.37
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "How would you validate your tunnel’s results against published airfoil data?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "survive the field — a Build List field guide\n6 / 16"
+        }
+      ],
+      "charCount": 1377,
+      "height": 792.0,
+      "pageNumber": 6,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            68.25,
+            310.31,
+            541.45,
+            346.92
+          ],
+          "blockIndex": 0,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand composite layup (fiber types, weave, stacking sequence, resin), energy absorption and failure modes\n(delamination, fiber breakage), instrumented impact testing, and turning a test into data. Materials and structural-test"
+        },
+        {
+          "bbox": [
+            68.25,
+            350.25,
+            298.56,
+            361.17
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "engineering underpin every protective system in defense."
+        },
+        {
+          "bbox": [
+            52.5,
+            384.75,
+            528.99,
+            409.17
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "→the job this maps to: materials and protective-structures engineering — composites, structural-test, and protective-\nequipment teams."
+        },
+        {
+          "bbox": [
+            68.25,
+            433.31,
+            538.0,
+            455.67
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "!\nDROP WEIGHTS, NOT BULLETS\nThis is a drop-weight impact test, the standard lab method — and it stays that way. Never test panels with firearms or"
+        },
+        {
+          "bbox": [
+            68.25,
+            459.0,
+            534.85,
+            483.42
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "projectiles: it is illegal outside a licensed range, extremely dangerous, and not what this build is for. Wear eye\nprotection, keep hands clear of the drop path, and handle composites with gloves and a respirator — epoxy and fiber"
+        },
+        {
+          "bbox": [
+            68.25,
+            486.75,
+            155.05,
+            497.67
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "dust are real hazards."
+        },
+        {
+          "bbox": [
+            52.5,
+            17.08,
+            558.55,
+            84.99
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "SP03 · 31.6 °C · ε 0.95\n[ P R O J E C T 0 3 ]\nImpact-Resistant Composite Panel &\nDrop Tower"
+        },
+        {
+          "bbox": [
+            52.5,
+            92.1,
+            406.97,
+            103.21
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Lay up your own protective composite, then hit it with a drop weight and measure what"
+        },
+        {
+          "bbox": [
+            52.5,
+            108.31,
+            87.12,
+            117.46
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "survived"
+        },
+        {
+          "bbox": [
+            60.75,
+            132.18,
+            241.52,
+            142.42
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "$70\nintermediate\n1–2 weekends"
+        },
+        {
+          "bbox": [
+            52.5,
+            167.33,
+            185.03,
+            182.45
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "// why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            191.25,
+            556.36,
+            215.67
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Helmets, vehicle panels, and protective gear are built from composites engineered to absorb impact — and the way engineers\ndevelop them is by making test panels and hitting them, repeatably, with an instrumented impactor. Lay up your own panels"
+        },
+        {
+          "bbox": [
+            52.5,
+            219.0,
+            557.03,
+            243.42
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "from carbon, fiberglass, and aramid with different stacks and resins, then build a drop tower that drops a known mass from a\nknown height onto them while an accelerometer records the impact. Compare the panels: which cracked, which delaminated,"
+        },
+        {
+          "bbox": [
+            52.5,
+            246.75,
+            516.98,
+            257.67
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "which shrugged it off. It is hands-on materials engineering with a dramatic slow-motion payoff, and it is exactly how"
+        },
+        {
+          "bbox": [
+            52.5,
+            261.0,
+            193.03,
+            271.92
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "protective structures get designed."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "survive the field — a Build List field guide\n7 / 16"
+        }
+      ],
+      "charCount": 1778,
+      "height": 792.0,
+      "pageNumber": 7,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            27.08,
+            157.13,
+            42.2
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "// how it works"
+        },
+        {
+          "bbox": [
+            52.5,
+            292.58,
+            192.01,
+            307.7
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "// bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            320.43,
+            551.37,
+            330.67
+          ],
+          "blockIndex": 2,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "COMPONENT\nPART / SPEC\nQTY\n~COST"
+        },
+        {
+          "bbox": [
+            52.5,
+            342.39,
+            552.0,
+            353.31
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Fibers\ncarbon, fiberglass, and aramid cloth samples\n—\n$25"
+        },
+        {
+          "bbox": [
+            52.5,
+            364.89,
+            552.0,
+            375.81
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Resin\nepoxy laminating resin + hardener\n1\n$18"
+        },
+        {
+          "bbox": [
+            52.5,
+            388.14,
+            552.0,
+            399.06
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Drop tower\nguide tube / rods, clamp frame, 1–2 kg impactor\n1\n$15"
+        },
+        {
+          "bbox": [
+            52.5,
+            410.64,
+            552.0,
+            421.56
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Accelerometer + MCU\nADXL375 (high-g) + ESP32\n1\n$10"
+        },
+        {
+          "bbox": [
+            52.5,
+            433.14,
+            552.0,
+            444.06
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "PPE + consumables\ngloves, respirator, mixing cups, release film\n—\n$2"
+        },
+        {
+          "bbox": [
+            67.5,
+            51.0,
+            537.08,
+            61.92
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Composites absorb energy: A composite panel takes an impact by spreading load through stiff fibers and dissipating"
+        },
+        {
+          "bbox": [
+            67.5,
+            65.25,
+            550.04,
+            89.67
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "energy in the matrix, in delamination between plies, and in fiber breakage. Carbon is stiff, aramid is tough, glass is cheap\nand forgiving — and each fails differently."
+        },
+        {
+          "bbox": [
+            52.5,
+            51.65,
+            57.02,
+            62.12
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            99.75,
+            549.44,
+            124.17
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Layup and stacking: Stacking plies at different angles (0, 90, ±45) spreads strength in all directions, and the order\nchanges how cracks propagate. Vacuum bagging or careful hand layup controls resin content and voids, which dominate"
+        },
+        {
+          "bbox": [
+            67.5,
+            129.42,
+            103.76,
+            138.42
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "strength."
+        },
+        {
+          "bbox": [
+            52.5,
+            100.4,
+            57.02,
+            110.87
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            148.5,
+            555.64,
+            172.92
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "The drop tower: A guided mass falls from a set height onto the clamped panel, delivering a known energy (m·g·h). Guides\nkeep the impact repeatable; a hemispherical impactor concentrates the load like a real strike.\n▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            183.0,
+            559.34,
+            207.42
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Instrumenting the hit: An accelerometer on the impactor (or a load cell under the panel) records the force-time curve; the\npeak force and impulse tell you how the panel responded. Slow-motion video shows the failure as it happens.\n▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            217.5,
+            556.18,
+            228.42
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Reading the damage: After impact, inspect for cracks, dents, and delamination — tap testing reveals hidden delamination"
+        },
+        {
+          "bbox": [
+            67.5,
+            231.75,
+            536.56,
+            256.17
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "by its dull sound. Comparing panels at equal energy reveals which layup absorbs best, the data that drives protective\ndesign."
+        },
+        {
+          "bbox": [
+            52.5,
+            218.15,
+            57.02,
+            228.62
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "survive the field — a Build List field guide\n8 / 16"
+        }
+      ],
+      "charCount": 1620,
+      "height": 792.0,
+      "pageNumber": 8,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            27.08,
+            150.16,
+            42.2
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "// build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            355.58,
+            205.96,
+            370.7
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "// interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            54.0,
+            157.97,
+            64.92
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Lay up test panels"
+        },
+        {
+          "bbox": [
+            82.5,
+            70.5,
+            542.26,
+            94.92
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Make three or four small panels with different fibers and stacking sequences by hand layup (vacuum-bagged if you\ncan). Cure fully and cut to identical sizes."
+        },
+        {
+          "bbox": [
+            58.5,
+            52.99,
+            64.8,
+            66.64
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            109.5,
+            167.87,
+            120.42
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Build the drop tower"
+        },
+        {
+          "bbox": [
+            82.5,
+            125.25,
+            552.27,
+            136.17
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Build a vertical guide (tube or rods) with a release at adjustable height and a clamping frame for the panel. Mount the"
+        },
+        {
+          "bbox": [
+            82.5,
+            139.5,
+            316.74,
+            150.42
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "accelerometer on the impactor. Make the drop repeatable."
+        },
+        {
+          "bbox": [
+            58.5,
+            108.49,
+            64.8,
+            122.14
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            165.0,
+            171.99,
+            175.92
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Calibrate and dry-run"
+        },
+        {
+          "bbox": [
+            82.5,
+            180.75,
+            524.84,
+            191.67
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Drop onto a rigid surface at a known height and record the acceleration to confirm the sensor and timing work."
+        },
+        {
+          "bbox": [
+            82.5,
+            195.0,
+            270.68,
+            205.92
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Compute impact energy from mass and height."
+        },
+        {
+          "bbox": [
+            58.5,
+            163.99,
+            64.8,
+            177.64
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            219.75,
+            147.55,
+            230.67
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Test each panel"
+        },
+        {
+          "bbox": [
+            82.5,
+            236.25,
+            550.05,
+            247.17
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Drop the same energy on each panel, recording the force-time curve and filming the impact in slow motion. Increase"
+        },
+        {
+          "bbox": [
+            82.5,
+            250.5,
+            233.33,
+            261.42
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "energy on the survivors until they fail."
+        },
+        {
+          "bbox": [
+            58.5,
+            218.74,
+            64.8,
+            232.39
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            275.25,
+            172.16,
+            286.17
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Analyse and compare"
+        },
+        {
+          "bbox": [
+            82.5,
+            291.75,
+            545.21,
+            316.17
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Compare peak forces, inspect damage (cracks, delamination by tap test), and rank the layups. Write up which stack\nsurvived best and why — a real materials test report."
+        },
+        {
+          "bbox": [
+            58.5,
+            274.24,
+            64.8,
+            287.89
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            68.25,
+            391.5,
+            394.24,
+            402.62
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "How does a composite absorb impact energy, and what are its failure modes?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            411.75,
+            337.65,
+            422.87
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Why do stacking sequence and ply angles matter in a laminate?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            431.25,
+            326.87,
+            442.37
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Why is a drop tower the standard method for impact testing?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            451.5,
+            298.51,
+            462.62
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "What does the force-time curve of an impact tell you?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            471.0,
+            303.6,
+            482.12
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "How do you detect delamination in a composite panel?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            491.25,
+            312.37,
+            502.37
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "What are the safety hazards of working with composites?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "survive the field — a Build List field guide\n9 / 16"
+        }
+      ],
+      "charCount": 1357,
+      "height": 792.0,
+      "pageNumber": 9,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            68.25,
+            290.81,
+            540.27,
+            313.17
+          ],
+          "blockIndex": 0,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand underwater acoustics, piezo transducers and potting, low-noise preamplification, time-difference-of-"
+        },
+        {
+          "bbox": [
+            68.25,
+            316.5,
+            526.58,
+            340.92
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "arrival bearing estimation, and cross-correlation. Passive acoustic sensing is core to naval, marine, and monitoring\nengineering."
+        },
+        {
+          "bbox": [
+            52.5,
+            364.5,
+            524.4,
+            388.92
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "→the job this maps to: naval acoustics and underwater-sensing engineering — sonar, marine-monitoring, and ocean-\nengineering teams."
+        },
+        {
+          "bbox": [
+            68.25,
+            413.06,
+            520.36,
+            449.67
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "!\nLISTEN, DON'T DISTURB\nThis is receive-only. Never build an active (transmitting) sonar — loud underwater sound harms marine life and is\nregulated. Keep clear of swimmers and boat traffic, don’t leave gear in the water, and respect wildlife. You are"
+        },
+        {
+          "bbox": [
+            68.25,
+            453.0,
+            163.27,
+            463.92
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "listening, nothing more."
+        },
+        {
+          "bbox": [
+            52.5,
+            503.33,
+            157.13,
+            518.45
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "// how it works"
+        },
+        {
+          "bbox": [
+            444.57,
+            17.08,
+            558.55,
+            25.86
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "SP04 · 18.2 °C · ε 0.95"
+        },
+        {
+          "bbox": [
+            67.5,
+            527.25,
+            532.31,
+            538.17
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Sound in water: Water carries sound at about 1,500 m/s — four times faster than air — with far less loss, so a boat’s"
+        },
+        {
+          "bbox": [
+            67.5,
+            541.5,
+            455.82,
+            552.42
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "propeller can be heard kilometres away. That efficiency is why sonar, not radar, sees underwater."
+        },
+        {
+          "bbox": [
+            52.5,
+            527.9,
+            57.02,
+            538.37
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            562.5,
+            543.45,
+            586.92
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "The hydrophone: A piezoelectric element turns pressure waves into voltage. Potting it in epoxy (or oil-filling a rubber\nhousing) waterproofs it while coupling sound in; a low-noise preamp right at the element lifts the tiny signal before the"
+        },
+        {
+          "bbox": [
+            67.5,
+            590.25,
+            137.31,
+            601.17
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "cable adds noise."
+        },
+        {
+          "bbox": [
+            52.5,
+            563.15,
+            57.02,
+            573.62
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            610.5,
+            537.13,
+            621.42
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Listening: Feed the preamp into an audio interface and you hear the underwater world — engines, rain, fish, wakes. A"
+        },
+        {
+          "bbox": [
+            67.5,
+            624.75,
+            416.51,
+            635.67
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "spectrogram shows the tonals of a propeller (its blade-rate lines) that identify a vessel."
+        },
+        {
+          "bbox": [
+            52.5,
+            611.15,
+            57.02,
+            621.62
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            645.75,
+            555.19,
+            670.17
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Bearing from two ears: Two hydrophones a known distance apart receive the same sound at slightly different times. That\ntime difference of arrival, measured by cross-correlating the two channels, gives the angle the sound came from — the"
+        },
+        {
+          "bbox": [
+            67.5,
+            673.5,
+            168.0,
+            684.42
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "same trick your ears use."
+        },
+        {
+          "bbox": [
+            52.5,
+            646.4,
+            57.02,
+            656.87
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            693.75,
+            543.76,
+            704.67
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Ambiguity and range: Two hydrophones give a bearing with a left / right ambiguity; three resolve it; moving or multiple"
+        },
+        {
+          "bbox": [
+            67.5,
+            708.0,
+            452.19,
+            718.92
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "stations can triangulate range. Real towed arrays are just many hydrophones doing this at scale."
+        },
+        {
+          "bbox": [
+            52.5,
+            694.4,
+            57.02,
+            704.87
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            26.43,
+            355.5,
+            64.74
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "[ P R O J E C T 0 4 ]\nPassive Sonar Hydrophone Array"
+        },
+        {
+          "bbox": [
+            52.5,
+            71.85,
+            373.24,
+            82.96
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Hear a boat before you see it — underwater listening and bearing from a pair of"
+        },
+        {
+          "bbox": [
+            52.5,
+            88.06,
+            106.14,
+            97.21
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "hydrophones"
+        },
+        {
+          "bbox": [
+            60.75,
+            112.68,
+            226.4,
+            122.92
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "$50\nintermediate\n1 weekend"
+        },
+        {
+          "bbox": [
+            52.5,
+            147.08,
+            185.03,
+            162.2
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "// why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            171.0,
+            544.57,
+            181.92
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Sound travels farther and faster in water than radio ever could, which is why navies listen. Build a hydrophone from a piezo"
+        },
+        {
+          "bbox": [
+            52.5,
+            185.25,
+            549.89,
+            209.67
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "element potted in epoxy, drop it in a lake, and you hear propellers, outboards, and the whole underwater soundscape; add a\nsecond hydrophone a known distance away, measure the time difference of arrival, and you get the bearing to the source —"
+        },
+        {
+          "bbox": [
+            52.5,
+            213.0,
+            535.54,
+            237.42
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "passive sonar, the technique behind anti-submarine warfare and marine monitoring. It is receive-only, cross-disciplinary\n(acoustics, transducers, signal processing), and a strikingly different sensing domain from the RF work in the rest of the"
+        },
+        {
+          "bbox": [
+            52.5,
+            242.67,
+            79.1,
+            251.67
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "series."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "survive the field — a Build List field guide\n10 / 16"
+        }
+      ],
+      "charCount": 2734,
+      "height": 792.0,
+      "pageNumber": 10,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            27.08,
+            192.01,
+            42.2
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "// bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            54.93,
+            551.37,
+            65.17
+          ],
+          "blockIndex": 1,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "COMPONENT\nPART / SPEC\nQTY\n~COST"
+        },
+        {
+          "bbox": [
+            52.5,
+            76.89,
+            552.0,
+            87.81
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Piezo elements (×2)\n27–35 mm piezo discs\n2\n$4"
+        },
+        {
+          "bbox": [
+            52.5,
+            100.14,
+            552.0,
+            111.06
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Preamps (×2)\nlow-noise op-amp / JFET preamp\n2\n$8"
+        },
+        {
+          "bbox": [
+            52.5,
+            122.64,
+            552.0,
+            133.56
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Potting + housing\nepoxy, or mineral oil + rubber; shielded cable\n—\n$14"
+        },
+        {
+          "bbox": [
+            52.5,
+            145.14,
+            552.0,
+            156.06
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Audio interface\n2-channel USB interface\n1\n$24"
+        },
+        {
+          "bbox": [
+            52.5,
+            168.39,
+            552.0,
+            179.31
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Laptop\nrecording + cross-correlation in Python\n1\n—"
+        },
+        {
+          "bbox": [
+            52.5,
+            213.08,
+            150.16,
+            228.2
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "// build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            527.33,
+            205.96,
+            542.45
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "// interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            240.0,
+            163.46,
+            250.92
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Build a hydrophone"
+        },
+        {
+          "bbox": [
+            82.5,
+            256.5,
+            557.23,
+            280.92
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Solder a preamp to a piezo disc, attach shielded cable, and pot it in epoxy (or oil-fill a rubber housing). Test in a bucket\nby tapping the water."
+        },
+        {
+          "bbox": [
+            58.5,
+            238.99,
+            64.8,
+            252.64
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            297.42,
+            107.73,
+            306.42
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Listen"
+        },
+        {
+          "bbox": [
+            82.5,
+            311.25,
+            548.12,
+            322.17
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Lower it into a lake or harbour from a dock, record on the audio interface, and listen. Identify boats, rain, and wakes;"
+        },
+        {
+          "bbox": [
+            82.5,
+            325.5,
+            264.41,
+            336.42
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "view a spectrogram and find propeller tonals."
+        },
+        {
+          "bbox": [
+            58.5,
+            294.49,
+            64.8,
+            308.14
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            351.0,
+            204.08,
+            361.92
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Build the second hydrophone"
+        },
+        {
+          "bbox": [
+            58.5,
+            349.99,
+            454.17,
+            377.67
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Make a matched second unit and mount both a fixed, measured distance apart on a rigid bar.\n3"
+        },
+        {
+          "bbox": [
+            82.5,
+            392.25,
+            159.14,
+            403.17
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Measure a bearing"
+        },
+        {
+          "bbox": [
+            82.5,
+            408.0,
+            546.38,
+            418.92
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Record a boat passing on both channels, cross-correlate them to find the time difference, and compute the bearing."
+        },
+        {
+          "bbox": [
+            82.5,
+            422.25,
+            225.85,
+            433.17
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Watch it sweep as the boat goes by."
+        },
+        {
+          "bbox": [
+            58.5,
+            391.24,
+            64.8,
+            404.89
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            447.75,
+            111.31,
+            458.67
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Push it"
+        },
+        {
+          "bbox": [
+            82.5,
+            463.5,
+            554.52,
+            474.42
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Try three hydrophones to resolve the left / right ambiguity, track a boat’s bearing over time, and find how far away you"
+        },
+        {
+          "bbox": [
+            82.5,
+            477.75,
+            311.8,
+            488.67
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "can still hear it. Log everything — your first sonar dataset."
+        },
+        {
+          "bbox": [
+            58.5,
+            446.74,
+            64.8,
+            460.39
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            68.25,
+            563.25,
+            337.7,
+            574.37
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Why does sound propagate so much better in water than radio?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            583.5,
+            372.62,
+            594.62
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "How does a piezo hydrophone convert sound to a signal, and why pot it?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            603.75,
+            273.32,
+            614.87
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Why must the preamp be close to the element?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            623.25,
+            400.38,
+            634.37
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "How does time-difference-of-arrival between two hydrophones give a bearing?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            643.5,
+            372.72,
+            654.62
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "What is cross-correlation, and how does it measure the time difference?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            663.0,
+            337.83,
+            674.12
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Why does a two-hydrophone array have a left / right ambiguity?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 32,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "survive the field — a Build List field guide\n11 / 16"
+        }
+      ],
+      "charCount": 1603,
+      "height": 792.0,
+      "pageNumber": 11,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            68.25,
+            262.31,
+            542.72,
+            298.92
+          ],
+          "blockIndex": 0,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand ram-air parafoil aerodynamics and control (brake-line steering), guidance to a waypoint from GPS and\nheading, closed-loop heading control under wind, and the safety engineering of dropping things — the GNC skill set of"
+        },
+        {
+          "bbox": [
+            68.25,
+            302.25,
+            249.48,
+            313.17
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "aerial delivery and small unmanned systems."
+        },
+        {
+          "bbox": [
+            52.5,
+            336.0,
+            537.9,
+            347.12
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "→the job this maps to: aerial-delivery, small-UAS, and guidance-navigation-control engineering — logistics-systems and"
+        },
+        {
+          "bbox": [
+            52.5,
+            350.25,
+            151.55,
+            361.17
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "unmanned-aerial teams."
+        },
+        {
+          "bbox": [
+            68.25,
+            385.31,
+            538.6,
+            407.67
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "!\nCARGO ONLY, AND SAFELY\nThis carries supplies and nothing else — it is a delivery system and stays one. Drop only in a clear, open area you have"
+        },
+        {
+          "bbox": [
+            68.25,
+            411.0,
+            541.77,
+            435.42
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "permission to use, never over people, buildings, or roads; keep the payload small and soft; follow your local drone and\nairspace rules for whatever lifts it. A self-steering canopy is still a falling object."
+        },
+        {
+          "bbox": [
+            52.5,
+            475.58,
+            157.13,
+            490.7
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "// how it works"
+        },
+        {
+          "bbox": [
+            444.57,
+            17.08,
+            558.55,
+            25.86
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "SP05 · 36.4 °C · ε 0.95"
+        },
+        {
+          "bbox": [
+            52.5,
+            499.5,
+            539.39,
+            523.92
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "The ram-air canopy: A parafoil is a soft wing — cells inflated by ram air — that glides, so it can be steered. Pull the left\nbrake line and the left side slows and dips, turning the canopy left; pull both to flare and slow the descent.\n▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            534.0,
+            529.36,
+            544.92
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Servo steering: Two small servos on the payload box shorten the left and right brake lines. That gives a controller a"
+        },
+        {
+          "bbox": [
+            67.5,
+            548.25,
+            488.83,
+            559.17
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "heading command — the whole point that makes the drop precise rather than wherever the wind takes it."
+        },
+        {
+          "bbox": [
+            52.5,
+            534.65,
+            57.02,
+            545.12
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            568.5,
+            556.21,
+            579.42
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Knowing where you are: GPS gives position; a magnetometer and IMU give heading. The controller computes the bearing"
+        },
+        {
+          "bbox": [
+            67.5,
+            582.75,
+            236.34,
+            593.67
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "to the landing point and the heading error."
+        },
+        {
+          "bbox": [
+            52.5,
+            569.15,
+            57.02,
+            579.62
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            603.0,
+            554.59,
+            613.92
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Closing the loop: A heading controller steers toward the landing point, correcting for wind drift, and manages the glide so"
+        },
+        {
+          "bbox": [
+            67.5,
+            617.25,
+            526.29,
+            628.17
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "it arrives high enough to turn into the wind and flare on the final approach — the same logic full-scale systems use."
+        },
+        {
+          "bbox": [
+            52.5,
+            603.65,
+            57.02,
+            614.12
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            638.25,
+            554.18,
+            662.67
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "The drop platform and safety: The payload is lifted by a drone, a kite, or a safe high point, released to deploy the canopy,\nthen flies itself down. Everything about the test — area, altitude, payload mass — is chosen so a failure lands harmlessly.\n▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            26.43,
+            395.86,
+            64.74
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "[ P R O J E C T 0 5 ]\nPrecision Airdrop Parafoil Payload"
+        },
+        {
+          "bbox": [
+            52.5,
+            71.85,
+            365.65,
+            82.96
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "A parachute that flies itself to the landing zone — self-steering aerial delivery"
+        },
+        {
+          "bbox": [
+            60.75,
+            98.43,
+            211.29,
+            108.67
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "$90\nadvanced\n2 weekends"
+        },
+        {
+          "bbox": [
+            52.5,
+            132.83,
+            185.03,
+            147.95
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "// why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            156.75,
+            545.77,
+            167.67
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Getting supplies to a precise spot from the air is a logistics problem the defense world solved with self-steering parafoils: a"
+        },
+        {
+          "bbox": [
+            52.5,
+            171.0,
+            540.24,
+            195.42
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "ram-air canopy with servo-pulled control lines and a GPS-guided controller that flies the payload to a coordinate. Build a\nsmall one — a ram-air kite canopy, two servos on the brake lines, a GPS and IMU on the payload box — drop it from a legal"
+        },
+        {
+          "bbox": [
+            52.5,
+            198.75,
+            551.99,
+            209.67
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "height, and watch it turn toward the landing point and flare. It is aerospace, control, and embedded engineering in one build,"
+        },
+        {
+          "bbox": [
+            52.5,
+            213.0,
+            435.08,
+            223.92
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "it is pure cargo delivery, and it is one of the most satisfying autonomous systems you can make."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "survive the field — a Build List field guide\n12 / 16"
+        }
+      ],
+      "charCount": 2768,
+      "height": 792.0,
+      "pageNumber": 12,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            27.08,
+            192.01,
+            42.2
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "// bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            54.93,
+            551.37,
+            65.17
+          ],
+          "blockIndex": 1,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "COMPONENT\nPART / SPEC\nQTY\n~COST"
+        },
+        {
+          "bbox": [
+            52.5,
+            76.89,
+            552.0,
+            87.81
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Ram-air canopy\nsmall parafoil kite (or sewn canopy)\n1\n$30"
+        },
+        {
+          "bbox": [
+            52.5,
+            100.14,
+            552.0,
+            111.06
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Servos + rigging\n2 micro servos, brake-line rigging\n1\n$10"
+        },
+        {
+          "bbox": [
+            52.5,
+            122.64,
+            552.0,
+            133.56
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "GPS + IMU\nGNSS module + magnetometer / IMU\n1\n$18"
+        },
+        {
+          "bbox": [
+            52.5,
+            145.14,
+            552.0,
+            156.06
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Flight controller\nESP32 or small autopilot board\n1\n$12"
+        },
+        {
+          "bbox": [
+            52.5,
+            168.39,
+            552.0,
+            179.31
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Payload box + battery\nlight foam box, LiPo, release mechanism\n1\n$20"
+        },
+        {
+          "bbox": [
+            52.5,
+            213.08,
+            150.16,
+            228.2
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "// build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            541.58,
+            205.96,
+            556.7
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "// interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            240.0,
+            178.27,
+            250.92
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Fly the canopy by hand"
+        },
+        {
+          "bbox": [
+            82.5,
+            256.5,
+            550.99,
+            280.92
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Rig the parafoil with a small payload and fly it as a kite on the brake lines. Learn how it turns and flares before adding\nany electronics."
+        },
+        {
+          "bbox": [
+            58.5,
+            238.99,
+            64.8,
+            252.64
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            295.5,
+            160.43,
+            306.42
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Add servo steering"
+        },
+        {
+          "bbox": [
+            82.5,
+            311.25,
+            545.51,
+            322.17
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Mount two servos on the payload and rig them to the brake lines. Command turns from a radio or serial and confirm"
+        },
+        {
+          "bbox": [
+            82.5,
+            325.5,
+            169.07,
+            336.42
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "the canopy responds."
+        },
+        {
+          "bbox": [
+            58.5,
+            294.49,
+            64.8,
+            308.14
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            351.0,
+            144.98,
+            361.92
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Add navigation"
+        },
+        {
+          "bbox": [
+            82.5,
+            366.75,
+            535.27,
+            377.67
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Integrate GPS and IMU, compute the bearing to a landing waypoint and the heading error, and log it during hand-"
+        },
+        {
+          "bbox": [
+            82.5,
+            381.0,
+            135.3,
+            391.92
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "carried tests."
+        },
+        {
+          "bbox": [
+            58.5,
+            349.99,
+            64.8,
+            363.64
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            405.75,
+            201.47,
+            416.67
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Close the loop on the ground"
+        },
+        {
+          "bbox": [
+            82.5,
+            422.25,
+            528.36,
+            433.17
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Implement the heading controller and test it with the payload carried by hand while the servos steer; confirm it"
+        },
+        {
+          "bbox": [
+            82.5,
+            436.5,
+            237.56,
+            447.42
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "commands turns toward the waypoint."
+        },
+        {
+          "bbox": [
+            58.5,
+            404.74,
+            64.8,
+            418.39
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            461.25,
+            125.41,
+            472.17
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Drop tests"
+        },
+        {
+          "bbox": [
+            82.5,
+            477.75,
+            526.7,
+            502.17
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "In a clear, legal area, release from a safe height and let it fly to the waypoint. Start low, log everything, tune the\ncontroller and the flare, and measure how close you land."
+        },
+        {
+          "bbox": [
+            58.5,
+            460.24,
+            64.8,
+            473.89
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            68.25,
+            577.5,
+            338.16,
+            588.62
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "How does a ram-air parafoil generate lift, and how is it steered?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            597.75,
+            270.47,
+            608.87
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Why does brake-line steering turn the canopy?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            617.25,
+            366.93,
+            628.37
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "How does the controller decide which way to steer toward a waypoint?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            637.5,
+            285.63,
+            648.62
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "How do you handle wind drift in a guided descent?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            657.0,
+            286.56,
+            668.12
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "What is a flare, and why does it matter for landing?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            677.25,
+            277.43,
+            688.37
+          ],
+          "blockIndex": 32,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "What safety constraints govern any airdrop test?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 33,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "survive the field — a Build List field guide\n13 / 16"
+        }
+      ],
+      "charCount": 1578,
+      "height": 792.0,
+      "pageNumber": 13,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            68.25,
+            262.31,
+            541.49,
+            298.92
+          ],
+          "blockIndex": 0,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand environmental test engineering (thermal cycling, vibration, shock and drop), instrumenting a device\nunder test, designing repeatable fixtures, pass / fail criteria, and reporting — the test-and-evaluation discipline behind"
+        },
+        {
+          "bbox": [
+            68.25,
+            302.25,
+            153.79,
+            313.17
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "every fielded system."
+        },
+        {
+          "bbox": [
+            52.5,
+            336.0,
+            547.12,
+            347.12
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "→the job this maps to: test & evaluation and ruggedisation engineering — environmental-test labs, defense and aerospace"
+        },
+        {
+          "bbox": [
+            52.5,
+            350.25,
+            131.97,
+            361.17
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "qualification teams."
+        },
+        {
+          "bbox": [
+            68.25,
+            385.31,
+            534.81,
+            407.67
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "!\nNO BATTERIES IN THE OVEN\nThermal testing means real heat and cold. Never put lithium batteries in the chamber — they can vent or catch fire —"
+        },
+        {
+          "bbox": [
+            68.25,
+            411.0,
+            537.13,
+            435.42
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "so power the device under test from a bench supply through the wall. Keep chamber temperatures within safe limits,\nnever use a kitchen oven you will cook in again, and mind the shaker: moving parts and loosened screws fly."
+        },
+        {
+          "bbox": [
+            52.5,
+            475.58,
+            157.13,
+            490.7
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "// how it works"
+        },
+        {
+          "bbox": [
+            444.57,
+            17.08,
+            558.55,
+            25.86
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "SP06 · 48.0 °C · ε 0.95"
+        },
+        {
+          "bbox": [
+            52.5,
+            499.5,
+            557.91,
+            523.92
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "The environmental profiles: MIL-STD-810 defines test methods — high and low temperature, thermal shock, vibration,\nmechanical shock, humidity, and more — each with a profile of levels and durations matched to the intended environment.\n▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            534.0,
+            523.75,
+            544.92
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "The thermal chamber: An insulated box with a heater (and a Peltier or freezer for cold), a fan for uniformity, and a"
+        },
+        {
+          "bbox": [
+            67.5,
+            548.25,
+            463.7,
+            559.17
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "thermocouple-controlled loop cycles the device between extremes and holds it there while it runs."
+        },
+        {
+          "bbox": [
+            52.5,
+            534.65,
+            57.02,
+            545.12
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            568.5,
+            502.03,
+            579.42
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "The vibration table: A platform driven by an eccentric motor or a speaker reproduces transport vibration; an"
+        },
+        {
+          "bbox": [
+            67.5,
+            582.75,
+            431.54,
+            593.67
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "accelerometer on the table confirms the levels and frequencies you are actually delivering."
+        },
+        {
+          "bbox": [
+            52.5,
+            569.15,
+            57.02,
+            579.62
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            603.0,
+            548.05,
+            613.92
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Shock and drop: A controlled drop from a set height onto a hard surface delivers a mechanical shock; an accelerometer"
+        },
+        {
+          "bbox": [
+            67.5,
+            617.25,
+            531.65,
+            628.17
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "on the device records the peak g. Repeatable orientation and height are what make it a test rather than an accident."
+        },
+        {
+          "bbox": [
+            52.5,
+            603.65,
+            57.02,
+            614.12
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            638.25,
+            558.78,
+            662.67
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "The device under test: The DUT runs a self-test loop and logs continuously, so you can see exactly when — and whether —\nit faulted, reset, or failed during each profile. Pass / fail is defined before the test, not after.\n▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            26.43,
+            274.77,
+            64.74
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "[ P R O J E C T 0 6 ]\nSurvivability Test Rig"
+        },
+        {
+          "bbox": [
+            52.5,
+            71.85,
+            400.19,
+            82.96
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Bake it, freeze it, shake it, drop it — torture-test your electronics to military standards"
+        },
+        {
+          "bbox": [
+            60.75,
+            98.43,
+            211.29,
+            108.67
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "$85\nadvanced\n2 weekends"
+        },
+        {
+          "bbox": [
+            52.5,
+            132.83,
+            185.03,
+            147.95
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "// why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            156.75,
+            522.11,
+            167.67
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Defense hardware has to work after a night at −40, a day in a hot cargo hold, hours of truck vibration, and a drop onto"
+        },
+        {
+          "bbox": [
+            52.5,
+            171.0,
+            541.63,
+            195.42
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "concrete. MIL-STD-810 is the standard that defines those tests, and you can build a scaled version of the lab: a thermal\nchamber that heats and cools, a vibration table driven by a motor or a speaker, and a controlled drop rig, all instrumented,"
+        },
+        {
+          "bbox": [
+            52.5,
+            198.75,
+            547.07,
+            209.67
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "with the device under test logging whether it survived. Then torture-test something you built and write the report. It is test-"
+        },
+        {
+          "bbox": [
+            52.5,
+            213.0,
+            556.72,
+            223.92
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "and-evaluation engineering, cross-discipline (thermal, mechanical, electronic), and it turns “I think it’s rugged” into evidence."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "survive the field — a Build List field guide\n14 / 16"
+        }
+      ],
+      "charCount": 2787,
+      "height": 792.0,
+      "pageNumber": 14,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            27.08,
+            192.01,
+            42.2
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "// bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            54.93,
+            551.37,
+            65.17
+          ],
+          "blockIndex": 1,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "COMPONENT\nPART / SPEC\nQTY\n~COST"
+        },
+        {
+          "bbox": [
+            52.5,
+            76.89,
+            552.0,
+            87.81
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Thermal chamber\ninsulated box, heater element, Peltier or freezer access, fan\n1\n$35"
+        },
+        {
+          "bbox": [
+            52.5,
+            100.14,
+            552.0,
+            111.06
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Controller + sensors\nESP32, thermocouple + MAX6675, accelerometer\n1\n$15"
+        },
+        {
+          "bbox": [
+            52.5,
+            122.64,
+            552.0,
+            133.56
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Vibration table\nplatform + eccentric motor or speaker shaker\n1\n$20"
+        },
+        {
+          "bbox": [
+            52.5,
+            145.14,
+            552.0,
+            156.06
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Drop fixture\nguided drop + hard surface\n1\n$5"
+        },
+        {
+          "bbox": [
+            52.5,
+            168.39,
+            552.0,
+            179.31
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Device under test\na board you built\n1\n$10"
+        },
+        {
+          "bbox": [
+            52.5,
+            213.08,
+            150.16,
+            228.2
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "// build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            541.58,
+            205.96,
+            556.7
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "// interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            240.0,
+            164.21,
+            250.92
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Define the test plan"
+        },
+        {
+          "bbox": [
+            82.5,
+            256.5,
+            550.77,
+            280.92
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Pick a device under test, decide its intended environment, and set the profiles: temperature extremes and durations,\nvibration level, drop height. Write pass / fail criteria first."
+        },
+        {
+          "bbox": [
+            58.5,
+            238.99,
+            64.8,
+            252.64
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            295.5,
+            194.11,
+            306.42
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Build the thermal chamber"
+        },
+        {
+          "bbox": [
+            82.5,
+            311.25,
+            551.02,
+            322.17
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Assemble the insulated box with heater, cooling, fan, and thermocouple control. Verify it can reach and hold your hot"
+        },
+        {
+          "bbox": [
+            82.5,
+            325.5,
+            184.65,
+            336.42
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "and cold setpoints safely."
+        },
+        {
+          "bbox": [
+            58.5,
+            294.49,
+            64.8,
+            308.14
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            351.0,
+            219.55,
+            361.92
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Build the shaker and drop fixture"
+        },
+        {
+          "bbox": [
+            82.5,
+            366.75,
+            550.69,
+            377.67
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Assemble the vibration table with an accelerometer on it, and a guided drop rig. Characterise the vibration levels you"
+        },
+        {
+          "bbox": [
+            82.5,
+            381.0,
+            185.07,
+            391.92
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "produce and the drop g’s."
+        },
+        {
+          "bbox": [
+            58.5,
+            349.99,
+            64.8,
+            363.64
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            405.75,
+            165.44,
+            416.67
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Instrument the DUT"
+        },
+        {
+          "bbox": [
+            82.5,
+            422.25,
+            536.44,
+            433.17
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Have the device log a self-test (sensor reads, comms, memory checks) continuously over serial, timestamped, so"
+        },
+        {
+          "bbox": [
+            82.5,
+            436.5,
+            233.77,
+            447.42
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "faults are attributable to a test phase."
+        },
+        {
+          "bbox": [
+            58.5,
+            404.74,
+            64.8,
+            418.39
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            461.25,
+            203.62,
+            472.17
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Run the campaign and report"
+        },
+        {
+          "bbox": [
+            82.5,
+            477.75,
+            551.34,
+            502.17
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Run thermal cycling, vibration, and drop in sequence, logging everything. Identify failures (which phase, what broke),\nfix the design, retest, and write a one-page test report — the deliverable real T&E engineers produce."
+        },
+        {
+          "bbox": [
+            58.5,
+            460.24,
+            64.8,
+            473.89
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            68.25,
+            577.5,
+            327.75,
+            588.62
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "What kinds of environmental tests does MIL-STD-810 cover?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            597.75,
+            297.22,
+            608.87
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Why must pass / fail criteria be defined before a test?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            617.25,
+            301.45,
+            628.37
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "How do you build and control a thermal test chamber?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            637.5,
+            347.69,
+            648.62
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "How do you verify the vibration you deliver to a device under test?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            657.0,
+            306.53,
+            668.12
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Why is instrumenting the DUT during the test essential?\n→"
+        },
+        {
+          "bbox": [
+            68.25,
+            677.25,
+            300.09,
+            688.37
+          ],
+          "blockIndex": 32,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "What are the safety hazards of environmental testing?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 33,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "survive the field — a Build List field guide\n15 / 16"
+        }
+      ],
+      "charCount": 1760,
+      "height": 792.0,
+      "pageNumber": 15,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            17.08,
+            558.55,
+            104.29
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "WRAP · ΔT 48.0 °C\n[ W R A P ]\nThe hard part of defense engineering\nisn’t the weapon.\nIt’s surviving the field."
+        },
+        {
+          "bbox": [
+            52.5,
+            118.5,
+            555.55,
+            142.92
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "A shielded box, a wind tunnel, an impact panel, a hydrophone pair, a self-steering parachute, a torture chamber for\nelectronics — six builds from the survivability, aerodynamics, sensing, and logistics side of defense, spanning EE, mechanical,"
+        },
+        {
+          "bbox": [
+            52.5,
+            146.25,
+            541.08,
+            157.17
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "materials, aerospace, and test engineering. Every one is protective, passive, or logistical. The value is in the discipline: the"
+        },
+        {
+          "bbox": [
+            52.5,
+            160.5,
+            556.53,
+            184.92
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "shielding, the flow conditioning, the layup, the correlation, the control loop, the test plan. That is what defense and aerospace\nteams hire for, across every discipline."
+        },
+        {
+          "bbox": [
+            52.5,
+            207.08,
+            185.03,
+            222.2
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "// the skill ladder"
+        },
+        {
+          "bbox": [
+            52.5,
+            231.0,
+            368.92,
+            241.92
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Build them in order and each one hands you the technique the next one needs:"
+        },
+        {
+          "bbox": [
+            52.5,
+            251.1,
+            527.78,
+            262.41
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "shielding →aerodynamics →materials & impact →acoustic sensing →guidance & control →test & evaluation"
+        },
+        {
+          "bbox": [
+            68.25,
+            290.06,
+            538.83,
+            312.42
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "!\nTHE LINE THIS GUIDE STAYS ON\nAll six are protective, sensing, or logistics builds — no weapons, no projectiles, no jamming, nothing that harms. Test"
+        },
+        {
+          "bbox": [
+            68.25,
+            315.75,
+            542.35,
+            340.17
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "panels with drop weights, never firearms. Drop payloads only where it is legal and empty, and never over people. Keep\nbatteries out of the chamber, keep active sonar off the list, and follow local airspace and safety rules. Build to protect,"
+        },
+        {
+          "bbox": [
+            68.25,
+            343.5,
+            141.83,
+            354.42
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "deliver, and prove."
+        },
+        {
+          "bbox": [
+            68.25,
+            386.81,
+            536.6,
+            423.42
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "DO THIS\nBuild even one. Film it — a phone going silent in the cage, smoke curling over a wing, a slow-motion impact, a boat’s\nbearing sweeping across a plot, a canopy turning toward the mark, a board surviving the chamber — and put the data"
+        },
+        {
+          "bbox": [
+            68.25,
+            426.75,
+            523.59,
+            437.67
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "and design on GitHub with your test method and an honest write-up. One survivability demo and one clean report"
+        },
+        {
+          "bbox": [
+            68.25,
+            441.0,
+            235.47,
+            451.92
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "prove you can engineer for the real world."
+        },
+        {
+          "bbox": [
+            68.25,
+            484.5,
+            541.93,
+            495.42
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Full build notes, parts links, and the next field guide go out in The Build List. The people actually shipping these — and"
+        },
+        {
+          "bbox": [
+            68.25,
+            498.75,
+            276.32,
+            509.67
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "trading layup and tunnel tricks — are in Ohm’s Club."
+        },
+        {
+          "bbox": [
+            52.5,
+            539.04,
+            235.65,
+            549.77
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "— Enes (@1nska) · Electrical Engineer"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.14,
+            757.79
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "survive the field — a Build List field guide\n16 / 16"
+        }
+      ],
+      "charCount": 1911,
+      "height": 792.0,
+      "pageNumber": 16,
+      "textExtractable": true,
+      "width": 612.0
+    }
+  ],
+  "provenance": {
+    "confidence": "EXACT",
+    "extractionMethod": "pymupdf-blocks-v1",
+    "extractorVersion": "1.28.0",
+    "generatorVersion": null,
+    "origin": "extracted",
+    "source": "guide-014",
+    "sourceHash": "3940e4f89bcc2c2bff57a1c3f530e170db34bfd546c0e7a9642bcc532d9ccc9f",
+    "sourcePage": null,
+    "sourcePath": "Engineering guides/6_Engineering_Projects_That_Survive_The_Field.pdf",
+    "sourceSection": "ROOT"
+  },
+  "relativePath": "Engineering guides/6_Engineering_Projects_That_Survive_The_Field.pdf",
+  "schemaVersion": "1.0.0",
+  "sha256": "3940e4f89bcc2c2bff57a1c3f530e170db34bfd546c0e7a9642bcc532d9ccc9f",
+  "sourceId": "guide-014"
+}

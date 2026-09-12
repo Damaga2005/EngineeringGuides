@@ -1,0 +1,3457 @@
+{
+  "metadata": {
+    "author": "@1nska",
+    "creationDate": "D:20260530181625+00'00'",
+    "creator": "(unspecified)",
+    "format": "PDF 1.4",
+    "modDate": "D:20260530181625+00'00'",
+    "producer": "ReportLab PDF Library - (opensource)",
+    "subject": "(unspecified)",
+    "title": "6 EE Projects That Reach Space"
+  },
+  "pageCount": 21,
+  "pages": [
+    {
+      "blocks": [
+        {
+          "bbox": [
+            223.9,
+            733.07,
+            388.09,
+            744.07
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "By @1nska  •  Electrical Engineer"
+        },
+        {
+          "bbox": [
+            67.2,
+            77.67,
+            476.84,
+            235.72
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "SPACE TECH • SATELLITE + ORBITAL SYSTEMS\n6 EE PROJECTS THAT\nREACH SPACE FROM\nYOUR DESK"
+        },
+        {
+          "bbox": [
+            67.2,
+            251.23,
+            488.83,
+            283.73
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Satellite downlinks. Attitude control. Precision timing. Cosmic particles.\nRF, control systems, and low-noise analog. Real EE."
+        },
+        {
+          "bbox": [
+            67.2,
+            319.0,
+            544.79,
+            331.5
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "1. GOES Earth Receiver — full-disk planet from 36,000 km up\n$75"
+        },
+        {
+          "bbox": [
+            67.2,
+            346.0,
+            544.79,
+            373.5
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "2. Meteor-M2 Weather Receiver — image your city from orbit at 137\nMHz\n$40"
+        },
+        {
+          "bbox": [
+            67.2,
+            388.0,
+            544.79,
+            400.5
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "3. Reaction-Wheel Attitude Controller — point a platform like a satellite\n$50"
+        },
+        {
+          "bbox": [
+            67.2,
+            415.0,
+            544.79,
+            427.5
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "4. Camera Star Tracker — find your orientation from the stars\n$60"
+        },
+        {
+          "bbox": [
+            67.2,
+            442.0,
+            544.79,
+            454.5
+          ],
+          "blockIndex": 7,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "5. GPS-Disciplined Oscillator — atomic-grade timing from GPS\n$30"
+        },
+        {
+          "bbox": [
+            67.2,
+            469.0,
+            544.79,
+            481.5
+          ],
+          "blockIndex": 8,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "6. Cosmic-Ray Muon Detector — catch particles from space\n$75"
+        }
+      ],
+      "charCount": 647,
+      "height": 792.0,
+      "pageNumber": 1,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            197.6,
+            749.41,
+            414.4,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "@1nska   •   6 EE Projects That Reach Space   •   Page 2"
+        },
+        {
+          "bbox": [
+            67.2,
+            73.03,
+            280.79,
+            124.91
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "PROJECT 1\nGOES Earth Receiver"
+        },
+        {
+          "bbox": [
+            67.2,
+            131.0,
+            509.08,
+            143.5
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Pull a live, full-disk image of the entire planet off a satellite parked 36,000 km up"
+        },
+        {
+          "bbox": [
+            116.1,
+            165.55,
+            531.93,
+            176.05
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Cost: ~$75\nDifficulty: Advanced\nBuild Time: 2-3 weekends"
+        },
+        {
+          "bbox": [
+            67.2,
+            201.34,
+            183.11,
+            215.34
+          ],
+          "blockIndex": 4,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Why This Matters"
+        },
+        {
+          "bbox": [
+            67.2,
+            223.55,
+            544.76,
+            358.05
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "GOES (Geostationary Operational Environmental Satellites) are the spacecraft behind every weather\nforecast you have ever seen. They sit in geostationary orbit 35,786 km above the equator, locked to\none spot on Earth, and continuously broadcast imagery back down on an L-band downlink near 1.69\nGHz. The operational satellites — GOES-19 (East) and GOES-18 (West) — transmit a signal called\nHRIT that anyone can receive with a software-defined radio, a low-noise amplifier, and a dish you can\nbuild from hardware-store parts. Because the satellite never moves relative to the ground, you aim your\nantenna once and leave it — no tracking motor. The challenge is pure RF: the signal arrives near the\nthermal noise floor after a 36,000 km trip, so the whole link budget hinges on a clean, low-noise front\nend and enough antenna gain to close the link."
+        },
+        {
+          "bbox": [
+            73.2,
+            380.05,
+            528.94,
+            435.55
+          ],
+          "blockIndex": 6,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "What this proves to a recruiter: You understand L-band RF, low-noise amplifier and noise-figure\ndesign, link budgets, antenna gain, and digital demodulation of a BPSK downlink. These are the\nexact skills behind satellite communications, GPS, radar, and every space-to-ground link in the\nindustry."
+        }
+      ],
+      "charCount": 1384,
+      "height": 792.0,
+      "pageNumber": 2,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            197.6,
+            749.41,
+            414.4,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "@1nska   •   6 EE Projects That Reach Space   •   Page 3"
+        },
+        {
+          "bbox": [
+            67.2,
+            70.34,
+            155.88,
+            84.34
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "How It Works"
+        },
+        {
+          "bbox": [
+            67.2,
+            92.55,
+            535.03,
+            134.05
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Geostationary downlink (1.69 GHz): GOES-East (GOES-19) and GOES-West (GOES-18)\nbroadcast HRIT near 1694.1 MHz. The signal is BPSK at roughly 400 kSym/s and carries full-disk\nEarth images, regional mesoscale scans, and weather products."
+        },
+        {
+          "bbox": [
+            67.2,
+            145.05,
+            531.31,
+            202.05
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Antenna — gain is everything: After a 36,000 km path the signal is extremely weak, so you need\ndirectional gain. A repurposed 2.4 GHz WiFi grid dish, a small offset satellite dish with a helical\nfeed, or a DIY cookware reflector all work. Because the bird is geostationary, you point once and\nbolt it down."
+        },
+        {
+          "bbox": [
+            67.2,
+            213.05,
+            539.13,
+            270.05
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Low-noise amplifier + SAW filter: An LNA with a sub-1 dB noise figure, mounted right at the\nantenna feed, sets the system sensitivity. A SAW filter near 1.69 GHz rejects cellular and WiFi that\nwould otherwise desensitize the receiver. This LNA-at-the-antenna placement is the single most\nimportant decision in the build."
+        },
+        {
+          "bbox": [
+            67.2,
+            281.05,
+            531.03,
+            322.55
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Bias tee + SDR: A bias tee injects DC up the coax to power the LNA at the mast while passing RF\ndown to the radio. An RTL-SDR (or Airspy for more headroom) digitizes the filtered signal and\nstreams IQ samples to a laptop or Raspberry Pi."
+        },
+        {
+          "bbox": [
+            67.2,
+            333.55,
+            527.46,
+            390.55
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Demodulation + decode (SatDump): SatDump locks the BPSK carrier, recovers symbol timing,\napplies Viterbi and Reed-Solomon forward error correction, and reassembles the packets into\nfull-disk and mesoscale images — the same pictures meteorologists use, pulled out of the air by\nyou."
+        },
+        {
+          "bbox": [
+            67.2,
+            414.34,
+            213.47,
+            428.34
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Key Design Decisions"
+        },
+        {
+          "bbox": [
+            67.2,
+            436.55,
+            532.22,
+            447.05
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "→ Why an LNA at the antenna instead of at the radio? Coax loss at 1.7 GHz is severe — several"
+        },
+        {
+          "bbox": [
+            83.2,
+            452.05,
+            534.31,
+            478.05
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "dB per meter of cheap cable. Every dB of loss before the first amplifier adds directly to your noise\nfigure, so you amplify before the lossy cable degrades the signal."
+        },
+        {
+          "bbox": [
+            67.2,
+            489.05,
+            515.36,
+            499.55
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "→ Why geostationary instead of polar? A geostationary satellite appears fixed in the sky, so a"
+        },
+        {
+          "bbox": [
+            83.2,
+            504.55,
+            541.9,
+            530.55
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "high-gain, narrow-beam dish can be aimed once and left. A polar satellite races across the sky and\nwould demand a motorized tracker — which is exactly Project 3's problem."
+        },
+        {
+          "bbox": [
+            67.2,
+            541.55,
+            530.5,
+            552.05
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "→ Why BPSK for the downlink? BPSK is the most power-efficient digital modulation — it tolerates"
+        },
+        {
+          "bbox": [
+            83.2,
+            557.05,
+            526.12,
+            583.05
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "the lowest signal-to-noise ratio of any common scheme. When you are link-budget starved from\n36,000 km, you trade data rate for the robustness that lets the link close at all."
+        }
+      ],
+      "charCount": 2272,
+      "height": 792.0,
+      "pageNumber": 3,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            197.6,
+            749.41,
+            414.4,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "@1nska   •   6 EE Projects That Reach Space   •   Page 4"
+        },
+        {
+          "bbox": [
+            67.2,
+            70.34,
+            170.67,
+            84.34
+          ],
+          "blockIndex": 1,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Bill of Materials"
+        },
+        {
+          "bbox": [
+            68.2,
+            100.44,
+            543.8,
+            110.44
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Component\nPart / Spec\nQty\n~Cost"
+        },
+        {
+          "bbox": [
+            68.2,
+            124.33,
+            543.8,
+            133.83
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "GOES LNA + SAW filter\n1.69 GHz, NF < 1 dB, bias-tee powered\n1\n$18"
+        },
+        {
+          "bbox": [
+            68.2,
+            148.33,
+            543.8,
+            157.83
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "RTL-SDR dongle\nRTL2832U + R820T2 (or Airspy Mini)\n1\n$30"
+        },
+        {
+          "bbox": [
+            68.2,
+            172.33,
+            543.8,
+            181.83
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Bias tee\nInline DC injector, 1–2 GHz\n1\n$6"
+        },
+        {
+          "bbox": [
+            68.2,
+            196.33,
+            543.79,
+            205.83
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Grid / dish antenna\n2.4 GHz WiFi grid or small offset dish\n1\n$0–25"
+        },
+        {
+          "bbox": [
+            68.2,
+            220.33,
+            543.8,
+            229.83
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Helical / patch feed\nDIY copper wire on PCB ground plane\n1\n$3"
+        },
+        {
+          "bbox": [
+            68.2,
+            244.33,
+            543.8,
+            253.83
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Coax + SMA\nLow-loss (LMR-240) pigtails + adapters\n1\n$8"
+        },
+        {
+          "bbox": [
+            68.2,
+            268.33,
+            543.8,
+            277.83
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Mount + tripod\nFixed-aim hardware\n1\n$5"
+        },
+        {
+          "bbox": [
+            68.2,
+            292.33,
+            543.8,
+            301.83
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Raspberry Pi / laptop\nRuns SatDump\n1\n—"
+        },
+        {
+          "bbox": [
+            67.2,
+            323.34,
+            144.21,
+            337.34
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Build Steps"
+        },
+        {
+          "bbox": [
+            67.2,
+            345.55,
+            540.53,
+            387.05
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Build or repurpose the antenna: Start with a 2.4 GHz WiFi grid dish or a small offset satellite dish.\nAdd a feed tuned for 1.69 GHz — a 3–5 turn helical feed wound from copper wire over a ground plane\nworks well and is circularly polarized, matching the satellite. Mount it on a rigid tripod."
+        },
+        {
+          "bbox": [
+            67.2,
+            400.05,
+            539.31,
+            441.55
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Mount the LNA at the feed: Connect the LNA + SAW filter directly to the antenna feed with the\nshortest possible pigtail — ideally screwed straight onto the connector. This is non-negotiable: amplify\nbefore the coax. Weatherproof the joint if it lives outside."
+        },
+        {
+          "bbox": [
+            67.2,
+            454.55,
+            536.94,
+            496.05
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Power it through the bias tee: Insert the bias tee inline at the radio end, feed it 5 V, and verify the\nLNA draws current. Confirm RF passes to the SDR. A common failure is a bias-tee voltage or polarity\nmismatch that never powers the LNA — check it with a multimeter."
+        },
+        {
+          "bbox": [
+            67.2,
+            509.05,
+            530.0,
+            550.55
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Aim the dish (once): Look up the azimuth and elevation for GOES-East or GOES-West from your\nlocation with any satellite-finder app. Geostationary means a single fixed bearing. Peak the signal in\nSatDump by nudging the dish a degree at a time until the BPSK shoulders rise out of the noise."
+        },
+        {
+          "bbox": [
+            67.2,
+            563.55,
+            544.79,
+            620.55
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Decode in SatDump: Select the GOES HRIT pipeline, set the sample rate, and start. Once locked you\nwill see the constellation snap to two BPSK points and packets flow. Let a full-disk scan complete and\nwatch a live image of the entire planet assemble on your screen. Save the GeoTIFF and post the\ntimestamp."
+        }
+      ],
+      "charCount": 1947,
+      "height": 792.0,
+      "pageNumber": 4,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            197.6,
+            749.41,
+            414.4,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "@1nska   •   6 EE Projects That Reach Space   •   Page 5"
+        },
+        {
+          "bbox": [
+            73.2,
+            79.67,
+            181.4,
+            90.67
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Interview Questions:"
+        },
+        {
+          "bbox": [
+            73.2,
+            99.55,
+            443.81,
+            110.05
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ Why must the LNA be mounted at the antenna rather than near the receiver?"
+        },
+        {
+          "bbox": [
+            73.2,
+            121.05,
+            457.74,
+            131.55
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ What is noise figure, and how does the first amplifier dominate it (Friis formula)?"
+        },
+        {
+          "bbox": [
+            73.2,
+            142.55,
+            534.83,
+            153.05
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ How do you compute the link budget for a 36,000 km downlink — what are the dominant losses?"
+        },
+        {
+          "bbox": [
+            73.2,
+            164.05,
+            481.69,
+            174.55
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ Why is the GOES downlink BPSK instead of a higher-order modulation like 16-QAM?"
+        },
+        {
+          "bbox": [
+            73.2,
+            185.55,
+            479.4,
+            196.05
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ Why does a geostationary satellite allow a fixed antenna while a polar one does not?"
+        },
+        {
+          "bbox": [
+            73.2,
+            207.05,
+            492.78,
+            217.55
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ What role do Reed-Solomon and Viterbi coding play in recovering the image error-free?"
+        }
+      ],
+      "charCount": 583,
+      "height": 792.0,
+      "pageNumber": 5,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            197.6,
+            749.41,
+            414.4,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "@1nska   •   6 EE Projects That Reach Space   •   Page 6"
+        },
+        {
+          "bbox": [
+            67.2,
+            73.03,
+            354.27,
+            124.91
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "PROJECT 2\nMeteor-M2 Weather Receiver"
+        },
+        {
+          "bbox": [
+            67.2,
+            131.0,
+            541.7,
+            159.5
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Image your own city from a satellite screaming overhead at 137 MHz, decoded line by\nline"
+        },
+        {
+          "bbox": [
+            116.1,
+            181.55,
+            524.63,
+            192.05
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Cost: ~$40\nDifficulty: Intermediate\nBuild Time: 1 weekend"
+        },
+        {
+          "bbox": [
+            67.2,
+            217.34,
+            183.11,
+            231.34
+          ],
+          "blockIndex": 4,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Why This Matters"
+        },
+        {
+          "bbox": [
+            67.2,
+            239.55,
+            542.88,
+            358.55
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "For years, the way most people received their first satellite image was the NOAA APT signal on 137\nMHz — but in 2025 the last NOAA APT satellite was decommissioned and that signal went silent for\ngood. The torch has passed to the Russian Meteor-M series, whose M2-3 and M2-4 satellites transmit\na sharper, digital signal called LRPT in the same easy-to-reach 137 MHz band. Unlike geostationary\nGOES, these are polar-orbiting satellites in low Earth orbit, sweeping over your location a few times a\nday and painting a strip of the planet beneath them. The whole receive chain costs about the price of a\ntextbook: an RTL-SDR, a simple antenna you can build from two pieces of wire, and free software. It is\nthe most accessible image-from-space project that still actually works in 2026."
+        },
+        {
+          "bbox": [
+            73.2,
+            380.55,
+            531.86,
+            436.05
+          ],
+          "blockIndex": 6,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "What this proves to a recruiter: You understand VHF reception, antenna design and polarization\n(why satellites use circular polarization), Doppler shift, and digital QPSK demodulation with forward\nerror correction — the same RF fundamentals that scale all the way up to GOES and deep-space\ncommunication."
+        }
+      ],
+      "charCount": 1341,
+      "height": 792.0,
+      "pageNumber": 6,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            197.6,
+            749.41,
+            414.4,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "@1nska   •   6 EE Projects That Reach Space   •   Page 7"
+        },
+        {
+          "bbox": [
+            67.2,
+            70.34,
+            155.88,
+            84.34
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "How It Works"
+        },
+        {
+          "bbox": [
+            67.2,
+            92.55,
+            542.06,
+            134.05
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Polar LRPT downlink (137 MHz): Meteor-M2-3 and M2-4 transmit LRPT near 137.9 MHz (137.1\nMHz backup). Unlike the old analog NOAA APT, LRPT is digital QPSK at about 72 kbps, carrying a\ncrisper multi-spectral image."
+        },
+        {
+          "bbox": [
+            67.2,
+            145.05,
+            535.66,
+            186.55
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• A satellite that moves: These satellites orbit roughly 800 km up in a sun-synchronous polar orbit,\ncrossing your sky in about 12–15 minutes per pass. You capture a strip of Earth directly under the\nground track — typically your region and a few hundred km either side."
+        },
+        {
+          "bbox": [
+            67.2,
+            197.55,
+            536.77,
+            254.55
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Antenna and polarization: A V-dipole (two ~50 cm wires at about 120 degrees) is the simplest\nantenna; a QFH (quadrifilar helix) is omnidirectional and better for the ever-changing pass\ngeometry. Satellites transmit circular polarization, which is why a QFH outperforms a flat dipole on\nlow passes."
+        },
+        {
+          "bbox": [
+            67.2,
+            265.55,
+            542.61,
+            307.05
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Optional LNA for the city: In a quiet rural spot the SDR alone can decode a high pass. In a city full\nof RF noise, a 137 MHz SAW-filtered LNA at the antenna dramatically improves results by rejecting\npagers, FM broadcast, and other interference."
+        },
+        {
+          "bbox": [
+            67.2,
+            318.05,
+            544.69,
+            359.55
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "• Doppler and decode (SatDump): Because the satellite is moving fast, its frequency shifts by several\nkHz across the pass (Doppler). SatDump tracks the satellite by its orbital elements, corrects\nDoppler, demodulates the QPSK, applies error correction, and assembles the decoded image."
+        },
+        {
+          "bbox": [
+            67.2,
+            377.34,
+            170.67,
+            391.34
+          ],
+          "blockIndex": 7,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Bill of Materials"
+        },
+        {
+          "bbox": [
+            68.2,
+            407.44,
+            543.8,
+            417.44
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Component\nPart / Spec\nQty\n~Cost"
+        },
+        {
+          "bbox": [
+            68.2,
+            431.33,
+            543.8,
+            440.83
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "RTL-SDR dongle\nRTL2832U + R820T2 (RTL-SDR Blog V4)\n1\n$30"
+        },
+        {
+          "bbox": [
+            68.2,
+            455.33,
+            543.8,
+            464.83
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "137 MHz SAW LNA\nFiltered LNA (1581 marking), bias-tee\n1\n$15"
+        },
+        {
+          "bbox": [
+            68.2,
+            479.33,
+            543.8,
+            488.83
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Antenna wire\nV-dipole legs, ~50 cm each\n2\n$3"
+        },
+        {
+          "bbox": [
+            68.2,
+            503.33,
+            543.8,
+            512.83
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Coax + connectors\nRG-58 + SMA\n1\n$5"
+        },
+        {
+          "bbox": [
+            68.2,
+            527.33,
+            543.8,
+            536.83
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Bias tee\nIf LNA is not USB-powered\n1\n$4"
+        },
+        {
+          "bbox": [
+            68.2,
+            551.33,
+            543.8,
+            560.83
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Tripod / mast\nSimple non-metallic support\n1\n$3"
+        },
+        {
+          "bbox": [
+            68.2,
+            575.33,
+            543.8,
+            584.83
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Laptop / Pi\nRuns SatDump + pass prediction\n1\n—"
+        }
+      ],
+      "charCount": 1755,
+      "height": 792.0,
+      "pageNumber": 7,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            197.6,
+            749.41,
+            414.4,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "@1nska   •   6 EE Projects That Reach Space   •   Page 8"
+        },
+        {
+          "bbox": [
+            67.2,
+            70.34,
+            144.21,
+            84.34
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Build Steps"
+        },
+        {
+          "bbox": [
+            67.2,
+            92.55,
+            529.46,
+            134.05
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Build the V-dipole: Cut two wires about 50 cm each (quarter-wave at 137 MHz). Mount them at\nroughly 120 degrees in a horizontal V pointing up. Connect to coax: one leg to center, one to shield.\nDrop the coax straight down behind the antenna so it acts as a decoupling stub."
+        },
+        {
+          "bbox": [
+            67.2,
+            147.05,
+            544.78,
+            188.55
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Add the LNA if needed: For urban environments, place the 137 MHz SAW LNA at the antenna and\npower it via the bias tee. Verify the LNA is the filtered 1581 VHF version — an ADS-B LNA at the wrong\nfrequency will hurt, not help."
+        },
+        {
+          "bbox": [
+            67.2,
+            201.55,
+            527.66,
+            243.05
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Predict a pass: Use a tracker (Look4Sat on Android, or SatDump's built-in tracker) to find the next\nMeteor-M2-3 or M2-4 pass above about 20 degrees elevation. Note AOS (acquisition of signal) and\nLOS times. Higher passes give far better images."
+        },
+        {
+          "bbox": [
+            67.2,
+            256.05,
+            528.78,
+            297.55
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Record the pass: In SatDump, select the Meteor M2-x LRPT pipeline (72k mode; try 80k if a newly\ncommissioned bird will not sync). Set gain manually to about 30 dB — do NOT use AGC, which\ncorrupts the narrow LRPT signal. Start a minute before AOS."
+        },
+        {
+          "bbox": [
+            67.2,
+            310.55,
+            544.53,
+            352.05
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Decode and overlay: After the pass, SatDump demodulates and decodes the image. Add map\noverlays — shorelines and city markers — to prove it is your own region. Compare consecutive passes\nto watch weather systems move across your area."
+        },
+        {
+          "bbox": [
+            73.2,
+            381.17,
+            181.4,
+            392.17
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Interview Questions:"
+        },
+        {
+          "bbox": [
+            73.2,
+            401.05,
+            394.16,
+            411.55
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "→ Why did NOAA APT reception stop working, and what replaced it?"
+        },
+        {
+          "bbox": [
+            73.2,
+            422.55,
+            538.76,
+            433.05
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "→ Why do weather satellites transmit circular polarization, and how does that affect antenna choice?"
+        },
+        {
+          "bbox": [
+            73.2,
+            444.05,
+            411.09,
+            454.55
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "→ What causes the Doppler shift across a pass, and how is it corrected?"
+        },
+        {
+          "bbox": [
+            73.2,
+            465.55,
+            423.36,
+            476.05
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "→ What is the advantage of digital LRPT (QPSK) over the old analog APT?"
+        },
+        {
+          "bbox": [
+            73.2,
+            487.05,
+            425.66,
+            497.55
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "→ Why must you disable AGC on the SDR for narrowband satellite signals?"
+        },
+        {
+          "bbox": [
+            73.2,
+            508.55,
+            477.59,
+            519.05
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "→ How does a quadrifilar helix achieve an omnidirectional, circularly-polarized pattern?"
+        }
+      ],
+      "charCount": 1774,
+      "height": 792.0,
+      "pageNumber": 8,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            197.6,
+            749.41,
+            414.4,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "@1nska   •   6 EE Projects That Reach Space   •   Page 9"
+        },
+        {
+          "bbox": [
+            67.2,
+            73.03,
+            416.05,
+            124.91
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "PROJECT 3\nReaction-Wheel Attitude Controller"
+        },
+        {
+          "bbox": [
+            67.2,
+            131.0,
+            514.24,
+            159.5
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "A spinning flywheel rotates and holds a platform's heading — how satellites point\nwithout thrusters"
+        },
+        {
+          "bbox": [
+            116.1,
+            181.55,
+            531.93,
+            192.05
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Cost: ~$50\nDifficulty: Advanced\nBuild Time: 2-3 weekends"
+        },
+        {
+          "bbox": [
+            67.2,
+            217.34,
+            183.11,
+            231.34
+          ],
+          "blockIndex": 4,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Why This Matters"
+        },
+        {
+          "bbox": [
+            67.2,
+            239.55,
+            542.86,
+            358.55
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "A satellite in orbit has no ground to push against, so how does it turn to point a camera or antenna?\nMost spacecraft use reaction wheels: spin a flywheel one way and conservation of angular momentum\nrotates the spacecraft the other way. Speed the wheel up or slow it down and you apply precise torque\nto the body — no fuel, no thrusters. This project builds a single-axis reaction-wheel platform (or the\ndramatic reaction-wheel pendulum that balances on an edge): an IMU senses the platform's angle, a\ncontrol loop computes the torque needed, and a motor accelerates a flywheel to deliver it. It is the\ncleanest possible demonstration of real attitude control — the same principle flying on every imaging\nsatellite, the Hubble Space Telescope, and the control gyros of the ISS."
+        },
+        {
+          "bbox": [
+            73.2,
+            380.55,
+            534.21,
+            436.05
+          ],
+          "blockIndex": 6,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "What this proves to a recruiter: You understand closed-loop control (PID/LQR), sensor fusion,\nBLDC motor torque control, and real-time embedded firmware. Attitude determination and control is\na core aerospace discipline, and the same fundamentals underpin robotics, drones, and\nself-balancing vehicles."
+        }
+      ],
+      "charCount": 1351,
+      "height": 792.0,
+      "pageNumber": 9,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            195.24,
+            749.41,
+            416.76,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "@1nska   •   6 EE Projects That Reach Space   •   Page 10"
+        },
+        {
+          "bbox": [
+            67.2,
+            70.34,
+            155.88,
+            84.34
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "How It Works"
+        },
+        {
+          "bbox": [
+            67.2,
+            92.55,
+            544.38,
+            149.55
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "• Conservation of angular momentum: The platform sits on a low-friction bearing. When the motor\naccelerates the flywheel clockwise, the platform reacts by rotating counter-clockwise. The torque on\nthe body equals the rate of change of the wheel's angular momentum — so wheel acceleration is\nyour control input."
+        },
+        {
+          "bbox": [
+            67.2,
+            160.55,
+            521.31,
+            202.05
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "• IMU attitude sensing: An MPU-6050 or BNO055 IMU fuses its gyroscope and accelerometer to\nestimate the platform's tilt angle and angular rate. A complementary or Kalman filter blends the\ndrift-free-but-noisy accelerometer with the smooth-but-drifting gyro."
+        },
+        {
+          "bbox": [
+            67.2,
+            213.05,
+            517.27,
+            254.55
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "• The control loop: A PID (or LQR) controller takes the angle error and computes a commanded\nwheel torque. For the balancing-pendulum version it must stabilize an inherently unstable\nequilibrium — like balancing a broom on your palm, but a thousand times a second."
+        },
+        {
+          "bbox": [
+            67.2,
+            265.55,
+            537.96,
+            307.05
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "• BLDC torque control: A brushless gimbal motor spins the flywheel. A field-oriented control (FOC)\ndriver regulates motor current, and since torque is proportional to current, this gives direct, smooth\ntorque control — far better than crude PWM speed control."
+        },
+        {
+          "bbox": [
+            67.2,
+            318.05,
+            537.93,
+            375.05
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "• Momentum saturation: If the platform keeps disturbing in one direction, the wheel spins faster and\nfaster until it hits its limit — saturation. Real satellites dump this momentum with magnetorquers or\nthrusters. On the bench you will watch the wheel max out and learn why momentum management\nmatters."
+        },
+        {
+          "bbox": [
+            67.2,
+            392.84,
+            170.67,
+            406.84
+          ],
+          "blockIndex": 7,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Bill of Materials"
+        },
+        {
+          "bbox": [
+            68.2,
+            422.94,
+            543.8,
+            432.94
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Component\nPart / Spec\nQty\n~Cost"
+        },
+        {
+          "bbox": [
+            68.2,
+            446.83,
+            543.8,
+            456.33
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "BLDC gimbal motor\n2208/2212 brushless, low-kv\n1\n$12"
+        },
+        {
+          "bbox": [
+            68.2,
+            470.83,
+            543.8,
+            480.33
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "FOC driver board\nSimpleFOC Mini / DRV8313\n1\n$9"
+        },
+        {
+          "bbox": [
+            68.2,
+            494.83,
+            543.8,
+            504.33
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "IMU\nMPU-6050 or BNO055\n1\n$4"
+        },
+        {
+          "bbox": [
+            68.2,
+            518.83,
+            543.8,
+            528.33
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Microcontroller\nESP32 or STM32 (fast control loop)\n1\n$6"
+        },
+        {
+          "bbox": [
+            68.2,
+            542.83,
+            543.8,
+            552.33
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Flywheel\nMachined / 3D-printed disk + brass rim\n1\n$8"
+        },
+        {
+          "bbox": [
+            68.2,
+            566.83,
+            543.8,
+            576.33
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Low-friction bearing\nBall bearing for platform pivot\n1\n$4"
+        },
+        {
+          "bbox": [
+            68.2,
+            590.83,
+            543.8,
+            600.33
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "LiPo battery\n3S, 11.1 V\n1\n$8"
+        },
+        {
+          "bbox": [
+            68.2,
+            614.83,
+            543.8,
+            624.33
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Frame\n3D-printed / aluminium bracket\n1\n$5"
+        }
+      ],
+      "charCount": 1866,
+      "height": 792.0,
+      "pageNumber": 10,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            195.24,
+            749.41,
+            416.76,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "@1nska   •   6 EE Projects That Reach Space   •   Page 11"
+        },
+        {
+          "bbox": [
+            67.2,
+            70.34,
+            144.21,
+            84.34
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Build Steps"
+        },
+        {
+          "bbox": [
+            67.2,
+            92.55,
+            534.04,
+            134.05
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Build the mechanics: Mount the BLDC motor on a rigid arm or platform that pivots on a single\nlow-friction bearing. Attach a balanced flywheel to the shaft — mass at the rim maximizes moment of\ninertia per gram. Balance it so it does not introduce its own torque."
+        },
+        {
+          "bbox": [
+            67.2,
+            147.05,
+            530.84,
+            188.55
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Wire motor + driver: Connect the three BLDC phases to the FOC driver and the driver to the MCU.\nPower from the LiPo with appropriate current limits. Run the FOC library's alignment routine so the\ncontroller learns the rotor's electrical zero."
+        },
+        {
+          "bbox": [
+            67.2,
+            201.55,
+            529.37,
+            243.05
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Bring up the IMU: Mount the IMU rigidly on the platform, not on the vibrating motor. Read gyro and\naccelerometer over I2C at about 1 kHz. Implement a complementary filter for a clean tilt-angle\nestimate. Verify the angle tracks reality as you tilt the platform by hand."
+        },
+        {
+          "bbox": [
+            67.2,
+            256.05,
+            524.72,
+            297.55
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Close the loop: Implement PID: error = target angle minus measured angle; output = commanded\nmotor current (torque). Start with proportional gain only, add derivative for damping, then a little\nintegral. Tune until the platform holds its target heading and rejects a finger-push disturbance."
+        },
+        {
+          "bbox": [
+            67.2,
+            310.55,
+            535.87,
+            367.55
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Demonstrate and characterize: Command a step change in heading and film the platform snapping\nto the new angle. For the pendulum build, show it balancing upright on its edge. Log angle vs. time to\nshow your step response — overshoot, settling time, steady-state error — the language of control\nengineering."
+        },
+        {
+          "bbox": [
+            73.2,
+            396.67,
+            181.4,
+            407.67
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Interview Questions:"
+        },
+        {
+          "bbox": [
+            73.2,
+            416.55,
+            489.88,
+            427.05
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "→ How does conservation of angular momentum let a reaction wheel rotate a spacecraft?"
+        },
+        {
+          "bbox": [
+            73.2,
+            438.05,
+            435.0,
+            448.55
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "→ Why is motor current (torque) control better than PWM speed control here?"
+        },
+        {
+          "bbox": [
+            73.2,
+            459.55,
+            424.52,
+            470.05
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "→ What is reaction-wheel saturation, and how do real satellites desaturate?"
+        },
+        {
+          "bbox": [
+            73.2,
+            481.05,
+            455.43,
+            491.55
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "→ How does a complementary or Kalman filter fuse gyro and accelerometer data?"
+        },
+        {
+          "bbox": [
+            73.2,
+            502.55,
+            491.67,
+            513.05
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "→ Why is the balancing pendulum unstable, and what does that demand of the controller?"
+        },
+        {
+          "bbox": [
+            73.2,
+            524.05,
+            415.75,
+            534.55
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "→ How would you extend single-axis control to full 3-axis attitude control?"
+        }
+      ],
+      "charCount": 1931,
+      "height": 792.0,
+      "pageNumber": 11,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            195.24,
+            749.41,
+            416.76,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "@1nska   •   6 EE Projects That Reach Space   •   Page 12"
+        },
+        {
+          "bbox": [
+            67.2,
+            73.03,
+            272.62,
+            124.91
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "PROJECT 4\nCamera Star Tracker"
+        },
+        {
+          "bbox": [
+            67.2,
+            131.0,
+            489.63,
+            159.5
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Point it at the night sky — it identifies the stars and outputs your exact 3-axis\norientation"
+        },
+        {
+          "bbox": [
+            116.1,
+            181.55,
+            531.93,
+            192.05
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Cost: ~$60\nDifficulty: Advanced\nBuild Time: 2-3 weekends"
+        },
+        {
+          "bbox": [
+            67.2,
+            217.34,
+            183.11,
+            231.34
+          ],
+          "blockIndex": 4,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Why This Matters"
+        },
+        {
+          "bbox": [
+            67.2,
+            239.55,
+            541.58,
+            358.55
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Before a satellite can point at anything, it has to know which way it is already facing — and the most\naccurate way to do that in space is to look at the stars. A star tracker photographs a patch of sky,\nidentifies the star pattern by matching it against an onboard catalog, and from that computes the\nspacecraft's precise 3-axis orientation, accurate to arc-seconds. This is the highest-precision attitude\nsensor ever flown, and you can build a working one: a camera with a fast lens, a small computer, and\nan open-source lost-in-space plate-solving algorithm that figures out where you are pointed with zero\nprior information. Pair it with Project 3's reaction wheel and you have both halves of a real spacecraft's\nattitude system — sensing and actuation."
+        },
+        {
+          "bbox": [
+            73.2,
+            380.55,
+            537.72,
+            436.05
+          ],
+          "blockIndex": 6,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "What this proves to a recruiter: You understand low-light image sensors and optics (f-number,\nexposure), embedded computer vision, star-identification algorithms, and the coordinate-frame math\n(quaternions) behind pointing systems. Star trackers are flagship aerospace GNC hardware —\nbuilding one signals you can work on real spacecraft guidance."
+        }
+      ],
+      "charCount": 1354,
+      "height": 792.0,
+      "pageNumber": 12,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            195.24,
+            749.41,
+            416.76,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "@1nska   •   6 EE Projects That Reach Space   •   Page 13"
+        },
+        {
+          "bbox": [
+            67.2,
+            70.34,
+            155.88,
+            84.34
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "How It Works"
+        },
+        {
+          "bbox": [
+            67.2,
+            92.55,
+            544.77,
+            149.55
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• Fast lens + low-light sensor: Stars are dim, so the optics matter most. A fast lens (f/1.4–f/2) gathers\nmaximum light; a sensitive CMOS sensor (a Raspberry Pi HQ camera or a Sony IMX module) with a\nmulti-second exposure captures enough stars per frame to identify a pattern. Monochrome and\nlonger exposure both help."
+        },
+        {
+          "bbox": [
+            67.2,
+            160.55,
+            536.24,
+            202.05
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• Star centroiding: The software thresholds the image to separate stars from background, then\ncomputes the sub-pixel centroid of each star blob. Centroiding to a fraction of a pixel is what gives\nthe tracker its arc-second accuracy — far finer than the pixel grid itself."
+        },
+        {
+          "bbox": [
+            67.2,
+            213.05,
+            540.05,
+            270.05
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• Pattern matching (lost in space): The key trick: the angular distances between stars form a unique\nfingerprint. An open-source solver like Tetra3 hashes these geometric patterns and matches them\nagainst a precomputed catalog — identifying exactly which stars you are looking at with no prior\norientation estimate."
+        },
+        {
+          "bbox": [
+            67.2,
+            281.05,
+            542.08,
+            322.55
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• Attitude solve: Once stars are identified, their known catalog positions (right ascension and\ndeclination) plus their measured pixel positions let the solver compute the rotation that maps one to\nthe other. The result is the camera's orientation, expressed as a quaternion or rotation matrix."
+        },
+        {
+          "bbox": [
+            67.2,
+            333.55,
+            530.69,
+            375.05
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "• Edge compute: All of this runs on a Raspberry Pi (Zero 2 W or Pi 4). The solve takes well under a\nsecond per frame — fast enough to output a continuous attitude estimate, exactly as a real star\ntracker feeds a spacecraft's control system."
+        },
+        {
+          "bbox": [
+            67.2,
+            392.84,
+            170.67,
+            406.84
+          ],
+          "blockIndex": 7,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Bill of Materials"
+        },
+        {
+          "bbox": [
+            68.2,
+            422.94,
+            543.8,
+            432.94
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Component\nPart / Spec\nQty\n~Cost"
+        },
+        {
+          "bbox": [
+            68.2,
+            446.83,
+            543.8,
+            456.33
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Raspberry Pi\nZero 2 W or Pi 4 (runs Tetra3)\n1\n$15"
+        },
+        {
+          "bbox": [
+            68.2,
+            470.83,
+            543.8,
+            480.33
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Camera module\nPi HQ camera or IMX290 / 462 board\n1\n$22"
+        },
+        {
+          "bbox": [
+            68.2,
+            494.83,
+            543.8,
+            504.33
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Fast lens\nCCTV C-mount, f/1.4–f/2, ~16 mm\n1\n$12"
+        },
+        {
+          "bbox": [
+            68.2,
+            518.83,
+            543.8,
+            528.33
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Lens adapter\nC / CS-mount to camera\n1\n$3"
+        },
+        {
+          "bbox": [
+            68.2,
+            542.83,
+            543.8,
+            552.33
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "MicroSD card\nOS + star catalog\n1\n$5"
+        },
+        {
+          "bbox": [
+            68.2,
+            566.83,
+            543.8,
+            576.33
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Mount\n3D-printed rigid camera bracket\n1\n$3"
+        },
+        {
+          "bbox": [
+            68.2,
+            590.83,
+            543.8,
+            600.33
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Power\nUSB-C / LiPo + buck\n1\n—"
+        }
+      ],
+      "charCount": 1851,
+      "height": 792.0,
+      "pageNumber": 13,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            195.24,
+            749.41,
+            416.76,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "@1nska   •   6 EE Projects That Reach Space   •   Page 14"
+        },
+        {
+          "bbox": [
+            67.2,
+            70.34,
+            144.21,
+            84.34
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Build Steps"
+        },
+        {
+          "bbox": [
+            67.2,
+            92.55,
+            536.41,
+            134.05
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Assemble the optics: Fit the fast C-mount lens to the camera via the adapter. Focus at infinity on a\ndistant light at night — the sharpest star points give the best centroids. A rigid, vibration-free mount is\nessential; any blur smears stars and kills accuracy."
+        },
+        {
+          "bbox": [
+            67.2,
+            147.05,
+            544.75,
+            188.55
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Set up the compute: Flash the Pi and install Python, OpenCV, and the Tetra3 star-identification\nlibrary. Download or generate the star-catalog database tuned to your lens's field of view (Tetra3 builds\nthis from a catalog such as Hipparcos)."
+        },
+        {
+          "bbox": [
+            67.2,
+            201.55,
+            508.99,
+            243.05
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Capture night-sky frames: Take test exposures of a few seconds pointed at a clear sky. Tune\nexposure and gain until you reliably capture a dozen-plus stars per frame without saturating the\nbrightest ones. Confirm stars appear as crisp points, not streaks."
+        },
+        {
+          "bbox": [
+            67.2,
+            256.05,
+            529.41,
+            297.55
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Run the solver: Feed a frame to Tetra3. It centroids the stars, matches the pattern, and returns the\ncelestial coordinates the camera is pointed at, plus a roll angle. Verify against a planetarium app\n(Stellarium) aimed at the same patch of sky."
+        },
+        {
+          "bbox": [
+            67.2,
+            310.55,
+            541.35,
+            352.05
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Output continuous attitude: Loop the capture-and-solve at a steady cadence, printing the live\nquaternion. Mount the tracker on Project 3's reaction-wheel platform and you have closed the full loop:\nthe star tracker says where you point, the wheel turns you where you want."
+        },
+        {
+          "bbox": [
+            73.2,
+            381.17,
+            181.4,
+            392.17
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Interview Questions:"
+        },
+        {
+          "bbox": [
+            73.2,
+            401.05,
+            402.31,
+            411.55
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "→ Why does f-number matter more than megapixels for a star tracker?"
+        },
+        {
+          "bbox": [
+            73.2,
+            422.55,
+            436.19,
+            433.05
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "→ How does sub-pixel centroiding achieve accuracy finer than the pixel pitch?"
+        },
+        {
+          "bbox": [
+            73.2,
+            444.05,
+            502.13,
+            454.55
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "→ What is the lost-in-space problem and how does pattern matching solve it without a prior?"
+        },
+        {
+          "bbox": [
+            73.2,
+            465.55,
+            399.42,
+            476.05
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "→ Why are inter-star angular distances used as the matching feature?"
+        },
+        {
+          "bbox": [
+            73.2,
+            487.05,
+            485.8,
+            497.55
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "→ How is orientation represented, and why are quaternions preferred over Euler angles?"
+        },
+        {
+          "bbox": [
+            73.2,
+            508.55,
+            465.94,
+            519.05
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "→ How would a star tracker and a reaction wheel work together in a real spacecraft?"
+        }
+      ],
+      "charCount": 1834,
+      "height": 792.0,
+      "pageNumber": 14,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            195.24,
+            749.41,
+            416.76,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "@1nska   •   6 EE Projects That Reach Space   •   Page 15"
+        },
+        {
+          "bbox": [
+            67.2,
+            73.03,
+            333.29,
+            124.91
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "PROJECT 5\nGPS-Disciplined Oscillator"
+        },
+        {
+          "bbox": [
+            67.2,
+            131.0,
+            531.25,
+            159.5
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Lock a local oscillator to the atomic clocks aboard GPS satellites for parts-per-billion\naccuracy"
+        },
+        {
+          "bbox": [
+            116.1,
+            181.55,
+            531.93,
+            206.05
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Cost: ~$30\nDifficulty:\nIntermediate-Advanced\nBuild Time: 1-2 weekends"
+        },
+        {
+          "bbox": [
+            67.2,
+            231.34,
+            183.11,
+            245.34
+          ],
+          "blockIndex": 4,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Why This Matters"
+        },
+        {
+          "bbox": [
+            67.2,
+            253.55,
+            539.92,
+            357.05
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Every GPS satellite carries an atomic clock, and the timing signal it broadcasts is disciplined to within\nnanoseconds of the global time standard. A GPS-disciplined oscillator borrows that accuracy: it takes\nthe once-per-second pulse (1PPS) from a cheap GPS receiver and uses it to steer a local crystal\noscillator so its frequency is locked, long-term, to atomic precision — parts-per-billion or better. This is\nthe quiet workhorse of every serious RF lab, cellular base station, and test bench: the reference that\neverything else is measured against. Building one teaches you precision timing, control loops, and the\ndiscipline of measuring frequency accurately — and it is the most affordable project in this guide."
+        },
+        {
+          "bbox": [
+            73.2,
+            379.05,
+            535.36,
+            434.55
+          ],
+          "blockIndex": 6,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "What this proves to a recruiter: You understand precision frequency references, phase-locked\ncontrol loops, GNSS timing (1PPS), oscillator steering via DAC or varactor, and how to characterize\nstability with Allan deviation. Timing and synchronization is foundational to communications, radar,\nand instrumentation — and surprisingly few engineers actually understand it."
+        }
+      ],
+      "charCount": 1363,
+      "height": 792.0,
+      "pageNumber": 15,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            195.24,
+            749.41,
+            416.76,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "@1nska   •   6 EE Projects That Reach Space   •   Page 16"
+        },
+        {
+          "bbox": [
+            67.2,
+            70.34,
+            155.88,
+            84.34
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "How It Works"
+        },
+        {
+          "bbox": [
+            67.2,
+            92.55,
+            544.77,
+            149.55
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "• The 1PPS reference: A GPS receiver outputs a one-pulse-per-second signal whose rising edge is\naligned to GPS system time — itself steered by the atomic clocks aboard the satellites. The edge is\naccurate to tens of nanoseconds, but it jitters pulse-to-pulse, so it is a great long-term reference and\na poor short-term one."
+        },
+        {
+          "bbox": [
+            67.2,
+            160.55,
+            521.66,
+            202.05
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "• The local oscillator: An OCXO (oven-controlled crystal oscillator) is extremely stable\nsecond-to-second but slowly drifts over hours and temperature. It is the opposite of GPS: great\nshort-term, poor long-term. The whole idea is to combine the two."
+        },
+        {
+          "bbox": [
+            67.2,
+            213.05,
+            544.79,
+            254.55
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "• Phase comparison: The MCU divides the OCXO (e.g. 10 MHz) down to 1 Hz and measures the time\nerror between that and the GPS 1PPS using a hardware timer's input capture. This error, in\nnanoseconds, is the signal the control loop drives to zero."
+        },
+        {
+          "bbox": [
+            67.2,
+            265.55,
+            537.72,
+            307.05
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "• The loop filter: A slow software control loop — a long time constant of many seconds to minutes —\naverages out the GPS jitter and computes a correction. Too fast and you chase GPS noise; too\nslow and you fail to track drift. This tradeoff is the heart of the design."
+        },
+        {
+          "bbox": [
+            67.2,
+            318.05,
+            544.76,
+            359.55
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "• Steering the oscillator: The correction drives a DAC that sets the OCXO's electronic frequency\ncontrol (EFC) voltage, nudging it a few parts-per-billion. Over minutes the loop converges and the\nOCXO is disciplined — its frequency now traceable to the same standard as the satellites overhead."
+        },
+        {
+          "bbox": [
+            67.2,
+            377.34,
+            170.67,
+            391.34
+          ],
+          "blockIndex": 7,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Bill of Materials"
+        },
+        {
+          "bbox": [
+            68.2,
+            407.44,
+            543.8,
+            417.44
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Component\nPart / Spec\nQty\n~Cost"
+        },
+        {
+          "bbox": [
+            68.2,
+            431.33,
+            543.8,
+            440.83
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "GPS module\nu-blox NEO-M8N / 6M with 1PPS out\n1\n$10"
+        },
+        {
+          "bbox": [
+            68.2,
+            455.33,
+            543.8,
+            464.83
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "OCXO\n10 MHz, EFC input (surplus ok)\n1\n$12"
+        },
+        {
+          "bbox": [
+            68.2,
+            479.33,
+            543.8,
+            488.83
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "DAC\nMCP4725 / 16-bit I2C DAC\n1\n$3"
+        },
+        {
+          "bbox": [
+            68.2,
+            503.33,
+            543.8,
+            512.83
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Microcontroller\nSTM32 (timer input capture)\n1\n$4"
+        },
+        {
+          "bbox": [
+            68.2,
+            527.33,
+            543.8,
+            536.83
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "GPS antenna\nActive patch antenna\n1\n$4"
+        },
+        {
+          "bbox": [
+            68.2,
+            551.33,
+            543.8,
+            560.83
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Voltage reference\nLow-noise rail for the DAC\n1\n$2"
+        },
+        {
+          "bbox": [
+            68.2,
+            575.33,
+            543.8,
+            584.83
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "OLED display\nShow lock status + error\n1\n$4"
+        }
+      ],
+      "charCount": 1796,
+      "height": 792.0,
+      "pageNumber": 16,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            195.24,
+            749.41,
+            416.76,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "@1nska   •   6 EE Projects That Reach Space   •   Page 17"
+        },
+        {
+          "bbox": [
+            67.2,
+            70.34,
+            144.21,
+            84.34
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Build Steps"
+        },
+        {
+          "bbox": [
+            67.2,
+            92.55,
+            544.77,
+            134.05
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Get a GPS fix + 1PPS: Wire the GPS module and antenna; confirm it acquires satellites and outputs a\nclean 1PPS. Scope the pulse — it should be rock-steady at 1 Hz once locked. Place the antenna with a\nclear sky view."
+        },
+        {
+          "bbox": [
+            67.2,
+            147.05,
+            541.64,
+            188.55
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Run the OCXO free: Power the OCXO and let its oven stabilize for a few minutes. Feed its 10 MHz\ninto an MCU timer and measure its frequency against the 1PPS, uncorrected, first. You will see it is off\nby a small, slowly changing amount — that drift is what you will cancel."
+        },
+        {
+          "bbox": [
+            67.2,
+            201.55,
+            537.8,
+            243.05
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Measure phase error: Use the MCU's input-capture timer to timestamp both the divided OCXO edge\nand the GPS 1PPS edge. The difference is your phase error in nanoseconds. Stream it to the OLED\nand watch it wander as the OCXO drifts."
+        },
+        {
+          "bbox": [
+            67.2,
+            256.05,
+            536.98,
+            297.55
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Close the discipline loop: Implement a slow PI control loop: integrate the averaged phase error and\noutput a DAC value to the OCXO's EFC pin. Choose a long time constant (tens of seconds) so GPS\njitter is averaged out. Watch the error converge toward zero and stay there."
+        },
+        {
+          "bbox": [
+            67.2,
+            310.55,
+            543.98,
+            352.05
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Characterize stability: Log the phase error over hours and compute the Allan deviation — the\nstandard measure of oscillator stability. Show the disciplined OCXO beats both the free-running OCXO\n(long-term) and raw GPS (short-term). That crossover plot is the money shot."
+        },
+        {
+          "bbox": [
+            73.2,
+            381.17,
+            181.4,
+            392.17
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Interview Questions:"
+        },
+        {
+          "bbox": [
+            73.2,
+            401.05,
+            437.94,
+            411.55
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "→ Why combine a GPS receiver and an OCXO — what does each contribute?"
+        },
+        {
+          "bbox": [
+            73.2,
+            422.55,
+            422.19,
+            433.05
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "→ Why is the 1PPS a good long-term reference but a poor short-term one?"
+        },
+        {
+          "bbox": [
+            73.2,
+            444.05,
+            437.96,
+            454.55
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "→ How do you measure the phase error between the oscillator and the 1PPS?"
+        },
+        {
+          "bbox": [
+            73.2,
+            465.55,
+            433.85,
+            476.05
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "→ How does the loop time constant trade jitter rejection against drift tracking?"
+        },
+        {
+          "bbox": [
+            73.2,
+            487.05,
+            429.15,
+            497.55
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "→ What is Allan deviation and why is it the right metric for oscillator stability?"
+        },
+        {
+          "bbox": [
+            73.2,
+            508.55,
+            440.88,
+            519.05
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "→ What is holdover, and how should the loop behave when GPS signal is lost?"
+        }
+      ],
+      "charCount": 1798,
+      "height": 792.0,
+      "pageNumber": 17,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            195.24,
+            749.41,
+            416.76,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "@1nska   •   6 EE Projects That Reach Space   •   Page 18"
+        },
+        {
+          "bbox": [
+            67.2,
+            73.03,
+            341.4,
+            124.91
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "PROJECT 6\nCosmic-Ray Muon Detector"
+        },
+        {
+          "bbox": [
+            67.2,
+            131.0,
+            503.48,
+            159.5
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Every flash is a particle born from a cosmic ray hitting the atmosphere, passing\nthrough your desk"
+        },
+        {
+          "bbox": [
+            116.1,
+            181.55,
+            531.93,
+            192.05
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Cost: ~$75\nDifficulty: Advanced\nBuild Time: 2-3 weekends"
+        },
+        {
+          "bbox": [
+            67.2,
+            217.34,
+            183.11,
+            231.34
+          ],
+          "blockIndex": 4,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Why This Matters"
+        },
+        {
+          "bbox": [
+            67.2,
+            239.55,
+            544.77,
+            358.55
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Right now, particles created when cosmic rays from exploding stars and distant galaxies slam into the\nupper atmosphere are raining down through your body — about one muon through every square\ncentimeter every minute. You can build an instrument that catches them. When a muon passes through\na plastic scintillator it leaves a tiny flash of light; a silicon photomultiplier (SiPM) turns that flash into an\nelectrical pulse, a fast amplifier boosts it, and a discriminator counts it. This is real particle-physics\ninstrumentation — the same detection principle used at CERN — built on your bench for under $80. It\nis also the deepest analog challenge in this guide: catching a microsecond flash of a few hundred\nphotons demands genuinely low-noise, high-speed front-end design."
+        },
+        {
+          "bbox": [
+            73.2,
+            380.55,
+            537.71,
+            436.05
+          ],
+          "blockIndex": 6,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "What this proves to a recruiter: You understand SiPM biasing and temperature compensation,\nlow-noise transimpedance amplification, fast pulse discrimination, and coincidence detection. This is\nhigh-speed, low-noise analog at the edge of what is possible — exactly the skill set behind medical\nimaging, LIDAR, and scientific instrumentation."
+        }
+      ],
+      "charCount": 1376,
+      "height": 792.0,
+      "pageNumber": 18,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            195.24,
+            749.41,
+            416.76,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "@1nska   •   6 EE Projects That Reach Space   •   Page 19"
+        },
+        {
+          "bbox": [
+            67.2,
+            70.34,
+            155.88,
+            84.34
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "How It Works"
+        },
+        {
+          "bbox": [
+            67.2,
+            92.55,
+            544.71,
+            134.05
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "• The scintillator: A block of plastic scintillator (cast PVT, or a surplus offcut) emits a brief flash of blue\nlight when a charged particle deposits energy crossing it. A single muon produces only a few\nhundred to a few thousand photons — faint and fast, lasting nanoseconds."
+        },
+        {
+          "bbox": [
+            67.2,
+            145.05,
+            530.4,
+            202.05
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "• Silicon photomultiplier (SiPM): A SiPM is an array of avalanche photodiodes biased just above\nbreakdown, giving enormous gain (around 106) — enough to turn a handful of photons into a\nmeasurable current pulse. It replaces the bulky, high-voltage photomultiplier tubes of old with a 6\nmm chip running on about 29 V."
+        },
+        {
+          "bbox": [
+            67.2,
+            213.05,
+            544.77,
+            254.55
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "• Precise bias + temperature: A SiPM's gain is steeply sensitive to bias voltage and temperature, so a\nstable, low-noise bias supply (a quiet boost converter plus filtering) is critical. Drift the voltage and\nyour count rate drifts with it — which is why real systems add temperature compensation."
+        },
+        {
+          "bbox": [
+            67.2,
+            265.55,
+            543.55,
+            307.05
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "• Fast amplifier: A transimpedance or voltage amplifier with enough bandwidth (tens of MHz) converts\nthe SiPM's fast current spike into a clean voltage pulse without smearing it. Layout matters here —\nshort traces, good grounding, and supply bypassing keep noise below the tiny signal."
+        },
+        {
+          "bbox": [
+            67.2,
+            318.05,
+            537.13,
+            375.05
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "• Discrimination and counting: A comparator fires when a pulse exceeds a threshold set just above\nthe noise floor, producing a clean digital tick per event. An MCU counts ticks and shows the muon\nrate on an OLED. Add a second detector and require coincidence — only count when both fire at\nonce — to reject electrical noise and confirm real through-going particles."
+        },
+        {
+          "bbox": [
+            67.2,
+            392.84,
+            170.67,
+            406.84
+          ],
+          "blockIndex": 7,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Bill of Materials"
+        },
+        {
+          "bbox": [
+            68.2,
+            422.94,
+            543.8,
+            432.94
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Component\nPart / Spec\nQty\n~Cost"
+        },
+        {
+          "bbox": [
+            68.2,
+            446.83,
+            543.8,
+            456.33
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "SiPM\nMicroFC-60035 or equivalent 6 mm\n1\n$30"
+        },
+        {
+          "bbox": [
+            68.2,
+            470.83,
+            543.8,
+            480.33
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Plastic scintillator\nCast PVT block or offcut\n1\n$15"
+        },
+        {
+          "bbox": [
+            68.2,
+            494.83,
+            543.8,
+            504.33
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Fast op-amp\nWide-band (OPA / AD8000-class)\n1\n$4"
+        },
+        {
+          "bbox": [
+            68.2,
+            518.83,
+            543.8,
+            528.33
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Comparator\nFast (LT1716 / LM361-class)\n1\n$2"
+        },
+        {
+          "bbox": [
+            68.2,
+            542.83,
+            543.8,
+            552.33
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Boost converter\nAdjustable ~29 V SiPM bias\n1\n$4"
+        },
+        {
+          "bbox": [
+            68.2,
+            566.83,
+            543.8,
+            576.33
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Arduino Nano\nCount + OLED drive\n1\n$5"
+        },
+        {
+          "bbox": [
+            68.2,
+            590.83,
+            543.8,
+            600.33
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "OLED display\n128x64 I2C\n1\n$4"
+        },
+        {
+          "bbox": [
+            68.2,
+            614.83,
+            543.8,
+            624.33
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Light-tight enclosure\nBlack box / foil-lined\n1\n$3"
+        }
+      ],
+      "charCount": 2001,
+      "height": 792.0,
+      "pageNumber": 19,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            195.24,
+            749.41,
+            416.76,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "@1nska   •   6 EE Projects That Reach Space   •   Page 20"
+        },
+        {
+          "bbox": [
+            67.2,
+            70.34,
+            144.21,
+            84.34
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Build Steps"
+        },
+        {
+          "bbox": [
+            67.2,
+            92.55,
+            542.14,
+            134.05
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Couple SiPM to scintillator: Wrap the scintillator in reflective foil (Tyvek or aluminized mylar), leaving\none face for the SiPM. Optically couple the SiPM to that face with optical grease or a clear pad. Seal\neverything in a light-tight enclosure — ambient light will swamp the SiPM instantly."
+        },
+        {
+          "bbox": [
+            67.2,
+            147.05,
+            535.23,
+            188.55
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Build the bias supply: Use an adjustable boost converter for the SiPM bias (about 29 V; check your\nSiPM's breakdown plus overvoltage spec). Filter it heavily with RC stages — any ripple shows up as\nnoise. Set the exact voltage with a multimeter before connecting the SiPM."
+        },
+        {
+          "bbox": [
+            67.2,
+            201.55,
+            544.77,
+            243.05
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Amplify the pulse: Build the fast amplifier on a compact board with a ground plane. Keep the\nSiPM-to-amp path short. Scope the output: cosmic muons appear as occasional fast spikes a few times\na second above the noise."
+        },
+        {
+          "bbox": [
+            67.2,
+            256.05,
+            535.86,
+            297.55
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Set the discriminator: Feed the amplified signal to the comparator. Set the threshold just above the\nnoise floor — high enough to ignore noise, low enough to catch real pulses. Each crossing generates\none clean digital pulse to the MCU."
+        },
+        {
+          "bbox": [
+            67.2,
+            310.55,
+            539.96,
+            367.55
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Count and (optionally) coincidence: Program the MCU to count pulses and show the muon rate on\nthe OLED. Expect very roughly one count per cm2 per minute of detector area. For a rigorous version,\nbuild a second detector and only count simultaneous hits — coincidence proves you are seeing real\nparticles, not noise."
+        },
+        {
+          "bbox": [
+            73.2,
+            396.67,
+            181.4,
+            407.67
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Interview Questions:"
+        },
+        {
+          "bbox": [
+            73.2,
+            416.55,
+            476.43,
+            427.05
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "→ How does a scintillator plus SiPM convert a passing particle into an electrical pulse?"
+        },
+        {
+          "bbox": [
+            73.2,
+            438.05,
+            469.11,
+            448.55
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "→ Why is a SiPM's bias voltage so critical, and how does temperature affect its gain?"
+        },
+        {
+          "bbox": [
+            73.2,
+            459.55,
+            510.32,
+            470.05
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "→ What bandwidth does the amplifier need, and why does layout matter for low-noise design?"
+        },
+        {
+          "bbox": [
+            73.2,
+            481.05,
+            408.17,
+            491.55
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "→ How do you set the discriminator threshold relative to the noise floor?"
+        },
+        {
+          "bbox": [
+            73.2,
+            502.55,
+            447.27,
+            513.05
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "→ Why does coincidence detection between two scintillators reject false counts?"
+        },
+        {
+          "bbox": [
+            73.2,
+            524.05,
+            514.99,
+            534.55
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "→ Roughly what muon flux do you expect at sea level, and how would you measure efficiency?"
+        }
+      ],
+      "charCount": 1927,
+      "height": 792.0,
+      "pageNumber": 20,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            195.24,
+            749.41,
+            416.76,
+            757.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "@1nska   •   6 EE Projects That Reach Space   •   Page 21"
+        },
+        {
+          "bbox": [
+            67.2,
+            71.01,
+            496.14,
+            132.01
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Every one of these started as aerospace and defense\nhardware.\nNow it fits on your bench."
+        },
+        {
+          "bbox": [
+            67.2,
+            149.55,
+            535.25,
+            222.05
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Satellite downlinks. Attitude control. Precision timing. Particle detection. These are not toy demos —\nthey are the actual subsystems of spacecraft and the instruments of space science, rebuilt with a\nsoftware-defined radio, a microcontroller, and parts that cost less than a textbook. The hard parts are\nreal: closing a link budget from 36,000 km, stabilizing an unstable control loop a thousand times a\nsecond, catching a nanosecond flash of a few hundred photons. That difficulty is the point."
+        },
+        {
+          "bbox": [
+            67.2,
+            234.05,
+            542.24,
+            275.55
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Aerospace, defense, and the new commercial-space boom are hiring engineers who can actually build\nthis hardware — not just describe it. A working demo of any one of these puts you in a different\nconversation."
+        },
+        {
+          "bbox": [
+            73.2,
+            303.55,
+            536.06,
+            344.05
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Build even one of these. Log the link budget, screenshot the decoded image, plot the step response\nor the Allan deviation. Put it on your GitHub with a proper README. You will have a portfolio piece\nthat makes an aerospace interviewer lean forward."
+        },
+        {
+          "bbox": [
+            73.2,
+            379.55,
+            530.97,
+            405.05
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Follow @1nska on Instagram for build logs, new guides, and projects that reach the edge of\nspace."
+        },
+        {
+          "bbox": [
+            67.2,
+            436.01,
+            378.84,
+            453.01
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "— Enes (@1nska) • Electrical Engineer"
+        }
+      ],
+      "charCount": 1231,
+      "height": 792.0,
+      "pageNumber": 21,
+      "textExtractable": true,
+      "width": 612.0
+    }
+  ],
+  "provenance": {
+    "confidence": "EXACT",
+    "extractionMethod": "pymupdf-blocks-v1",
+    "extractorVersion": "1.28.0",
+    "generatorVersion": null,
+    "origin": "extracted",
+    "source": "guide-007",
+    "sourceHash": "6277c186e74a947df30f65d0c6ba37a1ebf8ead231f67b32103ad6b321b38ea4",
+    "sourcePage": null,
+    "sourcePath": "Engineering guides/6 EE Projects That Reach Space.pdf",
+    "sourceSection": "ROOT"
+  },
+  "relativePath": "Engineering guides/6 EE Projects That Reach Space.pdf",
+  "schemaVersion": "1.0.0",
+  "sha256": "6277c186e74a947df30f65d0c6ba37a1ebf8ead231f67b32103ad6b321b38ea4",
+  "sourceId": "guide-007"
+}

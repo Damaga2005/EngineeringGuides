@@ -1,0 +1,4837 @@
+{
+  "metadata": {
+    "format": "PDF 1.4",
+    "producer": "pypdf"
+  },
+  "pageCount": 19,
+  "pages": [
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            33.33,
+            67.85,
+            63.01
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "✻"
+        },
+        {
+          "bbox": [
+            52.5,
+            81.91,
+            346.44,
+            93.12
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "field guide · seeing with radio · 6 projects · jun 2026"
+        },
+        {
+          "bbox": [
+            52.5,
+            128.76,
+            280.67,
+            141.43
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "> build six things that see with radio_"
+        },
+        {
+          "bbox": [
+            52.5,
+            153.13,
+            344.8,
+            213.81
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Six EE Projects That\nSee With Radio"
+        },
+        {
+          "bbox": [
+            52.5,
+            225.12,
+            508.12,
+            238.28
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Radar, micro-Doppler, WiFi sensing, and passive detection — six builds that"
+        },
+        {
+          "bbox": [
+            52.5,
+            241.62,
+            489.9,
+            254.78
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "read the world by how it reflects and shifts radio. From a $12 chip that"
+        },
+        {
+          "bbox": [
+            52.5,
+            257.37,
+            520.27,
+            270.53
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "senses motion through a wall to tracking aircraft with no transmitter of your"
+        },
+        {
+          "bbox": [
+            52.5,
+            273.87,
+            319.8,
+            287.03
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "own. Cheap hardware; real signal processing."
+        },
+        {
+          "bbox": [
+            52.5,
+            320.74,
+            498.31,
+            334.39
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "01\nDoppler Motion Radar  Wave your hand and watch its speed appear — the Doppler core"
+        },
+        {
+          "bbox": [
+            78.0,
+            336.54,
+            167.1,
+            347.27
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "inside every radar"
+        },
+        {
+          "bbox": [
+            543.29,
+            322.27,
+            559.49,
+            333.98
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$20"
+        },
+        {
+          "bbox": [
+            52.5,
+            364.99,
+            475.14,
+            378.64
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "02\nRadar Speed Gun  Calibrate that radar into real mph — clock a passing car or a"
+        },
+        {
+          "bbox": [
+            78.0,
+            380.79,
+            117.6,
+            391.52
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "fastball"
+        },
+        {
+          "bbox": [
+            543.29,
+            366.52,
+            559.49,
+            378.23
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$30"
+        },
+        {
+          "bbox": [
+            52.5,
+            409.24,
+            496.96,
+            422.89
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "03\nFMCW Ranging Radar  Stop measuring speed, start measuring distance — the principle"
+        },
+        {
+          "bbox": [
+            78.0,
+            425.04,
+            226.5,
+            435.77
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "inside adaptive cruise control"
+        },
+        {
+          "bbox": [
+            543.29,
+            410.77,
+            559.49,
+            422.48
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$70"
+        },
+        {
+          "bbox": [
+            52.5,
+            453.49,
+            500.79,
+            467.14
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "04\nMicro-Doppler Vital-Signs Radar  Read breathing and a heartbeat across the room —"
+        },
+        {
+          "bbox": [
+            78.0,
+            469.29,
+            221.55,
+            480.02
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "contactless, through clothing"
+        },
+        {
+          "bbox": [
+            543.29,
+            455.02,
+            559.49,
+            466.73
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$30"
+        },
+        {
+          "bbox": [
+            52.5,
+            497.74,
+            493.81,
+            511.39
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "05\nWiFi-Sensing Motion Detector  Sense motion through a wall with a $10 chip and no"
+        },
+        {
+          "bbox": [
+            78.0,
+            513.54,
+            107.7,
+            524.27
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "camera"
+        },
+        {
+          "bbox": [
+            543.29,
+            499.27,
+            559.49,
+            510.98
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$12"
+        },
+        {
+          "bbox": [
+            52.5,
+            541.99,
+            508.44,
+            555.64
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "06\nPassive Radar  Track aircraft using a transmitter you don't own — bistatic radar with"
+        },
+        {
+          "bbox": [
+            78.0,
+            557.79,
+            147.3,
+            568.52
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "zero emissions"
+        },
+        {
+          "bbox": [
+            543.29,
+            543.53,
+            559.49,
+            555.22
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$70"
+        },
+        {
+          "bbox": [
+            52.5,
+            599.78,
+            414.33,
+            611.47
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "● By Enes · @1nska · Electrical Engineer — a Build List field guide"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "seeing with radio — a Build List field guide\n1 / 19"
+        }
+      ],
+      "charCount": 1145,
+      "height": 792.0,
+      "pageNumber": 1,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.03,
+            273.94,
+            65.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "❯ project 01\nDoppler Motion Radar"
+        },
+        {
+          "bbox": [
+            52.5,
+            72.14,
+            496.88,
+            84.33
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Wave your hand and watch its speed appear — the Doppler core inside every radar"
+        },
+        {
+          "bbox": [
+            60.75,
+            98.04,
+            204.77,
+            108.77
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "$20\nbeginner\n1 weekend"
+        },
+        {
+          "bbox": [
+            52.5,
+            132.43,
+            196.71,
+            149.01
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "## why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            158.02,
+            549.3,
+            250.73
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Every radar on Earth starts with one idea: a moving object shifts the frequency of the radio\nit reflects. A pocket microwave module like the HB100 transmits a steady ~10.5 GHz tone and\nmixes it with the echo, and what comes out is an audio-frequency “beat” whose pitch is\ndirectly proportional to the target’s speed. Amplify that beat, sample it on an Arduino, run\nan FFT, and you can read how fast your hand — or a passing person — is moving, in real time.\nIt is the cheapest possible way to build genuine radar, the payoff is immediate and visual,\nand it is the foundation every later project in this guide builds on."
+        },
+        {
+          "bbox": [
+            69.0,
+            288.18,
+            538.8,
+            339.23
+          ],
+          "blockIndex": 5,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand the Doppler effect, continuous-wave radar, mixing down to baseband, low-\nnoise audio amplification, and basic FFT-based spectral estimation on a microcontroller\n— the literal core of radar signal processing."
+        },
+        {
+          "bbox": [
+            52.5,
+            361.27,
+            516.93,
+            386.48
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "→ the job this maps to: radar & sensing engineering — automotive, security / occupancy\nsensing, and defense radar groups."
+        },
+        {
+          "bbox": [
+            52.5,
+            413.68,
+            166.36,
+            430.26
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "## how it works"
+        },
+        {
+          "bbox": [
+            67.5,
+            440.02,
+            558.9,
+            492.23
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Continuous-wave Doppler: The HB100 transmits an unmodulated ~10.525 GHz carrier and mixes\nthe returning echo with it. A stationary target returns the same frequency (zero beat); a\nmoving target returns a Doppler-shifted frequency, and the mixer outputs the difference — a\nlow audio tone."
+        },
+        {
+          "bbox": [
+            52.5,
+            440.9,
+            57.92,
+            451.37
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            500.77,
+            530.74,
+            514.47
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "The Doppler equation: The beat frequency is fd = 2·v·f₀/c. At 10.5 GHz, every 1 m/s of"
+        },
+        {
+          "bbox": [
+            67.5,
+            515.78,
+            526.5,
+            540.97
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "radial speed produces ~70 Hz of beat, so walking speed (~1.5 m/s) lands near 100 Hz —\nsquarely in the audio band, which is why a cheap op-amp can handle it."
+        },
+        {
+          "bbox": [
+            52.5,
+            501.65,
+            57.92,
+            512.12
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            549.53,
+            542.7,
+            588.22
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Amplifying microvolts: The raw IF output is tiny (microvolts to millivolts) and low-\nfrequency. A two-stage op-amp with band-pass shaping (roughly 20 Hz–3 kHz) lifts it to a\nclean line level the ADC can read, while rejecting DC offset and mains hum."
+        },
+        {
+          "bbox": [
+            52.5,
+            550.4,
+            57.92,
+            560.87
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            596.78,
+            553.51,
+            635.47
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Sampling and the FFT: An Arduino or ESP32 samples the amplified beat at a few kHz and runs\nan FFT. The peak bin is the dominant Doppler frequency; convert it back to m/s with the\nequation and you have a live speed readout."
+        },
+        {
+          "bbox": [
+            52.5,
+            597.65,
+            57.92,
+            608.12
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            644.03,
+            558.9,
+            682.72
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Reading direction (bonus): A plain HB100 cannot tell approaching from receding (both shift\nthe magnitude up). Modules with I/Q outputs, or an added quadrature mixer, recover the sign\nof the shift — the same trick higher-end Doppler sensors use."
+        },
+        {
+          "bbox": [
+            52.5,
+            644.9,
+            57.92,
+            655.37
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "seeing with radio — a Build List field guide\n2 / 19"
+        }
+      ],
+      "charCount": 2462,
+      "height": 792.0,
+      "pageNumber": 2,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            227.05,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "## key design decisions"
+        },
+        {
+          "bbox": [
+            52.5,
+            265.93,
+            204.29,
+            282.51
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "## bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            295.29,
+            552.0,
+            306.02
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "component\npart / spec\nqty\n~cost"
+        },
+        {
+          "bbox": [
+            52.5,
+            318.91,
+            551.99,
+            330.12
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "HB100 Doppler module\n10.525 GHz CW microwave radar\n1\n$4"
+        },
+        {
+          "bbox": [
+            52.5,
+            341.41,
+            551.99,
+            352.62
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Op-amp\nLM358 or MCP6002 (dual)\n1\n$1"
+        },
+        {
+          "bbox": [
+            52.5,
+            363.91,
+            551.99,
+            375.12
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Microcontroller\nArduino Uno / Nano or ESP32\n1\n$8"
+        },
+        {
+          "bbox": [
+            52.5,
+            386.41,
+            551.99,
+            397.62
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Passives\nresistors + caps for amp and filter\n—\n$3"
+        },
+        {
+          "bbox": [
+            52.5,
+            409.66,
+            551.99,
+            420.87
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Breadboard + jumpers\nprototyping\n1\n$4"
+        },
+        {
+          "bbox": [
+            67.5,
+            53.78,
+            553.5,
+            105.97
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Why continuous-wave instead of pulsed? CW Doppler is the simplest radar to build: no fast\npulse timing, no high-speed sampling, just a steady tone and an audio-rate mixer output.\nThe tradeoff is that plain CW gives you speed but not range — which is exactly why project\n3 adds a frequency sweep to recover distance."
+        },
+        {
+          "bbox": [
+            52.5,
+            54.65,
+            57.92,
+            65.12
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "→"
+        },
+        {
+          "bbox": [
+            67.5,
+            116.03,
+            558.9,
+            168.23
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Why does the signal land in the audio band? The beat is the tiny difference between\ntransmit and echo frequencies, and for everyday speeds that difference is only tens to\nhundreds of hertz. That is a gift: a $0.50 op-amp and an 8-bit ADC are fast enough, because\nall the hard 10.5 GHz RF happens inside the module."
+        },
+        {
+          "bbox": [
+            52.5,
+            116.9,
+            57.92,
+            127.37
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "→"
+        },
+        {
+          "bbox": [
+            67.5,
+            178.27,
+            542.71,
+            230.48
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Why an FFT over counting zero-crossings? Real returns contain multiple speeds and noise.\nZero-crossing counting collapses that to one number and fails on weak or multi-target\nsignals; an FFT shows the whole Doppler spectrum, so you can pick the true peak, see\nmultiple movers, and set a noise threshold."
+        },
+        {
+          "bbox": [
+            52.5,
+            179.15,
+            57.92,
+            189.62
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "seeing with radio — a Build List field guide\n3 / 19"
+        }
+      ],
+      "charCount": 1284,
+      "height": 792.0,
+      "pageNumber": 3,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            158.77,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "## build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            404.68,
+            219.46,
+            421.26
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "## interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            55.28,
+            260.7,
+            66.97
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Power the module, find the IF pin"
+        },
+        {
+          "bbox": [
+            82.5,
+            71.03,
+            546.9,
+            109.72
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Give the HB100 a clean 5 V and locate its IF output. Wave your hand in front of it and\nscope (or listen to) the pin — you should see a faint low-frequency wiggle that tracks\nyour motion. That confirms the module works before you build anything."
+        },
+        {
+          "bbox": [
+            58.5,
+            54.49,
+            64.8,
+            68.14
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            122.78,
+            185.1,
+            134.48
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Build the amplifier"
+        },
+        {
+          "bbox": [
+            82.5,
+            138.52,
+            557.7,
+            177.23
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Wire a two-stage non-inverting op-amp with a gain of a few hundred and a band-pass shape\n(~20 Hz–3 kHz). AC-couple the input to block the module’s DC offset. The output should\nswing cleanly when you move in front of the sensor."
+        },
+        {
+          "bbox": [
+            58.5,
+            121.99,
+            64.8,
+            135.64
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            190.27,
+            174.3,
+            201.98
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Digitize the beat"
+        },
+        {
+          "bbox": [
+            82.5,
+            206.02,
+            530.7,
+            244.73
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Feed the amplified signal into your microcontroller’s ADC, biased to mid-rail, and\nsample at ~4–8 kHz. Print or plot the raw samples and confirm faster motion gives a\nhigher-frequency wiggle."
+        },
+        {
+          "bbox": [
+            58.5,
+            189.49,
+            64.8,
+            203.14
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            257.77,
+            239.1,
+            269.48
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Run the FFT, convert to speed"
+        },
+        {
+          "bbox": [
+            82.5,
+            273.52,
+            545.74,
+            287.22
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Use an FFT to find the peak bin, then apply fd = 2·v·f₀/c to get m/s and km/h. Show it"
+        },
+        {
+          "bbox": [
+            82.5,
+            288.52,
+            487.5,
+            300.23
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "on serial or a small screen. Wave slow then fast and watch the number rise."
+        },
+        {
+          "bbox": [
+            58.5,
+            256.99,
+            64.8,
+            270.64
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            313.27,
+            206.7,
+            324.98
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Calibrate and threshold"
+        },
+        {
+          "bbox": [
+            82.5,
+            329.02,
+            552.3,
+            367.73
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Walk toward the sensor at a known pace (or roll a ball) to check the reading, and set a\nnoise floor so an empty room reads zero. You now have a working speed-sensing radar —\nthe exact front end project 2 turns into a speed gun."
+        },
+        {
+          "bbox": [
+            58.5,
+            312.49,
+            64.8,
+            326.14
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            69.0,
+            442.27,
+            451.2,
+            453.98
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "What physically causes the frequency shift a Doppler radar measures?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            461.77,
+            510.6,
+            473.48
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Derive the relationship between target speed and beat frequency for a CW radar.\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            481.27,
+            456.6,
+            492.98
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Why does the Doppler beat for everyday speeds fall in the audio band?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            500.77,
+            483.6,
+            512.47
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "What information does a plain CW radar lose, and how do you recover range?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            520.28,
+            489.0,
+            531.97
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "How does a CW Doppler sensor distinguish approaching from receding targets?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            539.78,
+            499.8,
+            551.47
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Why is an FFT a better detector than zero-crossing counting for real returns?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "seeing with radio — a Build List field guide\n4 / 19"
+        }
+      ],
+      "charCount": 1717,
+      "height": 792.0,
+      "pageNumber": 4,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.03,
+            218.63,
+            65.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "❯ project 02\nRadar Speed Gun"
+        },
+        {
+          "bbox": [
+            52.5,
+            72.14,
+            446.25,
+            84.33
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Calibrate that radar into real mph — clock a passing car or a fastball"
+        },
+        {
+          "bbox": [
+            60.75,
+            98.04,
+            204.77,
+            108.77
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "$30\nbeginner\n1 weekend"
+        },
+        {
+          "bbox": [
+            52.5,
+            132.43,
+            196.71,
+            149.01
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "## why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            158.02,
+            554.7,
+            250.73
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "A police speed gun and a baseball radar are, at heart, the project-1 Doppler front end with a\ncalibrated readout and a display. This build locks down the speed calibration, adds peak-hold\nand a clean numeric display, and aims it at real targets: a car going past, a thrown ball, a\nbike. The result looks and behaves like a commercial speed gun — but you built the signal\nchain yourself and can explain every number on the screen. It is the most immediately\nimpressive, demo-friendly upgrade in the guide, and a perfect “before / after” with project 1\nfor content."
+        },
+        {
+          "bbox": [
+            69.0,
+            288.18,
+            533.4,
+            352.73
+          ],
+          "blockIndex": 5,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou can take a raw sensor and turn it into a calibrated instrument — fixed-point\nconversion, peak detection and hold, display integration, and validating a measurement\nagainst a known reference. That instrumentation discipline is exactly what test-and-\nmeasurement and sensor teams hire for."
+        },
+        {
+          "bbox": [
+            52.5,
+            374.77,
+            549.33,
+            399.98
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ the job this maps to: measurement & instrumentation, test engineering, and embedded sensor\nroles — sporting-tech, automotive test, and T&M companies."
+        },
+        {
+          "bbox": [
+            52.5,
+            427.18,
+            166.36,
+            443.76
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "## how it works"
+        },
+        {
+          "bbox": [
+            67.5,
+            453.52,
+            552.34,
+            467.22
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "From beat frequency to mph: The conversion is fixed: speed = fd·c / (2·f₀). Precompute the"
+        },
+        {
+          "bbox": [
+            67.5,
+            468.52,
+            542.7,
+            493.73
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "constant for your module’s exact frequency so each FFT peak maps directly to km/h or mph\nwith one multiply — fast enough to update several times a second."
+        },
+        {
+          "bbox": [
+            52.5,
+            454.4,
+            57.92,
+            464.87
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            502.27,
+            558.91,
+            540.97
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Peak detection and hold: A passing target’s speed peaks then fades as the geometry changes.\nThe firmware tracks the maximum valid reading over a short window and “holds” it on the\ndisplay — exactly how a real speed gun reports the fastest moment of a pitch or a car."
+        },
+        {
+          "bbox": [
+            52.5,
+            503.15,
+            57.92,
+            513.62
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            549.53,
+            558.94,
+            588.22
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Cosine (angle) error: Doppler measures only the velocity component along the beam. Aim off-\naxis by angle θ and the reading is low by cos θ. Aiming nearly head-on keeps the error tiny\n— and explains why speed traps are aimed straight down the road."
+        },
+        {
+          "bbox": [
+            52.5,
+            550.4,
+            57.92,
+            560.87
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            596.78,
+            537.31,
+            635.47
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Antenna gain and range: The bare module sees a few metres. Putting it at the focus of a\ncheap parabolic or horn (or even a metal can) narrows the beam and adds gain, extending\nuseful range and rejecting off-axis clutter — a tangible lesson in antenna directivity."
+        },
+        {
+          "bbox": [
+            52.5,
+            597.65,
+            57.92,
+            608.12
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            644.03,
+            542.71,
+            682.72
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Display and packaging: An OLED or 7-segment shows the held speed; a momentary button re-\narms it. Mounting the module, amp, MCU, and display in a 3D-printed grip turns the\nbreadboard into something that reads as a real device on camera."
+        },
+        {
+          "bbox": [
+            52.5,
+            644.9,
+            57.92,
+            655.37
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "seeing with radio — a Build List field guide\n5 / 19"
+        }
+      ],
+      "charCount": 2504,
+      "height": 792.0,
+      "pageNumber": 5,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            204.29,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "## bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            56.04,
+            552.0,
+            66.77
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "component\npart / spec\nqty\n~cost"
+        },
+        {
+          "bbox": [
+            52.5,
+            78.91,
+            552.0,
+            90.12
+          ],
+          "blockIndex": 2,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Project 1 front end\nHB100 + amp + microcontroller\n1\n$20"
+        },
+        {
+          "bbox": [
+            52.5,
+            101.41,
+            551.99,
+            112.62
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Display\nSSD1306 OLED or 7-segment\n1\n$5"
+        },
+        {
+          "bbox": [
+            52.5,
+            124.66,
+            551.99,
+            135.87
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Reflector (optional)\nparabolic / horn or metal can\n1\n$3"
+        },
+        {
+          "bbox": [
+            52.5,
+            147.16,
+            551.99,
+            158.37
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Enclosure\n3D-printed grip / project box\n1\n$4"
+        },
+        {
+          "bbox": [
+            52.5,
+            169.66,
+            551.99,
+            180.87
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Button + misc\nre-arm, wiring\n—\n$2"
+        },
+        {
+          "bbox": [
+            52.5,
+            212.68,
+            158.77,
+            229.26
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "## build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            577.93,
+            219.46,
+            594.51
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "## interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            242.02,
+            239.1,
+            253.73
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Lock the calibration constant"
+        },
+        {
+          "bbox": [
+            82.5,
+            257.77,
+            551.14,
+            271.47
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Measure or look up your module’s exact transmit frequency, compute speed = fd·c/(2·f₀),"
+        },
+        {
+          "bbox": [
+            82.5,
+            272.77,
+            514.5,
+            284.48
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "and bake the constant into firmware. Verify on a known mover before trusting it."
+        },
+        {
+          "bbox": [
+            58.5,
+            241.24,
+            64.8,
+            254.89
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            297.52,
+            185.1,
+            309.23
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Add peak-hold logic"
+        },
+        {
+          "bbox": [
+            82.5,
+            313.27,
+            530.7,
+            338.48
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Track the maximum valid speed over a ~1–2 s window, ignore sub-threshold noise, and\nfreeze the result until a button re-arms it. Test by walking quickly past the beam."
+        },
+        {
+          "bbox": [
+            58.5,
+            296.74,
+            64.8,
+            310.39
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            351.52,
+            233.7,
+            363.23
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Validate against a reference"
+        },
+        {
+          "bbox": [
+            82.5,
+            367.27,
+            557.7,
+            405.98
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Check readings against a phone GPS speedometer in a car (as a passenger, safely), or a\nsecond method for a thrown ball. Aim nearly head-on to minimise cosine error and confirm\nthe numbers track."
+        },
+        {
+          "bbox": [
+            58.5,
+            350.74,
+            64.8,
+            364.39
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            419.02,
+            217.5,
+            430.73
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Add a reflector for range"
+        },
+        {
+          "bbox": [
+            82.5,
+            434.77,
+            552.3,
+            473.48
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Mount the module at the focus of a parabolic / horn or inside a metal can to narrow the\nbeam. Note how range improves and off-axis clutter drops — and how aiming becomes more\ncritical."
+        },
+        {
+          "bbox": [
+            58.5,
+            418.24,
+            64.8,
+            431.89
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            486.52,
+            136.5,
+            498.23
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Package it"
+        },
+        {
+          "bbox": [
+            82.5,
+            502.27,
+            557.7,
+            540.97
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Fit everything into a 3D-printed grip or box with the display on top and a trigger / re-\narm button. Now film it clocking cars or pitches — a clean, legible speed gun you built\nend to end."
+        },
+        {
+          "bbox": [
+            58.5,
+            485.74,
+            64.8,
+            499.39
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            69.0,
+            616.28,
+            472.8,
+            627.97
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Write the exact conversion from Doppler beat frequency to vehicle speed.\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            635.78,
+            440.4,
+            647.47
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "What is cosine error in a speed radar, and how do you minimise it?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            655.28,
+            359.4,
+            666.97
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Why and how does a speed gun “hold” a peak reading?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            674.78,
+            451.2,
+            686.47
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "How does adding a horn or dish change the measurement, beyond range?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            694.28,
+            499.8,
+            705.97
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "How would you validate your speed gun’s accuracy against a trusted reference?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            713.78,
+            413.4,
+            725.47
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "What error sources set the ultimate accuracy of your reading?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "seeing with radio — a Build List field guide\n6 / 19"
+        }
+      ],
+      "charCount": 1786,
+      "height": 792.0,
+      "pageNumber": 6,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.03,
+            251.81,
+            65.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "❯ project 03\nFMCW Ranging Radar"
+        },
+        {
+          "bbox": [
+            52.5,
+            72.14,
+            530.63,
+            97.83
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Stop measuring speed, start measuring distance — the principle inside adaptive cruise\ncontrol"
+        },
+        {
+          "bbox": [
+            60.75,
+            112.29,
+            219.62,
+            123.02
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "$70\nadvanced\n1–2 weekends"
+        },
+        {
+          "bbox": [
+            52.5,
+            146.68,
+            196.71,
+            163.26
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "## why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            172.27,
+            554.7,
+            278.48
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Doppler tells you how fast something moves; FMCW (frequency-modulated continuous-wave) radar\ntells you how far away it is. By sweeping the transmit frequency up in a linear “chirp,” the\nreturning echo is delayed — and because the transmitter has moved on in frequency during that\ndelay, mixing the two produces a beat whose frequency encodes range. This is the exact\ntechnique inside automotive adaptive-cruise and weather radar, and building even a short-\nrange version is the leap from “I detected motion” to “I measured the scene.” It is the most\nambitious build here, so the trick is to build it module-based or as the classic coffee-can\nradar rather than laying out microwave boards from scratch."
+        },
+        {
+          "bbox": [
+            69.0,
+            315.93,
+            533.4,
+            366.98
+          ],
+          "blockIndex": 5,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand FMCW theory, chirp generation and linearity, range-from-beat-frequency,\nand the FFT processing (range FFT, and range-Doppler if you go further) that underpins\nmodern radar — the core skill set of automotive and imaging-radar engineering."
+        },
+        {
+          "bbox": [
+            52.5,
+            389.02,
+            538.53,
+            414.23
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "→ the job this maps to: automotive radar and imaging-radar engineering — Tier-1 automotive\nsuppliers, mmWave chip vendors (TI, Infineon, NXP), and sensing startups."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "seeing with radio — a Build List field guide\n7 / 19"
+        }
+      ],
+      "charCount": 1368,
+      "height": 792.0,
+      "pageNumber": 7,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            166.36,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "## how it works"
+        },
+        {
+          "bbox": [
+            69.0,
+            317.43,
+            544.2,
+            368.48
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "BUILD NOTE\nDon’t lay out 24 GHz from scratch. Use a chirp-capable module, or build the MIT “coffee-\ncan” radar at 2.4 GHz — the cantennas and an $8 mixer do the hard RF, so you focus on\nthe chirp and the FFT."
+        },
+        {
+          "bbox": [
+            52.5,
+            406.18,
+            204.29,
+            422.76
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "## bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            435.54,
+            552.0,
+            446.27
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "component\npart / spec\nqty\n~cost"
+        },
+        {
+          "bbox": [
+            52.5,
+            459.16,
+            551.99,
+            470.37
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "24 GHz module or 2 cans\ndev board (IPM-165 / BGT24) or coffee-can horns\n1\n$25–50"
+        },
+        {
+          "bbox": [
+            52.5,
+            481.66,
+            551.99,
+            492.87
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Mixer (coffee-can)\npassive ring mixer\n1\n$8"
+        },
+        {
+          "bbox": [
+            52.5,
+            504.16,
+            552.0,
+            515.37
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Ramp / PLL source\nADF4158 / VCO + sweep, or built-in\n1\n$12"
+        },
+        {
+          "bbox": [
+            52.5,
+            526.66,
+            552.0,
+            537.87
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Capture\nRTL-SDR or audio interface\n1\n$20"
+        },
+        {
+          "bbox": [
+            52.5,
+            549.91,
+            551.99,
+            561.12
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Antennas / feed\ncantennas or module’s patch array\n1\n$0–8"
+        },
+        {
+          "bbox": [
+            67.5,
+            52.28,
+            553.52,
+            90.97
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "The chirp: Instead of a fixed tone, FMCW sweeps the carrier linearly across a bandwidth B\nover a time T. The wider the bandwidth, the finer the range resolution: Δr = c/(2B). A few\nhundred MHz of sweep gives sub-metre resolution."
+        },
+        {
+          "bbox": [
+            52.5,
+            53.15,
+            57.92,
+            63.62
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            99.53,
+            558.9,
+            140.22
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Range from beat frequency: An echo arrives delayed by τ = 2R/c. During that delay the\ntransmit frequency has ramped on, so mixing transmit with echo gives a beat proportional to\nrange: R = c·fb·T/(2B). Closer targets give a lower beat, farther ones a higher beat."
+        },
+        {
+          "bbox": [
+            52.5,
+            100.4,
+            57.92,
+            110.87
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            148.27,
+            558.9,
+            186.98
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Generating a linear ramp: A VCO or a chirp-capable source (e.g. an ADF4158-driven module)\nproduces the sweep. Linearity matters: a non-linear ramp smears the range bins, so a PLL or\ncalibration keeps the sweep straight."
+        },
+        {
+          "bbox": [
+            52.5,
+            149.15,
+            57.92,
+            159.62
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            195.52,
+            537.31,
+            247.73
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "The coffee-can architecture: The classic MIT short-course radar uses two coffee cans as\ntransmit / receive horns at ~2.4 GHz, a cheap mixer, and an audio interface or SDR to\ncapture the beat. It sidesteps custom microwave layout while teaching the entire FMCW\nchain."
+        },
+        {
+          "bbox": [
+            52.5,
+            196.4,
+            57.92,
+            206.87
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            256.27,
+            537.31,
+            294.98
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Range FFT and plotting: FFT one chirp’s beat signal and each peak’s frequency maps to a\ntarget range — a 1-D range profile. Stack many chirps and add a second FFT for Doppler,\nseparating targets by speed as well: a range-Doppler map."
+        },
+        {
+          "bbox": [
+            52.5,
+            257.15,
+            57.92,
+            267.62
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "seeing with radio — a Build List field guide\n8 / 19"
+        }
+      ],
+      "charCount": 1816,
+      "height": 792.0,
+      "pageNumber": 8,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            158.77,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "## build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            377.68,
+            219.46,
+            394.26
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "## interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            55.28,
+            201.3,
+            66.97
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Pick your architecture"
+        },
+        {
+          "bbox": [
+            82.5,
+            71.03,
+            557.7,
+            109.72
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Either buy a chirp-capable 24 GHz module (least RF pain) or build the coffee-can 2.4 GHz\nradar. The module gets results fastest; the coffee-can teaches more. Commit before\nbuying parts."
+        },
+        {
+          "bbox": [
+            58.5,
+            54.49,
+            64.8,
+            68.14
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            122.78,
+            239.1,
+            134.48
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Generate and verify the chirp"
+        },
+        {
+          "bbox": [
+            82.5,
+            138.52,
+            552.3,
+            163.73
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Drive the VCO / PLL (or enable the module’s sweep) and confirm a clean linear ramp over\nyour bandwidth on a spectrum view. Linearity here directly sets your range accuracy."
+        },
+        {
+          "bbox": [
+            58.5,
+            121.99,
+            64.8,
+            135.64
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            176.77,
+            217.5,
+            188.48
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Mix and capture one chirp"
+        },
+        {
+          "bbox": [
+            82.5,
+            192.52,
+            557.7,
+            217.73
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Mix transmit with the received echo and record the beat for a single sweep with your SDR\nor audio interface. A nearby wall or a corner reflector should give a clear return."
+        },
+        {
+          "bbox": [
+            58.5,
+            175.99,
+            64.8,
+            189.64
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            230.77,
+            174.3,
+            242.48
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Run the range FFT"
+        },
+        {
+          "bbox": [
+            82.5,
+            246.52,
+            551.11,
+            260.22
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "FFT one chirp’s beat and convert the peak frequency to range with R = c·fb·T/(2B). Move"
+        },
+        {
+          "bbox": [
+            82.5,
+            261.52,
+            525.3,
+            273.23
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "a reflector and watch the peak shift to the correct distance — your range profile."
+        },
+        {
+          "bbox": [
+            58.5,
+            229.99,
+            64.8,
+            243.64
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            286.27,
+            266.1,
+            297.98
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Make a range plot (and go further)"
+        },
+        {
+          "bbox": [
+            82.5,
+            302.02,
+            546.9,
+            340.73
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Sweep continuously and plot range vs time as targets move. For the full picture, stack\nchirps and add a Doppler FFT for a range-Doppler map — the same output a car’s radar\nproduces."
+        },
+        {
+          "bbox": [
+            58.5,
+            285.49,
+            64.8,
+            299.14
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            69.0,
+            415.27,
+            391.8,
+            426.98
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "What sets the range resolution of an FMCW radar, and why?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            434.77,
+            456.6,
+            446.48
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Derive how target range maps to the beat frequency in an FMCW system.\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            454.27,
+            397.2,
+            465.98
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Why does chirp linearity matter, and how is it maintained?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            473.77,
+            445.8,
+            485.48
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "How do you extend a range-only FMCW radar to also measure velocity?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            493.27,
+            462.0,
+            504.98
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "What are the tradeoffs between sweep bandwidth, range, and resolution?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            512.78,
+            489.0,
+            524.47
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Why is FMCW preferred over pulsed radar for short-range automotive sensing?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "seeing with radio — a Build List field guide\n9 / 19"
+        }
+      ],
+      "charCount": 1506,
+      "height": 792.0,
+      "pageNumber": 9,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.03,
+            395.63,
+            65.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "❯ project 04\nMicro-Doppler Vital-Signs Radar"
+        },
+        {
+          "bbox": [
+            52.5,
+            72.14,
+            491.25,
+            84.33
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Read breathing and a heartbeat across the room — contactless, through clothing"
+        },
+        {
+          "bbox": [
+            60.75,
+            98.04,
+            224.56,
+            108.77
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "$30\nintermediate\n1 weekend"
+        },
+        {
+          "bbox": [
+            52.5,
+            132.43,
+            196.71,
+            149.01
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "## why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            158.02,
+            554.7,
+            250.73
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "The same Doppler module that clocks a car can, pointed at a still person’s chest, pick up the\nsub-millimetre motion of breathing and the even tinier motion of a heartbeat. These show up\nas a slow “micro-Doppler” wobble riding on the radar’s phase; band-pass the signal into a\nrespiration band (~0.1–0.5 Hz) and a cardiac band (~0.8–2 Hz) and you can pull out breaths-\nper-minute and a pulse without touching the subject. It is a genuinely striking demo —\ncontactless vitals from a $4 module — and it introduces the phase-based micro-Doppler\nprocessing used in gesture sensing, fall detection, and contactless health."
+        },
+        {
+          "bbox": [
+            69.0,
+            288.18,
+            533.4,
+            352.73
+          ],
+          "blockIndex": 5,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand phase / quadrature processing, micro-Doppler signatures, narrow-band\nfiltering to separate physiological rhythms, and the limits of motion-based sensing.\nThis phase-domain RF skill set maps onto biomedical sensing, gesture / presence radar,\nand the mmWave presence-sensing products shipping today."
+        },
+        {
+          "bbox": [
+            52.5,
+            374.77,
+            549.33,
+            399.98
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "→ the job this maps to: biomedical and contactless-sensing engineering — medical-device R&D,\ngesture / presence radar teams, and health-tech startups."
+        },
+        {
+          "bbox": [
+            69.0,
+            422.43,
+            538.8,
+            486.98
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "! NOT A MEDICAL DEVICE\nThis is a demonstration of micro-Doppler sensing, not a medical instrument. It can show\na breathing and pulse rhythm on a plot; it is not validated, not safe to rely on, and\nmust never be used to make a health decision or to diagnose anyone. Treat it as physics\nyou can see — not a monitor."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "seeing with radio — a Build List field guide\n10 / 19"
+        }
+      ],
+      "charCount": 1642,
+      "height": 792.0,
+      "pageNumber": 10,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            166.36,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "## how it works"
+        },
+        {
+          "bbox": [
+            52.5,
+            313.93,
+            204.29,
+            330.51
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "## bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            343.29,
+            552.0,
+            354.02
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "component\npart / spec\nqty\n~cost"
+        },
+        {
+          "bbox": [
+            52.5,
+            366.91,
+            552.0,
+            378.12
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "I/Q Doppler module\nHB100 (basic) or CDM324 / I-Q 24 GHz sensor\n1\n$4–15"
+        },
+        {
+          "bbox": [
+            52.5,
+            389.41,
+            551.99,
+            400.62
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Low-noise amp\ndual op-amp, low offset\n1\n$2"
+        },
+        {
+          "bbox": [
+            52.5,
+            411.91,
+            551.99,
+            423.12
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "ADC / MCU\nESP32 or audio interface to PC\n1\n$8"
+        },
+        {
+          "bbox": [
+            52.5,
+            434.41,
+            551.99,
+            445.62
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Passives + breadboard\nfilters, wiring\n—\n$5"
+        },
+        {
+          "bbox": [
+            67.5,
+            52.28,
+            537.31,
+            90.97
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Micro-Doppler from tiny motion: A chest moving even a millimetre changes the radar path\nlength, which shifts the echo’s phase. Breathing moves the chest ~4–12 mm; a heartbeat\n~0.2–0.5 mm. Both appear as slow phase modulation on the returned signal."
+        },
+        {
+          "bbox": [
+            52.5,
+            53.15,
+            57.92,
+            63.62
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            99.53,
+            542.7,
+            138.23
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Quadrature (I/Q) phase: Reliable extraction needs I and Q channels so you track phase\ndirectly rather than amplitude. A module with I/Q outputs (or an added quadrature mixer)\nlets you compute the small chest displacement over time."
+        },
+        {
+          "bbox": [
+            52.5,
+            100.4,
+            57.92,
+            110.87
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            146.77,
+            558.9,
+            185.48
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Separating breath from heartbeat: Respiration sits around 0.1–0.5 Hz and cardiac around\n0.8–2 Hz. Two band-pass filters split the combined motion into a respiration waveform and a\nmuch smaller cardiac waveform you can rate-count."
+        },
+        {
+          "bbox": [
+            52.5,
+            147.65,
+            57.92,
+            158.12
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            194.02,
+            558.92,
+            232.73
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Why it is hard: The heartbeat signal is tiny and easily buried by body motion and breathing\nharmonics. The subject must be still; averaging over several seconds and rejecting large\nmotions is what makes the pulse emerge."
+        },
+        {
+          "bbox": [
+            52.5,
+            194.9,
+            57.92,
+            205.37
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            241.27,
+            553.5,
+            279.98
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Reading the rates: FFT or peak-interval analysis on each filtered band gives breaths-per-\nminute and beats-per-minute. Plotting the two waveforms live is the demo: a slow rise-and-\nfall for breathing, a faster ripple for the heart."
+        },
+        {
+          "bbox": [
+            52.5,
+            242.15,
+            57.92,
+            252.62
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "seeing with radio — a Build List field guide\n11 / 19"
+        }
+      ],
+      "charCount": 1481,
+      "height": 792.0,
+      "pageNumber": 11,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            158.77,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "## build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            389.68,
+            219.46,
+            406.26
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "## interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            55.28,
+            212.1,
+            66.97
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Get clean I/Q (or phase)"
+        },
+        {
+          "bbox": [
+            82.5,
+            71.03,
+            541.5,
+            109.72
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Use an I/Q-capable module, or add a quadrature mixer, so you can recover phase — not\njust amplitude. Verify by slowly moving a flat reflector and watching the phase track\ndistance."
+        },
+        {
+          "bbox": [
+            58.5,
+            54.49,
+            64.8,
+            68.14
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            122.78,
+            217.5,
+            134.48
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Amplify and sample slowly"
+        },
+        {
+          "bbox": [
+            82.5,
+            138.52,
+            557.7,
+            163.73
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "The vitals band is sub-2 Hz, so low-frequency, low-noise gain matters. Sample at tens of\nHz and log to a PC. Sit still in front of the sensor and capture a minute of data."
+        },
+        {
+          "bbox": [
+            58.5,
+            121.99,
+            64.8,
+            135.64
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            176.77,
+            195.9,
+            188.48
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Filter into two bands"
+        },
+        {
+          "bbox": [
+            82.5,
+            192.52,
+            536.1,
+            231.23
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "In Python, band-pass ~0.1–0.5 Hz for respiration and ~0.8–2 Hz for cardiac, and plot\nboth. The respiration waveform appears immediately; the cardiac one needs a still\nsubject and clean data."
+        },
+        {
+          "bbox": [
+            58.5,
+            175.99,
+            64.8,
+            189.64
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            244.27,
+            152.7,
+            255.98
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Extract rates"
+        },
+        {
+          "bbox": [
+            82.5,
+            260.02,
+            525.3,
+            298.73
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Run an FFT or peak-interval analysis on each band to get breaths-per-minute and an\nestimated pulse. Compare breathing to a manual count and the pulse to a fingertip\noximeter to see how close — and how fragile — it is."
+        },
+        {
+          "bbox": [
+            58.5,
+            243.49,
+            64.8,
+            257.14
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            311.77,
+            185.1,
+            323.48
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Demo it responsibly"
+        },
+        {
+          "bbox": [
+            82.5,
+            327.52,
+            552.3,
+            352.73
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Show the live waveforms and rates on screen, clearly labelled as a sensing demo and not\na medical reading. Test how stillness, distance, and clothing change the result."
+        },
+        {
+          "bbox": [
+            58.5,
+            310.99,
+            64.8,
+            324.64
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            69.0,
+            427.27,
+            435.0,
+            438.98
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "How does a heartbeat or breath produce a measurable radar signal?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            446.77,
+            445.8,
+            458.48
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Why is I/Q (phase) processing needed for micro-Doppler vital signs?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            466.27,
+            418.8,
+            477.98
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "What frequency bands separate respiration from cardiac motion?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            485.77,
+            456.6,
+            497.48
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Why is the cardiac signal so much harder to extract than respiration?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            505.27,
+            483.6,
+            516.97
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "What are the failure modes and ethical limits of radar vital-sign sensing?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            524.78,
+            483.6,
+            536.47
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "How would you reject gross body motion while preserving the vitals signal?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "seeing with radio — a Build List field guide\n12 / 19"
+        }
+      ],
+      "charCount": 1544,
+      "height": 792.0,
+      "pageNumber": 12,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.03,
+            362.44,
+            65.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "❯ project 05\nWiFi-Sensing Motion Detector"
+        },
+        {
+          "bbox": [
+            52.5,
+            72.14,
+            373.13,
+            84.33
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Sense motion through a wall with a $10 chip and no camera"
+        },
+        {
+          "bbox": [
+            60.75,
+            98.04,
+            224.56,
+            108.77
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "$12\nintermediate\n1 weekend"
+        },
+        {
+          "bbox": [
+            52.5,
+            132.43,
+            196.71,
+            149.01
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "## why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            158.02,
+            549.3,
+            250.73
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "You do not even need a radar transmitter to sense motion — the WiFi already in the room will\ndo it. A standard ESP32 can expose its WiFi channel-state information (CSI): a fine-grained\nmeasurement of how the radio channel between two devices changes. When a person moves, they\nperturb the multipath, and the CSI fluctuates in a way you can detect — presence and motion\nsensing, through walls, with a $10 microcontroller and no camera. It is the most accessible\nentry point into the very active research area of WiFi sensing (the basis of the new\nIEEE 802.11bf sensing standard), and it costs almost nothing."
+        },
+        {
+          "bbox": [
+            69.0,
+            288.18,
+            538.8,
+            352.73
+          ],
+          "blockIndex": 5,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand channel-state information, multipath and how bodies perturb it, time-\nseries feature extraction (variance, correlation), and the basics of RF sensing without\na dedicated radar. This maps directly onto the WiFi-sensing and wireless-ML work now\nmoving from research into products."
+        },
+        {
+          "bbox": [
+            52.5,
+            374.77,
+            511.53,
+            399.98
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "→ the job this maps to: wireless sensing and ML research / engineering — WiFi-sensing\nstartups, presence-detection product teams, and academic RF-ML labs."
+        },
+        {
+          "bbox": [
+            69.0,
+            422.43,
+            538.8,
+            486.98
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "! SENSE YOUR OWN SPACE\nWiFi sensing can detect people through walls — so keep it to your own space. Sensing or\nprofiling people who have not consented is a real privacy violation (and increasingly\nregulated). Build it to understand the technique and monitor your own home, not to\nsurveil anyone else."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "seeing with radio — a Build List field guide\n13 / 19"
+        }
+      ],
+      "charCount": 1581,
+      "height": 792.0,
+      "pageNumber": 13,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            166.36,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "## how it works"
+        },
+        {
+          "bbox": [
+            52.5,
+            313.93,
+            204.29,
+            330.51
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "## bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            343.29,
+            552.0,
+            354.02
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "component\npart / spec\nqty\n~cost"
+        },
+        {
+          "bbox": [
+            52.5,
+            366.91,
+            551.99,
+            378.12
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "ESP32 dev board\nany common ESP32 (CSI-capable)\n1\n$8"
+        },
+        {
+          "bbox": [
+            52.5,
+            389.41,
+            551.99,
+            400.62
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Second device\nphone / router / another ESP32 for traffic\n1\n$0"
+        },
+        {
+          "bbox": [
+            52.5,
+            411.91,
+            551.99,
+            423.12
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "USB cable\nserial logging\n1\n$2"
+        },
+        {
+          "bbox": [
+            52.5,
+            434.41,
+            552.0,
+            445.62
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Laptop\nPython CSI logger + analysis\n1\n—"
+        },
+        {
+          "bbox": [
+            67.5,
+            52.28,
+            553.5,
+            90.97
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "What CSI is: Every WiFi packet is received across many OFDM subcarriers; CSI is the per-\nsubcarrier amplitude and phase — essentially a fine-grained snapshot of the radio channel,\nfar richer than the single RSSI number most devices expose."
+        },
+        {
+          "bbox": [
+            52.5,
+            53.15,
+            57.92,
+            63.62
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            99.53,
+            537.3,
+            138.23
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Why motion shows up: Indoors, signals arrive via many reflected paths. A moving body\nchanges those paths, so the CSI shifts over time even when transmitter and receiver are\nfixed. Stillness gives steady CSI; motion gives fluctuating CSI."
+        },
+        {
+          "bbox": [
+            52.5,
+            100.4,
+            57.92,
+            110.87
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            146.77,
+            542.7,
+            185.48
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Getting CSI from an ESP32: Special firmware (the ESP32 CSI toolkit) exposes the CSI for\nreceived packets over serial. With another device generating traffic (a ping flood), you\nget a continuous stream of channel snapshots."
+        },
+        {
+          "bbox": [
+            52.5,
+            147.65,
+            57.92,
+            158.12
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            194.02,
+            548.11,
+            232.73
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Detecting motion: The simplest detector watches the variance or rate-of-change of the CSI\nacross subcarriers; it spikes when someone moves and settles when the room is empty.\nThresholding that gives a robust presence / motion signal."
+        },
+        {
+          "bbox": [
+            52.5,
+            194.9,
+            57.92,
+            205.37
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            241.27,
+            553.51,
+            279.98
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Toward classification: With labelled data you can go further — distinguishing walking from\na fall, counting people, or coarse room-occupancy — which is exactly where the research\n(and 802.11bf) is heading."
+        },
+        {
+          "bbox": [
+            52.5,
+            242.15,
+            57.92,
+            252.62
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "seeing with radio — a Build List field guide\n14 / 19"
+        }
+      ],
+      "charCount": 1439,
+      "height": 792.0,
+      "pageNumber": 14,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            158.77,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "## build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            362.68,
+            219.46,
+            379.26
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "## interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            55.28,
+            179.7,
+            66.97
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Flash CSI firmware"
+        },
+        {
+          "bbox": [
+            82.5,
+            71.03,
+            557.7,
+            96.22
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Load the ESP32 CSI-toolkit firmware so the board reports channel-state info for received\npackets. Confirm CSI lines stream over serial."
+        },
+        {
+          "bbox": [
+            58.5,
+            54.49,
+            64.8,
+            68.14
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            109.28,
+            206.7,
+            120.97
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Generate steady traffic"
+        },
+        {
+          "bbox": [
+            82.5,
+            125.03,
+            557.7,
+            150.23
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Have another device send a regular packet stream (e.g. a ping every few ms) to the ESP32\nso you get a continuous CSI rate. Verify packets and CSI arrive together."
+        },
+        {
+          "bbox": [
+            58.5,
+            108.49,
+            64.8,
+            122.14
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            163.27,
+            174.3,
+            174.98
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Log and visualise"
+        },
+        {
+          "bbox": [
+            82.5,
+            179.02,
+            557.7,
+            204.23
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Capture CSI to your laptop and plot subcarrier amplitudes over time. With the room empty\nthe traces are steady; walk through and watch them jump."
+        },
+        {
+          "bbox": [
+            58.5,
+            162.49,
+            64.8,
+            176.14
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            217.27,
+            206.7,
+            228.98
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Build a motion detector"
+        },
+        {
+          "bbox": [
+            82.5,
+            233.02,
+            541.5,
+            271.73
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Compute a rolling variance (or correlation drop) across subcarriers and threshold it.\nTune so an empty room reads “no motion” and a person walking reliably triggers — even\nfrom another room."
+        },
+        {
+          "bbox": [
+            58.5,
+            216.49,
+            64.8,
+            230.14
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            284.77,
+            206.7,
+            296.48
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Push further (optional)"
+        },
+        {
+          "bbox": [
+            82.5,
+            300.52,
+            552.3,
+            325.73
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Collect labelled clips (empty, walking, sitting) and train a simple classifier, or test\nthrough-wall range. Document what the CSI can and cannot distinguish."
+        },
+        {
+          "bbox": [
+            58.5,
+            283.99,
+            64.8,
+            297.64
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            69.0,
+            400.27,
+            478.2,
+            411.98
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "What is WiFi channel-state information, and how does it differ from RSSI?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            419.77,
+            478.2,
+            431.48
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Why does human motion change the CSI with fixed transmitter and receiver?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            439.27,
+            386.4,
+            450.98
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "What simple features detect motion in a CSI time series?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            458.77,
+            413.4,
+            470.48
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "What are the privacy implications and limits of WiFi sensing?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            478.27,
+            435.0,
+            489.98
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "How would you extend motion detection to activity classification?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            497.77,
+            429.6,
+            509.48
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "What is 802.11bf, and why is WiFi sensing becoming standardised?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "seeing with radio — a Build List field guide\n15 / 19"
+        }
+      ],
+      "charCount": 1390,
+      "height": 792.0,
+      "pageNumber": 15,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.03,
+            196.5,
+            65.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "❯ project 06\nPassive Radar"
+        },
+        {
+          "bbox": [
+            52.5,
+            72.14,
+            530.63,
+            84.33
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Track aircraft using a transmitter you don't own — bistatic radar with zero emissions"
+        },
+        {
+          "bbox": [
+            60.75,
+            98.04,
+            209.72,
+            108.77
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "$70\nadvanced\n2 weekends"
+        },
+        {
+          "bbox": [
+            52.5,
+            132.43,
+            196.71,
+            149.01
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "## why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            158.02,
+            554.7,
+            250.73
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "The most elegant build here transmits nothing at all. A powerful FM or digital-TV station\nalready floods the sky with radio; passive (bistatic) radar listens to that signal directly\non one receiver and to its echoes off passing aircraft on a second, then cross-correlates the\ntwo to reveal the planes’ range and Doppler. You build a radar that is completely silent —\nundetectable, license-free, and powered entirely by transmitters that already exist. It is\nthe hardest project in the set because it demands two coherent, clock-locked receivers and\nreal cross-ambiguity processing, which is exactly why it is the standout portfolio piece."
+        },
+        {
+          "bbox": [
+            69.0,
+            288.18,
+            533.4,
+            352.73
+          ],
+          "blockIndex": 5,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand bistatic radar geometry, coherent multi-channel reception and clock\nsynchronisation, the cross-ambiguity function (range-Doppler correlation), and direct-\nsignal cancellation. Coherent multi-receiver SDR and correlation processing are\nadvanced, in-demand skills for defense, surveillance, and signals work."
+        },
+        {
+          "bbox": [
+            52.5,
+            374.77,
+            549.33,
+            399.98
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "→ the job this maps to: defense and surveillance radar, and advanced SDR / DSP engineering —\nradar primes, national labs, and signals-intelligence teams."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "seeing with radio — a Build List field guide\n16 / 19"
+        }
+      ],
+      "charCount": 1349,
+      "height": 792.0,
+      "pageNumber": 16,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            166.36,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "## how it works"
+        },
+        {
+          "bbox": [
+            69.0,
+            315.93,
+            538.8,
+            366.23
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "BUILD NOTE\nThe whole project lives or dies on coherence — two receivers sharing one clock. A\nKrakenSDR (five coherent channels) makes this far easier than hand-modding dongles; get\nthe clock right and the rest is DSP."
+        },
+        {
+          "bbox": [
+            52.5,
+            403.93,
+            204.29,
+            420.51
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "## bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            434.04,
+            552.0,
+            444.77
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "component\npart / spec\nqty\n~cost"
+        },
+        {
+          "bbox": [
+            52.5,
+            456.91,
+            551.99,
+            468.12
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "2× coherent RTL-SDR\nclock-locked pair (KrakenSDR or modded dongles)\n1\n$40–100"
+        },
+        {
+          "bbox": [
+            52.5,
+            480.16,
+            552.0,
+            491.37
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "2 antennas\nFM / VHF, or UHF for DVB-T\n2\n$10"
+        },
+        {
+          "bbox": [
+            52.5,
+            502.66,
+            551.99,
+            513.87
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Splitter / clock\nshared reference clock\n1\n$5"
+        },
+        {
+          "bbox": [
+            52.5,
+            525.16,
+            551.99,
+            536.37
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Coax + SMA\nfeedlines\n—\n$6"
+        },
+        {
+          "bbox": [
+            52.5,
+            547.66,
+            552.0,
+            558.87
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Laptop\nGNU Radio + passive-radar processing\n1\n—"
+        },
+        {
+          "bbox": [
+            67.5,
+            52.28,
+            553.54,
+            104.47
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Bistatic geometry: The transmitter (an FM / TV tower) and your receiver sit in different\nplaces, so an aircraft echo travels tower→plane→you. The extra path length over the direct\ntower→you path encodes the target’s bistatic range; the changing path encodes bistatic\nDoppler."
+        },
+        {
+          "bbox": [
+            52.5,
+            53.15,
+            57.92,
+            63.62
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            113.03,
+            548.11,
+            151.73
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Two coherent channels: One antenna captures the strong direct signal (the “reference”); a\nsecond captures the weak echoes (the “surveillance” channel). Both SDRs must share one\nclock so their samples are phase-coherent — otherwise correlation fails."
+        },
+        {
+          "bbox": [
+            52.5,
+            113.9,
+            57.92,
+            124.37
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            160.27,
+            548.1,
+            198.98
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "The illuminator: Broadband FM stations make great illuminators (strong, wideband, always\non); digital TV (DVB-T) is even better where present. You pick a strong nearby station as\nyour transmitter of opportunity."
+        },
+        {
+          "bbox": [
+            52.5,
+            161.15,
+            57.92,
+            171.62
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            207.52,
+            548.1,
+            246.23
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Direct-signal cancellation: The direct signal is enormously stronger than the echoes and\nwill swamp them. Adaptive filtering subtracts the reference from the surveillance channel\nso the faint target returns survive."
+        },
+        {
+          "bbox": [
+            52.5,
+            208.4,
+            57.92,
+            218.87
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            254.77,
+            553.51,
+            293.48
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "The cross-ambiguity function: Correlating the cleaned surveillance signal against delayed,\nDoppler-shifted copies of the reference produces a range-Doppler map; aircraft appear as\npeaks. This 2-D correlation is the heart of passive radar."
+        },
+        {
+          "bbox": [
+            52.5,
+            255.65,
+            57.92,
+            266.12
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "seeing with radio — a Build List field guide\n17 / 19"
+        }
+      ],
+      "charCount": 1764,
+      "height": 792.0,
+      "pageNumber": 17,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            158.77,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "## build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            376.18,
+            219.46,
+            392.76
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "## interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            55.28,
+            249.9,
+            66.97
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Lock two receivers to one clock"
+        },
+        {
+          "bbox": [
+            82.5,
+            71.03,
+            557.7,
+            96.22
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Use a coherent SDR (e.g. KrakenSDR), or modify two RTL-SDRs to share a single\noscillator. Verify the two channels are phase-coherent — this is the make-or-break step."
+        },
+        {
+          "bbox": [
+            58.5,
+            54.49,
+            64.8,
+            68.14
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            109.28,
+            293.1,
+            120.97
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Aim reference and surveillance antennas"
+        },
+        {
+          "bbox": [
+            82.5,
+            125.03,
+            546.9,
+            150.23
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Point one antenna at a strong FM / TV transmitter (reference) and the other toward the\nsky / area you want to watch (surveillance). Choose a strong, steady illuminator."
+        },
+        {
+          "bbox": [
+            58.5,
+            108.49,
+            64.8,
+            122.14
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            163.27,
+            195.9,
+            174.98
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Capture both channels"
+        },
+        {
+          "bbox": [
+            82.5,
+            179.02,
+            557.7,
+            217.73
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Record reference and surveillance simultaneously in GNU Radio. Confirm the direct signal\ndominates the reference and the surveillance channel is mostly that same signal plus\nnoise."
+        },
+        {
+          "bbox": [
+            58.5,
+            162.49,
+            64.8,
+            176.14
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            230.77,
+            201.3,
+            242.48
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Cancel the direct path"
+        },
+        {
+          "bbox": [
+            82.5,
+            246.52,
+            536.1,
+            271.73
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Apply adaptive cancellation to subtract the reference from the surveillance channel,\nsuppressing the direct signal so weak echoes can emerge."
+        },
+        {
+          "bbox": [
+            58.5,
+            229.99,
+            64.8,
+            243.64
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            284.77,
+            239.1,
+            296.48
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Compute the range-Doppler map"
+        },
+        {
+          "bbox": [
+            82.5,
+            300.52,
+            541.5,
+            339.23
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Run the cross-ambiguity function (existing passive-radar code helps) to correlate the\ncleaned echo against shifted reference copies. Aircraft show up as moving peaks —\nconfirm against a live ADS-B map."
+        },
+        {
+          "bbox": [
+            58.5,
+            283.99,
+            64.8,
+            297.64
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            69.0,
+            413.77,
+            478.2,
+            425.48
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "What is bistatic radar, and how does its geometry differ from monostatic?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            433.27,
+            418.8,
+            444.98
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Why must the two receivers in passive radar be phase-coherent?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            452.77,
+            375.6,
+            464.48
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "What makes a good illuminator of opportunity, and why?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            472.27,
+            429.6,
+            483.98
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Why is direct-signal cancellation necessary, and how is it done?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            491.77,
+            462.0,
+            503.48
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "What does the cross-ambiguity function compute, and why is it central?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            511.27,
+            402.6,
+            522.97
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "How would you confirm a detected target is a real aircraft?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "seeing with radio — a Build List field guide\n18 / 19"
+        }
+      ],
+      "charCount": 1485,
+      "height": 792.0,
+      "pageNumber": 18,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.03,
+            87.17,
+            37.72
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "❯ wrap"
+        },
+        {
+          "bbox": [
+            52.5,
+            43.82,
+            520.84,
+            87.24
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "You don’t need permission — or a transmitter —\nto see with radio."
+        },
+        {
+          "bbox": [
+            52.5,
+            100.28,
+            543.9,
+            165.98
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Doppler, FMCW, micro-Doppler, WiFi CSI, and passive bistatic radar are five faces of one\nidea: information lives in how the world bends, reflects, and shifts radio. The hardware is\ncheap — a $4 module, a $10 chip, a pair of dongles. The skill is in the signal processing:\nthe mixing, the FFTs, the phase, the correlation. That is exactly the part employers in\nautomotive radar, sensing, and defense actually hire for."
+        },
+        {
+          "bbox": [
+            52.5,
+            185.68,
+            196.71,
+            202.26
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "// the skill ladder"
+        },
+        {
+          "bbox": [
+            52.5,
+            212.02,
+            462.9,
+            223.73
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Build them in order and each one hands you the technique the next one needs:"
+        },
+        {
+          "bbox": [
+            52.5,
+            231.89,
+            420.14,
+            244.08
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Doppler →FMCW ranging →micro-Doppler →WiFi CSI →passive bistatic"
+        },
+        {
+          "bbox": [
+            69.0,
+            273.18,
+            544.2,
+            337.73
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "DO THIS\nBuild even one of these. Screenshot the live plot — a velocity trace, a range profile, a\nCSI spike, a range-Doppler map — log the data, and put it on GitHub with a clear README\nand an honest note on scope and ethics. One radar reel and one clean repo prove you can\npull real information out of radio."
+        },
+        {
+          "bbox": [
+            69.0,
+            369.52,
+            533.4,
+            408.23
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Full build notes, parts links, and the next field guide go out in The Build List. The\npeople actually shipping these — and trading coffee-can and clock-locking tricks — are\nin Ohm’s Club."
+        },
+        {
+          "bbox": [
+            52.5,
+            437.02,
+            252.3,
+            448.73
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "— Enes (@1nska) · Electrical Engineer"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "seeing with radio — a Build List field guide\n19 / 19"
+        }
+      ],
+      "charCount": 1231,
+      "height": 792.0,
+      "pageNumber": 19,
+      "textExtractable": true,
+      "width": 612.0
+    }
+  ],
+  "provenance": {
+    "confidence": "EXACT",
+    "extractionMethod": "pymupdf-blocks-v1",
+    "extractorVersion": "1.28.0",
+    "generatorVersion": null,
+    "origin": "extracted",
+    "source": "guide-010",
+    "sourceHash": "dffb0b0215ae018b2a42a552e88b1b601e4d8897e1d1a9aa24ac7d0a24e089e4",
+    "sourcePage": null,
+    "sourcePath": "Engineering guides/6 EE Projects That See With Radio.pdf",
+    "sourceSection": "ROOT"
+  },
+  "relativePath": "Engineering guides/6 EE Projects That See With Radio.pdf",
+  "schemaVersion": "1.0.0",
+  "sha256": "dffb0b0215ae018b2a42a552e88b1b601e4d8897e1d1a9aa24ac7d0a24e089e4",
+  "sourceId": "guide-010"
+}

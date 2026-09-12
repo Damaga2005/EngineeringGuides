@@ -1,0 +1,5056 @@
+{
+  "metadata": {
+    "author": "(anonymous)",
+    "creationDate": "D:20260302015029+00'00'",
+    "creator": "(unspecified)",
+    "format": "PDF 1.4",
+    "modDate": "D:20260302015029+00'00'",
+    "producer": "ReportLab PDF Library - (opensource)",
+    "subject": "(unspecified)",
+    "title": "(anonymous)"
+  },
+  "pageCount": 21,
+  "pages": [
+    {
+      "blocks": [
+        {
+          "bbox": [
+            85.52,
+            161.36,
+            526.48,
+            253.42
+          ],
+          "blockIndex": 0,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "6 PORTFOLIO PROJECTS\nEVERY CS STUDENT NEEDS"
+        },
+        {
+          "bbox": [
+            236.74,
+            293.55,
+            375.26,
+            312.79
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Build these. Get hired."
+        },
+        {
+          "bbox": [
+            123.16,
+            319.55,
+            488.84,
+            338.79
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Full breakdowns, architecture diagrams, and resource links"
+        },
+        {
+          "bbox": [
+            270.1,
+            385.55,
+            341.9,
+            404.79
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "By @1nska"
+        },
+        {
+          "bbox": [
+            259.23,
+            411.93,
+            352.77,
+            424.29
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "NYU Shanghai — 2026"
+        }
+      ],
+      "charCount": 152,
+      "height": 792.0,
+      "pageNumber": 1,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            226.66,
+            754.6,
+            385.34,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "@1nska  •  6 CS Portfolio Projects  •  Page 2"
+        },
+        {
+          "bbox": [
+            70.8,
+            62.06,
+            527.96,
+            120.35
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Why Your Portfolio Matters More Than Your\nGPA"
+        },
+        {
+          "bbox": [
+            70.8,
+            130.81,
+            541.2,
+            145.24
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Here's what most CS programs won't tell you: the students landing the best jobs aren't the ones with"
+        },
+        {
+          "bbox": [
+            70.8,
+            146.81,
+            541.2,
+            161.24
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "the highest grades. They're the ones who can point to something they built and say \"I made this, it's"
+        },
+        {
+          "bbox": [
+            70.8,
+            162.81,
+            224.77,
+            177.24
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "live, and here's the GitHub repo.\""
+        },
+        {
+          "bbox": [
+            70.8,
+            186.81,
+            541.2,
+            201.24
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "A to-do app won't cut it. Neither will a calculator or a tutorial clone. Recruiters have seen thousands of"
+        },
+        {
+          "bbox": [
+            70.8,
+            202.81,
+            541.2,
+            217.24
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "those. What they haven't seen is a student who built a real-time system, designed a distributed"
+        },
+        {
+          "bbox": [
+            70.8,
+            218.81,
+            446.66,
+            233.24
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "architecture, or published an open source tool that other developers actually use."
+        },
+        {
+          "bbox": [
+            70.8,
+            242.81,
+            541.2,
+            257.24
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "These 6 projects cover the key areas top tech companies look for: full-stack development, system"
+        },
+        {
+          "bbox": [
+            70.8,
+            258.81,
+            541.2,
+            273.24
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "design, AI/ML integration, distributed systems, open source contribution, and CS fundamentals. Build"
+        },
+        {
+          "bbox": [
+            70.8,
+            274.81,
+            331.95,
+            289.24
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "2-3 of these and you'll stand out from 90% of applicants."
+        },
+        {
+          "bbox": [
+            108.8,
+            308.81,
+            491.0,
+            323.32
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "How to use this guide: Each project includes architecture diagrams, step-by-step"
+        },
+        {
+          "bbox": [
+            108.8,
+            324.81,
+            502.1,
+            339.24
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "build instructions, and clickable resource links. Start with whichever excites you most"
+        },
+        {
+          "bbox": [
+            108.8,
+            340.81,
+            255.27,
+            355.24
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "— momentum beats perfection."
+        }
+      ],
+      "charCount": 1056,
+      "height": 792.0,
+      "pageNumber": 2,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            226.66,
+            754.6,
+            385.34,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "@1nska  •  6 CS Portfolio Projects  •  Page 3"
+        },
+        {
+          "bbox": [
+            70.8,
+            61.64,
+            101.94,
+            100.2
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "#1"
+        },
+        {
+          "bbox": [
+            70.8,
+            110.34,
+            394.85,
+            135.13
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Real-Time Chat App with WebSockets"
+        },
+        {
+          "bbox": [
+            70.8,
+            138.9,
+            276.12,
+            152.67
+          ],
+          "blockIndex": 3,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "FULL-STACK • NETWORKING • REAL-TIME"
+        },
+        {
+          "bbox": [
+            70.8,
+            160.81,
+            335.53,
+            175.32
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Difficulty: Intermediate | Estimated time: 2-3 weekends"
+        },
+        {
+          "bbox": [
+            70.8,
+            444.67,
+            541.2,
+            459.18
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Why recruiters love this: Every tech company has real-time features — notifications, live updates,"
+        },
+        {
+          "bbox": [
+            70.8,
+            460.67,
+            541.2,
+            475.1
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "collaborative editing. Building a chat app from scratch shows you understand WebSockets, state"
+        },
+        {
+          "bbox": [
+            70.8,
+            476.67,
+            331.67,
+            491.1
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "management, authentication, and full-stack architecture."
+        },
+        {
+          "bbox": [
+            70.8,
+            500.67,
+            541.2,
+            515.1
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Build a fully functional chat application with user authentication, multiple chat rooms, real-time"
+        },
+        {
+          "bbox": [
+            70.8,
+            516.67,
+            541.2,
+            531.1
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "messaging, typing indicators, and message history. Not a tutorial clone — a production-grade app"
+        },
+        {
+          "bbox": [
+            70.8,
+            532.67,
+            381.84,
+            547.1
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "with proper error handling, deployed and accessible via a live URL."
+        },
+        {
+          "bbox": [
+            70.8,
+            560.55,
+            142.33,
+            578.45
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Tech stack:"
+        },
+        {
+          "bbox": [
+            90.8,
+            584.67,
+            381.88,
+            599.18
+          ],
+          "blockIndex": 12,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• React + Tailwind CSS — frontend UI with responsive design"
+        },
+        {
+          "bbox": [
+            90.8,
+            604.67,
+            296.11,
+            619.18
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Node.js + Express — backend API server"
+        },
+        {
+          "bbox": [
+            90.8,
+            624.67,
+            372.22,
+            639.18
+          ],
+          "blockIndex": 14,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Socket.io — WebSocket layer for real-time communication"
+        },
+        {
+          "bbox": [
+            90.8,
+            644.67,
+            457.16,
+            659.18
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• PostgreSQL + Prisma — database with ORM for message history and users"
+        },
+        {
+          "bbox": [
+            90.8,
+            664.67,
+            353.3,
+            679.18
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• JWT + bcrypt — authentication and password hashing"
+        },
+        {
+          "bbox": [
+            90.8,
+            684.67,
+            319.46,
+            699.18
+          ],
+          "blockIndex": 17,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Vercel + Railway — deployment (both free tier)"
+        }
+      ],
+      "charCount": 1018,
+      "height": 792.0,
+      "pageNumber": 3,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            226.66,
+            754.6,
+            385.34,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "@1nska  •  6 CS Portfolio Projects  •  Page 4"
+        },
+        {
+          "bbox": [
+            70.8,
+            62.69,
+            166.9,
+            80.59
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Skills it proves:"
+        },
+        {
+          "bbox": [
+            90.8,
+            86.81,
+            326.75,
+            101.24
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• WebSocket protocol and real-time event handling"
+        },
+        {
+          "bbox": [
+            90.8,
+            106.81,
+            409.62,
+            121.24
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• Full-stack architecture — frontend, backend, database, deployment"
+        },
+        {
+          "bbox": [
+            90.8,
+            126.81,
+            429.45,
+            141.24
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• Authentication and security (JWT, password hashing, input sanitization)"
+        },
+        {
+          "bbox": [
+            90.8,
+            146.81,
+            284.73,
+            161.24
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• Database design and query optimization"
+        },
+        {
+          "bbox": [
+            90.8,
+            166.81,
+            299.9,
+            181.24
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• State management across client and server"
+        },
+        {
+          "bbox": [
+            70.8,
+            202.69,
+            164.69,
+            220.59
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "How to build it:"
+        },
+        {
+          "bbox": [
+            90.8,
+            226.81,
+            522.08,
+            241.32
+          ],
+          "blockIndex": 8,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Step 1: Set up the project structure. Initialize a monorepo with separate frontend (React) and"
+        },
+        {
+          "bbox": [
+            90.8,
+            242.81,
+            531.38,
+            257.24
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "backend (Node.js) directories. Set up Prisma with PostgreSQL. Define your data models: User,"
+        },
+        {
+          "bbox": [
+            90.8,
+            258.81,
+            170.16,
+            273.24
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Room, Message."
+        },
+        {
+          "bbox": [
+            90.8,
+            278.81,
+            519.73,
+            293.32
+          ],
+          "blockIndex": 11,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Step 2: Build authentication. Implement signup/login with bcrypt password hashing and JWT"
+        },
+        {
+          "bbox": [
+            90.8,
+            294.81,
+            515.07,
+            309.24
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "tokens. Add middleware to protect API routes. Store tokens in httpOnly cookies for security."
+        },
+        {
+          "bbox": [
+            90.8,
+            314.81,
+            534.24,
+            329.32
+          ],
+          "blockIndex": 13,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Step 3: Implement WebSocket layer. Set up Socket.io on the server. Create events: 'join-room',"
+        },
+        {
+          "bbox": [
+            90.8,
+            330.81,
+            494.44,
+            345.24
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "'send-message', 'typing', 'stop-typing'. Connect the React frontend to the socket server."
+        },
+        {
+          "bbox": [
+            90.8,
+            350.81,
+            537.84,
+            365.32
+          ],
+          "blockIndex": 15,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Step 4: Build the chat UI. Create the room list, message feed, and input components. Messages"
+        },
+        {
+          "bbox": [
+            90.8,
+            366.81,
+            522.09,
+            381.24
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "should appear instantly for the sender and within 50ms for other users. Add typing indicators."
+        },
+        {
+          "bbox": [
+            90.8,
+            386.81,
+            531.41,
+            401.32
+          ],
+          "blockIndex": 17,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Step 5: Add message persistence. Save every message to PostgreSQL. Implement pagination"
+        },
+        {
+          "bbox": [
+            90.8,
+            402.81,
+            510.99,
+            417.24
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "— load the 50 most recent messages on room join, then load older messages on scroll up."
+        },
+        {
+          "bbox": [
+            90.8,
+            422.81,
+            494.07,
+            437.32
+          ],
+          "blockIndex": 19,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Step 6: Deploy and polish. Deploy frontend to Vercel, backend to Railway, database to"
+        },
+        {
+          "bbox": [
+            90.8,
+            438.81,
+            537.88,
+            453.24
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Supabase. Add error handling, loading states, and a clean landing page. Get a live URL you can"
+        },
+        {
+          "bbox": [
+            90.8,
+            454.81,
+            119.98,
+            469.24
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "share."
+        },
+        {
+          "bbox": [
+            70.8,
+            492.69,
+            226.85,
+            510.59
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Useful links & resources:"
+        },
+        {
+          "bbox": [
+            90.8,
+            516.85,
+            206.58,
+            530.59
+          ],
+          "blockIndex": 23,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• Socket.io documentation"
+        },
+        {
+          "bbox": [
+            90.8,
+            534.85,
+            181.54,
+            548.59
+          ],
+          "blockIndex": 24,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• Prisma ORM guide"
+        },
+        {
+          "bbox": [
+            90.8,
+            552.85,
+            215.46,
+            566.59
+          ],
+          "blockIndex": 25,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• JWT authentication tutorial"
+        },
+        {
+          "bbox": [
+            90.8,
+            570.85,
+            213.79,
+            584.59
+          ],
+          "blockIndex": 26,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• Railway deployment guide"
+        },
+        {
+          "bbox": [
+            90.8,
+            588.85,
+            302.7,
+            602.59
+          ],
+          "blockIndex": 27,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "• React real-time chat tutorial — freeCodeCamp"
+        },
+        {
+          "bbox": [
+            108.8,
+            622.81,
+            488.13,
+            637.32
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Level up: Add end-to-end encryption using the Web Crypto API so messages are"
+        },
+        {
+          "bbox": [
+            108.8,
+            638.81,
+            483.45,
+            653.24
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "encrypted client-side before being sent. This is a serious security feature that will"
+        },
+        {
+          "bbox": [
+            108.8,
+            654.81,
+            501.24,
+            669.24
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "make any interviewer take notice — and it's a great talking point about cryptography."
+        }
+      ],
+      "charCount": 1875,
+      "height": 792.0,
+      "pageNumber": 4,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            226.66,
+            754.6,
+            385.34,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "@1nska  •  6 CS Portfolio Projects  •  Page 5"
+        },
+        {
+          "bbox": [
+            70.8,
+            61.64,
+            101.94,
+            100.2
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "#2"
+        },
+        {
+          "bbox": [
+            70.8,
+            110.34,
+            341.86,
+            135.13
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Personal AI Assistant with RAG"
+        },
+        {
+          "bbox": [
+            70.8,
+            138.9,
+            205.02,
+            152.67
+          ],
+          "blockIndex": 3,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "AI / ML • NLP • FULL-STACK"
+        },
+        {
+          "bbox": [
+            70.8,
+            160.81,
+            388.06,
+            175.32
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Difficulty: Intermediate–Advanced | Estimated time: 2-3 weekends"
+        },
+        {
+          "bbox": [
+            70.8,
+            444.67,
+            541.2,
+            459.18
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Why recruiters love this: Every company is integrating AI right now. But calling the ChatGPT API"
+        },
+        {
+          "bbox": [
+            70.8,
+            460.67,
+            541.2,
+            475.1
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "isn't impressive — building a RAG pipeline that retrieves from your own data, manages context"
+        },
+        {
+          "bbox": [
+            70.8,
+            476.67,
+            541.2,
+            491.1
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "windows, and provides sourced answers shows you actually understand how AI applications work"
+        },
+        {
+          "bbox": [
+            70.8,
+            492.67,
+            144.35,
+            507.1
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "under the hood."
+        },
+        {
+          "bbox": [
+            70.8,
+            516.67,
+            541.2,
+            531.1
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Build an application that lets users upload their own documents (PDFs, notes, articles) and have a"
+        },
+        {
+          "bbox": [
+            70.8,
+            532.67,
+            541.2,
+            547.1
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "conversation with them. The system chunks documents, creates embeddings, stores them in a vector"
+        },
+        {
+          "bbox": [
+            70.8,
+            548.67,
+            529.51,
+            563.1
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "database, retrieves relevant chunks for each query, and generates answers with source attribution."
+        },
+        {
+          "bbox": [
+            70.8,
+            576.55,
+            142.33,
+            594.45
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Tech stack:"
+        },
+        {
+          "bbox": [
+            90.8,
+            600.67,
+            259.91,
+            615.18
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• Python + FastAPI — backend API"
+        },
+        {
+          "bbox": [
+            90.8,
+            620.67,
+            380.38,
+            635.18
+          ],
+          "blockIndex": 14,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• LangChain or LlamaIndex — RAG orchestration framework"
+        },
+        {
+          "bbox": [
+            90.8,
+            640.67,
+            354.72,
+            655.18
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• OpenAI / Anthropic API — LLM for answer generation"
+        },
+        {
+          "bbox": [
+            90.8,
+            660.67,
+            381.58,
+            675.18
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• ChromaDB or Pinecone — vector database for embeddings"
+        },
+        {
+          "bbox": [
+            90.8,
+            680.67,
+            285.3,
+            695.18
+          ],
+          "blockIndex": 17,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• React or Streamlit — frontend interface"
+        },
+        {
+          "bbox": [
+            90.8,
+            700.67,
+            374.57,
+            715.18
+          ],
+          "blockIndex": 18,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "• PyPDF / Unstructured — document parsing and extraction"
+        }
+      ],
+      "charCount": 1057,
+      "height": 792.0,
+      "pageNumber": 5,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            226.66,
+            754.6,
+            385.34,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "@1nska  •  6 CS Portfolio Projects  •  Page 6"
+        },
+        {
+          "bbox": [
+            70.8,
+            62.69,
+            166.9,
+            80.59
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Skills it proves:"
+        },
+        {
+          "bbox": [
+            90.8,
+            86.81,
+            441.71,
+            101.24
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• RAG architecture — document ingestion, embedding, retrieval, generation"
+        },
+        {
+          "bbox": [
+            90.8,
+            106.81,
+            277.71,
+            121.24
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• Vector databases and similarity search"
+        },
+        {
+          "bbox": [
+            90.8,
+            126.81,
+            348.34,
+            141.24
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• Prompt engineering and context window management"
+        },
+        {
+          "bbox": [
+            90.8,
+            146.81,
+            278.31,
+            161.24
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• API design for AI-powered applications"
+        },
+        {
+          "bbox": [
+            90.8,
+            166.81,
+            387.41,
+            181.24
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• Evaluation — measuring retrieval quality and answer accuracy"
+        },
+        {
+          "bbox": [
+            70.8,
+            202.69,
+            164.69,
+            220.59
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "How to build it:"
+        },
+        {
+          "bbox": [
+            90.8,
+            226.81,
+            527.95,
+            241.32
+          ],
+          "blockIndex": 8,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Step 1: Set up document ingestion. Build an upload endpoint that accepts PDFs and text files."
+        },
+        {
+          "bbox": [
+            90.8,
+            242.81,
+            507.46,
+            257.24
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Use PyPDF or Unstructured to extract text. Implement chunking — 500-token chunks with"
+        },
+        {
+          "bbox": [
+            90.8,
+            258.81,
+            309.05,
+            273.24
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "50-token overlap works well as a starting point."
+        },
+        {
+          "bbox": [
+            90.8,
+            278.81,
+            510.07,
+            293.32
+          ],
+          "blockIndex": 11,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Step 2: Create the embedding pipeline. Use OpenAI's text-embedding-3-small (cheap and"
+        },
+        {
+          "bbox": [
+            90.8,
+            294.81,
+            517.39,
+            309.24
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "effective) to embed each chunk. Store embeddings in ChromaDB (local, free) with metadata"
+        },
+        {
+          "bbox": [
+            90.8,
+            310.81,
+            346.43,
+            325.24
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "linking back to the source document and page number."
+        },
+        {
+          "bbox": [
+            90.8,
+            330.81,
+            539.57,
+            345.32
+          ],
+          "blockIndex": 14,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Step 3: Build the retrieval system. When a user asks a question, embed the query with the same"
+        },
+        {
+          "bbox": [
+            90.8,
+            346.81,
+            529.65,
+            361.24
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "model. Search ChromaDB for the top 5 most similar chunks. These become the context for the"
+        },
+        {
+          "bbox": [
+            90.8,
+            362.81,
+            114.14,
+            377.24
+          ],
+          "blockIndex": 16,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "LLM."
+        },
+        {
+          "bbox": [
+            90.8,
+            382.81,
+            535.19,
+            397.32
+          ],
+          "blockIndex": 17,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Step 4: Implement the generation step. Build a prompt template: system instructions + retrieved"
+        },
+        {
+          "bbox": [
+            90.8,
+            398.81,
+            511.3,
+            413.24
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "chunks + user question. Send to Claude or GPT-4. Parse the response and include source"
+        },
+        {
+          "bbox": [
+            90.8,
+            414.81,
+            390.76,
+            429.24
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "attributions — which document and page the answer came from."
+        },
+        {
+          "bbox": [
+            90.8,
+            434.81,
+            540.17,
+            449.32
+          ],
+          "blockIndex": 20,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Step 5: Add conversation memory. Store chat history and include the last 3-5 exchanges in each"
+        },
+        {
+          "bbox": [
+            90.8,
+            450.81,
+            512.0,
+            465.24
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "prompt. This lets users ask follow-up questions like \"tell me more about that\" without losing"
+        },
+        {
+          "bbox": [
+            90.8,
+            466.81,
+            127.57,
+            481.24
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "context."
+        },
+        {
+          "bbox": [
+            90.8,
+            486.81,
+            519.19,
+            501.32
+          ],
+          "blockIndex": 23,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Step 6: Build the frontend and deploy. Create a clean chat interface with a document upload"
+        },
+        {
+          "bbox": [
+            90.8,
+            502.81,
+            533.18,
+            517.24
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "panel. Show source documents alongside answers. Deploy the backend to Railway, frontend to"
+        },
+        {
+          "bbox": [
+            90.8,
+            518.81,
+            348.14,
+            533.24
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Vercel. Demo it with your own class notes or textbooks."
+        },
+        {
+          "bbox": [
+            70.8,
+            556.69,
+            226.85,
+            574.59
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Useful links & resources:"
+        },
+        {
+          "bbox": [
+            90.8,
+            580.85,
+            202.68,
+            594.59
+          ],
+          "blockIndex": 27,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• LangChain RAG tutorial"
+        },
+        {
+          "bbox": [
+            90.8,
+            598.85,
+            192.1,
+            612.59
+          ],
+          "blockIndex": 28,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• ChromaDB quickstart"
+        },
+        {
+          "bbox": [
+            90.8,
+            616.85,
+            215.48,
+            630.59
+          ],
+          "blockIndex": 29,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• OpenAI embeddings guide"
+        },
+        {
+          "bbox": [
+            90.8,
+            634.85,
+            216.58,
+            648.59
+          ],
+          "blockIndex": 30,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• Anthropic Claude API docs"
+        },
+        {
+          "bbox": [
+            90.8,
+            652.85,
+            225.46,
+            666.59
+          ],
+          "blockIndex": 31,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• RAG evaluation with RAGAS"
+        },
+        {
+          "bbox": [
+            90.8,
+            670.85,
+            212.68,
+            684.59
+          ],
+          "blockIndex": 32,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• LlamaIndex starter tutorial"
+        }
+      ],
+      "charCount": 1832,
+      "height": 792.0,
+      "pageNumber": 6,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            226.66,
+            754.6,
+            385.34,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "@1nska  •  6 CS Portfolio Projects  •  Page 7"
+        },
+        {
+          "bbox": [
+            108.8,
+            72.81,
+            477.61,
+            87.32
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Level up: Add multi-modal support — let users upload images and use a vision"
+        },
+        {
+          "bbox": [
+            108.8,
+            88.81,
+            469.44,
+            103.24
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "model to extract information from diagrams, charts, and handwritten notes. Or"
+        },
+        {
+          "bbox": [
+            108.8,
+            104.81,
+            459.2,
+            119.24
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "implement hybrid search (keyword + semantic) for better retrieval accuracy."
+        }
+      ],
+      "charCount": 273,
+      "height": 792.0,
+      "pageNumber": 7,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            226.66,
+            754.6,
+            385.34,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "@1nska  •  6 CS Portfolio Projects  •  Page 8"
+        },
+        {
+          "bbox": [
+            70.8,
+            61.64,
+            101.94,
+            100.2
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "#3"
+        },
+        {
+          "bbox": [
+            70.8,
+            110.34,
+            341.88,
+            135.13
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Distributed Task Queue System"
+        },
+        {
+          "bbox": [
+            70.8,
+            138.9,
+            253.92,
+            152.67
+          ],
+          "blockIndex": 3,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "SYSTEMS • DISTRIBUTED • BACKEND"
+        },
+        {
+          "bbox": [
+            70.8,
+            160.81,
+            323.86,
+            175.32
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Difficulty: Advanced | Estimated time: 3-4 weekends"
+        },
+        {
+          "bbox": [
+            70.8,
+            444.67,
+            541.2,
+            459.18
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Why recruiters love this: This is the kind of project that makes senior engineers raise an eyebrow."
+        },
+        {
+          "bbox": [
+            70.8,
+            460.67,
+            541.2,
+            475.1
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Distributed systems are the backbone of every tech company at scale — understanding job queues,"
+        },
+        {
+          "bbox": [
+            70.8,
+            476.67,
+            541.2,
+            491.1
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "worker management, retry logic, and failure handling shows you think about infrastructure, not just"
+        },
+        {
+          "bbox": [
+            70.8,
+            492.67,
+            111.66,
+            507.1
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "features."
+        },
+        {
+          "bbox": [
+            70.8,
+            516.67,
+            541.2,
+            531.1
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Build a distributed task processing system where clients submit jobs via an API, a message queue"
+        },
+        {
+          "bbox": [
+            70.8,
+            532.67,
+            541.2,
+            547.1
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "distributes them across multiple worker processes, and a monitoring dashboard shows real-time"
+        },
+        {
+          "bbox": [
+            70.8,
+            548.67,
+            541.2,
+            563.1
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "throughput, queue depth, and failure rates. Include retry with exponential backoff, dead letter queues,"
+        },
+        {
+          "bbox": [
+            70.8,
+            564.67,
+            155.41,
+            579.1
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "and priority levels."
+        },
+        {
+          "bbox": [
+            70.8,
+            592.55,
+            142.33,
+            610.45
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Tech stack:"
+        },
+        {
+          "bbox": [
+            90.8,
+            616.67,
+            375.68,
+            631.18
+          ],
+          "blockIndex": 14,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• Python (Celery) or Node.js (BullMQ) — worker framework"
+        },
+        {
+          "bbox": [
+            90.8,
+            636.67,
+            287.07,
+            651.18
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• Redis — message broker and job queue"
+        },
+        {
+          "bbox": [
+            90.8,
+            656.67,
+            302.8,
+            671.18
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• PostgreSQL — results store and job history"
+        },
+        {
+          "bbox": [
+            90.8,
+            676.67,
+            345.39,
+            691.18
+          ],
+          "blockIndex": 17,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• FastAPI or Express — REST API for job submission"
+        },
+        {
+          "bbox": [
+            90.8,
+            696.67,
+            439.63,
+            711.18
+          ],
+          "blockIndex": 18,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• Docker + Docker Compose — containerized workers for true distribution"
+        }
+      ],
+      "charCount": 1042,
+      "height": 792.0,
+      "pageNumber": 8,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            226.66,
+            754.6,
+            385.34,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "@1nska  •  6 CS Portfolio Projects  •  Page 9"
+        },
+        {
+          "bbox": [
+            90.8,
+            62.81,
+            443.15,
+            77.32
+          ],
+          "blockIndex": 1,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• Prometheus + Grafana — monitoring and dashboards (or build your own)"
+        },
+        {
+          "bbox": [
+            70.8,
+            98.69,
+            166.9,
+            116.59
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Skills it proves:"
+        },
+        {
+          "bbox": [
+            90.8,
+            122.81,
+            424.19,
+            137.24
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• Distributed systems design — message passing, eventual consistency"
+        },
+        {
+          "bbox": [
+            90.8,
+            142.81,
+            374.03,
+            157.24
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• Queue theory — FIFO, priority queues, dead letter handling"
+        },
+        {
+          "bbox": [
+            90.8,
+            162.81,
+            409.02,
+            177.24
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• Fault tolerance — retry strategies, idempotency, graceful shutdown"
+        },
+        {
+          "bbox": [
+            90.8,
+            182.81,
+            315.06,
+            197.24
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• Containerization and orchestration with Docker"
+        },
+        {
+          "bbox": [
+            90.8,
+            202.81,
+            358.24,
+            217.24
+          ],
+          "blockIndex": 7,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• Monitoring and observability — metrics, logging, alerting"
+        },
+        {
+          "bbox": [
+            70.8,
+            238.69,
+            164.69,
+            256.59
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "How to build it:"
+        },
+        {
+          "bbox": [
+            90.8,
+            262.81,
+            528.41,
+            277.32
+          ],
+          "blockIndex": 9,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Step 1: Design the job schema. Define what a 'job' looks like: ID, type, payload, priority, status"
+        },
+        {
+          "bbox": [
+            90.8,
+            278.81,
+            537.86,
+            293.24
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "(pending/processing/done/failed), attempts, created_at, completed_at. Store this in PostgreSQL."
+        },
+        {
+          "bbox": [
+            90.8,
+            298.81,
+            510.97,
+            313.32
+          ],
+          "blockIndex": 11,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Step 2: Set up Redis as the message broker. Use Redis lists or streams for the job queue."
+        },
+        {
+          "bbox": [
+            90.8,
+            314.81,
+            541.2,
+            329.24
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Implement priority queues — high-priority jobs should be processed before low-priority ones even"
+        },
+        {
+          "bbox": [
+            90.8,
+            330.81,
+            180.08,
+            345.24
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "if they arrived later."
+        },
+        {
+          "bbox": [
+            90.8,
+            350.81,
+            538.42,
+            365.32
+          ],
+          "blockIndex": 14,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Step 3: Build the producer API. Create a REST endpoint that accepts job submissions, validates"
+        },
+        {
+          "bbox": [
+            90.8,
+            366.81,
+            527.38,
+            381.24
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "the payload, writes to the database, and pushes to the Redis queue. Return a job ID for status"
+        },
+        {
+          "bbox": [
+            90.8,
+            382.81,
+            124.06,
+            397.24
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "polling."
+        },
+        {
+          "bbox": [
+            90.8,
+            402.81,
+            533.13,
+            417.32
+          ],
+          "blockIndex": 17,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Step 4: Build the worker process. Create a worker that continuously polls Redis, picks up a job,"
+        },
+        {
+          "bbox": [
+            90.8,
+            418.81,
+            530.84,
+            433.24
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "processes it, and updates the database with results. Implement graceful shutdown — finish the"
+        },
+        {
+          "bbox": [
+            90.8,
+            434.81,
+            218.62,
+            449.24
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "current job before stopping."
+        },
+        {
+          "bbox": [
+            90.8,
+            454.81,
+            518.56,
+            469.32
+          ],
+          "blockIndex": 20,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Step 5: Add retry logic. When a job fails, retry up to 3 times with exponential backoff (1s, 4s,"
+        },
+        {
+          "bbox": [
+            90.8,
+            470.81,
+            532.6,
+            485.24
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "16s). After 3 failures, move to the dead letter queue. Log every attempt with the error message."
+        },
+        {
+          "bbox": [
+            90.8,
+            490.81,
+            529.1,
+            505.32
+          ],
+          "blockIndex": 22,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Step 6: Build the monitoring dashboard. Show real-time queue depth, jobs/second throughput,"
+        },
+        {
+          "bbox": [
+            90.8,
+            506.81,
+            496.96,
+            521.24
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "success/failure rate, and average processing time. Use Grafana or build a simple React"
+        },
+        {
+          "bbox": [
+            90.8,
+            522.81,
+            265.32,
+            537.24
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "dashboard that polls a stats endpoint."
+        },
+        {
+          "bbox": [
+            70.8,
+            560.69,
+            226.85,
+            578.59
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Useful links & resources:"
+        },
+        {
+          "bbox": [
+            90.8,
+            584.85,
+            198.23,
+            598.59
+          ],
+          "blockIndex": 26,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• BullMQ documentation"
+        },
+        {
+          "bbox": [
+            90.8,
+            602.85,
+            227.13,
+            616.59
+          ],
+          "blockIndex": 27,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• Celery project documentation"
+        },
+        {
+          "bbox": [
+            90.8,
+            620.85,
+            191.01,
+            634.59
+          ],
+          "blockIndex": 28,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• Redis documentation"
+        },
+        {
+          "bbox": [
+            90.8,
+            638.85,
+            207.11,
+            652.59
+          ],
+          "blockIndex": 29,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• Docker Compose tutorial"
+        },
+        {
+          "bbox": [
+            90.8,
+            656.85,
+            296.6,
+            670.59
+          ],
+          "blockIndex": 30,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• Designing Data-Intensive Applications (book)"
+        },
+        {
+          "bbox": [
+            90.8,
+            674.85,
+            240.45,
+            688.59
+          ],
+          "blockIndex": 31,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• System design primer — GitHub"
+        }
+      ],
+      "charCount": 1871,
+      "height": 792.0,
+      "pageNumber": 9,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            224.44,
+            754.6,
+            387.56,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "@1nska  •  6 CS Portfolio Projects  •  Page 10"
+        },
+        {
+          "bbox": [
+            108.8,
+            72.81,
+            502.72,
+            87.32
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Level up: Add horizontal auto-scaling — spin up new worker containers when queue"
+        },
+        {
+          "bbox": [
+            108.8,
+            88.81,
+            484.65,
+            103.24
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "depth exceeds a threshold and scale down when idle. Use Kubernetes or Docker"
+        },
+        {
+          "bbox": [
+            108.8,
+            104.81,
+            487.52,
+            119.24
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Swarm. This is exactly what companies like Uber, Stripe, and Shopify do at scale."
+        }
+      ],
+      "charCount": 283,
+      "height": 792.0,
+      "pageNumber": 10,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            224.44,
+            754.6,
+            387.56,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "@1nska  •  6 CS Portfolio Projects  •  Page 11"
+        },
+        {
+          "bbox": [
+            70.8,
+            61.64,
+            101.94,
+            100.2
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "#4"
+        },
+        {
+          "bbox": [
+            70.8,
+            110.34,
+            350.86,
+            135.13
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Published Open Source CLI Tool"
+        },
+        {
+          "bbox": [
+            70.8,
+            138.9,
+            323.4,
+            152.67
+          ],
+          "blockIndex": 3,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "OPEN SOURCE • DEVELOPER TOOLS • PUBLISHING"
+        },
+        {
+          "bbox": [
+            70.8,
+            160.81,
+            335.53,
+            175.32
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Difficulty: Intermediate | Estimated time: 1-2 weekends"
+        },
+        {
+          "bbox": [
+            70.8,
+            444.67,
+            541.2,
+            459.18
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Why recruiters love this: Open source contributions show you can write code that other people"
+        },
+        {
+          "bbox": [
+            70.8,
+            460.67,
+            541.2,
+            475.1
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "actually use, read, and contribute to. Publishing a CLI tool on npm or PyPI with proper"
+        },
+        {
+          "bbox": [
+            70.8,
+            476.67,
+            541.2,
+            491.1
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "documentation, tests, and CI/CD demonstrates professional software engineering practices that most"
+        },
+        {
+          "bbox": [
+            70.8,
+            492.67,
+            168.85,
+            507.1
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "students never learn."
+        },
+        {
+          "bbox": [
+            70.8,
+            516.67,
+            541.2,
+            531.1
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Build a command-line tool that solves a real problem developers have. Publish it on npm or PyPI so"
+        },
+        {
+          "bbox": [
+            70.8,
+            532.67,
+            541.2,
+            547.1
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "anyone can install it with one command. Get real users, handle bug reports, and iterate based on"
+        },
+        {
+          "bbox": [
+            70.8,
+            548.67,
+            541.2,
+            563.1
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "feedback. The tool should have a clean README with a GIF demo, comprehensive --help output,"
+        },
+        {
+          "bbox": [
+            70.8,
+            564.67,
+            136.17,
+            579.1
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "and unit tests."
+        },
+        {
+          "bbox": [
+            70.8,
+            592.55,
+            142.33,
+            610.45
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Tech stack:"
+        },
+        {
+          "bbox": [
+            90.8,
+            616.67,
+            421.2,
+            631.18
+          ],
+          "blockIndex": 14,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "• Node.js (Commander.js) or Python (Click/Typer) — CLI framework"
+        },
+        {
+          "bbox": [
+            90.8,
+            636.67,
+            232.78,
+            651.18
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "• Jest or pytest — unit testing"
+        },
+        {
+          "bbox": [
+            90.8,
+            656.67,
+            257.83,
+            671.18
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "• GitHub Actions — CI/CD pipeline"
+        },
+        {
+          "bbox": [
+            90.8,
+            676.67,
+            317.39,
+            691.18
+          ],
+          "blockIndex": 17,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "• npm or PyPI — package registry for publishing"
+        },
+        {
+          "bbox": [
+            90.8,
+            696.67,
+            312.13,
+            711.18
+          ],
+          "blockIndex": 18,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "• Chalk / Rich — terminal formatting and colors"
+        }
+      ],
+      "charCount": 1007,
+      "height": 792.0,
+      "pageNumber": 11,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            224.44,
+            754.6,
+            387.56,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "@1nska  •  6 CS Portfolio Projects  •  Page 12"
+        },
+        {
+          "bbox": [
+            90.8,
+            62.81,
+            348.32,
+            77.32
+          ],
+          "blockIndex": 1,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "• Semantic versioning — proper release management"
+        },
+        {
+          "bbox": [
+            70.8,
+            98.69,
+            166.9,
+            116.59
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Skills it proves:"
+        },
+        {
+          "bbox": [
+            90.8,
+            122.81,
+            478.42,
+            137.24
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "• Open source software development — README, LICENSE, CONTRIBUTING.md"
+        },
+        {
+          "bbox": [
+            90.8,
+            142.81,
+            262.56,
+            157.24
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "• Package publishing and distribution"
+        },
+        {
+          "bbox": [
+            90.8,
+            162.81,
+            303.39,
+            177.24
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "• Test-driven development with high coverage"
+        },
+        {
+          "bbox": [
+            90.8,
+            182.81,
+            275.37,
+            197.24
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "• CI/CD automation with GitHub Actions"
+        },
+        {
+          "bbox": [
+            90.8,
+            202.81,
+            310.98,
+            217.24
+          ],
+          "blockIndex": 7,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "• User-facing documentation and error handling"
+        },
+        {
+          "bbox": [
+            70.8,
+            238.69,
+            164.69,
+            256.59
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "How to build it:"
+        },
+        {
+          "bbox": [
+            90.8,
+            262.81,
+            529.64,
+            277.32
+          ],
+          "blockIndex": 9,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Step 1: Find your problem. The best CLI tools come from scratching your own itch. Ideas: a git"
+        },
+        {
+          "bbox": [
+            90.8,
+            278.81,
+            515.07,
+            293.24
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "stats dashboard, a project scaffolder, a markdown-to-slides converter, an API testing tool, a"
+        },
+        {
+          "bbox": [
+            90.8,
+            294.81,
+            318.41,
+            309.24
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "dependency auditor, a code complexity analyzer."
+        },
+        {
+          "bbox": [
+            90.8,
+            314.81,
+            507.42,
+            329.32
+          ],
+          "blockIndex": 12,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Step 2: Build the core functionality. Use Commander.js (Node) or Click/Typer (Python) for"
+        },
+        {
+          "bbox": [
+            90.8,
+            330.81,
+            528.5,
+            345.24
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "argument parsing. Focus on doing one thing well before adding features. Make sure errors are"
+        },
+        {
+          "bbox": [
+            90.8,
+            346.81,
+            178.34,
+            361.24
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "helpful, not cryptic."
+        },
+        {
+          "bbox": [
+            90.8,
+            366.81,
+            503.66,
+            381.32
+          ],
+          "blockIndex": 15,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Step 3: Add comprehensive tests. Write unit tests for every major function. Aim for 80%+"
+        },
+        {
+          "bbox": [
+            90.8,
+            382.81,
+            527.96,
+            397.24
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "coverage. Set up GitHub Actions to run tests on every push and PR. Add a coverage badge to"
+        },
+        {
+          "bbox": [
+            90.8,
+            398.81,
+            161.98,
+            413.24
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "your README."
+        },
+        {
+          "bbox": [
+            90.8,
+            418.81,
+            499.88,
+            433.32
+          ],
+          "blockIndex": 18,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Step 4: Write documentation. Your README needs: what it does (one sentence), install"
+        },
+        {
+          "bbox": [
+            90.8,
+            434.81,
+            534.31,
+            449.24
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "instructions, usage examples with screenshots/GIFs, API reference for all flags and commands."
+        },
+        {
+          "bbox": [
+            90.8,
+            450.81,
+            314.27,
+            465.24
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Use asciinema or terminalizer for GIF recording."
+        },
+        {
+          "bbox": [
+            90.8,
+            470.81,
+            530.83,
+            485.32
+          ],
+          "blockIndex": 21,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Step 5: Publish to npm/PyPI. For npm: npm publish. For PyPI: twine upload. Set up automated"
+        },
+        {
+          "bbox": [
+            90.8,
+            486.81,
+            504.55,
+            501.24
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "publishing via GitHub Actions on new releases. Use semantic versioning — start at 0.1.0."
+        },
+        {
+          "bbox": [
+            90.8,
+            506.81,
+            506.86,
+            521.32
+          ],
+          "blockIndex": 23,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Step 6: Get users and iterate. Share on Reddit (r/commandline, r/webdev), Hacker News,"
+        },
+        {
+          "bbox": [
+            90.8,
+            522.81,
+            512.75,
+            537.24
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Twitter/X. Respond to issues. Accept PRs. Even 10 GitHub stars puts you ahead of 99% of"
+        },
+        {
+          "bbox": [
+            90.8,
+            538.81,
+            173.68,
+            553.24
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "student portfolios."
+        },
+        {
+          "bbox": [
+            70.8,
+            576.69,
+            226.85,
+            594.59
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Useful links & resources:"
+        },
+        {
+          "bbox": [
+            90.8,
+            600.85,
+            230.46,
+            614.59
+          ],
+          "blockIndex": 27,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "• Commander.js documentation"
+        },
+        {
+          "bbox": [
+            90.8,
+            618.85,
+            221.02,
+            632.59
+          ],
+          "blockIndex": 28,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "• Python Click documentation"
+        },
+        {
+          "bbox": [
+            90.8,
+            636.85,
+            239.37,
+            650.59
+          ],
+          "blockIndex": 29,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "• How to publish an npm package"
+        },
+        {
+          "bbox": [
+            90.8,
+            654.85,
+            193.24,
+            668.59
+          ],
+          "blockIndex": 30,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "• PyPI publishing guide"
+        },
+        {
+          "bbox": [
+            90.8,
+            672.85,
+            226.56,
+            686.59
+          ],
+          "blockIndex": 31,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "• GitHub Actions CI/CD tutorial"
+        },
+        {
+          "bbox": [
+            90.8,
+            690.85,
+            237.67,
+            704.59
+          ],
+          "blockIndex": 32,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "• asciinema — terminal recording"
+        }
+      ],
+      "charCount": 1782,
+      "height": 792.0,
+      "pageNumber": 12,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            224.44,
+            754.6,
+            387.56,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "@1nska  •  6 CS Portfolio Projects  •  Page 13"
+        },
+        {
+          "bbox": [
+            108.8,
+            72.81,
+            496.31,
+            87.32
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Level up: Add plugin support so other developers can extend your tool. This shows"
+        },
+        {
+          "bbox": [
+            108.8,
+            88.81,
+            499.22,
+            103.24
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "API design thinking and turns your project into a platform. Tools like ESLint, Prettier,"
+        },
+        {
+          "bbox": [
+            108.8,
+            104.81,
+            238.35,
+            119.24
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "and Babel all work this way."
+        }
+      ],
+      "charCount": 243,
+      "height": 792.0,
+      "pageNumber": 13,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            224.44,
+            754.6,
+            387.56,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "@1nska  •  6 CS Portfolio Projects  •  Page 14"
+        },
+        {
+          "bbox": [
+            70.8,
+            61.64,
+            101.94,
+            100.2
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "#5"
+        },
+        {
+          "bbox": [
+            70.8,
+            110.34,
+            308.87,
+            135.13
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Full-Stack SaaS Application"
+        },
+        {
+          "bbox": [
+            70.8,
+            138.9,
+            257.24,
+            152.67
+          ],
+          "blockIndex": 3,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "FULL-STACK • PRODUCT • PAYMENTS"
+        },
+        {
+          "bbox": [
+            70.8,
+            160.81,
+            323.86,
+            175.32
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Difficulty: Advanced | Estimated time: 4-6 weekends"
+        },
+        {
+          "bbox": [
+            70.8,
+            444.67,
+            541.2,
+            459.18
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Why recruiters love this: Building a SaaS app proves you can think beyond code — you understand"
+        },
+        {
+          "bbox": [
+            70.8,
+            460.67,
+            541.2,
+            475.1
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "users, products, and business logic. Adding Stripe payments, user onboarding, and a landing page"
+        },
+        {
+          "bbox": [
+            70.8,
+            476.67,
+            394.11,
+            491.1
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "shows full-product thinking that most CS students never demonstrate."
+        },
+        {
+          "bbox": [
+            70.8,
+            500.67,
+            541.2,
+            515.1
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Build a complete SaaS application with user authentication, a dashboard, Stripe subscription"
+        },
+        {
+          "bbox": [
+            70.8,
+            516.67,
+            541.2,
+            531.1
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "payments, email notifications, and a marketing landing page. Pick any useful idea — a habit tracker,"
+        },
+        {
+          "bbox": [
+            70.8,
+            532.67,
+            541.2,
+            547.1
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "invoice generator, bookmark manager, study planner, writing tool. The specific idea matters less than"
+        },
+        {
+          "bbox": [
+            70.8,
+            548.67,
+            196.86,
+            563.1
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "the architecture and polish."
+        },
+        {
+          "bbox": [
+            70.8,
+            576.55,
+            142.33,
+            594.45
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Tech stack:"
+        },
+        {
+          "bbox": [
+            90.8,
+            600.67,
+            344.22,
+            615.18
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "• Next.js 14 — full-stack React framework (app router)"
+        },
+        {
+          "bbox": [
+            90.8,
+            620.67,
+            364.96,
+            635.18
+          ],
+          "blockIndex": 14,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "• Tailwind CSS + shadcn/ui — UI components and styling"
+        },
+        {
+          "bbox": [
+            90.8,
+            640.67,
+            418.34,
+            655.18
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "• NextAuth.js or Clerk — authentication (Google, GitHub, email login)"
+        },
+        {
+          "bbox": [
+            90.8,
+            660.67,
+            359.71,
+            675.18
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "• PostgreSQL + Prisma — database with type-safe ORM"
+        },
+        {
+          "bbox": [
+            90.8,
+            680.67,
+            298.13,
+            695.18
+          ],
+          "blockIndex": 17,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "• Stripe — subscription payments and billing"
+        },
+        {
+          "bbox": [
+            90.8,
+            700.67,
+            399.65,
+            715.18
+          ],
+          "blockIndex": 18,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "• Resend — transactional emails (welcome, receipts, notifications)"
+        }
+      ],
+      "charCount": 1086,
+      "height": 792.0,
+      "pageNumber": 14,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            224.44,
+            754.6,
+            387.56,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "@1nska  •  6 CS Portfolio Projects  •  Page 15"
+        },
+        {
+          "bbox": [
+            70.8,
+            62.69,
+            166.9,
+            80.59
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Skills it proves:"
+        },
+        {
+          "bbox": [
+            90.8,
+            86.81,
+            341.34,
+            101.24
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "• Product thinking — user flows, onboarding, retention"
+        },
+        {
+          "bbox": [
+            90.8,
+            106.81,
+            434.7,
+            121.24
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "• Payment integration — Stripe checkout, webhooks, subscription lifecycle"
+        },
+        {
+          "bbox": [
+            90.8,
+            126.81,
+            447.56,
+            141.24
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "• Authentication patterns — OAuth, session management, role-based access"
+        },
+        {
+          "bbox": [
+            90.8,
+            146.81,
+            277.73,
+            161.24
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "• Database design for multi-tenant SaaS"
+        },
+        {
+          "bbox": [
+            90.8,
+            166.81,
+            460.36,
+            181.24
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "• Full deployment and DevOps — CI/CD, monitoring, environment management"
+        },
+        {
+          "bbox": [
+            70.8,
+            202.69,
+            164.69,
+            220.59
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "How to build it:"
+        },
+        {
+          "bbox": [
+            90.8,
+            226.81,
+            492.31,
+            241.32
+          ],
+          "blockIndex": 8,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Step 1: Start with auth and database. Set up Next.js with NextAuth or Clerk. Configure"
+        },
+        {
+          "bbox": [
+            90.8,
+            242.81,
+            508.08,
+            257.24
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "PostgreSQL with Prisma. Build signup, login, and a protected dashboard route. This is the"
+        },
+        {
+          "bbox": [
+            90.8,
+            258.81,
+            261.23,
+            273.24
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "foundation everything else builds on."
+        },
+        {
+          "bbox": [
+            90.8,
+            278.81,
+            529.06,
+            293.32
+          ],
+          "blockIndex": 11,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Step 2: Build the core feature. Whatever your SaaS does — build the main feature with CRUD"
+        },
+        {
+          "bbox": [
+            90.8,
+            294.81,
+            541.2,
+            309.24
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "operations. Use server actions or API routes. Make sure it's genuinely useful, even if simple. Test"
+        },
+        {
+          "bbox": [
+            90.8,
+            310.81,
+            190.0,
+            325.24
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "it yourself for a week."
+        },
+        {
+          "bbox": [
+            90.8,
+            330.81,
+            499.89,
+            345.32
+          ],
+          "blockIndex": 14,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Step 3: Add Stripe payments. Implement a pricing page with free/pro tiers. Set up Stripe"
+        },
+        {
+          "bbox": [
+            90.8,
+            346.81,
+            499.3,
+            361.24
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Checkout for subscriptions. Handle webhooks for payment events (subscription created,"
+        },
+        {
+          "bbox": [
+            90.8,
+            362.81,
+            379.13,
+            377.24
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "updated, canceled). Gate pro features behind payment status."
+        },
+        {
+          "bbox": [
+            90.8,
+            382.81,
+            525.01,
+            397.32
+          ],
+          "blockIndex": 17,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Step 4: Build the landing page. Create a marketing page with: clear value proposition, feature"
+        },
+        {
+          "bbox": [
+            90.8,
+            398.81,
+            538.01,
+            413.24
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "list, pricing table, social proof (even if it's just 'built by a student at NYU'), and a CTA button. This"
+        },
+        {
+          "bbox": [
+            90.8,
+            414.81,
+            274.63,
+            429.24
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "page should convert visitors to signups."
+        },
+        {
+          "bbox": [
+            90.8,
+            434.81,
+            509.79,
+            449.32
+          ],
+          "blockIndex": 20,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Step 5: Add email notifications. Set up Resend for transactional emails: welcome email on"
+        },
+        {
+          "bbox": [
+            90.8,
+            450.81,
+            506.33,
+            465.24
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "signup, payment receipt, and a weekly digest. These small touches make the product feel"
+        },
+        {
+          "bbox": [
+            90.8,
+            466.81,
+            150.32,
+            481.24
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "professional."
+        },
+        {
+          "bbox": [
+            90.8,
+            486.81,
+            541.2,
+            501.32
+          ],
+          "blockIndex": 23,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Step 6: Deploy and launch. Deploy to Vercel (frontend + API) + Supabase (DB). Set up a custom"
+        },
+        {
+          "bbox": [
+            90.8,
+            502.81,
+            519.74,
+            517.24
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "domain if possible. Share on Product Hunt, Reddit, and LinkedIn. Track analytics with Vercel"
+        },
+        {
+          "bbox": [
+            90.8,
+            518.81,
+            193.5,
+            533.24
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Analytics or Plausible."
+        },
+        {
+          "bbox": [
+            70.8,
+            556.69,
+            226.85,
+            574.59
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Useful links & resources:"
+        },
+        {
+          "bbox": [
+            90.8,
+            580.85,
+            209.91,
+            594.59
+          ],
+          "blockIndex": 27,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "• Next.js 14 documentation"
+        },
+        {
+          "bbox": [
+            90.8,
+            598.85,
+            199.91,
+            612.59
+          ],
+          "blockIndex": 28,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "• Stripe integration guide"
+        },
+        {
+          "bbox": [
+            90.8,
+            616.85,
+            216.58,
+            630.59
+          ],
+          "blockIndex": 29,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "• NextAuth.js documentation"
+        },
+        {
+          "bbox": [
+            90.8,
+            634.85,
+            222.13,
+            648.59
+          ],
+          "blockIndex": 30,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "• shadcn/ui component library"
+        },
+        {
+          "bbox": [
+            90.8,
+            652.85,
+            177.11,
+            666.59
+          ],
+          "blockIndex": 31,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "• Resend email API"
+        },
+        {
+          "bbox": [
+            90.8,
+            670.85,
+            261.05,
+            684.59
+          ],
+          "blockIndex": 32,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "• SaaS starter template — Open SaaS"
+        }
+      ],
+      "charCount": 1868,
+      "height": 792.0,
+      "pageNumber": 15,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            224.44,
+            754.6,
+            387.56,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "@1nska  •  6 CS Portfolio Projects  •  Page 16"
+        },
+        {
+          "bbox": [
+            108.8,
+            72.81,
+            503.2,
+            87.32
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Level up: Add AI-powered features using the OpenAI or Anthropic API. For example,"
+        },
+        {
+          "bbox": [
+            108.8,
+            88.81,
+            436.13,
+            103.24
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "if it's a writing tool, add AI suggestions. If it's an invoice tool, add smart"
+        },
+        {
+          "bbox": [
+            108.8,
+            104.81,
+            454.55,
+            119.24
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "categorization. AI features in a SaaS app show you're building with current"
+        },
+        {
+          "bbox": [
+            108.8,
+            120.81,
+            162.5,
+            135.24
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "technology."
+        }
+      ],
+      "charCount": 291,
+      "height": 792.0,
+      "pageNumber": 16,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            224.44,
+            754.6,
+            387.56,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "@1nska  •  6 CS Portfolio Projects  •  Page 17"
+        },
+        {
+          "bbox": [
+            70.8,
+            61.64,
+            101.94,
+            100.2
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "#6"
+        },
+        {
+          "bbox": [
+            70.8,
+            110.34,
+            372.86,
+            135.13
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Programming Language Interpreter"
+        },
+        {
+          "bbox": [
+            70.8,
+            138.9,
+            346.7,
+            152.67
+          ],
+          "blockIndex": 3,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "CS FUNDAMENTALS • COMPILERS • LANGUAGE DESIGN"
+        },
+        {
+          "bbox": [
+            70.8,
+            160.81,
+            323.86,
+            175.32
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Difficulty: Advanced | Estimated time: 3-5 weekends"
+        },
+        {
+          "bbox": [
+            70.8,
+            444.67,
+            541.2,
+            459.18
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Why recruiters love this: This is the project that makes engineers say \"wait, you built that as a"
+        },
+        {
+          "bbox": [
+            70.8,
+            460.67,
+            541.2,
+            475.1
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "student?\" Writing an interpreter proves deep CS fundamentals — parsing, tree traversal, scope"
+        },
+        {
+          "bbox": [
+            70.8,
+            476.67,
+            533.0,
+            491.1
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "management, type systems. Very few students attempt this, which makes it an instant differentiator."
+        },
+        {
+          "bbox": [
+            70.8,
+            500.67,
+            541.2,
+            515.1
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Build a tree-walking interpreter for a simple programming language you design. It should support"
+        },
+        {
+          "bbox": [
+            70.8,
+            516.67,
+            541.2,
+            531.1
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "variables, arithmetic, conditionals, loops, functions with parameters, and print output. Write it in"
+        },
+        {
+          "bbox": [
+            70.8,
+            532.67,
+            516.07,
+            547.1
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Python, JavaScript, or Go. Include a REPL (interactive console) and the ability to run script files."
+        },
+        {
+          "bbox": [
+            70.8,
+            560.55,
+            142.33,
+            578.45
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Tech stack:"
+        },
+        {
+          "bbox": [
+            90.8,
+            584.67,
+            476.7,
+            599.18
+          ],
+          "blockIndex": 12,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "• Python, JavaScript, or Go — implementation language (pick one you know well)"
+        },
+        {
+          "bbox": [
+            90.8,
+            604.67,
+            420.68,
+            619.18
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "• No frameworks — build the lexer, parser, and evaluator from scratch"
+        },
+        {
+          "bbox": [
+            90.8,
+            624.67,
+            327.93,
+            639.18
+          ],
+          "blockIndex": 14,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "• pytest / Jest — testing each stage of the pipeline"
+        },
+        {
+          "bbox": [
+            90.8,
+            644.67,
+            359.97,
+            659.18
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "• Crafting Interpreters (free book) — the definitive guide"
+        },
+        {
+          "bbox": [
+            90.8,
+            664.67,
+            407.28,
+            679.18
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "• GitHub Pages — host an interactive playground for your language"
+        },
+        {
+          "bbox": [
+            70.8,
+            700.55,
+            166.9,
+            718.45
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Skills it proves:"
+        }
+      ],
+      "charCount": 1111,
+      "height": 792.0,
+      "pageNumber": 17,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            224.44,
+            754.6,
+            387.56,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "@1nska  •  6 CS Portfolio Projects  •  Page 18"
+        },
+        {
+          "bbox": [
+            90.8,
+            62.81,
+            340.73,
+            77.24
+          ],
+          "blockIndex": 1,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "• Lexical analysis — tokenization, regular expressions"
+        },
+        {
+          "bbox": [
+            90.8,
+            82.81,
+            376.32,
+            97.24
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "• Parsing — recursive descent, Abstract Syntax Trees (ASTs)"
+        },
+        {
+          "bbox": [
+            90.8,
+            102.81,
+            442.29,
+            117.24
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "• Evaluation — tree-walking interpretation, environment/scope management"
+        },
+        {
+          "bbox": [
+            90.8,
+            122.81,
+            446.39,
+            137.24
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "• Language design — syntax decisions, operator precedence, error reporting"
+        },
+        {
+          "bbox": [
+            90.8,
+            142.81,
+            406.69,
+            157.24
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "• Software engineering — clean architecture, comprehensive testing"
+        },
+        {
+          "bbox": [
+            70.8,
+            178.69,
+            164.69,
+            196.59
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "How to build it:"
+        },
+        {
+          "bbox": [
+            90.8,
+            202.81,
+            538.98,
+            217.32
+          ],
+          "blockIndex": 7,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Step 1: Build the lexer (tokenizer). Read source code character by character. Output a stream of"
+        },
+        {
+          "bbox": [
+            90.8,
+            218.81,
+            541.2,
+            233.24
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "tokens: NUMBER, STRING, IDENTIFIER, PLUS, MINUS, LET, IF, FUNCTION, etc. Handle edge"
+        },
+        {
+          "bbox": [
+            90.8,
+            234.81,
+            390.46,
+            249.24
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "cases like multi-character operators (==, !=) and string escaping."
+        },
+        {
+          "bbox": [
+            90.8,
+            254.81,
+            522.65,
+            269.32
+          ],
+          "blockIndex": 10,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Step 2: Build the parser. Take the token stream and produce an Abstract Syntax Tree (AST)."
+        },
+        {
+          "bbox": [
+            90.8,
+            270.81,
+            524.96,
+            285.24
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Use recursive descent parsing. Start with expressions (math), then add statements (let, print),"
+        },
+        {
+          "bbox": [
+            90.8,
+            286.81,
+            308.48,
+            301.24
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "then control flow (if/else, while), then functions."
+        },
+        {
+          "bbox": [
+            90.8,
+            306.81,
+            529.09,
+            321.32
+          ],
+          "blockIndex": 13,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Step 3: Build the evaluator. Walk the AST and execute each node. Implement an Environment"
+        },
+        {
+          "bbox": [
+            90.8,
+            322.81,
+            541.2,
+            337.24
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "class for variable scoping. Handle nested scopes (functions should have their own scope that can"
+        },
+        {
+          "bbox": [
+            90.8,
+            338.81,
+            193.51,
+            353.24
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "access parent scope)."
+        },
+        {
+          "bbox": [
+            90.8,
+            358.81,
+            534.91,
+            373.32
+          ],
+          "blockIndex": 16,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Step 4: Add functions. This is where it gets interesting. Functions need parameter binding, local"
+        },
+        {
+          "bbox": [
+            90.8,
+            374.81,
+            526.72,
+            389.24
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "scope, return values, and (optionally) closures. Test with recursive functions like fibonacci and"
+        },
+        {
+          "bbox": [
+            90.8,
+            390.81,
+            130.48,
+            405.24
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "factorial."
+        },
+        {
+          "bbox": [
+            90.8,
+            410.81,
+            536.65,
+            425.32
+          ],
+          "blockIndex": 19,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Step 5: Add error handling with line numbers. When something goes wrong (undefined variable,"
+        },
+        {
+          "bbox": [
+            90.8,
+            426.81,
+            534.9,
+            441.24
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "type mismatch), show the exact line number and a helpful error message. Good errors separate"
+        },
+        {
+          "bbox": [
+            90.8,
+            442.81,
+            189.43,
+            457.24
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "a toy from a real tool."
+        },
+        {
+          "bbox": [
+            90.8,
+            462.81,
+            484.72,
+            477.32
+          ],
+          "blockIndex": 22,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Step 6: Build the REPL and file runner. Create an interactive mode where users type"
+        },
+        {
+          "bbox": [
+            90.8,
+            478.81,
+            526.13,
+            493.24
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "expressions and see results immediately. Also support running .mylang script files. Publish on"
+        },
+        {
+          "bbox": [
+            90.8,
+            494.81,
+            321.89,
+            509.24
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "GitHub with example programs and a playground."
+        },
+        {
+          "bbox": [
+            70.8,
+            532.69,
+            226.85,
+            550.59
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Useful links & resources:"
+        },
+        {
+          "bbox": [
+            90.8,
+            556.85,
+            272.71,
+            570.59
+          ],
+          "blockIndex": 26,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "• Crafting Interpreters — free online book"
+        },
+        {
+          "bbox": [
+            90.8,
+            574.85,
+            250.47,
+            588.59
+          ],
+          "blockIndex": 27,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "• Writing An Interpreter In Go (book)"
+        },
+        {
+          "bbox": [
+            90.8,
+            592.85,
+            243.81,
+            606.59
+          ],
+          "blockIndex": 28,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "• Build your own Lisp — free guide"
+        },
+        {
+          "bbox": [
+            90.8,
+            610.85,
+            267.13,
+            624.59
+          ],
+          "blockIndex": 29,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "• AST Explorer — visualize syntax trees"
+        },
+        {
+          "bbox": [
+            90.8,
+            628.85,
+            199.35,
+            642.59
+          ],
+          "blockIndex": 30,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "• Pratt parsing explained"
+        },
+        {
+          "bbox": [
+            90.8,
+            646.85,
+            282.17,
+            660.59
+          ],
+          "blockIndex": 31,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "• Language implementation patterns (book)"
+        }
+      ],
+      "charCount": 1952,
+      "height": 792.0,
+      "pageNumber": 18,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            224.44,
+            754.6,
+            387.56,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "@1nska  •  6 CS Portfolio Projects  •  Page 19"
+        },
+        {
+          "bbox": [
+            108.8,
+            72.81,
+            502.15,
+            87.32
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Level up: Compile your language to bytecode and build a virtual machine to execute"
+        },
+        {
+          "bbox": [
+            108.8,
+            88.81,
+            494.56,
+            103.24
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "it. This is what Python, Ruby, and Lua do internally. Or add a type system with type"
+        },
+        {
+          "bbox": [
+            108.8,
+            104.81,
+            498.06,
+            119.24
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "inference — this shows you understand concepts most CS grads only see in theory."
+        }
+      ],
+      "charCount": 292,
+      "height": 792.0,
+      "pageNumber": 19,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            224.44,
+            754.6,
+            387.56,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "@1nska  •  6 CS Portfolio Projects  •  Page 20"
+        },
+        {
+          "bbox": [
+            70.8,
+            106.06,
+            244.42,
+            136.35
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Quick Reference"
+        },
+        {
+          "bbox": [
+            105.5,
+            154.97,
+            485.7,
+            167.36
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "#\nProject\nKey Skill Area\nDifficulty\nTime"
+        },
+        {
+          "bbox": [
+            105.5,
+            182.93,
+            503.21,
+            195.29
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "1\nReal-Time Chat\nFull-Stack + Networking\nIntermediate\n2-3 weekends"
+        },
+        {
+          "bbox": [
+            105.5,
+            210.93,
+            503.21,
+            223.29
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "2\nRAG AI Assistant\nAI/ML + NLP\nIntermediate\n2-3 weekends"
+        },
+        {
+          "bbox": [
+            105.5,
+            238.93,
+            503.21,
+            251.29
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "3\nTask Queue\nDistributed Systems\nAdvanced\n3-4 weekends"
+        },
+        {
+          "bbox": [
+            105.5,
+            266.93,
+            503.21,
+            279.29
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "4\nCLI Tool\nOpen Source + DevOps\nIntermediate\n1-2 weekends"
+        },
+        {
+          "bbox": [
+            105.5,
+            294.93,
+            503.21,
+            307.29
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "5\nSaaS App\nFull-Stack + Product\nAdvanced\n4-6 weekends"
+        },
+        {
+          "bbox": [
+            105.5,
+            322.93,
+            503.21,
+            335.29
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "6\nInterpreter\nCS Fundamentals\nAdvanced\n3-5 weekends"
+        },
+        {
+          "bbox": [
+            70.8,
+            386.06,
+            246.8,
+            416.35
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "What To Do Next"
+        },
+        {
+          "bbox": [
+            70.8,
+            426.81,
+            541.2,
+            441.24
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Don't try to build all 6. Pick the one that excites you most, set up the repo today, and commit your first"
+        },
+        {
+          "bbox": [
+            70.8,
+            442.81,
+            393.54,
+            457.24
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "code this weekend. A finished project beats a perfect plan every time."
+        },
+        {
+          "bbox": [
+            70.8,
+            466.81,
+            541.2,
+            481.24
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "When you finish, package it properly: clean code on GitHub, a detailed README with screenshots or"
+        },
+        {
+          "bbox": [
+            70.8,
+            482.81,
+            541.2,
+            497.24
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "a demo GIF, a live deployment link, and test coverage. That package is what gets you interviews at"
+        },
+        {
+          "bbox": [
+            70.8,
+            498.81,
+            294.32,
+            513.24
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "companies most students think are out of reach."
+        },
+        {
+          "bbox": [
+            108.8,
+            544.86,
+            289.67,
+            559.32
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Essential free tools for CS students:"
+        },
+        {
+          "bbox": [
+            108.8,
+            560.81,
+            298.94,
+            575.24
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "• Vercel — deploy frontend + API for free"
+        },
+        {
+          "bbox": [
+            108.8,
+            576.81,
+            283.46,
+            591.24
+          ],
+          "blockIndex": 17,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "• Railway — deploy backends for free"
+        },
+        {
+          "bbox": [
+            108.8,
+            592.81,
+            303.33,
+            607.24
+          ],
+          "blockIndex": 18,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "• Supabase — free PostgreSQL database"
+        },
+        {
+          "bbox": [
+            108.8,
+            608.81,
+            347.06,
+            623.24
+          ],
+          "blockIndex": 19,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "• GitHub — portfolio hosting, CI/CD, version control"
+        },
+        {
+          "bbox": [
+            108.8,
+            624.81,
+            271.78,
+            639.24
+          ],
+          "blockIndex": 20,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "• Cursor — AI-powered code editor"
+        }
+      ],
+      "charCount": 1107,
+      "height": 792.0,
+      "pageNumber": 20,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            224.44,
+            754.6,
+            387.56,
+            765.59
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "@1nska  •  6 CS Portfolio Projects  •  Page 21"
+        },
+        {
+          "bbox": [
+            108.8,
+            72.81,
+            477.34,
+            87.32
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "Follow @1nska on Instagram for more project guides, build logs, and real talk"
+        },
+        {
+          "bbox": [
+            108.8,
+            88.81,
+            502.85,
+            103.24
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "about building as a student. DM me \"BUILD\" and I'll help you pick the right project for"
+        },
+        {
+          "bbox": [
+            108.8,
+            104.81,
+            177.06,
+            119.24
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "your skill level."
+        },
+        {
+          "bbox": [
+            263.73,
+            170.92,
+            348.27,
+            196.29
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 21,
+          "text": "— Enes (@1nska)\nNYU Shanghai, 2026"
+        }
+      ],
+      "charCount": 261,
+      "height": 792.0,
+      "pageNumber": 21,
+      "textExtractable": true,
+      "width": 612.0
+    }
+  ],
+  "provenance": {
+    "confidence": "EXACT",
+    "extractionMethod": "pymupdf-blocks-v1",
+    "extractorVersion": "1.28.0",
+    "generatorVersion": null,
+    "origin": "extracted",
+    "source": "guide-016",
+    "sourceHash": "0a80bffc518a6f25ad0d139bbe3dcf1c01d00e8f776b80d71d49bcd75c9d2073",
+    "sourcePage": null,
+    "sourcePath": "Engineering guides/cs portfolio projects.pdf",
+    "sourceSection": "ROOT"
+  },
+  "relativePath": "Engineering guides/cs portfolio projects.pdf",
+  "schemaVersion": "1.0.0",
+  "sha256": "0a80bffc518a6f25ad0d139bbe3dcf1c01d00e8f776b80d71d49bcd75c9d2073",
+  "sourceId": "guide-016"
+}

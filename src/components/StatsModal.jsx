@@ -134,17 +134,17 @@ export default function StatsModal({ guides, totalSize, onClose }) {
           {/* Automation Information */}
           <div className="p-4 rounded-xl bg-cyan-950/40 border border-cyan-800/50 space-y-2">
             <h4 className="text-xs font-bold text-cyan-300 uppercase tracking-wider flex items-center gap-1.5">
-              <FolderSync className="h-4 w-4" /> ¿Cómo funciona la sincronización automática?
+              <FolderSync className="h-4 w-4" /> Arquitectura Canónica Git & Pipeline Determinista
             </h4>
             <ul className="text-xs text-slate-300 space-y-1.5 list-disc list-inside">
               <li>
-                <strong>Al subir a GitHub:</strong> Simplemente añade el archivo PDF a la carpeta <code className="text-cyan-300">Engineering guides/</code> y haz push (o súbelo directo en la web de GitHub). GitHub Actions indexará la guía y actualizará el portal web automáticamente.
+                <strong>Fuente Canónica:</strong> El contenido oficial reside exclusivamente en el repositorio Git en la carpeta <code className="text-cyan-300">Engineering guides/</code>.
               </li>
               <li>
-                <strong>Live Sync en el navegador:</strong> Haz clic en el botón <strong className="text-cyan-300">Live Sync</strong> en la barra superior para forzar la consulta en vivo a GitHub y detectar PDFs recién subidos al instante.
+                <strong>Pipeline Automatizado:</strong> El pipeline genera el manifest criptográfico, valida la integridad de cada PDF, extrae el Document IR y compila el catálogo estático reproducible.
               </li>
               <li>
-                <strong>Google Drive Sync:</strong> El workflow de GitHub Actions o el script local <code className="text-cyan-300">python scripts/sync_gdrive.py</code> sincroniza periódicamente la carpeta de Drive con el repositorio.
+                <strong>Cero Dependencias Externas:</strong> La aplicación es 100% autónoma, estática y no depende de APIs externas ni almacenamientos en la nube de terceros en tiempo de ejecución.
               </li>
             </ul>
           </div>

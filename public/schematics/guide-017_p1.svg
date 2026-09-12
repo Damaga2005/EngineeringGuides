@@ -22,7 +22,7 @@
 
   <!-- Header Panel -->
   <rect x="30" y="25" width="840" height="52" rx="8" fill="#101C38" stroke="#2A4575" stroke-width="1.5"/>
-  <text x="48" y="48" fill="#00E5FF" font-size="13" font-weight="bold" letter-spacing="0.5">ESQUEMA TÉCNICO CAD · Conexionado de Pantalla OLED SPI 2.42"</text>
+  <text x="48" y="48" fill="#00E5FF" font-size="13" font-weight="bold" letter-spacing="0.5">ESQUEMA TÉCNICO CAD · Conexionado de Pantalla OLED SPI 2.42&quot;</text>
   <text x="48" y="66" fill="#94A3B8" font-size="10">NIVEL LÓGICO 3.3V LVTTL · FILTRADO LOW-ESR · CONEXIONADO DIRECTO PUNTO A PUNTO</text>
 
   <!-- Left Block: MCU Controller -->

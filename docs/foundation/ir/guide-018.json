@@ -1,0 +1,5697 @@
+{
+  "metadata": {
+    "author": "(anonymous)",
+    "creationDate": "D:20260315051154+00'00'",
+    "creator": "(unspecified)",
+    "format": "PDF 1.4",
+    "modDate": "D:20260315051154+00'00'",
+    "producer": "ReportLab PDF Library - (opensource)",
+    "subject": "(unspecified)",
+    "title": "(anonymous)"
+  },
+  "pageCount": 20,
+  "pages": [
+    {
+      "blocks": [
+        {
+          "bbox": [
+            229.8,
+            99.7,
+            382.2,
+            113.47
+          ],
+          "blockIndex": 0,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "AI ERA • HARDWARE DEFENSE"
+        },
+        {
+          "bbox": [
+            128.19,
+            132.16,
+            483.81,
+            222.22
+          ],
+          "blockIndex": 1,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "6 EE PROJECTS THAT\nONLY EXIST BECAUSE"
+        },
+        {
+          "bbox": [
+            228.64,
+            224.16,
+            383.36,
+            268.22
+          ],
+          "blockIndex": 2,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "AI EXISTS"
+        },
+        {
+          "bbox": [
+            178.11,
+            301.42,
+            433.89,
+            319.29
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Circuits that fight back at the hardware level."
+        },
+        {
+          "bbox": [
+            116.7,
+            325.42,
+            495.3,
+            343.29
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Analog design. RF. Signal processing. Crypto hardware. Real EE."
+        },
+        {
+          "bbox": [
+            87.2,
+            369.61,
+            427.69,
+            384.04
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "1. AI Voice Cloning Detector — analog filter bank catches what ears can't"
+        },
+        {
+          "bbox": [
+            87.2,
+            389.61,
+            466.51,
+            404.04
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "2. EMI Side-Channel Sniffer — read what a processor is running from its radiation"
+        },
+        {
+          "bbox": [
+            87.2,
+            409.61,
+            449.0,
+            424.04
+          ],
+          "blockIndex": 7,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "3. Hardware AI Kill Switch — physically disconnect AI when behavior deviates"
+        },
+        {
+          "bbox": [
+            87.2,
+            429.61,
+            447.29,
+            444.04
+          ],
+          "blockIndex": 8,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "4. Deepfake-Proof Identity Badge — cryptographic proof of physical presence"
+        },
+        {
+          "bbox": [
+            87.2,
+            449.61,
+            437.33,
+            464.04
+          ],
+          "blockIndex": 9,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "5. Neuromorphic Sensor Fuser — analog circuits that compute like neurons"
+        },
+        {
+          "bbox": [
+            87.2,
+            469.61,
+            481.69,
+            484.04
+          ],
+          "blockIndex": 10,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "6. RF Fingerprinting Authenticator — identify devices by manufacturing imperfections"
+        },
+        {
+          "bbox": [
+            241.33,
+            519.73,
+            370.66,
+            532.09
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "By @1nska • Electrical Engineer"
+        }
+      ],
+      "charCount": 673,
+      "height": 792.0,
+      "pageNumber": 1,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            230.22,
+            758.2,
+            381.78,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "@1nska  •  6 AI-Era EE Projects  •  Page 2"
+        },
+        {
+          "bbox": [
+            67.2,
+            54.72,
+            200.57,
+            87.77
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "PROJECT 1"
+        },
+        {
+          "bbox": [
+            67.2,
+            105.0,
+            312.8,
+            132.54
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "AI Voice Cloning Detector"
+        },
+        {
+          "bbox": [
+            87.07,
+            141.43,
+            524.93,
+            159.29
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Analog circuit that detects AI-generated voices — no software, no ML model"
+        },
+        {
+          "bbox": [
+            89.2,
+            186.69,
+            137.51,
+            199.82
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Cost: ~$15"
+        },
+        {
+          "bbox": [
+            240.4,
+            173.74,
+            505.11,
+            199.82
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Difficulty:\nIntermediate-Advanced\nBuild Time: 1-2 weekends"
+        },
+        {
+          "bbox": [
+            67.2,
+            233.35,
+            191.39,
+            254.01
+          ],
+          "blockIndex": 6,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Why This Matters"
+        },
+        {
+          "bbox": [
+            67.2,
+            260.61,
+            544.8,
+            275.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "AI voice cloning has reached the point where human ears can't tell the difference. But cloned audio has"
+        },
+        {
+          "bbox": [
+            67.2,
+            276.61,
+            544.8,
+            291.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "measurable artifacts: spectral energy gaps in the 2-4kHz range, unnatural phase continuity, and"
+        },
+        {
+          "bbox": [
+            67.2,
+            292.61,
+            544.8,
+            307.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "missing micro-variations that exist in real vocal cords. This project detects those artifacts using pure"
+        },
+        {
+          "bbox": [
+            67.2,
+            308.61,
+            417.33,
+            323.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "analog signal processing — no machine learning model, no microcontroller."
+        },
+        {
+          "bbox": [
+            108.8,
+            342.61,
+            495.13,
+            357.12
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "The key insight: Real voices have chaotic, broadband energy with natural spectral"
+        },
+        {
+          "bbox": [
+            108.8,
+            358.61,
+            470.63,
+            373.04
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "variation. AI clones have suspiciously smooth spectral envelopes because the"
+        },
+        {
+          "bbox": [
+            108.8,
+            374.61,
+            484.64,
+            389.04
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "synthesis model interpolates between training samples. An analog filter bank can"
+        },
+        {
+          "bbox": [
+            108.8,
+            390.61,
+            275.11,
+            405.04
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "measure this difference in real time."
+        },
+        {
+          "bbox": [
+            67.2,
+            440.35,
+            213.08,
+            461.01
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "System Architecture"
+        },
+        {
+          "bbox": [
+            67.2,
+            681.59,
+            162.21,
+            702.24
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "How It Works"
+        }
+      ],
+      "charCount": 914,
+      "height": 792.0,
+      "pageNumber": 2,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            230.22,
+            758.2,
+            381.78,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "@1nska  •  6 AI-Era EE Projects  •  Page 3"
+        },
+        {
+          "bbox": [
+            87.2,
+            55.61,
+            539.32,
+            70.12
+          ],
+          "blockIndex": 1,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Microphone + pre-amp: Electret mic with JFET buffer, then an AGC stage (LM386 or OPA344)"
+        },
+        {
+          "bbox": [
+            87.2,
+            71.61,
+            343.38,
+            86.04
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "to normalize input levels regardless of speaker volume."
+        },
+        {
+          "bbox": [
+            87.2,
+            91.61,
+            534.94,
+            106.12
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Bandpass filter bank (8 bands): Eight parallel 2nd-order Sallen-Key bandpass filters covering"
+        },
+        {
+          "bbox": [
+            87.2,
+            107.61,
+            523.49,
+            122.04
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "200Hz to 8kHz. Each band is ~1 octave wide. Center frequencies: 250, 500, 1K, 1.5K, 2K, 3K,"
+        },
+        {
+          "bbox": [
+            87.2,
+            123.61,
+            143.23,
+            138.04
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "4.5K, 7KHz."
+        },
+        {
+          "bbox": [
+            87.2,
+            143.61,
+            521.87,
+            158.12
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Peak detectors: Each filter output feeds a diode peak detector with ~50ms decay time. This"
+        },
+        {
+          "bbox": [
+            87.2,
+            159.61,
+            346.33,
+            174.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "gives a DC voltage proportional to energy in each band."
+        },
+        {
+          "bbox": [
+            87.2,
+            179.61,
+            525.05,
+            194.12
+          ],
+          "blockIndex": 8,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Comparator array: Compares adjacent band energies and checks for suspicious gaps. Real"
+        },
+        {
+          "bbox": [
+            87.2,
+            195.61,
+            498.07,
+            210.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "voices: smooth roll-off, adjacent bands within 6dB. AI clones: sharp dips between bands,"
+        },
+        {
+          "bbox": [
+            87.2,
+            211.61,
+            172.39,
+            226.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "especially 2-4kHz."
+        },
+        {
+          "bbox": [
+            87.2,
+            231.61,
+            509.9,
+            246.12
+          ],
+          "blockIndex": 11,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "• Decision logic: If more than 2 adjacent-band ratios exceed threshold, a simple logic gate"
+        },
+        {
+          "bbox": [
+            87.2,
+            247.61,
+            398.78,
+            262.04
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "(74HC08 AND) triggers the RED LED. Otherwise, GREEN stays lit."
+        },
+        {
+          "bbox": [
+            67.2,
+            277.35,
+            223.92,
+            298.01
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Key Design Decisions"
+        },
+        {
+          "bbox": [
+            87.2,
+            304.61,
+            483.0,
+            319.12
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "→ Why 8 bands, not 16? More bands = more components but diminishing returns. 8"
+        },
+        {
+          "bbox": [
+            87.2,
+            320.61,
+            544.8,
+            335.04
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "octave-spaced bands capture the spectral envelope accurately enough to detect synthesis artifacts"
+        },
+        {
+          "bbox": [
+            87.2,
+            336.61,
+            279.78,
+            351.04
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "while keeping the circuit on a single PCB."
+        },
+        {
+          "bbox": [
+            87.2,
+            356.61,
+            530.53,
+            371.12
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "→ Why Sallen-Key topology? Unity-gain Sallen-Key filters use only 2 resistors and 2 caps per"
+        },
+        {
+          "bbox": [
+            87.2,
+            372.61,
+            544.8,
+            387.04
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "stage. Low component count, good stability, and the op-amp doesn't need to provide gain (reduces"
+        },
+        {
+          "bbox": [
+            87.2,
+            388.61,
+            118.71,
+            403.04
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "noise)."
+        },
+        {
+          "bbox": [
+            87.2,
+            408.61,
+            534.05,
+            423.12
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "→ Why analog, not digital? An MCU with FFT could do this, but the point is demonstrating that"
+        },
+        {
+          "bbox": [
+            87.2,
+            424.61,
+            540.31,
+            439.04
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "signal processing IS circuit design. In an interview, explaining why you chose each filter's Q factor"
+        },
+        {
+          "bbox": [
+            87.2,
+            440.61,
+            421.5,
+            455.04
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "and center frequency is far more impressive than 'I used an FFT library.'"
+        },
+        {
+          "bbox": [
+            67.2,
+            470.35,
+            178.07,
+            491.01
+          ],
+          "blockIndex": 23,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Bill of Materials"
+        },
+        {
+          "bbox": [
+            114.0,
+            503.74,
+            479.06,
+            516.82
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Component\nPart / Spec\nQty\n~Cost"
+        },
+        {
+          "bbox": [
+            114.0,
+            528.69,
+            476.17,
+            541.74
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Electret microphone\nCMA-4544PF-W\n1\n$0.80"
+        },
+        {
+          "bbox": [
+            114.0,
+            553.69,
+            476.17,
+            566.74
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Quad op-amps\nTL074 (4 channels each)\n2\n$1.60"
+        },
+        {
+          "bbox": [
+            114.0,
+            578.69,
+            476.17,
+            591.74
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Resistors (1%)\nAssorted values for filters\n~40\n$2.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            603.69,
+            476.17,
+            616.74
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Ceramic capacitors\nAssorted values for filters\n~20\n$1.50"
+        },
+        {
+          "bbox": [
+            114.0,
+            628.69,
+            476.17,
+            641.74
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Schottky diodes\nBAT54 (for peak detectors)\n8\n$1.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            653.69,
+            476.17,
+            666.74
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Comparators\nLM339 (quad comparator)\n2\n$1.20"
+        },
+        {
+          "bbox": [
+            114.0,
+            678.69,
+            476.17,
+            691.74
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Logic gates\n74HC08 (quad AND)\n1\n$0.50"
+        },
+        {
+          "bbox": [
+            114.0,
+            703.69,
+            476.17,
+            716.74
+          ],
+          "blockIndex": 32,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "LEDs\nGreen + Red, 5mm\n2\n$0.20"
+        }
+      ],
+      "charCount": 1976,
+      "height": 792.0,
+      "pageNumber": 3,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            230.22,
+            758.2,
+            381.78,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "@1nska  •  6 AI-Era EE Projects  •  Page 4"
+        },
+        {
+          "bbox": [
+            114.0,
+            61.69,
+            476.17,
+            74.74
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Protoboard / PCB\n70x90mm\n1\n$3.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            86.69,
+            476.17,
+            99.74
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Power\n9V battery + 7805 regulator\n1\n$1.50"
+        },
+        {
+          "bbox": [
+            67.2,
+            131.35,
+            149.71,
+            152.01
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Build Steps"
+        },
+        {
+          "bbox": [
+            87.2,
+            158.61,
+            539.17,
+            173.12
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Mic + Pre-amp: Solder the electret mic with a 2.2K pull-up to VCC. Buffer through a JFET source"
+        },
+        {
+          "bbox": [
+            87.2,
+            174.61,
+            514.99,
+            189.04
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "follower. Feed into the first TL074 channel configured as a non-inverting amp with gain of 20"
+        },
+        {
+          "bbox": [
+            87.2,
+            190.61,
+            336.72,
+            205.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "(R2/R1 = 19). Add a 10uF coupling cap on the output."
+        },
+        {
+          "bbox": [
+            87.2,
+            210.61,
+            530.25,
+            225.12
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Filter Bank: Build 8 Sallen-Key bandpass filters. For each: calculate R and C values using fI ="
+        },
+        {
+          "bbox": [
+            87.2,
+            226.61,
+            525.47,
+            241.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "1/(2π√(R1·R2·C1·C2)) with Q ≈ 0.707. Use 1% resistors. Wire each filter's input to the pre-amp"
+        },
+        {
+          "bbox": [
+            87.2,
+            242.61,
+            167.16,
+            257.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "output in parallel."
+        },
+        {
+          "bbox": [
+            87.2,
+            262.61,
+            524.64,
+            277.12
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Peak Detectors: Each filter output → BAT54 Schottky diode → 10nF cap to ground with 100K"
+        },
+        {
+          "bbox": [
+            87.2,
+            278.61,
+            543.85,
+            293.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "discharge resistor. This gives ~50ms decay. The DC voltage across the cap represents the energy"
+        },
+        {
+          "bbox": [
+            87.2,
+            294.61,
+            144.99,
+            309.04
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "in that band."
+        },
+        {
+          "bbox": [
+            87.2,
+            314.61,
+            544.8,
+            329.12
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Comparator Network: Use LM339 comparators. Compare adjacent band peak voltages through a"
+        },
+        {
+          "bbox": [
+            87.2,
+            330.61,
+            544.8,
+            345.04
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "resistive divider that sets the 6dB threshold. If band N is more than 6dB below band N-1 AND band"
+        },
+        {
+          "bbox": [
+            87.2,
+            346.61,
+            269.6,
+            361.04
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "N+1, that comparator output goes high."
+        },
+        {
+          "bbox": [
+            87.2,
+            366.61,
+            510.89,
+            381.12
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Decision + Output: Feed comparator outputs into 74HC08 AND gates. If 2+ adjacent gaps"
+        },
+        {
+          "bbox": [
+            87.2,
+            382.61,
+            534.66,
+            397.04
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "detected simultaneously, the AND output goes high → RED LED. Otherwise, GREEN LED stays"
+        },
+        {
+          "bbox": [
+            87.2,
+            398.61,
+            450.77,
+            413.04
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "on through an inverter. Test with real speech vs. AI samples from ElevenLabs."
+        },
+        {
+          "bbox": [
+            108.8,
+            428.67,
+            212.08,
+            443.12
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Interview Questions:"
+        },
+        {
+          "bbox": [
+            108.8,
+            444.61,
+            400.47,
+            459.04
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "→ Why did you choose 8 bands instead of using a digital FFT?"
+        },
+        {
+          "bbox": [
+            108.8,
+            460.61,
+            465.24,
+            475.04
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "→ How did you calculate the center frequencies and Q values for each filter?"
+        },
+        {
+          "bbox": [
+            108.8,
+            476.61,
+            492.69,
+            491.04
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "→ What determines the peak detector decay time, and how does it affect detection"
+        },
+        {
+          "bbox": [
+            108.8,
+            492.61,
+            156.65,
+            507.04
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "accuracy?"
+        },
+        {
+          "bbox": [
+            108.8,
+            508.61,
+            487.98,
+            523.04
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "→ What spectral characteristics distinguish AI-generated audio from real speech?"
+        },
+        {
+          "bbox": [
+            108.8,
+            524.61,
+            408.03,
+            539.04
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "→ How would you improve this design to reduce false positives?"
+        },
+        {
+          "bbox": [
+            108.8,
+            540.61,
+            483.34,
+            555.04
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "→ Could this circuit be defeated by a more advanced AI model? What would you"
+        },
+        {
+          "bbox": [
+            108.8,
+            556.61,
+            149.08,
+            571.04
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "change?"
+        }
+      ],
+      "charCount": 1712,
+      "height": 792.0,
+      "pageNumber": 4,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            230.22,
+            758.2,
+            381.78,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "@1nska  •  6 AI-Era EE Projects  •  Page 5"
+        },
+        {
+          "bbox": [
+            67.2,
+            54.72,
+            200.57,
+            87.77
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "PROJECT 2"
+        },
+        {
+          "bbox": [
+            67.2,
+            105.0,
+            305.02,
+            132.54
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "EMI Side-Channel Sniffer"
+        },
+        {
+          "bbox": [
+            78.25,
+            141.43,
+            533.75,
+            159.29
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Read electromagnetic leakage from a processor to determine what software it's"
+        },
+        {
+          "bbox": [
+            284.32,
+            159.43,
+            327.68,
+            177.29
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "running"
+        },
+        {
+          "bbox": [
+            89.2,
+            191.69,
+            505.11,
+            204.82
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Cost: ~$30\nDifficulty: Advanced\nBuild Time: 1-2 weekends"
+        },
+        {
+          "bbox": [
+            67.2,
+            238.35,
+            191.39,
+            259.01
+          ],
+          "blockIndex": 6,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Why This Matters"
+        },
+        {
+          "bbox": [
+            67.2,
+            265.61,
+            544.8,
+            280.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Every processor emits electromagnetic radiation proportional to its switching activity. Different"
+        },
+        {
+          "bbox": [
+            67.2,
+            281.61,
+            544.8,
+            296.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "instructions draw different currents, creating unique EM signatures. Published research (Batina et al.)"
+        },
+        {
+          "bbox": [
+            67.2,
+            297.61,
+            544.8,
+            312.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "has demonstrated that you can extract neural network architectures from EM emissions alone. This"
+        },
+        {
+          "bbox": [
+            67.2,
+            313.61,
+            544.8,
+            328.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "project builds the capture tool: a near-field probe, low-noise amplifier, and SDR-based analysis"
+        },
+        {
+          "bbox": [
+            67.2,
+            329.61,
+            106.3,
+            344.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "pipeline."
+        },
+        {
+          "bbox": [
+            108.8,
+            363.61,
+            500.36,
+            378.12
+          ],
+          "blockIndex": 12,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "What this proves to a recruiter: You understand RF signal chain design, low-noise"
+        },
+        {
+          "bbox": [
+            108.8,
+            379.61,
+            470.04,
+            394.04
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "analog, EM compatibility, and DSP. This is the intersection of analog, RF, and"
+        },
+        {
+          "bbox": [
+            108.8,
+            395.61,
+            374.9,
+            410.04
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "security — exactly where the highest-paying EE jobs live."
+        },
+        {
+          "bbox": [
+            67.2,
+            445.35,
+            213.08,
+            466.01
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "System Architecture"
+        },
+        {
+          "bbox": [
+            67.2,
+            686.59,
+            162.21,
+            707.24
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "How It Works"
+        }
+      ],
+      "charCount": 879,
+      "height": 792.0,
+      "pageNumber": 5,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            230.22,
+            758.2,
+            381.78,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "@1nska  •  6 AI-Era EE Projects  •  Page 6"
+        },
+        {
+          "bbox": [
+            87.2,
+            55.61,
+            517.4,
+            70.12
+          ],
+          "blockIndex": 1,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• Near-field H-probe: A small loop antenna (10-20mm diameter) made from semi-rigid coax."
+        },
+        {
+          "bbox": [
+            87.2,
+            71.61,
+            514.94,
+            86.04
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Captures magnetic field emissions within a few cm of the target IC. The small aperture gives"
+        },
+        {
+          "bbox": [
+            87.2,
+            87.61,
+            325.88,
+            102.04
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "spatial selectivity — you can probe individual chips."
+        },
+        {
+          "bbox": [
+            87.2,
+            107.61,
+            494.85,
+            122.12
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• Low-noise amplifier (LNA): A 30dB gain LNA (SPF5189Z or MAR-6+) with 50Ω input"
+        },
+        {
+          "bbox": [
+            87.2,
+            123.61,
+            526.92,
+            138.04
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "impedance. NF < 1dB. Powered via bias tee from the SDR or external 5V. Critical: proper input"
+        },
+        {
+          "bbox": [
+            87.2,
+            139.61,
+            361.49,
+            154.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "matching and bypass caps or you amplify noise, not signal."
+        },
+        {
+          "bbox": [
+            87.2,
+            159.61,
+            537.25,
+            174.12
+          ],
+          "blockIndex": 7,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• Bandpass filter: 10-500MHz range covers most digital switching activity. A simple LC filter or a"
+        },
+        {
+          "bbox": [
+            87.2,
+            175.61,
+            491.54,
+            190.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "commercial SAW filter removes out-of-band interference (WiFi, cellular, broadcast FM)."
+        },
+        {
+          "bbox": [
+            87.2,
+            195.61,
+            532.03,
+            210.12
+          ],
+          "blockIndex": 9,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• RTL-SDR: The RTL2832U-based SDR dongle samples the filtered signal. 8-bit ADC, up to 2.4"
+        },
+        {
+          "bbox": [
+            87.2,
+            211.61,
+            381.94,
+            226.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "MSPS bandwidth. Connect via USB to a laptop running Python."
+        },
+        {
+          "bbox": [
+            87.2,
+            231.61,
+            536.08,
+            246.12
+          ],
+          "blockIndex": 11,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "• Analysis (Python): Use pyrtlsdr to capture IQ samples. Run spectrogram (short-time FFT) and"
+        },
+        {
+          "bbox": [
+            87.2,
+            247.61,
+            533.64,
+            262.04
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "correlate spectral patterns with known instruction sequences. Different AES rounds, different ML"
+        },
+        {
+          "bbox": [
+            87.2,
+            263.61,
+            375.49,
+            278.04
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "inference stages, idle vs. active — all have distinct signatures."
+        },
+        {
+          "bbox": [
+            67.2,
+            293.35,
+            178.07,
+            314.01
+          ],
+          "blockIndex": 14,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Bill of Materials"
+        },
+        {
+          "bbox": [
+            114.0,
+            326.74,
+            479.06,
+            339.82
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Component\nPart / Spec\nQty\n~Cost"
+        },
+        {
+          "bbox": [
+            114.0,
+            351.69,
+            476.17,
+            364.74
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Semi-rigid coax\nRG-402 or RG-405 (for probe)\n30cm\n$3.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            376.69,
+            476.17,
+            389.74
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "SMA connectors\nEdge-mount SMA female\n3\n$2.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            401.69,
+            476.17,
+            414.74
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "LNA module\nSPF5189Z (20MHz-6GHz, NF 0.6dB)\n1\n$4.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            426.69,
+            481.45,
+            439.74
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "RTL-SDR dongle\nRTL2832U + R820T2\n1\n$12.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            451.69,
+            476.17,
+            464.74
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Bypass capacitors\n100nF + 10uF ceramic\n6\n$0.50"
+        },
+        {
+          "bbox": [
+            114.0,
+            476.69,
+            476.17,
+            489.74
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "SMA cables\nMale-to-male, 30cm\n2\n$3.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            501.69,
+            476.17,
+            514.74
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Protoboard\nFor LNA mounting + filter\n1\n$2.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            526.69,
+            476.17,
+            539.74
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Power\nUSB 5V or battery pack\n1\n$2.00"
+        },
+        {
+          "bbox": [
+            67.2,
+            571.35,
+            149.71,
+            592.01
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Build Steps"
+        },
+        {
+          "bbox": [
+            87.2,
+            598.61,
+            544.8,
+            613.12
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Build the H-probe: Strip 20mm of semi-rigid coax. Form the inner conductor into a loop (10-15mm"
+        },
+        {
+          "bbox": [
+            87.2,
+            614.61,
+            508.57,
+            629.04
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "diameter) and solder the tip back to the outer shield. This creates a shielded magnetic loop"
+        },
+        {
+          "bbox": [
+            87.2,
+            630.61,
+            544.8,
+            645.04
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "antenna. Terminate one end with SMA. The shield gap at the loop tip determines spatial resolution."
+        },
+        {
+          "bbox": [
+            87.2,
+            650.61,
+            540.38,
+            665.12
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "LNA stage: Mount SPF5189Z module on protoboard with clean ground plane. Add 100nF + 10uF"
+        },
+        {
+          "bbox": [
+            87.2,
+            666.61,
+            517.29,
+            681.04
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "bypass caps on VCC. Input from probe via SMA. Output to filter via SMA. Power from 3.3-5V"
+        },
+        {
+          "bbox": [
+            87.2,
+            682.61,
+            329.99,
+            697.04
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "through a ferrite bead to reduce power supply noise."
+        },
+        {
+          "bbox": [
+            87.2,
+            702.61,
+            514.36,
+            717.12
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Bandpass filter: Build a 3rd-order LC bandpass (10-500MHz) using standard inductors and"
+        },
+        {
+          "bbox": [
+            87.2,
+            718.61,
+            542.62,
+            733.04
+          ],
+          "blockIndex": 32,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "capacitors. Or use a commercial mini-circuits filter (SLP-550+). The goal is rejecting broadcast FM"
+        }
+      ],
+      "charCount": 2205,
+      "height": 792.0,
+      "pageNumber": 6,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            230.22,
+            758.2,
+            381.78,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "@1nska  •  6 AI-Era EE Projects  •  Page 7"
+        },
+        {
+          "bbox": [
+            87.2,
+            55.61,
+            405.8,
+            70.04
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "(88-108MHz) and cellular bands while passing processor harmonics."
+        },
+        {
+          "bbox": [
+            87.2,
+            75.61,
+            523.97,
+            90.12
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Connect to SDR: LNA output → filter → RTL-SDR input. Install pyrtlsdr in Python. Capture IQ"
+        },
+        {
+          "bbox": [
+            87.2,
+            91.61,
+            521.97,
+            106.04
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "data at 2.4 MSPS. Run waterfall spectrogram: you should see distinct spectral lines when you"
+        },
+        {
+          "bbox": [
+            87.2,
+            107.61,
+            346.32,
+            122.04
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "bring the probe near a running Raspberry Pi or Arduino."
+        },
+        {
+          "bbox": [
+            87.2,
+            127.61,
+            531.86,
+            142.12
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Analyze: Write a Python script that captures 100ms windows and computes spectrograms. Run"
+        },
+        {
+          "bbox": [
+            87.2,
+            143.61,
+            519.66,
+            158.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "different code on the target (idle, AES encryption, neural net inference) and compare spectral"
+        },
+        {
+          "bbox": [
+            87.2,
+            159.61,
+            463.05,
+            174.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "signatures. Document the correlation between code execution and EM signature."
+        },
+        {
+          "bbox": [
+            108.8,
+            189.66,
+            212.08,
+            204.12
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Interview Questions:"
+        },
+        {
+          "bbox": [
+            108.8,
+            205.61,
+            406.88,
+            220.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "→ Why a magnetic loop probe instead of an electric field probe?"
+        },
+        {
+          "bbox": [
+            108.8,
+            221.61,
+            447.38,
+            236.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "→ How does the LNA's noise figure affect your measurement sensitivity?"
+        },
+        {
+          "bbox": [
+            108.8,
+            237.61,
+            417.96,
+            252.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "→ What determines the spatial resolution of your near-field probe?"
+        },
+        {
+          "bbox": [
+            108.8,
+            253.61,
+            502.54,
+            268.04
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "→ How do you distinguish processor emissions from environmental RF interference?"
+        },
+        {
+          "bbox": [
+            108.8,
+            269.61,
+            479.84,
+            284.04
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "→ What countermeasures could a chip designer use against this type of attack?"
+        },
+        {
+          "bbox": [
+            108.8,
+            285.61,
+            485.32,
+            300.04
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "→ What sampling rate do you need to capture a 200MHz processor's emissions?"
+        }
+      ],
+      "charCount": 1056,
+      "height": 792.0,
+      "pageNumber": 7,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            230.22,
+            758.2,
+            381.78,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "@1nska  •  6 AI-Era EE Projects  •  Page 8"
+        },
+        {
+          "bbox": [
+            67.2,
+            54.72,
+            200.57,
+            87.77
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "PROJECT 3"
+        },
+        {
+          "bbox": [
+            67.2,
+            105.0,
+            290.6,
+            132.54
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Hardware AI Kill Switch"
+        },
+        {
+          "bbox": [
+            75.15,
+            141.43,
+            536.85,
+            159.29
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Analog watchdog that physically disconnects AI hardware when power signature"
+        },
+        {
+          "bbox": [
+            281.79,
+            159.43,
+            330.21,
+            177.29
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "deviates"
+        },
+        {
+          "bbox": [
+            89.2,
+            191.69,
+            505.11,
+            204.82
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Cost: ~$18\nDifficulty: Intermediate\nBuild Time: 1-2 weekends"
+        },
+        {
+          "bbox": [
+            67.2,
+            238.35,
+            191.39,
+            259.01
+          ],
+          "blockIndex": 6,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Why This Matters"
+        },
+        {
+          "bbox": [
+            67.2,
+            265.61,
+            544.8,
+            280.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Software safety mechanisms can be overridden by software. A hardware kill switch cannot. This project"
+        },
+        {
+          "bbox": [
+            67.2,
+            281.61,
+            544.8,
+            296.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "monitors the real-time power draw pattern of an AI compute board (Jetson Nano, Coral TPU, etc.) and"
+        },
+        {
+          "bbox": [
+            67.2,
+            297.61,
+            544.8,
+            312.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "compares it against expected inference signatures. If the power pattern deviates beyond a threshold —"
+        },
+        {
+          "bbox": [
+            67.2,
+            313.61,
+            544.8,
+            328.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "suggesting unexpected computation — a relay physically cuts the power rail. No firmware can override"
+        },
+        {
+          "bbox": [
+            67.2,
+            329.61,
+            265.05,
+            344.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "a relay that has already opened the circuit."
+        },
+        {
+          "bbox": [
+            67.2,
+            359.35,
+            213.08,
+            380.01
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "System Architecture"
+        },
+        {
+          "bbox": [
+            67.2,
+            600.59,
+            162.21,
+            621.24
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "How It Works"
+        },
+        {
+          "bbox": [
+            87.2,
+            627.85,
+            544.8,
+            642.36
+          ],
+          "blockIndex": 14,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• Current sense resistor: A 10mΩ shunt resistor in series with the AI board's power rail. Produces"
+        },
+        {
+          "bbox": [
+            87.2,
+            643.85,
+            425.68,
+            658.28
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "a small voltage proportional to current draw. At 3A peak: 30mV full scale."
+        },
+        {
+          "bbox": [
+            87.2,
+            663.85,
+            516.58,
+            678.36
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "• Differential amplifier + filter: INA219 or discrete diff-amp (gain of 100) amplifies the shunt"
+        },
+        {
+          "bbox": [
+            87.2,
+            679.85,
+            531.29,
+            694.28
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "voltage. A low-pass filter at 100Hz smooths high-frequency switching noise while preserving the"
+        },
+        {
+          "bbox": [
+            87.2,
+            695.85,
+            210.34,
+            710.28
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "inference power envelope."
+        }
+      ],
+      "charCount": 1098,
+      "height": 792.0,
+      "pageNumber": 8,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            230.22,
+            758.2,
+            381.78,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "@1nska  •  6 AI-Era EE Projects  •  Page 9"
+        },
+        {
+          "bbox": [
+            87.2,
+            55.61,
+            536.11,
+            70.12
+          ],
+          "blockIndex": 1,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• ADC (ADS1115): 16-bit ADC samples the amplified signal at 860 SPS. Gives 1ms resolution of"
+        },
+        {
+          "bbox": [
+            87.2,
+            71.61,
+            363.82,
+            86.04
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "the power waveform — enough to capture inference cycles."
+        },
+        {
+          "bbox": [
+            87.2,
+            91.61,
+            523.24,
+            106.12
+          ],
+          "blockIndex": 3,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• MCU pattern matching: An ATmega328 or ESP32 compares the real-time power waveform"
+        },
+        {
+          "bbox": [
+            87.2,
+            107.61,
+            532.4,
+            122.04
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "against a stored 'expected' template using cross-correlation. If correlation drops below threshold"
+        },
+        {
+          "bbox": [
+            87.2,
+            123.61,
+            235.13,
+            138.04
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "for >500ms, it triggers the relay."
+        },
+        {
+          "bbox": [
+            87.2,
+            143.61,
+            537.25,
+            158.12
+          ],
+          "blockIndex": 6,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "• Relay driver: A logic-level MOSFET (IRLZ44N) drives a 10A automotive relay. Normally closed"
+        },
+        {
+          "bbox": [
+            87.2,
+            159.61,
+            543.53,
+            174.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "— power flows to AI board. On trigger, MOSFET turns off, relay opens, power rail is physically cut."
+        },
+        {
+          "bbox": [
+            87.2,
+            175.61,
+            305.47,
+            190.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "A manual reset button is required to reconnect."
+        },
+        {
+          "bbox": [
+            67.2,
+            205.35,
+            178.07,
+            226.01
+          ],
+          "blockIndex": 9,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Bill of Materials"
+        },
+        {
+          "bbox": [
+            114.0,
+            238.73,
+            479.06,
+            251.82
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Component\nPart / Spec\nQty\n~Cost"
+        },
+        {
+          "bbox": [
+            114.0,
+            263.69,
+            476.17,
+            276.74
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Current sense resistor\n10mΩ 1% (CSR series)\n1\n$0.50"
+        },
+        {
+          "bbox": [
+            114.0,
+            288.69,
+            476.17,
+            301.74
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "INA219\nI2C current/power monitor\n1\n$2.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            313.69,
+            476.17,
+            326.74
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "ADS1115\n16-bit ADC module\n1\n$3.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            338.69,
+            476.17,
+            351.74
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "ESP32 or ATmega328\nMCU for pattern matching\n1\n$3.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            363.69,
+            476.17,
+            376.74
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "IRLZ44N\nLogic-level N-MOSFET\n1\n$0.80"
+        },
+        {
+          "bbox": [
+            114.0,
+            388.69,
+            476.17,
+            401.74
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "10A relay\nAutomotive relay, NO/NC\n1\n$2.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            413.69,
+            476.17,
+            426.74
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Flyback diode\n1N4007 (across relay coil)\n1\n$0.10"
+        },
+        {
+          "bbox": [
+            114.0,
+            438.69,
+            476.17,
+            451.74
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Push button\nMomentary, for manual reset\n1\n$0.30"
+        },
+        {
+          "bbox": [
+            114.0,
+            463.69,
+            476.17,
+            476.74
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Protoboard / PCB\n70x90mm\n1\n$3.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            488.69,
+            476.17,
+            501.74
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Power\nBarrel jack + input from supply\n1\n$1.50"
+        },
+        {
+          "bbox": [
+            67.2,
+            533.35,
+            149.71,
+            554.01
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Build Steps"
+        },
+        {
+          "bbox": [
+            87.2,
+            560.61,
+            544.8,
+            575.12
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Power rail setup: Wire the 10mΩ shunt in series with the AI board's VCC line. Route both sides of"
+        },
+        {
+          "bbox": [
+            87.2,
+            576.61,
+            520.21,
+            591.04
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "the shunt to the INA219's IN+ and IN- pins. This is a Kelvin connection — run separate sense"
+        },
+        {
+          "bbox": [
+            87.2,
+            592.61,
+            407.56,
+            607.04
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "wires directly to the resistor pads to avoid measuring wire resistance."
+        },
+        {
+          "bbox": [
+            87.2,
+            612.61,
+            531.58,
+            627.12
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Amplifier + ADC: Connect INA219 via I2C to the ESP32. Alternatively, build a discrete diff-amp"
+        },
+        {
+          "bbox": [
+            87.2,
+            628.61,
+            541.87,
+            643.04
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "with gain of 100 and feed into ADS1115. Set ADC to continuous mode at 860 SPS. Verify you see"
+        },
+        {
+          "bbox": [
+            87.2,
+            644.61,
+            362.07,
+            659.04
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "clean current waveforms when the AI board runs inference."
+        },
+        {
+          "bbox": [
+            87.2,
+            664.61,
+            528.96,
+            679.12
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Template capture: Run the AI board with its normal inference workload. Record 10 seconds of"
+        },
+        {
+          "bbox": [
+            87.2,
+            680.61,
+            530.15,
+            695.04
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "current waveform at 860 SPS. Compute the average power envelope per inference cycle. Store"
+        },
+        {
+          "bbox": [
+            87.2,
+            696.61,
+            302.49,
+            711.04
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "this as the 'expected' template in ESP32 flash."
+        }
+      ],
+      "charCount": 1859,
+      "height": 792.0,
+      "pageNumber": 9,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            227.99,
+            758.2,
+            384.01,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "@1nska  •  6 AI-Era EE Projects  •  Page 10"
+        },
+        {
+          "bbox": [
+            87.2,
+            55.61,
+            516.04,
+            70.12
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Correlation engine: Implement sliding-window cross-correlation in firmware. Compare each"
+        },
+        {
+          "bbox": [
+            87.2,
+            71.61,
+            531.9,
+            86.04
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "500ms window of live data against the stored template. Output a correlation score (0-1). If score"
+        },
+        {
+          "bbox": [
+            87.2,
+            87.61,
+            404.09,
+            102.04
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "drops below 0.6 for more than 500ms continuously, trigger the relay."
+        },
+        {
+          "bbox": [
+            87.2,
+            107.61,
+            539.46,
+            122.12
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Relay + reset: Wire ESP32 GPIO → IRLZ44N gate (with 10K pull-down). MOSFET drain → relay"
+        },
+        {
+          "bbox": [
+            87.2,
+            123.61,
+            503.27,
+            138.04
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "coil. 1N4007 flyback diode across relay coil. Relay contacts in series with AI board power."
+        },
+        {
+          "bbox": [
+            87.2,
+            139.61,
+            523.72,
+            154.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Normally energized = closed. Trigger = MOSFET off = relay opens = power cut. Add a manual"
+        },
+        {
+          "bbox": [
+            87.2,
+            155.61,
+            296.14,
+            170.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "push-button that resets the ESP32 to re-arm."
+        },
+        {
+          "bbox": [
+            108.8,
+            185.66,
+            212.08,
+            200.12
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Interview Questions:"
+        },
+        {
+          "bbox": [
+            108.8,
+            201.61,
+            384.1,
+            216.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "→ Why use a physical relay instead of a solid-state switch?"
+        },
+        {
+          "bbox": [
+            108.8,
+            217.61,
+            488.55,
+            232.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "→ How does the Kelvin connection improve your current measurement accuracy?"
+        },
+        {
+          "bbox": [
+            108.8,
+            233.61,
+            451.79,
+            248.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "→ What determines your correlation threshold — how did you calibrate it?"
+        },
+        {
+          "bbox": [
+            108.8,
+            249.61,
+            473.08,
+            264.04
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "→ What's the maximum latency between anomaly detection and power cutoff?"
+        },
+        {
+          "bbox": [
+            108.8,
+            265.61,
+            467.59,
+            280.04
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "→ How would you prevent the AI board from detecting and gaming the power"
+        },
+        {
+          "bbox": [
+            108.8,
+            281.61,
+            149.65,
+            296.04
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "monitor?"
+        },
+        {
+          "bbox": [
+            108.8,
+            297.61,
+            468.73,
+            312.04
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "→ What failure modes exist in this design, and how would you mitigate them?"
+        }
+      ],
+      "charCount": 1061,
+      "height": 792.0,
+      "pageNumber": 10,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            227.99,
+            758.2,
+            384.01,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "@1nska  •  6 AI-Era EE Projects  •  Page 11"
+        },
+        {
+          "bbox": [
+            67.2,
+            54.72,
+            200.57,
+            87.77
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "PROJECT 4"
+        },
+        {
+          "bbox": [
+            67.2,
+            105.0,
+            358.36,
+            132.54
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Deepfake-Proof Identity Badge"
+        },
+        {
+          "bbox": [
+            87.44,
+            141.43,
+            524.56,
+            159.29
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Wearable PCB with crypto element that signs live photo + timestamp + GPS"
+        },
+        {
+          "bbox": [
+            89.2,
+            173.69,
+            505.11,
+            186.82
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Cost: ~$25\nDifficulty: Advanced\nBuild Time: 1-2 weekends"
+        },
+        {
+          "bbox": [
+            67.2,
+            220.35,
+            191.39,
+            241.01
+          ],
+          "blockIndex": 5,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Why This Matters"
+        },
+        {
+          "bbox": [
+            67.2,
+            247.61,
+            544.8,
+            262.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "AI can now generate photorealistic images of anyone, anywhere. There is no software-only way to"
+        },
+        {
+          "bbox": [
+            67.2,
+            263.61,
+            544.8,
+            278.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "prove a photo is real. But hardware can. This badge uses a secure cryptographic element (ATECC608)"
+        },
+        {
+          "bbox": [
+            67.2,
+            279.61,
+            544.8,
+            294.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "to sign a hash of: live camera image + GPS coordinates + timestamp. The private key never leaves the"
+        },
+        {
+          "bbox": [
+            67.2,
+            295.61,
+            544.8,
+            310.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "chip — it physically cannot be extracted. The resulting QR code is cryptographic proof that a real"
+        },
+        {
+          "bbox": [
+            67.2,
+            311.61,
+            350.8,
+            326.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "person was physically at a specific location at a specific time."
+        },
+        {
+          "bbox": [
+            67.2,
+            341.35,
+            213.08,
+            362.01
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "System Architecture"
+        },
+        {
+          "bbox": [
+            67.2,
+            582.59,
+            162.21,
+            603.24
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "How It Works"
+        },
+        {
+          "bbox": [
+            87.2,
+            609.85,
+            525.64,
+            624.36
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "• Camera module: OV2640 or ArduCAM Mini captures a 640x480 JPEG image. Connected to"
+        },
+        {
+          "bbox": [
+            87.2,
+            625.85,
+            158.99,
+            640.28
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "ESP32 via SPI."
+        },
+        {
+          "bbox": [
+            87.2,
+            645.85,
+            537.86,
+            660.36
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "• GPS module: NEO-6M provides latitude, longitude, and UTC timestamp. Connected via UART."
+        },
+        {
+          "bbox": [
+            87.2,
+            665.85,
+            538.68,
+            680.36
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "• ATECC608B: Microchip's secure element. Stores an ECC P-256 private key in tamper-resistant"
+        },
+        {
+          "bbox": [
+            87.2,
+            681.85,
+            512.64,
+            696.28
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "hardware. The key is generated on-chip and NEVER leaves. Signs a SHA-256 hash via I2C"
+        },
+        {
+          "bbox": [
+            87.2,
+            697.85,
+            390.66,
+            712.28
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "command. This is the same chip used in AWS IoT authentication."
+        }
+      ],
+      "charCount": 1136,
+      "height": 792.0,
+      "pageNumber": 11,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            227.99,
+            758.2,
+            384.01,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "@1nska  •  6 AI-Era EE Projects  •  Page 12"
+        },
+        {
+          "bbox": [
+            87.2,
+            55.61,
+            543.75,
+            70.12
+          ],
+          "blockIndex": 1,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "• ESP32: Captures photo, reads GPS, computes SHA-256 hash of (image + lat/long + timestamp),"
+        },
+        {
+          "bbox": [
+            87.2,
+            71.61,
+            538.64,
+            86.04
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "sends hash to ATECC608 for signing, generates a QR code containing the signature + public key"
+        },
+        {
+          "bbox": [
+            87.2,
+            87.61,
+            142.94,
+            102.04
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "+ metadata."
+        },
+        {
+          "bbox": [
+            87.2,
+            107.61,
+            533.26,
+            122.12
+          ],
+          "blockIndex": 4,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "• E-Paper display: Shows the QR code. Anyone can scan it and verify the signature against the"
+        },
+        {
+          "bbox": [
+            87.2,
+            123.61,
+            470.03,
+            138.04
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "public key. If the image, location, or time has been tampered with, verification fails."
+        },
+        {
+          "bbox": [
+            67.2,
+            153.35,
+            178.07,
+            174.01
+          ],
+          "blockIndex": 6,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Bill of Materials"
+        },
+        {
+          "bbox": [
+            114.0,
+            186.73,
+            479.06,
+            199.82
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Component\nPart / Spec\nQty\n~Cost"
+        },
+        {
+          "bbox": [
+            114.0,
+            211.69,
+            476.17,
+            224.74
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "ESP32-S3\nDevKit or custom PCB\n1\n$4.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            236.69,
+            476.17,
+            249.74
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "ATECC608B\nSecure element (SOIC-8)\n1\n$1.50"
+        },
+        {
+          "bbox": [
+            114.0,
+            261.69,
+            476.17,
+            274.74
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "OV2640 camera\n2MP, SPI interface\n1\n$3.50"
+        },
+        {
+          "bbox": [
+            114.0,
+            286.69,
+            476.17,
+            299.74
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "NEO-6M GPS\nModule with antenna\n1\n$5.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            311.69,
+            476.17,
+            324.74
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "E-Paper display\n1.54\" or 2.13\" SPI\n1\n$6.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            336.69,
+            476.17,
+            349.74
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "LiPo battery\n3.7V 500mAh\n1\n$3.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            361.69,
+            476.17,
+            374.74
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Charge controller\nTP4056 module\n1\n$0.50"
+        },
+        {
+          "bbox": [
+            114.0,
+            386.69,
+            476.17,
+            399.74
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "PCB\nCustom 2-layer (JLCPCB)\n5\n$2.00"
+        },
+        {
+          "bbox": [
+            67.2,
+            431.35,
+            149.71,
+            452.01
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Build Steps"
+        },
+        {
+          "bbox": [
+            87.2,
+            458.61,
+            544.8,
+            473.12
+          ],
+          "blockIndex": 17,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Schematic + PCB: Design in KiCad. ESP32-S3 at center. ATECC608B on I2C bus (SDA/SCL with"
+        },
+        {
+          "bbox": [
+            87.2,
+            474.61,
+            531.92,
+            489.04
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "4.7K pullups). OV2640 on SPI + XCLK/PCLK. NEO-6M on UART2. E-Paper on SPI2. TP4056 +"
+        },
+        {
+          "bbox": [
+            87.2,
+            490.61,
+            374.56,
+            505.04
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "LiPo for power. Add a tactile button for 'capture + sign' trigger."
+        },
+        {
+          "bbox": [
+            87.2,
+            510.61,
+            527.44,
+            525.12
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "ATECC608 provisioning: Use Microchip's CryptoAuthLib to generate a key pair on the secure"
+        },
+        {
+          "bbox": [
+            87.2,
+            526.61,
+            544.8,
+            541.04
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "element. The private key is generated inside the chip and cannot be read out. Export the public key"
+        },
+        {
+          "bbox": [
+            87.2,
+            542.61,
+            379.0,
+            557.04
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "and store it on a verification server or embed it in the QR code."
+        },
+        {
+          "bbox": [
+            87.2,
+            562.61,
+            532.9,
+            577.12
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Capture pipeline: On button press: ESP32 captures JPEG from OV2640 → reads GPS fix from"
+        },
+        {
+          "bbox": [
+            87.2,
+            578.61,
+            544.8,
+            593.04
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "NEO-6M → concatenates (image_bytes + lat + lon + UTC_timestamp) → computes SHA-256 hash"
+        },
+        {
+          "bbox": [
+            87.2,
+            594.61,
+            478.5,
+            609.04
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "→ sends hash to ATECC608 for ECC-P256 signature → receives 64-byte signature."
+        },
+        {
+          "bbox": [
+            87.2,
+            614.61,
+            542.1,
+            629.12
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "QR code generation: Encode (public_key + signature + lat + lon + timestamp + image_hash) into"
+        },
+        {
+          "bbox": [
+            87.2,
+            630.61,
+            537.73,
+            645.04
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "a QR code. Display on e-paper. The QR code is self-contained — anyone with the public key can"
+        },
+        {
+          "bbox": [
+            87.2,
+            646.61,
+            209.76,
+            661.04
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "verify the signature offline."
+        },
+        {
+          "bbox": [
+            87.2,
+            666.61,
+            534.21,
+            681.12
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Verification: Write a simple Python or web script that scans the QR code, extracts the signature"
+        },
+        {
+          "bbox": [
+            87.2,
+            682.61,
+            524.33,
+            697.04
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "and metadata, and verifies the ECC signature against the public key. If any field was modified,"
+        },
+        {
+          "bbox": [
+            87.2,
+            698.61,
+            386.0,
+            713.04
+          ],
+          "blockIndex": 31,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "verification fails. Demo: take a photo, show QR, verify on phone."
+        }
+      ],
+      "charCount": 1995,
+      "height": 792.0,
+      "pageNumber": 12,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            227.99,
+            758.2,
+            384.01,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "@1nska  •  6 AI-Era EE Projects  •  Page 13"
+        },
+        {
+          "bbox": [
+            108.8,
+            65.67,
+            212.08,
+            80.12
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Interview Questions:"
+        },
+        {
+          "bbox": [
+            108.8,
+            81.61,
+            356.68,
+            96.04
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "→ Why ECC P-256 instead of RSA for the signature?"
+        },
+        {
+          "bbox": [
+            108.8,
+            97.61,
+            503.2,
+            112.04
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "→ What makes the ATECC608's key storage tamper-resistant at the hardware level?"
+        },
+        {
+          "bbox": [
+            108.8,
+            113.61,
+            376.55,
+            128.04
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "→ How do you handle GPS spoofing as an attack vector?"
+        },
+        {
+          "bbox": [
+            108.8,
+            129.61,
+            500.85,
+            144.04
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "→ What happens if the battery dies mid-signature? How do you handle partial state?"
+        },
+        {
+          "bbox": [
+            108.8,
+            145.61,
+            449.71,
+            160.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "→ How would you scale this to verify millions of badges — what's the PKI"
+        },
+        {
+          "bbox": [
+            108.8,
+            161.61,
+            169.49,
+            176.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "architecture?"
+        },
+        {
+          "bbox": [
+            108.8,
+            177.61,
+            434.57,
+            192.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "→ What's the difference between this and C2PA/Content Credentials?"
+        }
+      ],
+      "charCount": 477,
+      "height": 792.0,
+      "pageNumber": 13,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            227.99,
+            758.2,
+            384.01,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "@1nska  •  6 AI-Era EE Projects  •  Page 14"
+        },
+        {
+          "bbox": [
+            67.2,
+            54.72,
+            200.57,
+            87.77
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "PROJECT 5"
+        },
+        {
+          "bbox": [
+            67.2,
+            105.0,
+            337.26,
+            132.54
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Neuromorphic Sensor Fuser"
+        },
+        {
+          "bbox": [
+            71.9,
+            141.43,
+            540.1,
+            159.29
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Analog circuits that process sensor data the way neurons do — no clock, no ADC"
+        },
+        {
+          "bbox": [
+            89.2,
+            173.69,
+            505.11,
+            186.82
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Cost: ~$12\nDifficulty: Advanced\nBuild Time: 1-2 weekends"
+        },
+        {
+          "bbox": [
+            67.2,
+            220.35,
+            191.39,
+            241.01
+          ],
+          "blockIndex": 5,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Why This Matters"
+        },
+        {
+          "bbox": [
+            67.2,
+            247.61,
+            544.8,
+            262.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "The future of AI hardware is moving away from digital clocked computation toward analog, event-driven"
+        },
+        {
+          "bbox": [
+            67.2,
+            263.61,
+            544.8,
+            278.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "processing. Neuromorphic computing mimics biological neurons: instead of sampling signals at a fixed"
+        },
+        {
+          "bbox": [
+            67.2,
+            279.61,
+            544.8,
+            294.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "clock rate, circuits fire 'spikes' only when input changes. This is massively more power-efficient and is"
+        },
+        {
+          "bbox": [
+            67.2,
+            295.61,
+            544.8,
+            310.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "the basis for chips like Intel's Loihi and IBM's TrueNorth. This project builds the fundamental building"
+        },
+        {
+          "bbox": [
+            67.2,
+            311.61,
+            417.95,
+            326.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "block: an analog integrate-and-fire neuron that fuses multiple sensor inputs."
+        },
+        {
+          "bbox": [
+            67.2,
+            341.35,
+            213.08,
+            362.01
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "System Architecture"
+        },
+        {
+          "bbox": [
+            67.2,
+            582.59,
+            162.21,
+            603.24
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "How It Works"
+        },
+        {
+          "bbox": [
+            87.2,
+            609.85,
+            541.38,
+            624.36
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "• Sensor inputs: Three analog sensors (temperature, pressure, IMU) produce continuous voltage"
+        },
+        {
+          "bbox": [
+            87.2,
+            625.85,
+            442.6,
+            640.28
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "signals. No ADC — the analog voltages feed directly into the neuron circuits."
+        },
+        {
+          "bbox": [
+            87.2,
+            645.85,
+            510.42,
+            660.36
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "• Integrate-and-fire neuron: An RC circuit integrates the input current. When the capacitor"
+        },
+        {
+          "bbox": [
+            87.2,
+            661.85,
+            535.31,
+            676.28
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "voltage reaches a threshold (set by a comparator), the circuit 'fires' — producing a short pulse —"
+        },
+        {
+          "bbox": [
+            87.2,
+            677.85,
+            538.58,
+            692.28
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "and the capacitor resets via a discharge MOSFET. Higher input = faster firing rate. This is exactly"
+        },
+        {
+          "bbox": [
+            87.2,
+            693.85,
+            395.93,
+            708.28
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "how biological neurons encode signal strength as spike frequency."
+        }
+      ],
+      "charCount": 1268,
+      "height": 792.0,
+      "pageNumber": 14,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            227.99,
+            758.2,
+            384.01,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "@1nska  •  6 AI-Era EE Projects  •  Page 15"
+        },
+        {
+          "bbox": [
+            87.2,
+            55.61,
+            537.91,
+            70.12
+          ],
+          "blockIndex": 1,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "• Synaptic weights: Resistors between sensor outputs and neuron inputs act as analog weights."
+        },
+        {
+          "bbox": [
+            87.2,
+            71.61,
+            525.48,
+            86.04
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "A 10K resistor = weak connection. A 1K resistor = strong connection. Changing resistor values"
+        },
+        {
+          "bbox": [
+            87.2,
+            87.61,
+            527.27,
+            102.04
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "changes how much each sensor influences the output — this is the analog equivalent of neural"
+        },
+        {
+          "bbox": [
+            87.2,
+            103.61,
+            165.39,
+            118.04
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "network weights."
+        },
+        {
+          "bbox": [
+            87.2,
+            123.61,
+            533.79,
+            138.12
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "• Output layer: A second integrate-and-fire neuron receives weighted spikes from the first layer."
+        },
+        {
+          "bbox": [
+            87.2,
+            139.61,
+            533.66,
+            154.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Its firing rate represents the fused decision. Connect to an LED or frequency counter to visualize"
+        },
+        {
+          "bbox": [
+            87.2,
+            155.61,
+            187.59,
+            170.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "the output spike train."
+        },
+        {
+          "bbox": [
+            67.2,
+            185.35,
+            178.07,
+            206.01
+          ],
+          "blockIndex": 8,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Bill of Materials"
+        },
+        {
+          "bbox": [
+            114.0,
+            218.73,
+            479.06,
+            231.82
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Component\nPart / Spec\nQty\n~Cost"
+        },
+        {
+          "bbox": [
+            114.0,
+            243.69,
+            476.17,
+            256.74
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Temperature sensor\nLM35 (analog output)\n1\n$1.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            268.69,
+            476.17,
+            281.74
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Pressure sensor\nBMP180 analog out or MPX4115\n1\n$2.50"
+        },
+        {
+          "bbox": [
+            114.0,
+            293.69,
+            476.17,
+            306.74
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "IMU\nADXL335 (analog 3-axis)\n1\n$3.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            318.69,
+            476.17,
+            331.74
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Op-amps\nLM324 (quad) for comparators\n2\n$1.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            343.69,
+            476.17,
+            356.74
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "MOSFETs\n2N7000 (for cap discharge)\n4\n$0.60"
+        },
+        {
+          "bbox": [
+            114.0,
+            368.69,
+            476.17,
+            381.74
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Capacitors\n1uF - 10uF (integration caps)\n4\n$0.50"
+        },
+        {
+          "bbox": [
+            114.0,
+            393.69,
+            476.17,
+            406.74
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Resistors (1%)\nAssorted for weights + thresholds\n~30\n$1.50"
+        },
+        {
+          "bbox": [
+            114.0,
+            418.69,
+            476.17,
+            431.74
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "LEDs + resistors\nFor spike visualization\n4\n$0.40"
+        },
+        {
+          "bbox": [
+            114.0,
+            443.69,
+            476.17,
+            456.74
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Protoboard\n70x90mm\n1\n$2.00"
+        },
+        {
+          "bbox": [
+            67.2,
+            488.35,
+            149.71,
+            509.01
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Build Steps"
+        },
+        {
+          "bbox": [
+            87.2,
+            515.61,
+            541.8,
+            530.12
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Sensor front end: Wire LM35, BMP180 (or MPX4115 analog out), and ADXL335. Each produces"
+        },
+        {
+          "bbox": [
+            87.2,
+            531.61,
+            527.81,
+            546.04
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "0-5V proportional to its measurement. Verify outputs with a multimeter before connecting to the"
+        },
+        {
+          "bbox": [
+            87.2,
+            547.61,
+            158.39,
+            562.04
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "neuron circuits."
+        },
+        {
+          "bbox": [
+            87.2,
+            567.61,
+            501.24,
+            582.12
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Single neuron: Build one integrate-and-fire circuit: sensor output → weighting resistor →"
+        },
+        {
+          "bbox": [
+            87.2,
+            583.61,
+            523.13,
+            598.04
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "capacitor (integration). Comparator (LM324) monitors cap voltage against a threshold set by a"
+        },
+        {
+          "bbox": [
+            87.2,
+            599.61,
+            516.01,
+            614.04
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "voltage divider. When threshold is reached, comparator output goes high → triggers 2N7000"
+        },
+        {
+          "bbox": [
+            87.2,
+            615.61,
+            527.52,
+            630.04
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "MOSFET → discharges cap → comparator resets. The output is a pulse train whose frequency"
+        },
+        {
+          "bbox": [
+            87.2,
+            631.61,
+            213.86,
+            646.04
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "encodes the input strength."
+        },
+        {
+          "bbox": [
+            87.2,
+            651.61,
+            495.7,
+            666.12
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Add weights: Connect all three sensors to one neuron through different resistor values."
+        },
+        {
+          "bbox": [
+            87.2,
+            667.61,
+            530.69,
+            682.04
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Temperature: 4.7K (strong weight). Pressure: 10K (medium). IMU: 22K (weak). Now the neuron"
+        },
+        {
+          "bbox": [
+            87.2,
+            683.61,
+            499.81,
+            698.04
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "fires at a rate determined by the weighted sum of all three inputs — this IS sensor fusion."
+        }
+      ],
+      "charCount": 1866,
+      "height": 792.0,
+      "pageNumber": 15,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            227.99,
+            758.2,
+            384.01,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "@1nska  •  6 AI-Era EE Projects  •  Page 16"
+        },
+        {
+          "bbox": [
+            87.2,
+            55.61,
+            538.03,
+            70.12
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Second layer: Build a second neuron. Feed the first neuron's spike output into it through another"
+        },
+        {
+          "bbox": [
+            87.2,
+            71.61,
+            543.56,
+            86.04
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "weighting resistor. Add a second first-layer neuron with different weights. The second layer neuron"
+        },
+        {
+          "bbox": [
+            87.2,
+            87.61,
+            421.03,
+            102.04
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "fires based on the combined pattern — a 2-layer analog neural network."
+        },
+        {
+          "bbox": [
+            87.2,
+            107.61,
+            536.53,
+            122.12
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Visualize: Connect each neuron's output to an LED. You'll see them blinking at different rates as"
+        },
+        {
+          "bbox": [
+            87.2,
+            123.61,
+            496.29,
+            138.04
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "you change sensor inputs. Use an oscilloscope or logic analyzer to measure exact spike"
+        },
+        {
+          "bbox": [
+            87.2,
+            139.61,
+            451.97,
+            154.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "frequencies. Plot frequency vs. input to demonstrate the encoding relationship."
+        },
+        {
+          "bbox": [
+            108.8,
+            169.66,
+            212.08,
+            184.12
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Interview Questions:"
+        },
+        {
+          "bbox": [
+            108.8,
+            185.61,
+            432.22,
+            200.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "→ How does the RC time constant determine the neuron's firing rate?"
+        },
+        {
+          "bbox": [
+            108.8,
+            201.61,
+            479.21,
+            216.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "→ How do the resistive weights map to neural network weights mathematically?"
+        },
+        {
+          "bbox": [
+            108.8,
+            217.61,
+            429.32,
+            232.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "→ What's the advantage of spike-rate coding over amplitude coding?"
+        },
+        {
+          "bbox": [
+            108.8,
+            233.61,
+            493.23,
+            248.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "→ How does power consumption compare to a digital MCU doing the same sensor"
+        },
+        {
+          "bbox": [
+            108.8,
+            249.61,
+            142.65,
+            264.04
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "fusion?"
+        },
+        {
+          "bbox": [
+            108.8,
+            265.61,
+            405.12,
+            280.04
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "→ What limits the number of layers you can cascade in analog?"
+        },
+        {
+          "bbox": [
+            108.8,
+            281.61,
+            452.36,
+            296.04
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "→ How does this relate to commercial neuromorphic chips like Intel Loihi?"
+        }
+      ],
+      "charCount": 1016,
+      "height": 792.0,
+      "pageNumber": 16,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            227.99,
+            758.2,
+            384.01,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "@1nska  •  6 AI-Era EE Projects  •  Page 17"
+        },
+        {
+          "bbox": [
+            67.2,
+            54.72,
+            200.57,
+            87.77
+          ],
+          "blockIndex": 1,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "PROJECT 6"
+        },
+        {
+          "bbox": [
+            67.2,
+            105.0,
+            370.54,
+            132.54
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "RF Fingerprinting Authenticator"
+        },
+        {
+          "bbox": [
+            108.04,
+            141.43,
+            503.96,
+            159.29
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Identify wireless devices by their unique manufacturing imperfections"
+        },
+        {
+          "bbox": [
+            89.2,
+            173.69,
+            505.11,
+            186.82
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Cost: ~$35\nDifficulty: Advanced\nBuild Time: 1-2 weekends"
+        },
+        {
+          "bbox": [
+            67.2,
+            220.35,
+            191.39,
+            241.01
+          ],
+          "blockIndex": 5,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Why This Matters"
+        },
+        {
+          "bbox": [
+            67.2,
+            247.61,
+            544.8,
+            262.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Every WiFi and Bluetooth chip has a unique RF signature caused by manufacturing variations —"
+        },
+        {
+          "bbox": [
+            67.2,
+            263.61,
+            544.8,
+            278.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "slightly different oscillator frequencies, amplifier gain curves, and phase noise profiles. MAC addresses"
+        },
+        {
+          "bbox": [
+            67.2,
+            279.61,
+            544.8,
+            294.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "can be spoofed in software. RF fingerprints cannot — they're determined by the physics of the silicon."
+        },
+        {
+          "bbox": [
+            67.2,
+            295.61,
+            544.8,
+            310.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "This project builds an RF front end that captures these signatures and matches them against known"
+        },
+        {
+          "bbox": [
+            67.2,
+            311.61,
+            544.8,
+            326.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "devices. This is active research at DARPA and is used in military IFF (Identification Friend or Foe)"
+        },
+        {
+          "bbox": [
+            67.2,
+            327.61,
+            108.62,
+            342.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "systems."
+        },
+        {
+          "bbox": [
+            67.2,
+            357.35,
+            213.08,
+            378.01
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "System Architecture"
+        },
+        {
+          "bbox": [
+            67.2,
+            598.59,
+            162.21,
+            619.24
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "How It Works"
+        },
+        {
+          "bbox": [
+            87.2,
+            625.85,
+            533.24,
+            640.36
+          ],
+          "blockIndex": 14,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "• 2.4GHz antenna: A PCB patch antenna or quarter-wave monopole tuned to 2.4GHz. Captures"
+        },
+        {
+          "bbox": [
+            87.2,
+            641.85,
+            338.67,
+            656.28
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "WiFi/BT preamble transmissions from nearby devices."
+        },
+        {
+          "bbox": [
+            87.2,
+            661.85,
+            525.29,
+            676.36
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "• LNA + Mixer: SPF5189Z amplifies the signal. A mixer (with local oscillator from Si5351 clock"
+        },
+        {
+          "bbox": [
+            87.2,
+            677.85,
+            466.52,
+            692.28
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "generator) downconverts to an intermediate frequency suitable for SDR sampling."
+        },
+        {
+          "bbox": [
+            87.2,
+            697.85,
+            530.3,
+            712.36
+          ],
+          "blockIndex": 18,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "• I/Q demodulator: Extracts in-phase and quadrature components of the signal. This preserves"
+        },
+        {
+          "bbox": [
+            87.2,
+            713.85,
+            539.48,
+            728.28
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "both amplitude AND phase information — the phase is where manufacturing differences are most"
+        }
+      ],
+      "charCount": 1255,
+      "height": 792.0,
+      "pageNumber": 17,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            227.99,
+            758.2,
+            384.01,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "@1nska  •  6 AI-Era EE Projects  •  Page 18"
+        },
+        {
+          "bbox": [
+            87.2,
+            55.61,
+            119.29,
+            70.04
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "visible."
+        },
+        {
+          "bbox": [
+            87.2,
+            75.61,
+            499.93,
+            90.12
+          ],
+          "blockIndex": 2,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "• Dual ADC: Two channels sample I and Q simultaneously. ADS1115 for slow capture or"
+        },
+        {
+          "bbox": [
+            87.2,
+            91.61,
+            509.09,
+            106.04
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "RTL-SDR for high-speed. The key is capturing the first few microseconds of a transmission"
+        },
+        {
+          "bbox": [
+            87.2,
+            107.61,
+            483.71,
+            122.04
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "preamble, where the oscillator startup transient reveals the device's unique signature."
+        },
+        {
+          "bbox": [
+            87.2,
+            127.61,
+            522.72,
+            142.12
+          ],
+          "blockIndex": 5,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "• Correlator: Python or FPGA-based correlation engine compares captured preamble IQ data"
+        },
+        {
+          "bbox": [
+            87.2,
+            143.61,
+            536.0,
+            158.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "against a database of known device signatures. Uses cross-correlation peak and phase offset as"
+        },
+        {
+          "bbox": [
+            87.2,
+            159.61,
+            167.14,
+            174.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "matching criteria."
+        },
+        {
+          "bbox": [
+            67.2,
+            189.35,
+            178.07,
+            210.01
+          ],
+          "blockIndex": 8,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Bill of Materials"
+        },
+        {
+          "bbox": [
+            114.0,
+            222.73,
+            479.06,
+            235.82
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Component\nPart / Spec\nQty\n~Cost"
+        },
+        {
+          "bbox": [
+            114.0,
+            247.69,
+            481.45,
+            260.74
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "RTL-SDR dongle\nRTL2832U + R820T2 (2.4GHz capable)\n1\n$12.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            272.69,
+            476.17,
+            285.74
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "LNA\nSPF5189Z module\n1\n$4.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            297.69,
+            476.17,
+            310.74
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "2.4GHz antenna\nPCB patch or SMA monopole\n1\n$2.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            322.69,
+            476.17,
+            335.74
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Si5351\nClock generator (for LO)\n1\n$3.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            347.69,
+            476.17,
+            360.74
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Mixer\nADE-1 or SA612 (if manual IF)\n1\n$3.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            372.69,
+            476.17,
+            398.74
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "SMA cables +\nconnectors\nAssorted\n4\n$4.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            410.69,
+            476.17,
+            423.74
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Protoboard\nFor RF front end\n1\n$3.00"
+        },
+        {
+          "bbox": [
+            114.0,
+            435.69,
+            476.17,
+            448.74
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Shielding\nCopper tape for enclosure\n1\n$2.00"
+        },
+        {
+          "bbox": [
+            67.2,
+            480.35,
+            149.71,
+            501.01
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Build Steps"
+        },
+        {
+          "bbox": [
+            87.2,
+            507.61,
+            542.93,
+            522.12
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Antenna: Build a quarter-wave monopole for 2.4GHz: 31mm wire soldered to SMA connector with"
+        },
+        {
+          "bbox": [
+            87.2,
+            523.61,
+            529.0,
+            538.04
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "a ground plane (copper-clad board). Or design a PCB patch antenna in KiCad — this alone is a"
+        },
+        {
+          "bbox": [
+            87.2,
+            539.61,
+            182.3,
+            554.04
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "portfolio-worthy skill."
+        },
+        {
+          "bbox": [
+            87.2,
+            559.61,
+            508.81,
+            574.12
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "RF front end: Connect antenna → LNA → bandpass filter (2.4-2.5GHz). If using RTL-SDR"
+        },
+        {
+          "bbox": [
+            87.2,
+            575.61,
+            538.62,
+            590.04
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "directly: some dongles can tune to 2.4GHz natively (R820T2). If not: use Si5351 as LO + mixer to"
+        },
+        {
+          "bbox": [
+            87.2,
+            591.61,
+            240.94,
+            606.04
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "downconvert to the SDR's range."
+        },
+        {
+          "bbox": [
+            87.2,
+            611.61,
+            533.02,
+            626.12
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Capture preamble: Write Python script using pyrtlsdr to capture bursts at 2.4 MSPS. Trigger on"
+        },
+        {
+          "bbox": [
+            87.2,
+            627.61,
+            525.48,
+            642.04
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "signal power exceeding a threshold. Save the first 50 microseconds of each burst — this is the"
+        },
+        {
+          "bbox": [
+            87.2,
+            643.61,
+            313.04,
+            658.04
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "preamble where startup transients are strongest."
+        },
+        {
+          "bbox": [
+            87.2,
+            663.61,
+            540.63,
+            678.12
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Build signature database: Capture 100 preambles from each known device (your phone, laptop,"
+        },
+        {
+          "bbox": [
+            87.2,
+            679.61,
+            519.08,
+            694.04
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "IoT devices). Average the IQ data per device to create a template. Store templates as numpy"
+        },
+        {
+          "bbox": [
+            87.2,
+            695.61,
+            119.29,
+            710.04
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "arrays."
+        }
+      ],
+      "charCount": 1744,
+      "height": 792.0,
+      "pageNumber": 18,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            227.99,
+            758.2,
+            384.01,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "@1nska  •  6 AI-Era EE Projects  •  Page 19"
+        },
+        {
+          "bbox": [
+            87.2,
+            55.61,
+            544.8,
+            70.12
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Match + identify: For each new captured preamble, compute normalized cross-correlation against"
+        },
+        {
+          "bbox": [
+            87.2,
+            71.61,
+            514.96,
+            86.04
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "all templates. The template with the highest correlation score identifies the device. Plot ROC"
+        },
+        {
+          "bbox": [
+            87.2,
+            87.61,
+            539.16,
+            102.04
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "curves to characterize false accept/reject rates. A well-designed system achieves >95% accuracy"
+        },
+        {
+          "bbox": [
+            87.2,
+            103.61,
+            180.28,
+            118.04
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "across 10+ devices."
+        },
+        {
+          "bbox": [
+            108.8,
+            133.67,
+            212.08,
+            148.12
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "Interview Questions:"
+        },
+        {
+          "bbox": [
+            108.8,
+            149.61,
+            462.29,
+            164.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "→ What physical properties of a transmitter create its unique RF fingerprint?"
+        },
+        {
+          "bbox": [
+            108.8,
+            165.61,
+            433.73,
+            180.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "→ Why capture the preamble specifically instead of the data payload?"
+        },
+        {
+          "bbox": [
+            108.8,
+            181.61,
+            487.41,
+            196.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "→ How does I/Q demodulation preserve information that amplitude-only detection"
+        },
+        {
+          "bbox": [
+            108.8,
+            197.61,
+            147.3,
+            212.04
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "misses?"
+        },
+        {
+          "bbox": [
+            108.8,
+            213.61,
+            429.89,
+            228.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "→ What's your false acceptance rate, and how would you improve it?"
+        },
+        {
+          "bbox": [
+            108.8,
+            229.61,
+            474.58,
+            244.04
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "→ How does temperature affect RF fingerprints, and how do you compensate?"
+        },
+        {
+          "bbox": [
+            108.8,
+            245.61,
+            443.33,
+            260.04
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "→ What's the difference between this and MAC address authentication?"
+        }
+      ],
+      "charCount": 802,
+      "height": 792.0,
+      "pageNumber": 19,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            227.99,
+            758.2,
+            384.01,
+            769.19
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "@1nska  •  6 AI-Era EE Projects  •  Page 20"
+        },
+        {
+          "bbox": [
+            69.8,
+            85.14,
+            542.2,
+            109.93
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "These aren't Arduino projects with a ChatGPT wrapper."
+        },
+        {
+          "bbox": [
+            67.2,
+            127.61,
+            544.8,
+            142.04
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "These are circuits that exist because AI created problems only hardware can solve. Each one involves"
+        },
+        {
+          "bbox": [
+            67.2,
+            143.61,
+            544.8,
+            158.04
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "real analog design, real RF, real signal processing, real cryptographic hardware. The kind of depth that"
+        },
+        {
+          "bbox": [
+            67.2,
+            159.61,
+            422.03,
+            174.04
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "makes an interviewer stop asking questions and start having a conversation."
+        },
+        {
+          "bbox": [
+            108.8,
+            209.61,
+            446.66,
+            224.12
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Build even one of these projects. Document it with measurements and"
+        },
+        {
+          "bbox": [
+            108.8,
+            225.61,
+            499.77,
+            240.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "oscilloscope screenshots. Put it on your GitHub with the README template from my"
+        },
+        {
+          "bbox": [
+            108.8,
+            241.61,
+            480.24,
+            256.04
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Portfolio Playbook. You'll have something on your resume that nobody else has."
+        },
+        {
+          "bbox": [
+            202.68,
+            310.42,
+            409.32,
+            328.29
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Hardware is the last line of defense."
+        },
+        {
+          "bbox": [
+            108.8,
+            364.61,
+            487.27,
+            379.12
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Follow @1nska on Instagram for build logs, new guides, and projects that make"
+        },
+        {
+          "bbox": [
+            108.8,
+            380.61,
+            267.52,
+            395.04
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "recruiters ask follow-up questions."
+        },
+        {
+          "bbox": [
+            227.58,
+            446.73,
+            384.42,
+            459.09
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "— Enes (@1nska) • Electrical Engineer"
+        }
+      ],
+      "charCount": 786,
+      "height": 792.0,
+      "pageNumber": 20,
+      "textExtractable": true,
+      "width": 612.0
+    }
+  ],
+  "provenance": {
+    "confidence": "EXACT",
+    "extractionMethod": "pymupdf-blocks-v1",
+    "extractorVersion": "1.28.0",
+    "generatorVersion": null,
+    "origin": "extracted",
+    "source": "guide-018",
+    "sourceHash": "307e095efd6f4e7bc42ba8293cbedb92e19d51d6b87cb4730481f6c0bc992c0d",
+    "sourcePage": null,
+    "sourcePath": "Engineering guides/ee ai era projects.pdf",
+    "sourceSection": "ROOT"
+  },
+  "relativePath": "Engineering guides/ee ai era projects.pdf",
+  "schemaVersion": "1.0.0",
+  "sha256": "307e095efd6f4e7bc42ba8293cbedb92e19d51d6b87cb4730481f6c0bc992c0d",
+  "sourceId": "guide-018"
+}

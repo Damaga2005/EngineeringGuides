@@ -1,0 +1,4116 @@
+{
+  "metadata": {
+    "creationDate": "D:20260818140732+00'00'",
+    "creator": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+    "format": "PDF 1.4",
+    "modDate": "D:20260818140732+00'00'",
+    "producer": "Skia/PDF m151",
+    "title": "Ohmie Build Guide"
+  },
+  "pageCount": 15,
+  "pages": [
+    {
+      "blocks": [
+        {
+          "bbox": [
+            62.35,
+            77.5,
+            319.64,
+            180.88
+          ],
+          "blockIndex": 0,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "OHM’S CLUB\nOHMIE\nBUILD GUIDE"
+        },
+        {
+          "bbox": [
+            62.35,
+            197.27,
+            345.4,
+            210.4
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Two games for an Arduino Uno R3, a 2.42″ OLED, a slide"
+        },
+        {
+          "bbox": [
+            62.35,
+            215.27,
+            383.15,
+            228.4
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "potentiometer and a buzzer — wired once, flashed from a single"
+        },
+        {
+          "bbox": [
+            62.35,
+            232.52,
+            394.36,
+            245.65
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "repo. Everything here has been compiled and checked against the"
+        },
+        {
+          "bbox": [
+            62.35,
+            250.52,
+            133.21,
+            263.65
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "real toolchain."
+        },
+        {
+          "bbox": [
+            62.35,
+            743.39,
+            170.88,
+            753.54
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "RESIST  ·  fight the current"
+        },
+        {
+          "bbox": [
+            62.35,
+            756.89,
+            193.56,
+            767.04
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "FLAPPY OHM  ·  fly the resistors"
+        },
+        {
+          "bbox": [
+            358.7,
+            743.39,
+            533.09,
+            753.54
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "github.com/jinglebells2020/flappy-ohmie"
+        },
+        {
+          "bbox": [
+            408.75,
+            756.89,
+            533.09,
+            767.04
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Arduino Uno R3 · ATmega328P"
+        },
+        {
+          "bbox": [
+            62.35,
+            438.42,
+            151.87,
+            581.74
+          ],
+          "blockIndex": 9,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Ω"
+        }
+      ],
+      "charCount": 349,
+      "height": 841.92,
+      "pageNumber": 1,
+      "textExtractable": true,
+      "width": 594.96
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            39.75,
+            46.26,
+            166.63,
+            65.37
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "— What’s in here"
+        },
+        {
+          "bbox": [
+            39.75,
+            84.8,
+            118.22,
+            96.02
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "1 Parts you need"
+        },
+        {
+          "bbox": [
+            39.75,
+            103.55,
+            80.86,
+            114.77
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "2 Wiring"
+        },
+        {
+          "bbox": [
+            39.75,
+            123.05,
+            143.3,
+            134.27
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "3 Before you power up"
+        },
+        {
+          "bbox": [
+            39.75,
+            141.8,
+            138.32,
+            153.02
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "4 Install the toolchain"
+        },
+        {
+          "bbox": [
+            39.75,
+            161.29,
+            117.3,
+            172.52
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "5 Clone the repo"
+        },
+        {
+          "bbox": [
+            39.75,
+            180.04,
+            166.01,
+            191.27
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "6 Check the pot and buzzer"
+        },
+        {
+          "bbox": [
+            311.92,
+            84.8,
+            403.58,
+            96.02
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "7 Compile and flash"
+        },
+        {
+          "bbox": [
+            311.92,
+            103.55,
+            421.95,
+            114.77
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "8 RESIST — how it plays"
+        },
+        {
+          "bbox": [
+            311.92,
+            123.05,
+            442.57,
+            134.27
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "9 Flappy Ohm — how it plays"
+        },
+        {
+          "bbox": [
+            311.92,
+            141.8,
+            423.52,
+            153.02
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "10 When it doesn’t work"
+        },
+        {
+          "bbox": [
+            311.92,
+            161.29,
+            397.32,
+            172.52
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "11 Making it yours"
+        },
+        {
+          "bbox": [
+            311.92,
+            180.04,
+            383.53,
+            191.27
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "12 Full pin map"
+        },
+        {
+          "bbox": [
+            39.75,
+            216.49,
+            116.95,
+            229.03
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "The two games"
+        },
+        {
+          "bbox": [
+            39.75,
+            238.35,
+            499.32,
+            264.07
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "RESIST — Ohmie is a resistor, so he does a resistor’s job. Current streams down a wire at him and your\nfader is his resistance. Resist too little and the current sweeps him off the wire; resist too much and"
+        },
+        {
+          "bbox": [
+            43.15,
+            267.6,
+            289.34,
+            279.07
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "P = I²R cooks him. You ride the gap between the two."
+        },
+        {
+          "bbox": [
+            39.75,
+            290.85,
+            500.66,
+            302.31
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Flappy Ohm — the fader is Ohmie’s height, and you fly him through a field of resistors. No tapping; you"
+        },
+        {
+          "bbox": [
+            39.75,
+            305.85,
+            63.57,
+            317.31
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "slide."
+        },
+        {
+          "bbox": [
+            39.75,
+            329.1,
+            310.47,
+            340.56
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Both run on identical wiring, so you build the hardware once."
+        }
+      ],
+      "charCount": 692,
+      "height": 841.92,
+      "pageNumber": 2,
+      "textExtractable": true,
+      "width": 594.96
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            39.75,
+            46.26,
+            167.96,
+            65.37
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "1 Parts you need"
+        },
+        {
+          "bbox": [
+            46.83,
+            89.51,
+            310.67,
+            98.59
+          ],
+          "blockIndex": 1,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "PART\nWHAT TO LOOK FOR"
+        },
+        {
+          "bbox": [
+            46.83,
+            111.62,
+            537.75,
+            122.12
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Arduino Uno R3\nGenuine or clone. Clones often report an unusual USB vendor ID, which only"
+        },
+        {
+          "bbox": [
+            222.25,
+            125.12,
+            489.49,
+            135.62
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "means you pass the board type explicitly — covered in section 7."
+        },
+        {
+          "bbox": [
+            46.83,
+            149.12,
+            530.04,
+            159.62
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "2.42″ OLED, 128×64\nSSD1309 controller, 7 pins (GND, VCC, SCK, SDA, RES, DC, CS). SSD1306"
+        },
+        {
+          "bbox": [
+            222.25,
+            162.62,
+            391.05,
+            173.12
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "panels also work with a one-line change."
+        },
+        {
+          "bbox": [
+            46.83,
+            186.62,
+            537.05,
+            197.12
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Slide pot module\nDual gang, 6 pins as two 3-pin headers: GND, VCC, WIPER per gang. A bare"
+        },
+        {
+          "bbox": [
+            222.25,
+            200.12,
+            314.44,
+            210.62
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "3-pin fader works too."
+        },
+        {
+          "bbox": [
+            46.83,
+            224.12,
+            537.29,
+            234.62
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Buzzer module\n3 pins: GND, VCC, SIGNAL. A bare 2-pin buzzer works too — see the note in"
+        },
+        {
+          "bbox": [
+            222.25,
+            237.61,
+            262.98,
+            248.12
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "section 2."
+        },
+        {
+          "bbox": [
+            46.83,
+            262.36,
+            451.14,
+            272.87
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Jumper wires\n13 male-to-female, or male-to-male plus a breadboard."
+        },
+        {
+          "bbox": [
+            46.83,
+            286.36,
+            326.55,
+            296.87
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "USB cable\nType-B for a classic Uno."
+        },
+        {
+          "bbox": [
+            51.83,
+            325.76,
+            184.59,
+            334.83
+          ],
+          "blockIndex": 12,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "PASSIVE OR ACTIVE BUZZER?"
+        },
+        {
+          "bbox": [
+            51.83,
+            340.36,
+            533.63,
+            350.96
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "The sketches use tone() , which sweeps pitch only on a passive buzzer. Many 3-pin modules carry an active one,"
+        },
+        {
+          "bbox": [
+            51.83,
+            354.61,
+            535.61,
+            365.12
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "which has its own oscillator and will sound at a single fixed pitch no matter what the sketch asks for. Both are safe to"
+        },
+        {
+          "bbox": [
+            51.83,
+            368.11,
+            327.59,
+            378.62
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "wire exactly the same way, and section 6 tells you which you have."
+        }
+      ],
+      "charCount": 948,
+      "height": 841.92,
+      "pageNumber": 3,
+      "textExtractable": true,
+      "width": 594.96
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            39.75,
+            46.26,
+            107.21,
+            65.37
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "2 Wiring"
+        },
+        {
+          "bbox": [
+            73.99,
+            137.17,
+            81.34,
+            141.63
+          ],
+          "blockIndex": 1,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "USB"
+        },
+        {
+          "bbox": [
+            148.38,
+            179.82,
+            217.21,
+            188.26
+          ],
+          "blockIndex": 2,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "ARDUINO UNO R3"
+        },
+        {
+          "bbox": [
+            165.14,
+            190.27,
+            201.05,
+            195.23
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "68.6 × 53.4 mm"
+        },
+        {
+          "bbox": [
+            417.87,
+            159.57,
+            443.43,
+            165.02
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "128 × 64"
+        },
+        {
+          "bbox": [
+            490.3,
+            89.59,
+            524.17,
+            95.54
+          ],
+          "blockIndex": 5,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "OLED 2.42\""
+        },
+        {
+          "bbox": [
+            329.29,
+            229.14,
+            549.33,
+            238.39
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "69 × 42 mm · SCK=D0, SDA=D1 · SSD1309\nSLIDE POT MODULE\n75 × 28 mm · dual gang"
+        },
+        {
+          "bbox": [
+            343.85,
+            285.25,
+            487.6,
+            289.47
+          ],
+          "blockIndex": 7,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "GANG A\nGANG B"
+        },
+        {
+          "bbox": [
+            386.87,
+            339.05,
+            468.74,
+            345.0
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "BUZZER MODULE\n30 × 18 mm"
+        },
+        {
+          "bbox": [
+            93.48,
+            446.45,
+            272.56,
+            451.41
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "10 mm\ndrawn to scale · 2.54 mm pitch · header positions representative"
+        },
+        {
+          "bbox": [
+            102.76,
+            123.94,
+            107.48,
+            131.43
+          ],
+          "blockIndex": 10,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "SCL"
+        },
+        {
+          "bbox": [
+            110.56,
+            123.95,
+            115.27,
+            131.43
+          ],
+          "blockIndex": 11,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "SDA"
+        },
+        {
+          "bbox": [
+            118.36,
+            123.94,
+            123.07,
+            133.95
+          ],
+          "blockIndex": 12,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "AREF"
+        },
+        {
+          "bbox": [
+            126.16,
+            123.95,
+            130.87,
+            131.43
+          ],
+          "blockIndex": 13,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "GND"
+        },
+        {
+          "bbox": [
+            133.96,
+            123.93,
+            138.67,
+            128.9
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "13"
+        },
+        {
+          "bbox": [
+            141.75,
+            123.94,
+            146.47,
+            128.9
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "12"
+        },
+        {
+          "bbox": [
+            149.55,
+            123.93,
+            154.27,
+            128.9
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "11"
+        },
+        {
+          "bbox": [
+            157.35,
+            123.94,
+            162.07,
+            128.9
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "10"
+        },
+        {
+          "bbox": [
+            165.15,
+            123.95,
+            169.86,
+            126.39
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "9"
+        },
+        {
+          "bbox": [
+            172.95,
+            123.94,
+            177.66,
+            126.38
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "8"
+        },
+        {
+          "bbox": [
+            185.41,
+            123.94,
+            190.13,
+            126.38
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "7"
+        },
+        {
+          "bbox": [
+            193.21,
+            123.95,
+            197.93,
+            126.39
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "6"
+        },
+        {
+          "bbox": [
+            201.01,
+            123.94,
+            205.73,
+            126.38
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            208.81,
+            123.95,
+            213.52,
+            126.39
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            216.61,
+            123.94,
+            221.32,
+            126.38
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            224.41,
+            123.95,
+            229.12,
+            126.39
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            232.21,
+            123.94,
+            236.92,
+            126.38
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            240.0,
+            123.95,
+            244.72,
+            126.39
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "0"
+        },
+        {
+          "bbox": [
+            104.3,
+            246.0,
+            109.01,
+            250.96
+          ],
+          "blockIndex": 28,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "NC"
+        },
+        {
+          "bbox": [
+            112.09,
+            238.43,
+            116.81,
+            250.96
+          ],
+          "blockIndex": 29,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "IOREF"
+        },
+        {
+          "bbox": [
+            119.89,
+            238.42,
+            124.61,
+            250.96
+          ],
+          "blockIndex": 30,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "RESET"
+        },
+        {
+          "bbox": [
+            127.69,
+            243.48,
+            132.41,
+            250.96
+          ],
+          "blockIndex": 31,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "3V3"
+        },
+        {
+          "bbox": [
+            135.49,
+            246.0,
+            140.2,
+            250.96
+          ],
+          "blockIndex": 32,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "5V"
+        },
+        {
+          "bbox": [
+            143.29,
+            243.48,
+            148.0,
+            250.96
+          ],
+          "blockIndex": 33,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "GND"
+        },
+        {
+          "bbox": [
+            151.09,
+            243.47,
+            155.8,
+            250.96
+          ],
+          "blockIndex": 34,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "GND"
+        },
+        {
+          "bbox": [
+            158.89,
+            243.48,
+            163.6,
+            250.96
+          ],
+          "blockIndex": 35,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "VIN"
+        },
+        {
+          "bbox": [
+            182.28,
+            246.01,
+            187.0,
+            250.97
+          ],
+          "blockIndex": 36,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "A0"
+        },
+        {
+          "bbox": [
+            190.08,
+            246.0,
+            194.8,
+            250.96
+          ],
+          "blockIndex": 37,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "A1"
+        },
+        {
+          "bbox": [
+            197.88,
+            246.01,
+            202.59,
+            250.97
+          ],
+          "blockIndex": 38,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "A2"
+        },
+        {
+          "bbox": [
+            205.68,
+            246.0,
+            210.39,
+            250.96
+          ],
+          "blockIndex": 39,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "A3"
+        },
+        {
+          "bbox": [
+            213.48,
+            246.01,
+            218.19,
+            250.97
+          ],
+          "blockIndex": 40,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "A4"
+        },
+        {
+          "bbox": [
+            221.28,
+            246.0,
+            225.99,
+            250.96
+          ],
+          "blockIndex": 41,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "A5"
+        },
+        {
+          "bbox": [
+            331.69,
+            136.56,
+            339.18,
+            141.27
+          ],
+          "blockIndex": 42,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "GND"
+        },
+        {
+          "bbox": [
+            331.69,
+            144.35,
+            339.18,
+            149.07
+          ],
+          "blockIndex": 43,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "VCC"
+        },
+        {
+          "bbox": [
+            331.69,
+            152.16,
+            339.18,
+            156.87
+          ],
+          "blockIndex": 44,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "SCK"
+        },
+        {
+          "bbox": [
+            331.69,
+            159.95,
+            339.18,
+            164.66
+          ],
+          "blockIndex": 45,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "SDA"
+        },
+        {
+          "bbox": [
+            331.69,
+            167.75,
+            339.18,
+            172.47
+          ],
+          "blockIndex": 46,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "RES"
+        },
+        {
+          "bbox": [
+            331.69,
+            175.55,
+            336.66,
+            180.26
+          ],
+          "blockIndex": 47,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "DC"
+        },
+        {
+          "bbox": [
+            331.69,
+            183.35,
+            336.66,
+            188.07
+          ],
+          "blockIndex": 48,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "CS"
+        },
+        {
+          "bbox": [
+            340.97,
+            300.79,
+            345.68,
+            308.27
+          ],
+          "blockIndex": 49,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "GND"
+        },
+        {
+          "bbox": [
+            348.77,
+            300.79,
+            353.48,
+            308.28
+          ],
+          "blockIndex": 50,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "VCC"
+        },
+        {
+          "bbox": [
+            356.57,
+            290.69,
+            361.28,
+            308.27
+          ],
+          "blockIndex": 51,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "WIPER A"
+        },
+        {
+          "bbox": [
+            469.92,
+            300.79,
+            474.64,
+            308.28
+          ],
+          "blockIndex": 52,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "GND"
+        },
+        {
+          "bbox": [
+            477.72,
+            300.79,
+            482.44,
+            308.27
+          ],
+          "blockIndex": 53,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "VCC"
+        },
+        {
+          "bbox": [
+            485.52,
+            290.7,
+            490.23,
+            308.28
+          ],
+          "blockIndex": 54,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "WIPER B"
+        },
+        {
+          "bbox": [
+            435.38,
+            376.69,
+            440.09,
+            384.17
+          ],
+          "blockIndex": 55,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "GND"
+        },
+        {
+          "bbox": [
+            443.18,
+            376.7,
+            447.89,
+            384.18
+          ],
+          "blockIndex": 56,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "VCC"
+        },
+        {
+          "bbox": [
+            450.97,
+            369.12,
+            455.69,
+            384.17
+          ],
+          "blockIndex": 57,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "SIGNAL"
+        },
+        {
+          "bbox": [
+            82.96,
+            468.81,
+            464.15,
+            478.13
+          ],
+          "blockIndex": 58,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Boards drawn to true relative scale · 2.54 mm header pitch · 4.06 mm across the Uno’s digital headers"
+        },
+        {
+          "bbox": [
+            39.75,
+            511.99,
+            103.06,
+            524.53
+          ],
+          "blockIndex": 59,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "OLED → Uno"
+        },
+        {
+          "bbox": [
+            46.83,
+            538.0,
+            178.54,
+            547.07
+          ],
+          "blockIndex": 60,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "OLED\nUNO"
+        },
+        {
+          "bbox": [
+            46.83,
+            560.32,
+            175.47,
+            570.56
+          ],
+          "blockIndex": 61,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "GND\nGND"
+        },
+        {
+          "bbox": [
+            46.83,
+            584.32,
+            170.18,
+            594.56
+          ],
+          "blockIndex": 62,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "VCC\n5V"
+        },
+        {
+          "bbox": [
+            46.83,
+            608.32,
+            212.55,
+            618.56
+          ],
+          "blockIndex": 63,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "SCK / D0\nD13  fixed"
+        },
+        {
+          "bbox": [
+            46.83,
+            632.32,
+            212.55,
+            642.56
+          ],
+          "blockIndex": 64,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "SDA / D1\nD11  fixed"
+        },
+        {
+          "bbox": [
+            46.83,
+            656.32,
+            170.18,
+            666.56
+          ],
+          "blockIndex": 65,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "RES\nD8"
+        },
+        {
+          "bbox": [
+            46.83,
+            680.32,
+            170.18,
+            690.56
+          ],
+          "blockIndex": 66,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "DC\nD9"
+        },
+        {
+          "bbox": [
+            46.83,
+            704.32,
+            175.47,
+            714.56
+          ],
+          "blockIndex": 67,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "CS\nD10"
+        },
+        {
+          "bbox": [
+            309.08,
+            511.99,
+            389.11,
+            524.53
+          ],
+          "blockIndex": 68,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Slide pot → Uno"
+        },
+        {
+          "bbox": [
+            316.15,
+            538.0,
+            506.63,
+            547.07
+          ],
+          "blockIndex": 69,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "POT (GANG A)\nUNO"
+        },
+        {
+          "bbox": [
+            316.15,
+            560.32,
+            503.57,
+            570.56
+          ],
+          "blockIndex": 70,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "GND\nGND"
+        },
+        {
+          "bbox": [
+            316.15,
+            584.32,
+            498.27,
+            594.56
+          ],
+          "blockIndex": 71,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "VCC\n5V"
+        },
+        {
+          "bbox": [
+            316.15,
+            608.32,
+            498.27,
+            618.56
+          ],
+          "blockIndex": 72,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "WIPER A\nA0"
+        },
+        {
+          "bbox": [
+            309.08,
+            645.48,
+            379.58,
+            658.02
+          ],
+          "blockIndex": 73,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Buzzer → Uno"
+        },
+        {
+          "bbox": [
+            316.15,
+            671.5,
+            481.75,
+            680.57
+          ],
+          "blockIndex": 74,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "BUZZER\nUNO"
+        },
+        {
+          "bbox": [
+            316.15,
+            693.82,
+            478.69,
+            704.06
+          ],
+          "blockIndex": 75,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "GND\nGND"
+        },
+        {
+          "bbox": [
+            316.15,
+            717.82,
+            473.39,
+            728.06
+          ],
+          "blockIndex": 76,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "VCC\n5V"
+        },
+        {
+          "bbox": [
+            316.15,
+            741.82,
+            473.39,
+            752.06
+          ],
+          "blockIndex": 77,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "SIGNAL\nD7"
+        }
+      ],
+      "charCount": 652,
+      "height": 841.92,
+      "pageNumber": 4,
+      "textExtractable": true,
+      "width": 594.96
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            39.75,
+            44.1,
+            502.19,
+            55.57
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Leave gang B of the pot unconnected — one gang is all the game reads. If you have a bare 2-pin buzzer"
+        },
+        {
+          "bbox": [
+            39.75,
+            59.1,
+            286.49,
+            70.66
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "instead of a module, it’s simply + → D7 and − → GND ."
+        },
+        {
+          "bbox": [
+            51.83,
+            91.01,
+            198.83,
+            100.09
+          ],
+          "blockIndex": 2,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "D13 AND D11 CANNOT BE MOVED"
+        },
+        {
+          "bbox": [
+            51.83,
+            106.37,
+            523.25,
+            116.87
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "They are wired to the ATmega328P’s SPI hardware in silicon. Put the clock on any other pin and the screen simply"
+        },
+        {
+          "bbox": [
+            51.83,
+            119.87,
+            539.58,
+            130.47
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "stays black. If D13 is genuinely unavailable, switch to I²C ( OLED_BUS 0 , SCL→A5, SDA→A4) rather than software SPI"
+        },
+        {
+          "bbox": [
+            51.83,
+            134.12,
+            298.09,
+            144.62
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "— software SPI is bit-banged and far too slow to look good."
+        },
+        {
+          "bbox": [
+            51.83,
+            177.26,
+            174.79,
+            186.33
+          ],
+          "blockIndex": 6,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "D12 LOOKS FREE BUT ISN’T"
+        },
+        {
+          "bbox": [
+            51.83,
+            191.87,
+            543.55,
+            202.37
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "D12 is MISO. While SPI is enabled in master mode the chip forces that pin to be an input, so anything you drive there is"
+        },
+        {
+          "bbox": [
+            51.83,
+            205.37,
+            432.69,
+            215.87
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "silently swallowed. The sketches refuse to compile if you put the buzzer on D11, D12 or D13."
+        }
+      ],
+      "charCount": 703,
+      "height": 841.92,
+      "pageNumber": 5,
+      "textExtractable": true,
+      "width": 594.96
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            39.75,
+            46.26,
+            209.23,
+            65.37
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "3 Before you power up"
+        },
+        {
+          "bbox": [
+            39.75,
+            84.6,
+            491.56,
+            96.07
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Check what your OLED module says about VCC, on the silkscreen or in the listing you bought it from."
+        },
+        {
+          "bbox": [
+            53.92,
+            107.85,
+            422.59,
+            119.32
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Marked 3.3–5 V — the common case. Wire VCC to the Uno’s 5 V pin and carry on."
+        },
+        {
+          "bbox": [
+            53.92,
+            126.6,
+            537.32,
+            138.07
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Marked 3.3 V only — run VCC from the Uno’s 3.3 V pin and put a 1 kΩ resistor in series with each of the five"
+        },
+        {
+          "bbox": [
+            53.92,
+            141.6,
+            492.82,
+            153.07
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "signal lines (SCK, SDA, RES, DC, CS). Uno logic is 5 V and will otherwise stress a 3.3 V-only panel."
+        },
+        {
+          "bbox": [
+            39.75,
+            164.85,
+            506.29,
+            176.32
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Then check the rest before applying power: nothing bridging 5 V to GND, the pot’s two outer pins on 5 V"
+        },
+        {
+          "bbox": [
+            39.75,
+            179.85,
+            500.76,
+            191.32
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "and GND with the wiper on A0, and no wire in D0 or D1 — those are the USB serial pins and anything on"
+        },
+        {
+          "bbox": [
+            39.75,
+            194.85,
+            144.84,
+            206.32
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "them breaks uploading."
+        }
+      ],
+      "charCount": 631,
+      "height": 841.92,
+      "pageNumber": 6,
+      "textExtractable": true,
+      "width": 594.96
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            39.75,
+            46.26,
+            202.24,
+            65.37
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "4 Install the toolchain"
+        },
+        {
+          "bbox": [
+            39.75,
+            84.6,
+            466.78,
+            96.07
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "You need two things: a compiler for AVR boards, and the U8g2 display library. Pick either route."
+        },
+        {
+          "bbox": [
+            39.75,
+            116.75,
+            268.41,
+            129.29
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Route A — Arduino CLI (what this guide uses)"
+        },
+        {
+          "bbox": [
+            53.33,
+            146.7,
+            88.73,
+            156.48
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "# macOS"
+        },
+        {
+          "bbox": [
+            53.33,
+            159.45,
+            174.7,
+            169.23
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "brew install arduino-cli"
+        },
+        {
+          "bbox": [
+            53.33,
+            184.2,
+            88.73,
+            193.98
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "# Linux"
+        },
+        {
+          "bbox": [
+            53.33,
+            196.95,
+            493.3,
+            206.73
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | sh"
+        },
+        {
+          "bbox": [
+            53.33,
+            222.45,
+            371.93,
+            232.23
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "# Windows: download the .zip from arduino.github.io/arduino-cli"
+        },
+        {
+          "bbox": [
+            39.75,
+            254.85,
+            140.72,
+            266.32
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Then, on any platform:"
+        },
+        {
+          "bbox": [
+            53.33,
+            286.95,
+            199.99,
+            308.73
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "arduino-cli config init\narduino-cli core update-index"
+        },
+        {
+          "bbox": [
+            53.33,
+            311.7,
+            235.39,
+            321.47
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "arduino-cli core install arduino:avr"
+        },
+        {
+          "bbox": [
+            53.33,
+            324.45,
+            205.04,
+            334.22
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "arduino-cli lib install \"U8g2\""
+        },
+        {
+          "bbox": [
+            39.75,
+            364.99,
+            153.21,
+            377.53
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Route B — Arduino IDE"
+        },
+        {
+          "bbox": [
+            42.45,
+            386.1,
+            308.93,
+            397.56
+          ],
+          "blockIndex": 13,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "1. Install the Arduino IDE from arduino.cc/en/software."
+        },
+        {
+          "bbox": [
+            42.45,
+            404.85,
+            305.52,
+            416.31
+          ],
+          "blockIndex": 14,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "2. Tools → Board → Arduino AVR Boards → Arduino Uno."
+        },
+        {
+          "bbox": [
+            42.45,
+            423.6,
+            312.92,
+            435.06
+          ],
+          "blockIndex": 15,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "3. Tools → Manage Libraries, search U8g2 by oliver, install."
+        },
+        {
+          "bbox": [
+            42.45,
+            442.35,
+            252.38,
+            453.81
+          ],
+          "blockIndex": 16,
+          "blockType": "list",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "4. Open the .ino you want and press Upload."
+        }
+      ],
+      "charCount": 723,
+      "height": 841.92,
+      "pageNumber": 7,
+      "textExtractable": true,
+      "width": 594.96
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            39.75,
+            46.26,
+            165.71,
+            65.37
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "5 Clone the repo"
+        },
+        {
+          "bbox": [
+            53.33,
+            92.7,
+            361.81,
+            102.48
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "git clone https://github.com/jinglebells2020/flappy-ohmie.git"
+        },
+        {
+          "bbox": [
+            53.33,
+            105.45,
+            129.19,
+            115.23
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "cd flappy-ohmie"
+        },
+        {
+          "bbox": [
+            39.75,
+            137.85,
+            493.4,
+            149.32
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "No Git installed? Open github.com/jinglebells2020/flappy-ohmie in a browser, press Code →"
+        },
+        {
+          "bbox": [
+            39.75,
+            152.85,
+            165.26,
+            164.32
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Download ZIP, and unzip it."
+        },
+        {
+          "bbox": [
+            39.75,
+            185.74,
+            108.47,
+            198.28
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "What’s inside"
+        },
+        {
+          "bbox": [
+            46.83,
+            211.76,
+            260.62,
+            220.83
+          ],
+          "blockIndex": 6,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "PATH\nWHAT IT IS"
+        },
+        {
+          "bbox": [
+            46.83,
+            233.87,
+            370.6,
+            244.37
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Resist/\nThe current-fighting game. Start here."
+        },
+        {
+          "bbox": [
+            46.83,
+            257.86,
+            329.44,
+            268.37
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "FlappyOhm/\nFly Ohmie through resistors."
+        },
+        {
+          "bbox": [
+            46.83,
+            281.86,
+            433.23,
+            292.37
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "PinCheck/\nConfirms the pot and buzzer before you load a game."
+        },
+        {
+          "bbox": [
+            46.83,
+            305.86,
+            547.53,
+            316.37
+          ],
+          "blockIndex": 10,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "wiring-bench.html\nInteractive wiring builder. Open it in any browser, drag boards, run cables, export"
+        },
+        {
+          "bbox": [
+            211.94,
+            319.36,
+            291.21,
+            329.87
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "a transparent PNG."
+        },
+        {
+          "bbox": [
+            46.83,
+            343.36,
+            365.44,
+            353.87
+          ],
+          "blockIndex": 12,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "wiring-diagram.svg\nThe schematic on the previous page."
+        },
+        {
+          "bbox": [
+            39.75,
+            374.1,
+            492.81,
+            385.56
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Each sketch lives in a folder matching its filename, which is what the Arduino toolchain expects. Point"
+        },
+        {
+          "bbox": [
+            39.75,
+            388.44,
+            223.36,
+            400.56
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "the compiler at the folder, not the .ino ."
+        }
+      ],
+      "charCount": 700,
+      "height": 841.92,
+      "pageNumber": 8,
+      "textExtractable": true,
+      "width": 594.96
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            39.75,
+            46.26,
+            245.65,
+            65.37
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "6 Check the pot and buzzer"
+        },
+        {
+          "bbox": [
+            39.75,
+            84.6,
+            493.14,
+            96.07
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Do this before loading a game. It needs only the pot and buzzer wired — no OLED — and it tells you in"
+        },
+        {
+          "bbox": [
+            39.75,
+            99.6,
+            402.83,
+            111.07
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "seconds whether your slider sweeps properly and which kind of buzzer you have."
+        },
+        {
+          "bbox": [
+            39.75,
+            122.85,
+            141.33,
+            134.32
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Find your board’s port:"
+        },
+        {
+          "bbox": [
+            53.33,
+            154.2,
+            164.59,
+            163.98
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "arduino-cli board list"
+        },
+        {
+          "bbox": [
+            39.75,
+            187.35,
+            498.57,
+            198.82
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "You’re looking for something like /dev/cu.usbmodem101 on macOS, /dev/ttyACM0 on Linux, or COM3"
+        },
+        {
+          "bbox": [
+            39.75,
+            202.35,
+            157.57,
+            213.82
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "on Windows. Use it below:"
+        },
+        {
+          "bbox": [
+            53.33,
+            233.7,
+            422.5,
+            243.48
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "arduino-cli compile --fqbn arduino:avr:uno --upload -p YOUR_PORT PinCheck"
+        },
+        {
+          "bbox": [
+            53.33,
+            246.45,
+            301.13,
+            256.23
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "arduino-cli monitor -p YOUR_PORT -c baudrate=9600"
+        },
+        {
+          "bbox": [
+            46.83,
+            283.76,
+            314.24,
+            292.83
+          ],
+          "blockIndex": 9,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "WHAT YOU SEE\nWHAT IT MEANS"
+        },
+        {
+          "bbox": [
+            46.83,
+            305.86,
+            207.9,
+            316.37
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Bar sweeps the full width, buzzer pitch"
+        },
+        {
+          "bbox": [
+            46.83,
+            319.36,
+            118.07,
+            329.87
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "rises as you slide"
+        },
+        {
+          "bbox": [
+            242.9,
+            305.86,
+            418.86,
+            316.37
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Both parts are good. Move on to section 7."
+        },
+        {
+          "bbox": [
+            46.83,
+            343.36,
+            532.37,
+            353.87
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Number never moves\nA0 is on an end pin, not the wiper. Swap A0 with one of the other two."
+        },
+        {
+          "bbox": [
+            46.83,
+            367.36,
+            203.31,
+            377.87
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Number jumps 0 ↔ 1023 with nothing"
+        },
+        {
+          "bbox": [
+            46.83,
+            380.86,
+            82.36,
+            391.37
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "between"
+        },
+        {
+          "bbox": [
+            242.9,
+            367.36,
+            547.55,
+            377.87
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "5 V and GND are on the wrong pins, or you picked pins from two different"
+        },
+        {
+          "bbox": [
+            242.9,
+            380.86,
+            270.89,
+            391.37
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "gangs."
+        },
+        {
+          "bbox": [
+            46.83,
+            404.86,
+            544.36,
+            415.37
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Stops short, e.g. 40–980\nNormal for a cheap fader. Widen POT_LO / POT_HI in the game sketch"
+        },
+        {
+          "bbox": [
+            242.9,
+            419.11,
+            282.16,
+            429.62
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "to match."
+        },
+        {
+          "bbox": [
+            46.83,
+            443.11,
+            546.03,
+            453.62
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Buzzer beeps but the pitch never changes\nYou have an active buzzer. Harmless — the games still sound, just at one"
+        },
+        {
+          "bbox": [
+            242.9,
+            456.61,
+            266.35,
+            467.12
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "pitch."
+        },
+        {
+          "bbox": [
+            46.83,
+            480.61,
+            486.33,
+            491.12
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Silent\nCheck polarity, and that SIGNAL is on D7 and VCC has 5 V."
+        },
+        {
+          "bbox": [
+            51.83,
+            520.0,
+            240.49,
+            529.08
+          ],
+          "blockIndex": 23,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "CLOSE THE MONITOR BEFORE UPLOADING"
+        },
+        {
+          "bbox": [
+            51.83,
+            535.36,
+            534.46,
+            545.87
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "A serial monitor holds the port, and the uploader cannot reset the board through a port something else owns. This is"
+        },
+        {
+          "bbox": [
+            51.83,
+            548.86,
+            348.63,
+            559.46
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "the single most common cause of programmer is not responding ."
+        }
+      ],
+      "charCount": 1319,
+      "height": 841.92,
+      "pageNumber": 9,
+      "textExtractable": true,
+      "width": 594.96
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            39.75,
+            46.26,
+            190.24,
+            65.37
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "7 Compile and flash"
+        },
+        {
+          "bbox": [
+            39.75,
+            84.6,
+            187.73,
+            96.07
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Wire the OLED now as well, then:"
+        },
+        {
+          "bbox": [
+            53.33,
+            115.95,
+            301.13,
+            125.73
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "arduino-cli compile --fqbn arduino:avr:uno Resist"
+        },
+        {
+          "bbox": [
+            39.75,
+            149.1,
+            146.66,
+            160.57
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "You should see roughly:"
+        },
+        {
+          "bbox": [
+            53.33,
+            180.45,
+            331.47,
+            190.23
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Sketch uses 21094 bytes (65%) of program storage space."
+        },
+        {
+          "bbox": [
+            53.33,
+            193.2,
+            336.53,
+            202.98
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Global variables use 1555 bytes (75%) of dynamic memory,"
+        },
+        {
+          "bbox": [
+            53.33,
+            205.95,
+            245.5,
+            215.73
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "leaving 493 bytes for local variables."
+        },
+        {
+          "bbox": [
+            53.33,
+            218.7,
+            311.24,
+            228.48
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Low memory available, stability problems may occur."
+        },
+        {
+          "bbox": [
+            51.83,
+            259.76,
+            182.85,
+            268.83
+          ],
+          "blockIndex": 8,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "THAT WARNING IS EXPECTED"
+        },
+        {
+          "bbox": [
+            51.83,
+            275.11,
+            536.37,
+            285.62
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "1 KB of the RAM is the display framebuffer, and U8g2 links in another 96 bytes of I²C buffers even on SPI. Peak stack"
+        },
+        {
+          "bbox": [
+            51.83,
+            288.61,
+            431.67,
+            299.12
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "for these sketches is around 200 bytes, so there is roughly 2× headroom. Nothing is wrong."
+        },
+        {
+          "bbox": [
+            39.75,
+            323.1,
+            95.23,
+            334.56
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Now flash it:"
+        },
+        {
+          "bbox": [
+            53.33,
+            354.45,
+            412.39,
+            364.22
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "arduino-cli compile --fqbn arduino:avr:uno --upload -p YOUR_PORT Resist"
+        },
+        {
+          "bbox": [
+            39.75,
+            386.85,
+            505.77,
+            398.31
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Swap Resist for FlappyOhm to load the other game. Always pass --fqbn arduino:avr:uno explicitly"
+        },
+        {
+          "bbox": [
+            39.75,
+            401.85,
+            504.77,
+            413.31
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "— many Uno clones report a USB vendor ID the tooling doesn’t recognise, so auto-detection reports the"
+        },
+        {
+          "bbox": [
+            39.75,
+            416.85,
+            354.22,
+            428.31
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "board as Unknown even though it is a perfectly ordinary ATmega328P."
+        },
+        {
+          "bbox": [
+            39.75,
+            440.1,
+            494.31,
+            451.66
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Uploading from the Arduino IDE instead? Open Resist/Resist.ino , pick Arduino Uno and your port"
+        },
+        {
+          "bbox": [
+            39.75,
+            455.1,
+            180.36,
+            466.56
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "under Tools, and press Upload."
+        }
+      ],
+      "charCount": 1026,
+      "height": 841.92,
+      "pageNumber": 10,
+      "textExtractable": true,
+      "width": 594.96
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            39.75,
+            46.26,
+            219.34,
+            65.37
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "8 RESIST — how it plays"
+        },
+        {
+          "bbox": [
+            39.75,
+            84.6,
+            390.2,
+            96.16
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Current I streams at Ohmie from the right. Your slider sets his resistance R ."
+        },
+        {
+          "bbox": [
+            53.92,
+            107.85,
+            495.63,
+            119.32
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "I > R — the current wins and shoves him downstream. Off the left edge and you are SWEPT AWAY."
+        },
+        {
+          "bbox": [
+            53.92,
+            126.6,
+            533.3,
+            138.07
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "P = I²R — resisting is work, and work is heat. He glows from the inside; fill the heat bar and you BURN OUT."
+        },
+        {
+          "bbox": [
+            39.75,
+            149.85,
+            500.82,
+            161.41
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "The notch on the R bar marks where R = I , the point where he holds his ground. During a surge that"
+        },
+        {
+          "bbox": [
+            39.75,
+            164.85,
+            506.13,
+            176.32
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "notch is also exactly where he cooks fastest, so you have to give ground, cool off, and take it back in the"
+        },
+        {
+          "bbox": [
+            39.75,
+            179.85,
+            282.88,
+            191.32
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "lull. That push-and-recover rhythm is the whole game."
+        },
+        {
+          "bbox": [
+            39.75,
+            203.1,
+            477.7,
+            214.57
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Surges get stronger and arrive sooner, and the ramp never plateaus — so every run ends, and skill"
+        },
+        {
+          "bbox": [
+            39.75,
+            218.1,
+            262.56,
+            229.57
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "decides when. Simulated against the real physics:"
+        },
+        {
+          "bbox": [
+            46.83,
+            246.26,
+            359.1,
+            255.33
+          ],
+          "blockIndex": 9,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "HOW YOU PLAY\nOUTCOME"
+        },
+        {
+          "bbox": [
+            46.83,
+            268.36,
+            373.8,
+            278.87
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Never really move the fader\nswept at ~11 s"
+        },
+        {
+          "bbox": [
+            46.83,
+            292.36,
+            397.49,
+            302.87
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Slam it to maximum and leave it\nburned out at ~35 s"
+        },
+        {
+          "bbox": [
+            46.83,
+            316.36,
+            397.74,
+            326.87
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Match R to I, ignore the heat\nburned out at ~40 s"
+        },
+        {
+          "bbox": [
+            46.83,
+            340.36,
+            349.48,
+            350.87
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Match I, back off when hot\n43–55 s"
+        },
+        {
+          "bbox": [
+            39.75,
+            371.1,
+            503.06,
+            382.56
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Slide the fader to start, and again to retry after a crash. Your best score is kept in EEPROM and survives"
+        },
+        {
+          "bbox": [
+            39.75,
+            386.1,
+            104.11,
+            397.56
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "a power cycle."
+        }
+      ],
+      "charCount": 1023,
+      "height": 841.92,
+      "pageNumber": 11,
+      "textExtractable": true,
+      "width": 594.96
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            39.75,
+            46.26,
+            253.43,
+            65.37
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "9 Flappy Ohm — how it plays"
+        },
+        {
+          "bbox": [
+            39.75,
+            84.6,
+            482.31,
+            96.07
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Your slider position is Ohmie’s height, with a little spring so he glides rather than snaps. Thread the"
+        },
+        {
+          "bbox": [
+            39.75,
+            99.6,
+            333.99,
+            111.07
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "resistors. Every one cleared is a point, a rising blip and a ring pop."
+        },
+        {
+          "bbox": [
+            39.75,
+            122.85,
+            506.07,
+            134.32
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Difficulty ramps: the world speeds up and the gap tightens from 30 px to 21 px. Collision uses a 9×9 box"
+        },
+        {
+          "bbox": [
+            39.75,
+            137.85,
+            495.31,
+            149.32
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "at his centre, so his feet and antenna pass through harmlessly — deliberately forgiving, because near-"
+        },
+        {
+          "bbox": [
+            39.75,
+            152.85,
+            178.16,
+            164.32
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "misses film better than deaths."
+        },
+        {
+          "bbox": [
+            39.75,
+            176.1,
+            491.84,
+            187.57
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Every gap the generator can produce was checked for a reachable centre. The tightest window in the"
+        },
+        {
+          "bbox": [
+            39.75,
+            191.1,
+            496.8,
+            216.82
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "whole difficulty curve is 10 px, and the spring closes the worst 22 px jump to within 0.04 px in the time\navailable at top speed. It is always physically possible — reaction time is the only limit."
+        }
+      ],
+      "charCount": 732,
+      "height": 841.92,
+      "pageNumber": 12,
+      "textExtractable": true,
+      "width": 594.96
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            39.75,
+            46.26,
+            223.95,
+            65.37
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "10 When it doesn’t work"
+        },
+        {
+          "bbox": [
+            46.83,
+            89.51,
+            256.61,
+            98.59
+          ],
+          "blockIndex": 1,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "SYMPTOM\nFIX"
+        },
+        {
+          "bbox": [
+            50.23,
+            112.11,
+            195.11,
+            122.12
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "programmer is not responding"
+        },
+        {
+          "bbox": [
+            50.23,
+            125.61,
+            164.06,
+            135.62
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "not in sync: resp=0x00"
+        },
+        {
+          "bbox": [
+            242.9,
+            111.62,
+            543.93,
+            122.12
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "A serial monitor is holding the port. Close it and retry. If it persists, press"
+        },
+        {
+          "bbox": [
+            242.9,
+            125.12,
+            417.36,
+            135.62
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "reset on the Uno just as the upload starts."
+        },
+        {
+          "bbox": [
+            46.83,
+            149.87,
+            535.82,
+            160.37
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Screen totally black\nClock must be on D13 under hardware SPI. Then try OLED_SSD1309 0"
+        },
+        {
+          "bbox": [
+            242.9,
+            164.12,
+            537.61,
+            174.62
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "— wrong controller is the most common cause. Then check RES/DC/CS"
+        },
+        {
+          "bbox": [
+            242.9,
+            177.62,
+            309.4,
+            188.12
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "aren’t swapped."
+        },
+        {
+          "bbox": [
+            46.83,
+            201.62,
+            475.29,
+            212.22
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Ohmie moves the wrong way\nSLIDER_FLIP 1 , or swap the pot’s 5 V and GND ends."
+        },
+        {
+          "bbox": [
+            46.83,
+            226.11,
+            430.44,
+            236.87
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Can’t reach the very top or bottom\nWiden POT_LO / POT_HI — try 0 and 1023."
+        },
+        {
+          "bbox": [
+            46.83,
+            250.36,
+            461.34,
+            260.87
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Ohmie jitters when you hold still\nNoisy fader. Add a 100 nF capacitor from A0 to GND."
+        },
+        {
+          "bbox": [
+            46.83,
+            274.36,
+            544.75,
+            284.97
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Motion looks choppy\nSet SHOW_FPS 1 ; the title screen prints render time. Over 20 ms means"
+        },
+        {
+          "bbox": [
+            242.9,
+            288.61,
+            457.11,
+            299.21
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "the bus is the bottleneck — get onto OLED_BUS 1 ."
+        },
+        {
+          "bbox": [
+            46.83,
+            313.36,
+            480.18,
+            323.87
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Garbage or tearing\nYou’re on I²C with a long cable. Shorten it or move to SPI."
+        },
+        {
+          "bbox": [
+            46.83,
+            337.36,
+            546.4,
+            347.87
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "No sound at all\nCheck SIGNAL is on D7 and the module has 5 V and GND. A 2-pin buzzer"
+        },
+        {
+          "bbox": [
+            242.9,
+            350.86,
+            336.46,
+            361.37
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "needs correct polarity."
+        },
+        {
+          "bbox": [
+            46.83,
+            374.86,
+            528.56,
+            385.37
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Board type not detected\nNormal on clones. Always pass --fqbn arduino:avr:uno and -p"
+        },
+        {
+          "bbox": [
+            242.9,
+            389.11,
+            334.0,
+            399.62
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "YOUR_PORT explicitly."
+        },
+        {
+          "bbox": [
+            46.83,
+            413.11,
+            209.52,
+            423.62
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Sketch won’t compile, complains about"
+        },
+        {
+          "bbox": [
+            46.83,
+            426.61,
+            90.43,
+            437.12
+          ],
+          "blockIndex": 20,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "PIN_BUZZ"
+        },
+        {
+          "bbox": [
+            242.9,
+            413.11,
+            539.27,
+            423.62
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Working as intended — you put the buzzer on D11, D12 or D13. Use D2–"
+        },
+        {
+          "bbox": [
+            242.9,
+            426.61,
+            255.9,
+            437.12
+          ],
+          "blockIndex": 22,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "D7."
+        }
+      ],
+      "charCount": 1151,
+      "height": 841.92,
+      "pageNumber": 13,
+      "textExtractable": true,
+      "width": 594.96
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            39.75,
+            46.26,
+            180.7,
+            65.37
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "11 Making it yours"
+        },
+        {
+          "bbox": [
+            39.75,
+            84.6,
+            303.75,
+            96.07
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Every setting worth touching sits at the top of each sketch."
+        },
+        {
+          "bbox": [
+            46.83,
+            112.76,
+            265.76,
+            121.84
+          ],
+          "blockIndex": 2,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "SETTING\nWHAT IT DOES"
+        },
+        {
+          "bbox": [
+            46.83,
+            134.87,
+            506.78,
+            145.38
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "OLED_BUS\n1 hardware SPI (~50 fps, the default), 0 I²C (~30 fps), 2 software SPI"
+        },
+        {
+          "bbox": [
+            201.62,
+            149.12,
+            241.86,
+            159.63
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "(~10 fps)."
+        },
+        {
+          "bbox": [
+            46.83,
+            172.86,
+            400.6,
+            183.62
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "OLED_SSD1309\n1 for a 2.42″ SSD1309 panel, 0 for SSD1306."
+        },
+        {
+          "bbox": [
+            46.83,
+            197.12,
+            321.33,
+            207.62
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "SLIDER_FLIP\nReverses the fader direction."
+        },
+        {
+          "bbox": [
+            46.83,
+            221.12,
+            356.24,
+            231.62
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "SHOW_FPS\nPrints render time on the title screen."
+        },
+        {
+          "bbox": [
+            46.83,
+            245.12,
+            507.43,
+            255.62
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "PIN_BUZZ\nBuzzer pin. D2–D7 are free; D7 keeps the wiring at one end of the header."
+        },
+        {
+          "bbox": [
+            46.83,
+            269.12,
+            532.25,
+            279.62
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "OHM_R\nOhmie’s size. Everything else scales from it — he is drawn from primitives, not a"
+        },
+        {
+          "bbox": [
+            201.62,
+            282.62,
+            232.87,
+            293.12
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "bitmap."
+        },
+        {
+          "bbox": [
+            39.75,
+            319.99,
+            125.19,
+            332.53
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "RESIST difficulty"
+        },
+        {
+          "bbox": [
+            43.15,
+            341.1,
+            466.28,
+            352.57
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "DRIFT is how hard the current shoves, HEAT_GAIN and HEAT_COOL set how fast he cooks and"
+        },
+        {
+          "bbox": [
+            39.75,
+            356.1,
+            503.88,
+            367.56
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "recovers. Sustainable power is HEAT_COOL / HEAT_GAIN — raise it and the game gets forgiving, lower it"
+        },
+        {
+          "bbox": [
+            39.75,
+            371.1,
+            182.52,
+            382.56
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "and the squeeze arrives sooner."
+        },
+        {
+          "bbox": [
+            39.75,
+            403.24,
+            148.63,
+            415.78
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Flappy Ohm difficulty"
+        },
+        {
+          "bbox": [
+            43.15,
+            424.35,
+            470.31,
+            435.81
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "GAP_START and GAP_MIN are the gap heights, and the speed line sets the ramp. If you change"
+        },
+        {
+          "bbox": [
+            43.15,
+            439.35,
+            507.45,
+            450.91
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "OHM_R , OHM_HIT or GAP_MIN , re-check that every gap is still reachable rather than trusting your eye —"
+        },
+        {
+          "bbox": [
+            39.75,
+            454.35,
+            356.03,
+            465.81
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "a hitbox that no longer fits produces gaps that cannot be passed at all."
+        }
+      ],
+      "charCount": 1030,
+      "height": 841.92,
+      "pageNumber": 14,
+      "textExtractable": true,
+      "width": 594.96
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            39.75,
+            46.26,
+            156.83,
+            65.37
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "12 Full pin map"
+        },
+        {
+          "bbox": [
+            46.83,
+            89.51,
+            334.02,
+            98.59
+          ],
+          "blockIndex": 1,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "UNO PIN\nGOES TO\nNOTES"
+        },
+        {
+          "bbox": [
+            46.83,
+            111.62,
+            414.24,
+            122.13
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "5V\nOLED VCC, pot VCC, buzzer VCC\nThree wires share this pin."
+        },
+        {
+          "bbox": [
+            46.83,
+            135.62,
+            495.61,
+            146.13
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "GND\nOLED GND, pot GND, buzzer GND\nThe Uno has three GND pins; spread the load."
+        },
+        {
+          "bbox": [
+            46.83,
+            159.62,
+            456.13,
+            170.12
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "A0\nPot WIPER A\nThe only analog read in either game."
+        },
+        {
+          "bbox": [
+            46.83,
+            183.62,
+            391.68,
+            194.12
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "D7\nBuzzer SIGNAL\nAny of D2–D7 works."
+        },
+        {
+          "bbox": [
+            46.83,
+            207.62,
+            424.4,
+            218.12
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "D8\nOLED RES\nOrdinary GPIO, reassignable."
+        },
+        {
+          "bbox": [
+            46.83,
+            231.62,
+            424.4,
+            242.12
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "D9\nOLED DC\nOrdinary GPIO, reassignable."
+        },
+        {
+          "bbox": [
+            46.83,
+            255.62,
+            424.4,
+            266.12
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "D10\nOLED CS\nOrdinary GPIO, reassignable."
+        },
+        {
+          "bbox": [
+            46.83,
+            279.61,
+            404.68,
+            290.12
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "D11\nOLED SDA / MOSI\nFixed by SPI hardware."
+        },
+        {
+          "bbox": [
+            46.83,
+            303.61,
+            536.04,
+            314.12
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "D12\n—\nMISO. Forced to an input by SPI; unusable as an output."
+        },
+        {
+          "bbox": [
+            46.83,
+            327.61,
+            404.68,
+            338.12
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "D13\nOLED SCK / D0\nFixed by SPI hardware."
+        },
+        {
+          "bbox": [
+            46.83,
+            351.61,
+            480.28,
+            362.12
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "D0 / D1\n—\nUSB serial. Leave empty or uploads break."
+        },
+        {
+          "bbox": [
+            39.75,
+            388.24,
+            94.13,
+            400.78
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Build sizes"
+        },
+        {
+          "bbox": [
+            39.75,
+            409.36,
+            240.9,
+            419.87
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Resist — 21094 B flash (65%), 493 B RAM free"
+        },
+        {
+          "bbox": [
+            39.75,
+            425.86,
+            255.29,
+            436.37
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "FlappyOhm — 19984 B flash (61%), 523 B RAM free"
+        },
+        {
+          "bbox": [
+            309.08,
+            409.36,
+            519.48,
+            419.87
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "PinCheck — 4046 B flash (12%), 1839 B RAM free"
+        },
+        {
+          "bbox": [
+            309.08,
+            425.86,
+            469.12,
+            436.37
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Target — 32256 B flash, 2048 B RAM"
+        },
+        {
+          "bbox": [
+            39.75,
+            465.99,
+            501.12,
+            476.02
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Ohmie is the Ω from Ohm’s turned into a creature: a filled disc, hollowed out, the bottom cut away, the omega’s own"
+        },
+        {
+          "bbox": [
+            39.75,
+            478.74,
+            506.24,
+            488.86
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "feet kept as his feet, and the apostrophe of Ohm’s kept as an antenna. Nothing is a bitmap — change OHM_R and he"
+        },
+        {
+          "bbox": [
+            39.75,
+            492.99,
+            70.46,
+            503.02
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "resizes."
+        },
+        {
+          "bbox": [
+            39.75,
+            518.69,
+            236.98,
+            528.47
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "github.com/jinglebells2020/flappy-ohmie"
+        }
+      ],
+      "charCount": 1030,
+      "height": 841.92,
+      "pageNumber": 15,
+      "textExtractable": true,
+      "width": 594.96
+    }
+  ],
+  "provenance": {
+    "confidence": "EXACT",
+    "extractionMethod": "pymupdf-blocks-v1",
+    "extractorVersion": "1.28.0",
+    "generatorVersion": null,
+    "origin": "extracted",
+    "source": "guide-027",
+    "sourceHash": "b62ddd05208ffd48b1d19499765a9c2159def1f85c4af879b9d4e3f7ac09e9b2",
+    "sourcePage": null,
+    "sourcePath": "Engineering guides/Ohmie-Build-Guide.pdf",
+    "sourceSection": "ROOT"
+  },
+  "relativePath": "Engineering guides/Ohmie-Build-Guide.pdf",
+  "schemaVersion": "1.0.0",
+  "sha256": "b62ddd05208ffd48b1d19499765a9c2159def1f85c4af879b9d4e3f7ac09e9b2",
+  "sourceId": "guide-027"
+}

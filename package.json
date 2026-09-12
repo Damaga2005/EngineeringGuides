@@ -7,7 +7,10 @@
     "catalog": "python scripts/extract_official_and_build_manuals.py",
     "dev": "node scripts/generate_catalog.js && vite",
     "build": "python scripts/extract_official_and_build_manuals.py && vite build && node scripts/copy_guides.js",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "pipeline": "python -m scripts.foundation.pipeline",
+    "validate": "python -m scripts.foundation.validators",
+    "test": "pytest tests -v"
   },
   "dependencies": {
     "clsx": "^2.1.1",

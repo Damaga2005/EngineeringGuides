@@ -1,0 +1,4776 @@
+{
+  "metadata": {
+    "format": "PDF 1.4",
+    "producer": "pypdf"
+  },
+  "pageCount": 18,
+  "pages": [
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            33.33,
+            67.85,
+            63.01
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "✻"
+        },
+        {
+          "bbox": [
+            52.5,
+            81.91,
+            346.44,
+            93.12
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "field guide · seeing with light · 6 projects · jun 2026"
+        },
+        {
+          "bbox": [
+            52.5,
+            128.76,
+            280.67,
+            141.43
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "> build six things that see with light_"
+        },
+        {
+          "bbox": [
+            52.5,
+            153.13,
+            344.8,
+            213.81
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Six EE Projects That\nSee With Light"
+        },
+        {
+          "bbox": [
+            52.5,
+            225.12,
+            508.12,
+            238.28
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Lasers, photodiodes, and time-of-flight — six builds that measure, map, and"
+        },
+        {
+          "bbox": [
+            52.5,
+            241.62,
+            520.27,
+            254.78
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "talk using light. From a beam-break speed trap to a spinning LiDAR that draws"
+        },
+        {
+          "bbox": [
+            52.5,
+            257.37,
+            526.35,
+            270.53
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "your room as a point cloud, to sending audio across the room on a laser. Cheap"
+        },
+        {
+          "bbox": [
+            52.5,
+            273.87,
+            301.57,
+            287.03
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "optics; real photonics signal processing."
+        },
+        {
+          "bbox": [
+            52.5,
+            320.74,
+            494.49,
+            334.39
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "01\nOptical Break-Beam Speed Trap  Fire a laser across a gap and clock anything that"
+        },
+        {
+          "bbox": [
+            78.0,
+            336.54,
+            206.7,
+            347.27
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "crosses it — in real units"
+        },
+        {
+          "bbox": [
+            543.29,
+            322.27,
+            559.49,
+            333.98
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$15"
+        },
+        {
+          "bbox": [
+            52.5,
+            364.99,
+            511.82,
+            378.64
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "02\nLaser Rangefinder (Time-of-Flight LiDAR)  Measure distance with a pulse of light —"
+        },
+        {
+          "bbox": [
+            78.0,
+            380.79,
+            276.0,
+            391.52
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "the sensor inside every self-driving car"
+        },
+        {
+          "bbox": [
+            543.29,
+            366.52,
+            559.49,
+            378.23
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$25"
+        },
+        {
+          "bbox": [
+            52.5,
+            409.24,
+            517.89,
+            422.89
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "03\nSpinning LiDAR Room Scanner  Spin a rangefinder and watch your room appear as a point"
+        },
+        {
+          "bbox": [
+            78.0,
+            425.04,
+            102.75,
+            435.77
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "cloud"
+        },
+        {
+          "bbox": [
+            543.29,
+            410.77,
+            559.49,
+            422.48
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$45"
+        },
+        {
+          "bbox": [
+            52.5,
+            453.49,
+            513.17,
+            467.14
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "04\nLaser Data Link (Free-Space Optical Comms)  Send audio and data across the room on"
+        },
+        {
+          "bbox": [
+            78.0,
+            469.29,
+            152.25,
+            480.02
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "a beam of light"
+        },
+        {
+          "bbox": [
+            543.29,
+            455.02,
+            559.49,
+            466.73
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$20"
+        },
+        {
+          "bbox": [
+            52.5,
+            497.74,
+            485.71,
+            511.39
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "05\nLaser Vibrometer  Read a surface's vibration with a reflected beam — non-contact"
+        },
+        {
+          "bbox": [
+            78.0,
+            513.54,
+            167.1,
+            524.27
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "sensing with light"
+        },
+        {
+          "bbox": [
+            543.29,
+            499.27,
+            559.49,
+            510.98
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$30"
+        },
+        {
+          "bbox": [
+            52.5,
+            541.99,
+            558.39,
+            555.64
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "06\nStructured-Light 3D Scanner  Sweep a laser line across an object and rebuild it in 3D\n$40"
+        },
+        {
+          "bbox": [
+            52.5,
+            587.03,
+            414.33,
+            598.72
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "● By Enes · @1nska · Electrical Engineer — a Build List field guide"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "seeing with light — a Build List field guide\n1 / 18"
+        }
+      ],
+      "charCount": 1154,
+      "height": 792.0,
+      "pageNumber": 1,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.03,
+            373.5,
+            65.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "❯ project 01\nOptical Break-Beam Speed Trap"
+        },
+        {
+          "bbox": [
+            52.5,
+            72.14,
+            480.0,
+            84.33
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Fire a laser across a gap and clock anything that crosses it — in real units"
+        },
+        {
+          "bbox": [
+            60.75,
+            98.04,
+            204.77,
+            108.77
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "$15\nbeginner\n1 weekend"
+        },
+        {
+          "bbox": [
+            52.5,
+            132.43,
+            196.71,
+            149.01
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "## why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            158.02,
+            554.7,
+            237.23
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "The simplest thing you can do with light is notice when it stops arriving. Point a laser at a\nphotodiode and you have a beam; break it and a voltage collapses in microseconds. Put two\nbeams a known distance apart, time how long an object takes to cross from one to the other,\nand you have a speed trap — clock a Nerf dart, a dropped ball, a swinging door. It is the\ncheapest possible photonics build, the response is instant and visual, and it teaches the\nphotodetection front end that every later project in this guide depends on."
+        },
+        {
+          "bbox": [
+            69.0,
+            274.68,
+            544.2,
+            339.23
+          ],
+          "blockIndex": 5,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand photodiode and phototransistor detection, turning a light level into a\nclean logic edge with a comparator, microsecond-scale timing on a microcontroller, and\nconverting a time interval into a physical measurement — the core of optical sensing and\ninstrumentation."
+        },
+        {
+          "bbox": [
+            52.5,
+            361.27,
+            549.33,
+            386.48
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "→ the job this maps to: optical sensing & instrumentation — industrial automation, robotics,\nand test-and-measurement teams."
+        },
+        {
+          "bbox": [
+            69.0,
+            408.93,
+            544.2,
+            473.48
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "! LASER EYE SAFETY\nLasers can damage eyes. Use only low-power Class 1 / 2 modules (a few mW), never look\ninto the beam or aim it at anyone, and remember infrared lasers are invisible — you\ncannot tell they are on. Set beams below eye level and keep this in mind for every build\nin this guide."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "seeing with light — a Build List field guide\n2 / 18"
+        }
+      ],
+      "charCount": 1467,
+      "height": 792.0,
+      "pageNumber": 2,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            166.36,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "## how it works"
+        },
+        {
+          "bbox": [
+            52.5,
+            313.93,
+            204.29,
+            330.51
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "## bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            343.29,
+            552.0,
+            354.02
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "component\npart / spec\nqty\n~cost"
+        },
+        {
+          "bbox": [
+            52.5,
+            366.91,
+            551.99,
+            378.12
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Laser diode module\n5 mW red dot laser (×2)\n2\n$4"
+        },
+        {
+          "bbox": [
+            52.5,
+            389.41,
+            551.99,
+            400.62
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Photodiode / phototransistor\nBPW34 or a phototransistor (×2)\n2\n$2"
+        },
+        {
+          "bbox": [
+            52.5,
+            411.91,
+            551.99,
+            423.12
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Comparator\nLM393 (dual)\n1\n$1"
+        },
+        {
+          "bbox": [
+            52.5,
+            434.41,
+            551.99,
+            445.62
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Microcontroller\nArduino / ESP32\n1\n$8"
+        },
+        {
+          "bbox": [
+            52.5,
+            457.66,
+            551.99,
+            468.87
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Passives + breadboard\nresistors, wiring\n—\n$3"
+        },
+        {
+          "bbox": [
+            67.5,
+            52.28,
+            542.7,
+            90.97
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Light to current: A photodiode (or phototransistor) turns incident light into a small\ncurrent. A laser aimed at it holds that current high; break the beam and it collapses. A\nload resistor turns the current into a voltage you can read."
+        },
+        {
+          "bbox": [
+            52.5,
+            53.15,
+            57.92,
+            63.62
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            99.53,
+            553.51,
+            138.23
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Clean edge with a comparator: The raw photodiode voltage is analog and noisy. A comparator\n(or Schmitt trigger) with a threshold turns “beam present / broken” into a crisp digital\nedge — immune to ambient drift — that a microcontroller can timestamp."
+        },
+        {
+          "bbox": [
+            52.5,
+            100.4,
+            57.92,
+            110.87
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            146.77,
+            548.12,
+            185.48
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Two beams, one interval: Place two beams a measured distance d apart along the path. The\nobject breaks beam A, then beam B; the microcontroller measures Δt between the two edges.\nSpeed = d / Δt."
+        },
+        {
+          "bbox": [
+            52.5,
+            147.65,
+            57.92,
+            158.12
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            194.02,
+            553.5,
+            232.73
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Microsecond timing: For a fast projectile, Δt is sub-millisecond, so you use hardware\ntimers and interrupts (input capture), not slow polling. The resolution of your timer sets\nthe resolution of your speed."
+        },
+        {
+          "bbox": [
+            52.5,
+            194.9,
+            57.92,
+            205.37
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            241.27,
+            537.31,
+            279.98
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Rejecting ambient light: Sunlight and room light add a DC offset and flicker. A focused\nlaser well above the ambient level, a threshold set between the two, and a shielded\ndetector keep the beam-break reliable indoors and out."
+        },
+        {
+          "bbox": [
+            52.5,
+            242.15,
+            57.92,
+            252.62
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "seeing with light — a Build List field guide\n3 / 18"
+        }
+      ],
+      "charCount": 1453,
+      "height": 792.0,
+      "pageNumber": 3,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            158.77,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "## build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            349.18,
+            219.46,
+            365.76
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "## interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            55.28,
+            206.7,
+            66.97
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Build one beam-detector"
+        },
+        {
+          "bbox": [
+            82.5,
+            71.03,
+            552.3,
+            96.22
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Aim a laser at a photodiode across a small gap, with a load resistor to make a voltage.\nRead it on a scope or ADC and confirm the voltage drops hard when you block the beam."
+        },
+        {
+          "bbox": [
+            58.5,
+            54.49,
+            64.8,
+            68.14
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            109.28,
+            168.9,
+            120.97
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Add a comparator"
+        },
+        {
+          "bbox": [
+            82.5,
+            125.03,
+            525.3,
+            150.23
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Feed the photodiode voltage to an LM393 with a threshold set between “beam” and\n“blocked.” Confirm a clean HIGH / LOW edge as you break the beam, with no chatter."
+        },
+        {
+          "bbox": [
+            58.5,
+            108.49,
+            64.8,
+            122.14
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            163.27,
+            206.7,
+            174.98
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Duplicate for two gates"
+        },
+        {
+          "bbox": [
+            82.5,
+            179.02,
+            557.7,
+            204.23
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Build a second identical beam-detector and mount both a known distance d apart along the\npath, lasers aligned onto their detectors. Measure d precisely — it sets your accuracy."
+        },
+        {
+          "bbox": [
+            58.5,
+            162.49,
+            64.8,
+            176.14
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            217.27,
+            174.3,
+            228.98
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Time the crossing"
+        },
+        {
+          "bbox": [
+            82.5,
+            233.02,
+            530.7,
+            258.23
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "On the microcontroller, capture the timestamp of beam-A break and beam-B break with\nhardware timing, compute Δt, and print it. Drop a ball through both beams to test."
+        },
+        {
+          "bbox": [
+            58.5,
+            216.49,
+            64.8,
+            230.14
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            271.27,
+            185.1,
+            282.98
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Convert and display"
+        },
+        {
+          "bbox": [
+            82.5,
+            287.02,
+            552.32,
+            312.23
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Compute speed = d / Δt in m/s and mph, show it on serial or an OLED, and add an “armed”\nstate. Now clock darts, balls, or anything that crosses — your optical speed trap."
+        },
+        {
+          "bbox": [
+            58.5,
+            270.49,
+            64.8,
+            284.14
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            69.0,
+            386.77,
+            418.8,
+            398.48
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "How does a photodiode convert light into an electrical signal?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            406.27,
+            472.8,
+            417.98
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Why use a comparator instead of reading the photodiode voltage directly?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            425.77,
+            440.4,
+            437.48
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "How do two beams a known distance apart yield a speed measurement?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            445.27,
+            478.2,
+            456.98
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "What sets the speed resolution of your timing, and how do you improve it?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            464.77,
+            483.6,
+            476.48
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "How do you keep a beam-break sensor reliable under changing ambient light?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            484.27,
+            510.6,
+            495.98
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "What is the difference between a photodiode and a phototransistor for this job?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "seeing with light — a Build List field guide\n4 / 18"
+        }
+      ],
+      "charCount": 1475,
+      "height": 792.0,
+      "pageNumber": 4,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.03,
+            495.19,
+            65.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "❯ project 02\nLaser Rangefinder (Time-of-Flight LiDAR)"
+        },
+        {
+          "bbox": [
+            52.5,
+            72.14,
+            508.13,
+            84.33
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Measure distance with a pulse of light — the sensor inside every self-driving car"
+        },
+        {
+          "bbox": [
+            60.75,
+            98.04,
+            224.56,
+            108.77
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "$25\nintermediate\n1 weekend"
+        },
+        {
+          "bbox": [
+            52.5,
+            132.43,
+            196.71,
+            149.01
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "## why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            158.02,
+            554.7,
+            250.73
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Radar measures distance with radio; LiDAR does it with light. A time-of-flight sensor fires a\npulse of infrared light, measures how long it takes to bounce back, and multiplies by the\nspeed of light to get range — millimetre-accurate, dozens of times a second. Building one\naround a module like the VL53L1X gets you a working laser rangefinder in an afternoon, and\nunderstanding what it does underneath — pulse timing versus phase, the speed of light, photon\nstatistics — is the foundation of every autonomous-vehicle and robotics perception stack.\nThis is the headline build, and it feeds straight into the scanner in project 3."
+        },
+        {
+          "bbox": [
+            69.0,
+            288.18,
+            544.2,
+            352.73
+          ],
+          "blockIndex": 5,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand time-of-flight ranging, the difference between direct (pulsed) and\nindirect (phase) ToF, why timing light is hard, signal-to-noise and averaging, and the\nI2C sensor integration real perception systems are built on. LiDAR is one of the hottest\nhiring areas in EE right now."
+        },
+        {
+          "bbox": [
+            52.5,
+            374.77,
+            549.33,
+            399.98
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ the job this maps to: autonomous vehicles, robotics, and LiDAR engineering — AV companies,\nrobotics firms, and LiDAR sensor makers (a direct companion to radar roles)."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "seeing with light — a Build List field guide\n5 / 18"
+        }
+      ],
+      "charCount": 1347,
+      "height": 792.0,
+      "pageNumber": 5,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            166.36,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "## how it works"
+        },
+        {
+          "bbox": [
+            69.0,
+            302.43,
+            538.8,
+            352.73
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "BUILD NOTE\nDon’t try to time light yourself — picosecond timing needs a dedicated chip. Start with\na VL53L1X (short range, indoor) or a TFmini (longer range); both hand you millimetres\nover I2C, so you focus on using the data and, in project 3, scanning it."
+        },
+        {
+          "bbox": [
+            52.5,
+            390.43,
+            227.05,
+            407.01
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "## key design decisions"
+        },
+        {
+          "bbox": [
+            67.5,
+            52.28,
+            558.9,
+            90.97
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Time-of-flight, literally: The sensor emits a short IR pulse and measures the round-trip\ntime t to the target. Distance = c·t/2. Light travels ~30 cm per nanosecond, so the timing\nmust be picosecond-class — which is why it lives inside a dedicated chip, not your Arduino."
+        },
+        {
+          "bbox": [
+            52.5,
+            53.15,
+            57.92,
+            63.62
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            99.53,
+            558.9,
+            138.23
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Direct vs indirect ToF: Direct ToF times a sharp pulse’s return (good at long range).\nIndirect (AMCW) ToF modulates the beam and measures the phase shift of the returning light\nto infer time — easier electronically, and what many compact modules and depth cameras use."
+        },
+        {
+          "bbox": [
+            52.5,
+            100.4,
+            57.92,
+            110.87
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            146.77,
+            526.5,
+            185.48
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "The SPAD detector: Modules like the VL53L1X use single-photon avalanche diodes that\nregister individual photons, plus on-chip timing, to resolve those tiny intervals and\nreject ambient light by histogramming returns."
+        },
+        {
+          "bbox": [
+            52.5,
+            147.65,
+            57.92,
+            158.12
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            194.02,
+            537.31,
+            232.73
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Range, accuracy, averaging: A single shot is noisy, so the sensor fires many pulses and\nhistograms them to pull the true range out of photon noise. More averaging means better\naccuracy but a lower update rate — the classic ranging tradeoff."
+        },
+        {
+          "bbox": [
+            52.5,
+            194.9,
+            57.92,
+            205.37
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            241.27,
+            542.72,
+            279.98
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Reading it over I2C: The module does the physics and hands you a distance in millimetres\nover I2C. Your job is configuration (timing budget, region of interest, range mode) and\nusing the result — exactly the integration work real perception engineers do."
+        },
+        {
+          "bbox": [
+            52.5,
+            242.15,
+            57.92,
+            252.62
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            418.27,
+            553.5,
+            470.48
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Why light instead of ultrasound for ranging? Light gives a tight beam (fine angular\nresolution), works at long range, and is fast — you can scan it into a detailed map.\nUltrasound is cheaper but has a wide beam and low resolution. That tight beam is precisely\nwhat makes the LiDAR mapping in project 3 possible."
+        },
+        {
+          "bbox": [
+            52.5,
+            419.15,
+            57.92,
+            429.62
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "→"
+        },
+        {
+          "bbox": [
+            67.5,
+            480.52,
+            553.5,
+            532.72
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Why does timing light need a dedicated chip? Light covers 30 cm per nanosecond, so\nresolving centimetres means timing to tens of picoseconds — far beyond a microcontroller.\nSPAD arrays and on-chip time-to-digital converters do this; you buy that capability in the\nmodule rather than building it."
+        },
+        {
+          "bbox": [
+            52.5,
+            481.4,
+            57.92,
+            491.87
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "→"
+        },
+        {
+          "bbox": [
+            67.5,
+            542.78,
+            553.51,
+            594.97
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Why average so many pulses? Each returned pulse is buried in ambient light and shot noise.\nBy firing thousands of pulses and histogramming arrival times, the sensor finds the true\npeak and rejects background — trading update rate for accuracy, which you tune with the\ntiming budget."
+        },
+        {
+          "bbox": [
+            52.5,
+            543.65,
+            57.92,
+            554.12
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "seeing with light — a Build List field guide\n6 / 18"
+        }
+      ],
+      "charCount": 2491,
+      "height": 792.0,
+      "pageNumber": 6,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            204.29,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "## bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            56.04,
+            552.0,
+            66.77
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "component\npart / spec\nqty\n~cost"
+        },
+        {
+          "bbox": [
+            52.5,
+            78.91,
+            552.0,
+            90.12
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "ToF LiDAR module\nVL53L1X (~4 m) or TFmini (~12 m)\n1\n$12"
+        },
+        {
+          "bbox": [
+            52.5,
+            101.41,
+            551.99,
+            112.62
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Microcontroller\nESP32 / Arduino (I2C)\n1\n$8"
+        },
+        {
+          "bbox": [
+            52.5,
+            124.66,
+            551.99,
+            135.87
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Display\nOLED for live distance\n1\n$4"
+        },
+        {
+          "bbox": [
+            52.5,
+            147.16,
+            551.99,
+            158.37
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Passives + breadboard\nwiring\n—\n$2"
+        },
+        {
+          "bbox": [
+            52.5,
+            190.18,
+            158.77,
+            206.76
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "## build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            553.93,
+            219.46,
+            570.51
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "## interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            219.52,
+            185.1,
+            231.23
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Wire the ToF module"
+        },
+        {
+          "bbox": [
+            82.5,
+            235.27,
+            552.3,
+            260.48
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Connect the module over I2C (SDA / SCL + power), load the vendor library, read a single\ndistance, and confirm it tracks your hand moving toward and away from the sensor."
+        },
+        {
+          "bbox": [
+            58.5,
+            218.74,
+            64.8,
+            232.39
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            273.52,
+            201.3,
+            285.23
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Tune the timing budget"
+        },
+        {
+          "bbox": [
+            82.5,
+            289.27,
+            552.3,
+            327.98
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Set the range mode and timing budget (short / medium / long). Watch how a longer budget\nimproves accuracy and stability but slows the update rate — feel the accuracy-vs-speed\ntradeoff directly."
+        },
+        {
+          "bbox": [
+            58.5,
+            272.74,
+            64.8,
+            286.39
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            341.02,
+            212.1,
+            352.73
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Calibrate against a tape"
+        },
+        {
+          "bbox": [
+            82.5,
+            356.77,
+            552.3,
+            395.48
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Compare readings to a real tape measure at several distances. Note where it’s accurate,\nwhere it drifts, and how target colour and reflectivity change the reading. Apply any\noffset."
+        },
+        {
+          "bbox": [
+            58.5,
+            340.24,
+            64.8,
+            353.89
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            408.52,
+            195.9,
+            420.23
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Live distance readout"
+        },
+        {
+          "bbox": [
+            82.5,
+            424.27,
+            546.9,
+            449.48
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Show the distance on an OLED with a fast refresh, plus min / max hold. Point it around\nthe room and watch it measure walls, objects, and the ceiling."
+        },
+        {
+          "bbox": [
+            58.5,
+            407.74,
+            64.8,
+            421.39
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            462.52,
+            201.3,
+            474.23
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Stress-test the limits"
+        },
+        {
+          "bbox": [
+            82.5,
+            478.27,
+            557.7,
+            516.97
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Find its max range on a dark vs white target, test it outdoors (ambient IR hurts range),\nand note the failure modes. You now understand a ToF sensor well enough to scan with it\nnext."
+        },
+        {
+          "bbox": [
+            58.5,
+            461.74,
+            64.8,
+            475.39
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            69.0,
+            591.53,
+            526.8,
+            603.22
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Write the relationship between round-trip time and distance for a ToF rangefinder.\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            611.03,
+            532.2,
+            622.72
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "What is the difference between direct (pulsed) and indirect (phase) time-of-flight?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            630.53,
+            537.6,
+            642.22
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Why does ranging with light require picosecond-class timing, and how is it achieved?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            650.03,
+            375.6,
+            661.72
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "What is a SPAD, and why is it useful for a ToF sensor?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            669.53,
+            472.8,
+            681.22
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "Why does a ToF sensor average many pulses, and what does that trade off?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            689.03,
+            483.6,
+            700.72
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "How do target reflectivity and ambient light affect a LiDAR range reading?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "seeing with light — a Build List field guide\n7 / 18"
+        }
+      ],
+      "charCount": 1751,
+      "height": 792.0,
+      "pageNumber": 7,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.03,
+            351.38,
+            65.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "❯ project 03\nSpinning LiDAR Room Scanner"
+        },
+        {
+          "bbox": [
+            52.5,
+            72.14,
+            401.25,
+            84.33
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Spin a rangefinder and watch your room appear as a point cloud"
+        },
+        {
+          "bbox": [
+            60.75,
+            98.04,
+            239.41,
+            108.77
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "$45\nintermediate\n1–2 weekends"
+        },
+        {
+          "bbox": [
+            52.5,
+            132.43,
+            196.71,
+            149.01
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "## why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            158.02,
+            554.7,
+            237.23
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "One distance reading is a number; thousands of them swept through a circle is a map. Mount\nyour time-of-flight sensor on a rotating platform, log distance against angle as it spins,\nand plot the result — the outline of your room appears as a 2D point cloud, exactly like the\nLiDAR on a robot vacuum or the spinning sensor on an early self-driving car. This is the most\nvisual build in the guide and the bridge from “I measured a distance” to “I perceived a\nspace,” which is the heart of robot navigation and SLAM."
+        },
+        {
+          "bbox": [
+            69.0,
+            274.68,
+            544.2,
+            325.73
+          ],
+          "blockIndex": 5,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand synchronising a sensor reading to an angular position, polar-to-Cartesian\nconversion, point-cloud construction, and the data path from a raw sensor to a usable\nmap — foundational robotics-perception and SLAM groundwork."
+        },
+        {
+          "bbox": [
+            52.5,
+            347.77,
+            549.33,
+            372.98
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "→ the job this maps to: robotics, autonomous navigation, and perception engineering — robot-\nvacuum and AMR makers, drone companies, and SLAM teams."
+        },
+        {
+          "bbox": [
+            52.5,
+            400.18,
+            166.36,
+            416.76
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "## how it works"
+        },
+        {
+          "bbox": [
+            69.0,
+            676.68,
+            533.4,
+            726.97
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "BUILD NOTE\nDon’t machine a precision scanner. A stepper (or geared DC motor with an encoder) plus\nyour project-2 ToF module is enough; send data off the spinning platform over a slip\nring, or mount the electronics on the rotor and stream over BLE / Wi-Fi."
+        },
+        {
+          "bbox": [
+            67.5,
+            426.52,
+            553.5,
+            465.23
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Distance plus angle: A LiDAR map is just many (angle, distance) pairs. Rotate the ToF\nsensor and, at each angle, take a reading. The accuracy of your angle (from the motor) and\ndistance (from the sensor) sets the quality of the map."
+        },
+        {
+          "bbox": [
+            52.5,
+            427.4,
+            57.92,
+            437.87
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            473.77,
+            542.71,
+            512.47
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Knowing the angle: A stepper gives you angle for free (count steps); a DC motor needs an\nencoder or a once-per-revolution index mark to know where “zero” is. Synchronising each\ndistance sample to the correct angle is the core challenge."
+        },
+        {
+          "bbox": [
+            52.5,
+            474.65,
+            57.92,
+            485.12
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            521.03,
+            558.91,
+            559.72
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Getting data off the spinner: Either run a slip ring for power and data, or — simpler — put\nthe microcontroller and sensor on the rotating platform and stream readings out over\nBluetooth or Wi-Fi, with only power crossing the slip ring (or a battery onboard)."
+        },
+        {
+          "bbox": [
+            52.5,
+            521.9,
+            57.92,
+            532.37
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            568.28,
+            542.77,
+            606.97
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Polar to Cartesian: Each (θ, r) becomes a point x = r·cosθ, y = r·sinθ. Plotting all the\npoints for one revolution draws the walls and objects around the sensor — your 2D point\ncloud."
+        },
+        {
+          "bbox": [
+            52.5,
+            569.15,
+            57.92,
+            579.62
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            615.53,
+            558.9,
+            654.22
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "From scan to map: Stack revolutions and you can filter noise, detect walls, and (with\nmotion) start stitching scans together — the first step toward SLAM, where a robot builds a\nmap while tracking its own position."
+        },
+        {
+          "bbox": [
+            52.5,
+            616.4,
+            57.92,
+            626.87
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "seeing with light — a Build List field guide\n8 / 18"
+        }
+      ],
+      "charCount": 2527,
+      "height": 792.0,
+      "pageNumber": 8,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            204.29,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "## bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            56.04,
+            552.0,
+            66.77
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "component\npart / spec\nqty\n~cost"
+        },
+        {
+          "bbox": [
+            52.5,
+            78.91,
+            552.0,
+            90.12
+          ],
+          "blockIndex": 2,
+          "blockType": "project_boundary_heading",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Project 2 ToF module\nVL53L1X / TFmini\n1\n$12"
+        },
+        {
+          "bbox": [
+            52.5,
+            101.41,
+            552.0,
+            112.62
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Rotating platform\nstepper + driver, or geared motor + encoder\n1\n$15"
+        },
+        {
+          "bbox": [
+            52.5,
+            124.66,
+            551.99,
+            135.87
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Slip ring (optional)\npower / data across the rotor\n1\n$8"
+        },
+        {
+          "bbox": [
+            52.5,
+            147.16,
+            551.99,
+            158.37
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Microcontroller\nESP32 (BLE / Wi-Fi streaming)\n1\n$8"
+        },
+        {
+          "bbox": [
+            52.5,
+            169.66,
+            551.99,
+            180.87
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Mount + base\n3D-printed or laser-cut\n1\n$2"
+        },
+        {
+          "bbox": [
+            52.5,
+            212.68,
+            158.77,
+            229.26
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "## build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            535.93,
+            219.46,
+            552.51
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "## interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            242.02,
+            163.5,
+            253.73
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Spin the sensor"
+        },
+        {
+          "bbox": [
+            82.5,
+            257.77,
+            546.9,
+            282.98
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Mount the ToF module on the stepper / motor platform and get it rotating smoothly at a\nsteady rate. Confirm the sensor still reads distance while spinning."
+        },
+        {
+          "bbox": [
+            58.5,
+            241.24,
+            64.8,
+            254.89
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            296.02,
+            206.7,
+            307.73
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Tag readings with angle"
+        },
+        {
+          "bbox": [
+            82.5,
+            311.77,
+            536.1,
+            336.98
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Sync each distance sample to the motor angle (step count, or encoder + index pulse).\nVerify that a known object in a known direction shows up at the right angle."
+        },
+        {
+          "bbox": [
+            58.5,
+            295.24,
+            64.8,
+            308.89
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            350.02,
+            185.1,
+            361.73
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Stream the data out"
+        },
+        {
+          "bbox": [
+            82.5,
+            365.77,
+            530.7,
+            390.98
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Send (angle, distance) pairs to a laptop over BLE / Wi-Fi (or through a slip ring).\nConfirm a continuous stream of pairs for each full revolution."
+        },
+        {
+          "bbox": [
+            58.5,
+            349.24,
+            64.8,
+            362.89
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            404.02,
+            190.5,
+            415.73
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Plot the point cloud"
+        },
+        {
+          "bbox": [
+            82.5,
+            419.77,
+            541.5,
+            444.98
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "On the laptop, convert each pair to x, y and plot one revolution. Your room’s outline\nshould appear. Tune speed and sample rate for a clean scan."
+        },
+        {
+          "bbox": [
+            58.5,
+            403.24,
+            64.8,
+            416.89
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            458.02,
+            158.1,
+            469.73
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Refine and map"
+        },
+        {
+          "bbox": [
+            82.5,
+            473.77,
+            557.7,
+            498.98
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Average multiple revolutions to cut noise, mask the mount’s own structure, and watch the\nmap sharpen. Move the scanner and see how the cloud shifts — the doorway to SLAM."
+        },
+        {
+          "bbox": [
+            58.5,
+            457.24,
+            64.8,
+            470.89
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            69.0,
+            573.53,
+            424.2,
+            585.22
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "What two measurements combine to make a single LiDAR map point?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            593.03,
+            445.8,
+            604.72
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "How do you determine the angular position of each distance reading?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            612.53,
+            521.4,
+            624.22
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "What are the options for getting data off a rotating sensor, and their tradeoffs?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            632.03,
+            408.0,
+            643.72
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Write the polar-to-Cartesian conversion used to plot a scan.\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            651.53,
+            424.2,
+            663.22
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "What is SLAM, and how does a spinning rangefinder feed into it?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            671.03,
+            440.4,
+            682.72
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "How does rotation speed trade off against map density and quality?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "seeing with light — a Build List field guide\n9 / 18"
+        }
+      ],
+      "charCount": 1679,
+      "height": 792.0,
+      "pageNumber": 9,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.03,
+            517.31,
+            65.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "❯ project 04\nLaser Data Link (Free-Space Optical Comms)"
+        },
+        {
+          "bbox": [
+            52.5,
+            72.14,
+            356.25,
+            84.33
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Send audio and data across the room on a beam of light"
+        },
+        {
+          "bbox": [
+            60.75,
+            98.04,
+            224.56,
+            108.77
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "$20\nintermediate\n1 weekend"
+        },
+        {
+          "bbox": [
+            52.5,
+            132.43,
+            196.71,
+            149.01
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "## why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            158.02,
+            554.7,
+            237.23
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Fibre-optic internet is just light carrying data down a glass thread — and you can do the\nsame thing through open air with a laser and a photodiode. Modulate a laser’s brightness with\nan audio or digital signal, point it at a photodiode across the room, and recover the signal\non the far side: a free-space optical link, the same idea as Li-Fi and satellite laser comms.\nIt is a hands-on lesson in modulation, analog front ends, and why light is such a high-\nbandwidth carrier — and unlike radio it needs no licence and barely leaks past the beam."
+        },
+        {
+          "bbox": [
+            69.0,
+            274.68,
+            544.2,
+            325.73
+          ],
+          "blockIndex": 5,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand intensity modulation of an optical source, transimpedance photodiode\nreceivers, bandwidth and signal-to-noise in an analog link, and the basics of free-space\noptics — which maps onto optical-comms, fibre, and photonics engineering."
+        },
+        {
+          "bbox": [
+            52.5,
+            347.77,
+            549.33,
+            372.98
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "→ the job this maps to: optical communications and photonics engineering — fibre and datacom\ncompanies, free-space-optics and satellite-comms teams."
+        },
+        {
+          "bbox": [
+            52.5,
+            400.18,
+            166.36,
+            416.76
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "## how it works"
+        },
+        {
+          "bbox": [
+            67.5,
+            426.52,
+            553.51,
+            465.23
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Intensity modulation: The simplest optical link varies the laser’s brightness in step with\nyour signal. For audio, you add the audio to the laser’s drive current so the light\nflickers with the waveform; a photodiode on the far end sees that flicker."
+        },
+        {
+          "bbox": [
+            52.5,
+            427.4,
+            57.92,
+            437.87
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            473.77,
+            558.9,
+            512.47
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "The transimpedance receiver: The photodiode produces a tiny current proportional to\nreceived light. A transimpedance amplifier (op-amp + feedback resistor) converts it to a\nusable voltage with enough bandwidth for your signal — the heart of every optical receiver."
+        },
+        {
+          "bbox": [
+            52.5,
+            474.65,
+            57.92,
+            485.12
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            521.03,
+            542.71,
+            559.72
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Analog vs digital: Sending audio (analog AM on light) is the easy first version. Sending\ndigital data (on-off keying, UART over light) is the next step: now you care about bit\nrate, thresholding, and clean edges rather than fidelity."
+        },
+        {
+          "bbox": [
+            52.5,
+            521.9,
+            57.92,
+            532.37
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            568.28,
+            548.1,
+            620.47
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Bandwidth, and why light wins: The optical carrier is hundreds of terahertz, so the\navailable bandwidth dwarfs radio — which is why fibre and laser links carry so much data.\nYour build’s actual speed is limited by the emitter and receiver electronics, not the\nlight."
+        },
+        {
+          "bbox": [
+            52.5,
+            569.15,
+            57.92,
+            579.62
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            629.03,
+            542.72,
+            667.72
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "Alignment and noise: A tight beam makes the link private and interference-resistant, but\nyou must aim it. Ambient light adds noise and offset, so you AC-couple the receiver (and\nmodulate above the flicker of room lights) to keep the signal clean."
+        },
+        {
+          "bbox": [
+            52.5,
+            629.9,
+            57.92,
+            640.37
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "seeing with light — a Build List field guide\n10 / 18"
+        }
+      ],
+      "charCount": 2457,
+      "height": 792.0,
+      "pageNumber": 10,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            204.29,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "## bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            56.04,
+            552.0,
+            66.77
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "component\npart / spec\nqty\n~cost"
+        },
+        {
+          "bbox": [
+            52.5,
+            78.91,
+            551.99,
+            90.12
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Laser or IR LED\n5 mW laser module or high-speed IR LED\n1\n$4"
+        },
+        {
+          "bbox": [
+            52.5,
+            101.41,
+            551.99,
+            112.62
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Photodiode\nBPW34 or similar, fast\n1\n$2"
+        },
+        {
+          "bbox": [
+            52.5,
+            124.66,
+            551.99,
+            135.87
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Op-amp\nfor the transimpedance amplifier\n1\n$1"
+        },
+        {
+          "bbox": [
+            52.5,
+            147.16,
+            551.99,
+            158.37
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Driver / audio parts\ntransistor driver, audio source\n—\n$5"
+        },
+        {
+          "bbox": [
+            52.5,
+            169.66,
+            551.99,
+            180.87
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Microcontroller (digital)\noptional, for UART-over-light\n1\n$8"
+        },
+        {
+          "bbox": [
+            52.5,
+            212.68,
+            158.77,
+            229.26
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "## build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            549.43,
+            219.46,
+            566.01
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "## interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            242.02,
+            195.9,
+            253.73
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Build the transmitter"
+        },
+        {
+          "bbox": [
+            82.5,
+            257.77,
+            557.7,
+            296.48
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Drive the laser / LED with a transistor so its brightness follows your signal. For\naudio, sum an audio source into the drive current; confirm the light measurably flickers\nwith the waveform."
+        },
+        {
+          "bbox": [
+            58.5,
+            241.24,
+            64.8,
+            254.89
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            309.52,
+            179.7,
+            321.23
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Build the receiver"
+        },
+        {
+          "bbox": [
+            82.5,
+            325.27,
+            557.7,
+            350.48
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Wire a photodiode into an op-amp transimpedance amplifier. Point a steady light at it\nand confirm the output tracks brightness; check the bandwidth is enough for your signal."
+        },
+        {
+          "bbox": [
+            58.5,
+            308.74,
+            64.8,
+            322.39
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            363.52,
+            217.5,
+            375.23
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Close the link with audio"
+        },
+        {
+          "bbox": [
+            82.5,
+            379.27,
+            557.7,
+            404.48
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Aim the transmitter at the receiver across a gap, feed music into the transmitter, and\namplify the receiver output to a speaker. You should hear the audio carried on the beam."
+        },
+        {
+          "bbox": [
+            58.5,
+            362.74,
+            64.8,
+            376.39
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            417.52,
+            190.5,
+            429.23
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Reject ambient light"
+        },
+        {
+          "bbox": [
+            82.5,
+            433.27,
+            541.5,
+            458.48
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "AC-couple the receiver and shield it so room light doesn’t swamp the signal. Note how\nalignment and distance change the received level."
+        },
+        {
+          "bbox": [
+            58.5,
+            416.74,
+            64.8,
+            430.39
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            471.52,
+            195.9,
+            483.23
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Go digital (optional)"
+        },
+        {
+          "bbox": [
+            82.5,
+            487.27,
+            552.3,
+            512.47
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Switch to on-off keying and send UART bytes over the beam between two microcontrollers.\nMeasure the maximum reliable bit rate and see what limits it."
+        },
+        {
+          "bbox": [
+            58.5,
+            470.74,
+            64.8,
+            484.39
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            69.0,
+            587.03,
+            499.8,
+            598.72
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "What is intensity modulation, and why is it the simplest optical-link scheme?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            606.53,
+            499.8,
+            618.22
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Why is a transimpedance amplifier the standard photodiode receiver front end?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            626.03,
+            451.2,
+            637.72
+          ],
+          "blockIndex": 26,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Why does an optical carrier offer so much more bandwidth than radio?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            645.53,
+            456.6,
+            657.22
+          ],
+          "blockIndex": 27,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "What limits the actual data rate of a simple free-space optical link?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            665.03,
+            472.8,
+            676.72
+          ],
+          "blockIndex": 28,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "How do you keep an optical receiver from being swamped by ambient light?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            684.53,
+            472.8,
+            696.22
+          ],
+          "blockIndex": 29,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "What are the advantages and drawbacks of a tight optical beam for comms?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 30,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "seeing with light — a Build List field guide\n11 / 18"
+        }
+      ],
+      "charCount": 1777,
+      "height": 792.0,
+      "pageNumber": 11,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.03,
+            229.69,
+            65.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "❯ project 05\nLaser Vibrometer"
+        },
+        {
+          "bbox": [
+            52.5,
+            72.14,
+            508.13,
+            84.33
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Read a surface's vibration with a reflected beam — non-contact sensing with light"
+        },
+        {
+          "bbox": [
+            60.75,
+            98.04,
+            219.62,
+            108.77
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "$30\nadvanced\n1–2 weekends"
+        },
+        {
+          "bbox": [
+            52.5,
+            132.43,
+            196.71,
+            149.01
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "## why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            158.02,
+            549.3,
+            250.73
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Point a laser at a reflective surface, catch the reflected dot on a photodiode, and any\nvibration of that surface changes the light reaching your detector — letting you read the\nsurface’s motion without touching it. This is laser vibrometry, a real engineering technique\nfor measuring how speakers, motors, and structures vibrate without loading them down.\nBuilding one teaches optical detection of tiny displacements, signal recovery from a noisy\nphotodetector, and the limits of non-contact sensing. It is one of the most striking\ndemonstrations of how much information a single beam of light carries."
+        },
+        {
+          "bbox": [
+            69.0,
+            288.18,
+            538.8,
+            352.73
+          ],
+          "blockIndex": 5,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand optical displacement and vibration sensing, recovering a small AC signal\nfrom a photodetector, filtering and amplification, and the practical limits of non-\ncontact measurement — which maps onto optical metrology, acoustics, and structural-\nhealth-monitoring work."
+        },
+        {
+          "bbox": [
+            52.5,
+            374.77,
+            500.73,
+            399.98
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "→ the job this maps to: optical metrology and sensing engineering — acoustics labs,\nstructural-health monitoring, and precision-measurement teams."
+        },
+        {
+          "bbox": [
+            69.0,
+            422.43,
+            544.2,
+            500.48
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "! MEASURE YOUR OWN SURFACES ONLY\nThis is a vibration-sensing technique for surfaces and devices you own — a speaker cone,\na motor housing, a panel on your own bench. Do not point it at other people’s windows,\nrooms, or property to capture sound or conversations: that is eavesdropping, it is\nillegal in most places, and it is not what this build is for. Keep it on your own\nequipment."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "seeing with light — a Build List field guide\n12 / 18"
+        }
+      ],
+      "charCount": 1650,
+      "height": 792.0,
+      "pageNumber": 12,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            166.36,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "## how it works"
+        },
+        {
+          "bbox": [
+            52.5,
+            327.43,
+            204.29,
+            344.01
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "## bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            356.79,
+            552.0,
+            367.52
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "component\npart / spec\nqty\n~cost"
+        },
+        {
+          "bbox": [
+            52.5,
+            380.41,
+            551.99,
+            391.62
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Laser module\n5 mW red dot laser\n1\n$3"
+        },
+        {
+          "bbox": [
+            52.5,
+            402.91,
+            551.99,
+            414.12
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Photodiode\nBPW34 or similar\n1\n$2"
+        },
+        {
+          "bbox": [
+            52.5,
+            425.41,
+            551.99,
+            436.62
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Low-noise amp\nop-amp + band-pass stage\n1\n$3"
+        },
+        {
+          "bbox": [
+            52.5,
+            447.91,
+            551.99,
+            459.12
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Capture\naudio interface or ESP32 ADC\n1\n$8"
+        },
+        {
+          "bbox": [
+            52.5,
+            471.16,
+            551.99,
+            482.37
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Mounts / optics\nrigid stands, small mirror, your own test surface\n—\n$6"
+        },
+        {
+          "bbox": [
+            67.5,
+            52.28,
+            542.7,
+            104.47
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Light carries surface motion: When a laser reflects off a surface, the reflected beam’s\ndirection and the light coupled back into your detector depend on the surface’s exact\nposition. Vibrate the surface and the photodiode sees a matching AC signal riding on the\nreflection."
+        },
+        {
+          "bbox": [
+            52.5,
+            53.15,
+            57.92,
+            63.62
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            113.03,
+            558.91,
+            151.73
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "The detector geometry: A simple setup catches the reflected dot at the edge of a photodiode\n(or through a slit) so small angular shifts change how much light lands on the sensor —\nconverting tiny surface motions into a measurable voltage swing."
+        },
+        {
+          "bbox": [
+            52.5,
+            113.9,
+            57.92,
+            124.37
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            160.27,
+            558.9,
+            198.98
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Recovering a tiny signal: The vibration signal is small and sits on a large DC level from\nthe steady reflection. AC-coupling, a low-noise amplifier, and band-pass filtering pull the\nvibration (an audio-band signal from a speaker, say) out of the background."
+        },
+        {
+          "bbox": [
+            52.5,
+            161.15,
+            57.92,
+            171.62
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            207.52,
+            553.52,
+            246.23
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "Why it is hard: The signal depends heavily on surface reflectivity, alignment, and ambient\nlight, and it is easily swamped by noise or a poor reflector. Stable mounting and a\ncooperative, shiny target are what make it work."
+        },
+        {
+          "bbox": [
+            52.5,
+            208.4,
+            57.92,
+            218.87
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            254.77,
+            521.11,
+            293.48
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "What the pros do: True laser Doppler vibrometers interfere the reflected beam with a\nreference to read sub-wavelength motion precisely. Your build is the intuition-level\nversion of that instrument — same idea, far simpler optics."
+        },
+        {
+          "bbox": [
+            52.5,
+            255.65,
+            57.92,
+            266.12
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "seeing with light — a Build List field guide\n13 / 18"
+        }
+      ],
+      "charCount": 1572,
+      "height": 792.0,
+      "pageNumber": 13,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            158.77,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "## build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            376.18,
+            219.46,
+            392.76
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "## interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            55.28,
+            222.9,
+            66.97
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Set up a stable reflection"
+        },
+        {
+          "bbox": [
+            82.5,
+            71.03,
+            541.5,
+            109.72
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Mount the laser and a target surface (e.g. a small mirror taped to a speaker you own)\nrigidly, and catch the reflected dot on the photodiode. Stability matters more than\nanything else here."
+        },
+        {
+          "bbox": [
+            58.5,
+            54.49,
+            64.8,
+            68.14
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            122.78,
+            179.7,
+            134.48
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Build the receiver"
+        },
+        {
+          "bbox": [
+            82.5,
+            138.52,
+            546.9,
+            177.23
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Convert the photodiode current to voltage, AC-couple it, and add a low-noise band-pass\namplifier for the band you care about (audio for a speaker). Confirm a quiet baseline\nwhen the surface is still."
+        },
+        {
+          "bbox": [
+            58.5,
+            121.99,
+            64.8,
+            135.64
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            190.27,
+            179.7,
+            201.98
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Excite the surface"
+        },
+        {
+          "bbox": [
+            82.5,
+            206.02,
+            546.9,
+            231.23
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Play a tone through your speaker and watch the photodiode signal pick up a matching AC\nwaveform. Sweep the tone and see the response track it."
+        },
+        {
+          "bbox": [
+            58.5,
+            189.49,
+            64.8,
+            203.14
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            244.27,
+            179.7,
+            255.98
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Recover the signal"
+        },
+        {
+          "bbox": [
+            82.5,
+            260.02,
+            546.9,
+            285.23
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Filter and amplify so you can plot or listen to the recovered vibration. Compare it to\nthe original tone to see how faithfully light captured the motion."
+        },
+        {
+          "bbox": [
+            58.5,
+            243.49,
+            64.8,
+            257.14
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            298.27,
+            255.3,
+            309.98
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Explore the limits (responsibly)"
+        },
+        {
+          "bbox": [
+            82.5,
+            314.02,
+            557.7,
+            339.23
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "On your own equipment, test how reflectivity, distance, and alignment change the result,\nand where it breaks down. Keep it pointed only at surfaces you own."
+        },
+        {
+          "bbox": [
+            58.5,
+            297.49,
+            64.8,
+            311.14
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            69.0,
+            413.77,
+            408.0,
+            425.48
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "How can a reflected laser beam encode a surface’s vibration?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            433.27,
+            467.4,
+            444.98
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Why is the recovered vibration signal small, and how do you extract it?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            452.77,
+            462.0,
+            464.48
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "What role does detector geometry play in sensing tiny surface motions?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            472.27,
+            462.0,
+            483.98
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Why do reflectivity and alignment dominate this measurement’s quality?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            491.77,
+            483.6,
+            503.48
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "How does a real laser Doppler vibrometer achieve sub-wavelength precision?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            511.27,
+            483.6,
+            522.97
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "What are the legitimate engineering uses of non-contact vibration sensing?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "seeing with light — a Build List field guide\n14 / 18"
+        }
+      ],
+      "charCount": 1475,
+      "height": 792.0,
+      "pageNumber": 14,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.03,
+            351.38,
+            65.91
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "❯ project 06\nStructured-Light 3D Scanner"
+        },
+        {
+          "bbox": [
+            52.5,
+            72.14,
+            367.5,
+            84.33
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Sweep a laser line across an object and rebuild it in 3D"
+        },
+        {
+          "bbox": [
+            60.75,
+            98.04,
+            209.72,
+            108.77
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "$40\nadvanced\n2 weekends"
+        },
+        {
+          "bbox": [
+            52.5,
+            132.43,
+            196.71,
+            149.01
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "## why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            158.02,
+            549.3,
+            250.73
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "A camera sees a flat image; add a laser and geometry and you can recover depth. Project a\nthin laser line onto an object, watch from a camera offset to one side, and the line bends\nalong the object’s contours — measure that bend and triangulation gives you the surface’s 3D\nshape. Sweep the line across the object and you reconstruct a full 3D model, the same\nstructured-light principle behind many 3D scanners and depth cameras. It is the most\nambitious optical build here and a direct lesson in the camera-plus-light geometry at the\ncore of 3D vision."
+        },
+        {
+          "bbox": [
+            69.0,
+            288.18,
+            538.8,
+            339.23
+          ],
+          "blockIndex": 5,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "WHAT THIS PROVES TO A RECRUITER\nYou understand triangulation, camera-laser calibration, extracting a laser line from an\nimage, and reconstructing 3D points from 2D observations — core 3D-vision, metrology,\nand depth-sensing engineering."
+        },
+        {
+          "bbox": [
+            52.5,
+            361.27,
+            554.73,
+            386.48
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "→ the job this maps to: 3D vision, metrology, and depth-sensing engineering — 3D-scanning and\nCV companies, robotics perception, and industrial-inspection teams."
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "seeing with light — a Build List field guide\n15 / 18"
+        }
+      ],
+      "charCount": 1140,
+      "height": 792.0,
+      "pageNumber": 15,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            166.36,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "## how it works"
+        },
+        {
+          "bbox": [
+            69.0,
+            329.43,
+            544.2,
+            379.73
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "BUILD NOTE\nDon’t build custom optics. A line-laser module (a dot laser with a cylindrical lens), a\nwebcam offset to one side, and a turntable or slow manual sweep are enough; the geometry\nand the image processing are where the real work — and learning — live."
+        },
+        {
+          "bbox": [
+            52.5,
+            417.43,
+            204.29,
+            434.01
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "## bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            447.54,
+            552.0,
+            458.27
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "component\npart / spec\nqty\n~cost"
+        },
+        {
+          "bbox": [
+            52.5,
+            470.41,
+            551.99,
+            481.62
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Line laser module\ndot laser + cylindrical lens (line generator)\n1\n$6"
+        },
+        {
+          "bbox": [
+            52.5,
+            493.66,
+            552.0,
+            504.87
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Camera\nUSB webcam\n1\n$12"
+        },
+        {
+          "bbox": [
+            52.5,
+            516.16,
+            552.0,
+            527.37
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Turntable\nstepper-driven platform (optional)\n1\n$15"
+        },
+        {
+          "bbox": [
+            52.5,
+            538.66,
+            551.99,
+            549.87
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Frame / mount\nrigid laser + camera baseline\n1\n$5"
+        },
+        {
+          "bbox": [
+            52.5,
+            561.16,
+            552.0,
+            572.37
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Laptop\nOpenCV for line extraction + reconstruction\n1\n—"
+        },
+        {
+          "bbox": [
+            67.5,
+            52.28,
+            548.1,
+            104.47
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Triangulation, not timing: Unlike ToF, structured light gets depth from geometry. The\nlaser, the camera, and a point on the object form a triangle; knowing the laser-to-camera\nbaseline and angles, you solve for the point’s distance — the same principle as your two\neyes judging depth."
+        },
+        {
+          "bbox": [
+            52.5,
+            53.15,
+            57.92,
+            63.62
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            113.03,
+            542.71,
+            165.23
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "The bending line: A flat reference plane shows the laser line straight. An object pushes\nparts of the line sideways in the camera image; how far each pixel of the line shifts\nencodes how far that part of the surface is from the reference — a depth profile in one\nshot."
+        },
+        {
+          "bbox": [
+            52.5,
+            113.9,
+            57.92,
+            124.37
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            173.77,
+            558.92,
+            212.48
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Finding the line in the image: For each camera row you find the brightest (reddest) pixel —\nthe laser line’s position, to sub-pixel accuracy. Robust line extraction under ambient\nlight is the key image-processing step."
+        },
+        {
+          "bbox": [
+            52.5,
+            174.65,
+            57.92,
+            185.12
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            221.02,
+            537.3,
+            259.73
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Calibration: You must know the geometry: the angle of the laser plane and the camera’s\nparameters and position. A calibration step using known reference distances turns pixel\nshifts into real millimetres."
+        },
+        {
+          "bbox": [
+            52.5,
+            221.9,
+            57.92,
+            232.37
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            67.5,
+            268.27,
+            548.12,
+            306.98
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Sweeping to a model: One line gives one slice. Rotate the object on a turntable (or sweep\nthe line) while capturing slices, then stack them into a full 3D point cloud or mesh you\ncan view and export."
+        },
+        {
+          "bbox": [
+            52.5,
+            269.15,
+            57.92,
+            279.62
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "▸"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "seeing with light — a Build List field guide\n16 / 18"
+        }
+      ],
+      "charCount": 1798,
+      "height": 792.0,
+      "pageNumber": 16,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            25.93,
+            158.77,
+            42.51
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "## build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            376.18,
+            219.46,
+            392.76
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "## interview questions"
+        },
+        {
+          "bbox": [
+            82.5,
+            55.28,
+            152.7,
+            66.97
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Build the rig"
+        },
+        {
+          "bbox": [
+            82.5,
+            71.03,
+            546.9,
+            109.72
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Fix a line laser and a webcam a known distance apart (a baseline), with the camera\nviewing the laser line on a reference plane. Rigidity is essential — any flex corrupts\nthe geometry."
+        },
+        {
+          "bbox": [
+            58.5,
+            54.49,
+            64.8,
+            68.14
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "1"
+        },
+        {
+          "bbox": [
+            82.5,
+            122.78,
+            201.3,
+            134.48
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Extract the laser line"
+        },
+        {
+          "bbox": [
+            82.5,
+            138.52,
+            557.7,
+            163.73
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "In OpenCV, isolate the laser line (colour threshold) and find its position per image row\nto sub-pixel accuracy. Confirm a clean line trace even with some room light."
+        },
+        {
+          "bbox": [
+            58.5,
+            121.99,
+            64.8,
+            135.64
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "2"
+        },
+        {
+          "bbox": [
+            82.5,
+            176.77,
+            201.3,
+            188.48
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Calibrate the geometry"
+        },
+        {
+          "bbox": [
+            82.5,
+            192.52,
+            536.1,
+            217.73
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Using known distances on the reference plane, work out how a pixel shift of the line\nmaps to a real depth. Validate against an object of known size."
+        },
+        {
+          "bbox": [
+            58.5,
+            175.99,
+            64.8,
+            189.64
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "3"
+        },
+        {
+          "bbox": [
+            82.5,
+            230.77,
+            185.1,
+            242.48
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Capture one profile"
+        },
+        {
+          "bbox": [
+            82.5,
+            246.52,
+            541.5,
+            271.73
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Place an object so the line drapes over it; the bent line is one depth slice. Convert\nthe bend to 3D points and plot that single profile."
+        },
+        {
+          "bbox": [
+            58.5,
+            229.99,
+            64.8,
+            243.64
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "4"
+        },
+        {
+          "bbox": [
+            82.5,
+            284.77,
+            195.9,
+            296.48
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Sweep and reconstruct"
+        },
+        {
+          "bbox": [
+            82.5,
+            300.52,
+            557.7,
+            339.23
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Rotate the object on a turntable (or sweep the line) capturing many slices, stack them\ninto a point cloud, and view / export your 3D model. Refine lighting and calibration for\na clean scan."
+        },
+        {
+          "bbox": [
+            58.5,
+            283.99,
+            64.8,
+            297.64
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "5"
+        },
+        {
+          "bbox": [
+            69.0,
+            413.77,
+            462.0,
+            425.48
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "How does structured-light scanning recover depth without timing light?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            433.27,
+            478.2,
+            444.98
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Why does a laser line appear to bend over a 3D object in the camera view?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            452.77,
+            451.2,
+            464.48
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "How do you extract a laser line from an image to sub-pixel accuracy?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            472.27,
+            462.0,
+            483.98
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Why is camera-laser calibration essential, and what does it determine?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            491.77,
+            397.2,
+            503.48
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "How do single depth profiles combine into a full 3D model?\n→"
+        },
+        {
+          "bbox": [
+            69.0,
+            511.27,
+            489.0,
+            522.97
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "What are the tradeoffs between structured light, ToF, and stereo for depth?\n→"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "seeing with light — a Build List field guide\n17 / 18"
+        }
+      ],
+      "charCount": 1438,
+      "height": 792.0,
+      "pageNumber": 17,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.03,
+            87.17,
+            37.72
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "❯ wrap"
+        },
+        {
+          "bbox": [
+            52.5,
+            43.82,
+            469.95,
+            87.24
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Light is the fastest instrument you own —\npoint it and read what comes back."
+        },
+        {
+          "bbox": [
+            52.5,
+            100.28,
+            549.3,
+            179.48
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "A break-beam, a time-of-flight pulse, a spinning rangefinder, a modulated beam, a reflected\ndot, a bent laser line — six ways to turn light into information: distance, shape, motion,\nand data. The optics are cheap (a $3 laser, a $2 photodiode, a webcam), and just like radar,\nthe real skill is in the front end and the signal processing: the detection, the timing, the\ntriangulation, the filtering. That is exactly what optical-sensing, LiDAR, and photonics\nteams hire for."
+        },
+        {
+          "bbox": [
+            52.5,
+            199.18,
+            196.71,
+            215.76
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "// the skill ladder"
+        },
+        {
+          "bbox": [
+            52.5,
+            225.52,
+            462.9,
+            237.23
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Build them in order and each one hands you the technique the next one needs:"
+        },
+        {
+          "bbox": [
+            52.5,
+            245.39,
+            540.18,
+            257.58
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "photodetection →time-of-flight →LiDAR scanning →optical comms →vibrometry →structured"
+        },
+        {
+          "bbox": [
+            52.5,
+            262.64,
+            80.63,
+            274.83
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "light"
+        },
+        {
+          "bbox": [
+            69.0,
+            301.68,
+            544.2,
+            352.73
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "! LASER SAFETY, EVERY TIME\nUse only low-power Class 1 / 2 modules, never look into a beam or aim one at anyone, and\nrespect that infrared lasers are invisible. And keep the vibrometer pointed only at\nsurfaces you own — not anyone else’s windows."
+        },
+        {
+          "bbox": [
+            69.0,
+            384.18,
+            544.2,
+            448.73
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "DO THIS\nBuild even one of these. Capture the output — a speed readout, a point cloud of your\nroom, audio carried on a beam, a 3D scan — and put it on GitHub with a clear README, the\ngeometry or calibration you used, and an honest note on scope. One optics demo and one\nclean repo prove you can pull real information out of light."
+        },
+        {
+          "bbox": [
+            69.0,
+            480.52,
+            533.4,
+            519.22
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Full build notes, parts links, and the next field guide go out in The Build List. The\npeople actually shipping these — and trading alignment and calibration tricks — are in\nOhm’s Club."
+        },
+        {
+          "bbox": [
+            52.5,
+            548.03,
+            252.3,
+            559.72
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "— Enes (@1nska) · Electrical Engineer"
+        },
+        {
+          "bbox": [
+            52.5,
+            750.81,
+            559.49,
+            757.79
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "seeing with light — a Build List field guide\n18 / 18"
+        }
+      ],
+      "charCount": 1587,
+      "height": 792.0,
+      "pageNumber": 18,
+      "textExtractable": true,
+      "width": 612.0
+    }
+  ],
+  "provenance": {
+    "confidence": "EXACT",
+    "extractionMethod": "pymupdf-blocks-v1",
+    "extractorVersion": "1.28.0",
+    "generatorVersion": null,
+    "origin": "extracted",
+    "source": "guide-009",
+    "sourceHash": "19f74dc1e81b8605aa5e525a8e4c53ca22644413b77714afac760ec343efc185",
+    "sourcePage": null,
+    "sourcePath": "Engineering guides/6 EE Projects That See With Light.pdf",
+    "sourceSection": "ROOT"
+  },
+  "relativePath": "Engineering guides/6 EE Projects That See With Light.pdf",
+  "schemaVersion": "1.0.0",
+  "sha256": "19f74dc1e81b8605aa5e525a8e4c53ca22644413b77714afac760ec343efc185",
+  "sourceId": "guide-009"
+}

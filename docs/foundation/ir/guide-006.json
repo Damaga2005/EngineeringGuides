@@ -1,0 +1,5099 @@
+{
+  "metadata": {
+    "author": "Enes (@1nska)",
+    "creationDate": "D:20260822204404+05'00'",
+    "creator": "(unspecified)",
+    "format": "PDF 1.4",
+    "modDate": "D:20260822204404+05'00'",
+    "producer": "ReportLab PDF Library - (opensource)",
+    "subject": "(unspecified)",
+    "title": "Six EE Projects That Put You on a Drone Team"
+  },
+  "pageCount": 20,
+  "pages": [
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            33.03,
+            67.85,
+            58.53
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "✻"
+        },
+        {
+          "bbox": [
+            52.5,
+            72.68,
+            492.12,
+            83.89
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "field guide · flight control · motor drive · rf links · power · 6 projects · aug 2026"
+        },
+        {
+          "bbox": [
+            52.5,
+            94.16,
+            559.5,
+            106.83
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "> build six things that would actually fly — then show the scope trace that proves it._"
+        },
+        {
+          "bbox": [
+            52.5,
+            117.28,
+            394.05,
+            176.96
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "Six EE Projects That\nPut You on a Drone Team"
+        },
+        {
+          "bbox": [
+            52.5,
+            182.65,
+            559.5,
+            255.8
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "A flight controller from an IMU and a PID loop. An ESC you built from six MOSFETs. A\ntelemetry link that survives 2 km of open air. A gimbal that holds a horizon, a\npower module that reports every cell, and an indoor positioning grid for when GPS is\ngone. Six benches, six flight-ready builds, one portfolio a drone company will\nactually read."
+        },
+        {
+          "bbox": [
+            52.5,
+            279.64,
+            469.55,
+            314.92
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "01\nFlight controller from scratch\nwrite your own attitude filter and PID loop on an ESP32 + MPU6050 and balance a\none-axis rig before you ever spin four props."
+        },
+        {
+          "bbox": [
+            523.4,
+            279.67,
+            539.6,
+            291.38
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$18"
+        },
+        {
+          "bbox": [
+            52.5,
+            328.39,
+            489.35,
+            363.67
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "02\nBrushless ESC you built\ndrive a 3-phase motor with six MOSFETs and back-EMF commutation on a board you laid\nout yourself — the part every drone company buys in."
+        },
+        {
+          "bbox": [
+            523.4,
+            328.42,
+            539.6,
+            340.12
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$14"
+        },
+        {
+          "bbox": [
+            52.5,
+            377.14,
+            489.35,
+            412.42
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "03\nLoRa telemetry link\nstream GPS, altitude and battery voltage from the airframe to a ground station 2 km\naway on a 915 MHz LoRa link you budgeted yourself."
+        },
+        {
+          "bbox": [
+            523.4,
+            377.17,
+            539.6,
+            388.88
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$22"
+        },
+        {
+          "bbox": [
+            52.5,
+            425.89,
+            474.5,
+            461.17
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "04\nBrushless camera gimbal\nhold a camera level through pitch and roll with two gimbal motors, an IMU on the\ncamera plate and your own sine-wave drive."
+        },
+        {
+          "bbox": [
+            523.4,
+            425.92,
+            539.6,
+            437.62
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$26"
+        },
+        {
+          "bbox": [
+            52.5,
+            474.64,
+            489.35,
+            509.92
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "05\nSmart battery power module\nread every cell voltage, pack current and mAh used on a 4S LiPo with your own shunt\namplifier, and warn the pilot before the pack sags."
+        },
+        {
+          "bbox": [
+            523.4,
+            474.68,
+            539.6,
+            486.38
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$16"
+        },
+        {
+          "bbox": [
+            52.5,
+            523.39,
+            494.3,
+            558.67
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "06\nGPS-denied indoor positioning\nplace three UWB anchors around a room and trilaterate a tag on the drone to ±10 cm —\nhow warehouse drones fly where GPS can't reach."
+        },
+        {
+          "bbox": [
+            523.4,
+            523.43,
+            539.6,
+            535.12
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "$48"
+        },
+        {
+          "bbox": [
+            52.5,
+            580.18,
+            417.5,
+            591.88
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "●\nBy Enes · @1nska · Electrical Engineer — a Build List field guide"
+        },
+        {
+          "bbox": [
+            52.5,
+            753.24,
+            559.5,
+            759.24
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 1,
+          "text": "flight control · motor drive · rf links · power — a Build List field guide\n1 / 20"
+        }
+      ],
+      "charCount": 1685,
+      "height": 792.0,
+      "pageNumber": 1,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.68,
+            118.5,
+            38.38
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "❯project 01"
+        },
+        {
+          "bbox": [
+            52.5,
+            45.43,
+            390.0,
+            69.81
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Flight controller from scratch"
+        },
+        {
+          "bbox": [
+            52.5,
+            71.17,
+            547.76,
+            96.86
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "write your own attitude filter and PID loop on an ESP32 + MPU6050 and balance a one-axis\nrig before you ever spin four props."
+        },
+        {
+          "bbox": [
+            60.5,
+            109.84,
+            232.25,
+            120.57
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "$18\nintermediate\n2 weekends"
+        },
+        {
+          "bbox": [
+            52.5,
+            136.58,
+            198.9,
+            157.16
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "## why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            158.67,
+            559.5,
+            278.38
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Every drone company assumes a graduate has only ever flashed Betaflight, and that assumption\nis usually correct. This project forces you through the part the firmware hides: raw gyro\nrates and accelerometer vectors coming in at 1 kHz, a complementary (or Kalman) filter turning\nthem into a roll and pitch angle, and a PID loop turning that angle error into motor commands.\nYou will discover that the textbook loop oscillates on a real rig, that the gyro drifts, that\nthe accelerometer lies under vibration, and that the difference between a stable hover and a\nflip is a derivative term and a 100 Hz low-pass filter. Debugging that on a hinged one-axis\ntest stand, with a logged plot of setpoint versus measured angle, is the actual skill a\nflight-controls engineer is hired for."
+        },
+        {
+          "bbox": [
+            69.0,
+            300.2,
+            215.57,
+            310.45
+          ],
+          "blockIndex": 6,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "WHAT THIS PROVES TO A RECRUITER"
+        },
+        {
+          "bbox": [
+            69.0,
+            314.17,
+            533.4,
+            379.88
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "You can explain where your angle estimate comes from, why you fused gyro and\naccelerometer instead of trusting either, what your loop rate is and why, and what the\nD-term does when the motor response is slow. You tuned gains on real hardware with a\nlogged step response, not a slider in a simulator. That is a control-systems story a\ndrone company can check in one question — and almost no one walks in with it."
+        },
+        {
+          "bbox": [
+            52.5,
+            401.67,
+            543.94,
+            413.38
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "→ the job this maps to: Flight controls / GNC engineer — attitude estimation and inner-loop"
+        },
+        {
+          "bbox": [
+            67.5,
+            415.17,
+            229.5,
+            426.88
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "stabilization for multirotors."
+        },
+        {
+          "bbox": [
+            69.0,
+            448.7,
+            135.19,
+            458.95
+          ],
+          "blockIndex": 10,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "SAFETY WARNING"
+        },
+        {
+          "bbox": [
+            69.0,
+            462.67,
+            543.0,
+            487.88
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "Run every test with propellers removed until the rig is stable on the stand; a loop that\nsaturates will spin motors to full throttle without warning."
+        },
+        {
+          "bbox": [
+            52.5,
+            515.58,
+            168.3,
+            536.16
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "## how it works"
+        },
+        {
+          "bbox": [
+            52.5,
+            539.68,
+            538.54,
+            551.38
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "▸ Two sensors, two failure modes: the gyro gives clean rate but integrates into drift; the"
+        },
+        {
+          "bbox": [
+            67.5,
+            553.18,
+            553.5,
+            578.38
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "accelerometer gives an absolute tilt but is swamped by motor vibration — the filter trusts\nthe gyro fast and the accelerometer slow."
+        },
+        {
+          "bbox": [
+            52.5,
+            592.18,
+            549.34,
+            603.88
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "▸ Loop rate sets the ceiling: a 250 Hz loop can stabilize a rig whose dynamics are 10–20 Hz;"
+        },
+        {
+          "bbox": [
+            67.5,
+            605.68,
+            456.3,
+            617.38
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "go slower and the phase lag alone will make a well-tuned loop oscillate."
+        },
+        {
+          "bbox": [
+            52.5,
+            631.18,
+            538.54,
+            642.88
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "▸ Derivative on measurement, not error: putting D on the error makes every setpoint step a"
+        },
+        {
+          "bbox": [
+            67.5,
+            644.68,
+            548.1,
+            656.38
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "spike to the motors; on the measurement it only reacts to what the rig is actually doing."
+        },
+        {
+          "bbox": [
+            52.5,
+            670.18,
+            549.34,
+            681.88
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "▸ Motor response is part of the plant: a brushless motor plus ESC has 30–80 ms of lag, which"
+        },
+        {
+          "bbox": [
+            67.5,
+            683.68,
+            440.1,
+            695.38
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "is why the same gains that work in simulation oscillate on the bench."
+        },
+        {
+          "bbox": [
+            52.5,
+            709.18,
+            522.34,
+            720.88
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "▸ A test stand is not a cheat: every real flight-controller team tunes inner loops on a"
+        },
+        {
+          "bbox": [
+            67.5,
+            722.68,
+            542.7,
+            734.38
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "constrained rig first — crashing a rig costs nothing, crashing an airframe costs a week."
+        },
+        {
+          "bbox": [
+            52.5,
+            753.24,
+            559.5,
+            759.24
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 2,
+          "text": "flight control · motor drive · rf links · power — a Build List field guide\n2 / 20"
+        }
+      ],
+      "charCount": 2713,
+      "height": 792.0,
+      "pageNumber": 2,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            42.58,
+            229.5,
+            63.16
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "## key design decisions"
+        },
+        {
+          "bbox": [
+            52.5,
+            66.68,
+            533.14,
+            78.38
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "→ Why a complementary filter instead of a full Kalman filter?: at this sensor quality the"
+        },
+        {
+          "bbox": [
+            67.5,
+            80.18,
+            558.9,
+            118.88
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "complementary filter is within a degree of an EKF on roll and pitch and fits in ten lines\nyou can defend at a whiteboard; the EKF is the right answer once you add a magnetometer and\nGPS."
+        },
+        {
+          "bbox": [
+            52.5,
+            132.68,
+            549.34,
+            144.38
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "→ Why an ESP32 instead of an Arduino Uno?: the Uno's 16 MHz 8-bit core struggles to hold 250"
+        },
+        {
+          "bbox": [
+            67.5,
+            146.18,
+            526.5,
+            171.38
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Hz with floating-point math; the ESP32 runs the loop at 1 kHz with headroom and has a\nsecond core for logging."
+        },
+        {
+          "bbox": [
+            52.5,
+            185.18,
+            549.34,
+            196.88
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "→ Why a one-axis rig instead of tethering the quad?: a tether still lets the aircraft couple"
+        },
+        {
+          "bbox": [
+            67.5,
+            198.68,
+            553.5,
+            210.38
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "roll, pitch and yaw, so you cannot tell which gain is wrong; one axis, one loop, one plot."
+        },
+        {
+          "bbox": [
+            52.5,
+            240.08,
+            206.55,
+            260.66
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "## bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            269.69,
+            553.5,
+            280.42
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "component\npart / spec\nqty\n~cost"
+        },
+        {
+          "bbox": [
+            52.5,
+            292.68,
+            553.5,
+            303.89
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Microcontroller\nESP32 DevKit-C\n1\n$5"
+        },
+        {
+          "bbox": [
+            52.5,
+            315.68,
+            553.5,
+            326.89
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "IMU\nMPU6050 breakout (GY-521)\n1\n$2"
+        },
+        {
+          "bbox": [
+            52.5,
+            338.68,
+            553.5,
+            349.89
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Motors + ESCs\n2× 2204 brushless + 2× 20 A ESC\n1 set\n$8"
+        },
+        {
+          "bbox": [
+            52.5,
+            361.68,
+            365.54,
+            384.89
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Test stand\n3D-printed cradle + 2 mm carbon rod +\nbearings"
+        },
+        {
+          "bbox": [
+            446.93,
+            361.68,
+            553.5,
+            372.89
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "1\n$2"
+        },
+        {
+          "bbox": [
+            52.5,
+            396.68,
+            553.5,
+            407.89
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Power\n3S LiPo 1000 mAh (props off)\n1\n$1 (reuse)"
+        },
+        {
+          "bbox": [
+            52.5,
+            430.08,
+            160.65,
+            450.66
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "## build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            454.14,
+            114.9,
+            467.79
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "1\nStep 1"
+        },
+        {
+          "bbox": [
+            82.5,
+            469.67,
+            557.7,
+            508.38
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Wire the MPU6050 to the ESP32 over I2C at 400 kHz, set the gyro to ±500 °/s and accel to\n±4 g, and log raw readings at 1 kHz to confirm you actually get 1000 samples a second\nbefore you write any control code."
+        },
+        {
+          "bbox": [
+            52.5,
+            524.14,
+            239.1,
+            537.79
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "2\nBuild the one-axis test stand"
+        },
+        {
+          "bbox": [
+            82.5,
+            539.68,
+            559.5,
+            564.88
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "a 2 mm carbon rod through a 3D-printed cradle holding two motor arms, so the rig can only\nroll — one degree of freedom means one PID loop to tune, not three."
+        },
+        {
+          "bbox": [
+            52.5,
+            580.64,
+            114.9,
+            594.29
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "3\nStep 3"
+        },
+        {
+          "bbox": [
+            82.5,
+            596.18,
+            546.9,
+            621.38
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Implement the complementary filter (angle = 0.98·(angle + gyro·dt) + 0.02·accel_angle)\nand plot the output against a protractor at 0°, 15° and 30° before trusting it."
+        },
+        {
+          "bbox": [
+            52.5,
+            637.14,
+            114.9,
+            650.79
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "4\nStep 4"
+        },
+        {
+          "bbox": [
+            82.5,
+            652.68,
+            559.5,
+            691.38
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "Write the PID loop at 250 Hz with the D-term on the measurement (not the error) and a 100\nHz first-order filter on it, then tune P first until the rig just oscillates, add D until\nit settles, add I last to remove the standing offset."
+        },
+        {
+          "bbox": [
+            52.5,
+            753.24,
+            559.5,
+            759.24
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 3,
+          "text": "flight control · motor drive · rf links · power — a Build List field guide\n3 / 20"
+        }
+      ],
+      "charCount": 1879,
+      "height": 792.0,
+      "pageNumber": 3,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.64,
+            114.9,
+            40.29
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "5\nStep 5"
+        },
+        {
+          "bbox": [
+            82.5,
+            42.18,
+            557.7,
+            80.88
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "Log setpoint, measured angle and motor output to a CSV over serial, do a 20° step and\nkeep the plot — rise time, overshoot and settling time are the numbers you will be asked\nfor."
+        },
+        {
+          "bbox": [
+            52.5,
+            112.58,
+            221.85,
+            133.16
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "## interview questions"
+        },
+        {
+          "bbox": [
+            69.0,
+            146.68,
+            376.84,
+            158.38
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "→ Why can't you just integrate the gyro to get the angle?"
+        },
+        {
+          "bbox": [
+            69.0,
+            168.18,
+            366.04,
+            179.88
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "→ What loop rate did you run and how did you choose it?"
+        },
+        {
+          "bbox": [
+            69.0,
+            189.68,
+            376.84,
+            201.38
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "→ What happens to your loop if the ESC adds 50 ms of lag?"
+        },
+        {
+          "bbox": [
+            69.0,
+            211.18,
+            393.04,
+            222.88
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "→ Why is the D-term on the measurement instead of the error?"
+        },
+        {
+          "bbox": [
+            69.0,
+            232.68,
+            393.04,
+            244.38
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "→ Show me the step response — what is the overshoot and why?"
+        },
+        {
+          "bbox": [
+            52.5,
+            753.24,
+            559.5,
+            759.24
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 4,
+          "text": "flight control · motor drive · rf links · power — a Build List field guide\n4 / 20"
+        }
+      ],
+      "charCount": 579,
+      "height": 792.0,
+      "pageNumber": 4,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.68,
+            118.5,
+            38.38
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "❯project 02"
+        },
+        {
+          "bbox": [
+            52.5,
+            45.43,
+            311.25,
+            69.81
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Brushless ESC you built"
+        },
+        {
+          "bbox": [
+            52.5,
+            71.17,
+            542.14,
+            96.86
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "drive a 3-phase motor with six MOSFETs and back-EMF commutation on a board you laid out\nyourself — the part every drone company buys in."
+        },
+        {
+          "bbox": [
+            60.5,
+            109.84,
+            212.45,
+            120.57
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "$14\nadvanced\n2 weekends"
+        },
+        {
+          "bbox": [
+            52.5,
+            136.58,
+            198.9,
+            157.16
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "## why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            158.68,
+            559.5,
+            264.88
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "An ESC is a black box to most EE students: a $12 brick that turns a PWM signal into a spinning\nmotor. Inside it is a three-phase half-bridge, gate drivers, a microcontroller and a way of\nfinding the rotor without sensors — by watching the back-EMF zero crossing on the floating\nphase. Building it yourself means you will blow a MOSFET by shooting through a half-bridge,\nyou will see the back-EMF on a scope and learn why it only appears once the motor is already\nturning, and you will write an open-loop start-up ramp that hands off to sensorless\ncommutation. That is the exact circuit inside every motor controller in the industry, and the\ndebugging — dead time, gate charge, current spikes — is the actual job."
+        },
+        {
+          "bbox": [
+            69.0,
+            286.7,
+            215.57,
+            296.95
+          ],
+          "blockIndex": 6,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "WHAT THIS PROVES TO A RECRUITER"
+        },
+        {
+          "bbox": [
+            69.0,
+            300.67,
+            543.0,
+            352.88
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "You can draw a three-phase bridge from memory, explain dead-time and shoot-through,\ndescribe how zero-crossing detection works and why it fails at low speed, and show a\nscope capture of your own commutation. Motor-drive engineers are among the hardest hires\nin the drone and EV world; a working board you laid out puts you in a different pile."
+        },
+        {
+          "bbox": [
+            52.5,
+            374.67,
+            559.5,
+            386.38
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "→ the job this maps to: Motor drive / power electronics engineer — ESC and inverter design for"
+        },
+        {
+          "bbox": [
+            67.5,
+            388.17,
+            126.9,
+            399.88
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "propulsion."
+        },
+        {
+          "bbox": [
+            52.5,
+            417.58,
+            168.3,
+            438.16
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "## how it works"
+        },
+        {
+          "bbox": [
+            52.5,
+            441.67,
+            543.94,
+            453.38
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "▸ Six switches, one rule: at any instant one high-side and one low-side MOSFET on different"
+        },
+        {
+          "bbox": [
+            67.5,
+            455.17,
+            558.9,
+            466.88
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "phases are on, the third phase floats — that floating phase is where you read the back-EMF."
+        },
+        {
+          "bbox": [
+            52.5,
+            480.68,
+            559.5,
+            492.38
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "▸ Dead time is not optional: a high-side and low-side on the same leg overlapping for even 100"
+        },
+        {
+          "bbox": [
+            67.5,
+            494.18,
+            548.1,
+            519.38
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "ns is a short across the battery; the gate driver's delay plus the MOSFET's turn-off sets\nit."
+        },
+        {
+          "bbox": [
+            52.5,
+            533.18,
+            543.94,
+            544.88
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "▸ Back-EMF needs speed: the floating phase's voltage is proportional to RPM, so below a few"
+        },
+        {
+          "bbox": [
+            67.5,
+            546.68,
+            467.1,
+            558.38
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "hundred RPM there is nothing to detect — hence the forced open-loop start."
+        },
+        {
+          "bbox": [
+            52.5,
+            572.18,
+            543.94,
+            583.88
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "▸ The bootstrap cap is the usual bug: high-side gates are driven from a capacitor recharged"
+        },
+        {
+          "bbox": [
+            67.5,
+            585.68,
+            548.1,
+            597.38
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "only when the low side is on, so 100 % duty cycle starves it and the high-side drops out."
+        },
+        {
+          "bbox": [
+            52.5,
+            611.18,
+            533.14,
+            622.88
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "▸ Current is the thing that kills boards: a stalled motor draws locked-rotor current; the"
+        },
+        {
+          "bbox": [
+            67.5,
+            624.68,
+            510.3,
+            636.38
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "shunt and a fast comparator trip is what production ESCs do, and why they survive."
+        },
+        {
+          "bbox": [
+            69.0,
+            664.2,
+            116.28,
+            674.45
+          ],
+          "blockIndex": 21,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "BUILD NOTE"
+        },
+        {
+          "bbox": [
+            69.0,
+            678.18,
+            543.0,
+            703.38
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "Keep a 2 A current limit on the bench supply and a bulk 470 µF electrolytic right at the\nbridge — the first spin-up without it will reboot the MCU on the voltage dip."
+        },
+        {
+          "bbox": [
+            52.5,
+            731.08,
+            229.5,
+            751.66
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "## key design decisions"
+        },
+        {
+          "bbox": [
+            52.5,
+            753.24,
+            559.5,
+            759.24
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 5,
+          "text": "flight control · motor drive · rf links · power — a Build List field guide\n5 / 20"
+        }
+      ],
+      "charCount": 2583,
+      "height": 792.0,
+      "pageNumber": 5,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.68,
+            533.14,
+            38.38
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "→ Why sensorless back-EMF instead of Hall sensors?: drone motors ship without sensors and"
+        },
+        {
+          "bbox": [
+            67.5,
+            40.18,
+            515.7,
+            65.38
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "every commercial ESC is sensorless; Hall sensors are easier but teach you the wrong\nproduct."
+        },
+        {
+          "bbox": [
+            52.5,
+            79.18,
+            559.5,
+            90.88
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "→ Why discrete gate drivers instead of an integrated 3-phase driver IC?: the IR2101 makes each"
+        },
+        {
+          "bbox": [
+            67.5,
+            92.68,
+            558.9,
+            117.88
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "half-bridge visible on the scope, so you debug dead-time and bootstrap yourself; integrated\ndrivers like the DRV8302 hide exactly the parts you need to learn."
+        },
+        {
+          "bbox": [
+            52.5,
+            131.68,
+            527.74,
+            143.38
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "→ Why a 2-layer board instead of a breadboard?: 15 A switching at 20 kHz on jumper wires"
+        },
+        {
+          "bbox": [
+            67.5,
+            145.18,
+            542.7,
+            170.38
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "rings, heats and fails; a tight bridge layout with a solid ground pour is the difference\nbetween a spike and a working switch node."
+        },
+        {
+          "bbox": [
+            52.5,
+            200.08,
+            206.55,
+            220.66
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "## bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            229.69,
+            553.5,
+            240.42
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "component\npart / spec\nqty\n~cost"
+        },
+        {
+          "bbox": [
+            52.5,
+            252.68,
+            553.5,
+            263.89
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "MOSFETs\n6× IRLR7843 (30 V, 3 m\u0000, DPAK)\n6\n$3"
+        },
+        {
+          "bbox": [
+            52.5,
+            275.68,
+            553.5,
+            286.89
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Gate drivers\n3× IR2101 half-bridge driver\n3\n$2"
+        },
+        {
+          "bbox": [
+            52.5,
+            298.68,
+            553.5,
+            309.89
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Microcontroller\nATmega328P or STM32F103 blue pill\n1\n$3"
+        },
+        {
+          "bbox": [
+            52.5,
+            321.68,
+            553.5,
+            344.89
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Passives\nbootstrap diodes, 1 µF caps, 10 \u0000 gate R,\n1 m\u0000 shunt\nset\n$2"
+        },
+        {
+          "bbox": [
+            52.5,
+            356.68,
+            553.5,
+            367.89
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "PCB\n2-layer, 5 pcs from a board house\n1\n$4"
+        },
+        {
+          "bbox": [
+            52.5,
+            390.08,
+            160.65,
+            410.66
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "## build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            414.14,
+            201.3,
+            427.79
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "1\nDesign the power stage"
+        },
+        {
+          "bbox": [
+            82.5,
+            429.67,
+            552.3,
+            468.38
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "three half-bridges of N-channel MOSFETs (e.g. IRLR7843, 30 V, 3 m\u0000) driven by three\nIR2101 half-bridge gate drivers with a bootstrap cap and 10 \u0000 gate resistors, and lay it\nout with the bridge on one side and the MCU on the other."
+        },
+        {
+          "bbox": [
+            52.5,
+            484.14,
+            114.9,
+            497.79
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "2\nStep 2"
+        },
+        {
+          "bbox": [
+            82.5,
+            499.68,
+            559.5,
+            538.38
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Before any motor, test one half-bridge into a resistor load at 12 V with 1 µs dead time\nand scope the switch node — a clean edge with no overshoot spike means the gate drive and\nlayout are right."
+        },
+        {
+          "bbox": [
+            52.5,
+            554.14,
+            114.9,
+            567.79
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "3\nStep 3"
+        },
+        {
+          "bbox": [
+            82.5,
+            569.68,
+            559.5,
+            594.88
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "Write the six-step commutation table and spin the motor open-loop with a slow forced ramp\n(like a stepper), props off, at low duty — this proves the bridge and the phase order."
+        },
+        {
+          "bbox": [
+            52.5,
+            610.64,
+            190.5,
+            624.29
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "4\nAdd back-EMF sensing"
+        },
+        {
+          "bbox": [
+            82.5,
+            626.18,
+            559.5,
+            664.88
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "a resistor divider on each phase into the MCU comparator, detect the zero crossing on the\nfloating phase, wait 30 electrical degrees, then commutate — and log the RPM it locks in\nat."
+        },
+        {
+          "bbox": [
+            52.5,
+            680.64,
+            158.1,
+            694.29
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "5\nClose the loop"
+        },
+        {
+          "bbox": [
+            82.5,
+            696.18,
+            557.7,
+            721.38
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "ramp open-loop for 0.5 s, hand off to sensorless, then add a throttle input from PWM and\na current shunt so the board shuts down above 15 A."
+        },
+        {
+          "bbox": [
+            52.5,
+            753.24,
+            559.5,
+            759.24
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 6,
+          "text": "flight control · motor drive · rf links · power — a Build List field guide\n6 / 20"
+        }
+      ],
+      "charCount": 2052,
+      "height": 792.0,
+      "pageNumber": 6,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            42.58,
+            221.85,
+            63.16
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "## interview questions"
+        },
+        {
+          "bbox": [
+            69.0,
+            76.68,
+            452.44,
+            88.38
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "→ Walk me through one commutation step — which switches are on and why?"
+        },
+        {
+          "bbox": [
+            69.0,
+            98.18,
+            387.64,
+            109.88
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "→ What is dead time and what happens if you set it to zero?"
+        },
+        {
+          "bbox": [
+            69.0,
+            119.68,
+            425.44,
+            131.38
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "→ Why can't a sensorless ESC start from standstill in closed loop?"
+        },
+        {
+          "bbox": [
+            69.0,
+            141.18,
+            403.84,
+            152.88
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "→ How does the bootstrap supply fail and how did you avoid it?"
+        },
+        {
+          "bbox": [
+            69.0,
+            162.68,
+            457.84,
+            174.38
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "→ Where did your first board fail and what did you change on the second?"
+        },
+        {
+          "bbox": [
+            52.5,
+            753.24,
+            559.5,
+            759.24
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 7,
+          "text": "flight control · motor drive · rf links · power — a Build List field guide\n7 / 20"
+        }
+      ],
+      "charCount": 433,
+      "height": 792.0,
+      "pageNumber": 7,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.68,
+            118.5,
+            38.38
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "❯project 03"
+        },
+        {
+          "bbox": [
+            52.5,
+            45.43,
+            266.25,
+            69.81
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "LoRa telemetry link"
+        },
+        {
+          "bbox": [
+            52.5,
+            71.17,
+            547.76,
+            96.86
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "stream GPS, altitude and battery voltage from the airframe to a ground station 2 km away\non a 915 MHz LoRa link you budgeted yourself."
+        },
+        {
+          "bbox": [
+            60.5,
+            109.84,
+            242.15,
+            120.57
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "$22\nintermediate\n1-2 weekends"
+        },
+        {
+          "bbox": [
+            52.5,
+            136.58,
+            198.9,
+            157.16
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "## why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            158.68,
+            554.7,
+            264.88
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "Every drone beyond toy range needs a telemetry downlink, and every drone company has an RF\nperson who owns it. This project gives you the whole chain: a GPS module and a LoRa radio on\nthe airframe, a matching radio on a ground station, a packet format you designed, and a range\ntest you actually ran. You will learn why LoRa trades bit rate for sensitivity, what a link\nbudget is when you compute it from transmit power, antenna gain and receiver sensitivity, and\nwhy the first range test fails at 300 m because the antenna is lying flat against a carbon\narm. The logged RSSI-versus-distance plot from a walk test is the kind of evidence an RF\nhiring manager reads in five seconds."
+        },
+        {
+          "bbox": [
+            69.0,
+            286.7,
+            215.57,
+            296.95
+          ],
+          "blockIndex": 6,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "WHAT THIS PROVES TO A RECRUITER"
+        },
+        {
+          "bbox": [
+            69.0,
+            300.67,
+            543.0,
+            352.88
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "You can state your link budget with numbers — +20 dBm out, -137 dBm sensitivity at SF12,\n2 dBi antennas — and explain what the margin means, why you chose the spreading factor\nyou did, and how you traded packet rate against range. You ran a walk test and have the\nRSSI plot. That is an RF systems story, not a 'used a LoRa library' story."
+        },
+        {
+          "bbox": [
+            52.5,
+            374.67,
+            533.14,
+            386.38
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "→ the job this maps to: RF / datalink engineer — telemetry, command-and-control links and"
+        },
+        {
+          "bbox": [
+            67.5,
+            388.17,
+            186.3,
+            399.88
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "range testing for UAS."
+        },
+        {
+          "bbox": [
+            52.5,
+            417.58,
+            168.3,
+            438.16
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "## how it works"
+        },
+        {
+          "bbox": [
+            52.5,
+            441.67,
+            549.34,
+            453.38
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "▸ Spreading factor is the knob: each step up in SF roughly doubles time-on-air and buys ~2.5"
+        },
+        {
+          "bbox": [
+            67.5,
+            455.17,
+            483.3,
+            466.88
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "dB of sensitivity — SF7 is fast and short-range, SF12 is slow and long-range."
+        },
+        {
+          "bbox": [
+            52.5,
+            480.68,
+            549.34,
+            492.38
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "▸ Link budget is arithmetic, not magic: 20 dBm + 2 dBi + 2 dBi − 97.5 dB (2 km free-space at"
+        },
+        {
+          "bbox": [
+            67.5,
+            494.18,
+            542.7,
+            519.38
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "915 MHz) = −73.5 dBm at the receiver, against −130 dBm sensitivity — the 56 dB margin is\nwhat survives trees, bodies and a bad antenna."
+        },
+        {
+          "bbox": [
+            52.5,
+            533.18,
+            554.74,
+            544.88
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "▸ Antenna placement eats margin first: a whip antenna parallel to a carbon arm is detuned and"
+        },
+        {
+          "bbox": [
+            67.5,
+            546.68,
+            488.7,
+            558.38
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "shadowed; vertical, clear of carbon, on both ends, recovers 10–20 dB for free."
+        },
+        {
+          "bbox": [
+            52.5,
+            572.18,
+            538.54,
+            583.88
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "▸ Binary packets, not JSON: time-on-air scales with bytes, and at SF10 a 20-byte packet is"
+        },
+        {
+          "bbox": [
+            67.5,
+            585.68,
+            548.1,
+            597.38
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "~330 ms while a 120-byte JSON string is ~1.3 s — you cannot send 2 Hz telemetry in ASCII."
+        },
+        {
+          "bbox": [
+            52.5,
+            611.18,
+            554.74,
+            622.88
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "▸ Sequence number plus CRC tells the truth: packet loss, not RSSI, is what the pilot actually"
+        },
+        {
+          "bbox": [
+            67.5,
+            624.68,
+            348.3,
+            636.38
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "cares about; the logger counts gaps in the sequence."
+        },
+        {
+          "bbox": [
+            52.5,
+            666.08,
+            229.5,
+            686.66
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "## key design decisions"
+        },
+        {
+          "bbox": [
+            52.5,
+            690.18,
+            516.94,
+            701.88
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "→ Why LoRa instead of a 2.4 GHz WiFi or nRF24 link?: at the same transmit power LoRa's"
+        },
+        {
+          "bbox": [
+            67.5,
+            703.68,
+            548.1,
+            728.88
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "processing gain buys 20–30 dB of sensitivity, which is the difference between 200 m and 2\nkm; WiFi is faster but dies past the car park."
+        },
+        {
+          "bbox": [
+            52.5,
+            753.24,
+            559.5,
+            759.24
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 8,
+          "text": "flight control · motor drive · rf links · power — a Build List field guide\n8 / 20"
+        }
+      ],
+      "charCount": 2605,
+      "height": 792.0,
+      "pageNumber": 8,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.68,
+            549.34,
+            38.38
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "→ Why 915 MHz instead of 433 MHz?: shorter antennas for the same gain, more bandwidth in the"
+        },
+        {
+          "bbox": [
+            67.5,
+            40.18,
+            558.9,
+            65.38
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "band, and better behaved near the 433 MHz RC-control gear already on many airframes — check\nyour country's ISM band before buying modules."
+        },
+        {
+          "bbox": [
+            52.5,
+            79.18,
+            543.94,
+            90.88
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "→ Why a custom binary packet instead of MAVLink?: MAVLink is what production telemetry uses"
+        },
+        {
+          "bbox": [
+            67.5,
+            92.68,
+            542.7,
+            117.88
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "and you should mention it, but writing your own 20-byte frame teaches you why every byte\ncosts airtime; MAVLink can be dropped in afterwards."
+        },
+        {
+          "bbox": [
+            52.5,
+            147.58,
+            206.55,
+            168.16
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "## bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            177.19,
+            553.5,
+            187.92
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "component\npart / spec\nqty\n~cost"
+        },
+        {
+          "bbox": [
+            52.5,
+            200.18,
+            553.5,
+            211.39
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "LoRa radios\n2× SX1276 915 MHz module (RFM95W)\n2\n$8"
+        },
+        {
+          "bbox": [
+            52.5,
+            223.18,
+            553.5,
+            234.39
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "GPS\nu-blox NEO-6M with antenna\n1\n$5"
+        },
+        {
+          "bbox": [
+            52.5,
+            246.18,
+            553.5,
+            257.39
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Microcontrollers\n2× ESP32 DevKit-C\n2\n$9"
+        },
+        {
+          "bbox": [
+            52.5,
+            269.18,
+            553.5,
+            280.39
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Antennas\n2× 915 MHz whip, 2 dBi, u.FL/SMA\n2\n(included)"
+        },
+        {
+          "bbox": [
+            52.5,
+            292.18,
+            553.5,
+            303.39
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Misc\n5 V BEC, headers, pole for walk test\nset\n$0 (scrap)"
+        },
+        {
+          "bbox": [
+            52.5,
+            325.58,
+            160.65,
+            346.16
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "## build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            349.64,
+            114.9,
+            363.29
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "1\nStep 1"
+        },
+        {
+          "bbox": [
+            82.5,
+            365.17,
+            552.3,
+            390.38
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Wire a SX1276 LoRa module (915 MHz, SPI) and a u-blox NEO-6M GPS (UART) to an ESP32 on\nthe air side; power from a 5 V BEC and confirm a GPS fix outdoors before anything else."
+        },
+        {
+          "bbox": [
+            52.5,
+            406.14,
+            114.9,
+            419.79
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "2\nStep 2"
+        },
+        {
+          "bbox": [
+            82.5,
+            421.67,
+            525.3,
+            460.38
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Define a 20-byte binary packet — lat/lon as int32 ×1e7, altitude int16, battery mV\nuint16, sequence uint8, CRC8 — and write the encoder/decoder with a unit test that\nround-trips it."
+        },
+        {
+          "bbox": [
+            52.5,
+            476.14,
+            212.1,
+            489.79
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "3\nBuild the ground station"
+        },
+        {
+          "bbox": [
+            82.5,
+            491.68,
+            541.5,
+            516.88
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "a second SX1276 on an ESP32 that parses packets and streams them over USB serial to a\nlaptop plotting position on a map and RSSI over time."
+        },
+        {
+          "bbox": [
+            52.5,
+            532.64,
+            114.9,
+            546.29
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "4\nStep 4"
+        },
+        {
+          "bbox": [
+            82.5,
+            548.18,
+            557.7,
+            586.88
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "Compute the link budget on paper (TX power + antenna gains − path loss − sensitivity =\nmargin) for 2 km free-space at SF10/125 kHz, then pick a spreading factor that gives ≥15\ndB margin with ≥2 packets per second."
+        },
+        {
+          "bbox": [
+            52.5,
+            602.64,
+            131.1,
+            616.29
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "5\nWalk test"
+        },
+        {
+          "bbox": [
+            82.5,
+            618.18,
+            552.3,
+            643.38
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "log RSSI, SNR and packet loss every 100 m to 2 km with the air unit on a pole, keep the\nplot, and note where loss starts versus where your budget said it would."
+        },
+        {
+          "bbox": [
+            52.5,
+            753.24,
+            559.5,
+            759.24
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 9,
+          "text": "flight control · motor drive · rf links · power — a Build List field guide\n9 / 20"
+        }
+      ],
+      "charCount": 1770,
+      "height": 792.0,
+      "pageNumber": 9,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            42.58,
+            221.85,
+            63.16
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "## interview questions"
+        },
+        {
+          "bbox": [
+            69.0,
+            76.68,
+            387.64,
+            88.38
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "→ Give me your link budget — where does every dB come from?"
+        },
+        {
+          "bbox": [
+            69.0,
+            98.18,
+            425.44,
+            109.88
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "→ Why did you pick that spreading factor and what did it cost you?"
+        },
+        {
+          "bbox": [
+            69.0,
+            119.68,
+            398.44,
+            131.38
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "→ Where did your range test fall short of the budget and why?"
+        },
+        {
+          "bbox": [
+            69.0,
+            141.18,
+            360.64,
+            152.88
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "→ How do you detect packet loss on the ground station?"
+        },
+        {
+          "bbox": [
+            69.0,
+            162.68,
+            279.64,
+            174.38
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "→ What would you change to reach 10 km?"
+        },
+        {
+          "bbox": [
+            52.5,
+            753.24,
+            559.5,
+            759.24
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 10,
+          "text": "flight control · motor drive · rf links · power — a Build List field guide\n10 / 20"
+        }
+      ],
+      "charCount": 383,
+      "height": 792.0,
+      "pageNumber": 10,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.68,
+            118.5,
+            38.38
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "❯project 04"
+        },
+        {
+          "bbox": [
+            52.5,
+            45.43,
+            311.25,
+            69.81
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Brushless camera gimbal"
+        },
+        {
+          "bbox": [
+            52.5,
+            71.17,
+            542.14,
+            96.86
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "hold a camera level through pitch and roll with two gimbal motors, an IMU on the camera\nplate and your own sine-wave drive."
+        },
+        {
+          "bbox": [
+            60.5,
+            109.84,
+            232.25,
+            120.57
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "$26\nintermediate\n2 weekends"
+        },
+        {
+          "bbox": [
+            52.5,
+            136.58,
+            198.9,
+            157.16
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "## why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            158.68,
+            554.7,
+            251.38
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "A gimbal is a control loop you can see working: the camera stays level while you tilt the\nhandle. Under that are two things a drone company cares about — sinusoidal open-loop drive of\na brushless motor (three PWM sine waves 120° apart, no commutation sensors) and a fast PID\nloop closing on an IMU mounted on the camera plate itself. You will learn why the IMU must be\non the payload and not the frame, why a 400 Hz loop with a 20 Hz plant still jitters if your\nPWM frequency is audible, and why the motor gets hot at standstill. The result is a two-axis\nrig holding a horizon in a video you can post, plus the logged angle error that proves it."
+        },
+        {
+          "bbox": [
+            69.0,
+            273.2,
+            215.57,
+            283.45
+          ],
+          "blockIndex": 6,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "WHAT THIS PROVES TO A RECRUITER"
+        },
+        {
+          "bbox": [
+            69.0,
+            287.17,
+            543.0,
+            352.88
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "You can explain sinusoidal commutation versus six-step, why a gimbal motor has high pole\ncount and high resistance, and how the loop behaves when the IMU is on the frame instead\nof the camera. You have a video of it holding level and a plot of residual error. That\nis a payload/stabilization story — and every inspection, mapping and cinema drone has\none of these on it."
+        },
+        {
+          "bbox": [
+            52.5,
+            374.67,
+            495.34,
+            386.38
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "→ the job this maps to: Payload / stabilization engineer — gimbal drive and camera"
+        },
+        {
+          "bbox": [
+            67.5,
+            388.17,
+            229.5,
+            399.88
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "stabilization systems for UAS."
+        },
+        {
+          "bbox": [
+            52.5,
+            417.58,
+            168.3,
+            438.16
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "## how it works"
+        },
+        {
+          "bbox": [
+            52.5,
+            441.67,
+            516.94,
+            453.38
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "▸ Sinusoidal drive, no feedback needed: three phases fed sin(\u0000), sin(\u0000+120°), sin(\u0000+240°)"
+        },
+        {
+          "bbox": [
+            67.5,
+            455.17,
+            531.9,
+            480.38
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "create a rotating field; the rotor follows, so the electrical angle you command is the\nmechanical position you get."
+        },
+        {
+          "bbox": [
+            52.5,
+            494.18,
+            538.54,
+            505.88
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "▸ Gimbal motors are deliberately weak: many turns of thin wire give high torque per amp at"
+        },
+        {
+          "bbox": [
+            67.5,
+            507.68,
+            553.5,
+            519.38
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "near-zero speed and let you run them at a few hundred mA continuously without burning out."
+        },
+        {
+          "bbox": [
+            52.5,
+            533.18,
+            543.94,
+            544.88
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "▸ IMU on the payload, always: the loop must measure what you are stabilizing; an IMU on the"
+        },
+        {
+          "bbox": [
+            67.5,
+            546.68,
+            396.9,
+            558.38
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "frame tells you the handle moved, not whether the camera did."
+        },
+        {
+          "bbox": [
+            52.5,
+            572.18,
+            527.74,
+            583.88
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "▸ PWM above hearing: at 8 kHz the motor sings; at 20–32 kHz it is silent and the current"
+        },
+        {
+          "bbox": [
+            67.5,
+            585.68,
+            440.1,
+            597.38
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "ripple is lower — pick the frequency your MCU timer can actually hit."
+        },
+        {
+          "bbox": [
+            52.5,
+            611.18,
+            533.14,
+            622.88
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "▸ Two axes, two loops, one coupling: large roll angles rotate the pitch axis, so a 3-axis"
+        },
+        {
+          "bbox": [
+            67.5,
+            624.68,
+            515.7,
+            649.88
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "gimbal needs proper rotation math — two axes is where you learn it without the math\nbecoming the whole project."
+        },
+        {
+          "bbox": [
+            69.0,
+            677.7,
+            116.28,
+            687.95
+          ],
+          "blockIndex": 21,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "BUILD NOTE"
+        },
+        {
+          "bbox": [
+            69.0,
+            691.68,
+            543.0,
+            730.38
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "Gimbal motors draw constant current at standstill — if the driver runs hot, lower the\ndrive voltage or sine amplitude rather than adding a heatsink; 40 % amplitude holds most\nsmall cameras."
+        },
+        {
+          "bbox": [
+            52.5,
+            753.24,
+            559.5,
+            759.24
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 11,
+          "text": "flight control · motor drive · rf links · power — a Build List field guide\n11 / 20"
+        }
+      ],
+      "charCount": 2550,
+      "height": 792.0,
+      "pageNumber": 11,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            42.58,
+            229.5,
+            63.16
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "## key design decisions"
+        },
+        {
+          "bbox": [
+            52.5,
+            66.68,
+            543.94,
+            78.38
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "→ Why open-loop sinusoidal drive instead of a sensored servo?: a hobby servo has 1° of dead"
+        },
+        {
+          "bbox": [
+            67.5,
+            80.18,
+            553.5,
+            105.38
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "band and cogs; sine-driven brushless is smooth to a fraction of a degree and is what every\ncamera gimbal on the market uses."
+        },
+        {
+          "bbox": [
+            52.5,
+            119.18,
+            554.74,
+            130.88
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "→ Why an L6234 instead of three discrete half-bridges?: at under 1 A the integrated driver is"
+        },
+        {
+          "bbox": [
+            67.5,
+            132.68,
+            553.5,
+            157.88
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "cheaper and cleaner and lets you spend the project on the control loop — you already built\nthe discrete bridge in the ESC project."
+        },
+        {
+          "bbox": [
+            52.5,
+            171.68,
+            554.74,
+            183.38
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "→ Why a 400 Hz loop for a 20 Hz plant?: the motor field is set instantly but the camera plate"
+        },
+        {
+          "bbox": [
+            67.5,
+            185.18,
+            542.7,
+            210.38
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "has inertia; 20× oversampling keeps the phase lag out of the loop and lets the D-term do\nits job."
+        },
+        {
+          "bbox": [
+            52.5,
+            240.08,
+            206.55,
+            260.66
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "## bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            269.69,
+            553.5,
+            280.42
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "component\npart / spec\nqty\n~cost"
+        },
+        {
+          "bbox": [
+            52.5,
+            292.68,
+            553.5,
+            303.89
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Gimbal motors\n2× 2208 high-turn brushless gimbal motor\n2\n$12"
+        },
+        {
+          "bbox": [
+            52.5,
+            315.68,
+            553.5,
+            326.89
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Driver\nL6234 three-phase driver breakout\n2\n$6"
+        },
+        {
+          "bbox": [
+            52.5,
+            338.68,
+            553.5,
+            349.89
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "IMU\nMPU6050 breakout\n1\n$2"
+        },
+        {
+          "bbox": [
+            52.5,
+            361.68,
+            553.5,
+            372.89
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Microcontroller\nSTM32F103 blue pill or ESP32\n1\n$3"
+        },
+        {
+          "bbox": [
+            52.5,
+            384.68,
+            553.5,
+            395.89
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Frame\n3D-printed two-axis arms + M3 hardware\n1\n$3"
+        },
+        {
+          "bbox": [
+            52.5,
+            418.08,
+            160.65,
+            438.66
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "## build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            442.14,
+            114.9,
+            455.79
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "1\nStep 1"
+        },
+        {
+          "bbox": [
+            82.5,
+            457.67,
+            559.5,
+            496.38
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Mount two gimbal motors (e.g. 2208, 90 turns, ~10 \u0000) in a two-axis frame — pitch motor\ncarries the camera plate, roll motor carries the pitch motor — and bolt an MPU6050 to the\ncamera plate, not the handle."
+        },
+        {
+          "bbox": [
+            52.5,
+            512.14,
+            114.9,
+            525.79
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "2\nStep 2"
+        },
+        {
+          "bbox": [
+            82.5,
+            527.68,
+            559.5,
+            566.38
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Drive each motor with three PWM outputs through an L6234 (or three half-bridges) at 20–32\nkHz, generate sine/cosine tables, and verify the motor turns smoothly when you step the\nelectrical angle — this is open-loop FOC-style drive."
+        },
+        {
+          "bbox": [
+            52.5,
+            582.14,
+            114.9,
+            595.79
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "3\nStep 3"
+        },
+        {
+          "bbox": [
+            82.5,
+            597.68,
+            557.7,
+            622.88
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Read the IMU at 500 Hz, run the complementary filter from the flight-controller project,\nand get a stable pitch/roll estimate on the camera plate before closing anything."
+        },
+        {
+          "bbox": [
+            52.5,
+            638.64,
+            271.5,
+            652.29
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "4\nClose a PID loop per axis at 400 Hz"
+        },
+        {
+          "bbox": [
+            82.5,
+            654.18,
+            559.5,
+            679.38
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "the error is the camera angle versus level, the output is the electrical angle advance of\nthat motor; tune P until it holds, D until it stops humming, I last."
+        },
+        {
+          "bbox": [
+            52.5,
+            695.14,
+            114.9,
+            708.79
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "5\nStep 5"
+        },
+        {
+          "bbox": [
+            82.5,
+            710.68,
+            536.1,
+            735.88
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "Record a video tilting the handle ±30° while logging camera angle error; the goal is\nunder ±0.5° steady-state and no visible bounce on a step."
+        },
+        {
+          "bbox": [
+            52.5,
+            753.24,
+            559.5,
+            759.24
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 12,
+          "text": "flight control · motor drive · rf links · power — a Build List field guide\n12 / 20"
+        }
+      ],
+      "charCount": 2002,
+      "height": 792.0,
+      "pageNumber": 12,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            42.58,
+            221.85,
+            63.16
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "## interview questions"
+        },
+        {
+          "bbox": [
+            69.0,
+            76.68,
+            468.64,
+            88.38
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "→ How does a brushless motor hold position without a position sensor here?"
+        },
+        {
+          "bbox": [
+            69.0,
+            98.18,
+            295.84,
+            109.88
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "→ Why must the IMU be on the camera plate?"
+        },
+        {
+          "bbox": [
+            69.0,
+            119.68,
+            290.44,
+            131.38
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "→ What PWM frequency did you use and why?"
+        },
+        {
+          "bbox": [
+            69.0,
+            141.18,
+            328.24,
+            152.88
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "→ What limited your steady-state error to ±0.5°?"
+        },
+        {
+          "bbox": [
+            69.0,
+            162.68,
+            295.84,
+            174.38
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "→ How would you extend this to three axes?"
+        },
+        {
+          "bbox": [
+            52.5,
+            753.24,
+            559.5,
+            759.24
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 13,
+          "text": "flight control · motor drive · rf links · power — a Build List field guide\n13 / 20"
+        }
+      ],
+      "charCount": 351,
+      "height": 792.0,
+      "pageNumber": 13,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.68,
+            118.5,
+            38.38
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "❯project 05"
+        },
+        {
+          "bbox": [
+            52.5,
+            45.43,
+            345.0,
+            69.81
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Smart battery power module"
+        },
+        {
+          "bbox": [
+            52.5,
+            71.17,
+            519.62,
+            96.86
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "read every cell voltage, pack current and mAh used on a 4S LiPo with your own shunt\namplifier, and warn the pilot before the pack sags."
+        },
+        {
+          "bbox": [
+            60.5,
+            109.84,
+            207.5,
+            120.57
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "$16\nbeginner\n1 weekend"
+        },
+        {
+          "bbox": [
+            52.5,
+            136.58,
+            198.9,
+            157.16
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "## why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            158.68,
+            549.3,
+            264.88
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Batteries decide flight time and batteries cause crashes, so every drone company has someone\nwho owns the power module. This project is that module: a shunt resistor and current-sense\namplifier for pack current, a resistor-divider per cell into a multiplexed ADC for cell\nvoltages, and firmware that integrates current into mAh consumed and flags a weak cell. You\nwill learn why a 0.5 m\u0000 shunt needs a 50 V/V amplifier, why the divider ratio matters for ADC\nresolution, why cell voltage under load and at rest are different numbers, and why mAh\nconsumed is a better land-now signal than voltage. The logged discharge curve you produce is\nthe first thing a battery engineer asks for."
+        },
+        {
+          "bbox": [
+            69.0,
+            286.7,
+            215.57,
+            296.95
+          ],
+          "blockIndex": 6,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "WHAT THIS PROVES TO A RECRUITER"
+        },
+        {
+          "bbox": [
+            69.0,
+            300.67,
+            543.0,
+            352.88
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "You can explain high-side versus low-side current sensing, size a shunt for a 60 A pack,\ntalk about coulomb counting versus voltage estimation, and show a discharge curve with a\nweak cell visible in it. That is battery-management experience, and 'BMS' shows up in\nnearly every drone, EV and robotics hardware posting."
+        },
+        {
+          "bbox": [
+            52.5,
+            374.67,
+            543.94,
+            386.38
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "→ the job this maps to: Battery / power systems engineer — BMS, power monitoring and energy"
+        },
+        {
+          "bbox": [
+            67.5,
+            388.17,
+            245.7,
+            399.88
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "estimation for electric aircraft."
+        },
+        {
+          "bbox": [
+            69.0,
+            421.7,
+            135.19,
+            431.95
+          ],
+          "blockIndex": 10,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "SAFETY WARNING"
+        },
+        {
+          "bbox": [
+            69.0,
+            435.67,
+            538.8,
+            474.38
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "Never leave a LiPo connected to a discharge load unattended, and stop any test the\nmoment a cell reads under 3.0 V — over-discharged cells are the ones that catch fire on\nthe next charge."
+        },
+        {
+          "bbox": [
+            52.5,
+            502.08,
+            168.3,
+            522.66
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "## how it works"
+        },
+        {
+          "bbox": [
+            52.5,
+            526.18,
+            543.94,
+            537.88
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "▸ Shunt plus amplifier is the whole current sensor: V = I·R, and a milliohm shunt keeps the"
+        },
+        {
+          "bbox": [
+            67.5,
+            539.68,
+            553.5,
+            564.88
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "loss to a few watts at full throttle while a dedicated current-sense amplifier rejects the\ncommon-mode voltage of the pack."
+        },
+        {
+          "bbox": [
+            52.5,
+            578.68,
+            554.74,
+            590.38
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "▸ Cell voltages come from differences: each balance tap is measured to ground, then cell n is"
+        },
+        {
+          "bbox": [
+            67.5,
+            592.18,
+            531.9,
+            617.38
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "tap n minus tap n−1 — which is why ADC resolution and matched dividers matter more the\nhigher the cell."
+        },
+        {
+          "bbox": [
+            52.5,
+            631.18,
+            533.14,
+            642.88
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "▸ Voltage lies under load: a pack at 14.8 V resting can read 13.6 V at full throttle from"
+        },
+        {
+          "bbox": [
+            67.5,
+            644.68,
+            548.1,
+            669.88
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "internal resistance alone, which is why voltage alarms trip early and coulomb counting is\nwhat real power modules use."
+        },
+        {
+          "bbox": [
+            52.5,
+            683.68,
+            533.14,
+            695.38
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "▸ A weak cell hides at rest: all four cells read 4.1 V on the bench and one dips to 3.2 V"
+        },
+        {
+          "bbox": [
+            67.5,
+            697.18,
+            515.7,
+            708.88
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "under load; per-cell logging under load is how you find it before it ends a flight."
+        },
+        {
+          "bbox": [
+            52.5,
+            753.24,
+            559.5,
+            759.24
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 14,
+          "text": "flight control · motor drive · rf links · power — a Build List field guide\n14 / 20"
+        }
+      ],
+      "charCount": 2454,
+      "height": 792.0,
+      "pageNumber": 14,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.68,
+            559.5,
+            38.38
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "▸ mAh used is the honest fuel gauge: integrate current, compare to rated capacity, and land at"
+        },
+        {
+          "bbox": [
+            67.5,
+            40.18,
+            456.3,
+            51.88
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "80 % — that is exactly the rule ArduPilot and PX4 power modules enforce."
+        },
+        {
+          "bbox": [
+            52.5,
+            81.58,
+            229.5,
+            102.16
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "## key design decisions"
+        },
+        {
+          "bbox": [
+            52.5,
+            105.68,
+            543.94,
+            117.38
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "→ Why a dedicated current-sense amplifier instead of an op-amp?: an INA240 rejects 80 dB of"
+        },
+        {
+          "bbox": [
+            67.5,
+            119.18,
+            537.3,
+            144.38
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "common-mode voltage and PWM switching noise at the shunt; a generic op-amp divider on a\n16.8 V rail gives you millivolts of error on a millivolt signal."
+        },
+        {
+          "bbox": [
+            52.5,
+            158.18,
+            559.5,
+            169.88
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "→ Why a 16-bit external ADC instead of the MCU's 12-bit ADC?: 4.2 V per cell through a divider"
+        },
+        {
+          "bbox": [
+            67.5,
+            171.68,
+            548.1,
+            196.88
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "into 12 bits gives ~5 mV steps; the ADS1115 gives sub-millivolt resolution, which is what\nyou need to see a cell drift."
+        },
+        {
+          "bbox": [
+            52.5,
+            210.68,
+            554.74,
+            222.38
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "→ Why low-side shunt here?: it keeps the amplifier referenced to ground and is how most hobby"
+        },
+        {
+          "bbox": [
+            67.5,
+            224.18,
+            542.7,
+            249.38
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "power modules are built; high-side sensing is the production answer when the ground path\nmust stay unbroken — mention both."
+        },
+        {
+          "bbox": [
+            52.5,
+            279.08,
+            206.55,
+            299.66
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "## bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            308.69,
+            553.5,
+            319.42
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "component\npart / spec\nqty\n~cost"
+        },
+        {
+          "bbox": [
+            52.5,
+            331.68,
+            553.5,
+            342.89
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Shunt\n1 m\u0000 2512 current-sense resistor, 3 W\n2\n$1"
+        },
+        {
+          "bbox": [
+            52.5,
+            354.68,
+            553.5,
+            365.89
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Current amplifier\nINA240A2 (50 V/V) or INA181 breakout\n1\n$3"
+        },
+        {
+          "bbox": [
+            52.5,
+            377.68,
+            553.5,
+            388.89
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "ADC\nADS1115 16-bit I2C breakout\n1\n$3"
+        },
+        {
+          "bbox": [
+            52.5,
+            400.68,
+            140.42,
+            423.89
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Microcontroller +\ndisplay"
+        },
+        {
+          "bbox": [
+            174.18,
+            400.68,
+            553.5,
+            411.89
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "ESP32 + 0.96-inch OLED + buzzer\n1 set\n$7"
+        },
+        {
+          "bbox": [
+            52.5,
+            435.68,
+            553.5,
+            446.89
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Connectors\nXT60 pair, JST-XH balance lead\nset\n$2"
+        },
+        {
+          "bbox": [
+            52.5,
+            469.08,
+            160.65,
+            489.66
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "## build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            493.14,
+            158.1,
+            506.79
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "1\nSize the shunt"
+        },
+        {
+          "bbox": [
+            82.5,
+            508.68,
+            552.3,
+            547.38
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "for 60 A peak and a 75 mV full-scale amplifier input, choose 1 m\u0000 (60 mV at 60 A, 3.6 W\npeak — use a 2512 current-sense resistor rated 3 W or two in parallel) and an INA240 or\nINA181 amplifier with 50 V/V gain into the ADC."
+        },
+        {
+          "bbox": [
+            52.5,
+            563.14,
+            233.7,
+            576.79
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "2\nBuild the cell-voltage stage"
+        },
+        {
+          "bbox": [
+            82.5,
+            578.68,
+            559.5,
+            617.38
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "a resistor divider from each balance-lead tap (1S…4S) to an ADS1115 16-bit ADC, scaled so\n4.2 V per cell lands below 3.3 V full scale, and compute per-cell voltage as the\ndifference between adjacent taps."
+        },
+        {
+          "bbox": [
+            52.5,
+            633.14,
+            114.9,
+            646.79
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "3\nStep 3"
+        },
+        {
+          "bbox": [
+            82.5,
+            648.68,
+            557.7,
+            673.88
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "Calibrate against a bench meter at 0, 5 and 20 A and at three known voltages — store the\nslope and offset in flash, not in a comment."
+        },
+        {
+          "bbox": [
+            52.5,
+            753.24,
+            559.5,
+            759.24
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 15,
+          "text": "flight control · motor drive · rf links · power — a Build List field guide\n15 / 20"
+        }
+      ],
+      "charCount": 1878,
+      "height": 792.0,
+      "pageNumber": 15,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.64,
+            114.9,
+            40.29
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "4\nStep 4"
+        },
+        {
+          "bbox": [
+            82.5,
+            42.18,
+            557.7,
+            80.88
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Integrate current at 100 Hz into mAh consumed, display pack voltage, lowest cell and mAh\non a 0.96-inch OLED, and drive a buzzer when mAh used hits 80 % of rated capacity or any\ncell drops under 3.5 V under load."
+        },
+        {
+          "bbox": [
+            52.5,
+            96.64,
+            114.9,
+            110.29
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "5\nStep 5"
+        },
+        {
+          "bbox": [
+            82.5,
+            112.18,
+            557.7,
+            137.38
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "Log a full discharge on a bench load (or a tethered prop-off motor run) at 10 A and keep\nthe curve — pack voltage, each cell, and mAh versus time."
+        },
+        {
+          "bbox": [
+            52.5,
+            169.08,
+            221.85,
+            189.66
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "## interview questions"
+        },
+        {
+          "bbox": [
+            69.0,
+            203.17,
+            463.24,
+            214.88
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "→ How did you size the shunt and what does it dissipate at full throttle?"
+        },
+        {
+          "bbox": [
+            69.0,
+            224.67,
+            344.44,
+            236.38
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "→ Why is per-cell voltage a difference measurement?"
+        },
+        {
+          "bbox": [
+            69.0,
+            246.17,
+            295.84,
+            257.88
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "→ Why is a voltage alarm a bad fuel gauge?"
+        },
+        {
+          "bbox": [
+            69.0,
+            267.67,
+            484.84,
+            279.38
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "→ What did your discharge curve show that a single voltage reading would not?"
+        },
+        {
+          "bbox": [
+            69.0,
+            289.17,
+            420.04,
+            300.88
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "→ Where would you put the shunt in a production airframe and why?"
+        },
+        {
+          "bbox": [
+            52.5,
+            753.24,
+            559.5,
+            759.24
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 16,
+          "text": "flight control · motor drive · rf links · power — a Build List field guide\n16 / 20"
+        }
+      ],
+      "charCount": 786,
+      "height": 792.0,
+      "pageNumber": 16,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.68,
+            118.5,
+            38.38
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "❯project 06"
+        },
+        {
+          "bbox": [
+            52.5,
+            45.43,
+            378.75,
+            69.81
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "GPS-denied indoor positioning"
+        },
+        {
+          "bbox": [
+            52.5,
+            71.17,
+            547.76,
+            96.86
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "place three UWB anchors around a room and trilaterate a tag on the drone to ±10 cm — how\nwarehouse drones fly where GPS can't reach."
+        },
+        {
+          "bbox": [
+            60.5,
+            109.84,
+            212.45,
+            120.57
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "$48\nadvanced\n2 weekends"
+        },
+        {
+          "bbox": [
+            52.5,
+            136.58,
+            198.9,
+            157.16
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "## why this matters"
+        },
+        {
+          "bbox": [
+            52.5,
+            158.68,
+            559.5,
+            264.88
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "Indoor drones are the fastest-growing part of the industry — warehouse inventory, tunnel and\ntank inspection — and none of them have GPS. This project is the answer those teams actually\nuse: ultra-wideband ranging. Three ESP32 + DW1000 anchors on tripods, one tag on the airframe,\ntwo-way ranging that times a radio pulse round trip to nanoseconds, and trilateration that\nturns three distances into an x/y position on a laptop map. You will learn why UWB can range\nto centimetres when WiFi cannot, why antenna delay calibration is the whole game, and why\nthree anchors give you a position but four give you a sanity check. The logged position trace\nas you walk a square is proof you can build a localization system, not just call a library."
+        },
+        {
+          "bbox": [
+            69.0,
+            286.7,
+            215.57,
+            296.95
+          ],
+          "blockIndex": 6,
+          "blockType": "section_heading",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "WHAT THIS PROVES TO A RECRUITER"
+        },
+        {
+          "bbox": [
+            69.0,
+            300.67,
+            533.4,
+            366.38
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "You can explain two-way ranging and why it cancels clock offset, what limits UWB\naccuracy indoors (antenna delay, multipath, geometry), how trilateration degrades when\nanchors are nearly collinear, and you have a plot of a walked square that looks like a\nsquare. Localization and sensor fusion are exactly what indoor-drone companies screen\nfor — and this build is the first rung of it."
+        },
+        {
+          "bbox": [
+            52.5,
+            388.17,
+            559.5,
+            399.88
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "→ the job this maps to: Localization / navigation engineer — GPS-denied positioning and sensor"
+        },
+        {
+          "bbox": [
+            67.5,
+            401.67,
+            186.3,
+            413.38
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "fusion for indoor UAS."
+        },
+        {
+          "bbox": [
+            52.5,
+            431.08,
+            168.3,
+            451.66
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "## how it works"
+        },
+        {
+          "bbox": [
+            52.5,
+            455.17,
+            559.5,
+            466.88
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "▸ Time of flight, not signal strength: UWB sends a 2 ns pulse and measures when it comes back;"
+        },
+        {
+          "bbox": [
+            67.5,
+            468.67,
+            477.9,
+            480.38
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "1 ns of timing error is 30 cm, which is why the DW1000 timestamps to ~15 ps."
+        },
+        {
+          "bbox": [
+            52.5,
+            494.18,
+            559.5,
+            505.88
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "▸ Two-way ranging cancels clocks: tag sends, anchor replies after a known delay, tag times the"
+        },
+        {
+          "bbox": [
+            67.5,
+            507.68,
+            456.3,
+            519.38
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "round trip — neither side needs a synchronized clock, only a stable one."
+        },
+        {
+          "bbox": [
+            52.5,
+            533.18,
+            538.54,
+            544.88
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "▸ Antenna delay is the calibration: the chip timestamps at the transceiver, but the signal"
+        },
+        {
+          "bbox": [
+            67.5,
+            546.68,
+            548.1,
+            571.88
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "spends extra nanoseconds in the PCB trace and antenna; that fixed delay is subtracted per\nmodule and is why uncalibrated modules read 30–50 cm long."
+        },
+        {
+          "bbox": [
+            52.5,
+            585.68,
+            554.74,
+            597.38
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "▸ Geometry sets the error: three anchors in a line cannot tell which side of the line you are"
+        },
+        {
+          "bbox": [
+            67.5,
+            599.18,
+            548.1,
+            624.38
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "on; spread them around the volume and the same ranging error gives a far smaller position\nerror (dilution of precision)."
+        },
+        {
+          "bbox": [
+            52.5,
+            638.18,
+            559.5,
+            649.88
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "▸ Multipath is the indoor enemy: a pulse that bounces off a metal shelf arrives late and reads"
+        },
+        {
+          "bbox": [
+            67.5,
+            651.68,
+            558.9,
+            663.38
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "long; the DW1000 reports first-path power so you can reject ranges that came in via a wall."
+        },
+        {
+          "bbox": [
+            52.5,
+            693.08,
+            229.5,
+            713.66
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "## key design decisions"
+        },
+        {
+          "bbox": [
+            52.5,
+            753.24,
+            559.5,
+            759.24
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 17,
+          "text": "flight control · motor drive · rf links · power — a Build List field guide\n17 / 20"
+        }
+      ],
+      "charCount": 2579,
+      "height": 792.0,
+      "pageNumber": 17,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.68,
+            554.74,
+            38.38
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "→ Why UWB instead of WiFi or BLE RSSI positioning?: RSSI varies 10 dB with a body in the way,"
+        },
+        {
+          "bbox": [
+            67.5,
+            40.18,
+            553.5,
+            65.38
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "which is metres of error; UWB time-of-flight is physics-limited to centimetres and is what\nevery commercial indoor RTLS uses."
+        },
+        {
+          "bbox": [
+            52.5,
+            79.18,
+            527.74,
+            90.88
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "→ Why trilaterate on the laptop instead of on the tag?: you want to see every raw range,"
+        },
+        {
+          "bbox": [
+            67.5,
+            92.68,
+            548.1,
+            117.88
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "residual and rejected measurement while you learn it; moving the solver onto the tag is a\none-evening port once it works."
+        },
+        {
+          "bbox": [
+            52.5,
+            131.68,
+            538.54,
+            143.38
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "→ Why three anchors first, then four?: three is the minimum for a 2D fix and forces you to"
+        },
+        {
+          "bbox": [
+            67.5,
+            145.18,
+            553.5,
+            170.38
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "understand the geometry; the fourth anchor introduces redundancy and residuals — the thing\nthat makes a real system trustworthy."
+        },
+        {
+          "bbox": [
+            52.5,
+            200.08,
+            206.55,
+            220.66
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "## bill of materials"
+        },
+        {
+          "bbox": [
+            52.5,
+            229.69,
+            553.5,
+            240.42
+          ],
+          "blockIndex": 7,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "component\npart / spec\nqty\n~cost"
+        },
+        {
+          "bbox": [
+            52.5,
+            252.68,
+            350.03,
+            275.89
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "UWB modules\n4× ESP32 + DW1000 board (Makerfabs\nESP32-UWB)"
+        },
+        {
+          "bbox": [
+            446.93,
+            252.68,
+            553.5,
+            263.89
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "4\n$40"
+        },
+        {
+          "bbox": [
+            52.5,
+            287.68,
+            553.5,
+            298.89
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Mounting\n3 cheap tripods or clamps + tape measure\nset\n$6"
+        },
+        {
+          "bbox": [
+            52.5,
+            310.68,
+            553.5,
+            321.89
+          ],
+          "blockIndex": 11,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Power\nUSB power banks for anchors\n3\n$0 (reuse)"
+        },
+        {
+          "bbox": [
+            52.5,
+            333.68,
+            553.5,
+            344.89
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Tag mount\n3D-printed clip for the airframe\n1\n$1"
+        },
+        {
+          "bbox": [
+            52.5,
+            356.68,
+            553.5,
+            367.89
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Cable\nUSB for the tag's serial link\n1\n$1"
+        },
+        {
+          "bbox": [
+            52.5,
+            390.08,
+            160.65,
+            410.66
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "## build steps"
+        },
+        {
+          "bbox": [
+            52.5,
+            414.14,
+            114.9,
+            427.79
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "1\nStep 1"
+        },
+        {
+          "bbox": [
+            82.5,
+            429.67,
+            557.7,
+            468.38
+          ],
+          "blockIndex": 16,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Flash three ESP32 + DW1000 boards (Makerfabs ESP32-UWB or a DWM1000 on a breakout) as\nanchors at known coordinates — tape measure them to the centimetre, corners of a 4 m × 4\nm square, 1.5 m high — and one as a tag."
+        },
+        {
+          "bbox": [
+            52.5,
+            484.14,
+            114.9,
+            497.79
+          ],
+          "blockIndex": 17,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "2\nStep 2"
+        },
+        {
+          "bbox": [
+            82.5,
+            499.68,
+            557.7,
+            538.38
+          ],
+          "blockIndex": 18,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Implement (or run) double-sided two-way ranging between the tag and each anchor in turn,\nand read the raw distance at 1 m, 2 m and 4 m against a tape — expect a fixed offset of\ntens of centimetres."
+        },
+        {
+          "bbox": [
+            52.5,
+            554.14,
+            206.7,
+            567.79
+          ],
+          "blockIndex": 19,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "3\nCalibrate antenna delay"
+        },
+        {
+          "bbox": [
+            82.5,
+            569.68,
+            559.5,
+            594.88
+          ],
+          "blockIndex": 20,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "adjust the per-module delay constant until all three anchors read within ±5 cm at a known\n2 m — this single number is where most of the error lives."
+        },
+        {
+          "bbox": [
+            52.5,
+            610.64,
+            217.5,
+            624.29
+          ],
+          "blockIndex": 21,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "4\nTrilaterate on the laptop"
+        },
+        {
+          "bbox": [
+            82.5,
+            626.18,
+            546.9,
+            664.88
+          ],
+          "blockIndex": 22,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "three circles, least-squares intersection (solve the linearized 2×2 system), plot the\ntag position live over serial at 10 Hz, and watch it jitter when you stand between the\ntag and an anchor."
+        },
+        {
+          "bbox": [
+            52.5,
+            680.64,
+            114.9,
+            694.29
+          ],
+          "blockIndex": 23,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "5\nStep 5"
+        },
+        {
+          "bbox": [
+            82.5,
+            696.18,
+            557.7,
+            734.88
+          ],
+          "blockIndex": 24,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "Walk a 2 m square holding the tag and log the trace; overlay it on the true square and\nreport RMS error — then add a fourth anchor and show how the residual tells you when one\nrange is wrong."
+        },
+        {
+          "bbox": [
+            52.5,
+            753.24,
+            559.5,
+            759.24
+          ],
+          "blockIndex": 25,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 18,
+          "text": "flight control · motor drive · rf links · power — a Build List field guide\n18 / 20"
+        }
+      ],
+      "charCount": 2061,
+      "height": 792.0,
+      "pageNumber": 18,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            42.58,
+            221.85,
+            63.16
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "## interview questions"
+        },
+        {
+          "bbox": [
+            69.0,
+            76.68,
+            371.44,
+            88.38
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "→ Why does two-way ranging not need synchronized clocks?"
+        },
+        {
+          "bbox": [
+            69.0,
+            98.18,
+            355.24,
+            109.88
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "→ What is antenna delay and how did you calibrate it?"
+        },
+        {
+          "bbox": [
+            69.0,
+            119.68,
+            360.64,
+            131.38
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "→ How does anchor geometry change your position error?"
+        },
+        {
+          "bbox": [
+            69.0,
+            141.18,
+            420.04,
+            152.88
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "→ How do you detect a multipath range and what do you do with it?"
+        },
+        {
+          "bbox": [
+            69.0,
+            162.68,
+            430.84,
+            174.38
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "→ How would you fuse this with the IMU from your flight controller?"
+        },
+        {
+          "bbox": [
+            52.5,
+            753.24,
+            559.5,
+            759.24
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 19,
+          "text": "flight control · motor drive · rf links · power — a Build List field guide\n19 / 20"
+        }
+      ],
+      "charCount": 399,
+      "height": 792.0,
+      "pageNumber": 19,
+      "textExtractable": true,
+      "width": 612.0
+    },
+    {
+      "blocks": [
+        {
+          "bbox": [
+            52.5,
+            26.68,
+            86.1,
+            38.38
+          ],
+          "blockIndex": 0,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "❯wrap"
+        },
+        {
+          "bbox": [
+            52.5,
+            47.47,
+            528.6,
+            89.89
+          ],
+          "blockIndex": 1,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "You just built the electronics stack of a real\naircraft."
+        },
+        {
+          "bbox": [
+            52.5,
+            99.68,
+            559.5,
+            151.88
+          ],
+          "blockIndex": 2,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Strip any commercial drone down and it is these six things: an IMU feeding a control loop,\nthree-phase motor drive, a radio link, a stabilized payload, a battery that reports on itself,\nand a way to know where the aircraft is. Every project here is one of those blocks, built\nsmall enough to finish on a bench and real enough to put in an airframe."
+        },
+        {
+          "bbox": [
+            52.5,
+            161.68,
+            549.3,
+            200.38
+          ],
+          "blockIndex": 3,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "None of them are toy demos. Each one maps to a line in a drone-company job posting, and each\none leaves you with a log file, a scope capture, a photo of the board, and a failure you\ndiagnosed yourself — the four things a technical interviewer actually wants to see."
+        },
+        {
+          "bbox": [
+            52.5,
+            216.08,
+            198.9,
+            236.66
+          ],
+          "blockIndex": 4,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "// the skill ladder"
+        },
+        {
+          "bbox": [
+            52.5,
+            240.17,
+            553.54,
+            252.36
+          ],
+          "blockIndex": 5,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "IMU + control loops → three-phase motor drive → RF link budgets → sensor fusion → battery"
+        },
+        {
+          "bbox": [
+            52.5,
+            255.17,
+            260.77,
+            267.36
+          ],
+          "blockIndex": 6,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "management → system-level flight test"
+        },
+        {
+          "bbox": [
+            69.0,
+            296.2,
+            201.38,
+            306.45
+          ],
+          "blockIndex": 7,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "THE RULES, EVERY SINGLE TIME"
+        },
+        {
+          "bbox": [
+            69.0,
+            310.17,
+            543.0,
+            348.88
+          ],
+          "blockIndex": 8,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Props off for every bench test. A motor that spins up by accident with a propeller on it\nis the single most common way people get hurt on these builds — remove the props before\nyou power anything."
+        },
+        {
+          "bbox": [
+            69.0,
+            354.67,
+            528.0,
+            393.38
+          ],
+          "blockIndex": 9,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Keep a current-limited bench supply between you and any new board until you have\nmeasured its idle draw; a reversed rail or a shorted MOSFET should pop a limit, not a\nbattery."
+        },
+        {
+          "bbox": [
+            69.0,
+            399.17,
+            543.0,
+            424.38
+          ],
+          "blockIndex": 10,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Never charge, balance or discharge a LiPo unattended, and never below 3.0 V per cell — a\npuffed pack goes in a fireproof bag outdoors, not back on the bench."
+        },
+        {
+          "bbox": [
+            69.0,
+            456.2,
+            102.1,
+            466.45
+          ],
+          "blockIndex": 11,
+          "blockType": "heading",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "DO THIS"
+        },
+        {
+          "bbox": [
+            69.0,
+            470.18,
+            538.8,
+            508.88
+          ],
+          "blockIndex": 12,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "Build one of these all the way to a logged flight test or bench run, write down the one\nthing that broke and how you found it, then post the photo and the plot. Comment the\nkeyword on this guide's post and I'll send you the full write-up for free."
+        },
+        {
+          "bbox": [
+            69.0,
+            540.68,
+            533.4,
+            565.88
+          ],
+          "blockIndex": 13,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "The Build List is Enes's running series of these field guides — join the Ohm's Club to\nget the next one the day it ships."
+        },
+        {
+          "bbox": [
+            52.5,
+            589.68,
+            252.3,
+            601.38
+          ],
+          "blockIndex": 14,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "— Enes (@1nska) · Electrical Engineer"
+        },
+        {
+          "bbox": [
+            52.5,
+            753.24,
+            559.5,
+            759.24
+          ],
+          "blockIndex": 15,
+          "blockType": "paragraph",
+          "confidence": "EXACT",
+          "pageNumber": 20,
+          "text": "flight control · motor drive · rf links · power — a Build List field guide\n20 / 20"
+        }
+      ],
+      "charCount": 1869,
+      "height": 792.0,
+      "pageNumber": 20,
+      "textExtractable": true,
+      "width": 612.0
+    }
+  ],
+  "provenance": {
+    "confidence": "EXACT",
+    "extractionMethod": "pymupdf-blocks-v1",
+    "extractorVersion": "1.28.0",
+    "generatorVersion": null,
+    "origin": "extracted",
+    "source": "guide-006",
+    "sourceHash": "04be594f565efd5a9e7da4bc0a3e33317a218cd6edcaf2a897e52e5b08cac294",
+    "sourcePage": null,
+    "sourcePath": "Engineering guides/6 EE Projects That Put You on a Drone Team.pdf",
+    "sourceSection": "ROOT"
+  },
+  "relativePath": "Engineering guides/6 EE Projects That Put You on a Drone Team.pdf",
+  "schemaVersion": "1.0.0",
+  "sha256": "04be594f565efd5a9e7da4bc0a3e33317a218cd6edcaf2a897e52e5b08cac294",
+  "sourceId": "guide-006"
+}
