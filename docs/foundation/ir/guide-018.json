@@ -5685,13 +5685,13 @@
     "generatorVersion": null,
     "origin": "extracted",
     "source": "guide-018",
-    "sourceHash": "307e095efd6f4e7bc42ba8293cbedb92e19d51d6b87cb4730481f6c0bc992c0d",
+    "sourceHash": "aff92715aebd9ce6a8dd0b2b8e8fe56c021157b3867115d49f9c698b96d1c46b",
     "sourcePage": null,
     "sourcePath": "Engineering guides/ee ai era projects.pdf",
     "sourceSection": "ROOT"
   },
   "relativePath": "Engineering guides/ee ai era projects.pdf",
   "schemaVersion": "1.0.0",
-  "sha256": "307e095efd6f4e7bc42ba8293cbedb92e19d51d6b87cb4730481f6c0bc992c0d",
+  "sha256": "aff92715aebd9ce6a8dd0b2b8e8fe56c021157b3867115d49f9c698b96d1c46b",
   "sourceId": "guide-018"
 }

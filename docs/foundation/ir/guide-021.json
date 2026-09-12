@@ -3989,13 +3989,13 @@
     "generatorVersion": null,
     "origin": "extracted",
     "source": "guide-021",
-    "sourceHash": "fd09c2a12d77783c01968ad84c6271977fabfc40f8dcf7bbfebc3538d2959116",
+    "sourceHash": "fd932845b67b6c5917fe5891af5daece6a38b575429aae3f3d5e86309d49ba88",
     "sourcePage": null,
     "sourcePath": "Engineering guides/ee_portfolio_projects.pdf",
     "sourceSection": "ROOT"
   },
   "relativePath": "Engineering guides/ee_portfolio_projects.pdf",
   "schemaVersion": "1.0.0",
-  "sha256": "fd09c2a12d77783c01968ad84c6271977fabfc40f8dcf7bbfebc3538d2959116",
+  "sha256": "fd932845b67b6c5917fe5891af5daece6a38b575429aae3f3d5e86309d49ba88",
   "sourceId": "guide-021"
 }

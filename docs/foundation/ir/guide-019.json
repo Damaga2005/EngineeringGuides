@@ -6535,13 +6535,13 @@
     "generatorVersion": null,
     "origin": "extracted",
     "source": "guide-019",
-    "sourceHash": "93190cb08ab967a2b01e2552f0b56ec97762b28516c1e37e730f6beac7b4f5c9",
+    "sourceHash": "90c7eed1d3908d390e5ac722938ca87525850ad240239e13dc8577dccac2e540",
     "sourcePage": null,
     "sourcePath": "Engineering guides/ee defense tech part2.pdf",
     "sourceSection": "ROOT"
   },
   "relativePath": "Engineering guides/ee defense tech part2.pdf",
   "schemaVersion": "1.0.0",
-  "sha256": "93190cb08ab967a2b01e2552f0b56ec97762b28516c1e37e730f6beac7b4f5c9",
+  "sha256": "90c7eed1d3908d390e5ac722938ca87525850ad240239e13dc8577dccac2e540",
   "sourceId": "guide-019"
 }

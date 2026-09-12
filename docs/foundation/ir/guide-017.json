@@ -2527,13 +2527,13 @@
     "generatorVersion": null,
     "origin": "extracted",
     "source": "guide-017",
-    "sourceHash": "3c0712dcec6c251b433e49856a068b9b7ab924dc67e34ab9036d47a114e96f0d",
+    "sourceHash": "1987495df6a7b8824b53c7c6b985695217140f3c0c64560393f3dbb085aa4906",
     "sourcePage": null,
     "sourcePath": "Engineering guides/dangerously_overeducated_engineer_guide.pdf",
     "sourceSection": "ROOT"
   },
   "relativePath": "Engineering guides/dangerously_overeducated_engineer_guide.pdf",
   "schemaVersion": "1.0.0",
-  "sha256": "3c0712dcec6c251b433e49856a068b9b7ab924dc67e34ab9036d47a114e96f0d",
+  "sha256": "1987495df6a7b8824b53c7c6b985695217140f3c0c64560393f3dbb085aa4906",
   "sourceId": "guide-017"
 }
