@@ -120,7 +120,19 @@ PATTERNS = [
     # 4. Upgrade: UPGRADE 01
     (r'(?:^|\n)\s*UPGRADE\s*0?(\d+)', "ir_upgrade_marker", 1.0),
     # 5. Hash numbered: #1, #2
-    (r'(?:^|\n)\s*#\s*0?(\d+)(?:\b|\n|:|\s)', "ir_hash_marker", 0.95),
+    #
+    # Confidence deliberately set ABOVE ir_step_marker (not equal to it): a
+    # "#N" project-start marker and a "Step N: ..." build-instruction line
+    # inside an EARLIER project's own how-to-build section collide on the
+    # same projectNumber whenever a guide's per-project steps restart at
+    # "Step 1" (e.g. project 1's "Step 2" sits on an earlier page than the
+    # real "#2" marker that starts project 2). Grouping picks the
+    # highest-confidence occurrence per number, tie-broken by earliest page
+    # - at equal confidence that silently let the in-body "Step 2" text win
+    # over the real "#2" marker, corrupting the boundary (and therefore all
+    # extracted content) for every project after the first in guides built
+    # this way. A strictly higher confidence here removes the tie.
+    (r'(?:^|\n)\s*#\s*0?(\d+)(?:\b|\n|:|\s)', "ir_hash_marker", 0.96),
     # 6. Step marker: STEP 01, STEP 1
     (r'(?:^|\n)\s*STEP\s*0?(\d+)(?:\b|\n|:|\s)', "ir_step_marker", 0.95),
     # 7. Two-digit numbered resource: 01 Name, 02 Name

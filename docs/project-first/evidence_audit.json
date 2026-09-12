@@ -1,19 +1,19 @@
 {
   "auditType": "EVIDENCE_BLOCK_IR_GROUNDING_AUDIT",
   "evidenceIdResolutionRate": 1.0,
-  "evidenceIdValidCount": 5987,
+  "evidenceIdValidCount": 6078,
   "invalidBlockIndices": 0,
   "invalidHashes": 0,
   "invalidPages": 0,
   "literalMatchRate": 1.0,
-  "literalMatches": 5987,
+  "literalMatches": 6078,
   "literalMismatches": 0,
   "mismatchDetails": [],
-  "sectionJoinMatches": 772,
+  "sectionJoinMatches": 702,
   "sectionJoinMismatchDetails": [],
   "sectionJoinMismatches": 0,
   "timestamp": "2026-09-12T00:00:00Z",
-  "totalEvidenceBlocksAudited": 5987,
+  "totalEvidenceBlocksAudited": 6078,
   "totalProjects": 183,
   "verdict": "PASS"
 }

@@ -7718,33 +7718,33 @@
       4
     ],
     "catalogTitle": "Personal AI Assistant with RAG",
-    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'Personal AI Assistant with RAG' vs 'Step 2: Build authentication. Implement signup/login with bcrypt password hashing and JWT'.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 4] vs IR [5, 7].",
     "evidenceBlocks": [
       {
         "bbox": [
-          90.8,
-          278.81,
-          519.73,
-          293.32
+          70.8,
+          61.64,
+          101.94,
+          100.2
         ],
-        "blockIndex": 11,
+        "blockIndex": 1,
         "claim": "Delimitador de inicio detectado en IR para candidato de proyecto #2.",
-        "evidenceId": "ev-guide-016-p4-b11",
-        "pageNumber": 4,
+        "evidenceId": "ev-guide-016-p5-b1",
+        "pageNumber": 5,
         "sourceDocumentId": "guide-016",
         "sourceHash": "bfbdb595e58f998607ed3f85070f02d268dbc38120cc4c4bd3e8e1716effdc8a",
-        "textSnippet": "Step 2: Build authentication. Implement signup/login with bcrypt password hashing and JWT"
+        "textSnippet": "#2"
       }
     ],
     "guideId": "guide-016",
     "irPageRange": [
-      4,
-      4
+      5,
+      7
     ],
-    "irTitle": "Step 2: Build authentication. Implement signup/login with bcrypt password hashing and JWT",
+    "irTitle": "#2",
     "projectId": "proj-6143fceeac63172d",
     "projectNumber": 2,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
@@ -7752,33 +7752,33 @@
       4
     ],
     "catalogTitle": "Distributed Task Queue & Worker System",
-    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'Distributed Task Queue & Worker System' vs 'Step 3: Implement WebSocket layer. Set up Socket.io on the server. Create events: 'join-room','.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 4] vs IR [8, 10].",
     "evidenceBlocks": [
       {
         "bbox": [
-          90.8,
-          314.81,
-          534.24,
-          329.32
+          70.8,
+          61.64,
+          101.94,
+          100.2
         ],
-        "blockIndex": 13,
+        "blockIndex": 1,
         "claim": "Delimitador de inicio detectado en IR para candidato de proyecto #3.",
-        "evidenceId": "ev-guide-016-p4-b13",
-        "pageNumber": 4,
+        "evidenceId": "ev-guide-016-p8-b1",
+        "pageNumber": 8,
         "sourceDocumentId": "guide-016",
         "sourceHash": "bfbdb595e58f998607ed3f85070f02d268dbc38120cc4c4bd3e8e1716effdc8a",
-        "textSnippet": "Step 3: Implement WebSocket layer. Set up Socket.io on the server. Create events: 'join-room',"
+        "textSnippet": "#3"
       }
     ],
     "guideId": "guide-016",
     "irPageRange": [
-      4,
-      4
+      8,
+      10
     ],
-    "irTitle": "Step 3: Implement WebSocket layer. Set up Socket.io on the server. Create events: 'join-room',",
+    "irTitle": "#3",
     "projectId": "proj-e1da0bf6aa68b40e",
     "projectNumber": 3,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
@@ -7786,33 +7786,33 @@
       4
     ],
     "catalogTitle": "Open Source Developer CLI Tool",
-    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'Open Source Developer CLI Tool' vs 'Step 4: Build the chat UI. Create the room list, message feed, and input components. Messages'.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 4] vs IR [11, 13].",
     "evidenceBlocks": [
       {
         "bbox": [
-          90.8,
-          350.81,
-          537.84,
-          365.32
+          70.8,
+          61.64,
+          101.94,
+          100.2
         ],
-        "blockIndex": 15,
+        "blockIndex": 1,
         "claim": "Delimitador de inicio detectado en IR para candidato de proyecto #4.",
-        "evidenceId": "ev-guide-016-p4-b15",
-        "pageNumber": 4,
+        "evidenceId": "ev-guide-016-p11-b1",
+        "pageNumber": 11,
         "sourceDocumentId": "guide-016",
         "sourceHash": "bfbdb595e58f998607ed3f85070f02d268dbc38120cc4c4bd3e8e1716effdc8a",
-        "textSnippet": "Step 4: Build the chat UI. Create the room list, message feed, and input components. Messages"
+        "textSnippet": "#4"
       }
     ],
     "guideId": "guide-016",
     "irPageRange": [
-      4,
-      4
+      11,
+      13
     ],
-    "irTitle": "Step 4: Build the chat UI. Create the room list, message feed, and input components. Messages",
+    "irTitle": "#4",
     "projectId": "proj-ef179b57eade25f9",
     "projectNumber": 4,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
@@ -7820,33 +7820,33 @@
       4
     ],
     "catalogTitle": "Full-Stack Multi-Tenant SaaS with Payments",
-    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'Full-Stack Multi-Tenant SaaS with Payments' vs 'Step 5: Add message persistence. Save every message to PostgreSQL. Implement pagination'.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 4] vs IR [14, 16].",
     "evidenceBlocks": [
       {
         "bbox": [
-          90.8,
-          386.81,
-          531.41,
-          401.32
+          70.8,
+          61.64,
+          101.94,
+          100.2
         ],
-        "blockIndex": 17,
+        "blockIndex": 1,
         "claim": "Delimitador de inicio detectado en IR para candidato de proyecto #5.",
-        "evidenceId": "ev-guide-016-p4-b17",
-        "pageNumber": 4,
+        "evidenceId": "ev-guide-016-p14-b1",
+        "pageNumber": 14,
         "sourceDocumentId": "guide-016",
         "sourceHash": "bfbdb595e58f998607ed3f85070f02d268dbc38120cc4c4bd3e8e1716effdc8a",
-        "textSnippet": "Step 5: Add message persistence. Save every message to PostgreSQL. Implement pagination"
+        "textSnippet": "#5"
       }
     ],
     "guideId": "guide-016",
     "irPageRange": [
-      4,
-      4
+      14,
+      16
     ],
-    "irTitle": "Step 5: Add message persistence. Save every message to PostgreSQL. Implement pagination",
+    "irTitle": "#5",
     "projectId": "proj-9e864a53d7204fea",
     "projectNumber": 5,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
@@ -7854,33 +7854,33 @@
       21
     ],
     "catalogTitle": "Custom Programming Language Interpreter",
-    "discrepancyNote": "Page range matched [4, 21], title discrepancy: 'Custom Programming Language Interpreter' vs 'Step 6: Deploy and polish. Deploy frontend to Vercel, backend to Railway, database to'.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 21] vs IR [17, 21].",
     "evidenceBlocks": [
       {
         "bbox": [
-          90.8,
-          422.81,
-          494.07,
-          437.32
+          70.8,
+          61.64,
+          101.94,
+          100.2
         ],
-        "blockIndex": 19,
+        "blockIndex": 1,
         "claim": "Delimitador de inicio detectado en IR para candidato de proyecto #6.",
-        "evidenceId": "ev-guide-016-p4-b19",
-        "pageNumber": 4,
+        "evidenceId": "ev-guide-016-p17-b1",
+        "pageNumber": 17,
         "sourceDocumentId": "guide-016",
         "sourceHash": "bfbdb595e58f998607ed3f85070f02d268dbc38120cc4c4bd3e8e1716effdc8a",
-        "textSnippet": "Step 6: Deploy and polish. Deploy frontend to Vercel, backend to Railway, database to"
+        "textSnippet": "#6"
       }
     ],
     "guideId": "guide-016",
     "irPageRange": [
-      4,
+      17,
       21
     ],
-    "irTitle": "Step 6: Deploy and polish. Deploy frontend to Vercel, backend to Railway, database to",
+    "irTitle": "#6",
     "projectId": "proj-015e8ef354937a04",
     "projectNumber": 6,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
@@ -8766,7 +8766,7 @@
       3
     ],
     "catalogTitle": "Smart Energy Monitor IoT",
-    "discrepancyNote": "Page range matched [3, 3], title discrepancy: 'Smart Energy Monitor IoT' vs '#1'.",
+    "discrepancyNote": "Boundary offset of <= 1 page: Catalog [3, 3] vs IR [3, 4].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -8787,7 +8787,7 @@
     "guideId": "guide-021",
     "irPageRange": [
       3,
-      3
+      4
     ],
     "irTitle": "#1",
     "projectId": "proj-413f063f71e7017e",
@@ -8800,33 +8800,33 @@
       3
     ],
     "catalogTitle": "Gesture-Controlled EMG Robot Arm",
-    "discrepancyNote": "Page range matched [3, 3], title discrepancy: 'Gesture-Controlled EMG Robot Arm' vs 'Step 2: Add voltage sensing. Wire the ZMPT101B and combine with current data to calculate'.",
+    "discrepancyNote": "Boundary divergence: Catalog [3, 3] vs IR [5, 6].",
     "evidenceBlocks": [
       {
         "bbox": [
-          90.8,
-          634.81,
-          523.82,
-          649.32
+          70.8,
+          61.64,
+          101.94,
+          100.2
         ],
-        "blockIndex": 25,
+        "blockIndex": 1,
         "claim": "Delimitador de inicio detectado en IR para candidato de proyecto #2.",
-        "evidenceId": "ev-guide-021-p3-b25",
-        "pageNumber": 3,
+        "evidenceId": "ev-guide-021-p5-b1",
+        "pageNumber": 5,
         "sourceDocumentId": "guide-021",
         "sourceHash": "fd932845b67b6c5917fe5891af5daece6a38b575429aae3f3d5e86309d49ba88",
-        "textSnippet": "Step 2: Add voltage sensing. Wire the ZMPT101B and combine with current data to calculate"
+        "textSnippet": "#2"
       }
     ],
     "guideId": "guide-021",
     "irPageRange": [
-      3,
-      3
+      5,
+      6
     ],
-    "irTitle": "Step 2: Add voltage sensing. Wire the ZMPT101B and combine with current data to calculate",
+    "irTitle": "#2",
     "projectId": "proj-8bf5eb8c424af41d",
     "projectNumber": 2,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
@@ -8834,33 +8834,33 @@
       3
     ],
     "catalogTitle": "Custom PCB Synthesizer",
-    "discrepancyNote": "Page range matched [3, 3], title discrepancy: 'Custom PCB Synthesizer' vs 'Step 3: Set up wireless transmission. Connect your ESP32 to WiFi and send data to ThingSpeak'.",
+    "discrepancyNote": "Boundary divergence: Catalog [3, 3] vs IR [7, 8].",
     "evidenceBlocks": [
       {
         "bbox": [
-          90.8,
-          670.81,
-          541.2,
-          685.32
+          70.8,
+          61.64,
+          101.94,
+          100.2
         ],
-        "blockIndex": 27,
+        "blockIndex": 1,
         "claim": "Delimitador de inicio detectado en IR para candidato de proyecto #3.",
-        "evidenceId": "ev-guide-021-p3-b27",
-        "pageNumber": 3,
+        "evidenceId": "ev-guide-021-p7-b1",
+        "pageNumber": 7,
         "sourceDocumentId": "guide-021",
         "sourceHash": "fd932845b67b6c5917fe5891af5daece6a38b575429aae3f3d5e86309d49ba88",
-        "textSnippet": "Step 3: Set up wireless transmission. Connect your ESP32 to WiFi and send data to ThingSpeak"
+        "textSnippet": "#3"
       }
     ],
     "guideId": "guide-021",
     "irPageRange": [
-      3,
-      3
+      7,
+      8
     ],
-    "irTitle": "Step 3: Set up wireless transmission. Connect your ESP32 to WiFi and send data to ThingSpeak",
+    "irTitle": "#3",
     "projectId": "proj-d907a172b792666e",
     "projectNumber": 3,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
@@ -8868,33 +8868,33 @@
       4
     ],
     "catalogTitle": "MPPT Solar Charge Controller",
-    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'MPPT Solar Charge Controller' vs 'Step 4: Build the dashboard. Use ThingSpeak's built-in charts or build a simple web dashboard'.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 4] vs IR [9, 10].",
     "evidenceBlocks": [
       {
         "bbox": [
-          90.8,
-          62.81,
-          532.24,
-          77.32
+          70.8,
+          61.64,
+          101.94,
+          100.2
         ],
         "blockIndex": 1,
         "claim": "Delimitador de inicio detectado en IR para candidato de proyecto #4.",
-        "evidenceId": "ev-guide-021-p4-b1",
-        "pageNumber": 4,
+        "evidenceId": "ev-guide-021-p9-b1",
+        "pageNumber": 9,
         "sourceDocumentId": "guide-021",
         "sourceHash": "fd932845b67b6c5917fe5891af5daece6a38b575429aae3f3d5e86309d49ba88",
-        "textSnippet": "Step 4: Build the dashboard. Use ThingSpeak's built-in charts or build a simple web dashboard"
+        "textSnippet": "#4"
       }
     ],
     "guideId": "guide-021",
     "irPageRange": [
-      4,
-      4
+      9,
+      10
     ],
-    "irTitle": "Step 4: Build the dashboard. Use ThingSpeak's built-in charts or build a simple web dashboard",
+    "irTitle": "#4",
     "projectId": "proj-f43ec7657436aaca",
     "projectNumber": 4,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
@@ -8902,33 +8902,33 @@
       4
     ],
     "catalogTitle": "Software-Defined Radio Receiver",
-    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'Software-Defined Radio Receiver' vs 'Step 5: Add alerting. Set up notifications (email or push) when power consumption exceeds a'.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 4] vs IR [11, 12].",
     "evidenceBlocks": [
       {
         "bbox": [
-          90.8,
-          114.81,
-          524.99,
-          129.32
+          70.8,
+          61.64,
+          101.94,
+          100.2
         ],
-        "blockIndex": 4,
+        "blockIndex": 1,
         "claim": "Delimitador de inicio detectado en IR para candidato de proyecto #5.",
-        "evidenceId": "ev-guide-021-p4-b4",
-        "pageNumber": 4,
+        "evidenceId": "ev-guide-021-p11-b1",
+        "pageNumber": 11,
         "sourceDocumentId": "guide-021",
         "sourceHash": "fd932845b67b6c5917fe5891af5daece6a38b575429aae3f3d5e86309d49ba88",
-        "textSnippet": "Step 5: Add alerting. Set up notifications (email or push) when power consumption exceeds a"
+        "textSnippet": "#5"
       }
     ],
     "guideId": "guide-021",
     "irPageRange": [
-      4,
-      4
+      11,
+      12
     ],
-    "irTitle": "Step 5: Add alerting. Set up notifications (email or push) when power consumption exceeds a",
+    "irTitle": "#5",
     "projectId": "proj-1c96697431543b30",
     "projectNumber": 5,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
@@ -8936,33 +8936,33 @@
       15
     ],
     "catalogTitle": "PID Self-Balancing Robot",
-    "discrepancyNote": "Page range matched [4, 15], title discrepancy: 'PID Self-Balancing Robot' vs 'Step 6: Package it. Put the electronics in a small enclosure. Document the full build with photos,'.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 15] vs IR [13, 15].",
     "evidenceBlocks": [
       {
         "bbox": [
-          90.8,
-          150.81,
-          537.24,
-          165.32
+          70.8,
+          61.64,
+          101.94,
+          100.2
         ],
-        "blockIndex": 6,
+        "blockIndex": 1,
         "claim": "Delimitador de inicio detectado en IR para candidato de proyecto #6.",
-        "evidenceId": "ev-guide-021-p4-b6",
-        "pageNumber": 4,
+        "evidenceId": "ev-guide-021-p13-b1",
+        "pageNumber": 13,
         "sourceDocumentId": "guide-021",
         "sourceHash": "fd932845b67b6c5917fe5891af5daece6a38b575429aae3f3d5e86309d49ba88",
-        "textSnippet": "Step 6: Package it. Put the electronics in a small enclosure. Document the full build with photos,"
+        "textSnippet": "#6"
       }
     ],
     "guideId": "guide-021",
     "irPageRange": [
-      4,
+      13,
       15
     ],
-    "irTitle": "Step 6: Package it. Put the electronics in a small enclosure. Document the full build with photos,",
+    "irTitle": "#6",
     "projectId": "proj-d8c93538c64e97f6",
     "projectNumber": 6,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
@@ -9344,7 +9344,7 @@
       4
     ],
     "catalogTitle": "PID Motor Speed Controller",
-    "discrepancyNote": "Page range matched [3, 4], title discrepancy: 'PID Motor Speed Controller' vs '#1'.",
+    "discrepancyNote": "Boundary offset of <= 1 page: Catalog [3, 4] vs IR [3, 5].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -9365,7 +9365,7 @@
     "guideId": "guide-024",
     "irPageRange": [
       3,
-      4
+      5
     ],
     "irTitle": "#1",
     "projectId": "proj-9bbb01d5723f9f98",
@@ -9378,33 +9378,33 @@
       4
     ],
     "catalogTitle": "Custom PCB — Design to Manufactured Board",
-    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'Custom PCB — Design to Manufactured Board' vs 'Step 2: Implement basic open-loop control. Map a potentiometer on A0 to analogWrite() on the'.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 4] vs IR [6, 8].",
     "evidenceBlocks": [
       {
         "bbox": [
-          87.2,
-          371.21,
-          527.81,
-          385.72
+          67.2,
+          58.04,
+          98.34,
+          96.6
         ],
-        "blockIndex": 16,
+        "blockIndex": 1,
         "claim": "Delimitador de inicio detectado en IR para candidato de proyecto #2.",
-        "evidenceId": "ev-guide-024-p4-b16",
-        "pageNumber": 4,
+        "evidenceId": "ev-guide-024-p6-b1",
+        "pageNumber": 6,
         "sourceDocumentId": "guide-024",
         "sourceHash": "6e8bfcfa951eed1627e07a813ae93189b76e795d008c5d05842f69643ee96803",
-        "textSnippet": "Step 2: Implement basic open-loop control. Map a potentiometer on A0 to analogWrite() on the"
+        "textSnippet": "#2"
       }
     ],
     "guideId": "guide-024",
     "irPageRange": [
-      4,
-      4
+      6,
+      8
     ],
-    "irTitle": "Step 2: Implement basic open-loop control. Map a potentiometer on A0 to analogWrite() on the",
+    "irTitle": "#2",
     "projectId": "proj-299d699e04703cfd",
     "projectNumber": 2,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
@@ -9412,33 +9412,33 @@
       4
     ],
     "catalogTitle": "DIY Digital Multimeter with Input Protection",
-    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'DIY Digital Multimeter with Input Protection' vs 'Step 3: Write the PID algorithm from scratch. Error = setpoint - actualRPM. P_term = Kp × error.'.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 4] vs IR [9, 11].",
     "evidenceBlocks": [
       {
         "bbox": [
-          87.2,
-          423.21,
-          534.47,
-          437.72
+          67.2,
+          58.04,
+          98.34,
+          96.6
         ],
-        "blockIndex": 19,
+        "blockIndex": 1,
         "claim": "Delimitador de inicio detectado en IR para candidato de proyecto #3.",
-        "evidenceId": "ev-guide-024-p4-b19",
-        "pageNumber": 4,
+        "evidenceId": "ev-guide-024-p9-b1",
+        "pageNumber": 9,
         "sourceDocumentId": "guide-024",
         "sourceHash": "6e8bfcfa951eed1627e07a813ae93189b76e795d008c5d05842f69643ee96803",
-        "textSnippet": "Step 3: Write the PID algorithm from scratch. Error = setpoint - actualRPM. P_term = Kp × error."
+        "textSnippet": "#3"
       }
     ],
     "guideId": "guide-024",
     "irPageRange": [
-      4,
-      4
+      9,
+      11
     ],
-    "irTitle": "Step 3: Write the PID algorithm from scratch. Error = setpoint - actualRPM. P_term = Kp × error.",
+    "irTitle": "#3",
     "projectId": "proj-98b4fd48453025f8",
     "projectNumber": 3,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
@@ -9446,33 +9446,33 @@
       4
     ],
     "catalogTitle": "Synchronous Buck Converter (12V to 5V 3A)",
-    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'Synchronous Buck Converter (12V to 5V 3A)' vs 'Step 4: Tune using Ziegler-Nichols. Set Ki=0, Kd=0. Increase Kp until the system oscillates'.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 4] vs IR [12, 14].",
     "evidenceBlocks": [
       {
         "bbox": [
-          87.2,
-          475.21,
-          510.29,
-          489.72
+          67.2,
+          58.04,
+          98.34,
+          96.6
         ],
-        "blockIndex": 22,
+        "blockIndex": 1,
         "claim": "Delimitador de inicio detectado en IR para candidato de proyecto #4.",
-        "evidenceId": "ev-guide-024-p4-b22",
-        "pageNumber": 4,
+        "evidenceId": "ev-guide-024-p12-b1",
+        "pageNumber": 12,
         "sourceDocumentId": "guide-024",
         "sourceHash": "6e8bfcfa951eed1627e07a813ae93189b76e795d008c5d05842f69643ee96803",
-        "textSnippet": "Step 4: Tune using Ziegler-Nichols. Set Ki=0, Kd=0. Increase Kp until the system oscillates"
+        "textSnippet": "#4"
       }
     ],
     "guideId": "guide-024",
     "irPageRange": [
-      4,
-      4
+      12,
+      14
     ],
-    "irTitle": "Step 4: Tune using Ziegler-Nichols. Set Ki=0, Kd=0. Increase Kp until the system oscillates",
+    "irTitle": "#4",
     "projectId": "proj-4a6d4e3bb6de27cb",
     "projectNumber": 4,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
@@ -9480,33 +9480,33 @@
       4
     ],
     "catalogTitle": "UART / SPI / I2C Protocol Analyzer",
-    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'UART / SPI / I2C Protocol Analyzer' vs 'Step 5: Add Serial Plotter output. Print setpoint and actual RPM at 50Hz. Open Arduino Serial'.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 4] vs IR [15, 17].",
     "evidenceBlocks": [
       {
         "bbox": [
-          87.2,
-          527.21,
-          523.15,
-          541.72
+          67.2,
+          58.04,
+          98.34,
+          96.6
         ],
-        "blockIndex": 25,
+        "blockIndex": 1,
         "claim": "Delimitador de inicio detectado en IR para candidato de proyecto #5.",
-        "evidenceId": "ev-guide-024-p4-b25",
-        "pageNumber": 4,
+        "evidenceId": "ev-guide-024-p15-b1",
+        "pageNumber": 15,
         "sourceDocumentId": "guide-024",
         "sourceHash": "6e8bfcfa951eed1627e07a813ae93189b76e795d008c5d05842f69643ee96803",
-        "textSnippet": "Step 5: Add Serial Plotter output. Print setpoint and actual RPM at 50Hz. Open Arduino Serial"
+        "textSnippet": "#5"
       }
     ],
     "guideId": "guide-024",
     "irPageRange": [
-      4,
-      4
+      15,
+      17
     ],
-    "irTitle": "Step 5: Add Serial Plotter output. Print setpoint and actual RPM at 50Hz. Open Arduino Serial",
+    "irTitle": "#5",
     "projectId": "proj-fb8e65ad8631b29f",
     "projectNumber": 5,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
@@ -9514,33 +9514,33 @@
       21
     ],
     "catalogTitle": "FPGA LED Matrix Controller in Pure Verilog",
-    "discrepancyNote": "Page range matched [4, 21], title discrepancy: 'FPGA LED Matrix Controller in Pure Verilog' vs 'Step 6: Document everything. Your GitHub README should include: the PID block diagram, your'.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 21] vs IR [18, 21].",
     "evidenceBlocks": [
       {
         "bbox": [
-          87.2,
-          579.21,
-          541.2,
-          593.72
+          67.2,
+          58.04,
+          98.34,
+          96.6
         ],
-        "blockIndex": 28,
+        "blockIndex": 1,
         "claim": "Delimitador de inicio detectado en IR para candidato de proyecto #6.",
-        "evidenceId": "ev-guide-024-p4-b28",
-        "pageNumber": 4,
+        "evidenceId": "ev-guide-024-p18-b1",
+        "pageNumber": 18,
         "sourceDocumentId": "guide-024",
         "sourceHash": "6e8bfcfa951eed1627e07a813ae93189b76e795d008c5d05842f69643ee96803",
-        "textSnippet": "Step 6: Document everything. Your GitHub README should include: the PID block diagram, your"
+        "textSnippet": "#6"
       }
     ],
     "guideId": "guide-024",
     "irPageRange": [
-      4,
+      18,
       21
     ],
-    "irTitle": "Step 6: Document everything. Your GitHub README should include: the PID block diagram, your",
+    "irTitle": "#6",
     "projectId": "proj-c54bad94d374ce6e",
     "projectNumber": 6,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
@@ -9548,7 +9548,7 @@
       4
     ],
     "catalogTitle": "3D-Printed Gripper with Force Feedback",
-    "discrepancyNote": "Page range matched [3, 4], title discrepancy: '3D-Printed Gripper with Force Feedback' vs '#1'.",
+    "discrepancyNote": "Boundary offset of <= 1 page: Catalog [3, 4] vs IR [3, 5].",
     "evidenceBlocks": [
       {
         "bbox": [
@@ -9569,7 +9569,7 @@
     "guideId": "guide-025",
     "irPageRange": [
       3,
-      4
+      5
     ],
     "irTitle": "#1",
     "projectId": "proj-ebd06c8fe102558d",
@@ -9582,33 +9582,33 @@
       4
     ],
     "catalogTitle": "Portable Wind Tunnel with Data Acquisition",
-    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'Portable Wind Tunnel with Data Acquisition' vs 'Step 2: Print and assemble. Print the frame in PLA and the finger pads in TPU (flexible filament)'.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 4] vs IR [6, 8].",
     "evidenceBlocks": [
       {
         "bbox": [
-          90.8,
-          314.81,
-          537.23,
-          329.32
+          70.8,
+          61.64,
+          101.94,
+          100.2
         ],
-        "blockIndex": 12,
+        "blockIndex": 1,
         "claim": "Delimitador de inicio detectado en IR para candidato de proyecto #2.",
-        "evidenceId": "ev-guide-025-p4-b12",
-        "pageNumber": 4,
+        "evidenceId": "ev-guide-025-p6-b1",
+        "pageNumber": 6,
         "sourceDocumentId": "guide-025",
         "sourceHash": "66bae01af4411981ae580568f9e82ebe82edd204be279bbc70bcf82aa894b629",
-        "textSnippet": "Step 2: Print and assemble. Print the frame in PLA and the finger pads in TPU (flexible filament)"
+        "textSnippet": "#2"
       }
     ],
     "guideId": "guide-025",
     "irPageRange": [
-      4,
-      4
+      6,
+      8
     ],
-    "irTitle": "Step 2: Print and assemble. Print the frame in PLA and the finger pads in TPU (flexible filament)",
+    "irTitle": "#2",
     "projectId": "proj-a50b337c8a6324a7",
     "projectNumber": 2,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
@@ -9616,33 +9616,33 @@
       4
     ],
     "catalogTitle": "Dual-Axis Solar Tracker",
-    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'Dual-Axis Solar Tracker' vs 'Step 3: Wire the FSR sensors. Mount force-sensitive resistors on the inner surface of each finger'.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 4] vs IR [9, 11].",
     "evidenceBlocks": [
       {
         "bbox": [
-          90.8,
-          350.81,
-          541.2,
-          365.32
+          70.8,
+          61.64,
+          101.94,
+          100.2
         ],
-        "blockIndex": 14,
+        "blockIndex": 1,
         "claim": "Delimitador de inicio detectado en IR para candidato de proyecto #3.",
-        "evidenceId": "ev-guide-025-p4-b14",
-        "pageNumber": 4,
+        "evidenceId": "ev-guide-025-p9-b1",
+        "pageNumber": 9,
         "sourceDocumentId": "guide-025",
         "sourceHash": "66bae01af4411981ae580568f9e82ebe82edd204be279bbc70bcf82aa894b629",
-        "textSnippet": "Step 3: Wire the FSR sensors. Mount force-sensitive resistors on the inner surface of each finger"
+        "textSnippet": "#3"
       }
     ],
     "guideId": "guide-025",
     "irPageRange": [
-      4,
-      4
+      9,
+      11
     ],
-    "irTitle": "Step 3: Wire the FSR sensors. Mount force-sensitive resistors on the inner surface of each finger",
+    "irTitle": "#3",
     "projectId": "proj-076f8003b366c797",
     "projectNumber": 3,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
@@ -9650,33 +9650,33 @@
       4
     ],
     "catalogTitle": "PID Thermal Management System",
-    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'PID Thermal Management System' vs 'Step 4: Write the control loop. Read FSR values → compare to target force → adjust servo'.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 4] vs IR [12, 14].",
     "evidenceBlocks": [
       {
         "bbox": [
-          90.8,
-          386.81,
-          513.6,
-          401.32
+          70.8,
+          61.64,
+          101.94,
+          100.2
         ],
-        "blockIndex": 16,
+        "blockIndex": 1,
         "claim": "Delimitador de inicio detectado en IR para candidato de proyecto #4.",
-        "evidenceId": "ev-guide-025-p4-b16",
-        "pageNumber": 4,
+        "evidenceId": "ev-guide-025-p12-b1",
+        "pageNumber": 12,
         "sourceDocumentId": "guide-025",
         "sourceHash": "66bae01af4411981ae580568f9e82ebe82edd204be279bbc70bcf82aa894b629",
-        "textSnippet": "Step 4: Write the control loop. Read FSR values → compare to target force → adjust servo"
+        "textSnippet": "#4"
       }
     ],
     "guideId": "guide-025",
     "irPageRange": [
-      4,
-      4
+      12,
+      14
     ],
-    "irTitle": "Step 4: Write the control loop. Read FSR values → compare to target force → adjust servo",
+    "irTitle": "#4",
     "projectId": "proj-b4b49073df0bfb7a",
     "projectNumber": 4,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
@@ -9684,33 +9684,33 @@
       4
     ],
     "catalogTitle": "Desktop CNC Engraver Built From Scratch",
-    "discrepancyNote": "Page range matched [4, 4], title discrepancy: 'Desktop CNC Engraver Built From Scratch' vs 'Step 5: Test with different objects. Calibrate your force thresholds for soft objects (tomato, egg)'.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 4] vs IR [15, 17].",
     "evidenceBlocks": [
       {
         "bbox": [
-          90.8,
-          438.81,
-          533.14,
-          453.32
+          70.8,
+          61.64,
+          101.94,
+          100.2
         ],
-        "blockIndex": 19,
+        "blockIndex": 1,
         "claim": "Delimitador de inicio detectado en IR para candidato de proyecto #5.",
-        "evidenceId": "ev-guide-025-p4-b19",
-        "pageNumber": 4,
+        "evidenceId": "ev-guide-025-p15-b1",
+        "pageNumber": 15,
         "sourceDocumentId": "guide-025",
         "sourceHash": "66bae01af4411981ae580568f9e82ebe82edd204be279bbc70bcf82aa894b629",
-        "textSnippet": "Step 5: Test with different objects. Calibrate your force thresholds for soft objects (tomato, egg)"
+        "textSnippet": "#5"
       }
     ],
     "guideId": "guide-025",
     "irPageRange": [
-      4,
-      4
+      15,
+      17
     ],
-    "irTitle": "Step 5: Test with different objects. Calibrate your force thresholds for soft objects (tomato, egg)",
+    "irTitle": "#5",
     "projectId": "proj-f2010ad0e3ac171f",
     "projectNumber": 5,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [
@@ -9718,33 +9718,33 @@
       22
     ],
     "catalogTitle": "Wireless Strain Gauge Bridge Monitor",
-    "discrepancyNote": "Page range matched [4, 22], title discrepancy: 'Wireless Strain Gauge Bridge Monitor' vs 'Step 6: Document everything. Take photos at every stage. Create a GitHub repo with your CAD'.",
+    "discrepancyNote": "Boundary divergence: Catalog [4, 22] vs IR [18, 22].",
     "evidenceBlocks": [
       {
         "bbox": [
-          90.8,
-          474.81,
-          536.06,
-          489.32
+          70.8,
+          61.64,
+          101.94,
+          100.2
         ],
-        "blockIndex": 21,
+        "blockIndex": 1,
         "claim": "Delimitador de inicio detectado en IR para candidato de proyecto #6.",
-        "evidenceId": "ev-guide-025-p4-b21",
-        "pageNumber": 4,
+        "evidenceId": "ev-guide-025-p18-b1",
+        "pageNumber": 18,
         "sourceDocumentId": "guide-025",
         "sourceHash": "66bae01af4411981ae580568f9e82ebe82edd204be279bbc70bcf82aa894b629",
-        "textSnippet": "Step 6: Document everything. Take photos at every stage. Create a GitHub repo with your CAD"
+        "textSnippet": "#6"
       }
     ],
     "guideId": "guide-025",
     "irPageRange": [
-      4,
+      18,
       22
     ],
-    "irTitle": "Step 6: Document everything. Take photos at every stage. Create a GitHub repo with your CAD",
+    "irTitle": "#6",
     "projectId": "proj-23e2ffb84ec9c3a1",
     "projectNumber": 6,
-    "status": "PARTIAL_MATCH"
+    "status": "BOUNDARY_MISMATCH"
   },
   {
     "catalogPageRange": [

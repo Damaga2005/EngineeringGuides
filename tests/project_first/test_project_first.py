@@ -592,3 +592,31 @@ def test_catalog_title_correction_requires_high_confidence_and_quality():
             )
     assert checked > 0, "Expected at least one project to have a verified title correction"
 
+
+def test_hash_marker_boundary_outranks_in_body_step_marker():
+    """
+    Regression guard for a real boundary-corruption bug: in guides whose
+    per-project "how to build it" section restarts at "Step 1" for every
+    project, an in-body "Step 2" sentence inside project 1's own pages was
+    tying in confidence with the real "#2" marker that starts project 2 on a
+    later page. The dedup tiebreak (earliest page wins) then picked the
+    in-body sentence as project 2's boundary, silently confining projects
+    2-6 to project 1's own pages. ir_hash_marker must outrank ir_step_marker
+    so the real numbered marker always wins regardless of page order.
+    """
+    from scripts.project_first.boundaries import discover_projects_from_ir
+
+    ir_data = json.loads((REPO_ROOT / "docs" / "foundation" / "ir" / "guide-016.json").read_text(encoding="utf-8"))
+    boundaries = {b.projectNumber: b for b in discover_projects_from_ir(ir_data, "guide-016", "test-hash")}
+
+    assert set(boundaries.keys()) == {1, 2, 3, 4, 5, 6}
+    starts = [boundaries[n].startPage for n in range(1, 7)]
+    assert starts == sorted(starts) and len(set(starts)) == 6, (
+        f"Expected 6 strictly increasing project start pages, got {starts}"
+    )
+    for n in range(1, 7):
+        assert boundaries[n].detectionMethod == "ir_hash_marker", (
+            f"Project {n} boundary was won by {boundaries[n].detectionMethod}, "
+            "not the real '#N' marker"
+        )
+

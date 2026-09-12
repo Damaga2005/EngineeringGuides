@@ -3,12 +3,12 @@
   "bannedOccurrences": [],
   "bannedPhrasesFoundCount": 0,
   "derivedFieldsCount": 0,
-  "notDocumentedFieldsCount": 2974,
-  "sourceFieldsCount": 1151,
+  "notDocumentedFieldsCount": 3053,
+  "sourceFieldsCount": 1077,
   "statusInconsistencies": [],
   "statusInconsistenciesCount": 0,
   "timestamp": "2026-09-12T00:00:00Z",
-  "totalFieldsAudited": 4131,
+  "totalFieldsAudited": 4136,
   "totalProjects": 183,
   "verdict": "PASS_ZERO_FABRICATION"
 }
