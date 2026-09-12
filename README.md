@@ -31,6 +31,11 @@ El portal se compila, valida e implementa de forma 100% autónoma en **GitHub Pa
   - [6. Lista de Materiales (BOM), Cálculo de Costes y Copiado 1-Click](#6-lista-de-materiales-bom-cálculo-de-costes-y-copiado-1-click)
   - [7. Checklist Interactivo con Persistencia Local](#7-checklist-interactivo-con-persistencia-local)
   - [8. Preparación Técnica para Entrevistas y Empleabilidad](#8-preparación-técnica-para-entrevistas-y-empleabilidad)
+  - [9. Laboratorio Virtual de Ingeniería (El Lab)](#9-laboratorio-virtual-de-ingeniería-el-lab)
+  - [10. Comparador Técnico Multidisciplinar](#10-comparador-técnico-multidisciplinar)
+  - [11. Cesta de Componentes BOM Consolidada](#11-cesta-de-componentes-bom-consolidada)
+  - [12. Paleta de Comandos Rápidos (Cmd+K / Ctrl+K)](#12-paleta-de-comandos-rápidos-cmdk--ctrlk)
+  - [13. Exportación Integral en Markdown (.md)](#13-exportación-integral-en-markdown-md)
 - [🧭 Matriz de Disciplinas y Contenidos](#-matriz-de-disciplinas-y-contenidos)
 - [🤖 Flujo de Trabajo Zero-Maintenance (CI/CD Autónomo)](#-flujo-de-trabajo-zero-maintenance-cicd-autónomo)
 - [🛠️ Pila Tecnológica](#️-pila-tecnológica)
@@ -116,6 +121,42 @@ Cada uno de los 183 subproyectos incluye en `src/components/ProjectBuildGuide.js
   - *¿Por qué es crítico separar la masa analógica de la masa de conmutación?*
   - *¿Qué estrategia de recuperación ante bloqueos implementa el firmware si el sensor deja de responder?*
 - Respuestas modelo y razonamientos basados en física y arquitectura de computadores.
+
+### 9. Laboratorio Virtual de Ingeniería (El Lab)
+El portal incorpora **El Lab (`#/lab`)**, un banco de pruebas interactivo compuesto por 4 estaciones de trabajo técnico:
+1. **Analizador Lógico Virtual & Generador de Formas de Onda**:
+   - Oscilograma vectorial SVG interactivo para buses **I2C** (Start, Address, R/W, ACK/NACK, Data, Stop), **SPI** (Modos 0, 1, 2 y 3 con CPOL/CPHA, CS, MOSI, MISO), **UART** (8N1 con cálculo exacto del tiempo de bit $T_{bit} = 1 / \text{Baud}$) y **PWM** (Duty cycle y frecuencia configurables).
+   - Inyección de fallos en tiempo real: simulación de glitches de ruido e inducción de NACK I2C.
+   - Exportador de trazas en formato **VCD (Value Change Dump)** compatible con Saleae Logic, PulseView y GTKWave.
+2. **Calculadoras de Diseño Hardware & Dimensionamiento**:
+   - **Resistencias de Pull-Up I2C (NXP UM10204)**: Cálculo de $R_{min} = \frac{V_{DD} - V_{OL}}{I_{OL}}$ y $R_{max} = \frac{t_r}{0.8473 \times C_b}$ según frecuencia (100 kHz Standard, 400 kHz Fast-mode, 1 MHz Fast-mode Plus) y capacitancia parásita $C_b$.
+   - **Divisor de Tensión & Adaptador Lógico 5V a 3.3V**: Selección automatizada con valores de la serie estándar **E24** y cálculo de disipación térmica.
+   - **Autonomía de Batería para Nodos IoT**: Cálculo del ciclo de trabajo activo vs Deep Sleep (días y meses de operación en campo).
+   - **Filtro Paso Bajo RC para ADC**: Respuesta en frecuencia $f_c = \frac{1}{2 \pi R C}$ para atenuación de ruido analógico de alta frecuencia (-20 dB/década).
+3. **Matriz de Pinout Multi-MCU**:
+   - Mapa de pines e identidades de hardware para **ESP32-S3**, **STM32F4 (BlackPill)**, **RP2040 (Raspberry Pi Pico)** y **Teensy 4.1**.
+   - Identificación de funciones (GPIO, ADC, DAC, I2C, SPI, UART, PWM), avisos de strapping pins y advertencias de tolerancia a 5V.
+4. **Telemetría de Sensores & Terminal Serie Virtual**:
+   - Emulador de flujo serie a 115200 baud con inyección de comandos (`STATUS`, `CALIBRATE`, `READ_RAW`, `PING`).
+   - Monitor de telemetría en tiempo real con datos de temperatura, presión, vibración y corriente.
+   - Descarga de registros de telemetría en formato CSV.
+
+### 10. Comparador Técnico Multidisciplinar
+- Herramienta visual para comparar simultáneamente de 2 a 3 proyectos técnicos.
+- Análisis comparativo de microcontrolador, buses de comunicación, nivel de dificultad, tiempo estimado, competencias requeridas y desglose de costes BOM.
+- Accesible mediante el botón "Comparar" en cualquier tarjeta o ficha de proyecto, y a través de la barra superior.
+
+### 11. Cesta de Componentes BOM Consolidada
+- Gestor global de aprovisionamiento de componentes electrónicos para los 183 proyectos.
+- Agrupa cantidades de componentes idénticos, calcula el presupuesto total estimado en USD y permite añadir componentes personalizados.
+- Exportación en 1-click a **CSV** (para Mouser, DigiKey, LCSC) y copia al portapapeles en formato tabular para hojas de cálculo.
+
+### 12. Paleta de Comandos Rápidos (Cmd+K / Ctrl+K)
+- Búsqueda difusa instantánea en todo el ecosistema (proyectos, guías, instrumentos de laboratorio y utilidades).
+- Navegación completa por teclado (`↑`, `↓`, `Enter`, `ESC`).
+
+### 13. Exportación Integral en Markdown (.md)
+- Descarga directa de la ficha técnica completa de cualquier proyecto en formato `.md` estándar, incluyendo sus 18 secciones analíticas, lista BOM y código fuente de firmware.
 
 ---
 

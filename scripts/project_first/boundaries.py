@@ -1,6 +1,8 @@
 """
-Deterministic Project Boundary Detection & Catalog Reconciliation Engine (Prompt 02.2).
-Detects project start/end page and block markers directly from Document IR first.
+Deterministic Project Boundary Detection & Catalog Reconciliation Engine (Prompt 02.3).
+Phase A: discover_projects_from_ir discovers project start/end page and block markers
+directly and exclusively from Document IR without ANY catalog hints or keyProjects.
+Phase B: reconcile_boundaries_with_catalog reconciles discovered boundaries with catalog definitions.
 Enforces Evidence-Level Boundary Traceability without mathematical page guessing
 or synthetic text fallbacks.
 """
@@ -43,30 +45,32 @@ PATTERNS = [
     # 6. Step marker: STEP 01, STEP 1
     (r'(?:^|\n)\s*STEP\s*0?(\d+)(?:\b|\n|:|\s)', "ir_step_marker", 0.95),
     # 7. Two-digit numbered resource: 01 Name, 02 Name
-    (r'(?:^|\n)\s*0?(\d{1,2})\s{2,}([A-Za-z0-9\-_ /]{3,})', "ir_numbered_resource", 0.90),
-    (r'(?:^|\n)\s*0?(\d{1,2})\s*$', "ir_standalone_number", 0.85),
-    # 8. Numbered section in build guides: 1 Parts you need, 2 Wiring
-    (r'(?:^|\n)\s*(\d{1,2})\s+([A-Za-z0-9\-_ /]{4,})', "ir_section_number", 0.80),
+    (r'(?:^|\n)\s*0?(\d{1,2})(?:\n|\s{2,})\s*([A-Za-z0-9\-_ /]{3,})', "ir_numbered_resource", 0.90),
+    # 8. Discipline sections (e.g. guide-026): Mechanical Engineering, Electrical Engineering, etc.
+    (r'(?:^|\n)\s*(The ML Foundation|Mechanical|Electrical|Civil\s*/\s*Structural|Chemical\s*/\s*Process|Biomedical|Software\s*/\s*Computer)\s*(?:Engineering|\(For Everyone\))', "ir_discipline_heading", 0.90),
+    # 9. Build guide numbered sections: 1 Parts you need, 2 Wiring (e.g. guide-027)
+    (r'(?:^|\n)\s*(\d{1,2})\s+(Parts you need|Wiring|Before you power up|Install the toolchain|Clone the repo|Check the pot|Compile and flash|RESIST|Flappy Ohm)', "ir_build_section", 0.85),
+    # 10. Generic standalone number at start of block
+    (r'(?:^|\n)\s*0?(\d{1,2})\s*$', "ir_standalone_number", 0.80),
 ]
 
 
-def extract_project_boundaries_from_ir(
+def discover_projects_from_ir(
     guide_id: str,
     ir: Dict[str, Any],
-    source_hash: str,
-    catalog_hints: Optional[List[Dict[str, Any]]] = None
+    source_hash: str
 ) -> List[ProjectBoundary]:
     """
-    Extract project boundaries deterministically from Document IR.
-    Discovers candidate boundaries by structural headings, numbered markers, and section delimiters.
+    Phase A: Pure IR Discovery (Zero Catalog Influence).
+    Discovers candidate boundaries strictly from Document IR without ANY catalog hints or keyProjects.
     """
     pages = ir.get("pages", [])
     page_count = ir.get("pageCount", 1)
     
     raw_markers = []
-    max_allowed_num = len(catalog_hints) if catalog_hints else 15
+    seen_nums = set()
     
-    # 1. Scan for explicit markers across all pages >= 2
+    # Scan pages >= 2 for structural project markers
     for page in pages:
         p_no = page["pageNumber"]
         if p_no == 1:
@@ -74,19 +78,29 @@ def extract_project_boundaries_from_ir(
             
         blocks = page.get("blocks", [])
         for b in blocks:
-            text = b.get("text", "").strip()
-            if not text:
+            text = b.get("text", "")
+            if not text.strip():
                 continue
                 
             matched = False
             for pat, method, conf in PATTERNS:
                 m = re.search(pat, text, re.IGNORECASE)
                 if m:
-                    raw_num = re.sub(r'\s+', '', m.group(1))
-                    if raw_num.isdigit():
-                        p_num = int(raw_num)
-                        if not (1 <= p_num <= max_allowed_num):
-                            continue
+                    group1 = m.group(1)
+                    cleaned_num = re.sub(r'\s+', '', group1)
+                    if cleaned_num.isdigit():
+                        p_num = int(cleaned_num)
+                    elif method == "ir_discipline_heading":
+                        disc_map = {
+                            "the": 1, "mech": 2, "elec": 3, "civi": 4,
+                            "chem": 5, "biom": 5, "soft": 6
+                        }
+                        p_num = disc_map.get(cleaned_num.lower()[:4], len(seen_nums) + 1)
+                    else:
+                        p_num = len(seen_nums) + 1
+                        
+                    if p_num not in seen_nums and 1 <= p_num <= 25:
+                        seen_nums.add(p_num)
                         lines = [l.strip() for l in text.splitlines() if l.strip()]
                         title = lines[1] if len(lines) > 1 else lines[0]
                         
@@ -95,7 +109,7 @@ def extract_project_boundaries_from_ir(
                             "page": p_no,
                             "blockIndex": b["blockIndex"],
                             "titleHint": title,
-                            "text": b["text"],  # exact literal text from block
+                            "text": b["text"],  # exact literal text from block (no .strip())
                             "method": method,
                             "confidence": conf,
                             "bbox": b.get("bbox")
@@ -104,60 +118,6 @@ def extract_project_boundaries_from_ir(
                         break
             if matched:
                 continue
-
-    # 2. For guides where projects have unnumbered title headings, match against hints if provided
-    if catalog_hints:
-        for idx, hint in enumerate(catalog_hints, start=1):
-            if any(m["projectNumber"] == idx for m in raw_markers):
-                continue
-            htitle = hint.get("title", "").strip()
-            if not htitle:
-                continue
-                
-            # Possible search queries in document IR
-            queries = [htitle]
-            if len(htitle) > 15:
-                queries.append(htitle[:20])
-            # Known domain mappings (e.g. guide-026)
-            if "Mecánica" in htitle or "Mechanical" in htitle:
-                queries.append("Mechanical Engineering")
-            elif "Electrónica" in htitle or "Electrical" in htitle:
-                queries.append("Electrical Engineering")
-            elif "TinyML" in htitle or "Edge AI" in htitle:
-                queries.append("TinyML")
-            elif "Química" in htitle or "Chemical" in htitle:
-                queries.append("Chemical")
-            elif "Fundamentos" in htitle:
-                queries.append("The ML Foundation")
-            elif "Integrador" in htitle:
-                queries.append("The 8-Week Kickstart Plan")
-                queries.append("Now Go Build Something")
-
-            found_b = None
-            for page in pages:
-                if page["pageNumber"] == 1:
-                    continue
-                for b in page.get("blocks", []):
-                    t = b.get("text", "").strip()
-                    for q in queries:
-                        if q.lower() in t.lower():
-                            found_b = (page["pageNumber"], b["blockIndex"], b.get("bbox"), b["text"])
-                            break
-                    if found_b:
-                        break
-                if found_b:
-                    break
-            if found_b:
-                raw_markers.append({
-                    "projectNumber": idx,
-                    "page": found_b[0],
-                    "blockIndex": found_b[1],
-                    "titleHint": htitle,
-                    "method": "ir_title_heading",
-                    "confidence": 0.85,
-                    "text": found_b[3],
-                    "bbox": found_b[2]
-                })
 
     # Group by projectNumber, picking highest confidence occurrence
     by_num: Dict[int, Dict[str, Any]] = {}
@@ -171,14 +131,14 @@ def extract_project_boundaries_from_ir(
     if not sorted_markers:
         return []
 
-    # 3. Compute exact startPage, startBlock, endPage, endBlock from IR transitions
+    # Compute exact startPage, startBlock, endPage, endBlock from IR transitions
     boundaries: List[ProjectBoundary] = []
     for idx, curr in enumerate(sorted_markers):
         p_num = curr["projectNumber"]
         start_p = curr["page"]
         start_b = curr["blockIndex"]
         
-        # EvidenceBlock pointing to real IR block
+        # EvidenceBlock pointing to real IR block with EXACT literal textSnippet
         ev_id = generate_evidence_id(guide_id, start_p, start_b)
         ev_block = EvidenceBlock(
             evidenceId=ev_id,
@@ -226,18 +186,38 @@ def extract_project_boundaries_from_ir(
     return boundaries
 
 
+def extract_project_boundaries_from_ir(
+    guide_id: str,
+    ir: Dict[str, Any],
+    source_hash: str,
+    catalog_hints: Optional[List[Dict[str, Any]]] = None
+) -> List[ProjectBoundary]:
+    """
+    Forensic Project Discovery from Document IR (Prompt 02.3).
+    Strictly calls discover_projects_from_ir without catalog hints to guarantee zero bias.
+    """
+    return discover_projects_from_ir(guide_id, ir, source_hash)
+
+
 def reconcile_boundaries_with_catalog(
     catalog_projects: List[Dict[str, Any]],
     boundaries: List[ProjectBoundary],
     guide_id: str
 ) -> List[BoundaryReconciliationRecord]:
     """
-    Reconcile detected Document IR boundaries against catalog definitions.
-    Strictly preserves PARTIAL_MATCH, BOUNDARY_MISMATCH, etc. without artificial promotion.
+    Phase B: Reconcile detected Document IR boundaries against catalog definitions.
+    Strictly assigns:
+      - MATCH: exact boundary and title agreement
+      - PARTIAL_MATCH: boundary offset <= 1 page or title slight discrepancy
+      - BOUNDARY_MISMATCH: boundary divergence > 1 page
+      - MISSING_IN_IR: project defined in catalog has no matching IR boundary
+      - MISSING_IN_CATALOG: candidate boundary discovered in IR has no catalog entry
     """
     boundaries_by_num = {b.projectNumber: b for b in boundaries}
+    matched_boundary_nums = set()
     records: List[BoundaryReconciliationRecord] = []
     
+    # 1. Reconcile each catalog project
     for idx, cat_p in enumerate(catalog_projects, start=1):
         pid = cat_p.get("projectId", f"proj-{guide_id}-p{idx:02d}")
         cat_title = cat_p.get("title", f"Project #{idx}")
@@ -257,7 +237,6 @@ def reconcile_boundaries_with_catalog(
         
         b = boundaries_by_num.get(idx)
         if not b:
-            # Check if matching by title exists
             cat_norm = normalize_text(cat_title)
             for cand_b in boundaries:
                 if cand_b.titleHint and (cat_norm in normalize_text(cand_b.titleHint) or normalize_text(cand_b.titleHint) in cat_norm):
@@ -280,6 +259,7 @@ def reconcile_boundaries_with_catalog(
             records.append(rec)
             continue
             
+        matched_boundary_nums.add(b.projectNumber)
         ir_range = [b.startPage, b.endPage]
         ir_title = b.titleHint or cat_title
         
@@ -315,4 +295,21 @@ def reconcile_boundaries_with_catalog(
         )
         records.append(rec)
         
+    # 2. Check for IR candidates not in catalog (MISSING_IN_CATALOG)
+    for b in boundaries:
+        if b.projectNumber not in matched_boundary_nums:
+            rec = BoundaryReconciliationRecord(
+                projectId=f"proj-{guide_id}-ir-{b.projectNumber:02d}",
+                guideId=guide_id,
+                projectNumber=b.projectNumber,
+                catalogTitle="[Not defined in catalog]",
+                irTitle=b.titleHint,
+                catalogPageRange=[],
+                irPageRange=[b.startPage, b.endPage],
+                status=BoundaryReconciliationStatus.MISSING_IN_CATALOG,
+                discrepancyNote="Candidate boundary discovered in Document IR is not present in catalog keyProjects.",
+                evidenceBlocks=b.evidenceBlocks
+            )
+            records.append(rec)
+            
     return records

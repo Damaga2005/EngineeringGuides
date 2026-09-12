@@ -1,11 +1,11 @@
 """
-Forensic Project Extractor & Evidence-Level Grounding Engine (Prompt 02.2).
+Forensic Project Extractor & Evidence-Level Grounding Engine (Prompt 02.3).
 Guarantees:
 1. Zero textual fallbacks (sourceText is strictly literal untouched Document IR text or None).
 2. EvidenceBlocks are mandatory for every factual claim with deterministic evidenceId.
-3. Project boundaries are derived from Document IR markers via boundaries.py.
+3. Project boundaries are discovered purely from Document IR markers via boundaries.py.
 4. Formal separation: SOURCE, DERIVED, NOT_DOCUMENTED, UNVERIFIED.
-5. Zero synthetic phrases or placeholder strings.
+5. Zero synthetic phrases, zero placeholder strings, zero truncation ellipses.
 """
 
 import json
@@ -39,7 +39,7 @@ from scripts.project_first.ids import (
 )
 from scripts.project_first.technical_identity import extract_technical_identity
 from scripts.project_first.boundaries import (
-    extract_project_boundaries_from_ir,
+    discover_projects_from_ir,
     reconcile_boundaries_with_catalog,
 )
 
@@ -96,74 +96,46 @@ def build_forensic_technical_sections(
 ) -> DetailedExplanation:
     """
     Build 18 technical sections with strict evidence grounding.
-    If no literal evidence exists in Document IR, sourceText is None
-    and status is NOT_DOCUMENTED. Zero text placeholders or synthetic phrases allowed.
+    If literal evidence exists in Document IR, sourceText is verbatim block text,
+    status is SOURCE, and evidenceBlocks are populated.
+    If no evidence exists, sourceText is None, derivedExplanation is None,
+    derivedFrom is empty, and status is NOT_DOCUMENTED.
+    Zero synthetic phrases or placeholder strings allowed.
     """
     title = proj_data.get("title", "")
-    
-    section_specs = [
-        ("overview", 1, "1. Descripción general", 
-         ["sensor", "camera", "mcu", "controller", "circuit", "system", "overview", "board", "device", "module", "node", "hardware", "build"],
-         f"Descripción general del proyecto {title}."),
-        ("whatDoesItDo", 2, "2. ¿Qué hace?", 
-         ["measures", "detects", "controls", "transmits", "receives", "powers", "drives", "senses", "tracks", "monitors", "converts", "filters", "reads", "displays"],
-         f"Operación funcional de {title}."),
-        ("whatIsItFor", 3, "3. ¿Para qué sirve?", 
-         ["application", "use", "purpose", "field", "indoor", "drone", "robot", "satellite", "industrial", "situational", "portfolio", "real-world", "deployment"],
-         f"Propósito y casos de despliegue de {title}."),
-        ("objective", 4, "4. Objetivo técnico", 
-         ["objective", "goal", "build", "demonstrates", "proves", "mastery", "skills", "learn", "verify", "challenge", "output"],
-         f"Objetivo técnico y validación de {title}."),
-        ("architecture", 5, "5. Arquitectura del sistema", 
-         ["architecture", "block", "topology", "subsystem", "stage", "bridge", "frontend", "interface", "bus", "network", "mesh", "i2c", "spi", "uart"],
-         f"Arquitectura y topología de {title}."),
-        ("hardware", 6, "6. Hardware y subsistemas principales", 
-         ["esp32", "stm32", "rp2040", "arduino", "mosfet", "transceiver", "amplifier", "op-amp", "ic", "module", "pcb", "component", "hardware", "driver"],
-         f"Subsistemas de hardware de {title}."),
-        ("components", 7, "7. Componentes críticos y especificaciones", 
-         ["component", "part", "spec", "bom", "resistor", "capacitor", "diode", "sensor", "display", "oled", "antenna", "crystal", "inductor"],
-         f"Componentes críticos de {title}."),
-        ("power", 8, "8. Alimentación y gestión de energía", 
-         ["power", "voltage", "current", "battery", "3.3v", "5v", "12v", "ldo", "regulator", "buck", "boost", "usb", "lipo", "supply", "consumption"],
-         f"Gestión de energía y voltajes de {title}."),
-        ("connections", 9, "9. Conexiones y pinout clave", 
-         ["pin", "wiring", "gnd", "vcc", "sda", "scl", "tx", "rx", "miso", "mosi", "sck", "gpio", "connector", "header", "wire", "pad"],
-         f"Pinout y conexiones de {title}."),
-        ("firmware", 10, "10. Lógica de control y firmware", 
-         ["code", "firmware", "c++", "c", "python", "micropython", "arduino", "zephyr", "rtos", "loop", "setup", "interrupt", "algorithm", "flashing", "compile"],
-         f"Lógica de firmware y control de {title}."),
-        ("configuration", 11, "11. Configuración y parámetros de ajuste", 
-         ["config", "parameter", "baud", "rate", "frequency", "gain", "threshold", "pid", "tuning", "sampling", "setting", "calibration"],
-         f"Parámetros de ajuste y configuración de {title}."),
-        ("operation", 12, "12. Principio de funcionamiento físico/lógico", 
-         ["doppler", "reflection", "tof", "rf", "optical", "acoustic", "magnetic", "foc", "pid", "pwm", "adc", "filtering", "physics", "principle"],
-         f"Principio físico y lógico de {title}."),
-        ("assembly", 13, "13. Ensamblaje e integración paso a paso", 
-         ["build", "solder", "mount", "assembly", "breadboard", "pcb", "step 1", "step 2", "connect", "case", "enclosure", "3d print"],
-         f"Instrucciones de ensamblaje de {title}."),
-        ("commissioning", 14, "14. Puesta en marcha y verificación inicial", 
-         ["test", "verify", "check", "power up", "multimeter", "oscilloscope", "debug", "smoke test", "first run", "validate", "probe"],
-         f"Puesta en marcha y verificación de {title}."),
-        ("usage", 15, "15. Modos de uso y casos prácticos de despliegue", 
-         ["usage", "mode", "operation", "demo", "field", "outdoor", "flight", "tracking", "display", "terminal", "monitor", "log"],
-         f"Modos de uso operativo de {title}."),
-        ("limitations", 16, "16. Limitaciones técnicas y casos de borde", 
-         ["limit", "limitation", "range", "noise", "latency", "drift", "accuracy", "interference", "thermal", "trade-off", "constraint", "resolution"],
-         f"Limitaciones técnicas de {title}."),
-        ("safety", 17, "17. Seguridad técnica y precauciones operativas", 
-         ["safety", "caution", "warning", "esd", "short", "overvoltage", "laser", "battery", "protection", "fuse", "reverse polarity", "high voltage"],
-         f"Seguridad operativa y protecciones de {title}."),
-        ("sources", 18, "18. Documentación original y trazabilidad", 
-         ["guide", "pdf", "sheet", "manual", "source", "reference", "repo", "documentation", "author"],
-         f"Trazabilidad documental original de {title}."),
-    ]
-    
     sections_dict = {}
     
-    for sec_key, idx, sec_title, kws, claim in section_specs:
-        src_txt, ev_blocks = find_section_evidence(project_ir_blocks, kws, guide_id, source_hash, claim)
+    section_defs = [
+        (1, "overview", "Visión General y Propósito del Sistema", ["overview", "purpose", "sistema", "project", "description", "resumen", "intro"]),
+        (2, "whatDoesItDo", "¿Qué hace? (Funcionamiento)", ["function", "operation", "measures", "detects", "controls", "operates", "drives", "senses", "tracks"]),
+        (3, "whatIsItFor", "¿Para qué sirve? (Aplicación y Caso de Uso)", ["application", "use case", "purpose", "field", "deployment", "target", "aplicación"]),
+        (4, "objective", "Objetivo de Ingeniería", ["objective", "goal", "target", "aim", "benchmarking", "specifications", "objetivo"]),
+        (5, "architecture", "Arquitectura del Sistema y Diagrama de Bloques", ["architecture", "topology", "subsystem", "diagram", "controller", "mcu", "block"]),
+        (6, "operation", "Principio de Operación Física y Algorítmica", ["physics", "algorithm", "sensing", "detection", "measurement", "conversion", "loop", "principle"]),
+        (7, "hardware", "Hardware Principal y Microcontrolador", ["microcontroller", "mcu", "controller", "esp32", "stm32", "rp2040", "processor", "board"]),
+        (8, "components", "Lista de Componentes y Sensores (BOM)", ["component", "sensor", "sensor", "ic", "module", "actuator", "transceiver", "bom", "parts"]),
+        (9, "connections", "Conexiones Críticas, Pinout y Buses", ["pinout", "gpio", "spi", "i2c", "uart", "wiring", "connection", "bus", "pins"]),
+        (10, "power", "Alimentación, Consumo y Gestión Energética", ["power", "voltage", "battery", "consumption", "current", "ldo", "regulator", "mah", "alimentación"]),
+        (11, "firmware", "Firmware, Stack de Software y Algoritmos", ["firmware", "software", "code", "c/c++", "micropython", "freertos", "driver", "stack"]),
+        (12, "configuration", "Configuración, Calibración y Parámetros", ["calibration", "configuration", "tuning", "parameters", "threshold", "offset", "gain"]),
+        (13, "assembly", "Montaje Físico, Envolvente y Consideraciones Mecánicas", ["assembly", "pcb", "enclosure", "mechanical", "mounting", "chassis", "soldering"]),
+        (14, "commissioning", "Puesta en Marcha y Checklist de Verificación", ["testing", "verification", "checklist", "validation", "commissioning", "bringup"]),
+        (15, "usage", "Modo de Uso e Interfaz de Operación", ["usage", "interface", "display", "led", "button", "terminal", "telemetry", "gui"]),
+        (16, "limitations", "Limitaciones Técnicas y Modos de Falla", ["limitations", "error", "noise", "latency", "range", "drift", "constraint", "failure"]),
+        (17, "safety", "Seguridad Eléctrica, Térmica y Operacional", ["safety", "protection", "isolation", "esd", "fuse", "overvoltage", "thermal", "hazard"]),
+        (18, "sources", "Fuentes de Referencia y Documentos Fuente", ["reference", "datasheet", "source", "manual", "guide", "repository", "schematic"]),
+    ]
+    
+    for idx, sec_key, sec_title, kws in section_defs:
+        src_txt, ev_blocks = find_section_evidence(
+            project_ir_blocks,
+            kws,
+            guide_id,
+            source_hash,
+            f"Evidencia para sección {sec_title} de {title}"
+        )
         
-        if src_txt:
+        if src_txt is not None:
             status = ContentStatus.SOURCE
             page_no = ev_blocks[0].pageNumber if ev_blocks else boundary.startPage
             prov = Provenance(
@@ -172,16 +144,13 @@ def build_forensic_technical_sections(
                 sourceHash=source_hash,
                 sourcePage=page_no,
                 sourceSection=sec_title,
-                extractionMethod="forensic-ir-block-matcher-v2.2",
-                extractorVersion="2.2.0",
+                extractionMethod="forensic-ir-block-matcher-v2.3",
+                extractorVersion="2.3.0",
                 origin=ProvenanceOrigin.EXTRACTED,
                 confidence=ProvenanceConfidence.EXACT
             )
-            der_from = [ev.evidenceId for ev in ev_blocks if ev.evidenceId]
-            der_txt = (
-                f"Análisis técnico fundado en evidencia literal de Document IR: {src_txt[:200].strip()}... "
-                f"Subsistema documentado para {title}."
-            )
+            der_from = []
+            der_txt = None
         else:
             status = ContentStatus.NOT_DOCUMENTED
             src_txt = None
@@ -236,7 +205,7 @@ def extract_forensic_description(
         what_is_it = raw_desc.strip()
         field_status["whatIsIt"] = ContentStatus.DERIVED
     else:
-        what_is_it = f"Sistema de ingeniería aplicada: {title}."
+        what_is_it = title
         field_status["whatIsIt"] = ContentStatus.DERIVED
     
     func_block = None
@@ -249,7 +218,8 @@ def extract_forensic_description(
     if func_block:
         what_does_it_do = func_block["text"]
         ev_id = generate_evidence_id(guide_id, func_block["pageNumber"], func_block["blockIndex"])
-        evidence_ids.append(ev_id)
+        if ev_id not in evidence_ids:
+            evidence_ids.append(ev_id)
         field_status["whatDoesItDo"] = ContentStatus.SOURCE
     else:
         what_does_it_do = None
@@ -265,14 +235,29 @@ def extract_forensic_description(
     if purpose_block:
         purpose = purpose_block["text"]
         ev_id = generate_evidence_id(guide_id, purpose_block["pageNumber"], purpose_block["blockIndex"])
-        evidence_ids.append(ev_id)
+        if ev_id not in evidence_ids:
+            evidence_ids.append(ev_id)
         field_status["purpose"] = ContentStatus.SOURCE
     else:
         purpose = None
         field_status["purpose"] = ContentStatus.NOT_DOCUMENTED
         
-    objective = f"Implementación y validación técnica de {title}."
-    field_status["objective"] = ContentStatus.DERIVED
+    obj_block = None
+    for b in project_ir_blocks:
+        t = b.get("text", "").strip()
+        if len(t) >= 20 and any(w in t.lower() for w in ["objective", "goal", "aim", "target", "purpose", "objetivo"]):
+            obj_block = b
+            break
+            
+    if obj_block:
+        objective = obj_block["text"]
+        ev_id = generate_evidence_id(guide_id, obj_block["pageNumber"], obj_block["blockIndex"])
+        if ev_id not in evidence_ids:
+            evidence_ids.append(ev_id)
+        field_status["objective"] = ContentStatus.SOURCE
+    else:
+        objective = None
+        field_status["objective"] = ContentStatus.NOT_DOCUMENTED
         
     techs = []
     if tech_id.controller:
@@ -283,7 +268,7 @@ def extract_forensic_description(
     if not techs:
         techs = []
         
-    summary = what_is_it if not what_does_it_do else f"{what_is_it[:250]} | {what_does_it_do[:250]}"
+    summary = what_is_it if not what_does_it_do else f"{what_is_it} | {what_does_it_do}"
     
     return ProjectDescription(
         whatIsIt=what_is_it,
@@ -300,6 +285,8 @@ def extract_forensic_description(
 def extract_all_projects_forensic() -> Tuple[List[Project], List[Dict[str, Any]]]:
     """
     Master extraction function for all 183 projects across 31 guides.
+    Phase A: Discovers boundaries strictly from Document IR without catalog hints.
+    Phase B: Reconciles boundaries against catalog keyProjects.
     Returns (projects_list, reconciliation_records_list).
     """
     manifest = json.load(open(MANIFEST_PATH, encoding="utf-8"))
@@ -329,16 +316,16 @@ def extract_all_projects_forensic() -> Tuple[List[Project], List[Dict[str, Any]]
         
         expected_projects = guide.get("keyProjects", [])
         
-        # 1. Detect Real IR Boundaries
-        boundaries = extract_project_boundaries_from_ir(gid, ir_data, source_hash, expected_projects)
+        # 1. Phase A: Pure IR Boundary Discovery (Zero Catalog Influence)
+        boundaries = discover_projects_from_ir(gid, ir_data, source_hash)
         
-        # 2. Reconcile boundaries with catalog
+        # 2. Phase B: Reconcile boundaries with catalog
         rec_records = reconcile_boundaries_with_catalog(expected_projects, boundaries, gid)
         all_reconciliations.extend([r.model_dump() for r in rec_records])
         
         boundaries_by_num = {b.projectNumber: b for b in boundaries}
         
-        # 3. Extract each project
+        # 3. Extract each catalog-expected project
         for p_idx, p_data in enumerate(expected_projects, start=1):
             title = p_data.get("title", f"Project {p_idx}")
             boundary = boundaries_by_num.get(p_idx)
@@ -376,11 +363,33 @@ def extract_all_projects_forensic() -> Tuple[List[Project], List[Dict[str, Any]]
                         b_copy["pageNumber"] = p_no
                         project_ir_blocks.append(b_copy)
                         
-            raw_text = f"{title} {p_data.get('description', '')} {p_data.get('detailedBuildManual', {}).get('firmwareCode', '')}"
+            raw_text = f"{title} {p_data.get('description', '')} {p_data.get('detailedBuildManual', {}).get('firmwareCode', '')} " + " ".join(b.get("text", "") for b in project_ir_blocks)
             comp_names = [b.get("name", "") for b in p_data.get("officialData", {}).get("bom", [])] + p_data.get("components", [])
+            
+            # Technical Identity Extraction
             tech_id = extract_technical_identity(raw_text, comp_names)
             
-            description = extract_forensic_description(
+            # Deterministic IDs
+            proj_id = generate_project_id(gid, p_idx, title)
+            proj_slug = slugify(f"{title}-{gid}")
+            src_id = generate_project_source_id(proj_id, gid, start_p)
+            
+            # Primary Source Occurrence with Boundary Evidence
+            source_occurrence = ProjectSource(
+                projectSourceId=src_id,
+                projectId=proj_id,
+                sourceDocumentId=gid,
+                sourcePath=source_path,
+                sourceHash=source_hash,
+                pageRange=[start_p, end_p],
+                sectionTitle=title,
+                isPrimary=True,
+                confidence=ProvenanceConfidence.EXACT,
+                evidenceBlocks=boundary.evidenceBlocks
+            )
+            
+            # Structured Description
+            desc = extract_forensic_description(
                 guide_id=gid,
                 source_hash=source_hash,
                 title=title,
@@ -389,7 +398,8 @@ def extract_all_projects_forensic() -> Tuple[List[Project], List[Dict[str, Any]]
                 project_ir_blocks=project_ir_blocks
             )
             
-            detailed = build_forensic_technical_sections(
+            # 18 Technical Sections
+            sections = build_forensic_technical_sections(
                 proj_data=p_data,
                 guide_id=gid,
                 source_path=source_path,
@@ -399,72 +409,60 @@ def extract_all_projects_forensic() -> Tuple[List[Project], List[Dict[str, Any]]
                 tech_id=tech_id
             )
             
-            prov = Provenance(
-                source=gid,
-                sourcePath=source_path,
-                sourceHash=source_hash,
-                sourcePage=start_p,
-                sourceSection=f"Project #{p_idx}: {title}",
-                extractionMethod="forensic-boundary-extractor-v2.2",
-                extractorVersion="2.2.0",
-                origin=ProvenanceOrigin.EXTRACTED,
-                confidence=ProvenanceConfidence.EXACT
-            )
-            
-            p_id = generate_project_id(gid, p_idx, title)
-            slug = slugify(f"{gid}-p{p_idx:02d}-{title}")
-            
-            p_source = ProjectSource(
-                projectSourceId=generate_project_source_id(p_id, gid, page_range_str),
-                projectId=p_id,
-                sourceDocumentId=gid,
-                sourcePath=source_path,
-                sourceHash=source_hash,
-                pageRange=[start_p, end_p],
-                sectionTitle=f"Project #{p_idx}: {title}",
-                isPrimary=True,
-                confidence=ProvenanceConfidence.EXACT,
-                evidenceBlocks=boundary.evidenceBlocks
-            )
-            
-            bom_items: List[ProjectBOMItem] = []
-            for b_idx, b in enumerate(p_data.get("officialData", {}).get("bom", [])):
+            # BOM Items with Provenance
+            bom_items = []
+            for b_idx, b_item in enumerate(p_data.get("officialData", {}).get("bom", [])):
+                name = b_item.get("name", "")
+                if not name:
+                    continue
+                # Ground BOM item in IR block if possible
                 b_ev = []
-                if project_ir_blocks:
-                    b_p = project_ir_blocks[0]["pageNumber"]
-                    b_b = project_ir_blocks[0]["blockIndex"]
-                    b_ev.append(EvidenceBlock(
-                        evidenceId=generate_evidence_id(gid, b_p, b_b),
-                        sourceDocumentId=gid,
-                        pageNumber=b_p,
-                        blockIndex=b_b,
-                        textSnippet=project_ir_blocks[0]["text"],
-                        sourceHash=source_hash,
-                        claim=f"BOM Item #{b_idx+1}: {b.get('name')}"
-                    ))
+                for blk in project_ir_blocks:
+                    if name.lower() in blk.get("text", "").lower():
+                        bev_id = generate_evidence_id(gid, blk["pageNumber"], blk["blockIndex"])
+                        b_ev.append(EvidenceBlock(
+                            evidenceId=bev_id,
+                            sourceDocumentId=gid,
+                            pageNumber=blk["pageNumber"],
+                            blockIndex=blk["blockIndex"],
+                            textSnippet=blk["text"],
+                            bbox=blk.get("bbox"),
+                            sourceHash=source_hash,
+                            claim=f"Presencia de componente BOM '{name}'"
+                        ))
+                        break
+                        
                 bom_items.append(ProjectBOMItem(
-                    name=b.get("name", "Componente"),
-                    specs=b.get("specs"),
-                    qty=int(b.get("qty", 1)) if str(b.get("qty", 1)).isdigit() else 1,
-                    cost=b.get("cost"),
-                    category=b.get("type", "Hardware"),
-                    unitPriceUsd=None,
+                    name=name,
+                    specs=b_item.get("specs"),
+                    qty=b_item.get("qty", 1),
+                    cost=b_item.get("cost"),
+                    category=b_item.get("category"),
+                    designator=b_item.get("designator"),
+                    value=b_item.get("value"),
+                    manufacturer=b_item.get("manufacturer"),
+                    partNumber=b_item.get("partNumber"),
+                    supplier=b_item.get("supplier"),
+                    unitPriceUsd=b_item.get("unitPriceUsd"),
                     priceStatus=PriceStatus.UNVERIFIED,
-                    provenance=prov,
+                    notes=b_item.get("notes"),
+                    provenance=Provenance(
+                        source=gid,
+                        sourcePath=source_path,
+                        sourceHash=source_hash,
+                        sourcePage=start_p,
+                        sourceSection="BOM",
+                        extractionMethod="forensic-bom-matcher-v2.3",
+                        extractorVersion="2.3.0",
+                        origin=ProvenanceOrigin.EXTRACTED,
+                        confidence=ProvenanceConfidence.EXACT
+                    ),
                     evidenceBlocks=b_ev
                 ))
                 
-            firmware_code = p_data.get("detailedBuildManual", {}).get("firmwareCode") or (
-                p_data.get("officialData", {}).get("firmware", {}).get("code")
-            )
-            firmware_lang = "cpp" if firmware_code else None
-            
-            schematic_svg = p_data.get("schematicSvg")
-            blueprint_img = p_data.get("image") or p_data.get("guideDiagram")
-            
-            project_obj = Project(
-                projectId=p_id,
-                slug=slug,
+            proj = Project(
+                projectId=proj_id,
+                slug=proj_slug,
                 title=title,
                 projectNumber=p_idx,
                 guideId=gid,
@@ -472,21 +470,28 @@ def extract_all_projects_forensic() -> Tuple[List[Project], List[Dict[str, Any]]
                 sourceDocumentId=gid,
                 sourcePageRange=page_range_str,
                 relativePath=source_path,
+                sources=[source_occurrence],
+                boundary=boundary,
+                description=desc,
+                detailedExplanation=sections,
                 technicalIdentity=tech_id,
-                description=description,
-                detailedExplanation=detailed,
+                schematicSvg=p_data.get("detailedBuildManual", {}).get("schematicSvg") or p_data.get("schematicSvg"),
+                firmwareCode=p_data.get("detailedBuildManual", {}).get("firmwareCode"),
                 bom=bom_items,
-                firmwareCode=firmware_code,
-                firmwareLanguage=firmware_lang,
-                schematicSvg=schematic_svg,
-                blueprintImage=blueprint_img,
-                difficulty=p_data.get("difficulty") or guide.get("difficulty", "Intermedio"),
-                timeEstimate=p_data.get("time") or "2-3 días",
-                provenance=prov,
-                sources=[p_source],
-                boundary=boundary
+                difficulty=p_data.get("difficulty", "INTERMEDIATE"),
+                timeEstimate=p_data.get("time", ""),
+                provenance=Provenance(
+                    source=gid,
+                    sourcePath=source_path,
+                    sourceHash=source_hash,
+                    sourcePage=start_p,
+                    sourceSection="PROJECT",
+                    extractionMethod="forensic-project-extractor-v2.3",
+                    extractorVersion="2.3.0",
+                    origin=ProvenanceOrigin.EXTRACTED,
+                    confidence=ProvenanceConfidence.EXACT
+                )
             )
-            
-            all_projects.append(project_obj)
+            all_projects.append(proj)
             
     return all_projects, all_reconciliations

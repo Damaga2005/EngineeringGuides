@@ -7,6 +7,10 @@ import StatsModal from './components/StatsModal';
 import GuideLanding from './components/GuideLanding';
 import ProjectCard from './components/ProjectCard';
 import ProjectDetail from './components/ProjectDetail';
+import EngineeringLab from './components/EngineeringLab';
+import ProjectComparatorModal from './components/ProjectComparatorModal';
+import BOMCartModal from './components/BOMCartModal';
+import QuickCommandPalette from './components/QuickCommandPalette';
 import ErrorBoundary from './components/ErrorBoundary';
 import { CATEGORY_DEFINITIONS } from './data/categories';
 import { getStoredItem, setStoredItem } from './utils/storage';
@@ -21,7 +25,10 @@ import {
   Layers,
   Search,
   SlidersHorizontal,
-  X
+  X,
+  FlaskConical,
+  GitCompare,
+  ShoppingCart
 } from 'lucide-react';
 
 export default function App() {
@@ -31,7 +38,7 @@ export default function App() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  // Main View Toggle: 'projects' (Project-First) | 'guides' (Documentary)
+  // Main View Toggle: 'projects' (Project-First) | 'guides' (Documentary) | 'lab' (Virtual Lab)
   const [mainView, setMainView] = useState(() => {
     return getStoredItem('eng_guides_main_view', 'projects');
   });
@@ -59,6 +66,25 @@ export default function App() {
     return getStoredItem('eng_guides_favorites', []);
   });
   const [showOnlyFavorites, setShowOnlyFavorites] = useState(false);
+
+  // Compare State
+  const [compareProjectIds, setCompareProjectIds] = useState(() => {
+    return getStoredItem('eng_guides_compare', []);
+  });
+  const [isComparatorOpen, setIsComparatorOpen] = useState(false);
+
+  // Consolidated BOM Cart
+  const [bomCart, setBomCart] = useState(() => {
+    return getStoredItem('eng_guides_bom_cart', []);
+  });
+  const [isBOMCartOpen, setIsBOMCartOpen] = useState(false);
+
+  // Lab Quick Opener
+  const [labInitialTab, setLabInitialTab] = useState('analyzer');
+  const [labInitialProject, setLabInitialProject] = useState(null);
+
+  // Command Palette
+  const [isCommandPaletteOpen, setIsCommandPaletteOpen] = useState(false);
 
   // Modals
   const [activeGuideModal, setActiveGuideModal] = useState(null);
@@ -127,6 +153,126 @@ export default function App() {
     setStoredItem('eng_guides_favorites', favorites);
   }, [favorites]);
 
+  // Save Compare list
+  useEffect(() => {
+    setStoredItem('eng_guides_compare', compareProjectIds);
+  }, [compareProjectIds]);
+
+  // Save BOM Cart
+  useEffect(() => {
+    setStoredItem('eng_guides_bom_cart', bomCart);
+  }, [bomCart]);
+
+  // Command Palette Keyboard Shortcut (Cmd+K / Ctrl+K)
+  useEffect(() => {
+    const handleGlobalKeyDown = (e) => {
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+        e.preventDefault();
+        setIsCommandPaletteOpen(prev => !prev);
+      }
+    };
+    window.addEventListener('keydown', handleGlobalKeyDown);
+    return () => window.removeEventListener('keydown', handleGlobalKeyDown);
+  }, []);
+
+  // Handlers for Compare
+  const handleToggleCompare = (proj) => {
+    const id = proj.id || proj.projectId || proj.slug;
+    setCompareProjectIds(prev => {
+      if (prev.includes(id)) {
+        return prev.filter(x => x !== id);
+      }
+      if (prev.length >= 3) {
+        setSyncMessage({
+          type: 'warning',
+          text: 'El comparador admite un m?ximo de 3 proyectos simult?neos. Elimina uno para a?adir este.'
+        });
+        setIsComparatorOpen(true);
+        return prev;
+      }
+      return [...prev, id];
+    });
+  };
+
+  const handleRemoveCompare = (id) => {
+    setCompareProjectIds(prev => prev.filter(x => x !== id));
+  };
+
+  const handleAddCompare = (id) => {
+    setCompareProjectIds(prev => {
+      if (!prev.includes(id) && prev.length < 3) return [...prev, id];
+      return prev;
+    });
+  };
+
+  // Handlers for BOM Cart
+  const handleAddProjectBOMToCart = (proj) => {
+    if (!proj?.bom || !Array.isArray(proj.bom) || proj.bom.length === 0) {
+      setSyncMessage({
+        type: 'warning',
+        text: `El proyecto "${proj.title}" no contiene componentes BOM expl?citos.`
+      });
+      return;
+    }
+
+    setBomCart(prev => {
+      const updated = [...prev];
+      proj.bom.forEach((item, idx) => {
+        const name = typeof item === 'string' ? item : item.name || item.item || `Componente ${idx+1}`;
+        const qty = typeof item === 'object' && item.qty ? parseInt(item.qty) || 1 : 1;
+        const cost = typeof item === 'object' && item.cost ? parseFloat(item.cost) || 1.5 : 1.5;
+
+        const existingIdx = updated.findIndex(u => u.name.toLowerCase() === name.toLowerCase());
+        if (existingIdx >= 0) {
+          updated[existingIdx] = {
+            ...updated[existingIdx],
+            quantity: updated[existingIdx].quantity + qty
+          };
+        } else {
+          updated.push({
+            id: 'cart_' + Date.now() + '_' + Math.random().toString(36).substr(2, 5),
+            name,
+            quantity: qty,
+            unitCost: cost,
+            projectTitle: proj.title,
+            category: typeof item === 'object' ? item.category || 'Electr?nica' : 'General'
+          });
+        }
+      });
+      return updated;
+    });
+
+    setSyncMessage({
+      type: 'success',
+      text: `Se han a?adido ${proj.bom.length} componentes de "${proj.title}" a tu Cesta BOM.`
+    });
+  };
+
+  const handleUpdateCartQty = (id, qty) => {
+    setBomCart(prev => prev.map(item => item.id === id ? { ...item, quantity: qty } : item));
+  };
+
+  const handleRemoveCartItem = (id) => {
+    setBomCart(prev => prev.filter(item => item.id !== id));
+  };
+
+  const handleClearCart = () => {
+    setBomCart([]);
+  };
+
+  const handleAddCustomCartItem = (newItem) => {
+    setBomCart(prev => [newItem, ...prev]);
+  };
+
+  // Handlers for Lab
+  const handleOpenInLab = (proj = null, tab = 'analyzer') => {
+    if (proj) setLabInitialProject(proj);
+    if (tab) setLabInitialTab(tab);
+    setMainView('lab');
+    window.location.hash = '#/lab';
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   // Toggle favorite
   const toggleFavorite = (guideId) => {
     setFavorites(prev => 
@@ -137,6 +283,14 @@ export default function App() {
   // Determine route type
   const isLandingRoute = currentRoute.startsWith('#/guide/');
   const isProjectRoute = currentRoute.startsWith('#/project/') || currentRoute.startsWith('#/projects/');
+  const isLabRoute = currentRoute === '#/lab' || currentRoute === '#lab' || currentRoute.startsWith('#/lab');
+
+  // Auto-switch view when hash is #/lab
+  useEffect(() => {
+    if (isLabRoute && mainView !== 'lab') {
+      setMainView('lab');
+    }
+  }, [isLabRoute]);
 
   // Guide landing route resolution
   const currentGuideId = useMemo(() => {
@@ -357,6 +511,10 @@ export default function App() {
           onBack={navigateToCatalog}
           onSelectProject={navigateToProject}
           onSelectGuide={navigateToLanding}
+          onOpenInLab={handleOpenInLab}
+          onToggleCompare={handleToggleCompare}
+          isCompared={compareProjectIds.includes(activeLandingProject.id || activeLandingProject.projectId || activeLandingProject.slug)}
+          onAddBOMToCart={handleAddProjectBOMToCart}
         />
       </ErrorBoundary>
     );
@@ -433,6 +591,14 @@ export default function App() {
         showOnlyFavorites={showOnlyFavorites}
         setShowOnlyFavorites={setShowOnlyFavorites}
         onOpenStats={() => setShowStatsModal(true)}
+        mainView={mainView}
+        setMainView={setMainView}
+        onOpenLab={() => handleOpenInLab()}
+        onOpenComparator={() => setIsComparatorOpen(true)}
+        compareCount={compareProjectIds.length}
+        onOpenBOMCart={() => setIsBOMCartOpen(true)}
+        cartCount={bomCart.length}
+        onOpenCommandPalette={() => setIsCommandPaletteOpen(true)}
       />
 
       {/* Main Content Container */}
@@ -625,6 +791,9 @@ export default function App() {
                     viewMode="grid"
                     onSelectProject={navigateToProject}
                     onSelectGuide={navigateToLanding}
+                    onOpenInLab={handleOpenInLab}
+                    onToggleCompare={handleToggleCompare}
+                    isCompared={compareProjectIds.includes(proj.id || proj.projectId || proj.slug)}
                   />
                 ))}
               </div>
@@ -637,6 +806,9 @@ export default function App() {
                     viewMode="list"
                     onSelectProject={navigateToProject}
                     onSelectGuide={navigateToLanding}
+                    onOpenInLab={handleOpenInLab}
+                    onToggleCompare={handleToggleCompare}
+                    isCompared={compareProjectIds.includes(proj.id || proj.projectId || proj.slug)}
                   />
                 ))}
               </div>
@@ -729,6 +901,18 @@ export default function App() {
           </div>
         )}
 
+        {/* View 3: Virtual Engineering Lab */}
+        {mainView === 'lab' && (
+          <div className="space-y-6">
+            <EngineeringLab
+              initialTab={labInitialTab}
+              initialProject={labInitialProject}
+              allProjects={projects}
+              onSelectProject={navigateToProject}
+            />
+          </div>
+        )}
+
       </main>
 
       {/* Footer */}
@@ -773,6 +957,44 @@ export default function App() {
           onClose={() => setShowStatsModal(false)}
         />
       )}
+
+      {/* Project Comparator Modal */}
+      <ProjectComparatorModal
+        isOpen={isComparatorOpen}
+        onClose={() => setIsComparatorOpen(false)}
+        compareProjectIds={compareProjectIds}
+        allProjects={projects}
+        onRemoveProject={handleRemoveCompare}
+        onAddProject={handleAddCompare}
+        onClearAll={() => setCompareProjectIds([])}
+        onOpenInLab={handleOpenInLab}
+        onViewProjectDetail={navigateToProject}
+        onAddProjectBOMToCart={handleAddProjectBOMToCart}
+      />
+
+      {/* BOM Cart Modal */}
+      <BOMCartModal
+        isOpen={isBOMCartOpen}
+        onClose={() => setIsBOMCartOpen(false)}
+        items={bomCart}
+        onUpdateQuantity={handleUpdateCartQty}
+        onRemoveItem={handleRemoveCartItem}
+        onClearCart={handleClearCart}
+        onAddItem={handleAddCustomCartItem}
+      />
+
+      {/* Quick Command Palette (Cmd+K) */}
+      <QuickCommandPalette
+        isOpen={isCommandPaletteOpen}
+        onClose={() => setIsCommandPaletteOpen(false)}
+        projects={projects}
+        guides={guides}
+        onSelectProject={navigateToProject}
+        onSelectGuide={navigateToLanding}
+        onOpenLab={handleOpenInLab}
+        onOpenComparator={() => setIsComparatorOpen(true)}
+        onOpenCart={() => setIsBOMCartOpen(true)}
+      />
 
       </div>
     </ErrorBoundary>
